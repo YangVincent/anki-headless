@@ -1,0 +1,5 @@
+#!/bin/bash
+# Anki CLI wrapper — activates venv and runs cli.py
+DIR="$(cd "$(dirname "$0")" && pwd)"
+source "$DIR/.venv/bin/activate"
+exec python3 "$DIR/cli.py" "$@"

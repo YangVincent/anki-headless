@@ -1,0 +1,2 @@
+#!/bin/bash
+exec /home/vincent/anki/.venv/bin/python /home/vincent/anki/bot.py "$@"

@@ -1,0 +1,15 @@
+# Anki collection data
+collection.anki2
+collection.media/
+collection.media.db2
+
+# Secrets
+.bot_config.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Misc
+out.tmp
