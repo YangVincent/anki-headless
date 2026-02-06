@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Telegram bot that uses Claude to create Anki cards from messages."""
+"""Telegram bot that uses Claude to create Anki cards via a conversational loop."""
 
 import asyncio
 import base64
@@ -101,7 +101,7 @@ def save_anki_auth(hkey, endpoint):
     os.chmod(AUTH_FILE, 0o600)
 
 
-def sync_collection():
+def _sync_collection():
     """Sync to AnkiWeb. Returns status message."""
     auth = load_anki_auth()
     if auth is None:
@@ -139,14 +139,12 @@ def strip_html(text):
 async def send_long_message(message, text, parse_mode=None):
     """Split text into <=4096-char chunks at line boundaries and send each."""
     MAX = 4096
-    # Leave room for code fences if using Markdown
     if parse_mode and "```" in text:
         MAX = 4080
     while text:
         if len(text) <= MAX:
             await message.reply_text(text, parse_mode=parse_mode)
             break
-        # Find last newline before the limit
         cut = text.rfind("\n", 0, MAX)
         if cut <= 0:
             cut = MAX
@@ -162,178 +160,21 @@ def has_cjk(text):
                for ch in text)
 
 
-def is_chinese_vocab(text):
-    """Heuristic: short message with CJK characters = vocab lookup."""
-    clean = text.strip()
-    # Remove hashtags for detection purposes
-    clean = re.sub(r"#\w+", "", clean).strip()
-    if not has_cjk(clean):
-        return False
-    # Short-ish text (up to ~20 chars after removing non-CJK) is likely vocab
-    cjk_chars = [ch for ch in clean if "\u4e00" <= ch <= "\u9fff" or "\u3400" <= ch <= "\u4dbf"]
-    return len(cjk_chars) <= 10 and len(clean) <= 30
-
-
-def extract_tags_from_message(text):
-    """Extract #hashtags from message text."""
-    tags = re.findall(r"#(\w+)", text)
-    return [t for t in tags if t.lower() not in ("card", "anki")]
-
-
-def find_duplicates(col, text):
-    """Search for existing vocab notes matching the text (excludes sentences/characters)."""
-    clean = re.sub(r"#\w+", "", text).strip()
-    if has_cjk(clean):
-        cjk_text = re.sub(r"[^\u4e00-\u9fff\u3400-\u4dbf]", "", clean)
-        if cjk_text:
-            # Search only in ChineseVocabulary notes by Simplified field
-            note_ids = col.find_notes(f'"note:ChineseVocabulary" "Simplified:{cjk_text}"')
-            return note_ids
-    else:
-        words = clean.split()
-        if len(words) <= 3:
-            query = clean
-        else:
-            query = " ".join(words[:5])
-        # For general cards, search only Basic notes
-        note_ids = col.find_notes(f'"note:Basic" {query}')
-        return note_ids
-    return []
-
-
-# ── Claude API ────────────────────────────────────────────────────────
-
-SYSTEM_PROMPT = """You are an Anki card creation assistant running as a Telegram bot. Analyze the user's message and return structured JSON.
-
-IMPORTANT: First decide if the message is a CONVERSATION (question, greeting, request for help, chatting) or a CARD REQUEST (vocabulary, fact, knowledge to memorize).
-
-## Conversation Mode
-If the user is asking a question about the bot, chatting, greeting, or anything that is NOT a request to create a flashcard, return:
-```json
-{
-  "type": "conversation",
-  "reply": "Your helpful response here"
-}
-```
-The bot can: create Chinese vocab cards from characters/words, create general knowledge cards, detect duplicates, sync to AnkiWeb. Commands: /status, /decks, /help.
-
-## Chinese Vocabulary Mode
-If the message contains Chinese characters and appears to be a vocabulary word or short phrase to learn, return:
-```json
-{
-  "type": "chinese_vocab",
-  "simplified": "简体字",
-  "traditional": "繁體字",
-  "pinyin": "jiǎntǐzì",
-  "meaning": "English definition(s)",
-  "part_of_speech": "noun/verb/adj/etc",
-  "sentence_simplified": "Example sentence in simplified Chinese",
-  "sentence_pinyin": "Example sentence pinyin",
-  "sentence_meaning": "Example sentence translation"
-}
-```
-
-Important for Chinese vocab:
-- Use tone-marked pinyin (ā á ǎ à), NOT numbered pinyin
-- Provide a concise but complete meaning in English
-- If traditional is the same as simplified, still include it
-- Include a natural example sentence
-
-## General Card Mode
-For messages that are clearly requesting to memorize a fact, concept, or piece of knowledge (e.g. "add a card about X", "mitochondria is the powerhouse of the cell", explicit learning content), return:
-```json
-{
-  "type": "general",
-  "deck": "suggested deck path (use :: for nesting)",
-  "front": "Question or front of card",
-  "back": "Answer or back of card",
-  "tags": ["relevant", "tags"]
-}
-```
-
-For general cards:
-- Make the front a clear question
-- Make the back a concise but complete answer
-- Suggest an appropriate deck name (default: "Knowledge")
-- Include relevant topic tags
-
-## Rules
-- ALWAYS return valid JSON and nothing else
-- NO markdown code fences, just raw JSON
-- When in doubt between conversation and card creation, prefer CONVERSATION — it's better to ask than to create an unwanted card
-- For Chinese: if the user sends a single character or word, look it up. If they send a phrase, treat it as vocabulary too.
-"""
-
-
-def ask_claude(message_text):
-    """Send message to Claude and parse JSON response."""
-    response = claude.messages.create(
-        model="claude-sonnet-4-5-20250929",
-        max_tokens=1024,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": message_text}],
-    )
-    text = response.content[0].text.strip()
-    # Strip markdown code fences if present
-    text = re.sub(r"^```(?:json)?\s*", "", text)
-    text = re.sub(r"\s*```$", "", text)
-    return json.loads(text)
-
-
-OCR_SYSTEM_PROMPT = """You extract Chinese vocabulary from images. Analyze the image and identify distinct Chinese words or phrases that would be useful as flashcards.
-
-Return a JSON array of words found. For each word provide:
-```json
-{
-  "words": [
-    {
-      "simplified": "词语",
-      "traditional": "詞語",
-      "pinyin": "cíyǔ",
-      "meaning": "word; term",
-      "part_of_speech": "noun",
-      "sentence_simplified": "这个词语很常见。",
-      "sentence_pinyin": "Zhège cíyǔ hěn chángjiàn.",
-      "sentence_meaning": "This word is very common."
-    }
-  ]
-}
-```
-
-Rules:
-- Use tone-marked pinyin (ā á ǎ à), NOT numbered
-- Extract individual WORDS, not full sentences (unless the image shows a single sentence/phrase to learn)
-- Deduplicate — don't list the same word twice
-- If the image contains non-Chinese text or no text, return {"words": []}
-- If there's a mix, focus on the Chinese words
-- ALWAYS return valid JSON and nothing else, NO markdown code fences
-"""
-
-
-def ask_claude_ocr(image_bytes, media_type, caption=None):
-    """Send image to Claude for OCR extraction. Returns parsed JSON."""
-    image_b64 = base64.b64encode(image_bytes).decode("utf-8")
-    content = [
-        {"type": "image", "source": {"type": "base64", "media_type": media_type, "data": image_b64}},
-    ]
-    if caption:
-        content.append({"type": "text", "text": f"User's note: {caption}"})
-
-    response = claude.messages.create(
-        model="claude-sonnet-4-5-20250929",
-        max_tokens=2048,
-        system=OCR_SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": content}],
-    )
-    text = response.content[0].text.strip()
-    text = re.sub(r"^```(?:json)?\s*", "", text)
-    text = re.sub(r"\s*```$", "", text)
-    return json.loads(text)
+def _collect_card_ids(col, note_ids):
+    """Collect card IDs from note IDs, skipping missing notes."""
+    card_ids = []
+    skipped = 0
+    for nid in note_ids:
+        try:
+            note = col.get_note(nid)
+            card_ids.extend(c.id for c in note.cards())
+        except Exception:
+            skipped += 1
+    return card_ids, skipped
 
 
 def _looks_like_json_fragment(text):
     """Heuristic: does this text look like a chunk of JSON data?"""
-    # Count JSON-like patterns
     indicators = 0
     if '": ' in text or '":' in text:
         indicators += 1
@@ -348,114 +189,630 @@ def _looks_like_json_fragment(text):
     return indicators >= 3
 
 
-# Per-chat pending words from image OCR: {chat_id: [word_dicts]}
-pending_image_words = {}
+# ── Conversation state ────────────────────────────────────────────────
 
-# Per-chat pending card confirmation: {chat_id: {"data": dict, "extra_tags": list}}
-pending_card = {}
+chat_histories = {}  # {chat_id: [{"role": "user"/"assistant", "content": ...}]}
 
 
+def _trim_history(chat_id, max_messages=50):
+    """Trim conversation history from the front, keeping recent messages."""
+    hist = chat_histories.get(chat_id, [])
+    if len(hist) > max_messages:
+        chat_histories[chat_id] = hist[-max_messages:]
 
-# ── Card creation ─────────────────────────────────────────────────────
 
-def add_chinese_vocab_card(data, extra_tags):
-    """Add a Chinese vocabulary card. Returns (note_id, message)."""
+# ── Unified system prompt ─────────────────────────────────────────────
+
+SYSTEM_PROMPT = """You are an Anki card creation and collection management assistant running as a Telegram bot. You help the user create flashcards and manage their Anki collection through natural conversation.
+
+## Capabilities
+1. **Chinese vocabulary cards** — create ChineseVocabulary note type cards
+2. **General cards** — create Basic note type cards for any topic
+3. **Collection management** — search, suspend, unsuspend, delete, tag, move cards
+4. **Image analysis** — OCR Chinese text from photos, offer to create cards
+5. **Collection stats** — report on deck sizes, due counts, etc.
+
+## Chinese Vocabulary Cards
+When the user sends Chinese characters (word or short phrase), look it up and offer to create a card.
+ChineseVocabulary fields: Simplified, Traditional, Pinyin, Meaning, PartOfSpeech, SentenceSimplified, SentencePinyin, SentenceMeaning, Notes.
+- Use tone-marked pinyin (ā á ǎ à), NOT numbered
+- Always provide traditional even if same as simplified
+- Include a natural example sentence
+- Default deck: """ + DEFAULT_DECK + """
+- Default tags: ["claude", "chinese"]
+
+## General Cards
+For non-Chinese knowledge, create Basic cards with Front/Back fields.
+- Make the front a clear question
+- Make the back a concise but complete answer
+- Default deck: "Knowledge"
+- Default tags: ["claude"]
+
+## Anki Search Syntax (for tools)
+- `deck:DeckName` or `"deck:Deck Name"` — filter by deck (includes subdecks)
+- `tag:tagname` — filter by tag
+- `note:NoteTypeName` — filter by note type
+- `is:suspended`, `is:new`, `is:due`, `is:review`, `is:learn`, `is:buried`
+- `-is:suspended` — negate any filter
+- `front:text`, `back:text`, `Simplified:text`, `FieldName:text` — search specific fields
+- Combine terms with spaces for AND; use `OR` for OR
+- `"exact phrase"` for literal matching
+- `*` wildcard, `_` single char wildcard
+- `added:N` — added in last N days
+- `rated:N` — reviewed in last N days
+- `prop:ivl>30` — cards with interval > 30 days
+
+## Important Rules
+- **Always confirm before destructive actions** (delete, suspend, unsuspend, tag, move). Show what will be affected and ask the user to confirm before calling the modification tool.
+- **Always sync after modifications** — call sync_collection after any add/delete/suspend/tag/move operation.
+- For card creation, show a preview of what you'll create and ask for confirmation before calling add_chinese_vocab or add_general_card.
+- When analyzing images, list the words you found and ask which ones to create cards for.
+- Keep responses concise — this is a Telegram chat, not an essay.
+- For large result sets needing semantic filtering, use get_field_values to inspect content efficiently.
+- When user confirms (yes/y/ok/sure/do it), proceed with the action without asking again.
+"""
+
+# ── Tools ─────────────────────────────────────────────────────────────
+
+TOOLS = [
+    # Read-only tools
+    {
+        "name": "search_notes",
+        "description": "Search for notes using Anki's search syntax. Returns note IDs and total count.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "Anki search query (e.g., 'deck:Chinese tag:hsk4', '\"deck:My Deck\" is:suspended')"
+                }
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "get_notes_detail",
+        "description": "Get field values, tags, deck, and note type for a batch of notes. Max 100 per call. Use get_field_values instead for large sets.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "note_ids": {
+                    "type": "array",
+                    "items": {"type": "integer"},
+                    "description": "Note IDs to look up (max 100)"
+                }
+            },
+            "required": ["note_ids"]
+        }
+    },
+    {
+        "name": "get_field_values",
+        "description": "Get specific field value(s) for notes matching a search query. Much more efficient than get_notes_detail for large sets.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "Anki search query to find notes"
+                },
+                "fields": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": "Field names to return (e.g., ['Simplified', 'Meaning'])"
+                }
+            },
+            "required": ["query", "fields"]
+        }
+    },
+    {
+        "name": "list_decks",
+        "description": "List all decks with their card counts.",
+        "input_schema": {
+            "type": "object",
+            "properties": {}
+        }
+    },
+    {
+        "name": "list_note_types",
+        "description": "List all note types and their field names.",
+        "input_schema": {
+            "type": "object",
+            "properties": {}
+        }
+    },
+    {
+        "name": "get_collection_stats",
+        "description": "Get collection statistics: new, due, learning, and total card counts.",
+        "input_schema": {
+            "type": "object",
+            "properties": {}
+        }
+    },
+    # Card creation tools
+    {
+        "name": "add_chinese_vocab",
+        "description": "Create a ChineseVocabulary card. Only call after user confirms the preview.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "simplified": {"type": "string"},
+                "traditional": {"type": "string"},
+                "pinyin": {"type": "string", "description": "Tone-marked pinyin"},
+                "meaning": {"type": "string"},
+                "part_of_speech": {"type": "string"},
+                "sentence_simplified": {"type": "string"},
+                "sentence_pinyin": {"type": "string"},
+                "sentence_meaning": {"type": "string"},
+                "notes": {"type": "string", "description": "Optional extra notes"},
+                "tags": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": "Extra tags beyond the default ['claude', 'chinese']"
+                }
+            },
+            "required": ["simplified", "traditional", "pinyin", "meaning"]
+        }
+    },
+    {
+        "name": "add_general_card",
+        "description": "Create a Basic card. Only call after user confirms the preview.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "front": {"type": "string", "description": "Question / front side"},
+                "back": {"type": "string", "description": "Answer / back side"},
+                "deck": {"type": "string", "description": "Deck name (default: Knowledge)"},
+                "tags": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": "Tags for the card"
+                }
+            },
+            "required": ["front", "back"]
+        }
+    },
+    # Modification tools
+    {
+        "name": "suspend_cards",
+        "description": "Suspend all cards for notes matching a query. Confirm with user first.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Anki search query to select notes"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "unsuspend_cards",
+        "description": "Unsuspend all cards for notes matching a query. Confirm with user first.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Anki search query to select notes"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "tag_notes",
+        "description": "Add tags to notes matching a query. Confirm with user first.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Anki search query to select notes"},
+                "tags": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": "Tags to add"
+                }
+            },
+            "required": ["query", "tags"]
+        }
+    },
+    {
+        "name": "remove_tags",
+        "description": "Remove tags from notes matching a query. Confirm with user first.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Anki search query to select notes"},
+                "tags": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": "Tags to remove"
+                }
+            },
+            "required": ["query", "tags"]
+        }
+    },
+    {
+        "name": "delete_notes",
+        "description": "Delete notes matching a query. DESTRUCTIVE — always confirm with user first.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Anki search query to select notes"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "move_cards",
+        "description": "Move cards matching a query to a different deck. Confirm with user first.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Anki search query to select notes"},
+                "deck": {"type": "string", "description": "Target deck name"}
+            },
+            "required": ["query", "deck"]
+        }
+    },
+    {
+        "name": "sync_collection",
+        "description": "Sync the collection to AnkiWeb.",
+        "input_schema": {
+            "type": "object",
+            "properties": {}
+        }
+    },
+]
+
+# ── Tool execution ────────────────────────────────────────────────────
+
+def execute_tool(tool_name, tool_input):
+    """Execute a tool call and return the result as a string."""
+
+    if tool_name == "sync_collection":
+        return _sync_collection()
+
+    if tool_name == "get_collection_stats":
+        col = open_collection()
+        try:
+            new_count = len(col.find_cards("is:new"))
+            due_count = len(col.find_cards("is:due"))
+            learn_count = len(col.find_cards("is:learn"))
+            total = col.card_count()
+            claude_count = len(col.find_notes("tag:claude"))
+            return json.dumps({
+                "total_cards": total,
+                "new": new_count,
+                "learning": learn_count,
+                "due": due_count,
+                "claude_tagged": claude_count,
+            })
+        finally:
+            col.close()
+
+    if tool_name == "add_chinese_vocab":
+        col = open_collection()
+        try:
+            model = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
+            if not model:
+                return json.dumps({"error": f"Note type '{CHINESE_VOCAB_NOTETYPE}' not found"})
+
+            did = col.decks.id_for_name(DEFAULT_DECK)
+            note = col.new_note(model)
+
+            note["Simplified"] = tool_input.get("simplified", "")
+            note["Traditional"] = tool_input.get("traditional", "")
+            note["Pinyin"] = tool_input.get("pinyin", "")
+            note["Meaning"] = tool_input.get("meaning", "")
+            note["PartOfSpeech"] = tool_input.get("part_of_speech", "")
+            note["SentenceSimplified"] = tool_input.get("sentence_simplified", "")
+            note["SentencePinyin"] = tool_input.get("sentence_pinyin", "")
+            note["SentenceMeaning"] = tool_input.get("sentence_meaning", "")
+            if tool_input.get("notes"):
+                note["Notes"] = tool_input["notes"]
+
+            tags = ["claude", "chinese"]
+            tags.extend(tool_input.get("tags", []))
+            note.tags = tags
+
+            col.add_note(note, did)
+            nid = note.id
+            log_change("add_chinese_vocab", [nid], {
+                "simplified": tool_input.get("simplified"),
+                "deck": DEFAULT_DECK,
+                "tags": tags,
+            })
+            return json.dumps({
+                "success": True,
+                "note_id": nid,
+                "simplified": tool_input.get("simplified"),
+                "deck": DEFAULT_DECK,
+            })
+        except Exception as e:
+            return json.dumps({"error": str(e)})
+        finally:
+            col.close()
+
+    if tool_name == "add_general_card":
+        col = open_collection()
+        try:
+            model = col.models.by_name("Basic")
+            if not model:
+                return json.dumps({"error": "Note type 'Basic' not found"})
+
+            deck = tool_input.get("deck", "Knowledge")
+            did = col.decks.id_for_name(deck)
+            note = col.new_note(model)
+
+            note["Front"] = tool_input.get("front", "")
+            note["Back"] = tool_input.get("back", "")
+
+            tags = ["claude"]
+            tags.extend(tool_input.get("tags", []))
+            note.tags = tags
+
+            col.add_note(note, did)
+            nid = note.id
+            log_change("add_general_card", [nid], {
+                "front": tool_input.get("front", "")[:50],
+                "deck": deck,
+                "tags": tags,
+            })
+            return json.dumps({
+                "success": True,
+                "note_id": nid,
+                "front": tool_input.get("front", "")[:80],
+                "deck": deck,
+            })
+        except Exception as e:
+            return json.dumps({"error": str(e)})
+        finally:
+            col.close()
+
+    # All remaining tools need the collection
     col = open_collection()
     try:
-        model = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
-        if not model:
-            return None, f"Note type '{CHINESE_VOCAB_NOTETYPE}' not found"
+        if tool_name == "search_notes":
+            query = tool_input["query"]
+            note_ids = list(col.find_notes(query))
+            if len(note_ids) <= 200:
+                return json.dumps({"count": len(note_ids), "note_ids": note_ids})
+            else:
+                return json.dumps({"count": len(note_ids), "note_ids_truncated": True, "sample_ids": note_ids[:10]})
 
-        did = col.decks.id_for_name(DEFAULT_DECK)
-        note = col.new_note(model)
+        elif tool_name == "get_notes_detail":
+            note_ids = tool_input["note_ids"][:100]
+            results = []
+            for nid in note_ids:
+                try:
+                    note = col.get_note(nid)
+                    model = note.note_type()
+                    field_names = [f["name"] for f in model["flds"]]
+                    cards = note.cards()
+                    deck_name = col.decks.name(cards[0].did) if cards else "Unknown"
+                    fields = {}
+                    for i, name in enumerate(field_names):
+                        if i < len(note.fields):
+                            val = strip_html(note.fields[i])
+                            fields[name] = val[:200] if len(val) > 200 else val
+                    results.append({
+                        "note_id": nid,
+                        "fields": fields,
+                        "tags": note.tags,
+                        "deck": deck_name,
+                        "note_type": model["name"],
+                        "suspended": any(c.queue == -1 for c in cards),
+                    })
+                except Exception as e:
+                    results.append({"note_id": nid, "error": str(e)})
+            return json.dumps(results, ensure_ascii=False)
 
-        note["Simplified"] = data.get("simplified", "")
-        note["Traditional"] = data.get("traditional", "")
-        note["Pinyin"] = data.get("pinyin", "")
-        note["Meaning"] = data.get("meaning", "")
-        note["PartOfSpeech"] = data.get("part_of_speech", "")
-        note["SentenceSimplified"] = data.get("sentence_simplified", "")
-        note["SentencePinyin"] = data.get("sentence_pinyin", "")
-        note["SentenceMeaning"] = data.get("sentence_meaning", "")
+        elif tool_name == "get_field_values":
+            query = tool_input.get("query", "")
+            note_ids = list(col.find_notes(query))[:5000]
+            field_names_requested = tool_input.get("fields", [])
+            results = []
+            for nid in note_ids:
+                try:
+                    note = col.get_note(nid)
+                    model = note.note_type()
+                    field_names = [f["name"] for f in model["flds"]]
+                    entry = {"id": nid}
+                    for fname in field_names_requested:
+                        if fname in field_names:
+                            idx = field_names.index(fname)
+                            val = strip_html(note.fields[idx]) if idx < len(note.fields) else ""
+                            entry[fname] = val[:200] if len(val) > 200 else val
+                    results.append(entry)
+                except Exception:
+                    results.append({"id": nid, "_error": "not found"})
+            return json.dumps(results, ensure_ascii=False)
 
-        tags = ["claude", "chinese"]
-        tags.extend(extra_tags)
-        note.tags = tags
+        elif tool_name == "list_decks":
+            decks = col.decks.all_names_and_ids()
+            result = []
+            for d in decks:
+                count = len(col.find_cards(f'"deck:{d.name}"'))
+                result.append({"name": d.name, "cards": count})
+            return json.dumps(result, ensure_ascii=False)
 
-        col.add_note(note, did)
-        nid = note.id
-        log_change("add_chinese_vocab", [nid], {"simplified": data.get("simplified"), "deck": DEFAULT_DECK, "tags": tags})
+        elif tool_name == "list_note_types":
+            models = col.models.all_names_and_ids()
+            result = []
+            for m in models:
+                model = col.models.get(m.id)
+                field_names = [f["name"] for f in model["flds"]]
+                result.append({"name": m.name, "fields": field_names})
+            return json.dumps(result, ensure_ascii=False)
 
-        msg = (
-            f"**{data['simplified']}** ({data.get('traditional', '')})\n"
-            f"*{data.get('pinyin', '')}*\n"
-            f"{data.get('meaning', '')}\n\n"
-            f"Deck: `{DEFAULT_DECK}`"
-        )
-        return nid, msg
+        elif tool_name == "suspend_cards":
+            query = tool_input["query"]
+            note_ids = list(col.find_notes(query))
+            card_ids, skipped = _collect_card_ids(col, note_ids)
+            col.sched.suspend_cards(card_ids)
+            log_change("suspend", note_ids, {"card_count": len(card_ids)})
+            msg = f"Suspended {len(card_ids)} card(s) across {len(note_ids) - skipped} note(s)."
+            if skipped:
+                msg += f" ({skipped} missing notes skipped)"
+            return msg
+
+        elif tool_name == "unsuspend_cards":
+            query = tool_input["query"]
+            note_ids = list(col.find_notes(query))
+            card_ids, skipped = _collect_card_ids(col, note_ids)
+            col.sched.unsuspend_cards(card_ids)
+            log_change("unsuspend", note_ids, {"card_count": len(card_ids)})
+            msg = f"Unsuspended {len(card_ids)} card(s) across {len(note_ids) - skipped} note(s)."
+            if skipped:
+                msg += f" ({skipped} missing notes skipped)"
+            return msg
+
+        elif tool_name == "delete_notes":
+            query = tool_input["query"]
+            note_ids = list(col.find_notes(query))
+            col.remove_notes(note_ids)
+            log_change("delete", note_ids)
+            return f"Deleted {len(note_ids)} note(s)."
+
+        elif tool_name == "tag_notes":
+            query = tool_input["query"]
+            tags = tool_input.get("tags", [])
+            note_ids = list(col.find_notes(query))
+            skipped = 0
+            for nid in note_ids:
+                try:
+                    note = col.get_note(nid)
+                    existing = {t.lower() for t in note.tags}
+                    for tag in tags:
+                        if tag.lower() not in existing:
+                            note.tags.append(tag)
+                    col.update_note(note)
+                except Exception:
+                    skipped += 1
+            log_change("tag", note_ids, {"tags": tags})
+            msg = f"Tagged {len(note_ids) - skipped} note(s) with: {', '.join(tags)}"
+            if skipped:
+                msg += f" ({skipped} missing notes skipped)"
+            return msg
+
+        elif tool_name == "remove_tags":
+            query = tool_input["query"]
+            tags = tool_input.get("tags", [])
+            tags_lower = {t.lower() for t in tags}
+            note_ids = list(col.find_notes(query))
+            skipped = 0
+            for nid in note_ids:
+                try:
+                    note = col.get_note(nid)
+                    note.tags = [t for t in note.tags if t.lower() not in tags_lower]
+                    col.update_note(note)
+                except Exception:
+                    skipped += 1
+            log_change("remove_tag", note_ids, {"tags": tags})
+            msg = f"Removed tags from {len(note_ids) - skipped} note(s): {', '.join(tags)}"
+            if skipped:
+                msg += f" ({skipped} missing notes skipped)"
+            return msg
+
+        elif tool_name == "move_cards":
+            query = tool_input["query"]
+            deck_name = tool_input.get("deck", "Default")
+            note_ids = list(col.find_notes(query))
+            did = col.decks.id_for_name(deck_name)
+            card_ids, skipped = _collect_card_ids(col, note_ids)
+            col.set_deck(card_ids, did)
+            log_change("move_deck", note_ids, {"deck": deck_name, "card_count": len(card_ids)})
+            return f"Moved {len(card_ids)} card(s) across {len(note_ids)} note(s) to: {deck_name}"
+
+        else:
+            return json.dumps({"error": f"Unknown tool: {tool_name}"})
     finally:
         col.close()
 
 
-def add_general_card(data, extra_tags):
-    """Add a general (Basic) card. Returns (note_id, message)."""
-    col = open_collection()
-    try:
-        model = col.models.by_name("Basic")
-        if not model:
-            return None, "Note type 'Basic' not found"
+# ── Conversation loop ─────────────────────────────────────────────────
 
-        deck = data.get("deck", "Knowledge")
-        did = col.decks.id_for_name(deck)
-        note = col.new_note(model)
+async def run_conversation(chat_id, bot, message_obj):
+    """Run the Claude conversation loop for a chat.
+    Calls Claude with the full history, executes tools, and sends the final text reply.
+    """
+    MAX_TURNS = 20
 
-        note["Front"] = data.get("front", "")
-        note["Back"] = data.get("back", "")
+    for turn in range(MAX_TURNS):
+        await bot.send_chat_action(chat_id, "typing")
 
-        tags = ["claude"]
-        tags.extend(data.get("tags", []))
-        tags.extend(extra_tags)
-        note.tags = tags
+        history = chat_histories.get(chat_id, [])
 
-        col.add_note(note, did)
-        nid = note.id
-        log_change("add_general_card", [nid], {"front": data.get("front", "")[:50], "deck": deck, "tags": tags})
+        try:
+            response = await asyncio.to_thread(
+                claude.messages.create,
+                model="claude-sonnet-4-5-20250929",
+                max_tokens=4096,
+                system=SYSTEM_PROMPT,
+                tools=TOOLS,
+                messages=history,
+            )
+        except Exception as e:
+            log.error(f"Claude API error: {e}")
+            await message_obj.reply_text(f"Claude API error: {e}")
+            return
 
-        front_preview = data.get("front", "")
-        if len(front_preview) > 80:
-            front_preview = front_preview[:77] + "..."
-        msg = (
-            f"**Q:** {front_preview}\n"
-            f"**A:** {data.get('back', '')}\n\n"
-            f"Deck: `{deck}`"
-        )
-        return nid, msg
-    finally:
-        col.close()
+        # Separate tool use blocks and text blocks
+        tool_use_blocks = [b for b in response.content if b.type == "tool_use"]
+        text_blocks = [b for b in response.content if hasattr(b, "text") and b.text.strip()]
 
+        if not tool_use_blocks:
+            # Text-only response — send to user and done
+            text = "\n\n".join(b.text for b in text_blocks) if text_blocks else "I'm not sure how to help with that."
+            # Append assistant response to history
+            chat_histories.setdefault(chat_id, []).append({"role": "assistant", "content": text})
+            _trim_history(chat_id)
+            try:
+                await send_long_message(message_obj, text, parse_mode="Markdown")
+            except Exception:
+                await send_long_message(message_obj, text)
+            return
 
-def tag_existing_notes(note_ids, extra_tags):
-    """Add 'claude' tag (and any extra tags) to existing notes."""
-    col = open_collection()
-    try:
-        tagged = []
-        for nid in note_ids[:5]:  # Limit to first 5 matches
-            note = col.get_note(nid)
-            existing = {t.lower() for t in note.tags}
-            added = []
-            for tag in ["claude"] + extra_tags:
-                if tag.lower() not in existing:
-                    note.tags.append(tag)
-                    added.append(tag)
-            if added:
-                col.update_note(note)
-                tagged.append(nid)
+        # Has tool calls — execute them
+        # Build assistant content as dicts for the API
+        assistant_content = []
+        for block in response.content:
+            if block.type == "text":
+                assistant_content.append({"type": "text", "text": block.text})
+            elif block.type == "tool_use":
+                assistant_content.append({
+                    "type": "tool_use",
+                    "id": block.id,
+                    "name": block.name,
+                    "input": block.input,
+                })
 
-        if tagged:
-            log_change("tag_existing", tagged, {"tags_added": ["claude"] + extra_tags})
-        return tagged
-    finally:
-        col.close()
+        chat_histories.setdefault(chat_id, []).append({"role": "assistant", "content": assistant_content})
+
+        # Send any thinking/status text to user
+        for block in text_blocks:
+            try:
+                await message_obj.reply_text(block.text, parse_mode="Markdown")
+            except Exception:
+                await message_obj.reply_text(block.text)
+
+        # Execute each tool
+        tool_results = []
+        for block in tool_use_blocks:
+            log.info(f"Tool call: {block.name}({json.dumps(block.input, ensure_ascii=False)[:200]})")
+            try:
+                result = execute_tool(block.name, block.input)
+            except Exception as e:
+                log.error(f"Tool error ({block.name}): {e}")
+                result = json.dumps({"error": str(e)})
+
+            tool_results.append({
+                "type": "tool_result",
+                "tool_use_id": block.id,
+                "content": result,
+            })
+
+        # Append tool results to history
+        chat_histories[chat_id].append({"role": "user", "content": tool_results})
+        _trim_history(chat_id)
+
+    # Hit max turns
+    await message_obj.reply_text("Reached maximum conversation turns. Please try again.")
 
 
 # ── Telegram handlers ─────────────────────────────────────────────────
@@ -463,15 +820,17 @@ def tag_existing_notes(note_ids, extra_tags):
 async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "Anki Card Bot\n\n"
-        "Send me a message and I'll create an Anki card from it.\n\n"
+        "Send me a message and I'll help you create Anki cards or manage your collection.\n\n"
         "Examples:\n"
         "  `学习` — creates a Chinese vocab card\n"
         "  `好好学习天天向上` — Chinese phrase card\n"
         "  `mitochondria is the powerhouse of the cell` — general card\n"
-        "  `学习 #hsk4 #important` — vocab card with extra tags\n\n"
+        "  `suspend all cards tagged test` — collection management\n"
+        "  `how many cards do I have?` — stats query\n\n"
         "Commands:\n"
         "  /status — due counts & recent additions\n"
         "  /decks — list available decks\n"
+        "  /clear — clear conversation history\n"
         "  /help — usage guide",
         parse_mode="Markdown",
     )
@@ -484,10 +843,7 @@ async def cmd_status(update: Update, context: ContextTypes.DEFAULT_TYPE):
         due_count = len(col.find_cards("is:due"))
         learn_count = len(col.find_cards("is:learn"))
         total = col.card_count()
-
-        # Recent claude-tagged additions
-        recent = col.find_notes("tag:claude")
-        recent_count = len(recent)
+        recent_count = len(col.find_notes("tag:claude"))
 
         msg = (
             f"Total cards: {total}\n"
@@ -506,7 +862,6 @@ async def cmd_decks(update: Update, context: ContextTypes.DEFAULT_TYPE):
         lines = []
         for d in decks:
             if d.name == "Default" or "::" in d.name:
-                # Only show top-level or commonly used
                 count = len(col.find_cards(f'"deck:{d.name}"'))
                 if count > 0:
                     lines.append(f"  {d.name} ({count})")
@@ -522,12 +877,11 @@ async def cmd_log(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("No changes logged yet.")
         return
     lines = CHANGELOG_FILE.read_text().strip().split("\n")
-    # Show last 20 entries
     recent = lines[-20:]
     output = []
     for line in recent:
         entry = json.loads(line)
-        ts = entry["ts"][5:19]  # MM-DDTHH:MM:SS
+        ts = entry["ts"][5:19]
         action = entry["action"]
         count = entry.get("count", "")
         detail = ""
@@ -542,36 +896,36 @@ async def cmd_log(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await send_long_message(update.message, "\n".join(output), parse_mode="Markdown")
 
 
-async def cmd_cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def cmd_clear(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
     cleared = []
-    if chat_id in pending_card:
-        del pending_card[chat_id]
-        cleared.append("pending card")
-    if chat_id in pending_image_words:
-        del pending_image_words[chat_id]
-        cleared.append("pending image words")
+    if chat_id in chat_histories:
+        del chat_histories[chat_id]
+        cleared.append("conversation history")
     if context.chat_data.get("json_buffer") is not None:
         context.chat_data["json_buffer"] = None
         cleared.append("JSON buffer")
     if cleared:
         await update.message.reply_text(f"Cleared: {', '.join(cleared)}")
     else:
-        await update.message.reply_text("Nothing pending.")
+        await update.message.reply_text("Nothing to clear.")
 
 
 async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "Usage Guide\n\n"
-        "Just send me text and I'll create a card:\n\n"
+        "Just send me text and I'll help:\n\n"
         "Chinese vocab: send Chinese characters (e.g. `考虑`)\n"
         "General card: describe what you want to learn\n"
-        "Add tags: include `#tagname` in your message\n\n"
-        "If a matching card already exists, I'll tag it with `claude` "
-        "instead of creating a duplicate.\n\n"
+        "Collection management: ask to search, suspend, tag, move cards\n"
+        "Photos: send an image of Chinese text for OCR\n\n"
+        "I'll always show you a preview before creating cards, "
+        "and ask for confirmation before modifying your collection.\n\n"
         "Commands:\n"
         "  /status — collection stats\n"
         "  /decks — list decks\n"
+        "  /clear — clear conversation history\n"
+        "  /log — recent changes\n"
         "  /start — welcome message",
         parse_mode="Markdown",
     )
@@ -587,13 +941,11 @@ async def handle_document(update: Update, context: ContextTypes.DEFAULT_TYPE):
     log.info(f"Received document: name={doc.file_name} mime={doc.mime_type} size={doc.file_size}")
     await context.bot.send_chat_action(chat_id, "typing")
 
-    # Download the file
     file = await context.bot.get_file(doc.file_id)
     async with httpx.AsyncClient() as client:
         resp = await client.get(file.file_path)
         content = resp.content
 
-    # Try to parse as JSON regardless of file extension/mime
     try:
         data = json.loads(content)
     except (json.JSONDecodeError, UnicodeDecodeError):
@@ -606,13 +958,11 @@ async def handle_document(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await _process_json_text(update, context, chat_id, data)
 
 
-
 async def handle_photo(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Handle photo messages — OCR extract words and ask for confirmation."""
+    """Handle photo messages — add image to conversation and let Claude handle it."""
     chat_id = update.effective_chat.id
     photo = update.message.photo[-1]  # Highest resolution
     caption = update.message.caption or ""
-    extra_tags = extract_tags_from_message(caption) if caption else []
 
     log.info(f"Received photo (file_id={photo.file_id}, caption={caption!r})")
     await context.bot.send_chat_action(chat_id, "typing")
@@ -623,76 +973,96 @@ async def handle_photo(update: Update, context: ContextTypes.DEFAULT_TYPE):
         resp = await client.get(file.file_path)
         image_bytes = resp.content
 
-    # Determine media type from file path
+    # Determine media type
     ext = file.file_path.rsplit(".", 1)[-1].lower() if "." in file.file_path else "jpg"
     media_types = {"jpg": "image/jpeg", "jpeg": "image/jpeg", "png": "image/png", "webp": "image/webp"}
     media_type = media_types.get(ext, "image/jpeg")
 
-    # Send to Claude for OCR
-    try:
-        data = ask_claude_ocr(image_bytes, media_type, caption or None)
-    except Exception as e:
-        log.error(f"OCR error: {e}")
-        await update.message.reply_text(f"Failed to analyze image: {e}")
+    image_b64 = base64.b64encode(image_bytes).decode("utf-8")
+
+    # Build multimodal message
+    content = [
+        {"type": "image", "source": {"type": "base64", "media_type": media_type, "data": image_b64}},
+    ]
+    if caption:
+        content.append({"type": "text", "text": caption})
+    else:
+        content.append({"type": "text", "text": "What Chinese words are in this image? Offer to create cards for them."})
+
+    chat_histories.setdefault(chat_id, []).append({"role": "user", "content": content})
+    _trim_history(chat_id)
+
+    await run_conversation(chat_id, context.bot, update.message)
+
+
+async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    text = update.message.text
+    if not text:
         return
 
-    words = data.get("words", [])
-    if not words:
-        await update.message.reply_text("No Chinese words found in the image.")
+    chat_id = update.effective_chat.id
+    log.info(f"Received: {text[:100]}...")
+
+    # ── JSON buffering (handles Telegram splitting large pastes) ──
+    stripped = text.strip()
+    json_buf = context.chat_data.get("json_buffer")
+
+    if json_buf is not None:
+        json_buf.append(text)
+        combined = "".join(json_buf).strip()
+        log.info(f"JSON buffer: +{len(text)} chars, total {len(combined)}")
+
+        try:
+            data = json.loads(combined)
+            context.chat_data["json_buffer"] = None
+            _cancel_json_flush(context, chat_id)
+            log.info(f"JSON complete ({len(combined)} chars), processing")
+            await _process_json_text(update, context, chat_id, data)
+            return
+        except json.JSONDecodeError:
+            _schedule_json_flush(update, context, chat_id)
+            return
+
+    # Detect new JSON starting
+    is_json_start = (stripped.startswith("{") or stripped.startswith("[")) and len(stripped) > 100
+    is_json_fragment = _looks_like_json_fragment(stripped) and len(stripped) > 200
+
+    if is_json_start or is_json_fragment:
+        if is_json_start:
+            try:
+                data = json.loads(stripped)
+                log.info("Complete JSON in single message")
+                await _process_json_text(update, context, chat_id, data)
+                return
+            except json.JSONDecodeError:
+                pass
+
+        context.chat_data["json_buffer"] = [text]
+        log.info(f"Started JSON buffer ({len(stripped)} chars)")
+        _schedule_json_flush(update, context, chat_id)
         return
 
-    # Check for duplicates per word
-    col = open_collection()
-    try:
-        for w in words:
-            existing = col.find_notes(f"Simplified:{w['simplified']}")
-            w["_duplicate"] = bool(existing)
-    finally:
-        col.close()
+    # ── Normal message → add to history and run conversation ──
+    chat_histories.setdefault(chat_id, []).append({"role": "user", "content": text})
+    _trim_history(chat_id)
 
-    # Store pending words and show them
-    for w in words:
-        w["_extra_tags"] = extra_tags
-    pending_image_words[chat_id] = words
-
-    lines = []
-    for i, w in enumerate(words, 1):
-        dupe = " (exists)" if w.get("_duplicate") else ""
-        lines.append(f"{i}. **{w['simplified']}** ({w.get('traditional', '')}) — "
-                     f"_{w.get('pinyin', '')}_  {w.get('meaning', '')}{dupe}")
-
-    msg = "Words found:\n\n" + "\n".join(lines)
-    msg += "\n\nReply with:\n  `all` — add all new words\n  `1,3,5` — add specific ones\n  `no` — cancel"
-    await update.message.reply_text(msg, parse_mode="Markdown")
+    await run_conversation(chat_id, context.bot, update.message)
 
 
-def parse_image_confirmation(text):
-    """Parse user's reply to image word list. Returns list of 1-based indices, 'all', or None."""
-    text = text.strip().lower()
-    if text in ("no", "cancel", "n", "nah", "nope"):
-        return "cancel"
-    if text in ("all", "yes", "y", "yeah", "yep", "ok"):
-        return "all"
-    # Try to parse comma/space separated numbers
-    nums = re.findall(r"\d+", text)
-    if nums:
-        return [int(n) for n in nums]
-    return None
+# ── JSON handling (unchanged) ─────────────────────────────────────────
 
-
-async def _process_json_text(update, context, chat_id, data):
-    """Save JSON data as snapshot and run analysis."""
-    pending_image_words.pop(chat_id, None)
-    await _process_json_text_direct(context.bot, update.message, chat_id, data, context)
-
-
-# Pending flush tasks per chat: {chat_id: asyncio.Task}
 _json_flush_tasks = {}
+
+
+def _cancel_json_flush(context, chat_id):
+    existing = _json_flush_tasks.get(chat_id)
+    if existing and not existing.done():
+        existing.cancel()
+    _json_flush_tasks.pop(chat_id, None)
 
 
 def _schedule_json_flush(update, context, chat_id):
     """Schedule a JSON flush 3 seconds from now, cancelling any existing one."""
-    # Cancel existing timer
     existing = _json_flush_tasks.get(chat_id)
     if existing and not existing.done():
         existing.cancel()
@@ -719,6 +1089,11 @@ def _schedule_json_flush(update, context, chat_id):
             )
 
     _json_flush_tasks[chat_id] = asyncio.create_task(_flush())
+
+
+async def _process_json_text(update, context, chat_id, data):
+    """Save JSON data as snapshot and run analysis."""
+    await _process_json_text_direct(context.bot, update.message, chat_id, data, context)
 
 
 async def _process_json_text_direct(bot, message, chat_id, data, context):
@@ -748,309 +1123,6 @@ async def _process_json_text_direct(bot, message, chat_id, data, context):
     context.chat_data["last_json_snapshot"] = str(snap_path)
 
 
-async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    text = update.message.text
-    if not text:
-        return
-
-    chat_id = update.effective_chat.id
-    log.info(f"Received: {text[:100]}...")
-
-    # ── JSON buffering (handles Telegram splitting large pastes) ──
-    stripped = text.strip()
-    json_buf = context.chat_data.get("json_buffer")
-
-    # If buffer is active, always append
-    if json_buf is not None:
-        json_buf.append(text)
-        combined = "".join(json_buf).strip()
-        log.info(f"JSON buffer: +{len(text)} chars, total {len(combined)}")
-
-        # Try to parse — maybe it's complete now
-        try:
-            data = json.loads(combined)
-            context.chat_data["json_buffer"] = None
-            _cancel_json_flush(context, chat_id)
-            log.info(f"JSON complete ({len(combined)} chars), processing")
-            await _process_json_text(update, context, chat_id, data)
-            return
-        except json.JSONDecodeError:
-            # Not complete yet — reset the flush timer
-            _schedule_json_flush(update, context, chat_id)
-            return
-
-    # Detect new JSON starting
-    is_json_start = (stripped.startswith("{") or stripped.startswith("[")) and len(stripped) > 100
-    is_json_fragment = _looks_like_json_fragment(stripped) and len(stripped) > 200
-
-    if is_json_start or is_json_fragment:
-        # Try complete parse first
-        if is_json_start:
-            try:
-                data = json.loads(stripped)
-                log.info("Complete JSON in single message")
-                await _process_json_text(update, context, chat_id, data)
-                return
-            except json.JSONDecodeError:
-                pass
-
-        # Start buffering
-        context.chat_data["json_buffer"] = [text]
-        log.info(f"Started JSON buffer ({len(stripped)} chars)")
-        _schedule_json_flush(update, context, chat_id)
-        return
-
-    # Check if this is a "tag hanly" follow-up after JSON analysis
-    if text.strip().lower() in ("tag hanly", "hanly", "tag them", "yes tag", "tag"):
-        snap_path = context.chat_data.get("last_json_snapshot")
-        if snap_path and os.path.exists(snap_path):
-            await context.bot.send_chat_action(chat_id, "typing")
-            try:
-                result = subprocess.run(
-                    ["/home/vincent/anki/.venv/bin/python", ANALYZE_SCRIPT, snap_path, "--tag-hanly"],
-                    capture_output=True, text=True, timeout=120,
-                )
-                output = result.stdout
-                if result.stderr:
-                    output += f"\n{result.stderr[-300:]}"
-            except Exception as e:
-                output = f"Tagging failed: {e}"
-
-            await send_long_message(update.message, output)
-
-            sync_msg = sync_collection()
-            await update.message.reply_text(f"_{sync_msg}_", parse_mode="Markdown")
-            del context.chat_data["last_json_snapshot"]
-            return
-
-    # Check if this is a reply to a pending image word list
-    if chat_id in pending_image_words:
-        choice = parse_image_confirmation(text)
-        words = pending_image_words[chat_id]
-
-        if choice == "cancel":
-            del pending_image_words[chat_id]
-            await update.message.reply_text("Cancelled.")
-            return
-
-        if choice is not None:
-            del pending_image_words[chat_id]
-
-            if choice == "all":
-                indices = list(range(len(words)))
-            else:
-                indices = [n - 1 for n in choice if 1 <= n <= len(words)]
-
-            if not indices:
-                await update.message.reply_text("No valid selections. Cancelled.")
-                return
-
-            added = []
-            skipped = []
-            for i in indices:
-                w = words[i]
-                if w.get("_duplicate"):
-                    skipped.append(w["simplified"])
-                    continue
-                extra_tags = w.get("_extra_tags", [])
-                nid, msg = add_chinese_vocab_card(w, extra_tags)
-                if nid:
-                    added.append(w["simplified"])
-
-            parts = []
-            if added:
-                parts.append(f"Added {len(added)} card(s): {', '.join(added)}")
-            if skipped:
-                parts.append(f"Skipped {len(skipped)} duplicate(s): {', '.join(skipped)}")
-
-            if added:
-                sync_msg = sync_collection()
-                parts.append(f"_{sync_msg}_")
-
-            await update.message.reply_text("\n".join(parts), parse_mode="Markdown")
-            return
-
-        # If we couldn't parse the reply, fall through to normal handling
-        # (user might have sent a new unrelated message)
-        del pending_image_words[chat_id]
-
-    # Check if this is a reply to a pending card confirmation
-    if chat_id in pending_card:
-        reply = text.strip().lower()
-        card = pending_card[chat_id]
-
-        # Handle duplicate confirmation flow
-        if card.get("action") == "dupe_confirm":
-            if reply in ("skip", "no", "n", "cancel", "nah", "nope"):
-                del pending_card[chat_id]
-                await update.message.reply_text("Skipped.")
-                return
-            elif reply in ("tag",):
-                dupe_ids = card["dupe_note_ids"]
-                tagged = tag_existing_notes(dupe_ids, card["extra_tags"])
-                del pending_card[chat_id]
-                if tagged:
-                    await update.message.reply_text(f"Tagged {len(tagged)} note(s) with `claude`.", parse_mode="Markdown")
-                else:
-                    await update.message.reply_text("Notes already tagged.")
-                return
-            elif reply in ("new", "create", "add"):
-                # Ask Claude to parse, then show card preview
-                del pending_card[chat_id]
-                await context.bot.send_chat_action(chat_id, "typing")
-                try:
-                    data = ask_claude(card["clean_text"])
-                except Exception as e:
-                    log.error(f"Claude error: {e}")
-                    await update.message.reply_text(f"Claude API error: {e}")
-                    return
-
-                if data.get("type") == "conversation":
-                    await update.message.reply_text(data.get("reply", "I'm not sure how to help with that."))
-                    return
-
-                # Show preview and ask for confirmation
-                pending_card[chat_id] = {"data": data, "extra_tags": card["extra_tags"]}
-
-                if data.get("type") == "chinese_vocab":
-                    preview = (
-                        f"**{data.get('simplified', '')}** ({data.get('traditional', '')})\n"
-                        f"*{data.get('pinyin', '')}*\n"
-                        f"{data.get('meaning', '')}\n"
-                        f"Deck: `{DEFAULT_DECK}`"
-                    )
-                else:
-                    preview = (
-                        f"**Q:** {data.get('front', '')}\n"
-                        f"**A:** {data.get('back', '')}\n"
-                        f"Deck: `{data.get('deck', 'Knowledge')}`"
-                    )
-
-                await update.message.reply_text(
-                    f"{preview}\n\n"
-                    "`yes` — add card\n"
-                    "`no` — cancel",
-                    parse_mode="Markdown",
-                )
-                return
-            else:
-                # Unrecognized — cancel and fall through
-                del pending_card[chat_id]
-
-        # Handle normal card confirmation flow
-        elif reply in ("yes", "y", "ok", "yep", "yeah", "sure", "add", "confirm"):
-            card = pending_card.pop(chat_id)
-            try:
-                if card["data"].get("type") == "chinese_vocab":
-                    nid, msg = add_chinese_vocab_card(card["data"], card["extra_tags"])
-                else:
-                    nid, msg = add_general_card(card["data"], card["extra_tags"])
-
-                if nid is None:
-                    await update.message.reply_text(f"Failed to add card: {msg}")
-                    return
-
-                sync_msg = sync_collection()
-                await update.message.reply_text(
-                    f"Card added!\n\n{msg}\n\n_{sync_msg}_",
-                    parse_mode="Markdown",
-                )
-                log.info(f"Added note {nid}")
-            except Exception as e:
-                log.error(f"Card creation error: {e}")
-                await update.message.reply_text(f"Error adding card: {e}")
-            return
-        elif reply in ("no", "n", "cancel", "nah", "nope"):
-            del pending_card[chat_id]
-            await update.message.reply_text("Cancelled.")
-            return
-        else:
-            # Unrecognized reply — cancel pending and fall through
-            del pending_card[chat_id]
-
-    extra_tags = extract_tags_from_message(text)
-    # Remove hashtags from the text sent to Claude
-    clean_text = re.sub(r"\s*#\w+", "", text).strip()
-    if not clean_text:
-        await update.message.reply_text("Please send some text to create a card from.")
-        return
-
-    # Step 1: Check for duplicates
-    col = open_collection()
-    try:
-        dupes = find_duplicates(col, text)
-    finally:
-        col.close()
-
-    if dupes:
-        # Show a preview of the first match
-        col = open_collection()
-        try:
-            note = col.get_note(dupes[0])
-            fields = [strip_html(f) for f in note.fields if f.strip()]
-            preview = " | ".join(fields[:3])
-            if len(preview) > 100:
-                preview = preview[:97] + "..."
-        finally:
-            col.close()
-
-        # Store pending state so user can choose
-        pending_card[chat_id] = {
-            "data": None,  # Will be filled by Claude if user says "new"
-            "extra_tags": extra_tags,
-            "dupe_note_ids": dupes,
-            "clean_text": clean_text,
-            "action": "dupe_confirm",
-        }
-
-        await update.message.reply_text(
-            f"Found {len(dupes)} existing card(s):\n`{preview}`\n\n"
-            "`skip` — do nothing\n"
-            "`tag` — add `claude` tag to existing\n"
-            "`new` — create a new card anyway",
-            parse_mode="Markdown",
-        )
-        return
-
-    # Step 2: Ask Claude to parse the message
-    await context.bot.send_chat_action(update.effective_chat.id, "typing")
-    try:
-        data = ask_claude(clean_text)
-    except Exception as e:
-        log.error(f"Claude error: {e}")
-        await update.message.reply_text(f"Claude API error: {e}")
-        return
-
-    # Step 3: Handle response
-    if data.get("type") == "conversation":
-        await update.message.reply_text(data.get("reply", "I'm not sure how to help with that."))
-        return
-
-    # Show preview and ask for confirmation
-    pending_card[chat_id] = {"data": data, "extra_tags": extra_tags}
-
-    if data.get("type") == "chinese_vocab":
-        preview = (
-            f"**{data.get('simplified', '')}** ({data.get('traditional', '')})\n"
-            f"*{data.get('pinyin', '')}*\n"
-            f"{data.get('meaning', '')}\n"
-            f"Deck: `{DEFAULT_DECK}`"
-        )
-    else:
-        preview = (
-            f"**Q:** {data.get('front', '')}\n"
-            f"**A:** {data.get('back', '')}\n"
-            f"Deck: `{data.get('deck', 'Knowledge')}`"
-        )
-
-    await update.message.reply_text(
-        f"{preview}\n\n"
-        "`yes` — add card\n"
-        "`no` — cancel",
-        parse_mode="Markdown",
-    )
-
-
 # ── Main ──────────────────────────────────────────────────────────────
 
 def main():
@@ -1061,7 +1133,7 @@ def main():
     app.add_handler(CommandHandler("status", cmd_status))
     app.add_handler(CommandHandler("decks", cmd_decks))
     app.add_handler(CommandHandler("help", cmd_help))
-    app.add_handler(CommandHandler("cancel", cmd_cancel))
+    app.add_handler(CommandHandler("clear", cmd_clear))
     app.add_handler(CommandHandler("log", cmd_log))
     app.add_handler(MessageHandler(filters.Document.ALL, handle_document))
     app.add_handler(MessageHandler(filters.PHOTO, handle_photo))
