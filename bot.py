@@ -6,6 +6,7 @@ import base64
 import json
 import logging
 import os
+import random
 import re
 import subprocess
 import unicodedata
@@ -242,6 +243,16 @@ For non-Chinese knowledge, create Basic cards with Front/Back fields.
 - `rated:N` — reviewed in last N days
 - `prop:ivl>30` — cards with interval > 30 days
 
+## Chinese Reading Stories
+When the user asks for a story or reading practice:
+1. Call `get_vocab_for_story` to get known vocabulary and target words
+2. If the user wants a news-based or current-events story, use `web_search` to find recent Chinese news headlines for inspiration
+3. Write a short story (150-300 characters) in Chinese using ~90-95% known words from the list
+4. Weave in ALL the target words naturally — annotate each target word inline as **word**(pinyin - meaning) on first use
+5. After the story, add a "📖 New words" section listing all target words with pinyin and meaning
+6. The user can ask for a specific topic, difficulty adjustment, or more/fewer new words
+7. If the user wants to create cards for the target words, offer to do so
+
 ## Important Rules
 - **Always confirm before destructive actions** (delete, suspend, unsuspend, tag, move). Show what will be affected and ask the user to confirm before calling the modification tool.
 - **Always sync after modifications** — call sync_collection after any add/delete/suspend/tag/move operation.
@@ -457,6 +468,24 @@ TOOLS = [
             "properties": {}
         }
     },
+    # Story generation tools
+    {
+        "name": "get_vocab_for_story",
+        "description": "Get vocabulary for story generation. Returns ~150 known (reviewed) Chinese words and 5-10 target (unseen/suspended) words. Call this before writing a Chinese reading story.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "num_known": {
+                    "type": "integer",
+                    "description": "Number of known words to sample (default 150)"
+                },
+                "num_target": {
+                    "type": "integer",
+                    "description": "Number of target/new words to include (default 8)"
+                }
+            }
+        }
+    },
 ]
 
 # ── Tool execution ────────────────────────────────────────────────────
@@ -559,6 +588,52 @@ def execute_tool(tool_name, tool_input):
                 "front": tool_input.get("front", "")[:80],
                 "deck": deck,
             })
+        except Exception as e:
+            return json.dumps({"error": str(e)})
+        finally:
+            col.close()
+
+    if tool_name == "get_vocab_for_story":
+        num_known = tool_input.get("num_known", 150)
+        num_target = tool_input.get("num_target", 8)
+        col = open_collection()
+        try:
+            # Known words: reviewed ChineseVocabulary cards (not new, not suspended)
+            known_ids = list(col.find_notes(
+                f'"note:{CHINESE_VOCAB_NOTETYPE}" -is:new -is:suspended'
+            ))
+            # Target words: new or suspended ChineseVocabulary cards
+            target_ids = list(col.find_notes(
+                f'"note:{CHINESE_VOCAB_NOTETYPE}" (is:new OR is:suspended)'
+            ))
+
+            known_sample = random.sample(known_ids, min(num_known, len(known_ids)))
+            target_sample = random.sample(target_ids, min(num_target, len(target_ids)))
+
+            def _extract_vocab(nid):
+                note = col.get_note(nid)
+                model = note.note_type()
+                fnames = [f["name"] for f in model["flds"]]
+                def _get(name):
+                    if name in fnames:
+                        idx = fnames.index(name)
+                        return strip_html(note.fields[idx]) if idx < len(note.fields) else ""
+                    return ""
+                return {
+                    "simplified": _get("Simplified"),
+                    "pinyin": _get("Pinyin"),
+                    "meaning": _get("Meaning"),
+                }
+
+            known_words = [_extract_vocab(nid) for nid in known_sample]
+            target_words = [_extract_vocab(nid) for nid in target_sample]
+
+            return json.dumps({
+                "known_words": known_words,
+                "known_total": len(known_ids),
+                "target_words": target_words,
+                "target_pool": len(target_ids),
+            }, ensure_ascii=False)
         except Exception as e:
             return json.dumps({"error": str(e)})
         finally:
@@ -744,7 +819,7 @@ async def run_conversation(chat_id, bot, message_obj):
                 model="claude-sonnet-4-5-20250929",
                 max_tokens=4096,
                 system=SYSTEM_PROMPT,
-                tools=TOOLS,
+                tools=TOOLS + [{"type": "web_search_20250305", "name": "web_search", "max_uses": 3}],
                 messages=history,
             )
         except Exception as e:
@@ -781,6 +856,9 @@ async def run_conversation(chat_id, bot, message_obj):
                     "name": block.name,
                     "input": block.input,
                 })
+            else:
+                # Preserve server-side tool blocks (web_search, etc.)
+                assistant_content.append(block.model_dump())
 
         chat_histories.setdefault(chat_id, []).append({"role": "assistant", "content": assistant_content})
 
