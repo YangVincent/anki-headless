@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 """Telegram bot that uses Claude to create Anki cards from messages."""
 
+import asyncio
 import base64
 import json
 import logging
 import os
 import re
+import subprocess
 import unicodedata
+from datetime import datetime
+from pathlib import Path
 
 import anthropic
 import httpx
@@ -21,6 +25,9 @@ AUTH_FILE = os.path.expanduser("~/.anki_auth")
 
 DEFAULT_DECK = "Knowledge::Languages::Chinese::Vocabulary"
 CHINESE_VOCAB_NOTETYPE = "ChineseVocabulary"
+SNAPSHOTS_DIR = Path("/home/vincent/anki/json_snapshots")
+CHANGELOG_FILE = Path("/home/vincent/anki/changelog.jsonl")
+ANALYZE_SCRIPT = "/home/vincent/anki/analyze_json.py"
 CHINESE_VOCAB_FIELDS = ["Simplified", "Pinyin", "Meaning", "Traditional", "Notes",
                         "Audio", "Strokes", "ColorPinyin", "Frequency", "CustomFreq",
                         "PartOfSpeech", "Homophone", "SentenceSimplified",
@@ -30,6 +37,21 @@ CHINESE_VOCAB_FIELDS = ["Simplified", "Pinyin", "Meaning", "Traditional", "Notes
 
 logging.basicConfig(format="%(asctime)s [%(levelname)s] %(message)s", level=logging.INFO)
 log = logging.getLogger(__name__)
+
+
+def log_change(action, note_ids=None, details=None):
+    """Append an entry to the changelog."""
+    entry = {
+        "ts": datetime.now().isoformat(),
+        "action": action,
+    }
+    if note_ids:
+        entry["note_ids"] = note_ids if len(note_ids) <= 20 else note_ids[:20] + [f"...+{len(note_ids)-20}"]
+        entry["count"] = len(note_ids)
+    if details:
+        entry.update(details)
+    with open(CHANGELOG_FILE, "a") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
 
 def load_config():
@@ -114,6 +136,25 @@ def strip_html(text):
     return re.sub(r"<[^>]+>", "", text)
 
 
+async def send_long_message(message, text, parse_mode=None):
+    """Split text into <=4096-char chunks at line boundaries and send each."""
+    MAX = 4096
+    # Leave room for code fences if using Markdown
+    if parse_mode and "```" in text:
+        MAX = 4080
+    while text:
+        if len(text) <= MAX:
+            await message.reply_text(text, parse_mode=parse_mode)
+            break
+        # Find last newline before the limit
+        cut = text.rfind("\n", 0, MAX)
+        if cut <= 0:
+            cut = MAX
+        chunk = text[:cut]
+        text = text[cut:].lstrip("\n")
+        await message.reply_text(chunk, parse_mode=parse_mode)
+
+
 def has_cjk(text):
     """Check if text contains CJK characters."""
     return any(unicodedata.category(ch).startswith("Lo") and
@@ -140,26 +181,22 @@ def extract_tags_from_message(text):
 
 
 def find_duplicates(col, text):
-    """Search for existing notes matching the text across fields."""
-    # Extract CJK characters for Chinese searches
+    """Search for existing vocab notes matching the text (excludes sentences/characters)."""
     clean = re.sub(r"#\w+", "", text).strip()
     if has_cjk(clean):
-        # Search by simplified characters
         cjk_text = re.sub(r"[^\u4e00-\u9fff\u3400-\u4dbf]", "", clean)
         if cjk_text:
-            note_ids = col.find_notes(f"Simplified:{cjk_text}")
-            if not note_ids:
-                # Also try a broader search
-                note_ids = col.find_notes(cjk_text)
+            # Search only in ChineseVocabulary notes by Simplified field
+            note_ids = col.find_notes(f'"note:ChineseVocabulary" "Simplified:{cjk_text}"')
             return note_ids
     else:
-        # General search — use key terms
         words = clean.split()
         if len(words) <= 3:
             query = clean
         else:
             query = " ".join(words[:5])
-        note_ids = col.find_notes(query)
+        # For general cards, search only Basic notes
+        note_ids = col.find_notes(f'"note:Basic" {query}')
         return note_ids
     return []
 
@@ -294,8 +331,29 @@ def ask_claude_ocr(image_bytes, media_type, caption=None):
     return json.loads(text)
 
 
+def _looks_like_json_fragment(text):
+    """Heuristic: does this text look like a chunk of JSON data?"""
+    # Count JSON-like patterns
+    indicators = 0
+    if '": ' in text or '":' in text:
+        indicators += 1
+    if text.count('"') > 6:
+        indicators += 1
+    if text.count('{') + text.count('}') > 2:
+        indicators += 1
+    if text.count('[') + text.count(']') > 1:
+        indicators += 1
+    if re.search(r'"\w+":\s*[{\["\d]', text):
+        indicators += 1
+    return indicators >= 3
+
+
 # Per-chat pending words from image OCR: {chat_id: [word_dicts]}
 pending_image_words = {}
+
+# Per-chat pending card confirmation: {chat_id: {"data": dict, "extra_tags": list}}
+pending_card = {}
+
 
 
 # ── Card creation ─────────────────────────────────────────────────────
@@ -326,6 +384,7 @@ def add_chinese_vocab_card(data, extra_tags):
 
         col.add_note(note, did)
         nid = note.id
+        log_change("add_chinese_vocab", [nid], {"simplified": data.get("simplified"), "deck": DEFAULT_DECK, "tags": tags})
 
         msg = (
             f"**{data['simplified']}** ({data.get('traditional', '')})\n"
@@ -360,6 +419,7 @@ def add_general_card(data, extra_tags):
 
         col.add_note(note, did)
         nid = note.id
+        log_change("add_general_card", [nid], {"front": data.get("front", "")[:50], "deck": deck, "tags": tags})
 
         front_preview = data.get("front", "")
         if len(front_preview) > 80:
@@ -391,6 +451,8 @@ def tag_existing_notes(note_ids, extra_tags):
                 col.update_note(note)
                 tagged.append(nid)
 
+        if tagged:
+            log_change("tag_existing", tagged, {"tags_added": ["claude"] + extra_tags})
         return tagged
     finally:
         col.close()
@@ -455,6 +517,49 @@ async def cmd_decks(update: Update, context: ContextTypes.DEFAULT_TYPE):
         col.close()
 
 
+async def cmd_log(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if not CHANGELOG_FILE.exists():
+        await update.message.reply_text("No changes logged yet.")
+        return
+    lines = CHANGELOG_FILE.read_text().strip().split("\n")
+    # Show last 20 entries
+    recent = lines[-20:]
+    output = []
+    for line in recent:
+        entry = json.loads(line)
+        ts = entry["ts"][5:19]  # MM-DDTHH:MM:SS
+        action = entry["action"]
+        count = entry.get("count", "")
+        detail = ""
+        if "simplified" in entry:
+            detail = f" {entry['simplified']}"
+        elif "front" in entry:
+            detail = f" {entry['front']}"
+        elif "tags_added" in entry:
+            detail = f" +{','.join(entry['tags_added'])}"
+        count_str = f" ({count})" if count else ""
+        output.append(f"`{ts}` {action}{count_str}{detail}")
+    await send_long_message(update.message, "\n".join(output), parse_mode="Markdown")
+
+
+async def cmd_cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    chat_id = update.effective_chat.id
+    cleared = []
+    if chat_id in pending_card:
+        del pending_card[chat_id]
+        cleared.append("pending card")
+    if chat_id in pending_image_words:
+        del pending_image_words[chat_id]
+        cleared.append("pending image words")
+    if context.chat_data.get("json_buffer") is not None:
+        context.chat_data["json_buffer"] = None
+        cleared.append("JSON buffer")
+    if cleared:
+        await update.message.reply_text(f"Cleared: {', '.join(cleared)}")
+    else:
+        await update.message.reply_text("Nothing pending.")
+
+
 async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "Usage Guide\n\n"
@@ -470,6 +575,36 @@ async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "  /start — welcome message",
         parse_mode="Markdown",
     )
+
+
+async def handle_document(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    """Handle document uploads — try to parse any text-like document as JSON."""
+    doc = update.message.document
+    if not doc:
+        return
+
+    chat_id = update.effective_chat.id
+    log.info(f"Received document: name={doc.file_name} mime={doc.mime_type} size={doc.file_size}")
+    await context.bot.send_chat_action(chat_id, "typing")
+
+    # Download the file
+    file = await context.bot.get_file(doc.file_id)
+    async with httpx.AsyncClient() as client:
+        resp = await client.get(file.file_path)
+        content = resp.content
+
+    # Try to parse as JSON regardless of file extension/mime
+    try:
+        data = json.loads(content)
+    except (json.JSONDecodeError, UnicodeDecodeError):
+        await update.message.reply_text(
+            f"Couldn't parse as JSON (file: {doc.file_name}, type: {doc.mime_type}).\n"
+            "Send a valid JSON file to analyze."
+        )
+        return
+
+    await _process_json_text(update, context, chat_id, data)
+
 
 
 async def handle_photo(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -545,13 +680,148 @@ def parse_image_confirmation(text):
     return None
 
 
+async def _process_json_text(update, context, chat_id, data):
+    """Save JSON data as snapshot and run analysis."""
+    pending_image_words.pop(chat_id, None)
+    await _process_json_text_direct(context.bot, update.message, chat_id, data, context)
+
+
+# Pending flush tasks per chat: {chat_id: asyncio.Task}
+_json_flush_tasks = {}
+
+
+def _schedule_json_flush(update, context, chat_id):
+    """Schedule a JSON flush 3 seconds from now, cancelling any existing one."""
+    # Cancel existing timer
+    existing = _json_flush_tasks.get(chat_id)
+    if existing and not existing.done():
+        existing.cancel()
+
+    async def _flush():
+        await asyncio.sleep(3)
+        json_buf = context.chat_data.get("json_buffer")
+        if not json_buf:
+            return
+
+        combined = "".join(json_buf).strip()
+        context.chat_data["json_buffer"] = None
+        _json_flush_tasks.pop(chat_id, None)
+        log.info(f"JSON flush triggered ({len(combined)} chars)")
+
+        try:
+            data = json.loads(combined)
+            await _process_json_text_direct(context.bot, update.message, chat_id, data, context)
+        except json.JSONDecodeError as e:
+            await update.message.reply_text(
+                f"Received {len(combined)} chars but JSON is incomplete.\n"
+                f"Error near position {e.pos}: {e.msg}\n\n"
+                "Try sending as a file attachment instead."
+            )
+
+    _json_flush_tasks[chat_id] = asyncio.create_task(_flush())
+
+
+async def _process_json_text_direct(bot, message, chat_id, data, context):
+    """Process JSON data: save snapshot and run analysis."""
+    await bot.send_chat_action(chat_id, "typing")
+
+    SNAPSHOTS_DIR.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    snap_path = SNAPSHOTS_DIR / f"{timestamp}.json"
+    with open(snap_path, "w") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    try:
+        result = subprocess.run(
+            ["/home/vincent/anki/.venv/bin/python", ANALYZE_SCRIPT, str(snap_path)],
+            capture_output=True, text=True, timeout=120,
+        )
+        output = result.stdout
+        if result.stderr:
+            output += f"\nWarnings:\n{result.stderr[-500:]}"
+    except subprocess.TimeoutExpired:
+        output = "Analysis timed out (>120s)"
+    except Exception as e:
+        output = f"Analysis failed: {e}"
+
+    await send_long_message(message, output)
+    context.chat_data["last_json_snapshot"] = str(snap_path)
+
+
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text
     if not text:
         return
 
     chat_id = update.effective_chat.id
-    log.info(f"Received: {text}")
+    log.info(f"Received: {text[:100]}...")
+
+    # ── JSON buffering (handles Telegram splitting large pastes) ──
+    stripped = text.strip()
+    json_buf = context.chat_data.get("json_buffer")
+
+    # If buffer is active, always append
+    if json_buf is not None:
+        json_buf.append(text)
+        combined = "".join(json_buf).strip()
+        log.info(f"JSON buffer: +{len(text)} chars, total {len(combined)}")
+
+        # Try to parse — maybe it's complete now
+        try:
+            data = json.loads(combined)
+            context.chat_data["json_buffer"] = None
+            _cancel_json_flush(context, chat_id)
+            log.info(f"JSON complete ({len(combined)} chars), processing")
+            await _process_json_text(update, context, chat_id, data)
+            return
+        except json.JSONDecodeError:
+            # Not complete yet — reset the flush timer
+            _schedule_json_flush(update, context, chat_id)
+            return
+
+    # Detect new JSON starting
+    is_json_start = (stripped.startswith("{") or stripped.startswith("[")) and len(stripped) > 100
+    is_json_fragment = _looks_like_json_fragment(stripped) and len(stripped) > 200
+
+    if is_json_start or is_json_fragment:
+        # Try complete parse first
+        if is_json_start:
+            try:
+                data = json.loads(stripped)
+                log.info("Complete JSON in single message")
+                await _process_json_text(update, context, chat_id, data)
+                return
+            except json.JSONDecodeError:
+                pass
+
+        # Start buffering
+        context.chat_data["json_buffer"] = [text]
+        log.info(f"Started JSON buffer ({len(stripped)} chars)")
+        _schedule_json_flush(update, context, chat_id)
+        return
+
+    # Check if this is a "tag hanly" follow-up after JSON analysis
+    if text.strip().lower() in ("tag hanly", "hanly", "tag them", "yes tag", "tag"):
+        snap_path = context.chat_data.get("last_json_snapshot")
+        if snap_path and os.path.exists(snap_path):
+            await context.bot.send_chat_action(chat_id, "typing")
+            try:
+                result = subprocess.run(
+                    ["/home/vincent/anki/.venv/bin/python", ANALYZE_SCRIPT, snap_path, "--tag-hanly"],
+                    capture_output=True, text=True, timeout=120,
+                )
+                output = result.stdout
+                if result.stderr:
+                    output += f"\n{result.stderr[-300:]}"
+            except Exception as e:
+                output = f"Tagging failed: {e}"
+
+            await send_long_message(update.message, output)
+
+            sync_msg = sync_collection()
+            await update.message.reply_text(f"_{sync_msg}_", parse_mode="Markdown")
+            del context.chat_data["last_json_snapshot"]
+            return
 
     # Check if this is a reply to a pending image word list
     if chat_id in pending_image_words:
@@ -604,6 +874,100 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         # (user might have sent a new unrelated message)
         del pending_image_words[chat_id]
 
+    # Check if this is a reply to a pending card confirmation
+    if chat_id in pending_card:
+        reply = text.strip().lower()
+        card = pending_card[chat_id]
+
+        # Handle duplicate confirmation flow
+        if card.get("action") == "dupe_confirm":
+            if reply in ("skip", "no", "n", "cancel", "nah", "nope"):
+                del pending_card[chat_id]
+                await update.message.reply_text("Skipped.")
+                return
+            elif reply in ("tag",):
+                dupe_ids = card["dupe_note_ids"]
+                tagged = tag_existing_notes(dupe_ids, card["extra_tags"])
+                del pending_card[chat_id]
+                if tagged:
+                    await update.message.reply_text(f"Tagged {len(tagged)} note(s) with `claude`.", parse_mode="Markdown")
+                else:
+                    await update.message.reply_text("Notes already tagged.")
+                return
+            elif reply in ("new", "create", "add"):
+                # Ask Claude to parse, then show card preview
+                del pending_card[chat_id]
+                await context.bot.send_chat_action(chat_id, "typing")
+                try:
+                    data = ask_claude(card["clean_text"])
+                except Exception as e:
+                    log.error(f"Claude error: {e}")
+                    await update.message.reply_text(f"Claude API error: {e}")
+                    return
+
+                if data.get("type") == "conversation":
+                    await update.message.reply_text(data.get("reply", "I'm not sure how to help with that."))
+                    return
+
+                # Show preview and ask for confirmation
+                pending_card[chat_id] = {"data": data, "extra_tags": card["extra_tags"]}
+
+                if data.get("type") == "chinese_vocab":
+                    preview = (
+                        f"**{data.get('simplified', '')}** ({data.get('traditional', '')})\n"
+                        f"*{data.get('pinyin', '')}*\n"
+                        f"{data.get('meaning', '')}\n"
+                        f"Deck: `{DEFAULT_DECK}`"
+                    )
+                else:
+                    preview = (
+                        f"**Q:** {data.get('front', '')}\n"
+                        f"**A:** {data.get('back', '')}\n"
+                        f"Deck: `{data.get('deck', 'Knowledge')}`"
+                    )
+
+                await update.message.reply_text(
+                    f"{preview}\n\n"
+                    "`yes` — add card\n"
+                    "`no` — cancel",
+                    parse_mode="Markdown",
+                )
+                return
+            else:
+                # Unrecognized — cancel and fall through
+                del pending_card[chat_id]
+
+        # Handle normal card confirmation flow
+        elif reply in ("yes", "y", "ok", "yep", "yeah", "sure", "add", "confirm"):
+            card = pending_card.pop(chat_id)
+            try:
+                if card["data"].get("type") == "chinese_vocab":
+                    nid, msg = add_chinese_vocab_card(card["data"], card["extra_tags"])
+                else:
+                    nid, msg = add_general_card(card["data"], card["extra_tags"])
+
+                if nid is None:
+                    await update.message.reply_text(f"Failed to add card: {msg}")
+                    return
+
+                sync_msg = sync_collection()
+                await update.message.reply_text(
+                    f"Card added!\n\n{msg}\n\n_{sync_msg}_",
+                    parse_mode="Markdown",
+                )
+                log.info(f"Added note {nid}")
+            except Exception as e:
+                log.error(f"Card creation error: {e}")
+                await update.message.reply_text(f"Error adding card: {e}")
+            return
+        elif reply in ("no", "n", "cancel", "nah", "nope"):
+            del pending_card[chat_id]
+            await update.message.reply_text("Cancelled.")
+            return
+        else:
+            # Unrecognized reply — cancel pending and fall through
+            del pending_card[chat_id]
+
     extra_tags = extract_tags_from_message(text)
     # Remove hashtags from the text sent to Claude
     clean_text = re.sub(r"\s*#\w+", "", text).strip()
@@ -619,11 +983,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         col.close()
 
     if dupes:
-        tagged = tag_existing_notes(dupes, extra_tags)
-        count = len(dupes)
-        tag_msg = ""
-        if tagged:
-            tag_msg = f" (tagged {len(tagged)} note(s))"
         # Show a preview of the first match
         col = open_collection()
         try:
@@ -635,8 +994,20 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         finally:
             col.close()
 
+        # Store pending state so user can choose
+        pending_card[chat_id] = {
+            "data": None,  # Will be filled by Claude if user says "new"
+            "extra_tags": extra_tags,
+            "dupe_note_ids": dupes,
+            "clean_text": clean_text,
+            "action": "dupe_confirm",
+        }
+
         await update.message.reply_text(
-            f"Found {count} existing card(s){tag_msg}:\n`{preview}`",
+            f"Found {len(dupes)} existing card(s):\n`{preview}`\n\n"
+            "`skip` — do nothing\n"
+            "`tag` — add `claude` tag to existing\n"
+            "`new` — create a new card anyway",
             parse_mode="Markdown",
         )
         return
@@ -655,27 +1026,29 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(data.get("reply", "I'm not sure how to help with that."))
         return
 
-    try:
-        if data.get("type") == "chinese_vocab":
-            nid, msg = add_chinese_vocab_card(data, extra_tags)
-        else:
-            nid, msg = add_general_card(data, extra_tags)
+    # Show preview and ask for confirmation
+    pending_card[chat_id] = {"data": data, "extra_tags": extra_tags}
 
-        if nid is None:
-            await update.message.reply_text(f"Failed to add card: {msg}")
-            return
-
-        # Sync to AnkiWeb
-        sync_msg = sync_collection()
-
-        await update.message.reply_text(
-            f"Card added!\n\n{msg}\n\n_{sync_msg}_",
-            parse_mode="Markdown",
+    if data.get("type") == "chinese_vocab":
+        preview = (
+            f"**{data.get('simplified', '')}** ({data.get('traditional', '')})\n"
+            f"*{data.get('pinyin', '')}*\n"
+            f"{data.get('meaning', '')}\n"
+            f"Deck: `{DEFAULT_DECK}`"
         )
-        log.info(f"Added note {nid}")
-    except Exception as e:
-        log.error(f"Card creation error: {e}")
-        await update.message.reply_text(f"Error adding card: {e}")
+    else:
+        preview = (
+            f"**Q:** {data.get('front', '')}\n"
+            f"**A:** {data.get('back', '')}\n"
+            f"Deck: `{data.get('deck', 'Knowledge')}`"
+        )
+
+    await update.message.reply_text(
+        f"{preview}\n\n"
+        "`yes` — add card\n"
+        "`no` — cancel",
+        parse_mode="Markdown",
+    )
 
 
 # ── Main ──────────────────────────────────────────────────────────────
@@ -688,6 +1061,9 @@ def main():
     app.add_handler(CommandHandler("status", cmd_status))
     app.add_handler(CommandHandler("decks", cmd_decks))
     app.add_handler(CommandHandler("help", cmd_help))
+    app.add_handler(CommandHandler("cancel", cmd_cancel))
+    app.add_handler(CommandHandler("log", cmd_log))
+    app.add_handler(MessageHandler(filters.Document.ALL, handle_document))
     app.add_handler(MessageHandler(filters.PHOTO, handle_photo))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 

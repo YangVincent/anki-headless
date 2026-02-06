@@ -11,5 +11,8 @@ collection.media.db2
 __pycache__/
 *.pyc
 
+# JSON snapshots (user data)
+json_snapshots/
+
 # Misc
 out.tmp
