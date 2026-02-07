@@ -475,6 +475,70 @@ TOOLS = [
             "properties": {}
         }
     },
+    # Card-type-specific tools
+    {
+        "name": "get_note_type_templates",
+        "description": "Get card template names for a note type. Shows what card types are generated from each note.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "note_type": {"type": "string", "description": "Name of the note type (e.g. 'ChineseVocabulary')"}
+            },
+            "required": ["note_type"]
+        }
+    },
+    {
+        "name": "get_cards_info",
+        "description": "Get all cards for specific notes with template, deck, suspended status, and card state.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "note_ids": {
+                    "type": "array",
+                    "items": {"type": "integer"},
+                    "description": "List of note IDs (max 100)"
+                }
+            },
+            "required": ["note_ids"]
+        }
+    },
+    {
+        "name": "suspend_card_type",
+        "description": "Suspend only cards of a specific template for notes matching a query. Confirm with user first.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Anki search query to select notes"},
+                "template_name": {"type": "string", "description": "Card template name to suspend (e.g. 'English-Speaking')"}
+            },
+            "required": ["query", "template_name"]
+        }
+    },
+    {
+        "name": "unsuspend_card_type",
+        "description": "Unsuspend only cards of a specific template for notes matching a query. Confirm with user first.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Anki search query to select notes"},
+                "template_name": {"type": "string", "description": "Card template name to unsuspend (e.g. 'English-Speaking')"}
+            },
+            "required": ["query", "template_name"]
+        }
+    },
+    {
+        "name": "move_card_type",
+        "description": "Move only cards of a specific template to a different deck. Confirm with user first.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "Anki search query to select notes"},
+                "template_name": {"type": "string", "description": "Card template name to move (e.g. 'English-Speaking')"},
+                "deck": {"type": "string", "description": "Target deck name"}
+            },
+            "required": ["query", "template_name", "deck"]
+        }
+    },
     # Story generation tools
     {
         "name": "get_vocab_for_story",
@@ -800,6 +864,88 @@ def execute_tool(tool_name, tool_input):
             col.set_deck(card_ids, did)
             log_change("move_deck", note_ids, {"deck": deck_name, "card_count": len(card_ids)})
             return f"Moved {len(card_ids)} card(s) across {len(note_ids)} note(s) to: {deck_name}"
+
+        elif tool_name == "get_note_type_templates":
+            model = col.models.by_name(tool_input["note_type"])
+            if not model:
+                return json.dumps({"error": f"Note type '{tool_input['note_type']}' not found"})
+            templates = []
+            for t in model["tmpls"]:
+                templates.append({"ord": t["ord"], "name": t["name"]})
+            fields = [f["name"] for f in model["flds"]]
+            return json.dumps({"note_type": tool_input["note_type"], "templates": templates, "fields": fields}, ensure_ascii=False)
+
+        elif tool_name == "get_cards_info":
+            note_ids = tool_input["note_ids"][:100]
+            results = []
+            for nid in note_ids:
+                try:
+                    note = col.get_note(nid)
+                    model = note.note_type()
+                    cards_info = []
+                    for card in note.cards():
+                        tmpl_name = model["tmpls"][card.ord]["name"]
+                        queue_names = {-1: "suspended", 0: "new", 1: "learning", 2: "review", 3: "relearn"}
+                        cards_info.append({
+                            "card_id": card.id,
+                            "template": tmpl_name,
+                            "ord": card.ord,
+                            "deck": col.decks.name(card.did),
+                            "suspended": card.queue == -1,
+                            "state": queue_names.get(card.queue, str(card.queue)),
+                            "reviews": card.reps,
+                        })
+                    results.append({"note_id": nid, "cards": cards_info})
+                except Exception as e:
+                    results.append({"note_id": nid, "error": str(e)})
+            return json.dumps(results, ensure_ascii=False)
+
+        elif tool_name in ("suspend_card_type", "unsuspend_card_type"):
+            query = tool_input["query"]
+            template_name = tool_input["template_name"]
+            note_ids = list(col.find_notes(query))
+            card_ids = []
+            for nid in note_ids:
+                try:
+                    note = col.get_note(nid)
+                    model = note.note_type()
+                    for card in note.cards():
+                        if model["tmpls"][card.ord]["name"] == template_name:
+                            card_ids.append(card.id)
+                except Exception:
+                    pass
+            if not card_ids:
+                return f"No '{template_name}' cards found for query: {query}"
+            if tool_name == "suspend_card_type":
+                col.sched.suspend_cards(card_ids)
+                log_change("suspend_card_type", note_ids, {"template": template_name, "card_count": len(card_ids)})
+                return f"Suspended {len(card_ids)} '{template_name}' card(s) across {len(note_ids)} note(s)."
+            else:
+                col.sched.unsuspend_cards(card_ids)
+                log_change("unsuspend_card_type", note_ids, {"template": template_name, "card_count": len(card_ids)})
+                return f"Unsuspended {len(card_ids)} '{template_name}' card(s) across {len(note_ids)} note(s)."
+
+        elif tool_name == "move_card_type":
+            query = tool_input["query"]
+            template_name = tool_input["template_name"]
+            deck_name = tool_input["deck"]
+            note_ids = list(col.find_notes(query))
+            did = col.decks.add_normal_deck_with_name(deck_name).id
+            card_ids = []
+            for nid in note_ids:
+                try:
+                    note = col.get_note(nid)
+                    model = note.note_type()
+                    for card in note.cards():
+                        if model["tmpls"][card.ord]["name"] == template_name:
+                            card_ids.append(card.id)
+                except Exception:
+                    pass
+            if not card_ids:
+                return f"No '{template_name}' cards found for query: {query}"
+            col.set_deck(card_ids, did)
+            log_change("move_card_type", note_ids, {"template": template_name, "deck": deck_name, "card_count": len(card_ids)})
+            return f"Moved {len(card_ids)} '{template_name}' card(s) to deck '{deck_name}'."
 
         else:
             return json.dumps({"error": f"Unknown tool: {tool_name}"})
