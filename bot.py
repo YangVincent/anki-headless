@@ -247,11 +247,18 @@ For non-Chinese knowledge, create Basic cards with Front/Back fields.
 When the user asks for a story or reading practice:
 1. Call `get_vocab_for_story` to get known vocabulary and target words
 2. If the user wants a news-based or current-events story, use `web_search` to find recent Chinese news headlines for inspiration
-3. Write a short story (150-300 characters) in Chinese using ~90-95% known words from the list
-4. Weave in ALL the target words naturally — annotate each target word inline as **word**(pinyin - meaning) on first use
-5. After the story, add a "📖 New words" section listing all target words with pinyin and meaning
-6. The user can ask for a specific topic, difficulty adjustment, or more/fewer new words
-7. If the user wants to create cards for the target words, offer to do so
+3. Write the story following this format exactly:
+
+**Header**: 📖 Chinese story #N (HSK level, topic tag):
+**Title**: 【Chinese title】 followed by English translation on same line
+**Body**: ~350-400 Chinese characters. Use 90-95% known vocab from the list. Write in first person, conversational tone. Use short paragraphs. Mix in dialogue for engagement. Build to an interesting or thought-provoking conclusion.
+**Target words**: Weave in ~5-7 target words naturally. Annotate each on first use as: word（pinyin - meaning）
+**Footer**: After a --- separator:
+  📝 Key vocab: bullet list of all target words with pinyin and meaning
+  📰 Based on: one-line summary of the real news story (if news-based)
+
+4. The user can ask for a specific topic, difficulty adjustment, or more/fewer new words
+5. If the user wants to create cards for the target words, offer to do so
 
 ## Important Rules
 - **Always confirm before destructive actions** (delete, suspend, unsuspend, tag, move). Show what will be affected and ask the user to confirm before calling the modification tool.
@@ -481,7 +488,7 @@ TOOLS = [
                 },
                 "num_target": {
                     "type": "integer",
-                    "description": "Number of target/new words to include (default 8)"
+                    "description": "Number of target/new words to include (default 6)"
                 }
             }
         }
@@ -595,16 +602,16 @@ def execute_tool(tool_name, tool_input):
 
     if tool_name == "get_vocab_for_story":
         num_known = tool_input.get("num_known", 150)
-        num_target = tool_input.get("num_target", 8)
+        num_target = tool_input.get("num_target", 6)
         col = open_collection()
         try:
-            # Known words: reviewed ChineseVocabulary cards (not new, not suspended)
+            # Known words: reviewed ChineseVocabulary cards tagged hanly (not new, not suspended)
             known_ids = list(col.find_notes(
-                f'"note:{CHINESE_VOCAB_NOTETYPE}" -is:new -is:suspended'
+                f'"note:{CHINESE_VOCAB_NOTETYPE}" tag:hanly -is:new -is:suspended'
             ))
-            # Target words: new or suspended ChineseVocabulary cards
+            # Target words: new or suspended ChineseVocabulary cards tagged hanly
             target_ids = list(col.find_notes(
-                f'"note:{CHINESE_VOCAB_NOTETYPE}" (is:new OR is:suspended)'
+                f'"note:{CHINESE_VOCAB_NOTETYPE}" tag:hanly (is:new OR is:suspended)'
             ))
 
             known_sample = random.sample(known_ids, min(num_known, len(known_ids)))
@@ -856,9 +863,7 @@ async def run_conversation(chat_id, bot, message_obj):
                     "name": block.name,
                     "input": block.input,
                 })
-            else:
-                # Preserve server-side tool blocks (web_search, etc.)
-                assistant_content.append(block.model_dump())
+            # Skip server-side tool blocks (web_search) — handled within single API call
 
         chat_histories.setdefault(chat_id, []).append({"role": "assistant", "content": assistant_content})
 
@@ -1203,6 +1208,46 @@ async def _process_json_text_direct(bot, message, chat_id, data, context):
 
 # ── Main ──────────────────────────────────────────────────────────────
 
+def _sync_reverse_cards():
+    """Unsuspend hanly-reverse cards for words started in hanly deck."""
+    col = open_collection()
+    try:
+        # Notes that have been started (reviewed at least once)
+        learned_notes = set(col.find_notes(
+            f'"note:{CHINESE_VOCAB_NOTETYPE}" tag:hanly -is:new -is:suspended'
+        ))
+        # Currently active reverse cards
+        active_reverse = set()
+        for cid in col.find_cards('deck:hanly-reverse -is:suspended'):
+            card = col.get_card(cid)
+            active_reverse.add(card.nid)
+
+        # Find reverse cards that should be unsuspended
+        to_unsuspend = []
+        for cid in col.find_cards('deck:hanly-reverse is:suspended'):
+            card = col.get_card(cid)
+            if card.nid in learned_notes:
+                to_unsuspend.append(cid)
+
+        if to_unsuspend:
+            col.sched.unsuspend_cards(to_unsuspend)
+            return f"Unsuspended {len(to_unsuspend)} reverse cards"
+        return None
+    except Exception as e:
+        return f"Reverse sync failed: {e}"
+    finally:
+        col.close()
+
+
+async def periodic_sync(context):
+    """Background job: sync collection with AnkiWeb, then update reverse cards."""
+    result = await asyncio.to_thread(_sync_collection)
+    log.info(f"Periodic sync: {result}")
+    reverse_result = await asyncio.to_thread(_sync_reverse_cards)
+    if reverse_result:
+        log.info(f"Periodic sync: {reverse_result}")
+
+
 def main():
     log.info("Starting Anki Telegram bot...")
     app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
@@ -1216,6 +1261,10 @@ def main():
     app.add_handler(MessageHandler(filters.Document.ALL, handle_document))
     app.add_handler(MessageHandler(filters.PHOTO, handle_photo))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
+
+    # Sync with AnkiWeb every 5 minutes
+    app.job_queue.run_repeating(periodic_sync, interval=300, first=10)
+    log.info("Scheduled AnkiWeb sync every 5 minutes")
 
     log.info("Bot is running. Press Ctrl+C to stop.")
     app.run_polling()
