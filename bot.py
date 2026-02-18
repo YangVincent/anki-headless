@@ -161,6 +161,54 @@ def has_cjk(text):
                for ch in text)
 
 
+def promote_to_hanly(col, note_ids):
+    """Tag notes with 'hanly', unsuspend forward cards, suspend reverse cards,
+    and move to hanly/hanly-reverse decks. Returns (tagged_count, unsuspended_count)."""
+    hanly_did = col.decks.id_for_name("hanly")
+    hanly_rev_did = col.decks.id_for_name("hanly-reverse")
+    tagged = 0
+    forward_to_unsuspend = []
+    reverse_to_suspend = []
+    forward_cards = []
+    reverse_cards = []
+
+    for nid in note_ids:
+        try:
+            note = col.get_note(nid)
+        except Exception:
+            continue
+        if "hanly" not in [t.lower() for t in note.tags]:
+            note.tags.append("hanly")
+            col.update_note(note)
+            tagged += 1
+        for card in note.cards():
+            if card.ord == 0:
+                forward_cards.append(card.id)
+                if card.queue == -1:
+                    forward_to_unsuspend.append(card.id)
+            elif card.ord == 1:
+                reverse_cards.append(card.id)
+                if card.queue != -1:
+                    reverse_to_suspend.append(card.id)
+
+    if forward_to_unsuspend:
+        col.sched.unsuspend_cards(forward_to_unsuspend)
+    if reverse_to_suspend:
+        col.sched.suspend_cards(reverse_to_suspend)
+    if forward_cards and hanly_did:
+        col.set_deck(forward_cards, hanly_did)
+    if reverse_cards and hanly_rev_did:
+        col.set_deck(reverse_cards, hanly_rev_did)
+
+    return {
+        "tagged": tagged,
+        "forward_unsuspended": len(forward_to_unsuspend),
+        "reverse_suspended": len(reverse_to_suspend),
+        "moved_to_hanly": len(forward_cards),
+        "moved_to_hanly_reverse": len(reverse_cards),
+    }
+
+
 def _collect_card_ids(col, note_ids):
     """Collect card IDs from note IDs, skipping missing notes."""
     card_ids = []
@@ -195,11 +243,42 @@ def _looks_like_json_fragment(text):
 chat_histories = {}  # {chat_id: [{"role": "user"/"assistant", "content": ...}]}
 
 
-def _trim_history(chat_id, max_messages=50):
-    """Trim conversation history from the front, keeping recent messages."""
+def _truncate_content(content, max_chars=20000):
+    """Truncate a tool result string to prevent history bloat."""
+    if isinstance(content, str) and len(content) > max_chars:
+        return content[:max_chars] + f"\n\n[... truncated from {len(content):,} chars]"
+    return content
+
+
+def _estimate_history_chars(chat_id):
+    """Rough estimate of total characters in conversation history."""
+    total = 0
+    for msg in chat_histories.get(chat_id, []):
+        content = msg.get("content", "")
+        if isinstance(content, str):
+            total += len(content)
+        elif isinstance(content, list):
+            for item in content:
+                if isinstance(item, dict):
+                    if item.get("type") == "image":
+                        total += 1000  # rough proxy for image token cost
+                    else:
+                        total += len(json.dumps(item, ensure_ascii=False))
+        else:
+            total += len(str(content))
+    return total
+
+
+def _trim_history(chat_id, max_messages=50, max_chars=300000):
+    """Trim conversation history by count and total size."""
     hist = chat_histories.get(chat_id, [])
     if len(hist) > max_messages:
         chat_histories[chat_id] = hist[-max_messages:]
+    # Also trim by total estimated size
+    while len(chat_histories.get(chat_id, [])) > 2:
+        if _estimate_history_chars(chat_id) <= max_chars:
+            break
+        chat_histories[chat_id] = chat_histories[chat_id][2:]  # drop oldest pair
 
 
 # ── Unified system prompt ─────────────────────────────────────────────
@@ -245,7 +324,7 @@ For non-Chinese knowledge, create Basic cards with Front/Back fields.
 
 ## Chinese Reading Stories
 When the user asks for a story or reading practice:
-1. Call `get_vocab_for_story` to get known vocabulary and target words
+1. Call `get_vocab_for_story` AND `get_grammar_for_story` to get known vocabulary, target words, and grammar patterns
 2. If the user wants a news-based or current-events story, use `web_search` to find recent Chinese news headlines for inspiration
 3. Write the story following this format exactly:
 
@@ -253,8 +332,10 @@ When the user asks for a story or reading practice:
 **Title**: 【Chinese title】 followed by English translation on same line
 **Body**: ~350-400 Chinese characters. Use 90-95% known vocab from the list. Write in first person, conversational tone. Use short paragraphs. Mix in dialogue for engagement. Build to an interesting or thought-provoking conclusion.
 **Target words**: Weave in ~5-7 target words naturally. Annotate each on first use as: word（pinyin - meaning）
+**Grammar**: Naturally incorporate the grammar patterns from `get_grammar_for_story`. On first use of each pattern, annotate it as: [grammar structure]（pattern formula）
 **Footer**: After a --- separator:
   📝 Key vocab: bullet list of all target words with pinyin and meaning
+  📗 Grammar patterns: bullet list of each grammar pattern used, with the formula and one example from the story
   📰 Based on: one-line summary of the real news story (if news-based)
 
 4. The user can ask for a specific topic, difficulty adjustment, or more/fewer new words
@@ -557,6 +638,19 @@ TOOLS = [
             }
         }
     },
+    {
+        "name": "get_grammar_for_story",
+        "description": "Get grammar patterns for story generation. Returns 2-3 grammar patterns with example sentences from the hanly-grammar deck. Call this alongside get_vocab_for_story before writing a Chinese reading story.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "num_patterns": {
+                    "type": "integer",
+                    "description": "Number of grammar patterns to sample (default 3)"
+                }
+            }
+        }
+    },
 ]
 
 # ── Tool execution ────────────────────────────────────────────────────
@@ -710,6 +804,65 @@ def execute_tool(tool_name, tool_input):
         finally:
             col.close()
 
+    if tool_name == "get_grammar_for_story":
+        num_patterns = tool_input.get("num_patterns", 3)
+        col = open_collection()
+        try:
+            # Find all hanly-grammar tagged sentences
+            grammar_ids = list(col.find_notes('note:ChineseSentences tag:hanly-grammar'))
+
+            # Group by grammar tag
+            tag_groups = {}  # {grammar_tag: [note_id, ...]}
+            for nid in grammar_ids:
+                note = col.get_note(nid)
+                for tag in note.tags:
+                    if tag.startswith("grammar::"):
+                        tag_groups.setdefault(tag, []).append(nid)
+
+            if not tag_groups:
+                return json.dumps({"error": "No hanly-grammar sentences found. Run --tag-hanly first."})
+
+            # Sample grammar patterns (prefer tags with more examples)
+            available_tags = list(tag_groups.keys())
+            selected_tags = random.sample(available_tags, min(num_patterns, len(available_tags)))
+
+            patterns = []
+            for tag in selected_tags:
+                nids = tag_groups[tag]
+                sample_nids = random.sample(nids, min(3, len(nids)))
+                examples = []
+                grammar_notes = []
+                for nid in sample_nids:
+                    note = col.get_note(nid)
+                    examples.append({
+                        "simplified": strip_html(note["Simplified"]),
+                        "pinyin": strip_html(note["Pinyin"]),
+                        "meaning": strip_html(note["Meaning"]),
+                    })
+                    gn1 = strip_html(note["GrammarNotes1"]).strip()
+                    gn2 = strip_html(note["GrammarNotes2"]).strip()
+                    if gn1 and gn1 not in grammar_notes:
+                        grammar_notes.append(gn1)
+                    if gn2 and gn2 not in grammar_notes:
+                        grammar_notes.append(gn2)
+
+                patterns.append({
+                    "grammar_tag": tag,
+                    "pattern_formulas": grammar_notes[:3],
+                    "examples": examples,
+                    "total_sentences": len(nids),
+                })
+
+            return json.dumps({
+                "patterns": patterns,
+                "total_grammar_tags": len(tag_groups),
+                "total_grammar_sentences": len(grammar_ids),
+            }, ensure_ascii=False)
+        except Exception as e:
+            return json.dumps({"error": str(e)})
+        finally:
+            col.close()
+
     # All remaining tools need the collection
     col = open_collection()
     try:
@@ -819,22 +972,48 @@ def execute_tool(tool_name, tool_input):
             query = tool_input["query"]
             tags = tool_input.get("tags", [])
             note_ids = list(col.find_notes(query))
-            skipped = 0
-            for nid in note_ids:
-                try:
-                    note = col.get_note(nid)
-                    existing = {t.lower() for t in note.tags}
-                    for tag in tags:
-                        if tag.lower() not in existing:
-                            note.tags.append(tag)
-                    col.update_note(note)
-                except Exception:
-                    skipped += 1
-            log_change("tag", note_ids, {"tags": tags})
-            msg = f"Tagged {len(note_ids) - skipped} note(s) with: {', '.join(tags)}"
-            if skipped:
-                msg += f" ({skipped} missing notes skipped)"
-            return msg
+            adding_hanly = "hanly" in [t.lower() for t in tags]
+
+            if adding_hanly:
+                result = promote_to_hanly(col, note_ids)
+                # Also add any non-hanly tags
+                other_tags = [t for t in tags if t.lower() != "hanly"]
+                if other_tags:
+                    for nid in note_ids:
+                        try:
+                            note = col.get_note(nid)
+                            existing = {t.lower() for t in note.tags}
+                            for tag in other_tags:
+                                if tag.lower() not in existing:
+                                    note.tags.append(tag)
+                            col.update_note(note)
+                        except Exception:
+                            pass
+                log_change("tag", note_ids, {"tags": tags})
+                parts = [f"Tagged {result['tagged']} note(s) with hanly."]
+                if result["forward_unsuspended"]:
+                    parts.append(f"Unsuspended {result['forward_unsuspended']} forward card(s) in hanly deck.")
+                if result["reverse_suspended"]:
+                    parts.append(f"Suspended {result['reverse_suspended']} reverse card(s) in hanly-reverse deck.")
+                parts.append(f"Moved {result['moved_to_hanly']} to hanly, {result['moved_to_hanly_reverse']} to hanly-reverse.")
+                return " ".join(parts)
+            else:
+                skipped = 0
+                for nid in note_ids:
+                    try:
+                        note = col.get_note(nid)
+                        existing = {t.lower() for t in note.tags}
+                        for tag in tags:
+                            if tag.lower() not in existing:
+                                note.tags.append(tag)
+                        col.update_note(note)
+                    except Exception:
+                        skipped += 1
+                log_change("tag", note_ids, {"tags": tags})
+                msg = f"Tagged {len(note_ids) - skipped} note(s) with: {', '.join(tags)}"
+                if skipped:
+                    msg += f" ({skipped} missing notes skipped)"
+                return msg
 
         elif tool_name == "remove_tags":
             query = tool_input["query"]
@@ -975,6 +1154,32 @@ async def run_conversation(chat_id, bot, message_obj):
                 tools=TOOLS + [{"type": "web_search_20250305", "name": "web_search", "max_uses": 3}],
                 messages=history,
             )
+        except anthropic.BadRequestError as e:
+            error_msg = str(e).lower()
+            if any(k in error_msg for k in ("too long", "too many tokens", "context length", "content size")):
+                log.warning(f"Context too large for chat {chat_id}, trimming history and retrying")
+                _trim_history(chat_id, max_messages=6, max_chars=50000)
+                history = chat_histories.get(chat_id, [])
+                try:
+                    response = await asyncio.to_thread(
+                        claude.messages.create,
+                        model="claude-sonnet-4-5-20250929",
+                        max_tokens=4096,
+                        system=SYSTEM_PROMPT,
+                        tools=TOOLS + [{"type": "web_search_20250305", "name": "web_search", "max_uses": 3}],
+                        messages=history,
+                    )
+                except Exception as retry_err:
+                    log.error(f"Retry after trim also failed: {retry_err}")
+                    chat_histories[chat_id] = chat_histories.get(chat_id, [])[-2:]
+                    await message_obj.reply_text(
+                        "History was too large. I've cleared most of it — please try again."
+                    )
+                    return
+            else:
+                log.error(f"Claude API error: {e}")
+                await message_obj.reply_text(f"Claude API error: {e}")
+                return
         except Exception as e:
             log.error(f"Claude API error: {e}")
             await message_obj.reply_text(f"Claude API error: {e}")
@@ -1016,9 +1221,9 @@ async def run_conversation(chat_id, bot, message_obj):
         # Send any thinking/status text to user
         for block in text_blocks:
             try:
-                await message_obj.reply_text(block.text, parse_mode="Markdown")
+                await send_long_message(message_obj, block.text, parse_mode="Markdown")
             except Exception:
-                await message_obj.reply_text(block.text)
+                await send_long_message(message_obj, block.text)
 
         # Execute each tool
         tool_results = []
@@ -1033,7 +1238,7 @@ async def run_conversation(chat_id, bot, message_obj):
             tool_results.append({
                 "type": "tool_result",
                 "tool_use_id": block.id,
-                "content": result,
+                "content": _truncate_content(result),
             })
 
         # Append tool results to history
@@ -1337,7 +1542,7 @@ async def _process_json_text_direct(bot, message, chat_id, data, context):
 
     try:
         result = subprocess.run(
-            ["/home/vincent/anki/.venv/bin/python", ANALYZE_SCRIPT, str(snap_path)],
+            ["/home/vincent/anki/.venv/bin/python", ANALYZE_SCRIPT, str(snap_path), "--tag-hanly"],
             capture_output=True, text=True, timeout=120,
         )
         output = result.stdout
@@ -1385,6 +1590,33 @@ def _sync_reverse_cards():
         col.close()
 
 
+def _sync_grammar_reverse_cards():
+    """Unsuspend hanly-grammar-reverse cards when the forward card has been reviewed."""
+    col = open_collection()
+    try:
+        # Notes whose forward card has been started in hanly-grammar
+        learned_notes = set()
+        for cid in col.find_cards('deck:hanly-grammar -is:new -is:suspended'):
+            card = col.get_card(cid)
+            learned_notes.add(card.nid)
+
+        # Unsuspend grammar-reverse cards for those notes
+        to_unsuspend = []
+        for cid in col.find_cards('deck:hanly-grammar-reverse is:suspended'):
+            card = col.get_card(cid)
+            if card.nid in learned_notes:
+                to_unsuspend.append(cid)
+
+        if to_unsuspend:
+            col.sched.unsuspend_cards(to_unsuspend)
+            return f"Unsuspended {len(to_unsuspend)} grammar reverse cards"
+        return None
+    except Exception as e:
+        return f"Grammar reverse sync failed: {e}"
+    finally:
+        col.close()
+
+
 async def periodic_sync(context):
     """Background job: sync collection with AnkiWeb, then update reverse cards."""
     result = await asyncio.to_thread(_sync_collection)
@@ -1392,6 +1624,9 @@ async def periodic_sync(context):
     reverse_result = await asyncio.to_thread(_sync_reverse_cards)
     if reverse_result:
         log.info(f"Periodic sync: {reverse_result}")
+    grammar_reverse_result = await asyncio.to_thread(_sync_grammar_reverse_cards)
+    if grammar_reverse_result:
+        log.info(f"Periodic sync: {grammar_reverse_result}")
 
 
 def main():
