@@ -288,9 +288,10 @@ SYSTEM_PROMPT = """You are an Anki card creation and collection management assis
 ## Capabilities
 1. **Chinese vocabulary cards** — create ChineseVocabulary note type cards
 2. **General cards** — create Basic note type cards for any topic
-3. **Collection management** — search, suspend, unsuspend, delete, tag, move cards
-4. **Image analysis** — OCR Chinese text from photos, offer to create cards
-5. **Collection stats** — report on deck sizes, due counts, etc.
+3. **Edit cards** — modify field values on existing notes (use get_notes_detail first to see current values)
+4. **Collection management** — search, suspend, unsuspend, delete, tag, move cards
+5. **Image analysis** — OCR Chinese text from photos, offer to create cards
+6. **Collection stats** — report on deck sizes, due counts, etc.
 
 ## Chinese Vocabulary Cards
 When the user sends Chinese characters (word or short phrase), look it up and offer to create a card.
@@ -343,7 +344,7 @@ When the user asks for a story or reading practice:
 
 ## Important Rules
 - **Always confirm before destructive actions** (delete, suspend, unsuspend, tag, move). Show what will be affected and ask the user to confirm before calling the modification tool.
-- **Always sync after modifications** — call sync_collection after any add/delete/suspend/tag/move operation.
+- **Always sync after modifications** — call sync_collection after any add/edit/delete/suspend/tag/move operation.
 - For card creation, show a preview of what you'll create and ask for confirmation before calling add_chinese_vocab or add_general_card.
 - When analyzing images, list the words you found and ask which ones to create cards for.
 - Keep responses concise — this is a Telegram chat, not an essay.
@@ -546,6 +547,24 @@ TOOLS = [
                 "deck": {"type": "string", "description": "Target deck name"}
             },
             "required": ["query", "deck"]
+        }
+    },
+    {
+        "name": "edit_note",
+        "description": "Edit field values on an existing note. Use get_notes_detail first to see current values. Confirm with user first.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "note_id": {
+                    "type": "integer",
+                    "description": "The note ID to edit"
+                },
+                "fields": {
+                    "type": "object",
+                    "description": "Map of field names to new values (e.g., {\"Meaning\": \"new meaning\", \"Pinyin\": \"xīn pīnyīn\"}). Only include fields you want to change."
+                }
+            },
+            "required": ["note_id", "fields"]
         }
     },
     {
@@ -1043,6 +1062,32 @@ def execute_tool(tool_name, tool_input):
             col.set_deck(card_ids, did)
             log_change("move_deck", note_ids, {"deck": deck_name, "card_count": len(card_ids)})
             return f"Moved {len(card_ids)} card(s) across {len(note_ids)} note(s) to: {deck_name}"
+
+        elif tool_name == "edit_note":
+            nid = tool_input["note_id"]
+            new_fields = tool_input.get("fields", {})
+            try:
+                note = col.get_note(nid)
+                model = note.note_type()
+                field_names = [f["name"] for f in model["flds"]]
+                updated = {}
+                skipped = {}
+                for fname, fval in new_fields.items():
+                    if fname in field_names:
+                        idx = field_names.index(fname)
+                        old_val = strip_html(note.fields[idx])
+                        note.fields[idx] = fval
+                        updated[fname] = {"old": old_val[:100], "new": fval[:100]}
+                    else:
+                        skipped[fname] = f"field not found in note type '{model['name']}'"
+                col.update_note(note)
+                log_change("edit_note", [nid], {"fields_updated": list(updated.keys())})
+                result = {"success": True, "note_id": nid, "updated": updated}
+                if skipped:
+                    result["skipped"] = skipped
+                return json.dumps(result, ensure_ascii=False)
+            except Exception as e:
+                return json.dumps({"error": str(e)})
 
         elif tool_name == "get_note_type_templates":
             model = col.models.by_name(tool_input["note_type"])
