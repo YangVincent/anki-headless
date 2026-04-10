@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Anki Quick Add",
+  "version": "1.0",
+  "description": "Send selected Chinese text to Anki bot for card creation",
+  "permissions": ["storage", "contextMenus", "activeTab"],
+  "host_permissions": ["https://anki.aeonneo.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  }
+}

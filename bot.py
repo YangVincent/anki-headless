@@ -8,10 +8,14 @@ import logging
 import os
 import random
 import re
+import signal
 import subprocess
 import unicodedata
+import uuid
 from datetime import datetime
 from pathlib import Path
+
+from aiohttp import web
 
 import anthropic
 import httpx
@@ -71,6 +75,8 @@ CONFIG = load_config()
 TELEGRAM_TOKEN = CONFIG["telegram_bot_token"]
 ANTHROPIC_KEY = CONFIG["anthropic_api_key"]
 DEFAULT_DECK = CONFIG.get("default_deck", DEFAULT_DECK)
+API_KEY = CONFIG.get("api_key", "")
+API_PORT = CONFIG.get("api_port", 8103)
 
 claude = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
 
@@ -342,6 +348,9 @@ When the user asks for a story or reading practice:
 4. The user can ask for a specific topic, difficulty adjustment, or more/fewer new words
 5. If the user wants to create cards for the target words, offer to do so
 
+## User Preferences
+- Chinese vocabulary deck: **hanly** (not Knowledge::Languages::Chinese::Vocabulary)
+
 ## Important Rules
 - **Always confirm before destructive actions** (delete, suspend, unsuspend, tag, move). Show what will be affected and ask the user to confirm before calling the modification tool.
 - **Always sync after modifications** — call sync_collection after any add/edit/delete/suspend/tag/move operation.
@@ -350,6 +359,31 @@ When the user asks for a story or reading practice:
 - Keep responses concise — this is a Telegram chat, not an essay.
 - For large result sets needing semantic filtering, use get_field_values to inspect content efficiently.
 - When user confirms (yes/y/ok/sure/do it), proceed with the action without asking again.
+"""
+
+API_SYSTEM_PROMPT = """You are an Anki card creation assistant for Chinese vocabulary, invoked via API.
+You receive a Chinese word or phrase. Execute the following steps autonomously — no confirmation needed.
+
+## Steps
+1. **Search** for an existing card: use search_notes with query `Simplified:<word>`
+2. **If found**: use get_notes_detail to inspect it. If any fields are weak/empty (missing pinyin, meaning, sentence, traditional), improve them with edit_note.
+3. **If not found**: create a new card with add_chinese_vocab. Use tone-marked pinyin (ā á ǎ à), include traditional characters, a natural example sentence, and part of speech.
+4. **Ensure hanly deck**: use tag_notes to add the "hanly" tag (this automatically promotes to the hanly deck). Skip if the card already has the hanly tag.
+5. **Sync**: call sync_collection.
+
+## Response format
+After completing all steps, respond with ONLY a JSON object (no markdown, no explanation):
+{"status": "created" or "improved", "word": "<simplified>", "pinyin": "<pinyin>", "meaning": "<meaning>", "action_details": "<brief description of what was done>"}
+
+If the word already exists and all fields are complete, return:
+{"status": "already_exists", "word": "<simplified>", "pinyin": "<pinyin>", "meaning": "<meaning>", "action_details": "Card already complete in hanly deck"}
+
+## Rules
+- Act immediately. Do NOT ask for confirmation.
+- Use tone-marked pinyin, never numbered.
+- Always provide traditional characters even if same as simplified.
+- Default tags: ["claude", "chinese"]
+- Keep the example sentence natural and at an intermediate level.
 """
 
 # ── Tools ─────────────────────────────────────────────────────────────
@@ -671,6 +705,12 @@ TOOLS = [
         }
     },
 ]
+
+API_TOOL_NAMES = {
+    "search_notes", "get_notes_detail", "get_field_values",
+    "add_chinese_vocab", "edit_note", "tag_notes", "sync_collection"
+}
+API_TOOLS = [t for t in TOOLS if t["name"] in API_TOOL_NAMES]
 
 # ── Tool execution ────────────────────────────────────────────────────
 
@@ -1294,6 +1334,128 @@ async def run_conversation(chat_id, bot, message_obj):
     await message_obj.reply_text("Reached maximum conversation turns. Please try again.")
 
 
+# ── API conversation loop ─────────────────────────────────────────────
+
+async def run_api_conversation(word: str, context: str = "") -> dict:
+    """Run Claude conversation loop for API card creation. Returns result dict."""
+    session_id = f"api_{uuid.uuid4().hex[:8]}"
+    prompt = f"Process this word for my Anki collection: {word}"
+    if context:
+        prompt += f"\nContext: {context}"
+
+    chat_histories[session_id] = [{"role": "user", "content": prompt}]
+
+    MAX_TURNS = 10
+    final_text = ""
+
+    try:
+        for turn in range(MAX_TURNS):
+            history = chat_histories.get(session_id, [])
+
+            try:
+                response = await asyncio.to_thread(
+                    claude.messages.create,
+                    model="claude-sonnet-4-5-20250929",
+                    max_tokens=2048,
+                    system=API_SYSTEM_PROMPT,
+                    tools=API_TOOLS,
+                    messages=history,
+                )
+            except Exception as e:
+                log.error(f"API Claude error: {e}")
+                return {"status": "error", "message": str(e)}
+
+            tool_use_blocks = [b for b in response.content if b.type == "tool_use"]
+            text_blocks = [b for b in response.content if hasattr(b, "text") and b.text.strip()]
+
+            if not tool_use_blocks:
+                # Final text response
+                final_text = "\n\n".join(b.text for b in text_blocks) if text_blocks else ""
+                break
+
+            # Build assistant content
+            assistant_content = []
+            for block in response.content:
+                if block.type == "text":
+                    assistant_content.append({"type": "text", "text": block.text})
+                elif block.type == "tool_use":
+                    assistant_content.append({
+                        "type": "tool_use",
+                        "id": block.id,
+                        "name": block.name,
+                        "input": block.input,
+                    })
+
+            chat_histories[session_id].append({"role": "assistant", "content": assistant_content})
+
+            # Execute tools
+            tool_results = []
+            for block in tool_use_blocks:
+                log.info(f"API tool call: {block.name}({json.dumps(block.input, ensure_ascii=False)[:200]})")
+                try:
+                    result = execute_tool(block.name, block.input)
+                except Exception as e:
+                    log.error(f"API tool error ({block.name}): {e}")
+                    result = json.dumps({"error": str(e)})
+
+                tool_results.append({
+                    "type": "tool_result",
+                    "tool_use_id": block.id,
+                    "content": _truncate_content(result),
+                })
+
+            chat_histories[session_id].append({"role": "user", "content": tool_results})
+
+        # Parse JSON from Claude's final response
+        try:
+            return json.loads(final_text)
+        except (json.JSONDecodeError, ValueError):
+            return {"status": "completed", "message": final_text}
+
+    finally:
+        # Clean up ephemeral session
+        chat_histories.pop(session_id, None)
+
+
+# ── HTTP API server ───────────────────────────────────────────────────
+
+@web.middleware
+async def auth_middleware(request, handler):
+    if request.path.startswith('/api/'):
+        auth = request.headers.get('Authorization', '')
+        if auth != f'Bearer {API_KEY}':
+            return web.json_response({"error": "unauthorized"}, status=401)
+    return await handler(request)
+
+
+async def handle_api_card(request):
+    """POST /api/card — create or improve a card for a word."""
+    try:
+        body = await request.json()
+    except Exception:
+        return web.json_response({"error": "invalid JSON"}, status=400)
+
+    word = body.get("word", "").strip()
+    ctx = body.get("context", "")
+    if not word:
+        return web.json_response({"error": "word is required"}, status=400)
+
+    log.info(f"API request: word={word!r}")
+    result = await run_api_conversation(word, ctx)
+    return web.json_response(result, dumps=lambda obj: json.dumps(obj, ensure_ascii=False))
+
+
+async def handle_health(request):
+    return web.json_response({"status": "ok"})
+
+
+def create_web_app():
+    app = web.Application(middlewares=[auth_middleware])
+    app.router.add_post('/api/card', handle_api_card)
+    app.router.add_get('/health', handle_health)
+    return app
+
+
 # ── Telegram handlers ─────────────────────────────────────────────────
 
 async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -1674,26 +1836,56 @@ async def periodic_sync(context):
         log.info(f"Periodic sync: {grammar_reverse_result}")
 
 
-def main():
-    log.info("Starting Anki Telegram bot...")
-    app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
+async def main_async():
+    log.info("Starting Anki Telegram bot + API server...")
 
-    app.add_handler(CommandHandler("start", cmd_start))
-    app.add_handler(CommandHandler("status", cmd_status))
-    app.add_handler(CommandHandler("decks", cmd_decks))
-    app.add_handler(CommandHandler("help", cmd_help))
-    app.add_handler(CommandHandler("clear", cmd_clear))
-    app.add_handler(CommandHandler("log", cmd_log))
-    app.add_handler(MessageHandler(filters.Document.ALL, handle_document))
-    app.add_handler(MessageHandler(filters.PHOTO, handle_photo))
-    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
+    # Build Telegram app
+    tg_app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
 
-    # Sync with AnkiWeb every 5 minutes
-    app.job_queue.run_repeating(periodic_sync, interval=300, first=10)
+    tg_app.add_handler(CommandHandler("start", cmd_start))
+    tg_app.add_handler(CommandHandler("status", cmd_status))
+    tg_app.add_handler(CommandHandler("decks", cmd_decks))
+    tg_app.add_handler(CommandHandler("help", cmd_help))
+    tg_app.add_handler(CommandHandler("clear", cmd_clear))
+    tg_app.add_handler(CommandHandler("log", cmd_log))
+    tg_app.add_handler(MessageHandler(filters.Document.ALL, handle_document))
+    tg_app.add_handler(MessageHandler(filters.PHOTO, handle_photo))
+    tg_app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
+
+    tg_app.job_queue.run_repeating(periodic_sync, interval=300, first=10)
     log.info("Scheduled AnkiWeb sync every 5 minutes")
 
-    log.info("Bot is running. Press Ctrl+C to stop.")
-    app.run_polling()
+    # Start HTTP API server
+    web_app = create_web_app()
+    runner = web.AppRunner(web_app)
+    await runner.setup()
+    site = web.TCPSite(runner, '127.0.0.1', API_PORT)
+    await site.start()
+    log.info(f"API server listening on 127.0.0.1:{API_PORT}")
+
+    # Start Telegram polling (the 3 steps that run_polling() wraps)
+    await tg_app.initialize()
+    await tg_app.updater.start_polling()
+    await tg_app.start()
+    log.info("Telegram polling started. Press Ctrl+C to stop.")
+
+    # Wait for shutdown signal
+    stop = asyncio.Event()
+    loop = asyncio.get_event_loop()
+    for sig in (signal.SIGINT, signal.SIGTERM):
+        loop.add_signal_handler(sig, stop.set)
+    await stop.wait()
+
+    # Graceful shutdown
+    log.info("Shutting down...")
+    await tg_app.updater.stop()
+    await tg_app.stop()
+    await tg_app.shutdown()
+    await runner.cleanup()
+
+
+def main():
+    asyncio.run(main_async())
 
 
 if __name__ == "__main__":
