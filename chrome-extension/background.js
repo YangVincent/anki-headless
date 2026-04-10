@@ -1,5 +1,9 @@
 const API_URL = "https://anki.aeonneo.com/api/card";
 
+function notify(tabId, title, message, isError = false) {
+  chrome.tabs.sendMessage(tabId, { type: "anki-toast", title, message, isError });
+}
+
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "add-to-anki",
@@ -24,6 +28,7 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
   // Show loading state
   chrome.action.setBadgeText({ text: "...", tabId: tab.id });
   chrome.action.setBadgeBackgroundColor({ color: "#3B82F6", tabId: tab.id });
+  chrome.tabs.sendMessage(tab.id, { type: "anki-toast", title: "Anki", message: `Adding "${word}"...`, isLoading: true });
 
   try {
     const resp = await fetch(API_URL, {
@@ -40,17 +45,20 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
     if (resp.ok && data.status !== "error") {
       chrome.action.setBadgeText({ text: "OK", tabId: tab.id });
       chrome.action.setBadgeBackgroundColor({ color: "#10B981", tabId: tab.id });
-      // Store last result for popup display
       chrome.storage.local.set({ lastResult: data });
+      const detail = data.word ? `${data.word} (${data.pinyin}) — ${data.meaning}` : "Card saved";
+      notify(tab.id, `Anki: ${data.status}`, detail);
     } else {
       chrome.action.setBadgeText({ text: "ERR", tabId: tab.id });
       chrome.action.setBadgeBackgroundColor({ color: "#EF4444", tabId: tab.id });
       chrome.storage.local.set({ lastResult: data });
+      notify(tab.id, "Anki: Error", data.message || "Something went wrong", true);
     }
   } catch (err) {
     chrome.action.setBadgeText({ text: "ERR", tabId: tab.id });
     chrome.action.setBadgeBackgroundColor({ color: "#EF4444", tabId: tab.id });
     chrome.storage.local.set({ lastResult: { status: "error", message: err.message } });
+    notify(tab.id, "Anki: Error", err.message, true);
   }
 
   setTimeout(() => chrome.action.setBadgeText({ text: "", tabId: tab.id }), 4000);

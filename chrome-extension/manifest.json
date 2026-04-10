@@ -5,11 +5,26 @@
   "description": "Send selected Chinese text to Anki bot for card creation",
   "permissions": ["storage", "contextMenus", "activeTab"],
   "host_permissions": ["https://anki.aeonneo.com/*"],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "run_at": "document_idle"
+  }],
   "background": {
     "service_worker": "background.js"
   },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
   },
   "options_ui": {
     "page": "options.html",
