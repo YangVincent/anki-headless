@@ -1,0 +1,26 @@
+[
+  {
+    "nid": 1537328247711,
+    "word": "新款",
+    "sent_simp": "这家店刚到了几部新款手机。",
+    "sent_trad": "這家店剛到了幾部新款手機。",
+    "pinyin": "Zhè jiā diàn gāng dào le jǐ bù xīnkuǎn shǒujī.",
+    "english": "This store just received several new-model smartphones."
+  },
+  {
+    "nid": 1717270475719,
+    "word": "离合",
+    "sent_simp": "学开手动挡时，踩离合的时机很重要。",
+    "sent_trad": "學開手動擋時，踩離合的時機很重要。",
+    "pinyin": "Xué kāi shǒudòng dǎng shí, cǎi lí hé de shíjī hěn zhòngyào.",
+    "english": "When learning to drive a manual car, timing the clutch is very important."
+  },
+  {
+    "nid": 1708747496028,
+    "word": "路基",
+    "sent_simp": "施工队正在加固这段公路的路基。",
+    "sent_trad": "施工隊正在加固這段公路的路基。",
+    "pinyin": "Shīgōng duì zhèngzài jiāgù zhè duàn gōnglù de lùjī.",
+    "english": "The construction crew is reinforcing the roadbed of this section of highway."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "nid": 1708747518223,
+    "word": "如画",
+    "sent_simp": "村子里的景色如画，让人不想离开。",
+    "sent_trad": "村子裡的景色如畫，讓人不想離開。",
+    "pinyin": "Cūnzi lǐ de jǐngsè rúhuà, ràng rén bù xiǎng líkāi.",
+    "english": "The scenery in the village is picturesque — no one wants to leave."
+  },
+  {
+    "nid": 1717270485185,
+    "word": "领事",
+    "sent_simp": "他在当地认识了一位中国领事。",
+    "sent_trad": "他在當地認識了一位中國領事。",
+    "pinyin": "Tā zài dāngdì rènshi le yī wèi Zhōngguó lǐngshì.",
+    "english": "He got to know a Chinese consul while living there."
+  },
+  {
+    "nid": 1717270471911,
+    "word": "班机",
+    "sent_simp": "他赶上了最后一趟班机回家。",
+    "sent_trad": "他趕上了最後一趟班機回家。",
+    "pinyin": "Tā gǎn shàng le zuìhòu yī tàng bānjī huíjiā.",
+    "english": "He caught the last flight home."
+  }
+]

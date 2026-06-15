@@ -1,0 +1,26 @@
+[
+  {
+    "nid": 1781538470305,
+    "word": "收报",
+    "sent_simp": "以前人们靠收报来获取远方的消息。",
+    "sent_trad": "以前人們靠收報來獲取遠方的消息。",
+    "pinyin": "Yǐqián rénmen kào shōu bào lái huòqǔ yuǎnfāng de xiāoxi.",
+    "english": "In the old days, people relied on receiving telegraphs to get news from afar."
+  },
+  {
+    "nid": 1717270473543,
+    "word": "热电",
+    "sent_simp": "这种材料具有热电效应，受热后会产生电荷。",
+    "sent_trad": "這種材料具有熱電效應，受熱後會產生電荷。",
+    "pinyin": "Zhè zhǒng cáiliào jùyǒu rèdiàn xiàoyìng, shòu rè hòu huì chǎnshēng diànhè.",
+    "english": "This material has a pyroelectric effect — when heated, it generates an electric charge."
+  },
+  {
+    "nid": 1708747490532,
+    "word": "混沌",
+    "sent_simp": "传说世界最初是一片混沌，天地尚未分开。",
+    "sent_trad": "傳說世界最初是一片混沌，天地尚未分開。",
+    "pinyin": "Chuánshuō shìjiè zuìchū shì yī piàn hùndùn, tiāndì shàngwèi fēnkāi.",
+    "english": "Legend has it that the world was originally a formless chaos, with heaven and earth not yet separated."
+  }
+]

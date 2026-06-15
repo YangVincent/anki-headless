@@ -1,0 +1,58 @@
+[
+  {
+    "nid": 1537328247990,
+    "word": "外籍",
+    "sent_simp": "公司里有几位外籍员工。",
+    "sent_trad": "公司裡有幾位外籍員工。",
+    "pinyin": "Gōngsī lǐ yǒu jǐ wèi wàijí yuángōng.",
+    "english": "There are a few foreign employees in the company."
+  },
+  {
+    "nid": 1393817669243,
+    "word": "季度",
+    "sent_simp": "公司每个季度都会发一次奖金。",
+    "sent_trad": "公司每個季度都會發一次獎金。",
+    "pinyin": "Gōngsī měi gè jìdù dōu huì fā yī cì jiǎngjīn.",
+    "english": "The company pays out bonuses every quarter."
+  },
+  {
+    "nid": 1708747489436,
+    "word": "事务所",
+    "sent_simp": "他在一家律师事务所实习。",
+    "sent_trad": "他在一家律師事務所實習。",
+    "pinyin": "Tā zài yī jiā lǜshī shìwùsuǒ shíxí.",
+    "english": "He is doing an internship at a law firm."
+  },
+  {
+    "nid": 1708747502087,
+    "word": "浏览器",
+    "sent_simp": "你用什么浏览器上网？",
+    "sent_trad": "你用什麼瀏覽器上網？",
+    "pinyin": "Nǐ yòng shénme liúlǎnqì shàngwǎng?",
+    "english": "What browser do you use to surf the internet?"
+  },
+  {
+    "nid": 1708747526970,
+    "word": "月初",
+    "sent_simp": "房租一般在月初的时候缴。",
+    "sent_trad": "房租一般在月初的時候繳。",
+    "pinyin": "Fángzū yībān zài yuèchū de shíhou jiǎo.",
+    "english": "Rent is usually paid at the beginning of the month."
+  },
+  {
+    "nid": 1781542161809,
+    "word": "受过",
+    "sent_simp": "他替朋友受过，被老板骂了一顿。",
+    "sent_trad": "他替朋友受過，被老闆罵了一頓。",
+    "pinyin": "Tā tì péngyou shòuguò, bèi lǎobǎn mà le yī dùn.",
+    "english": "He took the blame for his friend and got scolded by the boss."
+  },
+  {
+    "nid": 1393817668877,
+    "word": "电源",
+    "sent_simp": "这台电脑的电源坏了。",
+    "sent_trad": "這台電腦的電源壞了。",
+    "pinyin": "Zhè tái diànnǎo de diànyuán huài le.",
+    "english": "The power supply on this computer is broken."
+  }
+]

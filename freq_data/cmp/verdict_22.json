@@ -1,0 +1,1 @@
+{"nid": 1708747520927, "word": "降水", "verdict": "use_new", "reason": "The old sentence uses 降水量 (a different compound noun) rather than 降水 itself, burying the target word inside a different term; the new sentence uses 降水 directly and naturally."}

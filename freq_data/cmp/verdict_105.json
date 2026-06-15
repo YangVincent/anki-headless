@@ -1,0 +1,1 @@
+{"nid": 1710963504912, "word": "三部曲", "verdict": "use_new", "reason": "The old sentence uses '这部三部曲小说' with the counter 这部 (for a single work) and redundant 小说, whereas new_sentence correctly uses '这套三部曲' with 套 (for a set/series), which is the natural collocation."}

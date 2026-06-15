@@ -1,0 +1,34 @@
+[
+  {
+    "nid": 1656144336507,
+    "word": "天鹅",
+    "sent_simp": "湖面上有几只白色的天鹅在游泳。",
+    "sent_trad": "湖面上有幾只白色的天鵝在游泳。",
+    "pinyin": "Húmiàn shàng yǒu jǐ zhī báisè de tiān'é zài yóuyǒng.",
+    "english": "A few white swans are swimming on the lake."
+  },
+  {
+    "nid": 1708747493399,
+    "word": "圣战",
+    "sent_simp": "他们声称这是一场圣战。",
+    "sent_trad": "他們聲稱這是一場聖戰。",
+    "pinyin": "Tāmen shēngchēng zhè shì yī chǎng shèngzhàn.",
+    "english": "They claimed it was a holy war."
+  },
+  {
+    "nid": 1708747502089,
+    "word": "熟女",
+    "sent_simp": "这个品牌主要面向有品位的熟女群体。",
+    "sent_trad": "這個品牌主要面向有品位的熟女群體。",
+    "pinyin": "Zhège pǐnpái zhǔyào miànxiàng yǒu pǐnwèi de shúnǚ qúntǐ.",
+    "english": "This brand mainly targets discerning mature women."
+  },
+  {
+    "nid": 1708747524277,
+    "word": "源代码",
+    "sent_simp": "他把项目的源代码上传到了网上。",
+    "sent_trad": "他把項目的源代碼上傳到了網上。",
+    "pinyin": "Tā bǎ xiàngmù de yuándàimǎ shàngchuán dào le wǎngshàng.",
+    "english": "He uploaded the project's source code online."
+  }
+]

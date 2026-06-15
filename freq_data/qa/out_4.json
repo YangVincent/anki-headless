@@ -1,0 +1,34 @@
+[
+  {
+    "nid": 1710963492941,
+    "word": "捐款",
+    "sent_simp": "他向慈善机构捐了一笔款。",
+    "sent_trad": "他向慈善機構捐了一筆款。",
+    "pinyin": "Tā xiàng císhàn jīgòu juān le yī bǐ kuǎn.",
+    "english": "He donated a sum of money to a charity."
+  },
+  {
+    "nid": 1708747493133,
+    "word": "无人机",
+    "sent_simp": "摄影师用无人机拍下了壮观的画面。",
+    "sent_trad": "攝影師用無人機拍下了壯觀的畫面。",
+    "pinyin": "Shèyǐngshī yòng wúrénjī pāi xià le zhuànguān de huàmiàn.",
+    "english": "The photographer used a drone to capture spectacular footage."
+  },
+  {
+    "nid": 1708747494750,
+    "word": "新派",
+    "sent_simp": "他喜欢新派的管理方式。",
+    "sent_trad": "他喜歡新派的管理方式。",
+    "pinyin": "Tā xǐhuān xīnpài de guǎnlǐ fāngshì.",
+    "english": "He likes the new-school management approach."
+  },
+  {
+    "nid": 1781538469479,
+    "word": "老死",
+    "sent_simp": "他在乡下老死，享年八十八岁。",
+    "sent_trad": "他在鄉下老死，享年八十八歲。",
+    "pinyin": "Tā zài xiāngxia lǎo sǐ, xiǎng nián bāshíbā suì.",
+    "english": "He died of old age in the countryside at the age of eighty-eight."
+  }
+]

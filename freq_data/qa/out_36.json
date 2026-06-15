@@ -1,0 +1,42 @@
+[
+  {
+    "nid": 1708747522847,
+    "word": "便捷",
+    "sent_simp": "手机支付让购物变得更加便捷。",
+    "sent_trad": "手機支付讓購物變得更加便捷。",
+    "pinyin": "Shǒujī zhīfù ràng gòuwù biàn de gèngjiā biànjié.",
+    "english": "Mobile payment has made shopping much more convenient and fast."
+  },
+  {
+    "nid": 1717270464758,
+    "word": "装甲车",
+    "sent_simp": "一辆装甲车停在路口。",
+    "sent_trad": "一輛裝甲車停在路口。",
+    "pinyin": "Yī liàng zhuāngjiǎchē tíng zài lùkǒu.",
+    "english": "An armored vehicle was parked at the intersection."
+  },
+  {
+    "nid": 1708747509879,
+    "word": "着陆",
+    "sent_simp": "飞机顺利着陆，旅客鼓掌欢呼。",
+    "sent_trad": "飛機順利著陸，旅客鼓掌歡呼。",
+    "pinyin": "Fēijī shùnlì zhuólù, lǚkè gǔzhǎng huānhū.",
+    "english": "The plane landed smoothly and the passengers applauded and cheered."
+  },
+  {
+    "nid": 1781538470170,
+    "word": "连片",
+    "sent_simp": "洪水过后，农田连片受损，损失惨重。",
+    "sent_trad": "洪水過後，農田連片受損，損失慘重。",
+    "pinyin": "Hóngshuǐ guòhòu, nóngtián liánpiàn shòusǔn, sǔnshī cǎnzhòng.",
+    "english": "After the flood, farmland was damaged across a continuous stretch, resulting in heavy losses."
+  },
+  {
+    "nid": 1781538470171,
+    "word": "生态旅游",
+    "sent_simp": "越来越多的人喜欢生态旅游，去大自然放松。",
+    "sent_trad": "越來越多的人喜歡生態旅遊，去大自然放鬆。",
+    "pinyin": "Yuèláiyuè duō de rén xǐhuan shēngtài lǚyóu, qù dàzìrán fàngsōng.",
+    "english": "More and more people enjoy ecotourism to relax in nature."
+  }
+]

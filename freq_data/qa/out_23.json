@@ -1,0 +1,26 @@
+[
+  {
+    "nid": 1708747524640,
+    "word": "报价",
+    "sent_simp": "他发来的报价比我们预期的低。",
+    "sent_trad": "他發來的報價比我們預期的低。",
+    "pinyin": "Tā fā lái de bàojià bǐ wǒmen yùqī de dī.",
+    "english": "The quote he sent was lower than we expected."
+  },
+  {
+    "nid": 1781538469882,
+    "word": "干妈",
+    "sent_simp": "她认了邻居阿姨当干妈，逢年过节都去拜访。",
+    "sent_trad": "她認了鄰居阿姨當乾媽，逢年過節都去拜訪。",
+    "pinyin": "Tā rèn le línjū āyí dāng gànmā, féng nián guò jié dōu qù bàifǎng.",
+    "english": "She took the neighbor auntie as her adoptive mother and visits every holiday."
+  },
+  {
+    "nid": 1781542161804,
+    "word": "劳务",
+    "sent_simp": "他通过提供劳务来赚取收入。",
+    "sent_trad": "他通過提供勞務來賺取收入。",
+    "pinyin": "Tā tōngguò tígōng láowù lái zhuànqǔ shōurù.",
+    "english": "He earns income by providing labor services."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "nid": 1537328247516,
+    "word": "戏剧性",
+    "sent_simp": "这件事的发展非常戏剧性。",
+    "sent_trad": "這件事的發展非常戲劇性。",
+    "pinyin": "Zhè jiàn shì de fāzhǎn fēicháng xìjùxìng.",
+    "english": "The way this matter unfolded was extremely dramatic."
+  },
+  {
+    "nid": 1708747515208,
+    "word": "严惩",
+    "sent_simp": "他因贪污而遭到严惩。",
+    "sent_trad": "他因貪污而遭到嚴懲。",
+    "pinyin": "Tā yīn tānwū ér zāodào yánchéng.",
+    "english": "He was severely punished for corruption."
+  },
+  {
+    "nid": 1708747515881,
+    "word": "南侧",
+    "sent_simp": "公园的南侧有一片花圃。",
+    "sent_trad": "公園的南側有一片花圃。",
+    "pinyin": "Gōngyuán de náncè yǒu yī piàn huāpǔ.",
+    "english": "There is a flower bed on the south side of the park."
+  },
+  {
+    "nid": 1781538470300,
+    "word": "下款",
+    "sent_simp": "这封信的下款是他的名字。",
+    "sent_trad": "這封信的下款是他的名字。",
+    "pinyin": "Zhè fēng xìn de xiàkuǎn shì tā de míngzi.",
+    "english": "The signature on this letter is his name."
+  }
+]

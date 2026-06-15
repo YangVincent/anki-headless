@@ -1,0 +1,26 @@
+[
+  {
+    "nid": 1708747503794,
+    "word": "其二",
+    "sent_simp": "他提出两点建议，其二是加强沟通。",
+    "sent_trad": "他提出兩點建議，其二是加強溝通。",
+    "pinyin": "Tā tíchū liǎng diǎn jiànyì, qí èr shì jiāqiáng gōutōng.",
+    "english": "He made two suggestions; the second is to strengthen communication."
+  },
+  {
+    "nid": 1708747506445,
+    "word": "弹道",
+    "sent_simp": "科学家计算出炮弹的弹道。",
+    "sent_trad": "科學家計算出砲彈的彈道。",
+    "pinyin": "Kēxuéjiā jìsuàn chū pàodàn de dàndào.",
+    "english": "Scientists calculated the trajectory of the shell."
+  },
+  {
+    "nid": 1708747517042,
+    "word": "染色",
+    "sent_simp": "她用蓝色颜料给布料染色。",
+    "sent_trad": "她用藍色顏料給布料染色。",
+    "pinyin": "Tā yòng lánsè yánliào gěi bùliào rǎnsè.",
+    "english": "She dyed the fabric using blue dye."
+  }
+]

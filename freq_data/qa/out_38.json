@@ -1,0 +1,34 @@
+[
+  {
+    "nid": 1708747515852,
+    "word": "垮台",
+    "sent_simp": "管理混乱导致公司最终垮台。",
+    "sent_trad": "管理混亂導致公司最終垮台。",
+    "pinyin": "Guǎnlǐ hùnluàn dǎozhì gōngsī zuìzhōng kuǎtái.",
+    "english": "Poor management caused the company to eventually collapse."
+  },
+  {
+    "nid": 1537328248077,
+    "word": "背着",
+    "sent_simp": "他背着大包走了很远的路。",
+    "sent_trad": "他背著大包走了很遠的路。",
+    "pinyin": "Tā bēi zhe dà bāo zǒu le hěn yuǎn de lù.",
+    "english": "He walked a long way carrying a large bag on his back."
+  },
+  {
+    "nid": 1708747517858,
+    "word": "高龄",
+    "sent_simp": "她已是九十岁高龄，身体依然很健康。",
+    "sent_trad": "她已是九十歲高齡，身體依然很健康。",
+    "pinyin": "Tā yǐ shì jiǔshí suì gāolíng, shēntǐ yīrán hěn jiànkāng.",
+    "english": "She is already ninety years old and still in very good health."
+  },
+  {
+    "nid": 1717270477987,
+    "word": "母乳",
+    "sent_simp": "医生建议妈妈坚持用母乳喂养宝宝。",
+    "sent_trad": "醫生建議媽媽堅持用母乳餵養寶寶。",
+    "pinyin": "Yīshēng jiànyì māma jiānchí yòng mǔrǔ wèiyǎng bǎobao.",
+    "english": "The doctor advises the mother to keep breastfeeding her baby."
+  }
+]

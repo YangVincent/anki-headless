@@ -1,0 +1,26 @@
+[
+  {
+    "nid": 1708747505369,
+    "word": "总社",
+    "sent_simp": "这条新闻由总社统一播发。",
+    "sent_trad": "這條新聞由總社統一播發。",
+    "pinyin": "Zhè tiáo xīnwén yóu zǒngshè tǒngyī bōfā.",
+    "english": "This news item was released uniformly by the head office."
+  },
+  {
+    "nid": 1710963496035,
+    "word": "石器",
+    "sent_simp": "考古学家挖出了一批古代石器。",
+    "sent_trad": "考古學家挖出了一批古代石器。",
+    "pinyin": "Kǎogǔxuéjiā wā chū le yī pī gǔdài shíqì.",
+    "english": "Archaeologists unearthed a batch of ancient stone tools."
+  },
+  {
+    "nid": 1781538470661,
+    "word": "包罗",
+    "sent_simp": "这本书包罗了各种烹饪技巧。",
+    "sent_trad": "這本書包羅了各種烹飪技巧。",
+    "pinyin": "Zhè běn shū bāoluó le gèzhǒng pēngrèn jìqiǎo.",
+    "english": "This book covers all kinds of cooking techniques."
+  }
+]

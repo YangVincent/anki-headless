@@ -1,0 +1,42 @@
+[
+  {
+    "nid": 1708747520920,
+    "word": "军费",
+    "sent_simp": "政府宣布增加今年的军费预算。",
+    "sent_trad": "政府宣布增加今年的軍費預算。",
+    "pinyin": "Zhèngfǔ xuānbù zēngjiā jīnnián de jūnfèi yùsuàn.",
+    "english": "The government announced an increase in this year's military expenditure budget."
+  },
+  {
+    "nid": 1781538470341,
+    "word": "传热",
+    "sent_simp": "金属传热快，所以锅把容易变烫。",
+    "sent_trad": "金屬傳熱快，所以鍋把容易變燙。",
+    "pinyin": "Jīnshǔ chuánrè kuài, suǒyǐ guō bà róngyì biàn tàng.",
+    "english": "Metal conducts heat quickly, which is why pot handles get hot easily."
+  },
+  {
+    "nid": 1781538470353,
+    "word": "率性",
+    "sent_simp": "他是个率性的人，想说什么就说什么。",
+    "sent_trad": "他是個率性的人，想說什麼就說什麼。",
+    "pinyin": "Tā shì gè shuàixìng de rén, xiǎng shuō shénme jiù shuō shénme.",
+    "english": "He's a spontaneous, authentic person who says exactly what's on his mind."
+  },
+  {
+    "nid": 1537328244023,
+    "word": "一般来说",
+    "sent_simp": "一般来说，早睡早起对身体好。",
+    "sent_trad": "一般來說，早睡早起對身體好。",
+    "pinyin": "Yībān lái shuō, zǎo shuì zǎo qǐ duì shēntǐ hǎo.",
+    "english": "Generally speaking, going to bed early and getting up early is good for your health."
+  },
+  {
+    "nid": 1708747498723,
+    "word": "小提琴",
+    "sent_simp": "她每天练习小提琴一个小时。",
+    "sent_trad": "她每天練習小提琴一個小時。",
+    "pinyin": "Tā měitiān liànxí xiǎotíqín yī gè xiǎoshí.",
+    "english": "She practices the violin for one hour every day."
+  }
+]

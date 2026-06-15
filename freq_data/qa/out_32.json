@@ -1,0 +1,106 @@
+[
+  {
+    "nid": 1708747503515,
+    "word": "不意",
+    "sent_simp": "她不意间发现了这个秘密。",
+    "sent_trad": "她不意間發現了這個秘密。",
+    "pinyin": "Tā bùyì jiān fāxiàn le zhège mìmì.",
+    "english": "She unexpectedly discovered the secret."
+  },
+  {
+    "nid": 1708747524320,
+    "word": "提请",
+    "sent_simp": "我想提请大家注意这个问题。",
+    "sent_trad": "我想提請大家注意這個問題。",
+    "pinyin": "Wǒ xiǎng tíqǐng dàjiā zhùyì zhège wèntí.",
+    "english": "I would like to bring this issue to everyone's attention."
+  },
+  {
+    "nid": 1708747523330,
+    "word": "如故",
+    "sent_simp": "多年过去，他的生活一切如故。",
+    "sent_trad": "多年過去，他的生活一切如故。",
+    "pinyin": "Duō nián guòqù, tā de shēnghuó yīqiè rúgù.",
+    "english": "Many years have passed, but his life remains just as it was before."
+  },
+  {
+    "nid": 1781538470083,
+    "word": "总装",
+    "sent_simp": "这台设备的总装工作在工厂完成。",
+    "sent_trad": "這台設備的總裝工作在工廠完成。",
+    "pinyin": "Zhè tái shèbèi de zǒngzhuāng gōngzuò zài gōngchǎng wánchéng.",
+    "english": "The final assembly of this equipment is done at the factory."
+  },
+  {
+    "nid": 1781538470087,
+    "word": "列强",
+    "sent_simp": "十九世纪末，列强纷纷在中国设立租界。",
+    "sent_trad": "十九世紀末，列強紛紛在中國設立租界。",
+    "pinyin": "Shíjiǔ shìjì mò, lièqiáng fēnfēn zài Zhōngguó shèlì zūjiè.",
+    "english": "At the end of the 19th century, the Great Powers one after another set up concessions in China."
+  },
+  {
+    "nid": 1781538470089,
+    "word": "海外版",
+    "sent_simp": "这份报纸专门出了一个海外版给海外华人看。",
+    "sent_trad": "這份報紙專門出了一個海外版給海外華人看。",
+    "pinyin": "Zhè fèn bàozhǐ zhuānmén chū le yī gè hǎiwàibǎn gěi hǎiwài Huárén kàn.",
+    "english": "This newspaper published a special overseas edition for overseas Chinese readers."
+  },
+  {
+    "nid": 1781538470091,
+    "word": "提现",
+    "sent_simp": "我想把余额宝里的钱提现到银行卡。",
+    "sent_trad": "我想把餘額寶裡的錢提現到銀行卡。",
+    "pinyin": "Wǒ xiǎng bǎ Yú'é Bǎo lǐ de qián tíxiàn dào yínháng kǎ.",
+    "english": "I want to withdraw the money in my Yu'e Bao to my bank card."
+  },
+  {
+    "nid": 1781538470094,
+    "word": "国脚",
+    "sent_simp": "他年轻时曾是一名优秀的国脚。",
+    "sent_trad": "他年輕時曾是一名優秀的國腳。",
+    "pinyin": "Tā niánqīng shí céng shì yī míng yōuxiù de guójiǎo.",
+    "english": "He was an excellent national football team player when he was young."
+  },
+  {
+    "nid": 1781538470096,
+    "word": "故国",
+    "sent_simp": "离开多年后，他依然思念故国的山水。",
+    "sent_trad": "離開多年後，他依然思念故國的山水。",
+    "pinyin": "Líkāi duō nián hòu, tā yīrán sīniàn gùguó de shānshuǐ.",
+    "english": "Even after many years abroad, he still missed the landscapes of his homeland."
+  },
+  {
+    "nid": 1781538470098,
+    "word": "实习生",
+    "sent_simp": "公司今年招了五名实习生来帮忙。",
+    "sent_trad": "公司今年招了五名實習生來幫忙。",
+    "pinyin": "Gōngsī jīnnián zhāo le wǔ míng shíxíshēng lái bāngmáng.",
+    "english": "The company hired five interns this year to help out."
+  },
+  {
+    "nid": 1781538470102,
+    "word": "绩效",
+    "sent_simp": "他的绩效考核结果很好，今年奖金不少。",
+    "sent_trad": "他的績效考核結果很好，今年獎金不少。",
+    "pinyin": "Tā de jìxiào kǎohé jiéguǒ hěn hǎo, jīnnián jiǎngjīn bùshǎo.",
+    "english": "His performance review results were excellent, so his bonus this year is quite good."
+  },
+  {
+    "nid": 1781538470112,
+    "word": "商用",
+    "sent_simp": "这款软件是商用版本，需要付费授权。",
+    "sent_trad": "這款軟件是商用版本，需要付費授權。",
+    "pinyin": "Zhè kuǎn ruǎnjiàn shì shāngyòng bǎnběn, xūyào fùfèi shòuquán.",
+    "english": "This software is the commercial version and requires a paid license."
+  },
+  {
+    "nid": 1781538470115,
+    "word": "带病",
+    "sent_simp": "他带病坚持来参加了婚礼。",
+    "sent_trad": "他帶病堅持來參加了婚禮。",
+    "pinyin": "Tā dàibìng jiānchí lái cānjiā le hūnlǐ.",
+    "english": "He pushed through his illness and came to attend the wedding."
+  }
+]

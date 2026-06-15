@@ -1,0 +1,26 @@
+[
+  {
+    "nid": 1781538469404,
+    "word": "截图",
+    "sent_simp": "我截图给你看一下这个错误提示。",
+    "sent_trad": "我截圖給你看一下這個錯誤提示。",
+    "pinyin": "Wǒ jié tú gěi nǐ kàn yīxià zhège cuòwù tíshì.",
+    "english": "I'll take a screenshot to show you this error message."
+  },
+  {
+    "nid": 1708747495336,
+    "word": "编号",
+    "sent_simp": "每件包裹都有一个唯一的编号。",
+    "sent_trad": "每件包裹都有一個唯一的編號。",
+    "pinyin": "Měi jiàn bāoguǒ dōu yǒu yī gè wéiyī de biānhào.",
+    "english": "Every parcel has a unique serial number."
+  },
+  {
+    "nid": 1781538469442,
+    "word": "头上",
+    "sent_simp": "她头上戴着一顶红色的帽子，看起来很可爱。",
+    "sent_trad": "她頭上戴著一頂紅色的帽子，看起來很可愛。",
+    "pinyin": "Tā tóu shàng dài zhe yī dǐng hóngsè de màozi, kàn qǐlái hěn kěài.",
+    "english": "She has a red hat on her head and looks really cute."
+  }
+]

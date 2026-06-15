@@ -1,0 +1,26 @@
+[
+  {
+    "nid": 1781542161899,
+    "word": "路段",
+    "sent_simp": "这条路段正在施工，请绕行。",
+    "sent_trad": "這條路段正在施工，請繞行。",
+    "pinyin": "Zhè tiáo lùduàn zhèngzài shīgōng, qǐng ràoxíng.",
+    "english": "This section of road is under construction; please take a detour."
+  },
+  {
+    "nid": 1537328241769,
+    "word": "百分之百",
+    "sent_simp": "我百分之百相信他说的话。",
+    "sent_trad": "我百分之百相信他說的話。",
+    "pinyin": "Wǒ bǎifēnzhībǎi xiāngxìn tā shuō de huà.",
+    "english": "I 100% believe what he said."
+  },
+  {
+    "nid": 1708747495689,
+    "word": "观察员",
+    "sent_simp": "他以观察员身份参加了会议。",
+    "sent_trad": "他以觀察員身份參加了會議。",
+    "pinyin": "Tā yǐ guāncháyuán shēnfèn cānjiā le huìyì.",
+    "english": "He attended the meeting in the capacity of an observer."
+  }
+]

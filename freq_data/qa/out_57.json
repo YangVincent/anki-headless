@@ -1,0 +1,42 @@
+[
+  {
+    "nid": 1708747526940,
+    "word": "发源",
+    "sent_simp": "黄河发源于青藏高原的巴颜喀拉山。",
+    "sent_trad": "黃河發源於青藏高原的巴顏喀拉山。",
+    "pinyin": "Huáng Hé fāyuán yú Qīng-Zàng Gāoyuán de Bāyánkālā Shān.",
+    "english": "The Yellow River originates from the Bayan Har Mountains on the Qinghai-Tibet Plateau."
+  },
+  {
+    "nid": 1781538470566,
+    "word": "命门",
+    "sent_simp": "中医认为命门是人体阳气的根本。",
+    "sent_trad": "中醫認為命門是人體陽氣的根本。",
+    "pinyin": "Zhōngyī rènwéi mìngmén shì réntǐ yángqì de gēnběn.",
+    "english": "Traditional Chinese medicine considers the mingmen to be the root of the body's yang energy."
+  },
+  {
+    "nid": 1393817670226,
+    "word": "朴素",
+    "sent_simp": "她穿着打扮很朴素，但看起来很有气质。",
+    "sent_trad": "她穿著打扮很樸素，但看起來很有氣質。",
+    "pinyin": "Tā chuānzhuó dǎban hěn pǔsù, dàn kàn qǐlái hěn yǒu qìzhì.",
+    "english": "Her style of dress is very plain, but she carries herself with a lot of elegance."
+  },
+  {
+    "nid": 1708747488787,
+    "word": "胶片",
+    "sent_simp": "爷爷用胶片拍了很多老照片，都保留着。",
+    "sent_trad": "爺爺用膠片拍了很多老照片，都保留著。",
+    "pinyin": "Yéye yòng jiāopiàn pāi le hěn duō lǎo zhàopiàn, dōu bǎoliú zhe.",
+    "english": "Grandpa took many old photos on film and has kept them all."
+  },
+  {
+    "nid": 1708747516662,
+    "word": "落差",
+    "sent_simp": "理想和现实之间有很大的落差。",
+    "sent_trad": "理想和現實之間有很大的落差。",
+    "pinyin": "Lǐxiǎng hé xiànshí zhījiān yǒu hěn dà de luòchà.",
+    "english": "There is a huge gap between ideals and reality."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "nid": 1710963472357,
+    "word": "丛书",
+    "sent_simp": "图书馆新买了一套历史丛书。",
+    "sent_trad": "圖書館新買了一套歷史叢書。",
+    "pinyin": "Túshūguǎn xīn mǎi le yī tào lìshǐ cóngshū.",
+    "english": "The library recently purchased a history book series."
+  },
+  {
+    "nid": 1708747506589,
+    "word": "头号",
+    "sent_simp": "他是这个城市的头号厨师。",
+    "sent_trad": "他是這個城市的頭號廚師。",
+    "pinyin": "Tā shì zhège chéngshì de tóuhào chúshī.",
+    "english": "He is the number one chef in this city."
+  },
+  {
+    "nid": 1708747511121,
+    "word": "核实",
+    "sent_simp": "记者发稿前需要核实所有信息的真实性。",
+    "sent_trad": "記者發稿前需要核實所有信息的真實性。",
+    "pinyin": "Jìzhě fāgǎo qián xūyào héshí suǒyǒu xìnxī de zhēnshíxìng.",
+    "english": "Reporters need to verify the accuracy of all information before filing a story."
+  },
+  {
+    "nid": 1708747518157,
+    "word": "歌迷",
+    "sent_simp": "很多歌迷在场外等着见偶像。",
+    "sent_trad": "很多歌迷在場外等著見偶像。",
+    "pinyin": "Hěn duō gēmí zài chǎngwài děngzhe jiàn ǒuxiàng.",
+    "english": "Many fans waited outside the venue hoping to see their idol."
+  },
+  {
+    "nid": 1708747518386,
+    "word": "团员",
+    "sent_simp": "合唱团的每位团员都认真备战了这次演出。",
+    "sent_trad": "合唱團的每位團員都認真備戰了這次演出。",
+    "pinyin": "Héchàngtuán de měi wèi tuányuán dōu rènzhēn bèizhàn le zhè cì yǎnchū.",
+    "english": "Every member of the choir prepared seriously for this performance."
+  },
+  {
+    "nid": 1708747520024,
+    "word": "专职",
+    "sent_simp": "学校聘请了一位专职心理辅导老师。",
+    "sent_trad": "學校聘請了一位專職心理輔導老師。",
+    "pinyin": "Xuéxiào pìnqǐng le yī wèi zhuānzhí xīnlǐ fǔdǎo lǎoshī.",
+    "english": "The school hired a full-time counseling teacher."
+  },
+  {
+    "nid": 1708747521427,
+    "word": "增产",
+    "sent_simp": "新技术帮助农民大幅增产。",
+    "sent_trad": "新技術幫助農民大幅增產。",
+    "pinyin": "Xīn jìshù bāngzhù nóngmín dàfú zēngchǎn.",
+    "english": "The new technology helped farmers significantly increase production."
+  }
+]

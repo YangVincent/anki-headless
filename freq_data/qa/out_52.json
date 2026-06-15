@@ -1,0 +1,34 @@
+[
+  {
+    "nid": 1708747523351,
+    "word": "啥子",
+    "sent_simp": "你在找啥子？",
+    "sent_trad": "你在找啥子？",
+    "pinyin": "Nǐ zài zhǎo sházi?",
+    "english": "What are you looking for?"
+  },
+  {
+    "nid": 1781538470467,
+    "word": "字义",
+    "sent_simp": "这个字的字义是什么？",
+    "sent_trad": "這個字的字義是什麼？",
+    "pinyin": "Zhège zì de zìyì shì shénme?",
+    "english": "What is the meaning of this character?"
+  },
+  {
+    "nid": 1781538470493,
+    "word": "别具",
+    "sent_simp": "她的画风别具魅力。",
+    "sent_trad": "她的畫風別具魅力。",
+    "pinyin": "Tā de huàfēng bié jù mèilì.",
+    "english": "Her painting style has a charm all its own."
+  },
+  {
+    "nid": 1708747510403,
+    "word": "崇尚",
+    "sent_simp": "他崇尚自由平等的精神。",
+    "sent_trad": "他崇尚自由平等的精神。",
+    "pinyin": "Tā chóngshàng zìyóu píngděng de jīngshén.",
+    "english": "He holds the spirit of freedom and equality in high esteem."
+  }
+]

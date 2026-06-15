@@ -1,0 +1,1 @@
+{"nid": 1708747503378, "word": "内核", "verdict": "use_new", "reason": "The old sentence uses 内核 in an abstract/metaphorical sense (core of a theory), not the computer science kernel meaning; the new sentence correctly illustrates the CS sense with Linux kernel managing hardware."}

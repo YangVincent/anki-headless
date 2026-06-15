@@ -1,0 +1,50 @@
+[
+  {
+    "nid": 1781538470658,
+    "word": "性侵",
+    "sent_simp": "他因性侵未成年人被判入狱。",
+    "sent_trad": "他因性侵未成年人被判入獄。",
+    "pinyin": "Tā yīn xìngqīn wèichéngnián rén bèi pàn rùyù.",
+    "english": "He was sentenced to prison for sexually assaulting a minor."
+  },
+  {
+    "nid": 1708747491490,
+    "word": "无边",
+    "sent_simp": "站在山顶，眼前是无边的草原。",
+    "sent_trad": "站在山頂，眼前是無邊的草原。",
+    "pinyin": "Zhàn zài shāndǐng, yǎnqián shì wúbiān de cǎoyuán.",
+    "english": "Standing on the mountaintop, a boundless grassland stretches before your eyes."
+  },
+  {
+    "nid": 1708747518620,
+    "word": "贯通",
+    "sent_simp": "这条隧道贯通了南北两个城区。",
+    "sent_trad": "這條隧道貫通了南北兩個城區。",
+    "pinyin": "Zhè tiáo suìdào guàntōng le nán-běi liǎng gè chéngqū.",
+    "english": "This tunnel links the northern and southern districts of the city."
+  },
+  {
+    "nid": 1717270489412,
+    "word": "幼童",
+    "sent_simp": "这个游乐区是专门为幼童设计的。",
+    "sent_trad": "這個遊樂區是專門為幼童設計的。",
+    "pinyin": "Zhège yóulè qū shì zhuānmén wèi yòutóng shèjì de.",
+    "english": "This play area is specially designed for young children."
+  },
+  {
+    "nid": 1393817669139,
+    "word": "奖赏",
+    "sent_simp": "老师奖赏了表现优秀的学生。",
+    "sent_trad": "老師獎賞了表現優秀的學生。",
+    "pinyin": "Lǎoshī jiǎngshǎng le biǎoxiàn yōuxiù de xuésheng.",
+    "english": "The teacher rewarded the students who performed excellently."
+  },
+  {
+    "nid": 1537328243279,
+    "word": "银子",
+    "sent_simp": "盖这座宅子花了他不少银子。",
+    "sent_trad": "蓋這座宅子花了他不少銀子。",
+    "pinyin": "Gài zhè zuò zhái zi huā le tā bù shǎo yínzi.",
+    "english": "Building this house cost him a lot of silver (money)."
+  }
+]

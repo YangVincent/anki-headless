@@ -1,0 +1,26 @@
+[
+  {
+    "nid": 1708747503184,
+    "word": "表象",
+    "sent_simp": "这只是问题的表象，背后原因更复杂。",
+    "sent_trad": "這只是問題的表象，背後原因更複雜。",
+    "pinyin": "Zhè zhǐ shì wèntí de biǎoxiàng, bèihòu yuányīn gèng fùzá.",
+    "english": "This is only the surface appearance of the problem; the underlying cause is more complex."
+  },
+  {
+    "nid": 1708747509050,
+    "word": "热能",
+    "sent_simp": "燃烧木柴会释放出大量热能。",
+    "sent_trad": "燃燒木柴會釋放出大量熱能。",
+    "pinyin": "Ránshāo mùchái huì shìfàng chū dàliàng rènéng.",
+    "english": "Burning wood releases a large amount of heat energy."
+  },
+  {
+    "nid": 1708747510561,
+    "word": "面板",
+    "sent_simp": "她在面板上擀开了饺子皮。",
+    "sent_trad": "她在麵板上擀開了餃子皮。",
+    "pinyin": "Tā zài miànbǎn shàng gǎn kāi le jiǎozi pí.",
+    "english": "She rolled out the dumpling wrappers on the kneading board."
+  }
+]

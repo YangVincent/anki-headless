@@ -1,0 +1,34 @@
+[
+  {
+    "nid": 1708747514749,
+    "word": "区间",
+    "sent_simp": "这个区间内所有的值都大于零。",
+    "sent_trad": "這個區間內所有的值都大於零。",
+    "pinyin": "Zhège qūjiān nèi suǒyǒu de zhí dōu dàyú líng.",
+    "english": "All values in this interval are greater than zero."
+  },
+  {
+    "nid": 1708747522882,
+    "word": "深长",
+    "sent_simp": "他留下的那句话含义深长。",
+    "sent_trad": "他留下的那句話含義深長。",
+    "pinyin": "Tā liú xià de nà jù huà hányì shēncháng.",
+    "english": "The words he left behind carry profound meaning."
+  },
+  {
+    "nid": 1781538470064,
+    "word": "小姐姐",
+    "sent_simp": "她比我小，所以叫我小姐姐。",
+    "sent_trad": "她比我小，所以叫我小姐姐。",
+    "pinyin": "Tā bǐ wǒ xiǎo, suǒyǐ jiào wǒ xiǎo jiě jiě.",
+    "english": "She's younger than me, so she calls me 'xiǎo jiě jiě'."
+  },
+  {
+    "nid": 1781538470068,
+    "word": "奴才",
+    "sent_simp": "他整天点头哈腰，简直是个奴才。",
+    "sent_trad": "他整天點頭哈腰，簡直是個奴才。",
+    "pinyin": "Tā zhěngtiān diǎntóu hāyāo, jiǎnzhí shì gè nú cái.",
+    "english": "He bows and scrapes all day long—he's nothing but a toady."
+  }
+]

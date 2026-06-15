@@ -1,0 +1,26 @@
+[
+  {
+    "nid": 1708747519837,
+    "word": "强迫性",
+    "sent_simp": "他有强迫性检查门锁的习惯。",
+    "sent_trad": "他有強迫性檢查門鎖的習慣。",
+    "pinyin": "Tā yǒu qiǎngpòxìng jiǎnchá mén suǒ de xíguàn.",
+    "english": "He has a compulsive habit of checking the door lock."
+  },
+  {
+    "nid": 1781538471002,
+    "word": "调酒",
+    "sent_simp": "他学了一年调酒，现在能做很多鸡尾酒。",
+    "sent_trad": "他學了一年調酒，現在能做很多雞尾酒。",
+    "pinyin": "Tā xué le yī nián tiáojiǔ, xiànzài néng zuò hěn duō jīwěijiǔ.",
+    "english": "He studied bartending for a year and can now make many cocktails."
+  },
+  {
+    "nid": 1781538471004,
+    "word": "载明",
+    "sent_simp": "合同中载明了双方的权利和义务。",
+    "sent_trad": "合同中載明了雙方的權利和義務。",
+    "pinyin": "Hétong zhōng zǎimíng le shuāngfāng de quánlì hé yìwù.",
+    "english": "The contract explicitly states the rights and obligations of both parties."
+  }
+]

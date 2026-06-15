@@ -1,0 +1,26 @@
+[
+  {
+    "nid": 1708747519005,
+    "word": "护卫舰",
+    "sent_simp": "一艘护卫舰正在执行巡逻任务。",
+    "sent_trad": "一艘護衛艦正在執行巡邏任務。",
+    "pinyin": "Yì sōu hùwèijiàn zhèngzài zhíxíng xúnluó rènwu.",
+    "english": "A corvette is currently carrying out a patrol mission."
+  },
+  {
+    "nid": 1781538470977,
+    "word": "节流",
+    "sent_simp": "公司靠节流降低了运营成本。",
+    "sent_trad": "公司靠節流降低了運營成本。",
+    "pinyin": "Gōngsī kào jiéliú jiàngdī le yùnyíng chéngběn.",
+    "english": "The company reduced operating costs by cutting expenditure."
+  },
+  {
+    "nid": 1781538470998,
+    "word": "公差",
+    "sent_simp": "这个零件的公差不能超过0.1毫米。",
+    "sent_trad": "這個零件的公差不能超過0.1毫米。",
+    "pinyin": "Zhège língjiàn de gōngchā bù néng chāoguò líng diǎn yī háomǐ.",
+    "english": "The tolerance on this part cannot exceed 0.1 millimeters."
+  }
+]

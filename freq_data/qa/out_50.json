@@ -1,0 +1,18 @@
+[
+  {
+    "nid": 1708747525175,
+    "word": "常量",
+    "sent_simp": "程序里的常量不能在运行时改变。",
+    "sent_trad": "程序裡的常量不能在執行時改變。",
+    "pinyin": "Chéngxù lǐ de chángliàng bù néng zài yùnxíng shí gǎibiàn.",
+    "english": "Constants in a program cannot be changed at runtime."
+  },
+  {
+    "nid": 1781538470429,
+    "word": "维新",
+    "sent_simp": "这场维新运动改变了整个国家的面貌。",
+    "sent_trad": "這場維新運動改變了整個國家的面貌。",
+    "pinyin": "Zhè chǎng wéixīn yùndòng gǎibiàn le zhěnggè guójiā de miànmào.",
+    "english": "This reform movement changed the face of the entire country."
+  }
+]

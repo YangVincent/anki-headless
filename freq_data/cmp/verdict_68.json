@@ -1,0 +1,1 @@
+{"nid": 1717270473108, "word": "性疾病", "verdict": "keep_old", "reason": "Both sentences embed 性疾病 after 预防, creating the same ambiguous parse (预防性 + 疾病 vs 预防 + 性疾病); new_sentence does not fix the problem present in old_sentence."}

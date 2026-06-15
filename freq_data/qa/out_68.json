@@ -1,0 +1,42 @@
+[
+  {
+    "nid": 1708747519798,
+    "word": "受访",
+    "sent_simp": "她受访时谈到了自己的创业经历。",
+    "sent_trad": "她受訪時談到了自己的創業經歷。",
+    "pinyin": "Tā shòufǎng shí tándào le zìjǐ de chuàngyè jīnglì.",
+    "english": "When she was interviewed, she talked about her entrepreneurial experience."
+  },
+  {
+    "nid": 1708747521045,
+    "word": "共谋",
+    "sent_simp": "两人共谋陷害了无辜的同事。",
+    "sent_trad": "兩人共謀陷害了無辜的同事。",
+    "pinyin": "Liǎng rén gòngmóu xiànhài le wúgū de tóngshì.",
+    "english": "The two conspired to frame an innocent colleague."
+  },
+  {
+    "nid": 1708747522477,
+    "word": "致歉",
+    "sent_simp": "他在会上向大家致歉。",
+    "sent_trad": "他在會上向大家致歉。",
+    "pinyin": "Tā zài huì shàng xiàng dàjiā zhìqiàn.",
+    "english": "He apologized to everyone at the meeting."
+  },
+  {
+    "nid": 1781538743631,
+    "word": "慰安妇",
+    "sent_simp": "慰安妇是日军侵略中遭受深重苦难的受害者。",
+    "sent_trad": "慰安婦是日軍侵略中遭受深重苦難的受害者。",
+    "pinyin": "Wèiānfù shì Rìjūn qīnlüè zhōng zāoshòu shēnzhòng kǔnàn de shòuhài zhě.",
+    "english": "Comfort women were victims who suffered greatly under Japanese military aggression."
+  },
+  {
+    "nid": 1393817670104,
+    "word": "团圆",
+    "sent_simp": "中秋节是一家人团圆的日子。",
+    "sent_trad": "中秋節是一家人團圓的日子。",
+    "pinyin": "Zhōngqiūjié shì yī jiā rén tuányuán de rìzi.",
+    "english": "Mid-Autumn Festival is a day for the whole family to reunite."
+  }
+]

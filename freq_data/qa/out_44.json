@@ -1,0 +1,26 @@
+[
+  {
+    "nid": 1708747503378,
+    "word": "内核",
+    "sent_simp": "Linux的内核负责管理系统的硬件资源。",
+    "sent_trad": "Linux的內核負責管理系統的硬件資源。",
+    "pinyin": "Linux de nèihé fùzé guǎnlǐ xìtǒng de yìngjian zīyuán.",
+    "english": "The Linux kernel is responsible for managing the system's hardware resources."
+  },
+  {
+    "nid": 1710963492860,
+    "word": "门类",
+    "sent_simp": "这个博物馆涵盖了很多艺术门类。",
+    "sent_trad": "這個博物館涵蓋了很多藝術門類。",
+    "pinyin": "Zhège bówùguǎn hán gài le hěn duō yìshù ménlèi.",
+    "english": "This museum covers many categories of art."
+  },
+  {
+    "nid": 1710963504396,
+    "word": "可亲",
+    "sent_simp": "她笑起来很可亲，让人觉得很温暖。",
+    "sent_trad": "她笑起來很可親，讓人覺得很溫暖。",
+    "pinyin": "Tā xiào qǐlái hěn kěqīn, ràng rén juéde hěn wēnnuǎn.",
+    "english": "When she smiles she is very amiable, making people feel warm."
+  }
+]

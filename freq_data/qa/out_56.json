@@ -1,0 +1,34 @@
+[
+  {
+    "nid": 1537328245017,
+    "word": "黄瓜",
+    "sent_simp": "她切了几根黄瓜放进沙拉里。",
+    "sent_trad": "她切了幾根黃瓜放進沙拉裡。",
+    "pinyin": "Tā qiē le jǐ gēn huángguā fàngjìn shālā lǐ.",
+    "english": "She sliced a few cucumbers and put them in the salad."
+  },
+  {
+    "nid": 1717270474691,
+    "word": "新贵",
+    "sent_simp": "他是互联网行业新崛起的新贵。",
+    "sent_trad": "他是互聯網行業新崛起的新貴。",
+    "pinyin": "Tā shì hùliánwǎng hángyè xīn juéqǐ de xīnguì.",
+    "english": "He is a newly risen power player in the internet industry."
+  },
+  {
+    "nid": 1717270478428,
+    "word": "专场",
+    "sent_simp": "今晚有一场钢琴专场音乐会。",
+    "sent_trad": "今晚有一場鋼琴專場音樂會。",
+    "pinyin": "Jīnwǎn yǒu yī chǎng gāngqín zhuānchǎng yīnyuèhuì.",
+    "english": "There is a special solo piano concert tonight."
+  },
+  {
+    "nid": 1717270481541,
+    "word": "坠机",
+    "sent_simp": "新闻报道了昨天的坠机事故。",
+    "sent_trad": "新聞報道了昨天的墜機事故。",
+    "pinyin": "Xīnwén bàodào le zuótiān de zhuìjī shìgù.",
+    "english": "The news reported yesterday's plane crash."
+  }
+]
