@@ -1,0 +1,282 @@
+[
+  {
+    "word": "电价",
+    "sent_simp": "最近电价上涨了不少，电费账单高了很多。",
+    "sent_trad": "最近電價上漲了不少，電費賬單高了很多。",
+    "pinyin": "Zuìjìn diànjià shàngzhǎng le bùshǎo, diànfèi zhàngdān gāo le hěn duō.",
+    "english": "Electricity prices have risen a lot recently, and the electric bill is much higher."
+  },
+  {
+    "word": "赛段",
+    "sent_simp": "这场自行车比赛第三赛段的路况非常复杂。",
+    "sent_trad": "這場自行車比賽第三賽段的路況非常複雜。",
+    "pinyin": "Zhè chǎng zìxíngchē bǐsài dì sān sàiduàn de lùkuàng fēicháng fùzá.",
+    "english": "The road conditions in the third stage of this cycling race are very complex."
+  },
+  {
+    "word": "重整",
+    "sent_simp": "公司决定重整内部结构，提高工作效率。",
+    "sent_trad": "公司決定重整內部結構，提高工作效率。",
+    "pinyin": "Gōngsī juédìng zhòngzhěng nèibù jiégòu, tígāo gōngzuò xiàolǜ.",
+    "english": "The company decided to restructure its internal organization to improve efficiency."
+  },
+  {
+    "word": "专机",
+    "sent_simp": "总统乘坐专机前往参加峰会。",
+    "sent_trad": "總統乘坐專機前往參加峰會。",
+    "pinyin": "Zǒngtǒng chéngzuò zhuānjī qiánwǎng cānjiā fēnghuì.",
+    "english": "The president flew on a dedicated aircraft to attend the summit."
+  },
+  {
+    "word": "推友",
+    "sent_simp": "他在推特上认识了很多推友，经常互动。",
+    "sent_trad": "他在推特上認識了很多推友，經常互動。",
+    "pinyin": "Tā zài Tuītè shàng rènshi le hěn duō tuīyǒu, jīngcháng hùdòng.",
+    "english": "He has made many Twitter friends online and they interact frequently."
+  },
+  {
+    "word": "博文",
+    "sent_simp": "她写了一篇博文，分享了自己的旅行经历。",
+    "sent_trad": "她寫了一篇博文，分享了自己的旅行經歷。",
+    "pinyin": "Tā xiě le yī piān bówén, fēnxiǎng le zìjǐ de lǚxíng jīnglì.",
+    "english": "She wrote a blog post sharing her travel experiences."
+  },
+  {
+    "word": "变法",
+    "sent_simp": "晚清的变法运动试图推动政治改革。",
+    "sent_trad": "晚清的變法運動試圖推動政治改革。",
+    "pinyin": "Wǎn Qīng de biànfǎ yùndòng shìtú tuīdòng zhèngzhì gǎigé.",
+    "english": "The late Qing reform movement attempted to push forward political change."
+  },
+  {
+    "word": "声乐",
+    "sent_simp": "她从小学声乐，现在是一名专业歌手。",
+    "sent_trad": "她從小學聲樂，現在是一名專業歌手。",
+    "pinyin": "Tā cóngxiǎo xué shēngyuè, xiànzài shì yī míng zhuānyè gēshǒu.",
+    "english": "She studied vocal music from a young age and is now a professional singer."
+  },
+  {
+    "word": "亲妈",
+    "sent_simp": "他是被领养的，但他的亲妈从未放弃寻找他。",
+    "sent_trad": "他是被領養的，但他的親媽從未放棄尋找他。",
+    "pinyin": "Tā shì bèi lǐngyǎng de, dàn tā de qīnmā cóng wèi fàngqì xúnzhǎo tā.",
+    "english": "He was adopted, but his biological mother never gave up searching for him."
+  },
+  {
+    "word": "操弄",
+    "sent_simp": "他善于操弄舆论，让人们相信自己的观点。",
+    "sent_trad": "他善於操弄輿論，讓人們相信自己的觀點。",
+    "pinyin": "Tā shànyú cāonòng yúlùn, ràng rénmen xiāngxìn zìjǐ de guāndiǎn.",
+    "english": "He is skilled at manipulating public opinion to make people believe his views."
+  },
+  {
+    "word": "兴办",
+    "sent_simp": "村里决定兴办一所小学，方便孩子们上学。",
+    "sent_trad": "村裡決定興辦一所小學，方便孩子們上學。",
+    "pinyin": "Cūn lǐ juédìng xīngbàn yī suǒ xiǎoxué, fāngbiàn háizimen shàngxué.",
+    "english": "The village decided to set up a primary school to make it easier for children to attend."
+  },
+  {
+    "word": "计提",
+    "sent_simp": "银行需要计提足够的坏账准备金。",
+    "sent_trad": "銀行需要計提足夠的壞賬準備金。",
+    "pinyin": "Yínháng xūyào jìtí zúgòu de huàizhàng zhǔnbèijīn.",
+    "english": "Banks need to set aside sufficient provisions for bad debts."
+  },
+  {
+    "word": "语族",
+    "sent_simp": "汉语和闽南语同属汉藏语族。",
+    "sent_trad": "漢語和閩南語同屬漢藏語族。",
+    "pinyin": "Hànyǔ hé Mǐnnányǔ tóng shǔ Hàn-Zàng yǔzú.",
+    "english": "Mandarin and Hokkien both belong to the Sino-Tibetan language branch."
+  },
+  {
+    "word": "督办",
+    "sent_simp": "上级派人来督办这个项目，确保按时完成。",
+    "sent_trad": "上級派人來督辦這個項目，確保按時完成。",
+    "pinyin": "Shàngjí pài rén lái dūbàn zhège xiàngmù, quèbǎo ànshí wánchéng.",
+    "english": "The higher-ups sent someone to oversee the project and ensure it would be completed on time."
+  },
+  {
+    "word": "短线",
+    "sent_simp": "他喜欢做短线投资，快进快出赚差价。",
+    "sent_trad": "他喜歡做短線投資，快進快出賺差價。",
+    "pinyin": "Tā xǐhuān zuò duǎnxiàn tóuzī, kuài jìn kuài chū zhuàn chājià.",
+    "english": "He likes short-term investing, buying and selling quickly to profit from price differences."
+  },
+  {
+    "word": "盈余",
+    "sent_simp": "今年公司有盈余，员工都得到了年终奖。",
+    "sent_trad": "今年公司有盈餘，員工都得到了年終獎。",
+    "pinyin": "Jīnnián gōngsī yǒu yíngyú, yuángōng dōu dédào le niánzhōng jiǎng.",
+    "english": "The company had a surplus this year, so all employees received a year-end bonus."
+  },
+  {
+    "word": "尼姑",
+    "sent_simp": "寺庙里住着几位尼姑，每天诵经礼佛。",
+    "sent_trad": "寺廟裡住著幾位尼姑，每天誦經禮佛。",
+    "pinyin": "Sìmiào lǐ zhùzhe jǐ wèi nígū, měitiān sòng jīng lǐ Fó.",
+    "english": "Several Buddhist nuns live in the temple, chanting sutras and paying respects every day."
+  },
+  {
+    "word": "狗肉",
+    "sent_simp": "有些地方的人喜欢冬天吃狗肉来暖身子。",
+    "sent_trad": "有些地方的人喜歡冬天吃狗肉來暖身子。",
+    "pinyin": "Yǒuxiē dìfang de rén xǐhuān dōngtiān chī gǒuròu lái nuǎn shēnzi.",
+    "english": "People in some regions like to eat dog meat in winter to warm themselves up."
+  },
+  {
+    "word": "输入法",
+    "sent_simp": "他用拼音输入法打中文，速度越来越快了。",
+    "sent_trad": "他用拼音輸入法打中文，速度越來越快了。",
+    "pinyin": "Tā yòng pīnyīn shūrùfǎ dǎ Zhōngwén, sùdù yuèláiyuè kuài le.",
+    "english": "He types Chinese using a pinyin input method, and his speed keeps getting faster."
+  },
+  {
+    "word": "考据",
+    "sent_simp": "这篇论文通过大量考据证明了那段历史的真相。",
+    "sent_trad": "這篇論文通過大量考據證明了那段歷史的真相。",
+    "pinyin": "Zhè piān lùnwén tōngguò dàliàng kǎojù zhèngmíng le nà duàn lìshǐ de zhēnxiàng.",
+    "english": "This paper used extensive textual research to establish the truth of that period of history."
+  },
+  {
+    "word": "有所作为",
+    "sent_simp": "年轻人应该趁早努力，争取在事业上有所作为。",
+    "sent_trad": "年輕人應該趁早努力，爭取在事業上有所作為。",
+    "pinyin": "Niánqīng rén yīnggāi chènzǎo nǔlì, zhēngqǔ zài shìyè shàng yǒu suǒ zuò wéi.",
+    "english": "Young people should work hard early on and strive to achieve something meaningful in their careers."
+  },
+  {
+    "word": "官话",
+    "sent_simp": "他说话总是一套官话，让人听不出真实想法。",
+    "sent_trad": "他說話總是一套官話，讓人聽不出真實想法。",
+    "pinyin": "Tā shuōhuà zǒng shì yī tào guānhuà, ràng rén tīng bu chū zhēnshí xiǎngfǎ.",
+    "english": "He always speaks in bureaucratic language, making it hard to know what he really thinks."
+  },
+  {
+    "word": "合营",
+    "sent_simp": "这家餐厅是两家公司合营的，生意很好。",
+    "sent_trad": "這家餐廳是兩家公司合營的，生意很好。",
+    "pinyin": "Zhè jiā cāntīng shì liǎng jiā gōngsī héyíng de, shēngyi hěn hǎo.",
+    "english": "This restaurant is a joint venture between two companies and is doing very well."
+  },
+  {
+    "word": "度假村",
+    "sent_simp": "我们一家去海边度假村住了三天，玩得很开心。",
+    "sent_trad": "我們一家去海邊度假村住了三天，玩得很開心。",
+    "pinyin": "Wǒmen yījiā qù hǎibiān dùjiàcūn zhù le sān tiān, wán de hěn kāixīn.",
+    "english": "Our family stayed at a seaside resort for three days and had a great time."
+  },
+  {
+    "word": "撤军",
+    "sent_simp": "两国达成协议后，驻扎在边境的部队开始撤军。",
+    "sent_trad": "兩國達成協議後，駐紮在邊境的部隊開始撤軍。",
+    "pinyin": "Liǎng guó dáchéng xiéyì hòu, zhùzhā zài biānjìng de bùduì kāishǐ chèjūn.",
+    "english": "After the two countries reached an agreement, troops stationed at the border began to withdraw."
+  },
+  {
+    "word": "支行",
+    "sent_simp": "我去银行支行办理了开户手续，很顺利。",
+    "sent_trad": "我去銀行支行辦理了開戶手續，很順利。",
+    "pinyin": "Wǒ qù yínháng zhīxíng bànlǐ le kāihù shǒuxù, hěn shùnlì.",
+    "english": "I went to a bank branch to open an account, and it went smoothly."
+  },
+  {
+    "word": "患上",
+    "sent_simp": "他因为长期熬夜，患上了严重的胃病。",
+    "sent_trad": "他因為長期熬夜，患上了嚴重的胃病。",
+    "pinyin": "Tā yīnwèi chángqī áoyè, huànshàng le yánzhòng de wèibìng.",
+    "english": "Because he stayed up late for a long time, he came down with a serious stomach illness."
+  },
+  {
+    "word": "自摸",
+    "sent_simp": "他打麻将很顺，连续两局都自摸赢了。",
+    "sent_trad": "他打麻將很順，連續兩局都自摸贏了。",
+    "pinyin": "Tā dǎ májiàng hěn shùn, liánxù liǎng jú dōu zìmō yíng le.",
+    "english": "He was on a roll in mahjong, winning two games in a row by self-drawing the winning tile."
+  },
+  {
+    "word": "检方",
+    "sent_simp": "检方提出了充分的证据，法官采信了他们的说法。",
+    "sent_trad": "檢方提出了充分的證據，法官採信了他們的說法。",
+    "pinyin": "Jiǎnfāng tíchū le chōngfèn de zhèngjù, fǎguān cǎixìn le tāmen de shuōfǎ.",
+    "english": "The prosecution presented sufficient evidence, and the judge accepted their account."
+  },
+  {
+    "word": "年报",
+    "sent_simp": "公司的年报显示，去年营业额增长了百分之二十。",
+    "sent_trad": "公司的年報顯示，去年營業額增長了百分之二十。",
+    "pinyin": "Gōngsī de niánbào xiǎnshì, qùnián yíngyè'é zēngzhǎng le bǎifēnzhī èrshí.",
+    "english": "The company's annual report shows that revenue grew by twenty percent last year."
+  },
+  {
+    "word": "重载",
+    "sent_simp": "这条公路禁止重载卡车通行，以保护路面。",
+    "sent_trad": "這條公路禁止重載卡車通行，以保護路面。",
+    "pinyin": "Zhè tiáo gōnglù jìnzhǐ zhòngzài kǎchē tōngxíng, yǐ bǎohù lùmiàn.",
+    "english": "This road prohibits heavy-load trucks to protect the road surface."
+  },
+  {
+    "word": "供需",
+    "sent_simp": "房价由供需关系决定，需求大时价格就会上涨。",
+    "sent_trad": "房價由供需關係決定，需求大時價格就會上漲。",
+    "pinyin": "Fángjià yóu gōngxū guānxi juédìng, xūqiú dà shí jiàgé jiù huì shàngzhǎng.",
+    "english": "Housing prices are determined by supply and demand — when demand is high, prices rise."
+  },
+  {
+    "word": "生猪",
+    "sent_simp": "市场上生猪的价格最近波动很大。",
+    "sent_trad": "市場上生豬的價格最近波動很大。",
+    "pinyin": "Shìchǎng shàng shēngzhū de jiàgé zuìjìn bōdòng hěn dà.",
+    "english": "The price of live pigs on the market has been fluctuating a lot recently."
+  },
+  {
+    "word": "小花",
+    "sent_simp": "她是当红的小花，出道两年就拿了最佳新人奖。",
+    "sent_trad": "她是當紅的小花，出道兩年就拿了最佳新人獎。",
+    "pinyin": "Tā shì dānghóng de xiǎohuā, chūdào liǎng nián jiù ná le zuìjiā xīnrén jiǎng.",
+    "english": "She is a hot young actress who won the Best Newcomer award just two years after her debut."
+  },
+  {
+    "word": "楼盘",
+    "sent_simp": "这个楼盘的位置不错，离地铁站只有五分钟。",
+    "sent_trad": "這個樓盤的位置不錯，離地鐵站只有五分鐘。",
+    "pinyin": "Zhège lóupán de wèizhi búcuò, lí dìtiě zhàn zhǐyǒu wǔ fēnzhōng.",
+    "english": "This property development is well located — only five minutes from the subway station."
+  },
+  {
+    "word": "网剧",
+    "sent_simp": "她最近迷上了一部悬疑网剧，每天追更。",
+    "sent_trad": "她最近迷上了一部懸疑網劇，每天追更。",
+    "pinyin": "Tā zuìjìn míshàng le yī bù xuányí wǎngjù, měitiān zhuī gēng.",
+    "english": "She has recently become hooked on a suspense web series and follows it every day."
+  },
+  {
+    "word": "人力资源",
+    "sent_simp": "他在一家大公司的人力资源部门工作了五年。",
+    "sent_trad": "他在一家大公司的人力資源部門工作了五年。",
+    "pinyin": "Tā zài yī jiā dà gōngsī de rénlì zīyuán bùmén gōngzuò le wǔ nián.",
+    "english": "He has worked in the human resources department of a large company for five years."
+  },
+  {
+    "word": "创见",
+    "sent_simp": "这篇文章有不少创见，读起来很有启发。",
+    "sent_trad": "這篇文章有不少創見，讀起來很有啟發。",
+    "pinyin": "Zhè piān wénzhāng yǒu bùshǎo chuàngjiàn, dú qǐlái hěn yǒu qǐfā.",
+    "english": "This article contains quite a few original ideas and is very thought-provoking to read."
+  },
+  {
+    "word": "气枪",
+    "sent_simp": "他小时候用气枪打过靶，成绩还不错。",
+    "sent_trad": "他小時候用氣槍打過靶，成績還不錯。",
+    "pinyin": "Tā xiǎoshíhou yòng qìqiāng dǎguo bǎ, chéngjì hái búcuò.",
+    "english": "He used to shoot targets with an air gun as a kid and got decent scores."
+  },
+  {
+    "word": "低保",
+    "sent_simp": "他失业后申请了低保，靠政府补贴维持生活。",
+    "sent_trad": "他失業後申請了低保，靠政府補貼維持生活。",
+    "pinyin": "Tā shīyè hòu shēnqǐng le dībǎo, kào zhèngfǔ bǔtiē wéichí shēnghuó.",
+    "english": "After losing his job, he applied for the subsistence allowance and relied on government subsidies to get by."
+  }
+]

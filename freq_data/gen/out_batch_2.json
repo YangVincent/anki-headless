@@ -1,0 +1,322 @@
+[
+  {
+    "nid": 1537328247743,
+    "word": "有效",
+    "sent_simp": "这张优惠券还有效吗？",
+    "sent_trad": "這張優惠券還有效嗎？",
+    "pinyin": "Zhè zhāng yōuhuìquàn hái yǒuxiào ma?",
+    "english": "Is this coupon still valid?"
+  },
+  {
+    "nid": 1708747484462,
+    "word": "第二",
+    "sent_simp": "他第二次考试终于通过了。",
+    "sent_trad": "他第二次考試終於通過了。",
+    "pinyin": "Tā dì èr cì kǎoshì zhōngyú tōngguò le.",
+    "english": "He finally passed on his second attempt at the exam."
+  },
+  {
+    "nid": 1537328246928,
+    "word": "购买",
+    "sent_simp": "我在网上购买了一双运动鞋。",
+    "sent_trad": "我在網上購買了一雙運動鞋。",
+    "pinyin": "Wǒ zài wǎng shàng gòumǎi le yī shuāng yùndòngxié.",
+    "english": "I bought a pair of sneakers online."
+  },
+  {
+    "nid": 1537328245006,
+    "word": "网址",
+    "sent_simp": "你能把那个网址发给我吗？",
+    "sent_trad": "你能把那個網址發給我嗎？",
+    "pinyin": "Nǐ néng bǎ nàge wǎngzhǐ fā gěi wǒ ma?",
+    "english": "Can you send me that website address?"
+  },
+  {
+    "nid": 1537328245875,
+    "word": "广州",
+    "sent_simp": "她上周去广州出差了。",
+    "sent_trad": "她上週去廣州出差了。",
+    "pinyin": "Tā shàng zhōu qù Guǎngzhōu chūchāi le.",
+    "english": "She went to Guangzhou on a business trip last week."
+  },
+  {
+    "nid": 1537328247299,
+    "word": "部队",
+    "sent_simp": "他的父亲在部队服役了二十年。",
+    "sent_trad": "他的父親在部隊服役了二十年。",
+    "pinyin": "Tā de fùqīn zài bùduì fúyì le èrshí nián.",
+    "english": "His father served in the military for twenty years."
+  },
+  {
+    "nid": 1537328245261,
+    "word": "铁路",
+    "sent_simp": "这条铁路连接了两个大城市。",
+    "sent_trad": "這條鐵路連接了兩個大城市。",
+    "pinyin": "Zhè tiáo tiělù liánjiē le liǎng gè dà chéngshì.",
+    "english": "This railway connects two major cities."
+  },
+  {
+    "nid": 1393817666343,
+    "word": "难道",
+    "sent_simp": "难道你不饿吗？",
+    "sent_trad": "難道你不餓嗎？",
+    "pinyin": "Nándào nǐ bù è ma?",
+    "english": "Don't tell me you're not hungry?"
+  },
+  {
+    "nid": 1537328239954,
+    "word": "不用",
+    "sent_simp": "不用担心，我来帮你。",
+    "sent_trad": "不用擔心，我來幫你。",
+    "pinyin": "Bùyòng dānxīn, wǒ lái bāng nǐ.",
+    "english": "No need to worry, I'll help you."
+  },
+  {
+    "nid": 1393817666956,
+    "word": "似乎",
+    "sent_simp": "他今天似乎心情不太好。",
+    "sent_trad": "他今天似乎心情不太好。",
+    "pinyin": "Tā jīntiān sìhū xīnqíng bú tài hǎo.",
+    "english": "He seems to be in a bad mood today."
+  },
+  {
+    "nid": 1393817666404,
+    "word": "实在",
+    "sent_simp": "这道题实在太难了，我做不出来。",
+    "sent_trad": "這道題實在太難了，我做不出來。",
+    "pinyin": "Zhè dào tí shízài tài nán le, wǒ zuò bu chūlai.",
+    "english": "This problem is honestly too hard — I can't figure it out."
+  },
+  {
+    "nid": 1393817668222,
+    "word": "战斗",
+    "sent_simp": "游戏里的战斗场面很刺激。",
+    "sent_trad": "遊戲裡的戰鬥場面很刺激。",
+    "pinyin": "Yóuxì lǐ de zhàndòu chǎngmiàn hěn cìjī.",
+    "english": "The battle scenes in the game are really exciting."
+  },
+  {
+    "nid": 1537328247092,
+    "word": "称为",
+    "sent_simp": "这种茶被称为乌龙茶。",
+    "sent_trad": "這種茶被稱為烏龍茶。",
+    "pinyin": "Zhè zhǒng chá bèi chēng wéi wūlóng chá.",
+    "english": "This type of tea is called oolong tea."
+  },
+  {
+    "nid": 1537328241134,
+    "word": "英语",
+    "sent_simp": "她的英语说得非常流利。",
+    "sent_trad": "她的英語說得非常流利。",
+    "pinyin": "Tā de Yīngyǔ shuō de fēicháng liúlì.",
+    "english": "Her English is very fluent."
+  },
+  {
+    "nid": 1537328244570,
+    "word": "越来越",
+    "sent_simp": "天气越来越冷了，记得多穿点。",
+    "sent_trad": "天氣越來越冷了，記得多穿點。",
+    "pinyin": "Tiānqì yuè lái yuè lěng le, jìde duō chuān diǎn.",
+    "english": "The weather is getting colder and colder — remember to dress warmly."
+  },
+  {
+    "nid": 1537328241307,
+    "word": "其它",
+    "sent_simp": "这个颜色卖完了，你看看其它的吧。",
+    "sent_trad": "這個顏色賣完了，你看看其它的吧。",
+    "pinyin": "Zhège yánsè mài wán le, nǐ kànkan qítā de ba.",
+    "english": "This color is sold out — take a look at the other ones."
+  },
+  {
+    "nid": 1537328241638,
+    "word": "直到",
+    "sent_simp": "她直到深夜才回家。",
+    "sent_trad": "她直到深夜才回家。",
+    "pinyin": "Tā zhídào shēnyè cái huíjiā.",
+    "english": "She didn't get home until late at night."
+  },
+  {
+    "nid": 1537328247054,
+    "word": "停止",
+    "sent_simp": "请停止说话，考试开始了。",
+    "sent_trad": "請停止說話，考試開始了。",
+    "pinyin": "Qǐng tíngzhǐ shuōhuà, kǎoshì kāishǐ le.",
+    "english": "Please stop talking — the exam has started."
+  },
+  {
+    "nid": 1537328242655,
+    "word": "公共",
+    "sent_simp": "请不要在公共场所抽烟。",
+    "sent_trad": "請不要在公共場所抽菸。",
+    "pinyin": "Qǐng bú yào zài gōnggòng chǎngsuǒ chōuyān.",
+    "english": "Please don't smoke in public places."
+  },
+  {
+    "nid": 1707944133099,
+    "word": "共产党",
+    "sent_simp": "中国共产党成立于一九二一年。",
+    "sent_trad": "中國共產黨成立於一九二一年。",
+    "pinyin": "Zhōngguó Gòngchǎndǎng chénglì yú yī jiǔ èr yī nián.",
+    "english": "The Chinese Communist Party was founded in 1921."
+  },
+  {
+    "nid": 1537328247622,
+    "word": "多数",
+    "sent_simp": "多数同学都选择了理科。",
+    "sent_trad": "多數同學都選擇了理科。",
+    "pinyin": "Duōshù tóngxué dōu xuǎnzé le lǐkē.",
+    "english": "Most of the students chose science subjects."
+  },
+  {
+    "nid": 1710963504303,
+    "word": "有限公司",
+    "sent_simp": "他们刚注册了一家有限公司。",
+    "sent_trad": "他們剛註冊了一家有限公司。",
+    "pinyin": "Tāmen gāng zhùcè le yī jiā yǒuxiàn gōngsī.",
+    "english": "They just registered a limited company."
+  },
+  {
+    "nid": 1708747484145,
+    "word": "变得",
+    "sent_simp": "自从搬家以后，她变得开朗多了。",
+    "sent_trad": "自從搬家以後，她變得開朗多了。",
+    "pinyin": "Zìcóng bānjiā yǐhòu, tā biàn de kāilǎng duō le.",
+    "english": "Since moving, she has become much more outgoing."
+  },
+  {
+    "nid": 1537328246170,
+    "word": "或许",
+    "sent_simp": "或许明天会放晴。",
+    "sent_trad": "或許明天會放晴。",
+    "pinyin": "Huòxǔ míngtiān huì fàngqíng.",
+    "english": "Maybe it will clear up tomorrow."
+  },
+  {
+    "nid": 1708747508502,
+    "word": "朝鲜",
+    "sent_simp": "朝鲜和韩国之间的边界很特殊。",
+    "sent_trad": "朝鮮和韓國之間的邊界很特殊。",
+    "pinyin": "Cháoxiǎn hé Hánguó zhī jiān de biānjiè hěn tèshū.",
+    "english": "The border between North Korea and South Korea is very unique."
+  },
+  {
+    "nid": 1393817668572,
+    "word": "统治",
+    "sent_simp": "这个王朝统治了这片土地三百年。",
+    "sent_trad": "這個王朝統治了這片土地三百年。",
+    "pinyin": "Zhège wángcháo tǒngzhì le zhè piàn tǔdì sānbǎi nián.",
+    "english": "This dynasty ruled over this land for three hundred years."
+  },
+  {
+    "nid": 1537328247232,
+    "word": "团队",
+    "sent_simp": "我们团队今天完成了这个项目。",
+    "sent_trad": "我們團隊今天完成了這個項目。",
+    "pinyin": "Wǒmen tuánduì jīntiān wánchéng le zhège xiàngmù.",
+    "english": "Our team finished the project today."
+  },
+  {
+    "nid": 1537328244095,
+    "word": "普通",
+    "sent_simp": "这只是一顿普通的家常便饭。",
+    "sent_trad": "這只是一頓普通的家常便飯。",
+    "pinyin": "Zhè zhǐshì yī dùn pǔtōng de jiācháng biànfàn.",
+    "english": "It's just an ordinary home-cooked meal."
+  },
+  {
+    "nid": 1393817668431,
+    "word": "本身",
+    "sent_simp": "这件事本身没什么问题。",
+    "sent_trad": "這件事本身沒什麼問題。",
+    "pinyin": "Zhè jiàn shì běnshēn méi shénme wèntí.",
+    "english": "The matter itself has no real problem."
+  },
+  {
+    "nid": 1700001726070,
+    "word": "毛泽东",
+    "sent_simp": "毛泽东是中华人民共和国的创始人。",
+    "sent_trad": "毛澤東是中華人民共和國的創始人。",
+    "pinyin": "Máo Zédōng shì Zhōnghuá Rénmín Gònghéguó de chuàngshǐrén.",
+    "english": "Mao Zedong was the founder of the People's Republic of China."
+  },
+  {
+    "nid": 1537328240477,
+    "word": "听到",
+    "sent_simp": "我在楼上听到了楼下的笑声。",
+    "sent_trad": "我在樓上聽到了樓下的笑聲。",
+    "pinyin": "Wǒ zài lóu shàng tīng dào le lóu xià de xiàoshēng.",
+    "english": "I heard laughter from downstairs while I was upstairs."
+  },
+  {
+    "nid": 1537328245909,
+    "word": "链接",
+    "sent_simp": "你能把那个链接发给我吗？",
+    "sent_trad": "你能把那個鏈接發給我嗎？",
+    "pinyin": "Nǐ néng bǎ nàge liànjiē fā gěi wǒ ma?",
+    "english": "Can you send me that link?"
+  },
+  {
+    "nid": 1708747484852,
+    "word": "不可",
+    "sent_simp": "这里不可随便拍照。",
+    "sent_trad": "這裡不可隨便拍照。",
+    "pinyin": "Zhèlǐ bùkě suíbiàn pāizhào.",
+    "english": "You cannot take photos casually here."
+  },
+  {
+    "nid": 1537328247903,
+    "word": "快速",
+    "sent_simp": "地铁是城里最快速的交通方式。",
+    "sent_trad": "地鐵是城裡最快速的交通方式。",
+    "pinyin": "Dìtiě shì chéng lǐ zuì kuàisù de jiāotōng fāngshì.",
+    "english": "The subway is the fastest way to get around the city."
+  },
+  {
+    "nid": 1537328247470,
+    "word": "民众",
+    "sent_simp": "当地民众对这个决定反应不一。",
+    "sent_trad": "當地民眾對這個決定反應不一。",
+    "pinyin": "Dāngdì mínzhòng duì zhège juédìng fǎnyìng bù yī.",
+    "english": "Local residents had mixed reactions to the decision."
+  },
+  {
+    "nid": 1537328245871,
+    "word": "互联网",
+    "sent_simp": "现在很多工作都需要用到互联网。",
+    "sent_trad": "現在很多工作都需要用到互聯網。",
+    "pinyin": "Xiànzài hěn duō gōngzuò dōu xūyào yòng dào hùliánwǎng.",
+    "english": "Nowadays a lot of jobs require using the internet."
+  },
+  {
+    "nid": 1537328243454,
+    "word": "兴趣",
+    "sent_simp": "他对音乐有很大的兴趣。",
+    "sent_trad": "他對音樂有很大的興趣。",
+    "pinyin": "Tā duì yīnyuè yǒu hěn dà de xìngqù.",
+    "english": "He has a great interest in music."
+  },
+  {
+    "nid": 1537328247623,
+    "word": "少数",
+    "sent_simp": "只有少数人知道这件事。",
+    "sent_trad": "只有少數人知道這件事。",
+    "pinyin": "Zhǐyǒu shǎoshù rén zhīdào zhè jiàn shì.",
+    "english": "Only a small number of people know about this."
+  },
+  {
+    "nid": 1537328239861,
+    "word": "打开",
+    "sent_simp": "你能帮我打开这个瓶子吗？",
+    "sent_trad": "你能幫我打開這個瓶子嗎？",
+    "pinyin": "Nǐ néng bāng wǒ dǎkāi zhège píngzi ma?",
+    "english": "Can you help me open this bottle?"
+  },
+  {
+    "nid": 1393817666421,
+    "word": "比如",
+    "sent_simp": "水果有很多种，比如苹果、香蕉和橙子。",
+    "sent_trad": "水果有很多種，比如蘋果、香蕉和橙子。",
+    "pinyin": "Shuǐguǒ yǒu hěn duō zhǒng, bǐrú píngguǒ, xiāngjiāo hé chéngzi.",
+    "english": "There are many kinds of fruit, for example apples, bananas, and oranges."
+  }
+]

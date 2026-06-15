@@ -1,0 +1,322 @@
+[
+  {
+    "nid": 1708747501509,
+    "word": "法案",
+    "sent_simp": "这项法案昨天在议会通过了。",
+    "sent_trad": "這項法案昨天在議會通過了。",
+    "pinyin": "Zhè xiàng fǎ àn zuótiān zài yìhuì tōngguò le.",
+    "english": "This bill was passed in parliament yesterday."
+  },
+  {
+    "nid": 1708747510677,
+    "word": "波兰",
+    "sent_simp": "他上个月去波兰出差了。",
+    "sent_trad": "他上個月去波蘭出差了。",
+    "pinyin": "Tā shàng gè yuè qù Bōlán chūchāi le.",
+    "english": "He went to Poland on a business trip last month."
+  },
+  {
+    "nid": 1717270487603,
+    "word": "缅甸",
+    "sent_simp": "缅甸的玉石很有名。",
+    "sent_trad": "緬甸的玉石很有名。",
+    "pinyin": "Miǎndiàn de yùshí hěn yǒumíng.",
+    "english": "Myanmar is famous for its jade."
+  },
+  {
+    "nid": 1393817668111,
+    "word": "陆续",
+    "sent_simp": "客人陆续到达了会场。",
+    "sent_trad": "客人陸續到達了會場。",
+    "pinyin": "Kèrén lùxù dàodá le huìchǎng.",
+    "english": "The guests arrived at the venue one after another."
+  },
+  {
+    "nid": 1537328246357,
+    "word": "不幸",
+    "sent_simp": "他遭遇了不幸，失去了工作。",
+    "sent_trad": "他遭遇了不幸，失去了工作。",
+    "pinyin": "Tā zāoyù le bùxìng, shīqù le gōngzuò.",
+    "english": "He suffered a misfortune and lost his job."
+  },
+  {
+    "nid": 1393817668238,
+    "word": "代价",
+    "sent_simp": "成功是需要付出代价的。",
+    "sent_trad": "成功是需要付出代價的。",
+    "pinyin": "Chénggōng shì xūyào fùchū dàijià de.",
+    "english": "Success comes at a price."
+  },
+  {
+    "nid": 1537328246963,
+    "word": "优先",
+    "sent_simp": "请优先处理这件紧急的事。",
+    "sent_trad": "請優先處理這件緊急的事。",
+    "pinyin": "Qǐng yōuxiān chǔlǐ zhè jiàn jǐnjí de shì.",
+    "english": "Please handle this urgent matter first."
+  },
+  {
+    "nid": 1537328244419,
+    "word": "反正",
+    "sent_simp": "反正我今天没事，陪你去吧。",
+    "sent_trad": "反正我今天沒事，陪你去吧。",
+    "pinyin": "Fǎnzhèng wǒ jīntiān méi shì, péi nǐ qù ba.",
+    "english": "I'm free today anyway, so I'll go with you."
+  },
+  {
+    "nid": 1393817668179,
+    "word": "失踪",
+    "sent_simp": "那只猫失踪三天了。",
+    "sent_trad": "那隻貓失蹤三天了。",
+    "pinyin": "Nà zhī māo shīzōng sān tiān le.",
+    "english": "That cat has been missing for three days."
+  },
+  {
+    "nid": 1393817667819,
+    "word": "对比",
+    "sent_simp": "把这两张照片对比一下，差别很明显。",
+    "sent_trad": "把這兩張照片對比一下，差別很明顯。",
+    "pinyin": "Bǎ zhè liǎng zhāng zhàopiàn duìbǐ yīxià, chābié hěn míngxiǎn.",
+    "english": "Compare these two photos and the difference is obvious."
+  },
+  {
+    "nid": 1708747515771,
+    "word": "建国",
+    "sent_simp": "建国初期，生活条件很艰苦。",
+    "sent_trad": "建國初期，生活條件很艱苦。",
+    "pinyin": "Jiànguó chūqī, shēnghuó tiáojiàn hěn jiānkǔ.",
+    "english": "In the early days of the nation's founding, living conditions were very harsh."
+  },
+  {
+    "nid": 1393817667567,
+    "word": "戏剧",
+    "sent_simp": "她从小就喜欢看戏剧表演。",
+    "sent_trad": "她從小就喜歡看戲劇表演。",
+    "pinyin": "Tā cóngxiǎo jiù xǐhuān kàn xìjù biǎoyǎn.",
+    "english": "She has loved watching drama performances since she was little."
+  },
+  {
+    "nid": 1708747485312,
+    "word": "某种",
+    "sent_simp": "他脸上露出某种奇怪的表情。",
+    "sent_trad": "他臉上露出某種奇怪的表情。",
+    "pinyin": "Tā liǎn shàng lùchū mǒu zhǒng qíguài de biǎoqíng.",
+    "english": "He had some kind of strange expression on his face."
+  },
+  {
+    "nid": 1708747510831,
+    "word": "玩家",
+    "sent_simp": "这款游戏的玩家超过了一千万。",
+    "sent_trad": "這款遊戲的玩家超過了一千萬。",
+    "pinyin": "Zhè kuǎn yóuxì de wánjiā chāoguò le yīqiān wàn.",
+    "english": "This game has more than ten million players."
+  },
+  {
+    "nid": 1393817669610,
+    "word": "种植",
+    "sent_simp": "爷爷在院子里种植了很多蔬菜。",
+    "sent_trad": "爺爺在院子裡種植了很多蔬菜。",
+    "pinyin": "Yéye zài yuànzi lǐ zhòngzhí le hěn duō shūcài.",
+    "english": "Grandpa planted a lot of vegetables in the yard."
+  },
+  {
+    "nid": 1537328247973,
+    "word": "落后",
+    "sent_simp": "他学习落后，需要多花时间复习。",
+    "sent_trad": "他學習落後，需要多花時間復習。",
+    "pinyin": "Tā xuéxí luòhòu, xūyào duō huā shíjiān fùxí.",
+    "english": "He's falling behind in his studies and needs to spend more time reviewing."
+  },
+  {
+    "nid": 1537328240369,
+    "word": "西安",
+    "sent_simp": "西安的兵马俑每年吸引很多游客。",
+    "sent_trad": "西安的兵馬俑每年吸引很多遊客。",
+    "pinyin": "Xī'ān de bīngmǎyǒng měi nián xīyǐn hěn duō yóukè.",
+    "english": "Xi'an's Terracotta Warriors attract many tourists every year."
+  },
+  {
+    "nid": 1537328241303,
+    "word": "读书",
+    "sent_simp": "她在北京读书，很少回家。",
+    "sent_trad": "她在北京讀書，很少回家。",
+    "pinyin": "Tā zài Běijīng dúshū, hěn shǎo huí jiā.",
+    "english": "She studies in Beijing and rarely comes home."
+  },
+  {
+    "nid": 1726876647576,
+    "word": "邓小平",
+    "sent_simp": "邓小平推行了改革开放政策。",
+    "sent_trad": "鄧小平推行了改革開放政策。",
+    "pinyin": "Dèng Xiǎopíng tuīxíng le gǎigé kāifàng zhèngcè.",
+    "english": "Deng Xiaoping implemented the reform and opening-up policy."
+  },
+  {
+    "nid": 1708747494390,
+    "word": "镇压",
+    "sent_simp": "警方镇压了这场骚乱。",
+    "sent_trad": "警方鎮壓了這場騷亂。",
+    "pinyin": "Jǐngfāng zhènyā le zhè chǎng sāoluàn.",
+    "english": "The police suppressed the riot."
+  },
+  {
+    "nid": 1708747525311,
+    "word": "陕西",
+    "sent_simp": "陕西省的面食种类非常多。",
+    "sent_trad": "陝西省的麵食種類非常多。",
+    "pinyin": "Shǎnxī shěng de miànshí zhǒnglèi fēicháng duō.",
+    "english": "Shaanxi province has a great variety of noodle dishes."
+  },
+  {
+    "nid": 1537328246897,
+    "word": "乘客",
+    "sent_simp": "司机提醒乘客系好安全带。",
+    "sent_trad": "司機提醒乘客繫好安全帶。",
+    "pinyin": "Sījī tíxǐng chéngkè jì hǎo ānquándài.",
+    "english": "The driver reminded passengers to fasten their seatbelts."
+  },
+  {
+    "nid": 1537328243501,
+    "word": "再说",
+    "sent_simp": "今天太晚了，这件事明天再说吧。",
+    "sent_trad": "今天太晚了，這件事明天再說吧。",
+    "pinyin": "Jīntiān tài wǎn le, zhè jiàn shì míngtiān zài shuō ba.",
+    "english": "It's too late today; let's talk about this tomorrow."
+  },
+  {
+    "nid": 1537328241973,
+    "word": "商人",
+    "sent_simp": "那位商人靠卖茶叶发了财。",
+    "sent_trad": "那位商人靠賣茶葉發了財。",
+    "pinyin": "Nà wèi shāngrén kào mài cháyè fā le cái.",
+    "english": "That merchant made his fortune selling tea."
+  },
+  {
+    "nid": 1537328242599,
+    "word": "宝宝",
+    "sent_simp": "她的宝宝刚满六个月。",
+    "sent_trad": "她的寶寶剛滿六個月。",
+    "pinyin": "Tā de bǎobao gāng mǎn liù gè yuè.",
+    "english": "Her baby just turned six months old."
+  },
+  {
+    "nid": 1393817670100,
+    "word": "方针",
+    "sent_simp": "公司制定了新的发展方针。",
+    "sent_trad": "公司制定了新的發展方針。",
+    "pinyin": "Gōngsī zhìdìng le xīn de fāzhǎn fāngzhēn.",
+    "english": "The company has formulated new development guidelines."
+  },
+  {
+    "nid": 1537328246334,
+    "word": "机器人",
+    "sent_simp": "这家工厂用机器人代替了很多工人。",
+    "sent_trad": "這家工廠用機器人代替了很多工人。",
+    "pinyin": "Zhè jiā gōngchǎng yòng jīqìrén dàitì le hěn duō gōngrén.",
+    "english": "This factory has replaced many workers with robots."
+  },
+  {
+    "nid": 1537328246086,
+    "word": "查看",
+    "sent_simp": "你可以查看手机里的历史记录。",
+    "sent_trad": "你可以查看手機裡的歷史記錄。",
+    "pinyin": "Nǐ kěyǐ chákàn shǒujī lǐ de lìshǐ jìlù.",
+    "english": "You can check the browsing history on your phone."
+  },
+  {
+    "nid": 1393817667794,
+    "word": "活跃",
+    "sent_simp": "他在班里很活跃，朋友很多。",
+    "sent_trad": "他在班裡很活躍，朋友很多。",
+    "pinyin": "Tā zài bān lǐ hěn huóyuè, péngyou hěn duō.",
+    "english": "He's very active in class and has a lot of friends."
+  },
+  {
+    "nid": 1717270472275,
+    "word": "股权",
+    "sent_simp": "他把公司的股权转让给了弟弟。",
+    "sent_trad": "他把公司的股權轉讓給了弟弟。",
+    "pinyin": "Tā bǎ gōngsī de gǔquán zhuǎnràng gěi le dìdi.",
+    "english": "He transferred his equity shares in the company to his younger brother."
+  },
+  {
+    "nid": 1708747490347,
+    "word": "较为",
+    "sent_simp": "这道题较为简单，大家都做对了。",
+    "sent_trad": "這道題較為簡單，大家都做對了。",
+    "pinyin": "Zhè dào tí jiàowéi jiǎndān, dàjiā dōu zuò duì le.",
+    "english": "This question was relatively easy and everyone got it right."
+  },
+  {
+    "nid": 1537328245486,
+    "word": "都市",
+    "sent_simp": "她从农村来到都市，一切都觉得新鲜。",
+    "sent_trad": "她從農村來到都市，一切都覺得新鮮。",
+    "pinyin": "Tā cóng nóngcūn láidào dūshì, yīqiè dōu juéde xīnxiān.",
+    "english": "She came from the countryside to the city and found everything fresh and new."
+  },
+  {
+    "nid": 1537328245493,
+    "word": "页面",
+    "sent_simp": "网站的页面加载太慢了。",
+    "sent_trad": "網站的頁面加載太慢了。",
+    "pinyin": "Wǎngzhàn de yèmiàn jiāzǎi tài màn le.",
+    "english": "The website's page is loading too slowly."
+  },
+  {
+    "nid": 1393817670058,
+    "word": "专题",
+    "sent_simp": "杂志本期的专题是健康饮食。",
+    "sent_trad": "雜誌本期的專題是健康飲食。",
+    "pinyin": "Zázhì běn qī de zhuāntí shì jiànkāng yǐnshí.",
+    "english": "This issue's magazine special topic is healthy eating."
+  },
+  {
+    "nid": 1537328246196,
+    "word": "世界杯",
+    "sent_simp": "他们全家一起看世界杯决赛。",
+    "sent_trad": "他們全家一起看世界杯決賽。",
+    "pinyin": "Tāmen quán jiā yīqǐ kàn Shìjièbēi juésài.",
+    "english": "Their whole family watched the World Cup final together."
+  },
+  {
+    "nid": 1537328246020,
+    "word": "封锁",
+    "sent_simp": "警方封锁了事故现场。",
+    "sent_trad": "警方封鎖了事故現場。",
+    "pinyin": "Jǐngfāng fēngsuǒ le shìgù xiànchǎng.",
+    "english": "The police cordoned off the accident scene."
+  },
+  {
+    "nid": 1537328247174,
+    "word": "工艺",
+    "sent_simp": "这件瓷器的工艺非常精致。",
+    "sent_trad": "這件瓷器的工藝非常精緻。",
+    "pinyin": "Zhè jiàn cíqì de gōngyì fēicháng jīngzhì.",
+    "english": "The craftsmanship of this porcelain piece is exquisite."
+  },
+  {
+    "nid": 1708747488311,
+    "word": "干嘛",
+    "sent_simp": "你一个人坐在这里干嘛呢？",
+    "sent_trad": "你一個人坐在這裡干嘛呢？",
+    "pinyin": "Nǐ yī gè rén zuò zài zhèlǐ gànma ne?",
+    "english": "What are you sitting here alone for?"
+  },
+  {
+    "nid": 1393817667199,
+    "word": "总之",
+    "sent_simp": "总之，这次旅行让我收获很多。",
+    "sent_trad": "總之，這次旅行讓我收穫很多。",
+    "pinyin": "Zǒngzhī, zhè cì lǚxíng ràng wǒ shōuhuò hěn duō.",
+    "english": "In short, this trip was very rewarding for me."
+  },
+  {
+    "nid": 1393817666485,
+    "word": "恐怕",
+    "sent_simp": "外面下雪了，恐怕今天不能出门。",
+    "sent_trad": "外面下雪了，恐怕今天不能出門。",
+    "pinyin": "Wàimiàn xià xuě le, kǒngpà jīntiān bù néng chūmén.",
+    "english": "It's snowing outside; I'm afraid we can't go out today."
+  }
+]

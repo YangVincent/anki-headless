@@ -1,0 +1,322 @@
+[
+  {
+    "nid": 1537328244139,
+    "word": "绿色",
+    "sent_simp": "这件衬衫是绿色的，很好看。",
+    "sent_trad": "這件襯衫是綠色的，很好看。",
+    "pinyin": "Zhè jiàn chènshān shì lǜsè de, hěn hǎokàn.",
+    "english": "This shirt is green — it looks really nice."
+  },
+  {
+    "nid": 1708747501029,
+    "word": "越南",
+    "sent_simp": "我朋友上个月去越南旅行了。",
+    "sent_trad": "我朋友上個月去越南旅行了。",
+    "pinyin": "Wǒ péngyou shàng gè yuè qù Yuènán lǚxíng le.",
+    "english": "My friend traveled to Vietnam last month."
+  },
+  {
+    "nid": 1537328244794,
+    "word": "事实上",
+    "sent_simp": "事实上，他根本没有去过那里。",
+    "sent_trad": "事實上，他根本沒有去過那裡。",
+    "pinyin": "Shìshí shàng, tā gēnběn méiyǒu qùguò nàlǐ.",
+    "english": "In fact, he has never been there at all."
+  },
+  {
+    "nid": 1537328240878,
+    "word": "南部",
+    "sent_simp": "他老家在广东省南部的一个小镇。",
+    "sent_trad": "他老家在廣東省南部的一個小鎮。",
+    "pinyin": "Tā lǎojiā zài Guǎngdōng shěng nánbù de yī gè xiǎozhèn.",
+    "english": "His hometown is a small town in the southern part of Guangdong province."
+  },
+  {
+    "nid": 1537328243951,
+    "word": "尝试",
+    "sent_simp": "你可以尝试用微波炉加热一下。",
+    "sent_trad": "你可以嘗試用微波爐加熱一下。",
+    "pinyin": "Nǐ kěyǐ chángshì yòng wēibōlú jiārè yīxià.",
+    "english": "You can try heating it up in the microwave."
+  },
+  {
+    "nid": 1704460576255,
+    "word": "泰国",
+    "sent_simp": "她在泰国买了很多便宜的衣服。",
+    "sent_trad": "她在泰國買了很多便宜的衣服。",
+    "pinyin": "Tā zài Tàiguó mǎi le hěn duō piányí de yīfú.",
+    "english": "She bought a lot of cheap clothes in Thailand."
+  },
+  {
+    "nid": 1708747496607,
+    "word": "连结",
+    "sent_simp": "这两个城市之间有铁路连结。",
+    "sent_trad": "這兩個城市之間有鐵路連結。",
+    "pinyin": "Zhè liǎng gè chéngshì zhījiān yǒu tiělù liánjié.",
+    "english": "The two cities are connected by a railway link."
+  },
+  {
+    "nid": 1537328244157,
+    "word": "黑人",
+    "sent_simp": "班里有一位来自美国的黑人同学。",
+    "sent_trad": "班裡有一位來自美國的黑人同學。",
+    "pinyin": "Bān lǐ yǒu yī wèi láizì Měiguó de hēirén tóngxué.",
+    "english": "There is a Black classmate from the United States in the class."
+  },
+  {
+    "nid": 1708747526347,
+    "word": "中国共产党",
+    "sent_simp": "中国共产党于一九二一年成立。",
+    "sent_trad": "中國共產黨於一九二一年成立。",
+    "pinyin": "Zhōngguó Gòngchǎndǎng yú yī jiǔ èr yī nián chénglì.",
+    "english": "The Communist Party of China was founded in 1921."
+  },
+  {
+    "nid": 1537328247675,
+    "word": "之下",
+    "sent_simp": "在父母的压力之下，他选择了学医。",
+    "sent_trad": "在父母的壓力之下，他選擇了學醫。",
+    "pinyin": "Zài fùmǔ de yālì zhīxià, tā xuǎnzé le xué yī.",
+    "english": "Under pressure from his parents, he chose to study medicine."
+  },
+  {
+    "nid": 1393817668754,
+    "word": "司法",
+    "sent_simp": "这个案子已经移交给司法机关处理。",
+    "sent_trad": "這個案子已經移交給司法機關處理。",
+    "pinyin": "Zhège ànzi yǐjīng yíjiāo gěi sīfǎ jīguān chǔlǐ.",
+    "english": "The case has already been handed over to the judicial authorities."
+  },
+  {
+    "nid": 1393817666484,
+    "word": "究竟",
+    "sent_simp": "他究竟去哪里了，没人知道。",
+    "sent_trad": "他究竟去哪裡了，沒人知道。",
+    "pinyin": "Tā jiūjìng qù nǎlǐ le, méi rén zhīdào.",
+    "english": "Nobody knows where on earth he went."
+  },
+  {
+    "nid": 1537328248080,
+    "word": "背后",
+    "sent_simp": "她在背后说了很多坏话。",
+    "sent_trad": "她在背後說了很多壞話。",
+    "pinyin": "Tā zài bèihòu shuō le hěn duō huàihuà.",
+    "english": "She said a lot of nasty things behind people's backs."
+  },
+  {
+    "nid": 1708747496655,
+    "word": "西藏",
+    "sent_simp": "他一直想去西藏看看雪山。",
+    "sent_trad": "他一直想去西藏看看雪山。",
+    "pinyin": "Tā yīzhí xiǎng qù Xīzàng kàn kàn xuěshān.",
+    "english": "He has always wanted to go to Tibet to see the snow-capped mountains."
+  },
+  {
+    "nid": 1537328241853,
+    "word": "讲话",
+    "sent_simp": "校长在台上讲话，同学们认真听着。",
+    "sent_trad": "校長在臺上講話，同學們認真聽著。",
+    "pinyin": "Xiàozhǎng zài táishàng jiǎng huà, tóngxuémen rènzhēn tīng zhe.",
+    "english": "The principal spoke on stage while the students listened attentively."
+  },
+  {
+    "nid": 1393817668522,
+    "word": "领袖",
+    "sent_simp": "他是团队里公认的领袖。",
+    "sent_trad": "他是團隊裡公認的領袖。",
+    "pinyin": "Tā shì tuánduì lǐ gōngrèn de lǐngxiù.",
+    "english": "He is the universally recognized leader of the team."
+  },
+  {
+    "nid": 1537328247964,
+    "word": "下降",
+    "sent_simp": "最近气温明显下降了。",
+    "sent_trad": "最近氣溫明顯下降了。",
+    "pinyin": "Zuìjìn qìwēn míngxiǎn xiàjiàng le.",
+    "english": "The temperature has dropped noticeably lately."
+  },
+  {
+    "nid": 1537328240880,
+    "word": "东部",
+    "sent_simp": "他住在城市东部的新小区里。",
+    "sent_trad": "他住在城市東部的新小區裡。",
+    "pinyin": "Tā zhù zài chéngshì dōngbù de xīn xiǎoqū lǐ.",
+    "english": "He lives in a new residential area in the eastern part of the city."
+  },
+  {
+    "nid": 1537328246716,
+    "word": "收集",
+    "sent_simp": "她从小就喜欢收集各种贴纸。",
+    "sent_trad": "她從小就喜歡收集各種貼紙。",
+    "pinyin": "Tā cóngxiǎo jiù xǐhuān shōují gè zhǒng tiēzhǐ.",
+    "english": "She has loved collecting all kinds of stickers since she was little."
+  },
+  {
+    "nid": 1537328247204,
+    "word": "赢得",
+    "sent_simp": "他的努力赢得了大家的尊重。",
+    "sent_trad": "他的努力贏得了大家的尊重。",
+    "pinyin": "Tā de nǔlì yíngdé le dàjiā de zūnzhòng.",
+    "english": "His hard work earned him the respect of everyone."
+  },
+  {
+    "nid": 1708747499119,
+    "word": "马来西亚",
+    "sent_simp": "马来西亚的榴梿非常有名。",
+    "sent_trad": "馬來西亞的榴槤非常有名。",
+    "pinyin": "Mǎláixīyà de liúlián fēicháng yǒumíng.",
+    "english": "Malaysia's durian is very famous."
+  },
+  {
+    "nid": 1393817669454,
+    "word": "动态",
+    "sent_simp": "我关注他的朋友圈动态。",
+    "sent_trad": "我關注他的朋友圈動態。",
+    "pinyin": "Wǒ guānzhù tā de péngyouquān dòngtài.",
+    "english": "I follow the updates on his Moments feed."
+  },
+  {
+    "nid": 1537328244679,
+    "word": "在线",
+    "sent_simp": "老师现在在线，可以直接问她。",
+    "sent_trad": "老師現在在線，可以直接問她。",
+    "pinyin": "Lǎoshī xiànzài zàixiàn, kěyǐ zhíjiē wèn tā.",
+    "english": "The teacher is online right now — you can ask her directly."
+  },
+  {
+    "nid": 1702184696212,
+    "word": "科学家",
+    "sent_simp": "这位科学家发现了一种新材料。",
+    "sent_trad": "這位科學家發現了一種新材料。",
+    "pinyin": "Zhè wèi kēxuéjiā fāxiàn le yī zhǒng xīn cáiliào.",
+    "english": "This scientist discovered a new material."
+  },
+  {
+    "nid": 1393817666895,
+    "word": "简直",
+    "sent_simp": "今天热得简直受不了。",
+    "sent_trad": "今天熱得簡直受不了。",
+    "pinyin": "Jīntiān rè de jiǎnzhí shòu bùliǎo.",
+    "english": "It's simply unbearable how hot it is today."
+  },
+  {
+    "nid": 1717270478916,
+    "word": "证券",
+    "sent_simp": "他在一家证券公司上班。",
+    "sent_trad": "他在一家證券公司上班。",
+    "pinyin": "Tā zài yī jiā zhèngquàn gōngsī shàngbān.",
+    "english": "He works at a securities firm."
+  },
+  {
+    "nid": 1708118395164,
+    "word": "云南",
+    "sent_simp": "我们计划暑假去云南爬山。",
+    "sent_trad": "我們計劃暑假去雲南爬山。",
+    "pinyin": "Wǒmen jìhuà shǔjià qù Yúnnán páshān.",
+    "english": "We plan to go hiking in Yunnan during summer vacation."
+  },
+  {
+    "nid": 1697861854300,
+    "word": "伦敦",
+    "sent_simp": "她在伦敦留学了两年。",
+    "sent_trad": "她在倫敦留學了兩年。",
+    "pinyin": "Tā zài Lúndūn liúxué le liǎng nián.",
+    "english": "She studied abroad in London for two years."
+  },
+  {
+    "nid": 1393817667816,
+    "word": "具备",
+    "sent_simp": "这份工作要求应聘者具备良好的沟通能力。",
+    "sent_trad": "這份工作要求應聘者具備良好的溝通能力。",
+    "pinyin": "Zhè fèn gōngzuò yāoqiú yìngpìnzhě jùbèi liánghǎo de gōutōng nénglì.",
+    "english": "This job requires applicants to possess good communication skills."
+  },
+  {
+    "nid": 1537328243583,
+    "word": "多久",
+    "sent_simp": "你学中文多久了？",
+    "sent_trad": "你學中文多久了？",
+    "pinyin": "Nǐ xué Zhōngwén duō jiǔ le?",
+    "english": "How long have you been studying Chinese?"
+  },
+  {
+    "nid": 1537328245958,
+    "word": "意大利",
+    "sent_simp": "他特别喜欢吃意大利面。",
+    "sent_trad": "他特別喜歡吃意大利麵。",
+    "pinyin": "Tā tèbié xǐhuān chī Yìdàlì miàn.",
+    "english": "He especially loves eating Italian pasta."
+  },
+  {
+    "nid": 1393817668467,
+    "word": "策略",
+    "sent_simp": "他们调整了销售策略，业绩提高了不少。",
+    "sent_trad": "他們調整了銷售策略，業績提高了不少。",
+    "pinyin": "Tāmen tiáozhěng le xiāoshòu cèlüè, yèjī tígāo le bùshǎo.",
+    "english": "After adjusting their sales tactics, their performance improved quite a bit."
+  },
+  {
+    "nid": 1708747526130,
+    "word": "菲律宾",
+    "sent_simp": "菲律宾的海滩很漂亮，很多人去度假。",
+    "sent_trad": "菲律賓的海灘很漂亮，很多人去度假。",
+    "pinyin": "Fēilǜbīn de hǎitān hěn piàoliang, hěn duō rén qù dùjià.",
+    "english": "The beaches in the Philippines are beautiful, and many people go there on holiday."
+  },
+  {
+    "nid": 1537328245358,
+    "word": "释放",
+    "sent_simp": "警察把那名嫌疑人释放了。",
+    "sent_trad": "警察把那名嫌疑人釋放了。",
+    "pinyin": "Jǐngchá bǎ nà míng xiányírén shìfàng le.",
+    "english": "The police released the suspect."
+  },
+  {
+    "nid": 1537328242110,
+    "word": "哪些",
+    "sent_simp": "你知道哪些餐厅比较好吃吗？",
+    "sent_trad": "你知道哪些餐廳比較好吃嗎？",
+    "pinyin": "Nǐ zhīdào nǎ xiē cāntīng bǐjiào hǎochī ma?",
+    "english": "Do you know which restaurants are pretty good?"
+  },
+  {
+    "nid": 1537328244339,
+    "word": "收费",
+    "sent_simp": "这个停车场每小时收费五块钱。",
+    "sent_trad": "這個停車場每小時收費五塊錢。",
+    "pinyin": "Zhège tíngchēchǎng měi xiǎoshí shōufèi wǔ kuài qián.",
+    "english": "This parking lot charges five yuan per hour."
+  },
+  {
+    "nid": 1537328240529,
+    "word": "每次",
+    "sent_simp": "他每次见到我都打招呼。",
+    "sent_trad": "他每次見到我都打招呼。",
+    "pinyin": "Tā měi cì jiàn dào wǒ dōu dǎ zhāohu.",
+    "english": "Every time he sees me, he greets me."
+  },
+  {
+    "nid": 1393817668469,
+    "word": "装备",
+    "sent_simp": "去登山要带好必要的装备。",
+    "sent_trad": "去登山要帶好必要的裝備。",
+    "pinyin": "Qù dēngshān yào dài hǎo bìyào de zhuāngbèi.",
+    "english": "You need to bring the necessary equipment when going mountain climbing."
+  },
+  {
+    "nid": 1537328247678,
+    "word": "以外",
+    "sent_simp": "工作以外，他最喜欢打篮球。",
+    "sent_trad": "工作以外，他最喜歡打籃球。",
+    "pinyin": "Gōngzuò yǐwài, tā zuì xǐhuān dǎ lánqiú.",
+    "english": "Apart from work, his favorite thing is playing basketball."
+  },
+  {
+    "nid": 1710963500846,
+    "word": "俄国",
+    "sent_simp": "他在大学选修了俄国历史课。",
+    "sent_trad": "他在大學選修了俄國歷史課。",
+    "pinyin": "Tā zài dàxué xuǎnxiū le Éguó lìshǐ kè.",
+    "english": "He took a Russian history elective in college."
+  }
+]

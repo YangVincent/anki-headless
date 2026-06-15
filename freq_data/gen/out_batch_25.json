@@ -1,0 +1,322 @@
+[
+  {
+    "nid": 1537328245461,
+    "word": "反思",
+    "sent_simp": "这次失败让我深深地反思自己的做法。",
+    "sent_trad": "這次失敗讓我深深地反思自己的做法。",
+    "pinyin": "Zhè cì shībài ràng wǒ shēnshēn de fǎnsī zìjǐ de zuòfǎ.",
+    "english": "This failure made me deeply reflect on my own approach."
+  },
+  {
+    "nid": 1705346639146,
+    "word": "商场",
+    "sent_simp": "周末我去商场买了几件衣服。",
+    "sent_trad": "週末我去商場買了幾件衣服。",
+    "pinyin": "Zhōumò wǒ qù shāngchǎng mǎi le jǐ jiàn yīfu.",
+    "english": "I went to the shopping mall on the weekend and bought a few clothes."
+  },
+  {
+    "nid": 1393817669886,
+    "word": "天然气",
+    "sent_simp": "我们家用天然气做饭，比电更方便。",
+    "sent_trad": "我們家用天然氣做飯，比電更方便。",
+    "pinyin": "Wǒmen jiā yòng tiānránqì zuòfàn, bǐ diàn gèng fāngbiàn.",
+    "english": "Our family uses natural gas for cooking, which is more convenient than electricity."
+  },
+  {
+    "nid": 1537328247713,
+    "word": "存款",
+    "sent_simp": "她把这个月的工资都存款了。",
+    "sent_trad": "她把這個月的工資都存款了。",
+    "pinyin": "Tā bǎ zhège yuè de gōngzī dōu cún kuǎn le.",
+    "english": "She deposited all of this month's salary in the bank."
+  },
+  {
+    "nid": 1708747500455,
+    "word": "将领",
+    "sent_simp": "这位将领在战争中立下了大功。",
+    "sent_trad": "這位將領在戰爭中立下了大功。",
+    "pinyin": "Zhè wèi jiànglǐng zài zhànzhēng zhōng lì xià le dà gōng.",
+    "english": "This military officer made great contributions during the war."
+  },
+  {
+    "nid": 1537328242710,
+    "word": "工作室",
+    "sent_simp": "他在家里设了一间工作室来画画。",
+    "sent_trad": "他在家裡設了一間工作室來畫畫。",
+    "pinyin": "Tā zài jiā lǐ shè le yī jiān gōngzuòshì lái huàhuà.",
+    "english": "He set up a studio at home for painting."
+  },
+  {
+    "nid": 1708747509387,
+    "word": "帐号",
+    "sent_simp": "我忘记帐号密码了，需要重新设置。",
+    "sent_trad": "我忘記帳號密碼了，需要重新設置。",
+    "pinyin": "Wǒ wàngjì zhànghào mìmǎ le, xūyào chóngxīn shèzhì.",
+    "english": "I forgot my account password and need to reset it."
+  },
+  {
+    "nid": 1393817667847,
+    "word": "幼儿园",
+    "sent_simp": "妈妈每天送孩子去幼儿园。",
+    "sent_trad": "媽媽每天送孩子去幼兒園。",
+    "pinyin": "Māma měitiān sòng háizi qù yòu'éryuán.",
+    "english": "Mom takes the child to kindergarten every day."
+  },
+  {
+    "nid": 1393817668482,
+    "word": "性命",
+    "sent_simp": "消防员冒着危险救出了被困者的性命。",
+    "sent_trad": "消防員冒著危險救出了被困者的性命。",
+    "pinyin": "Xiāofángyuán màozhe wēixiǎn jiù chū le bèikùnzhě de xìngmìng.",
+    "english": "The firefighter risked danger to save the lives of those trapped."
+  },
+  {
+    "nid": 1708747494498,
+    "word": "想像",
+    "sent_simp": "我很难想像没有手机的生活。",
+    "sent_trad": "我很難想像沒有手機的生活。",
+    "pinyin": "Wǒ hěn nán xiǎngxiàng méiyǒu shǒujī de shēnghuó.",
+    "english": "I can hardly imagine life without a smartphone."
+  },
+  {
+    "nid": 1708747488359,
+    "word": "拿来",
+    "sent_simp": "你能把那本书拿来给我看看吗？",
+    "sent_trad": "你能把那本書拿來給我看看嗎？",
+    "pinyin": "Nǐ néng bǎ nà běn shū ná lái gěi wǒ kànkan ma?",
+    "english": "Can you bring that book over for me to have a look?"
+  },
+  {
+    "nid": 1537328242147,
+    "word": "整天",
+    "sent_simp": "他整天对着电脑，眼睛都累了。",
+    "sent_trad": "他整天對著電腦，眼睛都累了。",
+    "pinyin": "Tā zhěngtiān duìzhe diànnǎo, yǎnjing dōu lèi le.",
+    "english": "He stares at the computer all day long and his eyes are tired."
+  },
+  {
+    "nid": 1393817670124,
+    "word": "整顿",
+    "sent_simp": "公司决定整顿内部管理制度。",
+    "sent_trad": "公司決定整頓內部管理制度。",
+    "pinyin": "Gōngsī juédìng zhěngdùn nèibù guǎnlǐ zhìdù.",
+    "english": "The company decided to reorganize its internal management system."
+  },
+  {
+    "nid": 1537328246687,
+    "word": "春节",
+    "sent_simp": "春节快到了，大家都开始买年货。",
+    "sent_trad": "春節快到了，大家都開始買年貨。",
+    "pinyin": "Chūnjié kuài dào le, dàjiā dōu kāishǐ mǎi niánhuò.",
+    "english": "Spring Festival is coming up and everyone has started buying New Year goods."
+  },
+  {
+    "nid": 1393817668129,
+    "word": "本科",
+    "sent_simp": "他在北京大学读本科，学的是计算机。",
+    "sent_trad": "他在北京大學讀本科，學的是計算機。",
+    "pinyin": "Tā zài Běijīng Dàxué dú běnkē, xué de shì jìsuànjī.",
+    "english": "He did his undergraduate degree at Peking University, studying computer science."
+  },
+  {
+    "nid": 1708747522015,
+    "word": "架构",
+    "sent_simp": "这个软件的架构设计得很清晰。",
+    "sent_trad": "這個軟件的架構設計得很清晰。",
+    "pinyin": "Zhège ruǎnjiàn de jiàgòu shèjì de hěn qīngxī.",
+    "english": "The architecture of this software is very clearly designed."
+  },
+  {
+    "nid": 1537328245812,
+    "word": "标语",
+    "sent_simp": "操场墙上贴着鼓励学生的标语。",
+    "sent_trad": "操場牆上貼著鼓勵學生的標語。",
+    "pinyin": "Cāochǎng qiáng shàng tiē zhe gǔlì xuésheng de biāoyǔ.",
+    "english": "Motivational slogans for students are posted on the wall of the playground."
+  },
+  {
+    "nid": 1393817668706,
+    "word": "漫长",
+    "sent_simp": "在医院等待的时间感觉特别漫长。",
+    "sent_trad": "在醫院等待的時間感覺特別漫長。",
+    "pinyin": "Zài yīyuàn děngdài de shíjiān gǎnjué tèbié màncháng.",
+    "english": "The waiting time at the hospital feels especially endless."
+  },
+  {
+    "nid": 1708747524854,
+    "word": "直辖市",
+    "sent_simp": "上海是中国的一个直辖市。",
+    "sent_trad": "上海是中國的一個直轄市。",
+    "pinyin": "Shànghǎi shì Zhōngguó de yī gè zhíxiáshì.",
+    "english": "Shanghai is a directly governed municipality of China."
+  },
+  {
+    "nid": 1537328246668,
+    "word": "精确",
+    "sent_simp": "做科学实验要求数据非常精确。",
+    "sent_trad": "做科學實驗要求數據非常精確。",
+    "pinyin": "Zuò kēxué shíyàn yāoqiú shùjù fēicháng jīngquè.",
+    "english": "Conducting scientific experiments requires extremely precise data."
+  },
+  {
+    "nid": 1706419737542,
+    "word": "精英",
+    "sent_simp": "这所学校培养了很多行业精英。",
+    "sent_trad": "這所學校培養了很多行業精英。",
+    "pinyin": "Zhè suǒ xuéxiào péiyǎng le hěn duō hángyè jīngyīng.",
+    "english": "This school has trained many industry elites."
+  },
+  {
+    "nid": 1393817669472,
+    "word": "纠纷",
+    "sent_simp": "邻居之间因停车问题发生了纠纷。",
+    "sent_trad": "鄰居之間因停車問題發生了糾紛。",
+    "pinyin": "Línjū zhījiān yīn tíngchē wèntí fāshēng le jiūfēn.",
+    "english": "A dispute broke out between neighbors over a parking issue."
+  },
+  {
+    "nid": 1708747503622,
+    "word": "苏维埃",
+    "sent_simp": "历史课上老师讲了苏维埃的由来。",
+    "sent_trad": "歷史課上老師講了蘇維埃的由來。",
+    "pinyin": "Lìshǐ kè shàng lǎoshī jiǎng le Sūwéi'āi de yóulái.",
+    "english": "In history class the teacher explained the origins of the Soviet."
+  },
+  {
+    "nid": 1393817668703,
+    "word": "野蛮",
+    "sent_simp": "用野蛮的方式解决问题只会更糟。",
+    "sent_trad": "用野蠻的方式解決問題只會更糟。",
+    "pinyin": "Yòng yěmán de fāngshì jiějué wèntí zhǐ huì gèng zāo.",
+    "english": "Solving problems in a brutal way will only make things worse."
+  },
+  {
+    "nid": 1717270478634,
+    "word": "专项",
+    "sent_simp": "学校设立了专项基金帮助贫困学生。",
+    "sent_trad": "學校設立了專項基金幫助貧困學生。",
+    "pinyin": "Xuéxiào shèlì le zhuānxiàng jījīn bāngzhù pínkùn xuésheng.",
+    "english": "The school set up a dedicated fund to help students in financial need."
+  },
+  {
+    "nid": 1393817668620,
+    "word": "举动",
+    "sent_simp": "他突然的举动让大家都吓了一跳。",
+    "sent_trad": "他突然的舉動讓大家都嚇了一跳。",
+    "pinyin": "Tā tūrán de jǔdòng ràng dàjiā dōu xià le yī tiào.",
+    "english": "His sudden move gave everyone a fright."
+  },
+  {
+    "nid": 1393817669067,
+    "word": "作风",
+    "sent_simp": "这位老师的作风很踏实，从不拖拉。",
+    "sent_trad": "這位老師的作風很踏實，從不拖拉。",
+    "pinyin": "Zhè wèi lǎoshī de zuòfēng hěn tāshi, cóng bù tuōlā.",
+    "english": "This teacher has a very down-to-earth work style and never procrastinates."
+  },
+  {
+    "nid": 1717270455081,
+    "word": "劳工",
+    "sent_simp": "工厂需要保障劳工的基本权益。",
+    "sent_trad": "工廠需要保障勞工的基本權益。",
+    "pinyin": "Gōngchǎng xūyào bǎozhàng láogōng de jīběn quányì.",
+    "english": "Factories need to protect the basic rights and interests of workers."
+  },
+  {
+    "nid": 1393817667962,
+    "word": "单元",
+    "sent_simp": "我住在这栋楼的二单元三楼。",
+    "sent_trad": "我住在這棟樓的二單元三樓。",
+    "pinyin": "Wǒ zhù zài zhè dòng lóu de èr dānyuán sān lóu.",
+    "english": "I live on the third floor of staircase two in this building."
+  },
+  {
+    "nid": 1537328245456,
+    "word": "反动",
+    "sent_simp": "历史课上讨论了那个时期的反动势力。",
+    "sent_trad": "歷史課上討論了那個時期的反動勢力。",
+    "pinyin": "Lìshǐ kè shàng tǎolùn le nàge shíqī de fǎndòng shìlì.",
+    "english": "In history class they discussed the reactionary forces of that period."
+  },
+  {
+    "nid": 1708747503514,
+    "word": "基督徒",
+    "sent_simp": "她是虔诚的基督徒，每周日去教堂。",
+    "sent_trad": "她是虔誠的基督徒，每週日去教堂。",
+    "pinyin": "Tā shì qiánchéng de Jīdūtú, měi zhōurì qù jiàotáng.",
+    "english": "She is a devout Christian who goes to church every Sunday."
+  },
+  {
+    "nid": 1717270453270,
+    "word": "基金会",
+    "sent_simp": "这家基金会专门资助农村的孩子上学。",
+    "sent_trad": "這家基金會專門資助農村的孩子上學。",
+    "pinyin": "Zhè jiā jījīnhuì zhuānmén zīzhù nóngcūn de háizi shàngxué.",
+    "english": "This foundation specifically funds children in rural areas to attend school."
+  },
+  {
+    "nid": 1393817669975,
+    "word": "复兴",
+    "sent_simp": "他们努力推动传统文化的复兴。",
+    "sent_trad": "他們努力推動傳統文化的復興。",
+    "pinyin": "Tāmen nǔlì tuīdòng chuántǒng wénhuà de fùxīng.",
+    "english": "They work hard to promote the revival of traditional culture."
+  },
+  {
+    "nid": 1537328239995,
+    "word": "女孩子",
+    "sent_simp": "班上来了一个新的女孩子，大家都很好奇。",
+    "sent_trad": "班上來了一個新的女孩子，大家都很好奇。",
+    "pinyin": "Bān shàng lái le yī gè xīn de nǚháizi, dàjiā dōu hěn hàoqí.",
+    "english": "A new girl joined the class and everyone was very curious about her."
+  },
+  {
+    "nid": 1537328245057,
+    "word": "字幕",
+    "sent_simp": "看外国电影时我习惯开字幕。",
+    "sent_trad": "看外國電影時我習慣開字幕。",
+    "pinyin": "Kàn wàiguó diànyǐng shí wǒ xíguàn kāi zìmù.",
+    "english": "When watching foreign films I'm used to turning on subtitles."
+  },
+  {
+    "nid": 1393817668337,
+    "word": "宁愿",
+    "sent_simp": "我宁愿走路也不想挤公交车。",
+    "sent_trad": "我寧願走路也不想擠公交車。",
+    "pinyin": "Wǒ nìngyuàn zǒulù yě bù xiǎng jǐ gōngjiāochē.",
+    "english": "I would rather walk than squeeze onto a bus."
+  },
+  {
+    "nid": 1708747500205,
+    "word": "安娜",
+    "sent_simp": "安娜是我们班上唯一的外国同学。",
+    "sent_trad": "安娜是我們班上唯一的外國同學。",
+    "pinyin": "Ānnà shì wǒmen bān shàng wéiyī de wàiguó tóngxué.",
+    "english": "Anna is the only foreign classmate in our class."
+  },
+  {
+    "nid": 1393817669823,
+    "word": "局部",
+    "sent_simp": "医生说只是局部感染，不用太担心。",
+    "sent_trad": "醫生說只是局部感染，不用太擔心。",
+    "pinyin": "Yīshēng shuō zhǐ shì júbù gǎnrǎn, bùyòng tài dānxīn.",
+    "english": "The doctor said it's only a localized infection, nothing to worry too much about."
+  },
+  {
+    "nid": 1703539938901,
+    "word": "差点",
+    "sent_simp": "我差点忘了今天要交作业。",
+    "sent_trad": "我差點忘了今天要交作業。",
+    "pinyin": "Wǒ chàdiǎn wàng le jīntiān yào jiāo zuòyè.",
+    "english": "I almost forgot that I had to hand in homework today."
+  },
+  {
+    "nid": 1537328247072,
+    "word": "彼得",
+    "sent_simp": "彼得是我在语言学校认识的朋友。",
+    "sent_trad": "彼得是我在語言學校認識的朋友。",
+    "pinyin": "Bǐdé shì wǒ zài yǔyán xuéxiào rènshi de péngyou.",
+    "english": "Peter is a friend I met at the language school."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "word": "王府",
+    "sent_simp": "这座王府已经有三百年的历史了。",
+    "sent_trad": "這座王府已經有三百年的歷史了。",
+    "pinyin": "Zhè zuò wáng fǔ yǐ jīng yǒu sān bǎi nián de lì shǐ le.",
+    "english": "This prince's mansion is already three hundred years old."
+  },
+  {
+    "word": "救主",
+    "sent_simp": "他在那次事故中救了我，简直就是我的救主。",
+    "sent_trad": "他在那次事故中救了我，簡直就是我的救主。",
+    "pinyin": "Tā zài nà cì shì gù zhōng jiù le wǒ, jiǎn zhí jiù shì wǒ de jiù zhǔ.",
+    "english": "He saved me in that accident — he was truly my savior."
+  },
+  {
+    "word": "系列片",
+    "sent_simp": "这部系列片一共有三季，每季十集。",
+    "sent_trad": "這部系列片一共有三季，每季十集。",
+    "pinyin": "Zhè bù xì liè piàn yī gòng yǒu sān jì, měi jì shí jí.",
+    "english": "This film series has three seasons in total, with ten episodes each."
+  },
+  {
+    "word": "真象",
+    "sent_simp": "大家都想知道这件事的真象。",
+    "sent_trad": "大家都想知道這件事的真象。",
+    "pinyin": "Dà jiā dōu xiǎng zhī dào zhè jiàn shì de zhēn xiàng.",
+    "english": "Everyone wants to know the truth about what happened."
+  },
+  {
+    "word": "神山",
+    "sent_simp": "当地人把那座山当作神山来敬拜。",
+    "sent_trad": "當地人把那座山當作神山來敬拜。",
+    "pinyin": "Dāng dì rén bǎ nà zuò shān dāng zuò shén shān lái jìng bài.",
+    "english": "The local people worship that mountain as a sacred mountain."
+  },
+  {
+    "word": "反动派",
+    "sent_simp": "历史课上讲到了当年的反动派如何被推翻的。",
+    "sent_trad": "歷史課上講到了當年的反動派如何被推翻的。",
+    "pinyin": "Lì shǐ kè shàng jiǎng dào le dāng nián de fǎn dòng pài rú hé bèi tuī fān de.",
+    "english": "The history class covered how the reactionaries of that era were overthrown."
+  },
+  {
+    "word": "组图",
+    "sent_simp": "他在社交媒体上发了一组图，展示这次旅行。",
+    "sent_trad": "他在社交媒體上發了一組圖，展示這次旅行。",
+    "pinyin": "Tā zài shè jiāo méi tǐ shàng fā le yī zǔ tú, zhǎn shì zhè cì lǚ xíng.",
+    "english": "He posted a set of pictures on social media showing this trip."
+  },
+  {
+    "word": "有色金属",
+    "sent_simp": "铜和铝都属于有色金属。",
+    "sent_trad": "銅和鋁都屬於有色金屬。",
+    "pinyin": "Tóng hé lǚ dōu shǔ yú yǒu sè jīn shǔ.",
+    "english": "Copper and aluminum are both non-ferrous metals."
+  },
+  {
+    "word": "变乱",
+    "sent_simp": "那段变乱的岁月里，很多家庭都失散了。",
+    "sent_trad": "那段變亂的歲月裡，很多家庭都失散了。",
+    "pinyin": "Nà duàn biàn luàn de suì yuè lǐ, hěn duō jiā tíng dōu shī sàn le.",
+    "english": "During that period of turmoil, many families were separated."
+  },
+  {
+    "word": "交心",
+    "sent_simp": "和老朋友喝茶聊天，彼此交心，感觉很轻松。",
+    "sent_trad": "和老朋友喝茶聊天，彼此交心，感覺很輕鬆。",
+    "pinyin": "Hé lǎo péng yǒu hē chá liáo tiān, bǐ cǐ jiāo xīn, gǎn jué hěn qīng sōng.",
+    "english": "Having tea and chatting with an old friend and opening our hearts to each other felt very relaxing."
+  },
+  {
+    "word": "挂靠",
+    "sent_simp": "这家小公司挂靠在一所大学名下经营。",
+    "sent_trad": "這家小公司掛靠在一所大學名下經營。",
+    "pinyin": "Zhè jiā xiǎo gōng sī guà kào zài yī suǒ dà xué míng xià jīng yíng.",
+    "english": "This small company operates under the affiliation of a university."
+  },
+  {
+    "word": "归并",
+    "sent_simp": "两个部门归并成了一个，减少了不少麻烦。",
+    "sent_trad": "兩個部門歸併成了一個，減少了不少麻煩。",
+    "pinyin": "Liǎng gè bù mén guī bìng chéng le yī gè, jiǎn shǎo le bù shǎo má fán.",
+    "english": "The two departments were merged into one, cutting out a lot of hassle."
+  },
+  {
+    "word": "统战",
+    "sent_simp": "统战工作要注重与各方建立信任。",
+    "sent_trad": "統戰工作要注重與各方建立信任。",
+    "pinyin": "Tǒng zhàn gōng zuò yào zhù zhòng yǔ gè fāng jiàn lì xìn rèn.",
+    "english": "United front work must focus on building trust with all parties."
+  },
+  {
+    "word": "整改",
+    "sent_simp": "检查发现问题后，工厂立刻开始整改。",
+    "sent_trad": "檢查發現問題後，工廠立刻開始整改。",
+    "pinyin": "Jiǎn chá fā xiàn wèn tí hòu, gōng chǎng lì kè kāi shǐ zhěng gǎi.",
+    "english": "After the inspection found problems, the factory immediately began rectifying them."
+  },
+  {
+    "word": "利益冲突",
+    "sent_simp": "评审委员与参赛方有利益冲突，应该回避。",
+    "sent_trad": "評審委員與參賽方有利益衝突，應該回避。",
+    "pinyin": "Píng shěn wěi yuán yǔ cān sài fāng yǒu lì yì chōng tū, yīng gāi huí bì.",
+    "english": "The judge has a conflict of interest with one of the contestants and should recuse themselves."
+  },
+  {
+    "word": "脱贫",
+    "sent_simp": "经过多年努力，这个村子终于脱贫了。",
+    "sent_trad": "經過多年努力，這個村子終於脫貧了。",
+    "pinyin": "Jīng guò duō nián nǔ lì, zhè gè cūn zi zhōng yú tuō pín le.",
+    "english": "After years of hard work, this village has finally lifted itself out of poverty."
+  },
+  {
+    "word": "大头",
+    "sent_simp": "这笔开销的大头是租金，其他费用不多。",
+    "sent_trad": "這筆開銷的大頭是租金，其他費用不多。",
+    "pinyin": "Zhè bǐ kāi xiāo de dà tóu shì zū jīn, qí tā fèi yòng bù duō.",
+    "english": "The main chunk of this expense is rent; the other costs are small."
+  },
+  {
+    "word": "肉干",
+    "sent_simp": "他出门旅游时喜欢带点肉干当零食。",
+    "sent_trad": "他出門旅遊時喜歡帶點肉乾當零食。",
+    "pinyin": "Tā chū mén lǚ yóu shí xǐ huān dài diǎn ròu gān dāng líng shí.",
+    "english": "When traveling, he likes to bring some dried meat as a snack."
+  },
+  {
+    "word": "轻工业",
+    "sent_simp": "这个地区以轻工业为主，主要生产纺织品。",
+    "sent_trad": "這個地區以輕工業為主，主要生產紡織品。",
+    "pinyin": "Zhè gè dì qū yǐ qīng gōng yè wéi zhǔ, zhǔ yào shēng chǎn fǎng zhī pǐn.",
+    "english": "This area is dominated by light industry, mainly producing textiles."
+  },
+  {
+    "word": "鱼种",
+    "sent_simp": "鱼塘里放了一批新鱼种，等到秋天就能捕了。",
+    "sent_trad": "魚塘裡放了一批新魚種，等到秋天就能捕了。",
+    "pinyin": "Yú táng lǐ fàng le yī pī xīn yú zhǒng, děng dào qiū tiān jiù néng bǔ le.",
+    "english": "A new batch of fingerlings was put in the fish pond; they'll be ready to catch by autumn."
+  },
+  {
+    "word": "公信力",
+    "sent_simp": "媒体的公信力来自持续准确的报道。",
+    "sent_trad": "媒體的公信力來自持續準確的報道。",
+    "pinyin": "Méi tǐ de gōng xìn lì lái zì chí xù zhǔn què de bào dào.",
+    "english": "A media outlet's public credibility comes from consistently accurate reporting."
+  },
+  {
+    "word": "马球",
+    "sent_simp": "他第一次看马球比赛，觉得非常刺激。",
+    "sent_trad": "他第一次看馬球比賽，覺得非常刺激。",
+    "pinyin": "Tā dì yī cì kàn mǎ qiú bǐ sài, jué de fēi cháng cì jī.",
+    "english": "He watched a polo match for the first time and found it very exciting."
+  },
+  {
+    "word": "报收",
+    "sent_simp": "今天股市报收于三千二百点。",
+    "sent_trad": "今天股市報收於三千二百點。",
+    "pinyin": "Jīn tiān gǔ shì bào shōu yú sān qiān èr bǎi diǎn.",
+    "english": "Today the stock market closed at 3,200 points."
+  },
+  {
+    "word": "鱼网",
+    "sent_simp": "渔民早上出海，撒下鱼网等待收获。",
+    "sent_trad": "漁民早上出海，撒下魚網等待收穫。",
+    "pinyin": "Yú mín zǎo shàng chū hǎi, sā xià yú wǎng děng dài shōu huò.",
+    "english": "The fishermen headed out to sea in the morning, casting their nets and waiting for a catch."
+  },
+  {
+    "word": "文史",
+    "sent_simp": "他大学读的是文史专业，毕业后当了老师。",
+    "sent_trad": "他大學讀的是文史專業，畢業後當了老師。",
+    "pinyin": "Tā dà xué dú de shì wén shǐ zhuān yè, bì yè hòu dāng le lǎo shī.",
+    "english": "He studied literature and history at university and became a teacher after graduating."
+  },
+  {
+    "word": "名录",
+    "sent_simp": "这家餐厅被列入了城市美食名录。",
+    "sent_trad": "這家餐廳被列入了城市美食名錄。",
+    "pinyin": "Zhè jiā cān tīng bèi liè rù le chéng shì měi shí míng lù.",
+    "english": "This restaurant has been listed in the city's food directory."
+  },
+  {
+    "word": "大棒",
+    "sent_simp": "他管孩子总喜欢用大棒政策，孩子都怕他。",
+    "sent_trad": "他管孩子總喜歡用大棒政策，孩子都怕他。",
+    "pinyin": "Tā guǎn hái zi zǒng xǐ huān yòng dà bàng zhèng cè, hái zi dōu pà tā.",
+    "english": "He always likes to use the big stick with his kids, and they're all scared of him."
+  },
+  {
+    "word": "下款",
+    "sent_simp": "这幅字画的下款写着作者的名字和日期。",
+    "sent_trad": "這幅字畫的下款寫著作者的名字和日期。",
+    "pinyin": "Zhè fú zì huà de xià kuǎn xiě zhe zuò zhě de míng zi hé rì qī.",
+    "english": "The signature on this calligraphy piece shows the author's name and date."
+  },
+  {
+    "word": "艺术节",
+    "sent_simp": "每年夏天，城里都会举办一次艺术节。",
+    "sent_trad": "每年夏天，城裡都會舉辦一次藝術節。",
+    "pinyin": "Měi nián xià tiān, chéng lǐ dōu huì jǔ bàn yī cì yì shù jié.",
+    "english": "Every summer the city holds an arts festival."
+  },
+  {
+    "word": "民主化",
+    "sent_simp": "这个国家的民主化进程经历了很多波折。",
+    "sent_trad": "這個國家的民主化進程經歷了很多波折。",
+    "pinyin": "Zhè gè guó jiā de mín zhǔ huà jìn chéng jīng lì le hěn duō bō zhé.",
+    "english": "This country's democratic transformation has gone through many twists and turns."
+  },
+  {
+    "word": "收报",
+    "sent_simp": "以前家里用收报机来接收天气预报信息。",
+    "sent_trad": "以前家裡用收報機來接收天氣預報信息。",
+    "pinyin": "Yǐ qián jiā lǐ yòng shōu bào jī lái jiē shōu tiān qì yù bào xìn xī.",
+    "english": "In the old days, people used a receiver at home to get weather forecast information by telegraph."
+  },
+  {
+    "word": "飞行器",
+    "sent_simp": "这款新型飞行器可以在城市上空自动飞行。",
+    "sent_trad": "這款新型飛行器可以在城市上空自動飛行。",
+    "pinyin": "Zhè kuǎn xīn xíng fēi xíng qì kě yǐ zài chéng shì shàng kōng zì dòng fēi xíng.",
+    "english": "This new type of flying craft can fly autonomously over the city."
+  },
+  {
+    "word": "分期",
+    "sent_simp": "买这台冰箱可以分期付款，不用一次付清。",
+    "sent_trad": "買這台冰箱可以分期付款，不用一次付清。",
+    "pinyin": "Mǎi zhè tái bīng xiāng kě yǐ fēn qī fù kuǎn, bù yòng yī cì fù qīng.",
+    "english": "You can pay for this refrigerator in installments rather than all at once."
+  },
+  {
+    "word": "金毛",
+    "sent_simp": "他养了一只金毛，每天早上带它去公园跑步。",
+    "sent_trad": "他養了一隻金毛，每天早上帶它去公園跑步。",
+    "pinyin": "Tā yǎng le yī zhī jīn máo, měi tiān zǎo shàng dài tā qù gōng yuán pǎo bù.",
+    "english": "He has a golden retriever that he takes to the park for a run every morning."
+  },
+  {
+    "word": "房事",
+    "sent_simp": "医生建议术后一个月内不宜有房事。",
+    "sent_trad": "醫生建議術後一個月內不宜有房事。",
+    "pinyin": "Yī shēng jiàn yì shù hòu yī gè yuè nèi bù yí yǒu fáng shì.",
+    "english": "The doctor advised avoiding sexual intercourse for one month after surgery."
+  },
+  {
+    "word": "无感",
+    "sent_simp": "这首歌我完全无感，不知道为什么这么火。",
+    "sent_trad": "這首歌我完全無感，不知道為什麼這麼火。",
+    "pinyin": "Zhè shǒu gē wǒ wán quán wú gǎn, bù zhī dào wèi shén me zhè me huǒ.",
+    "english": "I feel totally nothing about this song — I have no idea why it's so popular."
+  },
+  {
+    "word": "乐见",
+    "sent_simp": "大家都乐见两岸关系能够进一步改善。",
+    "sent_trad": "大家都樂見兩岸關係能夠進一步改善。",
+    "pinyin": "Dà jiā dōu lè jiàn liǎng àn guān xì néng gòu jìn yī bù gǎi shàn.",
+    "english": "Everyone is pleased to see cross-strait relations improve further."
+  },
+  {
+    "word": "总产值",
+    "sent_simp": "去年全市工业总产值比前年增加了百分之八。",
+    "sent_trad": "去年全市工業總產值比前年增加了百分之八。",
+    "pinyin": "Qù nián quán shì gōng yè zǒng chǎn zhí bǐ qián nián zēng jiā le bǎi fēn zhī bā.",
+    "english": "Last year the city's total industrial output value increased by eight percent over the year before."
+  },
+  {
+    "word": "发愿",
+    "sent_simp": "她发愿要在有生之年走遍中国所有省份。",
+    "sent_trad": "她發願要在有生之年走遍中國所有省份。",
+    "pinyin": "Tā fā yuàn yào zài yǒu shēng zhī nián zǒu biàn Zhōng guó suǒ yǒu shěng fèn.",
+    "english": "She vowed to visit every province in China in her lifetime."
+  },
+  {
+    "word": "自治县",
+    "sent_simp": "这个自治县有自己的地方语言和习俗。",
+    "sent_trad": "這個自治縣有自己的地方語言和習俗。",
+    "pinyin": "Zhè gè zì zhì xiàn yǒu zì jǐ de dì fāng yǔ yán hé xí sú.",
+    "english": "This autonomous county has its own local language and customs."
+  }
+]

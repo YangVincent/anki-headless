@@ -1,0 +1,47 @@
+[
+ {
+  "char": "谬",
+  "pinyin": "miù",
+  "meaning": "(bound form) false; erroneous; absurd; mu (Greek letter Μ, μ)",
+  "trad": "謬",
+  "components": "讠(speech) + 翏 (feathers flying away)",
+  "mnemonic": "Speech with feathers flying away scatters false words into the air—absurd and erroneous, disappearing without truth.",
+  "zipf": 2.8
+ },
+ {
+  "char": "衅",
+  "pinyin": "xìn",
+  "meaning": "quarrel; dispute; a blood sacrifice (arch.)",
+  "trad": "釁",
+  "components": "丰 (ritual vessel) + 分 (divide) + 血 (blood)",
+  "mnemonic": "A ritual vessel divides blood for ancient sacrifice, but when mishandled it sparks a bloody quarrel and dispute.",
+  "zipf": 3.08
+ },
+ {
+  "char": "暧",
+  "pinyin": "ài",
+  "meaning": "(of daylight) dim; obscure; clandestine; dubious",
+  "trad": "曖",
+  "components": "日 (sun) + 爱 (love)",
+  "mnemonic": "When the sun loves too dimly, daylight becomes obscure and clandestine affairs happen in the shadows.",
+  "zipf": 2.44
+ },
+ {
+  "char": "谙",
+  "pinyin": "ān",
+  "meaning": "to be versed in; to know well",
+  "trad": "諳",
+  "components": "讠(speech) + 音 (sound)",
+  "mnemonic": "Speech matching every sound perfectly—you're so versed in it, you know it well and can recite from memory.",
+  "zipf": 2.64
+ },
+ {
+  "char": "婪",
+  "pinyin": "lán",
+  "meaning": "avaricious",
+  "trad": "婪",
+  "components": "林 (forest) + 女 (woman)",
+  "mnemonic": "A woman greedily hoarding an entire forest for herself shows avaricious desire—wanting everything, never satisfied.",
+  "zipf": 1.92
+ }
+]

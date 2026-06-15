@@ -1,0 +1,282 @@
+[
+  {
+    "word": "清酒",
+    "sent_simp": "他在居酒屋点了一杯清酒。",
+    "sent_trad": "他在居酒屋點了一杯清酒。",
+    "pinyin": "Tā zài jū jiǔ wū diǎn le yī bēi qīng jiǔ.",
+    "english": "He ordered a glass of sake at the izakaya."
+  },
+  {
+    "word": "币制",
+    "sent_simp": "该国正在推行币制改革。",
+    "sent_trad": "該國正在推行幣制改革。",
+    "pinyin": "Gāi guó zhèngzài tuīxíng bì zhì gǎigé.",
+    "english": "The country is pushing forward with currency system reform."
+  },
+  {
+    "word": "北风",
+    "sent_simp": "今天北风很大，出门要多穿点。",
+    "sent_trad": "今天北風很大，出門要多穿點。",
+    "pinyin": "Jīntiān běi fēng hěn dà, chū mén yào duō chuān diǎn.",
+    "english": "The north wind is really strong today — wear more layers when you go out."
+  },
+  {
+    "word": "民选",
+    "sent_simp": "这位民选市长上任后立刻推行改革。",
+    "sent_trad": "這位民選市長上任後立刻推行改革。",
+    "pinyin": "Zhè wèi mín xuǎn shì zhǎng shàngrèn hòu lìkè tuīxíng gǎigé.",
+    "english": "The democratically elected mayor immediately pushed for reforms after taking office."
+  },
+  {
+    "word": "转院",
+    "sent_simp": "病情严重，医生建议他转院治疗。",
+    "sent_trad": "病情嚴重，醫生建議他轉院治療。",
+    "pinyin": "Bìngqíng yánzhòng, yīshēng jiànyì tā zhuǎn yuàn zhìliáo.",
+    "english": "His condition was serious, so the doctor recommended transferring him to another hospital."
+  },
+  {
+    "word": "约炮",
+    "sent_simp": "他在交友软件上约炮，结果遇到了骗子。",
+    "sent_trad": "他在交友軟件上約炮，結果遇到了騙子。",
+    "pinyin": "Tā zài jiāoyǒu ruǎnjiàn shàng yuē pào, jiéguǒ yùdào le piànzi.",
+    "english": "He tried to hook up through a dating app and ended up meeting a scammer."
+  },
+  {
+    "word": "公营",
+    "sent_simp": "这家公营医院的收费比较低。",
+    "sent_trad": "這家公營醫院的收費比較低。",
+    "pinyin": "Zhè jiā gōng yíng yīyuàn de shōufèi bǐjiào dī.",
+    "english": "This public hospital charges relatively lower fees."
+  },
+  {
+    "word": "资格赛",
+    "sent_simp": "他在资格赛中表现出色，顺利晋级。",
+    "sent_trad": "他在資格賽中表現出色，順利晉級。",
+    "pinyin": "Tā zài zī gé sài zhōng biǎoxiàn chūsè, shùnlì jìnjí.",
+    "english": "He performed brilliantly in the qualifying round and advanced smoothly."
+  },
+  {
+    "word": "京师",
+    "sent_simp": "古时候，进京师是很多人的梦想。",
+    "sent_trad": "古時候，進京師是很多人的夢想。",
+    "pinyin": "Gǔ shíhou, jìn jīng shī shì hěn duō rén de mèngxiǎng.",
+    "english": "In ancient times, going to the capital was the dream of many people."
+  },
+  {
+    "word": "学运",
+    "sent_simp": "那场学运影响了整整一代年轻人。",
+    "sent_trad": "那場學運影響了整整一代年輕人。",
+    "pinyin": "Nà chǎng xué yùn yǐngxiǎng le zhěngzhěng yī dài niánqīngrén.",
+    "english": "That student movement influenced an entire generation of young people."
+  },
+  {
+    "word": "防洪",
+    "sent_simp": "市政府加固了河堤以加强防洪能力。",
+    "sent_trad": "市政府加固了河堤以加強防洪能力。",
+    "pinyin": "Shì zhèngfǔ jiāgù le hé dī yǐ jiāqiáng fáng hóng nénglì.",
+    "english": "The city government reinforced the riverbanks to improve flood control capacity."
+  },
+  {
+    "word": "动物界",
+    "sent_simp": "狮子被称为动物界的王者。",
+    "sent_trad": "獅子被稱為動物界的王者。",
+    "pinyin": "Shīzi bèi chēngwéi dòng wù jiè de wángzhě.",
+    "english": "The lion is known as the king of the animal kingdom."
+  },
+  {
+    "word": "预防性",
+    "sent_simp": "医生给他开了预防性的药物。",
+    "sent_trad": "醫生給他開了預防性的藥物。",
+    "pinyin": "Yīshēng gěi tā kāi le yù fáng xìng de yàowù.",
+    "english": "The doctor prescribed him preventive medication."
+  },
+  {
+    "word": "偷人",
+    "sent_simp": "邻居发现她在偷人，闹得满城风雨。",
+    "sent_trad": "鄰居發現她在偷人，鬧得滿城風雨。",
+    "pinyin": "Línjū fāxiàn tā zài tōu rén, nào de mǎn chéng fēng yǔ.",
+    "english": "The neighbors found out she was having an affair, and it caused a huge scandal."
+  },
+  {
+    "word": "微电脑",
+    "sent_simp": "这台洗衣机内置微电脑控制系统。",
+    "sent_trad": "這台洗衣機內置微電腦控制系統。",
+    "pinyin": "Zhè tái xǐyījī nèizhì wēi diàn nǎo kòngzhì xìtǒng.",
+    "english": "This washing machine has a built-in microcomputer control system."
+  },
+  {
+    "word": "券商",
+    "sent_simp": "他在一家知名券商工作，专门做股票分析。",
+    "sent_trad": "他在一家知名券商工作，專門做股票分析。",
+    "pinyin": "Tā zài yī jiā zhīmíng quàn shāng gōngzuò, zhuānmén zuò gǔpiào fēnxī.",
+    "english": "He works at a well-known securities dealer specializing in stock analysis."
+  },
+  {
+    "word": "代为",
+    "sent_simp": "他不在，我可以代为签收快递。",
+    "sent_trad": "他不在，我可以代為簽收快遞。",
+    "pinyin": "Tā bù zài, wǒ kěyǐ dài wéi qiān shōu kuàidì.",
+    "english": "He's not here — I can sign for the delivery on his behalf."
+  },
+  {
+    "word": "圣体",
+    "sent_simp": "信徒在弥撒中领受圣体。",
+    "sent_trad": "信徒在彌撒中領受聖體。",
+    "pinyin": "Xìntú zài mísā zhōng lǐngshòu shèng tǐ.",
+    "english": "Believers receive communion during Mass."
+  },
+  {
+    "word": "纯爱",
+    "sent_simp": "这部小说描写了两个人之间的纯爱故事。",
+    "sent_trad": "這部小說描寫了兩個人之間的純愛故事。",
+    "pinyin": "Zhè bù xiǎoshuō miáoxiě le liǎng gè rén zhījiān de chún ài gùshi.",
+    "english": "This novel tells a story of pure love between two people."
+  },
+  {
+    "word": "走红",
+    "sent_simp": "她发布的短视频一夜之间走红网络。",
+    "sent_trad": "她發布的短視頻一夜之間走紅網絡。",
+    "pinyin": "Tā fābù de duǎn shìpín yī yè zhī jiān zǒu hóng wǎngluò.",
+    "english": "The short video she posted went viral online overnight."
+  },
+  {
+    "word": "胰岛素",
+    "sent_simp": "糖尿病患者每天都需要注射胰岛素。",
+    "sent_trad": "糖尿病患者每天都需要注射胰島素。",
+    "pinyin": "Tángniàobìng huànzhě měitiān dōu xūyào zhùshè yí dǎo sù.",
+    "english": "Diabetes patients need to inject insulin every day."
+  },
+  {
+    "word": "球馆",
+    "sent_simp": "今晚的篮球比赛在市中心的球馆举行。",
+    "sent_trad": "今晚的籃球比賽在市中心的球館舉行。",
+    "pinyin": "Jīn wǎn de lánqiú bǐsài zài shì zhōngxīn de qiú guǎn jǔxíng.",
+    "english": "Tonight's basketball game is being held at the arena in the city center."
+  },
+  {
+    "word": "叫床",
+    "sent_simp": "她觉得电影里那段叫床声太夸张了。",
+    "sent_trad": "她覺得電影裡那段叫床聲太誇張了。",
+    "pinyin": "Tā juéde diànyǐng lǐ nà duàn jiào chuáng shēng tài kuāzhāng le.",
+    "english": "She thought the moaning sounds in that movie scene were way over the top."
+  },
+  {
+    "word": "结社",
+    "sent_simp": "公民有权自由结社，组成各类团体。",
+    "sent_trad": "公民有權自由結社，組成各類團體。",
+    "pinyin": "Gōngmín yǒu quán zìyóu jié shè, zǔchéng gè lèi tuántǐ.",
+    "english": "Citizens have the right to freely form associations and organizations of all kinds."
+  },
+  {
+    "word": "流行语",
+    "sent_simp": "\"躺平\"是这两年最流行的流行语之一。",
+    "sent_trad": "\"躺平\"是這兩年最流行的流行語之一。",
+    "pinyin": "\"Tǎng píng\" shì zhè liǎng nián zuì liúxíng de liú xíng yǔ zhī yī.",
+    "english": "\"Lying flat\" is one of the most popular catchwords of the past two years."
+  },
+  {
+    "word": "入职",
+    "sent_simp": "他下周一正式入职新公司。",
+    "sent_trad": "他下週一正式入職新公司。",
+    "pinyin": "Tā xià zhōu yī zhèngshì rù zhí xīn gōngsī.",
+    "english": "He officially starts at his new company next Monday."
+  },
+  {
+    "word": "独立宣言",
+    "sent_simp": "《独立宣言》是美国历史上的重要文件。",
+    "sent_trad": "《獨立宣言》是美國歷史上的重要文件。",
+    "pinyin": "《Dú lì xuān yán》 shì Měiguó lìshǐ shàng de zhòngyào wénjiàn.",
+    "english": "The Declaration of Independence is a landmark document in American history."
+  },
+  {
+    "word": "公案",
+    "sent_simp": "这起悬案成了当地的一大公案，多年未解。",
+    "sent_trad": "這起懸案成了當地的一大公案，多年未解。",
+    "pinyin": "Zhè qǐ xuán àn chéng le dāngdì de yī dà gōng àn, duō nián wèi jiě.",
+    "english": "This unsolved case became a major local mystery that went unresolved for years."
+  },
+  {
+    "word": "体育界",
+    "sent_simp": "他是体育界公认的传奇人物。",
+    "sent_trad": "他是體育界公認的傳奇人物。",
+    "pinyin": "Tā shì tǐ yù jiè gōngrèn de chuánqí rénwù.",
+    "english": "He is a widely recognized legend in the sporting world."
+  },
+  {
+    "word": "鱼龙",
+    "sent_simp": "博物馆里展出了一具完整的鱼龙化石。",
+    "sent_trad": "博物館裡展出了一具完整的魚龍化石。",
+    "pinyin": "Bówùguǎn lǐ zhǎnchū le yī jù wánzhěng de yú lóng huàshí.",
+    "english": "The museum has a complete ichthyosaur fossil on display."
+  },
+  {
+    "word": "暗黑",
+    "sent_simp": "走廊里暗黑一片，他赶紧打开了手电筒。",
+    "sent_trad": "走廊裡暗黑一片，他趕緊打開了手電筒。",
+    "pinyin": "Zǒuláng lǐ àn hēi yī piàn, tā gǎnjǐn dǎkāi le shǒudiàntǒng.",
+    "english": "The hallway was pitch dark, so he quickly switched on his flashlight."
+  },
+  {
+    "word": "监制",
+    "sent_simp": "这部电影由著名导演监制，质量有保证。",
+    "sent_trad": "這部電影由著名導演監製，質量有保證。",
+    "pinyin": "Zhè bù diànyǐng yóu zhùmíng dǎoyǎn jiān zhì, zhìliàng yǒu bǎozhèng.",
+    "english": "This film was executive produced by a renowned director, so the quality is guaranteed."
+  },
+  {
+    "word": "原来如此",
+    "sent_simp": "听了她的解释，我才明白，原来如此。",
+    "sent_trad": "聽了她的解釋，我才明白，原來如此。",
+    "pinyin": "Tīng le tā de jiěshì, wǒ cái míngbai, yuán lái rú cǐ.",
+    "english": "After hearing her explanation, I finally understood — so that's how it is."
+  },
+  {
+    "word": "归口",
+    "sent_simp": "这类项目应归口到技术部门统一管理。",
+    "sent_trad": "這類項目應歸口到技術部門統一管理。",
+    "pinyin": "Zhè lèi xiàngmù yīng guī kǒu dào jìshù bùmén tǒngyī guǎnlǐ.",
+    "english": "This type of project should be put under the unified management of the technical department."
+  },
+  {
+    "word": "钱庄",
+    "sent_simp": "以前没有银行，大家都去钱庄存钱。",
+    "sent_trad": "以前沒有銀行，大家都去錢莊存錢。",
+    "pinyin": "Yǐqián méiyǒu yínháng, dàjiā dōu qù qián zhuāng cún qián.",
+    "english": "Before banks existed, everyone used to deposit their money at old-style money shops."
+  },
+  {
+    "word": "大嫂",
+    "sent_simp": "大嫂做的红烧肉味道特别好。",
+    "sent_trad": "大嫂做的紅燒肉味道特別好。",
+    "pinyin": "Dà sǎo zuò de hóngshāo ròu wèidao tèbié hǎo.",
+    "english": "My sister-in-law's braised pork is absolutely delicious."
+  },
+  {
+    "word": "惩罚性",
+    "sent_simp": "法院对该公司处以惩罚性赔偿金。",
+    "sent_trad": "法院對該公司處以懲罰性賠償金。",
+    "pinyin": "Fǎyuàn duì gāi gōngsī chǔyǐ chéng fá xìng péichángjīn.",
+    "english": "The court ordered the company to pay punitive damages."
+  },
+  {
+    "word": "两院",
+    "sent_simp": "该法案需要经过两院投票才能通过。",
+    "sent_trad": "該法案需要經過兩院投票才能通過。",
+    "pinyin": "Gāi fǎ'àn xūyào jīngguò liǎng yuàn tóupiào cái néng tōngguò.",
+    "english": "The bill needs to pass a vote in both chambers before it can become law."
+  },
+  {
+    "word": "任一",
+    "sent_simp": "你可以选择任一颜色，都可以。",
+    "sent_trad": "你可以選擇任一顏色，都可以。",
+    "pinyin": "Nǐ kěyǐ xuǎnzé rèn yī yánsè, dōu kěyǐ.",
+    "english": "You can choose any color you like — either one is fine."
+  },
+  {
+    "word": "对外贸易",
+    "sent_simp": "对外贸易是推动该国经济发展的重要动力。",
+    "sent_trad": "對外貿易是推動該國經濟發展的重要動力。",
+    "pinyin": "Duì wài mào yì shì tuīdòng gāi guó jīngjì fāzhǎn de zhòngyào dònglì.",
+    "english": "Foreign trade is a key driver of the country's economic development."
+  }
+]

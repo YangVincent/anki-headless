@@ -1,0 +1,74 @@
+[
+  {
+    "nid": 1393817670306,
+    "word": "湖泊",
+    "sent_simp": "这片湖泊的水很清澈。",
+    "sent_trad": "這片湖泊的水很清澈。",
+    "pinyin": "Zhè piàn húpō de shuǐ hěn qīngchè.",
+    "english": "The water in this lake is very clear."
+  },
+  {
+    "nid": 1393817669372,
+    "word": "生育",
+    "sent_simp": "她决定三十岁以后再考虑生育。",
+    "sent_trad": "她決定三十歲以後再考慮生育。",
+    "pinyin": "Tā juédìng sānshí suì yǐhòu zài kǎolǜ shēngyù.",
+    "english": "She decided to think about having children after turning thirty."
+  },
+  {
+    "nid": 1537328245925,
+    "word": "留给",
+    "sent_simp": "他把最后一块蛋糕留给妹妹。",
+    "sent_trad": "他把最後一塊蛋糕留給妹妹。",
+    "pinyin": "Tā bǎ zuìhòu yī kuài dàngāo liú gěi mèimei.",
+    "english": "He set aside the last piece of cake for his younger sister."
+  },
+  {
+    "nid": 1708747499580,
+    "word": "监禁",
+    "sent_simp": "法院判他监禁两年。",
+    "sent_trad": "法院判他監禁兩年。",
+    "pinyin": "Fǎyuàn pàn tā jiānjìn liǎng nián.",
+    "english": "The court sentenced him to two years in prison."
+  },
+  {
+    "nid": 1537328244803,
+    "word": "真诚",
+    "sent_simp": "他对朋友总是真诚相待。",
+    "sent_trad": "他對朋友總是真誠相待。",
+    "pinyin": "Tā duì péngyou zǒng shì zhēnchéng xiāngdài.",
+    "english": "He always treats his friends with sincerity."
+  },
+  {
+    "nid": 1708747494052,
+    "word": "程式",
+    "sent_simp": "他花了一天写这个程式。",
+    "sent_trad": "他花了一天寫這個程式。",
+    "pinyin": "Tā huā le yī tiān xiě zhège chéngshì.",
+    "english": "He spent a whole day writing this program."
+  },
+  {
+    "nid": 1708747489970,
+    "word": "统治者",
+    "sent_simp": "古代统治者靠税收维持国家运转。",
+    "sent_trad": "古代統治者靠稅收維持國家運轉。",
+    "pinyin": "Gǔdài tǒngzhìzhě kào shuìshōu wéichí guójiā yùnzhuǎn.",
+    "english": "Ancient rulers relied on tax revenue to keep the state running."
+  },
+  {
+    "nid": 1708747493372,
+    "word": "聚焦",
+    "sent_simp": "这篇文章聚焦于年轻人的就业问题。",
+    "sent_trad": "這篇文章聚焦於年輕人的就業問題。",
+    "pinyin": "Zhè piān wénzhāng jùjiāo yú niánqīngrén de jiùyè wèntí.",
+    "english": "This article focuses on the employment issues facing young people."
+  },
+  {
+    "nid": 1717270471675,
+    "word": "股价",
+    "sent_simp": "今天股价跌了不少。",
+    "sent_trad": "今天股價跌了不少。",
+    "pinyin": "Jīntiān gǔjià diē le bùshǎo.",
+    "english": "Stock prices fell quite a bit today."
+  }
+]

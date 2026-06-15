@@ -13,6 +13,10 @@ __pycache__/
 
 # JSON snapshots (user data)
 json_snapshots/
+june_hanly.json
+
+# Collection backups (large .bak files)
+backups/
 
 # Misc
 out.tmp

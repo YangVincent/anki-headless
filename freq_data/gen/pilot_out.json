@@ -1,0 +1,66 @@
+[
+  {
+    "nid": 1537328239567,
+    "word": "不是",
+    "sent_simp": "这不是我的手机。",
+    "sent_trad": "這不是我的手機。",
+    "pinyin": "Zhè bù shì wǒ de shǒujī.",
+    "english": "This is not my phone."
+  },
+  {
+    "nid": 1537328242108,
+    "word": "这些",
+    "sent_simp": "这些苹果都很新鲜。",
+    "sent_trad": "這些蘋果都很新鮮。",
+    "pinyin": "Zhèxiē píngguǒ dōu hěn xīnxiān.",
+    "english": "All these apples are very fresh."
+  },
+  {
+    "nid": 1537328241034,
+    "word": "日本",
+    "sent_simp": "她去年去日本旅游了。",
+    "sent_trad": "她去年去日本旅遊了。",
+    "pinyin": "Tā qùnián qù Rìběn lǚyóu le.",
+    "english": "She traveled to Japan last year."
+  },
+  {
+    "nid": 1708747483737,
+    "word": "不能",
+    "sent_simp": "图书馆里不能大声说话。",
+    "sent_trad": "圖書館裡不能大聲說話。",
+    "pinyin": "Túshūguǎn lǐ bù néng dàshēng shuōhuà.",
+    "english": "You can't talk loudly in the library."
+  },
+  {
+    "nid": 1708747483734,
+    "word": "不会",
+    "sent_simp": "我不会开车，只会骑自行车。",
+    "sent_trad": "我不會開車，只會騎自行車。",
+    "pinyin": "Wǒ bù huì kāichē, zhǐ huì qí zìxíngchē.",
+    "english": "I can't drive; I can only ride a bicycle."
+  },
+  {
+    "nid": 1537328241634,
+    "word": "真的",
+    "sent_simp": "你真的要搬家了吗？",
+    "sent_trad": "你真的要搬家了嗎？",
+    "pinyin": "Nǐ zhēn de yào bānjiā le ma?",
+    "english": "Are you really moving?"
+  },
+  {
+    "nid": 1537328247474,
+    "word": "人民",
+    "sent_simp": "政府应该为人民服务。",
+    "sent_trad": "政府應該為人民服務。",
+    "pinyin": "Zhèngfǔ yīnggāi wèi rénmín fúwù.",
+    "english": "The government should serve the people."
+  },
+  {
+    "nid": 1537328246738,
+    "word": "香港",
+    "sent_simp": "香港的夜景非常漂亮。",
+    "sent_trad": "香港的夜景非常漂亮。",
+    "pinyin": "Xiānggǎng de yèjǐng fēicháng piàoliang.",
+    "english": "The night view of Hong Kong is stunning."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "word": "老几",
+    "sent_simp": "你在家里排行老几？",
+    "sent_trad": "你在家裡排行老幾？",
+    "pinyin": "Nǐ zài jiā lǐ páiháng lǎo jǐ?",
+    "english": "Where do you rank among your siblings?"
+  },
+  {
+    "word": "报告员",
+    "sent_simp": "大会报告员宣布了最终结果。",
+    "sent_trad": "大會報告員宣布了最終結果。",
+    "pinyin": "Dàhuì bàogàoyuán xuānbùle zuìzhōng jiéguǒ.",
+    "english": "The conference announcer declared the final results."
+  },
+  {
+    "word": "词人",
+    "sent_simp": "苏轼是宋代著名的词人。",
+    "sent_trad": "蘇軾是宋代著名的詞人。",
+    "pinyin": "Sū Shì shì Sòngdài zhùmíng de círén.",
+    "english": "Su Shi was a famous ci poet of the Song dynasty."
+  },
+  {
+    "word": "本乡",
+    "sent_simp": "他离开本乡二十年了。",
+    "sent_trad": "他離開本鄉二十年了。",
+    "pinyin": "Tā líkāi běn xiāng èrshí nián le.",
+    "english": "He has been away from his home village for twenty years."
+  },
+  {
+    "word": "法办",
+    "sent_simp": "造假的商家必须依法法办。",
+    "sent_trad": "造假的商家必須依法法辦。",
+    "pinyin": "Zào jiǎ de shāngjiā bìxū yīfǎ fǎbàn.",
+    "english": "Merchants who sell counterfeit goods must be brought to justice."
+  },
+  {
+    "word": "打脸",
+    "sent_simp": "他刚说不会输，结果第一局就输了，真打脸。",
+    "sent_trad": "他剛說不會輸，結果第一局就輸了，真打臉。",
+    "pinyin": "Tā gāng shuō bù huì shū, jiéguǒ dì yī jú jiù shū le, zhēn dǎliǎn.",
+    "english": "He just said he wouldn't lose, then lost the very first round — talk about putting egg on his face."
+  },
+  {
+    "word": "军民",
+    "sent_simp": "洪灾期间军民团结一致抗洪。",
+    "sent_trad": "洪災期間軍民團結一致抗洪。",
+    "pinyin": "Hóng zāi qījiān jūn mín tuánjié yīzhì kàng hóng.",
+    "english": "During the flood, soldiers and civilians united to fight the disaster."
+  },
+  {
+    "word": "正教",
+    "sent_simp": "东正教在俄罗斯有很大影响力。",
+    "sent_trad": "東正教在俄羅斯有很大影響力。",
+    "pinyin": "Dōngzhèngjiào zài Éluósī yǒu hěn dà yǐngxiǎnglì.",
+    "english": "Orthodox Christianity has great influence in Russia."
+  },
+  {
+    "word": "名头",
+    "sent_simp": "他名头很大，但实力一般。",
+    "sent_trad": "他名頭很大，但實力一般。",
+    "pinyin": "Tā míng tóu hěn dà, dàn shílì yībān.",
+    "english": "He has a big reputation, but his actual ability is just average."
+  },
+  {
+    "word": "神位",
+    "sent_simp": "祠堂里供着祖先的神位。",
+    "sent_trad": "祠堂裡供著祖先的神位。",
+    "pinyin": "Cítáng lǐ gòng zhe zǔxiān de shénwèi.",
+    "english": "The ancestral tablets are enshrined in the family hall."
+  },
+  {
+    "word": "版主",
+    "sent_simp": "这个板块的版主管理得很认真。",
+    "sent_trad": "這個板塊的版主管理得很認真。",
+    "pinyin": "Zhège bǎnkuài de bǎnzhǔ guǎnlǐ de hěn rènzhēn.",
+    "english": "The moderator of this forum section does a very conscientious job."
+  },
+  {
+    "word": "坐像",
+    "sent_simp": "寺庙里有一尊巨大的佛陀坐像。",
+    "sent_trad": "寺廟裡有一尊巨大的佛陀坐像。",
+    "pinyin": "Sìmiào lǐ yǒu yī zūn jùdà de Fótuó zuòxiàng.",
+    "english": "There is a huge seated Buddha statue in the temple."
+  },
+  {
+    "word": "国家主义",
+    "sent_simp": "极端国家主义往往会引发冲突。",
+    "sent_trad": "極端國家主義往往會引發衝突。",
+    "pinyin": "Jíduān guójiā zhǔyì wǎngwǎng huì yǐnfā chōngtū.",
+    "english": "Extreme nationalism often leads to conflict."
+  },
+  {
+    "word": "有期徒刑",
+    "sent_simp": "他被判处三年有期徒刑。",
+    "sent_trad": "他被判處三年有期徒刑。",
+    "pinyin": "Tā bèi pànchǔ sān nián yǒuqī túxíng.",
+    "english": "He was sentenced to three years in prison."
+  },
+  {
+    "word": "改元",
+    "sent_simp": "新皇帝登基后宣布改元。",
+    "sent_trad": "新皇帝登基後宣布改元。",
+    "pinyin": "Xīn huángdì dēngjī hòu xuānbù gǎi yuán.",
+    "english": "After ascending the throne, the new emperor declared a change of reign title."
+  },
+  {
+    "word": "上市公司",
+    "sent_simp": "他在一家上市公司担任财务总监。",
+    "sent_trad": "他在一家上市公司擔任財務總監。",
+    "pinyin": "Tā zài yī jiā shàngshì gōngsī dānrèn cáiwù zǒngjiān.",
+    "english": "He serves as CFO at a listed company."
+  },
+  {
+    "word": "风险管理",
+    "sent_simp": "这家银行的风险管理做得很到位。",
+    "sent_trad": "這家銀行的風險管理做得很到位。",
+    "pinyin": "Zhè jiā yínháng de fēngxiǎn guǎnlǐ zuò de hěn dàowèi.",
+    "english": "This bank's risk management is very well executed."
+  },
+  {
+    "word": "花期",
+    "sent_simp": "樱花的花期只有一两周。",
+    "sent_trad": "櫻花的花期只有一兩週。",
+    "pinyin": "Yīnghuā de huāqī zhǐyǒu yī liǎng zhōu.",
+    "english": "Cherry blossoms are only in bloom for a week or two."
+  },
+  {
+    "word": "通讯社",
+    "sent_simp": "这条消息由一家国际通讯社发布。",
+    "sent_trad": "這條消息由一家國際通訊社發布。",
+    "pinyin": "Zhè tiáo xiāoxi yóu yī jiā guójì tōngxùnshè fābù.",
+    "english": "This news was released by an international news agency."
+  },
+  {
+    "word": "小老婆",
+    "sent_simp": "古代有钱人常娶小老婆。",
+    "sent_trad": "古代有錢人常娶小老婆。",
+    "pinyin": "Gǔdài yǒuqián rén cháng qǔ xiǎo lǎo pó.",
+    "english": "In ancient times, wealthy men often took concubines."
+  },
+  {
+    "word": "员外",
+    "sent_simp": "村里的员外把土地租给了农民。",
+    "sent_trad": "村裡的員外把土地租給了農民。",
+    "pinyin": "Cūn lǐ de yuánwài bǎ tǔdì zū gěi le nóngmín.",
+    "english": "The village landlord rented the land out to the farmers."
+  },
+  {
+    "word": "骚货",
+    "sent_simp": "用骚货这种词骂人是很不尊重的。",
+    "sent_trad": "用騷貨這種詞罵人是很不尊重的。",
+    "pinyin": "Yòng sāo huò zhè zhǒng cí mà rén shì hěn bù zūnzhòng de.",
+    "english": "Using words like \"slut\" to insult someone is very disrespectful."
+  },
+  {
+    "word": "国民经济",
+    "sent_simp": "农业是国民经济的基础。",
+    "sent_trad": "農業是國民經濟的基礎。",
+    "pinyin": "Nóngyè shì guómín jīngjì de jīchǔ.",
+    "english": "Agriculture is the foundation of the national economy."
+  },
+  {
+    "word": "外教",
+    "sent_simp": "我们学校来了一位英国外教。",
+    "sent_trad": "我們學校來了一位英國外教。",
+    "pinyin": "Wǒmen xuéxiào lái le yī wèi Yīngguó wàijiào.",
+    "english": "A foreign teacher from the UK has come to our school."
+  },
+  {
+    "word": "违纪",
+    "sent_simp": "他因违纪被取消了比赛资格。",
+    "sent_trad": "他因違紀被取消了比賽資格。",
+    "pinyin": "Tā yīn wéi jì bèi qǔxiāo le bǐsài zīgé.",
+    "english": "He was disqualified from the competition for violating the rules."
+  },
+  {
+    "word": "分项",
+    "sent_simp": "请按分项填写表格中的各项内容。",
+    "sent_trad": "請按分項填寫表格中的各項內容。",
+    "pinyin": "Qǐng àn fēnxiàng tiánxiě biǎogé zhōng de gè xiàng nèiróng.",
+    "english": "Please fill in each sub-item of the form accordingly."
+  },
+  {
+    "word": "公投",
+    "sent_simp": "这项提案将通过公投来决定。",
+    "sent_trad": "這項提案將通過公投來決定。",
+    "pinyin": "Zhè xiàng tí'àn jiāng tōngguò gōngtóu lái juédìng.",
+    "english": "This proposal will be decided by referendum."
+  },
+  {
+    "word": "五指",
+    "sent_simp": "她的五指修长，很适合弹钢琴。",
+    "sent_trad": "她的五指修長，很適合彈鋼琴。",
+    "pinyin": "Tā de wǔ zhǐ xiūcháng, hěn shìhé tán gāngqín.",
+    "english": "Her five fingers are slender, perfect for playing the piano."
+  },
+  {
+    "word": "口岸",
+    "sent_simp": "货物从这个口岸进出口。",
+    "sent_trad": "貨物從這個口岸進出口。",
+    "pinyin": "Huòwù cóng zhège kǒu'àn jìnchūkǒu.",
+    "english": "Goods are imported and exported through this port."
+  },
+  {
+    "word": "计划生育",
+    "sent_simp": "计划生育政策在中国实行了几十年。",
+    "sent_trad": "計劃生育政策在中國實行了幾十年。",
+    "pinyin": "Jìhuà shēngyù zhèngcè zài Zhōngguó shíxíng le jǐ shí nián.",
+    "english": "The family planning policy was implemented in China for several decades."
+  },
+  {
+    "word": "得来",
+    "sent_simp": "这份工作是他努力得来的。",
+    "sent_trad": "這份工作是他努力得來的。",
+    "pinyin": "Zhè fèn gōngzuò shì tā nǔlì délái de.",
+    "english": "He earned this job through his own hard work."
+  },
+  {
+    "word": "消息来源",
+    "sent_simp": "记者拒绝透露消息来源。",
+    "sent_trad": "記者拒絕透露消息來源。",
+    "pinyin": "Jìzhě jùjué tòulù xiāoxi láiyuán.",
+    "english": "The journalist refused to reveal the source of the information."
+  },
+  {
+    "word": "原则性",
+    "sent_simp": "这位老师做事很有原则性，从不徇私。",
+    "sent_trad": "這位老師做事很有原則性，從不徇私。",
+    "pinyin": "Zhè wèi lǎoshī zuòshì hěn yǒu yuánzé xìng, cóng bù xùnsī.",
+    "english": "This teacher is very principled and never shows favoritism."
+  },
+  {
+    "word": "商贸",
+    "sent_simp": "这条街是全市的商贸中心。",
+    "sent_trad": "這條街是全市的商貿中心。",
+    "pinyin": "Zhè tiáo jiē shì quán shì de shāngmào zhōngxīn.",
+    "english": "This street is the trade and commerce hub of the entire city."
+  },
+  {
+    "word": "基本面",
+    "sent_simp": "分析师认为这支股票的基本面不错。",
+    "sent_trad": "分析師認為這支股票的基本面不錯。",
+    "pinyin": "Fēnxī shī rènwéi zhè zhī gǔpiào de jīběnmiàn bùcuò.",
+    "english": "Analysts believe the fundamentals of this stock are solid."
+  },
+  {
+    "word": "正传",
+    "sent_simp": "闲话少说，言归正传。",
+    "sent_trad": "閒話少說，言歸正傳。",
+    "pinyin": "Xiánhuà shǎo shuō, yán guī zhèngzhuàn.",
+    "english": "Enough chit-chat — let's get back to the main topic."
+  },
+  {
+    "word": "外电",
+    "sent_simp": "外电报道称双方已达成协议。",
+    "sent_trad": "外電報道稱雙方已達成協議。",
+    "pinyin": "Wàidiàn bàodào chēng shuāngfāng yǐ dáchéng xiéyì.",
+    "english": "Reports from foreign news agencies say the two sides have reached an agreement."
+  },
+  {
+    "word": "高光",
+    "sent_simp": "她在颧骨上打了一点高光，气色好多了。",
+    "sent_trad": "她在顴骨上打了一點高光，氣色好多了。",
+    "pinyin": "Tā zài quángǔ shàng dǎ le yīdiǎn gāoguāng, qìsè hǎo duō le.",
+    "english": "She applied a little highlighter on her cheekbones and looked much more radiant."
+  },
+  {
+    "word": "干妈",
+    "sent_simp": "他从小就认了邻居阿姨当干妈。",
+    "sent_trad": "他從小就認了鄰居阿姨當乾媽。",
+    "pinyin": "Tā cóng xiǎo jiù rèn le línjū āyí dāng gànmā.",
+    "english": "He has called the neighbor auntie his adoptive mother since he was little."
+  },
+  {
+    "word": "固定资产",
+    "sent_simp": "公司的固定资产包括厂房和设备。",
+    "sent_trad": "公司的固定資產包括廠房和設備。",
+    "pinyin": "Gōngsī de gùdìng zīchǎn bāokuò chǎngfáng hé shèbèi.",
+    "english": "The company's fixed assets include the factory building and equipment."
+  }
+]

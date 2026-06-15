@@ -1,0 +1,322 @@
+[
+  {
+    "nid": 1537328245336,
+    "word": "嘴里",
+    "sent_simp": "他嘴里含着一颗糖。",
+    "sent_trad": "他嘴裡含著一顆糖。",
+    "pinyin": "Tā zuǐ lǐ hán zhe yī kē táng.",
+    "english": "He has a piece of candy in his mouth."
+  },
+  {
+    "nid": 1537328243655,
+    "word": "回复",
+    "sent_simp": "我发的消息她一直没有回复。",
+    "sent_trad": "我發的消息她一直沒有回復。",
+    "pinyin": "Wǒ fā de xiāoxi tā yīzhí méiyǒu huífù.",
+    "english": "She still hasn't replied to the message I sent."
+  },
+  {
+    "nid": 1701248129606,
+    "word": "场地",
+    "sent_simp": "比赛场地已经打扫干净了。",
+    "sent_trad": "比賽場地已經打掃乾淨了。",
+    "pinyin": "Bǐsài chǎngdì yǐjīng dǎsǎo gānjìng le.",
+    "english": "The competition venue has already been cleaned up."
+  },
+  {
+    "nid": 1393817668665,
+    "word": "场面",
+    "sent_simp": "婚礼的场面非常热闹。",
+    "sent_trad": "婚禮的場面非常熱鬧。",
+    "pinyin": "Hūnlǐ de chǎngmiàn fēicháng rènào.",
+    "english": "The wedding scene was very lively."
+  },
+  {
+    "nid": 1708747497991,
+    "word": "大卫",
+    "sent_simp": "大卫是我们公司的新同事。",
+    "sent_trad": "大衛是我們公司的新同事。",
+    "pinyin": "Dàwèi shì wǒmen gōngsī de xīn tóngshì.",
+    "english": "David is our company's new colleague."
+  },
+  {
+    "nid": 1393817669883,
+    "word": "广阔",
+    "sent_simp": "内蒙古的草原非常广阔。",
+    "sent_trad": "內蒙古的草原非常廣闊。",
+    "pinyin": "Nèi Měnggǔ de cǎoyuán fēicháng guǎngkuò.",
+    "english": "The grasslands of Inner Mongolia are vast."
+  },
+  {
+    "nid": 1537328247935,
+    "word": "底下",
+    "sent_simp": "钥匙就在桌子底下。",
+    "sent_trad": "鑰匙就在桌子底下。",
+    "pinyin": "Yàoshi jiù zài zhuōzi dǐxia.",
+    "english": "The key is right under the table."
+  },
+  {
+    "nid": 1393817668473,
+    "word": "成交",
+    "sent_simp": "他们谈了两个小时，终于成交了。",
+    "sent_trad": "他們談了兩個小時，終於成交了。",
+    "pinyin": "Tāmen tán le liǎng gè xiǎoshí, zhōngyú chéngjiāo le.",
+    "english": "After talking for two hours, they finally closed the deal."
+  },
+  {
+    "nid": 1393817669437,
+    "word": "掠夺",
+    "sent_simp": "历史上有很多掠夺资源的战争。",
+    "sent_trad": "歷史上有很多掠奪資源的戰爭。",
+    "pinyin": "Lìshǐ shàng yǒu hěn duō lüèduó zīyuán de zhànzhēng.",
+    "english": "Throughout history there have been many wars fought to plunder resources."
+  },
+  {
+    "nid": 1393817668691,
+    "word": "推测",
+    "sent_simp": "我推测他明天不会来。",
+    "sent_trad": "我推測他明天不會來。",
+    "pinyin": "Wǒ tuīcè tā míngtiān bú huì lái.",
+    "english": "I guess he won't come tomorrow."
+  },
+  {
+    "nid": 1537328239949,
+    "word": "星期六",
+    "sent_simp": "星期六我们去爬山吧。",
+    "sent_trad": "星期六我們去爬山吧。",
+    "pinyin": "Xīngqīliù wǒmen qù páshān ba.",
+    "english": "Let's go hiking on Saturday."
+  },
+  {
+    "nid": 1708747487163,
+    "word": "犯人",
+    "sent_simp": "那个犯人已经被关进监狱了。",
+    "sent_trad": "那個犯人已經被關進監獄了。",
+    "pinyin": "Nàge fànrén yǐjīng bèi guānjìn jiānyù le.",
+    "english": "That prisoner has already been put in jail."
+  },
+  {
+    "nid": 1393817670140,
+    "word": "结算",
+    "sent_simp": "月底要和供应商结算货款。",
+    "sent_trad": "月底要和供應商結算貨款。",
+    "pinyin": "Yuèdǐ yào hé gōngyìngshāng jiésuàn huòkuǎn.",
+    "english": "At the end of the month we need to settle the payment with the supplier."
+  },
+  {
+    "nid": 1708747492925,
+    "word": "血腥",
+    "sent_simp": "这部电影太血腥了，不适合小孩看。",
+    "sent_trad": "這部電影太血腥了，不適合小孩看。",
+    "pinyin": "Zhè bù diànyǐng tài xuèxīng le, bù shìhé xiǎohái kàn.",
+    "english": "This movie is too bloody; it's not suitable for children."
+  },
+  {
+    "nid": 1393817669198,
+    "word": "设想",
+    "sent_simp": "你有没有设想过搬到别的城市？",
+    "sent_trad": "你有沒有設想過搬到別的城市？",
+    "pinyin": "Nǐ yǒu méiyǒu shèxiǎng guò bān dào bié de chéngshì?",
+    "english": "Have you ever considered moving to a different city?"
+  },
+  {
+    "nid": 1393817669721,
+    "word": "资深",
+    "sent_simp": "他是一位资深的摄影记者。",
+    "sent_trad": "他是一位資深的攝影記者。",
+    "pinyin": "Tā shì yī wèi zīshēn de shèyǐng jìzhě.",
+    "english": "He is a seasoned photojournalist."
+  },
+  {
+    "nid": 1393817668335,
+    "word": "起码",
+    "sent_simp": "你起码要提前一天告诉我。",
+    "sent_trad": "你起碼要提前一天告訴我。",
+    "pinyin": "Nǐ qǐmǎ yào tíqián yī tiān gàosu wǒ.",
+    "english": "You should tell me at least one day in advance."
+  },
+  {
+    "nid": 1537328241860,
+    "word": "进球",
+    "sent_simp": "他在最后一分钟进球了！",
+    "sent_trad": "他在最後一分鐘進球了！",
+    "pinyin": "Tā zài zuìhòu yī fēnzhōng jìnqiú le!",
+    "english": "He scored a goal in the last minute!"
+  },
+  {
+    "nid": 1537328245533,
+    "word": "闻名",
+    "sent_simp": "这个小镇以温泉闻名。",
+    "sent_trad": "這個小鎮以溫泉聞名。",
+    "pinyin": "Zhège xiǎozhèn yǐ wēnquán wénmíng.",
+    "english": "This small town is famous for its hot springs."
+  },
+  {
+    "nid": 1717270471693,
+    "word": "马克思",
+    "sent_simp": "马克思是十九世纪的著名思想家。",
+    "sent_trad": "馬克思是十九世紀的著名思想家。",
+    "pinyin": "Mǎkèsī shì shíjiǔ shìjì de zhùmíng sīxiǎngjiā.",
+    "english": "Marx was a famous thinker of the nineteenth century."
+  },
+  {
+    "nid": 1537328243745,
+    "word": "骗人",
+    "sent_simp": "他说的话全是骗人的。",
+    "sent_trad": "他說的話全是騙人的。",
+    "pinyin": "Tā shuō de huà quán shì piànrén de.",
+    "english": "Everything he said was a lie."
+  },
+  {
+    "nid": 1708747487844,
+    "word": "传送",
+    "sent_simp": "文件已经传送到你的邮箱了。",
+    "sent_trad": "文件已經傳送到你的郵箱了。",
+    "pinyin": "Wénjiàn yǐjīng chuánsòng dào nǐ de yóuxiāng le.",
+    "english": "The file has already been delivered to your inbox."
+  },
+  {
+    "nid": 1537328242432,
+    "word": "出租",
+    "sent_simp": "她把多余的房间出租给学生。",
+    "sent_trad": "她把多餘的房間出租給學生。",
+    "pinyin": "Tā bǎ duōyú de fángjiān chūzū gěi xuésheng.",
+    "english": "She rents out her spare room to students."
+  },
+  {
+    "nid": 1708747504963,
+    "word": "刑罚",
+    "sent_simp": "法官宣布了对他的刑罚。",
+    "sent_trad": "法官宣布了對他的刑罰。",
+    "pinyin": "Fǎguān xuānbù le duì tā de xíngfá.",
+    "english": "The judge announced his punishment."
+  },
+  {
+    "nid": 1708747501705,
+    "word": "列出",
+    "sent_simp": "请把你需要的东西列出来。",
+    "sent_trad": "請把你需要的東西列出來。",
+    "pinyin": "Qǐng bǎ nǐ xūyào de dōngxi lièchū lái.",
+    "english": "Please list out the things you need."
+  },
+  {
+    "nid": 1393817670332,
+    "word": "制约",
+    "sent_simp": "时间和预算制约了这个项目。",
+    "sent_trad": "時間和預算制約了這個項目。",
+    "pinyin": "Shíjiān hé yùsuàn zhìyuē le zhège xiàngmù.",
+    "english": "Time and budget have constrained this project."
+  },
+  {
+    "nid": 1708747485496,
+    "word": "北约",
+    "sent_simp": "这几个国家都是北约成员。",
+    "sent_trad": "這幾個國家都是北約成員。",
+    "pinyin": "Zhè jǐ gè guójiā dōu shì Běiyuē chéngyuán.",
+    "english": "These countries are all NATO members."
+  },
+  {
+    "nid": 1537328246290,
+    "word": "午餐",
+    "sent_simp": "我们一起去吃午餐吧。",
+    "sent_trad": "我們一起去吃午餐吧。",
+    "pinyin": "Wǒmen yīqǐ qù chī wǔcān ba.",
+    "english": "Let's go have lunch together."
+  },
+  {
+    "nid": 1393817669995,
+    "word": "压缩",
+    "sent_simp": "把这个文件夹压缩后发给我。",
+    "sent_trad": "把這個文件夾壓縮後發給我。",
+    "pinyin": "Bǎ zhège wénjiànjiā yāsuō hòu fā gěi wǒ.",
+    "english": "Compress this folder and send it to me."
+  },
+  {
+    "nid": 1708747509425,
+    "word": "君主",
+    "sent_simp": "英国的君主现在没有实权。",
+    "sent_trad": "英國的君主現在沒有實權。",
+    "pinyin": "Yīngguó de jūnzhǔ xiànzài méiyǒu shíquán.",
+    "english": "The British monarch currently holds no real power."
+  },
+  {
+    "nid": 1537328247509,
+    "word": "喜剧",
+    "sent_simp": "他最喜欢看喜剧电影。",
+    "sent_trad": "他最喜歡看喜劇電影。",
+    "pinyin": "Tā zuì xǐhuān kàn xǐjù diànyǐng.",
+    "english": "He loves watching comedy movies the most."
+  },
+  {
+    "nid": 1537328245292,
+    "word": "四周",
+    "sent_simp": "公园四周种满了树。",
+    "sent_trad": "公園四周種滿了樹。",
+    "pinyin": "Gōngyuán sìzhōu zhòng mǎn le shù.",
+    "english": "Trees are planted all around the park."
+  },
+  {
+    "nid": 1710963490266,
+    "word": "基督",
+    "sent_simp": "很多人相信基督是救世主。",
+    "sent_trad": "很多人相信基督是救世主。",
+    "pinyin": "Hěn duō rén xiāngxìn Jīdū shì jiùshìzhǔ.",
+    "english": "Many people believe Christ is the savior."
+  },
+  {
+    "nid": 1537328247797,
+    "word": "失控",
+    "sent_simp": "局势突然失控，大家都很慌乱。",
+    "sent_trad": "局勢突然失控，大家都很慌亂。",
+    "pinyin": "Júshì tūrán shīkòng, dàjiā dōu hěn huāngluàn.",
+    "english": "The situation suddenly got out of control and everyone was in a panic."
+  },
+  {
+    "nid": 1705509514605,
+    "word": "孔子",
+    "sent_simp": "孔子是中国最有名的思想家之一。",
+    "sent_trad": "孔子是中國最有名的思想家之一。",
+    "pinyin": "Kǒngzǐ shì Zhōngguó zuì yǒumíng de sīxiǎngjiā zhī yī.",
+    "english": "Confucius is one of China's most famous thinkers."
+  },
+  {
+    "nid": 1537328246004,
+    "word": "孤立",
+    "sent_simp": "他因为性格内向，常常感到孤立。",
+    "sent_trad": "他因為性格內向，常常感到孤立。",
+    "pinyin": "Tā yīnwèi xìnggé nèixiàng, chángcháng gǎndào gūlì.",
+    "english": "Because of his introverted personality, he often feels isolated."
+  },
+  {
+    "nid": 1537328245666,
+    "word": "容量",
+    "sent_simp": "这个水杯的容量是500毫升。",
+    "sent_trad": "這個水杯的容量是500毫升。",
+    "pinyin": "Zhège shuǐbēi de róngliàng shì wǔbǎi háoshēng.",
+    "english": "This water cup has a capacity of 500 milliliters."
+  },
+  {
+    "nid": 1393817669518,
+    "word": "山脉",
+    "sent_simp": "喜马拉雅山脉是世界上最高的山脉。",
+    "sent_trad": "喜馬拉雅山脈是世界上最高的山脈。",
+    "pinyin": "Xǐmǎlāyǎ shānmài shì shìjiè shàng zuì gāo de shānmài.",
+    "english": "The Himalayas are the world's highest mountain range."
+  },
+  {
+    "nid": 1717270453421,
+    "word": "性爱",
+    "sent_simp": "性爱是两个人之间的私事。",
+    "sent_trad": "性愛是兩個人之間的私事。",
+    "pinyin": "Xìng'ài shì liǎng gè rén zhījiān de sīshì.",
+    "english": "Sex is a private matter between two people."
+  },
+  {
+    "nid": 1393817669940,
+    "word": "成效",
+    "sent_simp": "这个方法的成效非常明显。",
+    "sent_trad": "這個方法的成效非常明顯。",
+    "pinyin": "Zhège fāngfǎ de chéngxiào fēicháng míngxiǎn.",
+    "english": "The results of this method are very noticeable."
+  }
+]

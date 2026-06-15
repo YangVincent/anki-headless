@@ -1,0 +1,282 @@
+[
+  {
+    "word": "周报",
+    "sent_simp": "公司每周五出版一份周报，总结本周要闻。",
+    "sent_trad": "公司每週五出版一份週報，總結本週要聞。",
+    "pinyin": "Gōng sī měi zhōu wǔ chū bǎn yī fèn zhōu bào, zǒng jié běn zhōu yào wén.",
+    "english": "The company publishes a weekly newsletter every Friday summarizing the week's top news."
+  },
+  {
+    "word": "足协",
+    "sent_simp": "足协宣布下赛季将增加联赛队伍。",
+    "sent_trad": "足協宣布下賽季將增加聯賽隊伍。",
+    "pinyin": "Zú xié xuān bù xià sài jì jiāng zēng jiā lián sài duì wǔ.",
+    "english": "The soccer association announced that more teams will be added to the league next season."
+  },
+  {
+    "word": "亲家",
+    "sent_simp": "两家亲家昨天第一次见面，相谈甚欢。",
+    "sent_trad": "兩家親家昨天第一次見面，相談甚歡。",
+    "pinyin": "Liǎng jiā qìng jia zuó tiān dì yī cì jiàn miàn, xiāng tán shèn huān.",
+    "english": "The two families, related by their children's marriage, met for the first time yesterday and got along very well."
+  },
+  {
+    "word": "地租",
+    "sent_simp": "农民每年要向地主缴纳地租。",
+    "sent_trad": "農民每年要向地主繳納地租。",
+    "pinyin": "Nóng mín měi nián yào xiàng dì zhǔ jiǎo nà dì zū.",
+    "english": "Farmers had to pay land rent to the landlord every year."
+  },
+  {
+    "word": "调式",
+    "sent_simp": "这首曲子用了小调式，听起来有些忧伤。",
+    "sent_trad": "這首曲子用了小調式，聽起來有些憂傷。",
+    "pinyin": "Zhè shǒu qǔ zi yòng le xiǎo diào shì, tīng qǐ lái yǒu xiē yōu shāng.",
+    "english": "This piece uses a minor mode, which makes it sound somewhat melancholy."
+  },
+  {
+    "word": "相左",
+    "sent_simp": "两人的意见相左，一时难以达成共识。",
+    "sent_trad": "兩人的意見相左，一時難以達成共識。",
+    "pinyin": "Liǎng rén de yì jiàn xiāng zuǒ, yī shí nán yǐ dá chéng gòng shí.",
+    "english": "The two of them had conflicting opinions and couldn't reach an agreement for a while."
+  },
+  {
+    "word": "金融机构",
+    "sent_simp": "他在多家金融机构工作过，经验丰富。",
+    "sent_trad": "他在多家金融機構工作過，經驗豐富。",
+    "pinyin": "Tā zài duō jiā jīn róng jī gòu gōng zuò guò, jīng yàn fēng fù.",
+    "english": "He has worked at several financial institutions and has a wealth of experience."
+  },
+  {
+    "word": "华里",
+    "sent_simp": "村子距离镇上大约有十华里路。",
+    "sent_trad": "村子距離鎮上大約有十華里路。",
+    "pinyin": "Cūn zi jù lí zhèn shàng dà yuē yǒu shí huá lǐ lù.",
+    "english": "The village is about ten li from the town."
+  },
+  {
+    "word": "任用",
+    "sent_simp": "公司任用新人时非常注重实际能力。",
+    "sent_trad": "公司任用新人時非常注重實際能力。",
+    "pinyin": "Gōng sī rèn yòng xīn rén shí fēi cháng zhù zhòng shí jì néng lì.",
+    "english": "When appointing new employees, the company places great emphasis on practical skills."
+  },
+  {
+    "word": "联机",
+    "sent_simp": "请先联机到服务器，才能开始游戏。",
+    "sent_trad": "請先聯機到伺服器，才能開始遊戲。",
+    "pinyin": "Qǐng xiān lián jī dào fú wù qì, cái néng kāi shǐ yóu xì.",
+    "english": "Please connect to the server first before starting the game."
+  },
+  {
+    "word": "接机",
+    "sent_simp": "她特意去机场接机，等了两个小时。",
+    "sent_trad": "她特意去機場接機，等了兩個小時。",
+    "pinyin": "Tā tè yì qù jī chǎng jiē jī, děng le liǎng gè xiǎo shí.",
+    "english": "She went to the airport especially to pick someone up and waited two hours."
+  },
+  {
+    "word": "表兄弟",
+    "sent_simp": "我有三个表兄弟，过年时大家都会聚在一起。",
+    "sent_trad": "我有三個表兄弟，過年時大家都會聚在一起。",
+    "pinyin": "Wǒ yǒu sān gè biǎo xiōng dì, guò nián shí dà jiā dōu huì jù zài yī qǐ.",
+    "english": "I have three male cousins, and we all get together during the New Year."
+  },
+  {
+    "word": "英法",
+    "sent_simp": "十九世纪，英法两国在海外争夺殖民地。",
+    "sent_trad": "十九世紀，英法兩國在海外爭奪殖民地。",
+    "pinyin": "Shí jiǔ shì jì, Yīng Fǎ liǎng guó zài hǎi wài zhēng duó zhí mín dì.",
+    "english": "In the nineteenth century, Britain and France competed for colonies overseas."
+  },
+  {
+    "word": "乱子",
+    "sent_simp": "别闹事，出了乱子谁都担不起责任。",
+    "sent_trad": "別鬧事，出了亂子誰都擔不起責任。",
+    "pinyin": "Bié nào shì, chū le luàn zi shuí dōu dān bù qǐ zé rèn.",
+    "english": "Don't cause trouble — if something goes wrong, nobody can take responsibility."
+  },
+  {
+    "word": "太公",
+    "sent_simp": "我太公年轻时是个木匠，手艺很好。",
+    "sent_trad": "我太公年輕時是個木匠，手藝很好。",
+    "pinyin": "Wǒ tài gōng nián qīng shí shì gè mù jiàng, shǒu yì hěn hǎo.",
+    "english": "My great-grandfather was a carpenter when he was young and was very skilled."
+  },
+  {
+    "word": "同房",
+    "sent_simp": "医生建议术后一个月内避免同房。",
+    "sent_trad": "醫生建議術後一個月內避免同房。",
+    "pinyin": "Yī shēng jiàn yì shù hòu yī gè yuè nèi bì miǎn tóng fáng.",
+    "english": "The doctor advised avoiding intercourse for one month after the surgery."
+  },
+  {
+    "word": "参选人",
+    "sent_simp": "本次选举共有五位参选人，竞争激烈。",
+    "sent_trad": "本次選舉共有五位參選人，競爭激烈。",
+    "pinyin": "Běn cì xuǎn jǔ gòng yǒu wǔ wèi cān xuǎn rén, jìng zhēng jī liè.",
+    "english": "There are five candidates in this election, and the competition is fierce."
+  },
+  {
+    "word": "文言",
+    "sent_simp": "这篇文章用文言写成，读起来有点难。",
+    "sent_trad": "這篇文章用文言寫成，讀起來有點難。",
+    "pinyin": "Zhè piān wén zhāng yòng wén yán xiě chéng, dú qǐ lái yǒu diǎn nán.",
+    "english": "This article is written in Classical Chinese, so it's a bit difficult to read."
+  },
+  {
+    "word": "统计表",
+    "sent_simp": "老师让我们把数据整理成一张统计表。",
+    "sent_trad": "老師讓我們把數據整理成一張統計表。",
+    "pinyin": "Lǎo shī ràng wǒ men bǎ shù jù zhěng lǐ chéng yī zhāng tǒng jì biǎo.",
+    "english": "The teacher asked us to organize the data into a statistical table."
+  },
+  {
+    "word": "转调",
+    "sent_simp": "这首歌在副歌部分转调了，听起来更有力。",
+    "sent_trad": "這首歌在副歌部分轉調了，聽起來更有力。",
+    "pinyin": "Zhè shǒu gē zài fù gē bù fen zhuǎn diào le, tīng qǐ lái gèng yǒu lì.",
+    "english": "This song modulates key in the chorus section, making it sound more powerful."
+  },
+  {
+    "word": "常见问题",
+    "sent_simp": "网站上有常见问题页面，大多数疑问都能找到答案。",
+    "sent_trad": "網站上有常見問題頁面，大多數疑問都能找到答案。",
+    "pinyin": "Wǎng zhàn shàng yǒu cháng jiàn wèn tí yè miàn, dà duō shù yí wèn dōu néng zhǎo dào dá àn.",
+    "english": "The website has a FAQ page where you can find answers to most questions."
+  },
+  {
+    "word": "维新",
+    "sent_simp": "明治维新使日本迅速走向现代化。",
+    "sent_trad": "明治維新使日本迅速走向現代化。",
+    "pinyin": "Míng zhì Wéi xīn shǐ Rì běn xùn sù zǒu xiàng xiàn dài huà.",
+    "english": "The Meiji Restoration rapidly led Japan toward modernization."
+  },
+  {
+    "word": "物质文明",
+    "sent_simp": "经济发展带来了物质文明，但精神层面也不能忽视。",
+    "sent_trad": "經濟發展帶來了物質文明，但精神層面也不能忽視。",
+    "pinyin": "Jīng jì fā zhǎn dài lái le wù zhì wén míng, dàn jīng shén céng miàn yě bù néng hū shì.",
+    "english": "Economic development has brought material culture, but the spiritual dimension should not be overlooked."
+  },
+  {
+    "word": "朝见",
+    "sent_simp": "大臣们每天清晨都要进宫朝见皇帝。",
+    "sent_trad": "大臣們每天清晨都要進宮朝見皇帝。",
+    "pinyin": "Dà chén men měi tiān qīng chén dōu yào jìn gōng cháo jiàn huáng dì.",
+    "english": "The ministers had to enter the palace every morning to have an audience with the Emperor."
+  },
+  {
+    "word": "通讯员",
+    "sent_simp": "报社派通讯员去灾区采访最新情况。",
+    "sent_trad": "報社派通訊員去災區採訪最新情況。",
+    "pinyin": "Bào shè pài tōng xùn yuán qù zāi qū cǎi fǎng zuì xīn qíng kuàng.",
+    "english": "The newspaper sent a correspondent to the disaster area to report on the latest developments."
+  },
+  {
+    "word": "论著",
+    "sent_simp": "他在退休前出版了多部重要论著。",
+    "sent_trad": "他在退休前出版了多部重要論著。",
+    "pinyin": "Tā zài tuì xiū qián chū bǎn le duō bù zhòng yào lùn zhù.",
+    "english": "He published several important treatises before retiring."
+  },
+  {
+    "word": "株式会社",
+    "sent_simp": "这家株式会社在东京证交所上市已有二十年。",
+    "sent_trad": "這家株式會社在東京證交所上市已有二十年。",
+    "pinyin": "Zhè jiā zhū shì huì shè zài Dōng jīng zhèng jiāo suǒ shàng shì yǐ yǒu èr shí nián.",
+    "english": "This Japanese corporation has been listed on the Tokyo Stock Exchange for twenty years."
+  },
+  {
+    "word": "一对一",
+    "sent_simp": "他请了家教给孩子进行一对一辅导。",
+    "sent_trad": "他請了家教給孩子進行一對一輔導。",
+    "pinyin": "Tā qǐng le jiā jiào gěi hái zi jìn xíng yī duì yī fǔ dǎo.",
+    "english": "He hired a tutor to give his child one-on-one tutoring."
+  },
+  {
+    "word": "受访者",
+    "sent_simp": "调查显示，大多数受访者对新政策表示支持。",
+    "sent_trad": "調查顯示，大多數受訪者對新政策表示支持。",
+    "pinyin": "Diào chá xiǎn shì, dà duō shù shòu fǎng zhě duì xīn zhèng cè biǎo shì zhī chí.",
+    "english": "The survey shows that most respondents support the new policy."
+  },
+  {
+    "word": "侦察机",
+    "sent_simp": "一架侦察机飞越边境，引发了紧张局势。",
+    "sent_trad": "一架偵察機飛越邊境，引發了緊張局勢。",
+    "pinyin": "Yī jià zhēn chá jī fēi yuè biān jìng, yǐn fā le jǐn zhāng jú shì.",
+    "english": "A surveillance aircraft flew over the border, triggering a tense situation."
+  },
+  {
+    "word": "音乐剧",
+    "sent_simp": "她上周去看了一场百老汇音乐剧，非常享受。",
+    "sent_trad": "她上週去看了一場百老匯音樂劇，非常享受。",
+    "pinyin": "Tā shàng zhōu qù kàn le yī chǎng Bǎi lǎo huì yīn yuè jù, fēi cháng xiǎng shòu.",
+    "english": "She went to see a Broadway musical last week and enjoyed it very much."
+  },
+  {
+    "word": "目下",
+    "sent_simp": "目下公司正在招人，有兴趣可以投简历。",
+    "sent_trad": "目下公司正在招人，有興趣可以投簡歷。",
+    "pinyin": "Mù xià gōng sī zhèng zài zhāo rén, yǒu xìng qù kě yǐ tóu jiǎn lì.",
+    "english": "At present the company is hiring — feel free to send in your résumé if you're interested."
+  },
+  {
+    "word": "联署",
+    "sent_simp": "超过一千名学生联署请愿，要求改善校园设施。",
+    "sent_trad": "超過一千名學生聯署請願，要求改善校園設施。",
+    "pinyin": "Chāo guò yī qiān míng xué shēng lián shǔ qǐng yuàn, yāo qiú gǎi shàn xiào yuán shè shī.",
+    "english": "More than a thousand students signed a joint petition demanding better campus facilities."
+  },
+  {
+    "word": "省市",
+    "sent_simp": "各省市代表团聚集北京参加年度会议。",
+    "sent_trad": "各省市代表團聚集北京參加年度會議。",
+    "pinyin": "Gè shěng shì dài biǎo tuán jù jí Běi jīng cān jiā nián dù huì yì.",
+    "english": "Delegations from various provinces and cities gathered in Beijing for the annual meeting."
+  },
+  {
+    "word": "参政",
+    "sent_simp": "越来越多的年轻人希望通过参政来改变社会。",
+    "sent_trad": "越來越多的年輕人希望通過參政來改變社會。",
+    "pinyin": "Yuè lái yuè duō de nián qīng rén xī wàng tōng guò cān zhèng lái gǎi biàn shè huì.",
+    "english": "More and more young people hope to change society by getting involved in politics."
+  },
+  {
+    "word": "智能手机",
+    "sent_simp": "他换了一部新智能手机，拍照效果好多了。",
+    "sent_trad": "他換了一部新智能手機，拍照效果好多了。",
+    "pinyin": "Tā huàn le yī bù xīn zhì néng shǒu jī, pāi zhào xiào guǒ hǎo duō le.",
+    "english": "He got a new smartphone and the camera quality is much better."
+  },
+  {
+    "word": "审判权",
+    "sent_simp": "这起案件涉及审判权归属问题，两地法院都主张管辖。",
+    "sent_trad": "這起案件涉及審判權歸屬問題，兩地法院都主張管轄。",
+    "pinyin": "Zhè qǐ àn jiàn shè jí shěn pàn quán guī shǔ wèn tí, liǎng dì fǎ yuàn dōu zhǔ zhāng guǎn xiá.",
+    "english": "This case involves a question of which jurisdiction holds judicial authority, with courts in both places claiming it."
+  },
+  {
+    "word": "口活",
+    "sent_simp": "他们在卧室里尝试了口活。",
+    "sent_trad": "他們在臥室裡嘗試了口活。",
+    "pinyin": "Tā men zài wò shì lǐ cháng shì le kǒu huó.",
+    "english": "They tried oral sex in the bedroom."
+  },
+  {
+    "word": "联队",
+    "sent_simp": "空军联队的战机昨日举行例行训练。",
+    "sent_trad": "空軍聯隊的戰機昨日舉行例行訓練。",
+    "pinyin": "Kōng jūn lián duì de zhàn jī zuó rì jǔ xíng lì xíng xùn liàn.",
+    "english": "The air force wing's fighter jets carried out routine training exercises yesterday."
+  },
+  {
+    "word": "职业高中",
+    "sent_simp": "他选择读职业高中，毕业后直接进入汽车修理行业。",
+    "sent_trad": "他選擇讀職業高中，畢業後直接進入汽車修理行業。",
+    "pinyin": "Tā xuǎn zé dú zhí yè gāo zhōng, bì yè hòu zhí jiē jìn rù qì chē xiū lǐ háng yè.",
+    "english": "He chose to attend a vocational high school and went straight into the auto repair industry after graduating."
+  }
+]

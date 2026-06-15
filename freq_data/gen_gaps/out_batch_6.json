@@ -1,0 +1,282 @@
+[
+  {
+    "word": "分词",
+    "sent_simp": "搜索引擎会自动对句子进行分词。",
+    "sent_trad": "搜索引擎會自動對句子進行分詞。",
+    "pinyin": "Sōusuǒ yǐnqíng huì zìdòng duì jùzi jìnxíng fēncí.",
+    "english": "Search engines automatically segment sentences into words."
+  },
+  {
+    "word": "女双",
+    "sent_simp": "她们赢得了本届奥运会的女双金牌。",
+    "sent_trad": "她們贏得了本屆奧運會的女雙金牌。",
+    "pinyin": "Tāmen yíngdéle běn jiè Àoyùnhuì de nǚ shuāng jīnpái.",
+    "english": "They won the women's doubles gold medal at this year's Olympics."
+  },
+  {
+    "word": "复用",
+    "sent_simp": "这段代码可以复用，不需要重新写。",
+    "sent_trad": "這段代碼可以複用，不需要重新寫。",
+    "pinyin": "Zhè duàn dàimǎ kěyǐ fùyòng, bù xūyào chóngxīn xiě.",
+    "english": "This piece of code can be reused — no need to rewrite it."
+  },
+  {
+    "word": "规范化",
+    "sent_simp": "公司正在推进工作流程的规范化。",
+    "sent_trad": "公司正在推進工作流程的規範化。",
+    "pinyin": "Gōngsī zhèngzài tuījìn gōngzuò liúchéng de guīfànhuà.",
+    "english": "The company is working on standardizing its work processes."
+  },
+  {
+    "word": "军事训练",
+    "sent_simp": "新兵每天都要参加高强度的军事训练。",
+    "sent_trad": "新兵每天都要參加高強度的軍事訓練。",
+    "pinyin": "Xīnbīng měitiān dōu yào cānjiā gāo qiángdù de jūnshì xùnliàn.",
+    "english": "New recruits take part in high-intensity military training every day."
+  },
+  {
+    "word": "副食品",
+    "sent_simp": "超市里的副食品种类很丰富。",
+    "sent_trad": "超市裡的副食品種類很豐富。",
+    "pinyin": "Chāoshì lǐ de fùshípǐn zhǒnglèi hěn fēngfù.",
+    "english": "The supermarket has a wide variety of non-staple foods."
+  },
+  {
+    "word": "博彩",
+    "sent_simp": "他迷上了博彩，把积蓄都输光了。",
+    "sent_trad": "他迷上了博彩，把積蓄都輸光了。",
+    "pinyin": "Tā míshàngle bócǎi, bǎ jīxù dōu shūguāng le.",
+    "english": "He got hooked on gambling and lost all his savings."
+  },
+  {
+    "word": "犯罪学",
+    "sent_simp": "她大学主修犯罪学，毕业后想当警察。",
+    "sent_trad": "她大學主修犯罪學，畢業後想當警察。",
+    "pinyin": "Tā dàxué zhǔxiū fànzuìxué, bìyè hòu xiǎng dāng jǐngchá.",
+    "english": "She majored in criminology in college and wants to become a police officer after graduating."
+  },
+  {
+    "word": "发包",
+    "sent_simp": "这个项目已经发包给一家外地公司。",
+    "sent_trad": "這個項目已經發包給一家外地公司。",
+    "pinyin": "Zhège xiàngmù yǐjīng fābāo gěi yī jiā wàidì gōngsī.",
+    "english": "This project has already been contracted out to a company from another city."
+  },
+  {
+    "word": "云台",
+    "sent_simp": "拍延时视频时要把相机固定在云台上。",
+    "sent_trad": "拍延時視頻時要把相機固定在雲臺上。",
+    "pinyin": "Pāi yánshí shìpín shí yào bǎ xiàngjī gùdìng zài yúntái shàng.",
+    "english": "When shooting time-lapse videos, you need to mount the camera on a tripod head."
+  },
+  {
+    "word": "艺术史",
+    "sent_simp": "他在大学选修了一门西方艺术史课程。",
+    "sent_trad": "他在大學選修了一門西方藝術史課程。",
+    "pinyin": "Tā zài dàxué xuǎnxiūle yī mén xīfāng yìshùshǐ kèchéng.",
+    "english": "He took a Western art history elective at university."
+  },
+  {
+    "word": "错字",
+    "sent_simp": "这篇作文里有好几个错字，要改一下。",
+    "sent_trad": "這篇作文裡有好幾個錯字，要改一下。",
+    "pinyin": "Zhè piān zuòwén lǐ yǒu hǎojǐ gè cuòzì, yào gǎi yīxià.",
+    "english": "There are quite a few typos in this essay that need to be corrected."
+  },
+  {
+    "word": "季后赛",
+    "sent_simp": "我们队终于进入了今年的季后赛。",
+    "sent_trad": "我們隊終於進入了今年的季後賽。",
+    "pinyin": "Wǒmen duì zhōngyú jìnrùle jīnnián de jìhòusài.",
+    "english": "Our team finally made it into this year's playoffs."
+  },
+  {
+    "word": "年均",
+    "sent_simp": "这个城市的年均气温约为十五度。",
+    "sent_trad": "這個城市的年均氣溫約為十五度。",
+    "pinyin": "Zhège chéngshì de niánjūn qìwēn yuē wéi shíwǔ dù.",
+    "english": "The annual average temperature in this city is about fifteen degrees."
+  },
+  {
+    "word": "结束语",
+    "sent_simp": "演讲快结束时，他说了一段简短的结束语。",
+    "sent_trad": "演講快結束時，他說了一段簡短的結束語。",
+    "pinyin": "Yǎnjiǎng kuài jiéshù shí, tā shuōle yī duàn jiǎnduǎn de jiéshùyǔ.",
+    "english": "Near the end of his speech, he offered a brief set of concluding remarks."
+  },
+  {
+    "word": "合家",
+    "sent_simp": "春节到了，合家团聚吃年夜饭。",
+    "sent_trad": "春節到了，合家團聚吃年夜飯。",
+    "pinyin": "Chūnjié dào le, hé jiā tuánjù chī niányèfàn.",
+    "english": "The Spring Festival has arrived — the whole family gathers for the New Year's Eve dinner."
+  },
+  {
+    "word": "合作化",
+    "sent_simp": "农业合作化是那个年代的重要政策。",
+    "sent_trad": "農業合作化是那個年代的重要政策。",
+    "pinyin": "Nóngyè hézuòhuà shì nàge niándài de zhòngyào zhèngcè.",
+    "english": "Agricultural collectivization was an important policy of that era."
+  },
+  {
+    "word": "打入",
+    "sent_simp": "这家品牌成功打入了欧洲市场。",
+    "sent_trad": "這家品牌成功打入了歐洲市場。",
+    "pinyin": "Zhè jiā pǐnpái chénggōng dǎrùle Ōuzhōu shìchǎng.",
+    "english": "This brand successfully broke into the European market."
+  },
+  {
+    "word": "方家",
+    "sent_simp": "这篇文章写得不好，还请方家多多指正。",
+    "sent_trad": "這篇文章寫得不好，還請方家多多指正。",
+    "pinyin": "Zhè piān wénzhāng xiě de bù hǎo, hái qǐng fāngjiā duōduō zhǐzhèng.",
+    "english": "This article is not well written — I welcome corrections from those more knowledgeable."
+  },
+  {
+    "word": "专案",
+    "sent_simp": "他负责管理公司的几个专案。",
+    "sent_trad": "他負責管理公司的幾個專案。",
+    "pinyin": "Tā fùzé guǎnlǐ gōngsī de jǐ gè zhuān'àn.",
+    "english": "He is responsible for managing several projects at the company."
+  },
+  {
+    "word": "总论",
+    "sent_simp": "书的第一章是全书的总论。",
+    "sent_trad": "書的第一章是全書的總論。",
+    "pinyin": "Shū de dì yī zhāng shì quán shū de zǒnglùn.",
+    "english": "The first chapter of the book is the general overview of the whole work."
+  },
+  {
+    "word": "人龙",
+    "sent_simp": "开业第一天，门口排起了长长的人龙。",
+    "sent_trad": "開業第一天，門口排起了長長的人龍。",
+    "pinyin": "Kāiyè dì yī tiān, ménkǒu páiqǐle chángcháng de rénlóng.",
+    "english": "On the first day of business, a long queue of people formed outside the door."
+  },
+  {
+    "word": "筹建",
+    "sent_simp": "社区正在筹建一座新的图书馆。",
+    "sent_trad": "社區正在籌建一座新的圖書館。",
+    "pinyin": "Shèqū zhèngzài chóujiàn yī zuò xīn de túshūguǎn.",
+    "english": "The community is preparing to build a new library."
+  },
+  {
+    "word": "电商",
+    "sent_simp": "她辞掉工作，自己开了家电商店铺。",
+    "sent_trad": "她辭掉工作，自己開了家電商店鋪。",
+    "pinyin": "Tā cídiào gōngzuò, zìjǐ kāile jiā diànshāng diànpù.",
+    "english": "She quit her job and opened her own e-commerce store."
+  },
+  {
+    "word": "广告宣传",
+    "sent_simp": "这款产品靠广告宣传迅速打开了市场。",
+    "sent_trad": "這款產品靠廣告宣傳迅速打開了市場。",
+    "pinyin": "Zhè kuǎn chǎnpǐn kào guǎnggào xuānchuán xùnsù dǎkāile shìchǎng.",
+    "english": "This product quickly opened up the market through advertising and promotion."
+  },
+  {
+    "word": "贷款人",
+    "sent_simp": "贷款人需要提供收入证明才能申请。",
+    "sent_trad": "貸款人需要提供收入證明才能申請。",
+    "pinyin": "Dàikuǎn rén xūyào tígōng shōurù zhèngmíng cái néng shēnqǐng.",
+    "english": "The lender requires proof of income before you can apply."
+  },
+  {
+    "word": "习惯法",
+    "sent_simp": "英国的法律体系以习惯法为基础。",
+    "sent_trad": "英國的法律體系以習慣法為基礎。",
+    "pinyin": "Yīngguó de fǎlǜ tǐxì yǐ xíguànfǎ wéi jīchǔ.",
+    "english": "The British legal system is based on common law."
+  },
+  {
+    "word": "正极",
+    "sent_simp": "连接电池时要注意分清正极和负极。",
+    "sent_trad": "連接電池時要注意分清正極和負極。",
+    "pinyin": "Liánjiē diànchí shí yào zhùyì fēnqīng zhèngjí hé fùjí.",
+    "english": "When connecting a battery, pay attention to telling the positive and negative poles apart."
+  },
+  {
+    "word": "新政",
+    "sent_simp": "市长上任后推出了一系列新政。",
+    "sent_trad": "市長上任後推出了一系列新政。",
+    "pinyin": "Shìzhǎng shàngrèn hòu tuīchūle yī xìliè xīnzhèng.",
+    "english": "After taking office, the mayor introduced a series of new policies."
+  },
+  {
+    "word": "骗走",
+    "sent_simp": "他被人假冒客服骗走了两万块钱。",
+    "sent_trad": "他被人假冒客服騙走了兩萬塊錢。",
+    "pinyin": "Tā bèi rén jiǎmào kèfú piànzǒule liǎng wàn kuài qián.",
+    "english": "He was swindled out of twenty thousand yuan by someone posing as customer service."
+  },
+  {
+    "word": "境内外",
+    "sent_simp": "这家公司在境内外都有业务。",
+    "sent_trad": "這家公司在境內外都有業務。",
+    "pinyin": "Zhè jiā gōngsī zài jìng nèi wài dōu yǒu yèwù.",
+    "english": "This company has operations both within and outside the country."
+  },
+  {
+    "word": "记过",
+    "sent_simp": "他因为迟到太多次被学校记过处分。",
+    "sent_trad": "他因為遲到太多次被學校記過處分。",
+    "pinyin": "Tā yīnwèi chídào tài duō cì bèi xuéxiào jìguò chǔfèn.",
+    "english": "He received a demerit from the school for being late too many times."
+  },
+  {
+    "word": "成方",
+    "sent_simp": "医生开了一个治咳嗽的成方给他。",
+    "sent_trad": "醫生開了一個治咳嗽的成方給他。",
+    "pinyin": "Yīshēng kāile yī gè zhì késou de chéngfāng gěi tā.",
+    "english": "The doctor prescribed a set TCM formula to treat his cough."
+  },
+  {
+    "word": "总管",
+    "sent_simp": "他是这栋大楼的总管，什么事都归他处理。",
+    "sent_trad": "他是這棟大樓的總管，什麼事都歸他處理。",
+    "pinyin": "Tā shì zhè dòng dàlóu de zǒngguǎn, shénme shì dōu guī tā chǔlǐ.",
+    "english": "He's the building manager — everything is handled by him."
+  },
+  {
+    "word": "在校",
+    "sent_simp": "在校学生可以享受半价优惠。",
+    "sent_trad": "在校學生可以享受半價優惠。",
+    "pinyin": "Zài xiào xuésheng kěyǐ xiǎngshòu bànjià yōuhuì.",
+    "english": "Students currently enrolled in school can enjoy a half-price discount."
+  },
+  {
+    "word": "白区",
+    "sent_simp": "历史书里提到了当年白区地下党的活动。",
+    "sent_trad": "歷史書裡提到了當年白區地下黨的活動。",
+    "pinyin": "Lìshǐ shū lǐ tídàole dāngnián báiqū dìxià dǎng de huódòng.",
+    "english": "The history book mentions the underground party activities in the White areas back then."
+  },
+  {
+    "word": "均值",
+    "sent_simp": "这组数据的均值是八十五分。",
+    "sent_trad": "這組數據的均值是八十五分。",
+    "pinyin": "Zhè zǔ shùjù de jūnzhí shì bāshíwǔ fēn.",
+    "english": "The average value of this data set is eighty-five points."
+  },
+  {
+    "word": "下单",
+    "sent_simp": "我刚刚在网上下单买了一双跑鞋。",
+    "sent_trad": "我剛剛在網上下單買了一雙跑鞋。",
+    "pinyin": "Wǒ gānggāng zài wǎngshàng xià dān mǎile yī shuāng pǎoxié.",
+    "english": "I just placed an order online for a pair of running shoes."
+  },
+  {
+    "word": "正方",
+    "sent_simp": "辩论赛中，正方认为城市生活更幸福。",
+    "sent_trad": "辯論賽中，正方認為城市生活更幸福。",
+    "pinyin": "Biànlùnsài zhōng, zhèngfāng rènwéi chéngshì shēnghuó gèng xìngfú.",
+    "english": "In the debate, the affirmative side argued that city life is happier."
+  },
+  {
+    "word": "小姐姐",
+    "sent_simp": "便利店里那位小姐姐服务态度特别好。",
+    "sent_trad": "便利店裡那位小姐姐服務態度特別好。",
+    "pinyin": "Biànlìdiàn lǐ nà wèi xiǎo jiě jiě fúwù tàidu tèbié hǎo.",
+    "english": "The young lady at the convenience store has a really great attitude."
+  }
+]

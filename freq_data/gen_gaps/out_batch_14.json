@@ -1,0 +1,282 @@
+[
+  {
+    "word": "政法",
+    "sent_simp": "他在大学里读政法专业。",
+    "sent_trad": "他在大學裡讀政法專業。",
+    "pinyin": "Tā zài dàxué lǐ dú zhèngfǎ zhuānyè.",
+    "english": "He studies politics and law at university."
+  },
+  {
+    "word": "编选",
+    "sent_simp": "老师编选了一批经典短文供学生阅读。",
+    "sent_trad": "老師編選了一批經典短文供學生閱讀。",
+    "pinyin": "Lǎoshī biān xuǎn le yī pī jīngdiǎn duǎnwén gōng xuésheng yuèdú.",
+    "english": "The teacher compiled a selection of classic short essays for students to read."
+  },
+  {
+    "word": "运输量",
+    "sent_simp": "今年这条铁路的运输量创了新高。",
+    "sent_trad": "今年這條鐵路的運輸量創了新高。",
+    "pinyin": "Jīnnián zhè tiáo tiělù de yùnshūliàng chuàng le xīn gāo.",
+    "english": "This railway's freight volume hit a new record this year."
+  },
+  {
+    "word": "方差",
+    "sent_simp": "这组数据的方差很大，说明数值比较分散。",
+    "sent_trad": "這組數據的方差很大，說明數值比較分散。",
+    "pinyin": "Zhè zǔ shùjù de fāngchā hěn dà, shuōmíng shùzhí bǐjiào fēnsàn.",
+    "english": "The variance of this data set is large, showing that the values are quite spread out."
+  },
+  {
+    "word": "清官",
+    "sent_simp": "历史上真正的清官并不多见。",
+    "sent_trad": "歷史上真正的清官並不多見。",
+    "pinyin": "Lìshǐ shàng zhēnzhèng de qīngguān bìng bù duōjiàn.",
+    "english": "Truly honest and upright officials are not common throughout history."
+  },
+  {
+    "word": "公法",
+    "sent_simp": "宪法属于公法的范畴。",
+    "sent_trad": "憲法屬於公法的範疇。",
+    "pinyin": "Xiànfǎ shǔyú gōngfǎ de fànchóu.",
+    "english": "Constitutional law falls within the scope of public law."
+  },
+  {
+    "word": "治军",
+    "sent_simp": "这位将领治军严格，士兵们都很守纪律。",
+    "sent_trad": "這位將領治軍嚴格，士兵們都很守紀律。",
+    "pinyin": "Zhè wèi jiānglǐng zhì jūn yángé, shìbīngmen dōu hěn shǒu jìlǜ.",
+    "english": "This general runs a strict military; the soldiers are all very disciplined."
+  },
+  {
+    "word": "为数",
+    "sent_simp": "报名参加的人为数不少。",
+    "sent_trad": "報名參加的人為數不少。",
+    "pinyin": "Bàomíng cānjiā de rén wéishù bù shǎo.",
+    "english": "Quite a few people signed up to participate."
+  },
+  {
+    "word": "中西部",
+    "sent_simp": "他的家乡在美国中西部的一个小镇。",
+    "sent_trad": "他的家鄉在美國中西部的一個小鎮。",
+    "pinyin": "Tā de jiāxiāng zài Měiguó zhōngxībù de yī gè xiǎo zhèn.",
+    "english": "His hometown is a small town in the American Midwest."
+  },
+  {
+    "word": "违宪",
+    "sent_simp": "法院裁定这项法律违宪，必须废除。",
+    "sent_trad": "法院裁定這項法律違憲，必須廢除。",
+    "pinyin": "Fǎyuàn cáidìng zhè xiàng fǎlǜ wéixiàn, bìxū fèichú.",
+    "english": "The court ruled this law unconstitutional and that it must be abolished."
+  },
+  {
+    "word": "黄酒",
+    "sent_simp": "奶奶喜欢做菜时加一点黄酒提味。",
+    "sent_trad": "奶奶喜歡做菜時加一點黃酒提味。",
+    "pinyin": "Nǎinai xǐhuān zuò cài shí jiā yīdiǎn huángjiǔ tí wèi.",
+    "english": "Grandma likes to add a splash of rice wine when cooking to enhance the flavor."
+  },
+  {
+    "word": "选编",
+    "sent_simp": "这本书是近代诗歌选编，收录了很多名家作品。",
+    "sent_trad": "這本書是近代詩歌選編，收錄了很多名家作品。",
+    "pinyin": "Zhè běn shū shì jìndài shīgē xuǎn biān, shōulù le hěn duō míngjiā zuòpǐn.",
+    "english": "This book is an anthology of modern poetry featuring many renowned authors."
+  },
+  {
+    "word": "下议院",
+    "sent_simp": "英国下议院通过了这项新法案。",
+    "sent_trad": "英國下議院通過了這項新法案。",
+    "pinyin": "Yīngguó xià yìyuàn tōngguò le zhè xiàng xīn fǎ'àn.",
+    "english": "The UK House of Commons passed this new bill."
+  },
+  {
+    "word": "药性",
+    "sent_simp": "这味草药药性温和，适合老人服用。",
+    "sent_trad": "這味草藥藥性溫和，適合老人服用。",
+    "pinyin": "Zhè wèi cǎoyào yàoxìng wēnhé, shìhé lǎorén fúyòng.",
+    "english": "This herbal medicine has a mild medicinal effect and is suitable for the elderly."
+  },
+  {
+    "word": "造作",
+    "sent_simp": "他说话太造作了，听起来很假。",
+    "sent_trad": "他說話太造作了，聽起來很假。",
+    "pinyin": "Tā shuōhuà tài zàozuò le, tīng qǐlái hěn jiǎ.",
+    "english": "The way he talks is too affected; it sounds very fake."
+  },
+  {
+    "word": "主打",
+    "sent_simp": "这家餐厅主打川菜，口味很正宗。",
+    "sent_trad": "這家餐廳主打川菜，口味很正宗。",
+    "pinyin": "Zhè jiā cāntīng zhǔdǎ chuāncài, kǒuwèi hěn zhèngzōng.",
+    "english": "This restaurant's main focus is Sichuan cuisine and the flavors are very authentic."
+  },
+  {
+    "word": "道观",
+    "sent_simp": "山顶上有一座历史悠久的道观。",
+    "sent_trad": "山頂上有一座歷史悠久的道觀。",
+    "pinyin": "Shāndǐng shàng yǒu yī zuò lìshǐ yōujiǔ de dàoguàn.",
+    "english": "There is a centuries-old Daoist temple at the top of the mountain."
+  },
+  {
+    "word": "物料",
+    "sent_simp": "仓库里的物料快用完了，需要补货。",
+    "sent_trad": "倉庫裡的物料快用完了，需要補貨。",
+    "pinyin": "Cāngkù lǐ de wùliào kuài yòngwán le, xūyào bǔ huò.",
+    "english": "The materials in the warehouse are almost used up and need to be restocked."
+  },
+  {
+    "word": "丞相",
+    "sent_simp": "诸葛亮是三国时期蜀汉的丞相。",
+    "sent_trad": "諸葛亮是三國時期蜀漢的丞相。",
+    "pinyin": "Zhūgě Liàng shì Sānguó shíqī Shǔhàn de chéngxiàng.",
+    "english": "Zhuge Liang was the prime minister of Shu Han during the Three Kingdoms period."
+  },
+  {
+    "word": "伊人",
+    "sent_simp": "蒹葭苍苍，白露为霜，所谓伊人，在水一方。",
+    "sent_trad": "蒹葭蒼蒼，白露為霜，所謂伊人，在水一方。",
+    "pinyin": "Jiānjiā cāngcāng, báilù wéi shuāng, suǒ wèi yī rén, zài shuǐ yī fāng.",
+    "english": "The reeds are green, white dew turns to frost — that person I long for is somewhere across the water."
+  },
+  {
+    "word": "子房",
+    "sent_simp": "花的子房发育后会变成果实。",
+    "sent_trad": "花的子房發育後會變成果實。",
+    "pinyin": "Huā de zǐfáng fāyù hòu huì biànchéng guǒshí.",
+    "english": "The ovary of a flower develops into a fruit."
+  },
+  {
+    "word": "指称",
+    "sent_simp": "这个词指称的范围比较广，用法灵活。",
+    "sent_trad": "這個詞指稱的範圍比較廣，用法靈活。",
+    "pinyin": "Zhège cí zhǐchēng de fànwéi bǐjiào guǎng, yòngfǎ línghuó.",
+    "english": "The reference range of this word is quite broad and its usage is flexible."
+  },
+  {
+    "word": "国运",
+    "sent_simp": "那个时代的国运与每个普通人都息息相关。",
+    "sent_trad": "那個時代的國運與每個普通人都息息相關。",
+    "pinyin": "Nàge shídài de guóyùn yǔ měi gè pǔtōng rén dōu xīxī xiāngguān.",
+    "english": "In that era, the fate of the nation was closely tied to every ordinary person."
+  },
+  {
+    "word": "回覆",
+    "sent_simp": "我发了邮件，等了两天才收到他的回覆。",
+    "sent_trad": "我發了郵件，等了兩天才收到他的回覆。",
+    "pinyin": "Wǒ fā le yóujiàn, děng le liǎng tiān cái shōudào tā de huífù.",
+    "english": "I sent an email and waited two days before receiving his reply."
+  },
+  {
+    "word": "世锦赛",
+    "sent_simp": "她在游泳世锦赛上夺得了金牌。",
+    "sent_trad": "她在游泳世錦賽上奪得了金牌。",
+    "pinyin": "Tā zài yóuyǒng shì jǐn sài shàng duódé le jīnpái.",
+    "english": "She won a gold medal at the World Swimming Championships."
+  },
+  {
+    "word": "伺服器",
+    "sent_simp": "网站的伺服器出故障了，页面打不开。",
+    "sent_trad": "網站的伺服器出故障了，頁面打不開。",
+    "pinyin": "Wǎngzhàn de cìfúqì chū gùzhàng le, yèmiàn dǎ bù kāi.",
+    "english": "The website's server broke down and the page won't load."
+  },
+  {
+    "word": "负增长",
+    "sent_simp": "受疫情影响，旅游业去年出现了负增长。",
+    "sent_trad": "受疫情影響，旅遊業去年出現了負增長。",
+    "pinyin": "Shòu yìqíng yǐngxiǎng, lǚyóuyè qùnián chūxiàn le fù zēngzhǎng.",
+    "english": "Affected by the pandemic, the tourism industry experienced negative growth last year."
+  },
+  {
+    "word": "内侧",
+    "sent_simp": "他把钱包放在外套内侧的口袋里。",
+    "sent_trad": "他把錢包放在外套內側的口袋裡。",
+    "pinyin": "Tā bǎ qiánbāo fàng zài wàitào nèicè de kǒudài lǐ.",
+    "english": "He put his wallet in the inside pocket of his jacket."
+  },
+  {
+    "word": "开播",
+    "sent_simp": "这部新剧下周一正式开播，很多人都在等。",
+    "sent_trad": "這部新劇下週一正式開播，很多人都在等。",
+    "pinyin": "Zhè bù xīnjù xià zhōu yī zhèngshì kāi bō, hěn duō rén dōu zài děng.",
+    "english": "This new drama officially starts airing next Monday and many people are looking forward to it."
+  },
+  {
+    "word": "业内",
+    "sent_simp": "她在业内工作了十多年，经验很丰富。",
+    "sent_trad": "她在業內工作了十多年，經驗很豐富。",
+    "pinyin": "Tā zài yè nèi gōngzuò le shí duō nián, jīngyàn hěn fēngfù.",
+    "english": "She has been working in the industry for over ten years and has a wealth of experience."
+  },
+  {
+    "word": "侨民",
+    "sent_simp": "这座城市有大量华人侨民聚居。",
+    "sent_trad": "這座城市有大量華人僑民聚居。",
+    "pinyin": "Zhè zuò chéngshì yǒu dàliàng Huárén qiáomín jùjū.",
+    "english": "This city has a large community of overseas Chinese residents."
+  },
+  {
+    "word": "学制",
+    "sent_simp": "这所学校采用的是六年制小学学制。",
+    "sent_trad": "這所學校採用的是六年制小學學制。",
+    "pinyin": "Zhè suǒ xuéxiào cǎiyòng de shì liù nián zhì xiǎoxué xuézhì.",
+    "english": "This school follows a six-year primary education system."
+  },
+  {
+    "word": "车手",
+    "sent_simp": "这位车手在最后一圈超越了对手，夺得冠军。",
+    "sent_trad": "這位車手在最後一圈超越了對手，奪得冠軍。",
+    "pinyin": "Zhè wèi chēshǒu zài zuìhòu yī quān chāoyuè le duìshǒu, duódé guànjūn.",
+    "english": "This driver overtook his rival in the final lap to win the championship."
+  },
+  {
+    "word": "坐实",
+    "sent_simp": "这份录音坐实了他撒谎的事实。",
+    "sent_trad": "這份錄音坐實了他撒謊的事實。",
+    "pinyin": "Zhè fèn lùyīn zuòshí le tā sāhuǎng de shìshí.",
+    "english": "This recording confirmed the fact that he lied."
+  },
+  {
+    "word": "性侵",
+    "sent_simp": "受害者鼓起勇气举报了性侵事件。",
+    "sent_trad": "受害者鼓起勇氣舉報了性侵事件。",
+    "pinyin": "Shòuhài zhě gǔ qǐ yǒngqì jǔbào le xìngqīn shìjiàn.",
+    "english": "The victim gathered the courage to report the sexual assault."
+  },
+  {
+    "word": "从业人员",
+    "sent_simp": "餐饮行业的从业人员必须持有健康证。",
+    "sent_trad": "餐飲行業的從業人員必須持有健康證。",
+    "pinyin": "Cānyǐn hángyè de cóngyè rényuán bìxū chí yǒu jiànkāng zhèng.",
+    "english": "Food and beverage industry employees must hold a health certificate."
+  },
+  {
+    "word": "包罗",
+    "sent_simp": "这个市场包罗万象，什么商品都能买到。",
+    "sent_trad": "這個市場包羅萬象，什麼商品都能買到。",
+    "pinyin": "Zhège shìchǎng bāoluó wànxiàng, shénme shāngpǐn dōu néng mǎidào.",
+    "english": "This market has everything imaginable; you can find any product there."
+  },
+  {
+    "word": "西药",
+    "sent_simp": "医生开了西药，让他每天饭后服用。",
+    "sent_trad": "醫生開了西藥，讓他每天飯後服用。",
+    "pinyin": "Yīshēng kāi le xīyào, ràng tā měitiān fàn hòu fúyòng.",
+    "english": "The doctor prescribed Western medicine and told him to take it after every meal."
+  },
+  {
+    "word": "再世",
+    "sent_simp": "他弹钢琴的水平高超，简直是贝多芬再世。",
+    "sent_trad": "他彈鋼琴的水平高超，簡直是貝多芬再世。",
+    "pinyin": "Tā tán gāngqín de shuǐpíng gāochāo, jiǎnzhí shì Bèiduōfēn zài shì.",
+    "english": "His piano playing is superb — he's practically a reincarnation of Beethoven."
+  },
+  {
+    "word": "圣手",
+    "sent_simp": "她是当地有名的圣手，很多疑难杂症都能治好。",
+    "sent_trad": "她是當地有名的聖手，很多疑難雜症都能治好。",
+    "pinyin": "Tā shì dāngdì yǒumíng de shèngshǒu, hěn duō yínán zázèng dōu néng zhì hǎo.",
+    "english": "She is a renowned healer locally and can cure many difficult ailments."
+  }
+]

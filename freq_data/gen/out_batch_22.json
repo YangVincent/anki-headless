@@ -1,0 +1,322 @@
+[
+  {
+    "nid": 1393817668245,
+    "word": "折磨",
+    "sent_simp": "失眠真的很折磨人。",
+    "sent_trad": "失眠真的很折磨人。",
+    "pinyin": "Shīmián zhēn de hěn zhémó rén.",
+    "english": "Insomnia is really torturous."
+  },
+  {
+    "nid": 1393817670164,
+    "word": "海拔",
+    "sent_simp": "这座山的海拔超过三千米。",
+    "sent_trad": "這座山的海拔超過三千米。",
+    "pinyin": "Zhè zuò shān de hǎibá chāoguò sānqiān mǐ.",
+    "english": "This mountain's elevation exceeds three thousand meters."
+  },
+  {
+    "nid": 1708747493031,
+    "word": "特区",
+    "sent_simp": "深圳是中国最早的经济特区。",
+    "sent_trad": "深圳是中國最早的經濟特區。",
+    "pinyin": "Shēnzhèn shì Zhōngguó zuì zǎo de jīngjì tèqū.",
+    "english": "Shenzhen was China's earliest special economic zone."
+  },
+  {
+    "nid": 1393817669926,
+    "word": "独裁",
+    "sent_simp": "他批评那个政府实行独裁统治。",
+    "sent_trad": "他批評那個政府實行獨裁統治。",
+    "pinyin": "Tā pīpíng nàge zhèngfǔ shíxíng dúcái tǒngzhì.",
+    "english": "He criticized that government for practicing dictatorial rule."
+  },
+  {
+    "nid": 1708747489867,
+    "word": "科学院",
+    "sent_simp": "她在中国科学院做研究。",
+    "sent_trad": "她在中國科學院做研究。",
+    "pinyin": "Tā zài Zhōngguó Kēxuéyuàn zuò yánjiū.",
+    "english": "She does research at the Chinese Academy of Sciences."
+  },
+  {
+    "nid": 1708747488017,
+    "word": "荣耀",
+    "sent_simp": "拿到金牌是运动员最大的荣耀。",
+    "sent_trad": "拿到金牌是運動員最大的榮耀。",
+    "pinyin": "Ná dào jīnpái shì yùndòngyuán zuì dà de róngyào.",
+    "english": "Winning a gold medal is an athlete's greatest glory."
+  },
+  {
+    "nid": 1537328247199,
+    "word": "获奖",
+    "sent_simp": "她的短片在电影节上获奖了。",
+    "sent_trad": "她的短片在電影節上獲獎了。",
+    "pinyin": "Tā de duǎnpiàn zài diànyǐngjié shàng huòjiǎng le.",
+    "english": "Her short film won an award at the film festival."
+  },
+  {
+    "nid": 1708747507173,
+    "word": "西亚",
+    "sent_simp": "西亚的气候普遍比较干燥。",
+    "sent_trad": "西亞的氣候普遍比較乾燥。",
+    "pinyin": "Xī Yà de qìhòu pǔbiàn bǐjiào gānzào.",
+    "english": "The climate in Southwest Asia is generally quite dry."
+  },
+  {
+    "nid": 1708747518446,
+    "word": "选票",
+    "sent_simp": "每位市民只有一张选票。",
+    "sent_trad": "每位市民只有一張選票。",
+    "pinyin": "Měi wèi shìmín zhǐyǒu yī zhāng xuǎnpiào.",
+    "english": "Every citizen has only one ballot."
+  },
+  {
+    "nid": 1537328247286,
+    "word": "配套",
+    "sent_simp": "小区里的配套设施很齐全。",
+    "sent_trad": "小區裡的配套設施很齊全。",
+    "pinyin": "Xiǎoqū lǐ de pèitào shèshī hěn qíquán.",
+    "english": "The supporting facilities in the neighborhood are very complete."
+  },
+  {
+    "nid": 1537328245269,
+    "word": "钢琴",
+    "sent_simp": "她从小就开始学钢琴。",
+    "sent_trad": "她從小就開始學鋼琴。",
+    "pinyin": "Tā cóngxiǎo jiù kāishǐ xué gāngqín.",
+    "english": "She started learning piano from a young age."
+  },
+  {
+    "nid": 1708747494959,
+    "word": "阿富汗",
+    "sent_simp": "他在阿富汗工作了两年。",
+    "sent_trad": "他在阿富汗工作了兩年。",
+    "pinyin": "Tā zài Āfùhàn gōngzuò le liǎng nián.",
+    "english": "He worked in Afghanistan for two years."
+  },
+  {
+    "nid": 1393817669302,
+    "word": "验证",
+    "sent_simp": "请输入验证码来验证你的手机号。",
+    "sent_trad": "請輸入驗證碼來驗證你的手機號。",
+    "pinyin": "Qǐng shūrù yànzhèngmǎ lái yànzhèng nǐ de shǒujī hào.",
+    "english": "Please enter the verification code to verify your phone number."
+  },
+  {
+    "nid": 1393817669572,
+    "word": "高峰",
+    "sent_simp": "早上八点是上班的高峰时间。",
+    "sent_trad": "早上八點是上班的高峰時間。",
+    "pinyin": "Zǎoshang bā diǎn shì shàngbān de gāofēng shíjiān.",
+    "english": "Eight in the morning is peak commute time."
+  },
+  {
+    "nid": 1393817668741,
+    "word": "例外",
+    "sent_simp": "这条规定对谁都没有例外。",
+    "sent_trad": "這條規定對誰都沒有例外。",
+    "pinyin": "Zhè tiáo guīdìng duì shéi dōu méiyǒu lìwài.",
+    "english": "This rule makes no exceptions for anyone."
+  },
+  {
+    "nid": 1708747509201,
+    "word": "保罗",
+    "sent_simp": "保罗是我认识的第一个外国朋友。",
+    "sent_trad": "保羅是我認識的第一個外國朋友。",
+    "pinyin": "Bǎoluó shì wǒ rènshi de dì yī gè wàiguó péngyou.",
+    "english": "Paul was the first foreign friend I ever made."
+  },
+  {
+    "nid": 1537328246588,
+    "word": "入境",
+    "sent_simp": "入境时需要填写一张表格。",
+    "sent_trad": "入境時需要填寫一張表格。",
+    "pinyin": "Rùjìng shí xūyào tiánxiě yī zhāng biǎogé.",
+    "english": "You need to fill out a form when entering the country."
+  },
+  {
+    "nid": 1537328245899,
+    "word": "加盟",
+    "sent_simp": "他决定加盟一家连锁餐厅。",
+    "sent_trad": "他決定加盟一家連鎖餐廳。",
+    "pinyin": "Tā juédìng jiāméng yī jiā liánsuǒ cāntīng.",
+    "english": "He decided to join a chain restaurant franchise."
+  },
+  {
+    "nid": 1393817669385,
+    "word": "司令",
+    "sent_simp": "司令下令部队立即撤退。",
+    "sent_trad": "司令下令部隊立即撤退。",
+    "pinyin": "Sīlìng xiàlìng bùduì lìjí chètuì.",
+    "english": "The commanding officer ordered the troops to retreat immediately."
+  },
+  {
+    "nid": 1537328243789,
+    "word": "图书",
+    "sent_simp": "图书馆里有很多免费借阅的图书。",
+    "sent_trad": "圖書館裡有很多免費借閱的圖書。",
+    "pinyin": "Túshūguǎn lǐ yǒu hěn duō miǎnfèi jièyuè de túshū.",
+    "english": "The library has many books available to borrow for free."
+  },
+  {
+    "nid": 1708747502610,
+    "word": "声援",
+    "sent_simp": "很多人到场声援这支球队。",
+    "sent_trad": "很多人到場聲援這支球隊。",
+    "pinyin": "Hěn duō rén dào chǎng shēngyuán zhè zhī qiúduì.",
+    "english": "Many people showed up to support this team."
+  },
+  {
+    "nid": 1393817668933,
+    "word": "处置",
+    "sent_simp": "这批过期食品已被妥善处置。",
+    "sent_trad": "這批過期食品已被妥善處置。",
+    "pinyin": "Zhè pī guòqī shípǐn yǐ bèi tuǒshàn chǔzhì.",
+    "english": "This batch of expired food has been properly handled."
+  },
+  {
+    "nid": 1717270452265,
+    "word": "希特勒",
+    "sent_simp": "历史课上讲到了希特勒的崛起。",
+    "sent_trad": "歷史課上講到了希特勒的崛起。",
+    "pinyin": "Lìshǐ kè shàng jiǎng dào le Xītèlēi de juéqǐ.",
+    "english": "The history class covered the rise of Hitler."
+  },
+  {
+    "nid": 1704123394422,
+    "word": "带走",
+    "sent_simp": "我点了外卖，打算带走吃。",
+    "sent_trad": "我點了外賣，打算帶走吃。",
+    "pinyin": "Wǒ diǎn le wàimài, dǎsuàn dài zǒu chī.",
+    "english": "I ordered takeout and plan to take it away to eat."
+  },
+  {
+    "nid": 1393817670227,
+    "word": "开辟",
+    "sent_simp": "公司决定开辟一条新的销售渠道。",
+    "sent_trad": "公司決定開闢一條新的銷售渠道。",
+    "pinyin": "Gōngsī juédìng kāipì yī tiáo xīn de xiāoshòu qúdào.",
+    "english": "The company decided to open up a new sales channel."
+  },
+  {
+    "nid": 1708747502707,
+    "word": "总督",
+    "sent_simp": "他在历史书上读到了这位总督的故事。",
+    "sent_trad": "他在歷史書上讀到了這位總督的故事。",
+    "pinyin": "Tā zài lìshǐ shū shàng dú dào le zhè wèi zǒngdū de gùshi.",
+    "english": "He read about this governor-general in a history book."
+  },
+  {
+    "nid": 1705355742395,
+    "word": "悲伤",
+    "sent_simp": "听到这个消息，她感到非常悲伤。",
+    "sent_trad": "聽到這個消息，她感到非常悲傷。",
+    "pinyin": "Tīng dào zhège xiāoxi, tā gǎndào fēicháng bēishāng.",
+    "english": "Upon hearing the news, she felt extremely sad."
+  },
+  {
+    "nid": 1393817668879,
+    "word": "意图",
+    "sent_simp": "我不清楚他这样做的意图。",
+    "sent_trad": "我不清楚他這樣做的意圖。",
+    "pinyin": "Wǒ bù qīngchǔ tā zhèyàng zuò de yìtú.",
+    "english": "I'm not clear about his intention in doing this."
+  },
+  {
+    "nid": 1393817669395,
+    "word": "描绘",
+    "sent_simp": "这幅画描绘了江南水乡的风景。",
+    "sent_trad": "這幅畫描繪了江南水鄉的風景。",
+    "pinyin": "Zhè fú huà miáohuì le Jiāngnán shuǐxiāng de fēngjǐng.",
+    "english": "This painting portrays the scenery of a water town in southern China."
+  },
+  {
+    "nid": 1708747521853,
+    "word": "新增",
+    "sent_simp": "这款应用新增了一个黑暗模式。",
+    "sent_trad": "這款應用新增了一個黑暗模式。",
+    "pinyin": "Zhè kuǎn yìngyòng xīnzēng le yī gè hēi'àn móshì.",
+    "english": "This app has newly added a dark mode."
+  },
+  {
+    "nid": 1537328247834,
+    "word": "流程",
+    "sent_simp": "请先了解一下报销的流程。",
+    "sent_trad": "請先了解一下報銷的流程。",
+    "pinyin": "Qǐng xiān liǎojiě yīxià bàoxiāo de liúchéng.",
+    "english": "Please first familiarize yourself with the reimbursement process."
+  },
+  {
+    "nid": 1537328245689,
+    "word": "短片",
+    "sent_simp": "他拍了一个关于家乡的短片。",
+    "sent_trad": "他拍了一個關於家鄉的短片。",
+    "pinyin": "Tā pāi le yī gè guānyú jiāxiāng de duǎnpiàn.",
+    "english": "He made a short film about his hometown."
+  },
+  {
+    "nid": 1537328240468,
+    "word": "碰到",
+    "sent_simp": "今天在超市碰到了一个老同学。",
+    "sent_trad": "今天在超市碰到了一個老同學。",
+    "pinyin": "Jīntiān zài chāoshì pèng dào le yī gè lǎo tóngxué.",
+    "english": "I ran into an old classmate at the supermarket today."
+  },
+  {
+    "nid": 1708747487430,
+    "word": "第五",
+    "sent_simp": "他在比赛中得了第五名。",
+    "sent_trad": "他在比賽中得了第五名。",
+    "pinyin": "Tā zài bǐsài zhōng dé le dì wǔ míng.",
+    "english": "He came in fifth place in the competition."
+  },
+  {
+    "nid": 1708747525230,
+    "word": "蒋介石",
+    "sent_simp": "历史课讲到了蒋介石领导的国民政府。",
+    "sent_trad": "歷史課講到了蔣介石領導的國民政府。",
+    "pinyin": "Lìshǐ kè jiǎng dào le Jiǎng Jièshí lǐngdǎo de guómín zhèngfǔ.",
+    "english": "The history class covered the Nationalist government led by Chiang Kai-shek."
+  },
+  {
+    "nid": 1393817669630,
+    "word": "见解",
+    "sent_simp": "他对这个问题有独到的见解。",
+    "sent_trad": "他對這個問題有獨到的見解。",
+    "pinyin": "Tā duì zhège wèntí yǒu dúdào de jiànjiě.",
+    "english": "He has a unique view on this issue."
+  },
+  {
+    "nid": 1708747503488,
+    "word": "请愿",
+    "sent_simp": "居民们联名请愿要求修建一座公园。",
+    "sent_trad": "居民們聯名請願要求修建一座公園。",
+    "pinyin": "Jūmínmen liánmíng qǐngyuàn yāoqiú xiūjiàn yī zuò gōngyuán.",
+    "english": "The residents jointly petitioned for the construction of a park."
+  },
+  {
+    "nid": 1393817668519,
+    "word": "隔离",
+    "sent_simp": "回国后需要在家隔离七天。",
+    "sent_trad": "回國後需要在家隔離七天。",
+    "pinyin": "Huíguó hòu xūyào zài jiā gélí qī tiān.",
+    "english": "After returning to the country, you need to isolate at home for seven days."
+  },
+  {
+    "nid": 1393817668597,
+    "word": "额外",
+    "sent_simp": "加班会有额外的薪资补贴。",
+    "sent_trad": "加班會有額外的薪資補貼。",
+    "pinyin": "Jiābān huì yǒu éwài de xīnzī bǔtiē.",
+    "english": "Working overtime comes with additional pay."
+  },
+  {
+    "nid": 1708747493386,
+    "word": "三级",
+    "sent_simp": "这部电影被列为三级，未成年人不得观看。",
+    "sent_trad": "這部電影被列為三級，未成年人不得觀看。",
+    "pinyin": "Zhè bù diànyǐng bèi liè wéi sān jí, wèi chéngnián rén bùdé guānkàn.",
+    "english": "This film is rated category three; minors are not allowed to watch it."
+  }
+]

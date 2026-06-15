@@ -1,0 +1,247 @@
+[
+  {
+    "word": "公论",
+    "sent_simp": "这件事自有公论，不用争了。",
+    "sent_trad": "這件事自有公論，不用爭了。",
+    "pinyin": "Zhè jiàn shì zì yǒu gōng lùn, bù yòng zhēng le.",
+    "english": "Public opinion will sort this out — no need to argue."
+  },
+  {
+    "word": "海事",
+    "sent_simp": "他在海事局工作了十年。",
+    "sent_trad": "他在海事局工作了十年。",
+    "pinyin": "Tā zài hǎi shì jú gōng zuò le shí nián.",
+    "english": "He has worked at the maritime affairs bureau for ten years."
+  },
+  {
+    "word": "脚色",
+    "sent_simp": "他在剧中扮演了一个重要的脚色。",
+    "sent_trad": "他在劇中扮演了一個重要的腳色。",
+    "pinyin": "Tā zài jù zhōng bàn yǎn le yī gè zhòng yào de jiǎo sè.",
+    "english": "He played an important role in the play."
+  },
+  {
+    "word": "农机",
+    "sent_simp": "村里新买了几台农机，省了不少人力。",
+    "sent_trad": "村裡新買了幾台農機，省了不少人力。",
+    "pinyin": "Cūn lǐ xīn mǎi le jǐ tái nóng jī, shěng le bù shǎo rén lì.",
+    "english": "The village bought several new pieces of agricultural machinery, saving a lot of labor."
+  },
+  {
+    "word": "公差",
+    "sent_simp": "这个零件的公差不能超过0.1毫米。",
+    "sent_trad": "這個零件的公差不能超過0.1毫米。",
+    "pinyin": "Zhège líng jiàn de gōng chāi bù néng chāo guò líng diǎn yī háo mǐ.",
+    "english": "The tolerance on this part cannot exceed 0.1 millimeters."
+  },
+  {
+    "word": "号牌",
+    "sent_simp": "警察记下了那辆车的号牌。",
+    "sent_trad": "警察記下了那輛車的號牌。",
+    "pinyin": "Jǐng chá jì xià le nà liàng chē de hào pái.",
+    "english": "The police wrote down the license plate of that car."
+  },
+  {
+    "word": "修读",
+    "sent_simp": "她正在修读计算机专业的硕士课程。",
+    "sent_trad": "她正在修讀計算機專業的碩士課程。",
+    "pinyin": "Tā zhèng zài xiū dú jì suàn jī zhuān yè de shuò shì kè chéng.",
+    "english": "She is currently pursuing a master's degree in computer science."
+  },
+  {
+    "word": "调酒",
+    "sent_simp": "他学了一年调酒，现在能做很多鸡尾酒。",
+    "sent_trad": "他學了一年調酒，現在能做很多雞尾酒。",
+    "pinyin": "Tā xué le yī nián diào jiǔ, xiàn zài néng zuò hěn duō jī wěi jiǔ.",
+    "english": "He studied bartending for a year and can now make many cocktails."
+  },
+  {
+    "word": "余数",
+    "sent_simp": "十除以三，余数是一。",
+    "sent_trad": "十除以三，餘數是一。",
+    "pinyin": "Shí chú yǐ sān, yú shù shì yī.",
+    "english": "Ten divided by three has a remainder of one."
+  },
+  {
+    "word": "载明",
+    "sent_simp": "合同中载明了双方的权利和义务。",
+    "sent_trad": "合同中載明了雙方的權利和義務。",
+    "pinyin": "Hé tong zhōng zài míng le shuāng fāng de quán lì hé yì wù.",
+    "english": "The contract explicitly states the rights and obligations of both parties."
+  },
+  {
+    "word": "核潜艇",
+    "sent_simp": "这艘核潜艇可以在水下行驶数月。",
+    "sent_trad": "這艘核潛艇可以在水下行駛數月。",
+    "pinyin": "Zhè sōu hé qián tǐng kě yǐ zài shuǐ xià xíng shǐ shù yuè.",
+    "english": "This nuclear submarine can operate underwater for several months."
+  },
+  {
+    "word": "指证",
+    "sent_simp": "证人出庭指证了被告。",
+    "sent_trad": "證人出庭指證了被告。",
+    "pinyin": "Zhèng rén chū tíng zhǐ zhèng le bèi gào.",
+    "english": "The witness appeared in court to testify against the defendant."
+  },
+  {
+    "word": "负极",
+    "sent_simp": "电池的负极接到黑色的电线上。",
+    "sent_trad": "電池的負極接到黑色的電線上。",
+    "pinyin": "Diàn chí de fù jí jiē dào hēi sè de diàn xiàn shàng.",
+    "english": "The negative pole of the battery connects to the black wire."
+  },
+  {
+    "word": "增资",
+    "sent_simp": "公司决定增资扩大生产规模。",
+    "sent_trad": "公司決定增資擴大生產規模。",
+    "pinyin": "Gōng sī jué dìng zēng zī kuò dà shēng chǎn guī mó.",
+    "english": "The company decided to increase capital to expand its production scale."
+  },
+  {
+    "word": "贪官",
+    "sent_simp": "那个贪官最终被判了十年有期徒刑。",
+    "sent_trad": "那個貪官最終被判了十年有期徒刑。",
+    "pinyin": "Nà gè tān guān zuì zhōng bèi pàn le shí nián yǒu qī tú xíng.",
+    "english": "That corrupt official was ultimately sentenced to ten years in prison."
+  },
+  {
+    "word": "再生能源",
+    "sent_simp": "越来越多的家庭开始使用再生能源。",
+    "sent_trad": "越來越多的家庭開始使用再生能源。",
+    "pinyin": "Yuè lái yuè duō de jiā tíng kāi shǐ shǐ yòng zài shēng néng yuán.",
+    "english": "More and more households are starting to use renewable energy sources."
+  },
+  {
+    "word": "表演赛",
+    "sent_simp": "这场表演赛吸引了很多观众。",
+    "sent_trad": "這場表演賽吸引了很多觀眾。",
+    "pinyin": "Zhè chǎng biǎo yǎn sài xī yǐn le hěn duō guān zhòng.",
+    "english": "This exhibition match drew a large crowd."
+  },
+  {
+    "word": "白皮书",
+    "sent_simp": "政府发布了一份关于教育改革的白皮书。",
+    "sent_trad": "政府發布了一份關於教育改革的白皮書。",
+    "pinyin": "Zhèng fǔ fā bù le yī fèn guān yú jiào yù gǎi gé de bái pí shū.",
+    "english": "The government released a white paper on education reform."
+  },
+  {
+    "word": "放慢",
+    "sent_simp": "下坡路滑，请放慢车速。",
+    "sent_trad": "下坡路滑，請放慢車速。",
+    "pinyin": "Xià pō lù huá, qǐng fàng màn chē sù.",
+    "english": "The downhill road is slippery — please slow down."
+  },
+  {
+    "word": "法商",
+    "sent_simp": "提高法商有助于我们更好地保护自身权益。",
+    "sent_trad": "提高法商有助於我們更好地保護自身權益。",
+    "pinyin": "Tí gāo fǎ shāng yǒu zhù yú wǒ men gèng hǎo de bǎo hù zì shēn quán yì.",
+    "english": "Raising your legal quotient helps you better protect your own rights and interests."
+  },
+  {
+    "word": "发行人",
+    "sent_simp": "该书的发行人已签署了版权协议。",
+    "sent_trad": "該書的發行人已簽署了版權協議。",
+    "pinyin": "Gāi shū de fā xíng rén yǐ qiān shǔ le bǎn quán xié yì.",
+    "english": "The publisher of that book has already signed the copyright agreement."
+  },
+  {
+    "word": "决议案",
+    "sent_simp": "会议通过了这项决议案。",
+    "sent_trad": "會議通過了這項決議案。",
+    "pinyin": "Huì yì tōng guò le zhè xiàng jué yì àn.",
+    "english": "The meeting passed this resolution."
+  },
+  {
+    "word": "前男友",
+    "sent_simp": "她偶尔还会想起自己的前男友。",
+    "sent_trad": "她偶爾還會想起自己的前男友。",
+    "pinyin": "Tā ǒu ěr hái huì xiǎng qǐ zì jǐ de qián nán yǒu.",
+    "english": "She occasionally still thinks about her ex-boyfriend."
+  },
+  {
+    "word": "文化宫",
+    "sent_simp": "市里的文化宫每周末都有活动。",
+    "sent_trad": "市裡的文化宮每週末都有活動。",
+    "pinyin": "Shì lǐ de wén huà gōng měi zhōu mò dōu yǒu huó dòng.",
+    "english": "The city's cultural palace holds events every weekend."
+  },
+  {
+    "word": "不失",
+    "sent_simp": "这道菜做得不失水准，还挺好吃。",
+    "sent_trad": "這道菜做得不失水準，還挺好吃。",
+    "pinyin": "Zhè dào cài zuò de bù shī shuǐ zhǔn, hái tǐng hǎo chī.",
+    "english": "This dish still maintains its standard — it's actually quite tasty."
+  },
+  {
+    "word": "罢课",
+    "sent_simp": "学生们因为抗议校方政策而罢课一天。",
+    "sent_trad": "學生們因為抗議校方政策而罷課一天。",
+    "pinyin": "Xué sheng men yīn wèi kàng yì xiào fāng zhèng cè ér bà kè yī tiān.",
+    "english": "The students boycotted classes for one day to protest the school's policy."
+  },
+  {
+    "word": "马刺",
+    "sent_simp": "骑士靴上的马刺在石板路上发出清脆的声音。",
+    "sent_trad": "騎士靴上的馬刺在石板路上發出清脆的聲音。",
+    "pinyin": "Qí shì xuē shàng de mǎ cì zài shí bǎn lù shàng fā chū qīng cuì de shēng yīn.",
+    "english": "The spurs on the knight's boots made a crisp sound on the cobblestone road."
+  },
+  {
+    "word": "风华",
+    "sent_simp": "她年轻时风华绝代，令人印象深刻。",
+    "sent_trad": "她年輕時風華絕代，令人印象深刻。",
+    "pinyin": "Tā nián qīng shí fēng huá jué dài, lìng rén yìn xiàng shēn kè.",
+    "english": "When she was young, her magnificence was unmatched and left a deep impression on everyone."
+  },
+  {
+    "word": "藉以",
+    "sent_simp": "他每天写日记，藉以整理自己的思路。",
+    "sent_trad": "他每天寫日記，藉以整理自己的思路。",
+    "pinyin": "Tā měi tiān xiě rì jì, jiè yǐ zhěng lǐ zì jǐ de sī lù.",
+    "english": "He writes in his diary every day as a way to organize his thoughts."
+  },
+  {
+    "word": "此行",
+    "sent_simp": "此行收获颇丰，学到了很多东西。",
+    "sent_trad": "此行收穫頗豐，學到了很多東西。",
+    "pinyin": "Cǐ xíng shōu huò pō fēng, xué dào le hěn duō dōng xi.",
+    "english": "This trip was very rewarding — I learned a great deal."
+  },
+  {
+    "word": "总统大选",
+    "sent_simp": "这个国家的总统大选每四年举行一次。",
+    "sent_trad": "這個國家的總統大選每四年舉行一次。",
+    "pinyin": "Zhège guó jiā de zǒng tǒng dà xuǎn měi sì nián jǔ xíng yī cì.",
+    "english": "This country holds a presidential election every four years."
+  },
+  {
+    "word": "饭量",
+    "sent_simp": "他最近饭量大了，可能是长身体了。",
+    "sent_trad": "他最近飯量大了，可能是長身體了。",
+    "pinyin": "Tā zuì jìn fàn liàng dà le, kě néng shì zhǎng shēn tǐ le.",
+    "english": "He's been eating much more lately — he's probably going through a growth spurt."
+  },
+  {
+    "word": "银两",
+    "sent_simp": "古时候人们用银两来买卖东西。",
+    "sent_trad": "古時候人們用銀兩來買賣東西。",
+    "pinyin": "Gǔ shí hòu rén men yòng yín liǎng lái mǎi mài dōng xi.",
+    "english": "In ancient times, people used silver as currency to buy and sell goods."
+  },
+  {
+    "word": "土改",
+    "sent_simp": "土改之后，农民们终于有了自己的土地。",
+    "sent_trad": "土改之後，農民們終於有了自己的土地。",
+    "pinyin": "Tǔ gǎi zhī hòu, nóng mín men zhōng yú yǒu le zì jǐ de tǔ dì.",
+    "english": "After land reform, farmers finally had land of their own."
+  },
+  {
+    "word": "加息",
+    "sent_simp": "央行宣布加息，贷款利率随之上升。",
+    "sent_trad": "央行宣布加息，貸款利率隨之上升。",
+    "pinyin": "Yāng háng xuān bù jiā xī, dài kuǎn lì lǜ suí zhī shàng shēng.",
+    "english": "The central bank announced a rate hike, and loan interest rates rose accordingly."
+  }
+]

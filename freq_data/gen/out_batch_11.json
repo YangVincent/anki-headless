@@ -1,0 +1,322 @@
+[
+  {
+    "nid": 1537328244682,
+    "word": "无关",
+    "sent_simp": "这件事跟你无关，别担心了。",
+    "sent_trad": "這件事跟你無關，別擔心了。",
+    "pinyin": "Zhè jiàn shì gēn nǐ wúguān, bié dānxīn le.",
+    "english": "This has nothing to do with you, don't worry about it."
+  },
+  {
+    "nid": 1537328242117,
+    "word": "没错",
+    "sent_simp": "没错，就是这家餐厅，我上次来过。",
+    "sent_trad": "沒錯，就是這家餐廳，我上次來過。",
+    "pinyin": "Méicuò, jiù shì zhè jiā cāntīng, wǒ shàng cì lái guò.",
+    "english": "That's right, it's this restaurant — I've been here before."
+  },
+  {
+    "nid": 1393817669853,
+    "word": "物资",
+    "sent_simp": "救灾物资已经送到受灾地区了。",
+    "sent_trad": "救災物資已經送到受災地區了。",
+    "pinyin": "Jiùzāi wùzī yǐjīng sòng dào shòuzāi dìqū le.",
+    "english": "Disaster relief supplies have already been delivered to the affected area."
+  },
+  {
+    "nid": 1537328242057,
+    "word": "病人",
+    "sent_simp": "护士正在照顾病房里的病人。",
+    "sent_trad": "護士正在照顧病房裡的病人。",
+    "pinyin": "Hùshi zhèngzài zhàogù bìngfáng lǐ de bìngrén.",
+    "english": "The nurse is taking care of the patients in the ward."
+  },
+  {
+    "nid": 1717270464417,
+    "word": "莫斯科",
+    "sent_simp": "他去年冬天去莫斯科出差了。",
+    "sent_trad": "他去年冬天去莫斯科出差了。",
+    "pinyin": "Tā qùnián dōngtiān qù Mòsīkē chūchāi le.",
+    "english": "He went to Moscow on a business trip last winter."
+  },
+  {
+    "nid": 1393817668557,
+    "word": "解除",
+    "sent_simp": "医生说他的病情稳定，可以解除隔离了。",
+    "sent_trad": "醫生說他的病情穩定，可以解除隔離了。",
+    "pinyin": "Yīshēng shuō tā de bìngqíng wěndìng, kěyǐ jiěchú gélí le.",
+    "english": "The doctor said his condition is stable and the quarantine can be lifted."
+  },
+  {
+    "nid": 1708747495179,
+    "word": "谋杀",
+    "sent_simp": "警察正在调查这起谋杀案。",
+    "sent_trad": "警察正在調查這起謀殺案。",
+    "pinyin": "Jǐngchá zhèngzài diàochá zhè qǐ móushā àn.",
+    "english": "The police are investigating this murder case."
+  },
+  {
+    "nid": 1393817669390,
+    "word": "迫害",
+    "sent_simp": "他因为信仰不同而遭受迫害。",
+    "sent_trad": "他因為信仰不同而遭受迫害。",
+    "pinyin": "Tā yīnwèi xìnyǎng bùtóng ér zāoshòu pòhài.",
+    "english": "He suffered persecution because of his different beliefs."
+  },
+  {
+    "nid": 1393817669867,
+    "word": "主流",
+    "sent_simp": "短视频已经成为年轻人的主流娱乐方式。",
+    "sent_trad": "短視頻已經成為年輕人的主流娛樂方式。",
+    "pinyin": "Duǎn shìpín yǐjīng chéngwéi niánqīng rén de zhǔliú yúlè fāngshì.",
+    "english": "Short videos have become the mainstream form of entertainment for young people."
+  },
+  {
+    "nid": 1708747494685,
+    "word": "伊拉克",
+    "sent_simp": "他在新闻里看到了有关伊拉克的报道。",
+    "sent_trad": "他在新聞裡看到了有關伊拉克的報道。",
+    "pinyin": "Tā zài xīnwén lǐ kàndào le yǒuguān Yīlākè de bàodào.",
+    "english": "He saw a news report about Iraq."
+  },
+  {
+    "nid": 1393817667655,
+    "word": "其余",
+    "sent_simp": "你先去吃饭，其余的事情我来处理。",
+    "sent_trad": "你先去吃飯，其餘的事情我來處理。",
+    "pinyin": "Nǐ xiān qù chīfàn, qíyú de shìqíng wǒ lái chǔlǐ.",
+    "english": "Go eat first; I'll take care of the rest."
+  },
+  {
+    "nid": 1393817667211,
+    "word": "勇气",
+    "sent_simp": "他鼓起勇气，走上台去做了演讲。",
+    "sent_trad": "他鼓起勇氣，走上台去做了演講。",
+    "pinyin": "Tā gǔqǐ yǒngqì, zǒu shàng tái qù zuò le yǎnjiǎng.",
+    "english": "He summoned his courage and went up on stage to give a speech."
+  },
+  {
+    "nid": 1710963495261,
+    "word": "华盛顿",
+    "sent_simp": "她明年计划去华盛顿参观博物馆。",
+    "sent_trad": "她明年計劃去華盛頓參觀博物館。",
+    "pinyin": "Tā míngnián jìhuà qù Huáshèngdùn cānguān bówùguǎn.",
+    "english": "She plans to visit Washington to see the museums next year."
+  },
+  {
+    "nid": 1537328245672,
+    "word": "尽量",
+    "sent_simp": "出门时尽量带把雨伞，今天可能会下雨。",
+    "sent_trad": "出門時盡量帶把雨傘，今天可能會下雨。",
+    "pinyin": "Chūmén shí jǐnliàng dài bǎ yǔsǎn, jīntiān kěnéng huì xià yǔ.",
+    "english": "Try to bring an umbrella when you go out — it might rain today."
+  },
+  {
+    "nid": 1393817670076,
+    "word": "布局",
+    "sent_simp": "他花了很长时间研究棋盘的布局。",
+    "sent_trad": "他花了很長時間研究棋盤的布局。",
+    "pinyin": "Tā huā le hěn cháng shíjiān yánjiū qípán de bùjú.",
+    "english": "He spent a long time studying the layout of the board."
+  },
+  {
+    "nid": 1393817668372,
+    "word": "强迫",
+    "sent_simp": "没有人可以强迫你做不喜欢的事。",
+    "sent_trad": "沒有人可以強迫你做不喜歡的事。",
+    "pinyin": "Méiyǒu rén kěyǐ qiǎngpò nǐ zuò bù xǐhuān de shì.",
+    "english": "No one can force you to do something you don't like."
+  },
+  {
+    "nid": 1393817669783,
+    "word": "形态",
+    "sent_simp": "水在不同温度下会呈现不同的形态。",
+    "sent_trad": "水在不同溫度下會呈現不同的形態。",
+    "pinyin": "Shuǐ zài bùtóng wēndù xià huì chéngxiàn bùtóng de xíngtài.",
+    "english": "Water takes on different forms at different temperatures."
+  },
+  {
+    "nid": 1393817668393,
+    "word": "心灵",
+    "sent_simp": "读书能让心灵变得平静。",
+    "sent_trad": "讀書能讓心靈變得平靜。",
+    "pinyin": "Dúshū néng ràng xīnlíng biàn de píngjìng.",
+    "english": "Reading can bring peace to the soul."
+  },
+  {
+    "nid": 1537328247866,
+    "word": "抗日",
+    "sent_simp": "博物馆里有一个关于抗日战争的展览。",
+    "sent_trad": "博物館裡有一個關於抗日戰爭的展覽。",
+    "pinyin": "Bówùguǎn lǐ yǒu yī gè guānyú kàngrì zhànzhēng de zhǎnlǎn.",
+    "english": "There is an exhibition in the museum about the War of Resistance against Japan."
+  },
+  {
+    "nid": 1393817669664,
+    "word": "文物",
+    "sent_simp": "这件文物已经有两千年的历史了。",
+    "sent_trad": "這件文物已經有兩千年的歷史了。",
+    "pinyin": "Zhè jiàn wénwù yǐjīng yǒu liǎngqiān nián de lìshǐ le.",
+    "english": "This cultural relic is already two thousand years old."
+  },
+  {
+    "nid": 1393817667428,
+    "word": "无数",
+    "sent_simp": "他为这个项目花了无数个小时。",
+    "sent_trad": "他為這個項目花了無數個小時。",
+    "pinyin": "Tā wèi zhège xiàngmù huā le wúshù gè xiǎoshí.",
+    "english": "He spent countless hours on this project."
+  },
+  {
+    "nid": 1537328244231,
+    "word": "活着",
+    "sent_simp": "只要活着，就有希望。",
+    "sent_trad": "只要活著，就有希望。",
+    "pinyin": "Zhǐyào huózhe, jiù yǒu xīwàng.",
+    "english": "As long as you're alive, there is hope."
+  },
+  {
+    "nid": 1708747496221,
+    "word": "皇家",
+    "sent_simp": "那部电影讲的是皇家宫廷里的故事。",
+    "sent_trad": "那部電影講的是皇家宮廷裡的故事。",
+    "pinyin": "Nà bù diànyǐng jiǎng de shì huángjiā gōngtíng lǐ de gùshi.",
+    "english": "That movie is about life inside the royal court."
+  },
+  {
+    "nid": 1393817667942,
+    "word": "种类",
+    "sent_simp": "这家超市的水果种类很多，选择丰富。",
+    "sent_trad": "這家超市的水果種類很多，選擇豐富。",
+    "pinyin": "Zhè jiā chāoshì de shuǐguǒ zhǒnglèi hěn duō, xuǎnzé fēngfù.",
+    "english": "This supermarket has many kinds of fruit with plenty of choices."
+  },
+  {
+    "nid": 1393817668830,
+    "word": "诞生",
+    "sent_simp": "这个品牌诞生于二十年前的一个小车库。",
+    "sent_trad": "這個品牌誕生於二十年前的一個小車庫。",
+    "pinyin": "Zhège pǐnpái dànshēng yú èrshí nián qián de yī gè xiǎo chēkù.",
+    "english": "This brand was born in a small garage twenty years ago."
+  },
+  {
+    "nid": 1393817668536,
+    "word": "透露",
+    "sent_simp": "她不小心透露了他们的惊喜计划。",
+    "sent_trad": "她不小心透露了他們的驚喜計劃。",
+    "pinyin": "Tā bù xiǎoxīn tòulù le tāmen de jīngxǐ jìhuà.",
+    "english": "She accidentally revealed their surprise plan."
+  },
+  {
+    "nid": 1537328242947,
+    "word": "青岛",
+    "sent_simp": "我特别喜欢喝青岛啤酒，味道很好。",
+    "sent_trad": "我特別喜歡喝青島啤酒，味道很好。",
+    "pinyin": "Wǒ tèbié xǐhuān hē Qīngdǎo píjiǔ, wèidao hěn hǎo.",
+    "english": "I really enjoy drinking Tsingtao beer — it tastes great."
+  },
+  {
+    "nid": 1537328247781,
+    "word": "创立",
+    "sent_simp": "这家公司是他二十多岁的时候创立的。",
+    "sent_trad": "這家公司是他二十多歲的時候創立的。",
+    "pinyin": "Zhè jiā gōngsī shì tā èrshí duō suì de shíhòu chuànglì de.",
+    "english": "He founded this company when he was in his twenties."
+  },
+  {
+    "nid": 1710963496027,
+    "word": "印尼",
+    "sent_simp": "他打算下个月去印尼旅游。",
+    "sent_trad": "他打算下個月去印尼旅遊。",
+    "pinyin": "Tā dǎsuàn xià gè yuè qù Yìnní lǚyóu.",
+    "english": "He plans to travel to Indonesia next month."
+  },
+  {
+    "nid": 1708747491888,
+    "word": "大幅",
+    "sent_simp": "这款手机的价格大幅下降，很多人去买了。",
+    "sent_trad": "這款手機的價格大幅下降，很多人去買了。",
+    "pinyin": "Zhè kuǎn shǒujī de jiàgé dàfú xiàjiàng, hěn duō rén qù mǎi le.",
+    "english": "The price of this phone dropped substantially, and many people went to buy it."
+  },
+  {
+    "nid": 1708747500014,
+    "word": "指控",
+    "sent_simp": "他对这些指控感到非常意外。",
+    "sent_trad": "他對這些指控感到非常意外。",
+    "pinyin": "Tā duì zhèxiē zhǐkòng gǎndào fēicháng yìwài.",
+    "english": "He was very surprised by these accusations."
+  },
+  {
+    "nid": 1708747510614,
+    "word": "无人",
+    "sent_simp": "公司用无人机送快递，越来越普遍了。",
+    "sent_trad": "公司用無人機送快遞，越來越普遍了。",
+    "pinyin": "Gōngsī yòng wúrén jī sòng kuàidì, yuèláiyuè pǔbiàn le.",
+    "english": "Companies using unmanned drones to deliver packages is becoming more and more common."
+  },
+  {
+    "nid": 1708747498911,
+    "word": "洛杉矶",
+    "sent_simp": "她在洛杉矶住了三年，很喜欢那里的天气。",
+    "sent_trad": "她在洛杉磯住了三年，很喜歡那裡的天氣。",
+    "pinyin": "Tā zài Luòshānjī zhù le sān nián, hěn xǐhuān nàlǐ de tiānqì.",
+    "english": "She lived in Los Angeles for three years and really liked the weather there."
+  },
+  {
+    "nid": 1393817668661,
+    "word": "消除",
+    "sent_simp": "多沟通可以消除彼此之间的误解。",
+    "sent_trad": "多溝通可以消除彼此之間的誤解。",
+    "pinyin": "Duō gōutōng kěyǐ xiāochú bǐcǐ zhījiān de wùjiě.",
+    "english": "More communication can eliminate misunderstandings between each other."
+  },
+  {
+    "nid": 1393817668860,
+    "word": "登陆",
+    "sent_simp": "我忘了密码，没办法登陆这个网站。",
+    "sent_trad": "我忘了密碼，沒辦法登陸這個網站。",
+    "pinyin": "Wǒ wàng le mìmǎ, méi bànfǎ dēnglù zhège wǎngzhàn.",
+    "english": "I forgot my password and can't log in to this website."
+  },
+  {
+    "nid": 1708747486839,
+    "word": "秘书长",
+    "sent_simp": "新任秘书长今天正式开始上班了。",
+    "sent_trad": "新任秘書長今天正式開始上班了。",
+    "pinyin": "Xīn rèn mìshūzhǎng jīntiān zhèngshì kāishǐ shàngbān le.",
+    "english": "The new secretary-general officially started work today."
+  },
+  {
+    "nid": 1393817667157,
+    "word": "赶紧",
+    "sent_simp": "快要迟到了，赶紧出门吧！",
+    "sent_trad": "快要遲到了，趕緊出門吧！",
+    "pinyin": "Kuàiyào chídào le, gǎnjǐn chūmén ba!",
+    "english": "We're about to be late — hurry up and head out!"
+  },
+  {
+    "nid": 1708747498596,
+    "word": "难民",
+    "sent_simp": "志愿者们在帮助安置难民。",
+    "sent_trad": "志願者們在幫助安置難民。",
+    "pinyin": "Zhìyuànzhěmen zài bāngzhù ānzhì nànmín.",
+    "english": "Volunteers are helping to resettle refugees."
+  },
+  {
+    "nid": 1717270465625,
+    "word": "东南亚",
+    "sent_simp": "东南亚的食物又香又辣，我非常喜欢。",
+    "sent_trad": "東南亞的食物又香又辣，我非常喜歡。",
+    "pinyin": "Dōngnányà de shíwù yòu xiāng yòu là, wǒ fēicháng xǐhuān.",
+    "english": "Southeast Asian food is fragrant and spicy — I love it."
+  },
+  {
+    "nid": 1393817667927,
+    "word": "个别",
+    "sent_simp": "大多数同学都完成了，只有个别人还没交。",
+    "sent_trad": "大多數同學都完成了，只有個別人還沒交。",
+    "pinyin": "Dàduōshù tóngxué dōu wánchéng le, zhǐyǒu gèbié rén hái méi jiāo.",
+    "english": "Most classmates finished; only a very few haven't turned it in yet."
+  }
+]

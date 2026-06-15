@@ -1,0 +1,282 @@
+[
+  {
+    "word": "租界",
+    "sent_simp": "老上海有很多国家在此设立租界。",
+    "sent_trad": "老上海有很多國家在此設立租界。",
+    "pinyin": "Lǎo Shànghǎi yǒu hěn duō guójiā zài cǐ shèlì zūjiè.",
+    "english": "In old Shanghai, many countries set up foreign concessions here."
+  },
+  {
+    "word": "道士",
+    "sent_simp": "那位道士在山上修行了十几年。",
+    "sent_trad": "那位道士在山上修行了十幾年。",
+    "pinyin": "Nà wèi dàoshi zài shān shang xiūxíng le shí jǐ nián.",
+    "english": "That Daoist priest has been practicing on the mountain for over ten years."
+  },
+  {
+    "word": "记录器",
+    "sent_simp": "他把记录器固定在车里，记录行车数据。",
+    "sent_trad": "他把記錄器固定在車裡，記錄行車數據。",
+    "pinyin": "Tā bǎ jìlùqì gùdìng zài chē lǐ, jìlù xíngchē shùjù.",
+    "english": "He fixed the recorder in the car to log driving data."
+  },
+  {
+    "word": "化合",
+    "sent_simp": "氢和氧化合就会生成水。",
+    "sent_trad": "氫和氧化合就會生成水。",
+    "pinyin": "Qīng hé yǎng huàhé jiù huì shēngchéng shuǐ.",
+    "english": "Hydrogen and oxygen combine chemically to form water."
+  },
+  {
+    "word": "佛法",
+    "sent_simp": "她最近开始学习佛法，心里平静多了。",
+    "sent_trad": "她最近開始學習佛法，心裡平靜多了。",
+    "pinyin": "Tā zuìjìn kāishǐ xuéxí Fófǎ, xīn lǐ píngjìng duō le.",
+    "english": "She recently started studying the Dharma and feels much more at peace."
+  },
+  {
+    "word": "春风",
+    "sent_simp": "一阵春风吹来，花香弥漫了整条街。",
+    "sent_trad": "一陣春風吹來，花香瀰漫了整條街。",
+    "pinyin": "Yī zhèn chūnfēng chuī lái, huāxiāng mímàn le zhěng tiáo jiē.",
+    "english": "A spring breeze blew through, spreading the scent of flowers all along the street."
+  },
+  {
+    "word": "宝地",
+    "sent_simp": "这个小村庄山清水秀，真是一块宝地。",
+    "sent_trad": "這個小村莊山清水秀，真是一塊寶地。",
+    "pinyin": "Zhège xiǎo cūnzhuāng shān qīng shuǐ xiù, zhēn shì yī kuài bǎodì.",
+    "english": "This little village has beautiful mountains and clear water — it's truly a blessed land."
+  },
+  {
+    "word": "视讯",
+    "sent_simp": "我们用视讯开了一个小时的会议。",
+    "sent_trad": "我們用視訊開了一個小時的會議。",
+    "pinyin": "Wǒmen yòng shìxùn kāi le yī gè xiǎoshí de huìyì.",
+    "english": "We held an hour-long video conference."
+  },
+  {
+    "word": "五七",
+    "sent_simp": "家人在他过世后五七那天一起祭拜。",
+    "sent_trad": "家人在他過世後五七那天一起祭拜。",
+    "pinyin": "Jiārén zài tā guòshì hòu wǔqī nà tiān yīqǐ jìbài.",
+    "english": "The family gathered to pay their respects on the 35th day after his passing."
+  },
+  {
+    "word": "人寿",
+    "sent_simp": "他刚买了一份人寿保险，保额很高。",
+    "sent_trad": "他剛買了一份人壽保險，保額很高。",
+    "pinyin": "Tā gāng mǎi le yī fèn rénshòu bǎoxiǎn, bǎo'é hěn gāo.",
+    "english": "He just bought a life insurance policy with a very high coverage amount."
+  },
+  {
+    "word": "长宽",
+    "sent_simp": "买桌布前先量一下桌子的长宽。",
+    "sent_trad": "買桌布前先量一下桌子的長寬。",
+    "pinyin": "Mǎi zhuōbù qián xiān liáng yīxià zhuōzi de cháng kuān.",
+    "english": "Before buying a tablecloth, measure the length and width of the table first."
+  },
+  {
+    "word": "规划局",
+    "sent_simp": "这个项目需要先报批规划局才能动工。",
+    "sent_trad": "這個項目需要先報批規劃局才能動工。",
+    "pinyin": "Zhège xiàngmù xūyào xiān bàopī guīhuàjú cái néng dònggōng.",
+    "english": "This project needs approval from the planning department before construction can begin."
+  },
+  {
+    "word": "代称",
+    "sent_simp": "「神州」是中国的代称，常见于诗词中。",
+    "sent_trad": "「神州」是中國的代稱，常見於詩詞中。",
+    "pinyin": "\"Shénzhōu\" shì Zhōngguó de dàichēng, chángjiàn yú shīcí zhōng.",
+    "english": "\"Shenzhou\" is an alternative name for China, often seen in classical poetry."
+  },
+  {
+    "word": "集镇",
+    "sent_simp": "附近的集镇每逢周末都会有早市。",
+    "sent_trad": "附近的集鎮每逢週末都會有早市。",
+    "pinyin": "Fùjìn de jízhèn měi féng zhōumò dōu huì yǒu zǎoshì.",
+    "english": "The nearby town holds a morning market every weekend."
+  },
+  {
+    "word": "自封",
+    "sent_simp": "他自封为队长，其实没人选他。",
+    "sent_trad": "他自封為隊長，其實沒人選他。",
+    "pinyin": "Tā zìfēng wéi duìzhǎng, qíshí méi rén xuǎn tā.",
+    "english": "He proclaimed himself team captain, but nobody actually elected him."
+  },
+  {
+    "word": "责任制",
+    "sent_simp": "公司实行岗位责任制，每人职责清晰。",
+    "sent_trad": "公司實行崗位責任制，每人職責清晰。",
+    "pinyin": "Gōngsī shíxíng gǎngwèi zérènzhì, měi rén zhízé qīngxī.",
+    "english": "The company uses a job responsibility system, with each person's duties clearly defined."
+  },
+  {
+    "word": "命门",
+    "sent_simp": "中医认为命门是人体阳气的根本。",
+    "sent_trad": "中醫認為命門是人體陽氣的根本。",
+    "pinyin": "Zhōngyī rènwéi mìngmén shì réntǐ yánggì de gēnběn.",
+    "english": "Traditional Chinese medicine considers the mingmen acupoint to be the root of the body's yang energy."
+  },
+  {
+    "word": "追梦",
+    "sent_simp": "他辞掉工作去追梦，开了一家小书店。",
+    "sent_trad": "他辭掉工作去追夢，開了一家小書店。",
+    "pinyin": "Tā cídiào gōngzuò qù zhuīmèng, kāi le yī jiā xiǎo shūdiàn.",
+    "english": "He quit his job to chase his dream and opened a small bookstore."
+  },
+  {
+    "word": "变身",
+    "sent_simp": "她剪了个短发，整个人像是变身了。",
+    "sent_trad": "她剪了個短髮，整個人像是變身了。",
+    "pinyin": "Tā jiǎn le gè duǎnfà, zhěnge rén xiàng shì biànshēn le.",
+    "english": "She got a short haircut and it's like she transformed into a completely different person."
+  },
+  {
+    "word": "博士生",
+    "sent_simp": "她是一名在读博士生，专攻材料科学。",
+    "sent_trad": "她是一名在讀博士生，專攻材料科學。",
+    "pinyin": "Tā shì yī míng zàidú bóshìshēng, zhuāngōng cáiliào kēxué.",
+    "english": "She is a PhD student specializing in materials science."
+  },
+  {
+    "word": "单飞",
+    "sent_simp": "他从乐队单飞后发行了自己的专辑。",
+    "sent_trad": "他從樂隊單飛後發行了自己的專輯。",
+    "pinyin": "Tā cóng yuèduì dānfēi hòu fāxíng le zìjǐ de zhuānjí.",
+    "english": "After going solo from the band, he released his own album."
+  },
+  {
+    "word": "定调",
+    "sent_simp": "会议一开始，老板就给整个项目定调了。",
+    "sent_trad": "會議一開始，老闆就給整個項目定調了。",
+    "pinyin": "Huìyì yī kāishǐ, lǎobǎn jiù gěi zhěnggè xiàngmù dìngdiào le.",
+    "english": "As soon as the meeting started, the boss set the tone for the entire project."
+  },
+  {
+    "word": "水怪",
+    "sent_simp": "小孩子都说湖里有水怪，其实是大鱼。",
+    "sent_trad": "小孩子都說湖裡有水怪，其實是大魚。",
+    "pinyin": "Xiǎo háizi dōu shuō hú lǐ yǒu shuǐguài, qíshí shì dà yú.",
+    "english": "The kids all said there was a water monster in the lake, but it was just a big fish."
+  },
+  {
+    "word": "配乐",
+    "sent_simp": "这部电影的配乐让人听了非常感动。",
+    "sent_trad": "這部電影的配樂讓人聽了非常感動。",
+    "pinyin": "Zhè bù diànyǐng de pèiyuè ràng rén tīng le fēicháng gǎndòng.",
+    "english": "The film's soundtrack is deeply moving to listen to."
+  },
+  {
+    "word": "素质教育",
+    "sent_simp": "学校推行素质教育，重视学生的全面发展。",
+    "sent_trad": "學校推行素質教育，重視學生的全面發展。",
+    "pinyin": "Xuéxiào tuīxíng sùzhì jiàoyù, zhòngshì xuésheng de quánmiàn fāzhǎn.",
+    "english": "The school promotes all-round education and values students' overall development."
+  },
+  {
+    "word": "总目",
+    "sent_simp": "书的总目列在第一页，方便读者查阅。",
+    "sent_trad": "書的總目列在第一頁，方便讀者查閱。",
+    "pinyin": "Shū de zǒngmù liè zài dì yī yè, fāngbiàn dúzhě cháyuè.",
+    "english": "The table of contents is on the first page for easy reference."
+  },
+  {
+    "word": "编辑室",
+    "sent_simp": "记者们在编辑室里赶稿子到深夜。",
+    "sent_trad": "記者們在編輯室裡趕稿子到深夜。",
+    "pinyin": "Jìzhěmen zài biānjíshì lǐ gǎn gǎozi dào shēnyè.",
+    "english": "The reporters worked in the newsroom until late at night to meet their deadlines."
+  },
+  {
+    "word": "公安机关",
+    "sent_simp": "有情况要及时向公安机关报告。",
+    "sent_trad": "有情況要及時向公安機關報告。",
+    "pinyin": "Yǒu qíngkuàng yào jíshí xiàng gōng'ān jīguān bàogào.",
+    "english": "Any suspicious situation should be reported to the public security bureau promptly."
+  },
+  {
+    "word": "四边",
+    "sent_simp": "用尺量好这块布的四边，再裁剪。",
+    "sent_trad": "用尺量好這塊布的四邊，再裁剪。",
+    "pinyin": "Yòng chǐ liáng hǎo zhè kuài bù de sìbiān, zài cáijiǎn.",
+    "english": "Measure all four sides of this piece of cloth with a ruler before cutting."
+  },
+  {
+    "word": "普法",
+    "sent_simp": "社区举办了一场普法讲座，居民都来听。",
+    "sent_trad": "社區舉辦了一場普法講座，居民都來聽。",
+    "pinyin": "Shèqū jǔbàn le yī chǎng pǔfǎ jiǎngzuò, jūmín dōu lái tīng.",
+    "english": "The community held a legal awareness lecture that all residents came to attend."
+  },
+  {
+    "word": "化学式",
+    "sent_simp": "老师让我们背水的化学式H₂O。",
+    "sent_trad": "老師讓我們背水的化學式H₂O。",
+    "pinyin": "Lǎoshī ràng wǒmen bèi shuǐ de huàxuéshì H₂O.",
+    "english": "The teacher asked us to memorize the chemical formula for water: H₂O."
+  },
+  {
+    "word": "金钟",
+    "sent_simp": "她在金钟站下车，走去附近的咖啡厅。",
+    "sent_trad": "她在金鐘站下車，走去附近的咖啡廳。",
+    "pinyin": "Tā zài Jīnzhōng zhàn xià chē, zǒu qù fùjìn de kāfēitīng.",
+    "english": "She got off at Admiralty station and walked to a nearby café."
+  },
+  {
+    "word": "司法权",
+    "sent_simp": "法院行使司法权，独立审理案件。",
+    "sent_trad": "法院行使司法權，獨立審理案件。",
+    "pinyin": "Fǎyuàn xíngshǐ sīfǎquán, dúlì shěnlǐ ànjiàn.",
+    "english": "The court exercises judicial authority and hears cases independently."
+  },
+  {
+    "word": "集锦",
+    "sent_simp": "这本书是历年优秀散文的集锦。",
+    "sent_trad": "這本書是歷年優秀散文的集錦。",
+    "pinyin": "Zhè běn shū shì lìnián yōuxiù sǎnwén de jíjǐn.",
+    "english": "This book is a collection of the best essays from over the years."
+  },
+  {
+    "word": "种姓",
+    "sent_simp": "印度传统社会中，种姓制度影响很深。",
+    "sent_trad": "印度傳統社會中，種姓制度影響很深。",
+    "pinyin": "Yìndù chuántǒng shèhuì zhōng, zhǒngxìng zhìdù yǐngxiǎng hěn shēn.",
+    "english": "In traditional Indian society, the caste system has had a very deep influence."
+  },
+  {
+    "word": "倾向性",
+    "sent_simp": "这篇报道有明显的倾向性，不够客观。",
+    "sent_trad": "這篇報道有明顯的傾向性，不夠客觀。",
+    "pinyin": "Zhè piān bàodào yǒu míngxiǎn de qīngxiàngxìng, bú gòu kèguān.",
+    "english": "This report has an obvious bias and is not objective enough."
+  },
+  {
+    "word": "电动机",
+    "sent_simp": "这台洗衣机的电动机坏了，需要更换。",
+    "sent_trad": "這台洗衣機的電動機壞了，需要更換。",
+    "pinyin": "Zhè tái xǐyījī de diàndòngjī huài le, xūyào gēnghuàn.",
+    "english": "The electric motor in this washing machine broke and needs to be replaced."
+  },
+  {
+    "word": "广为",
+    "sent_simp": "这首歌广为流传，大家都会唱。",
+    "sent_trad": "這首歌廣為流傳，大家都會唱。",
+    "pinyin": "Zhè shǒu gē guǎngwéi liúchuán, dàjiā dōu huì chàng.",
+    "english": "This song has spread widely and everyone knows how to sing it."
+  },
+  {
+    "word": "气门",
+    "sent_simp": "自行车轮胎没气了，检查一下气门。",
+    "sent_trad": "自行車輪胎沒氣了，檢查一下氣門。",
+    "pinyin": "Zìxíngchē lúntāi méi qì le, jiǎnchá yīxià qìmén.",
+    "english": "The bicycle tire is flat — check the valve."
+  },
+  {
+    "word": "低收入",
+    "sent_simp": "政府为低收入家庭提供住房补贴。",
+    "sent_trad": "政府為低收入家庭提供住房補貼。",
+    "pinyin": "Zhèngfǔ wèi dī shōurù jiātíng tígōng zhùfáng bǔtiē.",
+    "english": "The government provides housing subsidies for low-income families."
+  }
+]

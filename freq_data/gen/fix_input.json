@@ -1,0 +1,9305 @@
+[
+{
+"nid": 1537328239567,
+"word": "不是",
+"pinyin": "bú shi",
+"gloss": "To no be, (noun = noun)no, incorrect",
+"tier": "weak"
+},
+{
+"nid": 1537328242108,
+"word": "这些",
+"pinyin": "zhè xiē",
+"gloss": "These",
+"tier": "weak"
+},
+{
+"nid": 1537328241034,
+"word": "日本",
+"pinyin": "rì běn",
+"gloss": "Japan",
+"tier": "weak"
+},
+{
+"nid": 1708747483737,
+"word": "不能",
+"pinyin": "bù néng",
+"gloss": "1. cannot; 2. must not; 3. should not",
+"tier": "weak"
+},
+{
+"nid": 1708747483734,
+"word": "不会",
+"pinyin": "bù huì",
+"gloss": "1. improbable; 2. unlikely; 3. will not (act, happen etc); 4. not able; 5. not h",
+"tier": "weak"
+},
+{
+"nid": 1537328241634,
+"word": "真的",
+"pinyin": "zhēn de",
+"gloss": "Really",
+"tier": "sparse"
+},
+{
+"nid": 1537328247474,
+"word": "人民",
+"pinyin": "rén mín",
+"gloss": "The people",
+"tier": "weak"
+},
+{
+"nid": 1537328246738,
+"word": "香港",
+"pinyin": "xiāng gǎng",
+"gloss": "Hong Kong",
+"tier": "sparse"
+},
+{
+"nid": 1537328242103,
+"word": "一些",
+"pinyin": "yī xiē",
+"gloss": "Some, a few; Some",
+"tier": "weak"
+},
+{
+"nid": 1393817666260,
+"word": "不过",
+"pinyin": "bùguò",
+"gloss": "but; however; only",
+"tier": "sparse"
+},
+{
+"nid": 1537328242689,
+"word": "不同",
+"pinyin": "bù tóng",
+"gloss": "Different",
+"tier": "weak"
+},
+{
+"nid": 1537328239576,
+"word": "不要",
+"pinyin": "bú yào",
+"gloss": "Do not want (very strong)",
+"tier": "weak"
+},
+{
+"nid": 1537328243015,
+"word": "服务",
+"pinyin": "fú wù",
+"gloss": "Service, to serve",
+"tier": "weak"
+},
+{
+"nid": 1537328240666,
+"word": "这里",
+"pinyin": "zhè lǐ",
+"gloss": "Over here",
+"tier": "weak"
+},
+{
+"nid": 1537328241766,
+"word": "之后",
+"pinyin": "zhī hòu",
+"gloss": "After; Afterwards, following, later, after",
+"tier": "weak"
+},
+{
+"nid": 1537328244890,
+"word": "台湾",
+"pinyin": "tái wān",
+"gloss": "Taiwan",
+"tier": "sparse"
+},
+{
+"nid": 1537328242106,
+"word": "那些",
+"pinyin": "nà xiē",
+"gloss": "Those",
+"tier": "weak"
+},
+{
+"nid": 1537328247205,
+"word": "得到",
+"pinyin": "dé dào",
+"gloss": "To get, to obtain, to receive",
+"tier": "weak"
+},
+{
+"nid": 1537328244439,
+"word": "国内",
+"pinyin": "guó nèi",
+"gloss": "Domestic, national",
+"tier": "weak"
+},
+{
+"nid": 1537328240258,
+"word": "一次",
+"pinyin": "yī cì",
+"gloss": "Once; One time",
+"tier": "weak"
+},
+{
+"nid": 1537328244669,
+"word": "无法",
+"pinyin": "wú fǎ",
+"gloss": "Unable, incapable, no way to (verb?)",
+"tier": "weak"
+},
+{
+"nid": 1537328243830,
+"word": "能够",
+"pinyin": "néng gòu",
+"gloss": "To be able to properly",
+"tier": "weak"
+},
+{
+"nid": 1537328240534,
+"word": "上海",
+"pinyin": "shàng hǎi",
+"gloss": "Shanghai",
+"tier": "sparse"
+},
+{
+"nid": 1393817666118,
+"word": "一般",
+"pinyin": "yī̠bān",
+"gloss": "general; ordinary; common; same",
+"tier": "sparse"
+},
+{
+"nid": 1672769484639,
+"word": "之间",
+"pinyin": "Zhī jiān",
+"gloss": "Between, inter-, among",
+"tier": "weak"
+},
+{
+"nid": 1537328240671,
+"word": "哪里",
+"pinyin": "nǎ li",
+"gloss": "Where",
+"tier": "weak"
+},
+{
+"nid": 1537328239541,
+"word": "英国",
+"pinyin": "yīng guó",
+"gloss": "The United Kingdom",
+"tier": "sparse"
+},
+{
+"nid": 1537328241737,
+"word": "以后",
+"pinyin": "yǐ hòu",
+"gloss": "After, afterwards, later",
+"tier": "weak"
+},
+{
+"nid": 1537328241767,
+"word": "之前",
+"pinyin": "zhī qián",
+"gloss": "Before; Before, prior to, ago, previously",
+"tier": "weak"
+},
+{
+"nid": 1537328241616,
+"word": "电话",
+"pinyin": "diàn huà",
+"gloss": "Telephone (old)",
+"tier": "weak"
+},
+{
+"nid": 1537328241159,
+"word": "韩国",
+"pinyin": "hán guó",
+"gloss": "Korea",
+"tier": "sparse"
+},
+{
+"nid": 1537328239990,
+"word": "男人",
+"pinyin": "nán rén",
+"gloss": "Man",
+"tier": "weak"
+},
+{
+"nid": 1537328247068,
+"word": "如此",
+"pinyin": "rú cǐ",
+"gloss": "In this way, so;Like this (referring to a previous situation)",
+"tier": "weak"
+},
+{
+"nid": 1537328241763,
+"word": "以下",
+"pinyin": "yǐ xià",
+"gloss": "Below",
+"tier": "weak"
+},
+{
+"nid": 1537328240528,
+"word": "每个",
+"pinyin": "měi gè",
+"gloss": "Every",
+"tier": "sparse"
+},
+{
+"nid": 1537328241762,
+"word": "以上",
+"pinyin": "yǐ shàng",
+"gloss": "Above",
+"tier": "weak"
+},
+{
+"nid": 1537328243777,
+"word": "图片",
+"pinyin": "tú piàn",
+"gloss": "Picture",
+"tier": "sparse"
+},
+{
+"nid": 1537328241600,
+"word": "的话",
+"pinyin": "de huà",
+"gloss": "If",
+"tier": "weak"
+},
+{
+"nid": 1537328241837,
+"word": "之一",
+"pinyin": "zhī yī",
+"gloss": "One of the...; One of (sth), one out of a multitude",
+"tier": "weak"
+},
+{
+"nid": 1537328247977,
+"word": "增长",
+"pinyin": "zēng zhǎng",
+"gloss": "To grow, to increase",
+"tier": "weak"
+},
+{
+"nid": 1537328245481,
+"word": "德国",
+"pinyin": "dé guó",
+"gloss": "Germany",
+"tier": "sparse"
+},
+{
+"nid": 1537328247390,
+"word": "指出",
+"pinyin": "zhǐ chū",
+"gloss": "To indicate, to point out",
+"tier": "weak"
+},
+{
+"nid": 1705869932449,
+"word": "俄罗斯",
+"pinyin": "Éluósī",
+"gloss": "Russia",
+"tier": "sparse"
+},
+{
+"nid": 1537328240291,
+"word": "关注",
+"pinyin": "guān zhù",
+"gloss": "To follow (online);to pay close attention to",
+"tier": "weak"
+},
+{
+"nid": 1537328245524,
+"word": "区域",
+"pinyin": "qū yù",
+"gloss": "area; region; district",
+"tier": "weak"
+},
+{
+"nid": 1537328247838,
+"word": "工程",
+"pinyin": "gōng chéng",
+"gloss": "Engineering, an engineering project",
+"tier": "weak"
+},
+{
+"nid": 1537328247061,
+"word": "不到",
+"pinyin": "bú dào",
+"gloss": "Not to arrive, not reaching",
+"tier": "weak"
+},
+{
+"nid": 1537328240667,
+"word": "那里",
+"pinyin": "nà lǐ",
+"gloss": "There",
+"tier": "weak"
+},
+{
+"nid": 1537328242051,
+"word": "学院",
+"pinyin": "xué yuàn",
+"gloss": "academy",
+"tier": "sparse"
+},
+{
+"nid": 1537328240610,
+"word": "看看",
+"pinyin": "kàn kan",
+"gloss": "Take a look",
+"tier": "weak"
+},
+{
+"nid": 1537328247817,
+"word": "印度",
+"pinyin": "yìn dù",
+"gloss": "India",
+"tier": "sparse"
+},
+{
+"nid": 1537328244728,
+"word": "变成",
+"pinyin": "biàn chéng",
+"gloss": "To change into, become(more of a complete transformation)",
+"tier": "weak"
+},
+{
+"nid": 1537328247602,
+"word": "最终",
+"pinyin": "zuì zhōng",
+"gloss": "Final, ultimate",
+"tier": "weak"
+},
+{
+"nid": 1537328242666,
+"word": "汽车",
+"pinyin": "qì chē",
+"gloss": "Automobile",
+"tier": "sparse"
+},
+{
+"nid": 1537328240485,
+"word": "足球",
+"pinyin": "zú qiú",
+"gloss": "Football, soccer",
+"tier": "weak"
+},
+{
+"nid": 1537328240694,
+"word": "里面",
+"pinyin": "li miàn",
+"gloss": "Inside (of something)",
+"tier": "weak"
+},
+{
+"nid": 1537328247631,
+"word": "所谓",
+"pinyin": "suǒ wèi",
+"gloss": "So-called, what is called",
+"tier": "weak"
+},
+{
+"nid": 1708747483662,
+"word": "真是",
+"pinyin": "zhēn shi",
+"gloss": "1. indeed; 2. truly; 3. (coll.) (used to express disapproval, annoyance etc abou",
+"tier": "weak"
+},
+{
+"nid": 1537328246023,
+"word": "加强",
+"pinyin": "jiā qiáng",
+"gloss": "To increase",
+"tier": "weak"
+},
+{
+"nid": 1537328242711,
+"word": "教师",
+"pinyin": "jiào shī",
+"gloss": "Teacher",
+"tier": "weak"
+},
+{
+"nid": 1537328240804,
+"word": "西方",
+"pinyin": "xī fāng",
+"gloss": "The West; The west",
+"tier": "sparse"
+},
+{
+"nid": 1537328248040,
+"word": "带来",
+"pinyin": "dài lái",
+"gloss": "To bring, to bring about",
+"tier": "weak"
+},
+{
+"nid": 1537328245413,
+"word": "更加",
+"pinyin": "gèng jiā",
+"gloss": "Even more",
+"tier": "weak"
+},
+{
+"nid": 1537328240531,
+"word": "每天",
+"pinyin": "měi tiān",
+"gloss": "Every day; Daily",
+"tier": "weak"
+},
+{
+"nid": 1537328243535,
+"word": "感到",
+"pinyin": "gǎn dào",
+"gloss": "I feel, sense",
+"tier": "weak"
+},
+{
+"nid": 1393817668493,
+"word": "来源",
+"pinyin": "láiyuán",
+"gloss": "source; originate",
+"tier": "weak"
+},
+{
+"nid": 1537328239994,
+"word": "女孩",
+"pinyin": "nǚ hái",
+"gloss": "Girl",
+"tier": "weak"
+},
+{
+"nid": 1708747485203,
+"word": "苏联",
+"pinyin": "Sū lián",
+"gloss": "1. Soviet Union, 1922-1991; 2. abbr. for Union of Soviet Socialist Republics (US",
+"tier": "sparse"
+},
+{
+"nid": 1708747484841,
+"word": "不想",
+"pinyin": "bù xiǎng",
+"gloss": "1. unexpectedly;don't want",
+"tier": "weak"
+},
+{
+"nid": 1537328244334,
+"word": "分享",
+"pinyin": "fēn xiǎng",
+"gloss": "To share",
+"tier": "weak"
+},
+{
+"nid": 1708747488721,
+"word": "每年",
+"pinyin": "měi nián",
+"gloss": "1. every year; 2. each year; 3. yearly",
+"tier": "weak"
+},
+{
+"nid": 1708747484397,
+"word": "第一次",
+"pinyin": "dì yī cì",
+"gloss": "1. the first time; 2. first; 3. number one",
+"tier": "weak"
+},
+{
+"nid": 1393817669269,
+"word": "设立",
+"pinyin": "shèlì",
+"gloss": "set up; establish",
+"tier": "weak"
+},
+{
+"nid": 1537328241456,
+"word": "加拿大",
+"pinyin": "jiā ná dà",
+"gloss": "Canada",
+"tier": "sparse"
+},
+{
+"nid": 1708747484612,
+"word": "不了",
+"pinyin": "bù le",
+"gloss": "1. no thanks (used to politely but informally decline) (le);2. ... cannot, impos",
+"tier": "weak"
+},
+{
+"nid": 1537328242115,
+"word": "不错",
+"pinyin": "bú cuò",
+"gloss": "Good, Not bad (much stronger than that: “pretty good”)",
+"tier": "weak"
+},
+{
+"nid": 1708747498939,
+"word": "中共",
+"pinyin": "Zhōng Gòng",
+"gloss": "1. abbr. for 中國共產黨|中国共产党[Zhōng guó Gòng chǎn dǎng], Chinese Communist Party",
+"tier": "sparse"
+},
+{
+"nid": 1537328243386,
+"word": "团体",
+"pinyin": "tuán tǐ",
+"gloss": "group; organization; team",
+"tier": "weak"
+},
+{
+"nid": 1393817668756,
+"word": "版本",
+"pinyin": "bǎnběn",
+"gloss": "edition",
+"tier": "weak"
+},
+{
+"nid": 1537328247621,
+"word": "人数",
+"pinyin": "rén shù",
+"gloss": "Number of people",
+"tier": "weak"
+},
+{
+"nid": 1537328247743,
+"word": "有效",
+"pinyin": "yǒu xiào",
+"gloss": "Effective, in effect, valid",
+"tier": "weak"
+},
+{
+"nid": 1708747484462,
+"word": "第二",
+"pinyin": "dì èr",
+"gloss": "1. second; 2. number two; 3. next; 4. secondary",
+"tier": "weak"
+},
+{
+"nid": 1537328246928,
+"word": "购买",
+"pinyin": "gòu mǎi",
+"gloss": "To purchase, to buy",
+"tier": "weak"
+},
+{
+"nid": 1537328245006,
+"word": "网址",
+"pinyin": "wǎng zhǐ",
+"gloss": "Website URL; Website, web address, URL",
+"tier": "sparse"
+},
+{
+"nid": 1537328245875,
+"word": "广州",
+"pinyin": "guǎng zhōu",
+"gloss": "Guangzhou (third largest city in China)",
+"tier": "sparse"
+},
+{
+"nid": 1537328247299,
+"word": "部队",
+"pinyin": "bù duì",
+"gloss": "Army, armed forces, troops, force",
+"tier": "weak"
+},
+{
+"nid": 1537328245261,
+"word": "铁路",
+"pinyin": "tiě lù",
+"gloss": "Railway",
+"tier": "sparse"
+},
+{
+"nid": 1393817666343,
+"word": "难道",
+"pinyin": "nándào",
+"gloss": "could it be that ...?; don't tell me ...",
+"tier": "weak"
+},
+{
+"nid": 1537328239954,
+"word": "不用",
+"pinyin": "bú yòng",
+"gloss": "have no need to (negation of 得);\nWithout",
+"tier": "weak"
+},
+{
+"nid": 1393817666956,
+"word": "似乎",
+"pinyin": "sìhū",
+"gloss": "it seems; as if; seemingly",
+"tier": "weak"
+},
+{
+"nid": 1393817666404,
+"word": "实在",
+"pinyin": "shízài",
+"gloss": "honest; in reality; honestly; indeed; certainly",
+"tier": "weak"
+},
+{
+"nid": 1393817668222,
+"word": "战斗",
+"pinyin": "zhàndòu",
+"gloss": "to fight; to battle; to struggle",
+"tier": "weak"
+},
+{
+"nid": 1537328247092,
+"word": "称为",
+"pinyin": "chēng wéi",
+"gloss": "Called, to call sth (by a name)",
+"tier": "weak"
+},
+{
+"nid": 1537328241134,
+"word": "英语",
+"pinyin": "yīng yǔ",
+"gloss": "English",
+"tier": "sparse"
+},
+{
+"nid": 1537328244570,
+"word": "越来越",
+"pinyin": "yuè lái yuè",
+"gloss": "More and more...",
+"tier": "sparse"
+},
+{
+"nid": 1537328241307,
+"word": "其它",
+"pinyin": "qí tā",
+"gloss": "Other",
+"tier": "weak"
+},
+{
+"nid": 1537328241638,
+"word": "直到",
+"pinyin": "zhí dào",
+"gloss": "Until",
+"tier": "weak"
+},
+{
+"nid": 1537328247054,
+"word": "停止",
+"pinyin": "tíng zhǐ",
+"gloss": "To stop, to halt, to cease",
+"tier": "weak"
+},
+{
+"nid": 1537328242655,
+"word": "公共",
+"pinyin": "gōng gòng",
+"gloss": "Public",
+"tier": "weak"
+},
+{
+"nid": 1707944133099,
+"word": "共产党",
+"pinyin": "Gòngchǎndǎng",
+"gloss": "Communist Party (CCP/CPC)",
+"tier": "weak"
+},
+{
+"nid": 1537328247622,
+"word": "多数",
+"pinyin": "duō shù",
+"gloss": "Majority, most",
+"tier": "weak"
+},
+{
+"nid": 1710963504303,
+"word": "有限公司",
+"pinyin": "yǒu xiàn gōng sī",
+"gloss": "1. limited company; 2. corporation",
+"tier": "weak"
+},
+{
+"nid": 1708747484145,
+"word": "变得",
+"pinyin": "biàn de",
+"gloss": "1. to become",
+"tier": "weak"
+},
+{
+"nid": 1537328246170,
+"word": "或许",
+"pinyin": "huò xǔ",
+"gloss": "perhaps; maybe",
+"tier": "weak"
+},
+{
+"nid": 1708747508502,
+"word": "朝鲜",
+"pinyin": "Cháo xiǎn",
+"gloss": "1. North Korea; 2. Korea as geographic term; 3. Taiwan pr. [Cháo xiān]",
+"tier": "sparse"
+},
+{
+"nid": 1393817668572,
+"word": "统治",
+"pinyin": "tǒngzhì",
+"gloss": "to rule (a country); govern; governance",
+"tier": "weak"
+},
+{
+"nid": 1537328247232,
+"word": "团队",
+"pinyin": "tuán duì",
+"gloss": "Team",
+"tier": "weak"
+},
+{
+"nid": 1537328244095,
+"word": "普通",
+"pinyin": "pǔ tōng",
+"gloss": "Common;&nbsp;Common, ordinary, general",
+"tier": "weak"
+},
+{
+"nid": 1393817668431,
+"word": "本身",
+"pinyin": "běnshēn",
+"gloss": "itself; in itself; per se;original body",
+"tier": "weak"
+},
+{
+"nid": 1700001726070,
+"word": "毛泽东",
+"pinyin": "Máo&nbsp;Zédōng",
+"gloss": "Mao Zedong (old Wade-Giles: Mao Tse-Tung)",
+"tier": "sparse"
+},
+{
+"nid": 1537328240477,
+"word": "听到",
+"pinyin": "tīng dào",
+"gloss": "Hear",
+"tier": "weak"
+},
+{
+"nid": 1537328245909,
+"word": "链接",
+"pinyin": "liàn jiē",
+"gloss": "(Hyper)link",
+"tier": "sparse"
+},
+{
+"nid": 1708747484852,
+"word": "不可",
+"pinyin": "bù kě",
+"gloss": "1. cannot; 2. should not; 3. must not",
+"tier": "weak"
+},
+{
+"nid": 1537328247903,
+"word": "快速",
+"pinyin": "kuài sù",
+"gloss": "Fast, high-speed, rapid",
+"tier": "weak"
+},
+{
+"nid": 1537328247470,
+"word": "民众",
+"pinyin": "mín zhòng",
+"gloss": "Populace, masses, the people",
+"tier": "weak"
+},
+{
+"nid": 1537328245871,
+"word": "互联网",
+"pinyin": "hù lián wǎng",
+"gloss": "(the) Internet",
+"tier": "sparse"
+},
+{
+"nid": 1537328243454,
+"word": "兴趣",
+"pinyin": "xìng qù",
+"gloss": "Interests",
+"tier": "weak"
+},
+{
+"nid": 1537328247623,
+"word": "少数",
+"pinyin": "shǎo shù",
+"gloss": "Small number, few, minority",
+"tier": "weak"
+},
+{
+"nid": 1537328239861,
+"word": "打开",
+"pinyin": "dǎ kāi",
+"gloss": "To open",
+"tier": "weak"
+},
+{
+"nid": 1393817666421,
+"word": "比如",
+"pinyin": "bǐrú",
+"gloss": "for example; for instance; such as",
+"tier": "weak"
+},
+{
+"nid": 1708747495173,
+"word": "不得",
+"pinyin": "bù dé",
+"gloss": "1. must not; 2. may not; 3. not to be allowed; 4. cannot",
+"tier": "weak"
+},
+{
+"nid": 1537328240414,
+"word": "南京",
+"pinyin": "nán jīng",
+"gloss": "Nanjing",
+"tier": "weak"
+},
+{
+"nid": 1537328244936,
+"word": "电视台",
+"pinyin": "diàn shì tái",
+"gloss": "TV, TV station",
+"tier": "weak"
+},
+{
+"nid": 1537328247695,
+"word": "类型",
+"pinyin": "lèi xíng",
+"gloss": "type (category)",
+"tier": "weak"
+},
+{
+"nid": 1537328242910,
+"word": "刚刚",
+"pinyin": "gāng gang",
+"gloss": "Just now",
+"tier": "weak"
+},
+{
+"nid": 1537328240675,
+"word": "家里",
+"pinyin": "jiā li",
+"gloss": "At home",
+"tier": "weak"
+},
+{
+"nid": 1537328245744,
+"word": "手段",
+"pinyin": "shǒu duàn",
+"gloss": "Method",
+"tier": "weak"
+},
+{
+"nid": 1537328246070,
+"word": "概念",
+"pinyin": "gài niàn",
+"gloss": "concept; idea",
+"tier": "weak"
+},
+{
+"nid": 1537328240633,
+"word": "等等",
+"pinyin": "děng děng",
+"gloss": "Et cetera",
+"tier": "weak"
+},
+{
+"nid": 1533209755055,
+"word": "纽约",
+"pinyin": "Niǔyuē",
+"gloss": "New York",
+"tier": "weak"
+},
+{
+"nid": 1537328239967,
+"word": "英文",
+"pinyin": "yīng wén",
+"gloss": "English (language）",
+"tier": "sparse"
+},
+{
+"nid": 1708747490043,
+"word": "警方",
+"pinyin": "jǐng fāng",
+"gloss": "1. police",
+"tier": "sparse"
+},
+{
+"nid": 1537328246394,
+"word": "食品",
+"pinyin": "shí pǐn",
+"gloss": "Foodstuff, food, provisions",
+"tier": "weak"
+},
+{
+"nid": 1537328239681,
+"word": "不好",
+"pinyin": "bù hǎo",
+"gloss": "Not good",
+"tier": "weak"
+},
+{
+"nid": 1393817667228,
+"word": "对象",
+"pinyin": "duìxiàng",
+"gloss": "target; object;&nbsp;partner; boyfriend or girlfriend",
+"tier": "weak"
+},
+{
+"nid": 1537328246328,
+"word": "漫画",
+"pinyin": "màn huà",
+"gloss": "comics; manga",
+"tier": "weak"
+},
+{
+"nid": 1537328239530,
+"word": "人人",
+"pinyin": "rén rén",
+"gloss": "Everyone",
+"tier": "weak"
+},
+{
+"nid": 1708747487011,
+"word": "最新",
+"pinyin": "zuì xīn",
+"gloss": "1. latest; 2. newest",
+"tier": "weak"
+},
+{
+"nid": 1537328243526,
+"word": "男性",
+"pinyin": "nán xìng",
+"gloss": "Male",
+"tier": "weak"
+},
+{
+"nid": 1537328247643,
+"word": "路线",
+"pinyin": "lù xiàn",
+"gloss": "Itinerary, route",
+"tier": "weak"
+},
+{
+"nid": 1537328245738,
+"word": "一段",
+"pinyin": "yī duàn",
+"gloss": "One paragraph,&nbsp;segment, passage; mw segments, parts",
+"tier": "sparse"
+},
+{
+"nid": 1708747527036,
+"word": "国民党",
+"pinyin": "Guó mín dǎng",
+"gloss": "1. Guomindang or Kuomintang (KMT); 2. Nationalist Party",
+"tier": "weak"
+},
+{
+"nid": 1537328247297,
+"word": "大部分",
+"pinyin": "dà bù fen",
+"gloss": "In large part, the greater part",
+"tier": "sparse"
+},
+{
+"nid": 1705601996088,
+"word": "海外",
+"pinyin": "hǎiwài",
+"gloss": "overseas",
+"tier": "sparse"
+},
+{
+"nid": 1537328243028,
+"word": "西班牙",
+"pinyin": "xī bān yá",
+"gloss": "Spain",
+"tier": "sparse"
+},
+{
+"nid": 1708747506039,
+"word": "新加坡",
+"pinyin": "Xīn jiā pō",
+"gloss": "1. Singapore",
+"tier": "sparse"
+},
+{
+"nid": 1537328245922,
+"word": "留下",
+"pinyin": "liú xià",
+"gloss": "To leave behind, remain",
+"tier": "weak"
+},
+{
+"nid": 1537328240173,
+"word": "不知",
+"pinyin": "bù zhī",
+"gloss": "I do not know; I don’t know",
+"tier": "weak"
+},
+{
+"nid": 1537328240881,
+"word": "东北",
+"pinyin": "dōng běi",
+"gloss": "The north east",
+"tier": "weak"
+},
+{
+"nid": 1537328244353,
+"word": "收到",
+"pinyin": "shōu dào",
+"gloss": "To receive",
+"tier": "weak"
+},
+{
+"nid": 1695787012150,
+"word": "澳门",
+"pinyin": "Àomén",
+"gloss": "Macau",
+"tier": "sparse"
+},
+{
+"nid": 1537328247568,
+"word": "用于",
+"pinyin": "yòng yú",
+"gloss": "Use in, use on, use for",
+"tier": "weak"
+},
+{
+"nid": 1537328245878,
+"word": "非洲",
+"pinyin": "fēi zhōu",
+"gloss": "Africa",
+"tier": "sparse"
+},
+{
+"nid": 1708747499741,
+"word": "天津",
+"pinyin": "Tiān jīn",
+"gloss": "1. Tianjin, a municipality in northeast China, abbr. 津",
+"tier": "sparse"
+},
+{
+"nid": 1393817669772,
+"word": "生态",
+"pinyin": "shēngtài",
+"gloss": "way of life; ecology",
+"tier": "weak"
+},
+{
+"nid": 1393817669678,
+"word": "规范",
+"pinyin": "guīfàn",
+"gloss": "standard (design or model); norm; without variation; to specify",
+"tier": "weak"
+},
+{
+"nid": 1537328241394,
+"word": "听说",
+"pinyin": "tīng shuō",
+"gloss": "I've heard; I’ve heard, been told",
+"tier": "weak"
+},
+{
+"nid": 1393817668325,
+"word": "并非",
+"pinyin": "bìngfēi",
+"gloss": "really isn't",
+"tier": "weak"
+},
+{
+"nid": 1393817667935,
+"word": "性质",
+"pinyin": "xìngzhì",
+"gloss": "nature; characteristic; quality",
+"tier": "weak"
+},
+{
+"nid": 1537328245003,
+"word": "网上",
+"pinyin": "wǎng shàng",
+"gloss": "Online",
+"tier": "weak"
+},
+{
+"nid": 1537328244183,
+"word": "而已",
+"pinyin": "ér yǐ",
+"gloss": "that's all; nothing more",
+"tier": "weak"
+},
+{
+"nid": 1717270484288,
+"word": "深圳",
+"pinyin": "Shēn zhèn",
+"gloss": "1. Shenzhen subprovincial city in Guangdong, special economic zone close to Hong",
+"tier": "sparse"
+},
+{
+"nid": 1537328246858,
+"word": "直播",
+"pinyin": "zhí bō",
+"gloss": "live broadcast (not recorded)",
+"tier": "weak"
+},
+{
+"nid": 1708747495719,
+"word": "领导人",
+"pinyin": "lǐng dǎo rén",
+"gloss": "1. leader",
+"tier": "weak"
+},
+{
+"nid": 1537328246741,
+"word": "卫生",
+"pinyin": "wèi shēng",
+"gloss": "Health, hygiene, sanitation",
+"tier": "weak"
+},
+{
+"nid": 1708747487241,
+"word": "某些",
+"pinyin": "mǒu xiē",
+"gloss": "1. some; 2. certain (things)",
+"tier": "weak"
+},
+{
+"nid": 1393817669622,
+"word": "民间",
+"pinyin": "mínjiān",
+"gloss": "among the people; popular; folk",
+"tier": "weak"
+},
+{
+"nid": 1537328247827,
+"word": "高度",
+"pinyin": "gāo dù",
+"gloss": "Height, altitude, elevation, high degree, highly",
+"tier": "weak"
+},
+{
+"nid": 1537328247558,
+"word": "不敢",
+"pinyin": "bù gǎn",
+"gloss": "To not dare to",
+"tier": "sparse"
+},
+{
+"nid": 1704639023218,
+"word": "巴黎",
+"pinyin": "Bālí",
+"gloss": "Paris",
+"tier": "sparse"
+},
+{
+"nid": 1708747499406,
+"word": "当局",
+"pinyin": "dāng jú",
+"gloss": "1. authorities",
+"tier": "sparse"
+},
+{
+"nid": 1393817667364,
+"word": "毕竟",
+"pinyin": "bìjìng",
+"gloss": "after all; overall; when all is said and done",
+"tier": "weak"
+},
+{
+"nid": 1537328241228,
+"word": "酒店",
+"pinyin": "jiǔ diàn",
+"gloss": "Hotel",
+"tier": "weak"
+},
+{
+"nid": 1537328246379,
+"word": "品牌",
+"pinyin": "pǐn pái",
+"gloss": "Brand name, trademark",
+"tier": "weak"
+},
+{
+"nid": 1537328244599,
+"word": "小组",
+"pinyin": "xiǎo zǔ",
+"gloss": "A little group; Group",
+"tier": "weak"
+},
+{
+"nid": 1393817666901,
+"word": "疯狂",
+"pinyin": "fēngkuáng",
+"gloss": "crazy; madness; wild; extreme popularity; insane; frenzied; unbridled",
+"tier": "weak"
+},
+{
+"nid": 1393817668304,
+"word": "转移",
+"pinyin": "zhuǎnyí",
+"gloss": "to shift; divert; migrate",
+"tier": "weak"
+},
+{
+"nid": 1708747486694,
+"word": "一句",
+"pinyin": "yī jù",
+"gloss": "1. a line of verse; 2. a sentence",
+"tier": "weak"
+},
+{
+"nid": 1537328247688,
+"word": "分类",
+"pinyin": "fēn lèi",
+"gloss": "Classification",
+"tier": "weak"
+},
+{
+"nid": 1703060093003,
+"word": "就算",
+"pinyin": "jiùsuàn",
+"gloss": "even if",
+"tier": "weak"
+},
+{
+"nid": 1537328245491,
+"word": "网页",
+"pinyin": "wǎng yè",
+"gloss": "Webpage",
+"tier": "sparse"
+},
+{
+"nid": 1710963504828,
+"word": "重庆",
+"pinyin": "Chóng qìng",
+"gloss": "1. Chongqing city (Chungking), formerly in Sichuan province, a municipality sinc",
+"tier": "sparse"
+},
+{
+"nid": 1537328247677,
+"word": "之外",
+"pinyin": "zhī wài",
+"gloss": "Outside, excluding",
+"tier": "weak"
+},
+{
+"nid": 1537328241259,
+"word": "名单",
+"pinyin": "míng dān",
+"gloss": "Name list",
+"tier": "weak"
+},
+{
+"nid": 1537328244001,
+"word": "微信",
+"pinyin": "wēi xìn",
+"gloss": "Wechat&nbsp;",
+"tier": "weak"
+},
+{
+"nid": 1708747497539,
+"word": "江苏",
+"pinyin": "Jiāng sū",
+"gloss": "1. Jiangsu province (Kiangsu) in southeast China, abbr. 蘇|苏, capital Nanjing 南京",
+"tier": "weak"
+},
+{
+"nid": 1393817666908,
+"word": "阻止",
+"pinyin": "zǔzhǐ",
+"gloss": "prevent; to block",
+"tier": "weak"
+},
+{
+"nid": 1393817669166,
+"word": "争议",
+"pinyin": "zhēngyì",
+"gloss": "controversy; dispute; contention",
+"tier": "sparse"
+},
+{
+"nid": 1393817668513,
+"word": "实力",
+"pinyin": "shílì",
+"gloss": "strength",
+"tier": "weak"
+},
+{
+"nid": 1708747486258,
+"word": "小孩",
+"pinyin": "xiǎo hái",
+"gloss": "1. child; 2. CL:個|个[gè]",
+"tier": "weak"
+},
+{
+"nid": 1708747493043,
+"word": "新疆",
+"pinyin": "Xīn jiāng",
+"gloss": "1. Xinjiang; 2. Uighur autonomous region 新疆維吾爾自治區|新疆维吾尔自治区",
+"tier": "sparse"
+},
+{
+"nid": 1708747500202,
+"word": "澳洲",
+"pinyin": "Ào zhōu",
+"gloss": "1. Australia; 2. abbr. for 澳大利亞洲|澳大利亚洲[Ào dà lì yà Zhōu]",
+"tier": "sparse"
+},
+{
+"nid": 1537328247815,
+"word": "百度",
+"pinyin": "bǎi dù",
+"gloss": "Baidu, Internet portal and search engine",
+"tier": "sparse"
+},
+{
+"nid": 1537328240879,
+"word": "西部",
+"pinyin": "xī bù",
+"gloss": "Western",
+"tier": "weak"
+},
+{
+"nid": 1537328246358,
+"word": "不行",
+"pinyin": "bù xíng",
+"gloss": "not okay",
+"tier": "weak"
+},
+{
+"nid": 1537328241405,
+"word": "别的",
+"pinyin": "bié de",
+"gloss": "Other...",
+"tier": "weak"
+},
+{
+"nid": 1537328239909,
+"word": "天天",
+"pinyin": "tiān tiān",
+"gloss": "Every day",
+"tier": "weak"
+},
+{
+"nid": 1708747507531,
+"word": "巴西",
+"pinyin": "Bā xī",
+"gloss": "1. Brazil",
+"tier": "sparse"
+},
+{
+"nid": 1393817667546,
+"word": "播放",
+"pinyin": "bōfàng",
+"gloss": "broadcast; transmit",
+"tier": "weak"
+},
+{
+"nid": 1393817668535,
+"word": "武装",
+"pinyin": "wǔzhuāng",
+"gloss": "to arm;\narms; equipment",
+"tier": "weak"
+},
+{
+"nid": 1537328244139,
+"word": "绿色",
+"pinyin": "lǜ sè",
+"gloss": "Green",
+"tier": "weak"
+},
+{
+"nid": 1708747501029,
+"word": "越南",
+"pinyin": "Yuè nán",
+"gloss": "1. Vietnam; 2. Vietnamese",
+"tier": "weak"
+},
+{
+"nid": 1537328244794,
+"word": "事实上",
+"pinyin": "shì shí shàng",
+"gloss": "In fact",
+"tier": "sparse"
+},
+{
+"nid": 1537328240878,
+"word": "南部",
+"pinyin": "nán bù",
+"gloss": "Southern (parts)",
+"tier": "weak"
+},
+{
+"nid": 1537328243951,
+"word": "尝试",
+"pinyin": "cháng shì",
+"gloss": "to try; attempt",
+"tier": "weak"
+},
+{
+"nid": 1704460576255,
+"word": "泰国",
+"pinyin": "Tàiguó",
+"gloss": "Thailand 🇹🇭",
+"tier": "sparse"
+},
+{
+"nid": 1708747496607,
+"word": "连结",
+"pinyin": "lián jié",
+"gloss": "1. variant of 聯結|联结[lián jié]",
+"tier": "weak"
+},
+{
+"nid": 1537328244157,
+"word": "黑人",
+"pinyin": "hēi rén",
+"gloss": "Black person",
+"tier": "sparse"
+},
+{
+"nid": 1708747526347,
+"word": "中国共产党",
+"pinyin": "Zhōng guó Gòng chǎn dǎng",
+"gloss": "1. Communist Party of China",
+"tier": "sparse"
+},
+{
+"nid": 1537328247675,
+"word": "之下",
+"pinyin": "zhī xià",
+"gloss": "Under, beneath, less than",
+"tier": "weak"
+},
+{
+"nid": 1393817668754,
+"word": "司法",
+"pinyin": "sīfǎ",
+"gloss": "judicial; (administration of) justice",
+"tier": "sparse"
+},
+{
+"nid": 1393817666484,
+"word": "究竟",
+"pinyin": "jiūjìng",
+"gloss": "after all; when all is said and done; actually(in declarative sentences)",
+"tier": "weak"
+},
+{
+"nid": 1537328248080,
+"word": "背后",
+"pinyin": "bèi hòu",
+"gloss": "Behind, at the back, in the rear",
+"tier": "weak"
+},
+{
+"nid": 1708747496655,
+"word": "西藏",
+"pinyin": "Xī zàng",
+"gloss": "1. Tibet; 2. Xizang or Tibetan autonomous region 西藏自治區|西藏自治区",
+"tier": "weak"
+},
+{
+"nid": 1537328241853,
+"word": "讲话",
+"pinyin": "jiǎng huà",
+"gloss": "To speak; To speak, talk",
+"tier": "weak"
+},
+{
+"nid": 1393817668522,
+"word": "领袖",
+"pinyin": "lǐngxiù",
+"gloss": "leader",
+"tier": "weak"
+},
+{
+"nid": 1537328247964,
+"word": "下降",
+"pinyin": "xià jiàng",
+"gloss": "To decline, to drop, to fall",
+"tier": "weak"
+},
+{
+"nid": 1537328240880,
+"word": "东部",
+"pinyin": "dōng bù",
+"gloss": "Eastern",
+"tier": "weak"
+},
+{
+"nid": 1537328246716,
+"word": "收集",
+"pinyin": "shōu jí",
+"gloss": "To gather, to collect",
+"tier": "weak"
+},
+{
+"nid": 1537328247204,
+"word": "赢得",
+"pinyin": "yíng dé",
+"gloss": "To win, to gain",
+"tier": "weak"
+},
+{
+"nid": 1708747499119,
+"word": "马来西亚",
+"pinyin": "Mǎ lái xī yà",
+"gloss": "1. Malaysia",
+"tier": "sparse"
+},
+{
+"nid": 1393817669454,
+"word": "动态",
+"pinyin": "dòngtài",
+"gloss": "development; trend; dynamic state",
+"tier": "sparse"
+},
+{
+"nid": 1537328244679,
+"word": "在线",
+"pinyin": "zài xiàn",
+"gloss": "To be on online; Online",
+"tier": "sparse"
+},
+{
+"nid": 1702184696212,
+"word": "科学家",
+"pinyin": "ke1xue2jia1",
+"gloss": "scientist",
+"tier": "sparse"
+},
+{
+"nid": 1393817666895,
+"word": "简直",
+"pinyin": "jiǎnzhí",
+"gloss": "simply; at all",
+"tier": "weak"
+},
+{
+"nid": 1717270478916,
+"word": "证券",
+"pinyin": "zhèng quàn",
+"gloss": "1. negotiable security (financial); 2. certificate; 3. stocks and bonds",
+"tier": "sparse"
+},
+{
+"nid": 1708118395164,
+"word": "云南",
+"pinyin": "Yúnnán",
+"gloss": "Yunnan (province)",
+"tier": "weak"
+},
+{
+"nid": 1697861854300,
+"word": "伦敦",
+"pinyin": "Lúndūn",
+"gloss": "London",
+"tier": "sparse"
+},
+{
+"nid": 1393817667816,
+"word": "具备",
+"pinyin": "jùbèi",
+"gloss": "possess; be equipped with",
+"tier": "weak"
+},
+{
+"nid": 1537328243583,
+"word": "多久",
+"pinyin": "duō jiǔ",
+"gloss": "How long",
+"tier": "weak"
+},
+{
+"nid": 1537328245958,
+"word": "意大利",
+"pinyin": "yì dà lì",
+"gloss": "Italy",
+"tier": "sparse"
+},
+{
+"nid": 1393817668467,
+"word": "策略",
+"pinyin": "cèlüè",
+"gloss": "tactics; plot",
+"tier": "weak"
+},
+{
+"nid": 1708747526130,
+"word": "菲律宾",
+"pinyin": "Fēi lǜ bīn",
+"gloss": "1. the Philippines",
+"tier": "sparse"
+},
+{
+"nid": 1537328245358,
+"word": "释放",
+"pinyin": "shì fàng",
+"gloss": "release; set free; liberate (a prisoner)",
+"tier": "weak"
+},
+{
+"nid": 1537328242110,
+"word": "哪些",
+"pinyin": "nǎ xiē",
+"gloss": "Which ones?",
+"tier": "weak"
+},
+{
+"nid": 1537328244339,
+"word": "收费",
+"pinyin": "shōu fèi",
+"gloss": "Fee",
+"tier": "weak"
+},
+{
+"nid": 1537328240529,
+"word": "每次",
+"pinyin": "měi cì",
+"gloss": "Every time",
+"tier": "weak"
+},
+{
+"nid": 1393817668469,
+"word": "装备",
+"pinyin": "zhuāngbèi",
+"gloss": "equipment; to equip; to outfit",
+"tier": "weak"
+},
+{
+"nid": 1537328247678,
+"word": "以外",
+"pinyin": "yǐ wài",
+"gloss": "Apart from, other than, except for",
+"tier": "weak"
+},
+{
+"nid": 1710963500846,
+"word": "俄国",
+"pinyin": "É guó",
+"gloss": "1. Russia",
+"tier": "sparse"
+},
+{
+"nid": 1708747498358,
+"word": "全民",
+"pinyin": "quán mín",
+"gloss": "1. entire population (of a country)",
+"tier": "sparse"
+},
+{
+"nid": 1393817667376,
+"word": "博物馆",
+"pinyin": "bówùguǎn",
+"gloss": "museum",
+"tier": "sparse"
+},
+{
+"nid": 1537328247927,
+"word": "年底",
+"pinyin": "nián dǐ",
+"gloss": "The end of the year, year-end",
+"tier": "sparse"
+},
+{
+"nid": 1537328243762,
+"word": "相互",
+"pinyin": "xiāng hù",
+"gloss": "Mutual",
+"tier": "weak"
+},
+{
+"nid": 1393817669573,
+"word": "相应",
+"pinyin": "xiāngyìng",
+"gloss": "correspond; relevant",
+"tier": "weak"
+},
+{
+"nid": 1393817667455,
+"word": "结论",
+"pinyin": "jiélùn",
+"gloss": "conclusion; verdict",
+"tier": "weak"
+},
+{
+"nid": 1393817667358,
+"word": "事物",
+"pinyin": "shìwù",
+"gloss": "thing; object",
+"tier": "weak"
+},
+{
+"nid": 1708747501793,
+"word": "伊朗",
+"pinyin": "Yī lǎng",
+"gloss": "1. Iran",
+"tier": "sparse"
+},
+{
+"nid": 1537328247210,
+"word": "将会",
+"pinyin": "jiāng huì",
+"gloss": "(Auxiliary verb introducing future action)",
+"tier": "weak"
+},
+{
+"nid": 1708747506530,
+"word": "希腊",
+"pinyin": "Xī là",
+"gloss": "1. Greece",
+"tier": "sparse"
+},
+{
+"nid": 1537328242766,
+"word": "年轻人",
+"pinyin": "nián qīng rén",
+"gloss": "Young people",
+"tier": "sparse"
+},
+{
+"nid": 1705356540862,
+"word": "总部",
+"pinyin": "zǒngbù",
+"gloss": "general headquarters, head office",
+"tier": "weak"
+},
+{
+"nid": 1537328245632,
+"word": "本地",
+"pinyin": "běn dì",
+"gloss": "Local",
+"tier": "weak"
+},
+{
+"nid": 1717270474677,
+"word": "浙江",
+"pinyin": "Zhè jiāng",
+"gloss": "1. Zhejiang province (Chekiang) in east China, abbr. 浙, capital Hangzhou 杭州",
+"tier": "sparse"
+},
+{
+"nid": 1537328247222,
+"word": "海军",
+"pinyin": "hǎi jūn",
+"gloss": "Navy",
+"tier": "weak"
+},
+{
+"nid": 1393817669371,
+"word": "股东",
+"pinyin": "gǔdōng",
+"gloss": "stockholder; shareholder",
+"tier": "sparse"
+},
+{
+"nid": 1537328247417,
+"word": "垃圾",
+"pinyin": "lā jī",
+"gloss": "Trash, refuse, garbage",
+"tier": "weak"
+},
+{
+"nid": 1537328243930,
+"word": "常常",
+"pinyin": "cháng cháng",
+"gloss": "Often",
+"tier": "weak"
+},
+{
+"nid": 1537328245900,
+"word": "欧盟",
+"pinyin": "ōu méng",
+"gloss": "The European Union",
+"tier": "sparse"
+},
+{
+"nid": 1537328247066,
+"word": "此次",
+"pinyin": "cǐ cì",
+"gloss": "This time",
+"tier": "weak"
+},
+{
+"nid": 1537328246575,
+"word": "环保",
+"pinyin": "huán bǎo",
+"gloss": "Environmentally friendly",
+"tier": "sparse"
+},
+{
+"nid": 1703882234954,
+"word": "阶级",
+"pinyin": "jiējí",
+"gloss": "steps, stairs;rank, class (old)",
+"tier": "weak"
+},
+{
+"nid": 1537328245787,
+"word": "黑暗",
+"pinyin": "hēi àn",
+"gloss": "Dark",
+"tier": "weak"
+},
+{
+"nid": 1708747499783,
+"word": "乌克兰",
+"pinyin": "Wū kè lán",
+"gloss": "1. Ukraine",
+"tier": "sparse"
+},
+{
+"nid": 1537328240584,
+"word": "今晚",
+"pinyin": "jīn wǎn",
+"gloss": "Tonight, today evening",
+"tier": "weak"
+},
+{
+"nid": 1537328246901,
+"word": "剩下",
+"pinyin": "shèng xià",
+"gloss": "To remain, left over",
+"tier": "weak"
+},
+{
+"nid": 1702071622032,
+"word": "回应",
+"pinyin": "hui2ying4",
+"gloss": "to reply, to react",
+"tier": "weak"
+},
+{
+"nid": 1537328245242,
+"word": "夫人",
+"pinyin": "fū ren",
+"gloss": "lady; madam; Mrs.; wife",
+"tier": "weak"
+},
+{
+"nid": 1393817668249,
+"word": "情报",
+"pinyin": "qíngbào",
+"gloss": "intelligence; information-gathering",
+"tier": "weak"
+},
+{
+"nid": 1708747498180,
+"word": "执政",
+"pinyin": "zhí zhèng",
+"gloss": "1. to hold power; 2. in office",
+"tier": "weak"
+},
+{
+"nid": 1537328242039,
+"word": "校园",
+"pinyin": "xiào yuán",
+"gloss": "School yard, campus",
+"tier": "weak"
+},
+{
+"nid": 1708747499606,
+"word": "每日",
+"pinyin": "měi rì",
+"gloss": "1. daily; 2. (soup etc) of the day",
+"tier": "weak"
+},
+{
+"nid": 1703613847321,
+"word": "法官",
+"pinyin": "fǎguān",
+"gloss": "judge",
+"tier": "weak"
+},
+{
+"nid": 1393817668180,
+"word": "真相",
+"pinyin": "zhēnxiàng",
+"gloss": "truth, the actual facts; reality",
+"tier": "weak"
+},
+{
+"nid": 1393817668270,
+"word": "能量",
+"pinyin": "néngliàng",
+"gloss": "energy; capabilities",
+"tier": "weak"
+},
+{
+"nid": 1708747488915,
+"word": "不该",
+"pinyin": "bù gāi",
+"gloss": "1. should not; 2. to owe nothing",
+"tier": "weak"
+},
+{
+"nid": 1393817668570,
+"word": "倾向",
+"pinyin": "qīngxiàng",
+"gloss": "trend; tendency; inclination",
+"tier": "weak"
+},
+{
+"nid": 1537328240732,
+"word": "吃饭",
+"pinyin": "chī fàn",
+"gloss": "To eat food;&nbsp;To eat; To eat food",
+"tier": "weak"
+},
+{
+"nid": 1537328244391,
+"word": "想象",
+"pinyin": "xiǎng xiàng",
+"gloss": "imagine; visualize",
+"tier": "weak"
+},
+{
+"nid": 1537328247810,
+"word": "有限",
+"pinyin": "yǒu xiàn",
+"gloss": "Limited, finite",
+"tier": "weak"
+},
+{
+"nid": 1537328241976,
+"word": "河南",
+"pinyin": "hé nán",
+"gloss": "Henan （province in northern China）",
+"tier": "sparse"
+},
+{
+"nid": 1708747485370,
+"word": "澳大利亚",
+"pinyin": "Ào dà lì yà",
+"gloss": "1. Australia",
+"tier": "sparse"
+},
+{
+"nid": 1393817668195,
+"word": "灵魂",
+"pinyin": "línghún",
+"gloss": "soul; spirit; conscience",
+"tier": "weak"
+},
+{
+"nid": 1537328240032,
+"word": "爱国",
+"pinyin": "ài guó",
+"gloss": "Patriotic",
+"tier": "weak"
+},
+{
+"nid": 1708747506226,
+"word": "荷兰",
+"pinyin": "Hé lán",
+"gloss": "1. Holland; 2. the Netherlands",
+"tier": "sparse"
+},
+{
+"nid": 1393817668330,
+"word": "证实",
+"pinyin": "zhèngshí",
+"gloss": "confirm; verify",
+"tier": "weak"
+},
+{
+"nid": 1537328247362,
+"word": "谈话",
+"pinyin": "tán huà",
+"gloss": "Talk, conversation",
+"tier": "weak"
+},
+{
+"nid": 1393817668346,
+"word": "进攻",
+"pinyin": "jìngōng",
+"gloss": "attack (military); assault",
+"tier": "weak"
+},
+{
+"nid": 1537328241806,
+"word": "一级",
+"pinyin": "yī jí",
+"gloss": "Level 1; First class, category A",
+"tier": "weak"
+},
+{
+"nid": 1537328247657,
+"word": "不必",
+"pinyin": "bú bì",
+"gloss": "Need not, does not have to",
+"tier": "weak"
+},
+{
+"nid": 1537328247904,
+"word": "加速",
+"pinyin": "jiā sù",
+"gloss": "To speed up, to expedite",
+"tier": "weak"
+},
+{
+"nid": 1393817667885,
+"word": "坚决",
+"pinyin": "jiānjué",
+"gloss": "resolute; determined; uncompromising",
+"tier": "weak"
+},
+{
+"nid": 1537328246263,
+"word": "慢慢",
+"pinyin": "màn màn",
+"gloss": "Slowly",
+"tier": "weak"
+},
+{
+"nid": 1708747509838,
+"word": "成都",
+"pinyin": "Chéng dū",
+"gloss": "1. Chengdu subprovincial city and capital of Sichuan province 四川 in southwest Ch",
+"tier": "weak"
+},
+{
+"nid": 1537328243702,
+"word": "排名",
+"pinyin": "pái míng",
+"gloss": "Rankings",
+"tier": "weak"
+},
+{
+"nid": 1708747500785,
+"word": "约翰",
+"pinyin": "Yuē hàn",
+"gloss": "1. John (name); 2. Johan (name); 3. Johann (name)",
+"tier": "sparse"
+},
+{
+"nid": 1708747499841,
+"word": "罗马",
+"pinyin": "Luó mǎ",
+"gloss": "1. Rome, capital of Italy",
+"tier": "sparse"
+},
+{
+"nid": 1537328245078,
+"word": "交给",
+"pinyin": "jiāo gěi",
+"gloss": "To hand over/in",
+"tier": "weak"
+},
+{
+"nid": 1537328245836,
+"word": "建成",
+"pinyin": "jiàn chéng",
+"gloss": "To build, construct",
+"tier": "weak"
+},
+{
+"nid": 1537328243063,
+"word": "此时",
+"pinyin": "cǐ shí",
+"gloss": "This time",
+"tier": "weak"
+},
+{
+"nid": 1708747527100,
+"word": "湖南",
+"pinyin": "Hú nán",
+"gloss": "1. Hunan province in south central China, abbr. 湘, capital Changsha 長沙|长沙[Cháng ",
+"tier": "weak"
+},
+{
+"nid": 1537328246957,
+"word": "等级",
+"pinyin": "děng jí",
+"gloss": "degree; rate",
+"tier": "weak"
+},
+{
+"nid": 1537328244932,
+"word": "舞台",
+"pinyin": "wǔ tái",
+"gloss": "（dancing） Stage",
+"tier": "weak"
+},
+{
+"nid": 1393817668556,
+"word": "评估",
+"pinyin": "pínggū",
+"gloss": "evaluate",
+"tier": "weak"
+},
+{
+"nid": 1537328244869,
+"word": "不得不",
+"pinyin": "bù dé bù",
+"gloss": "have to; have no choice but to; cannot but",
+"tier": "weak"
+},
+{
+"nid": 1537328245749,
+"word": "候选人",
+"pinyin": "hòu xuǎn rén",
+"gloss": "Candidate",
+"tier": "weak"
+},
+{
+"nid": 1537328247778,
+"word": "创建",
+"pinyin": "chuàng jiàn",
+"gloss": "To found, to establish",
+"tier": "weak"
+},
+{
+"nid": 1537328244302,
+"word": "受害者",
+"pinyin": "shòu hài zhě",
+"gloss": "Victim",
+"tier": "sparse"
+},
+{
+"nid": 1393817668780,
+"word": "思维",
+"pinyin": "sīwéi",
+"gloss": "(line) of thought; thinking",
+"tier": "weak"
+},
+{
+"nid": 1717270473667,
+"word": "推特",
+"pinyin": "Tuī tè",
+"gloss": "1. Twitter (microblogging service)",
+"tier": "weak"
+},
+{
+"nid": 1393817668749,
+"word": "撤销",
+"pinyin": "chèxiāo",
+"gloss": "repeal",
+"tier": "weak"
+},
+{
+"nid": 1393817668313,
+"word": "混乱",
+"pinyin": "hùnluàn",
+"gloss": "chaos;confusion; chaotic",
+"tier": "weak"
+},
+{
+"nid": 1537328239605,
+"word": "一块",
+"pinyin": "yī kuài",
+"gloss": "One buck, piece; One (of the currency)",
+"tier": "weak"
+},
+{
+"nid": 1537328243052,
+"word": "上传",
+"pinyin": "shàng chuán",
+"gloss": "To upload",
+"tier": "sparse"
+},
+{
+"nid": 1537328240259,
+"word": "两次",
+"pinyin": "liǎng cì",
+"gloss": "Twice",
+"tier": "sparse"
+},
+{
+"nid": 1393817669277,
+"word": "冲击",
+"pinyin": "chōngjī",
+"gloss": "attack; impact; a shock",
+"tier": "weak"
+},
+{
+"nid": 1537328242918,
+"word": "单独",
+"pinyin": "dān dú",
+"gloss": "alone",
+"tier": "weak"
+},
+{
+"nid": 1708747526073,
+"word": "墨西哥",
+"pinyin": "Mò xī gē",
+"gloss": "1. Mexico",
+"tier": "sparse"
+},
+{
+"nid": 1537328246046,
+"word": "强化",
+"pinyin": "qiáng huà",
+"gloss": "To strengthen, fortify",
+"tier": "weak"
+},
+{
+"nid": 1717270489023,
+"word": "湖北",
+"pinyin": "Hú běi",
+"gloss": "1. Hubei Province (Hupeh) in central China, abbr. 鄂[È], capital Wuhan 武漢|武汉[Wǔ h",
+"tier": "weak"
+},
+{
+"nid": 1393817668668,
+"word": "超越",
+"pinyin": "chāoyuè",
+"gloss": "surpass; exceed; transcend",
+"tier": "weak"
+},
+{
+"nid": 1393817668926,
+"word": "途径",
+"pinyin": "tújìng",
+"gloss": "way; channel",
+"tier": "weak"
+},
+{
+"nid": 1537328243744,
+"word": "骗子",
+"pinyin": "piàn zi",
+"gloss": "Cheater, con-artist",
+"tier": "weak"
+},
+{
+"nid": 1537328242852,
+"word": "叫做",
+"pinyin": "jiào zuò",
+"gloss": "It is called",
+"tier": "weak"
+},
+{
+"nid": 1537328248012,
+"word": "实验室",
+"pinyin": "shí yàn shì",
+"gloss": "Laboratory",
+"tier": "weak"
+},
+{
+"nid": 1393817668388,
+"word": "当初",
+"pinyin": "dāngchū",
+"gloss": "at that time; at the outset; originally;beginning",
+"tier": "weak"
+},
+{
+"nid": 1537328248094,
+"word": "批判",
+"pinyin": "pī pàn",
+"gloss": "criticize; critique",
+"tier": "sparse"
+},
+{
+"nid": 1393817668205,
+"word": "毫无",
+"pinyin": "háo wú",
+"gloss": "not at all; completely without; not in the least",
+"tier": "weak"
+},
+{
+"nid": 1537328244429,
+"word": "相反",
+"pinyin": "xiāng fǎn",
+"gloss": "opposite; contrary",
+"tier": "weak"
+},
+{
+"nid": 1393817669490,
+"word": "经费",
+"pinyin": "jīngfèi",
+"gloss": "funds; expenses",
+"tier": "sparse"
+},
+{
+"nid": 1708747500961,
+"word": "自治区",
+"pinyin": "zì zhì qū",
+"gloss": "1. autonomous region, namely: Inner Mongolia 內蒙古自治區|内蒙古自治区, Guangxi 廣西壯族自治區|广西壮族",
+"tier": "weak"
+},
+{
+"nid": 1708747491514,
+"word": "艺术家",
+"pinyin": "yì shù jiā",
+"gloss": "1. artist; 2. CL:個|个[gè],位[wèi],名[míng]",
+"tier": "weak"
+},
+{
+"nid": 1702812477885,
+"word": "诗人",
+"pinyin": "shīrén",
+"gloss": "poet",
+"tier": "weak"
+},
+{
+"nid": 1537328246905,
+"word": "赚钱",
+"pinyin": "zhuàn qián",
+"gloss": "To earn money, moneymaking",
+"tier": "weak"
+},
+{
+"nid": 1393817668559,
+"word": "典型",
+"pinyin": "diǎnxíng",
+"gloss": "typical case; model",
+"tier": "weak"
+},
+{
+"nid": 1537328240877,
+"word": "北部",
+"pinyin": "běi bù",
+"gloss": "Northern; The Northern parts; Northern part",
+"tier": "weak"
+},
+{
+"nid": 1537328242495,
+"word": "屁股",
+"pinyin": "pì gu",
+"gloss": "butt; rear; rump",
+"tier": "weak"
+},
+{
+"nid": 1537328246838,
+"word": "感染",
+"pinyin": "gǎn rǎn",
+"gloss": "infection; infect; influence",
+"tier": "weak"
+},
+{
+"nid": 1537328247260,
+"word": "拿到",
+"pinyin": "ná dào",
+"gloss": "To get it",
+"tier": "sparse"
+},
+{
+"nid": 1708747488951,
+"word": "杀人",
+"pinyin": "shā rén",
+"gloss": "1. homicide; 2. to murder; 3. to kill (a person)",
+"tier": "weak"
+},
+{
+"nid": 1705855324643,
+"word": "炸弹",
+"pinyin": "zhàdàn",
+"gloss": "bomb",
+"tier": "weak"
+},
+{
+"nid": 1537328239996,
+"word": "男孩",
+"pinyin": "nán hái",
+"gloss": "Boy",
+"tier": "weak"
+},
+{
+"nid": 1708747526014,
+"word": "以色列",
+"pinyin": "Yǐ sè liè",
+"gloss": "1. Israel",
+"tier": "sparse"
+},
+{
+"nid": 1537328247246,
+"word": "对付",
+"pinyin": "duì fu",
+"gloss": "to handle; deal with",
+"tier": "weak"
+},
+{
+"nid": 1393817668429,
+"word": "对抗",
+"pinyin": "duìkàng",
+"gloss": "withstand; resist; antagonize",
+"tier": "weak"
+},
+{
+"nid": 1393817668230,
+"word": "恐惧",
+"pinyin": "kǒngjù",
+"gloss": "fear; dread; phobia",
+"tier": "weak"
+},
+{
+"nid": 1393817668581,
+"word": "情形",
+"pinyin": "qíngxing",
+"gloss": "circumstances; situation",
+"tier": "weak"
+},
+{
+"nid": 1708747492853,
+"word": "教会",
+"pinyin": "jiāo huì",
+"gloss": "1. to show; 2. to teach",
+"tier": "weak"
+},
+{
+"nid": 1537328241783,
+"word": "歌手",
+"pinyin": "gē shǒu",
+"gloss": "Singer",
+"tier": "weak"
+},
+{
+"nid": 1537328242549,
+"word": "河北",
+"pinyin": "hé běi",
+"gloss": "Hebei （province in the north, around Beijing）",
+"tier": "weak"
+},
+{
+"nid": 1537328245923,
+"word": "留在",
+"pinyin": "liú zài",
+"gloss": "To leave behind, remain",
+"tier": "sparse"
+},
+{
+"nid": 1708747486466,
+"word": "部落",
+"pinyin": "bù luò",
+"gloss": "1. tribe",
+"tier": "sparse"
+},
+{
+"nid": 1537328242282,
+"word": "一周",
+"pinyin": "yī zhōu",
+"gloss": "One week",
+"tier": "weak"
+},
+{
+"nid": 1537328246298,
+"word": "一套",
+"pinyin": "yī tào",
+"gloss": "Suit, a set, a collection, of the same kind",
+"tier": "weak"
+},
+{
+"nid": 1708747485762,
+"word": "代码",
+"pinyin": "dài mǎ",
+"gloss": "1. (some) code (in programming)",
+"tier": "weak"
+},
+{
+"nid": 1393817670024,
+"word": "划分",
+"pinyin": "huàfēn",
+"gloss": "divide up; differentiate",
+"tier": "weak"
+},
+{
+"nid": 1537328243733,
+"word": "动画",
+"pinyin": "dòng huà",
+"gloss": "Animation (in general)",
+"tier": "weak"
+},
+{
+"nid": 1537328241513,
+"word": "大楼",
+"pinyin": "dà lóu",
+"gloss": "Building",
+"tier": "sparse"
+},
+{
+"nid": 1537328247503,
+"word": "居然",
+"pinyin": "jū rán",
+"gloss": "unexpectedly; to one's surprise; go so far as to (interjection)",
+"tier": "weak"
+},
+{
+"nid": 1699982927163,
+"word": "微软",
+"pinyin": "wēiruǎn",
+"gloss": "Microsoft",
+"tier": "sparse"
+},
+{
+"nid": 1393817668183,
+"word": "意味着",
+"pinyin": "yìwèizhe",
+"gloss": "signify; to mean; imply",
+"tier": "weak"
+},
+{
+"nid": 1393817668255,
+"word": "愤怒",
+"pinyin": "fènnù",
+"gloss": "angry; indignant; furious; anger; indignation; wrath; ire",
+"tier": "weak"
+},
+{
+"nid": 1537328247699,
+"word": "新型",
+"pinyin": "xīn xíng",
+"gloss": "New type, new kind",
+"tier": "weak"
+},
+{
+"nid": 1537328247229,
+"word": "球队",
+"pinyin": "qiú duì",
+"gloss": "Sports team (basketball, soccer, football etc)",
+"tier": "weak"
+},
+{
+"nid": 1393817667071,
+"word": "离婚",
+"pinyin": "lí hūn",
+"gloss": "to divorce; divorced from (one's spouse)",
+"tier": "weak"
+},
+{
+"nid": 1393817667820,
+"word": "色彩",
+"pinyin": "sècǎi",
+"gloss": "tint; color; hue",
+"tier": "sparse"
+},
+{
+"nid": 1393817668527,
+"word": "许可",
+"pinyin": "xǔkě",
+"gloss": "allow; permit; permission",
+"tier": "weak"
+},
+{
+"nid": 1393817669213,
+"word": "部署",
+"pinyin": "bùshǔ",
+"gloss": "dispose; deploy",
+"tier": "weak"
+},
+{
+"nid": 1537328245226,
+"word": "高校",
+"pinyin": "gāo xiào",
+"gloss": "High-school",
+"tier": "sparse"
+},
+{
+"nid": 1537328247783,
+"word": "创业",
+"pinyin": "chuàng yè",
+"gloss": "begin an undertaking; start a major task; start a company, found a start-up",
+"tier": "sparse"
+},
+{
+"nid": 1537328240802,
+"word": "南方",
+"pinyin": "nán fāng",
+"gloss": "The South; The south",
+"tier": "weak"
+},
+{
+"nid": 1537328248140,
+"word": "博客",
+"pinyin": "bó kè",
+"gloss": "Blog (loanword), blogger",
+"tier": "sparse"
+},
+{
+"nid": 1708747526071,
+"word": "叙利亚",
+"pinyin": "Xù lì yà",
+"gloss": "1. Syria",
+"tier": "sparse"
+},
+{
+"nid": 1537328243650,
+"word": "夏天",
+"pinyin": "xià tiān",
+"gloss": "Summer",
+"tier": "weak"
+},
+{
+"nid": 1717270466039,
+"word": "奥运",
+"pinyin": "Ào yùn",
+"gloss": "1. abbr. for 奧林匹克運動會|奥林匹克运动会; 2. Olympic Games; 3. the Olympics",
+"tier": "weak"
+},
+{
+"nid": 1537328244536,
+"word": "市区",
+"pinyin": "shì qū",
+"gloss": "City centre",
+"tier": "sparse"
+},
+{
+"nid": 1393817670039,
+"word": "指标",
+"pinyin": "zhǐbiāo",
+"gloss": "target; norm; index; indicator",
+"tier": "weak"
+},
+{
+"nid": 1672769484791,
+"word": "接下来",
+"pinyin": "Jiē xiàlái",
+"gloss": "Next (from now on), following",
+"tier": "sparse"
+},
+{
+"nid": 1393817670185,
+"word": "文献",
+"pinyin": "wénxiàn",
+"gloss": "document; literature",
+"tier": "weak"
+},
+{
+"nid": 1537328247512,
+"word": "电视剧",
+"pinyin": "diàn shì jù",
+"gloss": "TV play, soap opera",
+"tier": "sparse"
+},
+{
+"nid": 1393817668399,
+"word": "顾问",
+"pinyin": "gùwèn",
+"gloss": "adviser; consultant",
+"tier": "weak"
+},
+{
+"nid": 1393817668122,
+"word": "与其",
+"pinyin": "yǔqí",
+"gloss": "rather than; better than",
+"tier": "weak"
+},
+{
+"nid": 1537328246113,
+"word": "人群",
+"pinyin": "rén qún",
+"gloss": "Crowd, a group of people",
+"tier": "weak"
+},
+{
+"nid": 1537328242571,
+"word": "例子",
+"pinyin": "lì zi",
+"gloss": "Example",
+"tier": "weak"
+},
+{
+"nid": 1537328244188,
+"word": "全都",
+"pinyin": "quán dōu",
+"gloss": "All, everything",
+"tier": "weak"
+},
+{
+"nid": 1537328246250,
+"word": "取代",
+"pinyin": "qǔ dài",
+"gloss": "To replace",
+"tier": "weak"
+},
+{
+"nid": 1393817668711,
+"word": "合并",
+"pinyin": "hébìng",
+"gloss": "merge; annex",
+"tier": "weak"
+},
+{
+"nid": 1708747522855,
+"word": "土耳其",
+"pinyin": "Tǔ ěr qí",
+"gloss": "1. Turkey",
+"tier": "sparse"
+},
+{
+"nid": 1393817669556,
+"word": "废除",
+"pinyin": "fèichú",
+"gloss": "abolish; annul; abrogate",
+"tier": "weak"
+},
+{
+"nid": 1537328247809,
+"word": "无限",
+"pinyin": "wú xiàn",
+"gloss": "Unlimited, unbounded ♾️",
+"tier": "weak"
+},
+{
+"nid": 1708747499753,
+"word": "杭州",
+"pinyin": "Háng zhōu",
+"gloss": "1. Hangzhou subprovincial city and capital of Zhejiang province in southeast Chi",
+"tier": "sparse"
+},
+{
+"nid": 1537328247824,
+"word": "深度",
+"pinyin": "shēn dù",
+"gloss": "Depth, (of a speech etc) profundity",
+"tier": "weak"
+},
+{
+"nid": 1537328247862,
+"word": "反抗",
+"pinyin": "fǎn kàng",
+"gloss": "resist; to revolt",
+"tier": "weak"
+},
+{
+"nid": 1708747503634,
+"word": "埃及",
+"pinyin": "Āi jí",
+"gloss": "1. Egypt",
+"tier": "sparse"
+},
+{
+"nid": 1708747501712,
+"word": "外交部",
+"pinyin": "Wài jiāo bù",
+"gloss": "1. Ministry of Foreign Affairs; 2. foreign office; 3. Dept. of State",
+"tier": "weak"
+},
+{
+"nid": 1537328245409,
+"word": "天使",
+"pinyin": "tiān shǐ",
+"gloss": "Angel",
+"tier": "weak"
+},
+{
+"nid": 1393817668787,
+"word": "引导",
+"pinyin": "yǐndǎo",
+"gloss": "to guide; to conduct; introduction",
+"tier": "weak"
+},
+{
+"nid": 1393817668916,
+"word": "引用",
+"pinyin": "yǐnyòng",
+"gloss": "quote; cite",
+"tier": "sparse"
+},
+{
+"nid": 1393817669517,
+"word": "扩张",
+"pinyin": "kuòzhāng",
+"gloss": "expansion; extension",
+"tier": "weak"
+},
+{
+"nid": 1708747502574,
+"word": "报导",
+"pinyin": "bào dǎo",
+"gloss": "1. to report (in the media); 2. (news) report",
+"tier": "weak"
+},
+{
+"nid": 1708747501509,
+"word": "法案",
+"pinyin": "fǎ àn",
+"gloss": "1. bill; 2. proposed law",
+"tier": "sparse"
+},
+{
+"nid": 1708747510677,
+"word": "波兰",
+"pinyin": "Bō lán",
+"gloss": "1. Poland",
+"tier": "sparse"
+},
+{
+"nid": 1717270487603,
+"word": "缅甸",
+"pinyin": "Miǎn diàn",
+"gloss": "1. Myanmar (or Burma)",
+"tier": "sparse"
+},
+{
+"nid": 1393817668111,
+"word": "陆续",
+"pinyin": "lùxù",
+"gloss": "in turn; successively; one after another",
+"tier": "weak"
+},
+{
+"nid": 1537328246357,
+"word": "不幸",
+"pinyin": "bú xìng",
+"gloss": "Misfortune, adversity, unfortunate",
+"tier": "weak"
+},
+{
+"nid": 1393817668238,
+"word": "代价",
+"pinyin": "dàijià",
+"gloss": "price; cost; expense",
+"tier": "weak"
+},
+{
+"nid": 1537328246963,
+"word": "优先",
+"pinyin": "yōu xiān",
+"gloss": "priority; preferential",
+"tier": "weak"
+},
+{
+"nid": 1537328244419,
+"word": "反正",
+"pinyin": "fǎn zhèng",
+"gloss": "anyway,&nbsp;in any case;since, as",
+"tier": "weak"
+},
+{
+"nid": 1393817668179,
+"word": "失踪",
+"pinyin": "shī zōng",
+"gloss": "be missing; be unaccounted for",
+"tier": "weak"
+},
+{
+"nid": 1393817667819,
+"word": "对比",
+"pinyin": "duìbǐ",
+"gloss": "compare; to contrast; comparison",
+"tier": "sparse"
+},
+{
+"nid": 1708747515771,
+"word": "建国",
+"pinyin": "jiàn guó",
+"gloss": "1. to found a country; 2. nation-building; 3. the foundation of PRC by Mao Zedon",
+"tier": "weak"
+},
+{
+"nid": 1393817667567,
+"word": "戏剧",
+"pinyin": "xìjù",
+"gloss": "drama; play; theater",
+"tier": "sparse"
+},
+{
+"nid": 1708747485312,
+"word": "某种",
+"pinyin": "mǒu zhǒng",
+"gloss": "1. some kind (of)",
+"tier": "weak"
+},
+{
+"nid": 1708747510831,
+"word": "玩家",
+"pinyin": "wán jiā",
+"gloss": "1. player (of a game); 2. enthusiast (audio, model planes etc)",
+"tier": "weak"
+},
+{
+"nid": 1393817669610,
+"word": "种植",
+"pinyin": "zhòngzhí",
+"gloss": "plant; grow; crop",
+"tier": "weak"
+},
+{
+"nid": 1537328247973,
+"word": "落后",
+"pinyin": "luò hòu",
+"gloss": "backward; to lag (in technology); to fall behind",
+"tier": "weak"
+},
+{
+"nid": 1537328240369,
+"word": "西安",
+"pinyin": "xī‘ān",
+"gloss": "Xi'an",
+"tier": "weak"
+},
+{
+"nid": 1537328241303,
+"word": "读书",
+"pinyin": "dú shū",
+"gloss": "To study (in school), attend school",
+"tier": "weak"
+},
+{
+"nid": 1726876647576,
+"word": "邓小平",
+"pinyin": "Dèngxiǎopíng",
+"gloss": "Deng Xiaoping (1904-1997), a Chinese communist leader, the architect of \"sociali",
+"tier": "sparse"
+},
+{
+"nid": 1708747494390,
+"word": "镇压",
+"pinyin": "zhèn yā",
+"gloss": "1. suppression; 2. repression; 3. to suppress; 4. to put down; 5. to quell",
+"tier": "weak"
+},
+{
+"nid": 1708747525311,
+"word": "陕西",
+"pinyin": "Shǎn xī",
+"gloss": "1. Shaanxi (formerly Shensi), province in northwest China, abbr. 陝|陕[Shǎn], capi",
+"tier": "sparse"
+},
+{
+"nid": 1537328246897,
+"word": "乘客",
+"pinyin": "chéng kè",
+"gloss": "Passenger",
+"tier": "sparse"
+},
+{
+"nid": 1537328243501,
+"word": "再说",
+"pinyin": "zài shuō",
+"gloss": "In addition, what's more, moreover",
+"tier": "weak"
+},
+{
+"nid": 1537328241973,
+"word": "商人",
+"pinyin": "shāng rén",
+"gloss": "Merchant",
+"tier": "weak"
+},
+{
+"nid": 1537328242599,
+"word": "宝宝",
+"pinyin": "bǎo bǎo",
+"gloss": "Baby",
+"tier": "sparse"
+},
+{
+"nid": 1393817670100,
+"word": "方针",
+"pinyin": "fāngzhēn",
+"gloss": "policy; guidelines",
+"tier": "weak"
+},
+{
+"nid": 1537328246334,
+"word": "机器人",
+"pinyin": "jī qì rén",
+"gloss": "Mechanical person, robot, android",
+"tier": "sparse"
+},
+{
+"nid": 1537328246086,
+"word": "查看",
+"pinyin": "chá kàn",
+"gloss": "To look over, examine; To look over, to examine, to check up",
+"tier": "weak"
+},
+{
+"nid": 1393817667794,
+"word": "活跃",
+"pinyin": "huóyuè",
+"gloss": "active; vigorous",
+"tier": "weak"
+},
+{
+"nid": 1717270472275,
+"word": "股权",
+"pinyin": "gǔ quán",
+"gloss": "1. equity shares; 2. stock right",
+"tier": "sparse"
+},
+{
+"nid": 1708747490347,
+"word": "较为",
+"pinyin": "jiào wéi",
+"gloss": "1. comparatively; 2. relatively; 3. fairly",
+"tier": "weak"
+},
+{
+"nid": 1537328245486,
+"word": "都市",
+"pinyin": "dū shì",
+"gloss": "Metropolis, big city",
+"tier": "weak"
+},
+{
+"nid": 1537328245493,
+"word": "页面",
+"pinyin": "yè miàn",
+"gloss": "Page layout",
+"tier": "sparse"
+},
+{
+"nid": 1393817670058,
+"word": "专题",
+"pinyin": "zhuāntí",
+"gloss": "special topic; questions; special matter or subject",
+"tier": "sparse"
+},
+{
+"nid": 1537328246196,
+"word": "世界杯",
+"pinyin": "shì jiè bēi",
+"gloss": "World Cup",
+"tier": "sparse"
+},
+{
+"nid": 1537328246020,
+"word": "封锁",
+"pinyin": "fēng suǒ",
+"gloss": "to block off; to seal off; cordon off; blockade",
+"tier": "weak"
+},
+{
+"nid": 1537328247174,
+"word": "工艺",
+"pinyin": "gōng yì",
+"gloss": "Arts and crafts, industrial arts",
+"tier": "sparse"
+},
+{
+"nid": 1708747488311,
+"word": "干嘛",
+"pinyin": "gàn má",
+"gloss": "1. what are you doing?; 2. whatever for?; 3. why on earth?",
+"tier": "weak"
+},
+{
+"nid": 1393817667199,
+"word": "总之",
+"pinyin": "zǒngzhī",
+"gloss": "in a word; in short; in brief / anyway; anyhow",
+"tier": "weak"
+},
+{
+"nid": 1393817666485,
+"word": "恐怕",
+"pinyin": "kǒngpà",
+"gloss": "be afraid; to fear;&nbsp;I'm afraid that...",
+"tier": "weak"
+},
+{
+"nid": 1537328244682,
+"word": "无关",
+"pinyin": "wú guān",
+"gloss": "Unrelated; Unrelated, having nothing to do (with sth else)",
+"tier": "weak"
+},
+{
+"nid": 1537328242117,
+"word": "没错",
+"pinyin": "méi cuò",
+"gloss": "Not bad,&nbsp;that's right",
+"tier": "weak"
+},
+{
+"nid": 1393817669853,
+"word": "物资",
+"pinyin": "wùzī",
+"gloss": "goods and materials; commodity",
+"tier": "weak"
+},
+{
+"nid": 1537328242057,
+"word": "病人",
+"pinyin": "bìng rén",
+"gloss": "Patient",
+"tier": "weak"
+},
+{
+"nid": 1717270464417,
+"word": "莫斯科",
+"pinyin": "Mò sī kē",
+"gloss": "1. Moscow, capital of Russia",
+"tier": "sparse"
+},
+{
+"nid": 1393817668557,
+"word": "解除",
+"pinyin": "jiěchú",
+"gloss": "remove; relieve (someone of their duties); sack; get rid of",
+"tier": "weak"
+},
+{
+"nid": 1708747495179,
+"word": "谋杀",
+"pinyin": "móu shā",
+"gloss": "1. to murder; 2. to assassinate; 3. intentional homicide",
+"tier": "weak"
+},
+{
+"nid": 1393817669390,
+"word": "迫害",
+"pinyin": "pòhài",
+"gloss": "persecute; persecution",
+"tier": "weak"
+},
+{
+"nid": 1393817669867,
+"word": "主流",
+"pinyin": "zhǔliú",
+"gloss": "main stream (of a river); the essential point",
+"tier": "sparse"
+},
+{
+"nid": 1708747494685,
+"word": "伊拉克",
+"pinyin": "Yī lā kè",
+"gloss": "1. Iraq",
+"tier": "sparse"
+},
+{
+"nid": 1393817667655,
+"word": "其余",
+"pinyin": "qíyú",
+"gloss": "the others; the rest; remaining",
+"tier": "weak"
+},
+{
+"nid": 1393817667211,
+"word": "勇气",
+"pinyin": "yǒngqì",
+"gloss": "courage; valor",
+"tier": "weak"
+},
+{
+"nid": 1710963495261,
+"word": "华盛顿",
+"pinyin": "Huá shèng dùn",
+"gloss": "1. Washington (name); 2. George Washington (1732-1799), first US president; 3. W",
+"tier": "sparse"
+},
+{
+"nid": 1537328245672,
+"word": "尽量",
+"pinyin": "jǐn liàng",
+"gloss": "as much as possible; to the best of one's ability (jìn-: eat or drink to one's f",
+"tier": "weak"
+},
+{
+"nid": 1393817670076,
+"word": "布局",
+"pinyin": "bùjú",
+"gloss": "arrangement; composition; layout",
+"tier": "sparse"
+},
+{
+"nid": 1393817668372,
+"word": "强迫",
+"pinyin": "qiǎngpò",
+"gloss": "compel; to force",
+"tier": "weak"
+},
+{
+"nid": 1393817669783,
+"word": "形态",
+"pinyin": "xíngtài",
+"gloss": "shape; form; pattern",
+"tier": "weak"
+},
+{
+"nid": 1393817668393,
+"word": "心灵",
+"pinyin": "xīnlíng",
+"gloss": "heart; soul",
+"tier": "weak"
+},
+{
+"nid": 1537328247866,
+"word": "抗日",
+"pinyin": "kàng rì",
+"gloss": "To resist Japan (esp. during WW2)",
+"tier": "sparse"
+},
+{
+"nid": 1393817669664,
+"word": "文物",
+"pinyin": "wénwù",
+"gloss": "cultural relic; historical relic",
+"tier": "sparse"
+},
+{
+"nid": 1393817667428,
+"word": "无数",
+"pinyin": "wúshù",
+"gloss": "countless; innumerable",
+"tier": "weak"
+},
+{
+"nid": 1537328244231,
+"word": "活着",
+"pinyin": "huó zhe",
+"gloss": "Living, alive; Alive",
+"tier": "weak"
+},
+{
+"nid": 1708747496221,
+"word": "皇家",
+"pinyin": "huáng jiā",
+"gloss": "1. royal; 2. imperial household",
+"tier": "sparse"
+},
+{
+"nid": 1393817667942,
+"word": "种类",
+"pinyin": "zhǒnglèi",
+"gloss": "kind; category; class",
+"tier": "weak"
+},
+{
+"nid": 1393817668830,
+"word": "诞生",
+"pinyin": "dànshēng",
+"gloss": "be born; come into being",
+"tier": "weak"
+},
+{
+"nid": 1393817668536,
+"word": "透露",
+"pinyin": "tòulù",
+"gloss": "divulge; to reveal; leak out",
+"tier": "weak"
+},
+{
+"nid": 1537328242947,
+"word": "青岛",
+"pinyin": "qīng dǎo",
+"gloss": "Qingdao, a popular beer brand",
+"tier": "weak"
+},
+{
+"nid": 1537328247781,
+"word": "创立",
+"pinyin": "chuàng lì",
+"gloss": "to found; establish",
+"tier": "weak"
+},
+{
+"nid": 1710963496027,
+"word": "印尼",
+"pinyin": "Yìn ní",
+"gloss": "1. Indonesia (abbr. for 印度尼西亞|印度尼西亚)",
+"tier": "sparse"
+},
+{
+"nid": 1708747491888,
+"word": "大幅",
+"pinyin": "dà fú",
+"gloss": "1. a big margin; 2. substantially",
+"tier": "weak"
+},
+{
+"nid": 1708747500014,
+"word": "指控",
+"pinyin": "zhǐ kòng",
+"gloss": "1. accusation; 2. a (criminal) charge; 3. to accuse",
+"tier": "sparse"
+},
+{
+"nid": 1708747510614,
+"word": "无人",
+"pinyin": "wú rén",
+"gloss": "1. unmanned; 2. uninhabited",
+"tier": "weak"
+},
+{
+"nid": 1708747498911,
+"word": "洛杉矶",
+"pinyin": "Luò shān jī",
+"gloss": "1. Los Angeles, California",
+"tier": "sparse"
+},
+{
+"nid": 1393817668661,
+"word": "消除",
+"pinyin": "xiāochú",
+"gloss": "eliminate; remove; clear up (abstract things）",
+"tier": "weak"
+},
+{
+"nid": 1393817668860,
+"word": "登陆",
+"pinyin": "dēnglù",
+"gloss": "to land; come ashore; sign/log in",
+"tier": "weak"
+},
+{
+"nid": 1708747486839,
+"word": "秘书长",
+"pinyin": "mì shū zhǎng",
+"gloss": "1. secretary-general",
+"tier": "sparse"
+},
+{
+"nid": 1393817667157,
+"word": "赶紧",
+"pinyin": "gǎnjǐn",
+"gloss": "at once; hurriedly; lose no time",
+"tier": "weak"
+},
+{
+"nid": 1708747498596,
+"word": "难民",
+"pinyin": "nàn mín",
+"gloss": "1. refugee",
+"tier": "weak"
+},
+{
+"nid": 1717270465625,
+"word": "东南亚",
+"pinyin": "Dōng nán yà",
+"gloss": "1. Southeast Asia",
+"tier": "sparse"
+},
+{
+"nid": 1393817667927,
+"word": "个别",
+"pinyin": "gèbié",
+"gloss": "individual; specific; isolated; very few",
+"tier": "weak"
+},
+{
+"nid": 1393817667604,
+"word": "从此",
+"pinyin": "cóngcǐ",
+"gloss": "from now on; since then",
+"tier": "weak"
+},
+{
+"nid": 1393817668507,
+"word": "侵犯",
+"pinyin": "qīnfàn",
+"gloss": "encroach on; infringe on; violation",
+"tier": "sparse"
+},
+{
+"nid": 1393817667439,
+"word": "可靠",
+"pinyin": "kěkào",
+"gloss": "reliable",
+"tier": "weak"
+},
+{
+"nid": 1708747503547,
+"word": "各类",
+"pinyin": "gè lèi",
+"gloss": "1. all categories",
+"tier": "sparse"
+},
+{
+"nid": 1537328241037,
+"word": "基本上",
+"pinyin": "jī běn shang",
+"gloss": "Basically; Basically, on the whole",
+"tier": "weak"
+},
+{
+"nid": 1708747486731,
+"word": "太平洋",
+"pinyin": "Tài píng Yáng",
+"gloss": "1. Pacific Ocean",
+"tier": "sparse"
+},
+{
+"nid": 1717270477049,
+"word": "巴基斯坦",
+"pinyin": "Bā jī sī tǎn",
+"gloss": "1. Pakistan",
+"tier": "sparse"
+},
+{
+"nid": 1393817668182,
+"word": "性感",
+"pinyin": "xìnggǎn",
+"gloss": "sex appeal; sexy; sexuality",
+"tier": "weak"
+},
+{
+"nid": 1537328245814,
+"word": "标题",
+"pinyin": "biāo tí",
+"gloss": "title; header; headline; caption",
+"tier": "weak"
+},
+{
+"nid": 1537328248006,
+"word": "检验",
+"pinyin": "jiǎn yàn",
+"gloss": "inspect; examine; to test",
+"tier": "weak"
+},
+{
+"nid": 1708747492769,
+"word": "蒙古",
+"pinyin": "Měng gǔ",
+"gloss": "1. Mongolia",
+"tier": "weak"
+},
+{
+"nid": 1537328247486,
+"word": "贵族",
+"pinyin": "guì zú",
+"gloss": "lord; nobility; nobleman; noblewoman",
+"tier": "sparse"
+},
+{
+"nid": 1537328240546,
+"word": "下次",
+"pinyin": "xià cì",
+"gloss": "Next time",
+"tier": "weak"
+},
+{
+"nid": 1537328246853,
+"word": "专用",
+"pinyin": "zhuān yòng",
+"gloss": "Special, dedicated",
+"tier": "weak"
+},
+{
+"nid": 1708747491387,
+"word": "他妈的",
+"pinyin": "tā mā de",
+"gloss": "1. (taboo curse) damn it!; 2. fucking",
+"tier": "weak"
+},
+{
+"nid": 1537328246964,
+"word": "优质",
+"pinyin": "yōu zhì",
+"gloss": "Excellent quality",
+"tier": "weak"
+},
+{
+"nid": 1708747508750,
+"word": "内战",
+"pinyin": "nèi zhàn",
+"gloss": "1. civil war",
+"tier": "weak"
+},
+{
+"nid": 1708747501027,
+"word": "北京市",
+"pinyin": "Běi jīng Shì",
+"gloss": "1. Beijing; 2. capital of People&#x27;s Republic of China; 3. one of the four mu",
+"tier": "sparse"
+},
+{
+"nid": 1393817667774,
+"word": "单纯",
+"pinyin": "dānchún",
+"gloss": "simple; pure; merely",
+"tier": "weak"
+},
+{
+"nid": 1393817669714,
+"word": "周期",
+"pinyin": "zhōuqī",
+"gloss": "period; cycle; rhythm",
+"tier": "sparse"
+},
+{
+"nid": 1537328247697,
+"word": "小型",
+"pinyin": "xiǎo xíng",
+"gloss": "Small scale, small size",
+"tier": "weak"
+},
+{
+"nid": 1708747493261,
+"word": "山西",
+"pinyin": "Shān xī",
+"gloss": "1. Shanxi province (Shansi) in north China between Hebei and Shaanxi, abbr. 晋 ca",
+"tier": "weak"
+},
+{
+"nid": 1393817668380,
+"word": "技巧",
+"pinyin": "jìqiǎo",
+"gloss": "skill; technique",
+"tier": "weak"
+},
+{
+"nid": 1393817668675,
+"word": "投诉",
+"pinyin": "tóusù",
+"gloss": "make a complaint; appeal to a court",
+"tier": "weak"
+},
+{
+"nid": 1393817668501,
+"word": "指示",
+"pinyin": "zhǐshì",
+"gloss": "indicate; instruct; instructions",
+"tier": "weak"
+},
+{
+"nid": 1393817669130,
+"word": "推翻",
+"pinyin": "tuīfān",
+"gloss": "overthrow; topple",
+"tier": "weak"
+},
+{
+"nid": 1537328240580,
+"word": "昨晚",
+"pinyin": "zuó wǎn",
+"gloss": "Last night",
+"tier": "weak"
+},
+{
+"nid": 1708747502781,
+"word": "本文",
+"pinyin": "běn wén",
+"gloss": "1. this text; 2. article; 3. the main body of a book",
+"tier": "weak"
+},
+{
+"nid": 1708747489448,
+"word": "村民",
+"pinyin": "cūn mín",
+"gloss": "1. villager",
+"tier": "weak"
+},
+{
+"nid": 1393817668533,
+"word": "混合",
+"pinyin": "hùnhé",
+"gloss": "to mix; to blend",
+"tier": "weak"
+},
+{
+"nid": 1708747486136,
+"word": "百万",
+"pinyin": "bǎi wàn",
+"gloss": "1. million; 2. millions",
+"tier": "weak"
+},
+{
+"nid": 1537328240487,
+"word": "篮球",
+"pinyin": "lán qiú",
+"gloss": "Basketball",
+"tier": "weak"
+},
+{
+"nid": 1717270465098,
+"word": "网路",
+"pinyin": "wǎng lù",
+"gloss": "1. network (computer, telecom); 2. Internet; 3. Taiwanese term for 網絡|网络[wǎng lu",
+"tier": "weak"
+},
+{
+"nid": 1705337196851,
+"word": "职责",
+"pinyin": "zhízé",
+"gloss": "responsibility, duty, obligation",
+"tier": "weak"
+},
+{
+"nid": 1710963495931,
+"word": "融资",
+"pinyin": "róng zī",
+"gloss": "1. financing",
+"tier": "sparse"
+},
+{
+"nid": 1393817669739,
+"word": "采购",
+"pinyin": "cǎigòu",
+"gloss": "make purchases for an organization; go shopping",
+"tier": "sparse"
+},
+{
+"nid": 1537328244199,
+"word": "两者",
+"pinyin": "liǎng zhě",
+"gloss": "The two involved",
+"tier": "weak"
+},
+{
+"nid": 1393817666856,
+"word": "亲爱",
+"pinyin": "qīn'ài",
+"gloss": "beloved; Dear ... (a way of starting a letter lovers, intimate friends or close ",
+"tier": "weak"
+},
+{
+"nid": 1537328247843,
+"word": "变态",
+"pinyin": "biàn tài",
+"gloss": "To metamorphose (biology), (slang) pervert; Hentai (JP)",
+"tier": "weak"
+},
+{
+"nid": 1710963492735,
+"word": "同性恋",
+"pinyin": "tóng xìng liàn",
+"gloss": "1. homosexuality; 2. gay person; 3. gay love",
+"tier": "weak"
+},
+{
+"nid": 1537328245291,
+"word": "周边",
+"pinyin": "zhōu biān",
+"gloss": "surrounding",
+"tier": "weak"
+},
+{
+"nid": 1537328243807,
+"word": "女神",
+"pinyin": "nǚ shén",
+"gloss": "Goddess; Ms Perfect",
+"tier": "weak"
+},
+{
+"nid": 1708747498751,
+"word": "影响力",
+"pinyin": "yǐng xiǎng lì",
+"gloss": "1. influence; 2. impact",
+"tier": "weak"
+},
+{
+"nid": 1704010832415,
+"word": "物品",
+"pinyin": "wùpǐn",
+"gloss": "articles, goods (shopping articles)",
+"tier": "weak"
+},
+{
+"nid": 1710963495599,
+"word": "犹太人",
+"pinyin": "Yóu tài rén",
+"gloss": "1. Jew",
+"tier": "sparse"
+},
+{
+"nid": 1708747487672,
+"word": "百姓",
+"pinyin": "bǎi xìng",
+"gloss": "1. common people",
+"tier": "weak"
+},
+{
+"nid": 1537328247639,
+"word": "线上",
+"pinyin": "xiàn shàng",
+"gloss": "Online",
+"tier": "weak"
+},
+{
+"nid": 1710963488990,
+"word": "营销",
+"pinyin": "yíng xiāo",
+"gloss": "1. marketing",
+"tier": "sparse"
+},
+{
+"nid": 1393817668574,
+"word": "边缘",
+"pinyin": "biānyuán",
+"gloss": "edge; fringe; verge; brink",
+"tier": "weak"
+},
+{
+"nid": 1537328245439,
+"word": "返回",
+"pinyin": "fǎn huí",
+"gloss": "To return",
+"tier": "weak"
+},
+{
+"nid": 1537328245659,
+"word": "一篇",
+"pinyin": "yī piān",
+"gloss": "One article; mw articles",
+"tier": "sparse"
+},
+{
+"nid": 1537328241256,
+"word": "买卖",
+"pinyin": "mǎi mài",
+"gloss": "Business",
+"tier": "sparse"
+},
+{
+"nid": 1393817668866,
+"word": "以往",
+"pinyin": "yǐwǎng",
+"gloss": "in the past; formerly",
+"tier": "weak"
+},
+{
+"nid": 1393817668985,
+"word": "依旧",
+"pinyin": "yījiù",
+"gloss": "as before; still",
+"tier": "weak"
+},
+{
+"nid": 1537328244038,
+"word": "半岛",
+"pinyin": "bàn dǎo",
+"gloss": "Peninsula",
+"tier": "sparse"
+},
+{
+"nid": 1393817667252,
+"word": "微笑",
+"pinyin": "wēixiào",
+"gloss": "smile",
+"tier": "weak"
+},
+{
+"nid": 1537328243284,
+"word": "旅客",
+"pinyin": "lǚ kè",
+"gloss": "Tourist",
+"tier": "sparse"
+},
+{
+"nid": 1393817669917,
+"word": "日益",
+"pinyin": "rìyì",
+"gloss": "day by day; more and more; increasingly",
+"tier": "weak"
+},
+{
+"nid": 1708747489192,
+"word": "极大",
+"pinyin": "jí dà",
+"gloss": "1. maximum; 2. enormous",
+"tier": "weak"
+},
+{
+"nid": 1393817668566,
+"word": "火箭",
+"pinyin": "huǒjiàn",
+"gloss": "rocket",
+"tier": "sparse"
+},
+{
+"nid": 1537328245383,
+"word": "瑞典",
+"pinyin": "ruì diǎn*",
+"gloss": "Sweden(!)",
+"tier": "sparse"
+},
+{
+"nid": 1520716965620,
+"word": "第二次",
+"pinyin": "dì-èr cì",
+"gloss": "the second time",
+"tier": "weak"
+},
+{
+"nid": 1537328247529,
+"word": "粉丝",
+"pinyin": "fěn sī",
+"gloss": "Fan (loanword)",
+"tier": "weak"
+},
+{
+"nid": 1393817668201,
+"word": "绑架",
+"pinyin": "bǎngjià",
+"gloss": "kidnap; stalking",
+"tier": "weak"
+},
+{
+"nid": 1708118583705,
+"word": "苏州",
+"pinyin": "Sūzhōu",
+"gloss": "Suzhou (city near Shanghai)",
+"tier": "sparse"
+},
+{
+"nid": 1537328243127,
+"word": "送给",
+"pinyin": "sòng gěi",
+"gloss": "To send to",
+"tier": "weak"
+},
+{
+"nid": 1393817669506,
+"word": "主导",
+"pinyin": "zhǔdǎo",
+"gloss": "leading; dominant; guiding",
+"tier": "weak"
+},
+{
+"nid": 1717270468009,
+"word": "南非",
+"pinyin": "Nán fēi",
+"gloss": "1. South Africa",
+"tier": "sparse"
+},
+{
+"nid": 1537328248045,
+"word": "危害",
+"pinyin": "wēi hài",
+"gloss": "endanger; jeopardize; to harm",
+"tier": "weak"
+},
+{
+"nid": 1393817668658,
+"word": "局面",
+"pinyin": "júmiàn",
+"gloss": "aspect; situation",
+"tier": "weak"
+},
+{
+"nid": 1537328245889,
+"word": "恶心",
+"pinyin": "ě xīn",
+"gloss": "disgusting; nauseous; make somebody embarrassed",
+"tier": "weak"
+},
+{
+"nid": 1537328246524,
+"word": "打败",
+"pinyin": "dǎ bài",
+"gloss": "To defeat, to overpower",
+"tier": "weak"
+},
+{
+"nid": 1672770322863,
+"word": "抓住",
+"pinyin": "Zhuā zhù",
+"gloss": "Grasp. / Catch.",
+"tier": "weak"
+},
+{
+"nid": 1710963500685,
+"word": "投资者",
+"pinyin": "tóu zī zhě",
+"gloss": "1. investor",
+"tier": "sparse"
+},
+{
+"nid": 1537328246855,
+"word": "播出",
+"pinyin": "bō chū",
+"gloss": "To broadcast, to put out TV programs",
+"tier": "weak"
+},
+{
+"nid": 1537328242845,
+"word": "故意",
+"pinyin": "gù yì",
+"gloss": "deliberately; intentional; on purpose",
+"tier": "weak"
+},
+{
+"nid": 1708747499543,
+"word": "旗下",
+"pinyin": "qí xià",
+"gloss": "1. under the banner of",
+"tier": "weak"
+},
+{
+"nid": 1708747498627,
+"word": "本国",
+"pinyin": "běn guó",
+"gloss": "1. one&#x27;s own country",
+"tier": "weak"
+},
+{
+"nid": 1708747486903,
+"word": "杀死",
+"pinyin": "shā sǐ",
+"gloss": "1. to kill",
+"tier": "weak"
+},
+{
+"nid": 1708747526395,
+"word": "江泽民",
+"pinyin": "Jiāng Zé mín",
+"gloss": "1. Jiang Zemin (1926-), politician, president of PRC 1993-2003",
+"tier": "sparse"
+},
+{
+"nid": 1537328246546,
+"word": "能否",
+"pinyin": "néng fǒu",
+"gloss": "Whether or not, can it or can't it",
+"tier": "weak"
+},
+{
+"nid": 1393817670014,
+"word": "若干",
+"pinyin": "ruògān",
+"gloss": "a certain number or amount; how many; how much",
+"tier": "weak"
+},
+{
+"nid": 1532504845462,
+"word": "请问",
+"pinyin": "qǐngwèn",
+"gloss": "Excuse me, may I ask...?",
+"tier": "weak"
+},
+{
+"nid": 1537328246460,
+"word": "资本主义",
+"pinyin": "zī běn zhǔ yì",
+"gloss": "Capitalism",
+"tier": "weak"
+},
+{
+"nid": 1537328244220,
+"word": "跟着",
+"pinyin": "gēn zhe",
+"gloss": "To follow",
+"tier": "weak"
+},
+{
+"nid": 1708747495054,
+"word": "阿拉伯",
+"pinyin": "Ā lā bó",
+"gloss": "1. Arabian; 2. Arabic; 3. Arab",
+"tier": "weak"
+},
+{
+"nid": 1537328242327,
+"word": "首页",
+"pinyin": "shǒu yè",
+"gloss": "First page, homepage",
+"tier": "weak"
+},
+{
+"nid": 1708747486582,
+"word": "一对",
+"pinyin": "yī duì",
+"gloss": "1. couple; 2. pair;one against… (one, against two, …)",
+"tier": "weak"
+},
+{
+"nid": 1537328246676,
+"word": "一本",
+"pinyin": "yī běn",
+"gloss": "mw books",
+"tier": "sparse"
+},
+{
+"nid": 1708747507409,
+"word": "大连",
+"pinyin": "Dà lián",
+"gloss": "1. Dalian subprovincial city in Liaoning province 遼寧省|辽宁省 in northeast China",
+"tier": "weak"
+},
+{
+"nid": 1537328245366,
+"word": "定期",
+"pinyin": "dìng qī",
+"gloss": "regularly; at regular intervals",
+"tier": "weak"
+},
+{
+"nid": 1708747497297,
+"word": "审议",
+"pinyin": "shěn yì",
+"gloss": "1. deliberation; 2. pondering; 3. due consideration",
+"tier": "sparse"
+},
+{
+"nid": 1393817669017,
+"word": "家属",
+"pinyin": "jiāshǔ",
+"gloss": "family member; a dependent",
+"tier": "weak"
+},
+{
+"nid": 1393817668371,
+"word": "展现",
+"pinyin": "zhǎnxiàn",
+"gloss": "come out; emerge; express; show",
+"tier": "weak"
+},
+{
+"nid": 1393817669615,
+"word": "心态",
+"pinyin": "xīntài",
+"gloss": "pyschology; mentality; spirit",
+"tier": "weak"
+},
+{
+"nid": 1537328240024,
+"word": "我爱你",
+"pinyin": "wǒ ài nǐ",
+"gloss": "I love you",
+"tier": "sparse"
+},
+{
+"nid": 1393817669170,
+"word": "现状",
+"pinyin": "xiànzhuàng",
+"gloss": "current situation; status quo",
+"tier": "weak"
+},
+{
+"nid": 1708747498462,
+"word": "百科",
+"pinyin": "bǎi kē",
+"gloss": "1. universal; 2. encyclopedic",
+"tier": "weak"
+},
+{
+"nid": 1708747503315,
+"word": "管制",
+"pinyin": "guǎn zhì",
+"gloss": "1. to control; 2. to restrict; 3. (PRC law) non-custodial sentence with specifie",
+"tier": "weak"
+},
+{
+"nid": 1708747526661,
+"word": "绝不",
+"pinyin": "jué bù",
+"gloss": "1. in no way; 2. not in the least; 3. absolutely not",
+"tier": "weak"
+},
+{
+"nid": 1708747497913,
+"word": "耶稣",
+"pinyin": "Yē sū",
+"gloss": "1. Jesus",
+"tier": "sparse"
+},
+{
+"nid": 1537328246471,
+"word": "脑袋",
+"pinyin": "nǎo dài",
+"gloss": "head;&nbsp;mental capability; brains",
+"tier": "weak"
+},
+{
+"nid": 1708747521721,
+"word": "行政区划",
+"pinyin": "xíng zhèng qū huà",
+"gloss": "1. administrative subdivision",
+"tier": "sparse"
+},
+{
+"nid": 1393817668331,
+"word": "被告",
+"pinyin": "bèigào",
+"gloss": "defendant",
+"tier": "sparse"
+},
+{
+"nid": 1717270463146,
+"word": "计画",
+"pinyin": "jì huà",
+"gloss": "1. variant of 計劃|计划[jì huà]",
+"tier": "weak"
+},
+{
+"nid": 1537328246231,
+"word": "货物",
+"pinyin": "huò wù",
+"gloss": "Goods, commodity, merchandise",
+"tier": "weak"
+},
+{
+"nid": 1537328243970,
+"word": "一辈子",
+"pinyin": "yī bèi zi",
+"gloss": "(for) a lifetime; all one's life",
+"tier": "weak"
+},
+{
+"nid": 1537328246959,
+"word": "上级",
+"pinyin": "shàng jí",
+"gloss": "higher authorities; superiors",
+"tier": "weak"
+},
+{
+"nid": 1393817668814,
+"word": "元素",
+"pinyin": "yuánsù",
+"gloss": "element; element of a set; chemical element",
+"tier": "weak"
+},
+{
+"nid": 1708747489659,
+"word": "几次",
+"pinyin": "jǐ cì",
+"gloss": "1. several times",
+"tier": "weak"
+},
+{
+"nid": 1393817669561,
+"word": "制裁",
+"pinyin": "zhìcái",
+"gloss": "punish; (economic) sanctions",
+"tier": "weak"
+},
+{
+"nid": 1699261712347,
+"word": "加州",
+"pinyin": "Jiāzhōu",
+"gloss": "California",
+"tier": "weak"
+},
+{
+"nid": 1537328244889,
+"word": "台北",
+"pinyin": "tái běi",
+"gloss": "Taipei",
+"tier": "sparse"
+},
+{
+"nid": 1393817668545,
+"word": "回顾",
+"pinyin": "huígù",
+"gloss": "look back; to review",
+"tier": "weak"
+},
+{
+"nid": 1708747491959,
+"word": "大桥",
+"pinyin": "Dà Qiáo",
+"gloss": "1. Da Qiao, one of the Two Qiaos, according to Romance of the Three Kingdoms 三國演",
+"tier": "weak"
+},
+{
+"nid": 1393817669201,
+"word": "延续",
+"pinyin": "yánxù",
+"gloss": "continue; last longer",
+"tier": "weak"
+},
+{
+"nid": 1393817669300,
+"word": "授予",
+"pinyin": "shòuyǔ",
+"gloss": "to award; confer",
+"tier": "weak"
+},
+{
+"nid": 1710963504808,
+"word": "时报",
+"pinyin": "Shí bào",
+"gloss": "1. &quot;Times&quot; (newspaper, e.g. New York Times)",
+"tier": "sparse"
+},
+{
+"nid": 1393817669485,
+"word": "智能",
+"pinyin": "zhìnéng",
+"gloss": "intelligent; capability; smart (phone, system, bomb, etc.)",
+"tier": "sparse"
+},
+{
+"nid": 1537328244524,
+"word": "暂停",
+"pinyin": "zàn tíng",
+"gloss": "Pause",
+"tier": "weak"
+},
+{
+"nid": 1537328245926,
+"word": "留言",
+"pinyin": "liú yán",
+"gloss": "To leave a message",
+"tier": "weak"
+},
+{
+"nid": 1537328246430,
+"word": "研究生",
+"pinyin": "yán jiū shēng",
+"gloss": "Graduate student, postgraduate student",
+"tier": "sparse"
+},
+{
+"nid": 1708747518372,
+"word": "腾讯",
+"pinyin": "Téng xùn",
+"gloss": "1. see 騰訊控股有限公司|腾讯控股有限公司[Téng xùn Kòng gǔ Yǒu xiàn Gōng sī]",
+"tier": "sparse"
+},
+{
+"nid": 1537328241964,
+"word": "花园",
+"pinyin": "huā yuán",
+"gloss": "Garden",
+"tier": "weak"
+},
+{
+"nid": 1708747513853,
+"word": "设有",
+"pinyin": "shè yǒu",
+"gloss": "1. to have; 2. to incorporate; 3. to feature",
+"tier": "weak"
+},
+{
+"nid": 1537328247819,
+"word": "过度",
+"pinyin": "guò dù",
+"gloss": "excessive; exceeding; lavishly",
+"tier": "weak"
+},
+{
+"nid": 1708747497536,
+"word": "阿里",
+"pinyin": "Ā lǐ",
+"gloss": "1. Ali (proper name)",
+"tier": "sparse"
+},
+{
+"nid": 1537328243989,
+"word": "靠近",
+"pinyin": "kào jìn",
+"gloss": "To be near",
+"tier": "weak"
+},
+{
+"nid": 1393817668468,
+"word": "领先",
+"pinyin": "lǐngxiān",
+"gloss": "leadership; to lead; be in front",
+"tier": "weak"
+},
+{
+"nid": 1393817669661,
+"word": "题材",
+"pinyin": "tícái",
+"gloss": "subject matter",
+"tier": "sparse"
+},
+{
+"nid": 1537328248128,
+"word": "骑士",
+"pinyin": "qí shì",
+"gloss": "Horseman, cavalryman",
+"tier": "sparse"
+},
+{
+"nid": 1537328247674,
+"word": "之内",
+"pinyin": "zhī nèi",
+"gloss": "Inside, within",
+"tier": "weak"
+},
+{
+"nid": 1700001814671,
+"word": "习近平",
+"pinyin": "Xí Jìnpíng",
+"gloss": "Xi Jinping (1953-), President of the PRC from 2013",
+"tier": "sparse"
+},
+{
+"nid": 1717270487262,
+"word": "伊斯兰",
+"pinyin": "Yī sī lán",
+"gloss": "1. Islam",
+"tier": "sparse"
+},
+{
+"nid": 1537328247782,
+"word": "创意",
+"pinyin": "chuàng yì",
+"gloss": "Creative, creativity",
+"tier": "weak"
+},
+{
+"nid": 1393817668367,
+"word": "回报",
+"pinyin": "huíbào",
+"gloss": "repayment; payback",
+"tier": "weak"
+},
+{
+"nid": 1393817668452,
+"word": "基因",
+"pinyin": "jīyīn",
+"gloss": "gene",
+"tier": "weak"
+},
+{
+"nid": 1393817668633,
+"word": "尊严",
+"pinyin": "zūnyán",
+"gloss": "dignity; sanctity; honor",
+"tier": "weak"
+},
+{
+"nid": 1393817668609,
+"word": "情节",
+"pinyin": "qíngjié",
+"gloss": "plot; circumstances",
+"tier": "weak"
+},
+{
+"nid": 1393817669549,
+"word": "抵制",
+"pinyin": "dǐzhì",
+"gloss": "resistance; refusal (to cooperate); boycott",
+"tier": "sparse"
+},
+{
+"nid": 1537328245721,
+"word": "排除",
+"pinyin": "pái chú",
+"gloss": "eliminate; get rid of; remove",
+"tier": "weak"
+},
+{
+"nid": 1393817668351,
+"word": "期望",
+"pinyin": "qīwàng",
+"gloss": "hope; expectation",
+"tier": "weak"
+},
+{
+"nid": 1708747486297,
+"word": "海上",
+"pinyin": "hǎi shàng",
+"gloss": "1. maritime",
+"tier": "weak"
+},
+{
+"nid": 1393817668548,
+"word": "环节",
+"pinyin": "huánjié",
+"gloss": "link; sector; segment (of annelid worms)",
+"tier": "weak"
+},
+{
+"nid": 1537328239991,
+"word": "男朋友",
+"pinyin": "nán péng you",
+"gloss": "Boyfriend",
+"tier": "weak"
+},
+{
+"nid": 1708747517058,
+"word": "经济学",
+"pinyin": "jīng jì xué",
+"gloss": "1. economics (as a field of study)",
+"tier": "sparse"
+},
+{
+"nid": 1393817669411,
+"word": "考察",
+"pinyin": "kǎochá",
+"gloss": "inspect; investigate; analyze",
+"tier": "sparse"
+},
+{
+"nid": 1393817670257,
+"word": "考核",
+"pinyin": "kǎohé",
+"gloss": "examine; check up on",
+"tier": "weak"
+},
+{
+"nid": 1537328240883,
+"word": "西南",
+"pinyin": "xī nán",
+"gloss": "South west",
+"tier": "weak"
+},
+{
+"nid": 1393817668412,
+"word": "凌晨",
+"pinyin": "língchén",
+"gloss": "early in the morning",
+"tier": "weak"
+},
+{
+"nid": 1715284962095,
+"word": "函数",
+"pinyin": "hán shù",
+"gloss": "function (math)",
+"tier": "sparse"
+},
+{
+"nid": 1393817667631,
+"word": "列车",
+"pinyin": "lièchē",
+"gloss": "train (railway term)",
+"tier": "sparse"
+},
+{
+"nid": 1708747486344,
+"word": "参数",
+"pinyin": "cān shù",
+"gloss": "1. parameter",
+"tier": "sparse"
+},
+{
+"nid": 1393817667989,
+"word": "叙述",
+"pinyin": "xùshù",
+"gloss": "retell; narrate",
+"tier": "sparse"
+},
+{
+"nid": 1393817670106,
+"word": "号召",
+"pinyin": "hàozhào",
+"gloss": "call upon; summon; to appeal",
+"tier": "weak"
+},
+{
+"nid": 1537328246369,
+"word": "富有",
+"pinyin": "fù yǒu",
+"gloss": "Rich, full of",
+"tier": "weak"
+},
+{
+"nid": 1393817670034,
+"word": "对立",
+"pinyin": "duìlì",
+"gloss": "oppose; to counter",
+"tier": "weak"
+},
+{
+"nid": 1537328243794,
+"word": "巴士",
+"pinyin": "bā shì",
+"gloss": "Bus (HK?);Bus (loanword), motor coach",
+"tier": "weak"
+},
+{
+"nid": 1537328247703,
+"word": "形容",
+"pinyin": "xíng róng",
+"gloss": "describe; appearance; look",
+"tier": "weak"
+},
+{
+"nid": 1708747487550,
+"word": "更为",
+"pinyin": "gèng wéi",
+"gloss": "1. even more",
+"tier": "weak"
+},
+{
+"nid": 1537328245883,
+"word": "欧元",
+"pinyin": "ōu yuán",
+"gloss": "Euro",
+"tier": "weak"
+},
+{
+"nid": 1393817668550,
+"word": "残酷",
+"pinyin": "cánkù",
+"gloss": "cruel",
+"tier": "weak"
+},
+{
+"nid": 1537328244111,
+"word": "流通",
+"pinyin": "liú tōng",
+"gloss": "circulate; currency",
+"tier": "weak"
+},
+{
+"nid": 1393817667518,
+"word": "热爱",
+"pinyin": "rè'ài",
+"gloss": "love ardently; adore; passionenthusiasm, invested passion",
+"tier": "weak"
+},
+{
+"nid": 1537328241988,
+"word": "男生",
+"pinyin": "nán shēng",
+"gloss": "Boy; Guy, male",
+"tier": "weak"
+},
+{
+"nid": 1708747502209,
+"word": "疫情",
+"pinyin": "yì qíng",
+"gloss": "1. epidemic situation",
+"tier": "sparse"
+},
+{
+"nid": 1393817668490,
+"word": "策划",
+"pinyin": "cèhuà",
+"gloss": "plot; scheme; bring about",
+"tier": "weak"
+},
+{
+"nid": 1537328246094,
+"word": "结局",
+"pinyin": "jié jú",
+"gloss": "conclusion; ending",
+"tier": "weak"
+},
+{
+"nid": 1537328247093,
+"word": "自称",
+"pinyin": "zì chēng",
+"gloss": "To call oneself, to claim to be",
+"tier": "weak"
+},
+{
+"nid": 1703738828156,
+"word": "设定",
+"pinyin": "shèdìng",
+"gloss": "settings, to set, install",
+"tier": "weak"
+},
+{
+"nid": 1537328245819,
+"word": "不准",
+"pinyin": "bù zhǔn",
+"gloss": "Accurate, standard; Not to allow, must not",
+"tier": "weak"
+},
+{
+"nid": 1393817668761,
+"word": "丧失",
+"pinyin": "sàngshī",
+"gloss": "to lose; to forfeit",
+"tier": "weak"
+},
+{
+"nid": 1393817669165,
+"word": "任命",
+"pinyin": "rènmìng",
+"gloss": "appoint and nominate",
+"tier": "weak"
+},
+{
+"nid": 1537328246831,
+"word": "传奇",
+"pinyin": "chuán qí",
+"gloss": "Legendary, fantasy saga, romance",
+"tier": "weak"
+},
+{
+"nid": 1393817668403,
+"word": "保守",
+"pinyin": "bǎoshǒu",
+"gloss": "conservative (ideas, estimates, politically, etc.); to guard; to keep",
+"tier": "weak"
+},
+{
+"nid": 1537328245466,
+"word": "共识",
+"pinyin": "gòng shí",
+"gloss": "Common knowledge",
+"tier": "weak"
+},
+{
+"nid": 1393817668942,
+"word": "刑事",
+"pinyin": "xíngshì",
+"gloss": "criminal; penal",
+"tier": "sparse"
+},
+{
+"nid": 1393817668339,
+"word": "助理",
+"pinyin": "zhùlǐ",
+"gloss": "assistant",
+"tier": "sparse"
+},
+{
+"nid": 1393817668532,
+"word": "包围",
+"pinyin": "bāowéi",
+"gloss": "surround; encircle; hem in",
+"tier": "weak"
+},
+{
+"nid": 1393817668751,
+"word": "命名",
+"pinyin": "mìngmíng",
+"gloss": "give a name; to dub; christen; naming",
+"tier": "weak"
+},
+{
+"nid": 1393817670103,
+"word": "地质",
+"pinyin": "dìzhì",
+"gloss": "geology",
+"tier": "weak"
+},
+{
+"nid": 1537328241199,
+"word": "大厅",
+"pinyin": "dà tīng",
+"gloss": "Hall, longue",
+"tier": "sparse"
+},
+{
+"nid": 1708747500797,
+"word": "大奖",
+"pinyin": "dà jiǎng",
+"gloss": "1. prize; 2. award",
+"tier": "weak"
+},
+{
+"nid": 1537328241998,
+"word": "姓名",
+"pinyin": "xìng míng",
+"gloss": "Name （whole name）",
+"tier": "weak"
+},
+{
+"nid": 1708747508683,
+"word": "抗战",
+"pinyin": "kàng zhàn",
+"gloss": "1. war of resistance, especially the war against Japan (1937-1945)",
+"tier": "weak"
+},
+{
+"nid": 1537328240585,
+"word": "晚安",
+"pinyin": "wǎn ān",
+"gloss": "Good night",
+"tier": "weak"
+},
+{
+"nid": 1708747526558,
+"word": "民国",
+"pinyin": "Mín guó",
+"gloss": "1. Republic of China (1912-1949); 2. used in Taiwan as the name of the calendar ",
+"tier": "sparse"
+},
+{
+"nid": 1393817669547,
+"word": "示威",
+"pinyin": "shìwēi",
+"gloss": "hold a protest demonstration",
+"tier": "sparse"
+},
+{
+"nid": 1537328246781,
+"word": "神话",
+"pinyin": "shén huà",
+"gloss": "mythology; fairy tale",
+"tier": "weak"
+},
+{
+"nid": 1393817667496,
+"word": "轻易",
+"pinyin": "qīngyì",
+"gloss": "easily; lightly; rashly",
+"tier": "weak"
+},
+{
+"nid": 1708747490695,
+"word": "较大",
+"pinyin": "jiào dà",
+"gloss": "1. comparatively large",
+"tier": "sparse"
+},
+{
+"nid": 1393817669321,
+"word": "辅助",
+"pinyin": "fǔzhù",
+"gloss": "assist; aide",
+"tier": "weak"
+},
+{
+"nid": 1708747499725,
+"word": "黑龙江",
+"pinyin": "Hēi lóng jiāng",
+"gloss": "1. Heilongjiang province (Heilungkiang) in northeast China, abbr. 黑, capital Har",
+"tier": "weak"
+},
+{
+"nid": 1708747490257,
+"word": "三星",
+"pinyin": "Sān xīng",
+"gloss": "1. Sanxing or Sanhsing township in Yilan county 宜蘭縣|宜兰县[Yí lán xiàn], Taiwan; 2.",
+"tier": "sparse"
+},
+{
+"nid": 1393817669141,
+"word": "压迫",
+"pinyin": "yāpò",
+"gloss": "oppress",
+"tier": "weak"
+},
+{
+"nid": 1393817669726,
+"word": "实质",
+"pinyin": "shízhì",
+"gloss": "substance; essence; gist",
+"tier": "sparse"
+},
+{
+"nid": 1393817668598,
+"word": "干扰",
+"pinyin": "gānrǎo",
+"gloss": "interfere; obstruction",
+"tier": "weak"
+},
+{
+"nid": 1537328247247,
+"word": "应付",
+"pinyin": "yìng fu",
+"gloss": "to cope with; deal with; handle",
+"tier": "weak"
+},
+{
+"nid": 1708747498409,
+"word": "强奸",
+"pinyin": "qiáng jiān",
+"gloss": "1. to rape",
+"tier": "sparse"
+},
+{
+"nid": 1717270478880,
+"word": "控股",
+"pinyin": "kòng gǔ",
+"gloss": "1. to own a controlling number of shares in a company",
+"tier": "sparse"
+},
+{
+"nid": 1708747499108,
+"word": "政协",
+"pinyin": "Zhèng Xié",
+"gloss": "1. CPPCC (Chinese People&#x27;s Political Consultative Conference); 2. abbr. of ",
+"tier": "weak"
+},
+{
+"nid": 1393817670485,
+"word": "普及",
+"pinyin": "pǔjí",
+"gloss": "widespread; popular; popularize",
+"tier": "sparse"
+},
+{
+"nid": 1708747525521,
+"word": "检察院",
+"pinyin": "jiǎn chá yuàn",
+"gloss": "1. prosecutor&#x27;s office; 2. procuratorate",
+"tier": "sparse"
+},
+{
+"nid": 1708747495716,
+"word": "每周",
+"pinyin": "měi zhōu",
+"gloss": "1. every week",
+"tier": "sparse"
+},
+{
+"nid": 1393817668340,
+"word": "渴望",
+"pinyin": "kěwàng",
+"gloss": "to thirst for; to long for; to yearn for",
+"tier": "weak"
+},
+{
+"nid": 1393817668375,
+"word": "绝望",
+"pinyin": "jué wàng",
+"gloss": "desperation; forlorn; hopeless",
+"tier": "weak"
+},
+{
+"nid": 1393817670419,
+"word": "职能",
+"pinyin": "zhínéng",
+"gloss": "function; role",
+"tier": "sparse"
+},
+{
+"nid": 1537328246718,
+"word": "聚集",
+"pinyin": "jù jí",
+"gloss": "To assemble, to gather",
+"tier": "weak"
+},
+{
+"nid": 1708747507106,
+"word": "色情",
+"pinyin": "sè qíng",
+"gloss": "1. erotic; 2. pornographic",
+"tier": "weak"
+},
+{
+"nid": 1708747527070,
+"word": "贵州",
+"pinyin": "Guì zhōu",
+"gloss": "1. Guizhou province (Kweichow) in south central China, abbr. to 黔[Qián] or 貴|贵[G",
+"tier": "sparse"
+},
+{
+"nid": 1393817669629,
+"word": "过渡",
+"pinyin": "guòdù",
+"gloss": "to cross a river by ferry; transition; interim;excessively",
+"tier": "weak"
+},
+{
+"nid": 1537328246917,
+"word": "通道",
+"pinyin": "tōng dào",
+"gloss": "(communications) Channel",
+"tier": "weak"
+},
+{
+"nid": 1537328247747,
+"word": "频率",
+"pinyin": "pín lǜ",
+"gloss": "frequency",
+"tier": "weak"
+},
+{
+"nid": 1708747493679,
+"word": "马克",
+"pinyin": "Mǎ kè",
+"gloss": "1. Mark (name)",
+"tier": "weak"
+},
+{
+"nid": 1393817669804,
+"word": "一度",
+"pinyin": "yị̄dù",
+"gloss": "for a time; at one time; one time; once",
+"tier": "weak"
+},
+{
+"nid": 1537328247676,
+"word": "之上",
+"pinyin": "zhī shàng",
+"gloss": "Above",
+"tier": "weak"
+},
+{
+"nid": 1708747503892,
+"word": "匈牙利",
+"pinyin": "Xiōng yá lì",
+"gloss": "1. Hungary",
+"tier": "sparse"
+},
+{
+"nid": 1520716966585,
+"word": "半年",
+"pinyin": "bàn nián",
+"gloss": "half a year",
+"tier": "weak"
+},
+{
+"nid": 1393817668383,
+"word": "即便",
+"pinyin": "jíbiàn",
+"gloss": "even if; even though",
+"tier": "weak"
+},
+{
+"nid": 1393817669863,
+"word": "对应",
+"pinyin": "duìyìng",
+"gloss": "corresponding; counterpart",
+"tier": "weak"
+},
+{
+"nid": 1537328243788,
+"word": "旅馆",
+"pinyin": "lǚ guǎn",
+"gloss": "Hotel",
+"tier": "weak"
+},
+{
+"nid": 1708747489103,
+"word": "死刑",
+"pinyin": "sǐ xíng",
+"gloss": "1. death penalty",
+"tier": "weak"
+},
+{
+"nid": 1708747503562,
+"word": "笔者",
+"pinyin": "bǐ zhě",
+"gloss": "1. the author; 2. the writer",
+"tier": "sparse"
+},
+{
+"nid": 1537328243921,
+"word": "证书",
+"pinyin": "zhèng shū",
+"gloss": "certificate; credentials",
+"tier": "weak"
+},
+{
+"nid": 1537328242626,
+"word": "随意",
+"pinyin": "suí yì",
+"gloss": "as one wishes; according to one's wishes",
+"tier": "weak"
+},
+{
+"nid": 1708747485174,
+"word": "露出",
+"pinyin": "lù chū",
+"gloss": "1. to expose; 2. to show",
+"tier": "weak"
+},
+{
+"nid": 1708747489430,
+"word": "三次",
+"pinyin": "sān cì",
+"gloss": "1. third; 2. three times; 3. (math.) degree three, cubic (equation)",
+"tier": "weak"
+},
+{
+"nid": 1717270452246,
+"word": "乐团",
+"pinyin": "yuè tuán",
+"gloss": "1. band; 2. orchestra",
+"tier": "sparse"
+},
+{
+"nid": 1393817668217,
+"word": "偶像",
+"pinyin": "ǒuxiàng",
+"gloss": "Idol",
+"tier": "weak"
+},
+{
+"nid": 1708747489016,
+"word": "史上",
+"pinyin": "shǐ shàng",
+"gloss": "1. in history",
+"tier": "weak"
+},
+{
+"nid": 1708747526186,
+"word": "周恩来",
+"pinyin": "Zhōu Ēn lái",
+"gloss": "1. Zhou Enlai (1898-1976), Chinese communist leader, prime minister 1949-1976",
+"tier": "sparse"
+},
+{
+"nid": 1703366068848,
+"word": "处罚",
+"pinyin": "chǔfá",
+"gloss": "punishment",
+"tier": "weak"
+},
+{
+"nid": 1393817668896,
+"word": "封闭",
+"pinyin": "fēngbì",
+"gloss": "to seal; to close; confine",
+"tier": "weak"
+},
+{
+"nid": 1708747488549,
+"word": "小镇",
+"pinyin": "xiǎo zhèn",
+"gloss": "1. small town; 2. village",
+"tier": "sparse"
+},
+{
+"nid": 1393817668655,
+"word": "抵抗",
+"pinyin": "dǐkàng",
+"gloss": "resist; resistance",
+"tier": "weak"
+},
+{
+"nid": 1708747507416,
+"word": "每月",
+"pinyin": "měi yuè",
+"gloss": "1. each month",
+"tier": "sparse"
+},
+{
+"nid": 1717270487818,
+"word": "民主党",
+"pinyin": "Mín zhǔ dǎng",
+"gloss": "1. Democratic Party",
+"tier": "sparse"
+},
+{
+"nid": 1537328245742,
+"word": "片段",
+"pinyin": "piàn duàn",
+"gloss": "Part, passage, fragment",
+"tier": "sparse"
+},
+{
+"nid": 1537328241969,
+"word": "画家",
+"pinyin": "huà jiā",
+"gloss": "Painter",
+"tier": "sparse"
+},
+{
+"nid": 1537328247220,
+"word": "空军",
+"pinyin": "kōng jūn",
+"gloss": "Air force",
+"tier": "sparse"
+},
+{
+"nid": 1537328247538,
+"word": "签名",
+"pinyin": "qiān míng",
+"gloss": "To sign (one's name with a pen etc)",
+"tier": "weak"
+},
+{
+"nid": 1537328241711,
+"word": "迎接",
+"pinyin": "yíng jiē",
+"gloss": "meet; greet; to welcome",
+"tier": "weak"
+},
+{
+"nid": 1708747525237,
+"word": "郑州",
+"pinyin": "Zhèng zhōu",
+"gloss": "1. Zhengzhou prefecture level city and capital of Henan Province in central Chin",
+"tier": "sparse"
+},
+{
+"nid": 1393817668676,
+"word": "高潮",
+"pinyin": "gāocháo",
+"gloss": "climax; high tide; upsurge; chorus (of a song)",
+"tier": "weak"
+},
+{
+"nid": 1537328246168,
+"word": "不许",
+"pinyin": "bù xǔ",
+"gloss": "Not to allow, must not",
+"tier": "weak"
+},
+{
+"nid": 1708747485911,
+"word": "体内",
+"pinyin": "tǐ nèi",
+"gloss": "1. within the body; 2. in vivo (vs in vitro); 3. internal to",
+"tier": "weak"
+},
+{
+"nid": 1537328247115,
+"word": "偶尔",
+"pinyin": "ǒu ěr",
+"gloss": "occasionally; once in a while; sometimes",
+"tier": "weak"
+},
+{
+"nid": 1537328247514,
+"word": "剧情",
+"pinyin": "jù qíng",
+"gloss": "Story line, plot",
+"tier": "weak"
+},
+{
+"nid": 1708747525486,
+"word": "厦门",
+"pinyin": "Xià mén",
+"gloss": "1. Xiamen or Amoy, subprovincial city in Fujian, abbr. 廈|厦[Xià]",
+"tier": "sparse"
+},
+{
+"nid": 1708747496880,
+"word": "各级",
+"pinyin": "gè jí",
+"gloss": "1. all levels",
+"tier": "sparse"
+},
+{
+"nid": 1708747491055,
+"word": "国内外",
+"pinyin": "guó nèi wài",
+"gloss": "1. domestic and international; 2. at home and abroad",
+"tier": "weak"
+},
+{
+"nid": 1537328247729,
+"word": "姐妹",
+"pinyin": "jiě mèi",
+"gloss": "Sisters, siblings",
+"tier": "weak"
+},
+{
+"nid": 1537328246562,
+"word": "惊喜",
+"pinyin": "jīng xǐ",
+"gloss": "Nice surprise, surprise",
+"tier": "weak"
+},
+{
+"nid": 1537328246967,
+"word": "极其",
+"pinyin": "jí qí",
+"gloss": "extremely; exceedingly",
+"tier": "weak"
+},
+{
+"nid": 1708747503387,
+"word": "欧美",
+"pinyin": "Ōu Měi",
+"gloss": "1. Europe and America; 2. the West",
+"tier": "sparse"
+},
+{
+"nid": 1708747489100,
+"word": "死者",
+"pinyin": "sǐ zhě",
+"gloss": "1. the dead; 2. the deceased",
+"tier": "weak"
+},
+{
+"nid": 1537328245382,
+"word": "确立",
+"pinyin": "què lì",
+"gloss": "to establish; to institute",
+"tier": "weak"
+},
+{
+"nid": 1537328247249,
+"word": "符号",
+"pinyin": "fú hào",
+"gloss": "symbol; mark; sign",
+"tier": "sparse"
+},
+{
+"nid": 1537328246493,
+"word": "自愿",
+"pinyin": "zì yuàn",
+"gloss": "voluntary",
+"tier": "weak"
+},
+{
+"nid": 1708747510537,
+"word": "葡萄牙",
+"pinyin": "Pú táo yá",
+"gloss": "1. Portugal",
+"tier": "weak"
+},
+{
+"nid": 1537328243123,
+"word": "错过",
+"pinyin": "cuò guò",
+"gloss": "To miss (a buss etc)",
+"tier": "weak"
+},
+{
+"nid": 1708747485431,
+"word": "不明",
+"pinyin": "bù míng",
+"gloss": "1. not clear; 2. unknown; 3. to fail to understand",
+"tier": "weak"
+},
+{
+"nid": 1393817669591,
+"word": "之际",
+"pinyin": "zhījì",
+"gloss": "during; at the time of; the time when something happens",
+"tier": "weak"
+},
+{
+"nid": 1708747489014,
+"word": "内蒙古",
+"pinyin": "Nèi měng gǔ",
+"gloss": "1. Inner Mongolia; 2. abbr. for 內蒙古自治區|内蒙古自治区[Nèi měng gǔ Zì zhì qū], Inner Mong",
+"tier": "sparse"
+},
+{
+"nid": 1708747504865,
+"word": "击败",
+"pinyin": "jī bài",
+"gloss": "1. to defeat; 2. to beat",
+"tier": "weak"
+},
+{
+"nid": 1393817668361,
+"word": "制服",
+"pinyin": "zhìfú",
+"gloss": "uniform; to subdue; to bring under control",
+"tier": "weak"
+},
+{
+"nid": 1393817666663,
+"word": "同情",
+"pinyin": "tóngqíng",
+"gloss": "compassion; sympathy, sympathize with",
+"tier": "weak"
+},
+{
+"nid": 1708747485285,
+"word": "名叫",
+"pinyin": "míng jiào",
+"gloss": "1. called; 2. named",
+"tier": "weak"
+},
+{
+"nid": 1708747495011,
+"word": "哈尔滨",
+"pinyin": "Hā ěr bīn",
+"gloss": "1. Harbin, subprovincial city and capital of Heilongjiang province 黑龍江|黑龙江[Hēi l",
+"tier": "sparse"
+},
+{
+"nid": 1393817668553,
+"word": "场合",
+"pinyin": "chǎnghé",
+"gloss": "occasion; situation",
+"tier": "weak"
+},
+{
+"nid": 1393817670536,
+"word": "封建",
+"pinyin": "fēngjiàn",
+"gloss": "feudal; feudalism",
+"tier": "weak"
+},
+{
+"nid": 1537328241409,
+"word": "小区",
+"pinyin": "xiǎo qū",
+"gloss": "Home community; Neighbourhood",
+"tier": "sparse"
+},
+{
+"nid": 1393817669397,
+"word": "干预",
+"pinyin": "gānyù",
+"gloss": "meddle; intervene; intervention",
+"tier": "weak"
+},
+{
+"nid": 1708747502402,
+"word": "所得",
+"pinyin": "suǒ dé",
+"gloss": "1. what one acquires; 2. one&#x27;s gains",
+"tier": "weak"
+},
+{
+"nid": 1537328247930,
+"word": "月底",
+"pinyin": "yuè dǐ",
+"gloss": "End of the month",
+"tier": "sparse"
+},
+{
+"nid": 1393817667908,
+"word": "流传",
+"pinyin": "liúchuán",
+"gloss": "to spread; circulate; hand down",
+"tier": "weak"
+},
+{
+"nid": 1708747509780,
+"word": "济南",
+"pinyin": "Jǐ nán",
+"gloss": "1. Jinan, subprovincial city and capital of Shandong province in northeast China",
+"tier": "weak"
+},
+{
+"nid": 1537328246306,
+"word": "海南",
+"pinyin": "hǎi nán",
+"gloss": "Hainan Province, in the South China Sea",
+"tier": "weak"
+},
+{
+"nid": 1537328247321,
+"word": "添加",
+"pinyin": "tiān jiā",
+"gloss": "To add, to increase",
+"tier": "weak"
+},
+{
+"nid": 1393817669136,
+"word": "激发",
+"pinyin": "jīfā",
+"gloss": "to arouse; excite",
+"tier": "sparse"
+},
+{
+"nid": 1708747492765,
+"word": "瑞士",
+"pinyin": "Ruì shì",
+"gloss": "1. Switzerland",
+"tier": "sparse"
+},
+{
+"nid": 1708747487668,
+"word": "百年",
+"pinyin": "bǎi nián",
+"gloss": "1. hundred years; 2. century; 3. lifetime",
+"tier": "weak"
+},
+{
+"nid": 1705768065661,
+"word": "科研",
+"pinyin": "kēyán",
+"gloss": "engage in scientific research&nbsp;",
+"tier": "sparse"
+},
+{
+"nid": 1393817668856,
+"word": "终止",
+"pinyin": "zhōngzhǐ",
+"gloss": "stop; cease; terminate (legal)",
+"tier": "weak"
+},
+{
+"nid": 1537328245877,
+"word": "美洲",
+"pinyin": "měi zhōu",
+"gloss": "Americas (continents)",
+"tier": "sparse"
+},
+{
+"nid": 1537328241961,
+"word": "花费",
+"pinyin": "huā fèi",
+"gloss": "Fee, cost",
+"tier": "weak"
+},
+{
+"nid": 1708747496970,
+"word": "解放军",
+"pinyin": "Jiě fàng jūn",
+"gloss": "1. People&#x27;s Liberation Army (PRC armed forces)",
+"tier": "weak"
+},
+{
+"nid": 1393817668799,
+"word": "修复",
+"pinyin": "xiūfù",
+"gloss": "restoration; repair",
+"tier": "weak"
+},
+{
+"nid": 1393817668994,
+"word": "占据",
+"pinyin": "zhànjù",
+"gloss": "occupy; hold; inhabit",
+"tier": "weak"
+},
+{
+"nid": 1537328245391,
+"word": "古典",
+"pinyin": "gǔ diǎn",
+"gloss": "classical",
+"tier": "sparse"
+},
+{
+"nid": 1708747492042,
+"word": "圣经",
+"pinyin": "Shèng jīng",
+"gloss": "1. Holy Bible; 2. the Confucian classics; 3. CL:本[běn],部[bù]",
+"tier": "sparse"
+},
+{
+"nid": 1393817667966,
+"word": "描写",
+"pinyin": "miáoxiě",
+"gloss": "to describe; to depict; to portray",
+"tier": "sparse"
+},
+{
+"nid": 1537328247296,
+"word": "教育部",
+"pinyin": "jiào yù bù",
+"gloss": "Ministry of Education",
+"tier": "sparse"
+},
+{
+"nid": 1537328243646,
+"word": "春天",
+"pinyin": "chūn tiān",
+"gloss": "Spring",
+"tier": "sparse"
+},
+{
+"nid": 1708747500862,
+"word": "殖民",
+"pinyin": "zhí mín",
+"gloss": "1. colony; 2. colonial",
+"tier": "sparse"
+},
+{
+"nid": 1393817669441,
+"word": "气象",
+"pinyin": "qìxiàng",
+"gloss": "meteorology; atmosphere; phenomenon",
+"tier": "weak"
+},
+{
+"nid": 1708747527181,
+"word": "甘肃",
+"pinyin": "Gān sù",
+"gloss": "1. Gansu province, abbr. 甘[Gān], short name 隴|陇[Lǒng], capital Lanzhou 蘭州|兰州[Lán",
+"tier": "sparse"
+},
+{
+"nid": 1393817669222,
+"word": "生效",
+"pinyin": "shēng xiào",
+"gloss": "take effect; become effective",
+"tier": "weak"
+},
+{
+"nid": 1708747493050,
+"word": "男友",
+"pinyin": "nán yǒu",
+"gloss": "1. boyfriend",
+"tier": "weak"
+},
+{
+"nid": 1708747488545,
+"word": "街上",
+"pinyin": "jiē shang",
+"gloss": "1. on the street; 2. in town",
+"tier": "weak"
+},
+{
+"nid": 1537328247111,
+"word": "遇见",
+"pinyin": "yù jiàn",
+"gloss": "To meet",
+"tier": "weak"
+},
+{
+"nid": 1393817669763,
+"word": "配备",
+"pinyin": "pèibèi",
+"gloss": "provide; outfit with; deploy",
+"tier": "sparse"
+},
+{
+"nid": 1708747492917,
+"word": "阿根廷",
+"pinyin": "Ā gēn tíng",
+"gloss": "1. Argentina",
+"tier": "sparse"
+},
+{
+"nid": 1708747524362,
+"word": "院校",
+"pinyin": "yuàn xiào",
+"gloss": "1. college; 2. academy; 3. educational institution",
+"tier": "weak"
+},
+{
+"nid": 1393817668391,
+"word": "震惊",
+"pinyin": "zhènjīng",
+"gloss": "shock; astonish; amaze",
+"tier": "weak"
+},
+{
+"nid": 1393817669480,
+"word": "颁发",
+"pinyin": "bānfā",
+"gloss": "issue; promulgate; award",
+"tier": "weak"
+},
+{
+"nid": 1703347898314,
+"word": "高清",
+"pinyin": "gāoqīng",
+"gloss": "high clarity, high resolution",
+"tier": "weak"
+},
+{
+"nid": 1708747485069,
+"word": "一声",
+"pinyin": "yī shēng",
+"gloss": "1. first tone in Mandarin (high, level tone)",
+"tier": "weak"
+},
+{
+"nid": 1537328244082,
+"word": "一遍",
+"pinyin": "yī biàn",
+"gloss": "Once; m.w. for times",
+"tier": "weak"
+},
+{
+"nid": 1537328240549,
+"word": "上次",
+"pinyin": "shàng cì",
+"gloss": "Last time",
+"tier": "weak"
+},
+{
+"nid": 1708747488462,
+"word": "不愿",
+"pinyin": "bù yuàn",
+"gloss": "1. unwilling; 2. unwillingness",
+"tier": "weak"
+},
+{
+"nid": 1537328245324,
+"word": "从不",
+"pinyin": "cóng bù",
+"gloss": "Never",
+"tier": "weak"
+},
+{
+"nid": 1393817669244,
+"word": "任意",
+"pinyin": "rènyì",
+"gloss": "arbitrarily; at will; at random",
+"tier": "weak"
+},
+{
+"nid": 1537328247505,
+"word": "剧本",
+"pinyin": "jù běn",
+"gloss": "script for a play; opera; movie; etc",
+"tier": "weak"
+},
+{
+"nid": 1393817666678,
+"word": "功夫",
+"pinyin": "gōngfu",
+"gloss": "kung fu; skill; art; labor",
+"tier": "weak"
+},
+{
+"nid": 1537328245403,
+"word": "学历",
+"pinyin": "xué lì",
+"gloss": "educational background; school record",
+"tier": "sparse"
+},
+{
+"nid": 1537328247267,
+"word": "家伙",
+"pinyin": "jiā huo",
+"gloss": "guy; chap; tool; weapon",
+"tier": "weak"
+},
+{
+"nid": 1708747518378,
+"word": "总人口",
+"pinyin": "zǒng rén kǒu",
+"gloss": "1. total population",
+"tier": "sparse"
+},
+{
+"nid": 1393817669503,
+"word": "树立",
+"pinyin": "shùlì",
+"gloss": "set up; establish",
+"tier": "weak"
+},
+{
+"nid": 1393817670099,
+"word": "格式",
+"pinyin": "géshi",
+"gloss": "form; specification; format",
+"tier": "sparse"
+},
+{
+"nid": 1708747509941,
+"word": "沈阳",
+"pinyin": "Shěn yáng",
+"gloss": "1. Shenyang subprovincial city and capital of Liaoning province 遼寧省|辽宁省 in north",
+"tier": "sparse"
+},
+{
+"nid": 1393817668908,
+"word": "激励",
+"pinyin": "jīlì",
+"gloss": "urge; encourage; motivation",
+"tier": "weak"
+},
+{
+"nid": 1393817668420,
+"word": "神圣",
+"pinyin": "shénshèng",
+"gloss": "divine; holy; sacred",
+"tier": "weak"
+},
+{
+"nid": 1708747492788,
+"word": "称之为",
+"pinyin": "chēng zhī wéi",
+"gloss": "1. to call it...; 2. known as...",
+"tier": "weak"
+},
+{
+"nid": 1708747487124,
+"word": "第二天",
+"pinyin": "dì èr tiān",
+"gloss": "1. next day; 2. the morrow",
+"tier": "weak"
+},
+{
+"nid": 1393817668782,
+"word": "级别",
+"pinyin": "jíbié",
+"gloss": "rank; level; grade",
+"tier": "weak"
+},
+{
+"nid": 1708747501258,
+"word": "罪行",
+"pinyin": "zuì xíng",
+"gloss": "1. crime; 2. offense",
+"tier": "weak"
+},
+{
+"nid": 1393817668509,
+"word": "考验",
+"pinyin": "kǎoyàn",
+"gloss": "put to the test; trial",
+"tier": "weak"
+},
+{
+"nid": 1537328244471,
+"word": "赌场",
+"pinyin": "dǔ chǎng",
+"gloss": "Casino",
+"tier": "weak"
+},
+{
+"nid": 1393817668334,
+"word": "辩护",
+"pinyin": "biànhù",
+"gloss": "speak in defense of; argue in favor of; defend",
+"tier": "sparse"
+},
+{
+"nid": 1537328247701,
+"word": "造型",
+"pinyin": "zào xíng",
+"gloss": "make a model; to mold",
+"tier": "weak"
+},
+{
+"nid": 1393817669826,
+"word": "阶层",
+"pinyin": "jiēcéng",
+"gloss": "hierarchy",
+"tier": "sparse"
+},
+{
+"nid": 1708747491890,
+"word": "以此",
+"pinyin": "yǐ cǐ",
+"gloss": "1. with this; 2. thereby; 3. thus; 4. because of this",
+"tier": "weak"
+},
+{
+"nid": 1393817668551,
+"word": "使命",
+"pinyin": "shǐmìng",
+"gloss": "a (diplomatic or other) mission",
+"tier": "weak"
+},
+{
+"nid": 1708747525040,
+"word": "党委",
+"pinyin": "dǎng wěi",
+"gloss": "1. Party committee",
+"tier": "sparse"
+},
+{
+"nid": 1537328243138,
+"word": "发送",
+"pinyin": "fā sòng",
+"gloss": "To send",
+"tier": "weak"
+},
+{
+"nid": 1393817668288,
+"word": "慈善",
+"pinyin": "císhàn",
+"gloss": "philanthropic; benevolent; charitable",
+"tier": "sparse"
+},
+{
+"nid": 1537328245542,
+"word": "报复",
+"pinyin": "bào fù",
+"gloss": "retaliate; revenge",
+"tier": "weak"
+},
+{
+"nid": 1537328247742,
+"word": "无效",
+"pinyin": "wú xiào",
+"gloss": "Not valid, ineffective, in vain",
+"tier": "weak"
+},
+{
+"nid": 1537328240017,
+"word": "有意思",
+"pinyin": "yǒu yì si",
+"gloss": "Interesting",
+"tier": "sparse"
+},
+{
+"nid": 1537328240010,
+"word": "有钱",
+"pinyin": "yǒu qían",
+"gloss": "Rich",
+"tier": "weak"
+},
+{
+"nid": 1537328247542,
+"word": "标签",
+"pinyin": "biāo qiān",
+"gloss": "Label, tag, tab (of a window) (computing)",
+"tier": "weak"
+},
+{
+"nid": 1537328247485,
+"word": "汉族",
+"pinyin": "hàn zú",
+"gloss": "Han ethnic group",
+"tier": "sparse"
+},
+{
+"nid": 1708747494055,
+"word": "王朝",
+"pinyin": "wáng cháo",
+"gloss": "1. dynasty",
+"tier": "sparse"
+},
+{
+"nid": 1393817668544,
+"word": "穿越",
+"pinyin": "chuānyuè",
+"gloss": "pass through; cut across",
+"tier": "weak"
+},
+{
+"nid": 1520716965619,
+"word": "第二个",
+"pinyin": "dì-èr gè",
+"gloss": "the second one",
+"tier": "sparse"
+},
+{
+"nid": 1708747488482,
+"word": "群岛",
+"pinyin": "qún dǎo",
+"gloss": "1. group of islands; 2. archipelago",
+"tier": "sparse"
+},
+{
+"nid": 1708747509446,
+"word": "行政区",
+"pinyin": "xíng zhèng qū",
+"gloss": "1. administrative district",
+"tier": "sparse"
+},
+{
+"nid": 1717270468001,
+"word": "赛季",
+"pinyin": "sài jì",
+"gloss": "1. season (sports)",
+"tier": "sparse"
+},
+{
+"nid": 1393817670240,
+"word": "随即",
+"pinyin": "suíjí",
+"gloss": "immediately (after); soon after; immediately",
+"tier": "sparse"
+},
+{
+"nid": 1537328245957,
+"word": "不利",
+"pinyin": "bú lì",
+"gloss": "Disadvantageous",
+"tier": "weak"
+},
+{
+"nid": 1708747491761,
+"word": "不变",
+"pinyin": "bù biàn",
+"gloss": "1. constant; 2. unvarying; 3. (math.) invariant",
+"tier": "weak"
+},
+{
+"nid": 1537328246078,
+"word": "乐观",
+"pinyin": "lè guān",
+"gloss": "optimism; hopeful",
+"tier": "weak"
+},
+{
+"nid": 1708747509329,
+"word": "乔治",
+"pinyin": "Qiáo zhì",
+"gloss": "1. George (name)",
+"tier": "weak"
+},
+{
+"nid": 1393817667596,
+"word": "克服",
+"pinyin": "kèfú",
+"gloss": "overcome (hardships, etc.); conquer",
+"tier": "weak"
+},
+{
+"nid": 1537328247302,
+"word": "凶手",
+"pinyin": "xiōng shǒu",
+"gloss": "murderer; assassin; assailant",
+"tier": "weak"
+},
+{
+"nid": 1393817669865,
+"word": "剥削",
+"pinyin": "bōxuē",
+"gloss": "to exploit",
+"tier": "sparse"
+},
+{
+"nid": 1708747517155,
+"word": "医师",
+"pinyin": "yī shī",
+"gloss": "1. doctor",
+"tier": "sparse"
+},
+{
+"nid": 1708747498640,
+"word": "南海",
+"pinyin": "Nán Hǎi",
+"gloss": "1. South China Sea",
+"tier": "sparse"
+},
+{
+"nid": 1537328245614,
+"word": "口味",
+"pinyin": "kǒu wèi",
+"gloss": "a person's tastes or preferences",
+"tier": "weak"
+},
+{
+"nid": 1393817669899,
+"word": "响应",
+"pinyin": "xiǎngyìng",
+"gloss": "respond to; answer",
+"tier": "sparse"
+},
+{
+"nid": 1393817669018,
+"word": "回收",
+"pinyin": "huíshōu",
+"gloss": "recycle; recover and put back to use",
+"tier": "weak"
+},
+{
+"nid": 1708747487412,
+"word": "外围",
+"pinyin": "wài wéi",
+"gloss": "1. surrounding",
+"tier": "weak"
+},
+{
+"nid": 1704372615212,
+"word": "屋顶",
+"pinyin": "wūdǐng",
+"gloss": "rooftop",
+"tier": "weak"
+},
+{
+"nid": 1708747490128,
+"word": "工作者",
+"pinyin": "gōng zuò zhě",
+"gloss": "1. worker",
+"tier": "sparse"
+},
+{
+"nid": 1708747500508,
+"word": "所在地",
+"pinyin": "suǒ zài dì",
+"gloss": "1. location; 2. site",
+"tier": "weak"
+},
+{
+"nid": 1537328247633,
+"word": "无比",
+"pinyin": "wú bǐ",
+"gloss": "matchless; incomparable",
+"tier": "weak"
+},
+{
+"nid": 1717270478112,
+"word": "柬埔寨",
+"pinyin": "Jiǎn pǔ zhài",
+"gloss": "1. Cambodia",
+"tier": "sparse"
+},
+{
+"nid": 1708747515908,
+"word": "版权",
+"pinyin": "bǎn quán",
+"gloss": "1. copyright",
+"tier": "sparse"
+},
+{
+"nid": 1393817669113,
+"word": "示范",
+"pinyin": "shìfàn",
+"gloss": "demonstrate; lead the way; show how something is done",
+"tier": "weak"
+},
+{
+"nid": 1393817668540,
+"word": "足以",
+"pinyin": "zúyǐ",
+"gloss": "sufficient to ...; so much so that; sufficiently",
+"tier": "weak"
+},
+{
+"nid": 1537328243924,
+"word": "身份证",
+"pinyin": "shēn fèn zhèng",
+"gloss": "Identity card; Identity card, ID",
+"tier": "sparse"
+},
+{
+"nid": 1708747514949,
+"word": "邻近",
+"pinyin": "lín jìn",
+"gloss": "1. neighboring; 2. adjacent; 3. near; 4. vicinity",
+"tier": "weak"
+},
+{
+"nid": 1537328247233,
+"word": "乐队",
+"pinyin": "yuè duì",
+"gloss": "Band, pop group",
+"tier": "sparse"
+},
+{
+"nid": 1393817666371,
+"word": "冷静",
+"pinyin": "lěngjìng",
+"gloss": "calm; cool-headed; sober",
+"tier": "weak"
+},
+{
+"nid": 1537328241411,
+"word": "区分",
+"pinyin": "qū fēn",
+"gloss": "differentiate; find differing aspects; find the difference between",
+"tier": "weak"
+},
+{
+"nid": 1708747491503,
+"word": "喝酒",
+"pinyin": "hē jiǔ",
+"gloss": "1. to drink (alcohol)",
+"tier": "weak"
+},
+{
+"nid": 1393817669496,
+"word": "大致",
+"pinyin": "dàzhì",
+"gloss": "more or less; roughly; approximately",
+"tier": "weak"
+},
+{
+"nid": 1520716966471,
+"word": "好玩",
+"pinyin": "hǎowán",
+"gloss": "fun",
+"tier": "sparse"
+},
+{
+"nid": 1717270479878,
+"word": "州长",
+"pinyin": "zhōu zhǎng",
+"gloss": "1. governor (of a province or colony); 2. US state governor; 3. premier (Austral",
+"tier": "sparse"
+},
+{
+"nid": 1537328245386,
+"word": "总经理",
+"pinyin": "zǒng jīng lǐ",
+"gloss": "Head-manager",
+"tier": "sparse"
+},
+{
+"nid": 1393817668531,
+"word": "提示",
+"pinyin": "tíshì",
+"gloss": "to prompt; to present; to point out; to draw attention to sth; hint; brief; cue",
+"tier": "weak"
+},
+{
+"nid": 1393817668547,
+"word": "欢乐",
+"pinyin": "huānlè",
+"gloss": "gaiety; glee; delighted",
+"tier": "weak"
+},
+{
+"nid": 1393817668302,
+"word": "激情",
+"pinyin": "jīqíng",
+"gloss": "passion; strong emotion; fervor; enthusiasm",
+"tier": "weak"
+},
+{
+"nid": 1393817670359,
+"word": "纺织",
+"pinyin": "fǎngzhī",
+"gloss": "spinning and weaving; textile",
+"tier": "sparse"
+},
+{
+"nid": 1393817668844,
+"word": "终身",
+"pinyin": "zhōngshēn",
+"gloss": "lifelong",
+"tier": "weak"
+},
+{
+"nid": 1393817667367,
+"word": "肌肉",
+"pinyin": "jīròu",
+"gloss": "muscle;&nbsp;flesh",
+"tier": "weak"
+},
+{
+"nid": 1708747484054,
+"word": "舰队",
+"pinyin": "jiàn duì",
+"gloss": "1. fleet; 2. CL:支[zhī]",
+"tier": "weak"
+},
+{
+"nid": 1393817668810,
+"word": "识别",
+"pinyin": "shíbié",
+"gloss": "identify; distinguish; discern",
+"tier": "weak"
+},
+{
+"nid": 1537328244351,
+"word": "邮件",
+"pinyin": "yóu jiàn",
+"gloss": "Email; Mail",
+"tier": "sparse"
+},
+{
+"nid": 1537328247828,
+"word": "难度",
+"pinyin": "nán dù",
+"gloss": "Trouble, problem",
+"tier": "weak"
+},
+{
+"nid": 1708747501510,
+"word": "骗局",
+"pinyin": "piàn jú",
+"gloss": "1. a swindle; 2. a trap; 3. a racket; 4. a scam; 5. CL:場|场[chǎng]",
+"tier": "sparse"
+},
+{
+"nid": 1537328243873,
+"word": "假期",
+"pinyin": "jià qī",
+"gloss": "Holidays, vacation; Holiday",
+"tier": "weak"
+},
+{
+"nid": 1537328247011,
+"word": "光明",
+"pinyin": "guāng míng",
+"gloss": "bright (future); promising; illuminate",
+"tier": "weak"
+},
+{
+"nid": 1537328242717,
+"word": "办公",
+"pinyin": "bàn gōng",
+"gloss": "To take care of official matters",
+"tier": "weak"
+},
+{
+"nid": 1393817667785,
+"word": "反复",
+"pinyin": "fǎnfù",
+"gloss": "repeatedly; over and over",
+"tier": "weak"
+},
+{
+"nid": 1537328242406,
+"word": "小时候",
+"pinyin": "xiǎo shí hou",
+"gloss": "When I was young",
+"tier": "weak"
+},
+{
+"nid": 1393817668311,
+"word": "开除",
+"pinyin": "kāichú",
+"gloss": "expel; to discharge; to kick out",
+"tier": "weak"
+},
+{
+"nid": 1537328246209,
+"word": "录像",
+"pinyin": "lù xiàng",
+"gloss": "Video recording",
+"tier": "weak"
+},
+{
+"nid": 1393817668645,
+"word": "征服",
+"pinyin": "zhēngfú",
+"gloss": "conquer; subdue",
+"tier": "weak"
+},
+{
+"nid": 1393817668245,
+"word": "折磨",
+"pinyin": "zhémo",
+"gloss": "persecute; to torture",
+"tier": "weak"
+},
+{
+"nid": 1393817670164,
+"word": "海拔",
+"pinyin": "hǎibá",
+"gloss": "height above sea level; elevation",
+"tier": "weak"
+},
+{
+"nid": 1708747493031,
+"word": "特区",
+"pinyin": "tè qū",
+"gloss": "1. special administrative region; 2. abbr. for 特別行政區|特别行政区",
+"tier": "sparse"
+},
+{
+"nid": 1393817669926,
+"word": "独裁",
+"pinyin": "dúcái",
+"gloss": "dictatorship",
+"tier": "weak"
+},
+{
+"nid": 1708747489867,
+"word": "科学院",
+"pinyin": "kē xué yuàn",
+"gloss": "1. academy of sciences; 2. CL:個|个[gè]",
+"tier": "sparse"
+},
+{
+"nid": 1708747488017,
+"word": "荣耀",
+"pinyin": "róng yào",
+"gloss": "1. honor; 2. glory",
+"tier": "weak"
+},
+{
+"nid": 1537328247199,
+"word": "获奖",
+"pinyin": "huò jiǎng",
+"gloss": "To win an award",
+"tier": "weak"
+},
+{
+"nid": 1708747507173,
+"word": "西亚",
+"pinyin": "Xī Yà",
+"gloss": "1. Southwest Asia",
+"tier": "sparse"
+},
+{
+"nid": 1708747518446,
+"word": "选票",
+"pinyin": "xuǎn piào",
+"gloss": "1. a vote; 2. ballot; 3. CL:張|张[zhāng]",
+"tier": "weak"
+},
+{
+"nid": 1537328247286,
+"word": "配套",
+"pinyin": "pèi tào",
+"gloss": "form a complete set",
+"tier": "weak"
+},
+{
+"nid": 1537328245269,
+"word": "钢琴",
+"pinyin": "gāng qín",
+"gloss": "Piano",
+"tier": "sparse"
+},
+{
+"nid": 1708747494959,
+"word": "阿富汗",
+"pinyin": "Ā fù hàn",
+"gloss": "1. Afghanistan; 2. Afghan",
+"tier": "sparse"
+},
+{
+"nid": 1393817669302,
+"word": "验证",
+"pinyin": "yànzhèng",
+"gloss": "inspect and verify",
+"tier": "weak"
+},
+{
+"nid": 1393817669572,
+"word": "高峰",
+"pinyin": "gāofēng",
+"gloss": "peak; summit; apex",
+"tier": "sparse"
+},
+{
+"nid": 1393817668741,
+"word": "例外",
+"pinyin": "lìwài",
+"gloss": "(make an) exception",
+"tier": "weak"
+},
+{
+"nid": 1708747509201,
+"word": "保罗",
+"pinyin": "Bǎo luó",
+"gloss": "1. Paul",
+"tier": "weak"
+},
+{
+"nid": 1537328246588,
+"word": "入境",
+"pinyin": "rù jìng",
+"gloss": "To enter a country, immigration",
+"tier": "weak"
+},
+{
+"nid": 1537328245899,
+"word": "加盟",
+"pinyin": "jiā méng",
+"gloss": "To join a union, league, franchise",
+"tier": "sparse"
+},
+{
+"nid": 1393817669385,
+"word": "司令",
+"pinyin": "sīlìng",
+"gloss": "commanding officer",
+"tier": "weak"
+},
+{
+"nid": 1537328243789,
+"word": "图书",
+"pinyin": "tú shū",
+"gloss": "Books and newspapers",
+"tier": "weak"
+},
+{
+"nid": 1708747502610,
+"word": "声援",
+"pinyin": "shēng yuán",
+"gloss": "1. to support (a cause)",
+"tier": "weak"
+},
+{
+"nid": 1393817668933,
+"word": "处置",
+"pinyin": "chǔzhì",
+"gloss": "to handle; take care of; punish",
+"tier": "weak"
+},
+{
+"nid": 1717270452265,
+"word": "希特勒",
+"pinyin": "Xī tè lè",
+"gloss": "1. Adolf Hitler (1889-1945)",
+"tier": "sparse"
+},
+{
+"nid": 1704123394422,
+"word": "带走",
+"pinyin": "dàizǒu",
+"gloss": "take away sth,take away food",
+"tier": "weak"
+},
+{
+"nid": 1393817670227,
+"word": "开辟",
+"pinyin": "kāipì",
+"gloss": "open up; to start; to build",
+"tier": "weak"
+},
+{
+"nid": 1708747502707,
+"word": "总督",
+"pinyin": "zǒng dū",
+"gloss": "1. governor-general; 2. viceroy; 3. governor",
+"tier": "sparse"
+},
+{
+"nid": 1705355742395,
+"word": "悲伤",
+"pinyin": "bēishāng",
+"gloss": "sadness, grief, sorrow",
+"tier": "weak"
+},
+{
+"nid": 1393817668879,
+"word": "意图",
+"pinyin": "yìtú",
+"gloss": "intent; intention; intend",
+"tier": "weak"
+},
+{
+"nid": 1393817669395,
+"word": "描绘",
+"pinyin": "miáohuì",
+"gloss": "describe; portray",
+"tier": "weak"
+},
+{
+"nid": 1708747521853,
+"word": "新增",
+"pinyin": "xīn zēng",
+"gloss": "1. newly added; 2. additional; 3. to add (to what already exists)",
+"tier": "sparse"
+},
+{
+"nid": 1537328247834,
+"word": "流程",
+"pinyin": "liú chéng",
+"gloss": "Course, stream, sequence of processes",
+"tier": "weak"
+},
+{
+"nid": 1537328245689,
+"word": "短片",
+"pinyin": "duǎn piàn",
+"gloss": "Video, short film",
+"tier": "weak"
+},
+{
+"nid": 1537328240468,
+"word": "碰到",
+"pinyin": "pèng dào",
+"gloss": "To bump into;&nbsp;To come across, to run into, to meet",
+"tier": "weak"
+},
+{
+"nid": 1708747487430,
+"word": "第五",
+"pinyin": "dì wǔ",
+"gloss": "1. fifth",
+"tier": "weak"
+},
+{
+"nid": 1708747525230,
+"word": "蒋介石",
+"pinyin": "Jiǎng Jiè shí",
+"gloss": "1. Chiang Kai-shek (1887-1975), military leader, head of the Nationalist governm",
+"tier": "sparse"
+},
+{
+"nid": 1393817669630,
+"word": "见解",
+"pinyin": "jiànjiě",
+"gloss": "view; opinion; understanding",
+"tier": "weak"
+},
+{
+"nid": 1708747503488,
+"word": "请愿",
+"pinyin": "qǐng yuàn",
+"gloss": "1. petition (for action to be taken)",
+"tier": "sparse"
+},
+{
+"nid": 1393817668519,
+"word": "隔离",
+"pinyin": "gélí",
+"gloss": "insulate; separate; isolate",
+"tier": "weak"
+},
+{
+"nid": 1393817668597,
+"word": "额外",
+"pinyin": "éwài",
+"gloss": "extra; added; additional",
+"tier": "sparse"
+},
+{
+"nid": 1708747493386,
+"word": "三级",
+"pinyin": "sān jí",
+"gloss": "1. grade 3; 2. third class; 3. category C",
+"tier": "sparse"
+},
+{
+"nid": 1708747493539,
+"word": "不怕",
+"pinyin": "bù pà",
+"gloss": "1. fearless; 2. not worried (by setbacks or difficulties); 3. even if; 4. even t",
+"tier": "weak"
+},
+{
+"nid": 1537328241807,
+"word": "二级",
+"pinyin": "èr jí",
+"gloss": "Level 2",
+"tier": "sparse"
+},
+{
+"nid": 1393817668778,
+"word": "人格",
+"pinyin": "réngé",
+"gloss": "personality; moral integrity; character",
+"tier": "weak"
+},
+{
+"nid": 1393817669095,
+"word": "伴随",
+"pinyin": "bànsuí",
+"gloss": "accompany; go with; follow",
+"tier": "weak"
+},
+{
+"nid": 1537328243718,
+"word": "保安",
+"pinyin": "bǎo ān",
+"gloss": "Security",
+"tier": "weak"
+},
+{
+"nid": 1656144336519,
+"word": "凤凰",
+"pinyin": "fènghuáng",
+"gloss": "phoenix",
+"tier": "weak"
+},
+{
+"nid": 1708747503272,
+"word": "发声",
+"pinyin": "fā shēng",
+"gloss": "1. vocal; 2. sound; 3. sound production; 4. to utter; 5. to give voice",
+"tier": "weak"
+},
+{
+"nid": 1393817666689,
+"word": "对面",
+"pinyin": "duìmiàn",
+"gloss": "opposite; across from; the other side",
+"tier": "weak"
+},
+{
+"nid": 1537328247650,
+"word": "尺寸",
+"pinyin": "chǐ cun",
+"gloss": "Size, dimension, measurement",
+"tier": "weak"
+},
+{
+"nid": 1537328246495,
+"word": "志愿",
+"pinyin": "zhì yuàn",
+"gloss": "Aspiration, ambition, to volunteer",
+"tier": "weak"
+},
+{
+"nid": 1708747500281,
+"word": "新建",
+"pinyin": "Xīn jiàn",
+"gloss": "1. Xinjian county in Nanchang 南昌, Jiangxi",
+"tier": "weak"
+},
+{
+"nid": 1393817670237,
+"word": "框架",
+"pinyin": "kuàngjià",
+"gloss": "frame; framework; skeleton",
+"tier": "weak"
+},
+{
+"nid": 1393817667729,
+"word": "模糊",
+"pinyin": "móhu",
+"gloss": "vague; indistinct; fuzzy; foggy",
+"tier": "weak"
+},
+{
+"nid": 1537328246388,
+"word": "登上",
+"pinyin": "dēng shàng",
+"gloss": "To embark, climb on top",
+"tier": "weak"
+},
+{
+"nid": 1393817668930,
+"word": "目光",
+"pinyin": "mùguāng",
+"gloss": "sight; vision; view",
+"tier": "weak"
+},
+{
+"nid": 1708747496183,
+"word": "研究员",
+"pinyin": "yán jiū yuán",
+"gloss": "1. researcher",
+"tier": "weak"
+},
+{
+"nid": 1708747515154,
+"word": "营运",
+"pinyin": "yíng yùn",
+"gloss": "1. running; 2. operation (of airport, bus service, business etc)",
+"tier": "sparse"
+},
+{
+"nid": 1708747523974,
+"word": "资本家",
+"pinyin": "zī běn jiā",
+"gloss": "1. capitalist",
+"tier": "sparse"
+},
+{
+"nid": 1703692595790,
+"word": "软体",
+"pinyin": "ruǎntǐ",
+"gloss": "software",
+"tier": "sparse"
+},
+{
+"nid": 1708747486664,
+"word": "魔法",
+"pinyin": "mó fǎ",
+"gloss": "1. enchantment; 2. magic",
+"tier": "sparse"
+},
+{
+"nid": 1537328244606,
+"word": "一组",
+"pinyin": "yī zǔ",
+"gloss": "One group",
+"tier": "sparse"
+},
+{
+"nid": 1537328246832,
+"word": "传达",
+"pinyin": "chuán dá",
+"gloss": "convey; transmit; communicate",
+"tier": "weak"
+},
+{
+"nid": 1393817669305,
+"word": "储存",
+"pinyin": "chǔcún",
+"gloss": "stockpile; to store",
+"tier": "weak"
+},
+{
+"nid": 1393817669840,
+"word": "内涵",
+"pinyin": "nèihán",
+"gloss": "connotation",
+"tier": "sparse"
+},
+{
+"nid": 1537328247727,
+"word": "利率",
+"pinyin": "lì lǜ",
+"gloss": "Interest rates",
+"tier": "sparse"
+},
+{
+"nid": 1708747486287,
+"word": "半个",
+"pinyin": "bàn ge",
+"gloss": "1. half of sth",
+"tier": "weak"
+},
+{
+"nid": 1708747495575,
+"word": "周刊",
+"pinyin": "zhōu kān",
+"gloss": "1. weekly publication; 2. weekly",
+"tier": "weak"
+},
+{
+"nid": 1537328239527,
+"word": "哈哈",
+"pinyin": "hā hā",
+"gloss": "Haha; (onom.) laughing out loud",
+"tier": "sparse"
+},
+{
+"nid": 1537328247047,
+"word": "困境",
+"pinyin": "kùn jìng",
+"gloss": "Predicament, plight",
+"tier": "weak"
+},
+{
+"nid": 1393817670009,
+"word": "培育",
+"pinyin": "péiyù",
+"gloss": "to train; nurture; to breed",
+"tier": "weak"
+},
+{
+"nid": 1695258127798,
+"word": "奥地利",
+"pinyin": "Ào&nbsp;dì&nbsp;lì",
+"gloss": "Austria",
+"tier": "sparse"
+},
+{
+"nid": 1537328242014,
+"word": "客气",
+"pinyin": "kè qi",
+"gloss": "Polite, kind",
+"tier": "weak"
+},
+{
+"nid": 1393817666743,
+"word": "师傅",
+"pinyin": "shīfu",
+"gloss": "master; qualified worker; teacher",
+"tier": "weak"
+},
+{
+"nid": 1708747503455,
+"word": "所有权",
+"pinyin": "suǒ yǒu quán",
+"gloss": "1. ownership; 2. possession; 3. property rights; 4. title (to property)",
+"tier": "sparse"
+},
+{
+"nid": 1537328245608,
+"word": "抱歉",
+"pinyin": "bào qiàn",
+"gloss": "be sorry; feel apologetic; to regret",
+"tier": "weak"
+},
+{
+"nid": 1708747488035,
+"word": "提案",
+"pinyin": "tí àn",
+"gloss": "1. proposal; 2. draft resolution; 3. motion (to be debated); 4. to propose a bil",
+"tier": "weak"
+},
+{
+"nid": 1708747486632,
+"word": "死去",
+"pinyin": "sǐ qù",
+"gloss": "1. to die",
+"tier": "weak"
+},
+{
+"nid": 1393817667907,
+"word": "灵活",
+"pinyin": "línghuó",
+"gloss": "flexible; nimble; agile",
+"tier": "weak"
+},
+{
+"nid": 1393817670134,
+"word": "申报",
+"pinyin": "shēnbào",
+"gloss": "declare; report (to customs or other authority)",
+"tier": "sparse"
+},
+{
+"nid": 1537328244996,
+"word": "穷人",
+"pinyin": "qióng rén",
+"gloss": "Poor person",
+"tier": "weak"
+},
+{
+"nid": 1537328244987,
+"word": "窗口",
+"pinyin": "chuāng kǒu",
+"gloss": "Window",
+"tier": "sparse"
+},
+{
+"nid": 1708747491115,
+"word": "罪名",
+"pinyin": "zuì míng",
+"gloss": "1. criminal charge; 2. accusation",
+"tier": "weak"
+},
+{
+"nid": 1537328246132,
+"word": "考生",
+"pinyin": "kǎo shēng",
+"gloss": "Examinee, exam candidate",
+"tier": "weak"
+},
+{
+"nid": 1393817669944,
+"word": "要素",
+"pinyin": "yàosù",
+"gloss": "essential factor; key constituent",
+"tier": "weak"
+},
+{
+"nid": 1393817670082,
+"word": "规格",
+"pinyin": "guīgé",
+"gloss": "standard; norm; specification",
+"tier": "weak"
+},
+{
+"nid": 1708747520455,
+"word": "近年",
+"pinyin": "jìn nián",
+"gloss": "1. recent year(s)",
+"tier": "weak"
+},
+{
+"nid": 1537328243406,
+"word": "高考",
+"pinyin": "gāo kǎo",
+"gloss": "The national college entrance exam in China",
+"tier": "weak"
+},
+{
+"nid": 1537328247238,
+"word": "下列",
+"pinyin": "xià liè",
+"gloss": "Following",
+"tier": "sparse"
+},
+{
+"nid": 1537328242045,
+"word": "中医",
+"pinyin": "zhōng yī",
+"gloss": "Chinese medicine",
+"tier": "weak"
+},
+{
+"nid": 1393817670562,
+"word": "乡镇",
+"pinyin": "xiāngzhèn",
+"gloss": "village and town",
+"tier": "weak"
+},
+{
+"nid": 1537328243636,
+"word": "冬天",
+"pinyin": "dōng tiān",
+"gloss": "Winter",
+"tier": "weak"
+},
+{
+"nid": 1537328243911,
+"word": "刚好",
+"pinyin": "gāng hǎo",
+"gloss": "Just in time",
+"tier": "weak"
+},
+{
+"nid": 1537328243372,
+"word": "单身",
+"pinyin": "dān shēn",
+"gloss": "Single (not in a relationship)",
+"tier": "weak"
+},
+{
+"nid": 1717270471637,
+"word": "印度尼西亚",
+"pinyin": "Yìn dù ní xī yà",
+"gloss": "1. Indonesia",
+"tier": "sparse"
+},
+{
+"nid": 1393817668508,
+"word": "器官",
+"pinyin": "qìguān",
+"gloss": "organ; apparatus",
+"tier": "weak"
+},
+{
+"nid": 1708747521384,
+"word": "国营",
+"pinyin": "guó yíng",
+"gloss": "1. state-run (company etc); 2. nationalized",
+"tier": "sparse"
+},
+{
+"nid": 1537328244853,
+"word": "很棒",
+"pinyin": "hěn bàng",
+"gloss": "Awesome",
+"tier": "sparse"
+},
+{
+"nid": 1708747486350,
+"word": "快点",
+"pinyin": "kuài diǎn",
+"gloss": "1. to do sth more quickly; 2. Hurry up!; 3. Get a move on!",
+"tier": "weak"
+},
+{
+"nid": 1537328243685,
+"word": "拍照",
+"pinyin": "pāi zhào",
+"gloss": "To take a picture",
+"tier": "weak"
+},
+{
+"nid": 1393817668373,
+"word": "暗示",
+"pinyin": "ànshì",
+"gloss": "drop a hint;&nbsp;suggest",
+"tier": "weak"
+},
+{
+"nid": 1708058710344,
+"word": "柏林",
+"pinyin": "Bo2lin2",
+"gloss": "Berlin",
+"tier": "sparse"
+},
+{
+"nid": 1537328242701,
+"word": "歌词",
+"pinyin": "gē cí",
+"gloss": "Lyrics",
+"tier": "weak"
+},
+{
+"nid": 1710963500911,
+"word": "爱尔兰",
+"pinyin": "Ài ěr lán",
+"gloss": "1. Ireland",
+"tier": "sparse"
+},
+{
+"nid": 1393817669210,
+"word": "约束",
+"pinyin": "yuēshù",
+"gloss": "restrict; limit to; (legally) constrain; restriction",
+"tier": "weak"
+},
+{
+"nid": 1537328246207,
+"word": "纪录片",
+"pinyin": "jì lù piàn",
+"gloss": "Documentary",
+"tier": "sparse"
+},
+{
+"nid": 1393817669471,
+"word": "观光",
+"pinyin": "guānguāng",
+"gloss": "sight see; tour",
+"tier": "weak"
+},
+{
+"nid": 1708747494760,
+"word": "詹姆斯",
+"pinyin": "Zhān mǔ sī",
+"gloss": "1. James (name); 2. LeBron James (1984-), NBA player",
+"tier": "weak"
+},
+{
+"nid": 1708747493940,
+"word": "身亡",
+"pinyin": "shēn wáng",
+"gloss": "1. to die",
+"tier": "weak"
+},
+{
+"nid": 1537328240069,
+"word": "这句",
+"pinyin": "zhè jù",
+"gloss": "This sentence",
+"tier": "sparse"
+},
+{
+"nid": 1393817670118,
+"word": "逝世",
+"pinyin": "shìshì",
+"gloss": "pass away; to die",
+"tier": "weak"
+},
+{
+"nid": 1393817669513,
+"word": "间接",
+"pinyin": "jiànjiē",
+"gloss": "indirect",
+"tier": "weak"
+},
+{
+"nid": 1537328246811,
+"word": "一刻",
+"pinyin": "yī kè",
+"gloss": "A moment",
+"tier": "sparse"
+},
+{
+"nid": 1708747485064,
+"word": "一号",
+"pinyin": "yī hào",
+"gloss": "1. first day of the month; 2. toilet; 3. (slang) top (in a homosexual relationsh",
+"tier": "sparse"
+},
+{
+"nid": 1393817670181,
+"word": "为期",
+"pinyin": "wéiqī",
+"gloss": "be scheduled for; last for (a certain duration)",
+"tier": "sparse"
+},
+{
+"nid": 1708747501309,
+"word": "亚马逊",
+"pinyin": "Yà mǎ xùn",
+"gloss": "1. Amazon",
+"tier": "weak"
+},
+{
+"nid": 1708747505664,
+"word": "亨利",
+"pinyin": "Hēng lì",
+"gloss": "1. Henry (name); 2. henry (unit of inductance)",
+"tier": "weak"
+},
+{
+"nid": 1537328244283,
+"word": "伤口",
+"pinyin": "shāng kǒu",
+"gloss": "Wound",
+"tier": "weak"
+},
+{
+"nid": 1537328247780,
+"word": "创始人",
+"pinyin": "chuàng shǐ rén",
+"gloss": "Creator, founder, initiator",
+"tier": "weak"
+},
+{
+"nid": 1708747503750,
+"word": "卡尔",
+"pinyin": "Kǎ ěr",
+"gloss": "1. Karl (name)",
+"tier": "sparse"
+},
+{
+"nid": 1717270457576,
+"word": "参议员",
+"pinyin": "cān yì yuán",
+"gloss": "1. senator",
+"tier": "sparse"
+},
+{
+"nid": 1537328245461,
+"word": "反思",
+"pinyin": "fǎn sī",
+"gloss": "think back over something that happened; to reflect; introspection",
+"tier": "weak"
+},
+{
+"nid": 1705346639146,
+"word": "商场",
+"pinyin": "shāngchǎng",
+"gloss": "shopping mall, shopping center; market",
+"tier": "sparse"
+},
+{
+"nid": 1393817669886,
+"word": "天然气",
+"pinyin": "tiānránqì",
+"gloss": "natural gas",
+"tier": "sparse"
+},
+{
+"nid": 1537328247713,
+"word": "存款",
+"pinyin": "cún kuǎn",
+"gloss": "To deposit money (in a bank etc)",
+"tier": "sparse"
+},
+{
+"nid": 1708747500455,
+"word": "将领",
+"pinyin": "jiàng lǐng",
+"gloss": "1. high-ranking military officer",
+"tier": "weak"
+},
+{
+"nid": 1537328242710,
+"word": "工作室",
+"pinyin": "gōng zuò shì",
+"gloss": "Work room, studio",
+"tier": "sparse"
+},
+{
+"nid": 1708747509387,
+"word": "帐号",
+"pinyin": "zhàng hào",
+"gloss": "1. account number",
+"tier": "weak"
+},
+{
+"nid": 1393817667847,
+"word": "幼儿园",
+"pinyin": "yòu'éryuán",
+"gloss": "kindergarten; nursery school",
+"tier": "sparse"
+},
+{
+"nid": 1393817668482,
+"word": "性命",
+"pinyin": "xìngmìng",
+"gloss": "life, existence, vital energy&nbsp;",
+"tier": "weak"
+},
+{
+"nid": 1708747494498,
+"word": "想像",
+"pinyin": "xiǎng xiàng",
+"gloss": "1. to imagine; 2. to conceive of; 3. to visualize; 4. imagination",
+"tier": "weak"
+},
+{
+"nid": 1708747488359,
+"word": "拿来",
+"pinyin": "ná lái",
+"gloss": "1. to bring; 2. to fetch; 3. to get",
+"tier": "weak"
+},
+{
+"nid": 1537328242147,
+"word": "整天",
+"pinyin": "zhěng tiān",
+"gloss": "The whole day",
+"tier": "weak"
+},
+{
+"nid": 1393817670124,
+"word": "整顿",
+"pinyin": "zhěngdùn",
+"gloss": "Rectify; consolidate; reorganise ; sort out",
+"tier": "weak"
+},
+{
+"nid": 1537328246687,
+"word": "春节",
+"pinyin": "chūn jié",
+"gloss": "Spring Festival (Chinese New Year)",
+"tier": "weak"
+},
+{
+"nid": 1393817668129,
+"word": "本科",
+"pinyin": "běnkē",
+"gloss": "undergraduate",
+"tier": "sparse"
+},
+{
+"nid": 1708747522015,
+"word": "架构",
+"pinyin": "jià gòu",
+"gloss": "1. to construct; 2. to build; 3. infrastructure; 4. architecture; 5. framework",
+"tier": "sparse"
+},
+{
+"nid": 1537328245812,
+"word": "标语",
+"pinyin": "biāo yǔ",
+"gloss": "Slogan, poster",
+"tier": "sparse"
+},
+{
+"nid": 1393817668706,
+"word": "漫长",
+"pinyin": "màncháng",
+"gloss": "very long; endless",
+"tier": "weak"
+},
+{
+"nid": 1708747524854,
+"word": "直辖市",
+"pinyin": "zhí xiá shì",
+"gloss": "1. municipality, namely: Beijing 北京, Tianjin 天津, Shanghai 上海 and Chongqing 重慶|重庆",
+"tier": "weak"
+},
+{
+"nid": 1537328246668,
+"word": "精确",
+"pinyin": "jīng què",
+"gloss": "accurate; precise",
+"tier": "weak"
+},
+{
+"nid": 1706419737542,
+"word": "精英",
+"pinyin": "jing1ying1",
+"gloss": "elite; cream",
+"tier": "weak"
+},
+{
+"nid": 1393817669472,
+"word": "纠纷",
+"pinyin": "jiūfēn",
+"gloss": "dispute; quarrel",
+"tier": "weak"
+},
+{
+"nid": 1708747503622,
+"word": "苏维埃",
+"pinyin": "Sū wéi āi",
+"gloss": "1. Soviet (council)",
+"tier": "sparse"
+},
+{
+"nid": 1393817668703,
+"word": "野蛮",
+"pinyin": "yěmán",
+"gloss": "barbarous; uncivilized; cruel; wild",
+"tier": "weak"
+},
+{
+"nid": 1717270478634,
+"word": "专项",
+"pinyin": "zhuān xiàng",
+"gloss": "1. special; 2. dedicated",
+"tier": "sparse"
+},
+{
+"nid": 1393817668620,
+"word": "举动",
+"pinyin": "jǔdòng",
+"gloss": "action; act; (make) a move; movement",
+"tier": "weak"
+},
+{
+"nid": 1393817669067,
+"word": "作风",
+"pinyin": "zuòfēng",
+"gloss": "work style; way",
+"tier": "weak"
+},
+{
+"nid": 1717270455081,
+"word": "劳工",
+"pinyin": "láo gōng",
+"gloss": "1. labor; 2. laborer",
+"tier": "sparse"
+},
+{
+"nid": 1393817667962,
+"word": "单元",
+"pinyin": "dānyuán",
+"gloss": "unit; entrance number; staircase (for residential buildings)",
+"tier": "sparse"
+},
+{
+"nid": 1537328245456,
+"word": "反动",
+"pinyin": "fǎn dòng",
+"gloss": "Reaction",
+"tier": "weak"
+},
+{
+"nid": 1708747503514,
+"word": "基督徒",
+"pinyin": "Jī dū tú",
+"gloss": "1. Christian",
+"tier": "sparse"
+},
+{
+"nid": 1717270453270,
+"word": "基金会",
+"pinyin": "jī jīn huì",
+"gloss": "1. foundation (institution supported by an endowment)",
+"tier": "sparse"
+},
+{
+"nid": 1393817669975,
+"word": "复兴",
+"pinyin": "fùxīng",
+"gloss": "revive; restore",
+"tier": "weak"
+},
+{
+"nid": 1537328239995,
+"word": "女孩子",
+"pinyin": "nǚ hái zi",
+"gloss": "Girl",
+"tier": "sparse"
+},
+{
+"nid": 1537328245057,
+"word": "字幕",
+"pinyin": "zì mù",
+"gloss": "subtitles; captions",
+"tier": "weak"
+},
+{
+"nid": 1393817668337,
+"word": "宁愿",
+"pinyin": "nìngyuàn",
+"gloss": "would rather; better",
+"tier": "weak"
+},
+{
+"nid": 1708747500205,
+"word": "安娜",
+"pinyin": "Ān nà",
+"gloss": "1. Anna (name)",
+"tier": "sparse"
+},
+{
+"nid": 1393817669823,
+"word": "局部",
+"pinyin": "júbù",
+"gloss": "part; local",
+"tier": "weak"
+},
+{
+"nid": 1703539938901,
+"word": "差点",
+"pinyin": "chàdiǎn",
+"gloss": "almost, on the edge of;not good enough, not on the mark",
+"tier": "weak"
+},
+{
+"nid": 1537328247072,
+"word": "彼得",
+"pinyin": "bǐ dé",
+"gloss": "Peter",
+"tier": "sparse"
+},
+{
+"nid": 1708747507419,
+"word": "提及",
+"pinyin": "tí jí",
+"gloss": "1. to mention; 2. to raise (a subject); 3. to bring to sb&#x27;s attention",
+"tier": "weak"
+},
+{
+"nid": 1708747503732,
+"word": "提取",
+"pinyin": "tí qǔ",
+"gloss": "1. to withdraw (money); 2. to collect (left luggage); 3. to extract; 4. to refin",
+"tier": "weak"
+},
+{
+"nid": 1393817668657,
+"word": "操纵",
+"pinyin": "cāozòng",
+"gloss": "operate; control; manipulation",
+"tier": "weak"
+},
+{
+"nid": 1708747490266,
+"word": "政变",
+"pinyin": "zhèng biàn",
+"gloss": "1. coup d&#x27;état",
+"tier": "weak"
+},
+{
+"nid": 1708747508261,
+"word": "新西兰",
+"pinyin": "Xīn xī lán",
+"gloss": "1. New Zealand",
+"tier": "sparse"
+},
+{
+"nid": 1537328245181,
+"word": "昆明",
+"pinyin": "kūn míng",
+"gloss": "Kunming; Kunming (the capital of the Yunnan province)",
+"tier": "sparse"
+},
+{
+"nid": 1705871493922,
+"word": "杀手",
+"pinyin": "sha1shou3",
+"gloss": "hit man, murderer",
+"tier": "weak"
+},
+{
+"nid": 1537328245811,
+"word": "标记",
+"pinyin": "biāo jì",
+"gloss": "sign; mark; symbol",
+"tier": "weak"
+},
+{
+"nid": 1393817669600,
+"word": "正规",
+"pinyin": "zhèngguī",
+"gloss": "formal; regular; according to standards",
+"tier": "weak"
+},
+{
+"nid": 1393817668417,
+"word": "残忍",
+"pinyin": "cánrěn",
+"gloss": "brutal; bloody; merciless",
+"tier": "weak"
+},
+{
+"nid": 1393817669373,
+"word": "消耗",
+"pinyin": "xiāohào",
+"gloss": "use up; consume",
+"tier": "weak"
+},
+{
+"nid": 1537328243604,
+"word": "灭亡",
+"pinyin": "miè wáng",
+"gloss": "be destroyed; perish; exterminate; become extinct",
+"tier": "weak"
+},
+{
+"nid": 1537328246702,
+"word": "省份",
+"pinyin": "shěng fèn",
+"gloss": "Province",
+"tier": "sparse"
+},
+{
+"nid": 1393817666640,
+"word": "稍微",
+"pinyin": "shāowēi",
+"gloss": "a little bit; slightly",
+"tier": "weak"
+},
+{
+"nid": 1393817670085,
+"word": "简化",
+"pinyin": "jiǎnhuà",
+"gloss": "simplify; simplification",
+"tier": "sparse"
+},
+{
+"nid": 1537328244925,
+"word": "算了",
+"pinyin": "suàn le",
+"gloss": "“Forget it”",
+"tier": "weak"
+},
+{
+"nid": 1708747495705,
+"word": "纳粹",
+"pinyin": "Nà cuì",
+"gloss": "1. Nazi (loanword)",
+"tier": "sparse"
+},
+{
+"nid": 1537328242183,
+"word": "考古",
+"pinyin": "kǎo gǔ",
+"gloss": "archaeology",
+"tier": "weak"
+},
+{
+"nid": 1708747496648,
+"word": "金沙",
+"pinyin": "Jīn shā",
+"gloss": "1. Jinsha county in Bijie prefecture 畢節地區|毕节地区[Bì jié dì qū], Guizhou; 2. Chinsh",
+"tier": "sparse"
+},
+{
+"nid": 1708747518954,
+"word": "鸡巴",
+"pinyin": "jī ba",
+"gloss": "1. dick; 2. penis (vulgar)",
+"tier": "sparse"
+},
+{
+"nid": 1537328242290,
+"word": "上周",
+"pinyin": "shàng zhōu",
+"gloss": "Last week",
+"tier": "weak"
+},
+{
+"nid": 1537328244681,
+"word": "上线",
+"pinyin": "shàng xiàn",
+"gloss": "To go online; To go online, to put sth online",
+"tier": "sparse"
+},
+{
+"nid": 1537328240989,
+"word": "上课",
+"pinyin": "shàng kè",
+"gloss": "To attend class, to begin class",
+"tier": "weak"
+},
+{
+"nid": 1393817669105,
+"word": "临床",
+"pinyin": "línchuáng",
+"gloss": "clinical",
+"tier": "sparse"
+},
+{
+"nid": 1537328246354,
+"word": "亲人",
+"pinyin": "qīn rén",
+"gloss": "One's close relatives",
+"tier": "weak"
+},
+{
+"nid": 1537328246188,
+"word": "价钱",
+"pinyin": "jià qian",
+"gloss": "Cost, value",
+"tier": "weak"
+},
+{
+"nid": 1537328241653,
+"word": "停车",
+"pinyin": "tíng chē",
+"gloss": "To park",
+"tier": "sparse"
+},
+{
+"nid": 1537328246413,
+"word": "共产主义",
+"pinyin": "gòng chǎn zhǔ yì",
+"gloss": "Communism",
+"tier": "sparse"
+},
+{
+"nid": 1393817668427,
+"word": "冲动",
+"pinyin": "chōngdòng",
+"gloss": "impulsive; act on impulse",
+"tier": "weak"
+},
+{
+"nid": 1710963504441,
+"word": "制造业",
+"pinyin": "zhì zào yè",
+"gloss": "1. manufacturing industry",
+"tier": "sparse"
+},
+{
+"nid": 1708747490028,
+"word": "奥斯卡",
+"pinyin": "Ào sī kǎ",
+"gloss": "1. (film industry) Oscar (Academy Award); 2. CL:屆|届[jiè]; 3. (name) Oscar",
+"tier": "sparse"
+},
+{
+"nid": 1393817668871,
+"word": "妥协",
+"pinyin": "tuǒxié",
+"gloss": "to compromise; reach terms",
+"tier": "weak"
+},
+{
+"nid": 1708747494374,
+"word": "存储",
+"pinyin": "cún chǔ",
+"gloss": "1. to store up; 2. to stockpile; 3. (computer) to save; 4. to store; 5. memory; ",
+"tier": "sparse"
+},
+{
+"nid": 1708747492214,
+"word": "实时",
+"pinyin": "shí shí",
+"gloss": "1. (in) real time; 2. instantaneous",
+"tier": "sparse"
+},
+{
+"nid": 1393817669266,
+"word": "审理",
+"pinyin": "shěnlǐ",
+"gloss": "hear (a case)",
+"tier": "sparse"
+},
+{
+"nid": 1708747495707,
+"word": "平方公里",
+"pinyin": "píng fāng gōng lǐ",
+"gloss": "1. square kilometer",
+"tier": "sparse"
+},
+{
+"nid": 1708747499354,
+"word": "战斗机",
+"pinyin": "zhàn dòu jī",
+"gloss": "1. fighter (aircraft)",
+"tier": "weak"
+},
+{
+"nid": 1537328247290,
+"word": "搭配",
+"pinyin": "dā pèi",
+"gloss": "pair up; arrange in pairs; to add sth. into a group; to suit;collocation",
+"tier": "sparse"
+},
+{
+"nid": 1537328244677,
+"word": "无线",
+"pinyin": "wú xiàn",
+"gloss": "Wireless",
+"tier": "weak"
+},
+{
+"nid": 1537328241525,
+"word": "景点",
+"pinyin": "jǐng diǎn",
+"gloss": "Scenic spot; Scenic spot, place of interest (tourism)",
+"tier": "weak"
+},
+{
+"nid": 1710963495598,
+"word": "犹太",
+"pinyin": "Yóu tài",
+"gloss": "1. Jew; 2. Jewish; 3. Judea (in Biblical Palestine)",
+"tier": "sparse"
+},
+{
+"nid": 1708747492008,
+"word": "真人",
+"pinyin": "zhēn rén",
+"gloss": "1. a real person; 2. Daoist spiritual master",
+"tier": "weak"
+},
+{
+"nid": 1393817668822,
+"word": "眼光",
+"pinyin": "yǎnguāng",
+"gloss": "vision",
+"tier": "weak"
+},
+{
+"nid": 1537328243350,
+"word": "礼拜",
+"pinyin": "lǐbài, li bài",
+"gloss": "week (casual);&nbsp;Worship",
+"tier": "weak"
+},
+{
+"nid": 1393817668959,
+"word": "纠正",
+"pinyin": "jiūzhèng",
+"gloss": "to correct; to make right",
+"tier": "weak"
+},
+{
+"nid": 1393817668980,
+"word": "缺陷",
+"pinyin": "quēxiàn",
+"gloss": "a defect; a flaw; disfigurement",
+"tier": "weak"
+},
+{
+"nid": 1708747506446,
+"word": "联合会",
+"pinyin": "lián hé huì",
+"gloss": "1. federation",
+"tier": "weak"
+},
+{
+"nid": 1708747501533,
+"word": "苏丹",
+"pinyin": "Sū dān",
+"gloss": "1. Sudan; 2. sultan (ruler of some Muslim states, esp. Ottoman Emperor)",
+"tier": "sparse"
+},
+{
+"nid": 1430469733407,
+"word": "专栏",
+"pinyin": "zhuānlán",
+"gloss": "column (in a newspaper)",
+"tier": "sparse"
+},
+{
+"nid": 1393817668445,
+"word": "乐趣",
+"pinyin": "lèqù",
+"gloss": "delight; pleasure; joy; fun",
+"tier": "weak"
+},
+{
+"nid": 1393817668867,
+"word": "争夺",
+"pinyin": "zhēngduó",
+"gloss": "fight over; vie for; scramble for",
+"tier": "weak"
+},
+{
+"nid": 1537328240941,
+"word": "从来不",
+"pinyin": "cóng lái bù",
+"gloss": "Never (not in the future, present, or past; habitually)",
+"tier": "sparse"
+},
+{
+"nid": 1393817667707,
+"word": "仿佛",
+"pinyin": "fǎngfú",
+"gloss": "to seem as though; as if",
+"tier": "weak"
+},
+{
+"nid": 1393817669476,
+"word": "储备",
+"pinyin": "chǔbèi",
+"gloss": "reserves; store up",
+"tier": "weak"
+},
+{
+"nid": 1717270482786,
+"word": "党内",
+"pinyin": "dǎng nèi",
+"gloss": "1. within the party (esp. Chinese communist party)",
+"tier": "sparse"
+},
+{
+"nid": 1717270489843,
+"word": "共和",
+"pinyin": "gòng hé",
+"gloss": "1. republic; 2. republicanism",
+"tier": "sparse"
+},
+{
+"nid": 1393817669551,
+"word": "前景",
+"pinyin": "qiánjǐng",
+"gloss": "outlook; future (prospects); foreground",
+"tier": "sparse"
+},
+{
+"nid": 1708747486923,
+"word": "北美",
+"pinyin": "Běi měi",
+"gloss": "1. North America",
+"tier": "sparse"
+},
+{
+"nid": 1708747526238,
+"word": "吉林",
+"pinyin": "Jí lín",
+"gloss": "1. Jilin province (Kirin) in northeast China, abbr. 吉, capital 長春|长春; 2. also Ji",
+"tier": "sparse"
+},
+{
+"nid": 1393817668934,
+"word": "名誉",
+"pinyin": "míngyù",
+"gloss": "fame; reputation; honor; honorary",
+"tier": "weak"
+},
+{
+"nid": 1708747509120,
+"word": "启用",
+"pinyin": "qǐ yòng",
+"gloss": "1. to start using; 2. (computing) to enable (a feature)",
+"tier": "weak"
+},
+{
+"nid": 1393817667482,
+"word": "夸张",
+"pinyin": "kuāzhāng",
+"gloss": "exaggerate; overstate; exaggerated; overstated; vaunted; hyperbole",
+"tier": "weak"
+},
+{
+"nid": 1537328239682,
+"word": "好不好",
+"pinyin": "hǎo bù hǎo",
+"gloss": "OK?",
+"tier": "sparse"
+},
+{
+"nid": 1717270488676,
+"word": "左派",
+"pinyin": "zuǒ pài",
+"gloss": "1. (political) left; 2. left wing; 3. leftist",
+"tier": "sparse"
+},
+{
+"nid": 1702946615407,
+"word": "拜托",
+"pinyin": "bàituō",
+"gloss": "(polite) please",
+"tier": "weak"
+},
+{
+"nid": 1537328245746,
+"word": "挑选",
+"pinyin": "tiāo xuǎn",
+"gloss": "To choose, elect",
+"tier": "weak"
+},
+{
+"nid": 1708747499155,
+"word": "春秋",
+"pinyin": "Chūn qiū",
+"gloss": "1. Spring and Autumn Period (770-476 BC); 2. Spring and Autumn Annals, chronicle",
+"tier": "sparse"
+},
+{
+"nid": 1717270481229,
+"word": "普查",
+"pinyin": "pǔ chá",
+"gloss": "1. census; 2. general survey; 3. general investigation; 4. reconnaissance survey",
+"tier": "sparse"
+},
+{
+"nid": 1672770323229,
+"word": "某人",
+"pinyin": "Mǒu rén",
+"gloss": "someone",
+"tier": "sparse"
+},
+{
+"nid": 1708747485799,
+"word": "武士",
+"pinyin": "wǔ shì",
+"gloss": "1. warrior; 2. samurai",
+"tier": "weak"
+},
+{
+"nid": 1537328247893,
+"word": "气温",
+"pinyin": "qì wēn",
+"gloss": "Air temperature",
+"tier": "sparse"
+},
+{
+"nid": 1393817668528,
+"word": "汇报",
+"pinyin": "huìbào",
+"gloss": "report; give an account of; to collect information and report back",
+"tier": "weak"
+},
+{
+"nid": 1537328240999,
+"word": "海关",
+"pinyin": "hǎi guān",
+"gloss": "customs (i.e. border inspection)",
+"tier": "sparse"
+},
+{
+"nid": 1537328241680,
+"word": "爱上",
+"pinyin": "ài shàng",
+"gloss": "To fall in love",
+"tier": "weak"
+},
+{
+"nid": 1708747496497,
+"word": "牧师",
+"pinyin": "mù shī",
+"gloss": "1. chaplain; 2. churchman; 3. clergyman; 4. parson; 5. pastor; 6. priest; 7. rec",
+"tier": "sparse"
+},
+{
+"nid": 1708747502423,
+"word": "病例",
+"pinyin": "bìng lì",
+"gloss": "1. (medical) case; 2. occurrence of illness",
+"tier": "weak"
+},
+{
+"nid": 1708747494516,
+"word": "社长",
+"pinyin": "shè zhǎng",
+"gloss": "1. president or director (of association etc)",
+"tier": "weak"
+},
+{
+"nid": 1537328245585,
+"word": "笔记",
+"pinyin": "bǐ jì",
+"gloss": "To take note",
+"tier": "sparse"
+},
+{
+"nid": 1708747501851,
+"word": "精灵",
+"pinyin": "jīng líng",
+"gloss": "1. spirit; 2. fairy; 3. elf; 4. sprite; 5. genie",
+"tier": "weak"
+},
+{
+"nid": 1393817668177,
+"word": "线索",
+"pinyin": "xiànsuǒ",
+"gloss": "trail; clues; hints; thread (of a story)",
+"tier": "weak"
+},
+{
+"nid": 1393817669459,
+"word": "虚假",
+"pinyin": "xūjiǎ",
+"gloss": "false; phony; pretense; deceit",
+"tier": "weak"
+},
+{
+"nid": 1393817667150,
+"word": "运气",
+"pinyin": "yùnqi",
+"gloss": "luck",
+"tier": "weak"
+},
+{
+"nid": 1537328245507,
+"word": "预言",
+"pinyin": "yù yán",
+"gloss": "predict; prophecy",
+"tier": "weak"
+},
+{
+"nid": 1708747485096,
+"word": "一层",
+"pinyin": "yī céng",
+"gloss": "one layer",
+"tier": "weak"
+},
+{
+"nid": 1708747507016,
+"word": "不当",
+"pinyin": "bù dàng",
+"gloss": "1. unsuitable; 2. improper; 3. inappropriate",
+"tier": "sparse"
+},
+{
+"nid": 1393817668398,
+"word": "不止",
+"pinyin": "bùzhǐ",
+"gloss": "incessantly; more than",
+"tier": "weak"
+},
+{
+"nid": 1708747489179,
+"word": "东海",
+"pinyin": "Dōng Hǎi",
+"gloss": "1. East China Sea; 2. East Sea (Chinese mythology and ancient geography)",
+"tier": "weak"
+},
+{
+"nid": 1708747515366,
+"word": "交友",
+"pinyin": "jiāo yǒu",
+"gloss": "1. to make friends",
+"tier": "weak"
+},
+{
+"nid": 1705871411621,
+"word": "使用者",
+"pinyin": "shǐyòngzhě",
+"gloss": "user",
+"tier": "weak"
+},
+{
+"nid": 1393817669636,
+"word": "健全",
+"pinyin": "jiànquán",
+"gloss": "Perfect; sound; to perfect/strengthen/amplify",
+"tier": "weak"
+},
+{
+"nid": 1717270485746,
+"word": "公交",
+"pinyin": "gōng jiāo",
+"gloss": "1. public transportation; 2. mass transit; 3. abbr. for 公共交通[gōng gòng jiāo tōng",
+"tier": "sparse"
+},
+{
+"nid": 1393817668687,
+"word": "分散",
+"pinyin": "fēnsàn",
+"gloss": "to scatter; disperse; distribute",
+"tier": "weak"
+},
+{
+"nid": 1393817670115,
+"word": "切实",
+"pinyin": "qièshí",
+"gloss": "realistic; feasible; conscientiously",
+"tier": "weak"
+},
+{
+"nid": 1393817667994,
+"word": "初级",
+"pinyin": "chūjí",
+"gloss": "junior; primary",
+"tier": "weak"
+},
+{
+"nid": 1708747493090,
+"word": "受欢迎",
+"pinyin": "shòu huān yíng",
+"gloss": "1. popular; 2. well-received",
+"tier": "weak"
+},
+{
+"nid": 1393817669686,
+"word": "境界",
+"pinyin": "jìngjiè",
+"gloss": "boundary; state; realm; level",
+"tier": "weak"
+},
+{
+"nid": 1708747515069,
+"word": "好莱坞",
+"pinyin": "Hǎo lái wū",
+"gloss": "1. Hollywood",
+"tier": "sparse"
+},
+{
+"nid": 1708747500540,
+"word": "妓女",
+"pinyin": "jì nǚ",
+"gloss": "1. prostitute; 2. hooker",
+"tier": "sparse"
+},
+{
+"nid": 1708747493895,
+"word": "室内",
+"pinyin": "shì nèi",
+"gloss": "1. indoor",
+"tier": "weak"
+},
+{
+"nid": 1537328247826,
+"word": "密度",
+"pinyin": "mì dù",
+"gloss": "density; thickness; consistency",
+"tier": "sparse"
+},
+{
+"nid": 1717270486195,
+"word": "帐户",
+"pinyin": "zhàng hù",
+"gloss": "1. (bank, computer etc) account",
+"tier": "weak"
+},
+{
+"nid": 1393817668491,
+"word": "弥补",
+"pinyin": "míbǔ",
+"gloss": "make up for a deficiency; remedy; offset",
+"tier": "weak"
+},
+{
+"nid": 1703454285455,
+"word": "情侣",
+"pinyin": "qínglǚ",
+"gloss": "couples 🧑‍🤝‍🧑",
+"tier": "weak"
+},
+{
+"nid": 1708747493678,
+"word": "支持者",
+"pinyin": "zhī chí zhě",
+"gloss": "1. supporter",
+"tier": "sparse"
+},
+{
+"nid": 1537328239944,
+"word": "星期一",
+"pinyin": "xīng qī yī",
+"gloss": "Monday",
+"tier": "weak"
+},
+{
+"nid": 1537328247812,
+"word": "期限",
+"pinyin": "qī xiàn",
+"gloss": "time limit; deadline; allotted time",
+"tier": "weak"
+},
+{
+"nid": 1393817670422,
+"word": "格局",
+"pinyin": "géjú",
+"gloss": "structure; pattern",
+"tier": "weak"
+},
+{
+"nid": 1708747489610,
+"word": "登场",
+"pinyin": "dēng chǎng",
+"gloss": "1. to go on stage; 2. fig. to appear on the scene; 3. used in advertising to mea",
+"tier": "weak"
+},
+{
+"nid": 1708747497286,
+"word": "积分",
+"pinyin": "jī fēn",
+"gloss": "1. integral (calculus); 2. accumulated points (in sports, at school etc); 3. tot",
+"tier": "sparse"
+},
+{
+"nid": 1393817668042,
+"word": "缩短",
+"pinyin": "suōduǎn",
+"gloss": "shorten; cut down; curtail",
+"tier": "weak"
+},
+{
+"nid": 1393817667172,
+"word": "脖子",
+"pinyin": "bózi",
+"gloss": "neck",
+"tier": "weak"
+},
+{
+"nid": 1393817670062,
+"word": "范畴",
+"pinyin": "fànchóu",
+"gloss": "category",
+"tier": "weak"
+},
+{
+"nid": 1393817668889,
+"word": "解散",
+"pinyin": "jiěsàn",
+"gloss": "dismiss; dissolve; disband",
+"tier": "weak"
+},
+{
+"nid": 1708747503852,
+"word": "赛事",
+"pinyin": "sài shì",
+"gloss": "1. competition (e.g. sporting)",
+"tier": "sparse"
+},
+{
+"nid": 1537328246141,
+"word": "过滤",
+"pinyin": "guò lǜ",
+"gloss": "to filter; filter",
+"tier": "sparse"
+},
+{
+"nid": 1537328247668,
+"word": "部位",
+"pinyin": "bù wèi",
+"gloss": "position; place",
+"tier": "weak"
+},
+{
+"nid": 1393817667782,
+"word": "重量",
+"pinyin": "zhòngliàng",
+"gloss": "weight",
+"tier": "weak"
+},
+{
+"nid": 1537328239795,
+"word": "钱包",
+"pinyin": "qián bāo",
+"gloss": "Wallet",
+"tier": "weak"
+},
+{
+"nid": 1393817670468,
+"word": "防治",
+"pinyin": "fángzhì",
+"gloss": "prevent and cure",
+"tier": "weak"
+},
+{
+"nid": 1701475843381,
+"word": "阴影",
+"pinyin": "yin1ying3",
+"gloss": "shadow",
+"tier": "weak"
+},
+{
+"nid": 1393817668803,
+"word": "一流",
+"pinyin": "yīliú",
+"gloss": "top-grade",
+"tier": "weak"
+},
+{
+"nid": 1537328245531,
+"word": "丑闻",
+"pinyin": "chǒu wén",
+"gloss": "Scandal",
+"tier": "weak"
+},
+{
+"nid": 1537328244472,
+"word": "主场",
+"pinyin": "zhǔ chǎng",
+"gloss": "Home court",
+"tier": "weak"
+},
+{
+"nid": 1708747506853,
+"word": "亚历山大",
+"pinyin": "Yà lì shān dà",
+"gloss": "1. Alexander (name); 2. Alexandria (town name)",
+"tier": "weak"
+},
+{
+"nid": 1537328246790,
+"word": "伸出",
+"pinyin": "shēn chū",
+"gloss": "To extend",
+"tier": "weak"
+},
+{
+"nid": 1393817669380,
+"word": "分解",
+"pinyin": "fēnjiě",
+"gloss": "to decompose; to resolve; to break down",
+"tier": "weak"
+},
+{
+"nid": 1708747504954,
+"word": "列宁",
+"pinyin": "Liè níng",
+"gloss": "1. Vladimir Ilyich Lenin (1870-1924), Russian revolutionary leader",
+"tier": "sparse"
+},
+{
+"nid": 1393817670288,
+"word": "加剧",
+"pinyin": "jiājù",
+"gloss": "aggravate; intensify; sharpen; accelerate； exacerbate",
+"tier": "weak"
+},
+{
+"nid": 1537328247424,
+"word": "卡拉",
+"pinyin": "kǎ lā",
+"gloss": "Karaoke",
+"tier": "weak"
+},
+{
+"nid": 1708747525223,
+"word": "参议院",
+"pinyin": "cān yì yuàn",
+"gloss": "1. senate; 2. upper chamber (of legislative assembly)",
+"tier": "sparse"
+},
+{
+"nid": 1537328241283,
+"word": "可笑",
+"pinyin": "kě xiào",
+"gloss": "Laughable, pathetic",
+"tier": "weak"
+},
+{
+"nid": 1708747506850,
+"word": "哥伦比亚",
+"pinyin": "Gē lún bǐ yà",
+"gloss": "1. Colombia; 2. Columbia (District of, or University etc)",
+"tier": "sparse"
+},
+{
+"nid": 1393817668515,
+"word": "处境",
+"pinyin": "chǔjìng",
+"gloss": "plight; unfavorable situation",
+"tier": "weak"
+},
+{
+"nid": 1393817668610,
+"word": "屏幕",
+"pinyin": "píngmù",
+"gloss": "screen (TV, etc.)",
+"tier": "weak"
+},
+{
+"nid": 1708747513031,
+"word": "庇护",
+"pinyin": "bì hù",
+"gloss": "1. asylum; 2. shelter; 3. to shield; 4. to put under protection; 5. to take unde",
+"tier": "weak"
+},
+{
+"nid": 1708747488020,
+"word": "恶魔",
+"pinyin": "è mó",
+"gloss": "1. demon; 2. fiend",
+"tier": "weak"
+},
+{
+"nid": 1708747494741,
+"word": "打死",
+"pinyin": "dǎ sǐ",
+"gloss": "1. to kill; 2. to beat to death",
+"tier": "weak"
+},
+{
+"nid": 1717270489055,
+"word": "推文",
+"pinyin": "tuī wén",
+"gloss": "1. tweet (on Twitter); 2. (HK, Tw) to &quot;bump&quot; a forum thread to raise i",
+"tier": "weak"
+},
+{
+"nid": 1537328243493,
+"word": "景区",
+"pinyin": "jǐng qū",
+"gloss": "Scenic area",
+"tier": "sparse"
+},
+{
+"nid": 1708747501691,
+"word": "检察官",
+"pinyin": "jiǎn chá guān",
+"gloss": "1. public prosecutor; 2. public procurator (judicial officer whose job may invol",
+"tier": "weak"
+},
+{
+"nid": 1708747492899,
+"word": "江南",
+"pinyin": "Jiāng nán",
+"gloss": "1. south of Changjiang or Yangtze river; 2. south of the lower reaches of Changj",
+"tier": "sparse"
+},
+{
+"nid": 1393817669239,
+"word": "清晨",
+"pinyin": "qīngchén",
+"gloss": "early morning",
+"tier": "weak"
+},
+{
+"nid": 1708747519117,
+"word": "渔业",
+"pinyin": "yú yè",
+"gloss": "1. fishing industry; 2. fishery",
+"tier": "sparse"
+},
+{
+"nid": 1393817669307,
+"word": "潮流",
+"pinyin": "cháoliú",
+"gloss": "tide; current; trend",
+"tier": "weak"
+},
+{
+"nid": 1393817668289,
+"word": "痕迹",
+"pinyin": "hénjì",
+"gloss": "vestige; trace",
+"tier": "weak"
+},
+{
+"nid": 1708747498420,
+"word": "研究院",
+"pinyin": "yán jiū yuàn",
+"gloss": "1. research institute; 2. academy",
+"tier": "sparse"
+},
+{
+"nid": 1393817668455,
+"word": "确切",
+"pinyin": "quèqiè",
+"gloss": "definite; exact; precise",
+"tier": "weak"
+},
+{
+"nid": 1708747485900,
+"word": "航线",
+"pinyin": "háng xiàn",
+"gloss": "1. air or shipping route",
+"tier": "weak"
+},
+{
+"nid": 1537328241959,
+"word": "花钱",
+"pinyin": "huā qián",
+"gloss": "To spend money",
+"tier": "sparse"
+},
+{
+"nid": 1393817669246,
+"word": "视野",
+"pinyin": "shìyě",
+"gloss": "field of vision",
+"tier": "weak"
+},
+{
+"nid": 1537328244228,
+"word": "试着",
+"pinyin": "shì zhe",
+"gloss": "To try",
+"tier": "weak"
+},
+{
+"nid": 1708747496592,
+"word": "诸如",
+"pinyin": "zhū rú",
+"gloss": "1. (various things) such as; 2. such as (the following)",
+"tier": "sparse"
+},
+{
+"nid": 1708747510271,
+"word": "长春",
+"pinyin": "Cháng chūn",
+"gloss": "1. Changchun subprovincial city and capital of Jilin province 吉林省 in northeast C",
+"tier": "sparse"
+},
+{
+"nid": 1393817668336,
+"word": "隐瞒",
+"pinyin": "yǐnmán",
+"gloss": "conceal; hide; (a taboo subject); cover up",
+"tier": "weak"
+},
+{
+"nid": 1393817669054,
+"word": "难得",
+"pinyin": "nándé",
+"gloss": "hard to come by; difficult to get; rare",
+"tier": "weak"
+},
+{
+"nid": 1393817669932,
+"word": "鲜明",
+"pinyin": "xiānmíng",
+"gloss": "bright; clear-cut; distinct",
+"tier": "sparse"
+},
+{
+"nid": 1393817669293,
+"word": "一贯",
+"pinyin": "yị̄guàn",
+"gloss": "consistent; constant; from start to finish; then as now",
+"tier": "sparse"
+},
+{
+"nid": 1710963495260,
+"word": "侦探",
+"pinyin": "zhēn tàn",
+"gloss": "1. detective; 2. to do detective work",
+"tier": "sparse"
+},
+{
+"nid": 1708747509001,
+"word": "列表",
+"pinyin": "liè biǎo",
+"gloss": "1. list",
+"tier": "weak"
+},
+{
+"nid": 1708747493093,
+"word": "北大",
+"pinyin": "Běi Dà",
+"gloss": "1. Peking University (abbr. for 北京大學|北京大学)",
+"tier": "weak"
+},
+{
+"nid": 1537328246570,
+"word": "坏人",
+"pinyin": "huài rén",
+"gloss": "Bad person",
+"tier": "weak"
+},
+{
+"nid": 1537328247570,
+"word": "大于",
+"pinyin": "dà yú",
+"gloss": "Greater than, more than, >",
+"tier": "sparse"
+},
+{
+"nid": 1393817668299,
+"word": "天赋",
+"pinyin": "tiānfù",
+"gloss": "natural talent",
+"tier": "weak"
+},
+{
+"nid": 1393817668737,
+"word": "守护",
+"pinyin": "shǒuhù",
+"gloss": "guard; defend; protect",
+"tier": "weak"
+},
+{
+"nid": 1393817670329,
+"word": "导向",
+"pinyin": "dǎoxiàng",
+"gloss": "guidance; lead to; direct something towards",
+"tier": "weak"
+},
+{
+"nid": 1537328245570,
+"word": "小孩子",
+"pinyin": "xiǎo hái zi",
+"gloss": "Kid",
+"tier": "weak"
+},
+{
+"nid": 1537328248041,
+"word": "带给",
+"pinyin": "dài gěi",
+"gloss": "To give to, to provide to, to bring to",
+"tier": "weak"
+},
+{
+"nid": 1708747495887,
+"word": "应有",
+"pinyin": "yīng yǒu",
+"gloss": "1. proper",
+"tier": "weak"
+},
+{
+"nid": 1717270473234,
+"word": "德州",
+"pinyin": "Dé zhōu",
+"gloss": "1. Dezhou prefecture-level city in Shandong; 2. abbr. for 德克薩斯州|德克萨斯州, Texas",
+"tier": "weak"
+},
+{
+"nid": 1393817668385,
+"word": "忠诚",
+"pinyin": "zhōngchéng",
+"gloss": "honest; loyalty; devoted",
+"tier": "weak"
+},
+{
+"nid": 1537328245892,
+"word": "恶意",
+"pinyin": "è yì",
+"gloss": "Bad intent, malice",
+"tier": "weak"
+},
+{
+"nid": 1708747493876,
+"word": "拿下",
+"pinyin": "ná xià",
+"gloss": "1. to arrest; 2. to capture; 3. to seize; 4. to win (a set, a game etc)",
+"tier": "weak"
+},
+{
+"nid": 1393817669383,
+"word": "故乡",
+"pinyin": "gùxiāng",
+"gloss": "hometown; homeland; birthplace",
+"tier": "weak"
+},
+{
+"nid": 1708747492324,
+"word": "教导",
+"pinyin": "jiào dǎo",
+"gloss": "1. to instruct; 2. to teach; 3. guidance; 4. teaching",
+"tier": "weak"
+},
+{
+"nid": 1708747503664,
+"word": "无需",
+"pinyin": "wú xū",
+"gloss": "1. needless",
+"tier": "weak"
+},
+{
+"nid": 1708747500790,
+"word": "既有",
+"pinyin": "jì yǒu",
+"gloss": "1. existing",
+"tier": "weak"
+},
+{
+"nid": 1393817668857,
+"word": "模样",
+"pinyin": "múyàng",
+"gloss": "appearance; form; approximation",
+"tier": "weak"
+},
+{
+"nid": 1708747497853,
+"word": "点击",
+"pinyin": "diǎn jī",
+"gloss": "1. to hit; 2. to press; 3. to strike (on the keyboard); 4. to click (a web page ",
+"tier": "sparse"
+},
+{
+"nid": 1708747504804,
+"word": "现存",
+"pinyin": "xiàn cún",
+"gloss": "1. extant; 2. existent; 3. in stock",
+"tier": "weak"
+},
+{
+"nid": 1717270465466,
+"word": "白宫",
+"pinyin": "Bái gōng",
+"gloss": "1. White House",
+"tier": "sparse"
+},
+{
+"nid": 1708747526142,
+"word": "秘鲁",
+"pinyin": "Bì lǔ",
+"gloss": "1. Peru",
+"tier": "sparse"
+},
+{
+"nid": 1717270478893,
+"word": "竞争力",
+"pinyin": "jìng zhēng lì",
+"gloss": "1. competitive strength; 2. competitiveness",
+"tier": "sparse"
+},
+{
+"nid": 1393817670094,
+"word": "致使",
+"pinyin": "zhìshǐ",
+"gloss": "cause; result in",
+"tier": "sparse"
+},
+{
+"nid": 1537328246629,
+"word": "觉醒",
+"pinyin": "jué xǐng",
+"gloss": "awaken; arousal; realize",
+"tier": "weak"
+},
+{
+"nid": 1393817668001,
+"word": "讲座",
+"pinyin": "jiǎngzuò",
+"gloss": "a lecture or course of lectures; lecture hall",
+"tier": "weak"
+},
+{
+"nid": 1537328245348,
+"word": "误解",
+"pinyin": "wù jiě",
+"gloss": "misunderstand; misread",
+"tier": "weak"
+},
+{
+"nid": 1537328244626,
+"word": "说不定",
+"pinyin": "shūo bú dìng; shuō bu dìng",
+"gloss": "can't say for sure; perhaps; maybe",
+"tier": "weak"
+},
+{
+"nid": 1708747512224,
+"word": "迷你",
+"pinyin": "mí nǐ",
+"gloss": "1. mini (as in mini-skirt or Mini Cooper) (loanword)",
+"tier": "weak"
+},
+{
+"nid": 1393817668731,
+"word": "遗传",
+"pinyin": "yíchuán",
+"gloss": "inherit; hereditary",
+"tier": "weak"
+},
+{
+"nid": 1537328246381,
+"word": "金牌",
+"pinyin": "jīn pái",
+"gloss": "Gold medal",
+"tier": "sparse"
+},
+{
+"nid": 1708747490264,
+"word": "长官",
+"pinyin": "zhǎng guān",
+"gloss": "1. senior official; 2. senior officer; 3. commanding officer; 4. CL:位[wèi]; 5. s",
+"tier": "weak"
+},
+{
+"nid": 1708747501936,
+"word": "隶属",
+"pinyin": "lì shǔ",
+"gloss": "1. to belong to (a category); 2. to be attached to",
+"tier": "weak"
+},
+{
+"nid": 1708747502053,
+"word": "下滑",
+"pinyin": "xià huá",
+"gloss": "1. sliding; 2. slide",
+"tier": "sparse"
+},
+{
+"nid": 1708747494649,
+"word": "不及",
+"pinyin": "bù jí",
+"gloss": "1. to fall short of; 2. not as good as; 3. too late",
+"tier": "weak"
+},
+{
+"nid": 1393817667590,
+"word": "业余",
+"pinyin": "yèyú",
+"gloss": "spare time; amateur",
+"tier": "sparse"
+},
+{
+"nid": 1704730472902,
+"word": "仇恨",
+"pinyin": "chóuhèn",
+"gloss": "hatred, feel great hate",
+"tier": "weak"
+},
+{
+"nid": 1393817670322,
+"word": "倡导",
+"pinyin": "chàngdǎo",
+"gloss": "to advocate; propose; initiate",
+"tier": "weak"
+},
+{
+"nid": 1700117423289,
+"word": "动漫",
+"pinyin": "dòngmàn",
+"gloss": "anime (JP style)",
+"tier": "weak"
+},
+{
+"nid": 1708747488062,
+"word": "又称",
+"pinyin": "yòu chēng",
+"gloss": "1. also known as",
+"tier": "weak"
+},
+{
+"nid": 1537328242289,
+"word": "周日",
+"pinyin": "zhōu rì",
+"gloss": "Sunday",
+"tier": "sparse"
+},
+{
+"nid": 1537328245336,
+"word": "嘴里",
+"pinyin": "zuǐ li",
+"gloss": "In the mouth",
+"tier": "weak"
+},
+{
+"nid": 1537328243655,
+"word": "回复",
+"pinyin": "huí fù",
+"gloss": "To reply, answer; To reply, to recover",
+"tier": "weak"
+},
+{
+"nid": 1701248129606,
+"word": "场地",
+"pinyin": "chǎngdì",
+"gloss": "venue, site, location",
+"tier": "weak"
+},
+{
+"nid": 1393817668665,
+"word": "场面",
+"pinyin": "chǎngmiàn",
+"gloss": "scene; occasion",
+"tier": "weak"
+},
+{
+"nid": 1708747497991,
+"word": "大卫",
+"pinyin": "Dà wèi",
+"gloss": "1. David (name); 2. Jacques-Louis David (1748-1825), French neoclassical painter",
+"tier": "sparse"
+},
+{
+"nid": 1393817669883,
+"word": "广阔",
+"pinyin": "guǎngkuò",
+"gloss": "wide; vast",
+"tier": "weak"
+},
+{
+"nid": 1537328247935,
+"word": "底下",
+"pinyin": "dǐ xia",
+"gloss": "The location below sth, afterwards",
+"tier": "sparse"
+},
+{
+"nid": 1393817668473,
+"word": "成交",
+"pinyin": "chéngjiāo",
+"gloss": "complete a contract; clinch a deal; to seal",
+"tier": "weak"
+},
+{
+"nid": 1393817669437,
+"word": "掠夺",
+"pinyin": "lüèduó",
+"gloss": "to plunder; rob; pillage",
+"tier": "weak"
+},
+{
+"nid": 1393817668691,
+"word": "推测",
+"pinyin": "tuīcè",
+"gloss": "speculate; conjecture; surmise",
+"tier": "weak"
+},
+{
+"nid": 1537328239949,
+"word": "星期六",
+"pinyin": "xīng qī liù",
+"gloss": "Saturday",
+"tier": "sparse"
+},
+{
+"nid": 1708747487163,
+"word": "犯人",
+"pinyin": "fàn rén",
+"gloss": "1. convict; 2. prisoner; 3. criminal",
+"tier": "weak"
+},
+{
+"nid": 1393817670140,
+"word": "结算",
+"pinyin": "jiésuàn",
+"gloss": "settle up the bill; close an account",
+"tier": "weak"
+},
+{
+"nid": 1708747492925,
+"word": "血腥",
+"pinyin": "xuè xīng",
+"gloss": "1. reeking of blood; 2. bloody (events)",
+"tier": "weak"
+},
+{
+"nid": 1393817669198,
+"word": "设想",
+"pinyin": "shèxiǎng",
+"gloss": "imagine; consider; tentative plan",
+"tier": "weak"
+},
+{
+"nid": 1393817669721,
+"word": "资深",
+"pinyin": "zīshēn",
+"gloss": "experienced; senior",
+"tier": "weak"
+},
+{
+"nid": 1393817668335,
+"word": "起码",
+"pinyin": "qǐmǎ",
+"gloss": "at the minimum; at the very least",
+"tier": "weak"
+},
+{
+"nid": 1537328241860,
+"word": "进球",
+"pinyin": "jìn qiú",
+"gloss": "To score a goal",
+"tier": "weak"
+},
+{
+"nid": 1537328245533,
+"word": "闻名",
+"pinyin": "wén míng",
+"gloss": "Well-known",
+"tier": "weak"
+},
+{
+"nid": 1717270471693,
+"word": "马克思",
+"pinyin": "Mǎ kè sī",
+"gloss": "1. Marx (name)",
+"tier": "sparse"
+},
+{
+"nid": 1537328243745,
+"word": "骗人",
+"pinyin": "piàn rén",
+"gloss": "Cheater, con-artist",
+"tier": "weak"
+},
+{
+"nid": 1708747487844,
+"word": "传送",
+"pinyin": "chuán sòng",
+"gloss": "1. to convey; 2. to deliver",
+"tier": "weak"
+},
+{
+"nid": 1537328242432,
+"word": "出租",
+"pinyin": "chū zū",
+"gloss": "To rent out, lease",
+"tier": "sparse"
+},
+{
+"nid": 1708747504963,
+"word": "刑罚",
+"pinyin": "xíng fá",
+"gloss": "1. sentence; 2. penalty; 3. punishment",
+"tier": "sparse"
+},
+{
+"nid": 1708747501705,
+"word": "列出",
+"pinyin": "liè chū",
+"gloss": "1. to list; 2. to make a list",
+"tier": "sparse"
+},
+{
+"nid": 1393817670332,
+"word": "制约",
+"pinyin": "zhìyuē",
+"gloss": "restrict; condition",
+"tier": "weak"
+},
+{
+"nid": 1708747485496,
+"word": "北约",
+"pinyin": "Běi yuē",
+"gloss": "1. NATO; 2. abbr. for 北大西洋公約組織|北大西洋公约组织[Běi Dà xī Yáng Gōng yuē Zǔ zhī], North A",
+"tier": "sparse"
+},
+{
+"nid": 1537328246290,
+"word": "午餐",
+"pinyin": "wǔ cān",
+"gloss": "Lunch",
+"tier": "weak"
+},
+{
+"nid": 1393817669995,
+"word": "压缩",
+"pinyin": "yāsuō",
+"gloss": "to compress",
+"tier": "weak"
+},
+{
+"nid": 1708747509425,
+"word": "君主",
+"pinyin": "jūn zhǔ",
+"gloss": "1. monarch; 2. sovereign",
+"tier": "weak"
+},
+{
+"nid": 1537328247509,
+"word": "喜剧",
+"pinyin": "xǐ jù",
+"gloss": "Comedy",
+"tier": "sparse"
+},
+{
+"nid": 1537328245292,
+"word": "四周",
+"pinyin": "sì zhōu",
+"gloss": "On all sides",
+"tier": "weak"
+},
+{
+"nid": 1710963490266,
+"word": "基督",
+"pinyin": "Jī dū",
+"gloss": "1. Christ",
+"tier": "sparse"
+},
+{
+"nid": 1537328247797,
+"word": "失控",
+"pinyin": "shī kòng",
+"gloss": "To go out of control",
+"tier": "weak"
+},
+{
+"nid": 1705509514605,
+"word": "孔子",
+"pinyin": "Kōngzi",
+"gloss": "Confucius (551-479 BC), a Chinese thinker and philosopher, also known as 孔夫子,",
+"tier": "sparse"
+},
+{
+"nid": 1537328246004,
+"word": "孤立",
+"pinyin": "gū lì",
+"gloss": "isolate; isolated",
+"tier": "weak"
+},
+{
+"nid": 1537328245666,
+"word": "容量",
+"pinyin": "róng liàng",
+"gloss": "Capacity, volume",
+"tier": "sparse"
+},
+{
+"nid": 1393817669518,
+"word": "山脉",
+"pinyin": "shānmài",
+"gloss": "mountain range",
+"tier": "sparse"
+},
+{
+"nid": 1717270453421,
+"word": "性爱",
+"pinyin": "xìng ài",
+"gloss": "1. sex; 2. lovemaking",
+"tier": "sparse"
+},
+{
+"nid": 1393817669940,
+"word": "成效",
+"pinyin": "chéngxiào",
+"gloss": "effect; result",
+"tier": "sparse"
+},
+{
+"nid": 1393817669735,
+"word": "拥护",
+"pinyin": "yōnghù",
+"gloss": "to support; endorse",
+"tier": "weak"
+},
+{
+"nid": 1393817668863,
+"word": "挖掘",
+"pinyin": "wājué",
+"gloss": "excavate; dig; unearth",
+"tier": "weak"
+},
+{
+"nid": 1708747496502,
+"word": "挪威",
+"pinyin": "Nuó wēi",
+"gloss": "1. Norway",
+"tier": "weak"
+},
+{
+"nid": 1537328243419,
+"word": "搞笑",
+"pinyin": "gǎo xiào",
+"gloss": "Funny; Funny, hilarious",
+"tier": "weak"
+},
+{
+"nid": 1393817669280,
+"word": "支配",
+"pinyin": "zhīpèi",
+"gloss": "allocate; control; govern; dominate",
+"tier": "weak"
+},
+{
+"nid": 1710963504554,
+"word": "改称",
+"pinyin": "gǎi chēng",
+"gloss": "1. to change a name; 2. to rename",
+"tier": "sparse"
+},
+{
+"nid": 1708747493190,
+"word": "无人机",
+"pinyin": "wú rén jī",
+"gloss": "1. drone; 2. unmanned aerial vehicle",
+"tier": "sparse"
+},
+{
+"nid": 1708747489821,
+"word": "村落",
+"pinyin": "cūn luò",
+"gloss": "1. village",
+"tier": "weak"
+},
+{
+"nid": 1537328242050,
+"word": "电影院",
+"pinyin": "diàn yǐng yuàn",
+"gloss": "Cinema",
+"tier": "weak"
+},
+{
+"nid": 1537328246779,
+"word": "眼神",
+"pinyin": "yǎn shén",
+"gloss": "expression or emotion showing in one's eyes",
+"tier": "weak"
+},
+{
+"nid": 1708747501717,
+"word": "经济学家",
+"pinyin": "jīng jì xué jiā",
+"gloss": "1. economist",
+"tier": "sparse"
+},
+{
+"nid": 1537328246534,
+"word": "草原",
+"pinyin": "cǎo yuán",
+"gloss": "Grassland",
+"tier": "sparse"
+},
+{
+"nid": 1708747520698,
+"word": "评为",
+"pinyin": "píng wéi",
+"gloss": "1. to elect as; 2. to choose as; 3. to consider as",
+"tier": "sparse"
+},
+{
+"nid": 1393817669041,
+"word": "起初",
+"pinyin": "qǐchū",
+"gloss": "at first; originally; in the beginning",
+"tier": "weak"
+},
+{
+"nid": 1393817668419,
+"word": "迹象",
+"pinyin": "jìxiàng",
+"gloss": "mark; indication; sign",
+"tier": "weak"
+},
+{
+"nid": 1537328247823,
+"word": "长度",
+"pinyin": "cháng dù",
+"gloss": "Length",
+"tier": "weak"
+},
+{
+"nid": 1393817670025,
+"word": "附属",
+"pinyin": "fùshǔ",
+"gloss": "subsidiary; auxiliary; affiliate; attached",
+"tier": "sparse"
+},
+{
+"nid": 1537328245474,
+"word": "雷达",
+"pinyin": "léi dá",
+"gloss": "radar",
+"tier": "weak"
+},
+{
+"nid": 1537328247744,
+"word": "高效",
+"pinyin": "gāo xiào",
+"gloss": "Efficient, highly effective",
+"tier": "sparse"
+},
+{
+"nid": 1710963500520,
+"word": "鲁迅",
+"pinyin": "Lǔ Xùn",
+"gloss": "1. Lu Xun (1881-1936), one of the earliest and best-known modern Chinese writers",
+"tier": "sparse"
+},
+{
+"nid": 1537328239899,
+"word": "不好意思",
+"pinyin": "bù hǎo yì si",
+"gloss": "Excuse me; I'm sorry/embarrassed; Sorry",
+"tier": "sparse"
+},
+{
+"nid": 1393817669689,
+"word": "不禁",
+"pinyin": "bùjīn",
+"gloss": "cannot help; can't refrain from",
+"tier": "weak"
+},
+{
+"nid": 1717270471976,
+"word": "主播",
+"pinyin": "zhǔ bō",
+"gloss": "1. anchor (TV)",
+"tier": "sparse"
+},
+{
+"nid": 1717270469033,
+"word": "交易所",
+"pinyin": "jiāo yì suǒ",
+"gloss": "1. exchange; 2. stock exchange",
+"tier": "sparse"
+},
+{
+"nid": 1393817669530,
+"word": "债券",
+"pinyin": "zhàiquàn",
+"gloss": "bond",
+"tier": "sparse"
+},
+{
+"nid": 1708747500817,
+"word": "公尺",
+"pinyin": "gōng chǐ",
+"gloss": "1. meter (unit of length)",
+"tier": "sparse"
+},
+{
+"nid": 1537328247518,
+"word": "剧院",
+"pinyin": "jù yuàn",
+"gloss": "Theater",
+"tier": "sparse"
+},
+{
+"nid": 1708747495660,
+"word": "原住民",
+"pinyin": "yuán zhù mín",
+"gloss": "1. indigenous peoples; 2. aborigine",
+"tier": "weak"
+},
+{
+"nid": 1710963490711,
+"word": "园区",
+"pinyin": "yuán qū",
+"gloss": "1. site developed for a group of related enterprises; 2. (industrial or technolo",
+"tier": "sparse"
+},
+{
+"nid": 1537328246936,
+"word": "孕妇",
+"pinyin": "yùn fù",
+"gloss": "Pregnant woman",
+"tier": "sparse"
+},
+{
+"nid": 1393817670578,
+"word": "宏观",
+"pinyin": "hóngguān",
+"gloss": "macro-; macroscopic",
+"tier": "sparse"
+},
+{
+"nid": 1708747492049,
+"word": "就此",
+"pinyin": "jiù cǐ",
+"gloss": "1. at this point; 2. thus; 3. from then on",
+"tier": "weak"
+},
+{
+"nid": 1537328247671,
+"word": "布置",
+"pinyin": "bù zhì",
+"gloss": "arrange; decorate; decoration",
+"tier": "weak"
+},
+{
+"nid": 1717270464041,
+"word": "总局",
+"pinyin": "zǒng jú",
+"gloss": "1. head office; 2. general office; 3. central office",
+"tier": "weak"
+},
+{
+"nid": 1708747486051,
+"word": "指挥官",
+"pinyin": "zhǐ huī guān",
+"gloss": "1. commander",
+"tier": "weak"
+},
+{
+"nid": 1393817670558,
+"word": "振兴",
+"pinyin": "zhènxīng",
+"gloss": "develop vigorously; promote; revive; revitalize; invigorate; re-energize",
+"tier": "weak"
+},
+{
+"nid": 1708747490962,
+"word": "捷克",
+"pinyin": "Jié kè",
+"gloss": "1. Czech; 2. Czech Republic (from 1993); 3. Czechia",
+"tier": "sparse"
+},
+{
+"nid": 1717270478018,
+"word": "新闻网",
+"pinyin": "xīn wén wǎng",
+"gloss": "1. news agency",
+"tier": "sparse"
+},
+{
+"nid": 1708747488130,
+"word": "期刊",
+"pinyin": "qī kān",
+"gloss": "1. periodical",
+"tier": "sparse"
+},
+{
+"nid": 1708747488895,
+"word": "民生",
+"pinyin": "mín shēng",
+"gloss": "1. people&#x27;s livelihood; 2. people&#x27;s welfare",
+"tier": "sparse"
+},
+{
+"nid": 1393817670306,
+"word": "湖泊",
+"pinyin": "húpō",
+"gloss": "lake",
+"tier": "weak"
+},
+{
+"nid": 1393817669372,
+"word": "生育",
+"pinyin": "shēngyù",
+"gloss": "give birth; to rear; bring up (children)",
+"tier": "sparse"
+},
+{
+"nid": 1537328245925,
+"word": "留给",
+"pinyin": "liú gěi",
+"gloss": "To set aside for",
+"tier": "weak"
+},
+{
+"nid": 1708747499580,
+"word": "监禁",
+"pinyin": "jiān jìn",
+"gloss": "1. to imprison; 2. to jail; 3. to take into custody",
+"tier": "weak"
+},
+{
+"nid": 1537328244803,
+"word": "真诚",
+"pinyin": "zhēn chéng",
+"gloss": "Sincere",
+"tier": "weak"
+},
+{
+"nid": 1708747494052,
+"word": "程式",
+"pinyin": "chéng shì",
+"gloss": "1. form; 2. pattern; 3. formula; 4. program",
+"tier": "sparse"
+},
+{
+"nid": 1708747489970,
+"word": "统治者",
+"pinyin": "tǒng zhì zhě",
+"gloss": "1. ruler",
+"tier": "weak"
+},
+{
+"nid": 1708747493372,
+"word": "聚焦",
+"pinyin": "jù jiāo",
+"gloss": "1. to focus",
+"tier": "weak"
+},
+{
+"nid": 1717270471675,
+"word": "股价",
+"pinyin": "gǔ jià",
+"gloss": "1. stock price; 2. share price",
+"tier": "sparse"
+}
+]

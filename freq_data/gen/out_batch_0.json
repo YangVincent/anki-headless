@@ -1,0 +1,322 @@
+[
+  {
+    "nid": 1537328239567,
+    "word": "不是",
+    "sent_simp": "这不是我的手机，是我朋友的。",
+    "sent_trad": "這不是我的手機，是我朋友的。",
+    "pinyin": "Zhè bú shì wǒ de shǒujī, shì wǒ péngyou de.",
+    "english": "This isn't my phone — it's my friend's."
+  },
+  {
+    "nid": 1537328242108,
+    "word": "这些",
+    "sent_simp": "这些苹果多少钱一斤？",
+    "sent_trad": "這些蘋果多少錢一斤？",
+    "pinyin": "Zhèxiē píngguǒ duōshao qián yī jīn?",
+    "english": "How much are these apples per half-kilo?"
+  },
+  {
+    "nid": 1537328241034,
+    "word": "日本",
+    "sent_simp": "她去年去日本旅游了一个月。",
+    "sent_trad": "她去年去日本旅遊了一個月。",
+    "pinyin": "Tā qùnián qù Rìběn lǚyóu le yī gè yuè.",
+    "english": "She traveled in Japan for a month last year."
+  },
+  {
+    "nid": 1708747483737,
+    "word": "不能",
+    "sent_simp": "开车的时候不能玩手机。",
+    "sent_trad": "開車的時候不能玩手機。",
+    "pinyin": "Kāichē de shíhou bù néng wán shǒujī.",
+    "english": "You can't use your phone while driving."
+  },
+  {
+    "nid": 1708747483734,
+    "word": "不会",
+    "sent_simp": "我不会做饭，每天都点外卖。",
+    "sent_trad": "我不會做飯，每天都點外賣。",
+    "pinyin": "Wǒ bù huì zuòfàn, měitiān dōu diǎn wàimài.",
+    "english": "I can't cook, so I order takeout every day."
+  },
+  {
+    "nid": 1537328241634,
+    "word": "真的",
+    "sent_simp": "你真的要辞职吗？",
+    "sent_trad": "你真的要辭職嗎？",
+    "pinyin": "Nǐ zhēn de yào cízhí ma?",
+    "english": "Are you really going to quit your job?"
+  },
+  {
+    "nid": 1537328247474,
+    "word": "人民",
+    "sent_simp": "政府应该为人民服务。",
+    "sent_trad": "政府應該為人民服務。",
+    "pinyin": "Zhèngfǔ yīnggāi wèi rénmín fúwù.",
+    "english": "The government should serve the people."
+  },
+  {
+    "nid": 1537328246738,
+    "word": "香港",
+    "sent_simp": "他小时候在香港长大。",
+    "sent_trad": "他小時候在香港長大。",
+    "pinyin": "Tā xiǎoshíhou zài Xiānggǎng zhǎngdà.",
+    "english": "He grew up in Hong Kong as a child."
+  },
+  {
+    "nid": 1537328242103,
+    "word": "一些",
+    "sent_simp": "冰箱里还有一些剩菜。",
+    "sent_trad": "冰箱裡還有一些剩菜。",
+    "pinyin": "Bīngxiāng lǐ hái yǒu yīxiē shèngcài.",
+    "english": "There are still some leftovers in the fridge."
+  },
+  {
+    "nid": 1393817666260,
+    "word": "不过",
+    "sent_simp": "这家餐厅贵了点，不过味道很好。",
+    "sent_trad": "這家餐廳貴了點，不過味道很好。",
+    "pinyin": "Zhè jiā cāntīng guì le diǎn, bùguò wèidào hěn hǎo.",
+    "english": "This restaurant is a bit pricey, but the food tastes great."
+  },
+  {
+    "nid": 1537328242689,
+    "word": "不同",
+    "sent_simp": "每个人的口味都不同。",
+    "sent_trad": "每個人的口味都不同。",
+    "pinyin": "Měi gè rén de kǒuwèi dōu bù tóng.",
+    "english": "Everyone has different tastes."
+  },
+  {
+    "nid": 1537328239576,
+    "word": "不要",
+    "sent_simp": "不要把饮料带进教室。",
+    "sent_trad": "不要把飲料帶進教室。",
+    "pinyin": "Bú yào bǎ yǐnliào dài jìn jiàoshì.",
+    "english": "Don't bring drinks into the classroom."
+  },
+  {
+    "nid": 1537328243015,
+    "word": "服务",
+    "sent_simp": "这家酒店的服务非常好。",
+    "sent_trad": "這家酒店的服務非常好。",
+    "pinyin": "Zhè jiā jiǔdiàn de fúwù fēicháng hǎo.",
+    "english": "The service at this hotel is excellent."
+  },
+  {
+    "nid": 1537328240666,
+    "word": "这里",
+    "sent_simp": "这里的夏天特别热。",
+    "sent_trad": "這裡的夏天特別熱。",
+    "pinyin": "Zhèlǐ de xiàtiān tèbié rè.",
+    "english": "The summers here are especially hot."
+  },
+  {
+    "nid": 1537328241766,
+    "word": "之后",
+    "sent_simp": "下班之后我们去吃火锅吧。",
+    "sent_trad": "下班之後我們去吃火鍋吧。",
+    "pinyin": "Xiàbān zhī hòu wǒmen qù chī huǒguō ba.",
+    "english": "Let's go eat hot pot after work."
+  },
+  {
+    "nid": 1537328244890,
+    "word": "台湾",
+    "sent_simp": "台湾的夜市非常有名。",
+    "sent_trad": "台灣的夜市非常有名。",
+    "pinyin": "Táiwān de yèshì fēicháng yǒumíng.",
+    "english": "Taiwan's night markets are very famous."
+  },
+  {
+    "nid": 1537328242106,
+    "word": "那些",
+    "sent_simp": "那些旧书你还要吗？",
+    "sent_trad": "那些舊書你還要嗎？",
+    "pinyin": "Nàxiē jiù shū nǐ hái yào ma?",
+    "english": "Do you still want those old books?"
+  },
+  {
+    "nid": 1537328247205,
+    "word": "得到",
+    "sent_simp": "他终于得到了那份工作。",
+    "sent_trad": "他終於得到了那份工作。",
+    "pinyin": "Tā zhōngyú dédào le nà fèn gōngzuò.",
+    "english": "He finally got that job."
+  },
+  {
+    "nid": 1537328244439,
+    "word": "国内",
+    "sent_simp": "这款手机在国内卖得很好。",
+    "sent_trad": "這款手機在國內賣得很好。",
+    "pinyin": "Zhè kuǎn shǒujī zài guónèi mài de hěn hǎo.",
+    "english": "This phone sells very well domestically."
+  },
+  {
+    "nid": 1537328240258,
+    "word": "一次",
+    "sent_simp": "我只去过一次那个地方。",
+    "sent_trad": "我只去過一次那個地方。",
+    "pinyin": "Wǒ zhǐ qùguò yī cì nàge dìfang.",
+    "english": "I've only been to that place once."
+  },
+  {
+    "nid": 1537328244669,
+    "word": "无法",
+    "sent_simp": "没有网络，我无法工作。",
+    "sent_trad": "沒有網路，我無法工作。",
+    "pinyin": "Méiyǒu wǎngluò, wǒ wúfǎ gōngzuò.",
+    "english": "Without internet, I can't work."
+  },
+  {
+    "nid": 1537328243830,
+    "word": "能够",
+    "sent_simp": "希望你能够早日康复。",
+    "sent_trad": "希望你能夠早日康復。",
+    "pinyin": "Xīwàng nǐ nénggòu zǎorì kāngfù.",
+    "english": "I hope you're able to recover soon."
+  },
+  {
+    "nid": 1537328240534,
+    "word": "上海",
+    "sent_simp": "上海的地铁四通八达。",
+    "sent_trad": "上海的地鐵四通八達。",
+    "pinyin": "Shànghǎi de dìtiě sìtōng bādá.",
+    "english": "Shanghai's subway system goes everywhere."
+  },
+  {
+    "nid": 1393817666118,
+    "word": "一般",
+    "sent_simp": "我一般七点起床。",
+    "sent_trad": "我一般七點起床。",
+    "pinyin": "Wǒ yībān qī diǎn qǐchuáng.",
+    "english": "I usually get up at seven o'clock."
+  },
+  {
+    "nid": 1672769484639,
+    "word": "之间",
+    "sent_simp": "公司和家之间只有十分钟车程。",
+    "sent_trad": "公司和家之間只有十分鐘車程。",
+    "pinyin": "Gōngsī hé jiā zhījiān zhǐyǒu shí fēnzhōng chēchéng.",
+    "english": "The commute between work and home is only ten minutes."
+  },
+  {
+    "nid": 1537328240671,
+    "word": "哪里",
+    "sent_simp": "你家哪里有卖早餐的？",
+    "sent_trad": "你家哪裡有賣早餐的？",
+    "pinyin": "Nǐ jiā nǎlǐ yǒu mài zǎocān de?",
+    "english": "Where near your place can you buy breakfast?"
+  },
+  {
+    "nid": 1537328239541,
+    "word": "英国",
+    "sent_simp": "她在英国留学了两年。",
+    "sent_trad": "她在英國留學了兩年。",
+    "pinyin": "Tā zài Yīngguó liúxué le liǎng nián.",
+    "english": "She studied abroad in the UK for two years."
+  },
+  {
+    "nid": 1537328241737,
+    "word": "以后",
+    "sent_simp": "毕业以后你想做什么？",
+    "sent_trad": "畢業以後你想做什麼？",
+    "pinyin": "Bìyè yǐhòu nǐ xiǎng zuò shénme?",
+    "english": "What do you want to do after you graduate?"
+  },
+  {
+    "nid": 1537328241767,
+    "word": "之前",
+    "sent_simp": "睡觉之前最好别看手机。",
+    "sent_trad": "睡覺之前最好別看手機。",
+    "pinyin": "Shuìjiào zhīqián zuìhǎo bié kàn shǒujī.",
+    "english": "It's best not to look at your phone before bed."
+  },
+  {
+    "nid": 1537328241616,
+    "word": "电话",
+    "sent_simp": "我打了好几次电话都没人接。",
+    "sent_trad": "我打了好幾次電話都沒人接。",
+    "pinyin": "Wǒ dǎ le hǎo jǐ cì diànhuà dōu méi rén jiē.",
+    "english": "I called several times but nobody picked up."
+  },
+  {
+    "nid": 1537328241159,
+    "word": "韩国",
+    "sent_simp": "韩国的炸鸡最近很流行。",
+    "sent_trad": "韓國的炸雞最近很流行。",
+    "pinyin": "Hánguó de zhájī zuìjìn hěn liúxíng.",
+    "english": "Korean fried chicken has been really popular lately."
+  },
+  {
+    "nid": 1537328239990,
+    "word": "男人",
+    "sent_simp": "那个男人把钱包捡起来还给了她。",
+    "sent_trad": "那個男人把錢包撿起來還給了她。",
+    "pinyin": "Nàge nánrén bǎ qiánbāo jiǎn qǐlái huán gěi le tā.",
+    "english": "That man picked up the wallet and returned it to her."
+  },
+  {
+    "nid": 1537328247068,
+    "word": "如此",
+    "sent_simp": "没想到事情会变得如此复杂。",
+    "sent_trad": "沒想到事情會變得如此複雜。",
+    "pinyin": "Méi xiǎngdào shìqing huì biàn de rúcǐ fùzá.",
+    "english": "I didn't expect things to get this complicated."
+  },
+  {
+    "nid": 1537328241763,
+    "word": "以下",
+    "sent_simp": "请阅读以下注意事项。",
+    "sent_trad": "請閱讀以下注意事項。",
+    "pinyin": "Qǐng yuèdú yǐxià zhùyì shìxiàng.",
+    "english": "Please read the following notes."
+  },
+  {
+    "nid": 1537328240528,
+    "word": "每个",
+    "sent_simp": "每个学生都要交一份报告。",
+    "sent_trad": "每個學生都要交一份報告。",
+    "pinyin": "Měi gè xuésheng dōu yào jiāo yī fèn bàogào.",
+    "english": "Every student has to hand in a report."
+  },
+  {
+    "nid": 1537328241762,
+    "word": "以上",
+    "sent_simp": "申请这个职位需要三年以上的工作经验。",
+    "sent_trad": "申請這個職位需要三年以上的工作經驗。",
+    "pinyin": "Shēnqǐng zhège zhíwèi xūyào sān nián yǐshàng de gōngzuò jīngyàn.",
+    "english": "Applying for this position requires three or more years of work experience."
+  },
+  {
+    "nid": 1537328243777,
+    "word": "图片",
+    "sent_simp": "他发了一张图片给我看。",
+    "sent_trad": "他發了一張圖片給我看。",
+    "pinyin": "Tā fā le yī zhāng túpiàn gěi wǒ kàn.",
+    "english": "He sent me a picture to look at."
+  },
+  {
+    "nid": 1537328241600,
+    "word": "的话",
+    "sent_simp": "你有时间的话，来我家吃饭吧。",
+    "sent_trad": "你有時間的話，來我家吃飯吧。",
+    "pinyin": "Nǐ yǒu shíjiān de huà, lái wǒ jiā chīfàn ba.",
+    "english": "If you have time, come over to my place for dinner."
+  },
+  {
+    "nid": 1537328241837,
+    "word": "之一",
+    "sent_simp": "北京烤鸭是中国最有名的菜之一。",
+    "sent_trad": "北京烤鴨是中國最有名的菜之一。",
+    "pinyin": "Běijīng kǎoyā shì Zhōngguó zuì yǒumíng de cài zhī yī.",
+    "english": "Peking duck is one of the most famous dishes in China."
+  },
+  {
+    "nid": 1537328247977,
+    "word": "增长",
+    "sent_simp": "他的工资每年都在增长。",
+    "sent_trad": "他的工資每年都在增長。",
+    "pinyin": "Tā de gōngzī měinián dōu zài zēngzhǎng.",
+    "english": "His salary grows every year."
+  }
+]
