@@ -70,6 +70,17 @@ bash freq_data/anki_op.sh chars freq_data/char_apply.py --apply
 Hanly-style mnemonic. `char_apply.py` **enriches** an existing `ChineseCharacters` card's `Notes`
 field, or **creates** a new one in the `Characters` deck. Use on-demand for characters that trip you.
 
+### Wild-add (Telegram bot) + frequency re-sort
+The `anki-bot` Telegram/HTTP bot now files added words into **Vocab**, tags them **`mined`**, and
+places them at the **front of the queue** (next-up) — `bot.promote_to_vocab()`, called automatically
+by `add_chinese_vocab` and by `tag_notes` with the `mined` tag. Reverse card is suspended.
+The bot also has a **`lookup_frequency`** tool (`bot.freq_tier()`) — ask it how common a word is
+(very common → rare).
+```bash
+# periodically re-sort the backbone by frequency; 'mined' cards stay pinned at the front
+bash freq_data/anki_op.sh resort freq_data/resort_vocab.py --apply
+```
+
 ---
 
 ## Design decisions (why it's built this way)
@@ -84,7 +95,8 @@ field, or **creates** a new one in the `Characters` deck. Use on-demand for char
   noisy <3 tail. Deeper is fine for a heritage speaker (the easy head is cheap) but 3.5 stays clean.
 
 ## Roadmap / pending
-- [ ] Apply the 875 gap-card sentences + create those cards in Vocab, then reposition by frequency.
-- [ ] Wild-add: Chrome-extension adds → tag `mined` + front-of-queue; frequency re-sort excludes `mined`.
-- [ ] Audio for generated sentences (deck uses HyperTTS/Forvo) — separate TTS pass.
+- [x] Apply the gap-card sentences + create those cards in Vocab, reposition by frequency (873 cards).
+- [x] Wild-add: bot adds → Vocab + tag `mined` + front-of-queue; `resort_vocab.py` excludes `mined`.
+- [x] `lookup_frequency` tool in the bot.
+- [ ] Audio for generated sentences (deck uses HyperTTS/Forvo) — separate TTS pass. (Not planned.)
 - [ ] Optional: reverse/production deck when ready; ground char decomposition in Make-Me-a-Hanzi data.

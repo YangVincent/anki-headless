@@ -24,15 +24,15 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 
 # ── Config ────────────────────────────────────────────────────────────
 
-CONFIG_FILE = "/home/vincent/anki/.bot_config.json"
-COLLECTION_PATH = "/home/vincent/anki/collection.anki2"
+CONFIG_FILE = "/home/vincent/anki-headless/.bot_config.json"
+COLLECTION_PATH = "/home/vincent/anki-headless/collection.anki2"
 AUTH_FILE = os.path.expanduser("~/.anki_auth")
 
 DEFAULT_DECK = "Knowledge::Languages::Chinese::Vocabulary"
 CHINESE_VOCAB_NOTETYPE = "ChineseVocabulary"
-SNAPSHOTS_DIR = Path("/home/vincent/anki/json_snapshots")
-CHANGELOG_FILE = Path("/home/vincent/anki/changelog.jsonl")
-ANALYZE_SCRIPT = "/home/vincent/anki/analyze_json.py"
+SNAPSHOTS_DIR = Path("/home/vincent/anki-headless/json_snapshots")
+CHANGELOG_FILE = Path("/home/vincent/anki-headless/changelog.jsonl")
+ANALYZE_SCRIPT = "/home/vincent/anki-headless/analyze_json.py"
 CHINESE_VOCAB_FIELDS = ["Simplified", "Pinyin", "Meaning", "Traditional", "Notes",
                         "Audio", "Strokes", "ColorPinyin", "Frequency", "CustomFreq",
                         "PartOfSpeech", "Homophone", "SentenceSimplified",
@@ -215,6 +215,72 @@ def promote_to_hanly(col, note_ids):
     }
 
 
+def promote_to_vocab(col, note_ids):
+    """Wild-add promotion: tag notes 'mined', move forward (ord0) cards into the
+    'Vocab' deck and unsuspend them, suspend reverse (ord1) cards, and place the
+    forward cards at the FRONT of the new-card queue (next-up). The frequency
+    re-sort (resort_vocab.py) skips 'mined' cards, so they stay at the front."""
+    vocab_did = col.decks.id("Vocab")  # creates if missing
+    tagged = 0
+    forward_cards = []
+    forward_to_unsuspend = []
+    reverse_to_suspend = []
+
+    for nid in note_ids:
+        try:
+            note = col.get_note(nid)
+        except Exception:
+            continue
+        if "mined" not in [t.lower() for t in note.tags]:
+            note.tags.append("mined")
+            col.update_note(note)
+            tagged += 1
+        for card in note.cards():
+            if card.ord == 0:
+                forward_cards.append(card.id)
+                if card.queue == -1:
+                    forward_to_unsuspend.append(card.id)
+            elif card.ord == 1 and card.queue != -1:
+                reverse_to_suspend.append(card.id)
+
+    if forward_to_unsuspend:
+        col.sched.unsuspend_cards(forward_to_unsuspend)
+    if reverse_to_suspend:
+        col.sched.suspend_cards(reverse_to_suspend)
+    if forward_cards:
+        col.set_deck(forward_cards, vocab_did)
+        # front-of-queue: due below all current Vocab new cards, newest first
+        min_due = col.db.scalar(
+            "SELECT MIN(due) FROM cards WHERE did=? AND type=0 AND ord=0", vocab_did)
+        next_due = min(min_due if min_due is not None else 1, 1) - 1
+        for cid in forward_cards:
+            card = col.get_card(cid)
+            card.due = next_due
+            col.update_card(card)
+            next_due -= 1
+
+    return {
+        "tagged": tagged,
+        "moved_to_vocab": len(forward_cards),
+        "reverse_suspended": len(reverse_to_suspend),
+        "placed_next_up": len(forward_cards),
+    }
+
+
+def freq_tier(word):
+    """Corpus frequency of a Chinese word via wordfreq. Returns zipf + a tier:
+    very common (>=5), common (4-5), mid (3.5-4), uncommon (3-3.5), rare (<3)."""
+    from wordfreq import zipf_frequency  # lazy import (loads jieba on first use)
+    z = zipf_frequency(word, "zh")
+    if z >= 5:    tier = "very common"
+    elif z >= 4:  tier = "common"
+    elif z >= 3.5: tier = "mid"
+    elif z >= 3:  tier = "uncommon"
+    elif z > 0:   tier = "rare"
+    else:         tier = "not in corpus"
+    return {"word": word, "zipf": round(z, 2), "tier": tier}
+
+
 def _collect_card_ids(col, note_ids):
     """Collect card IDs from note IDs, skipping missing notes."""
     card_ids = []
@@ -349,7 +415,11 @@ When the user asks for a story or reading practice:
 5. If the user wants to create cards for the target words, offer to do so
 
 ## User Preferences
-- Chinese vocabulary deck: **hanly** (not Knowledge::Languages::Chinese::Vocabulary)
+- Chinese vocabulary deck: **Vocab** (the unified frequency-ordered deck). Words the user
+  adds in the wild are tagged **mined** and placed at the FRONT of the new-card queue (next-up)
+  so they're studied first. add_chinese_vocab does this automatically; to promote existing
+  notes, use tag_notes with the "mined" tag. (The old "hanly" deck/tag is defunct/merged.)
+- You can report a word's frequency tier with lookup_frequency (very common → rare).
 
 ## Important Rules
 - **Always confirm before destructive actions** (delete, suspend, unsuspend, tag, move). Show what will be affected and ask the user to confirm before calling the modification tool.
@@ -367,8 +437,8 @@ You receive a Chinese word or phrase. Execute the following steps autonomously �
 ## Steps
 1. **Search** for an existing card: use search_notes with query `Simplified:<word>`
 2. **If found**: use get_notes_detail to inspect it. If any fields are weak/empty (missing pinyin, meaning, sentence, traditional), improve them with edit_note.
-3. **If not found**: create a new card with add_chinese_vocab. Use tone-marked pinyin (ā á ǎ à), include traditional characters, a natural example sentence, and part of speech.
-4. **Ensure hanly deck**: use tag_notes to add the "hanly" tag (this automatically promotes to the hanly deck). Skip if the card already has the hanly tag.
+3. **If not found**: create a new card with add_chinese_vocab. Use tone-marked pinyin (ā á ǎ à), include traditional characters, a natural example sentence, and part of speech. This automatically files the card in the **Vocab** deck, tags it **mined**, and places it at the front of the queue (next-up) — no extra step needed.
+4. **If found but in another deck**: use tag_notes with the "mined" tag to move it into Vocab at the front (next-up).
 5. **Sync**: call sync_collection.
 
 ## Response format
@@ -376,7 +446,7 @@ After completing all steps, respond with ONLY a JSON object (no markdown, no exp
 {"status": "created" or "improved", "word": "<simplified>", "pinyin": "<pinyin>", "meaning": "<meaning>", "action_details": "<brief description of what was done>"}
 
 If the word already exists and all fields are complete, return:
-{"status": "already_exists", "word": "<simplified>", "pinyin": "<pinyin>", "meaning": "<meaning>", "action_details": "Card already complete in hanly deck"}
+{"status": "already_exists", "word": "<simplified>", "pinyin": "<pinyin>", "meaning": "<meaning>", "action_details": "Card already complete in Vocab deck"}
 
 ## Rules
 - Act immediately. Do NOT ask for confirmation.
@@ -704,11 +774,27 @@ TOOLS = [
             }
         }
     },
+    {
+        "name": "lookup_frequency",
+        "description": "Look up how common one or more Chinese words are, using the wordfreq corpus (Zipf scale). Returns each word's zipf score and a tier: very common (zipf>=5), common (4-5), mid (3.5-4), uncommon (3-3.5), rare (<3). Use when the user asks how common/useful/frequent a word is, or how to prioritize words.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "words": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "description": "One or more Chinese words to look up"
+                }
+            },
+            "required": ["words"]
+        }
+    },
 ]
 
 API_TOOL_NAMES = {
     "search_notes", "get_notes_detail", "get_field_values",
-    "add_chinese_vocab", "edit_note", "tag_notes", "sync_collection"
+    "add_chinese_vocab", "edit_note", "tag_notes", "sync_collection",
+    "lookup_frequency"
 }
 API_TOOLS = [t for t in TOOLS if t["name"] in API_TOOL_NAMES]
 
@@ -719,6 +805,10 @@ def execute_tool(tool_name, tool_input):
 
     if tool_name == "sync_collection":
         return _sync_collection()
+
+    if tool_name == "lookup_frequency":
+        words = tool_input.get("words", [])
+        return json.dumps({"results": [freq_tier(w) for w in words]}, ensure_ascii=False)
 
     if tool_name == "get_collection_stats":
         col = open_collection()
@@ -765,16 +855,19 @@ def execute_tool(tool_name, tool_input):
 
             col.add_note(note, did)
             nid = note.id
+            # Wild-add: promote into Vocab, tag 'mined', place next-up in the queue
+            promo = promote_to_vocab(col, [nid])
             log_change("add_chinese_vocab", [nid], {
                 "simplified": tool_input.get("simplified"),
-                "deck": DEFAULT_DECK,
-                "tags": tags,
+                "deck": "Vocab",
+                "tags": tags + ["mined"],
             })
             return json.dumps({
                 "success": True,
                 "note_id": nid,
                 "simplified": tool_input.get("simplified"),
-                "deck": DEFAULT_DECK,
+                "deck": "Vocab",
+                "placed": "next-up (mined)",
             })
         except Exception as e:
             return json.dumps({"error": str(e)})
@@ -1032,8 +1125,27 @@ def execute_tool(tool_name, tool_input):
             tags = tool_input.get("tags", [])
             note_ids = list(col.find_notes(query))
             adding_hanly = "hanly" in [t.lower() for t in tags]
+            adding_mined = "mined" in [t.lower() for t in tags]
 
-            if adding_hanly:
+            if adding_mined:
+                result = promote_to_vocab(col, note_ids)
+                other_tags = [t for t in tags if t.lower() != "mined"]
+                if other_tags:
+                    for nid in note_ids:
+                        try:
+                            note = col.get_note(nid)
+                            existing = {t.lower() for t in note.tags}
+                            for tag in other_tags:
+                                if tag.lower() not in existing:
+                                    note.tags.append(tag)
+                            col.update_note(note)
+                        except Exception:
+                            pass
+                log_change("tag", note_ids, {"tags": tags})
+                return (f"Tagged {result['tagged']} note(s) 'mined', moved "
+                        f"{result['moved_to_vocab']} into Vocab at the front of the queue "
+                        f"(next-up), suspended {result['reverse_suspended']} reverse card(s).")
+            elif adding_hanly:
                 result = promote_to_hanly(col, note_ids)
                 # Also add any non-hanly tags
                 other_tags = [t for t in tags if t.lower() != "hanly"]
@@ -1749,7 +1861,7 @@ async def _process_json_text_direct(bot, message, chat_id, data, context):
 
     try:
         result = subprocess.run(
-            ["/home/vincent/anki/.venv/bin/python", ANALYZE_SCRIPT, str(snap_path), "--tag-hanly"],
+            ["/home/vincent/anki-headless/.venv/bin/python", ANALYZE_SCRIPT, str(snap_path), "--tag-hanly"],
             capture_output=True, text=True, timeout=120,
         )
         output = result.stdout
