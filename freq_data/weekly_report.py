@@ -54,11 +54,16 @@ try:
 
     # 小Lin (finance/econ listening) track
     BUSI = re.compile(r'\b(econom|market|invest|financ|compan|trade|profit|stock|capital|bank|tax|fund|industr|commerc|monetary|price|debt|asset|revenue|enterprise|currency|inflation|loan|business|wealth|merger|equity|budget|GDP|interest rate|bond|dividend|recession|fiscal)\b', re.I)
-    fin_tot = fin_learned = 0
+    ACAD = re.compile(r'\b(cognit|belief|rational|reason|logic|fallac|argument|premise|concept|abstract|philosoph|epistem|moral|ethic|theor|evidence|bias|prejudice|perception|conscious|ideolog|doctrine|hypothes|assumption|contradiction|paradox|subjective|objective|psycholog|empirical|deduc|induc|notion|principle|metaphys|skeptic|dogma|narrative|discourse)\b', re.I)
+    fin_tot = fin_learned = acad_tot = acad_learned = 0
     for t, flds in col.db.all("SELECT c.type,n.flds FROM cards c JOIN notes n ON c.nid=n.id WHERE c.did=? AND c.ord=0 AND n.mid=?", vd, cv['id']):
-        if BUSI.search(clean(flds.split(SEP)[fi['Meaning']])):
+        mean = clean(flds.split(SEP)[fi['Meaning']])
+        if BUSI.search(mean):
             fin_tot += 1
             if t in (1,2): fin_learned += 1
+        if ACAD.search(mean):
+            acad_tot += 1
+            if t in (1,2): acad_learned += 1
 
     # projection: known(rank)=600 head + 34% after; gap to 三体 (~top 6k) and 小Lin (~domain)
     rate = acquired/DAYS   # genuinely-new-and-holding per day
@@ -77,11 +82,12 @@ try:
     fin_left = fin_tot - fin_learned
     if rate >= 1:
         L.append(f"🎯 *三体 (reading)*: ~{gap_santi:,} words to go → ≈ *{gap_santi/rate/30:.1f} months* at ~{rate:.0f}/day")
-        L.append(f"🎧 *小Lin (finance listening)*: {fin_learned}/{fin_tot} finance terms learned by reading, {fin_left} to go.")
-        L.append(f"    Much closer than it looks — you know many by ear already; fastest path is *watching 小Lin with Chinese subtitles*.")
+        L.append(f"🎧 *小Lin (finance listening)*: {fin_learned}/{fin_tot} finance terms learned, {fin_left} to go (you know many by ear; watch with subs).")
+        L.append(f"🧠 *Abstract/academic (video essays)*: {acad_learned}/{acad_tot} terms learned, {acad_tot-acad_learned} to go — the hardest register (not in your heritage base).")
     else:
         L.append("🎯 Not enough acquisition data yet — keep studying; rate firms up over 2-3 weeks.")
-        L.append(f"🎧 *小Lin*: {fin_learned}/{fin_tot} finance terms learned (reading).")
+        L.append(f"🎧 *小Lin*: {fin_learned}/{fin_tot} finance terms learned.")
+        L.append(f"🧠 *Abstract/academic*: {acad_learned}/{acad_tot} terms learned.")
     text = "\n".join(L)
     print(text)
 
