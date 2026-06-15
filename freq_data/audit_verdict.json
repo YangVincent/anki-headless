@@ -1,0 +1,35 @@
+{
+  "total": 50,
+  "failures": [
+    {
+      "word": "别号",
+      "issue": "english_accurate",
+      "detail": "The English field is truncated and broken — it ends with 'His alias is \\\"' with no closing content. The translation is incomplete and unusable."
+    },
+    {
+      "word": "女优",
+      "issue": "word_used_correctly, natural",
+      "detail": "In modern Chinese, 女优 overwhelmingly refers to an AV/adult film actress, not a mainstream actress. Using it in a sentence about a respectable film career ('appeared in many films') misrepresents the word's actual pragmatic force. A natural sentence would use 女演员 or 女星 for a legitimate actress. The sentence is misleading and unnatural for this word."
+    },
+    {
+      "word": "马刺",
+      "issue": "english_accurate",
+      "detail": "石板路 means a road paved with flat stone slabs (flagstones), not cobblestones. Cobblestones (鹅卵石) are rounded; 石板 are flat slabs. The English 'cobblestone road' is inaccurate — 'flagstone road' or 'stone-slab road' is correct."
+    },
+    {
+      "word": "公积金",
+      "issue": "english_accurate",
+      "detail": "The English translates 公积金 as 'housing fund,' which is a colloquial shorthand for 住房公积金 (housing provident fund). The word's stated meaning is 'official reserves; accumulated fund.' Translating it as 'housing fund' narrows the word to a specific Chinese institution not covered by the word's own definition, creating a mismatch between the meaning being taught and the English given."
+    },
+    {
+      "word": "约法",
+      "issue": "word_used_correctly",
+      "detail": "The sentence uses the fixed idiom 约法三章 (yuēfǎ sān zhāng, 'to agree on a few ground rules'), in which 约法 is not used in its standalone meaning of 'temporary law / provisional constitution.' The idiom's meaning is entirely distinct from the word being taught. This sentence fails to illustrate what 约法 itself means."
+    },
+    {
+      "word": "聚居",
+      "issue": "natural",
+      "detail": "The sentence '这个地区有许多少数民族聚居于此' is redundant: the location is specified twice (这个地区 and 于此). More natural phrasings would be '许多少数民族聚居在这个地区' or '这个地区聚居着许多少数民族.'"
+    }
+  ]
+}
