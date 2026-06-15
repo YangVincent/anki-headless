@@ -1,0 +1,282 @@
+[
+  {
+    "word": "暴雨",
+    "sent_simp": "昨晚的暴雨把院子里的花都打倒了。",
+    "sent_trad": "昨晚的暴雨把院子裡的花都打倒了。",
+    "pinyin": "Zuó wǎn de bào yǔ bǎ yuàn zi lǐ de huā dōu dǎ dǎo le.",
+    "english": "Last night's rainstorm knocked over all the flowers in the yard."
+  },
+  {
+    "word": "曙光",
+    "sent_simp": "经过几个月的努力，我们终于看到了成功的曙光。",
+    "sent_trad": "經過幾個月的努力，我們終於看到了成功的曙光。",
+    "pinyin": "Jīng guò jǐ gè yuè de nǔ lì, wǒ men zhōng yú kàn dào le chéng gōng de shǔ guāng.",
+    "english": "After months of hard work, we finally saw a glimmer of hope for success."
+  },
+  {
+    "word": "曲线",
+    "sent_simp": "图表上的曲线显示销售额在持续上升。",
+    "sent_trad": "圖表上的曲線顯示銷售額在持續上升。",
+    "pinyin": "Tú biǎo shàng de qū xiàn xiǎn shì xiāo shòu é zài chí xù shàng shēng.",
+    "english": "The curve on the chart shows that sales are continuing to rise."
+  },
+  {
+    "word": "月份",
+    "sent_simp": "你知道现在是几月份吗？",
+    "sent_trad": "你知道現在是幾月份嗎？",
+    "pinyin": "Nǐ zhī dào xiàn zài shì jǐ yuè fèn ma?",
+    "english": "Do you know what month it is now?"
+  },
+  {
+    "word": "月初",
+    "sent_simp": "房租一般在月初的时候缴。",
+    "sent_trad": "房租一般在月初的時候繳。",
+    "pinyin": "Fáng zū yī bān zài yuè chū de shí hou jiǎo.",
+    "english": "Rent is usually paid at the beginning of the month."
+  },
+  {
+    "word": "有效期",
+    "sent_simp": "这张优惠券的有效期只到本月底。",
+    "sent_trad": "這張優惠券的有效期只到本月底。",
+    "pinyin": "Zhè zhāng yōu huì quàn de yǒu xiào qī zhǐ dào běn yuè dǐ.",
+    "english": "This coupon's validity period only lasts until the end of this month."
+  },
+  {
+    "word": "有望",
+    "sent_simp": "他练习这么努力，有望在比赛中拿奖。",
+    "sent_trad": "他練習這麼努力，有望在比賽中拿獎。",
+    "pinyin": "Tā liàn xí zhè me nǔ lì, yǒu wàng zài bǐ sài zhōng ná jiǎng.",
+    "english": "He trains so hard that he's likely to win a prize in the competition."
+  },
+  {
+    "word": "有益",
+    "sent_simp": "每天散步对身体很有益。",
+    "sent_trad": "每天散步對身體很有益。",
+    "pinyin": "Měi tiān sàn bù duì shēn tǐ hěn yǒu yì.",
+    "english": "Taking a walk every day is very beneficial for your health."
+  },
+  {
+    "word": "服务器",
+    "sent_simp": "公司的服务器昨天出了故障，网站打不开。",
+    "sent_trad": "公司的服務器昨天出了故障，網站打不開。",
+    "pinyin": "Gōng sī de fú wù qì zuó tiān chū le gù zhàng, wǎng zhàn dǎ bù kāi.",
+    "english": "The company's server had a malfunction yesterday, so the website couldn't be accessed."
+  },
+  {
+    "word": "本子",
+    "sent_simp": "我在本子上记下了今天的安排。",
+    "sent_trad": "我在本子上記下了今天的安排。",
+    "pinyin": "Wǒ zài běn zi shàng jì xià le jīn tiān de ān pái.",
+    "english": "I wrote down today's schedule in my notebook."
+  },
+  {
+    "word": "本期",
+    "sent_simp": "本期杂志的封面人物是一位年轻歌手。",
+    "sent_trad": "本期雜誌的封面人物是一位年輕歌手。",
+    "pinyin": "Běn qī zá zhì de fēng miàn rén wù shì yī wèi nián qīng gē shǒu.",
+    "english": "The cover person of this issue of the magazine is a young singer."
+  },
+  {
+    "word": "本色",
+    "sent_simp": "不管走红多久，她始终保持着朴实的本色。",
+    "sent_trad": "不管走紅多久，她始終保持著樸實的本色。",
+    "pinyin": "Bù guǎn zǒu hóng duō jiǔ, tā shǐ zhōng bǎo chí zhe pǔ shí de běn sè.",
+    "english": "No matter how long she's been famous, she has always kept her down-to-earth true self."
+  },
+  {
+    "word": "朴素",
+    "sent_simp": "她穿着打扮很朴素，但看起来很有气质。",
+    "sent_trad": "她穿著打扮很樸素，但看起來很有氣質。",
+    "pinyin": "Tā chuān zhe dǎ bàn hěn pǔ sù, dàn kàn qǐ lái hěn yǒu qì zhì.",
+    "english": "Her style of dress is very plain, but she carries herself with a lot of elegance."
+  },
+  {
+    "word": "机制",
+    "sent_simp": "公司建立了一套新的激励机制来提高员工积极性。",
+    "sent_trad": "公司建立了一套新的激勵機制來提高員工積極性。",
+    "pinyin": "Gōng sī jiàn lì le yī tào xīn de jī lì jī zhì lái tí gāo yuán gōng jī jí xìng.",
+    "english": "The company set up a new incentive mechanism to boost employee motivation."
+  },
+  {
+    "word": "机智",
+    "sent_simp": "他机智地回答了记者的刁钻问题。",
+    "sent_trad": "他機智地回答了記者的刁鑽問題。",
+    "pinyin": "Tā jī zhì de huí dá le jì zhě de diāo zuān wèn tí.",
+    "english": "He cleverly answered the reporter's tricky question."
+  },
+  {
+    "word": "机票",
+    "sent_simp": "我已经在网上订好了去北京的机票。",
+    "sent_trad": "我已經在網上訂好了去北京的機票。",
+    "pinyin": "Wǒ yǐ jīng zài wǎng shàng dìng hǎo le qù Běi jīng de jī piào.",
+    "english": "I've already booked my plane ticket to Beijing online."
+  },
+  {
+    "word": "杜绝",
+    "sent_simp": "餐厅贴出告示，要求杜绝浪费食物的行为。",
+    "sent_trad": "餐廳貼出告示，要求杜絕浪費食物的行為。",
+    "pinyin": "Cān tīng tiē chū gào shì, yāo qiú dù jué làng fèi shí wù de xíng wéi.",
+    "english": "The restaurant posted a notice demanding that food waste be completely eliminated."
+  },
+  {
+    "word": "来往",
+    "sent_simp": "搬家之后我们还是经常来往。",
+    "sent_trad": "搬家之後我們還是經常來往。",
+    "pinyin": "Bān jiā zhī hòu wǒ men hái shì jīng cháng lái wǎng.",
+    "english": "Even after moving, we still keep in regular contact with each other."
+  },
+  {
+    "word": "来访",
+    "sent_simp": "前台通知我有客户来访，请我下楼接待。",
+    "sent_trad": "前台通知我有客戶來訪，請我下樓接待。",
+    "pinyin": "Qián tái tōng zhī wǒ yǒu kè hù lái fǎng, qǐng wǒ xià lóu jiē dài.",
+    "english": "The front desk notified me that a client had come to visit and asked me to go downstairs to receive them."
+  },
+  {
+    "word": "板块",
+    "sent_simp": "科技板块今天的股价涨幅最大。",
+    "sent_trad": "科技板塊今天的股價漲幅最大。",
+    "pinyin": "Kē jì bǎn kuài jīn tiān de gǔ jià zhǎng fú zuì dà.",
+    "english": "The technology sector had the biggest stock price gains today."
+  },
+  {
+    "word": "极少数",
+    "sent_simp": "只有极少数人有机会见到他本人。",
+    "sent_trad": "只有極少數人有機會見到他本人。",
+    "pinyin": "Zhǐ yǒu jí shǎo shù rén yǒu jī huì jiàn dào tā běn rén.",
+    "english": "Only an extremely small number of people have had the chance to meet him in person."
+  },
+  {
+    "word": "构想",
+    "sent_simp": "他分享了对新项目的初步构想。",
+    "sent_trad": "他分享了對新項目的初步構想。",
+    "pinyin": "Tā fēn xiǎng le duì xīn xiàng mù de chū bù gòu xiǎng.",
+    "english": "He shared his initial concept for the new project."
+  },
+  {
+    "word": "枪毙",
+    "sent_simp": "这个方案在会议上被经理直接枪毙了。",
+    "sent_trad": "這個方案在會議上被經理直接槍斃了。",
+    "pinyin": "Zhè ge fāng àn zài huì yì shàng bèi jīng lǐ zhí jiē qiāng bì le.",
+    "english": "This proposal was shot down outright by the manager during the meeting."
+  },
+  {
+    "word": "柔和",
+    "sent_simp": "卧室里的灯光很柔和，让人感觉很放松。",
+    "sent_trad": "臥室裡的燈光很柔和，讓人感覺很放鬆。",
+    "pinyin": "Wò shì lǐ de dēng guāng hěn róu hé, ràng rén gǎn jué hěn fàng sōng.",
+    "english": "The lighting in the bedroom is very soft, making you feel very relaxed."
+  },
+  {
+    "word": "查询",
+    "sent_simp": "你可以在官网上查询快递的物流状态。",
+    "sent_trad": "你可以在官網上查詢快遞的物流狀態。",
+    "pinyin": "Nǐ kě yǐ zài guān wǎng shàng chá xún kuài dì de wù liú zhuàng tài.",
+    "english": "You can check the shipping status of your parcel on the official website."
+  },
+  {
+    "word": "栏杆",
+    "sent_simp": "孩子爬上栏杆玩耍，家长赶紧把他抱下来。",
+    "sent_trad": "孩子爬上欄杆玩耍，家長趕緊把他抱下來。",
+    "pinyin": "Hái zi pá shàng lán gān wán shuǎ, jiā zhǎng gǎn jǐn bǎ tā bào xià lái.",
+    "english": "The child climbed up the railing to play, and the parent quickly lifted him down."
+  },
+  {
+    "word": "核实",
+    "sent_simp": "记者发稿前需要核实所有信息的真实性。",
+    "sent_trad": "記者發稿前需要核實所有信息的真實性。",
+    "pinyin": "Jì zhě fā gǎo qián xū yào hé shí suǒ yǒu xìn xī de zhēn shí xìng.",
+    "english": "Reporters need to verify the accuracy of all information before filing a story."
+  },
+  {
+    "word": "核电站",
+    "sent_simp": "这座核电站为周边城市提供了大量电力。",
+    "sent_trad": "這座核電站為周邊城市提供了大量電力。",
+    "pinyin": "Zhè zuò hé diàn zhàn wèi zhōu biān chéng shì tí gōng le dà liàng diàn lì.",
+    "english": "This nuclear power plant supplies a large amount of electricity to the surrounding cities."
+  },
+  {
+    "word": "核能",
+    "sent_simp": "核能是一种低碳的发电方式。",
+    "sent_trad": "核能是一種低碳的發電方式。",
+    "pinyin": "Hé néng shì yī zhǒng dī tàn de fā diàn fāng shì.",
+    "english": "Nuclear energy is a low-carbon way of generating electricity."
+  },
+  {
+    "word": "桃花",
+    "sent_simp": "公园里的桃花开了，很多人去拍照。",
+    "sent_trad": "公園裡的桃花開了，很多人去拍照。",
+    "pinyin": "Gōng yuán lǐ de táo huā kāi le, hěn duō rén qù pāi zhào.",
+    "english": "The peach blossoms in the park have bloomed, and many people have gone to take photos."
+  },
+  {
+    "word": "档次",
+    "sent_simp": "换了新装修之后，这家餐厅的档次提高了不少。",
+    "sent_trad": "換了新裝修之後，這家餐廳的檔次提高了不少。",
+    "pinyin": "Huàn le xīn zhuāng xiū zhī hòu, zhè jiā cān tīng de dàng cì tí gāo le bù shǎo.",
+    "english": "After the renovation, the quality level of this restaurant has gone up quite a bit."
+  },
+  {
+    "word": "梯子",
+    "sent_simp": "他爬上梯子把坏掉的灯泡换掉了。",
+    "sent_trad": "他爬上梯子把壞掉的燈泡換掉了。",
+    "pinyin": "Tā pá shàng tī zi bǎ huài diào de dēng pào huàn diào le.",
+    "english": "He climbed up the ladder and replaced the broken light bulb."
+  },
+  {
+    "word": "检讨",
+    "sent_simp": "他在会上做了检讨，承认自己工作中的失误。",
+    "sent_trad": "他在會上做了檢討，承認自己工作中的失誤。",
+    "pinyin": "Tā zài huì shàng zuò le jiǎn tǎo, chéng rèn zì jǐ gōng zuò zhōng de shī wù.",
+    "english": "He gave a self-criticism at the meeting and admitted his mistakes at work."
+  },
+  {
+    "word": "楼房",
+    "sent_simp": "村子里盖起了好几栋新楼房。",
+    "sent_trad": "村子裡蓋起了好幾棟新樓房。",
+    "pinyin": "Cūn zi lǐ gài qǐ le hǎo jǐ dòng xīn lóu fáng.",
+    "english": "Several new multi-story buildings have been built in the village."
+  },
+  {
+    "word": "概况",
+    "sent_simp": "老师让我们写一篇介绍家乡概况的文章。",
+    "sent_trad": "老師讓我們寫一篇介紹家鄉概況的文章。",
+    "pinyin": "Lǎo shī ràng wǒ men xiě yī piān jiè shào jiā xiāng gài kuàng de wén zhāng.",
+    "english": "The teacher asked us to write an essay introducing a general overview of our hometown."
+  },
+  {
+    "word": "概论",
+    "sent_simp": "大一新生都要修一门经济学概论课。",
+    "sent_trad": "大一新生都要修一門經濟學概論課。",
+    "pinyin": "Dà yī xīn shēng dōu yào xiū yī mén jīng jì xué gài lùn kè.",
+    "english": "All first-year university students are required to take an introductory economics course."
+  },
+  {
+    "word": "模特儿",
+    "sent_simp": "她从小就梦想成为一名模特儿。",
+    "sent_trad": "她從小就夢想成為一名模特兒。",
+    "pinyin": "Tā cóng xiǎo jiù mèng xiǎng chéng wéi yī míng mó tè ér.",
+    "english": "She has dreamed of becoming a fashion model since she was little."
+  },
+  {
+    "word": "欺诈",
+    "sent_simp": "警方捣毁了一个专门从事网络欺诈的团伙。",
+    "sent_trad": "警方搗毀了一個專門從事網絡欺詐的團伙。",
+    "pinyin": "Jǐng fāng dǎo huǐ le yī gè zhuān mén cóng shì wǎng luò qī zhà de tuán huǒ.",
+    "english": "Police broke up a gang that specialized in online fraud."
+  },
+  {
+    "word": "款项",
+    "sent_simp": "这笔款项将用于修建社区图书馆。",
+    "sent_trad": "這筆款項將用於修建社區圖書館。",
+    "pinyin": "Zhè bǐ kuǎn xiàng jiāng yòng yú xiū jiàn shè qū tú shū guǎn.",
+    "english": "These funds will be used to build a community library."
+  },
+  {
+    "word": "歌剧",
+    "sent_simp": "他第一次去听歌剧，觉得非常震撼。",
+    "sent_trad": "他第一次去聽歌劇，覺得非常震撼。",
+    "pinyin": "Tā dì yī cì qù tīng gē jù, jué de fēi cháng zhèn hàn.",
+    "english": "He went to see an opera for the first time and found it incredibly moving."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "word": "惯性",
+    "sent_simp": "他早上总是惯性地先刷手机。",
+    "sent_trad": "他早上總是慣性地先刷手機。",
+    "pinyin": "Tā zǎoshang zǒng shì guànxìng de xiān shuā shǒujī.",
+    "english": "Every morning he habitually checks his phone first out of force of habit."
+  },
+  {
+    "word": "愈来愈",
+    "sent_simp": "天气愈来愈热，记得多喝水。",
+    "sent_trad": "天氣愈來愈熱，記得多喝水。",
+    "pinyin": "Tiānqì yù lái yù rè, jìde duō hē shuǐ.",
+    "english": "The weather is getting hotter and hotter, so remember to drink more water."
+  },
+  {
+    "word": "感性",
+    "sent_simp": "她是个很感性的人，容易被电影感动。",
+    "sent_trad": "她是個很感性的人，容易被電影感動。",
+    "pinyin": "Tā shì gè hěn gǎnxìng de rén, róngyì bèi diànyǐng gǎndòng.",
+    "english": "She is a very emotional person who is easily moved by movies."
+  },
+  {
+    "word": "感慨",
+    "sent_simp": "看到老照片，他不禁感慨时光飞逝。",
+    "sent_trad": "看到老照片，他不禁感慨時光飛逝。",
+    "pinyin": "Kàndào lǎo zhàopiàn, tā bùjīn gǎnkǎi shíguāng fēishì.",
+    "english": "Looking at old photos, he couldn't help but sigh at how quickly time flies."
+  },
+  {
+    "word": "慢性",
+    "sent_simp": "他患有慢性胃病，每天要按时吃药。",
+    "sent_trad": "他患有慢性胃病，每天要按時吃藥。",
+    "pinyin": "Tā huàn yǒu màn xìng wèibìng, měitiān yào ànshí chī yào.",
+    "english": "He has a chronic stomach condition and needs to take medicine on time every day."
+  },
+  {
+    "word": "戏曲",
+    "sent_simp": "奶奶每天下午都喜欢听戏曲。",
+    "sent_trad": "奶奶每天下午都喜歡聽戲曲。",
+    "pinyin": "Nǎinai měitiān xiàwǔ dōu xǐhuan tīng xìqǔ.",
+    "english": "Grandma loves listening to Chinese opera every afternoon."
+  },
+  {
+    "word": "成型",
+    "sent_simp": "蛋糕放入模具后，烤二十分钟就成型了。",
+    "sent_trad": "蛋糕放入模具後，烤二十分鐘就成型了。",
+    "pinyin": "Dàngāo fàngrù múju hòu, kǎo èrshí fēnzhōng jiù chéngxíng le.",
+    "english": "After putting the cake batter into the mold, bake it for twenty minutes and it will take shape."
+  },
+  {
+    "word": "户外",
+    "sent_simp": "周末我们去户外爬山放松一下吧。",
+    "sent_trad": "週末我們去戶外爬山放鬆一下吧。",
+    "pinyin": "Zhōumò wǒmen qù hùwài páshān fàngsōng yīxià ba.",
+    "english": "Let's go hiking outdoors this weekend to relax."
+  },
+  {
+    "word": "房价",
+    "sent_simp": "这几年城里的房价涨了不少。",
+    "sent_trad": "這幾年城裡的房價漲了不少。",
+    "pinyin": "Zhè jǐ nián chéng lǐ de fángjià zhǎng le bùshǎo.",
+    "english": "House prices in the city have risen quite a bit in the past few years."
+  },
+  {
+    "word": "手枪",
+    "sent_simp": "警察腰间挂着一把手枪。",
+    "sent_trad": "警察腰間掛著一把手槍。",
+    "pinyin": "Jǐngchá yāo jiān guàzhe yī bǎ shǒuqiāng.",
+    "english": "The police officer had a pistol holstered at their waist."
+  },
+  {
+    "word": "扎根",
+    "sent_simp": "他决定留在农村扎根，帮助当地发展。",
+    "sent_trad": "他決定留在農村扎根，幫助當地發展。",
+    "pinyin": "Tā juédìng liú zài nóngcūn zhā gēn, bāngzhù dāngdì fāzhǎn.",
+    "english": "He decided to put down roots in the countryside and help the local community develop."
+  },
+  {
+    "word": "打动",
+    "sent_simp": "他真诚的道歉打动了她。",
+    "sent_trad": "他真誠的道歉打動了她。",
+    "pinyin": "Tā zhēnchéng de dàoqiàn dǎdòng le tā.",
+    "english": "His sincere apology moved her."
+  },
+  {
+    "word": "打印机",
+    "sent_simp": "打印机没墨了，得去买墨盒。",
+    "sent_trad": "打印機沒墨了，得去買墨盒。",
+    "pinyin": "Dǎyìnjī méi mò le, děi qù mǎi mòhé.",
+    "english": "The printer is out of ink; I need to go buy a new cartridge."
+  },
+  {
+    "word": "打通",
+    "sent_simp": "他打了好几次才打通那个电话。",
+    "sent_trad": "他打了好幾次才打通那個電話。",
+    "pinyin": "Tā dǎ le hǎo jǐ cì cái dǎtōng nà gè diànhuà.",
+    "english": "He tried several times before he finally got through on that call."
+  },
+  {
+    "word": "打量",
+    "sent_simp": "她走进来，大家都悄悄打量她。",
+    "sent_trad": "她走進來，大家都悄悄打量她。",
+    "pinyin": "Tā zǒu jìnlái, dàjiā dōu qiāoqiāo dǎliàng tā.",
+    "english": "When she walked in, everyone quietly sized her up."
+  },
+  {
+    "word": "扣押",
+    "sent_simp": "海关扣押了一批没有申报的货物。",
+    "sent_trad": "海關扣押了一批沒有申報的貨物。",
+    "pinyin": "Hǎiguān kòuyā le yī pī méiyǒu shēnbào de huòwù.",
+    "english": "Customs seized a batch of undeclared goods."
+  },
+  {
+    "word": "扣留",
+    "sent_simp": "警方将嫌疑人扣留以便进一步调查。",
+    "sent_trad": "警方將嫌疑人扣留以便進一步調查。",
+    "pinyin": "Jǐngfāng jiāng xiányírén kòuliú yǐbiàn jìnyībù diàochá.",
+    "english": "The police detained the suspect for further investigation."
+  },
+  {
+    "word": "扣除",
+    "sent_simp": "扣除税款后，他实际到手的钱少了很多。",
+    "sent_trad": "扣除稅款後，他實際到手的錢少了很多。",
+    "pinyin": "Kòuchú shuìkuǎn hòu, tā shíjì dàoshǒu de qián shǎo le hěn duō.",
+    "english": "After deducting taxes, the amount he actually takes home is much less."
+  },
+  {
+    "word": "扩建",
+    "sent_simp": "学校正在扩建图书馆，预计明年完工。",
+    "sent_trad": "學校正在擴建圖書館，預計明年完工。",
+    "pinyin": "Xuéxiào zhèngzài kuòjiàn túshūguǎn, yùjì míngnián wángōng.",
+    "english": "The school is expanding the library, which is expected to be completed next year."
+  },
+  {
+    "word": "扫描",
+    "sent_simp": "请把这份合同扫描后发给我。",
+    "sent_trad": "請把這份合同掃描後發給我。",
+    "pinyin": "Qǐng bǎ zhè fèn hétong sǎomiáo hòu fā gěi wǒ.",
+    "english": "Please scan this contract and send it to me."
+  },
+  {
+    "word": "承办",
+    "sent_simp": "这次展览由市文化局承办。",
+    "sent_trad": "這次展覽由市文化局承辦。",
+    "pinyin": "Zhè cì zhǎnlǎn yóu shì wénhuàjú chéngbàn.",
+    "english": "This exhibition is organized by the city's cultural bureau."
+  },
+  {
+    "word": "承包",
+    "sent_simp": "他承包了小区的绿化工程。",
+    "sent_trad": "他承包了小區的綠化工程。",
+    "pinyin": "Tā chéngbāo le xiǎoqū de lǜhuà gōngchéng.",
+    "english": "He contracted the landscaping project for the residential complex."
+  },
+  {
+    "word": "把手",
+    "sent_simp": "门把手松了，需要找人修一下。",
+    "sent_trad": "門把手鬆了，需要找人修一下。",
+    "pinyin": "Mén bǎshǒu sōng le, xūyào zhǎo rén xiū yīxià.",
+    "english": "The door handle is loose and needs someone to fix it."
+  },
+  {
+    "word": "抑郁",
+    "sent_simp": "连续加班几个月，他感到有些抑郁。",
+    "sent_trad": "連續加班幾個月，他感到有些抑鬱。",
+    "pinyin": "Liánxù jiābān jǐ gè yuè, tā gǎndào yǒuxiē yìyù.",
+    "english": "After months of continuous overtime, he started feeling somewhat depressed."
+  },
+  {
+    "word": "抑郁症",
+    "sent_simp": "他去年被诊断出患有抑郁症，现在在接受治疗。",
+    "sent_trad": "他去年被診斷出患有抑鬱症，現在在接受治療。",
+    "pinyin": "Tā qùnián bèi zhěnduàn chū huàn yǒu yìyùzhèng, xiànzài zài jiēshòu zhìliáo.",
+    "english": "He was diagnosed with clinical depression last year and is currently receiving treatment."
+  },
+  {
+    "word": "投射",
+    "sent_simp": "阳光透过窗帘投射在地板上。",
+    "sent_trad": "陽光透過窗簾投射在地板上。",
+    "pinyin": "Yángguāng tòuguò chuānglián tóushè zài dìbǎn shàng.",
+    "english": "Sunlight cast through the curtains onto the floor."
+  },
+  {
+    "word": "投稿",
+    "sent_simp": "她把自己写的文章投稿给了一家杂志。",
+    "sent_trad": "她把自己寫的文章投稿給了一家雜誌。",
+    "pinyin": "Tā bǎ zìjǐ xiě de wénzhāng tóugǎo gěi le yī jiā zázhì.",
+    "english": "She submitted her article to a magazine."
+  },
+  {
+    "word": "抗生素",
+    "sent_simp": "医生说这个感染需要吃抗生素。",
+    "sent_trad": "醫生說這個感染需要吃抗生素。",
+    "pinyin": "Yīshēng shuō zhège gǎnrǎn xūyào chī kàngshēngsù.",
+    "english": "The doctor said this infection requires antibiotics."
+  },
+  {
+    "word": "折叠",
+    "sent_simp": "这把椅子可以折叠，放在车里很方便。",
+    "sent_trad": "這把椅子可以折疊，放在車裡很方便。",
+    "pinyin": "Zhè bǎ yǐzi kěyǐ zhédié, fàng zài chē lǐ hěn fāngbiàn.",
+    "english": "This chair can be folded up, which is very convenient to put in the car."
+  },
+  {
+    "word": "折合",
+    "sent_simp": "这一百美元折合人民币大约七百多块。",
+    "sent_trad": "這一百美元折合人民幣大約七百多塊。",
+    "pinyin": "Zhè yībǎi měiyuán zhéhé rénmínbì dàyuē qībǎi duō kuài.",
+    "english": "One hundred US dollars converts to roughly over seven hundred yuan."
+  },
+  {
+    "word": "折扣",
+    "sent_simp": "这家店今天打八折，我买了两件衣服。",
+    "sent_trad": "這家店今天打八折，我買了兩件衣服。",
+    "pinyin": "Zhè jiā diàn jīntiān dǎ bā zhé kòu, wǒ mǎi le liǎng jiàn yīfu.",
+    "english": "This store is offering a 20% discount today, so I bought two pieces of clothing."
+  },
+  {
+    "word": "抚摸",
+    "sent_simp": "她轻轻抚摸着小猫的头。",
+    "sent_trad": "她輕輕撫摸著小貓的頭。",
+    "pinyin": "Tā qīngqīng fǔmō zhe xiǎo māo de tóu.",
+    "english": "She gently stroked the kitten's head."
+  },
+  {
+    "word": "报刊",
+    "sent_simp": "图书馆里摆放着各种报刊供读者阅读。",
+    "sent_trad": "圖書館裡擺放著各種報刊供讀者閱讀。",
+    "pinyin": "Túshūguǎn lǐ bǎifàng zhe gèzhǒng bàokān gōng dúzhě yuèdú.",
+    "english": "The library has a variety of newspapers and periodicals available for readers."
+  },
+  {
+    "word": "报废",
+    "sent_simp": "这台电脑太旧了，只能报废处理。",
+    "sent_trad": "這台電腦太舊了，只能報廢處理。",
+    "pinyin": "Zhè tái diànnǎo tài jiù le, zhǐ néng bàofèi chǔlǐ.",
+    "english": "This computer is too old and can only be scrapped."
+  },
+  {
+    "word": "报考",
+    "sent_simp": "她今年打算报考研究生。",
+    "sent_trad": "她今年打算報考研究生。",
+    "pinyin": "Tā jīnnián dǎsuàn bàokǎo yánjiūshēng.",
+    "english": "She plans to sit for the graduate school entrance exam this year."
+  },
+  {
+    "word": "报销",
+    "sent_simp": "出差的费用记得留发票，回来可以报销。",
+    "sent_trad": "出差的費用記得留發票，回來可以報銷。",
+    "pinyin": "Chūchāi de fèiyòng jìde liú fāpiào, huílái kěyǐ bàoxiāo.",
+    "english": "Remember to keep receipts for your business trip expenses so you can get reimbursed when you return."
+  },
+  {
+    "word": "抨击",
+    "sent_simp": "这篇文章抨击了当前的食品安全问题。",
+    "sent_trad": "這篇文章抨擊了當前的食品安全問題。",
+    "pinyin": "Zhè piān wénzhāng pēngjī le dāngqián de shípǐn ānquán wèntí.",
+    "english": "This article attacked the current food safety issues."
+  },
+  {
+    "word": "披露",
+    "sent_simp": "公司在年报中披露了详细的财务数据。",
+    "sent_trad": "公司在年報中披露了詳細的財務數據。",
+    "pinyin": "Gōngsī zài niánbào zhōng pīlù le xiángxì de cáiwù shùjù.",
+    "english": "The company disclosed detailed financial data in its annual report."
+  },
+  {
+    "word": "抱负",
+    "sent_simp": "他从小就有成为科学家的抱负。",
+    "sent_trad": "他從小就有成為科學家的抱負。",
+    "pinyin": "Tā cóngxiǎo jiù yǒu chéngwéi kēxuéjiā de bàofù.",
+    "english": "He has had the ambition to become a scientist since he was young."
+  },
+  {
+    "word": "抵押",
+    "sent_simp": "他用房子抵押贷款来开公司。",
+    "sent_trad": "他用房子抵押貸款來開公司。",
+    "pinyin": "Tā yòng fángzi dǐyā dàikuǎn lái kāi gōngsī.",
+    "english": "He used his house as collateral for a loan to start a company."
+  }
+]

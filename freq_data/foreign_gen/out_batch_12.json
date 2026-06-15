@@ -1,0 +1,282 @@
+[
+  {
+    "word": "歌星",
+    "sent_simp": "她从小就梦想成为一名歌星。",
+    "sent_trad": "她從小就夢想成為一名歌星。",
+    "pinyin": "Tā cóng xiǎo jiù mèng xiǎng chéng wéi yī míng gē xīng.",
+    "english": "She has dreamed of becoming a famous singer since she was little."
+  },
+  {
+    "word": "歌舞",
+    "sent_simp": "节日晚会上有精彩的歌舞表演。",
+    "sent_trad": "節日晚會上有精彩的歌舞表演。",
+    "pinyin": "Jié rì wǎn huì shàng yǒu jīng cǎi de gē wǔ biǎo yǎn.",
+    "english": "There were wonderful singing and dancing performances at the holiday show."
+  },
+  {
+    "word": "歌迷",
+    "sent_simp": "很多歌迷在场外等着见偶像。",
+    "sent_trad": "很多歌迷在場外等著見偶像。",
+    "pinyin": "Hěn duō gē mí zài chǎng wài děng zhe jiàn ǒu xiàng.",
+    "english": "Many fans waited outside the venue hoping to see their idol."
+  },
+  {
+    "word": "正直",
+    "sent_simp": "他为人正直，从不说谎。",
+    "sent_trad": "他為人正直，從不說謊。",
+    "pinyin": "Tā wéi rén zhèng zhí, cóng bù shuō huǎng.",
+    "english": "He is an upright person and never lies."
+  },
+  {
+    "word": "此前",
+    "sent_simp": "此前他从来没有出过国。",
+    "sent_trad": "此前他從來沒有出過國。",
+    "pinyin": "Cǐ qián tā cóng lái méi yǒu chū guò guó.",
+    "english": "Before this, he had never been abroad."
+  },
+  {
+    "word": "残疾人",
+    "sent_simp": "地铁里有专门供残疾人使用的通道。",
+    "sent_trad": "地鐵裡有專門供殘疾人使用的通道。",
+    "pinyin": "Dì tiě lǐ yǒu zhuān mén gōng cán jí rén shǐ yòng de tōng dào.",
+    "english": "The subway has dedicated passageways for people with disabilities."
+  },
+  {
+    "word": "段落",
+    "sent_simp": "请把这篇文章分成几个段落。",
+    "sent_trad": "請把這篇文章分成幾個段落。",
+    "pinyin": "Qǐng bǎ zhè piān wén zhāng fēn chéng jǐ gè duàn luò.",
+    "english": "Please divide this article into a few paragraphs."
+  },
+  {
+    "word": "殿堂",
+    "sent_simp": "这座殿堂已有几百年的历史。",
+    "sent_trad": "這座殿堂已有幾百年的歷史。",
+    "pinyin": "Zhè zuò diàn táng yǐ yǒu jǐ bǎi nián de lì shǐ.",
+    "english": "This palace hall has a history of several hundred years."
+  },
+  {
+    "word": "毁坏",
+    "sent_simp": "洪水毁坏了不少农田。",
+    "sent_trad": "洪水毀壞了不少農田。",
+    "pinyin": "Hóng shuǐ huǐ huài le bù shǎo nóng tián.",
+    "english": "The flood damaged a lot of farmland."
+  },
+  {
+    "word": "每逢",
+    "sent_simp": "每逢过年，全家人都聚在一起吃饭。",
+    "sent_trad": "每逢過年，全家人都聚在一起吃飯。",
+    "pinyin": "Měi féng guò nián, quán jiā rén dōu jù zài yī qǐ chī fàn.",
+    "english": "Every time the New Year comes, the whole family gathers to eat together."
+  },
+  {
+    "word": "民俗",
+    "sent_simp": "这个村子保留了很多传统民俗。",
+    "sent_trad": "這個村子保留了很多傳統民俗。",
+    "pinyin": "Zhè ge cūn zi bǎo liú le hěn duō chuán tǒng mín sú.",
+    "english": "This village has preserved many traditional folk customs."
+  },
+  {
+    "word": "民歌",
+    "sent_simp": "奶奶喜欢唱家乡的民歌。",
+    "sent_trad": "奶奶喜歡唱家鄉的民歌。",
+    "pinyin": "Nǎi nai xǐ huān chàng jiā xiāng de mín gē.",
+    "english": "Grandma loves singing folk songs from her hometown."
+  },
+  {
+    "word": "民用",
+    "sent_simp": "这款飞机主要用于民用航空。",
+    "sent_trad": "這款飛機主要用於民用航空。",
+    "pinyin": "Zhè kuǎn fēi jī zhǔ yào yòng yú mín yòng háng kōng.",
+    "english": "This type of aircraft is mainly used for civilian aviation."
+  },
+  {
+    "word": "气温",
+    "sent_simp": "今天气温很低，记得多穿衣服。",
+    "sent_trad": "今天氣溫很低，記得多穿衣服。",
+    "pinyin": "Jīn tiān qì wēn hěn dī, jì de duō chuān yī fu.",
+    "english": "The temperature is very low today — remember to dress warmly."
+  },
+  {
+    "word": "水灾",
+    "sent_simp": "南方今年发生了严重的水灾。",
+    "sent_trad": "南方今年發生了嚴重的水災。",
+    "pinyin": "Nán fāng jīn nián fā shēng le yán zhòng de shuǐ zāi.",
+    "english": "The south experienced a serious flood this year."
+  },
+  {
+    "word": "水稻",
+    "sent_simp": "农民正在田里插水稻秧苗。",
+    "sent_trad": "農民正在田裡插水稻秧苗。",
+    "pinyin": "Nóng mín zhèng zài tián lǐ chā shuǐ dào yāng miáo.",
+    "english": "Farmers are planting rice seedlings in the fields."
+  },
+  {
+    "word": "求学",
+    "sent_simp": "他去北京求学，希望考上名校。",
+    "sent_trad": "他去北京求學，希望考上名校。",
+    "pinyin": "Tā qù Běi jīng qiú xué, xī wàng kǎo shàng míng xiào.",
+    "english": "He went to Beijing to study, hoping to get into a top university."
+  },
+  {
+    "word": "污水",
+    "sent_simp": "工厂的污水排放污染了附近的河流。",
+    "sent_trad": "工廠的污水排放污染了附近的河流。",
+    "pinyin": "Gōng chǎng de wū shuǐ pái fàng wū rǎn le fù jìn de hé liú.",
+    "english": "The factory's sewage discharge polluted the nearby river."
+  },
+  {
+    "word": "沉淀",
+    "sent_simp": "摇一摇瓶子，底部的沉淀就散开了。",
+    "sent_trad": "搖一搖瓶子，底部的沈澱就散開了。",
+    "pinyin": "Yáo yi yáo píng zi, dǐ bù de chén diàn jiù sàn kāi le.",
+    "english": "Give the bottle a shake and the sediment at the bottom will disperse."
+  },
+  {
+    "word": "沙龙",
+    "sent_simp": "他每周参加一次读书沙龙。",
+    "sent_trad": "他每週參加一次讀書沙龍。",
+    "pinyin": "Tā měi zhōu cān jiā yī cì dú shū shā lóng.",
+    "english": "He attends a book salon once a week."
+  },
+  {
+    "word": "没落",
+    "sent_simp": "这个老手艺渐渐没落，会的人越来越少了。",
+    "sent_trad": "這個老手藝漸漸沒落，會的人越來越少了。",
+    "pinyin": "Zhè ge lǎo shǒu yì jiàn jiàn mò luò, huì de rén yuè lái yuè shǎo le.",
+    "english": "This old craft is gradually declining, and fewer and fewer people know it."
+  },
+  {
+    "word": "油画",
+    "sent_simp": "客厅墙上挂着一幅风景油画。",
+    "sent_trad": "客廳牆上掛著一幅風景油畫。",
+    "pinyin": "Kè tīng qiáng shàng guà zhe yī fú fēng jǐng yóu huà.",
+    "english": "A landscape oil painting hangs on the living room wall."
+  },
+  {
+    "word": "治病",
+    "sent_simp": "医生用这种草药治病已经多年了。",
+    "sent_trad": "醫生用這種草藥治病已經多年了。",
+    "pinyin": "Yī shēng yòng zhè zhǒng cǎo yào zhì bìng yǐ jīng duō nián le.",
+    "english": "The doctor has been using this herbal medicine to treat illness for many years."
+  },
+  {
+    "word": "沿岸",
+    "sent_simp": "黄河沿岸的城市越来越多。",
+    "sent_trad": "黃河沿岸的城市越來越多。",
+    "pinyin": "Huáng Hé yán àn de chéng shì yuè lái yuè duō.",
+    "english": "There are more and more cities along the banks of the Yellow River."
+  },
+  {
+    "word": "沿线",
+    "sent_simp": "高铁沿线开了很多新的商业区。",
+    "sent_trad": "高鐵沿線開了很多新的商業區。",
+    "pinyin": "Gāo tiě yán xiàn kāi le hěn duō xīn de shāng yè qū.",
+    "english": "Many new commercial districts have opened along the high-speed rail line."
+  },
+  {
+    "word": "法制",
+    "sent_simp": "健全的法制是社会稳定的基础。",
+    "sent_trad": "健全的法制是社會穩定的基礎。",
+    "pinyin": "Jiàn quán de fǎ zhì shì shè huì wěn dìng de jī chǔ.",
+    "english": "A sound legal system is the foundation of social stability."
+  },
+  {
+    "word": "法规",
+    "sent_simp": "驾车前要了解当地的交通法规。",
+    "sent_trad": "駕車前要了解當地的交通法規。",
+    "pinyin": "Jià chē qián yào liǎo jiě dāng dì de jiāo tōng fǎ guī.",
+    "english": "Before driving, you should familiarize yourself with local traffic regulations."
+  },
+  {
+    "word": "洁净",
+    "sent_simp": "山里的空气洁净，让人心情很好。",
+    "sent_trad": "山裡的空氣潔淨，讓人心情很好。",
+    "pinyin": "Shān lǐ de kōng qì jié jìng, ràng rén xīn qíng hěn hǎo.",
+    "english": "The air in the mountains is clean and fresh, which lifts your spirits."
+  },
+  {
+    "word": "洽谈",
+    "sent_simp": "双方正在洽谈合作的细节。",
+    "sent_trad": "雙方正在洽談合作的細節。",
+    "pinyin": "Shuāng fāng zhèng zài qià tán hé zuò de xì jié.",
+    "english": "Both sides are currently discussing the details of their cooperation."
+  },
+  {
+    "word": "流域",
+    "sent_simp": "长江流域的气候比较温暖湿润。",
+    "sent_trad": "長江流域的氣候比較溫暖濕潤。",
+    "pinyin": "Cháng Jiāng liú yù de qì hòu bǐ jiào wēn nuǎn shī rùn.",
+    "english": "The climate in the Yangtze River basin is relatively warm and humid."
+  },
+  {
+    "word": "流感",
+    "sent_simp": "冬天容易得流感，要注意保暖。",
+    "sent_trad": "冬天容易得流感，要注意保暖。",
+    "pinyin": "Dōng tiān róng yì dé liú gǎn, yào zhù yì bǎo nuǎn.",
+    "english": "It's easy to catch the flu in winter, so make sure to keep warm."
+  },
+  {
+    "word": "流畅",
+    "sent_simp": "他的中文说得很流畅。",
+    "sent_trad": "他的中文說得很流暢。",
+    "pinyin": "Tā de Zhōng wén shuō de hěn liú chàng.",
+    "english": "His Chinese is very fluent."
+  },
+  {
+    "word": "流转",
+    "sent_simp": "土地流转让农民增加了不少收入。",
+    "sent_trad": "土地流轉讓農民增加了不少收入。",
+    "pinyin": "Tǔ dì liú zhuǎn ràng nóng mín zēng jiā le bù shǎo shōu rù.",
+    "english": "The circulation of land use rights has significantly increased farmers' income."
+  },
+  {
+    "word": "测定",
+    "sent_simp": "科学家测定了这块骨头的年龄。",
+    "sent_trad": "科學家測定了這塊骨頭的年齡。",
+    "pinyin": "Kē xué jiā cè dìng le zhè kuài gǔ tou de nián líng.",
+    "english": "Scientists determined the age of this bone."
+  },
+  {
+    "word": "测算",
+    "sent_simp": "工程师测算了建桥所需的费用。",
+    "sent_trad": "工程師測算了建橋所需的費用。",
+    "pinyin": "Gōng chéng shī cè suàn le jiàn qiáo suǒ xū de fèi yòng.",
+    "english": "The engineer measured and calculated the cost required to build the bridge."
+  },
+  {
+    "word": "浏览器",
+    "sent_simp": "你用什么浏览器上网？",
+    "sent_trad": "你用什麼瀏覽器上網？",
+    "pinyin": "Nǐ yòng shén me liú lǎn qì shàng wǎng?",
+    "english": "What browser do you use to surf the internet?"
+  },
+  {
+    "word": "浓郁",
+    "sent_simp": "咖啡散发出浓郁的香气。",
+    "sent_trad": "咖啡散發出濃郁的香氣。",
+    "pinyin": "Kā fēi sàn fā chū nóng yù de xiāng qì.",
+    "english": "The coffee gives off a rich, strong aroma."
+  },
+  {
+    "word": "浩劫",
+    "sent_simp": "那场战争是这座城市的一场浩劫。",
+    "sent_trad": "那場戰爭是這座城市的一場浩劫。",
+    "pinyin": "Nà chǎng zhàn zhēng shì zhè zuò chéng shì de yī chǎng hào jié.",
+    "english": "That war was a catastrophe for this city."
+  },
+  {
+    "word": "海关",
+    "sent_simp": "入境时要在海关申报携带的物品。",
+    "sent_trad": "入境時要在海關申報攜帶的物品。",
+    "pinyin": "Rù jìng shí yào zài hǎi guān shēn bào xié dài de wù pǐn.",
+    "english": "When entering the country, you need to declare the items you are carrying at customs."
+  },
+  {
+    "word": "海内外",
+    "sent_simp": "这位作家的作品在海内外都很有名。",
+    "sent_trad": "這位作家的作品在海內外都很有名。",
+    "pinyin": "Zhè wèi zuò jiā de zuò pǐn zài hǎi nèi wài dōu hěn yǒu míng.",
+    "english": "This writer's works are well known both at home and abroad."
+  }
+]

@@ -1,0 +1,7191 @@
+[
+{
+"word": "一般来说",
+"trad": "一般來說",
+"pinyin": "yì bān lái shuō",
+"gloss": "generally speaking",
+"zipf": 3.7
+},
+{
+"word": "一连",
+"trad": "一連",
+"pinyin": "yī lián",
+"gloss": "in a row; in succession; running",
+"zipf": 3.53
+},
+{
+"word": "三维",
+"trad": "三維",
+"pinyin": "sān wéi",
+"gloss": "three-dimensional; 3D",
+"zipf": 3.74
+},
+{
+"word": "上岗",
+"trad": "上崗",
+"pinyin": "shàng gǎng",
+"gloss": "to take up one's post; to go on duty; to take up a job",
+"zipf": 3.56
+},
+{
+"word": "上旬",
+"trad": "上旬",
+"pinyin": "shàng xún",
+"gloss": "first third of a month",
+"zipf": 3.54
+},
+{
+"word": "上涨",
+"trad": "上漲",
+"pinyin": "shàng zhǎng",
+"gloss": "to rise; to go up",
+"zipf": 4.59
+},
+{
+"word": "上述",
+"trad": "上述",
+"pinyin": "shàng shù",
+"gloss": "aforementioned; above-mentioned",
+"zipf": 4.84
+},
+{
+"word": "上限",
+"trad": "上限",
+"pinyin": "shàng xiàn",
+"gloss": "upper bound",
+"zipf": 3.99
+},
+{
+"word": "下旬",
+"trad": "下旬",
+"pinyin": "xià xún",
+"gloss": "last third of the month",
+"zipf": 3.98
+},
+{
+"word": "下楼",
+"trad": "下樓",
+"pinyin": "xià lóu",
+"gloss": "to go downstairs",
+"zipf": 3.65
+},
+{
+"word": "下班",
+"trad": "下班",
+"pinyin": "xià bān",
+"gloss": "to finish work; to get off work; next service (train, bus etc)",
+"zipf": 4.15
+},
+{
+"word": "下跌",
+"trad": "下跌",
+"pinyin": "xià diē",
+"gloss": "to fall; to tumble",
+"zipf": 4.26
+},
+{
+"word": "不免",
+"trad": "不免",
+"pinyin": "bù miǎn",
+"gloss": "inevitably",
+"zipf": 3.7
+},
+{
+"word": "不平",
+"trad": "不平",
+"pinyin": "bù píng",
+"gloss": "uneven; injustice; unfairness; wrong; grievance; indignant; dissatisfied",
+"zipf": 3.76
+},
+{
+"word": "不见得",
+"trad": "不見得",
+"pinyin": "bú jiàn de",
+"gloss": "not necessarily; not likely",
+"zipf": 3.61
+},
+{
+"word": "丑恶",
+"trad": "醜惡",
+"pinyin": "chǒu è",
+"gloss": "ugly; repulsive",
+"zipf": 3.76
+},
+{
+"word": "专栏",
+"trad": "專欄",
+"pinyin": "zhuān lán",
+"gloss": "special column",
+"zipf": 4.27
+},
+{
+"word": "专职",
+"trad": "專職",
+"pinyin": "zhuān zhí",
+"gloss": "special duty; assigned full time to a task",
+"zipf": 3.85
+},
+{
+"word": "专辑",
+"trad": "專輯",
+"pinyin": "zhuān jí",
+"gloss": "album; record (music); special collection of printed or broadcast material",
+"zipf": 4.46
+},
+{
+"word": "世界级",
+"trad": "世界級",
+"pinyin": "shì jiè jí",
+"gloss": "world-class",
+"zipf": 3.53
+},
+{
+"word": "丛林",
+"trad": "叢林",
+"pinyin": "cóng lín",
+"gloss": "jungle; thicket; forest; Buddhist monastery",
+"zipf": 4.21
+},
+{
+"word": "两侧",
+"trad": "兩側",
+"pinyin": "liǎng cè",
+"gloss": "two sides; both sides",
+"zipf": 4.19
+},
+{
+"word": "两岸",
+"trad": "兩岸",
+"pinyin": "liǎng àn",
+"gloss": "bilateral; both shores; both sides; both coasts; Taiwan and mainland",
+"zipf": 4.61
+},
+{
+"word": "中型",
+"trad": "中型",
+"pinyin": "zhōng xíng",
+"gloss": "medium sized",
+"zipf": 3.89
+},
+{
+"word": "中部",
+"trad": "中部",
+"pinyin": "zhōng bù",
+"gloss": "middle part; central section; central region",
+"zipf": 4.51
+},
+{
+"word": "主演",
+"trad": "主演",
+"pinyin": "zhǔ yǎn",
+"gloss": "to play the leading role; to star; lead actor",
+"zipf": 4.38
+},
+{
+"word": "主页",
+"trad": "主頁",
+"pinyin": "zhǔ yè",
+"gloss": "home page",
+"zipf": 4.06
+},
+{
+"word": "举措",
+"trad": "舉措",
+"pinyin": "jǔ cuò",
+"gloss": "move; act; measure",
+"zipf": 4.17
+},
+{
+"word": "乡村",
+"trad": "鄉村",
+"pinyin": "xiāng cūn",
+"gloss": "rustic; village; countryside",
+"zipf": 4.8
+},
+{
+"word": "买不起",
+"trad": "買不起",
+"pinyin": "mǎi bù qǐ",
+"gloss": "cannot afford; can't afford buying",
+"zipf": 3.54
+},
+{
+"word": "事务所",
+"trad": "事務所",
+"pinyin": "shì wù suǒ",
+"gloss": "business office; firm",
+"zipf": 4.19
+},
+{
+"word": "二氧化碳",
+"trad": "二氧化碳",
+"pinyin": "èr yǎng huà tàn",
+"gloss": "carbon dioxide CO2",
+"zipf": 3.9
+},
+{
+"word": "二维码",
+"trad": "二維碼",
+"pinyin": "èr wéi mǎ",
+"gloss": "2D barcode; matrix code; (esp.) QR code",
+"zipf": 3.71
+},
+{
+"word": "互动",
+"trad": "互動",
+"pinyin": "hù dòng",
+"gloss": "to interact; interactive",
+"zipf": 4.62
+},
+{
+"word": "五星级",
+"trad": "五星級",
+"pinyin": "wǔ xīng jí",
+"gloss": "five-star (hotel)",
+"zipf": 3.51
+},
+{
+"word": "交叉",
+"trad": "交叉",
+"pinyin": "jiāo chā",
+"gloss": "to cross; to intersect; to overlap",
+"zipf": 4.06
+},
+{
+"word": "交警",
+"trad": "交警",
+"pinyin": "jiāo jǐng",
+"gloss": "traffic police (abbr. for 交通警察[jiao1 tong1 jing3 cha2])",
+"zipf": 3.75
+},
+{
+"word": "交际",
+"trad": "交際",
+"pinyin": "jiāo jì",
+"gloss": "communication; social intercourse",
+"zipf": 3.67
+},
+{
+"word": "产量",
+"trad": "產量",
+"pinyin": "chǎn liàng",
+"gloss": "output",
+"zipf": 4.71
+},
+{
+"word": "享有",
+"trad": "享有",
+"pinyin": "xiǎng yǒu",
+"gloss": "to enjoy (rights, privileges etc)",
+"zipf": 4.66
+},
+{
+"word": "亲友",
+"trad": "親友",
+"pinyin": "qīn yǒu",
+"gloss": "friends and relatives",
+"zipf": 3.99
+},
+{
+"word": "人均",
+"trad": "人均",
+"pinyin": "rén jūn",
+"gloss": "per capita; averaged per person",
+"zipf": 4.46
+},
+{
+"word": "人工智能",
+"trad": "人工智能",
+"pinyin": "rén gōng zhì néng",
+"gloss": "artificial intelligence (AI)",
+"zipf": 3.78
+},
+{
+"word": "仍旧",
+"trad": "仍舊",
+"pinyin": "réng jiù",
+"gloss": "still (remaining); to remain (the same); yet",
+"zipf": 4.16
+},
+{
+"word": "代表团",
+"trad": "代表團",
+"pinyin": "dài biǎo tuán",
+"gloss": "delegation; CL:個|个[ge4]",
+"zipf": 4.32
+},
+{
+"word": "以免",
+"trad": "以免",
+"pinyin": "yǐ miǎn",
+"gloss": "in order to avoid; so as not to",
+"zipf": 4.19
+},
+{
+"word": "以致",
+"trad": "以致",
+"pinyin": "yǐ zhì",
+"gloss": "to such an extent as to; down to; up to",
+"zipf": 4.08
+},
+{
+"word": "仪表",
+"trad": "儀表",
+"pinyin": "yí biǎo",
+"gloss": "appearance; bearing; meter (i.e. measuring instrument)",
+"zipf": 3.92
+},
+{
+"word": "仲裁",
+"trad": "仲裁",
+"pinyin": "zhòng cái",
+"gloss": "arbitration",
+"zipf": 3.9
+},
+{
+"word": "优化",
+"trad": "優化",
+"pinyin": "yōu huà",
+"gloss": "to optimize",
+"zipf": 4.52
+},
+{
+"word": "传媒",
+"trad": "傳媒",
+"pinyin": "chuán méi",
+"gloss": "media",
+"zipf": 4.46
+},
+{
+"word": "估算",
+"trad": "估算",
+"pinyin": "gū suàn",
+"gloss": "assessment; evaluation",
+"zipf": 3.88
+},
+{
+"word": "伴奏",
+"trad": "伴奏",
+"pinyin": "bàn zòu",
+"gloss": "to accompany (musically)",
+"zipf": 3.61
+},
+{
+"word": "低价",
+"trad": "低價",
+"pinyin": "dī jià",
+"gloss": "low price",
+"zipf": 3.9
+},
+{
+"word": "低温",
+"trad": "低溫",
+"pinyin": "dī wēn",
+"gloss": "low temperature",
+"zipf": 3.99
+},
+{
+"word": "低调",
+"trad": "低調",
+"pinyin": "dī diào",
+"gloss": "low pitch; quiet (voice); subdued; low-key; low-profile",
+"zipf": 3.93
+},
+{
+"word": "住户",
+"trad": "住戶",
+"pinyin": "zhù hù",
+"gloss": "household; inhabitant; householder",
+"zipf": 3.82
+},
+{
+"word": "住房",
+"trad": "住房",
+"pinyin": "zhù fáng",
+"gloss": "housing",
+"zipf": 4.48
+},
+{
+"word": "体检",
+"trad": "體檢",
+"pinyin": "tǐ jiǎn",
+"gloss": "abbr. for 體格檢查|体格检查[ti3 ge2 jian3 cha2]",
+"zipf": 3.91
+},
+{
+"word": "供应",
+"trad": "供應",
+"pinyin": "gōng yìng",
+"gloss": "to supply; to provide (goods, services etc)",
+"zipf": 4.73
+},
+{
+"word": "依托",
+"trad": "依託",
+"pinyin": "yī tuō",
+"gloss": "to rely on; to depend on; support",
+"zipf": 4.07
+},
+{
+"word": "依次",
+"trad": "依次",
+"pinyin": "yī cì",
+"gloss": "in order; in succession",
+"zipf": 4.01
+},
+{
+"word": "依法",
+"trad": "依法",
+"pinyin": "yī fǎ",
+"gloss": "legal (proceedings); according to law",
+"zipf": 4.63
+},
+{
+"word": "侧重",
+"trad": "側重",
+"pinyin": "cè zhòng",
+"gloss": "to place particular emphasis on",
+"zipf": 3.58
+},
+{
+"word": "侵权",
+"trad": "侵權",
+"pinyin": "qīn quán",
+"gloss": "to infringe the rights of; to violate; infringement",
+"zipf": 4.02
+},
+{
+"word": "便于",
+"trad": "便於",
+"pinyin": "biàn yú",
+"gloss": "easy to; convenient for",
+"zipf": 4.17
+},
+{
+"word": "便捷",
+"trad": "便捷",
+"pinyin": "biàn jié",
+"gloss": "convenient and fast",
+"zipf": 3.77
+},
+{
+"word": "促销",
+"trad": "促銷",
+"pinyin": "cù xiāo",
+"gloss": "to promote sales",
+"zipf": 4.02
+},
+{
+"word": "信箱",
+"trad": "信箱",
+"pinyin": "xìn xiāng",
+"gloss": "mailbox; post office box",
+"zipf": 3.77
+},
+{
+"word": "信贷",
+"trad": "信貸",
+"pinyin": "xìn dài",
+"gloss": "credit; borrowed money",
+"zipf": 4.24
+},
+{
+"word": "修订",
+"trad": "修訂",
+"pinyin": "xiū dìng",
+"gloss": "to revise",
+"zipf": 4.36
+},
+{
+"word": "倒霉",
+"trad": "倒霉",
+"pinyin": "dǎo méi",
+"gloss": "to have bad luck; to be out of luck",
+"zipf": 4.03
+},
+{
+"word": "假定",
+"trad": "假定",
+"pinyin": "jiǎ dìng",
+"gloss": "to assume; to suppose; supposed; so-called; assumption; hypothesis",
+"zipf": 4.0
+},
+{
+"word": "做生意",
+"trad": "做生意",
+"pinyin": "zuò shēng yì",
+"gloss": "to do business",
+"zipf": 3.94
+},
+{
+"word": "停放",
+"trad": "停放",
+"pinyin": "tíng fàng",
+"gloss": "to park (a car etc); to moor (a boat etc); to leave sth (in a place)",
+"zipf": 3.51
+},
+{
+"word": "光滑",
+"trad": "光滑",
+"pinyin": "guāng huá",
+"gloss": "glossy; sleek; smooth",
+"zipf": 3.69
+},
+{
+"word": "全场",
+"trad": "全場",
+"pinyin": "quán chǎng",
+"gloss": "everyone present; the whole audience; across-the-board; unanimously; whole duration (of a ",
+"zipf": 4.0
+},
+{
+"word": "全心全意",
+"trad": "全心全意",
+"pinyin": "quán xīn quán yì",
+"gloss": "(idiom) heart and soul; wholeheartedly",
+"zipf": 3.76
+},
+{
+"word": "公墓",
+"trad": "公墓",
+"pinyin": "gōng mù",
+"gloss": "public cemetery",
+"zipf": 3.51
+},
+{
+"word": "公款",
+"trad": "公款",
+"pinyin": "gōng kuǎn",
+"gloss": "public money",
+"zipf": 3.54
+},
+{
+"word": "公益",
+"trad": "公益",
+"pinyin": "gōng yì",
+"gloss": "public good; public welfare; public interest",
+"zipf": 4.33
+},
+{
+"word": "公顷",
+"trad": "公頃",
+"pinyin": "gōng qǐng",
+"gloss": "hectare",
+"zipf": 4.22
+},
+{
+"word": "共同体",
+"trad": "共同體",
+"pinyin": "gòng tóng tǐ",
+"gloss": "community",
+"zipf": 4.23
+},
+{
+"word": "关税",
+"trad": "關稅",
+"pinyin": "guān shuì",
+"gloss": "customs duty; tariff",
+"zipf": 4.27
+},
+{
+"word": "其间",
+"trad": "其間",
+"pinyin": "qí jiān",
+"gloss": "in between; within that interval; in the meantime",
+"zipf": 4.07
+},
+{
+"word": "典范",
+"trad": "典範",
+"pinyin": "diǎn fàn",
+"gloss": "model; example; paragon",
+"zipf": 4.09
+},
+{
+"word": "养殖",
+"trad": "養殖",
+"pinyin": "yǎng zhí",
+"gloss": "to raise; to breed (animals etc)",
+"zipf": 4.41
+},
+{
+"word": "养活",
+"trad": "養活",
+"pinyin": "yǎng huó",
+"gloss": "to provide for; to keep (animals, a family etc); to raise animals; to feed and clothe; sup",
+"zipf": 3.84
+},
+{
+"word": "养老金",
+"trad": "養老金",
+"pinyin": "yǎng lǎo jīn",
+"gloss": "pension",
+"zipf": 3.64
+},
+{
+"word": "兼容",
+"trad": "兼容",
+"pinyin": "jiān róng",
+"gloss": "compatible",
+"zipf": 3.85
+},
+{
+"word": "内存",
+"trad": "內存",
+"pinyin": "nèi cún",
+"gloss": "internal storage; computer memory; random access memory (RAM)",
+"zipf": 4.06
+},
+{
+"word": "军舰",
+"trad": "軍艦",
+"pinyin": "jūn jiàn",
+"gloss": "warship; military naval vessel; CL:艘[sou1]",
+"zipf": 4.02
+},
+{
+"word": "冲洗",
+"trad": "沖洗",
+"pinyin": "chōng xǐ",
+"gloss": "to rinse; to wash; (photography) to develop (film)",
+"zipf": 3.5
+},
+{
+"word": "冷冻",
+"trad": "冷凍",
+"pinyin": "lěng dòng",
+"gloss": "to freeze (food etc); (of weather) freezing",
+"zipf": 3.71
+},
+{
+"word": "冻结",
+"trad": "凍結",
+"pinyin": "dòng jié",
+"gloss": "to freeze (water etc); (fig.) to freeze (assets, prices etc)",
+"zipf": 4.18
+},
+{
+"word": "凉爽",
+"trad": "涼爽",
+"pinyin": "liáng shuǎng",
+"gloss": "cool and refreshing",
+"zipf": 3.66
+},
+{
+"word": "凸显",
+"trad": "凸顯",
+"pinyin": "tū xiǎn",
+"gloss": "to present clearly; to give prominence to; to magnify; clear and obvious",
+"zipf": 3.88
+},
+{
+"word": "出具",
+"trad": "出具",
+"pinyin": "chū jù",
+"gloss": "to issue (document, certificate etc); to provide",
+"zipf": 3.65
+},
+{
+"word": "出境",
+"trad": "出境",
+"pinyin": "chū jìng",
+"gloss": "to leave a country or region; outbound (tourism)",
+"zipf": 4.13
+},
+{
+"word": "出游",
+"trad": "出遊",
+"pinyin": "chū yóu",
+"gloss": "to go on a tour; to have an outing",
+"zipf": 3.58
+},
+{
+"word": "出版社",
+"trad": "出版社",
+"pinyin": "chū bǎn shè",
+"gloss": "publishing house",
+"zipf": 4.31
+},
+{
+"word": "出资",
+"trad": "出資",
+"pinyin": "chū zī",
+"gloss": "to fund; to put money into sth; to invest",
+"zipf": 4.1
+},
+{
+"word": "切割",
+"trad": "切割",
+"pinyin": "qiē gē",
+"gloss": "to cut",
+"zipf": 3.94
+},
+{
+"word": "切除",
+"trad": "切除",
+"pinyin": "qiē chú",
+"gloss": "to excise; to cut out (a tumor)",
+"zipf": 3.73
+},
+{
+"word": "刊物",
+"trad": "刊物",
+"pinyin": "kān wù",
+"gloss": "publication",
+"zipf": 4.19
+},
+{
+"word": "刑法",
+"trad": "刑法",
+"pinyin": "xíng fǎ",
+"gloss": "criminal law",
+"zipf": 4.2
+},
+{
+"word": "别墅",
+"trad": "別墅",
+"pinyin": "bié shù",
+"gloss": "villa; CL:幢[zhuang4],座[zuo4]",
+"zipf": 4.19
+},
+{
+"word": "制品",
+"trad": "製品",
+"pinyin": "zhì pǐn",
+"gloss": "products; goods",
+"zipf": 4.21
+},
+{
+"word": "制订",
+"trad": "制訂",
+"pinyin": "zhì dìng",
+"gloss": "to work out; to formulate",
+"zipf": 4.21
+},
+{
+"word": "刷新",
+"trad": "刷新",
+"pinyin": "shuā xīn",
+"gloss": "to renovate; to refurbish; to refresh (computer window); to write a new page (in history);",
+"zipf": 3.99
+},
+{
+"word": "前景",
+"trad": "前景",
+"pinyin": "qián jǐng",
+"gloss": "foreground; vista; (future) prospects; perspective",
+"zipf": 4.27
+},
+{
+"word": "前沿",
+"trad": "前沿",
+"pinyin": "qián yán",
+"gloss": "(military) forward position; frontier; cutting-edge; forefront",
+"zipf": 3.81
+},
+{
+"word": "前者",
+"trad": "前者",
+"pinyin": "qián zhě",
+"gloss": "the former (i.e. the one mentioned first)",
+"zipf": 4.38
+},
+{
+"word": "剧团",
+"trad": "劇團",
+"pinyin": "jù tuán",
+"gloss": "theatrical troupe",
+"zipf": 3.94
+},
+{
+"word": "力争",
+"trad": "力爭",
+"pinyin": "lì zhēng",
+"gloss": "to work hard for; to do all one can; to contend strongly",
+"zipf": 3.92
+},
+{
+"word": "办事处",
+"trad": "辦事處",
+"pinyin": "bàn shì chù",
+"gloss": "office; agency; bureau",
+"zipf": 4.14
+},
+{
+"word": "勘探",
+"trad": "勘探",
+"pinyin": "kān tàn",
+"gloss": "to explore; to survey; to prospect (for oil etc); prospecting",
+"zipf": 3.54
+},
+{
+"word": "募捐",
+"trad": "募捐",
+"pinyin": "mù juān",
+"gloss": "to solicit contributions; to collect donations",
+"zipf": 3.56
+},
+{
+"word": "化石",
+"trad": "化石",
+"pinyin": "huà shí",
+"gloss": "fossil",
+"zipf": 4.0
+},
+{
+"word": "化肥",
+"trad": "化肥",
+"pinyin": "huà féi",
+"gloss": "chemical fertilizer",
+"zipf": 3.74
+},
+{
+"word": "医务",
+"trad": "醫務",
+"pinyin": "yī wù",
+"gloss": "medical affairs",
+"zipf": 3.56
+},
+{
+"word": "医学",
+"trad": "醫學",
+"pinyin": "yī xué",
+"gloss": "medicine; medical science; study of medicine",
+"zipf": 4.69
+},
+{
+"word": "匿名",
+"trad": "匿名",
+"pinyin": "nì míng",
+"gloss": "anonymous",
+"zipf": 4.46
+},
+{
+"word": "千克",
+"trad": "千克",
+"pinyin": "qiān kè",
+"gloss": "kilogram",
+"zipf": 3.54
+},
+{
+"word": "升值",
+"trad": "升值",
+"pinyin": "shēng zhí",
+"gloss": "to rise in value; to appreciate",
+"zipf": 3.65
+},
+{
+"word": "半决赛",
+"trad": "半決賽",
+"pinyin": "bàn jué sài",
+"gloss": "semifinals",
+"zipf": 3.8
+},
+{
+"word": "半夜",
+"trad": "半夜",
+"pinyin": "bàn yè",
+"gloss": "midnight; in the middle of the night",
+"zipf": 4.09
+},
+{
+"word": "博览会",
+"trad": "博覽會",
+"pinyin": "bó lǎn huì",
+"gloss": "an exposition; an international fair",
+"zipf": 4.14
+},
+{
+"word": "卡通",
+"trad": "卡通",
+"pinyin": "kǎ tōng",
+"gloss": "cartoon (loanword)",
+"zipf": 4.14
+},
+{
+"word": "卫视",
+"trad": "衛視",
+"pinyin": "wèi shì",
+"gloss": "satellite TV (abbr. for 衛星電視|卫星电视[wei4 xing1 dian4 shi4])",
+"zipf": 4.14
+},
+{
+"word": "印章",
+"trad": "印章",
+"pinyin": "yìn zhāng",
+"gloss": "seal; signet; chop; stamp; CL:方[fang1]",
+"zipf": 3.55
+},
+{
+"word": "印证",
+"trad": "印證",
+"pinyin": "yìn zhèng",
+"gloss": "to confirm; to corroborate; to verify; proof; evidence",
+"zipf": 3.59
+},
+{
+"word": "厂商",
+"trad": "廠商",
+"pinyin": "chǎng shāng",
+"gloss": "manufacturer; producer",
+"zipf": 4.36
+},
+{
+"word": "历时",
+"trad": "歷時",
+"pinyin": "lì shí",
+"gloss": "to last; to take (time); period; diachronic",
+"zipf": 3.96
+},
+{
+"word": "历来",
+"trad": "歷來",
+"pinyin": "lì lái",
+"gloss": "always; throughout (a period of time); (of) all-time",
+"zipf": 3.99
+},
+{
+"word": "历程",
+"trad": "歷程",
+"pinyin": "lì chéng",
+"gloss": "course; process",
+"zipf": 4.21
+},
+{
+"word": "原材料",
+"trad": "原材料",
+"pinyin": "yuán cái liào",
+"gloss": "raw and semifinished materials",
+"zipf": 3.82
+},
+{
+"word": "参军",
+"trad": "參軍",
+"pinyin": "cān jūn",
+"gloss": "to join the army; (official title in imperial China) military adviser; aide-de-camp",
+"zipf": 3.72
+},
+{
+"word": "参展",
+"trad": "參展",
+"pinyin": "cān zhǎn",
+"gloss": "to exhibit at or take part in a trade show etc",
+"zipf": 3.74
+},
+{
+"word": "参照",
+"trad": "參照",
+"pinyin": "cān zhào",
+"gloss": "to consult a reference; to refer to (another document)",
+"zipf": 4.06
+},
+{
+"word": "参见",
+"trad": "參見",
+"pinyin": "cān jiàn",
+"gloss": "to refer to; see also; compare (cf.); to pay respect to",
+"zipf": 4.19
+},
+{
+"word": "及早",
+"trad": "及早",
+"pinyin": "jí zǎo",
+"gloss": "at the earliest possible time; as soon as possible",
+"zipf": 3.53
+},
+{
+"word": "友善",
+"trad": "友善",
+"pinyin": "yǒu shàn",
+"gloss": "friendly",
+"zipf": 3.95
+},
+{
+"word": "双向",
+"trad": "雙向",
+"pinyin": "shuāng xiàng",
+"gloss": "bidirectional; two-way; interactive",
+"zipf": 3.98
+},
+{
+"word": "双边",
+"trad": "雙邊",
+"pinyin": "shuāng biān",
+"gloss": "bilateral",
+"zipf": 3.94
+},
+{
+"word": "反响",
+"trad": "反響",
+"pinyin": "fǎn xiǎng",
+"gloss": "repercussions; reaction; echo",
+"zipf": 3.95
+},
+{
+"word": "反差",
+"trad": "反差",
+"pinyin": "fǎn chà",
+"gloss": "contrast; discrepancy",
+"zipf": 3.54
+},
+{
+"word": "反常",
+"trad": "反常",
+"pinyin": "fǎn cháng",
+"gloss": "unusual; abnormal",
+"zipf": 3.56
+},
+{
+"word": "反面",
+"trad": "反面",
+"pinyin": "fǎn miàn",
+"gloss": "reverse side; backside; the other side (of a problem etc); negative; bad",
+"zipf": 3.62
+},
+{
+"word": "反馈",
+"trad": "反饋",
+"pinyin": "fǎn kuì",
+"gloss": "to send back information; feedback",
+"zipf": 4.18
+},
+{
+"word": "发扬",
+"trad": "發揚",
+"pinyin": "fā yáng",
+"gloss": "to develop; to make full use of",
+"zipf": 3.96
+},
+{
+"word": "取暖",
+"trad": "取暖",
+"pinyin": "qǔ nuǎn",
+"gloss": "to warm oneself (by a fire, heater etc)",
+"zipf": 3.56
+},
+{
+"word": "取款",
+"trad": "取款",
+"pinyin": "qǔ kuǎn",
+"gloss": "to withdraw money from a bank",
+"zipf": 3.52
+},
+{
+"word": "受益",
+"trad": "受益",
+"pinyin": "shòu yì",
+"gloss": "to benefit from; profit",
+"zipf": 4.05
+},
+{
+"word": "受骗",
+"trad": "受騙",
+"pinyin": "shòu piàn",
+"gloss": "to be cheated; to be taken in; to be hoodwinked",
+"zipf": 3.52
+},
+{
+"word": "变换",
+"trad": "變換",
+"pinyin": "biàn huàn",
+"gloss": "to transform; to convert; to vary; to alternate; a transformation",
+"zipf": 4.11
+},
+{
+"word": "口径",
+"trad": "口徑",
+"pinyin": "kǒu jìng",
+"gloss": "bore; caliber; diameter; aperture; (fig.) stance (on an issue); version (of events); accou",
+"zipf": 4.17
+},
+{
+"word": "古迹",
+"trad": "古蹟",
+"pinyin": "gǔ jì",
+"gloss": "places of historic interest; historical sites; CL:個|个[ge4]",
+"zipf": 3.92
+},
+{
+"word": "可耻",
+"trad": "可恥",
+"pinyin": "kě chǐ",
+"gloss": "shameful; disgraceful; ignominious",
+"zipf": 3.9
+},
+{
+"word": "合乎",
+"trad": "合乎",
+"pinyin": "hé hū",
+"gloss": "to accord with; to conform to",
+"zipf": 3.81
+},
+{
+"word": "合伙",
+"trad": "合伙",
+"pinyin": "hé huǒ",
+"gloss": "to act jointly; to form a partnership",
+"zipf": 3.82
+},
+{
+"word": "合作社",
+"trad": "合作社",
+"pinyin": "hé zuò shè",
+"gloss": "cooperative; workers' or agricultural producers' cooperative etc",
+"zipf": 4.0
+},
+{
+"word": "吉他",
+"trad": "吉他",
+"pinyin": "jí tā",
+"gloss": "(loanword) guitar; CL:把[ba3]",
+"zipf": 4.03
+},
+{
+"word": "吉祥物",
+"trad": "吉祥物",
+"pinyin": "jí xiáng wù",
+"gloss": "mascot",
+"zipf": 3.54
+},
+{
+"word": "同类",
+"trad": "同類",
+"pinyin": "tóng lèi",
+"gloss": "similar; same type; alike",
+"zipf": 4.08
+},
+{
+"word": "名胜",
+"trad": "名勝",
+"pinyin": "míng shèng",
+"gloss": "a place famous for its scenery or historical relics; scenic spot; CL:處|处[chu4]",
+"zipf": 3.6
+},
+{
+"word": "名额",
+"trad": "名額",
+"pinyin": "míng é",
+"gloss": "quota; number of places; place (in an institution, a group etc)",
+"zipf": 4.09
+},
+{
+"word": "后勤",
+"trad": "後勤",
+"pinyin": "hòu qín",
+"gloss": "logistics",
+"zipf": 4.04
+},
+{
+"word": "后期",
+"trad": "後期",
+"pinyin": "hòu qī",
+"gloss": "late stage; later period",
+"zipf": 4.47
+},
+{
+"word": "后裔",
+"trad": "後裔",
+"pinyin": "hòu yì",
+"gloss": "descendant",
+"zipf": 3.98
+},
+{
+"word": "含量",
+"trad": "含量",
+"pinyin": "hán liàng",
+"gloss": "content; quantity contained",
+"zipf": 4.29
+},
+{
+"word": "听众",
+"trad": "聽眾",
+"pinyin": "tīng zhòng",
+"gloss": "audience; listeners",
+"zipf": 4.1
+},
+{
+"word": "听写",
+"trad": "聽寫",
+"pinyin": "tīng xiě",
+"gloss": "(of a pupil) to write down (in a dictation exercise); dictation; (music) to transcribe by ",
+"zipf": 4.35
+},
+{
+"word": "听讲",
+"trad": "聽講",
+"pinyin": "tīng jiǎng",
+"gloss": "to attend a lecture; to listen to a talk",
+"zipf": 4.19
+},
+{
+"word": "吸纳",
+"trad": "吸納",
+"pinyin": "xī nà",
+"gloss": "to take in; to absorb; to admit; to accept",
+"zipf": 3.6
+},
+{
+"word": "吹牛",
+"trad": "吹牛",
+"pinyin": "chuī niú",
+"gloss": "to talk big; to shoot off one's mouth; to chat (dialect)",
+"zipf": 3.55
+},
+{
+"word": "唤起",
+"trad": "喚起",
+"pinyin": "huàn qǐ",
+"gloss": "to waken (to action); to rouse (the masses); to evoke (attention, recollection etc)",
+"zipf": 3.77
+},
+{
+"word": "售价",
+"trad": "售價",
+"pinyin": "shòu jià",
+"gloss": "selling price",
+"zipf": 4.08
+},
+{
+"word": "唱片",
+"trad": "唱片",
+"pinyin": "chàng piàn",
+"gloss": "gramophone record; LP; music CD; musical album; CL:張|张[zhang1]",
+"zipf": 4.2
+},
+{
+"word": "商标",
+"trad": "商標",
+"pinyin": "shāng biāo",
+"gloss": "trademark; logo",
+"zipf": 4.18
+},
+{
+"word": "善意",
+"trad": "善意",
+"pinyin": "shàn yì",
+"gloss": "goodwill; benevolence; kindness",
+"zipf": 3.85
+},
+{
+"word": "喷泉",
+"trad": "噴泉",
+"pinyin": "pēn quán",
+"gloss": "fountain",
+"zipf": 3.63
+},
+{
+"word": "嗜好",
+"trad": "嗜好",
+"pinyin": "shì hào",
+"gloss": "hobby; indulgence; habit; addiction",
+"zipf": 3.54
+},
+{
+"word": "器材",
+"trad": "器材",
+"pinyin": "qì cái",
+"gloss": "equipment; material",
+"zipf": 4.08
+},
+{
+"word": "器械",
+"trad": "器械",
+"pinyin": "qì xiè",
+"gloss": "apparatus; instrument; equipment; weapon",
+"zipf": 3.74
+},
+{
+"word": "噪声",
+"trad": "噪聲",
+"pinyin": "zào shēng",
+"gloss": "noise",
+"zipf": 3.73
+},
+{
+"word": "四季",
+"trad": "四季",
+"pinyin": "sì jì",
+"gloss": "four seasons, namely: spring 春[chun1], summer 夏[xia4], autumn 秋[qiu1] and winter 冬[dong1]",
+"zipf": 3.89
+},
+{
+"word": "回忆录",
+"trad": "回憶錄",
+"pinyin": "huí yì lù",
+"gloss": "memoir",
+"zipf": 3.81
+},
+{
+"word": "回扣",
+"trad": "回扣",
+"pinyin": "huí kòu",
+"gloss": "brokerage; a commission paid to a middleman; euphemism for a bribe; a kickback",
+"zipf": 3.51
+},
+{
+"word": "回落",
+"trad": "回落",
+"pinyin": "huí luò",
+"gloss": "to fall back; to return to low level after a rise (in water level, price etc)",
+"zipf": 3.74
+},
+{
+"word": "回馈",
+"trad": "回饋",
+"pinyin": "huí kuì",
+"gloss": "to repay a favor; to give back; feedback",
+"zipf": 3.74
+},
+{
+"word": "团员",
+"trad": "團員",
+"pinyin": "tuán yuán",
+"gloss": "member; group member",
+"zipf": 3.85
+},
+{
+"word": "团圆",
+"trad": "團圓",
+"pinyin": "tuán yuán",
+"gloss": "to have a reunion",
+"zipf": 3.57
+},
+{
+"word": "困惑",
+"trad": "困惑",
+"pinyin": "kùn huò",
+"gloss": "bewildered; perplexed; confused; difficult problem; perplexity",
+"zipf": 4.08
+},
+{
+"word": "困扰",
+"trad": "困擾",
+"pinyin": "kùn rǎo",
+"gloss": "to perplex; to disturb; to cause complications",
+"zipf": 4.3
+},
+{
+"word": "固然",
+"trad": "固然",
+"pinyin": "gù rán",
+"gloss": "admittedly (it's true that...)",
+"zipf": 4.09
+},
+{
+"word": "国旗",
+"trad": "國旗",
+"pinyin": "guó qí",
+"gloss": "flag (of a country); CL:面[mian4]",
+"zipf": 4.32
+},
+{
+"word": "国歌",
+"trad": "國歌",
+"pinyin": "guó gē",
+"gloss": "national anthem",
+"zipf": 3.81
+},
+{
+"word": "图像",
+"trad": "圖像",
+"pinyin": "tú xiàng",
+"gloss": "image; picture; graphic",
+"zipf": 4.44
+},
+{
+"word": "图表",
+"trad": "圖表",
+"pinyin": "tú biǎo",
+"gloss": "chart; diagram",
+"zipf": 4.03
+},
+{
+"word": "地域",
+"trad": "地域",
+"pinyin": "dì yù",
+"gloss": "area; district; region",
+"zipf": 4.32
+},
+{
+"word": "地段",
+"trad": "地段",
+"pinyin": "dì duàn",
+"gloss": "section; district",
+"zipf": 3.64
+},
+{
+"word": "坐落",
+"trad": "坐落",
+"pinyin": "zuò luò",
+"gloss": "to be situated; to be located (of a building)",
+"zipf": 3.63
+},
+{
+"word": "型号",
+"trad": "型號",
+"pinyin": "xíng hào",
+"gloss": "model (particular version of a manufactured article); type (product specification in terms",
+"zipf": 4.27
+},
+{
+"word": "城乡",
+"trad": "城鄉",
+"pinyin": "chéng xiāng",
+"gloss": "city and countryside",
+"zipf": 4.38
+},
+{
+"word": "培训班",
+"trad": "培訓班",
+"pinyin": "péi xùn bān",
+"gloss": "training class",
+"zipf": 3.77
+},
+{
+"word": "填充",
+"trad": "填充",
+"pinyin": "tián chōng",
+"gloss": "to fill up; to stuff; to fill in a blank space",
+"zipf": 3.53
+},
+{
+"word": "填写",
+"trad": "填寫",
+"pinyin": "tián xiě",
+"gloss": "to fill in a form; to write data in a box (on a questionnaire or web form)",
+"zipf": 4.01
+},
+{
+"word": "境外",
+"trad": "境外",
+"pinyin": "jìng wài",
+"gloss": "outside (a country's) borders",
+"zipf": 4.37
+},
+{
+"word": "增产",
+"trad": "增產",
+"pinyin": "zēng chǎn",
+"gloss": "to increase production",
+"zipf": 3.85
+},
+{
+"word": "壁画",
+"trad": "壁畫",
+"pinyin": "bì huà",
+"gloss": "mural (painting); fresco",
+"zipf": 3.98
+},
+{
+"word": "声誉",
+"trad": "聲譽",
+"pinyin": "shēng yù",
+"gloss": "reputation; fame",
+"zipf": 4.03
+},
+{
+"word": "复发",
+"trad": "復發",
+"pinyin": "fù fā",
+"gloss": "to recur (of a disease); to reappear; to relapse (into a former bad state)",
+"zipf": 3.58
+},
+{
+"word": "夏季",
+"trad": "夏季",
+"pinyin": "xià jì",
+"gloss": "summer",
+"zipf": 4.29
+},
+{
+"word": "外交官",
+"trad": "外交官",
+"pinyin": "wài jiāo guān",
+"gloss": "diplomat",
+"zipf": 4.01
+},
+{
+"word": "外援",
+"trad": "外援",
+"pinyin": "wài yuán",
+"gloss": "foreign aid; external aid; (sports) foreign player; player recruited from overseas",
+"zipf": 3.93
+},
+{
+"word": "外汇",
+"trad": "外匯",
+"pinyin": "wài huì",
+"gloss": "foreign (currency) exchange",
+"zipf": 4.57
+},
+{
+"word": "外科",
+"trad": "外科",
+"pinyin": "wài kē",
+"gloss": "surgery (branch of medicine)",
+"zipf": 3.88
+},
+{
+"word": "外籍",
+"trad": "外籍",
+"pinyin": "wài jí",
+"gloss": "foreign (i.e. of foreign nationality)",
+"zipf": 4.2
+},
+{
+"word": "外贸",
+"trad": "外貿",
+"pinyin": "wài mào",
+"gloss": "foreign trade",
+"zipf": 4.27
+},
+{
+"word": "大使",
+"trad": "大使",
+"pinyin": "dà shǐ",
+"gloss": "ambassador; envoy; CL:名[ming2],位[wei4]",
+"zipf": 4.64
+},
+{
+"word": "大宗",
+"trad": "大宗",
+"pinyin": "dà zōng",
+"gloss": "large amount; staple; influential family of long standing",
+"zipf": 3.84
+},
+{
+"word": "大款",
+"trad": "大款",
+"pinyin": "dà kuǎn",
+"gloss": "very wealthy person",
+"zipf": 3.73
+},
+{
+"word": "大纲",
+"trad": "大綱",
+"pinyin": "dà gāng",
+"gloss": "synopsis; outline; program; leading principles",
+"zipf": 4.01
+},
+{
+"word": "失利",
+"trad": "失利",
+"pinyin": "shī lì",
+"gloss": "to lose; to suffer defeat",
+"zipf": 3.64
+},
+{
+"word": "头号",
+"trad": "頭號",
+"pinyin": "tóu hào",
+"gloss": "first rate; top rank; number one",
+"zipf": 3.85
+},
+{
+"word": "头衔",
+"trad": "頭銜",
+"pinyin": "tóu xián",
+"gloss": "title; rank; appellation",
+"zipf": 3.97
+},
+{
+"word": "头顶",
+"trad": "頭頂",
+"pinyin": "tóu dǐng",
+"gloss": "top of the head",
+"zipf": 3.83
+},
+{
+"word": "夸大",
+"trad": "誇大",
+"pinyin": "kuā dà",
+"gloss": "to exaggerate",
+"zipf": 3.91
+},
+{
+"word": "夺冠",
+"trad": "奪冠",
+"pinyin": "duó guàn",
+"gloss": "to seize the crown; fig. to win a championship; to win gold medal",
+"zipf": 4.06
+},
+{
+"word": "奖学金",
+"trad": "獎學金",
+"pinyin": "jiǎng xué jīn",
+"gloss": "scholarship; CL:筆|笔[bi3]",
+"zipf": 4.1
+},
+{
+"word": "奖项",
+"trad": "獎項",
+"pinyin": "jiǎng xiàng",
+"gloss": "award; prize; CL:項|项[xiang4]",
+"zipf": 4.18
+},
+{
+"word": "女孩儿",
+"trad": "女孩兒",
+"pinyin": "nǚ hái ér",
+"gloss": "erhua form of 女孩[nu : 3 hai2]",
+"zipf": 3.59
+},
+{
+"word": "奶粉",
+"trad": "奶粉",
+"pinyin": "nǎi fěn",
+"gloss": "powdered milk",
+"zipf": 4.07
+},
+{
+"word": "好奇心",
+"trad": "好奇心",
+"pinyin": "hào qí xīn",
+"gloss": "interest in sth; curiosity; inquisitive",
+"zipf": 3.73
+},
+{
+"word": "子弟",
+"trad": "子弟",
+"pinyin": "zǐ dì",
+"gloss": "child; the younger generation",
+"zipf": 3.73
+},
+{
+"word": "季度",
+"trad": "季度",
+"pinyin": "jì dù",
+"gloss": "quarter of a year; season (sports)",
+"zipf": 4.19
+},
+{
+"word": "学堂",
+"trad": "學堂",
+"pinyin": "xué táng",
+"gloss": "college; school (old)",
+"zipf": 3.83
+},
+{
+"word": "学士",
+"trad": "學士",
+"pinyin": "xué shì",
+"gloss": "bachelor's degree; person holding a university degree",
+"zipf": 3.99
+},
+{
+"word": "学科",
+"trad": "學科",
+"pinyin": "xué kē",
+"gloss": "subject; branch of learning; course; academic discipline",
+"zipf": 4.69
+},
+{
+"word": "学费",
+"trad": "學費",
+"pinyin": "xué fèi",
+"gloss": "tuition fee; tuition; CL:個|个[ge4]",
+"zipf": 4.22
+},
+{
+"word": "宇航员",
+"trad": "宇航員",
+"pinyin": "yǔ háng yuán",
+"gloss": "astronaut",
+"zipf": 3.71
+},
+{
+"word": "宏大",
+"trad": "宏大",
+"pinyin": "hóng dà",
+"gloss": "great; grand",
+"zipf": 3.65
+},
+{
+"word": "官僚",
+"trad": "官僚",
+"pinyin": "guān liáo",
+"gloss": "bureaucrat; bureaucracy; bureaucratic",
+"zipf": 4.19
+},
+{
+"word": "官司",
+"trad": "官司",
+"pinyin": "guān sī",
+"gloss": "lawsuit; CL:場|场[chang2]",
+"zipf": 3.91
+},
+{
+"word": "官吏",
+"trad": "官吏",
+"pinyin": "guān lì",
+"gloss": "bureaucrat; official",
+"zipf": 3.65
+},
+{
+"word": "定居",
+"trad": "定居",
+"pinyin": "dìng jū",
+"gloss": "to settle (in some city, country etc); to take up residence",
+"zipf": 4.05
+},
+{
+"word": "实事求是",
+"trad": "實事求是",
+"pinyin": "shí shì qiú shì",
+"gloss": "lit. to seek truth from facts (idiom); fig. to be practical and realistic",
+"zipf": 4.02
+},
+{
+"word": "宣称",
+"trad": "宣稱",
+"pinyin": "xuān chēng",
+"gloss": "to assert; to claim",
+"zipf": 4.34
+},
+{
+"word": "家境",
+"trad": "家境",
+"pinyin": "jiā jìng",
+"gloss": "family financial situation; family circumstances",
+"zipf": 3.5
+},
+{
+"word": "密集",
+"trad": "密集",
+"pinyin": "mì jí",
+"gloss": "concentrated; crowded together; intensive; compressed",
+"zipf": 4.18
+},
+{
+"word": "富人",
+"trad": "富人",
+"pinyin": "fù rén",
+"gloss": "rich person; the rich",
+"zipf": 3.92
+},
+{
+"word": "富翁",
+"trad": "富翁",
+"pinyin": "fù wēng",
+"gloss": "rich person; millionaire; billionaire",
+"zipf": 3.59
+},
+{
+"word": "富豪",
+"trad": "富豪",
+"pinyin": "fù háo",
+"gloss": "rich and powerful person",
+"zipf": 3.96
+},
+{
+"word": "对称",
+"trad": "對稱",
+"pinyin": "duì chèn",
+"gloss": "symmetry; symmetrical",
+"zipf": 4.1
+},
+{
+"word": "封面",
+"trad": "封面",
+"pinyin": "fēng miàn",
+"gloss": "cover (of a publication)",
+"zipf": 4.34
+},
+{
+"word": "将近",
+"trad": "將近",
+"pinyin": "jiāng jìn",
+"gloss": "almost; nearly; close to",
+"zipf": 4.17
+},
+{
+"word": "尊贵",
+"trad": "尊貴",
+"pinyin": "zūn guì",
+"gloss": "respected; respectable; honorable",
+"zipf": 3.67
+},
+{
+"word": "小丑",
+"trad": "小丑",
+"pinyin": "xiǎo chǒu",
+"gloss": "clown",
+"zipf": 3.91
+},
+{
+"word": "小于",
+"trad": "小於",
+"pinyin": "xiǎo yú",
+"gloss": "less than, <",
+"zipf": 3.95
+},
+{
+"word": "小声",
+"trad": "小聲",
+"pinyin": "xiǎo shēng",
+"gloss": "in a low voice; (speak) in whispers",
+"zipf": 3.6
+},
+{
+"word": "小提琴",
+"trad": "小提琴",
+"pinyin": "xiǎo tí qín",
+"gloss": "fiddle; violin",
+"zipf": 3.7
+},
+{
+"word": "小贩",
+"trad": "小販",
+"pinyin": "xiǎo fàn",
+"gloss": "peddler; hawker",
+"zipf": 3.72
+},
+{
+"word": "就医",
+"trad": "就醫",
+"pinyin": "jiù yī",
+"gloss": "to receive medical treatment",
+"zipf": 3.77
+},
+{
+"word": "局限",
+"trad": "侷限",
+"pinyin": "jú xiàn",
+"gloss": "variant of 局限[ju2 xian4]",
+"zipf": 4.06
+},
+{
+"word": "层出不穷",
+"trad": "層出不窮",
+"pinyin": "céng chū bù qióng",
+"gloss": "more and more emerge; innumerable succession; breeding like flies (idiom)",
+"zipf": 3.55
+},
+{
+"word": "展出",
+"trad": "展出",
+"pinyin": "zhǎn chū",
+"gloss": "to put on display; to be on show; to exhibit",
+"zipf": 4.08
+},
+{
+"word": "展望",
+"trad": "展望",
+"pinyin": "zhǎn wàng",
+"gloss": "outlook; prospect; to look ahead; to look forward to",
+"zipf": 3.83
+},
+{
+"word": "山区",
+"trad": "山區",
+"pinyin": "shān qū",
+"gloss": "mountain area; CL:個|个[ge4]",
+"zipf": 4.45
+},
+{
+"word": "山峰",
+"trad": "山峰",
+"pinyin": "shān fēng",
+"gloss": "(mountain) peak",
+"zipf": 3.86
+},
+{
+"word": "岳父",
+"trad": "岳父",
+"pinyin": "yuè fù",
+"gloss": "wife's father, father-in-law",
+"zipf": 3.72
+},
+{
+"word": "崇尚",
+"trad": "崇尚",
+"pinyin": "chóng shàng",
+"gloss": "to hold up (as an model); to hold in esteem; to revere; to advocate",
+"zipf": 3.66
+},
+{
+"word": "工商",
+"trad": "工商",
+"pinyin": "gōng shāng",
+"gloss": "industry and commerce",
+"zipf": 4.24
+},
+{
+"word": "巨星",
+"trad": "巨星",
+"pinyin": "jù xīng",
+"gloss": "(astronomy) giant star; (fig.) superstar (of opera, basketball etc)",
+"zipf": 3.9
+},
+{
+"word": "差额",
+"trad": "差額",
+"pinyin": "chā é",
+"gloss": "balance (financial); discrepancy (in a sum or quota); difference",
+"zipf": 3.58
+},
+{
+"word": "市场经济",
+"trad": "市場經濟",
+"pinyin": "shì chǎng jīng jì",
+"gloss": "market economy",
+"zipf": 3.8
+},
+{
+"word": "帝国主义",
+"trad": "帝國主義",
+"pinyin": "dì guó zhǔ yì",
+"gloss": "imperialism",
+"zipf": 3.95
+},
+{
+"word": "带头",
+"trad": "帶頭",
+"pinyin": "dài tóu",
+"gloss": "to take the lead; to be the first; to set an example",
+"zipf": 4.07
+},
+{
+"word": "年初",
+"trad": "年初",
+"pinyin": "nián chū",
+"gloss": "beginning of the year",
+"zipf": 4.49
+},
+{
+"word": "年薪",
+"trad": "年薪",
+"pinyin": "nián xīn",
+"gloss": "annual salary",
+"zipf": 3.64
+},
+{
+"word": "年限",
+"trad": "年限",
+"pinyin": "nián xiàn",
+"gloss": "age limit; fixed number of years",
+"zipf": 3.59
+},
+{
+"word": "并列",
+"trad": "並列",
+"pinyin": "bìng liè",
+"gloss": "to stand side by side; to be juxtaposed",
+"zipf": 3.88
+},
+{
+"word": "并购",
+"trad": "併購",
+"pinyin": "bìng gòu",
+"gloss": "merger and acquisition (M and A); acquisition; to take over",
+"zipf": 3.99
+},
+{
+"word": "幸亏",
+"trad": "幸虧",
+"pinyin": "xìng kuī",
+"gloss": "fortunately; luckily",
+"zipf": 3.66
+},
+{
+"word": "庄园",
+"trad": "莊園",
+"pinyin": "zhuāng yuán",
+"gloss": "manor; feudal land; villa and park",
+"zipf": 3.99
+},
+{
+"word": "庆贺",
+"trad": "慶賀",
+"pinyin": "qìng hè",
+"gloss": "to congratulate; to celebrate",
+"zipf": 3.52
+},
+{
+"word": "底线",
+"trad": "底線",
+"pinyin": "dǐ xiàn",
+"gloss": "bottom line; the limit of what one is prepared to accept; (sports) baseline; (sewing) unde",
+"zipf": 3.92
+},
+{
+"word": "座谈",
+"trad": "座談",
+"pinyin": "zuò tán",
+"gloss": "to have an informal discussion; CL:次[ci4],個|个[ge4]",
+"zipf": 3.81
+},
+{
+"word": "座谈会",
+"trad": "座談會",
+"pinyin": "zuò tán huì",
+"gloss": "conference; symposium; rap session",
+"zipf": 4.0
+},
+{
+"word": "建筑师",
+"trad": "建築師",
+"pinyin": "jiàn zhù shī",
+"gloss": "architect",
+"zipf": 3.97
+},
+{
+"word": "开发商",
+"trad": "開發商",
+"pinyin": "kāi fā shāng",
+"gloss": "developer (of real estate, a commercial product etc)",
+"zipf": 4.05
+},
+{
+"word": "开幕式",
+"trad": "開幕式",
+"pinyin": "kāi mù shì",
+"gloss": "opening ceremony",
+"zipf": 3.93
+},
+{
+"word": "开枪",
+"trad": "開槍",
+"pinyin": "kāi qiāng",
+"gloss": "to open fire; to shoot a gun",
+"zipf": 4.39
+},
+{
+"word": "开销",
+"trad": "開銷",
+"pinyin": "kāi xiāo",
+"gloss": "to pay (expenses); expenses; (old) to dismiss (an employee)",
+"zipf": 3.68
+},
+{
+"word": "异性",
+"trad": "異性",
+"pinyin": "yì xìng",
+"gloss": "the opposite sex; of the opposite sex; heterosexual; different in nature",
+"zipf": 3.94
+},
+{
+"word": "引人注目",
+"trad": "引人注目",
+"pinyin": "yǐn rén zhù mù",
+"gloss": "to attract attention; eye-catching; conspicuous",
+"zipf": 3.74
+},
+{
+"word": "归宿",
+"trad": "歸宿",
+"pinyin": "guī sù",
+"gloss": "place to return to; home; final destination; ending",
+"zipf": 3.58
+},
+{
+"word": "当晚",
+"trad": "當晚",
+"pinyin": "dàng wǎn",
+"gloss": "on that evening",
+"zipf": 4.14
+},
+{
+"word": "彩票",
+"trad": "彩票",
+"pinyin": "cǎi piào",
+"gloss": "lottery ticket",
+"zipf": 3.87
+},
+{
+"word": "影星",
+"trad": "影星",
+"pinyin": "yǐng xīng",
+"gloss": "film star",
+"zipf": 3.55
+},
+{
+"word": "影片",
+"trad": "影片",
+"pinyin": "yǐng piàn",
+"gloss": "a copy of a film; film; motion picture; movie; (Tw) video; video clip; CL:部[bu4]",
+"zipf": 5.05
+},
+{
+"word": "影视",
+"trad": "影視",
+"pinyin": "yǐng shì",
+"gloss": "movies and television",
+"zipf": 4.34
+},
+{
+"word": "影迷",
+"trad": "影迷",
+"pinyin": "yǐng mí",
+"gloss": "film enthusiast; movie fan; CL:個|个[ge4]",
+"zipf": 3.52
+},
+{
+"word": "往年",
+"trad": "往年",
+"pinyin": "wǎng nián",
+"gloss": "in former years; in previous years",
+"zipf": 3.66
+},
+{
+"word": "徒步",
+"trad": "徒步",
+"pinyin": "tú bù",
+"gloss": "to be on foot",
+"zipf": 3.75
+},
+{
+"word": "微型",
+"trad": "微型",
+"pinyin": "wēi xíng",
+"gloss": "miniature; micro-; tiny",
+"zipf": 3.88
+},
+{
+"word": "微观",
+"trad": "微觀",
+"pinyin": "wēi guān",
+"gloss": "micro-; subatomic",
+"zipf": 3.77
+},
+{
+"word": "快捷",
+"trad": "快捷",
+"pinyin": "kuài jié",
+"gloss": "quick; fast; nimble; agile; (computer) shortcut",
+"zipf": 3.74
+},
+{
+"word": "快餐",
+"trad": "快餐",
+"pinyin": "kuài cān",
+"gloss": "fast food; snack; quick meal",
+"zipf": 3.51
+},
+{
+"word": "怀旧",
+"trad": "懷舊",
+"pinyin": "huái jiù",
+"gloss": "to feel nostalgic; nostalgia",
+"zipf": 3.7
+},
+{
+"word": "急忙",
+"trad": "急忙",
+"pinyin": "jí máng",
+"gloss": "hastily",
+"zipf": 3.57
+},
+{
+"word": "总体",
+"trad": "總體",
+"pinyin": "zǒng tǐ",
+"gloss": "completely; totally; total; entire; overall; population (statistics)",
+"zipf": 4.56
+},
+{
+"word": "总监",
+"trad": "總監",
+"pinyin": "zǒng jiān",
+"gloss": "head; director (of an organizational unit); (police) commissioner; inspector-general; rank",
+"zipf": 4.25
+},
+{
+"word": "总量",
+"trad": "總量",
+"pinyin": "zǒng liàng",
+"gloss": "total; overall amount",
+"zipf": 4.17
+},
+{
+"word": "总额",
+"trad": "總額",
+"pinyin": "zǒng é",
+"gloss": "total (amount or value)",
+"zipf": 4.5
+},
+{
+"word": "恨不得",
+"trad": "恨不得",
+"pinyin": "hèn bù dé",
+"gloss": "wishing one could do sth; to hate to be unable; itching to do sth",
+"zipf": 3.53
+},
+{
+"word": "患有",
+"trad": "患有",
+"pinyin": "huàn yǒu",
+"gloss": "to contract (an illness); to be afflicted with; to suffer from",
+"zipf": 3.91
+},
+{
+"word": "患病",
+"trad": "患病",
+"pinyin": "huàn bìng",
+"gloss": "to fall ill",
+"zipf": 3.66
+},
+{
+"word": "情人",
+"trad": "情人",
+"pinyin": "qíng rén",
+"gloss": "lover; sweetheart",
+"zipf": 4.33
+},
+{
+"word": "情愿",
+"trad": "情願",
+"pinyin": "qíng yuàn",
+"gloss": "willingness; would rather (agree to X than Y)",
+"zipf": 3.75
+},
+{
+"word": "惯性",
+"trad": "慣性",
+"pinyin": "guàn xìng",
+"gloss": "(physics) inertia; (fig.) force of habit; tendency to do things in the accustomed way; hab",
+"zipf": 3.71
+},
+{
+"word": "愈来愈",
+"trad": "愈來愈",
+"pinyin": "yù lái yù",
+"gloss": "more and more",
+"zipf": 3.79
+},
+{
+"word": "感性",
+"trad": "感性",
+"pinyin": "gǎn xìng",
+"gloss": "perception; perceptual; sensibility; sensitive; emotional; sentimental",
+"zipf": 3.72
+},
+{
+"word": "感慨",
+"trad": "感慨",
+"pinyin": "gǎn kǎi",
+"gloss": "to sigh with sorrow, regret etc; rueful; deeply moved",
+"zipf": 3.76
+},
+{
+"word": "慢性",
+"trad": "慢性",
+"pinyin": "màn xìng",
+"gloss": "slow and patient; chronic (disease); slow to take effect (e.g. a slow poison)",
+"zipf": 3.87
+},
+{
+"word": "戏曲",
+"trad": "戲曲",
+"pinyin": "xì qǔ",
+"gloss": "Chinese opera",
+"zipf": 4.13
+},
+{
+"word": "成型",
+"trad": "成型",
+"pinyin": "chéng xíng",
+"gloss": "to become shaped; to become formed",
+"zipf": 3.72
+},
+{
+"word": "户外",
+"trad": "戶外",
+"pinyin": "hù wài",
+"gloss": "outdoor",
+"zipf": 4.01
+},
+{
+"word": "房价",
+"trad": "房價",
+"pinyin": "fáng jià",
+"gloss": "house price; cost of housing",
+"zipf": 4.15
+},
+{
+"word": "手枪",
+"trad": "手槍",
+"pinyin": "shǒu qiāng",
+"gloss": "pistol; CL:把[ba3]",
+"zipf": 4.16
+},
+{
+"word": "扎根",
+"trad": "扎根",
+"pinyin": "zhā gēn",
+"gloss": "to take root",
+"zipf": 3.53
+},
+{
+"word": "打动",
+"trad": "打動",
+"pinyin": "dǎ dòng",
+"gloss": "to move (to pity); arousing (sympathy); touching",
+"zipf": 3.84
+},
+{
+"word": "打印机",
+"trad": "打印機",
+"pinyin": "dǎ yìn jī",
+"gloss": "printer",
+"zipf": 3.68
+},
+{
+"word": "打通",
+"trad": "打通",
+"pinyin": "dǎ tōng",
+"gloss": "to open access; to establish contact; to remove a block; to put through (a phone connectio",
+"zipf": 3.71
+},
+{
+"word": "打量",
+"trad": "打量",
+"pinyin": "dǎ liàng",
+"gloss": "to size sb up; to look sb up and down; to take the measure of; to suppose; to reckon",
+"zipf": 3.84
+},
+{
+"word": "扣押",
+"trad": "扣押",
+"pinyin": "kòu yā",
+"gloss": "to detain; to hold in custody; to distrain; to seize property",
+"zipf": 3.85
+},
+{
+"word": "扣留",
+"trad": "扣留",
+"pinyin": "kòu liú",
+"gloss": "to detain; to arrest; to hold; to confiscate",
+"zipf": 3.72
+},
+{
+"word": "扣除",
+"trad": "扣除",
+"pinyin": "kòu chú",
+"gloss": "to deduct",
+"zipf": 3.72
+},
+{
+"word": "扩建",
+"trad": "擴建",
+"pinyin": "kuò jiàn",
+"gloss": "to extend (a building, an airport runway etc)",
+"zipf": 4.14
+},
+{
+"word": "扫描",
+"trad": "掃描",
+"pinyin": "sǎo miáo",
+"gloss": "to scan",
+"zipf": 4.13
+},
+{
+"word": "承办",
+"trad": "承辦",
+"pinyin": "chéng bàn",
+"gloss": "to undertake; to accept a contract",
+"zipf": 3.91
+},
+{
+"word": "承包",
+"trad": "承包",
+"pinyin": "chéng bāo",
+"gloss": "to contract; to undertake (a job)",
+"zipf": 3.85
+},
+{
+"word": "把手",
+"trad": "把手",
+"pinyin": "bǎ shǒu",
+"gloss": "to shake hands",
+"zipf": 3.65
+},
+{
+"word": "抑郁",
+"trad": "抑鬱",
+"pinyin": "yì yù",
+"gloss": "depressed; despondent; gloomy",
+"zipf": 3.73
+},
+{
+"word": "抑郁症",
+"trad": "抑鬱症",
+"pinyin": "yì yù zhèng",
+"gloss": "clinical depression",
+"zipf": 3.5
+},
+{
+"word": "投射",
+"trad": "投射",
+"pinyin": "tóu shè",
+"gloss": "to throw (a projectile); to cast (light)",
+"zipf": 3.64
+},
+{
+"word": "投稿",
+"trad": "投稿",
+"pinyin": "tóu gǎo",
+"gloss": "to submit articles for publication; to contribute (writing)",
+"zipf": 3.75
+},
+{
+"word": "抗生素",
+"trad": "抗生素",
+"pinyin": "kàng shēng sù",
+"gloss": "antibiotic",
+"zipf": 3.82
+},
+{
+"word": "折叠",
+"trad": "折疊",
+"pinyin": "zhé dié",
+"gloss": "to fold; collapsible; folding (bicycle, antenna, bed etc)",
+"zipf": 3.63
+},
+{
+"word": "折合",
+"trad": "折合",
+"pinyin": "zhé hé",
+"gloss": "to convert into; to amount to; to be equivalent to",
+"zipf": 3.53
+},
+{
+"word": "折扣",
+"trad": "折扣",
+"pinyin": "zhé kòu",
+"gloss": "discount",
+"zipf": 3.85
+},
+{
+"word": "抚摸",
+"trad": "撫摸",
+"pinyin": "fǔ mō",
+"gloss": "to gently caress and stroke; to pet; to fondle",
+"zipf": 3.73
+},
+{
+"word": "报刊",
+"trad": "報刊",
+"pinyin": "bào kān",
+"gloss": "newspapers and periodicals; the press",
+"zipf": 4.06
+},
+{
+"word": "报废",
+"trad": "報廢",
+"pinyin": "bào fèi",
+"gloss": "to scrap; to dispose of (sth worn-out or damaged)",
+"zipf": 3.61
+},
+{
+"word": "报考",
+"trad": "報考",
+"pinyin": "bào kǎo",
+"gloss": "to enter oneself for an examination",
+"zipf": 3.84
+},
+{
+"word": "报销",
+"trad": "報銷",
+"pinyin": "bào xiāo",
+"gloss": "to submit an expense account; to apply for reimbursement; to write off; to wipe out",
+"zipf": 3.74
+},
+{
+"word": "抨击",
+"trad": "抨擊",
+"pinyin": "pēng jī",
+"gloss": "to attack (verbally or in writing)",
+"zipf": 4.04
+},
+{
+"word": "披露",
+"trad": "披露",
+"pinyin": "pī lù",
+"gloss": "to reveal; to publish; to make public; to announce",
+"zipf": 4.35
+},
+{
+"word": "抱负",
+"trad": "抱負",
+"pinyin": "bào fù",
+"gloss": "aspiration; ambition",
+"zipf": 3.58
+},
+{
+"word": "抵押",
+"trad": "抵押",
+"pinyin": "dǐ yā",
+"gloss": "to provide (an asset) as security for a loan; to put up collateral",
+"zipf": 3.9
+},
+{
+"word": "抵触",
+"trad": "抵觸",
+"pinyin": "dǐ chù",
+"gloss": "to conflict; to contradict",
+"zipf": 3.81
+},
+{
+"word": "担忧",
+"trad": "擔憂",
+"pinyin": "dān yōu",
+"gloss": "to worry; to be concerned",
+"zipf": 4.28
+},
+{
+"word": "拆迁",
+"trad": "拆遷",
+"pinyin": "chāi qiān",
+"gloss": "to demolish a building and relocate the inhabitants",
+"zipf": 4.08
+},
+{
+"word": "拓宽",
+"trad": "拓寬",
+"pinyin": "tuò kuān",
+"gloss": "to broaden",
+"zipf": 3.8
+},
+{
+"word": "拖欠",
+"trad": "拖欠",
+"pinyin": "tuō qiàn",
+"gloss": "in arrears; behind in payments; to default on one's debts",
+"zipf": 3.58
+},
+{
+"word": "拖鞋",
+"trad": "拖鞋",
+"pinyin": "tuō xié",
+"gloss": "slippers; sandals; flip-flops; CL:雙|双[shuang1],隻|只[zhi1]",
+"zipf": 3.62
+},
+{
+"word": "招收",
+"trad": "招收",
+"pinyin": "zhāo shōu",
+"gloss": "to hire; to recruit",
+"zipf": 4.02
+},
+{
+"word": "招标",
+"trad": "招標",
+"pinyin": "zhāo biāo",
+"gloss": "to invite bids",
+"zipf": 4.16
+},
+{
+"word": "招生",
+"trad": "招生",
+"pinyin": "zhāo shēng",
+"gloss": "to enroll new students; to get students",
+"zipf": 4.43
+},
+{
+"word": "挂钩",
+"trad": "掛鉤",
+"pinyin": "guà gōu",
+"gloss": "to couple; to link; to hook together; (fig.) (preceded by 與|与[yu3] + {entity}) to establis",
+"zipf": 3.65
+},
+{
+"word": "挣钱",
+"trad": "掙錢",
+"pinyin": "zhèng qián",
+"gloss": "to make money",
+"zipf": 4.0
+},
+{
+"word": "挤压",
+"trad": "擠壓",
+"pinyin": "jǐ yā",
+"gloss": "to squeeze; to press; to extrude",
+"zipf": 3.66
+},
+{
+"word": "捐助",
+"trad": "捐助",
+"pinyin": "juān zhù",
+"gloss": "to donate; to offer (aid); contribution; donation",
+"zipf": 3.74
+},
+{
+"word": "捐款",
+"trad": "捐款",
+"pinyin": "juān kuǎn",
+"gloss": "to donate money; to contribute funds; donation; contribution (of money)",
+"zipf": 4.24
+},
+{
+"word": "捐献",
+"trad": "捐獻",
+"pinyin": "juān xiàn",
+"gloss": "to donate; to contribute",
+"zipf": 3.72
+},
+{
+"word": "捐赠",
+"trad": "捐贈",
+"pinyin": "juān zèng",
+"gloss": "to contribute (as a gift); to donate; benefaction",
+"zipf": 4.18
+},
+{
+"word": "据此",
+"trad": "據此",
+"pinyin": "jù cǐ",
+"gloss": "accordingly; in view of the above",
+"zipf": 3.65
+},
+{
+"word": "授权",
+"trad": "授權",
+"pinyin": "shòu quán",
+"gloss": "to authorize",
+"zipf": 4.83
+},
+{
+"word": "掌声",
+"trad": "掌聲",
+"pinyin": "zhǎng shēng",
+"gloss": "applause; CL:陣|阵[zhen4]",
+"zipf": 3.97
+},
+{
+"word": "探险",
+"trad": "探險",
+"pinyin": "tàn xiǎn",
+"gloss": "to explore; to go on an expedition; adventure",
+"zipf": 3.93
+},
+{
+"word": "接班",
+"trad": "接班",
+"pinyin": "jiē bān",
+"gloss": "to take over (from those working the previous shift); to take over (in a leadership role e",
+"zipf": 3.53
+},
+{
+"word": "接见",
+"trad": "接見",
+"pinyin": "jiē jiàn",
+"gloss": "to receive sb; to grant an interview",
+"zipf": 3.93
+},
+{
+"word": "接轨",
+"trad": "接軌",
+"pinyin": "jiē guǐ",
+"gloss": "railtrack connection; to integrate into sth; to dock; to connect; to be in step with; to b",
+"zipf": 3.73
+},
+{
+"word": "控告",
+"trad": "控告",
+"pinyin": "kòng gào",
+"gloss": "to accuse; to charge; to indict",
+"zipf": 4.25
+},
+{
+"word": "推动",
+"trad": "推動",
+"pinyin": "tuī dòng",
+"gloss": "to push (e.g. for acceptance of a plan); to promote; to give impetus to",
+"zipf": 5.11
+},
+{
+"word": "推理",
+"trad": "推理",
+"pinyin": "tuī lǐ",
+"gloss": "reasoning; inference; to infer; to deduce",
+"zipf": 4.04
+},
+{
+"word": "推移",
+"trad": "推移",
+"pinyin": "tuī yí",
+"gloss": "(of time) to elapse; to pass; (of a situation) to develop; to evolve; to shift; to slide; ",
+"zipf": 3.69
+},
+{
+"word": "插图",
+"trad": "插圖",
+"pinyin": "chā tú",
+"gloss": "illustration",
+"zipf": 3.94
+},
+{
+"word": "揭发",
+"trad": "揭發",
+"pinyin": "jiē fā",
+"gloss": "to expose; to bring to light; to disclose; revelation",
+"zipf": 3.99
+},
+{
+"word": "揭示",
+"trad": "揭示",
+"pinyin": "jiē shì",
+"gloss": "to reveal; to elucidate; to set forth; to articulate; to announce publicly; to promulgate",
+"zipf": 4.06
+},
+{
+"word": "搜救",
+"trad": "搜救",
+"pinyin": "sōu jiù",
+"gloss": "search and rescue",
+"zipf": 3.71
+},
+{
+"word": "搭乘",
+"trad": "搭乘",
+"pinyin": "dā chéng",
+"gloss": "to ride as a passenger; to travel by (car, plane etc)",
+"zipf": 4.01
+},
+{
+"word": "摄像",
+"trad": "攝像",
+"pinyin": "shè xiàng",
+"gloss": "to videotape",
+"zipf": 3.53
+},
+{
+"word": "摸索",
+"trad": "摸索",
+"pinyin": "mō suǒ",
+"gloss": "to feel about; to grope about; to fumble; to do things slowly",
+"zipf": 3.59
+},
+{
+"word": "攀升",
+"trad": "攀升",
+"pinyin": "pān shēng",
+"gloss": "to clamber up; (of prices etc) to rise",
+"zipf": 3.89
+},
+{
+"word": "收听",
+"trad": "收聽",
+"pinyin": "shōu tīng",
+"gloss": "to listen to (a radio broadcast)",
+"zipf": 3.94
+},
+{
+"word": "收购",
+"trad": "收購",
+"pinyin": "shōu gòu",
+"gloss": "to buy; to purchase; to procure",
+"zipf": 4.77
+},
+{
+"word": "改版",
+"trad": "改版",
+"pinyin": "gǎi bǎn",
+"gloss": "to revise the current edition; revised edition",
+"zipf": 3.73
+},
+{
+"word": "改革开放",
+"trad": "改革開放",
+"pinyin": "gǎi gé kāi fàng",
+"gloss": "to reform and open to the outside world; refers to Deng Xiaoping's policies from around 19",
+"zipf": 3.77
+},
+{
+"word": "攻读",
+"trad": "攻讀",
+"pinyin": "gōng dú",
+"gloss": "to major (in a field); to study a specialty to obtain a higher degree",
+"zipf": 3.75
+},
+{
+"word": "放映",
+"trad": "放映",
+"pinyin": "fàng yìng",
+"gloss": "to project (an image onto a screen); to show (a movie, slide etc)",
+"zipf": 3.99
+},
+{
+"word": "教堂",
+"trad": "教堂",
+"pinyin": "jiào táng",
+"gloss": "church; chapel; CL:座[zuo4],所[suo3],間|间[jian1]",
+"zipf": 4.68
+},
+{
+"word": "教条",
+"trad": "教條",
+"pinyin": "jiào tiáo",
+"gloss": "doctrine; dogma; creed; dogmatic",
+"zipf": 3.6
+},
+{
+"word": "敢于",
+"trad": "敢於",
+"pinyin": "gǎn yú",
+"gloss": "to have the courage to do sth; to dare to; bold in",
+"zipf": 4.16
+},
+{
+"word": "敢情",
+"trad": "敢情",
+"pinyin": "gǎn qíng",
+"gloss": "actually; as it turns out; indeed; of course",
+"zipf": 3.51
+},
+{
+"word": "散文",
+"trad": "散文",
+"pinyin": "sǎn wén",
+"gloss": "(broadly) prose (as opposed to verse); (more narrowly) free-form literary prose, such as e",
+"zipf": 4.02
+},
+{
+"word": "敦促",
+"trad": "敦促",
+"pinyin": "dūn cù",
+"gloss": "to press; to urge; to hasten",
+"zipf": 3.85
+},
+{
+"word": "敬业",
+"trad": "敬業",
+"pinyin": "jìng yè",
+"gloss": "dedicated to one's work",
+"zipf": 3.62
+},
+{
+"word": "敬佩",
+"trad": "敬佩",
+"pinyin": "jìng pèi",
+"gloss": "to esteem; to admire",
+"zipf": 3.58
+},
+{
+"word": "数据库",
+"trad": "數據庫",
+"pinyin": "shù jù kù",
+"gloss": "(computing) database",
+"zipf": 4.39
+},
+{
+"word": "数额",
+"trad": "數額",
+"pinyin": "shù é",
+"gloss": "amount; sum of money; fixed number",
+"zipf": 3.95
+},
+{
+"word": "整数",
+"trad": "整數",
+"pinyin": "zhěng shù",
+"gloss": "whole number; integer (math.); round figure",
+"zipf": 3.69
+},
+{
+"word": "整治",
+"trad": "整治",
+"pinyin": "zhěng zhì",
+"gloss": "to bring under control; to regulate; to restore to good condition; (coll.) to fix (a perso",
+"zipf": 3.98
+},
+{
+"word": "文凭",
+"trad": "文憑",
+"pinyin": "wén píng",
+"gloss": "diploma",
+"zipf": 3.92
+},
+{
+"word": "文盲",
+"trad": "文盲",
+"pinyin": "wén máng",
+"gloss": "illiterate",
+"zipf": 3.91
+},
+{
+"word": "文科",
+"trad": "文科",
+"pinyin": "wén kē",
+"gloss": "liberal arts; humanities",
+"zipf": 3.83
+},
+{
+"word": "断裂",
+"trad": "斷裂",
+"pinyin": "duàn liè",
+"gloss": "fracture; rupture; to break apart",
+"zipf": 3.8
+},
+{
+"word": "新奇",
+"trad": "新奇",
+"pinyin": "xīn qí",
+"gloss": "novel; new; exotic",
+"zipf": 3.61
+},
+{
+"word": "新年",
+"trad": "新年",
+"pinyin": "xīn nián",
+"gloss": "New Year; CL:個|个[ge4]",
+"zipf": 4.31
+},
+{
+"word": "新式",
+"trad": "新式",
+"pinyin": "xīn shì",
+"gloss": "new style; latest type",
+"zipf": 3.72
+},
+{
+"word": "新款",
+"trad": "新款",
+"pinyin": "xīn kuǎn",
+"gloss": "new style; latest fashion; new model",
+"zipf": 3.68
+},
+{
+"word": "新颖",
+"trad": "新穎",
+"pinyin": "xīn yǐng",
+"gloss": "lit. new bud; fig. new and original",
+"zipf": 3.73
+},
+{
+"word": "旅行社",
+"trad": "旅行社",
+"pinyin": "lǚ xíng shè",
+"gloss": "travel agency",
+"zipf": 4.03
+},
+{
+"word": "无私",
+"trad": "無私",
+"pinyin": "wú sī",
+"gloss": "selfless; unselfish; disinterested; altruistic",
+"zipf": 3.72
+},
+{
+"word": "无边",
+"trad": "無邊",
+"pinyin": "wú biān",
+"gloss": "without boundary; not bordered",
+"zipf": 3.61
+},
+{
+"word": "日报",
+"trad": "日報",
+"pinyin": "rì bào",
+"gloss": "daily newspaper",
+"zipf": 4.76
+},
+{
+"word": "日趋",
+"trad": "日趨",
+"pinyin": "rì qū",
+"gloss": "(increasing) day by day; (more critical) with every passing day; gradually",
+"zipf": 3.94
+},
+{
+"word": "旨在",
+"trad": "旨在",
+"pinyin": "zhǐ zài",
+"gloss": "to have as its purpose; to be intended to; to aim to (do sth)",
+"zipf": 4.21
+},
+{
+"word": "早晨",
+"trad": "早晨",
+"pinyin": "zǎo chén",
+"gloss": "early morning; CL:個|个[ge4]; also pr. [zao3chen5]",
+"zipf": 4.36
+},
+{
+"word": "早期",
+"trad": "早期",
+"pinyin": "zǎo qī",
+"gloss": "early period; early phase; early stage",
+"zipf": 4.6
+},
+{
+"word": "时时",
+"trad": "時時",
+"pinyin": "shí shí",
+"gloss": "often; constantly",
+"zipf": 4.21
+},
+{
+"word": "时装",
+"trad": "時裝",
+"pinyin": "shí zhuāng",
+"gloss": "fashion; fashionable clothes",
+"zipf": 3.94
+},
+{
+"word": "时间表",
+"trad": "時間表",
+"pinyin": "shí jiān biǎo",
+"gloss": "schedule; timetable",
+"zipf": 3.85
+},
+{
+"word": "显示器",
+"trad": "顯示器",
+"pinyin": "xiǎn shì qì",
+"gloss": "display device; monitor",
+"zipf": 3.96
+},
+{
+"word": "晚年",
+"trad": "晚年",
+"pinyin": "wǎn nián",
+"gloss": "one's later years",
+"zipf": 3.89
+},
+{
+"word": "晚报",
+"trad": "晚報",
+"pinyin": "wǎn bào",
+"gloss": "evening newspaper; (in a newspaper's name) Evening News",
+"zipf": 3.75
+},
+{
+"word": "晚期",
+"trad": "晚期",
+"pinyin": "wǎn qī",
+"gloss": "later period; end stage; terminal",
+"zipf": 3.95
+},
+{
+"word": "晚间",
+"trad": "晚間",
+"pinyin": "wǎn jiān",
+"gloss": "evening; night",
+"zipf": 4.21
+},
+{
+"word": "智商",
+"trad": "智商",
+"pinyin": "zhì shāng",
+"gloss": "IQ (intelligence quotient)",
+"zipf": 3.65
+},
+{
+"word": "暑期",
+"trad": "暑期",
+"pinyin": "shǔ qī",
+"gloss": "summer vacation time",
+"zipf": 3.5
+},
+{
+"word": "暴雨",
+"trad": "暴雨",
+"pinyin": "bào yǔ",
+"gloss": "torrential rain; rainstorm; CL:場|场[chang2],陣|阵[zhen4]",
+"zipf": 4.05
+},
+{
+"word": "曙光",
+"trad": "曙光",
+"pinyin": "shǔ guāng",
+"gloss": "the first light of dawn; (fig.) glimmer of hope after a dark period; a new beginning",
+"zipf": 3.8
+},
+{
+"word": "曲线",
+"trad": "曲線",
+"pinyin": "qū xiàn",
+"gloss": "curve; curved line; indirect; in a roundabout way",
+"zipf": 4.25
+},
+{
+"word": "月份",
+"trad": "月份",
+"pinyin": "yuè fèn",
+"gloss": "month",
+"zipf": 4.59
+},
+{
+"word": "月初",
+"trad": "月初",
+"pinyin": "yuè chū",
+"gloss": "start of month; early in the month",
+"zipf": 4.19
+},
+{
+"word": "有效期",
+"trad": "有效期",
+"pinyin": "yǒu xiào qī",
+"gloss": "period of validity; sell-by date",
+"zipf": 3.7
+},
+{
+"word": "有望",
+"trad": "有望",
+"pinyin": "yǒu wàng",
+"gloss": "hopeful; promising",
+"zipf": 3.99
+},
+{
+"word": "有益",
+"trad": "有益",
+"pinyin": "yǒu yì",
+"gloss": "useful; beneficial; profitable",
+"zipf": 4.18
+},
+{
+"word": "服务器",
+"trad": "服務器",
+"pinyin": "fú wù qì",
+"gloss": "server (computer); CL:臺|台[tai2]",
+"zipf": 4.41
+},
+{
+"word": "本子",
+"trad": "本子",
+"pinyin": "běn zi",
+"gloss": "book; notebook; Japanese-style self-published comic (esp. an erotic one), aka \"dōjinshi\"; ",
+"zipf": 3.71
+},
+{
+"word": "本期",
+"trad": "本期",
+"pinyin": "běn qī",
+"gloss": "the current period; this term (usually in finance)",
+"zipf": 3.52
+},
+{
+"word": "本色",
+"trad": "本色",
+"pinyin": "běn sè",
+"gloss": "inherent qualities; natural qualities; distinctive character; true qualities",
+"zipf": 3.66
+},
+{
+"word": "朴素",
+"trad": "樸素",
+"pinyin": "pǔ sù",
+"gloss": "plain and simple; unadorned; simple living; not frivolous",
+"zipf": 3.63
+},
+{
+"word": "机制",
+"trad": "機制",
+"pinyin": "jī zhì",
+"gloss": "mechanism",
+"zipf": 4.94
+},
+{
+"word": "机智",
+"trad": "機智",
+"pinyin": "jī zhì",
+"gloss": "quick-witted; resourceful",
+"zipf": 3.61
+},
+{
+"word": "机票",
+"trad": "機票",
+"pinyin": "jī piào",
+"gloss": "plane ticket; airline ticket; CL:張|张[zhang1]",
+"zipf": 4.1
+},
+{
+"word": "杜绝",
+"trad": "杜絕",
+"pinyin": "dù jué",
+"gloss": "to put an end to",
+"zipf": 3.81
+},
+{
+"word": "来往",
+"trad": "來往",
+"pinyin": "lái wǎng",
+"gloss": "to come and go; to have dealings with; to be in relation with",
+"zipf": 4.04
+},
+{
+"word": "来访",
+"trad": "來訪",
+"pinyin": "lái fǎng",
+"gloss": "to pay a visit",
+"zipf": 4.09
+},
+{
+"word": "板块",
+"trad": "板塊",
+"pinyin": "bǎn kuài",
+"gloss": "slab; (geology) tectonic plate; (fig.) sector (of the stock market or of industry); (econo",
+"zipf": 4.11
+},
+{
+"word": "极少数",
+"trad": "極少數",
+"pinyin": "jí shǎo shù",
+"gloss": "extremely few; a small minority",
+"zipf": 3.7
+},
+{
+"word": "构想",
+"trad": "構想",
+"pinyin": "gòu xiǎng",
+"gloss": "to conceive; concept",
+"zipf": 4.04
+},
+{
+"word": "枪毙",
+"trad": "槍斃",
+"pinyin": "qiāng bì",
+"gloss": "to execute by firing squad; to shoot dead; fig. to discard; to get rid of",
+"zipf": 3.52
+},
+{
+"word": "柔和",
+"trad": "柔和",
+"pinyin": "róu hé",
+"gloss": "gentle; soft",
+"zipf": 3.61
+},
+{
+"word": "查询",
+"trad": "查詢",
+"pinyin": "chá xún",
+"gloss": "to check; to inquire; to consult (a document etc); inquiry; query",
+"zipf": 4.34
+},
+{
+"word": "栏杆",
+"trad": "欄杆",
+"pinyin": "lán gān",
+"gloss": "railing; banister",
+"zipf": 3.6
+},
+{
+"word": "核实",
+"trad": "核實",
+"pinyin": "hé shí",
+"gloss": "to verify; to check",
+"zipf": 3.85
+},
+{
+"word": "核电站",
+"trad": "核電站",
+"pinyin": "hé diàn zhàn",
+"gloss": "nuclear power plant",
+"zipf": 3.78
+},
+{
+"word": "核能",
+"trad": "核能",
+"pinyin": "hé néng",
+"gloss": "nuclear energy",
+"zipf": 3.7
+},
+{
+"word": "桃花",
+"trad": "桃花",
+"pinyin": "táo huā",
+"gloss": "peach blossom; (fig.) love affair",
+"zipf": 4.02
+},
+{
+"word": "档次",
+"trad": "檔次",
+"pinyin": "dàng cì",
+"gloss": "grade; class; quality; level",
+"zipf": 3.98
+},
+{
+"word": "梯子",
+"trad": "梯子",
+"pinyin": "tī zi",
+"gloss": "ladder; stepladder",
+"zipf": 3.62
+},
+{
+"word": "检讨",
+"trad": "檢討",
+"pinyin": "jiǎn tǎo",
+"gloss": "to examine or inspect; self-criticism; review",
+"zipf": 3.98
+},
+{
+"word": "楼房",
+"trad": "樓房",
+"pinyin": "lóu fáng",
+"gloss": "a building of two or more stories; CL:棟|栋[dong4],幢[zhuang4],座[zuo4]",
+"zipf": 3.6
+},
+{
+"word": "概况",
+"trad": "概況",
+"pinyin": "gài kuàng",
+"gloss": "general situation; summary",
+"zipf": 4.12
+},
+{
+"word": "概论",
+"trad": "概論",
+"pinyin": "gài lùn",
+"gloss": "outline; introduction; survey; general discussion",
+"zipf": 3.74
+},
+{
+"word": "模特儿",
+"trad": "模特兒",
+"pinyin": "mó tè ér",
+"gloss": "(fashion) model (loanword)",
+"zipf": 3.61
+},
+{
+"word": "欺诈",
+"trad": "欺詐",
+"pinyin": "qī zhà",
+"gloss": "to cheat",
+"zipf": 3.99
+},
+{
+"word": "款项",
+"trad": "款項",
+"pinyin": "kuǎn xiàng",
+"gloss": "funds; a sum of money; CL:宗[zong1]",
+"zipf": 3.9
+},
+{
+"word": "歌剧",
+"trad": "歌劇",
+"pinyin": "gē jù",
+"gloss": "Western opera; CL:場|场[chang3],齣|出[chu1]",
+"zipf": 4.04
+},
+{
+"word": "歌星",
+"trad": "歌星",
+"pinyin": "gē xīng",
+"gloss": "singing star; famous singer",
+"zipf": 3.51
+},
+{
+"word": "歌舞",
+"trad": "歌舞",
+"pinyin": "gē wǔ",
+"gloss": "singing and dancing",
+"zipf": 3.79
+},
+{
+"word": "歌迷",
+"trad": "歌迷",
+"pinyin": "gē mí",
+"gloss": "fan of a singer",
+"zipf": 3.85
+},
+{
+"word": "正直",
+"trad": "正直",
+"pinyin": "zhèng zhí",
+"gloss": "upright; upstanding; honest",
+"zipf": 3.94
+},
+{
+"word": "此前",
+"trad": "此前",
+"pinyin": "cǐ qián",
+"gloss": "before this; before then; previously",
+"zipf": 4.34
+},
+{
+"word": "残疾人",
+"trad": "殘疾人",
+"pinyin": "cán jí rén",
+"gloss": "disabled person",
+"zipf": 4.0
+},
+{
+"word": "段落",
+"trad": "段落",
+"pinyin": "duàn luò",
+"gloss": "phase; time interval; paragraph; (written) passage",
+"zipf": 3.71
+},
+{
+"word": "殿堂",
+"trad": "殿堂",
+"pinyin": "diàn táng",
+"gloss": "palace; hall; temple buildings",
+"zipf": 3.51
+},
+{
+"word": "毁坏",
+"trad": "毀壞",
+"pinyin": "huǐ huài",
+"gloss": "to damage; to devastate; to vandalize; damage; destruction",
+"zipf": 3.82
+},
+{
+"word": "每逢",
+"trad": "每逢",
+"pinyin": "měi féng",
+"gloss": "every time; on each occasion; whenever",
+"zipf": 3.62
+},
+{
+"word": "民俗",
+"trad": "民俗",
+"pinyin": "mín sú",
+"gloss": "popular custom",
+"zipf": 4.03
+},
+{
+"word": "民歌",
+"trad": "民歌",
+"pinyin": "mín gē",
+"gloss": "folk song; CL:支[zhi1],首[shou3]",
+"zipf": 3.69
+},
+{
+"word": "民用",
+"trad": "民用",
+"pinyin": "mín yòng",
+"gloss": "(for) civilian use",
+"zipf": 3.98
+},
+{
+"word": "气温",
+"trad": "氣溫",
+"pinyin": "qì wēn",
+"gloss": "air temperature",
+"zipf": 4.27
+},
+{
+"word": "水灾",
+"trad": "水災",
+"pinyin": "shuǐ zāi",
+"gloss": "flood; flood damage",
+"zipf": 3.7
+},
+{
+"word": "水稻",
+"trad": "水稻",
+"pinyin": "shuǐ dào",
+"gloss": "rice; paddy; CL:株[zhu1]",
+"zipf": 3.83
+},
+{
+"word": "求学",
+"trad": "求學",
+"pinyin": "qiú xué",
+"gloss": "to pursue one's studies; to attend school; to seek knowledge",
+"zipf": 3.74
+},
+{
+"word": "污水",
+"trad": "污水",
+"pinyin": "wū shuǐ",
+"gloss": "sewage",
+"zipf": 4.02
+},
+{
+"word": "沉淀",
+"trad": "沈澱",
+"pinyin": "chén diàn",
+"gloss": "variant of 沉澱|沉淀[chen2 dian4]",
+"zipf": 3.73
+},
+{
+"word": "沙龙",
+"trad": "沙龍",
+"pinyin": "shā lóng",
+"gloss": "salon (loanword)",
+"zipf": 3.74
+},
+{
+"word": "没落",
+"trad": "沒落",
+"pinyin": "mò luò",
+"gloss": "to decline; to wane",
+"zipf": 3.71
+},
+{
+"word": "油画",
+"trad": "油畫",
+"pinyin": "yóu huà",
+"gloss": "oil painting",
+"zipf": 3.9
+},
+{
+"word": "治病",
+"trad": "治病",
+"pinyin": "zhì bìng",
+"gloss": "to treat an illness",
+"zipf": 3.66
+},
+{
+"word": "沿岸",
+"trad": "沿岸",
+"pinyin": "yán àn",
+"gloss": "coastal area; littoral or riparian",
+"zipf": 4.15
+},
+{
+"word": "沿线",
+"trad": "沿線",
+"pinyin": "yán xiàn",
+"gloss": "along the line (e.g. railway); the region near the line",
+"zipf": 3.92
+},
+{
+"word": "法制",
+"trad": "法制",
+"pinyin": "fǎ zhì",
+"gloss": "legal system and institutions",
+"zipf": 4.32
+},
+{
+"word": "法规",
+"trad": "法規",
+"pinyin": "fǎ guī",
+"gloss": "legislation; statute",
+"zipf": 4.97
+},
+{
+"word": "洁净",
+"trad": "潔淨",
+"pinyin": "jié jìng",
+"gloss": "clean; to cleanse",
+"zipf": 3.63
+},
+{
+"word": "洽谈",
+"trad": "洽談",
+"pinyin": "qià tán",
+"gloss": "to discuss",
+"zipf": 3.59
+},
+{
+"word": "流域",
+"trad": "流域",
+"pinyin": "liú yù",
+"gloss": "river basin; valley; drainage area",
+"zipf": 4.34
+},
+{
+"word": "流感",
+"trad": "流感",
+"pinyin": "liú gǎn",
+"gloss": "flu; influenza",
+"zipf": 3.8
+},
+{
+"word": "流畅",
+"trad": "流暢",
+"pinyin": "liú chàng",
+"gloss": "flowing (of speech, writing); fluent; smooth and easy",
+"zipf": 3.86
+},
+{
+"word": "流转",
+"trad": "流轉",
+"pinyin": "liú zhuǎn",
+"gloss": "to be on the move; to roam or wander; to circulate (of goods or capital)",
+"zipf": 3.58
+},
+{
+"word": "测定",
+"trad": "測定",
+"pinyin": "cè dìng",
+"gloss": "to determine (by measuring or surveying)",
+"zipf": 3.91
+},
+{
+"word": "测算",
+"trad": "測算",
+"pinyin": "cè suàn",
+"gloss": "to take measurements and calculate",
+"zipf": 3.6
+},
+{
+"word": "浏览器",
+"trad": "瀏覽器",
+"pinyin": "liú lǎn qì",
+"gloss": "browser (software)",
+"zipf": 4.19
+},
+{
+"word": "浓郁",
+"trad": "濃郁",
+"pinyin": "nóng yù",
+"gloss": "rich; strong; heavy (fragrance); dense; full-bodied; intense",
+"zipf": 3.62
+},
+{
+"word": "浩劫",
+"trad": "浩劫",
+"pinyin": "hào jié",
+"gloss": "calamity; catastrophe; apocalypse",
+"zipf": 3.5
+},
+{
+"word": "海关",
+"trad": "海關",
+"pinyin": "hǎi guān",
+"gloss": "customs (i.e. border crossing inspection); CL:個|个[ge4]",
+"zipf": 4.27
+},
+{
+"word": "海内外",
+"trad": "海內外",
+"pinyin": "hǎi nèi wài",
+"gloss": "domestic and international; at home and abroad",
+"zipf": 3.75
+},
+{
+"word": "海峡",
+"trad": "海峽",
+"pinyin": "hǎi xiá",
+"gloss": "strait; channel",
+"zipf": 4.32
+},
+{
+"word": "海报",
+"trad": "海報",
+"pinyin": "hǎi bào",
+"gloss": "poster; playbill; notice",
+"zipf": 4.18
+},
+{
+"word": "海滨",
+"trad": "海濱",
+"pinyin": "hǎi bīn",
+"gloss": "shore; seaside",
+"zipf": 3.81
+},
+{
+"word": "海滩",
+"trad": "海灘",
+"pinyin": "hǎi tān",
+"gloss": "beach; CL:片[pian4]",
+"zipf": 4.36
+},
+{
+"word": "海量",
+"trad": "海量",
+"pinyin": "hǎi liàng",
+"gloss": "huge volume",
+"zipf": 3.59
+},
+{
+"word": "消费者",
+"trad": "消費者",
+"pinyin": "xiāo fèi zhě",
+"gloss": "consumer",
+"zipf": 4.77
+},
+{
+"word": "液晶",
+"trad": "液晶",
+"pinyin": "yè jīng",
+"gloss": "liquid crystal",
+"zipf": 3.5
+},
+{
+"word": "涵义",
+"trad": "涵義",
+"pinyin": "hán yì",
+"gloss": "content; meaning; connotation; implication",
+"zipf": 3.62
+},
+{
+"word": "深化",
+"trad": "深化",
+"pinyin": "shēn huà",
+"gloss": "to deepen; to intensify",
+"zipf": 4.3
+},
+{
+"word": "深情",
+"trad": "深情",
+"pinyin": "shēn qíng",
+"gloss": "deep emotion; deep feeling; deep love; affectionate; loving",
+"zipf": 3.68
+},
+{
+"word": "混凝土",
+"trad": "混凝土",
+"pinyin": "hùn níng tǔ",
+"gloss": "concrete (building material)",
+"zipf": 4.07
+},
+{
+"word": "清凉",
+"trad": "清涼",
+"pinyin": "qīng liáng",
+"gloss": "cool; refreshing; (of clothing) skimpy; revealing",
+"zipf": 3.53
+},
+{
+"word": "清单",
+"trad": "清單",
+"pinyin": "qīng dān",
+"gloss": "list of items",
+"zipf": 4.32
+},
+{
+"word": "清洗",
+"trad": "清洗",
+"pinyin": "qīng xǐ",
+"gloss": "to wash; to rinse; to clean; (fig.) to purge; to get rid of (corrupt individuals etc)",
+"zipf": 4.29
+},
+{
+"word": "清真寺",
+"trad": "清真寺",
+"pinyin": "qīng zhēn sì",
+"gloss": "mosque",
+"zipf": 4.01
+},
+{
+"word": "渊源",
+"trad": "淵源",
+"pinyin": "yuān yuán",
+"gloss": "origin; source; relationship",
+"zipf": 3.74
+},
+{
+"word": "温室",
+"trad": "溫室",
+"pinyin": "wēn shì",
+"gloss": "greenhouse",
+"zipf": 3.8
+},
+{
+"word": "游客",
+"trad": "遊客",
+"pinyin": "yóu kè",
+"gloss": "traveler; tourist; (online gaming) guest player",
+"zipf": 4.71
+},
+{
+"word": "游泳池",
+"trad": "游泳池",
+"pinyin": "yóu yǒng chí",
+"gloss": "swimming pool",
+"zipf": 3.9
+},
+{
+"word": "游行",
+"trad": "遊行",
+"pinyin": "yóu xíng",
+"gloss": "to march; to parade; to demonstrate; procession; march; demonstration; to travel around; t",
+"zipf": 4.9
+},
+{
+"word": "滋润",
+"trad": "滋潤",
+"pinyin": "zī rùn",
+"gloss": "moist; humid; to moisten; to provide moisture; comfortably off",
+"zipf": 3.73
+},
+{
+"word": "滑雪",
+"trad": "滑雪",
+"pinyin": "huá xuě",
+"gloss": "to ski; skiing",
+"zipf": 3.95
+},
+{
+"word": "滚动",
+"trad": "滾動",
+"pinyin": "gǔn dòng",
+"gloss": "to roll; (to do sth) in a loop; to scroll (computing); to progressively expand (economics)",
+"zipf": 3.67
+},
+{
+"word": "滞后",
+"trad": "滯後",
+"pinyin": "zhì hòu",
+"gloss": "to lag behind",
+"zipf": 3.51
+},
+{
+"word": "漫游",
+"trad": "漫遊",
+"pinyin": "màn yóu",
+"gloss": "to travel around; to roam; (mobile telephony) roaming",
+"zipf": 3.61
+},
+{
+"word": "潜艇",
+"trad": "潛艇",
+"pinyin": "qián tǐng",
+"gloss": "a submarine",
+"zipf": 4.19
+},
+{
+"word": "澄清",
+"trad": "澄清",
+"pinyin": "chéng qīng",
+"gloss": "clear (of liquid); limpid; to clarify; to make sth clear; to be clear (about the facts)",
+"zipf": 4.13
+},
+{
+"word": "激光",
+"trad": "激光",
+"pinyin": "jī guāng",
+"gloss": "laser",
+"zipf": 4.09
+},
+{
+"word": "激素",
+"trad": "激素",
+"pinyin": "jī sù",
+"gloss": "hormone",
+"zipf": 3.8
+},
+{
+"word": "火柴",
+"trad": "火柴",
+"pinyin": "huǒ chái",
+"gloss": "match (for lighting fire); CL:根[gen1],盒[he2]",
+"zipf": 3.53
+},
+{
+"word": "火炬",
+"trad": "火炬",
+"pinyin": "huǒ jù",
+"gloss": "(flaming) torch; CL:把[ba3]",
+"zipf": 3.76
+},
+{
+"word": "火腿",
+"trad": "火腿",
+"pinyin": "huǒ tuǐ",
+"gloss": "ham; CL:個|个[ge4]",
+"zipf": 3.66
+},
+{
+"word": "灯笼",
+"trad": "燈籠",
+"pinyin": "dēng lóng",
+"gloss": "lantern",
+"zipf": 3.87
+},
+{
+"word": "灾区",
+"trad": "災區",
+"pinyin": "zāi qū",
+"gloss": "disaster area; stricken region",
+"zipf": 4.05
+},
+{
+"word": "炎热",
+"trad": "炎熱",
+"pinyin": "yán rè",
+"gloss": "blistering hot; sizzling hot (weather)",
+"zipf": 3.73
+},
+{
+"word": "烈士",
+"trad": "烈士",
+"pinyin": "liè shì",
+"gloss": "martyr",
+"zipf": 3.98
+},
+{
+"word": "热带",
+"trad": "熱帶",
+"pinyin": "rè dài",
+"gloss": "the tropics; tropical",
+"zipf": 4.39
+},
+{
+"word": "热潮",
+"trad": "熱潮",
+"pinyin": "rè cháo",
+"gloss": "wave of enthusiasm; craze; upsurge",
+"zipf": 4.0
+},
+{
+"word": "热点",
+"trad": "熱點",
+"pinyin": "rè diǎn",
+"gloss": "hot spot; point of special interest",
+"zipf": 4.33
+},
+{
+"word": "热线",
+"trad": "熱線",
+"pinyin": "rè xiàn",
+"gloss": "hotline (communications link)",
+"zipf": 3.95
+},
+{
+"word": "烹调",
+"trad": "烹調",
+"pinyin": "pēng tiáo",
+"gloss": "to cook",
+"zipf": 3.61
+},
+{
+"word": "煤气",
+"trad": "煤氣",
+"pinyin": "méi qì",
+"gloss": "coal gas; gas (fuel)",
+"zipf": 3.67
+},
+{
+"word": "煤矿",
+"trad": "煤礦",
+"pinyin": "méi kuàng",
+"gloss": "coal mine; coal seam",
+"zipf": 4.18
+},
+{
+"word": "照料",
+"trad": "照料",
+"pinyin": "zhào liào",
+"gloss": "to tend; to take care of sb",
+"zipf": 3.77
+},
+{
+"word": "照明",
+"trad": "照明",
+"pinyin": "zhào míng",
+"gloss": "lighting; illumination; to light up; to illuminate",
+"zipf": 3.96
+},
+{
+"word": "照样",
+"trad": "照樣",
+"pinyin": "zhào yàng",
+"gloss": "as before; (same) as usual; in the same manner; still; nevertheless",
+"zipf": 3.87
+},
+{
+"word": "照耀",
+"trad": "照耀",
+"pinyin": "zhào yào",
+"gloss": "to shine; to illuminate",
+"zipf": 3.51
+},
+{
+"word": "燃料",
+"trad": "燃料",
+"pinyin": "rán liào",
+"gloss": "fuel",
+"zipf": 4.42
+},
+{
+"word": "燃油",
+"trad": "燃油",
+"pinyin": "rán yóu",
+"gloss": "fuel oil",
+"zipf": 3.74
+},
+{
+"word": "燕子",
+"trad": "燕子",
+"pinyin": "yàn zi",
+"gloss": "swallow",
+"zipf": 3.62
+},
+{
+"word": "爵士",
+"trad": "爵士",
+"pinyin": "jué shì",
+"gloss": "knight; Sir; (loanword) jazz",
+"zipf": 4.08
+},
+{
+"word": "片子",
+"trad": "片子",
+"pinyin": "piān zi",
+"gloss": "film; movie; film reel; phonograph record; X-ray image",
+"zipf": 3.95
+},
+{
+"word": "牧民",
+"trad": "牧民",
+"pinyin": "mù mín",
+"gloss": "herdsman",
+"zipf": 3.59
+},
+{
+"word": "物业",
+"trad": "物業",
+"pinyin": "wù yè",
+"gloss": "property; real estate; abbr. for 物業管理|物业管理[wu4 ye4 guan3 li3], property management",
+"zipf": 4.11
+},
+{
+"word": "物价",
+"trad": "物價",
+"pinyin": "wù jià",
+"gloss": "(commodity) prices; CL:個|个[ge4]",
+"zipf": 4.25
+},
+{
+"word": "物流",
+"trad": "物流",
+"pinyin": "wù liú",
+"gloss": "distribution (business); logistics",
+"zipf": 4.38
+},
+{
+"word": "牲畜",
+"trad": "牲畜",
+"pinyin": "shēng chù",
+"gloss": "farm animal; livestock",
+"zipf": 3.87
+},
+{
+"word": "状元",
+"trad": "狀元",
+"pinyin": "zhuàng yuán",
+"gloss": "top scorer in the palace examination (highest rank of the Imperial examination system); se",
+"zipf": 3.78
+},
+{
+"word": "独立自主",
+"trad": "獨立自主",
+"pinyin": "dú lì zì zhǔ",
+"gloss": "independent and autonomous (idiom); self-determination; to act independently; to maintain ",
+"zipf": 3.76
+},
+{
+"word": "环球",
+"trad": "環球",
+"pinyin": "huán qiú",
+"gloss": "around the world; worldwide",
+"zipf": 4.23
+},
+{
+"word": "环绕",
+"trad": "環繞",
+"pinyin": "huán rào",
+"gloss": "to surround; to circle; to revolve around",
+"zipf": 3.97
+},
+{
+"word": "珠宝",
+"trad": "珠寶",
+"pinyin": "zhū bǎo",
+"gloss": "pearls; jewels; precious stones",
+"zipf": 4.17
+},
+{
+"word": "球星",
+"trad": "球星",
+"pinyin": "qiú xīng",
+"gloss": "sports star (ball sport)",
+"zipf": 3.72
+},
+{
+"word": "瓷器",
+"trad": "瓷器",
+"pinyin": "cí qì",
+"gloss": "chinaware; porcelain",
+"zipf": 3.71
+},
+{
+"word": "甜蜜",
+"trad": "甜蜜",
+"pinyin": "tián mì",
+"gloss": "sweet; happy",
+"zipf": 4.01
+},
+{
+"word": "田径",
+"trad": "田徑",
+"pinyin": "tián jìng",
+"gloss": "track and field (athletics)",
+"zipf": 3.84
+},
+{
+"word": "由此可见",
+"trad": "由此可見",
+"pinyin": "yóu cǐ kě jiàn",
+"gloss": "from this, it can be seen that...",
+"zipf": 3.61
+},
+{
+"word": "电源",
+"trad": "電源",
+"pinyin": "diàn yuán",
+"gloss": "electric power source",
+"zipf": 4.18
+},
+{
+"word": "电线",
+"trad": "電線",
+"pinyin": "diàn xiàn",
+"gloss": "wire; power cord; CL:根[gen1]",
+"zipf": 3.75
+},
+{
+"word": "男士",
+"trad": "男士",
+"pinyin": "nán shì",
+"gloss": "man; gentleman",
+"zipf": 3.96
+},
+{
+"word": "男女",
+"trad": "男女",
+"pinyin": "nán nǚ",
+"gloss": "male-female; male and female",
+"zipf": 4.67
+},
+{
+"word": "画展",
+"trad": "畫展",
+"pinyin": "huà zhǎn",
+"gloss": "art exhibition",
+"zipf": 3.59
+},
+{
+"word": "界线",
+"trad": "界線",
+"pinyin": "jiè xiàn",
+"gloss": "limits; bounds; dividing line",
+"zipf": 3.86
+},
+{
+"word": "留学生",
+"trad": "留學生",
+"pinyin": "liú xué shēng",
+"gloss": "student studying abroad; returned student; foreign student; international student",
+"zipf": 4.11
+},
+{
+"word": "畸形",
+"trad": "畸形",
+"pinyin": "jī xíng",
+"gloss": "deformed; malformed; lopsided; unbalanced",
+"zipf": 3.77
+},
+{
+"word": "疑虑",
+"trad": "疑慮",
+"pinyin": "yí lǜ",
+"gloss": "hesitation; misgivings; doubt",
+"zipf": 3.88
+},
+{
+"word": "疗法",
+"trad": "療法",
+"pinyin": "liáo fǎ",
+"gloss": "therapy; treatment",
+"zipf": 4.12
+},
+{
+"word": "疫苗",
+"trad": "疫苗",
+"pinyin": "yì miáo",
+"gloss": "vaccine",
+"zipf": 4.42
+},
+{
+"word": "病症",
+"trad": "病症",
+"pinyin": "bìng zhèng",
+"gloss": "disease; illness",
+"zipf": 3.59
+},
+{
+"word": "瘟疫",
+"trad": "瘟疫",
+"pinyin": "wēn yì",
+"gloss": "plague; pestilence",
+"zipf": 3.69
+},
+{
+"word": "登山",
+"trad": "登山",
+"pinyin": "dēng shān",
+"gloss": "to climb a mountain; climbing; mountaineering",
+"zipf": 3.81
+},
+{
+"word": "白酒",
+"trad": "白酒",
+"pinyin": "bái jiǔ",
+"gloss": "baijiu, a spirit usually distilled from sorghum; (Tw) white wine (abbr. for 白葡萄酒[bai2 pu2 ",
+"zipf": 3.58
+},
+{
+"word": "白领",
+"trad": "白領",
+"pinyin": "bái lǐng",
+"gloss": "white-collar; white-collar worker",
+"zipf": 3.83
+},
+{
+"word": "百科全书",
+"trad": "百科全書",
+"pinyin": "bǎi kē quán shū",
+"gloss": "encyclopedia; CL:本[ben3],集[ji2]",
+"zipf": 3.6
+},
+{
+"word": "皇上",
+"trad": "皇上",
+"pinyin": "huáng shàng",
+"gloss": "the emperor; Your majesty the emperor; His imperial majesty",
+"zipf": 4.1
+},
+{
+"word": "皇宫",
+"trad": "皇宮",
+"pinyin": "huáng gōng",
+"gloss": "imperial palace",
+"zipf": 3.95
+},
+{
+"word": "皮带",
+"trad": "皮帶",
+"pinyin": "pí dài",
+"gloss": "strap; leather belt; CL:條|条[tiao2],根[gen1]",
+"zipf": 3.64
+},
+{
+"word": "盈利",
+"trad": "盈利",
+"pinyin": "yíng lì",
+"gloss": "profit; gain; to make profits",
+"zipf": 4.32
+},
+{
+"word": "监护",
+"trad": "監護",
+"pinyin": "jiān hù",
+"gloss": "to act as a guardian",
+"zipf": 3.65
+},
+{
+"word": "监管",
+"trad": "監管",
+"pinyin": "jiān guǎn",
+"gloss": "to oversee; to take charge of; to supervise; to administer; supervisory; supervision",
+"zipf": 4.64
+},
+{
+"word": "盗版",
+"trad": "盜版",
+"pinyin": "dào bǎn",
+"gloss": "pirated; illegal; see also 正版[zheng4 ban3]",
+"zipf": 3.97
+},
+{
+"word": "盛会",
+"trad": "盛會",
+"pinyin": "shèng huì",
+"gloss": "pageant; distinguished meeting",
+"zipf": 3.83
+},
+{
+"word": "盛行",
+"trad": "盛行",
+"pinyin": "shèng xíng",
+"gloss": "to be in vogue; to be popular; to be prevalent",
+"zipf": 4.02
+},
+{
+"word": "直升机",
+"trad": "直升機",
+"pinyin": "zhí shēng jī",
+"gloss": "helicopter; CL:架[jia4]",
+"zipf": 4.47
+},
+{
+"word": "直观",
+"trad": "直觀",
+"pinyin": "zhí guān",
+"gloss": "direct observation; directly perceived through the senses; intuitive; audiovisual",
+"zipf": 3.78
+},
+{
+"word": "相声",
+"trad": "相聲",
+"pinyin": "xiàng shēng",
+"gloss": "comic dialogue; sketch; crosstalk",
+"zipf": 3.62
+},
+{
+"word": "相比之下",
+"trad": "相比之下",
+"pinyin": "xiāng bǐ zhī xià",
+"gloss": "by comparison",
+"zipf": 3.56
+},
+{
+"word": "相片",
+"trad": "相片",
+"pinyin": "xiàng piān",
+"gloss": "image; photograph; CL:張|张[zhang1]",
+"zipf": 3.97
+},
+{
+"word": "省钱",
+"trad": "省錢",
+"pinyin": "shěng qián",
+"gloss": "to save money",
+"zipf": 3.52
+},
+{
+"word": "看得见",
+"trad": "看得見",
+"pinyin": "kàn dé jiàn",
+"gloss": "to be able to see; can see",
+"zipf": 3.63
+},
+{
+"word": "看护",
+"trad": "看護",
+"pinyin": "kān hù",
+"gloss": "to nurse; to look after; to watch over; (old) hospital nurse",
+"zipf": 3.59
+},
+{
+"word": "看病",
+"trad": "看病",
+"pinyin": "kàn bìng",
+"gloss": "to visit a doctor; to see a patient",
+"zipf": 3.73
+},
+{
+"word": "着力",
+"trad": "著力",
+"pinyin": "zhuó lì",
+"gloss": "to put effort into sth; to try really hard",
+"zipf": 3.92
+},
+{
+"word": "督促",
+"trad": "督促",
+"pinyin": "dū cù",
+"gloss": "to supervise and urge completion of a task; to urge on",
+"zipf": 3.81
+},
+{
+"word": "瞩目",
+"trad": "矚目",
+"pinyin": "zhǔ mù",
+"gloss": "to focus attention upon",
+"zipf": 3.93
+},
+{
+"word": "矛头",
+"trad": "矛頭",
+"pinyin": "máo tóu",
+"gloss": "spearhead; barb; an attack or criticism",
+"zipf": 3.71
+},
+{
+"word": "知名",
+"trad": "知名",
+"pinyin": "zhī míng",
+"gloss": "well-known; famous",
+"zipf": 4.72
+},
+{
+"word": "知识分子",
+"trad": "知識份子",
+"pinyin": "zhī shí fèn zǐ",
+"gloss": "variant of 知識分子|知识分子[zhi1 shi5 fen4 zi3]",
+"zipf": 4.23
+},
+{
+"word": "短缺",
+"trad": "短缺",
+"pinyin": "duǎn quē",
+"gloss": "shortage",
+"zipf": 4.2
+},
+{
+"word": "短裤",
+"trad": "短褲",
+"pinyin": "duǎn kù",
+"gloss": "short pants; shorts",
+"zipf": 3.76
+},
+{
+"word": "硬币",
+"trad": "硬幣",
+"pinyin": "yìng bì",
+"gloss": "coin; CL:枚[mei2]",
+"zipf": 4.03
+},
+{
+"word": "硬盘",
+"trad": "硬盤",
+"pinyin": "yìng pán",
+"gloss": "hard disk",
+"zipf": 3.87
+},
+{
+"word": "确诊",
+"trad": "確診",
+"pinyin": "què zhěn",
+"gloss": "to make a definite diagnosis; confirmed (case of a specific disease)",
+"zipf": 3.96
+},
+{
+"word": "磁带",
+"trad": "磁帶",
+"pinyin": "cí dài",
+"gloss": "magnetic tape; CL:盤|盘[pan2],盒[he2]",
+"zipf": 3.71
+},
+{
+"word": "磋商",
+"trad": "磋商",
+"pinyin": "cuō shāng",
+"gloss": "to consult; to discuss seriously; to negotiate; to confer; negotiations; consultations",
+"zipf": 3.8
+},
+{
+"word": "磨损",
+"trad": "磨損",
+"pinyin": "mó sǔn",
+"gloss": "to suffer wear and tear; to deteriorate through use; to wear out",
+"zipf": 3.59
+},
+{
+"word": "磨难",
+"trad": "磨難",
+"pinyin": "mó nàn",
+"gloss": "a torment; a trial; tribulation; a cross (to bear); well-tried",
+"zipf": 3.56
+},
+{
+"word": "礼服",
+"trad": "禮服",
+"pinyin": "lǐ fú",
+"gloss": "ceremonial robe; formal attire (dinner suit, evening gown etc)",
+"zipf": 3.86
+},
+{
+"word": "社交",
+"trad": "社交",
+"pinyin": "shè jiāo",
+"gloss": "interaction; social contact",
+"zipf": 4.55
+},
+{
+"word": "社团",
+"trad": "社團",
+"pinyin": "shè tuán",
+"gloss": "association; society; group; union; club; organization",
+"zipf": 4.29
+},
+{
+"word": "社论",
+"trad": "社論",
+"pinyin": "shè lùn",
+"gloss": "editorial (in a newspaper); CL:篇[pian1]",
+"zipf": 3.92
+},
+{
+"word": "祖宗",
+"trad": "祖宗",
+"pinyin": "zǔ zōng",
+"gloss": "ancestor; forebear",
+"zipf": 3.71
+},
+{
+"word": "神仙",
+"trad": "神仙",
+"pinyin": "shén xiān",
+"gloss": "Daoist immortal; supernatural entity; (in modern fiction) fairy, elf, leprechaun etc; fig.",
+"zipf": 3.95
+},
+{
+"word": "票价",
+"trad": "票價",
+"pinyin": "piào jià",
+"gloss": "ticket price; fare; admission fee",
+"zipf": 3.97
+},
+{
+"word": "票房",
+"trad": "票房",
+"pinyin": "piào fáng",
+"gloss": "box office",
+"zipf": 4.0
+},
+{
+"word": "祭祀",
+"trad": "祭祀",
+"pinyin": "jì sì",
+"gloss": "to offer sacrifices to the gods or ancestors",
+"zipf": 3.97
+},
+{
+"word": "禁区",
+"trad": "禁區",
+"pinyin": "jìn qū",
+"gloss": "restricted area; forbidden zone; off-limits area",
+"zipf": 3.93
+},
+{
+"word": "福气",
+"trad": "福氣",
+"pinyin": "fú qì",
+"gloss": "good fortune; a blessing",
+"zipf": 3.54
+},
+{
+"word": "离不开",
+"trad": "離不開",
+"pinyin": "lí bù kāi",
+"gloss": "inseparable; inevitably linked to",
+"zipf": 3.91
+},
+{
+"word": "离职",
+"trad": "離職",
+"pinyin": "lí zhí",
+"gloss": "to leave one's job temporarily (e.g. for study); to leave one's job; to resign",
+"zipf": 3.91
+},
+{
+"word": "私有",
+"trad": "私有",
+"pinyin": "sī yǒu",
+"gloss": "private; privately-owned",
+"zipf": 3.85
+},
+{
+"word": "私立",
+"trad": "私立",
+"pinyin": "sī lì",
+"gloss": "privately-run; private (school, hospital etc); to set up illegally",
+"zipf": 3.82
+},
+{
+"word": "私营",
+"trad": "私營",
+"pinyin": "sī yíng",
+"gloss": "privately-owned; private",
+"zipf": 3.94
+},
+{
+"word": "秋季",
+"trad": "秋季",
+"pinyin": "qiū jì",
+"gloss": "autumn; fall",
+"zipf": 3.91
+},
+{
+"word": "科幻",
+"trad": "科幻",
+"pinyin": "kē huàn",
+"gloss": "science fiction; abbr. for 科學幻想|科学幻想[ke1 xue2 huan4 xiang3]",
+"zipf": 3.69
+},
+{
+"word": "科普",
+"trad": "科普",
+"pinyin": "kē pǔ",
+"gloss": "popularization of science (abbr. for 科學普及|科学普及[ke1 xue2 pu3 ji2]); (attributive) popular s",
+"zipf": 4.01
+},
+{
+"word": "租赁",
+"trad": "租賃",
+"pinyin": "zū lìn",
+"gloss": "to rent; to lease; to hire",
+"zipf": 4.18
+},
+{
+"word": "空难",
+"trad": "空難",
+"pinyin": "kōng nàn",
+"gloss": "air crash; aviation accident or incident",
+"zipf": 3.77
+},
+{
+"word": "竞技",
+"trad": "競技",
+"pinyin": "jìng jì",
+"gloss": "competition of skill (e.g. sports); athletics tournament",
+"zipf": 4.01
+},
+{
+"word": "竣工",
+"trad": "竣工",
+"pinyin": "jùn gōng",
+"gloss": "to complete a project",
+"zipf": 3.95
+},
+{
+"word": "筹办",
+"trad": "籌辦",
+"pinyin": "chóu bàn",
+"gloss": "to arrange; to make preparations",
+"zipf": 3.59
+},
+{
+"word": "筹集",
+"trad": "籌集",
+"pinyin": "chóu jí",
+"gloss": "to collect money; to raise funds",
+"zipf": 3.7
+},
+{
+"word": "简介",
+"trad": "簡介",
+"pinyin": "jiǎn jiè",
+"gloss": "summary; brief introduction",
+"zipf": 4.67
+},
+{
+"word": "简易",
+"trad": "簡易",
+"pinyin": "jiǎn yì",
+"gloss": "simple and easy; simplistic; simplicity",
+"zipf": 4.05
+},
+{
+"word": "简洁",
+"trad": "簡潔",
+"pinyin": "jiǎn jié",
+"gloss": "concise; succinct; pithy",
+"zipf": 3.92
+},
+{
+"word": "篇幅",
+"trad": "篇幅",
+"pinyin": "piān fú",
+"gloss": "length (of a piece of writing); space occupied on a printed page",
+"zipf": 3.74
+},
+{
+"word": "类别",
+"trad": "類別",
+"pinyin": "lèi bié",
+"gloss": "classification; category",
+"zipf": 4.36
+},
+{
+"word": "精品",
+"trad": "精品",
+"pinyin": "jīng pǐn",
+"gloss": "quality goods; premium product; fine work (of art)",
+"zipf": 4.13
+},
+{
+"word": "精神病",
+"trad": "精神病",
+"pinyin": "jīng shén bìng",
+"gloss": "mental disorder; psychosis",
+"zipf": 3.99
+},
+{
+"word": "精简",
+"trad": "精簡",
+"pinyin": "jīng jiǎn",
+"gloss": "to simplify; to reduce",
+"zipf": 3.57
+},
+{
+"word": "精美",
+"trad": "精美",
+"pinyin": "jīng měi",
+"gloss": "exquisite; elegant; fine",
+"zipf": 3.93
+},
+{
+"word": "精致",
+"trad": "精緻",
+"pinyin": "jīng zhì",
+"gloss": "delicate; fine; exquisite; refined",
+"zipf": 4.01
+},
+{
+"word": "糖尿病",
+"trad": "糖尿病",
+"pinyin": "táng niào bìng",
+"gloss": "diabetes; diabetes mellitus",
+"zipf": 4.01
+},
+{
+"word": "素养",
+"trad": "素養",
+"pinyin": "sù yǎng",
+"gloss": "(personal) accomplishment; attainment in self-cultivation",
+"zipf": 3.86
+},
+{
+"word": "素食",
+"trad": "素食",
+"pinyin": "sù shí",
+"gloss": "vegetarian food; to eat a vegetarian diet",
+"zipf": 3.6
+},
+{
+"word": "索赔",
+"trad": "索賠",
+"pinyin": "suǒ péi",
+"gloss": "to ask for compensation; to claim damages; claim for damages",
+"zipf": 3.58
+},
+{
+"word": "紧缩",
+"trad": "緊縮",
+"pinyin": "jǐn suō",
+"gloss": "(economics) to reduce; to curtail; to cut back; to tighten; austerity; tightening; crunch",
+"zipf": 3.92
+},
+{
+"word": "紧缺",
+"trad": "緊缺",
+"pinyin": "jǐn quē",
+"gloss": "in short supply; scarce",
+"zipf": 3.51
+},
+{
+"word": "红包",
+"trad": "紅包",
+"pinyin": "hóng bāo",
+"gloss": "money wrapped in red as a gift; bonus payment; kickback; bribe",
+"zipf": 4.06
+},
+{
+"word": "纪念馆",
+"trad": "紀念館",
+"pinyin": "jì niàn guǎn",
+"gloss": "memorial hall; commemorative museum",
+"zipf": 3.87
+},
+{
+"word": "纯洁",
+"trad": "純潔",
+"pinyin": "chún jié",
+"gloss": "pure; clean and honest; to purify",
+"zipf": 3.88
+},
+{
+"word": "纲要",
+"trad": "綱要",
+"pinyin": "gāng yào",
+"gloss": "outline; essential points",
+"zipf": 3.82
+},
+{
+"word": "纳税",
+"trad": "納稅",
+"pinyin": "nà shuì",
+"gloss": "to pay taxes",
+"zipf": 4.01
+},
+{
+"word": "纳税人",
+"trad": "納稅人",
+"pinyin": "nà shuì rén",
+"gloss": "taxpayer",
+"zipf": 3.97
+},
+{
+"word": "纵深",
+"trad": "縱深",
+"pinyin": "zòng shēn",
+"gloss": "depth (from front to rear); depth (into a territory); span (of time); (fig.) depth (of dep",
+"zipf": 3.51
+},
+{
+"word": "组装",
+"trad": "組裝",
+"pinyin": "zǔ zhuāng",
+"gloss": "to assemble; to put together",
+"zipf": 3.81
+},
+{
+"word": "经度",
+"trad": "經度",
+"pinyin": "jīng dù",
+"gloss": "longitude",
+"zipf": 3.86
+},
+{
+"word": "绝大多数",
+"trad": "絕大多數",
+"pinyin": "jué dà duō shù",
+"gloss": "the vast majority",
+"zipf": 4.26
+},
+{
+"word": "继而",
+"trad": "繼而",
+"pinyin": "jì ér",
+"gloss": "then; afterwards",
+"zipf": 3.77
+},
+{
+"word": "绯闻",
+"trad": "緋聞",
+"pinyin": "fēi wén",
+"gloss": "sex scandal",
+"zipf": 3.58
+},
+{
+"word": "绿地",
+"trad": "綠地",
+"pinyin": "lǜ dì",
+"gloss": "green area (e.g. urban park or garden)",
+"zipf": 3.8
+},
+{
+"word": "缓缓",
+"trad": "緩緩",
+"pinyin": "huǎn huǎn",
+"gloss": "slowly; unhurriedly; little by little",
+"zipf": 3.61
+},
+{
+"word": "编写",
+"trad": "編寫",
+"pinyin": "biān xiě",
+"gloss": "to compile",
+"zipf": 4.27
+},
+{
+"word": "编剧",
+"trad": "編劇",
+"pinyin": "biān jù",
+"gloss": "to write a play; scenario; dramatist; screenwriter",
+"zipf": 4.26
+},
+{
+"word": "编号",
+"trad": "編號",
+"pinyin": "biān hào",
+"gloss": "to number; numbering; serial number",
+"zipf": 4.4
+},
+{
+"word": "编排",
+"trad": "編排",
+"pinyin": "biān pái",
+"gloss": "to arrange; to lay out",
+"zipf": 3.8
+},
+{
+"word": "缩水",
+"trad": "縮水",
+"pinyin": "suō shuǐ",
+"gloss": "to shrink (in the wash); fig. to shrink (of profits etc)",
+"zipf": 3.73
+},
+{
+"word": "缺失",
+"trad": "缺失",
+"pinyin": "quē shī",
+"gloss": "lack; deficiency; shortcoming; flaw; defect; to be deficient; to lack",
+"zipf": 3.93
+},
+{
+"word": "网友",
+"trad": "網友",
+"pinyin": "wǎng yǒu",
+"gloss": "online friend; netizen; Internet user",
+"zipf": 4.95
+},
+{
+"word": "网民",
+"trad": "網民",
+"pinyin": "wǎng mín",
+"gloss": "netizen; Internet user; online community member",
+"zipf": 4.39
+},
+{
+"word": "罢免",
+"trad": "罷免",
+"pinyin": "bà miǎn",
+"gloss": "to remove sb from their post; to dismiss",
+"zipf": 3.97
+},
+{
+"word": "美景",
+"trad": "美景",
+"pinyin": "měi jǐng",
+"gloss": "beautiful scenery",
+"zipf": 3.86
+},
+{
+"word": "群体",
+"trad": "群體",
+"pinyin": "qún tǐ",
+"gloss": "community; colony",
+"zipf": 4.72
+},
+{
+"word": "耕地",
+"trad": "耕地",
+"pinyin": "gēng dì",
+"gloss": "arable land; to plow land",
+"zipf": 4.01
+},
+{
+"word": "职工",
+"trad": "職工",
+"pinyin": "zhí gōng",
+"gloss": "employee; staff member; worker",
+"zipf": 4.65
+},
+{
+"word": "联网",
+"trad": "聯網",
+"pinyin": "lián wǎng",
+"gloss": "to connect (or be connected) to a network; to network",
+"zipf": 4.0
+},
+{
+"word": "联赛",
+"trad": "聯賽",
+"pinyin": "lián sài",
+"gloss": "(sports) league; league tournament",
+"zipf": 4.42
+},
+{
+"word": "联邦",
+"trad": "聯邦",
+"pinyin": "lián bāng",
+"gloss": "federal; federation; commonwealth; federal union; federal state; union",
+"zipf": 4.88
+},
+{
+"word": "聘请",
+"trad": "聘請",
+"pinyin": "pìn qǐng",
+"gloss": "to engage; to hire (a lawyer etc)",
+"zipf": 4.09
+},
+{
+"word": "肝脏",
+"trad": "肝臟",
+"pinyin": "gān zàng",
+"gloss": "liver",
+"zipf": 3.73
+},
+{
+"word": "股市",
+"trad": "股市",
+"pinyin": "gǔ shì",
+"gloss": "stock market",
+"zipf": 4.32
+},
+{
+"word": "肢体",
+"trad": "肢體",
+"pinyin": "zhī tǐ",
+"gloss": "limb; limbs and trunk; body",
+"zipf": 3.87
+},
+{
+"word": "肿瘤",
+"trad": "腫瘤",
+"pinyin": "zhǒng liú",
+"gloss": "tumor",
+"zipf": 4.15
+},
+{
+"word": "背包",
+"trad": "背包",
+"pinyin": "bēi bāo",
+"gloss": "knapsack; rucksack; infantry pack; field pack; blanket roll; CL:個|个[ge4]",
+"zipf": 3.83
+},
+{
+"word": "背心",
+"trad": "背心",
+"pinyin": "bèi xīn",
+"gloss": "sleeveless garment (vest, waistcoat, singlet, tank top etc); CL:件[jian4]",
+"zipf": 3.71
+},
+{
+"word": "背着",
+"trad": "背著",
+"pinyin": "bèi zhe",
+"gloss": "carrying on one's back",
+"zipf": 3.75
+},
+{
+"word": "胶囊",
+"trad": "膠囊",
+"pinyin": "jiāo náng",
+"gloss": "(pharm.) capsule",
+"zipf": 3.65
+},
+{
+"word": "胶带",
+"trad": "膠帶",
+"pinyin": "jiāo dài",
+"gloss": "adhesive tape; magnetic tape",
+"zipf": 3.64
+},
+{
+"word": "胶片",
+"trad": "膠片",
+"pinyin": "jiāo piàn",
+"gloss": "(photographic) film",
+"zipf": 3.63
+},
+{
+"word": "膳食",
+"trad": "膳食",
+"pinyin": "shàn shí",
+"gloss": "meals; food",
+"zipf": 3.54
+},
+{
+"word": "致敬",
+"trad": "致敬",
+"pinyin": "zhì jìng",
+"gloss": "to salute; to pay one's respects to; to pay tribute to; to pay homage to",
+"zipf": 4.05
+},
+{
+"word": "舍得",
+"trad": "捨得",
+"pinyin": "shě de",
+"gloss": "to be willing to part with sth",
+"zipf": 3.75
+},
+{
+"word": "舞厅",
+"trad": "舞廳",
+"pinyin": "wǔ tīng",
+"gloss": "dance hall; ballroom; CL:間|间[jian1]",
+"zipf": 3.64
+},
+{
+"word": "船舶",
+"trad": "船舶",
+"pinyin": "chuán bó",
+"gloss": "shipping; boats",
+"zipf": 4.15
+},
+{
+"word": "良性",
+"trad": "良性",
+"pinyin": "liáng xìng",
+"gloss": "positive (in its effect); leading to good consequences; virtuous; (medicine) benign (tumor",
+"zipf": 3.69
+},
+{
+"word": "艾滋病",
+"trad": "艾滋病",
+"pinyin": "ài zī bìng",
+"gloss": "(loanword) AIDS",
+"zipf": 4.14
+},
+{
+"word": "节能",
+"trad": "節能",
+"pinyin": "jié néng",
+"gloss": "to conserve energy; to minimize energy consumption",
+"zipf": 4.09
+},
+{
+"word": "芭蕾",
+"trad": "芭蕾",
+"pinyin": "bā lěi",
+"gloss": "ballet (loanword)",
+"zipf": 3.53
+},
+{
+"word": "芯片",
+"trad": "芯片",
+"pinyin": "xīn piàn",
+"gloss": "computer chip; microchip",
+"zipf": 4.16
+},
+{
+"word": "花卉",
+"trad": "花卉",
+"pinyin": "huā huì",
+"gloss": "flowers and plants",
+"zipf": 3.75
+},
+{
+"word": "花样",
+"trad": "花樣",
+"pinyin": "huā yàng",
+"gloss": "pattern; way of doing sth; trick; ruse; fancy-style (as in 花樣滑冰|花样滑冰[hua1 yang4 hua2 bing1",
+"zipf": 3.92
+},
+{
+"word": "茶叶",
+"trad": "茶葉",
+"pinyin": "chá yè",
+"gloss": "tea; tea leaves; CL:盒[he2],罐[guan4],包[bao1],片[pian4]",
+"zipf": 4.0
+},
+{
+"word": "草坪",
+"trad": "草坪",
+"pinyin": "cǎo píng",
+"gloss": "lawn",
+"zipf": 3.7
+},
+{
+"word": "荒诞",
+"trad": "荒誕",
+"pinyin": "huāng dàn",
+"gloss": "beyond belief; incredible; preposterous; fantastic",
+"zipf": 3.52
+},
+{
+"word": "药店",
+"trad": "藥店",
+"pinyin": "yào diàn",
+"gloss": "pharmacy; drugstore",
+"zipf": 3.64
+},
+{
+"word": "获悉",
+"trad": "獲悉",
+"pinyin": "huò xī",
+"gloss": "to learn of sth; to find out; to get news",
+"zipf": 3.99
+},
+{
+"word": "菊花",
+"trad": "菊花",
+"pinyin": "jú huā",
+"gloss": "chrysanthemum; (TCM) chrysanthemum flower; (slang) anus",
+"zipf": 3.87
+},
+{
+"word": "萧条",
+"trad": "蕭條",
+"pinyin": "xiāo tiáo",
+"gloss": "bleak; desolate; (economics) in a slump; sluggish; depressed",
+"zipf": 3.79
+},
+{
+"word": "落差",
+"trad": "落差",
+"pinyin": "luò chà",
+"gloss": "drop in elevation; (fig.) gap (in wages, expectations etc); disparity",
+"zipf": 3.63
+},
+{
+"word": "落户",
+"trad": "落戶",
+"pinyin": "luò hù",
+"gloss": "to settle; to set up home",
+"zipf": 3.7
+},
+{
+"word": "董事会",
+"trad": "董事會",
+"pinyin": "dǒng shì huì",
+"gloss": "board of directors",
+"zipf": 4.39
+},
+{
+"word": "蓝图",
+"trad": "藍圖",
+"pinyin": "lán tú",
+"gloss": "blueprint",
+"zipf": 3.79
+},
+{
+"word": "蓝天",
+"trad": "藍天",
+"pinyin": "lán tiān",
+"gloss": "blue sky",
+"zipf": 3.86
+},
+{
+"word": "虔诚",
+"trad": "虔誠",
+"pinyin": "qián chéng",
+"gloss": "pious; devout; sincere",
+"zipf": 3.87
+},
+{
+"word": "虚拟",
+"trad": "虛擬",
+"pinyin": "xū nǐ",
+"gloss": "to imagine; to make up; fictitious; theoretical; hypothetical; (computing) to emulate; (co",
+"zipf": 4.42
+},
+{
+"word": "行列",
+"trad": "行列",
+"pinyin": "háng liè",
+"gloss": "formation; array; (fig.) ranks (as in \"join the ranks of ...\")",
+"zipf": 4.15
+},
+{
+"word": "行情",
+"trad": "行情",
+"pinyin": "háng qíng",
+"gloss": "market price; quotation of market price; the current market situation",
+"zipf": 4.09
+},
+{
+"word": "行驶",
+"trad": "行駛",
+"pinyin": "xíng shǐ",
+"gloss": "to travel along a route (of vehicles etc)",
+"zipf": 4.15
+},
+{
+"word": "衔接",
+"trad": "銜接",
+"pinyin": "xián jiē",
+"gloss": "to link up; to connect; to join",
+"zipf": 3.92
+},
+{
+"word": "街头",
+"trad": "街頭",
+"pinyin": "jiē tóu",
+"gloss": "street",
+"zipf": 4.61
+},
+{
+"word": "表决",
+"trad": "表決",
+"pinyin": "biǎo jué",
+"gloss": "to decide by vote; to vote",
+"zipf": 4.13
+},
+{
+"word": "表态",
+"trad": "表態",
+"pinyin": "biǎo tài",
+"gloss": "to declare one's position; to say where one stands",
+"zipf": 4.13
+},
+{
+"word": "表述",
+"trad": "表述",
+"pinyin": "biǎo shù",
+"gloss": "to express; to articulate; to formulate",
+"zipf": 3.96
+},
+{
+"word": "衰老",
+"trad": "衰老",
+"pinyin": "shuāi lǎo",
+"gloss": "to age; to deteriorate with age; old and weak",
+"zipf": 3.56
+},
+{
+"word": "裁定",
+"trad": "裁定",
+"pinyin": "cái dìng",
+"gloss": "ruling",
+"zipf": 4.07
+},
+{
+"word": "裸露",
+"trad": "裸露",
+"pinyin": "luǒ lù",
+"gloss": "naked; bare; uncovered; exposed",
+"zipf": 3.67
+},
+{
+"word": "角逐",
+"trad": "角逐",
+"pinyin": "jué zhú",
+"gloss": "to tussle; to contend; to contest",
+"zipf": 3.94
+},
+{
+"word": "解剖",
+"trad": "解剖",
+"pinyin": "jiě pōu",
+"gloss": "to dissect (an animal); to analyze; anatomy",
+"zipf": 3.95
+},
+{
+"word": "触摸",
+"trad": "觸摸",
+"pinyin": "chù mō",
+"gloss": "to touch",
+"zipf": 3.69
+},
+{
+"word": "触犯",
+"trad": "觸犯",
+"pinyin": "chù fàn",
+"gloss": "to violate; to offend",
+"zipf": 3.8
+},
+{
+"word": "警官",
+"trad": "警官",
+"pinyin": "jǐng guān",
+"gloss": "constable; police officer",
+"zipf": 4.06
+},
+{
+"word": "警车",
+"trad": "警車",
+"pinyin": "jǐng chē",
+"gloss": "police car",
+"zipf": 3.75
+},
+{
+"word": "计算机",
+"trad": "計算機",
+"pinyin": "jì suàn jī",
+"gloss": "computer; (Tw) calculator; CL:臺|台[tai2]",
+"zipf": 4.83
+},
+{
+"word": "订购",
+"trad": "訂購",
+"pinyin": "dìng gòu",
+"gloss": "to place an order; to subscribe",
+"zipf": 3.97
+},
+{
+"word": "讨价还价",
+"trad": "討價還價",
+"pinyin": "tǎo jià huán jià",
+"gloss": "to haggle over price; to bargain",
+"zipf": 3.5
+},
+{
+"word": "让座",
+"trad": "讓座",
+"pinyin": "ràng zuò",
+"gloss": "to give up one's seat for sb",
+"zipf": 3.8
+},
+{
+"word": "议程",
+"trad": "議程",
+"pinyin": "yì chéng",
+"gloss": "agenda; agenda item",
+"zipf": 4.04
+},
+{
+"word": "讲究",
+"trad": "講究",
+"pinyin": "jiǎng jiū",
+"gloss": "to pay particular attention to; carefully selected for quality; tastefully chosen",
+"zipf": 4.01
+},
+{
+"word": "讲课",
+"trad": "講課",
+"pinyin": "jiǎng kè",
+"gloss": "teach; lecture",
+"zipf": 3.6
+},
+{
+"word": "论述",
+"trad": "論述",
+"pinyin": "lùn shù",
+"gloss": "treatise; discourse; exposition",
+"zipf": 4.43
+},
+{
+"word": "设计师",
+"trad": "設計師",
+"pinyin": "shè jì shī",
+"gloss": "designer; architect",
+"zipf": 4.54
+},
+{
+"word": "评审",
+"trad": "評審",
+"pinyin": "píng shěn",
+"gloss": "to appraise; to evaluate; to judge",
+"zipf": 4.23
+},
+{
+"word": "评选",
+"trad": "評選",
+"pinyin": "píng xuǎn",
+"gloss": "to select on the basis of a vote or consensus",
+"zipf": 4.2
+},
+{
+"word": "识字",
+"trad": "識字",
+"pinyin": "shí zì",
+"gloss": "to learn to read; able to read; literate",
+"zipf": 3.74
+},
+{
+"word": "诊所",
+"trad": "診所",
+"pinyin": "zhěn suǒ",
+"gloss": "clinic",
+"zipf": 3.99
+},
+{
+"word": "试题",
+"trad": "試題",
+"pinyin": "shì tí",
+"gloss": "exam question; test topic",
+"zipf": 3.58
+},
+{
+"word": "诚信",
+"trad": "誠信",
+"pinyin": "chéng xìn",
+"gloss": "honesty; trustworthiness; good faith",
+"zipf": 4.23
+},
+{
+"word": "话费",
+"trad": "話費",
+"pinyin": "huà fèi",
+"gloss": "call charge",
+"zipf": 3.67
+},
+{
+"word": "详尽",
+"trad": "詳盡",
+"pinyin": "xiáng jìn",
+"gloss": "thorough and detailed; exhaustive; the tedious details in full",
+"zipf": 3.83
+},
+{
+"word": "语音",
+"trad": "語音",
+"pinyin": "yǔ yīn",
+"gloss": "speech sounds; pronunciation; colloquial (rather than literary) pronunciation of a Chinese",
+"zipf": 4.38
+},
+{
+"word": "误区",
+"trad": "誤區",
+"pinyin": "wù qū",
+"gloss": "mistaken ideas; misconceptions; the error of one's ways",
+"zipf": 3.55
+},
+{
+"word": "说不上",
+"trad": "說不上",
+"pinyin": "shuō bù shàng",
+"gloss": "to be unable to say or tell; to not be worth mentioning",
+"zipf": 4.13
+},
+{
+"word": "诸如此类",
+"trad": "諸如此類",
+"pinyin": "zhū rú cǐ lèi",
+"gloss": "things like this (idiom); and so on; and the rest; etc",
+"zipf": 3.54
+},
+{
+"word": "诽谤",
+"trad": "誹謗",
+"pinyin": "fěi bàng",
+"gloss": "to slander; to libel",
+"zipf": 3.88
+},
+{
+"word": "课堂",
+"trad": "課堂",
+"pinyin": "kè táng",
+"gloss": "classroom (CL:間|间[jian1]); class session",
+"zipf": 4.18
+},
+{
+"word": "课本",
+"trad": "課本",
+"pinyin": "kè běn",
+"gloss": "textbook; CL:本[ben3]",
+"zipf": 3.9
+},
+{
+"word": "调度",
+"trad": "調度",
+"pinyin": "diào dù",
+"gloss": "to dispatch (vehicles, staff etc); to schedule; to manage; dispatcher; scheduler",
+"zipf": 3.89
+},
+{
+"word": "调控",
+"trad": "調控",
+"pinyin": "tiáo kòng",
+"gloss": "to regulate; to control",
+"zipf": 4.14
+},
+{
+"word": "调研",
+"trad": "調研",
+"pinyin": "diào yán",
+"gloss": "to investigate and research; research; investigation",
+"zipf": 4.22
+},
+{
+"word": "调解",
+"trad": "調解",
+"pinyin": "tiáo jiě",
+"gloss": "to mediate; to bring parties to an agreement",
+"zipf": 4.09
+},
+{
+"word": "谋生",
+"trad": "謀生",
+"pinyin": "móu shēng",
+"gloss": "to seek one's livelihood; to work to support oneself; to earn a living",
+"zipf": 3.79
+},
+{
+"word": "账单",
+"trad": "賬單",
+"pinyin": "zhàng dān",
+"gloss": "bill",
+"zipf": 3.6
+},
+{
+"word": "账号",
+"trad": "賬號",
+"pinyin": "zhàng hào",
+"gloss": "account number; account; username",
+"zipf": 4.51
+},
+{
+"word": "货车",
+"trad": "貨車",
+"pinyin": "huò chē",
+"gloss": "truck; van; freight wagon",
+"zipf": 4.1
+},
+{
+"word": "货运",
+"trad": "貨運",
+"pinyin": "huò yùn",
+"gloss": "freight transport; cargo; transported goods",
+"zipf": 3.96
+},
+{
+"word": "质地",
+"trad": "質地",
+"pinyin": "zhì dì",
+"gloss": "texture; background (texture); grain; quality; character; disposition",
+"zipf": 3.56
+},
+{
+"word": "质疑",
+"trad": "質疑",
+"pinyin": "zhì yí",
+"gloss": "to call into question; to question (truth or validity)",
+"zipf": 4.63
+},
+{
+"word": "贯通",
+"trad": "貫通",
+"pinyin": "guàn tōng",
+"gloss": "to link up; to thread together",
+"zipf": 3.61
+},
+{
+"word": "贴近",
+"trad": "貼近",
+"pinyin": "tiē jìn",
+"gloss": "to press close to; to snuggle close; intimate",
+"zipf": 3.81
+},
+{
+"word": "资讯",
+"trad": "資訊",
+"pinyin": "zī xùn",
+"gloss": "information",
+"zipf": 4.72
+},
+{
+"word": "赛车",
+"trad": "賽車",
+"pinyin": "sài chē",
+"gloss": "auto race; cycle race; race car",
+"zipf": 4.09
+},
+{
+"word": "赢家",
+"trad": "贏家",
+"pinyin": "yíng jiā",
+"gloss": "winner",
+"zipf": 3.98
+},
+{
+"word": "起草",
+"trad": "起草",
+"pinyin": "qǐ cǎo",
+"gloss": "to make a draft; to draw up (plans)",
+"zipf": 4.06
+},
+{
+"word": "起诉",
+"trad": "起訴",
+"pinyin": "qǐ sù",
+"gloss": "to sue; to bring a lawsuit against; to prosecute",
+"zipf": 4.67
+},
+{
+"word": "超标",
+"trad": "超標",
+"pinyin": "chāo biāo",
+"gloss": "to cross the limit; to be over the accepted norm; excessive",
+"zipf": 3.64
+},
+{
+"word": "趋于",
+"trad": "趨於",
+"pinyin": "qū yú",
+"gloss": "to tend towards",
+"zipf": 3.63
+},
+{
+"word": "跨国",
+"trad": "跨國",
+"pinyin": "kuà guó",
+"gloss": "transnational; multinational",
+"zipf": 4.13
+},
+{
+"word": "路灯",
+"trad": "路燈",
+"pinyin": "lù dēng",
+"gloss": "street lamp; street light",
+"zipf": 3.63
+},
+{
+"word": "跳水",
+"trad": "跳水",
+"pinyin": "tiào shuǐ",
+"gloss": "to dive (into water); (sports) diving; to commit suicide by jumping into water; (fig.) (of",
+"zipf": 3.63
+},
+{
+"word": "车牌",
+"trad": "車牌",
+"pinyin": "chē pái",
+"gloss": "vehicle license plate",
+"zipf": 3.9
+},
+{
+"word": "车票",
+"trad": "車票",
+"pinyin": "chē piào",
+"gloss": "ticket (for a bus or train)",
+"zipf": 3.93
+},
+{
+"word": "车祸",
+"trad": "車禍",
+"pinyin": "chē huò",
+"gloss": "traffic accident; car crash; CL:起[qi3]",
+"zipf": 4.17
+},
+{
+"word": "车轮",
+"trad": "車輪",
+"pinyin": "chē lún",
+"gloss": "wheel",
+"zipf": 3.73
+},
+{
+"word": "车辆",
+"trad": "車輛",
+"pinyin": "chē liàng",
+"gloss": "vehicle",
+"zipf": 4.74
+},
+{
+"word": "转弯",
+"trad": "轉彎",
+"pinyin": "zhuǎn wān",
+"gloss": "to turn; to go around a corner",
+"zipf": 3.58
+},
+{
+"word": "轮子",
+"trad": "輪子",
+"pinyin": "lún zi",
+"gloss": "wheel; (derog.) Falun Gong practitioner; CL:個|个[ge4]",
+"zipf": 3.61
+},
+{
+"word": "轮廓",
+"trad": "輪廓",
+"pinyin": "lún kuò",
+"gloss": "outline; silhouette",
+"zipf": 3.79
+},
+{
+"word": "轮椅",
+"trad": "輪椅",
+"pinyin": "lún yǐ",
+"gloss": "wheelchair",
+"zipf": 3.81
+},
+{
+"word": "轻型",
+"trad": "輕型",
+"pinyin": "qīng xíng",
+"gloss": "light (machinery, aircraft etc)",
+"zipf": 3.76
+},
+{
+"word": "轻微",
+"trad": "輕微",
+"pinyin": "qīng wēi",
+"gloss": "slight; light; trivial; to a small extent",
+"zipf": 3.95
+},
+{
+"word": "轿车",
+"trad": "轎車",
+"pinyin": "jiào chē",
+"gloss": "(old) enclosed carriage for carrying passengers; (automotive) sedan",
+"zipf": 4.12
+},
+{
+"word": "辨别",
+"trad": "辨別",
+"pinyin": "biàn bié",
+"gloss": "to distinguish; to differentiate; to discern; to recognize; to tell",
+"zipf": 3.76
+},
+{
+"word": "迄今",
+"trad": "迄今",
+"pinyin": "qì jīn",
+"gloss": "so far; to date; until now",
+"zipf": 4.06
+},
+{
+"word": "过剩",
+"trad": "過剩",
+"pinyin": "guò shèng",
+"gloss": "to be excessive; to be more than is required",
+"zipf": 3.94
+},
+{
+"word": "过境",
+"trad": "過境",
+"pinyin": "guò jìng",
+"gloss": "to pass through a country's territory; transit",
+"zipf": 3.83
+},
+{
+"word": "近年来",
+"trad": "近年來",
+"pinyin": "jìn nián lái",
+"gloss": "for the past few years",
+"zipf": 4.52
+},
+{
+"word": "连夜",
+"trad": "連夜",
+"pinyin": "lián yè",
+"gloss": "that very night; through the night; for several nights in a row",
+"zipf": 3.7
+},
+{
+"word": "连续剧",
+"trad": "連續劇",
+"pinyin": "lián xù jù",
+"gloss": "serialized drama; dramatic series; show in parts",
+"zipf": 3.8
+},
+{
+"word": "迟疑",
+"trad": "遲疑",
+"pinyin": "chí yí",
+"gloss": "to hesitate",
+"zipf": 3.54
+},
+{
+"word": "退休金",
+"trad": "退休金",
+"pinyin": "tuì xiū jīn",
+"gloss": "retirement pension; pension payments received after retirement",
+"zipf": 3.7
+},
+{
+"word": "适度",
+"trad": "適度",
+"pinyin": "shì dù",
+"gloss": "moderately; appropriate",
+"zipf": 3.87
+},
+{
+"word": "逐年",
+"trad": "逐年",
+"pinyin": "zhú nián",
+"gloss": "year after year; with each passing year; over the years",
+"zipf": 3.89
+},
+{
+"word": "通通",
+"trad": "通通",
+"pinyin": "tōng tōng",
+"gloss": "all; entire; complete",
+"zipf": 3.52
+},
+{
+"word": "造价",
+"trad": "造價",
+"pinyin": "zào jià",
+"gloss": "construction cost",
+"zipf": 3.74
+},
+{
+"word": "遍地",
+"trad": "遍地",
+"pinyin": "biàn dì",
+"gloss": "everywhere; all over",
+"zipf": 3.65
+},
+{
+"word": "遗嘱",
+"trad": "遺囑",
+"pinyin": "yí zhǔ",
+"gloss": "testament; will",
+"zipf": 3.8
+},
+{
+"word": "遥控",
+"trad": "遙控",
+"pinyin": "yáo kòng",
+"gloss": "to direct operations from a remote location; to remotely control",
+"zipf": 3.84
+},
+{
+"word": "遵照",
+"trad": "遵照",
+"pinyin": "zūn zhào",
+"gloss": "in accordance with; to follow (the rules)",
+"zipf": 3.75
+},
+{
+"word": "邮政",
+"trad": "郵政",
+"pinyin": "yóu zhèng",
+"gloss": "postal service; postal",
+"zipf": 4.12
+},
+{
+"word": "配偶",
+"trad": "配偶",
+"pinyin": "pèi ǒu",
+"gloss": "spouse",
+"zipf": 3.86
+},
+{
+"word": "配送",
+"trad": "配送",
+"pinyin": "pèi sòng",
+"gloss": "to put together an order and deliver it (i.e. 配貨|配货[pei4 huo4] and 送貨|送货[song4 huo4]); to ",
+"zipf": 3.59
+},
+{
+"word": "醒目",
+"trad": "醒目",
+"pinyin": "xǐng mù",
+"gloss": "eye-grabbing (headline); striking (illustration)",
+"zipf": 3.57
+},
+{
+"word": "里头",
+"trad": "裡頭",
+"pinyin": "lǐ tou",
+"gloss": "inside; interior",
+"zipf": 4.04
+},
+{
+"word": "里程碑",
+"trad": "里程碑",
+"pinyin": "lǐ chéng bēi",
+"gloss": "milestone",
+"zipf": 3.82
+},
+{
+"word": "重型",
+"trad": "重型",
+"pinyin": "zhòng xíng",
+"gloss": "heavy; heavy duty; large caliber",
+"zipf": 3.79
+},
+{
+"word": "铃声",
+"trad": "鈴聲",
+"pinyin": "líng shēng",
+"gloss": "ring; ringtone; bell stroke; tintinnabulation",
+"zipf": 3.78
+},
+{
+"word": "铜牌",
+"trad": "銅牌",
+"pinyin": "tóng pái",
+"gloss": "bronze medal; bronze plaque bearing a business name or logo etc; CL:枚[mei2]",
+"zipf": 3.69
+},
+{
+"word": "银幕",
+"trad": "銀幕",
+"pinyin": "yín mù",
+"gloss": "movie screen",
+"zipf": 3.6
+},
+{
+"word": "银牌",
+"trad": "銀牌",
+"pinyin": "yín pái",
+"gloss": "silver medal; CL:枚[mei2]",
+"zipf": 3.54
+},
+{
+"word": "铸造",
+"trad": "鑄造",
+"pinyin": "zhù zào",
+"gloss": "to cast (pour metal into a mold)",
+"zipf": 3.85
+},
+{
+"word": "销量",
+"trad": "銷量",
+"pinyin": "xiāo liàng",
+"gloss": "sales volume",
+"zipf": 4.24
+},
+{
+"word": "锤子",
+"trad": "錘子",
+"pinyin": "chuí zi",
+"gloss": "hammer; CL:把[ba3]",
+"zipf": 3.53
+},
+{
+"word": "镇定",
+"trad": "鎮定",
+"pinyin": "zhèn dìng",
+"gloss": "calm; unperturbed; cool",
+"zipf": 3.57
+},
+{
+"word": "镶嵌",
+"trad": "鑲嵌",
+"pinyin": "xiāng qiàn",
+"gloss": "to inlay; to embed; to set (e.g. a jewel in a ring); tiling; tesselation",
+"zipf": 3.53
+},
+{
+"word": "长短",
+"trad": "長短",
+"pinyin": "cháng duǎn",
+"gloss": "length; accident; mishap; right and wrong; good and bad; merits and demerits",
+"zipf": 3.65
+},
+{
+"word": "门槛",
+"trad": "門檻",
+"pinyin": "mén kǎn",
+"gloss": "doorstep; sill; threshold; fig. knack or trick (esp. scheme to get sth cheaper)",
+"zipf": 4.17
+},
+{
+"word": "门诊",
+"trad": "門診",
+"pinyin": "mén zhěn",
+"gloss": "outpatient service",
+"zipf": 3.7
+},
+{
+"word": "防火墙",
+"trad": "防火牆",
+"pinyin": "fáng huǒ qiáng",
+"gloss": "firewall",
+"zipf": 3.55
+},
+{
+"word": "阻力",
+"trad": "阻力",
+"pinyin": "zǔ lì",
+"gloss": "resistance; drag",
+"zipf": 3.96
+},
+{
+"word": "阻挠",
+"trad": "阻撓",
+"pinyin": "zǔ náo",
+"gloss": "to thwart; to obstruct (sth)",
+"zipf": 3.95
+},
+{
+"word": "陆军",
+"trad": "陸軍",
+"pinyin": "lù jūn",
+"gloss": "army; ground forces",
+"zipf": 4.38
+},
+{
+"word": "陈述",
+"trad": "陳述",
+"pinyin": "chén shù",
+"gloss": "to state; to declare",
+"zipf": 4.2
+},
+{
+"word": "降价",
+"trad": "降價",
+"pinyin": "jiàng jià",
+"gloss": "to cut the price; to drive down the price; to get cheaper",
+"zipf": 3.92
+},
+{
+"word": "降温",
+"trad": "降溫",
+"pinyin": "jiàng wēn",
+"gloss": "to become cooler; to lower the temperature; cooling; (of interest, activity etc) to declin",
+"zipf": 3.74
+},
+{
+"word": "限于",
+"trad": "限於",
+"pinyin": "xiàn yú",
+"gloss": "to be limited to; to be confined to",
+"zipf": 4.16
+},
+{
+"word": "院子",
+"trad": "院子",
+"pinyin": "yuàn zi",
+"gloss": "courtyard; garden; yard; patio; CL:個|个[ge4]; (old) servant",
+"zipf": 3.93
+},
+{
+"word": "除外",
+"trad": "除外",
+"pinyin": "chú wài",
+"gloss": "to exclude; not including sth (when counting or listing); except for",
+"zipf": 4.05
+},
+{
+"word": "陶瓷",
+"trad": "陶瓷",
+"pinyin": "táo cí",
+"gloss": "pottery and porcelain; ceramics",
+"zipf": 3.96
+},
+{
+"word": "隐身",
+"trad": "隱身",
+"pinyin": "yǐn shēn",
+"gloss": "to hide oneself; invisible (person or online status)",
+"zipf": 3.71
+},
+{
+"word": "难堪",
+"trad": "難堪",
+"pinyin": "nán kān",
+"gloss": "hard to take; embarrassed",
+"zipf": 3.83
+},
+{
+"word": "难点",
+"trad": "難點",
+"pinyin": "nán diǎn",
+"gloss": "difficulty",
+"zipf": 3.64
+},
+{
+"word": "雄厚",
+"trad": "雄厚",
+"pinyin": "xióng hòu",
+"gloss": "substantial; robust; ample; abundant",
+"zipf": 3.56
+},
+{
+"word": "集资",
+"trad": "集資",
+"pinyin": "jí zī",
+"gloss": "to raise money; to accumulate funds",
+"zipf": 4.04
+},
+{
+"word": "雇员",
+"trad": "雇員",
+"pinyin": "gù yuán",
+"gloss": "employee",
+"zipf": 4.05
+},
+{
+"word": "零件",
+"trad": "零件",
+"pinyin": "líng jiàn",
+"gloss": "part; component",
+"zipf": 3.99
+},
+{
+"word": "霸占",
+"trad": "霸佔",
+"pinyin": "bà zhàn",
+"gloss": "to occupy by force; to seize; to dominate",
+"zipf": 3.54
+},
+{
+"word": "青春期",
+"trad": "青春期",
+"pinyin": "qīng chūn qī",
+"gloss": "puberty; adolescence",
+"zipf": 3.62
+},
+{
+"word": "面粉",
+"trad": "麵粉",
+"pinyin": "miàn fěn",
+"gloss": "flour",
+"zipf": 3.82
+},
+{
+"word": "革新",
+"trad": "革新",
+"pinyin": "gé xīn",
+"gloss": "to innovate; innovation",
+"zipf": 4.02
+},
+{
+"word": "音响",
+"trad": "音響",
+"pinyin": "yīn xiǎng",
+"gloss": "sound; acoustics; audio; hi-fi system; stereo sound system (abbr. for 組合音響|组合音响[zu3 he2 yi",
+"zipf": 3.92
+},
+{
+"word": "音节",
+"trad": "音節",
+"pinyin": "yīn jié",
+"gloss": "syllable",
+"zipf": 3.6
+},
+{
+"word": "顿时",
+"trad": "頓時",
+"pinyin": "dùn shí",
+"gloss": "immediately; suddenly",
+"zipf": 3.95
+},
+{
+"word": "颁奖",
+"trad": "頒獎",
+"pinyin": "bān jiǎng",
+"gloss": "to confer an award",
+"zipf": 3.93
+},
+{
+"word": "预示",
+"trad": "預示",
+"pinyin": "yù shì",
+"gloss": "to indicate; to foretell; to forebode; to betoken",
+"zipf": 3.82
+},
+{
+"word": "领事",
+"trad": "領事",
+"pinyin": "lǐng shì",
+"gloss": "consul",
+"zipf": 3.86
+},
+{
+"word": "领养",
+"trad": "領養",
+"pinyin": "lǐng yǎng",
+"gloss": "to adopt (a child, pet etc)",
+"zipf": 3.75
+},
+{
+"word": "领军",
+"trad": "領軍",
+"pinyin": "lǐng jūn",
+"gloss": "to lead troups; (fig.) to lead; leading",
+"zipf": 3.61
+},
+{
+"word": "领带",
+"trad": "領帶",
+"pinyin": "lǐng dài",
+"gloss": "necktie; CL:條|条[tiao2]",
+"zipf": 3.57
+},
+{
+"word": "风力",
+"trad": "風力",
+"pinyin": "fēng lì",
+"gloss": "wind force; wind power",
+"zipf": 3.91
+},
+{
+"word": "风尚",
+"trad": "風尚",
+"pinyin": "fēng shàng",
+"gloss": "current custom; current way of doing things",
+"zipf": 3.56
+},
+{
+"word": "风情",
+"trad": "風情",
+"pinyin": "fēng qíng",
+"gloss": "mien; bearing; grace; amorous feelings; flirtatious expressions; local conditions and cust",
+"zipf": 3.99
+},
+{
+"word": "风采",
+"trad": "風采",
+"pinyin": "fēng cǎi",
+"gloss": "svelte; elegant manner; graceful bearing",
+"zipf": 3.74
+},
+{
+"word": "飞行员",
+"trad": "飛行員",
+"pinyin": "fēi xíng yuán",
+"gloss": "pilot; aviator",
+"zipf": 4.24
+},
+{
+"word": "飞跃",
+"trad": "飛躍",
+"pinyin": "fēi yuè",
+"gloss": "to leap",
+"zipf": 3.84
+},
+{
+"word": "餐桌",
+"trad": "餐桌",
+"pinyin": "cān zhuō",
+"gloss": "dining table; dinner table; CL:張|张[zhang1]",
+"zipf": 3.62
+},
+{
+"word": "餐馆",
+"trad": "餐館",
+"pinyin": "cān guǎn",
+"gloss": "restaurant; CL:家[jia1]",
+"zipf": 4.17
+},
+{
+"word": "饭碗",
+"trad": "飯碗",
+"pinyin": "fàn wǎn",
+"gloss": "rice bowl; fig. livelihood; job; way of making a living",
+"zipf": 3.71
+},
+{
+"word": "饮水",
+"trad": "飲水",
+"pinyin": "yǐn shuǐ",
+"gloss": "to drink water; drinking water",
+"zipf": 3.68
+},
+{
+"word": "饮用水",
+"trad": "飲用水",
+"pinyin": "yǐn yòng shuǐ",
+"gloss": "drinking water; potable water",
+"zipf": 3.54
+},
+{
+"word": "饱和",
+"trad": "飽和",
+"pinyin": "bǎo hé",
+"gloss": "saturated; filled to capacity",
+"zipf": 3.59
+},
+{
+"word": "饲料",
+"trad": "飼料",
+"pinyin": "sì liào",
+"gloss": "feed; fodder",
+"zipf": 4.01
+},
+{
+"word": "香料",
+"trad": "香料",
+"pinyin": "xiāng liào",
+"gloss": "spice; flavoring; condiment; perfume",
+"zipf": 3.71
+},
+{
+"word": "香烟",
+"trad": "香煙",
+"pinyin": "xiāng yān",
+"gloss": "smoke from incense (burned as an offering to one's ancestors); (fig.) continuation of fami",
+"zipf": 4.07
+},
+{
+"word": "马力",
+"trad": "馬力",
+"pinyin": "mǎ lì",
+"gloss": "horsepower",
+"zipf": 3.85
+},
+{
+"word": "马桶",
+"trad": "馬桶",
+"pinyin": "mǎ tǒng",
+"gloss": "chamber pot; wooden pan used as toilet; toilet bowl",
+"zipf": 3.67
+},
+{
+"word": "马路",
+"trad": "馬路",
+"pinyin": "mǎ lù",
+"gloss": "street; road; CL:條|条[tiao2]",
+"zipf": 4.09
+},
+{
+"word": "驾照",
+"trad": "駕照",
+"pinyin": "jià zhào",
+"gloss": "driver's license (abbr. for 駕駛執照|驾驶执照[jia4 shi3 zhi2 zhao4])",
+"zipf": 3.77
+},
+{
+"word": "驾车",
+"trad": "駕車",
+"pinyin": "jià chē",
+"gloss": "to drive a vehicle",
+"zipf": 3.93
+},
+{
+"word": "骑车",
+"trad": "騎車",
+"pinyin": "qí chē",
+"gloss": "to ride a bike (motorbike or bicycle)",
+"zipf": 3.58
+},
+{
+"word": "高压",
+"trad": "高壓",
+"pinyin": "gāo yā",
+"gloss": "(physics) high pressure; (meteorology) high atmospheric pressure; high voltage; systolic b",
+"zipf": 4.18
+},
+{
+"word": "高尔夫球",
+"trad": "高爾夫球",
+"pinyin": "gāo ěr fū qiú",
+"gloss": "golf; golf ball",
+"zipf": 3.65
+},
+{
+"word": "高峰期",
+"trad": "高峰期",
+"pinyin": "gāo fēng qī",
+"gloss": "peak period; rush hour",
+"zipf": 3.59
+},
+{
+"word": "高科技",
+"trad": "高科技",
+"pinyin": "gāo kē jì",
+"gloss": "high tech; high technology",
+"zipf": 3.98
+},
+{
+"word": "高跟鞋",
+"trad": "高跟鞋",
+"pinyin": "gāo gēn xié",
+"gloss": "high-heeled shoes",
+"zipf": 3.8
+},
+{
+"word": "高铁",
+"trad": "高鐵",
+"pinyin": "gāo tiě",
+"gloss": "high speed rail",
+"zipf": 4.2
+},
+{
+"word": "高雅",
+"trad": "高雅",
+"pinyin": "gāo yǎ",
+"gloss": "dainty; elegance; elegant",
+"zipf": 3.6
+},
+{
+"word": "高龄",
+"trad": "高齡",
+"pinyin": "gāo líng",
+"gloss": "elderly",
+"zipf": 3.75
+},
+{
+"word": "黄瓜",
+"trad": "黃瓜",
+"pinyin": "huáng guā",
+"gloss": "cucumber; CL:條|条[tiao2]",
+"zipf": 3.64
+},
+{
+"word": "黑客",
+"trad": "黑客",
+"pinyin": "hēi kè",
+"gloss": "(computing) (loanword) hacker",
+"zipf": 3.96
+},
+{
+"word": "黑手",
+"trad": "黑手",
+"pinyin": "hēi shǒu",
+"gloss": "(fig.) malign agent who manipulates from behind the scenes; hidden hand; (Tw) mechanic; bl",
+"zipf": 3.69
+},
+{
+"word": "鼓动",
+"trad": "鼓動",
+"pinyin": "gǔ dòng",
+"gloss": "to urge (an activity that may be beneficial, harmful or neutral); to encourage; to agitate",
+"zipf": 3.78
+},
+{
+"word": "鼠标",
+"trad": "鼠標",
+"pinyin": "shǔ biāo",
+"gloss": "(computing) mouse",
+"zipf": 3.67
+},
+{
+"word": "一头",
+"trad": "一頭",
+"pinyin": "yī tóu",
+"gloss": "one head; a head full of sth; one end (of a stick); one side; headlong; directly; rapidly;",
+"zipf": 4.14
+},
+{
+"word": "一路上",
+"trad": "一路上",
+"pinyin": "yī lù shàng",
+"gloss": "along the way; the whole way; (fig.) the whole time",
+"zipf": 3.69
+},
+{
+"word": "上方",
+"trad": "上方",
+"pinyin": "shàng fāng",
+"gloss": "place above (it); upper part (of it)",
+"zipf": 3.95
+},
+{
+"word": "下岗",
+"trad": "下崗",
+"pinyin": "xià gǎng",
+"gloss": "(of a guard, sentry etc) to come off duty; (of a worker) be to laid off",
+"zipf": 4.01
+},
+{
+"word": "下期",
+"trad": "下期",
+"pinyin": "xià qī",
+"gloss": "next period (week, month or quarter etc)",
+"zipf": 4.25
+},
+{
+"word": "不仅仅",
+"trad": "不僅僅",
+"pinyin": "bù jǐn jǐn",
+"gloss": "not only; not just",
+"zipf": 4.38
+},
+{
+"word": "不算",
+"trad": "不算",
+"pinyin": "bù suàn",
+"gloss": "to not calculate; to not count; to not be considered (as); to have no weight",
+"zipf": 4.41
+},
+{
+"word": "两手",
+"trad": "兩手",
+"pinyin": "liǎng shǒu",
+"gloss": "one's two hands; two prongs (of a strategy); both aspects, eventualities etc; skills; expe",
+"zipf": 3.56
+},
+{
+"word": "主题歌",
+"trad": "主題歌",
+"pinyin": "zhǔ tí gē",
+"gloss": "theme song",
+"zipf": 3.6
+},
+{
+"word": "也好",
+"trad": "也好",
+"pinyin": "yě hǎo",
+"gloss": "that's fine; may as well; (reduplicated) regardless of whether ... or ...",
+"zipf": 4.29
+},
+{
+"word": "交费",
+"trad": "交費",
+"pinyin": "jiāo fèi",
+"gloss": "to pay a fee",
+"zipf": 3.52
+},
+{
+"word": "产地",
+"trad": "產地",
+"pinyin": "chǎn dì",
+"gloss": "source (of a product); place of origin; manufacturing location",
+"zipf": 4.09
+},
+{
+"word": "公共场所",
+"trad": "公共場所",
+"pinyin": "gōng gòng chǎng suǒ",
+"gloss": "public place",
+"zipf": 3.6
+},
+{
+"word": "公开信",
+"trad": "公開信",
+"pinyin": "gōng kāi xìn",
+"gloss": "open letter",
+"zipf": 4.01
+},
+{
+"word": "公示",
+"trad": "公示",
+"pinyin": "gōng shì",
+"gloss": "to make known to the public (for information or to seek comments); public notification",
+"zipf": 3.72
+},
+{
+"word": "公积金",
+"trad": "公積金",
+"pinyin": "gōng jī jīn",
+"gloss": "official reserves; accumulated fund",
+"zipf": 3.87
+},
+{
+"word": "农民工",
+"trad": "農民工",
+"pinyin": "nóng mín gōng",
+"gloss": "migrant worker (who moved from a rural area of China to a city to find work)",
+"zipf": 3.72
+},
+{
+"word": "凭着",
+"trad": "憑著",
+"pinyin": "píng zhe",
+"gloss": "relying on; on the basis of",
+"zipf": 3.55
+},
+{
+"word": "出访",
+"trad": "出訪",
+"pinyin": "chū fǎng",
+"gloss": "to go and visit in an official capacity or for investigation",
+"zipf": 3.92
+},
+{
+"word": "别说",
+"trad": "別說",
+"pinyin": "bié shuō",
+"gloss": "to say nothing of; not to mention; let alone",
+"zipf": 4.4
+},
+{
+"word": "办学",
+"trad": "辦學",
+"pinyin": "bàn xué",
+"gloss": "to run a school",
+"zipf": 4.27
+},
+{
+"word": "劳务",
+"trad": "勞務",
+"pinyin": "láo wù",
+"gloss": "service (work done for money); services (as in \"goods and services\")",
+"zipf": 3.9
+},
+{
+"word": "化纤",
+"trad": "化纖",
+"pinyin": "huà xiān",
+"gloss": "man-made fiber (abbr. for 化學纖維|化学纤维[hua4 xue2 xian1 wei2])",
+"zipf": 3.6
+},
+{
+"word": "历届",
+"trad": "歷屆",
+"pinyin": "lì jiè",
+"gloss": "all previous (meetings, sessions etc)",
+"zipf": 3.83
+},
+{
+"word": "取决于",
+"trad": "取決於",
+"pinyin": "qǔ jué yú",
+"gloss": "to hinge on; to be decided by; to depend on",
+"zipf": 4.1
+},
+{
+"word": "受过",
+"trad": "受過",
+"pinyin": "shòu guò",
+"gloss": "to take the blame (for sb else)",
+"zipf": 4.19
+},
+{
+"word": "只见",
+"trad": "只見",
+"pinyin": "zhǐ jiàn",
+"gloss": "to see (the same thing) over and over again; to see, to one's surprise, (sth happen sudden",
+"zipf": 3.8
+},
+{
+"word": "司长",
+"trad": "司長",
+"pinyin": "sī zhǎng",
+"gloss": "bureau chief",
+"zipf": 3.8
+},
+{
+"word": "向着",
+"trad": "向著",
+"pinyin": "xiàng zhe",
+"gloss": "towards; facing (sb or sth); (coll.) to side with; to favor",
+"zipf": 3.87
+},
+{
+"word": "吓人",
+"trad": "嚇人",
+"pinyin": "xià rén",
+"gloss": "to scare; scary; frightening",
+"zipf": 3.82
+},
+{
+"word": "响起",
+"trad": "響起",
+"pinyin": "xiǎng qǐ",
+"gloss": "(of a sound) to come forth; (of a sound source) to ring out; to sound; to go off",
+"zipf": 3.9
+},
+{
+"word": "在家",
+"trad": "在家",
+"pinyin": "zài jiā",
+"gloss": "to be at home; (at a workplace) to be in (as opposed to being away on official business 出差",
+"zipf": 4.64
+},
+{
+"word": "场馆",
+"trad": "場館",
+"pinyin": "chǎng guǎn",
+"gloss": "sporting venue; arena",
+"zipf": 3.82
+},
+{
+"word": "增收",
+"trad": "增收",
+"pinyin": "zēng shōu",
+"gloss": "to increase revenue; to increase income by (x amount); to levy (a surcharge, tax increase ",
+"zipf": 3.63
+},
+{
+"word": "多年",
+"trad": "多年",
+"pinyin": "duō nián",
+"gloss": "many years; for many years; longstanding",
+"zipf": 5.08
+},
+{
+"word": "大奖赛",
+"trad": "大獎賽",
+"pinyin": "dà jiǎng sài",
+"gloss": "grand prix",
+"zipf": 3.55
+},
+{
+"word": "大家庭",
+"trad": "大家庭",
+"pinyin": "dà jiā tíng",
+"gloss": "extended family; big family; harmonious group",
+"zipf": 3.58
+},
+{
+"word": "大笔",
+"trad": "大筆",
+"pinyin": "dà bǐ",
+"gloss": "(formal, honorific) your writing; your handwriting; pen; calligraphy brush; a large sum of",
+"zipf": 3.56
+},
+{
+"word": "大赛",
+"trad": "大賽",
+"pinyin": "dà sài",
+"gloss": "grand contest",
+"zipf": 4.5
+},
+{
+"word": "大选",
+"trad": "大選",
+"pinyin": "dà xuǎn",
+"gloss": "general election",
+"zipf": 4.54
+},
+{
+"word": "大面积",
+"trad": "大面積",
+"pinyin": "dà miàn jī",
+"gloss": "large area; (fig.) (of a problem) (occurring) on a massive scale",
+"zipf": 3.67
+},
+{
+"word": "好人",
+"trad": "好人",
+"pinyin": "hǎo rén",
+"gloss": "good person; healthy person; person who tries not to offend anyone, even at the expense of",
+"zipf": 4.35
+},
+{
+"word": "如果说",
+"trad": "如果說",
+"pinyin": "rú guǒ shuō",
+"gloss": "if; if one were to say",
+"zipf": 3.98
+},
+{
+"word": "审定",
+"trad": "審定",
+"pinyin": "shěn dìng",
+"gloss": "to examine sth and make a decision; to screen; to evaluate; to approve",
+"zipf": 3.77
+},
+{
+"word": "富含",
+"trad": "富含",
+"pinyin": "fù hán",
+"gloss": "to contain in great quantities; rich in",
+"zipf": 3.65
+},
+{
+"word": "富强",
+"trad": "富強",
+"pinyin": "fù qiáng",
+"gloss": "rich and powerful",
+"zipf": 3.57
+},
+{
+"word": "就座",
+"trad": "就座",
+"pinyin": "jiù zuò",
+"gloss": "to take a seat",
+"zipf": 3.81
+},
+{
+"word": "师资",
+"trad": "師資",
+"pinyin": "shī zī",
+"gloss": "qualified teacher",
+"zipf": 3.82
+},
+{
+"word": "带队",
+"trad": "帶隊",
+"pinyin": "dài duì",
+"gloss": "to lead a team; to lead a group; group leader; (tourism) tour guide",
+"zipf": 3.55
+},
+{
+"word": "年画",
+"trad": "年畫",
+"pinyin": "nián huà",
+"gloss": "New Year (Spring Festival) picture",
+"zipf": 3.92
+},
+{
+"word": "开发区",
+"trad": "開發區",
+"pinyin": "kāi fā qū",
+"gloss": "development zone",
+"zipf": 4.02
+},
+{
+"word": "弘扬",
+"trad": "弘揚",
+"pinyin": "hóng yáng",
+"gloss": "to enhance; to promote; to enrich",
+"zipf": 3.98
+},
+{
+"word": "归来",
+"trad": "歸來",
+"pinyin": "guī lái",
+"gloss": "to return; to come back",
+"zipf": 4.07
+},
+{
+"word": "攻关",
+"trad": "攻關",
+"pinyin": "gōng guān",
+"gloss": "to storm a strategic pass; fig. to tackle a key problem",
+"zipf": 3.66
+},
+{
+"word": "救灾",
+"trad": "救災",
+"pinyin": "jiù zāi",
+"gloss": "to relieve disaster; to help disaster victims",
+"zipf": 4.0
+},
+{
+"word": "更是",
+"trad": "更是",
+"pinyin": "gèng shì",
+"gloss": "even more (so)",
+"zipf": 4.75
+},
+{
+"word": "有利于",
+"trad": "有利於",
+"pinyin": "yǒu lì yú",
+"gloss": "to be advantageous to; to be beneficial for",
+"zipf": 4.23
+},
+{
+"word": "查处",
+"trad": "查處",
+"pinyin": "chá chǔ",
+"gloss": "to investigate and handle (a criminal case)",
+"zipf": 3.96
+},
+{
+"word": "检察",
+"trad": "檢察",
+"pinyin": "jiǎn chá",
+"gloss": "to inspect; (law) to prosecute; to investigate",
+"zipf": 4.38
+},
+{
+"word": "此事",
+"trad": "此事",
+"pinyin": "cǐ shì",
+"gloss": "this matter",
+"zipf": 4.52
+},
+{
+"word": "比如说",
+"trad": "比如說",
+"pinyin": "bǐ rú shuō",
+"gloss": "for example",
+"zipf": 4.18
+},
+{
+"word": "民办",
+"trad": "民辦",
+"pinyin": "mín bàn",
+"gloss": "run by the local people; privately operated",
+"zipf": 3.76
+},
+{
+"word": "民工",
+"trad": "民工",
+"pinyin": "mín gōng",
+"gloss": "migrant worker (who moved from a rural area of China to a city to find work); temporary wo",
+"zipf": 3.74
+},
+{
+"word": "活期",
+"trad": "活期",
+"pinyin": "huó qī",
+"gloss": "(banking) current (account); checking (account); demand (deposit etc)",
+"zipf": 3.85
+},
+{
+"word": "流向",
+"trad": "流向",
+"pinyin": "liú xiàng",
+"gloss": "direction of a current; direction of flow; to flow toward",
+"zipf": 4.01
+},
+{
+"word": "燃气",
+"trad": "燃氣",
+"pinyin": "rán qì",
+"gloss": "fuel gas (coal gas, natural gas, methane etc)",
+"zipf": 3.75
+},
+{
+"word": "特大",
+"trad": "特大",
+"pinyin": "tè dà",
+"gloss": "exceptionally big",
+"zipf": 3.78
+},
+{
+"word": "理财",
+"trad": "理財",
+"pinyin": "lǐ cái",
+"gloss": "to manage wealth; to manage finances; money management",
+"zipf": 4.0
+},
+{
+"word": "申办",
+"trad": "申辦",
+"pinyin": "shēn bàn",
+"gloss": "to apply for; to bid for",
+"zipf": 3.64
+},
+{
+"word": "电动车",
+"trad": "電動車",
+"pinyin": "diàn dòng chē",
+"gloss": "electric vehicle (commonly refers to e-bikes, scooters or electric cars)",
+"zipf": 3.85
+},
+{
+"word": "电讯",
+"trad": "電訊",
+"pinyin": "diàn xùn",
+"gloss": "telecommunications; telecom",
+"zipf": 3.87
+},
+{
+"word": "百分点",
+"trad": "百分點",
+"pinyin": "bǎi fēn diǎn",
+"gloss": "percentage point",
+"zipf": 4.07
+},
+{
+"word": "相对而言",
+"trad": "相對而言",
+"pinyin": "xiāng duì ér yán",
+"gloss": "relatively speaking; comparatively speaking",
+"zipf": 3.55
+},
+{
+"word": "看得出",
+"trad": "看得出",
+"pinyin": "kàn dé chū",
+"gloss": "can see; can tell",
+"zipf": 3.53
+},
+{
+"word": "第一线",
+"trad": "第一線",
+"pinyin": "dì yī xiàn",
+"gloss": "front line; forefront",
+"zipf": 3.52
+},
+{
+"word": "管理费",
+"trad": "管理費",
+"pinyin": "guǎn lǐ fèi",
+"gloss": "management fee",
+"zipf": 3.73
+},
+{
+"word": "粽子",
+"trad": "粽子",
+"pinyin": "zòng zi",
+"gloss": "glutinous rice and choice of filling wrapped in leaves and steamed or boiled",
+"zipf": 3.54
+},
+{
+"word": "紧接着",
+"trad": "緊接著",
+"pinyin": "jǐn jiē zhe",
+"gloss": "immediately afterwards; shortly after that",
+"zipf": 3.66
+},
+{
+"word": "红酒",
+"trad": "紅酒",
+"pinyin": "hóng jiǔ",
+"gloss": "red wine",
+"zipf": 3.81
+},
+{
+"word": "经贸",
+"trad": "經貿",
+"pinyin": "jīng mào",
+"gloss": "economy and trade (abbr. for 經濟貿易|经济贸易[jing1 ji4 mao4 yi4])",
+"zipf": 4.02
+},
+{
+"word": "缴费",
+"trad": "繳費",
+"pinyin": "jiǎo fèi",
+"gloss": "to pay a fee",
+"zipf": 3.61
+},
+{
+"word": "网点",
+"trad": "網點",
+"pinyin": "wǎng diǎn",
+"gloss": "branch; service outlet (of a bank, retail store etc); (printing) halftone dot; (computing)",
+"zipf": 3.85
+},
+{
+"word": "老汉",
+"trad": "老漢",
+"pinyin": "lǎo hàn",
+"gloss": "old man; I (an old man referring to himself)",
+"zipf": 3.67
+},
+{
+"word": "胜出",
+"trad": "勝出",
+"pinyin": "shèng chū",
+"gloss": "to come out on top; to win (in an election, contest etc); success; victory",
+"zipf": 4.03
+},
+{
+"word": "节假日",
+"trad": "節假日",
+"pinyin": "jié jià rì",
+"gloss": "public holiday",
+"zipf": 3.65
+},
+{
+"word": "评论员",
+"trad": "評論員",
+"pinyin": "píng lùn yuán",
+"gloss": "commentator",
+"zipf": 3.73
+},
+{
+"word": "说真的",
+"trad": "說真的",
+"pinyin": "shuō zhēn de",
+"gloss": "to tell the truth; honestly; in fact",
+"zipf": 3.76
+},
+{
+"word": "谈起",
+"trad": "談起",
+"pinyin": "tán qǐ",
+"gloss": "to mention; to speak of; to talk about",
+"zipf": 3.58
+},
+{
+"word": "起到",
+"trad": "起到",
+"pinyin": "qǐ dào",
+"gloss": "(in an expression of the form 起到[qi3 dao4] + … + 作用[zuo4 yong4]) to have (a (motivating et",
+"zipf": 4.16
+},
+{
+"word": "路段",
+"trad": "路段",
+"pinyin": "lù duàn",
+"gloss": "stretch of road; section of a highway or railway",
+"zipf": 3.67
+},
+{
+"word": "跳远",
+"trad": "跳遠",
+"pinyin": "tiào yuǎn",
+"gloss": "long jump (athletics)",
+"zipf": 3.66
+},
+{
+"word": "车号",
+"trad": "車號",
+"pinyin": "chē hào",
+"gloss": "vehicle number (license plate number, taxi number, bus number, train car number)",
+"zipf": 4.16
+},
+{
+"word": "车型",
+"trad": "車型",
+"pinyin": "chē xíng",
+"gloss": "vehicle model (i.e. particular version of a car or motorcycle etc)",
+"zipf": 3.91
+},
+{
+"word": "迎来",
+"trad": "迎來",
+"pinyin": "yíng lái",
+"gloss": "to welcome (a visitor or newcomer); (fig.) to usher in",
+"zipf": 4.19
+},
+{
+"word": "还款",
+"trad": "還款",
+"pinyin": "hái kuǎn",
+"gloss": "repayment; to pay back money",
+"zipf": 3.53
+},
+{
+"word": "违章",
+"trad": "違章",
+"pinyin": "wéi zhāng",
+"gloss": "to break the rules; to violate regulations",
+"zipf": 3.58
+},
+{
+"word": "递给",
+"trad": "遞給",
+"pinyin": "dì gěi",
+"gloss": "to hand it (i.e. the aforementioned item) to (sb)",
+"zipf": 3.7
+},
+{
+"word": "通知书",
+"trad": "通知書",
+"pinyin": "tōng zhī shū",
+"gloss": "written notice",
+"zipf": 3.56
+},
+{
+"word": "通车",
+"trad": "通車",
+"pinyin": "tōng chē",
+"gloss": "to open to traffic (e.g. new bridge, rail line etc); (of a locality) to have a transportat",
+"zipf": 4.08
+},
+{
+"word": "遇上",
+"trad": "遇上",
+"pinyin": "yù shàng",
+"gloss": "to come across (sb); to run into",
+"zipf": 4.27
+},
+{
+"word": "防疫",
+"trad": "防疫",
+"pinyin": "fáng yì",
+"gloss": "to prevent epidemics",
+"zipf": 3.75
+},
+{
+"word": "雪山",
+"trad": "雪山",
+"pinyin": "xuě shān",
+"gloss": "snow-capped mountain",
+"zipf": 3.7
+},
+{
+"word": "首府",
+"trad": "首府",
+"pinyin": "shǒu fǔ",
+"gloss": "capital city of an autonomous region",
+"zipf": 4.05
+},
+{
+"word": "首批",
+"trad": "首批",
+"pinyin": "shǒu pī",
+"gloss": "first batch",
+"zipf": 4.05
+},
+{
+"word": "高新技术",
+"trad": "高新技術",
+"pinyin": "gāo xīn jì shù",
+"gloss": "high tech; high technology",
+"zipf": 3.87
+}
+]

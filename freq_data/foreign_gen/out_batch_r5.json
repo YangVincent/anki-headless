@@ -1,0 +1,191 @@
+[
+  {
+    "word": "红酒",
+    "sent_simp": "她晚饭后喜欢喝一杯红酒。",
+    "sent_trad": "她晚飯後喜歡喝一杯紅酒。",
+    "pinyin": "Tā wǎnfàn hòu xǐhuān hē yī bēi hóngjiǔ.",
+    "english": "She likes to have a glass of red wine after dinner."
+  },
+  {
+    "word": "经贸",
+    "sent_simp": "两国的经贸合作越来越密切。",
+    "sent_trad": "兩國的經貿合作越來越密切。",
+    "pinyin": "Liǎng guó de jīngmào hézuò yuèláiyuè mìqiē.",
+    "english": "Economic and trade cooperation between the two countries is growing closer."
+  },
+  {
+    "word": "缴费",
+    "sent_simp": "你可以用手机App缴费。",
+    "sent_trad": "你可以用手機App繳費。",
+    "pinyin": "Nǐ kěyǐ yòng shǒujī App jiǎofèi.",
+    "english": "You can pay fees using your phone's app."
+  },
+  {
+    "word": "网点",
+    "sent_simp": "这家银行在市区有很多网点。",
+    "sent_trad": "這家銀行在市區有很多網點。",
+    "pinyin": "Zhè jiā yínháng zài shìqū yǒu hěnduō wǎngdiǎn.",
+    "english": "This bank has many branch outlets in the city."
+  },
+  {
+    "word": "老汉",
+    "sent_simp": "村口那个老汉每天早起锻炼。",
+    "sent_trad": "村口那個老漢每天早起鍛鍊。",
+    "pinyin": "Cūn kǒu nàge lǎohàn měitiān zǎo qǐ duànliàn.",
+    "english": "The old man at the village entrance exercises early every morning."
+  },
+  {
+    "word": "胜出",
+    "sent_simp": "她在比赛中凭实力胜出。",
+    "sent_trad": "她在比賽中憑實力勝出。",
+    "pinyin": "Tā zài bǐsài zhōng píng shílì shèngchū.",
+    "english": "She won the competition through her own ability."
+  },
+  {
+    "word": "节假日",
+    "sent_simp": "节假日高速公路经常堵车。",
+    "sent_trad": "節假日高速公路經常堵車。",
+    "pinyin": "Jiéjiàrì gāosù gōnglù jīngcháng dǔchē.",
+    "english": "The highway is often congested on public holidays."
+  },
+  {
+    "word": "评论员",
+    "sent_simp": "这位体育评论员解说得很精彩。",
+    "sent_trad": "這位體育評論員解說得很精彩。",
+    "pinyin": "Zhè wèi tǐyù pínglùnyuán jiěshuō de hěn jīngcǎi.",
+    "english": "This sports commentator gives excellent commentary."
+  },
+  {
+    "word": "说真的",
+    "sent_simp": "说真的，我不太喜欢那部电影。",
+    "sent_trad": "說真的，我不太喜歡那部電影。",
+    "pinyin": "Shuō zhēn de, wǒ bù tài xǐhuān nà bù diànyǐng.",
+    "english": "Honestly, I didn't really like that movie."
+  },
+  {
+    "word": "谈起",
+    "sent_simp": "每次谈起家乡，他都很兴奋。",
+    "sent_trad": "每次談起家鄉，他都很興奮。",
+    "pinyin": "Měi cì tánqǐ jiāxiāng, tā dōu hěn xīngfèn.",
+    "english": "Every time he talks about his hometown, he gets very excited."
+  },
+  {
+    "word": "起到",
+    "sent_simp": "多喝水能起到预防感冒的作用。",
+    "sent_trad": "多喝水能起到預防感冒的作用。",
+    "pinyin": "Duō hē shuǐ néng qǐdào yùfáng gǎnmào de zuòyòng.",
+    "english": "Drinking more water can help prevent colds."
+  },
+  {
+    "word": "路段",
+    "sent_simp": "这段路段正在施工，请绕行。",
+    "sent_trad": "這段路段正在施工，請繞行。",
+    "pinyin": "Zhè duàn lùduàn zhèngzài shīgōng, qǐng ràoxíng.",
+    "english": "This section of road is under construction; please take a detour."
+  },
+  {
+    "word": "跳远",
+    "sent_simp": "他练了多年跳远，成绩不错。",
+    "sent_trad": "他練了多年跳遠，成績不錯。",
+    "pinyin": "Tā liànle duō nián tiàoyuǎn, chéngjì búcuò.",
+    "english": "He has trained in the long jump for many years and has good results."
+  },
+  {
+    "word": "车号",
+    "sent_simp": "请把你的车号告诉停车场工作人员。",
+    "sent_trad": "請把你的車號告訴停車場工作人員。",
+    "pinyin": "Qǐng bǎ nǐ de chēhào gàosù tíngchēchǎng gōngzuò rényuán.",
+    "english": "Please tell the parking lot staff your vehicle number."
+  },
+  {
+    "word": "车型",
+    "sent_simp": "这款车型在年轻人中很受欢迎。",
+    "sent_trad": "這款車型在年輕人中很受歡迎。",
+    "pinyin": "Zhè kuǎn chēxíng zài niánqīng rén zhōng hěn shòu huānyíng.",
+    "english": "This vehicle model is very popular among young people."
+  },
+  {
+    "word": "迎来",
+    "sent_simp": "学校迎来了一批新生。",
+    "sent_trad": "學校迎來了一批新生。",
+    "pinyin": "Xuéxiào yínglái le yī pī xīnshēng.",
+    "english": "The school welcomed a new group of students."
+  },
+  {
+    "word": "还款",
+    "sent_simp": "每月按时还款对信用很重要。",
+    "sent_trad": "每月按時還款對信用很重要。",
+    "pinyin": "Měi yuè ànshí huánkuǎn duì xìnyòng hěn zhòngyào.",
+    "english": "Making loan repayments on time each month is important for your credit."
+  },
+  {
+    "word": "违章",
+    "sent_simp": "他因为违章停车被罚了款。",
+    "sent_trad": "他因為違章停車被罰了款。",
+    "pinyin": "Tā yīnwèi wéizhāng tíngchē bèi fále kuǎn.",
+    "english": "He was fined for illegal parking."
+  },
+  {
+    "word": "递给",
+    "sent_simp": "她把菜单递给了旁边的客人。",
+    "sent_trad": "她把菜單遞給了旁邊的客人。",
+    "pinyin": "Tā bǎ càidān dì gěi le pángbiān de kèrén.",
+    "english": "She handed the menu to the guest beside her."
+  },
+  {
+    "word": "通知书",
+    "sent_simp": "他收到了大学的录取通知书。",
+    "sent_trad": "他收到了大學的錄取通知書。",
+    "pinyin": "Tā shōudào le dàxué de lùqǔ tōngzhīshū.",
+    "english": "He received the university's admission notice."
+  },
+  {
+    "word": "通车",
+    "sent_simp": "新地铁线下个月就要通车了。",
+    "sent_trad": "新地鐵線下個月就要通車了。",
+    "pinyin": "Xīn dìtiě xiàn xià gè yuè jiùyào tōngchē le.",
+    "english": "The new subway line will open to traffic next month."
+  },
+  {
+    "word": "遇上",
+    "sent_simp": "出门就遇上大雨，真倒霉。",
+    "sent_trad": "出門就遇上大雨，真倒霉。",
+    "pinyin": "Chūmén jiù yùshàng dàyǔ, zhēn dǎoméi.",
+    "english": "As soon as I stepped out I ran into heavy rain — what bad luck."
+  },
+  {
+    "word": "防疫",
+    "sent_simp": "春季要注意做好防疫工作。",
+    "sent_trad": "春季要注意做好防疫工作。",
+    "pinyin": "Chūnjì yào zhùyì zuòhǎo fángyì gōngzuò.",
+    "english": "In spring it's important to take epidemic prevention measures."
+  },
+  {
+    "word": "雪山",
+    "sent_simp": "远处的雪山在阳光下闪闪发光。",
+    "sent_trad": "遠處的雪山在陽光下閃閃發光。",
+    "pinyin": "Yuǎnchù de xuěshān zài yángguāng xià shǎnshǎn fāguāng.",
+    "english": "The snow-capped mountains in the distance glittered in the sunlight."
+  },
+  {
+    "word": "首府",
+    "sent_simp": "拉萨是西藏自治区的首府。",
+    "sent_trad": "拉薩是西藏自治區的首府。",
+    "pinyin": "Lāsà shì Xīzàng Zìzhìqū de shǒufǔ.",
+    "english": "Lhasa is the capital of the Tibet Autonomous Region."
+  },
+  {
+    "word": "首批",
+    "sent_simp": "首批志愿者已经抵达灾区。",
+    "sent_trad": "首批志願者已經抵達災區。",
+    "pinyin": "Shǒu pī zhìyuànzhě yǐjīng dǐdá zāiqū.",
+    "english": "The first batch of volunteers has already arrived in the disaster area."
+  },
+  {
+    "word": "高新技术",
+    "sent_simp": "园区主要吸引高新技术企业入驻。",
+    "sent_trad": "園區主要吸引高新技術企業入駐。",
+    "pinyin": "Yuánqū zhǔyào xīyǐn gāoxīn jìshù qǐyè rùzhù.",
+    "english": "The park mainly attracts high-tech companies to set up there."
+  }
+]

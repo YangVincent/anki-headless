@@ -1,0 +1,282 @@
+[
+  {
+    "word": "鼓动",
+    "sent_simp": "他鼓动大家一起去爬山。",
+    "sent_trad": "他鼓動大家一起去爬山。",
+    "pinyin": "Tā gǔ dòng dà jiā yī qǐ qù pá shān.",
+    "english": "He encouraged everyone to go hiking together."
+  },
+  {
+    "word": "鼠标",
+    "sent_simp": "我的鼠标坏了，需要换一个。",
+    "sent_trad": "我的鼠標壞了，需要換一個。",
+    "pinyin": "Wǒ de shǔ biāo huài le, xū yào huàn yī gè.",
+    "english": "My mouse is broken and I need to replace it."
+  },
+  {
+    "word": "一头",
+    "sent_simp": "他一头扎进书堆里复习。",
+    "sent_trad": "他一頭扎進書堆裡複習。",
+    "pinyin": "Tā yī tóu zhā jìn shū duī lǐ fù xí.",
+    "english": "He buried himself headlong in a pile of books to review."
+  },
+  {
+    "word": "一路上",
+    "sent_simp": "一路上他们聊得很开心。",
+    "sent_trad": "一路上他們聊得很開心。",
+    "pinyin": "Yī lù shàng tā men liáo de hěn kāi xīn.",
+    "english": "Along the way, they chatted happily."
+  },
+  {
+    "word": "上方",
+    "sent_simp": "床的上方挂着一盏灯。",
+    "sent_trad": "床的上方掛著一盞燈。",
+    "pinyin": "Chuáng de shàng fāng guà zhe yī zhǎn dēng.",
+    "english": "A lamp is hanging above the bed."
+  },
+  {
+    "word": "下岗",
+    "sent_simp": "他下岗后开了一家小餐馆。",
+    "sent_trad": "他下崗後開了一家小餐館。",
+    "pinyin": "Tā xià gǎng hòu kāi le yī jiā xiǎo cān guǎn.",
+    "english": "After being laid off, he opened a small restaurant."
+  },
+  {
+    "word": "下期",
+    "sent_simp": "下期杂志会有更多新内容。",
+    "sent_trad": "下期雜誌會有更多新內容。",
+    "pinyin": "Xià qī zá zhì huì yǒu gèng duō xīn nèi róng.",
+    "english": "The next issue of the magazine will have more new content."
+  },
+  {
+    "word": "不仅仅",
+    "sent_simp": "学语言不仅仅是背单词。",
+    "sent_trad": "學語言不僅僅是背單詞。",
+    "pinyin": "Xué yǔ yán bù jǐn jǐn shì bèi dān cí.",
+    "english": "Learning a language is not just about memorizing vocabulary."
+  },
+  {
+    "word": "不算",
+    "sent_simp": "这点小事不算什么，别担心。",
+    "sent_trad": "這點小事不算什麼，別擔心。",
+    "pinyin": "Zhè diǎn xiǎo shì bù suàn shén me, bié dān xīn.",
+    "english": "This little thing doesn't count for much, don't worry about it."
+  },
+  {
+    "word": "两手",
+    "sent_simp": "他两手提着沉重的购物袋。",
+    "sent_trad": "他兩手提著沉重的購物袋。",
+    "pinyin": "Tā liǎng shǒu tí zhe chén zhòng de gòu wù dài.",
+    "english": "He was carrying heavy shopping bags in both hands."
+  },
+  {
+    "word": "主题歌",
+    "sent_simp": "这部电视剧的主题歌很好听。",
+    "sent_trad": "這部電視劇的主題歌很好聽。",
+    "pinyin": "Zhè bù diàn shì jù de zhǔ tí gē hěn hǎo tīng.",
+    "english": "The theme song of this TV drama is really nice."
+  },
+  {
+    "word": "也好",
+    "sent_simp": "去也好，不去也好，随你。",
+    "sent_trad": "去也好，不去也好，隨你。",
+    "pinyin": "Qù yě hǎo, bù qù yě hǎo, suí nǐ.",
+    "english": "Whether you go or not is fine, it's up to you."
+  },
+  {
+    "word": "交费",
+    "sent_simp": "你记得去交费，别让电话停了。",
+    "sent_trad": "你記得去交費，別讓電話停了。",
+    "pinyin": "Nǐ jì de qù jiāo fèi, bié ràng diàn huà tíng le.",
+    "english": "Remember to pay the bill so your phone doesn't get cut off."
+  },
+  {
+    "word": "产地",
+    "sent_simp": "这种苹果的产地是新疆。",
+    "sent_trad": "這種蘋果的產地是新疆。",
+    "pinyin": "Zhè zhǒng píng guǒ de chǎn dì shì Xīn jiāng.",
+    "english": "The place of origin for this type of apple is Xinjiang."
+  },
+  {
+    "word": "公共场所",
+    "sent_simp": "公共场所不能大声喧哗。",
+    "sent_trad": "公共場所不能大聲喧嘩。",
+    "pinyin": "Gōng gòng chǎng suǒ bù néng dà shēng xuān huá.",
+    "english": "You shouldn't make loud noise in public places."
+  },
+  {
+    "word": "公开信",
+    "sent_simp": "他写了一封公开信说明情况。",
+    "sent_trad": "他寫了一封公開信說明情況。",
+    "pinyin": "Tā xiě le yī fēng gōng kāi xìn shuō míng qíng kuàng.",
+    "english": "He wrote an open letter to explain the situation."
+  },
+  {
+    "word": "公示",
+    "sent_simp": "名单已在网上公示，请自行查看。",
+    "sent_trad": "名單已在網上公示，請自行查看。",
+    "pinyin": "Míng dān yǐ zài wǎng shàng gōng shì, qǐng zì xíng chá kàn.",
+    "english": "The list has been made public online; please check it yourself."
+  },
+  {
+    "word": "公积金",
+    "sent_simp": "买房时可以用公积金贷款。",
+    "sent_trad": "買房時可以用公積金貸款。",
+    "pinyin": "Mǎi fáng shí kě yǐ yòng gōng jī jīn dài kuǎn.",
+    "english": "You can use your housing fund to get a loan when buying a home."
+  },
+  {
+    "word": "农民工",
+    "sent_simp": "很多农民工在城市里打工赚钱。",
+    "sent_trad": "很多農民工在城市裡打工賺錢。",
+    "pinyin": "Hěn duō nóng mín gōng zài chéng shì lǐ dǎ gōng zuàn qián.",
+    "english": "Many migrant workers earn money by working in cities."
+  },
+  {
+    "word": "凭着",
+    "sent_simp": "他凭着努力考上了大学。",
+    "sent_trad": "他憑著努力考上了大學。",
+    "pinyin": "Tā píng zhe nǔ lì kǎo shàng le dà xué.",
+    "english": "He got into university by relying on hard work."
+  },
+  {
+    "word": "出访",
+    "sent_simp": "市长出访期间由副市长主持工作。",
+    "sent_trad": "市長出訪期間由副市長主持工作。",
+    "pinyin": "Shì zhǎng chū fǎng qī jiān yóu fù shì zhǎng zhǔ chí gōng zuò.",
+    "english": "While the mayor is away on an official visit, the deputy mayor takes charge."
+  },
+  {
+    "word": "别说",
+    "sent_simp": "别说跑步了，他连走路都费力。",
+    "sent_trad": "別說跑步了，他連走路都費力。",
+    "pinyin": "Bié shuō pǎo bù le, tā lián zǒu lù dōu fèi lì.",
+    "english": "Not to mention running — he even struggles to walk."
+  },
+  {
+    "word": "办学",
+    "sent_simp": "这所学校办学多年，口碑很好。",
+    "sent_trad": "這所學校辦學多年，口碑很好。",
+    "pinyin": "Zhè suǒ xué xiào bàn xué duō nián, kǒu bēi hěn hǎo.",
+    "english": "This school has been running for many years and has an excellent reputation."
+  },
+  {
+    "word": "劳务",
+    "sent_simp": "他通过提供劳务来赚取收入。",
+    "sent_trad": "他通過提供勞務來賺取收入。",
+    "pinyin": "Tā tōng guò tí gōng láo wù lái zuàn qǔ shōu rù.",
+    "english": "He earns income by providing labor services."
+  },
+  {
+    "word": "化纤",
+    "sent_simp": "这件衬衫是化纤的，不太透气。",
+    "sent_trad": "這件襯衫是化纖的，不太透氣。",
+    "pinyin": "Zhè jiàn chèn shān shì huà xiān de, bù tài tòu qì.",
+    "english": "This shirt is made of synthetic fiber and isn't very breathable."
+  },
+  {
+    "word": "历届",
+    "sent_simp": "他是历届毕业生中成绩最好的。",
+    "sent_trad": "他是歷屆畢業生中成績最好的。",
+    "pinyin": "Tā shì lì jiè bì yè shēng zhōng chéng jì zuì hǎo de.",
+    "english": "He is the highest-achieving graduate across all previous classes."
+  },
+  {
+    "word": "取决于",
+    "sent_simp": "结果取决于你的努力程度。",
+    "sent_trad": "結果取決於你的努力程度。",
+    "pinyin": "Jié guǒ qǔ jué yú nǐ de nǔ lì chéng dù.",
+    "english": "The outcome depends on how hard you work."
+  },
+  {
+    "word": "受过",
+    "sent_simp": "他替朋友受过，被老板骂了一顿。",
+    "sent_trad": "他替朋友受過，被老闆罵了一頓。",
+    "pinyin": "Tā tì péng yǒu shòu guò, bèi lǎo bǎn mà le yī dùn.",
+    "english": "He took the blame for his friend and got scolded by the boss."
+  },
+  {
+    "word": "只见",
+    "sent_simp": "打开门，只见他站在门口。",
+    "sent_trad": "打開門，只見他站在門口。",
+    "pinyin": "Dǎ kāi mén, zhǐ jiàn tā zhàn zài mén kǒu.",
+    "english": "Opening the door, I was surprised to find him standing at the entrance."
+  },
+  {
+    "word": "司长",
+    "sent_simp": "司长亲自出席了这次会议。",
+    "sent_trad": "司長親自出席了這次會議。",
+    "pinyin": "Sī zhǎng qīn zì chū xí le zhè cì huì yì.",
+    "english": "The bureau chief attended this meeting in person."
+  },
+  {
+    "word": "向着",
+    "sent_simp": "妈妈总是向着弟弟，让我很委屈。",
+    "sent_trad": "媽媽總是向著弟弟，讓我很委屈。",
+    "pinyin": "Māma zǒng shì xiàng zhe dì di, ràng wǒ hěn wěi qū.",
+    "english": "Mom always takes my younger brother's side, which makes me feel wronged."
+  },
+  {
+    "word": "吓人",
+    "sent_simp": "那只大狗的叫声真吓人。",
+    "sent_trad": "那隻大狗的叫聲真嚇人。",
+    "pinyin": "Nà zhī dà gǒu de jiào shēng zhēn xià rén.",
+    "english": "The barking of that big dog is really scary."
+  },
+  {
+    "word": "响起",
+    "sent_simp": "上课铃响起，同学们跑进教室。",
+    "sent_trad": "上課鈴響起，同學們跑進教室。",
+    "pinyin": "Shàng kè líng xiǎng qǐ, tóng xué men pǎo jìn jiào shì.",
+    "english": "When the class bell rang out, the students ran into the classroom."
+  },
+  {
+    "word": "在家",
+    "sent_simp": "周末我喜欢在家休息。",
+    "sent_trad": "週末我喜歡在家休息。",
+    "pinyin": "Zhōu mò wǒ xǐ huān zài jiā xiū xi.",
+    "english": "On weekends I like to rest at home."
+  },
+  {
+    "word": "场馆",
+    "sent_simp": "这个场馆可以容纳上万名观众。",
+    "sent_trad": "這個場館可以容納上萬名觀眾。",
+    "pinyin": "Zhè ge chǎng guǎn kě yǐ róng nà shàng wàn míng guān zhòng.",
+    "english": "This venue can accommodate tens of thousands of spectators."
+  },
+  {
+    "word": "增收",
+    "sent_simp": "农民通过种植新品种来增收。",
+    "sent_trad": "農民通過種植新品種來增收。",
+    "pinyin": "Nóng mín tōng guò zhòng zhí xīn pǐn zhǒng lái zēng shōu.",
+    "english": "Farmers increase their income by growing new crop varieties."
+  },
+  {
+    "word": "多年",
+    "sent_simp": "他们多年没见，一见面就聊个不停。",
+    "sent_trad": "他們多年沒見，一見面就聊個不停。",
+    "pinyin": "Tā men duō nián méi jiàn, yī jiàn miàn jiù liáo ge bù tíng.",
+    "english": "They hadn't seen each other for many years and couldn't stop talking once they met."
+  },
+  {
+    "word": "大奖赛",
+    "sent_simp": "她在钢琴大奖赛中获得了第一名。",
+    "sent_trad": "她在鋼琴大獎賽中獲得了第一名。",
+    "pinyin": "Tā zài gāng qín dà jiǎng sài zhōng huò dé le dì yī míng.",
+    "english": "She won first place in the piano grand prix."
+  },
+  {
+    "word": "大家庭",
+    "sent_simp": "他们家是个大家庭，每周末聚在一起吃饭。",
+    "sent_trad": "他們家是個大家庭，每週末聚在一起吃飯。",
+    "pinyin": "Tā men jiā shì ge dà jiā tíng, měi zhōu mò jù zài yī qǐ chī fàn.",
+    "english": "Their family is a big extended family that gathers every weekend for a meal."
+  },
+  {
+    "word": "大笔",
+    "sent_simp": "他花了大笔钱买了一辆新车。",
+    "sent_trad": "他花了大筆錢買了一輛新車。",
+    "pinyin": "Tā huā le dà bǐ qián mǎi le yī liàng xīn chē.",
+    "english": "He spent a large sum of money to buy a new car."
+  }
+]

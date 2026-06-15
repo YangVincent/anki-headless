@@ -1,0 +1,282 @@
+[
+  {
+    "word": "烹调",
+    "sent_simp": "她每天花一个小时烹调晚饭。",
+    "sent_trad": "她每天花一個小時烹調晚飯。",
+    "pinyin": "Tā měi tiān huā yī gè xiǎoshí pēngtiáo wǎnfàn.",
+    "english": "She spends an hour cooking dinner every day."
+  },
+  {
+    "word": "煤气",
+    "sent_simp": "厨房里的煤气管道漏气了。",
+    "sent_trad": "廚房裡的煤氣管道漏氣了。",
+    "pinyin": "Chúfáng lǐ de méiqì guǎndào lòu qì le.",
+    "english": "The gas pipe in the kitchen is leaking."
+  },
+  {
+    "word": "煤矿",
+    "sent_simp": "他的父亲在煤矿工作了三十年。",
+    "sent_trad": "他的父親在煤礦工作了三十年。",
+    "pinyin": "Tā de fùqīn zài méikuàng gōngzuò le sānshí nián.",
+    "english": "His father worked in a coal mine for thirty years."
+  },
+  {
+    "word": "照料",
+    "sent_simp": "她一个人照料三个孩子，很辛苦。",
+    "sent_trad": "她一個人照料三個孩子，很辛苦。",
+    "pinyin": "Tā yī gè rén zhàoliào sān gè háizi, hěn xīnkǔ.",
+    "english": "She looks after three children on her own — it's really hard."
+  },
+  {
+    "word": "照明",
+    "sent_simp": "走廊的照明太暗，容易摔跤。",
+    "sent_trad": "走廊的照明太暗，容易摔跤。",
+    "pinyin": "Zǒuláng de zhàomíng tài àn, róngyì shuāijiāo.",
+    "english": "The hallway lighting is too dim and it's easy to trip."
+  },
+  {
+    "word": "照样",
+    "sent_simp": "下雨天他照样骑自行车上班。",
+    "sent_trad": "下雨天他照樣騎自行車上班。",
+    "pinyin": "Xià yǔ tiān tā zhàoyàng qí zìxíngchē shàngbān.",
+    "english": "Even on rainy days he still bikes to work as usual."
+  },
+  {
+    "word": "照耀",
+    "sent_simp": "阳光照耀着整片麦田。",
+    "sent_trad": "陽光照耀著整片麥田。",
+    "pinyin": "Yángguāng zhàoyào zhe zhěng piàn màitián.",
+    "english": "Sunlight shines over the entire wheat field."
+  },
+  {
+    "word": "燃料",
+    "sent_simp": "汽车燃料用完了，要去加油。",
+    "sent_trad": "汽車燃料用完了，要去加油。",
+    "pinyin": "Qìchē ránliào yòng wán le, yào qù jiāyóu.",
+    "english": "The car has run out of fuel — we need to fill up."
+  },
+  {
+    "word": "燃油",
+    "sent_simp": "最近燃油价格涨了不少。",
+    "sent_trad": "最近燃油價格漲了不少。",
+    "pinyin": "Zuìjìn rángyóu jiàgé zhǎng le bù shǎo.",
+    "english": "Fuel oil prices have gone up quite a bit recently."
+  },
+  {
+    "word": "燕子",
+    "sent_simp": "春天一到，燕子就回来了。",
+    "sent_trad": "春天一到，燕子就回來了。",
+    "pinyin": "Chūntiān yī dào, yànzi jiù huí lái le.",
+    "english": "As soon as spring arrives, the swallows come back."
+  },
+  {
+    "word": "爵士",
+    "sent_simp": "他喜欢在咖啡馆听爵士音乐。",
+    "sent_trad": "他喜歡在咖啡館聽爵士音樂。",
+    "pinyin": "Tā xǐhuān zài kāfēiguǎn tīng juéshì yīnyuè.",
+    "english": "He likes listening to jazz music at the café."
+  },
+  {
+    "word": "片子",
+    "sent_simp": "医生把X光片子拿给我看。",
+    "sent_trad": "醫生把X光片子拿給我看。",
+    "pinyin": "Yīshēng bǎ X guāng piānzi ná gěi wǒ kàn.",
+    "english": "The doctor showed me the X-ray image."
+  },
+  {
+    "word": "牧民",
+    "sent_simp": "草原上的牧民每天赶着牛羊。",
+    "sent_trad": "草原上的牧民每天趕著牛羊。",
+    "pinyin": "Cǎoyuán shàng de mùmín měi tiān gǎn zhe niú yáng.",
+    "english": "The herdsmen on the grassland herd cattle and sheep every day."
+  },
+  {
+    "word": "物业",
+    "sent_simp": "小区的物业管理越来越好了。",
+    "sent_trad": "小區的物業管理越來越好了。",
+    "pinyin": "Xiǎoqū de wùyè guǎnlǐ yuè lái yuè hǎo le.",
+    "english": "The property management in the residential complex has been getting better and better."
+  },
+  {
+    "word": "物价",
+    "sent_simp": "最近物价上涨，买菜花了不少钱。",
+    "sent_trad": "最近物價上漲，買菜花了不少錢。",
+    "pinyin": "Zuìjìn wùjià shàngzhǎng, mǎi cài huā le bù shǎo qián.",
+    "english": "Prices have gone up lately and groceries are costing a lot more."
+  },
+  {
+    "word": "物流",
+    "sent_simp": "这家公司的物流速度很快。",
+    "sent_trad": "這家公司的物流速度很快。",
+    "pinyin": "Zhè jiā gōngsī de wùliú sùdù hěn kuài.",
+    "english": "This company's logistics are very fast."
+  },
+  {
+    "word": "牲畜",
+    "sent_simp": "农场里养了各种牲畜。",
+    "sent_trad": "農場裡養了各種牲畜。",
+    "pinyin": "Nóngchǎng lǐ yǎng le gè zhǒng shēngchù.",
+    "english": "The farm raises all kinds of livestock."
+  },
+  {
+    "word": "状元",
+    "sent_simp": "他考了全省第一，是今年的高考状元。",
+    "sent_trad": "他考了全省第一，是今年的高考狀元。",
+    "pinyin": "Tā kǎo le quán shěng dì yī, shì jīnnián de gāokǎo zhuàngyuan.",
+    "english": "He scored first in the whole province — the top scorer in this year's college entrance exam."
+  },
+  {
+    "word": "独立自主",
+    "sent_simp": "孩子长大了，要学会独立自主。",
+    "sent_trad": "孩子長大了，要學會獨立自主。",
+    "pinyin": "Háizi zhǎng dà le, yào xuéhuì dúlì zìzhǔ.",
+    "english": "As children grow up, they need to learn to be independent and self-reliant."
+  },
+  {
+    "word": "环球",
+    "sent_simp": "他梦想有一天能环球旅行。",
+    "sent_trad": "他夢想有一天能環球旅行。",
+    "pinyin": "Tā mèngxiǎng yǒu yī tiān néng huánqiú lǚxíng.",
+    "english": "He dreams of traveling around the world someday."
+  },
+  {
+    "word": "环绕",
+    "sent_simp": "小村子被青山环绕，风景很美。",
+    "sent_trad": "小村子被青山環繞，風景很美。",
+    "pinyin": "Xiǎo cūnzi bèi qīngshān huánrào, fēngjǐng hěn měi.",
+    "english": "The little village is surrounded by green hills — the scenery is beautiful."
+  },
+  {
+    "word": "珠宝",
+    "sent_simp": "她把珠宝锁在抽屉里。",
+    "sent_trad": "她把珠寶鎖在抽屜裡。",
+    "pinyin": "Tā bǎ zhūbǎo suǒ zài chōutì lǐ.",
+    "english": "She keeps her jewelry locked in the drawer."
+  },
+  {
+    "word": "球星",
+    "sent_simp": "他从小就是球迷，最崇拜这位球星。",
+    "sent_trad": "他從小就是球迷，最崇拜這位球星。",
+    "pinyin": "Tā cóng xiǎo jiùshì qiúmí, zuì chóngbài zhè wèi qiúxīng.",
+    "english": "He has been a fan since childhood and admires this sports star the most."
+  },
+  {
+    "word": "瓷器",
+    "sent_simp": "这套瓷器是外婆留下来的。",
+    "sent_trad": "這套瓷器是外婆留下來的。",
+    "pinyin": "Zhè tào cíqì shì wàipó liú xià lái de.",
+    "english": "This set of porcelain was left behind by my grandmother."
+  },
+  {
+    "word": "甜蜜",
+    "sent_simp": "他们两个总是甜蜜地牵着手走路。",
+    "sent_trad": "他們兩個總是甜蜜地牽著手走路。",
+    "pinyin": "Tāmen liǎng gè zǒng shì tiánmì de qiān zhe shǒu zǒulù.",
+    "english": "The two of them always walk hand in hand so sweetly."
+  },
+  {
+    "word": "田径",
+    "sent_simp": "他在学校参加了田径队。",
+    "sent_trad": "他在學校參加了田徑隊。",
+    "pinyin": "Tā zài xuéxiào cānjiā le tiánjìng duì.",
+    "english": "He joined the track and field team at school."
+  },
+  {
+    "word": "由此可见",
+    "sent_simp": "他每天都来得很早，由此可见他很认真。",
+    "sent_trad": "他每天都來得很早，由此可見他很認真。",
+    "pinyin": "Tā měi tiān dōu lái de hěn zǎo, yóucǐkějiàn tā hěn rènzhēn.",
+    "english": "He arrives early every day — from this you can see he is very dedicated."
+  },
+  {
+    "word": "电源",
+    "sent_simp": "笔记本电脑的电源线断了。",
+    "sent_trad": "筆記本電腦的電源線斷了。",
+    "pinyin": "Bǐjìběn diànnǎo de diànyuán xiàn duàn le.",
+    "english": "The power cable for the laptop is broken."
+  },
+  {
+    "word": "电线",
+    "sent_simp": "这根电线老化了，需要换掉。",
+    "sent_trad": "這根電線老化了，需要換掉。",
+    "pinyin": "Zhè gēn diànxiàn lǎohuà le, xūyào huàn diào.",
+    "english": "This wire has aged and needs to be replaced."
+  },
+  {
+    "word": "男士",
+    "sent_simp": "这款香水是专门为男士设计的。",
+    "sent_trad": "這款香水是專門為男士設計的。",
+    "pinyin": "Zhè kuǎn xiāngshuǐ shì zhuānmén wèi nánshì shèjì de.",
+    "english": "This perfume is designed specifically for men."
+  },
+  {
+    "word": "男女",
+    "sent_simp": "这项运动男女都可以参加。",
+    "sent_trad": "這項運動男女都可以參加。",
+    "pinyin": "Zhè xiàng yùndòng nánnǚ dōu kěyǐ cānjiā.",
+    "english": "Both men and women can participate in this sport."
+  },
+  {
+    "word": "画展",
+    "sent_simp": "周末我们去看了一个画展。",
+    "sent_trad": "週末我們去看了一個畫展。",
+    "pinyin": "Zhōumò wǒmen qù kàn le yī gè huàzhǎn.",
+    "english": "We went to see an art exhibition over the weekend."
+  },
+  {
+    "word": "界线",
+    "sent_simp": "工作和生活之间要有清楚的界线。",
+    "sent_trad": "工作和生活之間要有清楚的界線。",
+    "pinyin": "Gōngzuò hé shēnghuó zhī jiān yào yǒu qīngchǔ de jièxiàn.",
+    "english": "There should be a clear boundary between work and personal life."
+  },
+  {
+    "word": "留学生",
+    "sent_simp": "宿舍楼里住了很多留学生。",
+    "sent_trad": "宿舍樓裡住了很多留學生。",
+    "pinyin": "Sùshè lóu lǐ zhù le hěn duō liúxuéshēng.",
+    "english": "The dormitory building is home to many international students."
+  },
+  {
+    "word": "畸形",
+    "sent_simp": "长期姿势不好会导致脊椎畸形。",
+    "sent_trad": "長期姿勢不好會導致脊椎畸形。",
+    "pinyin": "Chángqī zīshì bù hǎo huì dǎozhì jǐzhuī jīxíng.",
+    "english": "Poor posture over a long period can lead to spinal deformity."
+  },
+  {
+    "word": "疑虑",
+    "sent_simp": "她对这份工作还有一些疑虑。",
+    "sent_trad": "她對這份工作還有一些疑慮。",
+    "pinyin": "Tā duì zhè fèn gōngzuò hái yǒu yīxiē yílǜ.",
+    "english": "She still has some misgivings about this job."
+  },
+  {
+    "word": "疗法",
+    "sent_simp": "医生推荐了一种新的物理疗法。",
+    "sent_trad": "醫生推薦了一種新的物理療法。",
+    "pinyin": "Yīshēng tuījiàn le yī zhǒng xīn de wùlǐ liáofǎ.",
+    "english": "The doctor recommended a new kind of physical therapy."
+  },
+  {
+    "word": "疫苗",
+    "sent_simp": "孩子出生后要按时接种疫苗。",
+    "sent_trad": "孩子出生後要按時接種疫苗。",
+    "pinyin": "Háizi chūshēng hòu yào ànshí jiēzhòng yìmiáo.",
+    "english": "After a baby is born, vaccines need to be given on schedule."
+  },
+  {
+    "word": "病症",
+    "sent_simp": "这种病症的主要表现是头痛和发烧。",
+    "sent_trad": "這種病症的主要表現是頭痛和發燒。",
+    "pinyin": "Zhè zhǒng bìngzhèng de zhǔyào biǎoxiàn shì tóutòng hé fāshāo.",
+    "english": "The main symptoms of this illness are headache and fever."
+  },
+  {
+    "word": "瘟疫",
+    "sent_simp": "历史上，瘟疫曾夺走无数人的生命。",
+    "sent_trad": "歷史上，瘟疫曾奪走無數人的生命。",
+    "pinyin": "Lìshǐ shàng, wēnyì céng duózǒu wúshù rén de shēngmìng.",
+    "english": "Throughout history, plagues have claimed countless lives."
+  }
+]

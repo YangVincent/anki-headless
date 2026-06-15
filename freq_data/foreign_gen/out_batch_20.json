@@ -1,0 +1,282 @@
+[
+  {
+    "word": "赛车",
+    "sent_simp": "他从小就喜欢看赛车比赛。",
+    "sent_trad": "他從小就喜歡看賽車比賽。",
+    "pinyin": "Tā cóng xiǎo jiù xǐ huān kàn sài chē bǐ sài.",
+    "english": "He has loved watching car races since he was a child."
+  },
+  {
+    "word": "赢家",
+    "sent_simp": "这场比赛没有真正的赢家。",
+    "sent_trad": "這場比賽沒有真正的贏家。",
+    "pinyin": "Zhè chǎng bǐ sài méi yǒu zhēn zhèng de yíng jiā.",
+    "english": "There's no real winner in this match."
+  },
+  {
+    "word": "起草",
+    "sent_simp": "律师正在起草合同文件。",
+    "sent_trad": "律師正在起草合同文件。",
+    "pinyin": "Lǜ shī zhèng zài qǐ cǎo hé tong wén jiàn.",
+    "english": "The lawyer is drawing up the contract documents."
+  },
+  {
+    "word": "起诉",
+    "sent_simp": "他决定起诉那家公司侵权行为。",
+    "sent_trad": "他決定起訴那家公司侵權行為。",
+    "pinyin": "Tā jué dìng qǐ sù nà jiā gōng sī qīn quán xíng wéi.",
+    "english": "He decided to sue that company for infringement."
+  },
+  {
+    "word": "超标",
+    "sent_simp": "检测结果显示这里的噪音超标了。",
+    "sent_trad": "檢測結果顯示這裡的噪音超標了。",
+    "pinyin": "Jiǎn cè jié guǒ xiǎn shì zhè lǐ de zào yīn chāo biāo le.",
+    "english": "The test results show that the noise level here exceeds the limit."
+  },
+  {
+    "word": "趋于",
+    "sent_simp": "最近天气逐渐趋于稳定。",
+    "sent_trad": "最近天氣逐漸趨於穩定。",
+    "pinyin": "Zuì jìn tiān qì zhú jiàn qū yú wěn dìng.",
+    "english": "The weather has been gradually tending toward stability lately."
+  },
+  {
+    "word": "跨国",
+    "sent_simp": "他在一家跨国公司做财务工作。",
+    "sent_trad": "他在一家跨國公司做財務工作。",
+    "pinyin": "Tā zài yī jiā kuà guó gōng sī zuò cái wù gōng zuò.",
+    "english": "He works in finance at a multinational company."
+  },
+  {
+    "word": "路灯",
+    "sent_simp": "这条小路没有路灯，晚上走很不安全。",
+    "sent_trad": "這條小路沒有路燈，晚上走很不安全。",
+    "pinyin": "Zhè tiáo xiǎo lù méi yǒu lù dēng, wǎn shàng zǒu hěn bù ān quán.",
+    "english": "This alley has no street lights, so it's not safe to walk at night."
+  },
+  {
+    "word": "跳水",
+    "sent_simp": "他练习跳水已经有五年了。",
+    "sent_trad": "他練習跳水已經有五年了。",
+    "pinyin": "Tā liàn xí tiào shuǐ yǐ jīng yǒu wǔ nián le.",
+    "english": "He has been practicing diving for five years."
+  },
+  {
+    "word": "车牌",
+    "sent_simp": "警察记下了肇事车辆的车牌号码。",
+    "sent_trad": "警察記下了肇事車輛的車牌號碼。",
+    "pinyin": "Jǐng chá jì xià le zhào shì chē liàng de chē pái hào mǎ.",
+    "english": "The police wrote down the license plate number of the vehicle at fault."
+  },
+  {
+    "word": "车票",
+    "sent_simp": "我提前在网上买好了火车车票。",
+    "sent_trad": "我提前在網上買好了火車車票。",
+    "pinyin": "Wǒ tí qián zài wǎng shàng mǎi hǎo le huǒ chē chē piào.",
+    "english": "I bought the train ticket online in advance."
+  },
+  {
+    "word": "车祸",
+    "sent_simp": "昨晚高速路上发生了一起严重车祸。",
+    "sent_trad": "昨晚高速路上發生了一起嚴重車禍。",
+    "pinyin": "Zuó wǎn gāo sù lù shàng fā shēng le yī qǐ yán zhòng chē huò.",
+    "english": "A serious car accident happened on the highway last night."
+  },
+  {
+    "word": "车轮",
+    "sent_simp": "自行车的车轮需要充气了。",
+    "sent_trad": "自行車的車輪需要充氣了。",
+    "pinyin": "Zì xíng chē de chē lún xū yào chōng qì le.",
+    "english": "The bicycle wheels need to be inflated."
+  },
+  {
+    "word": "车辆",
+    "sent_simp": "路口禁止大型车辆通行。",
+    "sent_trad": "路口禁止大型車輛通行。",
+    "pinyin": "Lù kǒu jìn zhǐ dà xíng chē liàng tōng xíng.",
+    "english": "Large vehicles are prohibited from passing through the intersection."
+  },
+  {
+    "word": "转弯",
+    "sent_simp": "在前面那个路口右转弯就到了。",
+    "sent_trad": "在前面那個路口右轉彎就到了。",
+    "pinyin": "Zài qián miàn nà ge lù kǒu yòu zhuǎn wān jiù dào le.",
+    "english": "Turn right at the intersection up ahead and you'll be there."
+  },
+  {
+    "word": "轮子",
+    "sent_simp": "手推车的一个轮子坏了。",
+    "sent_trad": "手推車的一個輪子壞了。",
+    "pinyin": "Shǒu tuī chē de yī ge lún zi huài le.",
+    "english": "One of the wheels on the cart is broken."
+  },
+  {
+    "word": "轮廓",
+    "sent_simp": "远处山峰的轮廓在雾中若隐若现。",
+    "sent_trad": "遠處山峰的輪廓在霧中若隱若現。",
+    "pinyin": "Yuǎn chù shān fēng de lún kuò zài wù zhōng ruò yǐn ruò xiàn.",
+    "english": "The outline of the distant mountain peaks appeared faintly through the fog."
+  },
+  {
+    "word": "轮椅",
+    "sent_simp": "爷爷腿不方便，出门要坐轮椅。",
+    "sent_trad": "爺爺腿不方便，出門要坐輪椅。",
+    "pinyin": "Yé ye tuǐ bù fāng biàn, chū mén yào zuò lún yǐ.",
+    "english": "Grandpa has trouble with his legs and needs a wheelchair when going out."
+  },
+  {
+    "word": "轻型",
+    "sent_simp": "这款轻型电动车很适合城市代步。",
+    "sent_trad": "這款輕型電動車很適合城市代步。",
+    "pinyin": "Zhè kuǎn qīng xíng diàn dòng chē hěn shì hé chéng shì dài bù.",
+    "english": "This light electric vehicle is well-suited for getting around the city."
+  },
+  {
+    "word": "轻微",
+    "sent_simp": "他只是轻微扭伤，休息几天就好了。",
+    "sent_trad": "他只是輕微扭傷，休息幾天就好了。",
+    "pinyin": "Tā zhǐ shì qīng wēi niǔ shāng, xiū xi jǐ tiān jiù hǎo le.",
+    "english": "He only has a slight sprain; he'll be fine after a few days of rest."
+  },
+  {
+    "word": "轿车",
+    "sent_simp": "他买了一辆白色的轿车。",
+    "sent_trad": "他買了一輛白色的轎車。",
+    "pinyin": "Tā mǎi le yī liàng bái sè de jiào chē.",
+    "english": "He bought a white sedan."
+  },
+  {
+    "word": "辨别",
+    "sent_simp": "孩子要学会辨别是非对错。",
+    "sent_trad": "孩子要學會辨別是非對錯。",
+    "pinyin": "Hái zi yào xué huì biàn bié shì fēi duì cuò.",
+    "english": "Children need to learn to distinguish right from wrong."
+  },
+  {
+    "word": "迄今",
+    "sent_simp": "迄今为止，这个问题还没有得到解决。",
+    "sent_trad": "迄今為止，這個問題還沒有得到解決。",
+    "pinyin": "Qì jīn wéi zhǐ, zhè ge wèn tí hái méi yǒu dé dào jiě jué.",
+    "english": "So far, this problem has not yet been resolved."
+  },
+  {
+    "word": "过剩",
+    "sent_simp": "市场上劳动力过剩，找工作越来越难。",
+    "sent_trad": "市場上勞動力過剩，找工作越來越難。",
+    "pinyin": "Shì chǎng shàng láo dòng lì guò shèng, zhǎo gōng zuò yuè lái yuè nán.",
+    "english": "There's a labor surplus in the market, making it harder and harder to find a job."
+  },
+  {
+    "word": "过境",
+    "sent_simp": "他在香港过境，转机去美国。",
+    "sent_trad": "他在香港過境，轉機去美國。",
+    "pinyin": "Tā zài Xiānggǎng guò jìng, zhuǎn jī qù Měiguó.",
+    "english": "He transited through Hong Kong to catch a connecting flight to the US."
+  },
+  {
+    "word": "近年来",
+    "sent_simp": "近年来，网购越来越受到大家的欢迎。",
+    "sent_trad": "近年來，網購越來越受到大家的歡迎。",
+    "pinyin": "Jìn nián lái, wǎng gòu yuè lái yuè shòu dào dà jiā de huān yíng.",
+    "english": "Online shopping has become increasingly popular in recent years."
+  },
+  {
+    "word": "连夜",
+    "sent_simp": "接到通知后，他们连夜赶往出事地点。",
+    "sent_trad": "接到通知後，他們連夜趕往出事地點。",
+    "pinyin": "Jiē dào tōng zhī hòu, tā men lián yè gǎn wǎng chū shì dì diǎn.",
+    "english": "After receiving the notice, they rushed to the scene that very night."
+  },
+  {
+    "word": "连续剧",
+    "sent_simp": "妈妈最近迷上了一部古装连续剧。",
+    "sent_trad": "媽媽最近迷上了一部古裝連續劇。",
+    "pinyin": "Māma zuì jìn mí shàng le yī bù gǔ zhuāng lián xù jù.",
+    "english": "Mom has recently gotten hooked on a historical costume drama series."
+  },
+  {
+    "word": "迟疑",
+    "sent_simp": "他迟疑了一下，才开口说话。",
+    "sent_trad": "他遲疑了一下，才開口說話。",
+    "pinyin": "Tā chí yí le yī xià, cái kāi kǒu shuō huà.",
+    "english": "He hesitated for a moment before speaking."
+  },
+  {
+    "word": "退休金",
+    "sent_simp": "爸爸每个月都能领到退休金。",
+    "sent_trad": "爸爸每個月都能領到退休金。",
+    "pinyin": "Bàba měi ge yuè dōu néng lǐng dào tuì xiū jīn.",
+    "english": "Dad receives his pension every month."
+  },
+  {
+    "word": "适度",
+    "sent_simp": "每天适度运动对身体很有好处。",
+    "sent_trad": "每天適度運動對身體很有好處。",
+    "pinyin": "Měi tiān shì dù yùn dòng duì shēn tǐ hěn yǒu hǎo chù.",
+    "english": "Moderate exercise every day is very beneficial for your health."
+  },
+  {
+    "word": "逐年",
+    "sent_simp": "公司的销售额逐年增加。",
+    "sent_trad": "公司的銷售額逐年增加。",
+    "pinyin": "Gōng sī de xiāo shòu é zhú nián zēng jiā.",
+    "english": "The company's sales revenue has grown year after year."
+  },
+  {
+    "word": "通通",
+    "sent_simp": "冰箱里的剩菜通通处理掉了。",
+    "sent_trad": "冰箱裡的剩菜通通處理掉了。",
+    "pinyin": "Bīng xiāng lǐ de shèng cài tōng tōng chǔ lǐ diào le.",
+    "english": "All the leftovers in the fridge were cleared out."
+  },
+  {
+    "word": "造价",
+    "sent_simp": "这座大桥的造价超过了十亿元。",
+    "sent_trad": "這座大橋的造價超過了十億元。",
+    "pinyin": "Zhè zuò dà qiáo de zào jià chāo guò le shí yì yuán.",
+    "english": "The construction cost of this bridge exceeded one billion yuan."
+  },
+  {
+    "word": "遍地",
+    "sent_simp": "春天来了，公园里遍地都是野花。",
+    "sent_trad": "春天來了，公園裡遍地都是野花。",
+    "pinyin": "Chūn tiān lái le, gōng yuán lǐ biàn dì dōu shì yě huā.",
+    "english": "Spring has arrived, and wildflowers are everywhere in the park."
+  },
+  {
+    "word": "遗嘱",
+    "sent_simp": "老人在去世前立好了遗嘱。",
+    "sent_trad": "老人在去世前立好了遺囑。",
+    "pinyin": "Lǎo rén zài qù shì qián lì hǎo le yí zhǔ.",
+    "english": "The elderly man drew up his will before he passed away."
+  },
+  {
+    "word": "遥控",
+    "sent_simp": "孩子拿着遥控器在玩遥控飞机。",
+    "sent_trad": "孩子拿著遙控器在玩遙控飛機。",
+    "pinyin": "Hái zi ná zhe yáo kòng qì zài wán yáo kòng fēi jī.",
+    "english": "The child is playing with a remote-controlled airplane using the remote."
+  },
+  {
+    "word": "遵照",
+    "sent_simp": "请遵照医嘱按时服药。",
+    "sent_trad": "請遵照醫囑按時服藥。",
+    "pinyin": "Qǐng zūn zhào yī zhǔ àn shí fú yào.",
+    "english": "Please follow the doctor's instructions and take your medication on time."
+  },
+  {
+    "word": "邮政",
+    "sent_simp": "我去邮政局寄了一个包裹。",
+    "sent_trad": "我去郵政局寄了一個包裹。",
+    "pinyin": "Wǒ qù yóu zhèng jú jì le yī ge bāo guǒ.",
+    "english": "I went to the post office to send a parcel."
+  },
+  {
+    "word": "配偶",
+    "sent_simp": "填表时需要填写配偶的姓名。",
+    "sent_trad": "填表時需要填寫配偶的姓名。",
+    "pinyin": "Tián biǎo shí xū yào tián xiě pèi ǒu de xìng míng.",
+    "english": "When filling out the form, you need to write your spouse's name."
+  }
+]

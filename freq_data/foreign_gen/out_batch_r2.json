@@ -1,0 +1,282 @@
+[
+  {
+    "word": "放映",
+    "sent_simp": "电影院今晚放映一部新片。",
+    "sent_trad": "電影院今晚放映一部新片。",
+    "pinyin": "Diànyǐngyuàn jīnwǎn fàngyìng yī bù xīn piān.",
+    "english": "The cinema is showing a new film tonight."
+  },
+  {
+    "word": "教堂",
+    "sent_simp": "他们在教堂里举行了婚礼。",
+    "sent_trad": "他們在教堂裡舉行了婚禮。",
+    "pinyin": "Tāmen zài jiàotáng lǐ jǔxíng le hūnlǐ.",
+    "english": "They held their wedding ceremony in the church."
+  },
+  {
+    "word": "教条",
+    "sent_simp": "他做事太教条，不懂变通。",
+    "sent_trad": "他做事太教條，不懂變通。",
+    "pinyin": "Tā zuòshì tài jiàotiáo, bù dǒng biàntōng.",
+    "english": "He's too dogmatic and doesn't know how to adapt."
+  },
+  {
+    "word": "敢于",
+    "sent_simp": "你要敢于表达自己的想法。",
+    "sent_trad": "你要敢於表達自己的想法。",
+    "pinyin": "Nǐ yào gǎnyú biǎodá zìjǐ de xiǎngfǎ.",
+    "english": "You need to have the courage to express your own ideas."
+  },
+  {
+    "word": "敢情",
+    "sent_simp": "敢情你早就知道这件事了！",
+    "sent_trad": "敢情你早就知道這件事了！",
+    "pinyin": "Gǎnqíng nǐ zǎo jiù zhīdào zhè jiàn shì le!",
+    "english": "So you already knew about this all along!"
+  },
+  {
+    "word": "散文",
+    "sent_simp": "她喜欢读鲁迅写的散文。",
+    "sent_trad": "她喜歡讀魯迅寫的散文。",
+    "pinyin": "Tā xǐhuān dú Lǔ Xùn xiě de sǎnwén.",
+    "english": "She enjoys reading the prose written by Lu Xun."
+  },
+  {
+    "word": "敦促",
+    "sent_simp": "老师敦促学生按时交作业。",
+    "sent_trad": "老師敦促學生按時交作業。",
+    "pinyin": "Lǎoshī dūncù xuésheng ànshí jiāo zuòyè.",
+    "english": "The teacher urged students to hand in homework on time."
+  },
+  {
+    "word": "敬业",
+    "sent_simp": "这位医生非常敬业，很受尊重。",
+    "sent_trad": "這位醫生非常敬業，很受尊重。",
+    "pinyin": "Zhè wèi yīshēng fēicháng jìngyè, hěn shòu zūnzhòng.",
+    "english": "This doctor is very dedicated to his work and widely respected."
+  },
+  {
+    "word": "敬佩",
+    "sent_simp": "我非常敬佩她的勇气。",
+    "sent_trad": "我非常敬佩她的勇氣。",
+    "pinyin": "Wǒ fēicháng jìngpèi tā de yǒngqì.",
+    "english": "I greatly admire her courage."
+  },
+  {
+    "word": "数据库",
+    "sent_simp": "系统的数据库需要定期备份。",
+    "sent_trad": "系統的數據庫需要定期備份。",
+    "pinyin": "Xìtǒng de shùjùkù xūyào dìngqī bèifèn.",
+    "english": "The system's database needs to be backed up regularly."
+  },
+  {
+    "word": "数额",
+    "sent_simp": "捐款数额由你自己决定。",
+    "sent_trad": "捐款數額由你自己決定。",
+    "pinyin": "Juānkuǎn shù'é yóu nǐ zìjǐ juédìng.",
+    "english": "The donation amount is up to you to decide."
+  },
+  {
+    "word": "整数",
+    "sent_simp": "请把价格四舍五入到整数。",
+    "sent_trad": "請把價格四捨五入到整數。",
+    "pinyin": "Qǐng bǎ jiàgé sìshěwǔrù dào zhěngshù.",
+    "english": "Please round the price to a whole number."
+  },
+  {
+    "word": "整治",
+    "sent_simp": "政府决定整治这条污染河流。",
+    "sent_trad": "政府決定整治這條污染河流。",
+    "pinyin": "Zhèngfǔ juédìng zhěngzhì zhè tiáo wūrǎn héliú.",
+    "english": "The government decided to clean up this polluted river."
+  },
+  {
+    "word": "文凭",
+    "sent_simp": "这份工作要求本科文凭。",
+    "sent_trad": "這份工作要求本科文憑。",
+    "pinyin": "Zhè fèn gōngzuò yāoqiú běnkē wénpíng.",
+    "english": "This job requires a bachelor's degree diploma."
+  },
+  {
+    "word": "文盲",
+    "sent_simp": "那个年代农村里文盲很多。",
+    "sent_trad": "那個年代農村裡文盲很多。",
+    "pinyin": "Nà ge niándài nóngcūn lǐ wénmáng hěn duō.",
+    "english": "In that era there were many illiterate people in the countryside."
+  },
+  {
+    "word": "文科",
+    "sent_simp": "她高中选择了文科方向。",
+    "sent_trad": "她高中選擇了文科方向。",
+    "pinyin": "Tā gāozhōng xuǎnzé le wénkē fāngxiàng.",
+    "english": "She chose the humanities track in high school."
+  },
+  {
+    "word": "断裂",
+    "sent_simp": "地震导致桥梁发生断裂。",
+    "sent_trad": "地震導致橋樑發生斷裂。",
+    "pinyin": "Dìzhèn dǎozhì qiáoliáng fāshēng duànliè.",
+    "english": "The earthquake caused the bridge to fracture."
+  },
+  {
+    "word": "新奇",
+    "sent_simp": "孩子对这个新奇的玩具爱不释手。",
+    "sent_trad": "孩子對這個新奇的玩具愛不釋手。",
+    "pinyin": "Háizi duì zhège xīnqí de wánjù ài bù shì shǒu.",
+    "english": "The child can't put down this novel toy."
+  },
+  {
+    "word": "新年",
+    "sent_simp": "新年快乐，万事如意！",
+    "sent_trad": "新年快樂，萬事如意！",
+    "pinyin": "Xīnnián kuàilè, wànshì rúyì!",
+    "english": "Happy New Year, may everything go your way!"
+  },
+  {
+    "word": "新式",
+    "sent_simp": "他换了一套新式的西装。",
+    "sent_trad": "他換了一套新式的西裝。",
+    "pinyin": "Tā huàn le yī tào xīnshì de xīzhuāng.",
+    "english": "He got a new-style suit."
+  },
+  {
+    "word": "新款",
+    "sent_simp": "这家店刚到了几款新款手机。",
+    "sent_trad": "這家店剛到了幾款新款手機。",
+    "pinyin": "Zhè jiā diàn gāng dào le jǐ kuǎn xīnkuǎn shǒujī.",
+    "english": "This store just received several new-model smartphones."
+  },
+  {
+    "word": "新颖",
+    "sent_simp": "这个设计思路非常新颖。",
+    "sent_trad": "這個設計思路非常新穎。",
+    "pinyin": "Zhège shèjì sīlù fēicháng xīnyǐng.",
+    "english": "This design concept is very original and fresh."
+  },
+  {
+    "word": "旅行社",
+    "sent_simp": "我们通过旅行社预订了酒店。",
+    "sent_trad": "我們通過旅行社預訂了酒店。",
+    "pinyin": "Wǒmen tōngguò lǚxíngshè yùdìng le jiǔdiàn.",
+    "english": "We booked the hotel through a travel agency."
+  },
+  {
+    "word": "无私",
+    "sent_simp": "她无私地帮助了每一位邻居。",
+    "sent_trad": "她無私地幫助了每一位鄰居。",
+    "pinyin": "Tā wúsī de bāngzhù le měi yī wèi línjū.",
+    "english": "She selflessly helped every one of her neighbors."
+  },
+  {
+    "word": "无边",
+    "sent_simp": "站在草原上感受到无边的开阔。",
+    "sent_trad": "站在草原上感受到無邊的開闊。",
+    "pinyin": "Zhàn zài cǎoyuán shang gǎnshòu dào wúbiān de kāikuò.",
+    "english": "Standing on the grassland you feel boundless openness."
+  },
+  {
+    "word": "日报",
+    "sent_simp": "爷爷每天早上都要看日报。",
+    "sent_trad": "爺爺每天早上都要看日報。",
+    "pinyin": "Yéye měitiān zǎoshang dōu yào kàn rìbào.",
+    "english": "Grandpa reads the daily newspaper every morning."
+  },
+  {
+    "word": "日趋",
+    "sent_simp": "这座城市的交通日趋拥堵。",
+    "sent_trad": "這座城市的交通日趨擁堵。",
+    "pinyin": "Zhè zuò chéngshì de jiāotōng rìqū yōngdǔ.",
+    "english": "Traffic in this city is getting more congested with each passing day."
+  },
+  {
+    "word": "旨在",
+    "sent_simp": "这项活动旨在提高大家的健康意识。",
+    "sent_trad": "這項活動旨在提高大家的健康意識。",
+    "pinyin": "Zhè xiàng huódòng zhǐzài tígāo dàjiā de jiànkāng yìshí.",
+    "english": "This activity aims to raise everyone's health awareness."
+  },
+  {
+    "word": "早晨",
+    "sent_simp": "早晨的空气特别清新。",
+    "sent_trad": "早晨的空氣特別清新。",
+    "pinyin": "Zǎochén de kōngqì tèbié qīngxīn.",
+    "english": "The morning air is especially fresh."
+  },
+  {
+    "word": "早期",
+    "sent_simp": "疾病在早期发现更容易治疗。",
+    "sent_trad": "疾病在早期發現更容易治療。",
+    "pinyin": "Jíbìng zài zǎoqī fāxiàn gèng róngyì zhìliáo.",
+    "english": "Diseases detected at an early stage are easier to treat."
+  },
+  {
+    "word": "时时",
+    "sent_simp": "她时时记挂着家里的老人。",
+    "sent_trad": "她時時記掛著家裡的老人。",
+    "pinyin": "Tā shíshí jìguà zhe jiālǐ de lǎorén.",
+    "english": "She constantly thinks about the elderly at home."
+  },
+  {
+    "word": "时装",
+    "sent_simp": "她在时装店买了一件新外套。",
+    "sent_trad": "她在時裝店買了一件新外套。",
+    "pinyin": "Tā zài shízhuāng diàn mǎi le yī jiàn xīn wàitào.",
+    "english": "She bought a new coat at a fashion boutique."
+  },
+  {
+    "word": "时间表",
+    "sent_simp": "老师发给我们一份新的时间表。",
+    "sent_trad": "老師發給我們一份新的時間表。",
+    "pinyin": "Lǎoshī fā gěi wǒmen yī fèn xīn de shíjiānbiǎo.",
+    "english": "The teacher handed out a new schedule to us."
+  },
+  {
+    "word": "显示器",
+    "sent_simp": "这台显示器的屏幕很大很清晰。",
+    "sent_trad": "這台顯示器的屏幕很大很清晰。",
+    "pinyin": "Zhè tái xiǎnshìqì de píngmù hěn dà hěn qīngxī.",
+    "english": "This monitor has a large, very clear screen."
+  },
+  {
+    "word": "晚年",
+    "sent_simp": "老人的晚年生活过得很幸福。",
+    "sent_trad": "老人的晚年生活過得很幸福。",
+    "pinyin": "Lǎorén de wǎnnián shēnghuó guò de hěn xìngfú.",
+    "english": "The elderly person's later years are very happy."
+  },
+  {
+    "word": "晚报",
+    "sent_simp": "他下班路上买了一份晚报。",
+    "sent_trad": "他下班路上買了一份晚報。",
+    "pinyin": "Tā xiàbān lùshang mǎi le yī fèn wǎnbào.",
+    "english": "He bought an evening newspaper on his way home from work."
+  },
+  {
+    "word": "晚期",
+    "sent_simp": "他的病发现得晚，已是晚期了。",
+    "sent_trad": "他的病發現得晚，已是晚期了。",
+    "pinyin": "Tā de bìng fāxiàn de wǎn, yǐ shì wǎnqī le.",
+    "english": "His illness was detected late and is already at an advanced stage."
+  },
+  {
+    "word": "晚间",
+    "sent_simp": "晚间新闻在八点准时播出。",
+    "sent_trad": "晚間新聞在八點準時播出。",
+    "pinyin": "Wǎnjiān xīnwén zài bā diǎn zhǔnshí bōchū.",
+    "english": "The evening news airs punctually at eight o'clock."
+  },
+  {
+    "word": "智商",
+    "sent_simp": "智商高不代表情商也高。",
+    "sent_trad": "智商高不代表情商也高。",
+    "pinyin": "Zhìshāng gāo bù dàibiǎo qíngshāng yě gāo.",
+    "english": "A high IQ doesn't mean emotional intelligence is also high."
+  },
+  {
+    "word": "暑期",
+    "sent_simp": "她暑期在图书馆做志愿者。",
+    "sent_trad": "她暑期在圖書館做志願者。",
+    "pinyin": "Tā shǔqī zài túshūguǎn zuò zhìyuànzhě.",
+    "english": "She volunteers at the library during the summer vacation."
+  }
+]

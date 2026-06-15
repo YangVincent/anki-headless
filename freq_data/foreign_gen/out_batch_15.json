@@ -1,0 +1,282 @@
+[
+  {
+    "word": "登山",
+    "sent_simp": "我们周末去登山，风景很美。",
+    "sent_trad": "我們週末去登山，風景很美。",
+    "pinyin": "Wǒmen zhōumò qù dēngshān, fēngjǐng hěn měi.",
+    "english": "We went mountain climbing on the weekend — the scenery was beautiful."
+  },
+  {
+    "word": "白酒",
+    "sent_simp": "爷爷每天晚饭喝一小杯白酒。",
+    "sent_trad": "爺爺每天晚飯喝一小杯白酒。",
+    "pinyin": "Yéye měitiān wǎnfàn hē yī xiǎo bēi báijiǔ.",
+    "english": "Grandpa drinks a small glass of baijiu with dinner every day."
+  },
+  {
+    "word": "白领",
+    "sent_simp": "她是一名白领，每天坐班到很晚。",
+    "sent_trad": "她是一名白領，每天坐班到很晚。",
+    "pinyin": "Tā shì yī míng báilǐng, měitiān zuòbān dào hěn wǎn.",
+    "english": "She's a white-collar worker who stays at the office late every day."
+  },
+  {
+    "word": "百科全书",
+    "sent_simp": "他小时候特别喜欢翻百科全书。",
+    "sent_trad": "他小時候特別喜歡翻百科全書。",
+    "pinyin": "Tā xiǎoshíhòu tèbié xǐhuān fān bǎikē quánshū.",
+    "english": "He loved flipping through encyclopedias when he was a kid."
+  },
+  {
+    "word": "皇上",
+    "sent_simp": "剧里的皇上每天要处理很多奏折。",
+    "sent_trad": "劇裡的皇上每天要處理很多奏折。",
+    "pinyin": "Jù lǐ de huángshàng měitiān yào chǔlǐ hěn duō zòuzhé.",
+    "english": "The emperor in the drama has to deal with many official memorials every day."
+  },
+  {
+    "word": "皇宫",
+    "sent_simp": "去北京一定要参观故宫，那是古代的皇宫。",
+    "sent_trad": "去北京一定要參觀故宮，那是古代的皇宮。",
+    "pinyin": "Qù Běijīng yīdìng yào cānguān Gùgōng, nà shì gǔdài de huánggōng.",
+    "english": "When visiting Beijing, you must see the Forbidden City — it was the imperial palace in ancient times."
+  },
+  {
+    "word": "皮带",
+    "sent_simp": "他买了一条黑色皮带来搭这条裤子。",
+    "sent_trad": "他買了一條黑色皮帶來搭這條褲子。",
+    "pinyin": "Tā mǎile yī tiáo hēisè pídài lái dā zhè tiáo kùzi.",
+    "english": "He bought a black leather belt to go with these pants."
+  },
+  {
+    "word": "盈利",
+    "sent_simp": "这家小店开业第一年就开始盈利了。",
+    "sent_trad": "這家小店開業第一年就開始盈利了。",
+    "pinyin": "Zhè jiā xiǎodiàn kāiyè dì yī nián jiù kāishǐ yínglì le.",
+    "english": "This little shop started turning a profit in its very first year of business."
+  },
+  {
+    "word": "监护",
+    "sent_simp": "孩子的监护权判给了母亲。",
+    "sent_trad": "孩子的監護權判給了母親。",
+    "pinyin": "Háizi de jiānhù quán pàn gěile mǔqīn.",
+    "english": "Guardianship of the child was awarded to the mother."
+  },
+  {
+    "word": "监管",
+    "sent_simp": "食品安全需要严格监管。",
+    "sent_trad": "食品安全需要嚴格監管。",
+    "pinyin": "Shípǐn ānquán xūyào yángé jiānguǎn.",
+    "english": "Food safety requires strict oversight."
+  },
+  {
+    "word": "盗版",
+    "sent_simp": "买盗版软件存在很大的安全风险。",
+    "sent_trad": "買盜版軟件存在很大的安全風險。",
+    "pinyin": "Mǎi dàobǎn ruǎnjiàn cúnzài hěn dà de ānquán fēngxiǎn.",
+    "english": "Buying pirated software carries serious security risks."
+  },
+  {
+    "word": "盛会",
+    "sent_simp": "这次音乐节是年度最大的盛会。",
+    "sent_trad": "這次音樂節是年度最大的盛會。",
+    "pinyin": "Zhè cì yīnyuèjié shì niándù zuì dà de shènghuì.",
+    "english": "This music festival is the biggest event of the year."
+  },
+  {
+    "word": "盛行",
+    "sent_simp": "短视频在年轻人中非常盛行。",
+    "sent_trad": "短視頻在年輕人中非常盛行。",
+    "pinyin": "Duǎn shìpín zài niánqīngrén zhōng fēicháng shèngxíng.",
+    "english": "Short videos are extremely popular among young people."
+  },
+  {
+    "word": "直升机",
+    "sent_simp": "救援直升机把伤者送到了医院。",
+    "sent_trad": "救援直升機把傷者送到了醫院。",
+    "pinyin": "Jiùyuán zhíshēngjī bǎ shāngzhě sòng dào le yīyuàn.",
+    "english": "A rescue helicopter airlifted the injured person to the hospital."
+  },
+  {
+    "word": "直观",
+    "sent_simp": "这张图表比文字更直观。",
+    "sent_trad": "這張圖表比文字更直觀。",
+    "pinyin": "Zhè zhāng túbiǎo bǐ wénzì gèng zhíguān.",
+    "english": "This chart is more intuitive than plain text."
+  },
+  {
+    "word": "相声",
+    "sent_simp": "他们两个说相声逗得全场大笑。",
+    "sent_trad": "他們兩個說相聲逗得全場大笑。",
+    "pinyin": "Tāmen liǎng gè shuō xiàngsheng dòu de quánchǎng dà xiào.",
+    "english": "The two of them performed a crosstalk routine that had the whole audience laughing."
+  },
+  {
+    "word": "相比之下",
+    "sent_simp": "相比之下，这家餐厅的价格更合理。",
+    "sent_trad": "相比之下，這家餐廳的價格更合理。",
+    "pinyin": "Xiāngbǐ zhīxià, zhè jiā cāntīng de jiàgé gèng hélǐ.",
+    "english": "By comparison, this restaurant's prices are more reasonable."
+  },
+  {
+    "word": "相片",
+    "sent_simp": "她把旅行的相片都打印出来了。",
+    "sent_trad": "她把旅行的相片都打印出來了。",
+    "pinyin": "Tā bǎ lǚxíng de xiāngpiàn dōu dǎyìn chūlái le.",
+    "english": "She printed out all the photos from her trip."
+  },
+  {
+    "word": "省钱",
+    "sent_simp": "自己做饭比外卖省钱多了。",
+    "sent_trad": "自己做飯比外賣省錢多了。",
+    "pinyin": "Zìjǐ zuòfàn bǐ wàimài shěngqián duō le.",
+    "english": "Cooking at home saves a lot more money than ordering takeout."
+  },
+  {
+    "word": "看得见",
+    "sent_simp": "站在这里看得见整个城市的夜景。",
+    "sent_trad": "站在這裡看得見整個城市的夜景。",
+    "pinyin": "Zhàn zài zhèlǐ kàn de jiàn zhěnggè chéngshì de yèjǐng.",
+    "english": "Standing here you can see the night view of the whole city."
+  },
+  {
+    "word": "看护",
+    "sent_simp": "奶奶生病住院，需要有人看护。",
+    "sent_trad": "奶奶生病住院，需要有人看護。",
+    "pinyin": "Nǎinai shēngbìng zhùyuàn, xūyào yǒurén kānhù.",
+    "english": "Grandma is in the hospital and needs someone to look after her."
+  },
+  {
+    "word": "看病",
+    "sent_simp": "嗓子不舒服要及时去看病。",
+    "sent_trad": "嗓子不舒服要及時去看病。",
+    "pinyin": "Sǎngzi bù shūfu yào jíshí qù kànbìng.",
+    "english": "If your throat is bothering you, go see a doctor right away."
+  },
+  {
+    "word": "着力",
+    "sent_simp": "他着力改善了团队的沟通方式。",
+    "sent_trad": "他著力改善了團隊的溝通方式。",
+    "pinyin": "Tā zhuólì gǎishànle tuánduì de gōutōng fāngshì.",
+    "english": "He put real effort into improving the way the team communicates."
+  },
+  {
+    "word": "督促",
+    "sent_simp": "父母要督促孩子养成写作业的习惯。",
+    "sent_trad": "父母要督促孩子養成寫作業的習慣。",
+    "pinyin": "Fùmǔ yào dūcù háizi yǎngchéng xiě zuòyè de xíguàn.",
+    "english": "Parents should urge their children to develop the habit of doing homework."
+  },
+  {
+    "word": "瞩目",
+    "sent_simp": "这位新星的演出引发了全场瞩目。",
+    "sent_trad": "這位新星的演出引發了全場矚目。",
+    "pinyin": "Zhè wèi xīnxīng de yǎnchū yǐnfāle quánchǎng zhǔmù.",
+    "english": "This rising star's performance drew everyone's attention."
+  },
+  {
+    "word": "矛头",
+    "sent_simp": "大家把矛头指向了那家问题企业。",
+    "sent_trad": "大家把矛頭指向了那家問題企業。",
+    "pinyin": "Dàjiā bǎ máotóu zhǐxiàngle nà jiā wèntí qǐyè.",
+    "english": "Everyone directed their criticism at that problem company."
+  },
+  {
+    "word": "知名",
+    "sent_simp": "她是国内很知名的室内设计师。",
+    "sent_trad": "她是國內很知名的室內設計師。",
+    "pinyin": "Tā shì guónèi hěn zhīmíng de shìnèi shèjìshī.",
+    "english": "She is a well-known interior designer in the country."
+  },
+  {
+    "word": "知识分子",
+    "sent_simp": "他是一位爱读书的知识分子。",
+    "sent_trad": "他是一位愛讀書的知識分子。",
+    "pinyin": "Tā shì yī wèi ài dúshū de zhīshi fènzǐ.",
+    "english": "He is an intellectual who loves to read."
+  },
+  {
+    "word": "短缺",
+    "sent_simp": "夏天用电高峰期常常出现电力短缺。",
+    "sent_trad": "夏天用電高峰期常常出現電力短缺。",
+    "pinyin": "Xiàtiān yòngdiàn gāofēngqī chángcháng chūxiàn diànlì duǎnquē.",
+    "english": "Power shortages often occur during summer peak electricity demand."
+  },
+  {
+    "word": "短裤",
+    "sent_simp": "天气太热了，他换上了一条短裤。",
+    "sent_trad": "天氣太熱了，他換上了一條短褲。",
+    "pinyin": "Tiānqì tài rè le, tā huàn shàngle yī tiáo duǎnkù.",
+    "english": "It was so hot that he changed into a pair of shorts."
+  },
+  {
+    "word": "硬币",
+    "sent_simp": "我包里刚好有一枚一元硬币。",
+    "sent_trad": "我包裡剛好有一枚一元硬幣。",
+    "pinyin": "Wǒ bāo lǐ gānghǎo yǒu yī méi yī yuán yìngbì.",
+    "english": "I happened to have a one-yuan coin in my bag."
+  },
+  {
+    "word": "硬盘",
+    "sent_simp": "我的电脑硬盘快满了，要清理一下。",
+    "sent_trad": "我的電腦硬盤快滿了，要清理一下。",
+    "pinyin": "Wǒ de diànnǎo yìngpán kuài mǎn le, yào qīnglǐ yīxià.",
+    "english": "My computer's hard disk is almost full — I need to clean it up."
+  },
+  {
+    "word": "确诊",
+    "sent_simp": "医生今天才确诊他得了肺炎。",
+    "sent_trad": "醫生今天才確診他得了肺炎。",
+    "pinyin": "Yīshēng jīntiān cái quèzhěn tā déle fèiyán.",
+    "english": "The doctor only confirmed today that he has pneumonia."
+  },
+  {
+    "word": "磁带",
+    "sent_simp": "爸爸还保留着几盘旧磁带。",
+    "sent_trad": "爸爸還保留著幾盤舊磁帶。",
+    "pinyin": "Bàba hái bǎoliúzhe jǐ pán jiù cídài.",
+    "english": "Dad still has a few old cassette tapes."
+  },
+  {
+    "word": "磋商",
+    "sent_simp": "双方就合同细节进行了磋商。",
+    "sent_trad": "雙方就合同細節進行了磋商。",
+    "pinyin": "Shuāngfāng jiù hétong xìjié jìnxíngle cuōshāng.",
+    "english": "The two sides consulted each other on the details of the contract."
+  },
+  {
+    "word": "磨损",
+    "sent_simp": "这双鞋穿了两年，鞋底有些磨损。",
+    "sent_trad": "這雙鞋穿了兩年，鞋底有些磨損。",
+    "pinyin": "Zhè shuāng xié chuānle liǎng nián, xiédǐ yǒuxiē mósǔn.",
+    "english": "These shoes are two years old and the soles are a bit worn down."
+  },
+  {
+    "word": "磨难",
+    "sent_simp": "经历了那么多磨难，他依然乐观。",
+    "sent_trad": "經歷了那麼多磨難，他依然樂觀。",
+    "pinyin": "Jīnglìle nàme duō mónàn, tā yīrán lèguān.",
+    "english": "Despite going through so many hardships, he remains optimistic."
+  },
+  {
+    "word": "礼服",
+    "sent_simp": "她特意买了一件礼服参加婚礼。",
+    "sent_trad": "她特意買了一件禮服參加婚禮。",
+    "pinyin": "Tā tèyì mǎile yī jiàn lǐfú cānjiā hūnlǐ.",
+    "english": "She bought a formal dress especially for the wedding."
+  },
+  {
+    "word": "社交",
+    "sent_simp": "他不喜欢社交，周末宁愿待在家里。",
+    "sent_trad": "他不喜歡社交，週末寧願待在家裡。",
+    "pinyin": "Tā bù xǐhuān shèjiāo, zhōumò nìngyuàn dāi zài jiālǐ.",
+    "english": "He doesn't like socializing and would rather stay home on weekends."
+  },
+  {
+    "word": "社团",
+    "sent_simp": "她大学时参加了舞蹈社团。",
+    "sent_trad": "她大學時參加了舞蹈社團。",
+    "pinyin": "Tā dàxué shí cānjiāle wǔdǎo shètuán.",
+    "english": "She joined a dance club when she was in university."
+  }
+]

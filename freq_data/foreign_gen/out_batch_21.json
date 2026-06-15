@@ -1,0 +1,282 @@
+[
+  {
+    "word": "配送",
+    "sent_simp": "这家超市提供免费配送服务。",
+    "sent_trad": "這家超市提供免費配送服務。",
+    "pinyin": "Zhè jiā chāoshì tígōng miǎnfèi pèisòng fúwù.",
+    "english": "This supermarket offers free delivery service."
+  },
+  {
+    "word": "醒目",
+    "sent_simp": "她穿了件很醒目的红色外套。",
+    "sent_trad": "她穿了件很醒目的紅色外套。",
+    "pinyin": "Tā chuān le jiàn hěn xǐngmù de hóngsè wàitào.",
+    "english": "She wore a very eye-catching red jacket."
+  },
+  {
+    "word": "里头",
+    "sent_simp": "钱包里头有几张卡。",
+    "sent_trad": "錢包裡頭有幾張卡。",
+    "pinyin": "Qiánbāo lǐtou yǒu jǐ zhāng kǎ.",
+    "english": "There are a few cards inside the wallet."
+  },
+  {
+    "word": "里程碑",
+    "sent_simp": "这次发射是航天史上的里程碑。",
+    "sent_trad": "這次發射是航天史上的里程碑。",
+    "pinyin": "Zhè cì fāshè shì hángtiān shǐ shàng de lǐchéngbēi.",
+    "english": "This launch is a milestone in the history of space exploration."
+  },
+  {
+    "word": "重型",
+    "sent_simp": "这条路禁止重型车辆通行。",
+    "sent_trad": "這條路禁止重型車輛通行。",
+    "pinyin": "Zhè tiáo lù jìnzhǐ zhòngxíng chēliàng tōngxíng.",
+    "english": "Heavy vehicles are not allowed on this road."
+  },
+  {
+    "word": "铃声",
+    "sent_simp": "上课铃声一响，同学们都坐好了。",
+    "sent_trad": "上課鈴聲一響，同學們都坐好了。",
+    "pinyin": "Shàngkè língshēng yī xiǎng, tóngxuémen dōu zuò hǎo le.",
+    "english": "As soon as the class bell rang, all the students sat down."
+  },
+  {
+    "word": "铜牌",
+    "sent_simp": "她在这次比赛中赢得了铜牌。",
+    "sent_trad": "她在這次比賽中贏得了銅牌。",
+    "pinyin": "Tā zài zhè cì bǐsài zhōng yíngdé le tóngpái.",
+    "english": "She won a bronze medal in this competition."
+  },
+  {
+    "word": "银幕",
+    "sent_simp": "他多年后终于重返银幕。",
+    "sent_trad": "他多年後終於重返銀幕。",
+    "pinyin": "Tā duō nián hòu zhōngyú chóngfǎn yínmù.",
+    "english": "He finally returned to the big screen after many years."
+  },
+  {
+    "word": "银牌",
+    "sent_simp": "他获得了游泳项目的银牌。",
+    "sent_trad": "他獲得了游泳項目的銀牌。",
+    "pinyin": "Tā huòdé le yóuyǒng xiàngmù de yínpái.",
+    "english": "He won a silver medal in the swimming event."
+  },
+  {
+    "word": "铸造",
+    "sent_simp": "这座铜像是用传统工艺铸造的。",
+    "sent_trad": "這座銅像是用傳統工藝鑄造的。",
+    "pinyin": "Zhè zuò tóngxiàng shì yòng chuántǒng gōngyì zhùzào de.",
+    "english": "This bronze statue was cast using traditional craftsmanship."
+  },
+  {
+    "word": "销量",
+    "sent_simp": "这款手机上市后销量很好。",
+    "sent_trad": "這款手機上市後銷量很好。",
+    "pinyin": "Zhè kuǎn shǒujī shàngshì hòu xiāoliàng hěn hǎo.",
+    "english": "This phone sold very well after its release."
+  },
+  {
+    "word": "锤子",
+    "sent_simp": "爸爸用锤子把钉子敲进了墙里。",
+    "sent_trad": "爸爸用錘子把釘子敲進了牆裡。",
+    "pinyin": "Bàba yòng chuízi bǎ dīngzi qiāo jìn le qiáng lǐ.",
+    "english": "Dad hammered the nail into the wall with a hammer."
+  },
+  {
+    "word": "镇定",
+    "sent_simp": "遇到突发情况要保持镇定。",
+    "sent_trad": "遇到突發情況要保持鎮定。",
+    "pinyin": "Yùdào tūfā qíngkuàng yào bǎochí zhèndìng.",
+    "english": "Stay calm when you encounter an unexpected situation."
+  },
+  {
+    "word": "镶嵌",
+    "sent_simp": "这枚戒指上镶嵌着一颗钻石。",
+    "sent_trad": "這枚戒指上鑲嵌著一顆鑽石。",
+    "pinyin": "Zhè méi jièzhi shàng xiāngqiàn zhe yī kē zuànshí.",
+    "english": "This ring has a diamond set in it."
+  },
+  {
+    "word": "长短",
+    "sent_simp": "你帮我量一下这块布的长短。",
+    "sent_trad": "你幫我量一下這塊布的長短。",
+    "pinyin": "Nǐ bāng wǒ liáng yīxià zhè kuài bù de chángduǎn.",
+    "english": "Could you measure the length of this piece of fabric for me?"
+  },
+  {
+    "word": "门槛",
+    "sent_simp": "这个行业的入行门槛比较高。",
+    "sent_trad": "這個行業的入行門檻比較高。",
+    "pinyin": "Zhège hángyè de rùháng ménkǎn bǐjiào gāo.",
+    "english": "The entry threshold for this industry is relatively high."
+  },
+  {
+    "word": "门诊",
+    "sent_simp": "他去医院挂了一个门诊号。",
+    "sent_trad": "他去醫院掛了一個門診號。",
+    "pinyin": "Tā qù yīyuàn guà le yī gè ménzhěn hào.",
+    "english": "He went to the hospital and registered for an outpatient appointment."
+  },
+  {
+    "word": "防火墙",
+    "sent_simp": "公司的防火墙挡住了很多攻击。",
+    "sent_trad": "公司的防火牆擋住了很多攻擊。",
+    "pinyin": "Gōngsī de fánghuǒqiáng dǎngzhù le hěn duō gōngjī.",
+    "english": "The company's firewall blocked many attacks."
+  },
+  {
+    "word": "阻力",
+    "sent_simp": "这项改革推进时遇到了很大阻力。",
+    "sent_trad": "這項改革推進時遇到了很大阻力。",
+    "pinyin": "Zhè xiàng gǎigé tuījìn shí yùdào le hěn dà zǔlì.",
+    "english": "This reform faced a lot of resistance when it was being pushed forward."
+  },
+  {
+    "word": "阻挠",
+    "sent_simp": "任何人都不得阻挠正常的工作进程。",
+    "sent_trad": "任何人都不得阻撓正常的工作進程。",
+    "pinyin": "Rènhé rén dōu bùdé zǔnáo zhèngcháng de gōngzuò jìnchéng.",
+    "english": "No one is allowed to obstruct the normal work process."
+  },
+  {
+    "word": "陆军",
+    "sent_simp": "他叔叔在陆军服役了十年。",
+    "sent_trad": "他叔叔在陸軍服役了十年。",
+    "pinyin": "Tā shūshu zài lùjūn fúyì le shí nián.",
+    "english": "His uncle served in the army for ten years."
+  },
+  {
+    "word": "陈述",
+    "sent_simp": "他在会议上陈述了自己的观点。",
+    "sent_trad": "他在會議上陳述了自己的觀點。",
+    "pinyin": "Tā zài huìyì shàng chénshù le zìjǐ de guāndiǎn.",
+    "english": "He stated his views at the meeting."
+  },
+  {
+    "word": "降价",
+    "sent_simp": "这款电视最近降价了不少。",
+    "sent_trad": "這款電視最近降價了不少。",
+    "pinyin": "Zhè kuǎn diànshì zuìjìn jiàngjià le bùshǎo.",
+    "english": "This TV has dropped quite a bit in price recently."
+  },
+  {
+    "word": "降温",
+    "sent_simp": "明天冷空气来了会降温。",
+    "sent_trad": "明天冷空氣來了會降溫。",
+    "pinyin": "Míngtiān lěng kōngqì lái le huì jiàngwēn.",
+    "english": "Tomorrow's cold air will bring a drop in temperature."
+  },
+  {
+    "word": "限于",
+    "sent_simp": "此优惠限于会员使用。",
+    "sent_trad": "此優惠限於會員使用。",
+    "pinyin": "Cǐ yōuhuì xiànyú huìyuán shǐyòng.",
+    "english": "This discount is limited to members only."
+  },
+  {
+    "word": "院子",
+    "sent_simp": "奶奶在院子里种了很多花。",
+    "sent_trad": "奶奶在院子裡種了很多花。",
+    "pinyin": "Nǎinai zài yuànzi lǐ zhòng le hěn duō huā.",
+    "english": "Grandma planted a lot of flowers in the yard."
+  },
+  {
+    "word": "除外",
+    "sent_simp": "周末除外，他每天都骑车上班。",
+    "sent_trad": "週末除外，他每天都騎車上班。",
+    "pinyin": "Zhōumò chúwài, tā měitiān dōu qí chē shàngbān.",
+    "english": "Except for weekends, he bikes to work every day."
+  },
+  {
+    "word": "陶瓷",
+    "sent_simp": "这套陶瓷餐具是她从景德镇买回来的。",
+    "sent_trad": "這套陶瓷餐具是她從景德鎮買回來的。",
+    "pinyin": "Zhè tào táocí cānjù shì tā cóng Jǐngdézhèn mǎi huílái de.",
+    "english": "This set of ceramic tableware was bought by her from Jingdezhen."
+  },
+  {
+    "word": "隐身",
+    "sent_simp": "他在聊天软件上把状态设成了隐身。",
+    "sent_trad": "他在聊天軟件上把狀態設成了隱身。",
+    "pinyin": "Tā zài liáotiān ruǎnjiàn shàng bǎ zhuàngtài shè chéng le yǐnshēn.",
+    "english": "He set his status to invisible on the chat app."
+  },
+  {
+    "word": "难堪",
+    "sent_simp": "他在大家面前说错话，感到很难堪。",
+    "sent_trad": "他在大家面前說錯話，感到很難堪。",
+    "pinyin": "Tā zài dàjiā miànqián shuō cuò huà, gǎndào hěn nánkān.",
+    "english": "He felt very embarrassed after saying the wrong thing in front of everyone."
+  },
+  {
+    "word": "难点",
+    "sent_simp": "这道题的难点在于理解题意。",
+    "sent_trad": "這道題的難點在於理解題意。",
+    "pinyin": "Zhè dào tí de nándiǎn zàiyú lǐjiě tíyì.",
+    "english": "The difficulty of this question lies in understanding what it is asking."
+  },
+  {
+    "word": "雄厚",
+    "sent_simp": "这家公司资金雄厚，发展很快。",
+    "sent_trad": "這家公司資金雄厚，發展很快。",
+    "pinyin": "Zhè jiā gōngsī zījīn xiónghòu, fāzhǎn hěn kuài.",
+    "english": "This company has substantial funding and is growing quickly."
+  },
+  {
+    "word": "集资",
+    "sent_simp": "他们通过众筹集资买了新设备。",
+    "sent_trad": "他們通過眾籌集資買了新設備。",
+    "pinyin": "Tāmen tōngguò zhòngchóu jízī mǎi le xīn shèbèi.",
+    "english": "They raised money through crowdfunding to buy new equipment."
+  },
+  {
+    "word": "雇员",
+    "sent_simp": "公司为所有雇员提供医疗保险。",
+    "sent_trad": "公司為所有雇員提供醫療保險。",
+    "pinyin": "Gōngsī wèi suǒyǒu gùyuán tígōng yīliáo bǎoxiǎn.",
+    "english": "The company provides health insurance for all employees."
+  },
+  {
+    "word": "零件",
+    "sent_simp": "修车的零件已经订好了。",
+    "sent_trad": "修車的零件已經訂好了。",
+    "pinyin": "Xiū chē de língjiàn yǐjīng dìng hǎo le.",
+    "english": "The parts needed to repair the car have already been ordered."
+  },
+  {
+    "word": "霸占",
+    "sent_simp": "他把共用的桌子霸占了一整天。",
+    "sent_trad": "他把共用的桌子霸佔了一整天。",
+    "pinyin": "Tā bǎ gòngyòng de zhuōzi bāzhàn le yī zhěng tiān.",
+    "english": "He monopolized the shared table for an entire day."
+  },
+  {
+    "word": "青春期",
+    "sent_simp": "青春期的孩子情绪变化比较大。",
+    "sent_trad": "青春期的孩子情緒變化比較大。",
+    "pinyin": "Qīngchūnqī de háizi qíngxù biànhuà bǐjiào dà.",
+    "english": "Children going through puberty tend to have bigger emotional swings."
+  },
+  {
+    "word": "面粉",
+    "sent_simp": "她用面粉和鸡蛋做了一个蛋糕。",
+    "sent_trad": "她用麵粉和雞蛋做了一個蛋糕。",
+    "pinyin": "Tā yòng miànfěn hé jīdàn zuò le yī gè dàngāo.",
+    "english": "She made a cake using flour and eggs."
+  },
+  {
+    "word": "革新",
+    "sent_simp": "公司不断革新技术，保持竞争力。",
+    "sent_trad": "公司不斷革新技術，保持競爭力。",
+    "pinyin": "Gōngsī bùduàn gēxīn jìshù, bǎochí jìngzhēnglì.",
+    "english": "The company continuously innovates its technology to stay competitive."
+  },
+  {
+    "word": "音响",
+    "sent_simp": "他买了一套新音响放在客厅里。",
+    "sent_trad": "他買了一套新音響放在客廳裡。",
+    "pinyin": "Tā mǎi le yī tào xīn yīnxiǎng fàng zài kètīng lǐ.",
+    "english": "He bought a new stereo system for the living room."
+  }
+]

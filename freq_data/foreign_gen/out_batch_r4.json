@@ -1,0 +1,282 @@
+[
+  {
+    "word": "大赛",
+    "sent_simp": "她参加了全国烹饪大赛。",
+    "sent_trad": "她參加了全國烹飪大賽。",
+    "pinyin": "Tā cānjiā le quánguó pēngrèn dàsài.",
+    "english": "She entered the national cooking contest."
+  },
+  {
+    "word": "大选",
+    "sent_simp": "大选结果明天会公布。",
+    "sent_trad": "大選結果明天會公布。",
+    "pinyin": "Dàxuǎn jiéguǒ míngtiān huì gōngbù.",
+    "english": "The general election results will be announced tomorrow."
+  },
+  {
+    "word": "大面积",
+    "sent_simp": "暴雨导致大面积停电。",
+    "sent_trad": "暴雨導致大面積停電。",
+    "pinyin": "Bàoyǔ dǎozhì dà miànjī tíngdiàn.",
+    "english": "The heavy rain caused widespread power outages."
+  },
+  {
+    "word": "好人",
+    "sent_simp": "他真是个好人，总是帮助别人。",
+    "sent_trad": "他真是個好人，總是幫助別人。",
+    "pinyin": "Tā zhēn shì gè hǎorén, zǒng shì bāngzhù biérén.",
+    "english": "He is truly a good person who always helps others."
+  },
+  {
+    "word": "如果说",
+    "sent_simp": "如果说工作很忙，那也得注意休息。",
+    "sent_trad": "如果說工作很忙，那也得注意休息。",
+    "pinyin": "Rúguǒ shuō gōngzuò hěn máng, nà yě děi zhùyì xiūxi.",
+    "english": "If work is really busy, you still need to make sure you rest."
+  },
+  {
+    "word": "审定",
+    "sent_simp": "这份方案还没有经过审定。",
+    "sent_trad": "這份方案還沒有經過審定。",
+    "pinyin": "Zhè fèn fāng'àn hái méiyǒu jīngguò shěndìng.",
+    "english": "This plan has not yet been reviewed and approved."
+  },
+  {
+    "word": "富含",
+    "sent_simp": "牛奶富含钙质，适合每天喝。",
+    "sent_trad": "牛奶富含鈣質，適合每天喝。",
+    "pinyin": "Niúnǎi fùhán gàizhì, shìhé měitiān hē.",
+    "english": "Milk is rich in calcium and good to drink every day."
+  },
+  {
+    "word": "富强",
+    "sent_simp": "大家都希望国家越来越富强。",
+    "sent_trad": "大家都希望國家越來越富強。",
+    "pinyin": "Dàjiā dōu xīwàng guójiā yuè lái yuè fùqiáng.",
+    "english": "Everyone hopes the country becomes more and more prosperous and strong."
+  },
+  {
+    "word": "就座",
+    "sent_simp": "请大家按号码就座。",
+    "sent_trad": "請大家按號碼就座。",
+    "pinyin": "Qǐng dàjiā àn hàomǎ jiùzuò.",
+    "english": "Please take your seats according to your number."
+  },
+  {
+    "word": "师资",
+    "sent_simp": "这所学校的师资力量很强。",
+    "sent_trad": "這所學校的師資力量很強。",
+    "pinyin": "Zhè suǒ xuéxiào de shīzī lìliàng hěn qiáng.",
+    "english": "This school has a very strong teaching staff."
+  },
+  {
+    "word": "带队",
+    "sent_simp": "老师带队去博物馆参观。",
+    "sent_trad": "老師帶隊去博物館參觀。",
+    "pinyin": "Lǎoshī dàiduì qù bówùguǎn cānguān.",
+    "english": "The teacher led the group to visit the museum."
+  },
+  {
+    "word": "年画",
+    "sent_simp": "过年时家家户户贴年画。",
+    "sent_trad": "過年時家家戶戶貼年畫。",
+    "pinyin": "Guònián shí jiājiā hùhù tiē niánhuà.",
+    "english": "Every household puts up New Year pictures during the Spring Festival."
+  },
+  {
+    "word": "开发区",
+    "sent_simp": "工厂搬到了郊外的开发区。",
+    "sent_trad": "工廠搬到了郊外的開發區。",
+    "pinyin": "Gōngchǎng bān dào le jiāowài de kāifāqū.",
+    "english": "The factory moved to a development zone in the suburbs."
+  },
+  {
+    "word": "弘扬",
+    "sent_simp": "我们应该弘扬传统文化。",
+    "sent_trad": "我們應該弘揚傳統文化。",
+    "pinyin": "Wǒmen yīnggāi hóngyáng chuántǒng wénhuà.",
+    "english": "We should promote and carry forward traditional culture."
+  },
+  {
+    "word": "归来",
+    "sent_simp": "他出差一周后终于归来了。",
+    "sent_trad": "他出差一周後終於歸來了。",
+    "pinyin": "Tā chūchāi yī zhōu hòu zhōngyú guīlái le.",
+    "english": "He finally returned after a week away on a business trip."
+  },
+  {
+    "word": "攻关",
+    "sent_simp": "团队正在攻关这个技术难题。",
+    "sent_trad": "團隊正在攻關這個技術難題。",
+    "pinyin": "Tuánduì zhèngzài gōngguān zhège jìshù nántí.",
+    "english": "The team is working hard to tackle this technical challenge."
+  },
+  {
+    "word": "救灾",
+    "sent_simp": "洪水过后，志愿者赶来救灾。",
+    "sent_trad": "洪水過後，志願者趕來救災。",
+    "pinyin": "Hóngshuǐ guòhòu, zhìyuànzhě gǎnlái jiùzāi.",
+    "english": "After the flood, volunteers rushed in to provide disaster relief."
+  },
+  {
+    "word": "更是",
+    "sent_simp": "他平时很忙，周末更是抽不出时间。",
+    "sent_trad": "他平時很忙，週末更是抽不出時間。",
+    "pinyin": "Tā píngshí hěn máng, zhōumò gèng shì chōu bu chū shíjiān.",
+    "english": "He is usually very busy, and on weekends he has even less time to spare."
+  },
+  {
+    "word": "有利于",
+    "sent_simp": "多喝水有利于身体健康。",
+    "sent_trad": "多喝水有利於身體健康。",
+    "pinyin": "Duō hē shuǐ yǒulìyú shēntǐ jiànkāng.",
+    "english": "Drinking plenty of water is beneficial to your health."
+  },
+  {
+    "word": "查处",
+    "sent_simp": "有关部门已对此事进行查处。",
+    "sent_trad": "有關部門已對此事進行查處。",
+    "pinyin": "Yǒuguān bùmén yǐ duì cǐ shì jìnxíng cháchǔ.",
+    "english": "The relevant department has already investigated and handled this matter."
+  },
+  {
+    "word": "检察",
+    "sent_simp": "检察机关对此案展开了调查。",
+    "sent_trad": "檢察機關對此案展開了調查。",
+    "pinyin": "Jiǎnchá jīguān duì cǐ àn zhǎnkāi le diàochá.",
+    "english": "The procuratorate launched an investigation into this case."
+  },
+  {
+    "word": "此事",
+    "sent_simp": "此事已经解决，请放心。",
+    "sent_trad": "此事已經解決，請放心。",
+    "pinyin": "Cǐ shì yǐjīng jiějué, qǐng fàngxīn.",
+    "english": "This matter has already been resolved, so please don't worry."
+  },
+  {
+    "word": "比如说",
+    "sent_simp": "水果有很多种，比如说苹果和香蕉。",
+    "sent_trad": "水果有很多種，比如說蘋果和香蕉。",
+    "pinyin": "Shuǐguǒ yǒu hěn duō zhǒng, bǐrú shuō píngguǒ hé xiāngjiāo.",
+    "english": "There are many kinds of fruit, for example apples and bananas."
+  },
+  {
+    "word": "民办",
+    "sent_simp": "这是一所民办学校，收费较高。",
+    "sent_trad": "這是一所民辦學校，收費較高。",
+    "pinyin": "Zhè shì yī suǒ mínbàn xuéxiào, shōufèi jiào gāo.",
+    "english": "This is a privately run school, so the fees are relatively high."
+  },
+  {
+    "word": "民工",
+    "sent_simp": "很多民工春节前会赶回老家。",
+    "sent_trad": "很多民工春節前會趕回老家。",
+    "pinyin": "Hěn duō míngōng Chūnjié qián huì gǎn huí lǎojiā.",
+    "english": "Many migrant workers rush back to their hometowns before the Spring Festival."
+  },
+  {
+    "word": "活期",
+    "sent_simp": "活期存款随时可以取出来。",
+    "sent_trad": "活期存款隨時可以取出來。",
+    "pinyin": "Huóqī cúnkuǎn suíshí kěyǐ qǔ chūlái.",
+    "english": "Money in a current account can be withdrawn at any time."
+  },
+  {
+    "word": "流向",
+    "sent_simp": "这条河的流向是从北到南。",
+    "sent_trad": "這條河的流向是從北到南。",
+    "pinyin": "Zhè tiáo hé de liúxiàng shì cóng běi dào nán.",
+    "english": "This river flows from north to south."
+  },
+  {
+    "word": "燃气",
+    "sent_simp": "厨房的燃气灶用起来很方便。",
+    "sent_trad": "廚房的燃氣灶用起來很方便。",
+    "pinyin": "Chúfáng de ránqì zào yòng qǐlái hěn fāngbiàn.",
+    "english": "The gas stove in the kitchen is very convenient to use."
+  },
+  {
+    "word": "特大",
+    "sent_simp": "昨晚发生了一起特大交通事故。",
+    "sent_trad": "昨晚發生了一起特大交通事故。",
+    "pinyin": "Zuó wǎn fāshēng le yī qǐ tèdà jiāotōng shìgù.",
+    "english": "An exceptionally serious traffic accident occurred last night."
+  },
+  {
+    "word": "理财",
+    "sent_simp": "她学会了理财，每月都有存款。",
+    "sent_trad": "她學會了理財，每月都有存款。",
+    "pinyin": "Tā xuéhuì le lǐcái, měi yuè dōu yǒu cúnkuǎn.",
+    "english": "She learned to manage her finances and saves money every month."
+  },
+  {
+    "word": "申办",
+    "sent_simp": "这个城市正在申办国际马拉松赛。",
+    "sent_trad": "這個城市正在申辦國際馬拉松賽。",
+    "pinyin": "Zhège chéngshì zhèngzài shēnbàn guójì mǎlāsōng sài.",
+    "english": "This city is bidding to host an international marathon."
+  },
+  {
+    "word": "电动车",
+    "sent_simp": "他每天骑电动车上班。",
+    "sent_trad": "他每天騎電動車上班。",
+    "pinyin": "Tā měitiān qí diàndòngchē shàngbān.",
+    "english": "He rides his electric scooter to work every day."
+  },
+  {
+    "word": "电讯",
+    "sent_simp": "电讯行业发展越来越快。",
+    "sent_trad": "電訊行業發展越來越快。",
+    "pinyin": "Diànxùn hángyè fāzhǎn yuè lái yuè kuài.",
+    "english": "The telecommunications industry is developing faster and faster."
+  },
+  {
+    "word": "百分点",
+    "sent_simp": "今年销售额增长了五个百分点。",
+    "sent_trad": "今年銷售額增長了五個百分點。",
+    "pinyin": "Jīnnián xiāoshòu'é zēngzhǎng le wǔ gè bǎifēndiǎn.",
+    "english": "This year's sales grew by five percentage points."
+  },
+  {
+    "word": "相对而言",
+    "sent_simp": "相对而言，坐地铁更省时间。",
+    "sent_trad": "相對而言，坐地鐵更省時間。",
+    "pinyin": "Xiāngduì ér yán, zuò dìtiě gèng shěng shíjiān.",
+    "english": "Relatively speaking, taking the subway saves more time."
+  },
+  {
+    "word": "看得出",
+    "sent_simp": "看得出他今天心情不太好。",
+    "sent_trad": "看得出他今天心情不太好。",
+    "pinyin": "Kàn de chū tā jīntiān xīnqíng bù tài hǎo.",
+    "english": "You can tell that he is not in a great mood today."
+  },
+  {
+    "word": "第一线",
+    "sent_simp": "护士们每天都在医疗第一线工作。",
+    "sent_trad": "護士們每天都在醫療第一線工作。",
+    "pinyin": "Hùshimen měitiān dōu zài yīliáo dìyīxiàn gōngzuò.",
+    "english": "Nurses work on the front line of healthcare every day."
+  },
+  {
+    "word": "管理费",
+    "sent_simp": "这个小区每月收取一定的管理费。",
+    "sent_trad": "這個小區每月收取一定的管理費。",
+    "pinyin": "Zhège xiǎoqū měi yuè shōuqǔ yīdìng de guǎnlǐfèi.",
+    "english": "This residential community charges a fixed management fee every month."
+  },
+  {
+    "word": "粽子",
+    "sent_simp": "端午节我们一起包粽子吧。",
+    "sent_trad": "端午節我們一起包粽子吧。",
+    "pinyin": "Duānwǔ jié wǒmen yīqǐ bāo zòngzi ba.",
+    "english": "Let's make zongzi together for the Dragon Boat Festival."
+  },
+  {
+    "word": "紧接着",
+    "sent_simp": "闪电过后，紧接着响起了雷声。",
+    "sent_trad": "閃電過後，緊接著響起了雷聲。",
+    "pinyin": "Shǎndiàn guòhòu, jǐn jiēzhe xiǎngqǐ le léishēng.",
+    "english": "Right after the lightning, thunder immediately followed."
+  }
+]

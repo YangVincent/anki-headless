@@ -1,0 +1,282 @@
+[
+  {
+    "word": "警官",
+    "sent_simp": "那位警官帮我们找到了丢失的钱包。",
+    "sent_trad": "那位警官幫我們找到了丟失的錢包。",
+    "pinyin": "Nà wèi jǐng guān bāng wǒmen zhǎodào le diūshī de qiánbāo.",
+    "english": "That police officer helped us find the lost wallet."
+  },
+  {
+    "word": "警车",
+    "sent_simp": "街上停着一辆警车，引来很多人围观。",
+    "sent_trad": "街上停著一輛警車，引來很多人圍觀。",
+    "pinyin": "Jiē shang tíng zhe yī liàng jǐng chē, yǐn lái hěn duō rén wéiguān.",
+    "english": "A police car was parked on the street, drawing a crowd of onlookers."
+  },
+  {
+    "word": "计算机",
+    "sent_simp": "他在大学里学的是计算机专业。",
+    "sent_trad": "他在大學裡學的是計算機專業。",
+    "pinyin": "Tā zài dàxué lǐ xué de shì jì suàn jī zhuānyè.",
+    "english": "He majored in computer science at university."
+  },
+  {
+    "word": "订购",
+    "sent_simp": "我在网上订购了一箱苹果。",
+    "sent_trad": "我在網上訂購了一箱蘋果。",
+    "pinyin": "Wǒ zài wǎng shàng dìng gòu le yī xiāng píngguǒ.",
+    "english": "I ordered a box of apples online."
+  },
+  {
+    "word": "讨价还价",
+    "sent_simp": "在菜市场买东西可以讨价还价。",
+    "sent_trad": "在菜市場買東西可以討價還價。",
+    "pinyin": "Zài cài shìchǎng mǎi dōngxi kěyǐ tǎo jià huán jià.",
+    "english": "You can bargain when shopping at the wet market."
+  },
+  {
+    "word": "让座",
+    "sent_simp": "他在公交车上主动给老人让座。",
+    "sent_trad": "他在公交車上主動給老人讓座。",
+    "pinyin": "Tā zài gōngjiāo chē shàng zhǔdòng gěi lǎorén ràng zuò.",
+    "english": "He proactively gave up his seat for an elderly person on the bus."
+  },
+  {
+    "word": "议程",
+    "sent_simp": "今天会议的议程已经发给大家了。",
+    "sent_trad": "今天會議的議程已經發給大家了。",
+    "pinyin": "Jīntiān huìyì de yì chéng yǐjīng fā gěi dàjiā le.",
+    "english": "Today's meeting agenda has already been sent to everyone."
+  },
+  {
+    "word": "讲究",
+    "sent_simp": "他吃东西很讲究，什么都要最新鲜的。",
+    "sent_trad": "他吃東西很講究，什麼都要最新鮮的。",
+    "pinyin": "Tā chī dōngxi hěn jiǎng jiū, shénme dōu yào zuì xīnxiān de.",
+    "english": "He is very particular about food and wants everything to be the freshest."
+  },
+  {
+    "word": "讲课",
+    "sent_simp": "老师今天讲课的时候用了很多图片。",
+    "sent_trad": "老師今天講課的時候用了很多圖片。",
+    "pinyin": "Lǎoshī jīntiān jiǎng kè de shíhou yòng le hěn duō túpiàn.",
+    "english": "The teacher used a lot of pictures while teaching today."
+  },
+  {
+    "word": "论述",
+    "sent_simp": "这篇文章对这个问题有详细的论述。",
+    "sent_trad": "這篇文章對這個問題有詳細的論述。",
+    "pinyin": "Zhè piān wénzhāng duì zhège wèntí yǒu xiángxì de lùn shù.",
+    "english": "This article contains a detailed discussion of this issue."
+  },
+  {
+    "word": "设计师",
+    "sent_simp": "这套公寓是一位知名设计师设计的。",
+    "sent_trad": "這套公寓是一位知名設計師設計的。",
+    "pinyin": "Zhè tào gōngyù shì yī wèi zhīmíng shè jì shī shèjì de.",
+    "english": "This apartment was designed by a well-known designer."
+  },
+  {
+    "word": "评审",
+    "sent_simp": "专家们花了两天时间评审这些作品。",
+    "sent_trad": "專家們花了兩天時間評審這些作品。",
+    "pinyin": "Zhuānjiāmen huā le liǎng tiān shíjiān píng shěn zhèxiē zuòpǐn.",
+    "english": "The experts spent two days evaluating these works."
+  },
+  {
+    "word": "评选",
+    "sent_simp": "学校正在评选本月的优秀学生。",
+    "sent_trad": "學校正在評選本月的優秀學生。",
+    "pinyin": "Xuéxiào zhèngzài píng xuǎn běn yuè de yōuxiù xuésheng.",
+    "english": "The school is selecting the outstanding student of the month."
+  },
+  {
+    "word": "识字",
+    "sent_simp": "孩子五岁就开始学识字了。",
+    "sent_trad": "孩子五歲就開始學識字了。",
+    "pinyin": "Háizi wǔ suì jiù kāishǐ xué shí zì le.",
+    "english": "The child started learning to read at age five."
+  },
+  {
+    "word": "诊所",
+    "sent_simp": "我感冒了，去附近的诊所看了看。",
+    "sent_trad": "我感冒了，去附近的診所看了看。",
+    "pinyin": "Wǒ gǎnmào le, qù fùjìn de zhěn suǒ kàn le kàn.",
+    "english": "I caught a cold and went to the nearby clinic to get checked."
+  },
+  {
+    "word": "试题",
+    "sent_simp": "这次考试的试题比上次难多了。",
+    "sent_trad": "這次考試的試題比上次難多了。",
+    "pinyin": "Zhè cì kǎoshì de shì tí bǐ shàng cì nán duō le.",
+    "english": "The exam questions this time were much harder than last time."
+  },
+  {
+    "word": "诚信",
+    "sent_simp": "做生意最重要的是诚信。",
+    "sent_trad": "做生意最重要的是誠信。",
+    "pinyin": "Zuò shēngyì zuì zhòngyào de shì chéng xìn.",
+    "english": "The most important thing in doing business is honesty."
+  },
+  {
+    "word": "话费",
+    "sent_simp": "这个月的话费怎么这么高？",
+    "sent_trad": "這個月的話費怎麼這麼高？",
+    "pinyin": "Zhège yuè de huà fèi zěnme zhème gāo?",
+    "english": "Why is this month's phone bill so high?"
+  },
+  {
+    "word": "详尽",
+    "sent_simp": "她的报告写得非常详尽，每个细节都有说明。",
+    "sent_trad": "她的報告寫得非常詳盡，每個細節都有說明。",
+    "pinyin": "Tā de bàogào xiě de fēicháng xiáng jìn, měi gè xìjié dōu yǒu shuōmíng.",
+    "english": "Her report was extremely thorough, with every detail explained."
+  },
+  {
+    "word": "语音",
+    "sent_simp": "我用语音输入法发了一条消息。",
+    "sent_trad": "我用語音輸入法發了一條消息。",
+    "pinyin": "Wǒ yòng yǔ yīn shūrùfǎ fā le yī tiáo xiāoxi.",
+    "english": "I sent a message using voice input."
+  },
+  {
+    "word": "误区",
+    "sent_simp": "很多人对减肥有一个常见的误区。",
+    "sent_trad": "很多人對減肥有一個常見的誤區。",
+    "pinyin": "Hěn duō rén duì jiǎnféi yǒu yī gè chángjiàn de wù qū.",
+    "english": "Many people have a common misconception about losing weight."
+  },
+  {
+    "word": "说不上",
+    "sent_simp": "这道菜说不上好吃，也说不上难吃。",
+    "sent_trad": "這道菜說不上好吃，也說不上難吃。",
+    "pinyin": "Zhè dào cài shuō bù shàng hǎochī, yě shuō bù shàng nánchī.",
+    "english": "This dish can't really be called tasty, nor can it be called bad."
+  },
+  {
+    "word": "诸如此类",
+    "sent_simp": "锅、碗、筷子，诸如此类的厨房用品都放在这里。",
+    "sent_trad": "鍋、碗、筷子，諸如此類的廚房用品都放在這裡。",
+    "pinyin": "Guō, wǎn, kuàizi, zhū rú cǐ lèi de chúfáng yòngpǐn dōu fàng zài zhèlǐ.",
+    "english": "Pots, bowls, chopsticks, and other such kitchen items are all kept here."
+  },
+  {
+    "word": "诽谤",
+    "sent_simp": "在网上发布虚假信息诽谤他人是违法的。",
+    "sent_trad": "在網上發布虛假信息誹謗他人是違法的。",
+    "pinyin": "Zài wǎng shàng fābù xūjiǎ xìnxī fěi bàng tārén shì wéifǎ de.",
+    "english": "Posting false information online to slander others is illegal."
+  },
+  {
+    "word": "课堂",
+    "sent_simp": "老师要求课堂上不能玩手机。",
+    "sent_trad": "老師要求課堂上不能玩手機。",
+    "pinyin": "Lǎoshī yāoqiú kè táng shàng bù néng wán shǒujī.",
+    "english": "The teacher requires that phones not be used in class."
+  },
+  {
+    "word": "课本",
+    "sent_simp": "我把课本忘在教室里了。",
+    "sent_trad": "我把課本忘在教室裡了。",
+    "pinyin": "Wǒ bǎ kè běn wàng zài jiàoshì lǐ le.",
+    "english": "I left my textbook in the classroom."
+  },
+  {
+    "word": "调度",
+    "sent_simp": "车站的调度员负责安排列车时刻表。",
+    "sent_trad": "車站的調度員負責安排列車時刻表。",
+    "pinyin": "Chēzhàn de diào dù yuán fùzé ānpái lièchē shíkèbiǎo.",
+    "english": "The station dispatcher is responsible for arranging the train schedule."
+  },
+  {
+    "word": "调控",
+    "sent_simp": "政府出台政策调控房价过快上涨。",
+    "sent_trad": "政府出台政策調控房價過快上漲。",
+    "pinyin": "Zhèngfǔ chūtái zhèngcè tiáo kòng fángjià guò kuài shàngzhǎng.",
+    "english": "The government introduced policies to regulate the rapid rise in housing prices."
+  },
+  {
+    "word": "调研",
+    "sent_simp": "我们去乡下做了一周的市场调研。",
+    "sent_trad": "我們去鄉下做了一週的市場調研。",
+    "pinyin": "Wǒmen qù xiāngxia zuò le yī zhōu de shìchǎng diào yán.",
+    "english": "We went to the countryside to do a week of market research."
+  },
+  {
+    "word": "调解",
+    "sent_simp": "邻居吵架，物业出面调解了一下。",
+    "sent_trad": "鄰居吵架，物業出面調解了一下。",
+    "pinyin": "Línjū chǎojià, wùyè chūmiàn tiáo jiě le yīxià.",
+    "english": "The neighbors were arguing, so the property management stepped in to mediate."
+  },
+  {
+    "word": "谋生",
+    "sent_simp": "他靠修手机谋生，养活了一家人。",
+    "sent_trad": "他靠修手機謀生，養活了一家人。",
+    "pinyin": "Tā kào xiū shǒujī móu shēng, yǎnghuó le yī jiārén.",
+    "english": "He earns a living repairing phones and supports his whole family."
+  },
+  {
+    "word": "账单",
+    "sent_simp": "餐厅服务员把账单递给了我。",
+    "sent_trad": "餐廳服務員把賬單遞給了我。",
+    "pinyin": "Cāntīng fúwùyuán bǎ zhàng dān dì gěi le wǒ.",
+    "english": "The restaurant server handed me the bill."
+  },
+  {
+    "word": "账号",
+    "sent_simp": "你的账号密码不对，请重新输入。",
+    "sent_trad": "你的賬號密碼不對，請重新輸入。",
+    "pinyin": "Nǐ de zhàng hào mìmǎ bù duì, qǐng chóngxīn shūrù.",
+    "english": "Your account password is incorrect, please enter it again."
+  },
+  {
+    "word": "货车",
+    "sent_simp": "一辆货车停在路边卸货。",
+    "sent_trad": "一輛貨車停在路邊卸貨。",
+    "pinyin": "Yī liàng huò chē tíng zài lùbiān xiè huò.",
+    "english": "A truck was parked on the side of the road unloading goods."
+  },
+  {
+    "word": "货运",
+    "sent_simp": "这家公司主要做货运业务。",
+    "sent_trad": "這家公司主要做貨運業務。",
+    "pinyin": "Zhè jiā gōngsī zhǔyào zuò huò yùn yèwù.",
+    "english": "This company mainly handles freight transport."
+  },
+  {
+    "word": "质地",
+    "sent_simp": "这件毛衣的质地很柔软，穿上很舒服。",
+    "sent_trad": "這件毛衣的質地很柔軟，穿上很舒服。",
+    "pinyin": "Zhè jiàn máoyī de zhì dì hěn róuruǎn, chuān shàng hěn shūfu.",
+    "english": "This sweater has a very soft texture and is comfortable to wear."
+  },
+  {
+    "word": "质疑",
+    "sent_simp": "有人对这项研究的结果提出了质疑。",
+    "sent_trad": "有人對這項研究的結果提出了質疑。",
+    "pinyin": "Yǒu rén duì zhè xiàng yánjiū de jiéguǒ tíchū le zhì yí.",
+    "english": "Someone called into question the results of this study."
+  },
+  {
+    "word": "贯通",
+    "sent_simp": "他学了十年，终于把这门技术融会贯通了。",
+    "sent_trad": "他學了十年，終於把這門技術融會貫通了。",
+    "pinyin": "Tā xué le shí nián, zhōngyú bǎ zhè mén jìshù rónghùi guàn tōng le.",
+    "english": "After studying for ten years, he finally achieved a thorough mastery of this skill."
+  },
+  {
+    "word": "贴近",
+    "sent_simp": "她贴近窗口，想听清楚外面的声音。",
+    "sent_trad": "她貼近窗口，想聽清楚外面的聲音。",
+    "pinyin": "Tā tiē jìn chuāngkǒu, xiǎng tīng qīngchǔ wàimiàn de shēngyīn.",
+    "english": "She pressed close to the window, trying to hear the sounds outside more clearly."
+  },
+  {
+    "word": "资讯",
+    "sent_simp": "手机让我们随时都能获取最新资讯。",
+    "sent_trad": "手機讓我們隨時都能獲取最新資訊。",
+    "pinyin": "Shǒujī ràng wǒmen suíshí dōu néng huòqǔ zuìxīn zī xùn.",
+    "english": "Smartphones let us access the latest information at any time."
+  }
+]

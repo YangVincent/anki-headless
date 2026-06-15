@@ -1,0 +1,282 @@
+[
+  {
+    "word": "音节",
+    "sent_simp": "这个词只有两个音节，很好记。",
+    "sent_trad": "這個詞只有兩個音節，很好記。",
+    "pinyin": "Zhège cí zhǐ yǒu liǎng gè yīnjié, hěn hǎo jì.",
+    "english": "This word only has two syllables, so it's easy to remember."
+  },
+  {
+    "word": "顿时",
+    "sent_simp": "听到消息后，他顿时愣住了。",
+    "sent_trad": "聽到消息後，他頓時愣住了。",
+    "pinyin": "Tīng dào xiāoxi hòu, tā dùnshí lèng zhù le.",
+    "english": "After hearing the news, he was suddenly stunned."
+  },
+  {
+    "word": "颁奖",
+    "sent_simp": "颁奖典礼将在周五晚上举行。",
+    "sent_trad": "頒獎典禮將在周五晚上舉行。",
+    "pinyin": "Bānjiǎng diǎnlǐ jiāng zài zhōuwǔ wǎnshang jǔxíng.",
+    "english": "The award ceremony will be held on Friday evening."
+  },
+  {
+    "word": "预示",
+    "sent_simp": "天边的乌云预示着暴雨即将来临。",
+    "sent_trad": "天邊的烏雲預示著暴雨即將來臨。",
+    "pinyin": "Tiānbiān de wūyún yùshì zhe bàoyǔ jíjiāng láilín.",
+    "english": "The dark clouds on the horizon foretell that a heavy rain is coming."
+  },
+  {
+    "word": "领事",
+    "sent_simp": "他去领事馆申请了签证。",
+    "sent_trad": "他去領事館申請了簽證。",
+    "pinyin": "Tā qù lǐngshì guǎn shēnqǐng le qiānzhèng.",
+    "english": "He went to the consulate to apply for a visa."
+  },
+  {
+    "word": "领养",
+    "sent_simp": "他们决定领养一只流浪猫。",
+    "sent_trad": "他們決定領養一隻流浪貓。",
+    "pinyin": "Tāmen juédìng lǐngyǎng yī zhī liúlàng māo.",
+    "english": "They decided to adopt a stray cat."
+  },
+  {
+    "word": "领军",
+    "sent_simp": "她是这个行业的领军人物。",
+    "sent_trad": "她是這個行業的領軍人物。",
+    "pinyin": "Tā shì zhège hángyè de lǐngjūn rénwù.",
+    "english": "She is a leading figure in this industry."
+  },
+  {
+    "word": "领带",
+    "sent_simp": "他今天系了一条深蓝色的领带。",
+    "sent_trad": "他今天繫了一條深藍色的領帶。",
+    "pinyin": "Tā jīntiān jì le yī tiáo shēnlánsè de lǐngdài.",
+    "english": "He wore a dark blue necktie today."
+  },
+  {
+    "word": "风力",
+    "sent_simp": "今天风力很强，适合放风筝。",
+    "sent_trad": "今天風力很強，適合放風箏。",
+    "pinyin": "Jīntiān fēnglì hěn qiáng, shìhé fàng fēngzheng.",
+    "english": "The wind force is very strong today — perfect for flying a kite."
+  },
+  {
+    "word": "风尚",
+    "sent_simp": "环保已经成为一种新的社会风尚。",
+    "sent_trad": "環保已經成為一種新的社會風尚。",
+    "pinyin": "Huánbǎo yǐjīng chéngwéi yī zhǒng xīn de shèhuì fēngshàng.",
+    "english": "Environmental protection has become a new social trend."
+  },
+  {
+    "word": "风情",
+    "sent_simp": "这个小镇充满了江南风情。",
+    "sent_trad": "這個小鎮充滿了江南風情。",
+    "pinyin": "Zhège xiǎozhèn chōngmǎn le Jiāngnán fēngqíng.",
+    "english": "This little town is full of the charm of the Jiangnan region."
+  },
+  {
+    "word": "风采",
+    "sent_simp": "她在舞台上展现出了迷人的风采。",
+    "sent_trad": "她在舞台上展現出了迷人的風采。",
+    "pinyin": "Tā zài wǔtái shang zhǎnxiàn chū le mírén de fēngcǎi.",
+    "english": "She showed off her captivating grace on the stage."
+  },
+  {
+    "word": "飞行员",
+    "sent_simp": "他从小就梦想成为一名飞行员。",
+    "sent_trad": "他從小就夢想成為一名飛行員。",
+    "pinyin": "Tā cóngxiǎo jiù mèngxiǎng chéngwéi yī míng fēixíngyuán.",
+    "english": "He has dreamed of becoming a pilot since he was little."
+  },
+  {
+    "word": "飞跃",
+    "sent_simp": "他的成绩在这学期有了飞跃式的进步。",
+    "sent_trad": "他的成績在這學期有了飛躍式的進步。",
+    "pinyin": "Tā de chéngjì zài zhè xuéqī yǒu le fēiyuè shì de jìnbù.",
+    "english": "His grades made a leaping improvement this semester."
+  },
+  {
+    "word": "餐桌",
+    "sent_simp": "全家人围坐在餐桌旁吃晚饭。",
+    "sent_trad": "全家人圍坐在餐桌旁吃晚飯。",
+    "pinyin": "Quánjiā rén wéi zuò zài cānzhuō páng chī wǎnfàn.",
+    "english": "The whole family sat around the dining table for dinner."
+  },
+  {
+    "word": "餐馆",
+    "sent_simp": "街角新开了一家四川餐馆。",
+    "sent_trad": "街角新開了一家四川餐館。",
+    "pinyin": "Jiējiǎo xīn kāi le yī jiā Sìchuān cānguǎn.",
+    "english": "A new Sichuan restaurant just opened on the corner."
+  },
+  {
+    "word": "饭碗",
+    "sent_simp": "他很担心这次裁员会砸了自己的饭碗。",
+    "sent_trad": "他很擔心這次裁員會砸了自己的飯碗。",
+    "pinyin": "Tā hěn dānxīn zhè cì cáiyuán huì zá le zìjǐ de fànwǎn.",
+    "english": "He is very worried that this round of layoffs will cost him his job."
+  },
+  {
+    "word": "饮水",
+    "sent_simp": "运动后要及时饮水补充水分。",
+    "sent_trad": "運動後要及時飲水補充水分。",
+    "pinyin": "Yùndòng hòu yào jíshí yǐnshuǐ bǔchōng shuǐfèn.",
+    "english": "After exercising, you should drink water promptly to rehydrate."
+  },
+  {
+    "word": "饮用水",
+    "sent_simp": "山里的泉水可以直接当饮用水。",
+    "sent_trad": "山裡的泉水可以直接當飲用水。",
+    "pinyin": "Shān lǐ de quánshuǐ kěyǐ zhíjiē dāng yǐnyòng shuǐ.",
+    "english": "The spring water in the mountains can be used directly as drinking water."
+  },
+  {
+    "word": "饱和",
+    "sent_simp": "这个市场已经趋于饱和，竞争很激烈。",
+    "sent_trad": "這個市場已經趨於飽和，競爭很激烈。",
+    "pinyin": "Zhège shìchǎng yǐjīng qūyú bǎohé, jìngzhēng hěn jīliè.",
+    "english": "This market is already nearing saturation, and competition is fierce."
+  },
+  {
+    "word": "饲料",
+    "sent_simp": "农民每天都要给鸡喂饲料。",
+    "sent_trad": "農民每天都要給雞餵飼料。",
+    "pinyin": "Nóngmín měi tiān dōu yào gěi jī wèi sìliào.",
+    "english": "Farmers have to feed fodder to the chickens every day."
+  },
+  {
+    "word": "香料",
+    "sent_simp": "这道菜加了很多香料，味道很浓。",
+    "sent_trad": "這道菜加了很多香料，味道很濃。",
+    "pinyin": "Zhè dào cài jiā le hěn duō xiāngliào, wèidào hěn nóng.",
+    "english": "This dish has a lot of spices added, so the flavor is very rich."
+  },
+  {
+    "word": "香烟",
+    "sent_simp": "他戒香烟已经三个月了。",
+    "sent_trad": "他戒香煙已經三個月了。",
+    "pinyin": "Tā jiè xiāngyān yǐjīng sān gè yuè le.",
+    "english": "He has quit smoking cigarettes for three months now."
+  },
+  {
+    "word": "马力",
+    "sent_simp": "这辆车发动机的马力非常大。",
+    "sent_trad": "這輛車發動機的馬力非常大。",
+    "pinyin": "Zhè liàng chē fādòngjī de mǎlì fēicháng dà.",
+    "english": "The engine of this car has a very high horsepower."
+  },
+  {
+    "word": "马桶",
+    "sent_simp": "浴室的马桶坏了，需要修一下。",
+    "sent_trad": "浴室的馬桶壞了，需要修一下。",
+    "pinyin": "Yùshì de mǎtǒng huài le, xūyào xiū yīxià.",
+    "english": "The toilet in the bathroom is broken and needs to be fixed."
+  },
+  {
+    "word": "马路",
+    "sent_simp": "过马路的时候要注意安全。",
+    "sent_trad": "過馬路的時候要注意安全。",
+    "pinyin": "Guò mǎlù de shíhou yào zhùyì ānquán.",
+    "english": "Be careful when crossing the road."
+  },
+  {
+    "word": "驾照",
+    "sent_simp": "他刚考到驾照，还不太敢上高速。",
+    "sent_trad": "他剛考到駕照，還不太敢上高速。",
+    "pinyin": "Tā gāng kǎo dào jiàzhào, hái bú tài gǎn shàng gāosù.",
+    "english": "He just got his driver's license and is still too nervous to drive on the highway."
+  },
+  {
+    "word": "驾车",
+    "sent_simp": "驾车时请不要使用手机。",
+    "sent_trad": "駕車時請不要使用手機。",
+    "pinyin": "Jiàchē shí qǐng bùyào shǐyòng shǒujī.",
+    "english": "Please do not use your phone while driving."
+  },
+  {
+    "word": "骑车",
+    "sent_simp": "天气好的时候，我喜欢骑车上班。",
+    "sent_trad": "天氣好的時候，我喜歡騎車上班。",
+    "pinyin": "Tiānqì hǎo de shíhou, wǒ xǐhuān qíchē shàngbān.",
+    "english": "When the weather is nice, I like to ride my bike to work."
+  },
+  {
+    "word": "高压",
+    "sent_simp": "长期处于高压状态对健康不好。",
+    "sent_trad": "長期處於高壓狀態對健康不好。",
+    "pinyin": "Chánggī chǔyú gāoyā zhuàngtài duì jiànkāng bù hǎo.",
+    "english": "Being under high pressure for a long time is bad for your health."
+  },
+  {
+    "word": "高尔夫球",
+    "sent_simp": "他周末经常和客户一起打高尔夫球。",
+    "sent_trad": "他週末經常和客戶一起打高爾夫球。",
+    "pinyin": "Tā zhōumò jīngcháng hé kèhù yīqǐ dǎ gāo ěr fū qiú.",
+    "english": "He often plays golf with clients on weekends."
+  },
+  {
+    "word": "高峰期",
+    "sent_simp": "早上八点是地铁的高峰期，特别拥挤。",
+    "sent_trad": "早上八點是地鐵的高峰期，特別擁擠。",
+    "pinyin": "Zǎoshang bā diǎn shì dìtiě de gāofēngqī, tèbié yōngjǐ.",
+    "english": "Eight in the morning is the rush hour for the subway — it's especially crowded."
+  },
+  {
+    "word": "高科技",
+    "sent_simp": "这家公司专注于高科技产品的研发。",
+    "sent_trad": "這家公司專注於高科技產品的研發。",
+    "pinyin": "Zhè jiā gōngsī zhuānzhù yú gāokējì chǎnpǐn de yánfā.",
+    "english": "This company focuses on the research and development of high-tech products."
+  },
+  {
+    "word": "高跟鞋",
+    "sent_simp": "她穿着高跟鞋走了很远的路，脚很酸。",
+    "sent_trad": "她穿著高跟鞋走了很遠的路，腳很酸。",
+    "pinyin": "Tā chuānzhe gāogēnxié zǒu le hěn yuǎn de lù, jiǎo hěn suān.",
+    "english": "She walked a long way in high heels and her feet were really sore."
+  },
+  {
+    "word": "高铁",
+    "sent_simp": "坐高铁从北京到上海只要四个多小时。",
+    "sent_trad": "坐高鐵從北京到上海只要四個多小時。",
+    "pinyin": "Zuò gāotiě cóng Běijīng dào Shànghǎi zhǐyào sì gè duō xiǎoshí.",
+    "english": "Taking the high-speed rail from Beijing to Shanghai takes just over four hours."
+  },
+  {
+    "word": "高雅",
+    "sent_simp": "这家咖啡馆的装修风格非常高雅。",
+    "sent_trad": "這家咖啡館的裝修風格非常高雅。",
+    "pinyin": "Zhè jiā kāfēiguǎn de zhuāngxiū fēnggé fēicháng gāoyǎ.",
+    "english": "The décor style of this café is very elegant."
+  },
+  {
+    "word": "高龄",
+    "sent_simp": "她高龄九十岁，身体依然很健康。",
+    "sent_trad": "她高齡九十歲，身體依然很健康。",
+    "pinyin": "Tā gāolíng jiǔshí suì, shēntǐ yīrán hěn jiànkāng.",
+    "english": "She is ninety years old and still in very good health."
+  },
+  {
+    "word": "黄瓜",
+    "sent_simp": "她拌了一盘凉拌黄瓜当下酒菜。",
+    "sent_trad": "她拌了一盤涼拌黃瓜當下酒菜。",
+    "pinyin": "Tā bàn le yī pán liángbàn huángguā dāng xiàjiǔcài.",
+    "english": "She made a plate of cold cucumber salad to go with the drinks."
+  },
+  {
+    "word": "黑客",
+    "sent_simp": "公司的服务器遭到黑客攻击，数据泄露了。",
+    "sent_trad": "公司的服務器遭到黑客攻擊，數據洩露了。",
+    "pinyin": "Gōngsī de fúwùqì zāodào hēikè gōngjī, shùjù xièlòu le.",
+    "english": "The company's servers were attacked by hackers and data was leaked."
+  },
+  {
+    "word": "黑手",
+    "sent_simp": "警方正在追查幕后的黑手。",
+    "sent_trad": "警方正在追查幕後的黑手。",
+    "pinyin": "Jǐngfāng zhèngzài zhuīchá mùhòu de hēishǒu.",
+    "english": "The police are tracking down the hidden hand behind the scenes."
+  }
+]

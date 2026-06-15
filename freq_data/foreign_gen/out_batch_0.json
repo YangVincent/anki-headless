@@ -1,0 +1,282 @@
+[
+  {
+    "word": "一般来说",
+    "sent_simp": "一般来说，早睡早起对身体好。",
+    "sent_trad": "一般來說，早睡早起對身體好。",
+    "pinyin": "Yì bān lái shuō, zǎo shuì zǎo qǐ duì shēntǐ hǎo.",
+    "english": "Generally speaking, going to bed early and getting up early is good for your health."
+  },
+  {
+    "word": "一连",
+    "sent_simp": "她一连工作了三个小时都没休息。",
+    "sent_trad": "她一連工作了三個小時都沒休息。",
+    "pinyin": "Tā yī lián gōngzuò le sān gè xiǎoshí dōu méi xiūxi.",
+    "english": "She worked for three hours in a row without taking a break."
+  },
+  {
+    "word": "三维",
+    "sent_simp": "这款游戏用了三维画面，很逼真。",
+    "sent_trad": "這款遊戲用了三維畫面，很逼真。",
+    "pinyin": "Zhè kuǎn yóuxì yòng le sān wéi huàmiàn, hěn bīzhēn.",
+    "english": "This game uses 3D graphics and looks very realistic."
+  },
+  {
+    "word": "上岗",
+    "sent_simp": "新员工下周一正式上岗。",
+    "sent_trad": "新員工下週一正式上崗。",
+    "pinyin": "Xīn yuángōng xià zhōuyī zhèngshì shàng gǎng.",
+    "english": "The new employee officially starts work next Monday."
+  },
+  {
+    "word": "上旬",
+    "sent_simp": "我们计划在三月上旬出发旅游。",
+    "sent_trad": "我們計劃在三月上旬出發旅遊。",
+    "pinyin": "Wǒmen jìhuà zài sānyuè shàng xún chūfā lǚyóu.",
+    "english": "We plan to set off on our trip in the first ten days of March."
+  },
+  {
+    "word": "上涨",
+    "sent_simp": "最近菜价上涨了不少。",
+    "sent_trad": "最近菜價上漲了不少。",
+    "pinyin": "Zuìjìn càijià shàng zhǎng le bù shǎo.",
+    "english": "Vegetable prices have risen quite a bit recently."
+  },
+  {
+    "word": "上述",
+    "sent_simp": "上述问题需要尽快解决。",
+    "sent_trad": "上述問題需要盡快解決。",
+    "pinyin": "Shàng shù wèntí xūyào jǐnkuài jiějué.",
+    "english": "The above-mentioned issues need to be resolved as soon as possible."
+  },
+  {
+    "word": "上限",
+    "sent_simp": "这个活动的报名人数有上限。",
+    "sent_trad": "這個活動的報名人數有上限。",
+    "pinyin": "Zhège huódòng de bàomíng rénshù yǒu shàng xiàn.",
+    "english": "There is an upper limit on the number of people who can sign up for this event."
+  },
+  {
+    "word": "下旬",
+    "sent_simp": "演唱会定在本月下旬举行。",
+    "sent_trad": "演唱會定在本月下旬舉行。",
+    "pinyin": "Yǎnchànghui dìng zài běn yuè xià xún jǔxíng.",
+    "english": "The concert is scheduled to be held in the last ten days of this month."
+  },
+  {
+    "word": "下楼",
+    "sent_simp": "他下楼去拿快递。",
+    "sent_trad": "他下樓去拿快遞。",
+    "pinyin": "Tā xià lóu qù ná kuàidì.",
+    "english": "He went downstairs to pick up his delivery package."
+  },
+  {
+    "word": "下班",
+    "sent_simp": "我下班后直接去超市买菜。",
+    "sent_trad": "我下班後直接去超市買菜。",
+    "pinyin": "Wǒ xià bān hòu zhíjiē qù chāoshì mǎi cài.",
+    "english": "I go straight to the supermarket to buy groceries after getting off work."
+  },
+  {
+    "word": "下跌",
+    "sent_simp": "这支股票今天下跌了两个点。",
+    "sent_trad": "這支股票今天下跌了兩個點。",
+    "pinyin": "Zhè zhī gǔpiào jīntiān xià diē le liǎng gè diǎn.",
+    "english": "This stock dropped two points today."
+  },
+  {
+    "word": "不免",
+    "sent_simp": "第一次上台演讲，不免有些紧张。",
+    "sent_trad": "第一次上台演講，不免有些緊張。",
+    "pinyin": "Dì yī cì shàngtái yǎnjiǎng, bù miǎn yǒuxiē jǐnzhāng.",
+    "english": "It's inevitable to feel a bit nervous the first time you give a speech on stage."
+  },
+  {
+    "word": "不平",
+    "sent_simp": "他觉得这样处理太不平，心里不服气。",
+    "sent_trad": "他覺得這樣處理太不平，心裡不服氣。",
+    "pinyin": "Tā juéde zhèyàng chǔlǐ tài bù píng, xīnlǐ bù fúqì.",
+    "english": "He felt the way things were handled was too unfair and couldn't accept it."
+  },
+  {
+    "word": "不见得",
+    "sent_simp": "贵的东西不见得就是好的。",
+    "sent_trad": "貴的東西不見得就是好的。",
+    "pinyin": "Guì de dōngxi bú jiàn de jiù shì hǎo de.",
+    "english": "Expensive things aren't necessarily good."
+  },
+  {
+    "word": "丑恶",
+    "sent_simp": "我们不能对社会上的丑恶现象视而不见。",
+    "sent_trad": "我們不能對社會上的醜惡現象視而不見。",
+    "pinyin": "Wǒmen bù néng duì shèhuì shang de chǒu è xiànxiàng shì ér bù jiàn.",
+    "english": "We can't turn a blind eye to the ugly and repulsive phenomena in society."
+  },
+  {
+    "word": "专栏",
+    "sent_simp": "他在一家报纸上开了个美食专栏。",
+    "sent_trad": "他在一家報紙上開了個美食專欄。",
+    "pinyin": "Tā zài yī jiā bàozhǐ shang kāi le gè měishí zhuān lán.",
+    "english": "He started a food column in a newspaper."
+  },
+  {
+    "word": "专职",
+    "sent_simp": "学校聘请了一位专职心理辅导老师。",
+    "sent_trad": "學校聘請了一位專職心理輔導老師。",
+    "pinyin": "Xuéxiào pìnqǐng le yī wèi zhuān zhí xīnlǐ fǔdǎo lǎoshī.",
+    "english": "The school hired a full-time counseling teacher."
+  },
+  {
+    "word": "专辑",
+    "sent_simp": "她的新专辑上线两天就卖出了百万张。",
+    "sent_trad": "她的新專輯上線兩天就賣出了百萬張。",
+    "pinyin": "Tā de xīn zhuān jí shàngxiàn liǎng tiān jiù màichū le bǎiwàn zhāng.",
+    "english": "Her new album sold a million copies within two days of its release."
+  },
+  {
+    "word": "世界级",
+    "sent_simp": "这座城市拥有多个世界级的博物馆。",
+    "sent_trad": "這座城市擁有多個世界級的博物館。",
+    "pinyin": "Zhè zuò chéngshì yōngyǒu duō gè shì jiè jí de bówùguǎn.",
+    "english": "This city has several world-class museums."
+  },
+  {
+    "word": "丛林",
+    "sent_simp": "探险队在丛林里迷路了好几个小时。",
+    "sent_trad": "探險隊在叢林裡迷路了好幾個小時。",
+    "pinyin": "Tànxiǎn duì zài cóng lín lǐ mílù le hǎo jǐ gè xiǎoshí.",
+    "english": "The expedition team got lost in the jungle for several hours."
+  },
+  {
+    "word": "两侧",
+    "sent_simp": "马路两侧种满了高大的梧桐树。",
+    "sent_trad": "馬路兩側種滿了高大的梧桐樹。",
+    "pinyin": "Mǎlù liǎng cè zhòng mǎn le gāodà de wútóng shù.",
+    "english": "Both sides of the road are lined with tall plane trees."
+  },
+  {
+    "word": "两岸",
+    "sent_simp": "两岸之间的交流越来越频繁。",
+    "sent_trad": "兩岸之間的交流越來越頻繁。",
+    "pinyin": "Liǎng àn zhī jiān de jiāoliú yuèlái yuè pínfán.",
+    "english": "Exchanges between the two sides of the strait have become more and more frequent."
+  },
+  {
+    "word": "中型",
+    "sent_simp": "他们公司是一家中型企业。",
+    "sent_trad": "他們公司是一家中型企業。",
+    "pinyin": "Tāmen gōngsī shì yī jiā zhōng xíng qǐyè.",
+    "english": "Their company is a medium-sized enterprise."
+  },
+  {
+    "word": "中部",
+    "sent_simp": "她老家在中国中部的一个小城市。",
+    "sent_trad": "她老家在中國中部的一個小城市。",
+    "pinyin": "Tā lǎojiā zài Zhōngguó zhōng bù de yī gè xiǎo chéngshì.",
+    "english": "Her hometown is a small city in central China."
+  },
+  {
+    "word": "主演",
+    "sent_simp": "这部电影由他主演，票房很不错。",
+    "sent_trad": "這部電影由他主演，票房很不錯。",
+    "pinyin": "Zhè bù diànyǐng yóu tā zhǔ yǎn, piàofáng hěn búcuò.",
+    "english": "This movie stars him in the lead role and did quite well at the box office."
+  },
+  {
+    "word": "主页",
+    "sent_simp": "你可以在网站主页找到联系方式。",
+    "sent_trad": "你可以在網站主頁找到聯繫方式。",
+    "pinyin": "Nǐ kěyǐ zài wǎngzhàn zhǔ yè zhǎodào liánxì fāngshì.",
+    "english": "You can find the contact information on the website's home page."
+  },
+  {
+    "word": "举措",
+    "sent_simp": "政府出台了多项减税举措。",
+    "sent_trad": "政府出台了多項減稅舉措。",
+    "pinyin": "Zhèngfǔ chūtái le duō xiàng jiǎnshuì jǔ cuò.",
+    "english": "The government introduced a number of tax reduction measures."
+  },
+  {
+    "word": "乡村",
+    "sent_simp": "周末我喜欢去乡村散步，很放松。",
+    "sent_trad": "週末我喜歡去鄉村散步，很放鬆。",
+    "pinyin": "Zhōumò wǒ xǐhuān qù xiāng cūn sànbù, hěn fàngsōng.",
+    "english": "On weekends I like to take walks in the countryside — it's very relaxing."
+  },
+  {
+    "word": "买不起",
+    "sent_simp": "市中心的房子我根本买不起。",
+    "sent_trad": "市中心的房子我根本買不起。",
+    "pinyin": "Shì zhōngxīn de fángzi wǒ gēnběn mǎi bù qǐ.",
+    "english": "I simply can't afford an apartment in the city center."
+  },
+  {
+    "word": "事务所",
+    "sent_simp": "他在一家律师事务所实习。",
+    "sent_trad": "他在一家律師事務所實習。",
+    "pinyin": "Tā zài yī jiā lǜshī shì wù suǒ shíxí.",
+    "english": "He is doing an internship at a law firm."
+  },
+  {
+    "word": "二氧化碳",
+    "sent_simp": "多坐公共交通可以减少二氧化碳排放。",
+    "sent_trad": "多坐公共交通可以減少二氧化碳排放。",
+    "pinyin": "Duō zuò gōnggòng jiāotōng kěyǐ jiǎnshǎo èr yǎng huà tàn páifàng.",
+    "english": "Taking public transport more often can reduce carbon dioxide emissions."
+  },
+  {
+    "word": "二维码",
+    "sent_simp": "扫一下这个二维码就能加入群组。",
+    "sent_trad": "掃一下這個二維碼就能加入群組。",
+    "pinyin": "Sǎo yīxià zhège èr wéi mǎ jiù néng jiārù qúnzǔ.",
+    "english": "Just scan this QR code and you can join the group."
+  },
+  {
+    "word": "互动",
+    "sent_simp": "老师经常在课上和学生互动。",
+    "sent_trad": "老師經常在課上和學生互動。",
+    "pinyin": "Lǎoshī jīngcháng zài kè shang hé xuésheng hù dòng.",
+    "english": "The teacher often interacts with students during class."
+  },
+  {
+    "word": "五星级",
+    "sent_simp": "他们在五星级酒店举办了婚礼。",
+    "sent_trad": "他們在五星級酒店舉辦了婚禮。",
+    "pinyin": "Tāmen zài wǔ xīng jí jiǔdiàn jǔbàn le hūnlǐ.",
+    "english": "They held their wedding at a five-star hotel."
+  },
+  {
+    "word": "交叉",
+    "sent_simp": "这两条路在公园门口交叉。",
+    "sent_trad": "這兩條路在公園門口交叉。",
+    "pinyin": "Zhè liǎng tiáo lù zài gōngyuán ménkǒu jiāo chā.",
+    "english": "These two roads intersect at the entrance to the park."
+  },
+  {
+    "word": "交警",
+    "sent_simp": "交警站在路口指挥交通。",
+    "sent_trad": "交警站在路口指揮交通。",
+    "pinyin": "Jiāo jǐng zhàn zài lùkǒu zhǐhuī jiāotōng.",
+    "english": "Traffic police stood at the intersection directing traffic."
+  },
+  {
+    "word": "交际",
+    "sent_simp": "他不太善于交际，不喜欢参加聚会。",
+    "sent_trad": "他不太善於交際，不喜歡參加聚會。",
+    "pinyin": "Tā bú tài shànyú jiāo jì, bù xǐhuān cānjiā jùhuì.",
+    "english": "He's not very good at socializing and doesn't like going to parties."
+  },
+  {
+    "word": "产量",
+    "sent_simp": "今年苹果的产量比去年增加了两成。",
+    "sent_trad": "今年蘋果的產量比去年增加了兩成。",
+    "pinyin": "Jīnnián píngguǒ de chǎn liàng bǐ qùnián zēngjiā le liǎng chéng.",
+    "english": "This year's apple output increased by twenty percent compared to last year."
+  },
+  {
+    "word": "享有",
+    "sent_simp": "每个人都应该享有平等的受教育机会。",
+    "sent_trad": "每個人都應該享有平等的受教育機會。",
+    "pinyin": "Měi gè rén dōu yīnggāi xiǎng yǒu píngděng de shòu jiàoyù jīhuì.",
+    "english": "Everyone should enjoy equal access to education."
+  }
+]

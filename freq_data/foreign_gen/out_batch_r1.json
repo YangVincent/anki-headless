@@ -1,0 +1,282 @@
+[
+  {
+    "word": "抵触",
+    "sent_simp": "他对新规定有些抵触。",
+    "sent_trad": "他對新規定有些抵觸。",
+    "pinyin": "Tā duì xīn guīdìng yǒuxiē dǐchù.",
+    "english": "He has some resistance to the new rules."
+  },
+  {
+    "word": "担忧",
+    "sent_simp": "妈妈很担忧我的健康。",
+    "sent_trad": "媽媽很擔憂我的健康。",
+    "pinyin": "Māma hěn dānyōu wǒ de jiànkāng.",
+    "english": "Mom is very worried about my health."
+  },
+  {
+    "word": "拆迁",
+    "sent_simp": "那片旧房子要拆迁了。",
+    "sent_trad": "那片舊房子要拆遷了。",
+    "pinyin": "Nà piàn jiù fángzi yào chāiqiān le.",
+    "english": "Those old houses are going to be demolished and relocated."
+  },
+  {
+    "word": "拓宽",
+    "sent_simp": "这条路正在拓宽。",
+    "sent_trad": "這條路正在拓寬。",
+    "pinyin": "Zhè tiáo lù zhèngzài tuòkuān.",
+    "english": "This road is being widened."
+  },
+  {
+    "word": "拖欠",
+    "sent_simp": "他拖欠了两个月的房租。",
+    "sent_trad": "他拖欠了兩個月的房租。",
+    "pinyin": "Tā tuōqiàn le liǎng gè yuè de fángzū.",
+    "english": "He is two months behind on rent."
+  },
+  {
+    "word": "拖鞋",
+    "sent_simp": "进门请换拖鞋。",
+    "sent_trad": "進門請換拖鞋。",
+    "pinyin": "Jìn mén qǐng huàn tuōxié.",
+    "english": "Please change into slippers when you come in."
+  },
+  {
+    "word": "招收",
+    "sent_simp": "公司今年招收了二十名新员工。",
+    "sent_trad": "公司今年招收了二十名新員工。",
+    "pinyin": "Gōngsī jīnnián zhāoshōu le èrshí míng xīn yuángōng.",
+    "english": "The company hired twenty new employees this year."
+  },
+  {
+    "word": "招标",
+    "sent_simp": "这个项目正在公开招标。",
+    "sent_trad": "這個項目正在公開招標。",
+    "pinyin": "Zhège xiàngmù zhèngzài gōngkāi zhāobiāo.",
+    "english": "This project is currently open for public bidding."
+  },
+  {
+    "word": "招生",
+    "sent_simp": "学校每年秋季招生。",
+    "sent_trad": "學校每年秋季招生。",
+    "pinyin": "Xuéxiào měinián qiūjì zhāoshēng.",
+    "english": "The school enrolls new students every fall."
+  },
+  {
+    "word": "挂钩",
+    "sent_simp": "工资与业绩挂钩。",
+    "sent_trad": "工資與業績掛鉤。",
+    "pinyin": "Gōngzī yǔ yèjì guàgōu.",
+    "english": "Salary is linked to performance."
+  },
+  {
+    "word": "挣钱",
+    "sent_simp": "他在网上挣钱养家。",
+    "sent_trad": "他在網上掙錢養家。",
+    "pinyin": "Tā zài wǎngshàng zhèngqián yǎngjiā.",
+    "english": "He earns money online to support his family."
+  },
+  {
+    "word": "挤压",
+    "sent_simp": "不要挤压这个包装盒。",
+    "sent_trad": "不要擠壓這個包裝盒。",
+    "pinyin": "Bùyào jǐyā zhège bāozhuāng hé.",
+    "english": "Don't squeeze this packaging box."
+  },
+  {
+    "word": "捐助",
+    "sent_simp": "很多人捐助了灾区。",
+    "sent_trad": "很多人捐助了災區。",
+    "pinyin": "Hěn duō rén juānzhù le zāiqū.",
+    "english": "Many people donated aid to the disaster area."
+  },
+  {
+    "word": "捐款",
+    "sent_simp": "他向慈善机构捐款了。",
+    "sent_trad": "他向慈善機構捐款了。",
+    "pinyin": "Tā xiàng císhàn jīgòu juānkuǎn le.",
+    "english": "He donated money to a charity."
+  },
+  {
+    "word": "捐献",
+    "sent_simp": "她决定捐献自己的眼角膜。",
+    "sent_trad": "她決定捐獻自己的眼角膜。",
+    "pinyin": "Tā juédìng juānxiàn zìjǐ de yǎnjiǎomó.",
+    "english": "She decided to donate her corneas."
+  },
+  {
+    "word": "捐赠",
+    "sent_simp": "他向学校捐赠了一批书。",
+    "sent_trad": "他向學校捐贈了一批書。",
+    "pinyin": "Tā xiàng xuéxiào juānzèng le yī pī shū.",
+    "english": "He donated a batch of books to the school."
+  },
+  {
+    "word": "据此",
+    "sent_simp": "据此，我们决定调整计划。",
+    "sent_trad": "據此，我們決定調整計劃。",
+    "pinyin": "Jù cǐ, wǒmen juédìng tiáozhěng jìhuà.",
+    "english": "Accordingly, we decided to adjust the plan."
+  },
+  {
+    "word": "授权",
+    "sent_simp": "经理授权他处理这件事。",
+    "sent_trad": "經理授權他處理這件事。",
+    "pinyin": "Jīnglǐ shòuquán tā chǔlǐ zhè jiàn shì.",
+    "english": "The manager authorized him to handle this matter."
+  },
+  {
+    "word": "掌声",
+    "sent_simp": "演出结束后掌声不断。",
+    "sent_trad": "演出結束後掌聲不斷。",
+    "pinyin": "Yǎnchū jiéshù hòu zhǎngshēng bùduàn.",
+    "english": "Applause kept going after the performance ended."
+  },
+  {
+    "word": "探险",
+    "sent_simp": "他喜欢去丛林探险。",
+    "sent_trad": "他喜歡去叢林探險。",
+    "pinyin": "Tā xǐhuān qù cónglín tànxiǎn.",
+    "english": "He loves going on expeditions in the jungle."
+  },
+  {
+    "word": "接班",
+    "sent_simp": "儿子接班管理家族企业。",
+    "sent_trad": "兒子接班管理家族企業。",
+    "pinyin": "Érzi jiēbān guǎnlǐ jiāzú qǐyè.",
+    "english": "The son took over managing the family business."
+  },
+  {
+    "word": "接见",
+    "sent_simp": "市长接见了外国代表团。",
+    "sent_trad": "市長接見了外國代表團。",
+    "pinyin": "Shìzhǎng jiējiàn le wàiguó dàibiǎotuán.",
+    "english": "The mayor received the foreign delegation."
+  },
+  {
+    "word": "接轨",
+    "sent_simp": "我们要与国际标准接轨。",
+    "sent_trad": "我們要與國際標準接軌。",
+    "pinyin": "Wǒmen yào yǔ guójì biāozhǔn jiēguǐ.",
+    "english": "We need to align with international standards."
+  },
+  {
+    "word": "控告",
+    "sent_simp": "他控告邻居损坏了他的车。",
+    "sent_trad": "他控告鄰居損壞了他的車。",
+    "pinyin": "Tā kònggào línjū sǔnhuài le tā de chē.",
+    "english": "He accused his neighbor of damaging his car."
+  },
+  {
+    "word": "推动",
+    "sent_simp": "这项政策推动了经济发展。",
+    "sent_trad": "這項政策推動了經濟發展。",
+    "pinyin": "Zhè xiàng zhèngcè tuīdòng le jīngjì fāzhǎn.",
+    "english": "This policy has promoted economic development."
+  },
+  {
+    "word": "推理",
+    "sent_simp": "他喜欢看推理小说。",
+    "sent_trad": "他喜歡看推理小說。",
+    "pinyin": "Tā xǐhuān kàn tuīlǐ xiǎoshuō.",
+    "english": "He enjoys reading mystery and detective novels."
+  },
+  {
+    "word": "推移",
+    "sent_simp": "随着时间的推移，他逐渐适应了。",
+    "sent_trad": "隨著時間的推移，他逐漸適應了。",
+    "pinyin": "Suízhe shíjiān de tuīyí, tā zhújiàn shìyìng le.",
+    "english": "As time passed, he gradually adapted."
+  },
+  {
+    "word": "插图",
+    "sent_simp": "这本书的插图很精美。",
+    "sent_trad": "這本書的插圖很精美。",
+    "pinyin": "Zhè běn shū de chātú hěn jīngměi.",
+    "english": "The illustrations in this book are very beautiful."
+  },
+  {
+    "word": "揭发",
+    "sent_simp": "他勇敢地揭发了同事的违规行为。",
+    "sent_trad": "他勇敢地揭發了同事的違規行為。",
+    "pinyin": "Tā yǒnggǎn de jiēfā le tóngshì de wéiguī xíngwéi.",
+    "english": "He bravely exposed his colleague's misconduct."
+  },
+  {
+    "word": "揭示",
+    "sent_simp": "研究揭示了新的规律。",
+    "sent_trad": "研究揭示了新的規律。",
+    "pinyin": "Yánjiū jiēshì le xīn de guīlǜ.",
+    "english": "The research revealed new patterns."
+  },
+  {
+    "word": "搜救",
+    "sent_simp": "搜救队连夜搜寻失联者。",
+    "sent_trad": "搜救隊連夜搜尋失聯者。",
+    "pinyin": "Sōujiù duì liányè sōuxún shīlián zhě.",
+    "english": "The search and rescue team searched through the night for the missing person."
+  },
+  {
+    "word": "搭乘",
+    "sent_simp": "我搭乘地铁去上班。",
+    "sent_trad": "我搭乘地鐵去上班。",
+    "pinyin": "Wǒ dāchéng dìtiě qù shàngbān.",
+    "english": "I take the subway to work."
+  },
+  {
+    "word": "摄像",
+    "sent_simp": "他负责婚礼现场的摄像。",
+    "sent_trad": "他負責婚禮現場的攝像。",
+    "pinyin": "Tā fùzé hūnlǐ xiànchǎng de shèxiàng.",
+    "english": "He is responsible for videotaping the wedding ceremony."
+  },
+  {
+    "word": "摸索",
+    "sent_simp": "他在黑暗中摸索找开关。",
+    "sent_trad": "他在黑暗中摸索找開關。",
+    "pinyin": "Tā zài hēiàn zhōng mōsuǒ zhǎo kāiguān.",
+    "english": "He fumbled around in the dark looking for the light switch."
+  },
+  {
+    "word": "攀升",
+    "sent_simp": "近来房价持续攀升。",
+    "sent_trad": "近來房價持續攀升。",
+    "pinyin": "Jìnlái fángjià chíxù pānshēng.",
+    "english": "Housing prices have been continuously rising lately."
+  },
+  {
+    "word": "收听",
+    "sent_simp": "爷爷每天收听广播节目。",
+    "sent_trad": "爺爺每天收聽廣播節目。",
+    "pinyin": "Yéye měitiān shōutīng guǎngbō jiémù.",
+    "english": "Grandpa listens to radio programs every day."
+  },
+  {
+    "word": "收购",
+    "sent_simp": "这家公司以高价收购了竞争对手。",
+    "sent_trad": "這家公司以高價收購了競爭對手。",
+    "pinyin": "Zhè jiā gōngsī yǐ gāojià shōugòu le jìngzhēng duìshǒu.",
+    "english": "This company acquired its competitor at a high price."
+  },
+  {
+    "word": "改版",
+    "sent_simp": "这个网站刚刚改版。",
+    "sent_trad": "這個網站剛剛改版。",
+    "pinyin": "Zhège wǎngzhàn gānggāng gǎibǎn.",
+    "english": "This website just launched a redesign."
+  },
+  {
+    "word": "改革开放",
+    "sent_simp": "改革开放让中国经济快速发展。",
+    "sent_trad": "改革開放讓中國經濟快速發展。",
+    "pinyin": "Gǎigé kāifàng ràng Zhōngguó jīngjì kuàisù fāzhǎn.",
+    "english": "Reform and opening up enabled China's economy to develop rapidly."
+  },
+  {
+    "word": "攻读",
+    "sent_simp": "她正在攻读硕士学位。",
+    "sent_trad": "她正在攻讀碩士學位。",
+    "pinyin": "Tā zhèngzài gōngdú shuòshì xuéwèi.",
+    "english": "She is currently pursuing a master's degree."
+  }
+]

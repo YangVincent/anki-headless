@@ -1,0 +1,282 @@
+[
+  {
+    "word": "住房",
+    "sent_simp": "城市里的住房价格越来越贵。",
+    "sent_trad": "城市裡的住房價格越來越貴。",
+    "pinyin": "Chéngshì lǐ de zhùfáng jiàgé yuèláiyuè guì.",
+    "english": "Housing prices in the city are getting more and more expensive."
+  },
+  {
+    "word": "体检",
+    "sent_simp": "公司每年给员工安排一次体检。",
+    "sent_trad": "公司每年給員工安排一次體檢。",
+    "pinyin": "Gōngsī měi nián gěi yuángōng ānpái yī cì tǐjiǎn.",
+    "english": "The company arranges an annual physical examination for employees."
+  },
+  {
+    "word": "供应",
+    "sent_simp": "这家超市每天供应新鲜蔬菜。",
+    "sent_trad": "這家超市每天供應新鮮蔬菜。",
+    "pinyin": "Zhè jiā chāoshì měitiān gōngyìng xīnxiān shūcài.",
+    "english": "This supermarket supplies fresh vegetables every day."
+  },
+  {
+    "word": "依托",
+    "sent_simp": "他们依托网络平台销售产品。",
+    "sent_trad": "他們依託網路平台銷售產品。",
+    "pinyin": "Tāmen yītuō wǎngluò píngtái xiāoshòu chǎnpǐn.",
+    "english": "They rely on online platforms to sell their products."
+  },
+  {
+    "word": "依次",
+    "sent_simp": "大家请依次排队入场。",
+    "sent_trad": "大家請依次排隊入場。",
+    "pinyin": "Dàjiā qǐng yīcì páiduì rùchǎng.",
+    "english": "Please line up and enter in order."
+  },
+  {
+    "word": "依法",
+    "sent_simp": "任何人都应该依法纳税。",
+    "sent_trad": "任何人都應該依法納稅。",
+    "pinyin": "Rènhé rén dōu yīnggāi yīfǎ nàshuì.",
+    "english": "Everyone should pay taxes in accordance with the law."
+  },
+  {
+    "word": "侧重",
+    "sent_simp": "这门课侧重实际操作练习。",
+    "sent_trad": "這門課側重實際操作練習。",
+    "pinyin": "Zhè mén kè cèzhòng shíjì cāozuò liànxí.",
+    "english": "This course places particular emphasis on hands-on practice."
+  },
+  {
+    "word": "侵权",
+    "sent_simp": "未经授权使用别人的照片是侵权行为。",
+    "sent_trad": "未經授權使用別人的照片是侵權行為。",
+    "pinyin": "Wèi jīng shòuquán shǐyòng biérén de zhàopiàn shì qīnquán xíngwéi.",
+    "english": "Using someone else's photos without permission is an infringement."
+  },
+  {
+    "word": "便于",
+    "sent_simp": "把文件分类存放便于以后查找。",
+    "sent_trad": "把文件分類存放便於以後查找。",
+    "pinyin": "Bǎ wénjiàn fēnlèi cúnfàng biànyú yǐhòu cházhǎo.",
+    "english": "Sorting files by category makes them easier to find later."
+  },
+  {
+    "word": "便捷",
+    "sent_simp": "手机支付让购物变得更便捷了。",
+    "sent_trad": "手機支付讓購物變得更便捷了。",
+    "pinyin": "Shǒujī zhīfù ràng gòuwù biàn de gèng biànjié le.",
+    "english": "Mobile payment has made shopping much more convenient and fast."
+  },
+  {
+    "word": "促销",
+    "sent_simp": "超市这周末搞促销活动，很多商品打折。",
+    "sent_trad": "超市這週末搞促銷活動，很多商品打折。",
+    "pinyin": "Chāoshì zhè zhōumò gǎo cùxiāo huódòng, hěn duō shāngpǐn dǎzhé.",
+    "english": "The supermarket is running a promotional sale this weekend, with discounts on many items."
+  },
+  {
+    "word": "信箱",
+    "sent_simp": "我每天早上都会查一下信箱。",
+    "sent_trad": "我每天早上都會查一下信箱。",
+    "pinyin": "Wǒ měitiān zǎoshang dōu huì chá yīxià xìnxiāng.",
+    "english": "I check the mailbox every morning."
+  },
+  {
+    "word": "信贷",
+    "sent_simp": "银行为小企业提供了信贷支持。",
+    "sent_trad": "銀行為小企業提供了信貸支持。",
+    "pinyin": "Yínháng wèi xiǎo qǐyè tígōng le xìndài zhīchí.",
+    "english": "The bank provided credit support to small businesses."
+  },
+  {
+    "word": "修订",
+    "sent_simp": "老师让我们修订一下报告的格式。",
+    "sent_trad": "老師讓我們修訂一下報告的格式。",
+    "pinyin": "Lǎoshī ràng wǒmen xiūdìng yīxià bàogào de géshì.",
+    "english": "The teacher asked us to revise the format of the report."
+  },
+  {
+    "word": "倒霉",
+    "sent_simp": "今天真倒霉，出门就碰到下大雨。",
+    "sent_trad": "今天真倒霉，出門就碰到下大雨。",
+    "pinyin": "Jīntiān zhēn dǎoméi, chūmén jiù pèngdào xià dàyǔ.",
+    "english": "What bad luck today — the moment I stepped out it started pouring."
+  },
+  {
+    "word": "假定",
+    "sent_simp": "假定明天不下雨，我们就去爬山。",
+    "sent_trad": "假定明天不下雨，我們就去爬山。",
+    "pinyin": "Jiǎdìng míngtiān bù xià yǔ, wǒmen jiù qù páshān.",
+    "english": "Assuming it doesn't rain tomorrow, we'll go hiking."
+  },
+  {
+    "word": "做生意",
+    "sent_simp": "他辞职后开始自己做生意。",
+    "sent_trad": "他辭職後開始自己做生意。",
+    "pinyin": "Tā cízhí hòu kāishǐ zìjǐ zuò shēngyì.",
+    "english": "After quitting his job, he started doing business on his own."
+  },
+  {
+    "word": "停放",
+    "sent_simp": "这里不允许停放自行车。",
+    "sent_trad": "這裡不允許停放自行車。",
+    "pinyin": "Zhèlǐ bù yǔnxǔ tíngfàng zìxíngchē.",
+    "english": "Parking bicycles here is not allowed."
+  },
+  {
+    "word": "光滑",
+    "sent_simp": "刚打了蜡的地板很光滑，走路要小心。",
+    "sent_trad": "剛打了蠟的地板很光滑，走路要小心。",
+    "pinyin": "Gāng dǎ le là de dìbǎn hěn guānghuá, zǒulù yào xiǎoxīn.",
+    "english": "The freshly waxed floor is very slippery, so be careful when walking."
+  },
+  {
+    "word": "全场",
+    "sent_simp": "比赛结束后全场观众起立鼓掌。",
+    "sent_trad": "比賽結束後全場觀眾起立鼓掌。",
+    "pinyin": "Bǐsài jiéshù hòu quánchǎng guānzhòng qǐlì gǔzhǎng.",
+    "english": "After the match ended, everyone in the audience stood up and applauded."
+  },
+  {
+    "word": "全心全意",
+    "sent_simp": "她全心全意地照顾生病的父亲。",
+    "sent_trad": "她全心全意地照顧生病的父親。",
+    "pinyin": "Tā quán xīn quán yì de zhàogù shēngbìng de fùqin.",
+    "english": "She wholeheartedly cared for her sick father."
+  },
+  {
+    "word": "公墓",
+    "sent_simp": "清明节那天，他们去公墓祭扫祖先。",
+    "sent_trad": "清明節那天，他們去公墓祭掃祖先。",
+    "pinyin": "Qīngmíng jié nà tiān, tāmen qù gōngmù jìsǎo zǔxiān.",
+    "english": "On Qingming Festival, they went to the cemetery to pay respects to their ancestors."
+  },
+  {
+    "word": "公款",
+    "sent_simp": "不能用公款请客吃饭。",
+    "sent_trad": "不能用公款請客吃飯。",
+    "pinyin": "Bù néng yòng gōngkuǎn qǐngkè chīfàn.",
+    "english": "You cannot use public money to treat guests to dinner."
+  },
+  {
+    "word": "公益",
+    "sent_simp": "她周末经常参加公益活动帮助社区。",
+    "sent_trad": "她週末經常參加公益活動幫助社區。",
+    "pinyin": "Tā zhōumò jīngcháng cānjiā gōngyì huódòng bāngzhù shèqū.",
+    "english": "She often takes part in public welfare activities to help the community on weekends."
+  },
+  {
+    "word": "公顷",
+    "sent_simp": "这片农田大约有五十公顷。",
+    "sent_trad": "這片農田大約有五十公頃。",
+    "pinyin": "Zhè piàn nóngtián dàyuē yǒu wǔshí gōngqǐng.",
+    "english": "This farmland is about fifty hectares in size."
+  },
+  {
+    "word": "共同体",
+    "sent_simp": "邻居们形成了一个互帮互助的共同体。",
+    "sent_trad": "鄰居們形成了一個互幫互助的共同體。",
+    "pinyin": "Línjūmen xíngchéng le yī gè hù bāng hù zhù de gòngtóngtǐ.",
+    "english": "The neighbors formed a community of mutual support."
+  },
+  {
+    "word": "关税",
+    "sent_simp": "这批进口商品需要缴纳关税。",
+    "sent_trad": "這批進口商品需要繳納關稅。",
+    "pinyin": "Zhè pī jìnkǒu shāngpǐn xūyào jiǎonà guānshuì.",
+    "english": "Customs duties must be paid on this batch of imported goods."
+  },
+  {
+    "word": "其间",
+    "sent_simp": "他在北京工作了三年，其间学会了很多东西。",
+    "sent_trad": "他在北京工作了三年，其間學會了很多東西。",
+    "pinyin": "Tā zài Běijīng gōngzuò le sān nián, qíjiān xuéhuì le hěn duō dōngxi.",
+    "english": "He worked in Beijing for three years, and in that time he learned a great deal."
+  },
+  {
+    "word": "典范",
+    "sent_simp": "她的做事态度是大家学习的典范。",
+    "sent_trad": "她的做事態度是大家學習的典範。",
+    "pinyin": "Tā de zuòshì tàidù shì dàjiā xuéxí de diǎnfàn.",
+    "english": "Her attitude toward work is a model for everyone to learn from."
+  },
+  {
+    "word": "养殖",
+    "sent_simp": "这个村子靠养殖鱼虾为生。",
+    "sent_trad": "這個村子靠養殖魚蝦為生。",
+    "pinyin": "Zhège cūnzi kào yǎngzhí yú xiā wéishēng.",
+    "english": "This village makes its living by raising fish and shrimp."
+  },
+  {
+    "word": "养活",
+    "sent_simp": "他一个人打工养活了全家人。",
+    "sent_trad": "他一個人打工養活了全家人。",
+    "pinyin": "Tā yī gè rén dǎgōng yǎnghuó le quán jiā rén.",
+    "english": "He supports the whole family by working on his own."
+  },
+  {
+    "word": "养老金",
+    "sent_simp": "爸爸退休后每月领养老金。",
+    "sent_trad": "爸爸退休後每月領養老金。",
+    "pinyin": "Bàba tuìxiū hòu měi yuè lǐng yǎnglǎojīn.",
+    "english": "Dad collects his pension every month after retiring."
+  },
+  {
+    "word": "兼容",
+    "sent_simp": "这个软件和新系统不兼容，需要更新。",
+    "sent_trad": "這個軟件和新系統不兼容，需要更新。",
+    "pinyin": "Zhège ruǎnjiàn hé xīn xìtǒng bù jiānróng, xūyào gēngxīn.",
+    "english": "This software is not compatible with the new system and needs to be updated."
+  },
+  {
+    "word": "内存",
+    "sent_simp": "手机内存不够了，得删几个应用。",
+    "sent_trad": "手機內存不夠了，得刪幾個應用。",
+    "pinyin": "Shǒujī nèicún bù gòu le, děi shān jǐ gè yìngyòng.",
+    "english": "The phone is running out of memory — I need to delete a few apps."
+  },
+  {
+    "word": "军舰",
+    "sent_simp": "我们在海边远远看到了一艘军舰。",
+    "sent_trad": "我們在海邊遠遠看到了一艘軍艦。",
+    "pinyin": "Wǒmen zài hǎibiān yuǎnyuǎn kàndào le yī sōu jūnjiàn.",
+    "english": "We spotted a warship far off in the distance from the coast."
+  },
+  {
+    "word": "冲洗",
+    "sent_simp": "切完辣椒后要把手彻底冲洗干净。",
+    "sent_trad": "切完辣椒後要把手徹底沖洗乾淨。",
+    "pinyin": "Qiē wán làjiāo hòu yào bǎ shǒu chèdǐ chōngxǐ gānjìng.",
+    "english": "After cutting chili peppers, you should thoroughly rinse your hands."
+  },
+  {
+    "word": "冷冻",
+    "sent_simp": "买回来的鱼如果吃不完就放进冷冻室。",
+    "sent_trad": "買回來的魚如果吃不完就放進冷凍室。",
+    "pinyin": "Mǎi huílái de yú rúguǒ chī bù wán jiù fàng jìn lěngdòng shì.",
+    "english": "If you can't finish the fish you bought, put it in the freezer."
+  },
+  {
+    "word": "冻结",
+    "sent_simp": "银行暂时冻结了他的账户。",
+    "sent_trad": "銀行暫時凍結了他的帳戶。",
+    "pinyin": "Yínháng zànshí dòngjié le tā de zhànghù.",
+    "english": "The bank temporarily froze his account."
+  },
+  {
+    "word": "凉爽",
+    "sent_simp": "傍晚的海风吹来，感觉特别凉爽。",
+    "sent_trad": "傍晚的海風吹來，感覺特別涼爽。",
+    "pinyin": "Bàngwǎn de hǎifēng chuī lái, gǎnjué tèbié liángshuǎng.",
+    "english": "The evening sea breeze blew in and felt wonderfully cool and refreshing."
+  },
+  {
+    "word": "凸显",
+    "sent_simp": "这次活动凸显了团队合作的重要性。",
+    "sent_trad": "這次活動凸顯了團隊合作的重要性。",
+    "pinyin": "Zhè cì huódòng tūxiǎn le tuánduì hézuò de zhòngyàoxìng.",
+    "english": "This event highlighted the importance of teamwork."
+  }
+]

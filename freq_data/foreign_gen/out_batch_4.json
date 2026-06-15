@@ -1,0 +1,282 @@
+[
+  {
+    "word": "合伙",
+    "sent_simp": "他们两个合伙开了一家小餐厅。",
+    "sent_trad": "他們兩個合夥開了一家小餐廳。",
+    "pinyin": "Tāmen liǎng gè héhuǒ kāile yì jiā xiǎo cāntīng.",
+    "english": "The two of them partnered up to open a small restaurant."
+  },
+  {
+    "word": "合作社",
+    "sent_simp": "村里的农民加入了合作社，一起卖蔬菜。",
+    "sent_trad": "村裡的農民加入了合作社，一起賣蔬菜。",
+    "pinyin": "Cūn lǐ de nóngmín jiārùle hézuòshè, yìqǐ mài shūcài.",
+    "english": "The farmers in the village joined the cooperative to sell vegetables together."
+  },
+  {
+    "word": "吉他",
+    "sent_simp": "他每天晚上都弹吉他放松心情。",
+    "sent_trad": "他每天晚上都彈吉他放鬆心情。",
+    "pinyin": "Tā měitiān wǎnshang dōu tán jítā fàngsōng xīnqíng.",
+    "english": "He plays guitar every evening to relax."
+  },
+  {
+    "word": "吉祥物",
+    "sent_simp": "这次运动会的吉祥物是一只熊猫。",
+    "sent_trad": "這次運動會的吉祥物是一隻熊貓。",
+    "pinyin": "Zhè cì yùndònghuì de jíxiángwù shì yì zhī xióngmāo.",
+    "english": "The mascot for this sports meet is a panda."
+  },
+  {
+    "word": "同类",
+    "sent_simp": "这款手机在同类产品里性价比最高。",
+    "sent_trad": "這款手機在同類產品裡性價比最高。",
+    "pinyin": "Zhè kuǎn shǒujī zài tónglèi chǎnpǐn lǐ xìngjiàbǐ zuì gāo.",
+    "english": "This phone has the best value among similar products."
+  },
+  {
+    "word": "名胜",
+    "sent_simp": "西湖是杭州有名的名胜，每年吸引很多游客。",
+    "sent_trad": "西湖是杭州有名的名勝，每年吸引很多遊客。",
+    "pinyin": "Xīhú shì Hángzhōu yǒumíng de míngshèng, měi nián xīyǐn hěn duō yóukè.",
+    "english": "West Lake is a famous scenic spot in Hangzhou that attracts many tourists every year."
+  },
+  {
+    "word": "名额",
+    "sent_simp": "这次夏令营只有二十个名额，赶快报名吧。",
+    "sent_trad": "這次夏令營只有二十個名額，趕快報名吧。",
+    "pinyin": "Zhè cì xiàlìngyíng zhǐyǒu èrshí gè míng'é, gǎnkuài bàomíng ba.",
+    "english": "There are only twenty spots for this summer camp, so sign up quickly."
+  },
+  {
+    "word": "后勤",
+    "sent_simp": "他负责活动的后勤工作，比如订餐和租场地。",
+    "sent_trad": "他負責活動的後勤工作，比如訂餐和租場地。",
+    "pinyin": "Tā fùzé huódòng de hòuqín gōngzuò, bǐrú dìng cān hé zū chǎngdì.",
+    "english": "He's in charge of logistics for the event, like ordering food and booking the venue."
+  },
+  {
+    "word": "后期",
+    "sent_simp": "视频拍好之后，后期剪辑花了好几天。",
+    "sent_trad": "視頻拍好之後，後期剪輯花了好幾天。",
+    "pinyin": "Shìpín pāi hǎo zhīhòu, hòuqī jiǎnjí huāle hǎo jǐ tiān.",
+    "english": "After finishing the shoot, the post-production editing took several days."
+  },
+  {
+    "word": "后裔",
+    "sent_simp": "他自称是清朝皇室的后裔。",
+    "sent_trad": "他自稱是清朝皇室的後裔。",
+    "pinyin": "Tā zìchēng shì Qīngcháo huángshì de hòuyì.",
+    "english": "He claims to be a descendant of the Qing dynasty royal family."
+  },
+  {
+    "word": "含量",
+    "sent_simp": "这种饮料的糖分含量太高，少喝为好。",
+    "sent_trad": "這種飲料的糖分含量太高，少喝為好。",
+    "pinyin": "Zhè zhǒng yǐnliào de tángfèn hánliàng tài gāo, shǎo hē wéi hǎo.",
+    "english": "This drink has too high a sugar content — it's better to drink less of it."
+  },
+  {
+    "word": "听众",
+    "sent_simp": "台下的听众不停地鼓掌喝彩。",
+    "sent_trad": "台下的聽眾不停地鼓掌喝彩。",
+    "pinyin": "Táixià de tīngzhòng bù tíng de gǔzhǎng hècǎi.",
+    "english": "The audience below the stage kept applauding and cheering."
+  },
+  {
+    "word": "听写",
+    "sent_simp": "老师每周五都给我们做听写练习。",
+    "sent_trad": "老師每週五都給我們做聽寫練習。",
+    "pinyin": "Lǎoshī měi zhōuwǔ dōu gěi wǒmen zuò tīngxiě liànxí.",
+    "english": "The teacher gives us a dictation exercise every Friday."
+  },
+  {
+    "word": "听讲",
+    "sent_simp": "上课时认真听讲，比课后复习还重要。",
+    "sent_trad": "上課時認真聽講，比課後複習還重要。",
+    "pinyin": "Shàngkè shí rènzhēn tīngjiǎng, bǐ kèhòu fùxí hái zhòngyào.",
+    "english": "Paying close attention in class is even more important than reviewing afterward."
+  },
+  {
+    "word": "吸纳",
+    "sent_simp": "这家公司吸纳了很多刚毕业的大学生。",
+    "sent_trad": "這家公司吸納了很多剛畢業的大學生。",
+    "pinyin": "Zhè jiā gōngsī xīnàle hěn duō gāng bìyè de dàxuéshēng.",
+    "english": "This company has taken on a lot of recent college graduates."
+  },
+  {
+    "word": "吹牛",
+    "sent_simp": "他总爱吹牛，说自己认识各种大人物。",
+    "sent_trad": "他總愛吹牛，說自己認識各種大人物。",
+    "pinyin": "Tā zǒng ài chuīniú, shuō zìjǐ rènshi gèzhǒng dà rénwù.",
+    "english": "He's always bragging, claiming to know all sorts of important people."
+  },
+  {
+    "word": "唤起",
+    "sent_simp": "这首老歌唤起了他对童年的很多回忆。",
+    "sent_trad": "這首老歌喚起了他對童年的很多回憶。",
+    "pinyin": "Zhè shǒu lǎo gē huànqǐle tā duì tóngnián de hěn duō huíyì.",
+    "english": "This old song evoked many childhood memories for him."
+  },
+  {
+    "word": "售价",
+    "sent_simp": "这双鞋的售价是六百块，现在打八折。",
+    "sent_trad": "這雙鞋的售價是六百塊，現在打八折。",
+    "pinyin": "Zhè shuāng xié de shòujià shì liùbǎi kuài, xiànzài dǎ bā zhé.",
+    "english": "The selling price of these shoes is 600 yuan, and they're currently 20% off."
+  },
+  {
+    "word": "唱片",
+    "sent_simp": "她最近出了一张新唱片，销量很好。",
+    "sent_trad": "她最近出了一張新唱片，銷量很好。",
+    "pinyin": "Tā zuìjìn chūle yì zhāng xīn chàngpiàn, xiāoliàng hěn hǎo.",
+    "english": "She recently released a new album that's been selling very well."
+  },
+  {
+    "word": "商标",
+    "sent_simp": "这个商标被仿冒，公司正在维权。",
+    "sent_trad": "這個商標被仿冒，公司正在維權。",
+    "pinyin": "Zhège shāngbiāo bèi fǎngmào, gōngsī zhèngzài wéiquán.",
+    "english": "This trademark is being counterfeited, and the company is taking legal action."
+  },
+  {
+    "word": "善意",
+    "sent_simp": "她的话是出于善意，你别误会。",
+    "sent_trad": "她的話是出於善意，你別誤會。",
+    "pinyin": "Tā de huà shì chūyú shànyì, nǐ bié wùhuì.",
+    "english": "She said it with good intentions — don't misunderstand her."
+  },
+  {
+    "word": "喷泉",
+    "sent_simp": "广场中间有一个漂亮的音乐喷泉。",
+    "sent_trad": "廣場中間有一個漂亮的音樂噴泉。",
+    "pinyin": "Guǎngchǎng zhōngjiān yǒu yí gè piàoliang de yīnyuè pēnquán.",
+    "english": "There's a beautiful musical fountain in the middle of the plaza."
+  },
+  {
+    "word": "嗜好",
+    "sent_simp": "他有一个嗜好，就是收集各种旧钱币。",
+    "sent_trad": "他有一個嗜好，就是收集各種舊錢幣。",
+    "pinyin": "Tā yǒu yí gè shìhào, jiùshì shōují gèzhǒng jiù qiánbì.",
+    "english": "He has a hobby of collecting all kinds of old coins."
+  },
+  {
+    "word": "器材",
+    "sent_simp": "健身房的器材都是新买的，很齐全。",
+    "sent_trad": "健身房的器材都是新買的，很齊全。",
+    "pinyin": "Jiànshēnfáng de qìcái dōu shì xīn mǎi de, hěn qíquán.",
+    "english": "The gym equipment is all newly purchased and very complete."
+  },
+  {
+    "word": "器械",
+    "sent_simp": "医院刚进了一批先进的外科器械。",
+    "sent_trad": "醫院剛進了一批先進的外科器械。",
+    "pinyin": "Yīyuàn gāng jìnle yì pī xiānjìn de wàikē qìxiè.",
+    "english": "The hospital just received a batch of advanced surgical instruments."
+  },
+  {
+    "word": "噪声",
+    "sent_simp": "楼下装修的噪声让我没法睡觉。",
+    "sent_trad": "樓下裝修的噪聲讓我沒法睡覺。",
+    "pinyin": "Lóu xià zhuāngxiū de zàoshēng ràng wǒ méifǎ shuìjiào.",
+    "english": "The renovation noise from downstairs makes it impossible for me to sleep."
+  },
+  {
+    "word": "四季",
+    "sent_simp": "昆明的四季如春，气候非常宜人。",
+    "sent_trad": "昆明的四季如春，氣候非常宜人。",
+    "pinyin": "Kūnmíng de sìjì rú chūn, qìhòu fēicháng yírén.",
+    "english": "Kunming has spring-like weather all four seasons — the climate is very pleasant."
+  },
+  {
+    "word": "回忆录",
+    "sent_simp": "他退休后写了一本回忆录，讲述自己的经历。",
+    "sent_trad": "他退休後寫了一本回憶錄，講述自己的經歷。",
+    "pinyin": "Tā tuìxiū hòu xiěle yì běn huíyìlù, jiǎngshù zìjǐ de jīnglì.",
+    "english": "After retiring, he wrote a memoir recounting his life experiences."
+  },
+  {
+    "word": "回扣",
+    "sent_simp": "那个采购员私下收了供应商的回扣，被公司开除了。",
+    "sent_trad": "那個採購員私下收了供應商的回扣，被公司開除了。",
+    "pinyin": "Nàge cǎigòuyuán sīxià shōule gōngyìngshāng de huíkòu, bèi gōngsī kāichúle.",
+    "english": "That purchasing agent secretly accepted kickbacks from a supplier and was fired."
+  },
+  {
+    "word": "回落",
+    "sent_simp": "天气变凉后，蔬菜价格开始回落。",
+    "sent_trad": "天氣變涼後，蔬菜價格開始回落。",
+    "pinyin": "Tiānqì biàn liáng hòu, shūcài jiàgé kāishǐ huíluò.",
+    "english": "After the weather turned cool, vegetable prices started to fall back."
+  },
+  {
+    "word": "回馈",
+    "sent_simp": "为了回馈老顾客，店里推出了会员优惠活动。",
+    "sent_trad": "為了回饋老顧客，店裡推出了會員優惠活動。",
+    "pinyin": "Wèile huíkuì lǎo gùkè, diàn lǐ tuīchūle huìyuán yōuhuì huódòng.",
+    "english": "To give back to loyal customers, the store launched a member discount campaign."
+  },
+  {
+    "word": "团员",
+    "sent_simp": "合唱团的每位团员都认真备战了这次演出。",
+    "sent_trad": "合唱團的每位團員都認真備戰了這次演出。",
+    "pinyin": "Héchànɡtuán de měi wèi tuányuán dōu rènzhēn bèizhànle zhè cì yǎnchū.",
+    "english": "Every member of the choir prepared seriously for this performance."
+  },
+  {
+    "word": "团圆",
+    "sent_simp": "中秋节是一家人团圆的日子。",
+    "sent_trad": "中秋節是一家人團圓的日子。",
+    "pinyin": "Zhōngqiūjié shì yì jiā rén tuányuán de rìzi.",
+    "english": "Mid-Autumn Festival is a day for the whole family to reunite."
+  },
+  {
+    "word": "困惑",
+    "sent_simp": "他看着这道数学题，一脸困惑。",
+    "sent_trad": "他看著這道數學題，一臉困惑。",
+    "pinyin": "Tā kànzhe zhè dào shùxué tí, yì liǎn kùnhuò.",
+    "english": "He stared at the math problem with a completely puzzled look on his face."
+  },
+  {
+    "word": "困扰",
+    "sent_simp": "失眠的问题已经困扰了他好几个月。",
+    "sent_trad": "失眠的問題已經困擾了他好幾個月。",
+    "pinyin": "Shīmián de wèntí yǐjīng kùnrǎole tā hǎo jǐ gè yuè.",
+    "english": "The problem of insomnia has been troubling him for several months."
+  },
+  {
+    "word": "固然",
+    "sent_simp": "坐飞机固然快，但坐火车更便宜。",
+    "sent_trad": "坐飛機固然快，但坐火車更便宜。",
+    "pinyin": "Zuò fēijī gùrán kuài, dàn zuò huǒchē gèng piányí.",
+    "english": "Flying is admittedly fast, but taking the train is cheaper."
+  },
+  {
+    "word": "国旗",
+    "sent_simp": "每天早上学校都会升国旗。",
+    "sent_trad": "每天早上學校都會升國旗。",
+    "pinyin": "Měitiān zǎoshang xuéxiào dōu huì shēng guóqí.",
+    "english": "The school raises the national flag every morning."
+  },
+  {
+    "word": "国歌",
+    "sent_simp": "运动员站在领奖台上，听着国歌流下了眼泪。",
+    "sent_trad": "運動員站在領獎台上，聽著國歌流下了眼淚。",
+    "pinyin": "Yùndòngyuán zhàn zài lǐngjiǎngtái shang, tīngzhe guógē liú xiàle yǎnlèi.",
+    "english": "Standing on the podium, the athlete shed tears while listening to the national anthem."
+  },
+  {
+    "word": "图像",
+    "sent_simp": "手机屏幕太脏，图像看起来很模糊。",
+    "sent_trad": "手機屏幕太髒，圖像看起來很模糊。",
+    "pinyin": "Shǒujī píngmù tài zāng, túxiàng kàn qǐlái hěn móhu.",
+    "english": "The phone screen is too dirty and the image looks very blurry."
+  },
+  {
+    "word": "图表",
+    "sent_simp": "报告里有一张图表，清楚显示了销售趋势。",
+    "sent_trad": "報告裡有一張圖表，清楚顯示了銷售趨勢。",
+    "pinyin": "Bàogào lǐ yǒu yì zhāng túbiǎo, qīngchǔ xiǎnshìle xiāoshòu qūshì.",
+    "english": "There's a chart in the report that clearly shows the sales trend."
+  }
+]

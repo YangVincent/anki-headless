@@ -1,0 +1,191 @@
+[
+  {
+    "word": "友善",
+    "sent_simp": "他对邻居一直很友善。",
+    "sent_trad": "他對鄰居一直很友善。",
+    "pinyin": "Tā duì línjū yīzhí hěn yǒushàn.",
+    "english": "He has always been very friendly to his neighbors."
+  },
+  {
+    "word": "双向",
+    "sent_simp": "这条路是双向行驶的。",
+    "sent_trad": "這條路是雙向行駛的。",
+    "pinyin": "Zhè tiáo lù shì shuāngxiàng xíngshǐ de.",
+    "english": "This road allows traffic in both directions."
+  },
+  {
+    "word": "双边",
+    "sent_simp": "两国签署了双边贸易协议。",
+    "sent_trad": "兩國簽署了雙邊貿易協議。",
+    "pinyin": "Liǎng guó qiānshǔ le shuāngbiān màoyì xiéyì.",
+    "english": "The two countries signed a bilateral trade agreement."
+  },
+  {
+    "word": "反响",
+    "sent_simp": "这部电影上映后反响很好。",
+    "sent_trad": "這部電影上映後反響很好。",
+    "pinyin": "Zhè bù diànyǐng shàngyìng hòu fǎnxiǎng hěn hǎo.",
+    "english": "The film received a very positive reaction after its release."
+  },
+  {
+    "word": "反差",
+    "sent_simp": "他在家和在公司的态度反差很大。",
+    "sent_trad": "他在家和在公司的態度反差很大。",
+    "pinyin": "Tā zài jiā hé zài gōngsī de tàidu fǎnchà hěn dà.",
+    "english": "There is a big contrast between how he acts at home and at work."
+  },
+  {
+    "word": "反常",
+    "sent_simp": "他今天情绪反常，一句话都不说。",
+    "sent_trad": "他今天情緒反常，一句話都不說。",
+    "pinyin": "Tā jīntiān qíngxù fǎncháng, yī jù huà dōu bù shuō.",
+    "english": "He was unusually quiet today and didn't say a word."
+  },
+  {
+    "word": "反面",
+    "sent_simp": "纸的反面还有字，别扔掉。",
+    "sent_trad": "紙的反面還有字，別扔掉。",
+    "pinyin": "Zhǐ de fǎnmiàn hái yǒu zì, bié rēng diào.",
+    "english": "There's writing on the back of the paper — don't throw it away."
+  },
+  {
+    "word": "反馈",
+    "sent_simp": "老师希望学生多给一些反馈。",
+    "sent_trad": "老師希望學生多給一些反饋。",
+    "pinyin": "Lǎoshī xīwàng xuésheng duō gěi yīxiē fǎnkuì.",
+    "english": "The teacher hopes students will give more feedback."
+  },
+  {
+    "word": "发扬",
+    "sent_simp": "我们要发扬团队合作的精神。",
+    "sent_trad": "我們要發揚團隊合作的精神。",
+    "pinyin": "Wǒmen yào fāyáng tuánduì hézuò de jīngshén.",
+    "english": "We should carry forward the spirit of teamwork."
+  },
+  {
+    "word": "取暖",
+    "sent_simp": "冬天大家围着炉子取暖。",
+    "sent_trad": "冬天大家圍著爐子取暖。",
+    "pinyin": "Dōngtiān dàjiā wéi zhe lúzi qǔnuǎn.",
+    "english": "In winter everyone gathers around the stove to keep warm."
+  },
+  {
+    "word": "取款",
+    "sent_simp": "我去银行取款，发现账户里没钱了。",
+    "sent_trad": "我去銀行取款，發現賬戶裡沒錢了。",
+    "pinyin": "Wǒ qù yínháng qǔkuǎn, fāxiàn zhànghù lǐ méi qián le.",
+    "english": "I went to the bank to withdraw money and found the account was empty."
+  },
+  {
+    "word": "受益",
+    "sent_simp": "参加这次培训让我受益很多。",
+    "sent_trad": "參加這次培訓讓我受益很多。",
+    "pinyin": "Cānjiā zhè cì péixùn ràng wǒ shòuyì hěn duō.",
+    "english": "Attending this training benefited me a lot."
+  },
+  {
+    "word": "受骗",
+    "sent_simp": "他在网上买东西受骗了，损失了不少钱。",
+    "sent_trad": "他在網上買東西受騙了，損失了不少錢。",
+    "pinyin": "Tā zài wǎngshàng mǎi dōngxi shòupiàn le, sǔnshī le bù shǎo qián.",
+    "english": "He got cheated while shopping online and lost quite a bit of money."
+  },
+  {
+    "word": "变换",
+    "sent_simp": "她喜欢经常变换发型。",
+    "sent_trad": "她喜歡經常變換髮型。",
+    "pinyin": "Tā xǐhuān jīngcháng biànhuàn fàxíng.",
+    "english": "She likes to change up her hairstyle often."
+  },
+  {
+    "word": "口径",
+    "sent_simp": "发布消息前，大家要统一口径。",
+    "sent_trad": "發布消息前，大家要統一口徑。",
+    "pinyin": "Fābù xiāoxi qián, dàjiā yào tǒngyī kǒujìng.",
+    "english": "Before releasing any information, everyone needs to get their story straight."
+  },
+  {
+    "word": "古迹",
+    "sent_simp": "西安有很多著名的古迹。",
+    "sent_trad": "西安有很多著名的古蹟。",
+    "pinyin": "Xī'ān yǒu hěn duō zhùmíng de gǔjì.",
+    "english": "Xi'an has many famous historical sites."
+  },
+  {
+    "word": "可耻",
+    "sent_simp": "考试作弊是可耻的行为。",
+    "sent_trad": "考試作弊是可恥的行為。",
+    "pinyin": "Kǎoshì zuòbì shì kěchǐ de xíngwéi.",
+    "english": "Cheating on an exam is shameful behavior."
+  },
+  {
+    "word": "合乎",
+    "sent_simp": "这个方案合乎公司的规定。",
+    "sent_trad": "這個方案合乎公司的規定。",
+    "pinyin": "Zhège fāng'àn héhū gōngsī de guīdìng.",
+    "english": "This plan conforms to the company's regulations."
+  },
+  {
+    "word": "合伙",
+    "sent_simp": "他们两个合伙开了一家咖啡店。",
+    "sent_trad": "他們兩個合伙開了一家咖啡店。",
+    "pinyin": "Tāmen liǎng gè héhuǒ kāi le yī jiā kāfēidiàn.",
+    "english": "The two of them partnered up to open a coffee shop."
+  },
+  {
+    "word": "合作社",
+    "sent_simp": "村里成立了一个农业合作社。",
+    "sent_trad": "村裡成立了一個農業合作社。",
+    "pinyin": "Cūn lǐ chénglì le yī gè nóngyè hézuòshè.",
+    "english": "An agricultural cooperative was set up in the village."
+  },
+  {
+    "word": "吉他",
+    "sent_simp": "他每天晚上练习弹吉他。",
+    "sent_trad": "他每天晚上練習彈吉他。",
+    "pinyin": "Tā měi tiān wǎnshang liànxí tán jítā.",
+    "english": "He practices playing guitar every evening."
+  },
+  {
+    "word": "吉祥物",
+    "sent_simp": "这次运动会的吉祥物是一只小熊猫。",
+    "sent_trad": "這次運動會的吉祥物是一隻小熊貓。",
+    "pinyin": "Zhè cì yùndònghuì de jíxiángwù shì yī zhī xiǎo xióngmāo.",
+    "english": "The mascot for this sports meet is a little red panda."
+  },
+  {
+    "word": "同类",
+    "sent_simp": "这款手机和同类产品相比性价比更高。",
+    "sent_trad": "這款手機和同類產品相比性價比更高。",
+    "pinyin": "Zhè kuǎn shǒujī hé tónglèi chǎnpǐn xiāngbǐ xìngjiàbǐ gèng gāo.",
+    "english": "Compared to similar products, this phone offers better value for money."
+  },
+  {
+    "word": "名胜",
+    "sent_simp": "黄山是中国著名的名胜之一。",
+    "sent_trad": "黃山是中國著名的名勝之一。",
+    "pinyin": "Huángshān shì Zhōngguó zhùmíng de míngshèng zhī yī.",
+    "english": "Huangshan is one of China's most famous scenic spots."
+  },
+  {
+    "word": "名额",
+    "sent_simp": "这次比赛只有十个名额，竞争很激烈。",
+    "sent_trad": "這次比賽只有十個名額，競爭很激烈。",
+    "pinyin": "Zhè cì bǐsài zhǐ yǒu shí gè míng'é, jìngzhēng hěn jīliè.",
+    "english": "There are only ten spots in this competition, so it's very competitive."
+  },
+  {
+    "word": "后勤",
+    "sent_simp": "活动的后勤工作由小李负责。",
+    "sent_trad": "活動的後勤工作由小李負責。",
+    "pinyin": "Huódòng de hòuqín gōngzuò yóu Xiǎo Lǐ fùzé.",
+    "english": "Xiao Li is in charge of the logistics for the event."
+  },
+  {
+    "word": "后期",
+    "sent_simp": "电影后期制作花了将近半年时间。",
+    "sent_trad": "電影後期製作花了將近半年時間。",
+    "pinyin": "Diànyǐng hòuqī zhìzuò huā le jiāngjìn bàn nián shíjiān.",
+    "english": "Post-production on the film took nearly half a year."
+  }
+]

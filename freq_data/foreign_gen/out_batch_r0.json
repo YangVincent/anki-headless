@@ -1,0 +1,282 @@
+[
+  {
+    "word": "学费",
+    "sent_simp": "他每个月都在存钱，为了交学费。",
+    "sent_trad": "他每個月都在存錢，為了交學費。",
+    "pinyin": "Tā měi gè yuè dōu zài cún qián, wèile jiāo xuéfèi.",
+    "english": "He saves money every month to pay tuition."
+  },
+  {
+    "word": "宇航员",
+    "sent_simp": "她从小就梦想成为一名宇航员。",
+    "sent_trad": "她從小就夢想成為一名宇航員。",
+    "pinyin": "Tā cóngxiǎo jiù mèngxiǎng chéngwéi yī míng yǔhángyuán.",
+    "english": "She has dreamed of becoming an astronaut since childhood."
+  },
+  {
+    "word": "宏大",
+    "sent_simp": "这座体育馆的规模十分宏大。",
+    "sent_trad": "這座體育館的規模十分宏大。",
+    "pinyin": "Zhè zuò tǐyùguǎn de guīmó shífēn hóngdà.",
+    "english": "This stadium is enormous in scale."
+  },
+  {
+    "word": "官僚",
+    "sent_simp": "他批评这些官僚做事太拖拉。",
+    "sent_trad": "他批評這些官僚做事太拖拉。",
+    "pinyin": "Tā pīpíng zhèxiē guānliáo zuòshì tài tuōla.",
+    "english": "He criticized these bureaucrats for being too slow to act."
+  },
+  {
+    "word": "官司",
+    "sent_simp": "他们因为合同问题打了一场官司。",
+    "sent_trad": "他們因為合同問題打了一場官司。",
+    "pinyin": "Tāmen yīnwèi hétong wèntí dǎle yī chǎng guānsī.",
+    "english": "They had a lawsuit over a contract dispute."
+  },
+  {
+    "word": "官吏",
+    "sent_simp": "古代的官吏必须通过科举考试。",
+    "sent_trad": "古代的官吏必須通過科舉考試。",
+    "pinyin": "Gǔdài de guānlì bìxū tōngguò kējǔ kǎoshì.",
+    "english": "Ancient officials had to pass the imperial examination."
+  },
+  {
+    "word": "定居",
+    "sent_simp": "他毕业后决定在上海定居。",
+    "sent_trad": "他畢業後決定在上海定居。",
+    "pinyin": "Tā bìyè hòu juédìng zài Shànghǎi dìngjū.",
+    "english": "After graduating, he decided to settle down in Shanghai."
+  },
+  {
+    "word": "实事求是",
+    "sent_simp": "我们讨论问题要实事求是，别夸大。",
+    "sent_trad": "我們討論問題要實事求是，別誇大。",
+    "pinyin": "Wǒmen tǎolùn wèntí yào shíshìqiúshì, bié kuādà.",
+    "english": "When discussing issues, we should be practical and realistic, not exaggerate."
+  },
+  {
+    "word": "宣称",
+    "sent_simp": "他宣称这个产品绝对无副作用。",
+    "sent_trad": "他宣稱這個產品絕對無副作用。",
+    "pinyin": "Tā xuānchēng zhège chǎnpǐn juéduì wú fùzuòyòng.",
+    "english": "He claimed this product has absolutely no side effects."
+  },
+  {
+    "word": "家境",
+    "sent_simp": "她家境不太好，但学习很努力。",
+    "sent_trad": "她家境不太好，但學習很努力。",
+    "pinyin": "Tā jiājìng bù tài hǎo, dàn xuéxí hěn nǔlì.",
+    "english": "Her family's financial situation isn't great, but she studies hard."
+  },
+  {
+    "word": "密集",
+    "sent_simp": "考前这周安排了密集的复习课。",
+    "sent_trad": "考前這週安排了密集的複習課。",
+    "pinyin": "Kǎo qián zhè zhōu ānpáile mìjí de fùxí kè.",
+    "english": "This week before the exam, intensive review classes were scheduled."
+  },
+  {
+    "word": "富人",
+    "sent_simp": "这个小区住的大多是富人。",
+    "sent_trad": "這個小區住的大多是富人。",
+    "pinyin": "Zhège xiǎoqū zhù de dàduō shì fùrén.",
+    "english": "Most of the residents in this neighborhood are wealthy."
+  },
+  {
+    "word": "富翁",
+    "sent_simp": "他三十岁就成了亿万富翁。",
+    "sent_trad": "他三十歲就成了億萬富翁。",
+    "pinyin": "Tā sānshí suì jiù chéngle yìwàn fùwēng.",
+    "english": "He became a billionaire by the age of thirty."
+  },
+  {
+    "word": "富豪",
+    "sent_simp": "几位富豪联手投资了这个项目。",
+    "sent_trad": "幾位富豪聯手投資了這個項目。",
+    "pinyin": "Jǐ wèi fùháo liánshǒu tóuzīle zhège xiàngmù.",
+    "english": "Several wealthy tycoons joined hands to invest in this project."
+  },
+  {
+    "word": "对称",
+    "sent_simp": "这幅图案左右对称，很好看。",
+    "sent_trad": "這幅圖案左右對稱，很好看。",
+    "pinyin": "Zhè fú tú'àn zuǒyòu duìchèn, hěn hǎokàn.",
+    "english": "This pattern is symmetrical left and right—it looks great."
+  },
+  {
+    "word": "封面",
+    "sent_simp": "这本书的封面设计很有创意。",
+    "sent_trad": "這本書的封面設計很有創意。",
+    "pinyin": "Zhè běn shū de fēngmiàn shèjì hěn yǒu chuàngyì.",
+    "english": "The cover design of this book is very creative."
+  },
+  {
+    "word": "将近",
+    "sent_simp": "我们等了将近两个小时才上车。",
+    "sent_trad": "我們等了將近兩個小時才上車。",
+    "pinyin": "Wǒmen děngle jiāngjìn liǎng gè xiǎoshí cái shàngchē.",
+    "english": "We waited almost two hours before boarding."
+  },
+  {
+    "word": "尊贵",
+    "sent_simp": "酒店特意为尊贵的客人准备了礼品。",
+    "sent_trad": "酒店特意為尊貴的客人準備了禮品。",
+    "pinyin": "Jiǔdiàn tèyì wèi zūnguì de kèrén zhǔnbèile lǐpǐn.",
+    "english": "The hotel specially prepared gifts for its honored guests."
+  },
+  {
+    "word": "小丑",
+    "sent_simp": "孩子们看到小丑表演都笑了。",
+    "sent_trad": "孩子們看到小丑表演都笑了。",
+    "pinyin": "Háizimen kàndào xiǎochǒu biǎoyǎn dōu xiàole.",
+    "english": "The children all laughed when they saw the clown perform."
+  },
+  {
+    "word": "小于",
+    "sent_simp": "三小于五，这是基本数学知识。",
+    "sent_trad": "三小於五，這是基本數學知識。",
+    "pinyin": "Sān xiǎoyú wǔ, zhè shì jīběn shùxué zhīshì.",
+    "english": "Three is less than five—this is basic math."
+  },
+  {
+    "word": "小声",
+    "sent_simp": "图书馆里请小声说话。",
+    "sent_trad": "圖書館裡請小聲說話。",
+    "pinyin": "Túshūguǎn lǐ qǐng xiǎoshēng shuōhuà.",
+    "english": "Please speak quietly in the library."
+  },
+  {
+    "word": "小提琴",
+    "sent_simp": "她每天练习小提琴练了一个小时。",
+    "sent_trad": "她每天練習小提琴練了一個小時。",
+    "pinyin": "Tā měitiān liànxí xiǎotíqín liànle yī gè xiǎoshí.",
+    "english": "She practices the violin for one hour every day."
+  },
+  {
+    "word": "小贩",
+    "sent_simp": "街边的小贩卖着各种零食。",
+    "sent_trad": "街邊的小販賣著各種零食。",
+    "pinyin": "Jiē biān de xiǎofàn mài zhe gèzhǒng língshí.",
+    "english": "Street vendors sell all kinds of snacks by the roadside."
+  },
+  {
+    "word": "就医",
+    "sent_simp": "身体不舒服要及时就医。",
+    "sent_trad": "身體不舒服要及時就醫。",
+    "pinyin": "Shēntǐ bù shūfu yào jíshí jiùyī.",
+    "english": "If you feel unwell, you should seek medical treatment promptly."
+  },
+  {
+    "word": "局限",
+    "sent_simp": "这个方法有一定的局限，不适合所有情况。",
+    "sent_trad": "這個方法有一定的局限，不適合所有情況。",
+    "pinyin": "Zhège fāngfǎ yǒu yīdìng de júxiàn, bù shìhé suǒyǒu qíngkuàng.",
+    "english": "This method has certain limitations and doesn't suit every situation."
+  },
+  {
+    "word": "层出不穷",
+    "sent_simp": "网络上的新词汇层出不穷。",
+    "sent_trad": "網絡上的新詞彙層出不窮。",
+    "pinyin": "Wǎngluò shàng de xīn cíhuì céng chū bù qióng.",
+    "english": "New words keep appearing online in an endless stream."
+  },
+  {
+    "word": "展出",
+    "sent_simp": "博物馆正在展出一批珍贵文物。",
+    "sent_trad": "博物館正在展出一批珍貴文物。",
+    "pinyin": "Bówùguǎn zhèngzài zhǎnchū yī pī zhēnguì wénwù.",
+    "english": "The museum is currently exhibiting a collection of precious artifacts."
+  },
+  {
+    "word": "展望",
+    "sent_simp": "大家对新的一年充满展望。",
+    "sent_trad": "大家對新的一年充滿展望。",
+    "pinyin": "Dàjiā duì xīn de yī nián chōngmǎn zhǎnwàng.",
+    "english": "Everyone is filled with anticipation for the new year."
+  },
+  {
+    "word": "山区",
+    "sent_simp": "志愿者去山区支教了三个月。",
+    "sent_trad": "志願者去山區支教了三個月。",
+    "pinyin": "Zhìyuànzhě qù shānqū zhī jiāo le sān gè yuè.",
+    "english": "The volunteer went to a mountain area to teach for three months."
+  },
+  {
+    "word": "山峰",
+    "sent_simp": "站在山顶可以看到几座山峰。",
+    "sent_trad": "站在山頂可以看到幾座山峰。",
+    "pinyin": "Zhàn zài shāndǐng kěyǐ kàndào jǐ zuò shānfēng.",
+    "english": "Standing at the summit, you can see several mountain peaks."
+  },
+  {
+    "word": "岳父",
+    "sent_simp": "我岳父很喜欢喝茶聊天。",
+    "sent_trad": "我岳父很喜歡喝茶聊天。",
+    "pinyin": "Wǒ yuèfù hěn xǐhuān hē chá liáotiān.",
+    "english": "My father-in-law loves drinking tea and chatting."
+  },
+  {
+    "word": "崇尚",
+    "sent_simp": "他一向崇尚简单自然的生活方式。",
+    "sent_trad": "他一向崇尚簡單自然的生活方式。",
+    "pinyin": "Tā yīxiàng chóngshàng jiǎndān zìrán de shēnghuó fāngshì.",
+    "english": "He has always advocated a simple and natural lifestyle."
+  },
+  {
+    "word": "工商",
+    "sent_simp": "他在工商局办理了营业执照。",
+    "sent_trad": "他在工商局辦理了營業執照。",
+    "pinyin": "Tā zài gōngshāng jú bànlǐle yíngyè zhízhào.",
+    "english": "He applied for a business license at the industry and commerce bureau."
+  },
+  {
+    "word": "巨星",
+    "sent_simp": "他是篮球界公认的巨星。",
+    "sent_trad": "他是籃球界公認的巨星。",
+    "pinyin": "Tā shì lánqiú jiè gōngrèn de jùxīng.",
+    "english": "He is a universally recognized superstar in basketball."
+  },
+  {
+    "word": "差额",
+    "sent_simp": "请核对一下账单，看看差额在哪里。",
+    "sent_trad": "請核對一下帳單，看看差額在哪裡。",
+    "pinyin": "Qǐng héduì yīxià zhàngdān, kànkan chā'é zài nǎlǐ.",
+    "english": "Please check the bill and see where the discrepancy is."
+  },
+  {
+    "word": "市场经济",
+    "sent_simp": "在市场经济下，价格由供求决定。",
+    "sent_trad": "在市場經濟下，價格由供求決定。",
+    "pinyin": "Zài shìchǎng jīngjì xià, jiàgé yóu gōngqiú juédìng.",
+    "english": "In a market economy, prices are determined by supply and demand."
+  },
+  {
+    "word": "帝国主义",
+    "sent_simp": "课本里讲到了帝国主义对殖民地的影响。",
+    "sent_trad": "課本裡講到了帝國主義對殖民地的影響。",
+    "pinyin": "Kèběn lǐ jiǎngdàole dìguó zhǔyì duì zhímíndì de yǐngxiǎng.",
+    "english": "The textbook discussed the impact of imperialism on colonies."
+  },
+  {
+    "word": "带头",
+    "sent_simp": "他主动带头把教室打扫干净。",
+    "sent_trad": "他主動帶頭把教室打掃乾淨。",
+    "pinyin": "Tā zhǔdòng dàitóu bǎ jiàoshì dǎsǎo gānjìng.",
+    "english": "He took the initiative to lead the way in cleaning the classroom."
+  },
+  {
+    "word": "年初",
+    "sent_simp": "他年初定了一个减肥的目标。",
+    "sent_trad": "他年初定了一個減肥的目標。",
+    "pinyin": "Tā niánchū dìngle yī gè jiǎnféi de mùbiāo.",
+    "english": "At the beginning of the year, he set a goal to lose weight."
+  },
+  {
+    "word": "年薪",
+    "sent_simp": "这份工作年薪二十万，福利也不错。",
+    "sent_trad": "這份工作年薪二十萬，福利也不錯。",
+    "pinyin": "Zhè fèn gōngzuò niánxīn èrshí wàn, fúlì yě bùcuò.",
+    "english": "This job pays an annual salary of 200,000 with good benefits too."
+  }
+]

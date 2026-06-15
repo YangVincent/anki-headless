@@ -1,0 +1,282 @@
+[
+  {
+    "word": "亲友",
+    "sent_simp": "他搬家时，很多亲友来帮忙。",
+    "sent_trad": "他搬家時，很多親友來幫忙。",
+    "pinyin": "Tā bān jiā shí, hěn duō qīn yǒu lái bāng máng.",
+    "english": "When he moved, many friends and relatives came to help."
+  },
+  {
+    "word": "人均",
+    "sent_simp": "这个城市的人均收入在全国排名靠前。",
+    "sent_trad": "這個城市的人均收入在全國排名靠前。",
+    "pinyin": "Zhège chéngshì de rén jūn shōurù zài quánguó páimíng kào qián.",
+    "english": "This city's per capita income ranks near the top nationally."
+  },
+  {
+    "word": "人工智能",
+    "sent_simp": "人工智能正在改变我们的生活方式。",
+    "sent_trad": "人工智能正在改變我們的生活方式。",
+    "pinyin": "Rén gōng zhì néng zhèngzài gǎibiàn wǒmen de shēnghuó fāngshì.",
+    "english": "Artificial intelligence is changing the way we live."
+  },
+  {
+    "word": "仍旧",
+    "sent_simp": "下了雨，他仍旧骑自行车上班。",
+    "sent_trad": "下了雨，他仍舊騎自行車上班。",
+    "pinyin": "Xià le yǔ, tā réng jiù qí zìxíngchē shàngbān.",
+    "english": "Even though it rained, he still cycled to work as usual."
+  },
+  {
+    "word": "代表团",
+    "sent_simp": "学校派了一支代表团去参加比赛。",
+    "sent_trad": "學校派了一支代表團去參加比賽。",
+    "pinyin": "Xuéxiào pài le yì zhī dài biǎo tuán qù cānjiā bǐsài.",
+    "english": "The school sent a delegation to take part in the competition."
+  },
+  {
+    "word": "以免",
+    "sent_simp": "出门带把伞，以免被雨淋湿。",
+    "sent_trad": "出門帶把傘，以免被雨淋濕。",
+    "pinyin": "Chūmén dài bǎ sǎn, yǐ miǎn bèi yǔ lín shī.",
+    "english": "Take an umbrella when you go out so you don't get soaked by the rain."
+  },
+  {
+    "word": "以致",
+    "sent_simp": "他熬夜太多，以致身体越来越差。",
+    "sent_trad": "他熬夜太多，以致身體越來越差。",
+    "pinyin": "Tā áoyè tài duō, yǐ zhì shēntǐ yuè lái yuè chà.",
+    "english": "He stayed up too many late nights, to the point that his health kept getting worse."
+  },
+  {
+    "word": "仪表",
+    "sent_simp": "他仪表整洁，给面试官留下了好印象。",
+    "sent_trad": "他儀表整潔，給面試官留下了好印象。",
+    "pinyin": "Tā yí biǎo zhěngjié, gěi miànshìguān liú xià le hǎo yìnxiàng.",
+    "english": "His neat appearance made a good impression on the interviewer."
+  },
+  {
+    "word": "仲裁",
+    "sent_simp": "双方同意通过仲裁解决这场纠纷。",
+    "sent_trad": "雙方同意通過仲裁解決這場糾紛。",
+    "pinyin": "Shuāngfāng tóngyì tōngguò zhòng cái jiějué zhè chǎng jiūfēn.",
+    "english": "Both parties agreed to resolve the dispute through arbitration."
+  },
+  {
+    "word": "优化",
+    "sent_simp": "我们需要优化一下这个App的界面。",
+    "sent_trad": "我們需要優化一下這個App的界面。",
+    "pinyin": "Wǒmen xūyào yōu huà yīxià zhège App de jièmiàn.",
+    "english": "We need to optimize the interface of this app a bit."
+  },
+  {
+    "word": "传媒",
+    "sent_simp": "他毕业后进入传媒行业工作。",
+    "sent_trad": "他畢業後進入傳媒行業工作。",
+    "pinyin": "Tā bìyè hòu jìnrù chuán méi hángyè gōngzuò.",
+    "english": "After graduating he went to work in the media industry."
+  },
+  {
+    "word": "估算",
+    "sent_simp": "你能帮我估算一下装修要多少钱吗？",
+    "sent_trad": "你能幫我估算一下裝修要多少錢嗎？",
+    "pinyin": "Nǐ néng bāng wǒ gū suàn yīxià zhuāngxiū yào duōshǎo qián ma?",
+    "english": "Can you help me estimate roughly how much the renovation will cost?"
+  },
+  {
+    "word": "伴奏",
+    "sent_simp": "她唱歌时，弟弟用吉他伴奏。",
+    "sent_trad": "她唱歌時，弟弟用吉他伴奏。",
+    "pinyin": "Tā chànggē shí, dìdi yòng jítā bàn zòu.",
+    "english": "While she sang, her younger brother accompanied her on the guitar."
+  },
+  {
+    "word": "低价",
+    "sent_simp": "网上低价买到的东西质量不一定好。",
+    "sent_trad": "網上低價買到的東西質量不一定好。",
+    "pinyin": "Wǎngshàng dī jià mǎi dào de dōngxi zhìliàng bù yīdìng hǎo.",
+    "english": "Things bought online at a low price aren't necessarily good quality."
+  },
+  {
+    "word": "低温",
+    "sent_simp": "低温天气里要记得给水管保暖。",
+    "sent_trad": "低溫天氣裡要記得給水管保暖。",
+    "pinyin": "Dī wēn tiānqì lǐ yào jìde gěi shuǐguǎn bǎonuǎn.",
+    "english": "In low-temperature weather, remember to insulate the water pipes."
+  },
+  {
+    "word": "低调",
+    "sent_simp": "他虽然很有钱，但为人十分低调。",
+    "sent_trad": "他雖然很有錢，但為人十分低調。",
+    "pinyin": "Tā suīrán hěn yǒu qián, dàn wéirén shífēn dī diào.",
+    "english": "Although he's very wealthy, he keeps a very low profile."
+  },
+  {
+    "word": "住户",
+    "sent_simp": "小区里的住户反映停车位不够用。",
+    "sent_trad": "小區裡的住戶反映停車位不夠用。",
+    "pinyin": "Xiǎoqū lǐ de zhù hù fǎnyìng tíngchēwèi bù gòu yòng.",
+    "english": "Residents of the compound have complained that there aren't enough parking spaces."
+  },
+  {
+    "word": "住房",
+    "sent_simp": "年轻人在大城市买住房越来越难。",
+    "sent_trad": "年輕人在大城市買住房越來越難。",
+    "pinyin": "Niánqīngrén zài dà chéngshì mǎi zhù fáng yuè lái yuè nán.",
+    "english": "It's getting harder and harder for young people to buy housing in big cities."
+  },
+  {
+    "word": "体检",
+    "sent_simp": "公司每年安排员工去体检一次。",
+    "sent_trad": "公司每年安排員工去體檢一次。",
+    "pinyin": "Gōngsī měi nián ānpái yuángōng qù tǐ jiǎn yī cì.",
+    "english": "The company arranges for employees to have a physical check-up once a year."
+  },
+  {
+    "word": "供应",
+    "sent_simp": "今年蔬菜供应充足，价格比较稳定。",
+    "sent_trad": "今年蔬菜供應充足，價格比較穩定。",
+    "pinyin": "Jīnnián shūcài gōng yìng chōngzú, jiàgé bǐjiào wěndìng.",
+    "english": "This year the vegetable supply is plentiful and prices are fairly stable."
+  },
+  {
+    "word": "依托",
+    "sent_simp": "这家咖啡馆依托大学校园，生意很好。",
+    "sent_trad": "這家咖啡館依託大學校園，生意很好。",
+    "pinyin": "Zhè jiā kāfēiguǎn yī tuō dàxué xiàoyuán, shēngyì hěn hǎo.",
+    "english": "This café relies on the university campus and does great business."
+  },
+  {
+    "word": "依次",
+    "sent_simp": "请依次排队，不要插队。",
+    "sent_trad": "請依次排隊，不要插隊。",
+    "pinyin": "Qǐng yī cì páiduì, bù yào chāduì.",
+    "english": "Please queue up in order and don't cut in line."
+  },
+  {
+    "word": "依法",
+    "sent_simp": "违规停车将依法受到处罚。",
+    "sent_trad": "違規停車將依法受到處罰。",
+    "pinyin": "Wéiguī tíngchē jiāng yī fǎ shòudào chǔfá.",
+    "english": "Illegal parking will be penalized according to the law."
+  },
+  {
+    "word": "侧重",
+    "sent_simp": "这门课侧重培养学生的口语能力。",
+    "sent_trad": "這門課側重培養學生的口語能力。",
+    "pinyin": "Zhè mén kè cè zhòng péiyǎng xuésheng de kǒuyǔ nénglì.",
+    "english": "This course places particular emphasis on developing students' spoken language ability."
+  },
+  {
+    "word": "侵权",
+    "sent_simp": "未经授权转载文章属于侵权行为。",
+    "sent_trad": "未經授權轉載文章屬於侵權行為。",
+    "pinyin": "Wèi jīng shòuquán zhuǎnzǎi wénzhāng shǔyú qīn quán xíngwéi.",
+    "english": "Reproducing an article without permission constitutes infringement."
+  },
+  {
+    "word": "便于",
+    "sent_simp": "把文件分好类，便于以后查找。",
+    "sent_trad": "把文件分好類，便於以後查找。",
+    "pinyin": "Bǎ wénjiàn fēn hǎo lèi, biàn yú yǐhòu cházhǎo.",
+    "english": "Sort the files properly to make it easier to find them later."
+  },
+  {
+    "word": "便捷",
+    "sent_simp": "手机支付让购物变得更加便捷。",
+    "sent_trad": "手機支付讓購物變得更加便捷。",
+    "pinyin": "Shǒujī zhīfù ràng gòuwù biàn de gèngjiā biàn jié.",
+    "english": "Mobile payment has made shopping much more convenient and fast."
+  },
+  {
+    "word": "促销",
+    "sent_simp": "超市每周末都会搞促销活动。",
+    "sent_trad": "超市每週末都會搞促銷活動。",
+    "pinyin": "Chāoshì měi zhōumò dōu huì gǎo cù xiāo huódòng.",
+    "english": "The supermarket runs sales promotions every weekend."
+  },
+  {
+    "word": "信箱",
+    "sent_simp": "他每天早上都去查一下信箱。",
+    "sent_trad": "他每天早上都去查一下信箱。",
+    "pinyin": "Tā měitiān zǎoshang dōu qù chá yīxià xìn xiāng.",
+    "english": "He checks the mailbox every morning."
+  },
+  {
+    "word": "信贷",
+    "sent_simp": "银行收紧了信贷，贷款变得更难了。",
+    "sent_trad": "銀行收緊了信貸，貸款變得更難了。",
+    "pinyin": "Yínháng shōujǐn le xìn dài, dàikuǎn biàn de gèng nán le.",
+    "english": "The bank has tightened credit, making it harder to get loans."
+  },
+  {
+    "word": "修订",
+    "sent_simp": "编辑正在修订这本书的第二版。",
+    "sent_trad": "編輯正在修訂這本書的第二版。",
+    "pinyin": "Biānjí zhèngzài xiū dìng zhè běn shū de dì èr bǎn.",
+    "english": "The editor is revising the second edition of this book."
+  },
+  {
+    "word": "倒霉",
+    "sent_simp": "今天真倒霉，手机掉进水里了。",
+    "sent_trad": "今天真倒霉，手機掉進水裡了。",
+    "pinyin": "Jīntiān zhēn dǎo méi, shǒujī diào jìn shuǐ lǐ le.",
+    "english": "What terrible luck today — my phone fell in the water."
+  },
+  {
+    "word": "假定",
+    "sent_simp": "假定明天下雨，我们就改在室内开会。",
+    "sent_trad": "假定明天下雨，我們就改在室內開會。",
+    "pinyin": "Jiǎ dìng míngtiān xià yǔ, wǒmen jiù gǎi zài shìnèi kāihuì.",
+    "english": "Assuming it rains tomorrow, we'll move the meeting indoors."
+  },
+  {
+    "word": "做生意",
+    "sent_simp": "他辞掉工作，打算自己做生意。",
+    "sent_trad": "他辭掉工作，打算自己做生意。",
+    "pinyin": "Tā cí diào gōngzuò, dǎsuàn zìjǐ zuò shēng yì.",
+    "english": "He quit his job and plans to go into business for himself."
+  },
+  {
+    "word": "停放",
+    "sent_simp": "这里禁止停放电动车，请移到指定区域。",
+    "sent_trad": "這裡禁止停放電動車，請移到指定區域。",
+    "pinyin": "Zhèlǐ jìnzhǐ tíng fàng diàndòngchē, qǐng yí dào zhǐdìng qūyù.",
+    "english": "Parking e-bikes here is prohibited; please move them to the designated area."
+  },
+  {
+    "word": "光滑",
+    "sent_simp": "浴室地板很光滑，走路要小心。",
+    "sent_trad": "浴室地板很光滑，走路要小心。",
+    "pinyin": "Yùshì dìbǎn hěn guāng huá, zǒulù yào xiǎoxīn.",
+    "english": "The bathroom floor is very slippery, so be careful walking on it."
+  },
+  {
+    "word": "全场",
+    "sent_simp": "运动员夺冠后，全场观众起立鼓掌。",
+    "sent_trad": "運動員奪冠後，全場觀眾起立鼓掌。",
+    "pinyin": "Yùndòngyuán duó guàn hòu, quán chǎng guānzhòng qǐlì gǔzhǎng.",
+    "english": "After the athlete won the championship, the whole audience rose to their feet and applauded."
+  },
+  {
+    "word": "全心全意",
+    "sent_simp": "他全心全意地照顾生病的父亲。",
+    "sent_trad": "他全心全意地照顧生病的父親。",
+    "pinyin": "Tā quán xīn quán yì de zhàogù shēngbìng de fùqīn.",
+    "english": "He looked after his sick father wholeheartedly."
+  },
+  {
+    "word": "公墓",
+    "sent_simp": "清明节，全家一起去公墓扫墓。",
+    "sent_trad": "清明節，全家一起去公墓掃墓。",
+    "pinyin": "Qīngmíng jié, quánjiā yīqǐ qù gōng mù sǎomù.",
+    "english": "On Qingming Festival, the whole family went to the public cemetery to pay their respects."
+  },
+  {
+    "word": "公款",
+    "sent_simp": "用公款请客吃饭是不允许的。",
+    "sent_trad": "用公款請客吃飯是不允許的。",
+    "pinyin": "Yòng gōng kuǎn qǐngkè chīfàn shì bù yǔnxǔ de.",
+    "english": "Using public money to treat guests to dinner is not allowed."
+  }
+]

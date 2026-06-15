@@ -1,0 +1,282 @@
+[
+  {
+    "word": "纯洁",
+    "sent_simp": "孩子的心灵是纯洁的。",
+    "sent_trad": "孩子的心靈是純潔的。",
+    "pinyin": "Hái zi de xīn líng shì chún jié de.",
+    "english": "Children's hearts are pure."
+  },
+  {
+    "word": "纲要",
+    "sent_simp": "老师发了一份课程纲要给我们。",
+    "sent_trad": "老師發了一份課程綱要給我們。",
+    "pinyin": "Lǎo shī fā le yī fèn kè chéng gāng yào gěi wǒ men.",
+    "english": "The teacher handed out a course outline to us."
+  },
+  {
+    "word": "纳税",
+    "sent_simp": "每个公民都有纳税的义务。",
+    "sent_trad": "每個公民都有納稅的義務。",
+    "pinyin": "Měi gè gōng mín dōu yǒu nà shuì de yì wù.",
+    "english": "Every citizen has the obligation to pay taxes."
+  },
+  {
+    "word": "纳税人",
+    "sent_simp": "这笔钱来自纳税人的口袋。",
+    "sent_trad": "這筆錢來自納稅人的口袋。",
+    "pinyin": "Zhè bǐ qián lái zì nà shuì rén de kǒu dai.",
+    "english": "This money comes out of taxpayers' pockets."
+  },
+  {
+    "word": "纵深",
+    "sent_simp": "这片森林的纵深超过十公里。",
+    "sent_trad": "這片森林的縱深超過十公里。",
+    "pinyin": "Zhè piàn sēn lín de zòng shēn chāo guò shí gōng lǐ.",
+    "english": "The depth of this forest exceeds ten kilometers."
+  },
+  {
+    "word": "组装",
+    "sent_simp": "他花了两个小时才把家具组装好。",
+    "sent_trad": "他花了兩個小時才把家具組裝好。",
+    "pinyin": "Tā huā le liǎng gè xiǎo shí cái bǎ jiā jù zǔ zhuāng hǎo.",
+    "english": "It took him two hours to assemble the furniture."
+  },
+  {
+    "word": "经度",
+    "sent_simp": "请告诉我这个地方的经度和纬度。",
+    "sent_trad": "請告訴我這個地方的經度和緯度。",
+    "pinyin": "Qǐng gào su wǒ zhè ge dì fang de jīng dù hé wěi dù.",
+    "english": "Please tell me the longitude and latitude of this place."
+  },
+  {
+    "word": "绝大多数",
+    "sent_simp": "绝大多数同学都同意这个方案。",
+    "sent_trad": "絕大多數同學都同意這個方案。",
+    "pinyin": "Jué dà duō shù tóng xué dōu tóng yì zhè ge fāng àn.",
+    "english": "The vast majority of students agreed to the proposal."
+  },
+  {
+    "word": "继而",
+    "sent_simp": "他先道歉，继而送上了一束花。",
+    "sent_trad": "他先道歉，繼而送上了一束花。",
+    "pinyin": "Tā xiān dào qiàn, jì ér sòng shàng le yī shù huā.",
+    "english": "He first apologized, and then presented a bouquet of flowers."
+  },
+  {
+    "word": "绯闻",
+    "sent_simp": "那位演员最近卷入了一场绯闻。",
+    "sent_trad": "那位演員最近捲入了一場緋聞。",
+    "pinyin": "Nà wèi yǎn yuán zuì jìn juǎn rù le yī chǎng fēi wén.",
+    "english": "That actor recently got caught up in a scandal."
+  },
+  {
+    "word": "绿地",
+    "sent_simp": "小区里有很大一片绿地供居民休息。",
+    "sent_trad": "小區裡有很大一片綠地供居民休息。",
+    "pinyin": "Xiǎo qū lǐ yǒu hěn dà yī piàn lǜ dì gōng jū mín xiū xi.",
+    "english": "There is a large green area in the residential complex for residents to relax."
+  },
+  {
+    "word": "缓缓",
+    "sent_simp": "夕阳缓缓地沉入地平线。",
+    "sent_trad": "夕陽緩緩地沉入地平線。",
+    "pinyin": "Xī yáng huǎn huǎn de chén rù dì píng xiàn.",
+    "english": "The setting sun slowly sank below the horizon."
+  },
+  {
+    "word": "编写",
+    "sent_simp": "他花了三年时间编写这本教材。",
+    "sent_trad": "他花了三年時間編寫這本教材。",
+    "pinyin": "Tā huā le sān nián shí jiān biān xiě zhè běn jiào cái.",
+    "english": "He spent three years compiling this textbook."
+  },
+  {
+    "word": "编剧",
+    "sent_simp": "她是那部热门电视剧的编剧。",
+    "sent_trad": "她是那部熱門電視劇的編劇。",
+    "pinyin": "Tā shì nà bù rè mén diàn shì jù de biān jù.",
+    "english": "She is the screenwriter of that popular TV drama."
+  },
+  {
+    "word": "编号",
+    "sent_simp": "每件快递都有一个独特的编号。",
+    "sent_trad": "每件快遞都有一個獨特的編號。",
+    "pinyin": "Měi jiàn kuài dì dōu yǒu yī gè dú tè de biān hào.",
+    "english": "Every parcel has a unique tracking number."
+  },
+  {
+    "word": "编排",
+    "sent_simp": "节目单的编排花了不少时间。",
+    "sent_trad": "節目單的編排花了不少時間。",
+    "pinyin": "Jié mù dān de biān pái huā le bù shǎo shí jiān.",
+    "english": "Arranging the program list took quite some time."
+  },
+  {
+    "word": "缩水",
+    "sent_simp": "这件衬衫洗了之后缩水了。",
+    "sent_trad": "這件襯衫洗了之後縮水了。",
+    "pinyin": "Zhè jiàn chèn shān xǐ le zhī hòu suō shuǐ le.",
+    "english": "This shirt shrank after being washed."
+  },
+  {
+    "word": "缺失",
+    "sent_simp": "报告中有一些重要数据缺失。",
+    "sent_trad": "報告中有一些重要數據缺失。",
+    "pinyin": "Bào gào zhōng yǒu yī xiē zhòng yào shù jù quē shī.",
+    "english": "Some important data is missing from the report."
+  },
+  {
+    "word": "网友",
+    "sent_simp": "不少网友在评论区留言支持她。",
+    "sent_trad": "不少網友在評論區留言支持她。",
+    "pinyin": "Bù shǎo wǎng yǒu zài píng lùn qū liú yán zhī chí tā.",
+    "english": "Quite a few netizens left comments in the comments section to support her."
+  },
+  {
+    "word": "网民",
+    "sent_simp": "很多网民对这件事发表了看法。",
+    "sent_trad": "很多網民對這件事發表了看法。",
+    "pinyin": "Hěn duō wǎng mín duì zhè jiàn shì fā biǎo le kàn fǎ.",
+    "english": "Many Internet users shared their opinions on the matter."
+  },
+  {
+    "word": "罢免",
+    "sent_simp": "董事会决定罢免这位总经理。",
+    "sent_trad": "董事會決定罷免這位總經理。",
+    "pinyin": "Dǒng shì huì jué dìng bà miǎn zhè wèi zǒng jīng lǐ.",
+    "english": "The board of directors decided to dismiss the general manager."
+  },
+  {
+    "word": "美景",
+    "sent_simp": "窗外的美景让我忘了时间。",
+    "sent_trad": "窗外的美景讓我忘了時間。",
+    "pinyin": "Chuāng wài de měi jǐng ràng wǒ wàng le shí jiān.",
+    "english": "The beautiful scenery outside the window made me lose track of time."
+  },
+  {
+    "word": "群体",
+    "sent_simp": "老年群体对这款应用的需求很大。",
+    "sent_trad": "老年群體對這款應用的需求很大。",
+    "pinyin": "Lǎo nián qún tǐ duì zhè kuǎn yìng yòng de xū qiú hěn dà.",
+    "english": "The elderly community has a huge demand for this app."
+  },
+  {
+    "word": "耕地",
+    "sent_simp": "农民每天早早起床去耕地。",
+    "sent_trad": "農民每天早早起床去耕地。",
+    "pinyin": "Nóng mín měi tiān zǎo zǎo qǐ chuáng qù gēng dì.",
+    "english": "Farmers get up early every day to plow the fields."
+  },
+  {
+    "word": "职工",
+    "sent_simp": "工厂为全体职工提供免费午餐。",
+    "sent_trad": "工廠為全體職工提供免費午餐。",
+    "pinyin": "Gōng chǎng wèi quán tǐ zhí gōng tí gōng miǎn fèi wǔ cān.",
+    "english": "The factory provides free lunch for all employees."
+  },
+  {
+    "word": "联网",
+    "sent_simp": "这台打印机可以联网共享使用。",
+    "sent_trad": "這台打印機可以聯網共享使用。",
+    "pinyin": "Zhè tái dǎ yìn jī kě yǐ lián wǎng gòng xiǎng shǐ yòng.",
+    "english": "This printer can be connected to the network for shared use."
+  },
+  {
+    "word": "联赛",
+    "sent_simp": "他们队赢得了今年的篮球联赛冠军。",
+    "sent_trad": "他們隊贏得了今年的籃球聯賽冠軍。",
+    "pinyin": "Tā men duì yíng dé le jīn nián de lán qiú lián sài guàn jūn.",
+    "english": "Their team won the basketball league championship this year."
+  },
+  {
+    "word": "联邦",
+    "sent_simp": "这两个州共同组成了一个联邦。",
+    "sent_trad": "這兩個州共同組成了一個聯邦。",
+    "pinyin": "Zhè liǎng gè zhōu gòng tóng zǔ chéng le yī gè lián bāng.",
+    "english": "These two states together formed a federation."
+  },
+  {
+    "word": "聘请",
+    "sent_simp": "公司聘请了一位经验丰富的顾问。",
+    "sent_trad": "公司聘請了一位經驗豐富的顧問。",
+    "pinyin": "Gōng sī pìn qǐng le yī wèi jīng yàn fēng fù de gù wèn.",
+    "english": "The company hired an experienced consultant."
+  },
+  {
+    "word": "肝脏",
+    "sent_simp": "医生说他的肝脏有些问题。",
+    "sent_trad": "醫生說他的肝臟有些問題。",
+    "pinyin": "Yī shēng shuō tā de gān zàng yǒu xiē wèn tí.",
+    "english": "The doctor said there are some problems with his liver."
+  },
+  {
+    "word": "股市",
+    "sent_simp": "今天股市涨得很厉害。",
+    "sent_trad": "今天股市漲得很厲害。",
+    "pinyin": "Jīn tiān gǔ shì zhǎng de hěn lì hai.",
+    "english": "The stock market rose sharply today."
+  },
+  {
+    "word": "肢体",
+    "sent_simp": "他受伤后肢体活动受到了限制。",
+    "sent_trad": "他受傷後肢體活動受到了限制。",
+    "pinyin": "Tā shòu shāng hòu zhī tǐ huó dòng shòu dào le xiàn zhì.",
+    "english": "After the injury, his limb movement was restricted."
+  },
+  {
+    "word": "肿瘤",
+    "sent_simp": "医生发现他体内有一个良性肿瘤。",
+    "sent_trad": "醫生發現他體內有一個良性腫瘤。",
+    "pinyin": "Yī shēng fā xiàn tā tǐ nèi yǒu yī gè liáng xìng zhǒng liú.",
+    "english": "The doctor found a benign tumor inside his body."
+  },
+  {
+    "word": "背包",
+    "sent_simp": "她把书和水壶都放进了背包里。",
+    "sent_trad": "她把書和水壺都放進了背包裡。",
+    "pinyin": "Tā bǎ shū hé shuǐ hú dōu fàng jìn le bēi bāo lǐ.",
+    "english": "She put her books and water bottle into the backpack."
+  },
+  {
+    "word": "背心",
+    "sent_simp": "天气太热了，他只穿了件背心。",
+    "sent_trad": "天氣太熱了，他只穿了件背心。",
+    "pinyin": "Tiān qì tài rè le, tā zhǐ chuān le jiàn bèi xīn.",
+    "english": "It was too hot, so he just wore a tank top."
+  },
+  {
+    "word": "背着",
+    "sent_simp": "他背着大包走了很远的路。",
+    "sent_trad": "他背著大包走了很遠的路。",
+    "pinyin": "Tā bèi zhe dà bāo zǒu le hěn yuǎn de lù.",
+    "english": "He walked a long way carrying a large bag on his back."
+  },
+  {
+    "word": "胶囊",
+    "sent_simp": "这种药是胶囊形式的，比较好吞。",
+    "sent_trad": "這種藥是膠囊形式的，比較好吞。",
+    "pinyin": "Zhè zhǒng yào shì jiāo náng xíng shì de, bǐ jiào hǎo tūn.",
+    "english": "This medicine comes in capsule form, which is easier to swallow."
+  },
+  {
+    "word": "胶带",
+    "sent_simp": "我用胶带把破损的书皮粘好了。",
+    "sent_trad": "我用膠帶把破損的書皮粘好了。",
+    "pinyin": "Wǒ yòng jiāo dài bǎ pò sǔn de shū pí zhān hǎo le.",
+    "english": "I used tape to fix the damaged book cover."
+  },
+  {
+    "word": "胶片",
+    "sent_simp": "爷爷还保留着一些老胶片照片。",
+    "sent_trad": "爺爺還保留著一些老膠片照片。",
+    "pinyin": "Yé ye hái bǎo liú zhe yī xiē lǎo jiāo piàn zhào piàn.",
+    "english": "Grandpa still keeps some old film photographs."
+  },
+  {
+    "word": "膳食",
+    "sent_simp": "均衡的膳食对健康很重要。",
+    "sent_trad": "均衡的膳食對健康很重要。",
+    "pinyin": "Jūn héng de shàn shí duì jiàn kāng hěn zhòng yào.",
+    "english": "A balanced diet is very important for good health."
+  }
+]

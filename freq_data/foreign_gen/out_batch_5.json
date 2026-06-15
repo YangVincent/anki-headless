@@ -1,0 +1,282 @@
+[
+  {
+    "word": "地域",
+    "sent_simp": "不同地域的饮食习惯差别很大。",
+    "sent_trad": "不同地域的飲食習慣差別很大。",
+    "pinyin": "Bù tóng dì yù de yǐn shí xí guàn chā bié hěn dà.",
+    "english": "Eating habits vary a lot across different regions."
+  },
+  {
+    "word": "地段",
+    "sent_simp": "这个地段的房价比较高。",
+    "sent_trad": "這個地段的房價比較高。",
+    "pinyin": "Zhège dì duàn de fáng jià bǐ jiào gāo.",
+    "english": "Housing prices in this area are relatively high."
+  },
+  {
+    "word": "坐落",
+    "sent_simp": "那家咖啡馆坐落在公园旁边。",
+    "sent_trad": "那家咖啡館坐落在公園旁邊。",
+    "pinyin": "Nà jiā kā fēi guǎn zuò luò zài gōng yuán páng biān.",
+    "english": "That café is situated right next to the park."
+  },
+  {
+    "word": "型号",
+    "sent_simp": "你买的手机是什么型号的？",
+    "sent_trad": "你買的手機是什麼型號的？",
+    "pinyin": "Nǐ mǎi de shǒu jī shì shén me xíng hào de?",
+    "english": "What model is the phone you bought?"
+  },
+  {
+    "word": "城乡",
+    "sent_simp": "城乡之间的收入差距在缩小。",
+    "sent_trad": "城鄉之間的收入差距在縮小。",
+    "pinyin": "Chéng xiāng zhī jiān de shōu rù chā jù zài suō xiǎo.",
+    "english": "The income gap between cities and the countryside is narrowing."
+  },
+  {
+    "word": "培训班",
+    "sent_simp": "她周末去参加了一个烘焙培训班。",
+    "sent_trad": "她週末去參加了一個烘焙培訓班。",
+    "pinyin": "Tā zhōu mò qù cān jiā le yí gè hōng bèi péi xùn bān.",
+    "english": "She attended a baking training class on the weekend."
+  },
+  {
+    "word": "填充",
+    "sent_simp": "她用棉花填充枕头，做好了一个。",
+    "sent_trad": "她用棉花填充枕頭，做好了一個。",
+    "pinyin": "Tā yòng mián huā tián chōng zhěn tou, zuò hǎo le yí gè.",
+    "english": "She stuffed a pillow with cotton and finished making it."
+  },
+  {
+    "word": "填写",
+    "sent_simp": "请填写这张表格，然后交给前台。",
+    "sent_trad": "請填寫這張表格，然後交給前臺。",
+    "pinyin": "Qǐng tián xiě zhè zhāng biǎo gé, rán hòu jiāo gěi qián tái.",
+    "english": "Please fill in this form and hand it to the front desk."
+  },
+  {
+    "word": "境外",
+    "sent_simp": "他在境外工作了两年才回来。",
+    "sent_trad": "他在境外工作了兩年才回來。",
+    "pinyin": "Tā zài jìng wài gōng zuò le liǎng nián cái huí lái.",
+    "english": "He worked outside the country for two years before coming back."
+  },
+  {
+    "word": "增产",
+    "sent_simp": "新技术帮助农民大幅增产。",
+    "sent_trad": "新技術幫助農民大幅增產。",
+    "pinyin": "Xīn jì shù bāng zhù nóng mín dà fú zēng chǎn.",
+    "english": "The new technology helped farmers significantly increase production."
+  },
+  {
+    "word": "壁画",
+    "sent_simp": "那座古庙里保存着精美的壁画。",
+    "sent_trad": "那座古廟裡保存著精美的壁畫。",
+    "pinyin": "Nà zuò gǔ miào lǐ bǎo cún zhe jīng měi de bì huà.",
+    "english": "That ancient temple preserves some exquisite murals."
+  },
+  {
+    "word": "声誉",
+    "sent_simp": "这家餐厅在本地有很好的声誉。",
+    "sent_trad": "這家餐廳在本地有很好的聲譽。",
+    "pinyin": "Zhè jiā cān tīng zài běn dì yǒu hěn hǎo de shēng yù.",
+    "english": "This restaurant has a very good reputation locally."
+  },
+  {
+    "word": "复发",
+    "sent_simp": "他的旧病最近又复发了。",
+    "sent_trad": "他的舊病最近又復發了。",
+    "pinyin": "Tā de jiù bìng zuì jìn yòu fù fā le.",
+    "english": "His old illness has relapsed recently."
+  },
+  {
+    "word": "夏季",
+    "sent_simp": "夏季天热，她每天都喝冰水。",
+    "sent_trad": "夏季天熱，她每天都喝冰水。",
+    "pinyin": "Xià jì tiān rè, tā měi tiān dōu hē bīng shuǐ.",
+    "english": "In summer the weather is hot, so she drinks ice water every day."
+  },
+  {
+    "word": "外交官",
+    "sent_simp": "他的梦想是成为一名外交官。",
+    "sent_trad": "他的夢想是成為一名外交官。",
+    "pinyin": "Tā de mèng xiǎng shì chéng wéi yī míng wài jiāo guān.",
+    "english": "His dream is to become a diplomat."
+  },
+  {
+    "word": "外援",
+    "sent_simp": "这支球队引进了一名外援来加强阵容。",
+    "sent_trad": "這支球隊引進了一名外援來加強陣容。",
+    "pinyin": "Zhè zhī qiú duì yǐn jìn le yī míng wài yuán lái jiā qiáng zhèn róng.",
+    "english": "This team brought in a foreign player to strengthen the lineup."
+  },
+  {
+    "word": "外汇",
+    "sent_simp": "出国前她去银行换了一些外汇。",
+    "sent_trad": "出國前她去銀行換了一些外匯。",
+    "pinyin": "Chū guó qián tā qù yín háng huàn le yī xiē wài huì.",
+    "english": "Before going abroad, she went to the bank to exchange some foreign currency."
+  },
+  {
+    "word": "外科",
+    "sent_simp": "他去外科做了一个小手术。",
+    "sent_trad": "他去外科做了一個小手術。",
+    "pinyin": "Tā qù wài kē zuò le yī gè xiǎo shǒu shù.",
+    "english": "He went to the surgery department for a minor operation."
+  },
+  {
+    "word": "外籍",
+    "sent_simp": "公司里有几位外籍员工。",
+    "sent_trad": "公司裡有幾位外籍員工。",
+    "pinyin": "Gōng sī lǐ yǒu jǐ wèi wài jí yuán gōng.",
+    "english": "There are a few foreign employees in the company."
+  },
+  {
+    "word": "外贸",
+    "sent_simp": "她在一家外贸公司上班。",
+    "sent_trad": "她在一家外貿公司上班。",
+    "pinyin": "Tā zài yī jiā wài mào gōng sī shàng bān.",
+    "english": "She works at a foreign trade company."
+  },
+  {
+    "word": "大使",
+    "sent_simp": "中国大使出席了开幕式。",
+    "sent_trad": "中國大使出席了開幕式。",
+    "pinyin": "Zhōng guó dà shǐ chū xí le kāi mù shì.",
+    "english": "The Chinese ambassador attended the opening ceremony."
+  },
+  {
+    "word": "大宗",
+    "sent_simp": "他们一次性订购了大宗货物。",
+    "sent_trad": "他們一次性訂購了大宗貨物。",
+    "pinyin": "Tā men yī cì xìng dìng gòu le dà zōng huò wù.",
+    "english": "They placed a bulk order for goods all at once."
+  },
+  {
+    "word": "大款",
+    "sent_simp": "他开着豪车，看起来像个大款。",
+    "sent_trad": "他開著豪車，看起來像個大款。",
+    "pinyin": "Tā kāi zhe háo chē, kàn qǐ lái xiàng gè dà kuǎn.",
+    "english": "He drives a luxury car and looks like a wealthy tycoon."
+  },
+  {
+    "word": "大纲",
+    "sent_simp": "老师发了一份课程大纲给我们。",
+    "sent_trad": "老師發了一份課程大綱給我們。",
+    "pinyin": "Lǎo shī fā le yī fèn kè chéng dà gāng gěi wǒ men.",
+    "english": "The teacher handed out a course outline to us."
+  },
+  {
+    "word": "失利",
+    "sent_simp": "球队在决赛中失利，非常可惜。",
+    "sent_trad": "球隊在決賽中失利，非常可惜。",
+    "pinyin": "Qiú duì zài jué sài zhōng shī lì, fēi cháng kě xī.",
+    "english": "The team suffered defeat in the final, which was a real shame."
+  },
+  {
+    "word": "头号",
+    "sent_simp": "他是这个城市的头号厨师。",
+    "sent_trad": "他是這個城市的頭號廚師。",
+    "pinyin": "Tā shì zhège chéng shì de tóu hào chú shī.",
+    "english": "He is the number one chef in this city."
+  },
+  {
+    "word": "头衔",
+    "sent_simp": "她荣获了最佳设计师的头衔。",
+    "sent_trad": "她榮獲了最佳設計師的頭銜。",
+    "pinyin": "Tā róng huò le zuì jiā shè jì shī de tóu xián.",
+    "english": "She was honored with the title of Best Designer."
+  },
+  {
+    "word": "头顶",
+    "sent_simp": "太阳直射头顶，热得难受。",
+    "sent_trad": "太陽直射頭頂，熱得難受。",
+    "pinyin": "Tài yáng zhí shè tóu dǐng, rè de nán shòu.",
+    "english": "The sun was beating down on top of our heads — unbearably hot."
+  },
+  {
+    "word": "夸大",
+    "sent_simp": "他总是夸大自己的经历。",
+    "sent_trad": "他總是誇大自己的經歷。",
+    "pinyin": "Tā zǒng shì kuā dà zì jǐ de jīng lì.",
+    "english": "He always exaggerates his own experiences."
+  },
+  {
+    "word": "夺冠",
+    "sent_simp": "中国队在世锦赛上成功夺冠。",
+    "sent_trad": "中國隊在世錦賽上成功奪冠。",
+    "pinyin": "Zhōng guó duì zài shì jǐn sài shàng chéng gōng duó guàn.",
+    "english": "The Chinese team successfully won the championship at the World Championships."
+  },
+  {
+    "word": "奖学金",
+    "sent_simp": "她申请到了学校的奖学金。",
+    "sent_trad": "她申請到了學校的獎學金。",
+    "pinyin": "Tā shēn qǐng dào le xué xiào de jiǎng xué jīn.",
+    "english": "She successfully applied for a scholarship from the school."
+  },
+  {
+    "word": "奖项",
+    "sent_simp": "这部电影获得了好几个奖项。",
+    "sent_trad": "這部電影獲得了好幾個獎項。",
+    "pinyin": "Zhè bù diàn yǐng huò dé le hǎo jǐ gè jiǎng xiàng.",
+    "english": "This film won quite a few awards."
+  },
+  {
+    "word": "女孩儿",
+    "sent_simp": "那个女孩儿唱歌特别好听。",
+    "sent_trad": "那個女孩兒唱歌特別好聽。",
+    "pinyin": "Nà ge nǚ hái ér chàng gē tè bié hǎo tīng.",
+    "english": "That girl sings really beautifully."
+  },
+  {
+    "word": "奶粉",
+    "sent_simp": "她每天早上给宝宝冲一罐奶粉。",
+    "sent_trad": "她每天早上給寶寶沖一罐奶粉。",
+    "pinyin": "Tā měi tiān zǎo shang gěi bǎo bao chōng yī guàn nǎi fěn.",
+    "english": "She mixes a can of powdered milk for the baby every morning."
+  },
+  {
+    "word": "好奇心",
+    "sent_simp": "孩子的好奇心很强，什么都想试。",
+    "sent_trad": "孩子的好奇心很強，什麼都想試。",
+    "pinyin": "Hái zi de hào qí xīn hěn qiáng, shén me dōu xiǎng shì.",
+    "english": "Children have a strong sense of curiosity and want to try everything."
+  },
+  {
+    "word": "子弟",
+    "sent_simp": "这所学校专门招收贫困家庭的子弟。",
+    "sent_trad": "這所學校專門招收貧困家庭的子弟。",
+    "pinyin": "Zhè suǒ xué xiào zhuān mén zhāo shōu pín kùn jiā tíng de zǐ dì.",
+    "english": "This school specifically enrolls children from impoverished families."
+  },
+  {
+    "word": "季度",
+    "sent_simp": "公司每个季度都会发一次奖金。",
+    "sent_trad": "公司每個季度都會發一次獎金。",
+    "pinyin": "Gōng sī měi gè jì dù dōu huì fā yī cì jiǎng jīn.",
+    "english": "The company pays out bonuses every quarter."
+  },
+  {
+    "word": "学堂",
+    "sent_simp": "他小时候在村里的学堂读书。",
+    "sent_trad": "他小時候在村裡的學堂讀書。",
+    "pinyin": "Tā xiǎo shí hou zài cūn lǐ de xué táng dú shū.",
+    "english": "When he was young, he studied at the village school."
+  },
+  {
+    "word": "学士",
+    "sent_simp": "他拿到了计算机专业的学士学位。",
+    "sent_trad": "他拿到了計算機專業的學士學位。",
+    "pinyin": "Tā ná dào le jì suàn jī zhuān yè de xué shì xué wèi.",
+    "english": "He obtained a bachelor's degree in computer science."
+  },
+  {
+    "word": "学科",
+    "sent_simp": "数学是所有理工学科的基础。",
+    "sent_trad": "數學是所有理工學科的基礎。",
+    "pinyin": "Shù xué shì suǒ yǒu lǐ gōng xué kē de jī chǔ.",
+    "english": "Mathematics is the foundation of all STEM disciplines."
+  }
+]
