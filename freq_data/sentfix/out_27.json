@@ -1,0 +1,282 @@
+[
+  {
+    "word": "停产",
+    "sent_simp": "那家工厂因为缺料而停产了。",
+    "sent_trad": "那家工廠因為缺料而停產了。",
+    "pinyin": "Nà jiā gōngchǎng yīnwèi quē liào ér tíngchǎn le.",
+    "english": "That factory halted production because of a material shortage."
+  },
+  {
+    "word": "内核",
+    "sent_simp": "这个理论的内核其实很简单。",
+    "sent_trad": "這個理論的內核其實很簡單。",
+    "pinyin": "Zhège lǐlùn de nèihé qíshí hěn jiǎndān.",
+    "english": "The core of this theory is actually quite simple."
+  },
+  {
+    "word": "会议厅",
+    "sent_simp": "开幕式在一楼会议厅举行。",
+    "sent_trad": "開幕式在一樓會議廳舉行。",
+    "pinyin": "Kāimùshì zài yī lóu huìyìtīng jǔxíng.",
+    "english": "The opening ceremony was held in the first-floor conference hall."
+  },
+  {
+    "word": "显露",
+    "sent_simp": "她的紧张情绪在脸上显露出来了。",
+    "sent_trad": "她的緊張情緒在臉上顯露出來了。",
+    "pinyin": "Tā de jǐnzhāng qíngxù zài liǎn shàng xiǎnlù chūlái le.",
+    "english": "Her nervousness showed clearly on her face."
+  },
+  {
+    "word": "亲子",
+    "sent_simp": "周末的亲子活动很受欢迎。",
+    "sent_trad": "週末的親子活動很受歡迎。",
+    "pinyin": "Zhōumò de qīnzǐ huódòng hěn shòu huānyíng.",
+    "english": "Weekend parent-child activities are very popular."
+  },
+  {
+    "word": "明信片",
+    "sent_simp": "我从巴黎寄了一张明信片给她。",
+    "sent_trad": "我從巴黎寄了一張明信片給她。",
+    "pinyin": "Wǒ cóng Bālí jì le yī zhāng míngxìnpiàn gěi tā.",
+    "english": "I sent her a postcard from Paris."
+  },
+  {
+    "word": "派驻",
+    "sent_simp": "公司派驻他去上海负责新项目。",
+    "sent_trad": "公司派駐他去上海負責新項目。",
+    "pinyin": "Gōngsī pàizhù tā qù Shànghǎi fùzé xīn xiàngmù.",
+    "english": "The company posted him to Shanghai to oversee the new project."
+  },
+  {
+    "word": "继位",
+    "sent_simp": "老国王去世后，王子继位了。",
+    "sent_trad": "老國王去世後，王子繼位了。",
+    "pinyin": "Lǎo guówáng qùshì hòu, wángzǐ jìwèi le.",
+    "english": "After the old king passed away, the prince succeeded to the throne."
+  },
+  {
+    "word": "具体化",
+    "sent_simp": "我们需要把计划具体化才能执行。",
+    "sent_trad": "我們需要把計劃具體化才能執行。",
+    "pinyin": "Wǒmen xūyào bǎ jìhuà jùtǐhuà cái néng zhíxíng.",
+    "english": "We need to make the plan concrete before we can carry it out."
+  },
+  {
+    "word": "受阻",
+    "sent_simp": "因为大雪，他们的行程受阻了。",
+    "sent_trad": "因為大雪，他們的行程受阻了。",
+    "pinyin": "Yīnwèi dàxuě, tāmen de xíngchéng shòuzǔ le.",
+    "english": "Their journey was blocked by heavy snow."
+  },
+  {
+    "word": "点破",
+    "sent_simp": "他一句话就点破了她的小心思。",
+    "sent_trad": "他一句話就點破了她的小心思。",
+    "pinyin": "Tā yī jù huà jiù diǎnpò le tā de xiǎo xīnsī.",
+    "english": "He exposed her little secret with just one sentence."
+  },
+  {
+    "word": "不力",
+    "sent_simp": "他因管理不力被降职了。",
+    "sent_trad": "他因管理不力被降職了。",
+    "pinyin": "Tā yīn guǎnlǐ bùlì bèi jiàngzhí le.",
+    "english": "He was demoted for failing to manage effectively."
+  },
+  {
+    "word": "短篇小说",
+    "sent_simp": "她写的短篇小说在杂志上发表了。",
+    "sent_trad": "她寫的短篇小說在雜誌上發表了。",
+    "pinyin": "Tā xiě de duǎnpiān xiǎoshuō zài zázhì shàng fābiǎo le.",
+    "english": "The short story she wrote was published in a magazine."
+  },
+  {
+    "word": "门类",
+    "sent_simp": "这个博物馆涵盖了很多艺术门类。",
+    "sent_trad": "這個博物館涵蓋了很多藝術門類。",
+    "pinyin": "Zhège bówùguǎn hángài le hěn duō yìshù ménlèi.",
+    "english": "This museum covers many categories of art."
+  },
+  {
+    "word": "可亲",
+    "sent_simp": "这位老师态度和蔼可亲，学生都喜欢她。",
+    "sent_trad": "這位老師態度和藹可親，學生都喜歡她。",
+    "pinyin": "Zhè wèi lǎoshī tàidu hé'ǎi kěqīn, xuésheng dōu xǐhuān tā.",
+    "english": "This teacher has a warm and friendly manner; all students like her."
+  },
+  {
+    "word": "哀悼",
+    "sent_simp": "大家默哀一分钟，表示哀悼。",
+    "sent_trad": "大家默哀一分鐘，表示哀悼。",
+    "pinyin": "Dàjiā mò'āi yī fēnzhōng, biǎoshì āidào.",
+    "english": "Everyone observed a minute of silence to mourn."
+  },
+  {
+    "word": "受众",
+    "sent_simp": "这档节目的受众主要是年轻人。",
+    "sent_trad": "這檔節目的受眾主要是年輕人。",
+    "pinyin": "Zhè dàng jiémù de shòuzhòng zhǔyào shì niánqīngrén.",
+    "english": "The target audience for this program is mainly young people."
+  },
+  {
+    "word": "睡衣",
+    "sent_simp": "她换上睡衣，准备去睡觉了。",
+    "sent_trad": "她換上睡衣，準備去睡覺了。",
+    "pinyin": "Tā huàn shàng shuìyī, zhǔnbèi qù shuìjiào le.",
+    "english": "She changed into her pajamas and got ready for bed."
+  },
+  {
+    "word": "摄像机",
+    "sent_simp": "他用摄像机记录了整个婚礼。",
+    "sent_trad": "他用攝像機記錄了整個婚禮。",
+    "pinyin": "Tā yòng shèxiàngjī jìlù le zhěnggè hūnlǐ.",
+    "english": "He filmed the entire wedding with a video camera."
+  },
+  {
+    "word": "水管",
+    "sent_simp": "厨房的水管漏水了，需要修一下。",
+    "sent_trad": "廚房的水管漏水了，需要修一下。",
+    "pinyin": "Chúfáng de shuǐguǎn lòushuǐ le, xūyào xiū yīxià.",
+    "english": "The kitchen water pipe is leaking and needs to be repaired."
+  },
+  {
+    "word": "舰长",
+    "sent_simp": "舰长下令全员进入战备状态。",
+    "sent_trad": "艦長下令全員進入戰備狀態。",
+    "pinyin": "Jiànzhǎng xiàlìng quányuán jìnrù zhànbèi zhuàngtài.",
+    "english": "The captain ordered all crew members to go to battle stations."
+  },
+  {
+    "word": "剧目",
+    "sent_simp": "这个剧团今年推出了三个新剧目。",
+    "sent_trad": "這個劇團今年推出了三個新劇目。",
+    "pinyin": "Zhège jùtuán jīnnián tuīchū le sān gè xīn jùmù.",
+    "english": "This theater troupe launched three new productions this year."
+  },
+  {
+    "word": "负载",
+    "sent_simp": "服务器负载过高，网站访问变慢了。",
+    "sent_trad": "伺服器負載過高，網站訪問變慢了。",
+    "pinyin": "Fúwùqì fùzài guò gāo, wǎngzhàn fǎngwèn biàn màn le.",
+    "english": "The server load is too high, and the website has slowed down."
+  },
+  {
+    "word": "污染物",
+    "sent_simp": "工厂排放的污染物对河流影响很大。",
+    "sent_trad": "工廠排放的污染物對河流影響很大。",
+    "pinyin": "Gōngchǎng páifàng de wūrǎnwù duì héliú yǐngxiǎng hěn dà.",
+    "english": "Pollutants discharged by factories have a major impact on rivers."
+  },
+  {
+    "word": "车程",
+    "sent_simp": "从这里到机场大约需要四十分钟车程。",
+    "sent_trad": "從這裡到機場大約需要四十分鐘車程。",
+    "pinyin": "Cóng zhèlǐ dào jīchǎng dàyuē xūyào sìshí fēnzhōng chēchéng.",
+    "english": "It takes about forty minutes of travel time from here to the airport."
+  },
+  {
+    "word": "性疾病",
+    "sent_simp": "学校开设了预防性疾病的健康课。",
+    "sent_trad": "學校開設了預防性疾病的健康課。",
+    "pinyin": "Xuéxiào kāishè le yùfáng xìng jíbìng de jiànkāng kè.",
+    "english": "The school offers a health class on preventing sexually transmitted diseases."
+  },
+  {
+    "word": "买入",
+    "sent_simp": "他在股价低点时买入了不少股票。",
+    "sent_trad": "他在股價低點時買入了不少股票。",
+    "pinyin": "Tā zài gǔjià dīdiǎn shí mǎirù le bù shǎo gǔpiào.",
+    "english": "He bought quite a few stocks when the share price was at its lowest."
+  },
+  {
+    "word": "商学院",
+    "sent_simp": "她考上了一所知名商学院的研究生。",
+    "sent_trad": "她考上了一所知名商學院的研究生。",
+    "pinyin": "Tā kǎo shàng le yī suǒ zhīmíng shāngxuéyuàn de yánjiūshēng.",
+    "english": "She was admitted to a well-known business school's graduate program."
+  },
+  {
+    "word": "净利润",
+    "sent_simp": "公司今年的净利润比去年增加了两成。",
+    "sent_trad": "公司今年的淨利潤比去年增加了兩成。",
+    "pinyin": "Gōngsī jīnnián de jìng lìrùn bǐ qùnián zēngjiā le liǎng chéng.",
+    "english": "The company's net profit this year increased by 20% compared to last year."
+  },
+  {
+    "word": "简体",
+    "sent_simp": "这本书同时出版了简体和繁体两个版本。",
+    "sent_trad": "這本書同時出版了簡體和繁體兩個版本。",
+    "pinyin": "Zhè běn shū tóngshí chūbǎn le jiǎntǐ hé fántǐ liǎng gè bǎnběn.",
+    "english": "This book was published simultaneously in both simplified and traditional Chinese versions."
+  },
+  {
+    "word": "四肢",
+    "sent_simp": "每天运动可以让四肢更有力量。",
+    "sent_trad": "每天運動可以讓四肢更有力量。",
+    "pinyin": "Měitiān yùndòng kěyǐ ràng sìzhī gèng yǒu lìliàng.",
+    "english": "Exercising every day can make your limbs stronger."
+  },
+  {
+    "word": "零星",
+    "sent_simp": "下午有零星小雨，出门记得带伞。",
+    "sent_trad": "下午有零星小雨，出門記得帶傘。",
+    "pinyin": "Xiàwǔ yǒu língxīng xiǎoyǔ, chūmén jìde dài sǎn.",
+    "english": "There will be scattered light rain in the afternoon; remember to bring an umbrella."
+  },
+  {
+    "word": "美感",
+    "sent_simp": "这套家具的设计很有美感。",
+    "sent_trad": "這套家具的設計很有美感。",
+    "pinyin": "Zhè tào jiājù de shèjì hěn yǒu měigǎn.",
+    "english": "The design of this furniture set has a great sense of beauty."
+  },
+  {
+    "word": "控制室",
+    "sent_simp": "所有的监控屏幕都集中在控制室里。",
+    "sent_trad": "所有的監控螢幕都集中在控制室裡。",
+    "pinyin": "Suǒyǒu de jiānkòng píngmù dōu jízhōng zài kòngzhìshì lǐ.",
+    "english": "All the monitoring screens are concentrated in the control room."
+  },
+  {
+    "word": "军衔",
+    "sent_simp": "他立了功，军衔从上尉升到了少校。",
+    "sent_trad": "他立了功，軍銜從上尉升到了少校。",
+    "pinyin": "Tā lì le gōng, jūnxián cóng shàngwèi shēng dào le shǎoxiào.",
+    "english": "He distinguished himself in service and his rank was promoted from captain to major."
+  },
+  {
+    "word": "塑像",
+    "sent_simp": "广场中央立着一座大理石塑像。",
+    "sent_trad": "廣場中央立著一座大理石塑像。",
+    "pinyin": "Guǎngchǎng zhōngyāng lì zhe yī zuò dàlǐshí sùxiàng.",
+    "english": "A marble statue stands in the center of the square."
+  },
+  {
+    "word": "退伍",
+    "sent_simp": "他退伍后回到家乡开了一家小餐馆。",
+    "sent_trad": "他退伍後回到家鄉開了一家小餐館。",
+    "pinyin": "Tā tuìwǔ hòu huídào jiāxiāng kāi le yī jiā xiǎo cānguǎn.",
+    "english": "After being discharged from the military, he returned to his hometown and opened a small restaurant."
+  },
+  {
+    "word": "航道",
+    "sent_simp": "这条航道水深，适合大型船只通行。",
+    "sent_trad": "這條航道水深，適合大型船隻通行。",
+    "pinyin": "Zhè tiáo hángdào shuǐ shēn, shìhé dàxíng chuánzhī tōngxíng.",
+    "english": "This waterway is deep and suitable for large vessels to pass through."
+  },
+  {
+    "word": "当兵",
+    "sent_simp": "他十八岁就去当兵了，在部队待了五年。",
+    "sent_trad": "他十八歲就去當兵了，在部隊待了五年。",
+    "pinyin": "Tā shíbā suì jiù qù dāngbīng le, zài bùduì dāi le wǔ nián.",
+    "english": "He enlisted in the army at eighteen and spent five years in the military."
+  },
+  {
+    "word": "谬误",
+    "sent_simp": "这篇文章里有几处明显的谬误。",
+    "sent_trad": "這篇文章裡有幾處明顯的謬誤。",
+    "pinyin": "Zhè piān wénzhāng lǐ yǒu jǐ chù míngxiǎn de miùwù.",
+    "english": "There are several obvious errors in this article."
+  }
+]

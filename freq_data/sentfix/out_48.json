@@ -1,0 +1,282 @@
+[
+  {
+    "word": "园艺",
+    "sent_simp": "她退休后迷上了园艺。",
+    "sent_trad": "她退休後迷上了園藝。",
+    "pinyin": "Tā tuìxiū hòu míshàngle yuányì.",
+    "english": "After retiring, she became obsessed with gardening."
+  },
+  {
+    "word": "天花",
+    "sent_simp": "天花已经在全球被消灭了。",
+    "sent_trad": "天花已經在全球被消滅了。",
+    "pinyin": "Tiānhuā yǐjīng zài quánqiú bèi xiāomiè le.",
+    "english": "Smallpox has already been eradicated worldwide."
+  },
+  {
+    "word": "史前",
+    "sent_simp": "博物馆里有很多史前动物的化石。",
+    "sent_trad": "博物館裡有很多史前動物的化石。",
+    "pinyin": "Bówùguǎn lǐ yǒu hěn duō shǐqián dòngwù de huàshí.",
+    "english": "The museum has many fossils of prehistoric animals."
+  },
+  {
+    "word": "犀牛",
+    "sent_simp": "犀牛是濒危动物，需要保护。",
+    "sent_trad": "犀牛是瀕危動物，需要保護。",
+    "pinyin": "Xīniú shì bīnwēi dòngwù, xūyào bǎohù.",
+    "english": "Rhinoceroses are endangered animals that need protection."
+  },
+  {
+    "word": "刑期",
+    "sent_simp": "他被判了五年刑期。",
+    "sent_trad": "他被判了五年刑期。",
+    "pinyin": "Tā bèi pànle wǔ nián xíngqī.",
+    "english": "He was sentenced to a five-year prison term."
+  },
+  {
+    "word": "人潮",
+    "sent_simp": "节假日商场里涌来大批人潮。",
+    "sent_trad": "節假日商場裡湧來大批人潮。",
+    "pinyin": "Jiéjiàrì shāngchǎng lǐ yǒng lái dàpī réncháo.",
+    "english": "On holidays, a massive tide of people floods into the shopping mall."
+  },
+  {
+    "word": "陶器",
+    "sent_simp": "这件陶器是汉代出土的文物。",
+    "sent_trad": "這件陶器是漢代出土的文物。",
+    "pinyin": "Zhè jiàn táoqì shì Hàndài chūtǔ de wénwù.",
+    "english": "This piece of pottery is a cultural relic unearthed from the Han dynasty."
+  },
+  {
+    "word": "无常",
+    "sent_simp": "人生无常，要珍惜眼前的人。",
+    "sent_trad": "人生無常，要珍惜眼前的人。",
+    "pinyin": "Rénshēng wúcháng, yào zhēnxī yǎnqián de rén.",
+    "english": "Life is impermanent, so cherish the people around you."
+  },
+  {
+    "word": "快步",
+    "sent_simp": "他快步走进会议室，落座后马上开始发言。",
+    "sent_trad": "他快步走進會議室，落座後馬上開始發言。",
+    "pinyin": "Tā kuàibù zǒu jìn huìyìshì, luòzuò hòu mǎshàng kāishǐ fāyán.",
+    "english": "He strode quickly into the meeting room and started speaking as soon as he sat down."
+  },
+  {
+    "word": "寄生虫",
+    "sent_simp": "这种寄生虫会通过食物传染给人类。",
+    "sent_trad": "這種寄生蟲會通過食物傳染給人類。",
+    "pinyin": "Zhè zhǒng jìshēngchóng huì tōngguò shíwù chuánrǎn gěi rénlèi.",
+    "english": "This type of parasite can be transmitted to humans through food."
+  },
+  {
+    "word": "同级",
+    "sent_simp": "我们是同级同学，关系一直很好。",
+    "sent_trad": "我們是同級同學，關係一直很好。",
+    "pinyin": "Wǒmen shì tóngjí tóngxué, guānxi yīzhí hěn hǎo.",
+    "english": "We are classmates in the same grade and have always gotten along well."
+  },
+  {
+    "word": "双层",
+    "sent_simp": "孩子最喜欢坐双层巴士的上层。",
+    "sent_trad": "孩子最喜歡坐雙層巴士的上層。",
+    "pinyin": "Háizi zuì xǐhuān zuò shuāngcéng bāshì de shàngcéng.",
+    "english": "Kids love sitting on the upper deck of the double-decker bus."
+  },
+  {
+    "word": "海平面",
+    "sent_simp": "这座山海拔三千米高于海平面。",
+    "sent_trad": "這座山海拔三千米高於海平面。",
+    "pinyin": "Zhè zuò shān hǎibá sānqiān mǐ gāoyú hǎipíngmiàn.",
+    "english": "This mountain rises three thousand meters above sea level."
+  },
+  {
+    "word": "褐色",
+    "sent_simp": "他穿着一件褐色的皮夹克。",
+    "sent_trad": "他穿著一件褐色的皮夾克。",
+    "pinyin": "Tā chuānzhe yī jiàn hèsè de pí jiākè.",
+    "english": "He was wearing a brown leather jacket."
+  },
+  {
+    "word": "破损",
+    "sent_simp": "快递盒子破损了，里面的东西也坏了。",
+    "sent_trad": "快遞盒子破損了，裡面的東西也壞了。",
+    "pinyin": "Kuàidì hézi pòsǔn le, lǐmiàn de dōngxi yě huài le.",
+    "english": "The delivery box was damaged, and the contents were ruined too."
+  },
+  {
+    "word": "谢天谢地",
+    "sent_simp": "谢天谢地，钱包找到了！",
+    "sent_trad": "謝天謝地，錢包找到了！",
+    "pinyin": "Xiè tiān xiè dì, qiánbāo zhǎodào le!",
+    "english": "Thank goodness, the wallet was found!"
+  },
+  {
+    "word": "推倒",
+    "sent_simp": "风把院子里的花盆推倒了。",
+    "sent_trad": "風把院子裡的花盆推倒了。",
+    "pinyin": "Fēng bǎ yuànzi lǐ de huāpén tuīdǎo le.",
+    "english": "The wind knocked over the flower pots in the courtyard."
+  },
+  {
+    "word": "诊疗",
+    "sent_simp": "这家诊所的诊疗费用比较实惠。",
+    "sent_trad": "這家診所的診療費用比較實惠。",
+    "pinyin": "Zhè jiā zhěnsuǒ de zhěnliáo fèiyòng bǐjiào shíhuì.",
+    "english": "The diagnosis and treatment fees at this clinic are quite affordable."
+  },
+  {
+    "word": "远洋",
+    "sent_simp": "他在远洋货轮上工作了十年。",
+    "sent_trad": "他在遠洋貨輪上工作了十年。",
+    "pinyin": "Tā zài yuǎnyáng huòlún shàng gōngzuòle shí nián.",
+    "english": "He worked on an ocean-going freighter for ten years."
+  },
+  {
+    "word": "功勋",
+    "sent_simp": "老将军为国家立下了卓越的功勋。",
+    "sent_trad": "老將軍為國家立下了卓越的功勳。",
+    "pinyin": "Lǎo jiāngjūn wèi guójiā lì xià le zhuóyuè de gōngxūn.",
+    "english": "The old general rendered outstanding meritorious service to the country."
+  },
+  {
+    "word": "直流",
+    "sent_simp": "这款充电器输出的是直流电。",
+    "sent_trad": "這款充電器輸出的是直流電。",
+    "pinyin": "Zhè kuǎn chōngdiànqì shūchū de shì zhíliú diàn.",
+    "english": "This charger outputs direct current (DC)."
+  },
+  {
+    "word": "表意",
+    "sent_simp": "汉字是一种表意文字系统。",
+    "sent_trad": "漢字是一種表意文字系統。",
+    "pinyin": "Hànzì shì yī zhǒng biǎoyì wénzì xìtǒng.",
+    "english": "Chinese characters are a type of ideographic writing system."
+  },
+  {
+    "word": "王八蛋",
+    "sent_simp": "他骂那个骗子是个王八蛋。",
+    "sent_trad": "他罵那個騙子是個王八蛋。",
+    "pinyin": "Tā mà nàge piànzi shì gè wángbādàn.",
+    "english": "He cursed that scammer as a bastard."
+  },
+  {
+    "word": "栅栏",
+    "sent_simp": "邻居家的狗跳过栅栏跑进来了。",
+    "sent_trad": "鄰居家的狗跳過柵欄跑進來了。",
+    "pinyin": "Línjū jiā de gǒu tiàoguò zhàlan pǎo jìnlái le.",
+    "english": "The neighbor's dog jumped over the fence and ran in."
+  },
+  {
+    "word": "繁衍",
+    "sent_simp": "这种鱼在这片水域繁衍得很快。",
+    "sent_trad": "這種魚在這片水域繁衍得很快。",
+    "pinyin": "Zhè zhǒng yú zài zhè piàn shuǐyù fányǎn de hěn kuài.",
+    "english": "This type of fish multiplies very quickly in this body of water."
+  },
+  {
+    "word": "扫地",
+    "sent_simp": "他每天早上起来第一件事就是扫地。",
+    "sent_trad": "他每天早上起來第一件事就是掃地。",
+    "pinyin": "Tā měitiān zǎoshang qǐlái dì yī jiàn shì jiùshì sǎodì.",
+    "english": "The first thing he does every morning after getting up is sweep the floor."
+  },
+  {
+    "word": "惩治",
+    "sent_simp": "法律应当严厉惩治食品造假行为。",
+    "sent_trad": "法律應當嚴厲懲治食品造假行為。",
+    "pinyin": "Fǎlǜ yīngdāng yánlì chéngzhì shípǐn zàojiǎ xíngwéi.",
+    "english": "The law should harshly punish food adulteration."
+  },
+  {
+    "word": "树脂",
+    "sent_simp": "这种家具表面涂了一层树脂保护漆。",
+    "sent_trad": "這種家具表面塗了一層樹脂保護漆。",
+    "pinyin": "Zhè zhǒng jiājù biǎomiàn tú le yī céng shùzhī bǎohù qī.",
+    "english": "The surface of this furniture is coated with a layer of protective resin varnish."
+  },
+  {
+    "word": "白话",
+    "sent_simp": "这本书用白话写成，老少都能读懂。",
+    "sent_trad": "這本書用白話寫成，老少都能讀懂。",
+    "pinyin": "Zhè běn shū yòng báihuà xiě chéng, lǎoshào dōu néng dú dǒng.",
+    "english": "This book is written in vernacular language, so both young and old can understand it."
+  },
+  {
+    "word": "低微",
+    "sent_simp": "他出身低微，却凭努力改变了命运。",
+    "sent_trad": "他出身低微，卻憑努力改變了命運。",
+    "pinyin": "Tā chūshēn dīwēi, què píng nǔlì gǎibiànle mìngyùn.",
+    "english": "He came from a humble background but changed his fate through hard work."
+  },
+  {
+    "word": "色素",
+    "sent_simp": "这款果汁不含任何人工色素。",
+    "sent_trad": "這款果汁不含任何人工色素。",
+    "pinyin": "Zhè kuǎn guǒzhī bù hán rènhé réngōng sèsù.",
+    "english": "This fruit juice contains no artificial pigments."
+  },
+  {
+    "word": "市郊",
+    "sent_simp": "他们在市郊买了一套带小院的房子。",
+    "sent_trad": "他們在市郊買了一套帶小院的房子。",
+    "pinyin": "Tāmen zài shìjiāo mǎile yī tào dài xiǎoyuàn de fángzi.",
+    "english": "They bought a house with a small courtyard in the suburbs."
+  },
+  {
+    "word": "优惠券",
+    "sent_simp": "我用优惠券买到了半价的咖啡。",
+    "sent_trad": "我用優惠券買到了半價的咖啡。",
+    "pinyin": "Wǒ yòng yōuhuìquàn mǎidào le bànjià de kāfēi.",
+    "english": "I used a coupon to buy coffee at half price."
+  },
+  {
+    "word": "分管",
+    "sent_simp": "她分管公司的人事和行政工作。",
+    "sent_trad": "她分管公司的人事和行政工作。",
+    "pinyin": "Tā fēnguǎn gōngsī de rénshì hé xíngzhèng gōngzuò.",
+    "english": "She is responsible for the company's HR and administrative affairs."
+  },
+  {
+    "word": "万民",
+    "sent_simp": "这项政策深得万民拥护。",
+    "sent_trad": "這項政策深得萬民擁護。",
+    "pinyin": "Zhè xiàng zhèngcè shēn dé wànmín yōnghù.",
+    "english": "This policy enjoys the strong support of all the people."
+  },
+  {
+    "word": "生物化学",
+    "sent_simp": "她在大学选修了生物化学课程。",
+    "sent_trad": "她在大學選修了生物化學課程。",
+    "pinyin": "Tā zài dàxué xuǎnxiū le shēngwù huàxué kèchéng.",
+    "english": "She took a biochemistry course as an elective at university."
+  },
+  {
+    "word": "竞选活动",
+    "sent_simp": "他积极参与了这次竞选活动。",
+    "sent_trad": "他積極參與了這次競選活動。",
+    "pinyin": "Tā jījí cānyù le zhè cì jìngxuǎn huódòng.",
+    "english": "He actively participated in this election campaign."
+  },
+  {
+    "word": "式微",
+    "sent_simp": "传统手工艺如今已渐渐式微。",
+    "sent_trad": "傳統手工藝如今已漸漸式微。",
+    "pinyin": "Chuántǒng shǒugōngyì rújīn yǐ jiànjiàn shìwēi.",
+    "english": "Traditional handicrafts have been gradually declining these days."
+  },
+  {
+    "word": "结案",
+    "sent_simp": "警方在收集到足够证据后正式结案。",
+    "sent_trad": "警方在收集到足夠證據後正式結案。",
+    "pinyin": "Jǐngfāng zài shōují dào zúgòu zhèngjù hòu zhèngshì jiéàn.",
+    "english": "The police officially closed the case after gathering sufficient evidence."
+  },
+  {
+    "word": "打字",
+    "sent_simp": "她打字很快，一分钟能打八十个字。",
+    "sent_trad": "她打字很快，一分鐘能打八十個字。",
+    "pinyin": "Tā dǎzì hěn kuài, yī fēnzhōng néng dǎ bāshí gè zì.",
+    "english": "She types very fast — she can type eighty characters per minute."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "word": "花生",
+    "sent_simp": "他喜欢边看电视边嚼花生。",
+    "sent_trad": "他喜歡邊看電視邊嚼花生。",
+    "pinyin": "Tā xǐhuān biān kàn diànshì biān jiáo huāshēng.",
+    "english": "He likes to chew peanuts while watching TV."
+  },
+  {
+    "word": "神经病",
+    "sent_simp": "你把钥匙放进冰箱里，真是神经病。",
+    "sent_trad": "你把鑰匙放進冰箱裡，真是神經病。",
+    "pinyin": "Nǐ bǎ yàoshi fàng jìn bīngxiāng lǐ, zhēnshi shénjīngbìng.",
+    "english": "You put your keys in the fridge — you're out of your mind."
+  },
+  {
+    "word": "分包",
+    "sent_simp": "总公司把部分工程分包给了当地团队。",
+    "sent_trad": "總公司把部分工程分包給了當地團隊。",
+    "pinyin": "Zǒng gōngsī bǎ bùfen gōngchéng fēnbāo gěi le dāngdì tuánduì.",
+    "english": "The main company subcontracted part of the project to a local team."
+  },
+  {
+    "word": "旅游团",
+    "sent_simp": "她参加了一个去云南的旅游团。",
+    "sent_trad": "她參加了一個去雲南的旅遊團。",
+    "pinyin": "Tā cānjiā le yī gè qù Yúnnán de lǚyóutuán.",
+    "english": "She joined a tour group going to Yunnan."
+  },
+  {
+    "word": "金主",
+    "sent_simp": "这家初创公司找到了一位大金主支持他们。",
+    "sent_trad": "這家初創公司找到了一位大金主支持他們。",
+    "pinyin": "Zhè jiā chūchuàng gōngsī zhǎodào le yī wèi dà jīnzhǔ zhīchí tāmen.",
+    "english": "This startup found a major financial backer to support them."
+  },
+  {
+    "word": "政绩",
+    "sent_simp": "市长任内政绩突出，赢得了居民好评。",
+    "sent_trad": "市長任內政績突出，贏得了居民好評。",
+    "pinyin": "Shìzhǎng rèn nèi zhèngjì tūchū, yíngdé le jūmín hǎopíng.",
+    "english": "The mayor's track record during his term was outstanding and won residents' praise."
+  },
+  {
+    "word": "柴油",
+    "sent_simp": "这辆卡车用柴油，不用汽油。",
+    "sent_trad": "這輛卡車用柴油，不用汽油。",
+    "pinyin": "Zhè liàng kǎchē yòng cháiyóu, bú yòng qìyóu.",
+    "english": "This truck runs on diesel, not gasoline."
+  },
+  {
+    "word": "客场",
+    "sent_simp": "球队在客场赢球非常不容易。",
+    "sent_trad": "球隊在客場贏球非常不容易。",
+    "pinyin": "Qiúduì zài kèchǎng yíngqiú fēicháng bù róngyì.",
+    "english": "It's very hard for a team to win at an away game."
+  },
+  {
+    "word": "盆地",
+    "sent_simp": "四川盆地气候温暖湿润。",
+    "sent_trad": "四川盆地氣候溫暖濕潤。",
+    "pinyin": "Sìchuān péndì qìhòu wēnnuǎn shīrùn.",
+    "english": "The Sichuan Basin has a warm, humid climate."
+  },
+  {
+    "word": "遍及",
+    "sent_simp": "这个品牌的门店遍及全国各大城市。",
+    "sent_trad": "這個品牌的門店遍及全國各大城市。",
+    "pinyin": "Zhège pǐnpái de méndiàn biànjí quánguó gè dà chéngshì.",
+    "english": "This brand's stores extend to every major city across the country."
+  },
+  {
+    "word": "暴徒",
+    "sent_simp": "警察迅速控制住了那几名暴徒。",
+    "sent_trad": "警察迅速控制住了那幾名暴徒。",
+    "pinyin": "Jǐngchá xùnsù kòngzhì zhù le nà jǐ míng bàotú.",
+    "english": "The police quickly brought those several thugs under control."
+  },
+  {
+    "word": "标的",
+    "sent_simp": "这笔合同的标的是一批进口设备。",
+    "sent_trad": "這筆合同的標的是一批進口設備。",
+    "pinyin": "Zhè bǐ hétong de biāodì shì yī pī jìnkǒu shèbèi.",
+    "english": "The object of this contract is a batch of imported equipment."
+  },
+  {
+    "word": "史学",
+    "sent_simp": "他在大学主修史学，对古代很感兴趣。",
+    "sent_trad": "他在大學主修史學，對古代很感興趣。",
+    "pinyin": "Tā zài dàxué zhǔxiū shǐxué, duì gǔdài hěn gǎn xìngqù.",
+    "english": "He majored in historiography at university and is very interested in antiquity."
+  },
+  {
+    "word": "超级市场",
+    "sent_simp": "我下班后顺路去超级市场买了蔬菜。",
+    "sent_trad": "我下班後順路去超級市場買了蔬菜。",
+    "pinyin": "Wǒ xiàbān hòu shùnlù qù chāojí shìchǎng mǎi le shūcài.",
+    "english": "After work I stopped by the supermarket on the way and bought some vegetables."
+  },
+  {
+    "word": "重启",
+    "sent_simp": "电脑死机了，只好重启一下。",
+    "sent_trad": "電腦死機了，只好重啟一下。",
+    "pinyin": "Diànnǎo sǐjī le, zhǐhǎo chóngqǐ yīxià.",
+    "english": "The computer froze, so I had no choice but to restart it."
+  },
+  {
+    "word": "连坐",
+    "sent_simp": "古代一人犯罪，家人也可能受到连坐。",
+    "sent_trad": "古代一人犯罪，家人也可能受到連坐。",
+    "pinyin": "Gǔdài yī rén fànzuì, jiārén yě kěnéng shòudào liánzuò.",
+    "english": "In ancient times, if one person committed a crime, family members could also be implicated."
+  },
+  {
+    "word": "三角洲",
+    "sent_simp": "珠江三角洲是中国重要的经济区域。",
+    "sent_trad": "珠江三角洲是中國重要的經濟區域。",
+    "pinyin": "Zhūjiāng sānjiǎozhōu shì Zhōngguó zhòngyào de jīngjì qūyù.",
+    "english": "The Pearl River Delta is an important economic region in China."
+  },
+  {
+    "word": "配音",
+    "sent_simp": "这部动画片的配音非常专业。",
+    "sent_trad": "這部動畫片的配音非常專業。",
+    "pinyin": "Zhè bù dònghuàpiàn de pèiyīn fēicháng zhuānyè.",
+    "english": "The dubbing in this animated film is very professional."
+  },
+  {
+    "word": "顶部",
+    "sent_simp": "页面顶部有一个搜索框。",
+    "sent_trad": "頁面頂部有一個搜索框。",
+    "pinyin": "Yèmiàn dǐngbù yǒu yī gè sōusuǒ kuàng.",
+    "english": "There is a search box at the top of the page."
+  },
+  {
+    "word": "军营",
+    "sent_simp": "新兵们搬进军营后开始了集训。",
+    "sent_trad": "新兵們搬進軍營後開始了集訓。",
+    "pinyin": "Xīnbīng men bān jìn jūnyíng hòu kāishǐ le jíxùn.",
+    "english": "After moving into the barracks, the recruits began intensive training."
+  },
+  {
+    "word": "方程",
+    "sent_simp": "老师让我们解一道二次方程。",
+    "sent_trad": "老師讓我們解一道二次方程。",
+    "pinyin": "Lǎoshī ràng wǒmen jiě yī dào èrcì fāngchéng.",
+    "english": "The teacher asked us to solve a quadratic equation."
+  },
+  {
+    "word": "枪手",
+    "sent_simp": "考试时用枪手替考属于严重违规。",
+    "sent_trad": "考試時用槍手替考屬於嚴重違規。",
+    "pinyin": "Kǎoshì shí yòng qiāngshǒu tì kǎo shǔyú yánzhòng wéiguī.",
+    "english": "Using a stand-in to take an exam for you is a serious violation."
+  },
+  {
+    "word": "听证会",
+    "sent_simp": "国会就这项法案召开了听证会。",
+    "sent_trad": "國會就這項法案召開了聽證會。",
+    "pinyin": "Guóhuì jiù zhè xiàng fǎ'àn zhàokāi le tīngzhènghuì.",
+    "english": "Congress held a hearing on this bill."
+  },
+  {
+    "word": "静态",
+    "sent_simp": "这张静态图片看起来很有设计感。",
+    "sent_trad": "這張靜態圖片看起來很有設計感。",
+    "pinyin": "Zhè zhāng jìngtài túpiàn kàn qǐlái hěn yǒu shèjì gǎn.",
+    "english": "This static image looks very well-designed."
+  },
+  {
+    "word": "衰落",
+    "sent_simp": "这座老城镇随着工厂关闭而逐渐衰落。",
+    "sent_trad": "這座老城鎮隨著工廠關閉而逐漸衰落。",
+    "pinyin": "Zhè zuò lǎo chéngzhèn suízhe gōngchǎng guānbì ér zhújiàn shuāiluò.",
+    "english": "This old town gradually declined as the factories closed."
+  },
+  {
+    "word": "锅炉",
+    "sent_simp": "楼里的锅炉坏了，暖气今天没有。",
+    "sent_trad": "樓裡的鍋爐壞了，暖氣今天沒有。",
+    "pinyin": "Lóu lǐ de guōlú huài le, nuǎnqì jīntiān méiyǒu.",
+    "english": "The boiler in the building broke down, so there's no heating today."
+  },
+  {
+    "word": "帮子",
+    "sent_simp": "街上那帮子人每天晚上都聚在这里。",
+    "sent_trad": "街上那幫子人每天晚上都聚在這裡。",
+    "pinyin": "Jiē shàng nà bāngzi rén měitiān wǎnshàng dōu jù zài zhèlǐ.",
+    "english": "That gang of people on the street gathers here every evening."
+  },
+  {
+    "word": "乐于",
+    "sent_simp": "他一向乐于帮助有困难的邻居。",
+    "sent_trad": "他一向樂於幫助有困難的鄰居。",
+    "pinyin": "Tā yīxiàng lèyú bāngzhù yǒu kùnnán de línjū.",
+    "english": "He has always been willing to help neighbors in need."
+  },
+  {
+    "word": "如画",
+    "sent_simp": "桂林山水风景如画，令人陶醉。",
+    "sent_trad": "桂林山水風景如畫，令人陶醉。",
+    "pinyin": "Guìlín shānshuǐ fēngjǐng rúhuà, lìng rén táozuì.",
+    "english": "The scenery of Guilin's mountains and rivers is picturesque and enchanting."
+  },
+  {
+    "word": "派头",
+    "sent_simp": "他穿着定制西装出场，派头十足。",
+    "sent_trad": "他穿著定制西裝出場，派頭十足。",
+    "pinyin": "Tā chuānzhe dìngzhì xīzhuāng chūchǎng, pàitóu shízú.",
+    "english": "He appeared in a tailored suit, exuding panache."
+  },
+  {
+    "word": "接点",
+    "sent_simp": "电路板上的接点生锈了，需要清洁。",
+    "sent_trad": "電路板上的接點生鏽了，需要清潔。",
+    "pinyin": "Diànlù bǎn shàng de jiēdiǎn shēng xiù le, xūyào qīngjié.",
+    "english": "The electrical contacts on the circuit board are rusted and need cleaning."
+  },
+  {
+    "word": "包间",
+    "sent_simp": "他们订了一个包间，庆祝朋友生日。",
+    "sent_trad": "他們訂了一個包間，慶祝朋友生日。",
+    "pinyin": "Tāmen dìng le yī gè bāojiān, qìngzhù péngyǒu shēngrì.",
+    "english": "They booked a private room to celebrate a friend's birthday."
+  },
+  {
+    "word": "神学",
+    "sent_simp": "她在大学选修了一门神学课程。",
+    "sent_trad": "她在大學選修了一門神學課程。",
+    "pinyin": "Tā zài dàxué xuǎnxiū le yī mén shénxué kèchéng.",
+    "english": "She took a theology course as an elective at university."
+  },
+  {
+    "word": "西装",
+    "sent_simp": "面试那天他特意穿了一套西装。",
+    "sent_trad": "面試那天他特意穿了一套西裝。",
+    "pinyin": "Miànshì nà tiān tā tèyì chuān le yī tào xīzhuāng.",
+    "english": "On the day of his interview he deliberately wore a suit."
+  },
+  {
+    "word": "科学史",
+    "sent_simp": "这门科学史课让我了解了很多发明故事。",
+    "sent_trad": "這門科學史課讓我了解了很多發明故事。",
+    "pinyin": "Zhè mén kēxuéshǐ kè ràng wǒ liǎojiě le hěn duō fāmíng gùshì.",
+    "english": "This history of science course taught me many stories about inventions."
+  },
+  {
+    "word": "航运",
+    "sent_simp": "上海港是全球重要的航运中心。",
+    "sent_trad": "上海港是全球重要的航運中心。",
+    "pinyin": "Shànghǎi gǎng shì quánqiú zhòngyào de hángyùn zhōngxīn.",
+    "english": "Shanghai Port is an important global shipping hub."
+  },
+  {
+    "word": "班机",
+    "sent_simp": "他赶上了最后一班班机回家。",
+    "sent_trad": "他趕上了最後一班班機回家。",
+    "pinyin": "Tā gǎn shàng le zuìhòu yī bān bānjī huíjiā.",
+    "english": "He caught the last flight home."
+  },
+  {
+    "word": "业者",
+    "sent_simp": "当地业者联合起来反对新的收费政策。",
+    "sent_trad": "當地業者聯合起來反對新的收費政策。",
+    "pinyin": "Dāngdì yèzhě liánhé qǐlái fǎnduì xīn de shōufèi zhèngcè.",
+    "english": "Local traders joined together to oppose the new fee policy."
+  },
+  {
+    "word": "基本法",
+    "sent_simp": "香港基本法规定了特区的基本制度。",
+    "sent_trad": "香港基本法規定了特區的基本制度。",
+    "pinyin": "Xiānggǎng jīběnfǎ guīdìng le tèqū de jīběn zhìdù.",
+    "english": "The Hong Kong Basic Law stipulates the fundamental systems of the Special Administrative Region."
+  },
+  {
+    "word": "免费软件",
+    "sent_simp": "这款免费软件可以帮你把PDF转成Word。",
+    "sent_trad": "這款免費軟件可以幫你把PDF轉成Word。",
+    "pinyin": "Zhè kuǎn miǎnfèi ruǎnjiàn kěyǐ bāng nǐ bǎ PDF zhuǎn chéng Word.",
+    "english": "This freeware can help you convert PDFs into Word documents."
+  }
+]

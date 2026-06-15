@@ -1,0 +1,282 @@
+[
+  {
+    "word": "朗诵",
+    "sent_simp": "她在晚会上朗诵了一首诗。",
+    "sent_trad": "她在晚會上朗誦了一首詩。",
+    "pinyin": "Tā zài wǎnhuì shàng lǎngsòng le yī shǒu shī.",
+    "english": "She recited a poem at the evening party."
+  },
+  {
+    "word": "仙子",
+    "sent_simp": "小女孩打扮成仙子去参加派对。",
+    "sent_trad": "小女孩打扮成仙子去參加派對。",
+    "pinyin": "Xiǎo nǚhái dǎban chéng xiānzǐ qù cānjiā pàiduì.",
+    "english": "The little girl dressed up as a fairy to go to the party."
+  },
+  {
+    "word": "故居",
+    "sent_simp": "我们去参观了鲁迅的故居。",
+    "sent_trad": "我們去參觀了魯迅的故居。",
+    "pinyin": "Wǒmen qù cānguān le Lǔ Xùn de gùjū.",
+    "english": "We went to visit Lu Xun's former residence."
+  },
+  {
+    "word": "族裔",
+    "sent_simp": "这个城市有来自不同族裔的居民。",
+    "sent_trad": "這個城市有來自不同族裔的居民。",
+    "pinyin": "Zhège chéngshì yǒu láizì bùtóng zúyì de jūmín.",
+    "english": "This city has residents from different ethnic groups."
+  },
+  {
+    "word": "文坛",
+    "sent_simp": "她出版第一本书后就进入了文坛。",
+    "sent_trad": "她出版第一本書後就進入了文壇。",
+    "pinyin": "Tā chūbǎn dì yī běn shū hòu jiù jìnrù le wéntán.",
+    "english": "She entered literary circles after publishing her first book."
+  },
+  {
+    "word": "买断",
+    "sent_simp": "公司给他一笔买断费用让他提前退休。",
+    "sent_trad": "公司給他一筆買斷費用讓他提前退休。",
+    "pinyin": "Gōngsī gěi tā yī bǐ mǎiduàn fèiyòng ràng tā tíqián tuìxiū.",
+    "english": "The company gave him a buyout package to let him retire early."
+  },
+  {
+    "word": "培养基",
+    "sent_simp": "实验室用培养基来培育细菌。",
+    "sent_trad": "實驗室用培養基來培育細菌。",
+    "pinyin": "Shíyànshì yòng péiyǎngjī lái péiyù xìjūn.",
+    "english": "The lab uses culture medium to grow bacteria."
+  },
+  {
+    "word": "草拟",
+    "sent_simp": "他花了一个下午草拟合同草案。",
+    "sent_trad": "他花了一個下午草擬合同草案。",
+    "pinyin": "Tā huā le yī gè xiàwǔ cǎonǐ hétong cǎo'àn.",
+    "english": "He spent an afternoon drafting the contract."
+  },
+  {
+    "word": "亚科",
+    "sent_simp": "狮子属于猫科下的豹亚科。",
+    "sent_trad": "獅子屬於貓科下的豹亞科。",
+    "pinyin": "Shīzi shǔyú māo kē xià de bào yàkē.",
+    "english": "Lions belong to the subfamily Pantherinae under the family Felidae."
+  },
+  {
+    "word": "所得税",
+    "sent_simp": "我每个月的工资要扣除所得税。",
+    "sent_trad": "我每個月的工資要扣除所得稅。",
+    "pinyin": "Wǒ měi gè yuè de gōngzī yào kòuchú suǒdéshuì.",
+    "english": "Income tax is deducted from my monthly salary."
+  },
+  {
+    "word": "区域性",
+    "sent_simp": "这场暴雨具有明显的区域性特点。",
+    "sent_trad": "這場暴雨具有明顯的區域性特點。",
+    "pinyin": "Zhè chǎng bàoyǔ jùyǒu míngxiǎn de qūyùxìng tèdiǎn.",
+    "english": "This rainstorm has obvious regional characteristics."
+  },
+  {
+    "word": "传票",
+    "sent_simp": "他收到了法院发来的传票。",
+    "sent_trad": "他收到了法院發來的傳票。",
+    "pinyin": "Tā shōudào le fǎyuàn fā lái de chuánpiào.",
+    "english": "He received a summons from the court."
+  },
+  {
+    "word": "注解",
+    "sent_simp": "这本古文书附有详细的注解。",
+    "sent_trad": "這本古文書附有詳細的注解。",
+    "pinyin": "Zhè běn gǔwénshū fùyǒu xiángxì de zhùjiě.",
+    "english": "This classical text comes with detailed annotations."
+  },
+  {
+    "word": "机房",
+    "sent_simp": "服务器都放在地下室的机房里。",
+    "sent_trad": "伺服器都放在地下室的機房裡。",
+    "pinyin": "Fúwùqì dōu fàng zài dìxiàshì de jīfáng lǐ.",
+    "english": "The servers are all kept in the machine room in the basement."
+  },
+  {
+    "word": "内务",
+    "sent_simp": "新兵每天早上都要整理内务。",
+    "sent_trad": "新兵每天早上都要整理內務。",
+    "pinyin": "Xīnbīng měitiān zǎoshang dōu yào zhěnglǐ nèiwù.",
+    "english": "New recruits have to tidy up their quarters every morning."
+  },
+  {
+    "word": "商户",
+    "sent_simp": "市场里的商户都要按时缴纳摊位费。",
+    "sent_trad": "市場裡的商戶都要按時繳納攤位費。",
+    "pinyin": "Shìchǎng lǐ de shānghù dōu yào ànshí jiǎonà tānwèifèi.",
+    "english": "All merchants in the market must pay their stall fees on time."
+  },
+  {
+    "word": "围栏",
+    "sent_simp": "院子周围装了一圈木围栏。",
+    "sent_trad": "院子周圍裝了一圈木圍欄。",
+    "pinyin": "Yuànzi zhōuwéi zhuāng le yī quān mù wéilán.",
+    "english": "A wooden fence was installed around the yard."
+  },
+  {
+    "word": "停课",
+    "sent_simp": "台风来了，学校宣布明天停课。",
+    "sent_trad": "颱風來了，學校宣布明天停課。",
+    "pinyin": "Táifēng lái le, xuéxiào xuānbù míngtiān tíngkè.",
+    "english": "A typhoon is coming, so the school announced classes will be cancelled tomorrow."
+  },
+  {
+    "word": "主板",
+    "sent_simp": "他换了一块新主板，电脑速度快多了。",
+    "sent_trad": "他換了一塊新主板，電腦速度快多了。",
+    "pinyin": "Tā huàn le yī kuài xīn zhǔbǎn, diànnǎo sùdù kuài duō le.",
+    "english": "He replaced the motherboard and the computer runs much faster now."
+  },
+  {
+    "word": "弥撒",
+    "sent_simp": "他每周日早上都去教堂参加弥撒。",
+    "sent_trad": "他每週日早上都去教堂參加彌撒。",
+    "pinyin": "Tā měi zhōurì zǎoshang dōu qù jiàotáng cānjiā mísā.",
+    "english": "He goes to church for Mass every Sunday morning."
+  },
+  {
+    "word": "远景",
+    "sent_simp": "照片的远景是连绵的山脉。",
+    "sent_trad": "照片的遠景是連綿的山脈。",
+    "pinyin": "Zhàopiàn de yuǎnjǐng shì liánmián de shānmài.",
+    "english": "The background of the photo shows rolling mountain ranges."
+  },
+  {
+    "word": "粗大",
+    "sent_simp": "搬家时需要几个人抬那根粗大的木梁。",
+    "sent_trad": "搬家時需要幾個人抬那根粗大的木梁。",
+    "pinyin": "Bānjiā shí xūyào jǐ gè rén tái nà gēn cūdà de mùliáng.",
+    "english": "Moving that thick wooden beam required several people to carry it."
+  },
+  {
+    "word": "语录",
+    "sent_simp": "她在日记本里抄了很多名人语录。",
+    "sent_trad": "她在日記本裡抄了很多名人語錄。",
+    "pinyin": "Tā zài rìjìběn lǐ chāo le hěn duō míngrén yǔlù.",
+    "english": "She copied many famous quotations into her diary."
+  },
+  {
+    "word": "以太",
+    "sent_simp": "科学家曾认为光通过以太传播。",
+    "sent_trad": "科學家曾認為光通過以太傳播。",
+    "pinyin": "Kēxuéjiā céng rènwéi guāng tōngguò yǐtài chuánbō.",
+    "english": "Scientists once believed light traveled through ether."
+  },
+  {
+    "word": "险恶",
+    "sent_simp": "山里的天气变化险恶，要做好准备。",
+    "sent_trad": "山裡的天氣變化險惡，要做好準備。",
+    "pinyin": "Shān lǐ de tiānqì biànhuà xiǎn'è, yào zuòhǎo zhǔnbèi.",
+    "english": "The weather in the mountains can turn dangerously bad, so be prepared."
+  },
+  {
+    "word": "在座",
+    "sent_simp": "请在座的各位保持安静。",
+    "sent_trad": "請在座的各位保持安靜。",
+    "pinyin": "Qǐng zàizuò de gèwèi bǎochí ānjìng.",
+    "english": "Please, everyone present keep quiet."
+  },
+  {
+    "word": "俯瞰",
+    "sent_simp": "站在山顶可以俯瞰整座城市。",
+    "sent_trad": "站在山頂可以俯瞰整座城市。",
+    "pinyin": "Zhàn zài shāndǐng kěyǐ fǔkàn zhěng zuò chéngshì.",
+    "english": "Standing at the mountaintop, you can look down at the entire city."
+  },
+  {
+    "word": "并举",
+    "sent_simp": "公司决定线上线下销售并举。",
+    "sent_trad": "公司決定線上線下銷售並舉。",
+    "pinyin": "Gōngsī juédìng xiànshàng xiànxià xiāoshòu bìngjǔ.",
+    "english": "The company decided to develop online and offline sales simultaneously."
+  },
+  {
+    "word": "为伍",
+    "sent_simp": "他不愿与那些不诚实的人为伍。",
+    "sent_trad": "他不願與那些不誠實的人為伍。",
+    "pinyin": "Tā bù yuàn yǔ nàxiē bù chéngshí de rén wéiwǔ.",
+    "english": "He is unwilling to associate with dishonest people."
+  },
+  {
+    "word": "饰品",
+    "sent_simp": "她在集市上买了几件手工饰品。",
+    "sent_trad": "她在集市上買了幾件手工飾品。",
+    "pinyin": "Tā zài jíshì shàng mǎi le jǐ jiàn shǒugōng shìpǐn.",
+    "english": "She bought a few handmade accessories at the market."
+  },
+  {
+    "word": "红宝石",
+    "sent_simp": "这枚戒指上镶嵌着一颗红宝石。",
+    "sent_trad": "這枚戒指上鑲嵌著一顆紅寶石。",
+    "pinyin": "Zhè méi jièzhi shàng xiāngqiàn zhe yī kē hóngbǎoshí.",
+    "english": "This ring is set with a ruby."
+  },
+  {
+    "word": "农庄",
+    "sent_simp": "周末我们去郊外的农庄采摘草莓。",
+    "sent_trad": "週末我們去郊外的農莊採摘草莓。",
+    "pinyin": "Zhōumò wǒmen qù jiāowài de nóngzhuāng cǎizhāi cǎoméi.",
+    "english": "On the weekend we went to a farm in the outskirts to pick strawberries."
+  },
+  {
+    "word": "知识库",
+    "sent_simp": "客服系统有一个常见问题知识库。",
+    "sent_trad": "客服系統有一個常見問題知識庫。",
+    "pinyin": "Kèfú xìtǒng yǒu yī gè chángjiàn wèntí zhīshikù.",
+    "english": "The customer service system has a knowledge base of frequently asked questions."
+  },
+  {
+    "word": "预谋",
+    "sent_simp": "警方认为这起案件是经过预谋的。",
+    "sent_trad": "警方認為這起案件是經過預謀的。",
+    "pinyin": "Jǐngfāng rènwéi zhè qǐ ànjiàn shì jīngguò yùmóu de.",
+    "english": "The police believe this case was premeditated."
+  },
+  {
+    "word": "肃清",
+    "sent_simp": "他们努力肃清组织内部的腐败行为。",
+    "sent_trad": "他們努力肅清組織內部的腐敗行為。",
+    "pinyin": "Tāmen nǔlì sùqīng zǔzhī nèibù de fǔbài xíngwéi.",
+    "english": "They worked hard to purge corruption from within the organization."
+  },
+  {
+    "word": "预设",
+    "sent_simp": "软件的预设语言是英文，可以改成中文。",
+    "sent_trad": "軟件的預設語言是英文，可以改成中文。",
+    "pinyin": "Ruǎnjiàn de yùshè yǔyán shì Yīngwén, kěyǐ gǎi chéng Zhōngwén.",
+    "english": "The software's default language is English, but it can be changed to Chinese."
+  },
+  {
+    "word": "山鸡",
+    "sent_simp": "我在山里见到了一只漂亮的山鸡。",
+    "sent_trad": "我在山裡見到了一隻漂亮的山雞。",
+    "pinyin": "Wǒ zài shān lǐ jiàndào le yī zhī piàoliang de shānjī.",
+    "english": "I spotted a beautiful pheasant in the mountains."
+  },
+  {
+    "word": "淫乱",
+    "sent_simp": "这部小说描写了当时社会的淫乱风气。",
+    "sent_trad": "這部小說描寫了當時社會的淫亂風氣。",
+    "pinyin": "Zhè bù xiǎoshuō miáoxiě le dāngshí shèhuì de yínluàn fēngqì.",
+    "english": "This novel depicts the promiscuous social climate of that era."
+  },
+  {
+    "word": "方程式",
+    "sent_simp": "老师在黑板上写下了一道方程式。",
+    "sent_trad": "老師在黑板上寫下了一道方程式。",
+    "pinyin": "Lǎoshī zài hēibǎn shàng xiě xià le yī dào fāngchéngshì.",
+    "english": "The teacher wrote an equation on the blackboard."
+  },
+  {
+    "word": "切入",
+    "sent_simp": "他从用户体验的角度切入这个问题。",
+    "sent_trad": "他從用戶體驗的角度切入這個問題。",
+    "pinyin": "Tā cóng yònghù tǐyàn de jiǎodù qiērù zhège wèntí.",
+    "english": "He approached the problem from the angle of user experience."
+  }
+]

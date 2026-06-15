@@ -1,0 +1,282 @@
+[
+  {
+    "word": "姐夫",
+    "sent_simp": "我姐夫昨天送我去机场。",
+    "sent_trad": "我姐夫昨天送我去機場。",
+    "pinyin": "Wǒ jiěfu zuótiān sòng wǒ qù jīchǎng.",
+    "english": "My older sister's husband drove me to the airport yesterday."
+  },
+  {
+    "word": "字词",
+    "sent_simp": "这本词典收录了很多常用字词。",
+    "sent_trad": "這本詞典收錄了很多常用字詞。",
+    "pinyin": "Zhè běn cídiǎn shōulù le hěn duō chángyòng zìcí.",
+    "english": "This dictionary includes many commonly used words and characters."
+  },
+  {
+    "word": "存货",
+    "sent_simp": "仓库里的存货快卖完了。",
+    "sent_trad": "倉庫裡的存貨快賣完了。",
+    "pinyin": "Cāngkù lǐ de cúnhuò kuài mài wán le.",
+    "english": "The inventory in the warehouse is almost sold out."
+  },
+  {
+    "word": "学者",
+    "sent_simp": "这位学者发表了一篇重要论文。",
+    "sent_trad": "這位學者發表了一篇重要論文。",
+    "pinyin": "Zhè wèi xuézhě fābiǎo le yī piān zhòngyào lùnwén.",
+    "english": "This scholar published an important paper."
+  },
+  {
+    "word": "安全感",
+    "sent_simp": "有稳定工作让她有安全感。",
+    "sent_trad": "有穩定工作讓她有安全感。",
+    "pinyin": "Yǒu wěndìng gōngzuò ràng tā yǒu ānquángǎn.",
+    "english": "Having a stable job gives her a sense of security."
+  },
+  {
+    "word": "安安",
+    "sent_simp": "她在群里发了一句"安安"打招呼。",
+    "sent_trad": "她在群裡發了一句「安安」打招呼。",
+    "pinyin": "Tā zài qún lǐ fā le yī jù "ān ān" dǎ zhāohu.",
+    "english": "She sent a \"Hi there\" greeting in the group chat."
+  },
+  {
+    "word": "定数",
+    "sent_simp": "班级人数有定数，不能随意增加。",
+    "sent_trad": "班級人數有定數，不能隨意增加。",
+    "pinyin": "Bānjí rénshù yǒu dìngshù, bù néng suíyì zēngjiā.",
+    "english": "The class has a fixed quota and cannot be arbitrarily increased."
+  },
+  {
+    "word": "审慎",
+    "sent_simp": "签合同前要审慎考虑每一条款。",
+    "sent_trad": "簽合同前要審慎考慮每一條款。",
+    "pinyin": "Qiān hétóng qián yào shěnshèn kǎolǜ měi yī tiáokuǎn.",
+    "english": "You should carefully consider every clause before signing a contract."
+  },
+  {
+    "word": "审计",
+    "sent_simp": "会计师正在对公司账目进行审计。",
+    "sent_trad": "會計師正在對公司賬目進行審計。",
+    "pinyin": "Kuàijìshī zhèngzài duì gōngsī zhàngmù jìnxíng shěnjì.",
+    "english": "The accountant is auditing the company's financial accounts."
+  },
+  {
+    "word": "宪章",
+    "sent_simp": "联合国宪章是国际关系的基础文件。",
+    "sent_trad": "聯合國憲章是國際關係的基礎文件。",
+    "pinyin": "Liánhéguó Xiànzhāng shì guójì guānxi de jīchǔ wénjiàn.",
+    "english": "The United Nations Charter is a foundational document for international relations."
+  },
+  {
+    "word": "家室",
+    "sent_simp": "他已有家室，所以不常加班到很晚。",
+    "sent_trad": "他已有家室，所以不常加班到很晚。",
+    "pinyin": "Tā yǐ yǒu jiāshì, suǒyǐ bù cháng jiābān dào hěn wǎn.",
+    "english": "He has a family, so he doesn't often work late."
+  },
+  {
+    "word": "家畜",
+    "sent_simp": "农场里饲养着各种家畜。",
+    "sent_trad": "農場裡飼養著各種家畜。",
+    "pinyin": "Nóngchǎng lǐ sìyǎng zhe gèzhǒng jiāchù.",
+    "english": "Various livestock are raised on the farm."
+  },
+  {
+    "word": "宽带",
+    "sent_simp": "他家新装了一条宽带网络。",
+    "sent_trad": "他家新裝了一條寬帶網絡。",
+    "pinyin": "Tā jiā xīn zhuāng le yī tiáo kuāndài wǎngluò.",
+    "english": "His family just got a new broadband internet connection."
+  },
+  {
+    "word": "富贵",
+    "sent_simp": "他从不在意富贵，只想过平静的生活。",
+    "sent_trad": "他從不在意富貴，只想過平靜的生活。",
+    "pinyin": "Tā cóng bù zàiyì fùguì, zhǐ xiǎng guò píngjìng de shēnghuó.",
+    "english": "He never cares about wealth and status; he just wants a peaceful life."
+  },
+  {
+    "word": "对位",
+    "sent_simp": "音乐老师讲解了对位的基本技法。",
+    "sent_trad": "音樂老師講解了對位的基本技法。",
+    "pinyin": "Yīnyuè lǎoshī jiǎngjiě le duìwèi de jīběn jìfǎ.",
+    "english": "The music teacher explained the basic techniques of counterpoint."
+  },
+  {
+    "word": "射杀",
+    "sent_simp": "警察射杀了那只逃出笼的老虎。",
+    "sent_trad": "警察射殺了那只逃出籠的老虎。",
+    "pinyin": "Jǐngchá shèshā le nà zhī táochū lóng de lǎohǔ.",
+    "english": "The police shot and killed the tiger that escaped from its cage."
+  },
+  {
+    "word": "小巷",
+    "sent_simp": "他每天走小巷捷径去上班。",
+    "sent_trad": "他每天走小巷捷徑去上班。",
+    "pinyin": "Tā měitiān zǒu xiǎoxiàng jiéjìng qù shàngbān.",
+    "english": "He takes the alley shortcut to work every day."
+  },
+  {
+    "word": "尺度",
+    "sent_simp": "评价作品时要掌握好尺度。",
+    "sent_trad": "評價作品時要掌握好尺度。",
+    "pinyin": "Píngjià zuòpǐn shí yào zhǎngwò hǎo chǐdù.",
+    "english": "You need to apply the right yardstick when evaluating a work."
+  },
+  {
+    "word": "局长",
+    "sent_simp": "局长今天主持了年度工作会议。",
+    "sent_trad": "局長今天主持了年度工作會議。",
+    "pinyin": "Júzhǎng jīntiān zhǔchí le niándù gōngzuò huìyì.",
+    "english": "The bureau chief presided over the annual work meeting today."
+  },
+  {
+    "word": "居住者",
+    "sent_simp": "这栋楼的居住者大多是上班族。",
+    "sent_trad": "這棟樓的居住者大多是上班族。",
+    "pinyin": "Zhè dòng lóu de jūzhùzhě dàduō shì shàngbānzú.",
+    "english": "Most of the inhabitants of this building are office workers."
+  },
+  {
+    "word": "屡屡",
+    "sent_simp": "他屡屡迟到，被经理批评了。",
+    "sent_trad": "他屢屢遲到，被經理批評了。",
+    "pinyin": "Tā lǚlǚ chídào, bèi jīnglǐ pīpíng le.",
+    "english": "He was repeatedly late and was criticized by the manager."
+  },
+  {
+    "word": "左派",
+    "sent_simp": "这位候选人被认为属于左派。",
+    "sent_trad": "這位候選人被認為屬於左派。",
+    "pinyin": "Zhè wèi hòuxuǎnrén bèi rènwéi shǔyú zuǒpài.",
+    "english": "This candidate is considered to belong to the left wing."
+  },
+  {
+    "word": "差异",
+    "sent_simp": "两份报告之间存在明显的差异。",
+    "sent_trad": "兩份報告之間存在明顯的差異。",
+    "pinyin": "Liǎng fèn bàogào zhījiān cúnzài míngxiǎn de chāyì.",
+    "english": "There is a clear discrepancy between the two reports."
+  },
+  {
+    "word": "巴巴",
+    "sent_simp": "他等得心急巴巴地不停看手机。",
+    "sent_trad": "他等得心急巴巴地不停看手機。",
+    "pinyin": "Tā děng de xīnjí bābā de bù tíng kàn shǒujī.",
+    "english": "He was extremely anxious waiting and kept checking his phone."
+  },
+  {
+    "word": "干洗",
+    "sent_simp": "这件大衣需要干洗，不能水洗。",
+    "sent_trad": "這件大衣需要乾洗，不能水洗。",
+    "pinyin": "Zhè jiàn dàyī xūyào gānxǐ, bù néng shuǐxǐ.",
+    "english": "This coat needs to be dry cleaned; it cannot be washed with water."
+  },
+  {
+    "word": "干货",
+    "sent_simp": "超市里的干货区卖各种干蘑菇。",
+    "sent_trad": "超市裡的乾貨區賣各種乾蘑菇。",
+    "pinyin": "Chāoshì lǐ de gānhuò qū mài gèzhǒng gān mógu.",
+    "english": "The dried goods section of the supermarket sells various kinds of dried mushrooms."
+  },
+  {
+    "word": "床单",
+    "sent_simp": "她每周换一次床单。",
+    "sent_trad": "她每週換一次床單。",
+    "pinyin": "Tā měi zhōu huàn yī cì chuángdān.",
+    "english": "She changes her bed sheets once a week."
+  },
+  {
+    "word": "应力",
+    "sent_simp": "工程师计算了桥梁各部分的应力。",
+    "sent_trad": "工程師計算了橋梁各部分的應力。",
+    "pinyin": "Gōngchéngshī jìsuàn le qiáoliáng gè bùfen de yìnglì.",
+    "english": "The engineer calculated the stress in each part of the bridge."
+  },
+  {
+    "word": "应届",
+    "sent_simp": "这家公司只招聘应届毕业生。",
+    "sent_trad": "這家公司只招聘應屆畢業生。",
+    "pinyin": "Zhè jiā gōngsī zhǐ zhāopìn yìngjiè bìyèshēng.",
+    "english": "This company only recruits this year's graduates."
+  },
+  {
+    "word": "应得",
+    "sent_simp": "他得到了应得的奖励。",
+    "sent_trad": "他得到了應得的獎勵。",
+    "pinyin": "Tā dédào le yīngdé de jiǎnglì.",
+    "english": "He received the reward he deserved."
+  },
+  {
+    "word": "底盘",
+    "sent_simp": "技师检查了汽车的底盘有没有损坏。",
+    "sent_trad": "技師檢查了汽車的底盤有沒有損壞。",
+    "pinyin": "Jìshī jiǎnchá le qìchē de dǐpán yǒu méiyǒu sǔnhuài.",
+    "english": "The technician checked whether the car's chassis was damaged."
+  },
+  {
+    "word": "座机",
+    "sent_simp": "办公室里的座机响了很久没人接。",
+    "sent_trad": "辦公室裡的座機響了很久沒人接。",
+    "pinyin": "Bàngōngshì lǐ de zuòjī xiǎng le hěn jiǔ méi rén jiē.",
+    "english": "The landline in the office rang for a long time but nobody answered."
+  },
+  {
+    "word": "开办",
+    "sent_simp": "她打算开办一家小型烘焙店。",
+    "sent_trad": "她打算開辦一家小型烘焙店。",
+    "pinyin": "Tā dǎsuàn kāibàn yī jiā xiǎoxíng hōngbèi diàn.",
+    "english": "She plans to open a small bakery."
+  },
+  {
+    "word": "引述",
+    "sent_simp": "记者在报道中引述了专家的话。",
+    "sent_trad": "記者在報道中引述了專家的話。",
+    "pinyin": "Jìzhě zài bàodào zhōng yǐnshù le zhuānjiā de huà.",
+    "english": "The journalist quoted the expert's words in the report."
+  },
+  {
+    "word": "录用",
+    "sent_simp": "公司决定录用他担任市场助理。",
+    "sent_trad": "公司決定錄用他擔任市場助理。",
+    "pinyin": "Gōngsī juédìng lùyòng tā dānrèn shìchǎng zhùlǐ.",
+    "english": "The company decided to hire him as a marketing assistant."
+  },
+  {
+    "word": "征兵",
+    "sent_simp": "军队每年都会进行一次征兵工作。",
+    "sent_trad": "軍隊每年都會進行一次徵兵工作。",
+    "pinyin": "Jūnduì měi nián dōu huì jìnxíng yī cì zhēngbīng gōngzuò.",
+    "english": "The military conducts a recruitment drive every year."
+  },
+  {
+    "word": "循环系统",
+    "sent_simp": "心脏是循环系统的核心器官。",
+    "sent_trad": "心臟是循環系統的核心器官。",
+    "pinyin": "Xīnzàng shì xúnhuán xìtǒng de héxīn qìguān.",
+    "english": "The heart is the central organ of the circulatory system."
+  },
+  {
+    "word": "忧伤",
+    "sent_simp": "听到这首歌，她感到一阵忧伤。",
+    "sent_trad": "聽到這首歌，她感到一陣憂傷。",
+    "pinyin": "Tīng dào zhè shǒu gē, tā gǎndào yī zhèn yōushāng.",
+    "english": "Hearing this song, she was overcome with grief."
+  },
+  {
+    "word": "性病",
+    "sent_simp": "医生提醒患者定期检查性病。",
+    "sent_trad": "醫生提醒患者定期檢查性病。",
+    "pinyin": "Yīshēng tíxǐng huànzhě dìngqī jiǎnchá xìngbìng.",
+    "english": "The doctor reminded the patient to get regular checks for sexually transmitted diseases."
+  },
+  {
+    "word": "总台",
+    "sent_simp": "请到一楼总台办理入住手续。",
+    "sent_trad": "請到一樓總台辦理入住手續。",
+    "pinyin": "Qǐng dào yī lóu zǒngtái bànlǐ rùzhù shǒuxù.",
+    "english": "Please go to the front desk on the first floor to check in."
+  }
+]

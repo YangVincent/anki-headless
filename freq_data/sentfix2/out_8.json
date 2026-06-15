@@ -1,0 +1,282 @@
+[
+  {
+    "word": "质询",
+    "sent_simp": "议员对部长提出了质询。",
+    "sent_trad": "議員對部長提出了質詢。",
+    "pinyin": "Yìyuán duì bùzhǎng tíchū le zhìxún.",
+    "english": "The legislator questioned the minister."
+  },
+  {
+    "word": "赤道",
+    "sent_simp": "赤道附近全年气温很高。",
+    "sent_trad": "赤道附近全年氣溫很高。",
+    "pinyin": "Chìdào fùjìn quánnián qìwēn hěn gāo.",
+    "english": "Temperatures near the equator are high all year round."
+  },
+  {
+    "word": "足足",
+    "sent_simp": "他在图书馆待了足足三个小时。",
+    "sent_trad": "他在圖書館待了足足三個小時。",
+    "pinyin": "Tā zài túshūguǎn dāi le zúzú sān gè xiǎoshí.",
+    "english": "He stayed in the library for a full three hours."
+  },
+  {
+    "word": "轻取",
+    "sent_simp": "主队以三比零轻取对手。",
+    "sent_trad": "主隊以三比零輕取對手。",
+    "pinyin": "Zhǔduì yǐ sān bǐ líng qīngqǔ duìshǒu.",
+    "english": "The home team easily beat their opponent three to zero."
+  },
+  {
+    "word": "辍学",
+    "sent_simp": "他因家庭困难而辍学打工。",
+    "sent_trad": "他因家庭困難而輟學打工。",
+    "pinyin": "Tā yīn jiātíng kùnnán ér chuòxué dǎgōng.",
+    "english": "He dropped out of school due to family financial difficulties and started working."
+  },
+  {
+    "word": "边疆",
+    "sent_simp": "他志愿去边疆支援建设。",
+    "sent_trad": "他志願去邊疆支援建設。",
+    "pinyin": "Tā zhìyuàn qù biānjiāng zhīyuán jiànshè.",
+    "english": "He volunteered to go to the frontier to support development."
+  },
+  {
+    "word": "这类",
+    "sent_simp": "这类问题需要认真研究。",
+    "sent_trad": "這類問題需要認真研究。",
+    "pinyin": "Zhè lèi wèntí xūyào rènzhēn yánjiū.",
+    "english": "This kind of problem requires careful study."
+  },
+  {
+    "word": "造假",
+    "sent_simp": "他因造假账目被公司解雇。",
+    "sent_trad": "他因造假賬目被公司解僱。",
+    "pinyin": "Tā yīn zàojiǎ zhàngmù bèi gōngsī jiěgù.",
+    "english": "He was fired by the company for falsifying accounts."
+  },
+  {
+    "word": "邪教",
+    "sent_simp": "政府打击邪教活动保护民众。",
+    "sent_trad": "政府打擊邪教活動保護民眾。",
+    "pinyin": "Zhèngfǔ dǎjī xiéjiào huódòng bǎohù mínzhòng.",
+    "english": "The government cracks down on evil cult activities to protect the public."
+  },
+  {
+    "word": "邻里",
+    "sent_simp": "邻里之间应该互相帮助。",
+    "sent_trad": "鄰里之間應該互相幫助。",
+    "pinyin": "Línlǐ zhījiān yīnggāi hùxiāng bāngzhù.",
+    "english": "Neighbors should help each other."
+  },
+  {
+    "word": "酋长",
+    "sent_simp": "部落酋长主持了传统仪式。",
+    "sent_trad": "部落酋長主持了傳統儀式。",
+    "pinyin": "Bùluò qiúzhǎng zhǔchí le chuántǒng yíshì.",
+    "english": "The tribal chief presided over the traditional ceremony."
+  },
+  {
+    "word": "酷刑",
+    "sent_simp": "国际法禁止对囚犯使用酷刑。",
+    "sent_trad": "國際法禁止對囚犯使用酷刑。",
+    "pinyin": "Guójìfǎ jìnzhǐ duì qiúfàn shǐyòng kùxíng.",
+    "english": "International law prohibits the use of torture on prisoners."
+  },
+  {
+    "word": "酸性",
+    "sent_simp": "这种土壤酸性较强，不适合种植。",
+    "sent_trad": "這種土壤酸性較強，不適合種植。",
+    "pinyin": "Zhè zhǒng tǔrǎng suānxìng jiào qiáng, bù shìhé zhòngzhí.",
+    "english": "This soil is quite acidic and not suitable for planting."
+  },
+  {
+    "word": "重剑",
+    "sent_simp": "他练习重剑已经有五年了。",
+    "sent_trad": "他練習重劍已經有五年了。",
+    "pinyin": "Tā liànxí zhòngjiàn yǐjīng yǒu wǔ nián le.",
+    "english": "He has been practicing épée for five years."
+  },
+  {
+    "word": "野战军",
+    "sent_simp": "野战军在边境完成了演习任务。",
+    "sent_trad": "野戰軍在邊境完成了演習任務。",
+    "pinyin": "Yězhànjūn zài biānjìng wánchéng le yǎnxí rènwù.",
+    "english": "The field army completed its exercise mission at the border."
+  },
+  {
+    "word": "金融危机",
+    "sent_simp": "金融危机使很多企业倒闭。",
+    "sent_trad": "金融危機使很多企業倒閉。",
+    "pinyin": "Jīnróng wēijī shǐ hěn duō qǐyè dǎobì.",
+    "english": "The financial crisis caused many businesses to close down."
+  },
+  {
+    "word": "金融市场",
+    "sent_simp": "金融市场今天波动较大。",
+    "sent_trad": "金融市場今天波動較大。",
+    "pinyin": "Jīnróng shìchǎng jīntiān bōdòng jiào dà.",
+    "english": "The financial market saw large fluctuations today."
+  },
+  {
+    "word": "铁道",
+    "sent_simp": "铁道边不许随意穿行。",
+    "sent_trad": "鐵道邊不許隨意穿行。",
+    "pinyin": "Tiědào biān bù xǔ suíyì chuānxíng.",
+    "english": "Crossing the railway track at will is not permitted."
+  },
+  {
+    "word": "银行家",
+    "sent_simp": "这位银行家管理着数十亿资产。",
+    "sent_trad": "這位銀行家管理著數十億資產。",
+    "pinyin": "Zhè wèi yínhángjiā guǎnlǐ zhe shù shí yì zīchǎn.",
+    "english": "This banker manages assets worth billions."
+  },
+  {
+    "word": "长条",
+    "sent_simp": "她把面团揉成长条再切块。",
+    "sent_trad": "她把麵糰揉成長條再切塊。",
+    "pinyin": "Tā bǎ miàntuán róu chéng cháng tiáo zài qiē kuài.",
+    "english": "She kneaded the dough into a long strip and then cut it into pieces."
+  },
+  {
+    "word": "长波",
+    "sent_simp": "老式收音机可以接收长波信号。",
+    "sent_trad": "老式收音機可以接收長波信號。",
+    "pinyin": "Lǎoshì shōuyīnjī kěyǐ jiēshōu chángbō xìnhào.",
+    "english": "Old-fashioned radios can receive longwave signals."
+  },
+  {
+    "word": "门神",
+    "sent_simp": "春节前家家户户贴门神。",
+    "sent_trad": "春節前家家戶戶貼門神。",
+    "pinyin": "Chūnjié qián jiājiā hùhù tiē ménshen.",
+    "english": "Before the Spring Festival, every household puts up door god pictures."
+  },
+  {
+    "word": "防火",
+    "sent_simp": "宿舍楼每月进行一次防火检查。",
+    "sent_trad": "宿舍樓每月進行一次防火檢查。",
+    "pinyin": "Sùshè lóu měi yuè jìnxíng yī cì fánghuǒ jiǎnchá.",
+    "english": "The dormitory building conducts a fire prevention inspection every month."
+  },
+  {
+    "word": "阿门",
+    "sent_simp": "祈祷结束时大家齐声说阿门。",
+    "sent_trad": "祈禱結束時大家齊聲說阿門。",
+    "pinyin": "Qídǎo jiéshù shí dàjiā qíshēng shuō āmén.",
+    "english": "At the end of the prayer, everyone said amen in unison."
+  },
+  {
+    "word": "附上",
+    "sent_simp": "邮件附上了相关文件请查收。",
+    "sent_trad": "郵件附上了相關文件請查收。",
+    "pinyin": "Yóujiàn fùshàng le xiāngguān wénjiàn qǐng chāshōu.",
+    "english": "The email has the relevant documents attached, please check."
+  },
+  {
+    "word": "随机",
+    "sent_simp": "系统随机分配座位号码。",
+    "sent_trad": "系統隨機分配座位號碼。",
+    "pinyin": "Xìtǒng suíjī fēnpèi zuòwèi hàomǎ.",
+    "english": "The system randomly assigns seat numbers."
+  },
+  {
+    "word": "随笔",
+    "sent_simp": "他喜欢写随笔记录日常生活。",
+    "sent_trad": "他喜歡寫隨筆記錄日常生活。",
+    "pinyin": "Tā xǐhuān xiě suíbǐ jìlù rìcháng shēnghuó.",
+    "english": "He likes to write casual essays to record his daily life."
+  },
+  {
+    "word": "集市",
+    "sent_simp": "每到周末村里都有集市。",
+    "sent_trad": "每到週末村裡都有集市。",
+    "pinyin": "Měi dào zhōumò cūnlǐ dōu yǒu jíshì.",
+    "english": "Every weekend there is a market in the village."
+  },
+  {
+    "word": "零售",
+    "sent_simp": "这家店既批发也零售商品。",
+    "sent_trad": "這家店既批發也零售商品。",
+    "pinyin": "Zhè jiā diàn jì pīfā yě língshòu shāngpǐn.",
+    "english": "This store sells goods both wholesale and retail."
+  },
+  {
+    "word": "预警",
+    "sent_simp": "气象局发出了暴雨预警。",
+    "sent_trad": "氣象局發出了暴雨預警。",
+    "pinyin": "Qìxiàngjú fāchū le bàoyǔ yùjǐng.",
+    "english": "The meteorological bureau issued a heavy rain warning."
+  },
+  {
+    "word": "领口",
+    "sent_simp": "她的衬衫领口有一个小污渍。",
+    "sent_trad": "她的襯衫領口有一個小污漬。",
+    "pinyin": "Tā de chènshān lǐngkǒu yǒu yī gè xiǎo wūzì.",
+    "english": "Her shirt has a small stain at the neckline."
+  },
+  {
+    "word": "颇具",
+    "sent_simp": "这座建筑颇具历史价值。",
+    "sent_trad": "這座建築頗具歷史價值。",
+    "pinyin": "Zhè zuò jiànzhú pō jù lìshǐ jiàzhí.",
+    "english": "This building has considerable historical value."
+  },
+  {
+    "word": "飞越",
+    "sent_simp": "飞机飞越山脉时遇到了气流。",
+    "sent_trad": "飛機飛越山脈時遇到了氣流。",
+    "pinyin": "Fēijī fēiyuè shānmài shí yùdào le qìliú.",
+    "english": "The plane encountered turbulence while flying over the mountain range."
+  },
+  {
+    "word": "饥渴",
+    "sent_simp": "长跑后他感到饥渴难忍。",
+    "sent_trad": "長跑後他感到飢渴難忍。",
+    "pinyin": "Cháng pǎo hòu tā gǎndào jīkě nán rěn.",
+    "english": "After the long run, he felt unbearably hungry and thirsty."
+  },
+  {
+    "word": "饮品",
+    "sent_simp": "这家咖啡馆的饮品种类很多。",
+    "sent_trad": "這家咖啡館的飲品種類很多。",
+    "pinyin": "Zhè jiā kāfēiguǎn de yǐnpǐn zhǒnglèi hěn duō.",
+    "english": "This café has a wide variety of beverages."
+  },
+  {
+    "word": "驱逐舰",
+    "sent_simp": "一艘驱逐舰在海峡执行巡逻任务。",
+    "sent_trad": "一艘驅逐艦在海峽執行巡邏任務。",
+    "pinyin": "Yī sōu qūzhújiàn zài hǎixiá zhíxíng xúnluó rènwù.",
+    "english": "A destroyer is carrying out patrol duties in the strait."
+  },
+  {
+    "word": "骨骼",
+    "sent_simp": "补钙有助于维持骨骼健康。",
+    "sent_trad": "補鈣有助於維持骨骼健康。",
+    "pinyin": "Bǔ gài yǒuzhù yú wéichí gǔgé jiànkāng.",
+    "english": "Taking calcium supplements helps maintain bone health."
+  },
+  {
+    "word": "高楼",
+    "sent_simp": "城市中心矗立着许多高楼。",
+    "sent_trad": "城市中心矗立著許多高樓。",
+    "pinyin": "Chéngshì zhōngxīn chùlì zhe xǔduō gāolóu.",
+    "english": "Many tall buildings stand in the city center."
+  },
+  {
+    "word": "高端",
+    "sent_simp": "这个品牌专注于高端市场。",
+    "sent_trad": "這個品牌專注於高端市場。",
+    "pinyin": "Zhège pǐnpái zhuānzhù yú gāoduān shìchǎng.",
+    "english": "This brand focuses on the high-end market."
+  },
+  {
+    "word": "高薪",
+    "sent_simp": "他跳槽是为了得到一份高薪工作。",
+    "sent_trad": "他跳槽是為了得到一份高薪工作。",
+    "pinyin": "Tā tiàocáo shì wèile dédào yī fèn gāoxīn gōngzuò.",
+    "english": "He changed jobs in order to get a high-paying position."
+  }
+]

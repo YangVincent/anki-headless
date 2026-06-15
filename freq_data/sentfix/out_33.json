@@ -1,0 +1,282 @@
+[
+  {
+    "word": "定额",
+    "sent_simp": "这个月的销售定额已经完成了。",
+    "sent_trad": "這個月的銷售定額已經完成了。",
+    "pinyin": "Zhège yuè de xiāoshòu dìng'é yǐjīng wánchéng le.",
+    "english": "This month's sales quota has already been met."
+  },
+  {
+    "word": "风速",
+    "sent_simp": "今天的风速很快，出门要注意。",
+    "sent_trad": "今天的風速很快，出門要注意。",
+    "pinyin": "Jīntiān de fēngsù hěn kuài, chūmén yào zhùyì.",
+    "english": "The wind speed is very high today; be careful when you go out."
+  },
+  {
+    "word": "来港",
+    "sent_simp": "他第一次来港就爱上了这里的美食。",
+    "sent_trad": "他第一次來港就愛上了這裡的美食。",
+    "pinyin": "Tā dì yī cì lái Gǎng jiù àishàng le zhèlǐ de měishí.",
+    "english": "He fell in love with the food here on his first visit to Hong Kong."
+  },
+  {
+    "word": "庄家",
+    "sent_simp": "打牌的时候他当庄家，赢了不少钱。",
+    "sent_trad": "打牌的時候他當莊家，贏了不少錢。",
+    "pinyin": "Dǎ pái de shíhou tā dāng zhuāngjia, yíng le bù shǎo qián.",
+    "english": "He was the banker when they played cards and won quite a bit of money."
+  },
+  {
+    "word": "挺进",
+    "sent_simp": "球队顺利挺进了决赛。",
+    "sent_trad": "球隊順利挺進了決賽。",
+    "pinyin": "Qiúduì shùnlì tǐngjìn le juésài.",
+    "english": "The team smoothly advanced into the final."
+  },
+  {
+    "word": "预案",
+    "sent_simp": "公司已经制定了应急预案。",
+    "sent_trad": "公司已經制定了應急預案。",
+    "pinyin": "Gōngsī yǐjīng zhìdìng le yìngjí yù'àn.",
+    "english": "The company has already formulated an emergency contingency plan."
+  },
+  {
+    "word": "到访",
+    "sent_simp": "欢迎各位到访我们的展厅。",
+    "sent_trad": "歡迎各位到訪我們的展廳。",
+    "pinyin": "Huānyíng gèwèi dàofǎng wǒmen de zhǎntīng.",
+    "english": "Welcome to all who are visiting our showroom."
+  },
+  {
+    "word": "啥子",
+    "sent_simp": "你在做啥子？快来帮我。",
+    "sent_trad": "你在做啥子？快來幫我。",
+    "pinyin": "Nǐ zài zuò sházǐ? Kuài lái bāng wǒ.",
+    "english": "What are you doing? Come help me quickly."
+  },
+  {
+    "word": "上书",
+    "sent_simp": "居民联名上书，要求修缮道路。",
+    "sent_trad": "居民聯名上書，要求修繕道路。",
+    "pinyin": "Jūmín liánmíng shàngshū, yāoqiú xiūshàn dàolù.",
+    "english": "Residents jointly submitted a petition requesting road repairs."
+  },
+  {
+    "word": "案情",
+    "sent_simp": "警察正在梳理这起案情。",
+    "sent_trad": "警察正在梳理這起案情。",
+    "pinyin": "Jǐngchá zhèngzài shūlǐ zhè qǐ ànqíng.",
+    "english": "Police are sorting through the details of this case."
+  },
+  {
+    "word": "差异性",
+    "sent_simp": "两个方案之间的差异性比较大。",
+    "sent_trad": "兩個方案之間的差異性比較大。",
+    "pinyin": "Liǎng gè fāng'àn zhījiān de chāyìxìng bǐjiào dà.",
+    "english": "The difference between the two plans is quite significant."
+  },
+  {
+    "word": "师范大学",
+    "sent_simp": "她考上了北京师范大学，全家都很高兴。",
+    "sent_trad": "她考上了北京師範大學，全家都很高興。",
+    "pinyin": "Tā kǎoshàng le Běijīng Shīfàn Dàxué, quánjiā dōu hěn gāoxìng.",
+    "english": "She got into Beijing Normal University, and the whole family was thrilled."
+  },
+  {
+    "word": "合著",
+    "sent_simp": "这本书是他们两人合著的。",
+    "sent_trad": "這本書是他們兩人合著的。",
+    "pinyin": "Zhè běn shū shì tāmen liǎng rén hézhù de.",
+    "english": "This book was co-authored by the two of them."
+  },
+  {
+    "word": "数百万",
+    "sent_simp": "这场演唱会吸引了数百万人观看。",
+    "sent_trad": "這場演唱會吸引了數百萬人觀看。",
+    "pinyin": "Zhè chǎng yǎnchànghuì xīyǐn le shù bǎiwàn rén guānkàn.",
+    "english": "The concert attracted several million viewers."
+  },
+  {
+    "word": "租房",
+    "sent_simp": "他刚到北京，正在找地方租房。",
+    "sent_trad": "他剛到北京，正在找地方租房。",
+    "pinyin": "Tā gāng dào Běijīng, zhèngzài zhǎo dìfang zūfáng.",
+    "english": "He just arrived in Beijing and is looking for a place to rent."
+  },
+  {
+    "word": "蚊子",
+    "sent_simp": "夏天蚊子很多，晚上要关窗。",
+    "sent_trad": "夏天蚊子很多，晚上要關窗。",
+    "pinyin": "Xiàtiān wénzi hěn duō, wǎnshang yào guān chuāng.",
+    "english": "There are lots of mosquitoes in summer; close the windows at night."
+  },
+  {
+    "word": "减速",
+    "sent_simp": "看到红绿灯他赶快减速。",
+    "sent_trad": "看到紅綠燈他趕快減速。",
+    "pinyin": "Kàn dào hónglǜdēng tā gǎnkuài jiǎnsù.",
+    "english": "He quickly slowed down when he saw the traffic light."
+  },
+  {
+    "word": "账目",
+    "sent_simp": "月底要核对一下账目。",
+    "sent_trad": "月底要核對一下賬目。",
+    "pinyin": "Yuèdǐ yào héduì yīxià zhàngmù.",
+    "english": "We need to check the accounts at the end of the month."
+  },
+  {
+    "word": "边线",
+    "sent_simp": "球踢出边线，换对方发球。",
+    "sent_trad": "球踢出邊線，換對方發球。",
+    "pinyin": "Qiú tī chū biānxiàn, huàn duìfāng fāqiú.",
+    "english": "The ball went out of bounds, so the other team gets to throw it in."
+  },
+  {
+    "word": "幕僚",
+    "sent_simp": "他是市长身边最信任的幕僚。",
+    "sent_trad": "他是市長身邊最信任的幕僚。",
+    "pinyin": "Tā shì shìzhǎng shēnbiān zuì xìnrèn de mùliáo.",
+    "english": "He is the most trusted aide by the mayor's side."
+  },
+  {
+    "word": "群交",
+    "sent_simp": "警方捣毁了一个涉及群交的违法场所。",
+    "sent_trad": "警方搗毀了一個涉及群交的違法場所。",
+    "pinyin": "Jǐngfāng dǎohuǐ le yī gè shèjí qúnjiāo de wéifǎ chǎngsuǒ.",
+    "english": "Police shut down an illegal venue involved in group sex."
+  },
+  {
+    "word": "机器翻译",
+    "sent_simp": "机器翻译越来越准确了。",
+    "sent_trad": "機器翻譯越來越準確了。",
+    "pinyin": "Jīqì fānyì yuèláiyuè zhǔnquè le.",
+    "english": "Machine translation is getting more and more accurate."
+  },
+  {
+    "word": "诬陷",
+    "sent_simp": "他被同事诬陷偷了公司的钱。",
+    "sent_trad": "他被同事誣陷偷了公司的錢。",
+    "pinyin": "Tā bèi tóngshì wūxiàn tōu le gōngsī de qián.",
+    "english": "He was framed by a colleague for stealing company money."
+  },
+  {
+    "word": "舞者",
+    "sent_simp": "台上的舞者动作非常优美。",
+    "sent_trad": "台上的舞者動作非常優美。",
+    "pinyin": "Tái shàng de wǔzhě dòngzuò fēicháng yōuměi.",
+    "english": "The dancer on stage moved with great elegance."
+  },
+  {
+    "word": "土著",
+    "sent_simp": "这片土地上的土著居民已经在这里住了几千年。",
+    "sent_trad": "這片土地上的土著居民已經在這裡住了幾千年。",
+    "pinyin": "Zhè piàn tǔdì shàng de tǔzhù jūmín yǐjīng zài zhèlǐ zhù le jǐ qiān nián.",
+    "english": "The aboriginal people of this land have lived here for thousands of years."
+  },
+  {
+    "word": "旅行者",
+    "sent_simp": "这家青年旅馆很受旅行者欢迎。",
+    "sent_trad": "這家青年旅館很受旅行者歡迎。",
+    "pinyin": "Zhè jiā qīngnián lǚguǎn hěn shòu lǚxíngzhě huānyíng.",
+    "english": "This youth hostel is very popular among travelers."
+  },
+  {
+    "word": "短时间",
+    "sent_simp": "短时间内学好一门语言不容易。",
+    "sent_trad": "短時間內學好一門語言不容易。",
+    "pinyin": "Duǎn shíjiān nèi xuéhǎo yī mén yǔyán bù róngyì.",
+    "english": "It's not easy to master a language in a short time."
+  },
+  {
+    "word": "星图",
+    "sent_simp": "他对着星图找到了猎户座。",
+    "sent_trad": "他對著星圖找到了獵戶座。",
+    "pinyin": "Tā duìzhe xīngtú zhǎodào le Lièhù Zuò.",
+    "english": "He used the star atlas to locate Orion."
+  },
+  {
+    "word": "胆敢",
+    "sent_simp": "你胆敢再迟到，我就不等你了。",
+    "sent_trad": "你膽敢再遲到，我就不等你了。",
+    "pinyin": "Nǐ dǎngǎn zài chídào, wǒ jiù bù děng nǐ le.",
+    "english": "If you dare to be late again, I won't wait for you."
+  },
+  {
+    "word": "桃子",
+    "sent_simp": "这个桃子又甜又多汁。",
+    "sent_trad": "這個桃子又甜又多汁。",
+    "pinyin": "Zhège táozi yòu tián yòu duōzhī.",
+    "english": "This peach is both sweet and juicy."
+  },
+  {
+    "word": "天色",
+    "sent_simp": "天色越来越暗，我们得快点回家。",
+    "sent_trad": "天色越來越暗，我們得快點回家。",
+    "pinyin": "Tiānsè yuèláiyuè àn, wǒmen děi kuài diǎn huíjiā.",
+    "english": "It's getting darker and darker; we need to head home soon."
+  },
+  {
+    "word": "高利贷",
+    "sent_simp": "借高利贷风险很大，要谨慎。",
+    "sent_trad": "借高利貸風險很大，要謹慎。",
+    "pinyin": "Jiè gāolìdài fēngxiǎn hěn dà, yào jǐnshèn.",
+    "english": "Taking out a high-interest loan is very risky; be cautious."
+  },
+  {
+    "word": "大哭",
+    "sent_simp": "孩子摔倒了，立刻大哭起来。",
+    "sent_trad": "孩子摔倒了，立刻大哭起來。",
+    "pinyin": "Háizi shuāidǎo le, lìkè dàkū qǐlái.",
+    "english": "The child fell down and immediately started crying loudly."
+  },
+  {
+    "word": "矩阵",
+    "sent_simp": "老师在黑板上写了一个矩阵让我们计算。",
+    "sent_trad": "老師在黑板上寫了一個矩陣讓我們計算。",
+    "pinyin": "Lǎoshī zài hēibǎn shàng xiě le yī gè jǔzhèn ràng wǒmen jìsuàn.",
+    "english": "The teacher wrote a matrix on the board for us to calculate."
+  },
+  {
+    "word": "共生",
+    "sent_simp": "蜜蜂和花之间是一种共生关系。",
+    "sent_trad": "蜜蜂和花之間是一種共生關係。",
+    "pinyin": "Mìfēng hé huā zhījiān shì yī zhǒng gòngshēng guānxi.",
+    "english": "The relationship between bees and flowers is a form of symbiosis."
+  },
+  {
+    "word": "笑意",
+    "sent_simp": "她眼里带着笑意，心情很好。",
+    "sent_trad": "她眼裡帶著笑意，心情很好。",
+    "pinyin": "Tā yǎn lǐ dàizhe xiàoyì, xīnqíng hěn hǎo.",
+    "english": "Her eyes carried a smiling expression; she was in a great mood."
+  },
+  {
+    "word": "防务",
+    "sent_simp": "两国就防务合作进行了会谈。",
+    "sent_trad": "兩國就防務合作進行了會談。",
+    "pinyin": "Liǎng guó jiù fángwù hézuò jìnxíng le huìtán.",
+    "english": "The two countries held talks on defense cooperation."
+  },
+  {
+    "word": "平反",
+    "sent_simp": "法院最终为他平反，还了他清白。",
+    "sent_trad": "法院最終為他平反，還了他清白。",
+    "pinyin": "Fǎyuàn zuìzhōng wèi tā píngfǎn, huán le tā qīngbái.",
+    "english": "The court finally rehabilitated him and restored his innocence."
+  },
+  {
+    "word": "买房",
+    "sent_simp": "他们结婚前已经在计划买房了。",
+    "sent_trad": "他們結婚前已經在計劃買房了。",
+    "pinyin": "Tāmen jiéhūn qián yǐjīng zài jìhuà mǎifáng le.",
+    "english": "They were already planning to buy a house before getting married."
+  },
+  {
+    "word": "植物园",
+    "sent_simp": "周末我们去植物园转了一圈。",
+    "sent_trad": "週末我們去植物園轉了一圈。",
+    "pinyin": "Zhōumò wǒmen qù zhíwùyuán zhuǎn le yī quān.",
+    "english": "We took a stroll around the botanical garden over the weekend."
+  }
+]

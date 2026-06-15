@@ -1,0 +1,282 @@
+[
+  {
+    "word": "全景",
+    "sent_simp": "从山顶可以看到城市的全景。",
+    "sent_trad": "從山頂可以看到城市的全景。",
+    "pinyin": "Cóng shāndǐng kěyǐ kàndào chéngshì de quánjǐng.",
+    "english": "From the mountaintop you can see a panoramic view of the city."
+  },
+  {
+    "word": "大都市",
+    "sent_simp": "上海是中国最繁华的大都市之一。",
+    "sent_trad": "上海是中國最繁華的大都市之一。",
+    "pinyin": "Shànghǎi shì Zhōngguó zuì fánhuá de dàdūshì zhīyī.",
+    "english": "Shanghai is one of China's most bustling metropolises."
+  },
+  {
+    "word": "置换",
+    "sent_simp": "他把旧手机置换成了最新款。",
+    "sent_trad": "他把舊手機置換成了最新款。",
+    "pinyin": "Tā bǎ jiù shǒujī zhìhuàn chéngle zuì xīn kuǎn.",
+    "english": "He traded in his old phone for the latest model."
+  },
+  {
+    "word": "豪门",
+    "sent_simp": "这部电视剧讲的是豪门家族的故事。",
+    "sent_trad": "這部電視劇講的是豪門家族的故事。",
+    "pinyin": "Zhè bù diànshìjù jiǎng de shì háomén jiāzú de gùshi.",
+    "english": "This TV drama is about the story of a wealthy and powerful family."
+  },
+  {
+    "word": "换气",
+    "sent_simp": "游泳时要学会正确的换气方法。",
+    "sent_trad": "游泳時要學會正確的換氣方法。",
+    "pinyin": "Yóuyǒng shí yào xuéhuì zhèngquè de huànqì fāngfǎ.",
+    "english": "When swimming, you need to learn the correct breathing technique."
+  },
+  {
+    "word": "留驻",
+    "sent_simp": "部队留驻在边境地区已经一年了。",
+    "sent_trad": "部隊留駐在邊境地區已經一年了。",
+    "pinyin": "Bùduì liúzhù zài biānjìng dìqū yǐjīng yī nián le.",
+    "english": "The troops have been stationed at the border region for a year."
+  },
+  {
+    "word": "脸孔",
+    "sent_simp": "他的脸孔看起来很熟悉。",
+    "sent_trad": "他的臉孔看起來很熟悉。",
+    "pinyin": "Tā de liǎnkǒng kànqǐlái hěn shúxī.",
+    "english": "His face looks very familiar."
+  },
+  {
+    "word": "驻留",
+    "sent_simp": "这个程序会驻留在内存中运行。",
+    "sent_trad": "這個程式會駐留在記憶體中運行。",
+    "pinyin": "Zhège chéngxù huì zhùliú zài nèicún zhōng yùnxíng.",
+    "english": "This program runs resident in memory."
+  },
+  {
+    "word": "刚性",
+    "sent_simp": "这种材料的刚性非常强，不容易弯曲。",
+    "sent_trad": "這種材料的剛性非常強，不容易彎曲。",
+    "pinyin": "Zhè zhǒng cáiliào de gāngxìng fēicháng qiáng, bù róngyì wānqū.",
+    "english": "This material has very high rigidity and doesn't bend easily."
+  },
+  {
+    "word": "热能",
+    "sent_simp": "太阳能电池板可以把热能转化为电能。",
+    "sent_trad": "太陽能電池板可以把熱能轉化為電能。",
+    "pinyin": "Tàiyángnéng diànchíbǎn kěyǐ bǎ rènéng zhuǎnhuà wéi diànnéng.",
+    "english": "Solar panels can convert heat energy into electrical energy."
+  },
+  {
+    "word": "留存",
+    "sent_simp": "这些古代文献至今仍然留存完好。",
+    "sent_trad": "這些古代文獻至今仍然留存完好。",
+    "pinyin": "Zhèxiē gǔdài wénxiàn zhìjīn réngrán liúcún wánhǎo.",
+    "english": "These ancient documents have remained preserved and intact to this day."
+  },
+  {
+    "word": "极地",
+    "sent_simp": "科学家们去极地考察了三个月。",
+    "sent_trad": "科學家們去極地考察了三個月。",
+    "pinyin": "Kēxuéjiāmen qù jídì kǎochá le sān gè yuè.",
+    "english": "The scientists went to the polar region for a three-month expedition."
+  },
+  {
+    "word": "传感",
+    "sent_simp": "这款手环有传感功能，能检测心率。",
+    "sent_trad": "這款手環有傳感功能，能檢測心率。",
+    "pinyin": "Zhè kuǎn shǒuhuán yǒu chuángǎn gōngnéng, néng jiǎncè xīnlǜ.",
+    "english": "This wristband has sensing capabilities and can detect heart rate."
+  },
+  {
+    "word": "面板",
+    "sent_simp": "电视的控制面板在右侧。",
+    "sent_trad": "電視的控制面板在右側。",
+    "pinyin": "Diànshì de kòngzhì miànbǎn zài yòucè.",
+    "english": "The TV's control panel is on the right side."
+  },
+  {
+    "word": "大败",
+    "sent_simp": "主队在昨晚的比赛中大败对手。",
+    "sent_trad": "主隊在昨晚的比賽中大敗對手。",
+    "pinyin": "Zhǔduì zài zuówǎn de bǐsài zhōng dàbài duìshǒu.",
+    "english": "The home team inflicted a crushing defeat on their opponents last night."
+  },
+  {
+    "word": "口述",
+    "sent_simp": "她把自己的经历口述给记者听。",
+    "sent_trad": "她把自己的經歷口述給記者聽。",
+    "pinyin": "Tā bǎ zìjǐ de jīnglì kǒushù gěi jìzhě tīng.",
+    "english": "She recounted her experiences orally to the reporter."
+  },
+  {
+    "word": "象牙",
+    "sent_simp": "买卖象牙在很多国家是违法的。",
+    "sent_trad": "買賣象牙在很多國家是違法的。",
+    "pinyin": "Mǎimài xiàngyá zài hěn duō guójiā shì wéifǎ de.",
+    "english": "Trading ivory is illegal in many countries."
+  },
+  {
+    "word": "人烟",
+    "sent_simp": "这片山区人烟稀少，很少有人来。",
+    "sent_trad": "這片山區人烟稀少，很少有人來。",
+    "pinyin": "Zhè piàn shānqū rényān xīshǎo, hěn shǎo yǒu rén lái.",
+    "english": "This mountain area has few signs of human habitation and rarely sees visitors."
+  },
+  {
+    "word": "壁纸",
+    "sent_simp": "我给手机换了一张新壁纸。",
+    "sent_trad": "我給手機換了一張新壁紙。",
+    "pinyin": "Wǒ gěi shǒujī huàn le yī zhāng xīn bìzhǐ.",
+    "english": "I changed my phone's wallpaper to a new one."
+  },
+  {
+    "word": "专业人士",
+    "sent_simp": "这种问题最好咨询专业人士。",
+    "sent_trad": "這種問題最好諮詢專業人士。",
+    "pinyin": "Zhè zhǒng wèntí zuìhǎo zīxún zhuānyè rénshì.",
+    "english": "For this kind of problem, it's best to consult a professional."
+  },
+  {
+    "word": "边际",
+    "sent_simp": "多学一门语言的边际效益在递减。",
+    "sent_trad": "多學一門語言的邊際效益在遞減。",
+    "pinyin": "Duō xué yī mén yǔyán de biānjì xiàoyì zài dìjiǎn.",
+    "english": "The marginal benefit of learning one more language is diminishing."
+  },
+  {
+    "word": "受访",
+    "sent_simp": "她受访时谈到了自己的创业经历。",
+    "sent_trad": "她受訪時談到了自己的創業經歷。",
+    "pinyin": "Tā shòufǎng shí tándào le zìjǐ de chuàngyè jīnglì.",
+    "english": "When she gave the interview, she talked about her entrepreneurial experience."
+  },
+  {
+    "word": "共谋",
+    "sent_simp": "两人共谋策划了这次活动。",
+    "sent_trad": "兩人共謀策劃了這次活動。",
+    "pinyin": "Liǎng rén gòngmóu cèhuà le zhè cì huódòng.",
+    "english": "The two of them planned this event together."
+  },
+  {
+    "word": "致歉",
+    "sent_simp": "他向迟到的客人致歉。",
+    "sent_trad": "他向遲到的客人致歉。",
+    "pinyin": "Tā xiàng chídào de kèrén zhìqiàn.",
+    "english": "He apologized to the guests for being late."
+  },
+  {
+    "word": "星相",
+    "sent_simp": "她对星相学很感兴趣。",
+    "sent_trad": "她對星相學很感興趣。",
+    "pinyin": "Tā duì xīngxiàng xué hěn gǎn xìngqù.",
+    "english": "She is very interested in astrology."
+  },
+  {
+    "word": "癫痫",
+    "sent_simp": "他从小就患有癫痫，需要定期服药。",
+    "sent_trad": "他從小就患有癲癇，需要定期服藥。",
+    "pinyin": "Tā cóngxiǎo jiù huàn yǒu diānxián, xūyào dìngqī fúyào.",
+    "english": "He has had epilepsy since childhood and needs to take medication regularly."
+  },
+  {
+    "word": "教课",
+    "sent_simp": "她每周在学校教课三天。",
+    "sent_trad": "她每週在學校教課三天。",
+    "pinyin": "Tā měi zhōu zài xuéxiào jiāokè sān tiān.",
+    "english": "She teaches class at school three days a week."
+  },
+  {
+    "word": "声调",
+    "sent_simp": "普通话有四个声调，初学者容易搞混。",
+    "sent_trad": "普通話有四個聲調，初學者容易搞混。",
+    "pinyin": "Pǔtōnghuà yǒu sì gè shēngdiào, chūxuézhě róngyì gǎohùn.",
+    "english": "Mandarin has four tones, which beginners often confuse."
+  },
+  {
+    "word": "发短信",
+    "sent_simp": "他喜欢发短信，不喜欢打电话。",
+    "sent_trad": "他喜歡發短信，不喜歡打電話。",
+    "pinyin": "Tā xǐhuān fā duǎnxìn, bù xǐhuān dǎ diànhuà.",
+    "english": "He likes to send text messages rather than make phone calls."
+  },
+  {
+    "word": "挥手",
+    "sent_simp": "她站在门口向我们挥手告别。",
+    "sent_trad": "她站在門口向我們揮手告別。",
+    "pinyin": "Tā zhàn zài ménkǒu xiàng wǒmen huīshǒu gàobié.",
+    "english": "She stood at the doorway waving goodbye to us."
+  },
+  {
+    "word": "路由器",
+    "sent_simp": "路由器放远了信号就会变弱。",
+    "sent_trad": "路由器放遠了訊號就會變弱。",
+    "pinyin": "Lùyóuqì fàng yuǎn le xìnhào jiù huì biàn ruò.",
+    "english": "If the router is placed too far away, the signal will weaken."
+  },
+  {
+    "word": "坦言",
+    "sent_simp": "他坦言自己当时确实很紧张。",
+    "sent_trad": "他坦言自己當時確實很緊張。",
+    "pinyin": "Tā tǎnyán zìjǐ dāngshí quèshí hěn jǐnzhāng.",
+    "english": "He frankly acknowledged that he was indeed very nervous at the time."
+  },
+  {
+    "word": "稀缺",
+    "sent_simp": "这个地区淡水资源十分稀缺。",
+    "sent_trad": "這個地區淡水資源十分稀缺。",
+    "pinyin": "Zhège dìqū dànshuǐ zīyuán shífēn xīquē.",
+    "english": "Fresh water resources are extremely scarce in this region."
+  },
+  {
+    "word": "马戏",
+    "sent_simp": "孩子们看马戏表演看得很开心。",
+    "sent_trad": "孩子們看馬戲表演看得很開心。",
+    "pinyin": "Háizimen kàn mǎxì biǎoyǎn kàn de hěn kāixīn.",
+    "english": "The children had a great time watching the circus performance."
+  },
+  {
+    "word": "著述",
+    "sent_simp": "这位学者一生著述颇丰。",
+    "sent_trad": "這位學者一生著述頗豐。",
+    "pinyin": "Zhè wèi xuézhě yīshēng zhùshù pō fēng.",
+    "english": "This scholar produced a prolific body of writing throughout his life."
+  },
+  {
+    "word": "受洗",
+    "sent_simp": "他在教堂受洗，正式成为基督徒。",
+    "sent_trad": "他在教堂受洗，正式成為基督徒。",
+    "pinyin": "Tā zài jiàotáng shòuxǐ, zhèngshì chéngwéi Jīdūtú.",
+    "english": "He received baptism at the church and formally became a Christian."
+  },
+  {
+    "word": "根系",
+    "sent_simp": "这棵大树的根系延伸很广。",
+    "sent_trad": "這棵大樹的根系延伸很廣。",
+    "pinyin": "Zhè kē dà shù de gēnxì yánshēn hěn guǎng.",
+    "english": "This large tree's root system spreads very wide."
+  },
+  {
+    "word": "电信号",
+    "sent_simp": "麦克风把声音转换成电信号。",
+    "sent_trad": "麥克風把聲音轉換成電信號。",
+    "pinyin": "Màikèfēng bǎ shēngyīn zhuǎnhuàn chéng diànxìnhào.",
+    "english": "A microphone converts sound into electrical signals."
+  },
+  {
+    "word": "个股",
+    "sent_simp": "他每天都研究个股的走势。",
+    "sent_trad": "他每天都研究個股的走勢。",
+    "pinyin": "Tā měitiān dōu yánjiū gègǔ de zǒushì.",
+    "english": "He studies the trends of individual shares every day."
+  },
+  {
+    "word": "戏剧家",
+    "sent_simp": "莎士比亚是历史上最著名的戏剧家之一。",
+    "sent_trad": "莎士比亞是歷史上最著名的戲劇家之一。",
+    "pinyin": "Shāshìbǐyà shì lìshǐ shang zuì zhùmíng de xìjùjiā zhīyī.",
+    "english": "Shakespeare is one of the most famous playwrights in history."
+  }
+]

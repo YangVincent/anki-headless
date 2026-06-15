@@ -1,0 +1,282 @@
+[
+  {
+    "word": "私生子",
+    "sent_simp": "他后来才知道自己是个私生子。",
+    "sent_trad": "他後來才知道自己是個私生子。",
+    "pinyin": "Tā hòulái cái zhīdào zìjǐ shì gè sīshēngzǐ.",
+    "english": "He only found out later that he was an illegitimate son."
+  },
+  {
+    "word": "乡土",
+    "sent_simp": "他的小说充满了浓厚的乡土气息。",
+    "sent_trad": "他的小說充滿了濃厚的鄉土氣息。",
+    "pinyin": "Tā de xiǎoshuō chōngmǎn le nónghòu de xiāngtǔ qìxī.",
+    "english": "His novels are full of a strong local flavor."
+  },
+  {
+    "word": "山猫",
+    "sent_simp": "动物园里有一只山猫。",
+    "sent_trad": "動物園裡有一隻山貓。",
+    "pinyin": "Dòngwùyuán lǐ yǒu yī zhī shānmāo.",
+    "english": "There is a lynx at the zoo."
+  },
+  {
+    "word": "挑逗",
+    "sent_simp": "他喜欢挑逗小狗玩。",
+    "sent_trad": "他喜歡挑逗小狗玩。",
+    "pinyin": "Tā xǐhuān tiǎodòu xiǎogǒu wán.",
+    "english": "He likes to tease the puppy."
+  },
+  {
+    "word": "风行",
+    "sent_simp": "这种短视频在年轻人中非常风行。",
+    "sent_trad": "這種短視頻在年輕人中非常風行。",
+    "pinyin": "Zhè zhǒng duǎn shìpín zài niánqīngrén zhōng fēicháng fēngxíng.",
+    "english": "This type of short video is very popular among young people."
+  },
+  {
+    "word": "居里",
+    "sent_simp": "居里夫人发现了放射性元素镭。",
+    "sent_trad": "居里夫人發現了放射性元素鐳。",
+    "pinyin": "Jūlǐ fūrén fāxiàn le fàngshèxìng yuánsù léi.",
+    "english": "Madame Curie discovered the radioactive element radium."
+  },
+  {
+    "word": "基调",
+    "sent_simp": "会议的基调是鼓励创新。",
+    "sent_trad": "會議的基調是鼓勵創新。",
+    "pinyin": "Huìyì de jīdiào shì gǔlì chuàngxīn.",
+    "english": "The keynote of the meeting was to encourage innovation."
+  },
+  {
+    "word": "挪用",
+    "sent_simp": "他因为挪用公款被公司开除了。",
+    "sent_trad": "他因為挪用公款被公司開除了。",
+    "pinyin": "Tā yīnwèi nuóyòng gōngkuǎn bèi gōngsī kāichú le.",
+    "english": "He was fired from the company for misappropriating public funds."
+  },
+  {
+    "word": "经济危机",
+    "sent_simp": "很多人在经济危机中失去了工作。",
+    "sent_trad": "很多人在經濟危機中失去了工作。",
+    "pinyin": "Hěn duō rén zài jīngjì wēijī zhōng shīqù le gōngzuò.",
+    "english": "Many people lost their jobs during the economic crisis."
+  },
+  {
+    "word": "抽调",
+    "sent_simp": "公司从各部门抽调了十名员工支援新项目。",
+    "sent_trad": "公司從各部門抽調了十名員工支援新項目。",
+    "pinyin": "Gōngsī cóng gè bùmén chōudiào le shí míng yuángōng zhīyuán xīn xiàngmù.",
+    "english": "The company transferred ten employees from various departments to support the new project."
+  },
+  {
+    "word": "建筑业",
+    "sent_simp": "近年来建筑业发展得很快。",
+    "sent_trad": "近年來建築業發展得很快。",
+    "pinyin": "Jìnnián lái jiànzhúyè fāzhǎn de hěn kuài.",
+    "english": "The building industry has developed rapidly in recent years."
+  },
+  {
+    "word": "何曾",
+    "sent_simp": "我何曾说过不同意？",
+    "sent_trad": "我何曾說過不同意？",
+    "pinyin": "Wǒ hécéng shuōguò bù tóngyì?",
+    "english": "When did I ever say I disagreed?"
+  },
+  {
+    "word": "民谣",
+    "sent_simp": "她在晚会上唱了一首民谣。",
+    "sent_trad": "她在晚會上唱了一首民謠。",
+    "pinyin": "Tā zài wǎnhuì shang chàng le yī shǒu mínyáo.",
+    "english": "She sang a folk song at the evening party."
+  },
+  {
+    "word": "色调",
+    "sent_simp": "这幅画的色调非常温暖。",
+    "sent_trad": "這幅畫的色調非常溫暖。",
+    "pinyin": "Zhè fú huà de sèdiào fēicháng wēnnuǎn.",
+    "english": "The hues of this painting are very warm."
+  },
+  {
+    "word": "瓦特",
+    "sent_simp": "这个灯泡是二十瓦特的。",
+    "sent_trad": "這個燈泡是二十瓦特的。",
+    "pinyin": "Zhège dēngpào shì èrshí wǎtè de.",
+    "english": "This light bulb is twenty watts."
+  },
+  {
+    "word": "模具",
+    "sent_simp": "工厂订购了一批新模具。",
+    "sent_trad": "工廠訂購了一批新模具。",
+    "pinyin": "Gōngchǎng dìnggòu le yī pī xīn mújù.",
+    "english": "The factory ordered a batch of new molds."
+  },
+  {
+    "word": "制造厂",
+    "sent_simp": "他在一家汽车制造厂工作。",
+    "sent_trad": "他在一家汽車製造廠工作。",
+    "pinyin": "Tā zài yī jiā qìchē zhìzàochǎng gōngzuò.",
+    "english": "He works at a car manufacturing plant."
+  },
+  {
+    "word": "除草",
+    "sent_simp": "爸爸每周末都在院子里除草。",
+    "sent_trad": "爸爸每週末都在院子裡除草。",
+    "pinyin": "Bàba měi zhōumò dōu zài yuànzi lǐ chúcǎo.",
+    "english": "Dad weeds the yard every weekend."
+  },
+  {
+    "word": "洪灾",
+    "sent_simp": "南方今年夏天遭受了严重的洪灾。",
+    "sent_trad": "南方今年夏天遭受了嚴重的洪災。",
+    "pinyin": "Nánfāng jīnnián xiàtiān zāoshòu le yánzhòng de hóngzāi.",
+    "english": "The south suffered severe flooding this summer."
+  },
+  {
+    "word": "佐证",
+    "sent_simp": "这份文件可以作为他清白的佐证。",
+    "sent_trad": "這份文件可以作為他清白的佐證。",
+    "pinyin": "Zhè fèn wénjiàn kěyǐ zuòwéi tā qīngbái de zuǒzhèng.",
+    "english": "This document can serve as corroboration of his innocence."
+  },
+  {
+    "word": "感受器",
+    "sent_simp": "皮肤上的感受器能感知冷热。",
+    "sent_trad": "皮膚上的感受器能感知冷熱。",
+    "pinyin": "Pífū shang de gǎnshòuqì néng gǎnzhī lěng rè.",
+    "english": "The sensory receptors in the skin can detect hot and cold."
+  },
+  {
+    "word": "善恶",
+    "sent_simp": "孩子需要学会分辨善恶。",
+    "sent_trad": "孩子需要學會分辨善惡。",
+    "pinyin": "Háizi xūyào xuéhuì fēnbiàn shàn'è.",
+    "english": "Children need to learn to distinguish good from evil."
+  },
+  {
+    "word": "静脉",
+    "sent_simp": "护士在他的静脉上扎了针。",
+    "sent_trad": "護士在他的靜脈上扎了針。",
+    "pinyin": "Hùshi zài tā de jìngmài shang zhā le zhēn.",
+    "english": "The nurse inserted a needle into his vein."
+  },
+  {
+    "word": "呼吸道",
+    "sent_simp": "感冒容易引起呼吸道感染。",
+    "sent_trad": "感冒容易引起呼吸道感染。",
+    "pinyin": "Gǎnmào róngyì yǐnqǐ hūxīdào gǎnrǎn.",
+    "english": "Colds can easily cause respiratory tract infections."
+  },
+  {
+    "word": "史学家",
+    "sent_simp": "这位史学家写了很多关于汉代的书。",
+    "sent_trad": "這位史學家寫了很多關於漢代的書。",
+    "pinyin": "Zhè wèi shǐxuéjiā xiě le hěn duō guānyú Hàndài de shū.",
+    "english": "This historian has written many books about the Han dynasty."
+  },
+  {
+    "word": "百万富翁",
+    "sent_simp": "他三十岁就成了百万富翁。",
+    "sent_trad": "他三十歲就成了百萬富翁。",
+    "pinyin": "Tā sānshí suì jiù chéng le bǎiwàn fùwēng.",
+    "english": "He became a millionaire at the age of thirty."
+  },
+  {
+    "word": "磁盘",
+    "sent_simp": "请把文件保存到磁盘上。",
+    "sent_trad": "請把文件保存到磁盤上。",
+    "pinyin": "Qǐng bǎ wénjiàn bǎocún dào cípán shang.",
+    "english": "Please save the file to the disk."
+  },
+  {
+    "word": "法郎",
+    "sent_simp": "以前瑞士用法郎作为货币。",
+    "sent_trad": "以前瑞士用法郎作為貨幣。",
+    "pinyin": "Yǐqián Ruìshì yòng fǎláng zuòwéi huòbì.",
+    "english": "Switzerland previously used the franc as its currency."
+  },
+  {
+    "word": "神职",
+    "sent_simp": "他放弃神职回到了家乡。",
+    "sent_trad": "他放棄神職回到了家鄉。",
+    "pinyin": "Tā fàngqì shénzhí huídào le jiāxiāng.",
+    "english": "He gave up his clerical position and returned to his hometown."
+  },
+  {
+    "word": "金融界",
+    "sent_simp": "她在金融界工作了二十年。",
+    "sent_trad": "她在金融界工作了二十年。",
+    "pinyin": "Tā zài jīnróngjiè gōngzuò le èrshí nián.",
+    "english": "She has worked in the world of finance for twenty years."
+  },
+  {
+    "word": "外挂",
+    "sent_simp": "用外挂作弊会被封号。",
+    "sent_trad": "用外掛作弊會被封號。",
+    "pinyin": "Yòng wàiguà zuòbì huì bèi fēng hào.",
+    "english": "Using cheat software will get your account banned."
+  },
+  {
+    "word": "翌年",
+    "sent_simp": "他们在翌年春天举行了婚礼。",
+    "sent_trad": "他們在翌年春天舉行了婚禮。",
+    "pinyin": "Tāmen zài yìnián chūntiān jǔxíng le hūnlǐ.",
+    "english": "They held their wedding in the spring of the following year."
+  },
+  {
+    "word": "武装部队",
+    "sent_simp": "该国的武装部队参与了救灾行动。",
+    "sent_trad": "該國的武裝部隊參與了救災行動。",
+    "pinyin": "Gāi guó de wǔzhuāng bùduì cānyù le jiùzāi xíngdòng.",
+    "english": "The country's armed forces participated in disaster relief operations."
+  },
+  {
+    "word": "斧头",
+    "sent_simp": "他用斧头劈开了木柴。",
+    "sent_trad": "他用斧頭劈開了木柴。",
+    "pinyin": "Tā yòng fǔtóu pī kāi le mùchái.",
+    "english": "He split the firewood with an ax."
+  },
+  {
+    "word": "山药",
+    "sent_simp": "妈妈今天煮了山药排骨汤。",
+    "sent_trad": "媽媽今天煮了山藥排骨湯。",
+    "pinyin": "Māma jīntiān zhǔ le shānyào páigǔ tāng.",
+    "english": "Mom made yam and pork rib soup today."
+  },
+  {
+    "word": "购买力",
+    "sent_simp": "近几年居民的购买力明显增强了。",
+    "sent_trad": "近幾年居民的購買力明顯增強了。",
+    "pinyin": "Jìn jǐ nián jūmín de gòumǎilì míngxiǎn zēngqiáng le.",
+    "english": "Residents' purchasing power has increased noticeably in recent years."
+  },
+  {
+    "word": "波段",
+    "sent_simp": "这台收音机能收到多个波段。",
+    "sent_trad": "這台收音機能收到多個波段。",
+    "pinyin": "Zhè tái shōuyīnjī néng shōudào duō gè bōduàn.",
+    "english": "This radio can receive multiple wave bands."
+  },
+  {
+    "word": "日食",
+    "sent_simp": "明天下午可以看到日食。",
+    "sent_trad": "明天下午可以看到日食。",
+    "pinyin": "Míngtiān xiàwǔ kěyǐ kàndào rìshí.",
+    "english": "A solar eclipse can be seen tomorrow afternoon."
+  },
+  {
+    "word": "使用权",
+    "sent_simp": "他把土地使用权转让给了邻居。",
+    "sent_trad": "他把土地使用權轉讓給了鄰居。",
+    "pinyin": "Tā bǎ tǔdì shǐyòngquán zhuǎnràng gěi le línjū.",
+    "english": "He transferred the land usage rights to his neighbor."
+  },
+  {
+    "word": "市政厅",
+    "sent_simp": "婚礼在市政厅举行。",
+    "sent_trad": "婚禮在市政廳舉行。",
+    "pinyin": "Hūnlǐ zài shìzhèngtīng jǔxíng.",
+    "english": "The wedding ceremony was held at city hall."
+  }
+]

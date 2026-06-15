@@ -1,0 +1,282 @@
+[
+  {
+    "word": "笔记本电脑",
+    "sent_simp": "他把笔记本电脑放在桌上。",
+    "sent_trad": "他把筆記本電腦放在桌上。",
+    "pinyin": "Tā bǎ bǐjìběn diànnǎo fàng zài zhuō shàng.",
+    "english": "He put his laptop on the desk."
+  },
+  {
+    "word": "等式",
+    "sent_simp": "这道等式两边必须相等。",
+    "sent_trad": "這道等式兩邊必須相等。",
+    "pinyin": "Zhè dào děngshì liǎng biān bìxū xiāngděng.",
+    "english": "Both sides of this equation must be equal."
+  },
+  {
+    "word": "精子",
+    "sent_simp": "医生检测了他的精子活力。",
+    "sent_trad": "醫生檢測了他的精子活力。",
+    "pinyin": "Yīshēng jiǎncè le tā de jīngzǐ huólì.",
+    "english": "The doctor tested his sperm motility."
+  },
+  {
+    "word": "纯净",
+    "sent_simp": "山里的空气非常纯净。",
+    "sent_trad": "山裡的空氣非常純淨。",
+    "pinyin": "Shān lǐ de kōngqì fēicháng chúnjìng.",
+    "english": "The air in the mountains is very pure."
+  },
+  {
+    "word": "纸币",
+    "sent_simp": "他钱包里只剩几张纸币。",
+    "sent_trad": "他錢包裡只剩幾張紙幣。",
+    "pinyin": "Tā qiánbāo lǐ zhǐ shèng jǐ zhāng zhǐbì.",
+    "english": "He only has a few paper bills left in his wallet."
+  },
+  {
+    "word": "经久",
+    "sent_simp": "这种材料经久耐用。",
+    "sent_trad": "這種材料經久耐用。",
+    "pinyin": "Zhè zhǒng cáiliào jīngjiǔ nàiyòng.",
+    "english": "This material is long-lasting and durable."
+  },
+  {
+    "word": "结构性",
+    "sent_simp": "经济面临结构性问题。",
+    "sent_trad": "經濟面臨結構性問題。",
+    "pinyin": "Jīngjì miànlín jiégòuxìng wèntí.",
+    "english": "The economy faces structural problems."
+  },
+  {
+    "word": "绝对值",
+    "sent_simp": "负数的绝对值是正数。",
+    "sent_trad": "負數的絕對值是正數。",
+    "pinyin": "Fùshù de juéduìzhí shì zhèngshù.",
+    "english": "The absolute value of a negative number is a positive number."
+  },
+  {
+    "word": "维度",
+    "sent_simp": "我们从不同维度分析这个问题。",
+    "sent_trad": "我們從不同維度分析這個問題。",
+    "pinyin": "Wǒmen cóng bùtóng wéidù fēnxī zhège wèntí.",
+    "english": "We analyze this problem from different dimensions."
+  },
+  {
+    "word": "综合症",
+    "sent_simp": "他被诊断出代谢综合症。",
+    "sent_trad": "他被診斷出代謝綜合症。",
+    "pinyin": "Tā bèi zhěnduàn chū dàixiè zōnghézhèng.",
+    "english": "He was diagnosed with metabolic syndrome."
+  },
+  {
+    "word": "群集",
+    "sent_simp": "鸟儿群集在湖边觅食。",
+    "sent_trad": "鳥兒群集在湖邊覓食。",
+    "pinyin": "Niǎor qúnjí zài hú biān mìshí.",
+    "english": "Birds gathered in flocks by the lake to feed."
+  },
+  {
+    "word": "老牌",
+    "sent_simp": "这是一家老牌茶馆。",
+    "sent_trad": "這是一家老牌茶館。",
+    "pinyin": "Zhè shì yī jiā lǎopái cháguǎn.",
+    "english": "This is a long-established teahouse."
+  },
+  {
+    "word": "职业化",
+    "sent_simp": "足球联赛推动了运动员职业化。",
+    "sent_trad": "足球聯賽推動了運動員職業化。",
+    "pinyin": "Zúqiú liánsài tuīdòng le yùndòngyuán zhíyèhuà.",
+    "english": "The football league has driven the professionalization of athletes."
+  },
+  {
+    "word": "联系方式",
+    "sent_simp": "请留下你的联系方式。",
+    "sent_trad": "請留下你的聯繫方式。",
+    "pinyin": "Qǐng liú xià nǐ de liánxì fāngshì.",
+    "english": "Please leave your contact details."
+  },
+  {
+    "word": "胁迫",
+    "sent_simp": "他拒绝接受任何胁迫。",
+    "sent_trad": "他拒絕接受任何脅迫。",
+    "pinyin": "Tā jùjué jiēshòu rènhé xiépò.",
+    "english": "He refused to accept any coercion."
+  },
+  {
+    "word": "能级",
+    "sent_simp": "电子从高能级跃迁到低能级。",
+    "sent_trad": "電子從高能級躍遷到低能級。",
+    "pinyin": "Diànzǐ cóng gāo néng jí yuèqiān dào dī néng jí.",
+    "english": "Electrons transition from a higher energy level to a lower one."
+  },
+  {
+    "word": "脏话",
+    "sent_simp": "他生气时常说脏话。",
+    "sent_trad": "他生氣時常說髒話。",
+    "pinyin": "Tā shēngqì shí cháng shuō zānghuà.",
+    "english": "He often uses profanity when he's angry."
+  },
+  {
+    "word": "臀部",
+    "sent_simp": "久坐容易引起臀部疼痛。",
+    "sent_trad": "久坐容易引起臀部疼痛。",
+    "pinyin": "Jiǔ zuò róngyì yǐnqǐ túnbù téngtòng.",
+    "english": "Sitting for long periods can easily cause buttock pain."
+  },
+  {
+    "word": "自修",
+    "sent_simp": "他利用空余时间自修英语。",
+    "sent_trad": "他利用空餘時間自修英語。",
+    "pinyin": "Tā lìyòng kòngyú shíjiān zìxiū Yīngyǔ.",
+    "english": "He uses his free time to study English on his own."
+  },
+  {
+    "word": "自我实现",
+    "sent_simp": "她希望通过工作达到自我实现。",
+    "sent_trad": "她希望通過工作達到自我實現。",
+    "pinyin": "Tā xīwàng tōngguò gōngzuò dádào zìwǒ shíxiàn.",
+    "english": "She hopes to achieve self-actualization through her work."
+  },
+  {
+    "word": "节节",
+    "sent_simp": "公司销售额节节上升。",
+    "sent_trad": "公司銷售額節節上升。",
+    "pinyin": "Gōngsī xiāoshòu é jiéjié shàngshēng.",
+    "english": "The company's sales figures have been rising step by step."
+  },
+  {
+    "word": "花子",
+    "sent_simp": "街角坐着一个老花子。",
+    "sent_trad": "街角坐著一個老花子。",
+    "pinyin": "Jiē jiǎo zuò zhe yī gè lǎo huāzi.",
+    "english": "An old beggar was sitting at the street corner."
+  },
+  {
+    "word": "荡妇",
+    "sent_simp": "他愤怒地骂她是荡妇。",
+    "sent_trad": "他憤怒地罵她是蕩婦。",
+    "pinyin": "Tā fènnù de mà tā shì dàngfù.",
+    "english": "He angrily called her a slut."
+  },
+  {
+    "word": "药房",
+    "sent_simp": "她去药房买了感冒药。",
+    "sent_trad": "她去藥房買了感冒藥。",
+    "pinyin": "Tā qù yàofáng mǎi le gǎnmào yào.",
+    "english": "She went to the pharmacy to buy cold medicine."
+  },
+  {
+    "word": "菜系",
+    "sent_simp": "川菜是中国著名的菜系之一。",
+    "sent_trad": "川菜是中國著名的菜系之一。",
+    "pinyin": "Chuāncài shì Zhōngguó zhùmíng de càixì zhī yī.",
+    "english": "Sichuan cuisine is one of China's famous regional cuisines."
+  },
+  {
+    "word": "表亲",
+    "sent_simp": "她和表亲每年春节聚一次。",
+    "sent_trad": "她和表親每年春節聚一次。",
+    "pinyin": "Tā hé biǎoqīn měi nián Chūnjié jù yī cì.",
+    "english": "She gets together with her cousins once a year during Spring Festival."
+  },
+  {
+    "word": "表弟",
+    "sent_simp": "我表弟比我小三岁。",
+    "sent_trad": "我表弟比我小三歲。",
+    "pinyin": "Wǒ biǎodì bǐ wǒ xiǎo sān suì.",
+    "english": "My younger male cousin is three years younger than me."
+  },
+  {
+    "word": "表象",
+    "sent_simp": "不要只看表象，要深入思考。",
+    "sent_trad": "不要只看表象，要深入思考。",
+    "pinyin": "Bùyào zhǐ kàn biǎoxiàng, yào shēnrù sīkǎo.",
+    "english": "Don't just look at the surface appearance; think more deeply."
+  },
+  {
+    "word": "装甲车",
+    "sent_simp": "一辆装甲车停在路口。",
+    "sent_trad": "一輛裝甲車停在路口。",
+    "pinyin": "Yī liàng zhuāngjǐa chē tíng zài lùkǒu.",
+    "english": "An armored vehicle was parked at the intersection."
+  },
+  {
+    "word": "装载",
+    "sent_simp": "工人把货物装载到卡车上。",
+    "sent_trad": "工人把貨物裝載到卡車上。",
+    "pinyin": "Gōngrén bǎ huòwù zhuāngzài dào kǎchē shàng.",
+    "english": "Workers loaded the goods onto the truck."
+  },
+  {
+    "word": "西南部",
+    "sent_simp": "云南位于中国西南部。",
+    "sent_trad": "雲南位於中國西南部。",
+    "pinyin": "Yúnnán wèiyú Zhōngguó xīnánbù.",
+    "english": "Yunnan is located in the southwestern part of China."
+  },
+  {
+    "word": "西端",
+    "sent_simp": "公园的西端有一片树林。",
+    "sent_trad": "公園的西端有一片樹林。",
+    "pinyin": "Gōngyuán de xīduān yǒu yī piàn shùlín.",
+    "english": "There is a grove of trees at the western end of the park."
+  },
+  {
+    "word": "解码",
+    "sent_simp": "他用软件解码了这段信息。",
+    "sent_trad": "他用軟件解碼了這段信息。",
+    "pinyin": "Tā yòng ruǎnjiàn jiěmǎ le zhè duàn xìnxī.",
+    "english": "He used software to decode this message."
+  },
+  {
+    "word": "计划经济",
+    "sent_simp": "计划经济体制下，国家控制生产。",
+    "sent_trad": "計劃經濟體制下，國家控制生產。",
+    "pinyin": "Jìhuà jīngjì tǐzhì xià, guójiā kòngzhì shēngchǎn.",
+    "english": "Under a planned economy system, the state controls production."
+  },
+  {
+    "word": "认购",
+    "sent_simp": "他认购了一百股新股。",
+    "sent_trad": "他認購了一百股新股。",
+    "pinyin": "Tā rèngòu le yī bǎi gǔ xīn gǔ.",
+    "english": "He subscribed to one hundred shares of the new stock issue."
+  },
+  {
+    "word": "讯号",
+    "sent_simp": "手机显示讯号很弱。",
+    "sent_trad": "手機顯示訊號很弱。",
+    "pinyin": "Shǒujī xiǎnshì xùnhào hěn ruò.",
+    "english": "The phone shows a very weak signal."
+  },
+  {
+    "word": "记者会",
+    "sent_simp": "市长下午召开了记者会。",
+    "sent_trad": "市長下午召開了記者會。",
+    "pinyin": "Shìzhǎng xiàwǔ zhàokāi le jìzhě huì.",
+    "english": "The mayor held a press conference in the afternoon."
+  },
+  {
+    "word": "诉求",
+    "sent_simp": "员工提出了加薪的诉求。",
+    "sent_trad": "員工提出了加薪的訴求。",
+    "pinyin": "Yuángōng tíchū le jiāxīn de sùqiú.",
+    "english": "Employees put forward a demand for a pay raise."
+  },
+  {
+    "word": "语系",
+    "sent_simp": "汉语属于汉藏语系。",
+    "sent_trad": "漢語屬於漢藏語系。",
+    "pinyin": "Hànyǔ shǔyú Hàn-Zàng yǔxì.",
+    "english": "Chinese belongs to the Sino-Tibetan language family."
+  },
+  {
+    "word": "败坏",
+    "sent_simp": "他的行为败坏了公司名声。",
+    "sent_trad": "他的行為敗壞了公司名聲。",
+    "pinyin": "Tā de xíngwéi bàihuài le gōngsī míngshēng.",
+    "english": "His behavior ruined the company's reputation."
+  }
+]

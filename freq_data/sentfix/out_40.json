@@ -1,0 +1,282 @@
+[
+  {
+    "word": "网红",
+    "sent_simp": "她是一位美食网红，粉丝超过百万。",
+    "sent_trad": "她是一位美食網紅，粉絲超過百萬。",
+    "pinyin": "Tā shì yī wèi měishí wǎnghóng, fěnsī chāoguò bǎi wàn.",
+    "english": "She is a food influencer with over a million followers."
+  },
+  {
+    "word": "私有化",
+    "sent_simp": "这家工厂完成私有化后，效率提高了很多。",
+    "sent_trad": "這家工廠完成私有化後，效率提高了很多。",
+    "pinyin": "Zhè jiā gōngchǎng wánchéng sīyǒuhuà hòu, xiàolǜ tígāo le hěn duō.",
+    "english": "After this factory completed privatization, efficiency improved significantly."
+  },
+  {
+    "word": "有线电视",
+    "sent_simp": "爸爸还在订有线电视，不想换流媒体。",
+    "sent_trad": "爸爸還在訂有線電視，不想換流媒體。",
+    "pinyin": "Bàba hái zài dìng yǒuxiàn diànshì, bù xiǎng huàn liú méitǐ.",
+    "english": "Dad still subscribes to cable television and doesn't want to switch to streaming."
+  },
+  {
+    "word": "真人秀",
+    "sent_simp": "她很喜欢看烹饪类的真人秀节目。",
+    "sent_trad": "她很喜歡看烹飪類的真人秀節目。",
+    "pinyin": "Tā hěn xǐhuān kàn pēngrèn lèi de zhēnrénxiù jiémù.",
+    "english": "She loves watching cooking reality shows."
+  },
+  {
+    "word": "法医学",
+    "sent_simp": "他大学选择了法医学专业。",
+    "sent_trad": "他大學選擇了法醫學專業。",
+    "pinyin": "Tā dàxué xuǎnzé le fǎyīxué zhuānyè.",
+    "english": "He chose forensic medicine as his university major."
+  },
+  {
+    "word": "选课",
+    "sent_simp": "下周一是新学期选课的截止日期。",
+    "sent_trad": "下週一是新學期選課的截止日期。",
+    "pinyin": "Xià zhōuyī shì xīn xuéqī xuǎnkè de jiézhǐ rìqī.",
+    "english": "Next Monday is the deadline for course selection for the new semester."
+  },
+  {
+    "word": "户型",
+    "sent_simp": "这套两室一厅的户型很适合小家庭。",
+    "sent_trad": "這套兩室一廳的戶型很適合小家庭。",
+    "pinyin": "Zhè tào liǎng shì yī tīng de hùxíng hěn shìhé xiǎo jiātíng.",
+    "english": "This two-bedroom, one-living-room floor plan is very suitable for a small family."
+  },
+  {
+    "word": "复方",
+    "sent_simp": "医生给他开了一种复方感冒药。",
+    "sent_trad": "醫生給他開了一種複方感冒藥。",
+    "pinyin": "Yīshēng gěi tā kāi le yī zhǒng fùfāng gǎnmào yào.",
+    "english": "The doctor prescribed him a compound cold medicine."
+  },
+  {
+    "word": "幼童",
+    "sent_simp": "这个游乐区专门为幼童设计的。",
+    "sent_trad": "這個遊樂區專門為幼童設計的。",
+    "pinyin": "Zhège yóulè qū zhuānmén wèi yòutóng shèjì de.",
+    "english": "This play area is specially designed for young children."
+  },
+  {
+    "word": "财源",
+    "sent_simp": "旅游业是这个小镇的主要财源。",
+    "sent_trad": "旅遊業是這個小鎮的主要財源。",
+    "pinyin": "Lǚyóuyè shì zhège xiǎo zhèn de zhǔyào cáiyuán.",
+    "english": "Tourism is the main source of revenue for this small town."
+  },
+  {
+    "word": "入股",
+    "sent_simp": "他决定向朋友的餐厅入股。",
+    "sent_trad": "他決定向朋友的餐廳入股。",
+    "pinyin": "Tā juédìng xiàng péngyou de cāntīng rùgǔ.",
+    "english": "He decided to invest in his friend's restaurant."
+  },
+  {
+    "word": "奖赏",
+    "sent_simp": "孩子完成作业后，妈妈给了他奖赏。",
+    "sent_trad": "孩子完成作業後，媽媽給了他獎賞。",
+    "pinyin": "Háizi wánchéng zuòyè hòu, māma gěi le tā jiǎngshǎng.",
+    "english": "After the child finished his homework, mom gave him a reward."
+  },
+  {
+    "word": "银子",
+    "sent_simp": "这件事要花不少银子。",
+    "sent_trad": "這件事要花不少銀子。",
+    "pinyin": "Zhè jiàn shì yào huā bù shǎo yínzi.",
+    "english": "This matter will cost a good deal of money."
+  },
+  {
+    "word": "幽默感",
+    "sent_simp": "他很有幽默感，大家都喜欢和他聊天。",
+    "sent_trad": "他很有幽默感，大家都喜歡和他聊天。",
+    "pinyin": "Tā hěn yǒu yōumògǎn, dàjiā dōu xǐhuān hé tā liáotiān.",
+    "english": "He has a great sense of humor; everyone loves chatting with him."
+  },
+  {
+    "word": "大码",
+    "sent_simp": "这件外套只剩大码了，你要吗？",
+    "sent_trad": "這件外套只剩大碼了，你要嗎？",
+    "pinyin": "Zhè jiàn wàitào zhǐ shèng dàmǎ le, nǐ yào ma?",
+    "english": "This jacket only has large size left; do you want it?"
+  },
+  {
+    "word": "掏出",
+    "sent_simp": "他从口袋里掏出一把钥匙。",
+    "sent_trad": "他從口袋裡掏出一把鑰匙。",
+    "pinyin": "Tā cóng kǒudài lǐ tāo chū yī bǎ yàoshi.",
+    "english": "He fished a key out of his pocket."
+  },
+  {
+    "word": "共处",
+    "sent_simp": "室友之间要学会和平共处。",
+    "sent_trad": "室友之間要學會和平共處。",
+    "pinyin": "Shìyǒu zhījiān yào xuéhuì hépíng gòngchǔ.",
+    "english": "Roommates need to learn to coexist peacefully."
+  },
+  {
+    "word": "卫士",
+    "sent_simp": "警犬是社区安全的忠实卫士。",
+    "sent_trad": "警犬是社區安全的忠實衛士。",
+    "pinyin": "Jǐngquǎn shì shèqū ānquán de zhōngshí wèishì.",
+    "english": "Police dogs are faithful guardians of community safety."
+  },
+  {
+    "word": "剧作家",
+    "sent_simp": "他是一位获奖无数的剧作家。",
+    "sent_trad": "他是一位獲獎無數的劇作家。",
+    "pinyin": "Tā shì yī wèi huòjiǎng wúshù de jùzuòjiā.",
+    "english": "He is a playwright who has won numerous awards."
+  },
+  {
+    "word": "通体",
+    "sent_simp": "这只猫通体雪白，非常漂亮。",
+    "sent_trad": "這隻貓通體雪白，非常漂亮。",
+    "pinyin": "Zhè zhī māo tōngtǐ xuě bái, fēicháng piàoliang.",
+    "english": "This cat is snow-white all over its body and very beautiful."
+  },
+  {
+    "word": "汲取",
+    "sent_simp": "我们要善于汲取前人的经验。",
+    "sent_trad": "我們要善於汲取前人的經驗。",
+    "pinyin": "Wǒmen yào shànyú jíqǔ qiánrén de jīngyàn.",
+    "english": "We should be good at drawing on the experience of those who came before us."
+  },
+  {
+    "word": "批示",
+    "sent_simp": "领导已在报告上写了批示。",
+    "sent_trad": "領導已在報告上寫了批示。",
+    "pinyin": "Lǐngdǎo yǐ zài bàogào shàng xiě le pīshì.",
+    "english": "The leader has already written comments on the report."
+  },
+  {
+    "word": "不锈钢",
+    "sent_simp": "这把刀是用不锈钢做的，不容易生锈。",
+    "sent_trad": "這把刀是用不鏽鋼做的，不容易生鏽。",
+    "pinyin": "Zhè bǎ dāo shì yòng bùxiùgāng zuò de, bù róngyì shēng xiù.",
+    "english": "This knife is made of stainless steel and doesn't rust easily."
+  },
+  {
+    "word": "高架",
+    "sent_simp": "走高架比走地面快二十分钟。",
+    "sent_trad": "走高架比走地面快二十分鐘。",
+    "pinyin": "Zǒu gāojià bǐ zǒu dìmiàn kuài èrshí fēnzhōng.",
+    "english": "Taking the elevated road is twenty minutes faster than driving on surface streets."
+  },
+  {
+    "word": "交汇",
+    "sent_simp": "两条河在城市南边交汇。",
+    "sent_trad": "兩條河在城市南邊交匯。",
+    "pinyin": "Liǎng tiáo hé zài chéngshì nánbiān jiāohuì.",
+    "english": "The two rivers converge at the south side of the city."
+  },
+  {
+    "word": "繁体",
+    "sent_simp": "香港和台湾使用的是繁体字。",
+    "sent_trad": "香港和台灣使用的是繁體字。",
+    "pinyin": "Xiānggǎng hé Táiwān shǐyòng de shì fántǐzì.",
+    "english": "Hong Kong and Taiwan use traditional Chinese characters."
+  },
+  {
+    "word": "海产",
+    "sent_simp": "这家餐厅的海产非常新鲜。",
+    "sent_trad": "這家餐廳的海產非常新鮮。",
+    "pinyin": "Zhè jiā cāntīng de hǎichǎn fēicháng xīnxiān.",
+    "english": "The seafood at this restaurant is very fresh."
+  },
+  {
+    "word": "浮动",
+    "sent_simp": "这个月油价浮动比较大。",
+    "sent_trad": "這個月油價浮動比較大。",
+    "pinyin": "Zhège yuè yóujià fúdòng bǐjiào dà.",
+    "english": "Oil prices have fluctuated quite a lot this month."
+  },
+  {
+    "word": "兰花",
+    "sent_simp": "妈妈在阳台上种了几盆兰花。",
+    "sent_trad": "媽媽在陽台上種了幾盆蘭花。",
+    "pinyin": "Māma zài yángtái shàng zhòng le jǐ pén lánhuā.",
+    "english": "Mom planted several pots of orchids on the balcony."
+  },
+  {
+    "word": "总社",
+    "sent_simp": "记者从总社发回了最新报道。",
+    "sent_trad": "記者從總社發回了最新報道。",
+    "pinyin": "Jìzhě cóng zǒngshè fā huí le zuìxīn bàodào.",
+    "english": "The reporter sent back the latest report from the head office."
+  },
+  {
+    "word": "通商",
+    "sent_simp": "两国签约后开始正式通商。",
+    "sent_trad": "兩國簽約後開始正式通商。",
+    "pinyin": "Liǎng guó qiānyuē hòu kāishǐ zhèngshì tōngshāng.",
+    "english": "After the two countries signed a treaty, they began formal trade relations."
+  },
+  {
+    "word": "系统性",
+    "sent_simp": "他对这个问题进行了系统性的研究。",
+    "sent_trad": "他對這個問題進行了系統性的研究。",
+    "pinyin": "Tā duì zhège wèntí jìnxíng le xìtǒngxìng de yánjiū.",
+    "english": "He conducted a systematic study of this issue."
+  },
+  {
+    "word": "套间",
+    "sent_simp": "酒店给我们升级到了套间。",
+    "sent_trad": "酒店給我們升級到了套間。",
+    "pinyin": "Jiǔdiàn gěi wǒmen shēngjí dào le tàojiān.",
+    "english": "The hotel upgraded us to a suite."
+  },
+  {
+    "word": "分隔",
+    "sent_simp": "客厅和餐厅用一面矮墙分隔开来。",
+    "sent_trad": "客廳和餐廳用一面矮牆分隔開來。",
+    "pinyin": "Kètīng hé cāntīng yòng yī miàn ǎi qiáng fēngé kāilái.",
+    "english": "The living room and dining room are separated by a low wall."
+  },
+  {
+    "word": "弹簧",
+    "sent_simp": "床垫里的弹簧坏了，睡起来很不舒服。",
+    "sent_trad": "床墊裡的彈簧壞了，睡起來很不舒服。",
+    "pinyin": "Chuángdiàn lǐ de tánhuáng huài le, shuì qǐlái hěn bù shūfu.",
+    "english": "The spring in the mattress broke, making it very uncomfortable to sleep on."
+  },
+  {
+    "word": "游记",
+    "sent_simp": "她把旅行经历写成了一篇游记。",
+    "sent_trad": "她把旅行經歷寫成了一篇遊記。",
+    "pinyin": "Tā bǎ lǚxíng jīnglì xiě chéng le yī piān yóujì.",
+    "english": "She turned her travel experiences into a piece of travel writing."
+  },
+  {
+    "word": "废水",
+    "sent_simp": "工厂必须处理好废水才能排放。",
+    "sent_trad": "工廠必須處理好廢水才能排放。",
+    "pinyin": "Gōngchǎng bìxū chǔlǐ hǎo fèishuǐ cái néng páifàng.",
+    "english": "Factories must properly treat wastewater before discharging it."
+  },
+  {
+    "word": "庙宇",
+    "sent_simp": "山上有一座古老的庙宇，香火很旺。",
+    "sent_trad": "山上有一座古老的廟宇，香火很旺。",
+    "pinyin": "Shān shàng yǒu yī zuò gǔlǎo de miàoyǔ, xiānghuo hěn wàng.",
+    "english": "On the mountain is an ancient temple that sees many worshippers."
+  },
+  {
+    "word": "连理",
+    "sent_simp": "他们相爱多年，终于结为连理。",
+    "sent_trad": "他們相愛多年，終於結為連理。",
+    "pinyin": "Tāmen xiāng ài duō nián, zhōngyú jié wéi liánlǐ.",
+    "english": "After loving each other for many years, they finally joined in matrimony."
+  },
+  {
+    "word": "诋毁",
+    "sent_simp": "他不该在网上诋毁别人的名誉。",
+    "sent_trad": "他不該在網上詆毀別人的名譽。",
+    "pinyin": "Tā bù gāi zài wǎngshàng dǐhuǐ biérén de míngyù.",
+    "english": "He shouldn't slander other people's reputations online."
+  }
+]

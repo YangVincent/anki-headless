@@ -1,0 +1,282 @@
+[
+  {
+    "word": "命案",
+    "sent_simp": "警察正在调查这起命案。",
+    "sent_trad": "警察正在調查這起命案。",
+    "pinyin": "Jǐngchá zhèngzài diàochá zhè qǐ mìng'àn.",
+    "english": "The police are investigating this homicide case."
+  },
+  {
+    "word": "军校",
+    "sent_simp": "他从军校毕业后当了军官。",
+    "sent_trad": "他從軍校畢業後當了軍官。",
+    "pinyin": "Tā cóng jūnxiào bìyè hòu dāng le jūnguān.",
+    "english": "He became an officer after graduating from military academy."
+  },
+  {
+    "word": "群组",
+    "sent_simp": "我们建了一个家庭群组方便联系。",
+    "sent_trad": "我們建了一個家庭群組方便聯繫。",
+    "pinyin": "Wǒmen jiàn le yī gè jiātíng qúnzǔ fāngbiàn liánxì.",
+    "english": "We created a family group to make it easier to stay in touch."
+  },
+  {
+    "word": "热电",
+    "sent_simp": "这座热电厂为全市供暖供电。",
+    "sent_trad": "這座熱電廠為全市供暖供電。",
+    "pinyin": "Zhè zuò rèdiàn chǎng wèi quán shì gōng nuǎn gōng diàn.",
+    "english": "This combined heat and power plant supplies the whole city with heating and electricity."
+  },
+  {
+    "word": "配额",
+    "sent_simp": "每个部门的用纸配额有限。",
+    "sent_trad": "每個部門的用紙配額有限。",
+    "pinyin": "Měi gè bùmén de yòng zhǐ pèi'é yǒuxiàn.",
+    "english": "Each department has a limited paper quota."
+  },
+  {
+    "word": "翻唱",
+    "sent_simp": "她翻唱了一首八十年代的老歌。",
+    "sent_trad": "她翻唱了一首八十年代的老歌。",
+    "pinyin": "Tā fānchàng le yī shǒu bāshí niándài de lǎo gē.",
+    "english": "She covered a classic song from the eighties."
+  },
+  {
+    "word": "盟军",
+    "sent_simp": "盟军在战争中发挥了关键作用。",
+    "sent_trad": "盟軍在戰爭中發揮了關鍵作用。",
+    "pinyin": "Méngjūn zài zhànzhēng zhōng fāhuī le guānjiàn zuòyòng.",
+    "english": "The allied forces played a key role in the war."
+  },
+  {
+    "word": "假山",
+    "sent_simp": "公园里有一座漂亮的假山。",
+    "sent_trad": "公園裡有一座漂亮的假山。",
+    "pinyin": "Gōngyuán lǐ yǒu yī zuò piàoliang de jiǎshān.",
+    "english": "There is a beautiful rockery in the park."
+  },
+  {
+    "word": "票据",
+    "sent_simp": "请保留好所有的票据以便报销。",
+    "sent_trad": "請保留好所有的票據以便報銷。",
+    "pinyin": "Qǐng bǎoliú hǎo suǒyǒu de piàojù yǐbiàn bàoxiāo.",
+    "english": "Please keep all receipts for reimbursement."
+  },
+  {
+    "word": "持股",
+    "sent_simp": "他持股超过公司总股份的三成。",
+    "sent_trad": "他持股超過公司總股份的三成。",
+    "pinyin": "Tā chí gǔ chāoguò gōngsī zǒng gǔfèn de sān chéng.",
+    "english": "He holds more than thirty percent of the company's total shares."
+  },
+  {
+    "word": "外商",
+    "sent_simp": "许多外商来这里投资建厂。",
+    "sent_trad": "許多外商來這裡投資建廠。",
+    "pinyin": "Xǔduō wàishāng lái zhèlǐ tóuzī jiàn chǎng.",
+    "english": "Many foreign businessmen come here to invest and build factories."
+  },
+  {
+    "word": "对华",
+    "sent_simp": "该国调整了对华贸易政策。",
+    "sent_trad": "該國調整了對華貿易政策。",
+    "pinyin": "Gāi guó tiáozhěng le duì Huá màoyì zhèngcè.",
+    "english": "The country has adjusted its trade policy toward China."
+  },
+  {
+    "word": "情网",
+    "sent_simp": "他一不小心就陷入了情网。",
+    "sent_trad": "他一不小心就陷入了情網。",
+    "pinyin": "Tā yī bù xiǎoxīn jiù xiànrù le qíngwǎng.",
+    "english": "Without thinking, he fell into the snare of love."
+  },
+  {
+    "word": "造纸",
+    "sent_simp": "中国古代发明了造纸术。",
+    "sent_trad": "中國古代發明了造紙術。",
+    "pinyin": "Zhōngguó gǔdài fāmíng le zàozhǐ shù.",
+    "english": "Ancient China invented the art of papermaking."
+  },
+  {
+    "word": "工人阶级",
+    "sent_simp": "这部小说描写了工人阶级的日常生活。",
+    "sent_trad": "這部小說描寫了工人階級的日常生活。",
+    "pinyin": "Zhè bù xiǎoshuō miáoxiě le gōngrén jiējí de rìcháng shēnghuó.",
+    "english": "This novel depicts the everyday life of the working class."
+  },
+  {
+    "word": "年轻化",
+    "sent_simp": "公司管理层正在逐步年轻化。",
+    "sent_trad": "公司管理層正在逐步年輕化。",
+    "pinyin": "Gōngsī guǎnlǐ céng zhèngzài zhúbù niánqīnghuà.",
+    "english": "The company's management is gradually becoming younger."
+  },
+  {
+    "word": "架设",
+    "sent_simp": "工人们正在架设新的电话线路。",
+    "sent_trad": "工人們正在架設新的電話線路。",
+    "pinyin": "Gōngrén men zhèngzài jiàshè xīn de diànhuà xiànlù.",
+    "english": "Workers are erecting new telephone lines."
+  },
+  {
+    "word": "矿工",
+    "sent_simp": "这些矿工每天都要下井工作。",
+    "sent_trad": "這些礦工每天都要下井工作。",
+    "pinyin": "Zhèxiē kuànggōng měitiān dōu yào xià jǐng gōngzuò.",
+    "english": "These miners have to go down into the mine shaft every day."
+  },
+  {
+    "word": "造船",
+    "sent_simp": "这个港口城市以造船业闻名。",
+    "sent_trad": "這個港口城市以造船業聞名。",
+    "pinyin": "Zhège gǎngkǒu chéngshì yǐ zàochuán yè wénmíng.",
+    "english": "This port city is famous for its shipbuilding industry."
+  },
+  {
+    "word": "短跑",
+    "sent_simp": "他擅长短跑，百米成绩很好。",
+    "sent_trad": "他擅長短跑，百米成績很好。",
+    "pinyin": "Tā shàncháng duǎn pǎo, bǎi mǐ chéngjì hěn hǎo.",
+    "english": "He is good at sprinting and has an excellent hundred-meter time."
+  },
+  {
+    "word": "鲸鱼",
+    "sent_simp": "我们在海上看到了一头鲸鱼。",
+    "sent_trad": "我們在海上看到了一頭鯨魚。",
+    "pinyin": "Wǒmen zài hǎi shàng kàndào le yī tóu jīngyú.",
+    "english": "We spotted a whale out at sea."
+  },
+  {
+    "word": "混沌",
+    "sent_simp": "停电后整个办公室陷入一片混沌。",
+    "sent_trad": "停電後整個辦公室陷入一片混沌。",
+    "pinyin": "Tíngdiàn hòu zhěnggè bàngōngshì xiànrù yī piàn hùndùn.",
+    "english": "After the power cut, the entire office descended into chaos."
+  },
+  {
+    "word": "巫师",
+    "sent_simp": "孩子们喜欢扮演巫师的游戏。",
+    "sent_trad": "孩子們喜歡扮演巫師的遊戲。",
+    "pinyin": "Háizimen xǐhuān bànyǎn wūshī de yóuxì.",
+    "english": "The children love playing games where they pretend to be wizards."
+  },
+  {
+    "word": "咱俩",
+    "sent_simp": "咱俩去吃顿饭吧，好久没聚了。",
+    "sent_trad": "咱倆去吃頓飯吧，好久沒聚了。",
+    "pinyin": "Zán liǎ qù chī dùn fàn ba, hǎo jiǔ méi jù le.",
+    "english": "Let's the two of us go grab a meal — it's been ages since we hung out."
+  },
+  {
+    "word": "电热",
+    "sent_simp": "浴室里装了电热毛巾架。",
+    "sent_trad": "浴室裡裝了電熱毛巾架。",
+    "pinyin": "Yùshì lǐ zhuāng le diànrè máojīn jià.",
+    "english": "An electric heated towel rail was installed in the bathroom."
+  },
+  {
+    "word": "潜意识",
+    "sent_simp": "她潜意识里一直担心考试不及格。",
+    "sent_trad": "她潛意識裡一直擔心考試不及格。",
+    "pinyin": "Tā qiányìshí lǐ yīzhí dānxīn kǎoshì bù jígé.",
+    "english": "Deep in her subconscious she has always been worried about failing the exam."
+  },
+  {
+    "word": "集群",
+    "sent_simp": "这里形成了一个高科技企业集群。",
+    "sent_trad": "這裡形成了一個高科技企業集群。",
+    "pinyin": "Zhèlǐ xíngchéng le yī gè gāo kējì qǐyè jíqún.",
+    "english": "A cluster of high-tech companies has formed here."
+  },
+  {
+    "word": "刻画",
+    "sent_simp": "作者把主人公的性格刻画得很生动。",
+    "sent_trad": "作者把主人公的性格刻畫得很生動。",
+    "pinyin": "Zuòzhě bǎ zhǔréngōng de xìnggé kèhuà de hěn shēngdòng.",
+    "english": "The author portrays the protagonist's personality very vividly."
+  },
+  {
+    "word": "弹道导弹",
+    "sent_simp": "那个国家试射了一枚弹道导弹。",
+    "sent_trad": "那個國家試射了一枚彈道導彈。",
+    "pinyin": "Nàge guójiā shì shè le yī méi dàndào dǎodàn.",
+    "english": "That country test-fired a ballistic missile."
+  },
+  {
+    "word": "压低",
+    "sent_simp": "他压低声音，怕吵醒孩子。",
+    "sent_trad": "他壓低聲音，怕吵醒孩子。",
+    "pinyin": "Tā yā dī shēngyīn, pà chǎo xǐng háizi.",
+    "english": "He lowered his voice for fear of waking the child."
+  },
+  {
+    "word": "花白",
+    "sent_simp": "爸爸的头发已经花白了。",
+    "sent_trad": "爸爸的頭髮已經花白了。",
+    "pinyin": "Bàba de tóufa yǐjīng huābái le.",
+    "english": "Dad's hair has already turned grizzled."
+  },
+  {
+    "word": "圣殿",
+    "sent_simp": "这座古老的圣殿每天都有人来参观。",
+    "sent_trad": "這座古老的聖殿每天都有人來參觀。",
+    "pinyin": "Zhè zuò gǔlǎo de shèngdiàn měitiān dōu yǒu rén lái cānguān.",
+    "english": "This ancient temple receives visitors every day."
+  },
+  {
+    "word": "白金",
+    "sent_simp": "她的订婚戒指是白金镶钻的。",
+    "sent_trad": "她的訂婚戒指是白金鑲鑽的。",
+    "pinyin": "Tā de dìnghūn jièzhi shì báijīn xiāng zuàn de.",
+    "english": "Her engagement ring is platinum set with diamonds."
+  },
+  {
+    "word": "归类",
+    "sent_simp": "请把这些文件按日期归类。",
+    "sent_trad": "請把這些文件按日期歸類。",
+    "pinyin": "Qǐng bǎ zhèxiē wénjiàn àn rìqī guīlèi.",
+    "english": "Please categorize these documents by date."
+  },
+  {
+    "word": "陆上",
+    "sent_simp": "这条陆上输油管线连接了两个城市。",
+    "sent_trad": "這條陸上輸油管線連接了兩個城市。",
+    "pinyin": "Zhè tiáo lùshàng shū yóu guǎnxiàn liánjiē le liǎng gè chéngshì.",
+    "english": "This land-based oil pipeline connects two cities."
+  },
+  {
+    "word": "找麻烦",
+    "sent_simp": "他脾气不好，总是喜欢找麻烦。",
+    "sent_trad": "他脾氣不好，總是喜歡找麻煩。",
+    "pinyin": "Tā píqì bù hǎo, zǒngshì xǐhuān zhǎo máfan.",
+    "english": "He has a bad temper and is always looking for trouble."
+  },
+  {
+    "word": "写真",
+    "sent_simp": "她去拍了一套个人写真。",
+    "sent_trad": "她去拍了一套個人寫真。",
+    "pinyin": "Tā qù pāi le yī tào gèrén xiězhēn.",
+    "english": "She went to have a personal portrait photo set taken."
+  },
+  {
+    "word": "食谱",
+    "sent_simp": "我照着食谱做了一道新菜。",
+    "sent_trad": "我照著食譜做了一道新菜。",
+    "pinyin": "Wǒ zhào zhe shípǔ zuò le yī dào xīn cài.",
+    "english": "I followed a recipe and cooked a new dish."
+  },
+  {
+    "word": "头骨",
+    "sent_simp": "考古学家挖到了一块古代头骨。",
+    "sent_trad": "考古學家挖到了一塊古代頭骨。",
+    "pinyin": "Kǎogǔ xuéjiā wā dào le yī kuài gǔdài tóugǔ.",
+    "english": "Archaeologists unearthed an ancient skull."
+  },
+  {
+    "word": "女星",
+    "sent_simp": "这位女星凭这部电影获了奖。",
+    "sent_trad": "這位女星憑這部電影獲了獎。",
+    "pinyin": "Zhè wèi nǚxīng píng zhè bù diànyǐng huò le jiǎng.",
+    "english": "This actress won an award for this film."
+  }
+]

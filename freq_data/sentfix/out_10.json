@@ -1,0 +1,282 @@
+[
+  {
+    "word": "发奖",
+    "sent_simp": "校长今天给优秀学生发奖。",
+    "sent_trad": "校長今天給優秀學生發獎。",
+    "pinyin": "Xiàozhǎng jīntiān gěi yōuxiù xuéshēng fā jiǎng.",
+    "english": "The principal is awarding prizes to outstanding students today."
+  },
+  {
+    "word": "卫队",
+    "sent_simp": "总统出行时总有卫队随行。",
+    "sent_trad": "總統出行時總有衛隊隨行。",
+    "pinyin": "Zǒngtǒng chūxíng shí zǒng yǒu wèiduì suíxíng.",
+    "english": "The president always has a guard escort when traveling."
+  },
+  {
+    "word": "理应",
+    "sent_simp": "你帮了他这么多，他理应感谢你。",
+    "sent_trad": "你幫了他這麼多，他理應感謝你。",
+    "pinyin": "Nǐ bāng le tā zhème duō, tā lǐ yīng gǎnxiè nǐ.",
+    "english": "You've helped him so much; he really ought to thank you."
+  },
+  {
+    "word": "写信",
+    "sent_simp": "她喜欢给远方的朋友写信。",
+    "sent_trad": "她喜歡給遠方的朋友寫信。",
+    "pinyin": "Tā xǐhuān gěi yuǎnfāng de péngyou xiě xìn.",
+    "english": "She enjoys writing letters to friends far away."
+  },
+  {
+    "word": "夜夜",
+    "sent_simp": "那段时间他夜夜难以入睡。",
+    "sent_trad": "那段時間他夜夜難以入睡。",
+    "pinyin": "Nà duàn shíjiān tā yèyè nán yǐ rùshuì.",
+    "english": "During that period he had trouble sleeping every night."
+  },
+  {
+    "word": "跪下",
+    "sent_simp": "小孩跪下来捡地上的硬币。",
+    "sent_trad": "小孩跪下來撿地上的硬幣。",
+    "pinyin": "Xiǎohái guì xià lái jiǎn dì shàng de yìngbì.",
+    "english": "The child knelt down to pick up the coin from the floor."
+  },
+  {
+    "word": "傻子",
+    "sent_simp": "他把钱包落在出租车上，真是个傻子。",
+    "sent_trad": "他把錢包落在出租車上，真是個傻子。",
+    "pinyin": "Tā bǎ qiánbāo là zài chūzū chē shàng, zhēn shì gè shǎzi.",
+    "english": "He left his wallet in the taxi — what a fool."
+  },
+  {
+    "word": "创造性",
+    "sent_simp": "这道题需要用创造性的方式来解决。",
+    "sent_trad": "這道題需要用創造性的方式來解決。",
+    "pinyin": "Zhè dào tí xūyào yòng chuàngzàoxìng de fāngshì lái jiějué.",
+    "english": "This problem needs to be solved in a creative way."
+  },
+  {
+    "word": "沿用",
+    "sent_simp": "这家店沿用了几十年前的老配方。",
+    "sent_trad": "這家店沿用了幾十年前的老配方。",
+    "pinyin": "Zhè jiā diàn yányòng le jǐ shí nián qián de lǎo pèifāng.",
+    "english": "This shop continues to use a recipe from decades ago."
+  },
+  {
+    "word": "饥荒",
+    "sent_simp": "那一年干旱导致了严重的饥荒。",
+    "sent_trad": "那一年乾旱導致了嚴重的饑荒。",
+    "pinyin": "Nà yī nián gānhàn dǎozhì le yánzhòng de jīhuāng.",
+    "english": "The drought that year caused a severe famine."
+  },
+  {
+    "word": "变黑",
+    "sent_simp": "香蕉放了几天就开始变黑了。",
+    "sent_trad": "香蕉放了幾天就開始變黑了。",
+    "pinyin": "Xiāngjiāo fàng le jǐ tiān jiù kāishǐ biàn hēi le.",
+    "english": "The bananas started to darken after sitting out for a few days."
+  },
+  {
+    "word": "冶金",
+    "sent_simp": "他在大学学的是冶金专业。",
+    "sent_trad": "他在大學學的是冶金專業。",
+    "pinyin": "Tā zài dàxué xué de shì yějīn zhuānyè.",
+    "english": "He studied metallurgy as his major in university."
+  },
+  {
+    "word": "控诉",
+    "sent_simp": "她向法院控诉了那家公司的欺诈行为。",
+    "sent_trad": "她向法院控訴了那家公司的欺詐行為。",
+    "pinyin": "Tā xiàng fǎyuàn kòngsù le nà jiā gōngsī de qīzhà xíngwéi.",
+    "english": "She filed a complaint with the court accusing the company of fraud."
+  },
+  {
+    "word": "评论家",
+    "sent_simp": "这位评论家对这部电影给了很高的评价。",
+    "sent_trad": "這位評論家對這部電影給了很高的評價。",
+    "pinyin": "Zhè wèi pínglùnjiā duì zhè bù diànyǐng gěi le hěn gāo de píngjià.",
+    "english": "This critic gave the film a very high rating."
+  },
+  {
+    "word": "种族歧视",
+    "sent_simp": "公司明确规定禁止任何形式的种族歧视。",
+    "sent_trad": "公司明確規定禁止任何形式的種族歧視。",
+    "pinyin": "Gōngsī míngquè guīdìng jìnzhǐ rènhé xíngshì de zhǒngzú qíshì.",
+    "english": "The company clearly prohibits any form of racial discrimination."
+  },
+  {
+    "word": "实例",
+    "sent_simp": "老师用生活中的实例来解释这个概念。",
+    "sent_trad": "老師用生活中的實例來解釋這個概念。",
+    "pinyin": "Lǎoshī yòng shēnghuó zhōng de shílì lái jiěshì zhège gàiniàn.",
+    "english": "The teacher used real-life examples to explain the concept."
+  },
+  {
+    "word": "爸妈",
+    "sent_simp": "周末我打算去看爸妈。",
+    "sent_trad": "週末我打算去看爸媽。",
+    "pinyin": "Zhōumò wǒ dǎsuàn qù kàn bàmā.",
+    "english": "I plan to visit my mom and dad this weekend."
+  },
+  {
+    "word": "河谷",
+    "sent_simp": "那个小村子坐落在一条河谷里。",
+    "sent_trad": "那個小村子坐落在一條河谷裡。",
+    "pinyin": "Nàge xiǎo cūnzi zuòluò zài yī tiáo hégǔ lǐ.",
+    "english": "That small village is nestled in a river valley."
+  },
+  {
+    "word": "家传",
+    "sent_simp": "这个菜谱是我们家家传下来的。",
+    "sent_trad": "這個菜譜是我們家家傳下來的。",
+    "pinyin": "Zhège càipǔ shì wǒmen jiā jiāchuán xià lái de.",
+    "english": "This recipe has been handed down in our family."
+  },
+  {
+    "word": "教程",
+    "sent_simp": "网上有很多免费的Python教程。",
+    "sent_trad": "網上有很多免費的Python教程。",
+    "pinyin": "Wǎng shàng yǒu hěn duō miǎnfèi de Python jiàochéng.",
+    "english": "There are many free Python tutorials online."
+  },
+  {
+    "word": "越级",
+    "sent_simp": "他不满部门经理的决定，直接越级向总裁投诉。",
+    "sent_trad": "他不滿部門經理的決定，直接越級向總裁投訴。",
+    "pinyin": "Tā bùmǎn bùmén jīnglǐ de juédìng, zhíjiē yuèjí xiàng zǒngcái tóusù.",
+    "english": "Unhappy with his manager's decision, he went over his head and complained directly to the CEO."
+  },
+  {
+    "word": "分析员",
+    "sent_simp": "这位分析员每天关注市场动态。",
+    "sent_trad": "這位分析員每天關注市場動態。",
+    "pinyin": "Zhè wèi fēnxīyuán měitiān guānzhù shìchǎng dòngtài.",
+    "english": "This analyst follows market trends every day."
+  },
+  {
+    "word": "马头",
+    "sent_simp": "那匹马把马头伸出栏杆外张望。",
+    "sent_trad": "那匹馬把馬頭伸出欄杆外張望。",
+    "pinyin": "Nà pǐ mǎ bǎ mǎtóu shēn chū lángān wài zhāngwàng.",
+    "english": "The horse stretched its head out over the fence to look around."
+  },
+  {
+    "word": "物理学家",
+    "sent_simp": "这位物理学家研究量子力学多年了。",
+    "sent_trad": "這位物理學家研究量子力學多年了。",
+    "pinyin": "Zhè wèi wùlǐ xuéjiā yánjiū liàngzǐ lìxué duō nián le.",
+    "english": "This physicist has been researching quantum mechanics for many years."
+  },
+  {
+    "word": "身穿",
+    "sent_simp": "他身穿一件白衬衫走进了教室。",
+    "sent_trad": "他身穿一件白襯衫走進了教室。",
+    "pinyin": "Tā shēn chuān yī jiàn bái chènshān zǒu jìn le jiàoshì.",
+    "english": "He walked into the classroom wearing a white shirt."
+  },
+  {
+    "word": "十字架",
+    "sent_simp": "教堂门口立着一个大十字架。",
+    "sent_trad": "教堂門口立著一個大十字架。",
+    "pinyin": "Jiàotáng ménkǒu lì zhe yī gè dà shízìjià.",
+    "english": "A large cross stands at the entrance of the church."
+  },
+  {
+    "word": "接种",
+    "sent_simp": "孩子出生后需要按时接种疫苗。",
+    "sent_trad": "孩子出生後需要按時接種疫苗。",
+    "pinyin": "Háizi chūshēng hòu xūyào ànshí jiēzhòng yìmiáo.",
+    "english": "After birth, children need to be vaccinated on schedule."
+  },
+  {
+    "word": "深层",
+    "sent_simp": "他们的争吵背后有更深层的矛盾。",
+    "sent_trad": "他們的爭吵背後有更深層的矛盾。",
+    "pinyin": "Tāmen de zhēngchǎo bèihòu yǒu gèng shēncéng de máodùn.",
+    "english": "Behind their argument lies a deeper underlying conflict."
+  },
+  {
+    "word": "调用",
+    "sent_simp": "程序运行时会自动调用这个函数。",
+    "sent_trad": "程序運行時會自動調用這個函數。",
+    "pinyin": "Chéngxù yùnxíng shí huì zìdòng diàoyòng zhège hánshù.",
+    "english": "The program will automatically invoke this function when it runs."
+  },
+  {
+    "word": "微生物",
+    "sent_simp": "土壤里有数不清的微生物。",
+    "sent_trad": "土壤裡有數不清的微生物。",
+    "pinyin": "Tǔrǎng lǐ yǒu shǔ bu qīng de wēishēngwù.",
+    "english": "There are countless microorganisms in the soil."
+  },
+  {
+    "word": "街区",
+    "sent_simp": "超市就在这个街区的转角处。",
+    "sent_trad": "超市就在這個街區的轉角處。",
+    "pinyin": "Chāoshì jiù zài zhège jiēqū de zhuǎnjiǎo chù.",
+    "english": "The supermarket is right at the corner of this block."
+  },
+  {
+    "word": "帝王",
+    "sent_simp": "博物馆里陈列着古代帝王的服饰。",
+    "sent_trad": "博物館裡陳列著古代帝王的服飾。",
+    "pinyin": "Bówùguǎn lǐ chénliè zhe gǔdài dìwáng de fúshì.",
+    "english": "The museum displays the clothing of ancient monarchs."
+  },
+  {
+    "word": "投放",
+    "sent_simp": "公司决定在社交媒体上投放广告。",
+    "sent_trad": "公司決定在社交媒體上投放廣告。",
+    "pinyin": "Gōngsī juédìng zài shèjiāo méitǐ shàng tóufàng guǎnggào.",
+    "english": "The company decided to place ads on social media."
+  },
+  {
+    "word": "电缆",
+    "sent_simp": "工人们正在铺设地下电缆。",
+    "sent_trad": "工人們正在鋪設地下電纜。",
+    "pinyin": "Gōngrén men zhèngzài pūshè dìxià diànlǎn.",
+    "english": "Workers are laying underground cables."
+  },
+  {
+    "word": "得奖",
+    "sent_simp": "她的作文在比赛中得奖了。",
+    "sent_trad": "她的作文在比賽中得獎了。",
+    "pinyin": "Tā de zuòwén zài bǐsài zhōng dé jiǎng le.",
+    "english": "Her essay won a prize in the competition."
+  },
+  {
+    "word": "石化",
+    "sent_simp": "这个地区有大型石化工厂。",
+    "sent_trad": "這個地區有大型石化工廠。",
+    "pinyin": "Zhège dìqū yǒu dàxíng shíhuà gōngchǎng.",
+    "english": "This area has a large petrochemical plant."
+  },
+  {
+    "word": "画作",
+    "sent_simp": "展览室里摆满了她的画作。",
+    "sent_trad": "展覽室裡擺滿了她的畫作。",
+    "pinyin": "Zhǎnlǎn shì lǐ bǎimǎn le tā de huàzuò.",
+    "english": "The exhibition room was filled with her paintings."
+  },
+  {
+    "word": "高热",
+    "sent_simp": "孩子昨晚突然高热，我们连夜去看医生。",
+    "sent_trad": "孩子昨晚突然高熱，我們連夜去看醫生。",
+    "pinyin": "Háizi zuó wǎn tūrán gāorè, wǒmen liányè qù kàn yīshēng.",
+    "english": "The child suddenly had a high fever last night, so we went to the doctor in the middle of the night."
+  },
+  {
+    "word": "获准",
+    "sent_simp": "他终于获准进入实验室参观。",
+    "sent_trad": "他終於獲准進入實驗室參觀。",
+    "pinyin": "Tā zhōngyú huòzhǔn jìnrù shíyànshì cānguān.",
+    "english": "He finally obtained permission to visit the laboratory."
+  },
+  {
+    "word": "拼音",
+    "sent_simp": "学中文的时候先要学好拼音。",
+    "sent_trad": "學中文的時候先要學好拼音。",
+    "pinyin": "Xué Zhōngwén de shíhou xiān yào xué hǎo pīnyīn.",
+    "english": "When learning Chinese, you should first master pinyin."
+  }
+]

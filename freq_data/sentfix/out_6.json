@@ -1,0 +1,282 @@
+[
+  {
+    "word": "旧址",
+    "sent_simp": "博物馆建在工厂旧址上。",
+    "sent_trad": "博物館建在工廠舊址上。",
+    "pinyin": "Bówùguǎn jiàn zài gōngchǎng jiùzhǐ shang.",
+    "english": "The museum was built on the old factory site."
+  },
+  {
+    "word": "马队",
+    "sent_simp": "一支马队穿过了山谷。",
+    "sent_trad": "一支馬隊穿過了山谷。",
+    "pinyin": "Yī zhī mǎduì chuānguòle shāngǔ.",
+    "english": "A caravan of horses passed through the valley."
+  },
+  {
+    "word": "自慰",
+    "sent_simp": "他只能用这句话来自慰。",
+    "sent_trad": "他只能用這句話來自慰。",
+    "pinyin": "Tā zhǐ néng yòng zhè jù huà lái zìwèi.",
+    "english": "He could only use these words to console himself."
+  },
+  {
+    "word": "上校",
+    "sent_simp": "那位上校刚从前线回来。",
+    "sent_trad": "那位上校剛從前線回來。",
+    "pinyin": "Nà wèi shàngxiào gāng cóng qiánxiàn huílái.",
+    "english": "That colonel just returned from the front line."
+  },
+  {
+    "word": "供应商",
+    "sent_simp": "我们正在评估几家供应商。",
+    "sent_trad": "我們正在評估幾家供應商。",
+    "pinyin": "Wǒmen zhèngzài pínggū jǐ jiā gōngyìngshāng.",
+    "english": "We are currently evaluating several suppliers."
+  },
+  {
+    "word": "分公司",
+    "sent_simp": "他被派到上海的分公司工作。",
+    "sent_trad": "他被派到上海的分公司工作。",
+    "pinyin": "Tā bèi pài dào Shànghǎi de fēn gōngsī gōngzuò.",
+    "english": "He was sent to work at the Shanghai branch office."
+  },
+  {
+    "word": "金融家",
+    "sent_simp": "这位金融家投资了多个领域。",
+    "sent_trad": "這位金融家投資了多個領域。",
+    "pinyin": "Zhè wèi jīnróngjiā tóuzīle duō gè lǐngyù.",
+    "english": "This financier has invested in many sectors."
+  },
+  {
+    "word": "债权人",
+    "sent_simp": "债权人要求尽快还款。",
+    "sent_trad": "債權人要求盡快還款。",
+    "pinyin": "Zhàiquánrén yāoqiú jǐnkuài huánkuǎn.",
+    "english": "The creditor demanded repayment as soon as possible."
+  },
+  {
+    "word": "国际法",
+    "sent_simp": "这一行为违反了国际法。",
+    "sent_trad": "這一行為違反了國際法。",
+    "pinyin": "Zhè yī xíngwéi wéifǎnle guójìfǎ.",
+    "english": "This action violated international law."
+  },
+  {
+    "word": "半导体",
+    "sent_simp": "半导体行业竞争非常激烈。",
+    "sent_trad": "半導體行業競爭非常激烈。",
+    "pinyin": "Bàndǎotǐ hángyè jìngzhēng fēicháng jīliè.",
+    "english": "Competition in the semiconductor industry is fierce."
+  },
+  {
+    "word": "注释",
+    "sent_simp": "老师让我们给这段文字加注释。",
+    "sent_trad": "老師讓我們給這段文字加注釋。",
+    "pinyin": "Lǎoshī ràng wǒmen gěi zhè duàn wénzì jiā zhùshì.",
+    "english": "The teacher asked us to add annotations to this passage."
+  },
+  {
+    "word": "布雷",
+    "sent_simp": "敌人在道路上布雷，十分危险。",
+    "sent_trad": "敵人在道路上布雷，十分危險。",
+    "pinyin": "Dírén zài dàolù shang bùléi, shífēn wēixiǎn.",
+    "english": "The enemy laid mines on the road, making it very dangerous."
+  },
+  {
+    "word": "服役",
+    "sent_simp": "他服役三年后退伍回家。",
+    "sent_trad": "他服役三年後退伍回家。",
+    "pinyin": "Tā fúyì sān nián hòu tuìwǔ huíjiā.",
+    "english": "He returned home after serving three years in the military."
+  },
+  {
+    "word": "黄道",
+    "sent_simp": "天文课介绍了黄道十二宫。",
+    "sent_trad": "天文課介紹了黃道十二宮。",
+    "pinyin": "Tiānwén kè jièshàole huángdào shí'èr gōng.",
+    "english": "The astronomy class introduced the twelve signs of the ecliptic."
+  },
+  {
+    "word": "基础设施",
+    "sent_simp": "城市需要不断完善基础设施。",
+    "sent_trad": "城市需要不斷完善基礎設施。",
+    "pinyin": "Chéngshì xūyào bùduàn wánshàn jīchǔ shèshī.",
+    "english": "Cities need to continuously improve their infrastructure."
+  },
+  {
+    "word": "手书",
+    "sent_simp": "他收到了老师的一封手书。",
+    "sent_trad": "他收到了老師的一封手書。",
+    "pinyin": "Tā shōudàole lǎoshī de yī fēng shǒushū.",
+    "english": "He received a handwritten letter from his teacher."
+  },
+  {
+    "word": "走势",
+    "sent_simp": "分析师预测今年股市走势良好。",
+    "sent_trad": "分析師預測今年股市走勢良好。",
+    "pinyin": "Fēnxīshī yùcè jīnnián gǔshì zǒushì liánghǎo.",
+    "english": "Analysts predict a positive stock market trend this year."
+  },
+  {
+    "word": "哲学家",
+    "sent_simp": "这位哲学家的思想影响了很多人。",
+    "sent_trad": "這位哲學家的思想影響了很多人。",
+    "pinyin": "Zhè wèi zhéxuéjiā de sīxiǎng yǐngxiǎngle hěn duō rén.",
+    "english": "This philosopher's ideas have influenced many people."
+  },
+  {
+    "word": "环境保护",
+    "sent_simp": "我们每个人都应该重视环境保护。",
+    "sent_trad": "我們每個人都應該重視環境保護。",
+    "pinyin": "Wǒmen měi gè rén dōu yīnggāi zhòngshì huánjìng bǎohù.",
+    "english": "Everyone should take environmental protection seriously."
+  },
+  {
+    "word": "行星",
+    "sent_simp": "火星是太阳系的第四颗行星。",
+    "sent_trad": "火星是太陽系的第四顆行星。",
+    "pinyin": "Huǒxīng shì tàiyánɡxì de dì sì kē xíngxīng.",
+    "english": "Mars is the fourth planet in the solar system."
+  },
+  {
+    "word": "明亮",
+    "sent_simp": "走廊里的灯光非常明亮。",
+    "sent_trad": "走廊裡的燈光非常明亮。",
+    "pinyin": "Zǒuláng lǐ de dēngguāng fēicháng míngliàng.",
+    "english": "The lights in the hallway are very bright."
+  },
+  {
+    "word": "鸦片",
+    "sent_simp": "鸦片战争是中国近代史的重要事件。",
+    "sent_trad": "鴉片戰爭是中國近代史的重要事件。",
+    "pinyin": "Yāpiàn zhànzhēng shì Zhōngguó jìndàishǐ de zhòngyào shìjiàn.",
+    "english": "The Opium War is an important event in modern Chinese history."
+  },
+  {
+    "word": "失业率",
+    "sent_simp": "去年的失业率有所下降。",
+    "sent_trad": "去年的失業率有所下降。",
+    "pinyin": "Qùnián de shīyèlǜ yǒusuǒ xiàjiàng.",
+    "english": "The unemployment rate dropped somewhat last year."
+  },
+  {
+    "word": "示威者",
+    "sent_simp": "示威者聚集在广场上表达诉求。",
+    "sent_trad": "示威者聚集在廣場上表達訴求。",
+    "pinyin": "Shìwēizhě jùjí zài guǎngchǎng shang biǎodá sùqiú.",
+    "english": "Protesters gathered in the square to voice their demands."
+  },
+  {
+    "word": "文集",
+    "sent_simp": "这本文集收录了他的代表作。",
+    "sent_trad": "這本文集收錄了他的代表作。",
+    "pinyin": "Zhè běn wénjí shōulùle tā de dàibiǎozuò.",
+    "english": "This collection includes his representative works."
+  },
+  {
+    "word": "吸血鬼",
+    "sent_simp": "孩子们万圣节装扮成吸血鬼。",
+    "sent_trad": "孩子們萬聖節裝扮成吸血鬼。",
+    "pinyin": "Háizimen wànshèngjié zhuāngbàn chéng xīxuèguǐ.",
+    "english": "The kids dressed up as vampires for Halloween."
+  },
+  {
+    "word": "粒子",
+    "sent_simp": "科学家发现了一种新型粒子。",
+    "sent_trad": "科學家發現了一種新型粒子。",
+    "pinyin": "Kēxuéjiā fāxiànle yī zhǒng xīnxíng lìzǐ.",
+    "english": "Scientists discovered a new type of particle."
+  },
+  {
+    "word": "圣地",
+    "sent_simp": "很多信徒一生希望去一次圣地。",
+    "sent_trad": "很多信徒一生希望去一次聖地。",
+    "pinyin": "Hěn duō xìntú yīshēng xīwàng qù yī cì shèngdì.",
+    "english": "Many believers hope to visit the holy land at least once in their lifetime."
+  },
+  {
+    "word": "国防部长",
+    "sent_simp": "国防部长出席了今天的会议。",
+    "sent_trad": "國防部長出席了今天的會議。",
+    "pinyin": "Guófáng bùzhǎng chūxíle jīntiān de huìyì.",
+    "english": "The defense minister attended today's meeting."
+  },
+  {
+    "word": "世俗",
+    "sent_simp": "他不在乎世俗的眼光，活得很自在。",
+    "sent_trad": "他不在乎世俗的眼光，活得很自在。",
+    "pinyin": "Tā bù zàihu shìsú de yǎnguāng, huó de hěn zìzài.",
+    "english": "He doesn't care about worldly opinions and lives very freely."
+  },
+  {
+    "word": "向南",
+    "sent_simp": "沿这条路向南走十分钟就到了。",
+    "sent_trad": "沿這條路向南走十分鐘就到了。",
+    "pinyin": "Yán zhè tiáo lù xiàng nán zǒu shí fēnzhōng jiù dào le.",
+    "english": "Walk southward along this road for ten minutes and you'll be there."
+  },
+  {
+    "word": "肤色",
+    "sent_simp": "不应该因为肤色而歧视别人。",
+    "sent_trad": "不應該因為膚色而歧視別人。",
+    "pinyin": "Bù yīnggāi yīnwèi fūsè ér qíshì biérén.",
+    "english": "One should not discriminate against others because of skin color."
+  },
+  {
+    "word": "客服",
+    "sent_simp": "我打电话给客服，反映了问题。",
+    "sent_trad": "我打電話給客服，反映了問題。",
+    "pinyin": "Wǒ dǎ diànhuà gěi kèfú, fǎnyìngle wèntí.",
+    "english": "I called customer service to report the issue."
+  },
+  {
+    "word": "重者",
+    "sent_simp": "轻者罚款，重者将被吊销执照。",
+    "sent_trad": "輕者罰款，重者將被吊銷執照。",
+    "pinyin": "Qīng zhě fákuǎn, zhòng zhě jiāng bèi diàoxiāo zhízhào.",
+    "english": "Minor cases result in a fine; in extreme cases, the license will be revoked."
+  },
+  {
+    "word": "经纪人",
+    "sent_simp": "她的经纪人为她安排了几场演出。",
+    "sent_trad": "她的經紀人為她安排了幾場演出。",
+    "pinyin": "Tā de jīngjìrén wèi tā ānpáile jǐ chǎng yǎnchū.",
+    "english": "Her agent arranged several performances for her."
+  },
+  {
+    "word": "流亡",
+    "sent_simp": "他在海外流亡了十多年。",
+    "sent_trad": "他在海外流亡了十多年。",
+    "pinyin": "Tā zài hǎiwài liúwángle shí duō nián.",
+    "english": "He lived in exile abroad for more than ten years."
+  },
+  {
+    "word": "只读",
+    "sent_simp": "这个文件被设置成了只读模式。",
+    "sent_trad": "這個文件被設置成了只讀模式。",
+    "pinyin": "Zhège wénjiàn bèi shèzhì chéngle zhǐdú móshì.",
+    "english": "This file has been set to read-only mode."
+  },
+  {
+    "word": "文库",
+    "sent_simp": "图书馆的古籍文库对外开放了。",
+    "sent_trad": "圖書館的古籍文庫對外開放了。",
+    "pinyin": "Túshūguǎn de gǔjí wénkù duìwài kāifàngle.",
+    "english": "The library's rare book collection has been opened to the public."
+  },
+  {
+    "word": "人口普查",
+    "sent_simp": "政府每十年进行一次人口普查。",
+    "sent_trad": "政府每十年進行一次人口普查。",
+    "pinyin": "Zhèngfǔ měi shí nián jìnxíng yī cì rénkǒu pǔchá.",
+    "english": "The government conducts a census every ten years."
+  },
+  {
+    "word": "服务质量",
+    "sent_simp": "这家餐厅的服务质量很高。",
+    "sent_trad": "這家餐廳的服務質量很高。",
+    "pinyin": "Zhè jiā cāntīng de fúwù zhìliàng hěn gāo.",
+    "english": "The quality of service at this restaurant is very high."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "word": "医保",
+    "sent_simp": "他的医保已经交满一年了。",
+    "sent_trad": "他的醫保已經交滿一年了。",
+    "pinyin": "Tā de yī bǎo yǐjīng jiāo mǎn yī nián le.",
+    "english": "His medical insurance has already been paid for a full year."
+  },
+  {
+    "word": "定单",
+    "sent_simp": "客户刚发来一张定单。",
+    "sent_trad": "客戶剛發來一張定單。",
+    "pinyin": "Kèhù gāng fā lái yī zhāng dìng dān.",
+    "english": "The client just sent over an order."
+  },
+  {
+    "word": "被告人",
+    "sent_simp": "被告人当庭拒绝认罪。",
+    "sent_trad": "被告人當庭拒絕認罪。",
+    "pinyin": "Bèigào rén dāngtíng jùjué rèn zuì.",
+    "english": "The defendant refused to plead guilty in court."
+  },
+  {
+    "word": "戏剧性",
+    "sent_simp": "比赛的结局真的很戏剧性。",
+    "sent_trad": "比賽的結局真的很戲劇性。",
+    "pinyin": "Bǐsài de jiéjú zhēn de hěn xìjù xìng.",
+    "english": "The ending of the match was truly dramatic."
+  },
+  {
+    "word": "银色",
+    "sent_simp": "她买了一辆银色的自行车。",
+    "sent_trad": "她買了一輛銀色的自行車。",
+    "pinyin": "Tā mǎi le yī liàng yínsè de zìxíngchē.",
+    "english": "She bought a silver bicycle."
+  },
+  {
+    "word": "射手",
+    "sent_simp": "这位射手每次都能射中靶心。",
+    "sent_trad": "這位射手每次都能射中靶心。",
+    "pinyin": "Zhè wèi shèshǒu měi cì dōu néng shèzhòng bǎxīn.",
+    "english": "This archer hits the bullseye every time."
+  },
+  {
+    "word": "怜悯",
+    "sent_simp": "他对流浪猫充满怜悯。",
+    "sent_trad": "他對流浪貓充滿憐憫。",
+    "pinyin": "Tā duì liúlàng māo chōngmǎn liánmǐn.",
+    "english": "He feels great pity for stray cats."
+  },
+  {
+    "word": "条纹",
+    "sent_simp": "他穿了一件蓝白条纹的衬衫。",
+    "sent_trad": "他穿了一件藍白條紋的襯衫。",
+    "pinyin": "Tā chuān le yī jiàn lán bái tiáowén de chènshān.",
+    "english": "He wore a blue and white striped shirt."
+  },
+  {
+    "word": "神庙",
+    "sent_simp": "游客们在神庙前拍了很多照片。",
+    "sent_trad": "遊客們在神廟前拍了很多照片。",
+    "pinyin": "Yóukè men zài shénmiào qián pāi le hěn duō zhàopiàn.",
+    "english": "The tourists took many photos in front of the temple."
+  },
+  {
+    "word": "像素",
+    "sent_simp": "这张图片的像素太低了，看不清楚。",
+    "sent_trad": "這張圖片的像素太低了，看不清楚。",
+    "pinyin": "Zhè zhāng túpiàn de xiàngsù tài dī le, kàn bù qīngchǔ.",
+    "english": "This image has too low a pixel count to see clearly."
+  },
+  {
+    "word": "病原",
+    "sent_simp": "科学家已经找到了这次疫情的病原。",
+    "sent_trad": "科學家已經找到了這次疫情的病原。",
+    "pinyin": "Kēxuéjiā yǐjīng zhǎodào le zhè cì yìqíng de bìngyuán.",
+    "english": "Scientists have already identified the pathogen behind this outbreak."
+  },
+  {
+    "word": "翻身",
+    "sent_simp": "宝宝学会翻身了，妈妈很开心。",
+    "sent_trad": "寶寶學會翻身了，媽媽很開心。",
+    "pinyin": "Bǎobao xuéhuì fānshēn le, māma hěn kāixīn.",
+    "english": "The baby learned to roll over, and Mom was thrilled."
+  },
+  {
+    "word": "自然科学",
+    "sent_simp": "她从小就对自然科学很感兴趣。",
+    "sent_trad": "她從小就對自然科學很感興趣。",
+    "pinyin": "Tā cóngxiǎo jiù duì zìrán kēxué hěn gǎn xìngqù.",
+    "english": "She has been interested in natural sciences since childhood."
+  },
+  {
+    "word": "纸张",
+    "sent_simp": "打印机里的纸张用完了。",
+    "sent_trad": "打印機裡的紙張用完了。",
+    "pinyin": "Dǎyìnjī lǐ de zhǐzhāng yòng wán le.",
+    "english": "The paper in the printer has run out."
+  },
+  {
+    "word": "修筑",
+    "sent_simp": "村民们一起修筑了一条新路。",
+    "sent_trad": "村民們一起修築了一條新路。",
+    "pinyin": "Cūnmín men yīqǐ xiūzhù le yī tiáo xīn lù.",
+    "english": "The villagers together built a new road."
+  },
+  {
+    "word": "电传",
+    "sent_simp": "他通过电传把文件发给了对方。",
+    "sent_trad": "他通過電傳把文件發給了對方。",
+    "pinyin": "Tā tōngguò diànchuán bǎ wénjiàn fā gěi le duìfāng.",
+    "english": "He sent the document to the other party by fax."
+  },
+  {
+    "word": "抓取",
+    "sent_simp": "程序自动抓取了网页上的数据。",
+    "sent_trad": "程序自動抓取了網頁上的數據。",
+    "pinyin": "Chéngxù zìdòng zhuāqǔ le wǎngyè shàng de shùjù.",
+    "english": "The program automatically scraped data from the webpage."
+  },
+  {
+    "word": "管线",
+    "sent_simp": "工人正在地下铺设新的管线。",
+    "sent_trad": "工人正在地下鋪設新的管線。",
+    "pinyin": "Gōngrén zhèngzài dìxià pūshè xīn de guǎnxiàn.",
+    "english": "Workers are laying new pipelines underground."
+  },
+  {
+    "word": "严惩",
+    "sent_simp": "法院决定严惩那些制假售假的人。",
+    "sent_trad": "法院決定嚴懲那些製假售假的人。",
+    "pinyin": "Fǎyuàn juédìng yán chéng nàxiē zhì jiǎ shòu jiǎ de rén.",
+    "english": "The court decided to severely punish those who make and sell counterfeit goods."
+  },
+  {
+    "word": "南侧",
+    "sent_simp": "学校的南侧有一个停车场。",
+    "sent_trad": "學校的南側有一個停車場。",
+    "pinyin": "Xuéxiào de nán cè yǒu yī gè tíngchēchǎng.",
+    "english": "There is a parking lot on the south side of the school."
+  },
+  {
+    "word": "登基",
+    "sent_simp": "新国王举行了隆重的登基仪式。",
+    "sent_trad": "新國王舉行了隆重的登基儀式。",
+    "pinyin": "Xīn guówáng jǔxíng le lóngzhòng de dēngjī yíshì.",
+    "english": "The new king held a grand coronation ceremony."
+  },
+  {
+    "word": "强权",
+    "sent_simp": "小国家不应该屈服于强权压力。",
+    "sent_trad": "小國家不應該屈服於強權壓力。",
+    "pinyin": "Xiǎo guójiā bù yīnggāi qūfú yú qiángquán yālì.",
+    "english": "Small countries should not yield to the pressure of powerful nations."
+  },
+  {
+    "word": "称谓",
+    "sent_simp": "在正式场合要用正确的称谓。",
+    "sent_trad": "在正式場合要用正確的稱謂。",
+    "pinyin": "Zài zhèngshì chǎnghé yào yòng zhèngquè de chēngwèi.",
+    "english": "In formal settings, you should use the correct form of address."
+  },
+  {
+    "word": "塑胶",
+    "sent_simp": "这双鞋的鞋底是塑胶做的。",
+    "sent_trad": "這雙鞋的鞋底是塑膠做的。",
+    "pinyin": "Zhè shuāng xié de xiédǐ shì sùjiāo zuò de.",
+    "english": "The sole of this pair of shoes is made of plastic."
+  },
+  {
+    "word": "生存环境",
+    "sent_simp": "城市扩张破坏了野生动物的生存环境。",
+    "sent_trad": "城市擴張破壞了野生動物的生存環境。",
+    "pinyin": "Chéngshì kuòzhāng pòhuài le yěshēng dòngwù de shēngcún huánjìng.",
+    "english": "Urban expansion has destroyed the habitat of wild animals."
+  },
+  {
+    "word": "情趣",
+    "sent_simp": "他把阳台布置得很有情趣。",
+    "sent_trad": "他把陽臺佈置得很有情趣。",
+    "pinyin": "Tā bǎ yángtái bùzhì de hěn yǒu qíngqù.",
+    "english": "He decorated the balcony with a lot of charm and appeal."
+  },
+  {
+    "word": "参考书",
+    "sent_simp": "考试前她借了几本参考书来复习。",
+    "sent_trad": "考試前她借了幾本參考書來複習。",
+    "pinyin": "Kǎoshì qián tā jiè le jǐ běn cānkǎo shū lái fùxí.",
+    "english": "Before the exam, she borrowed a few reference books to review."
+  },
+  {
+    "word": "真知",
+    "sent_simp": "只有亲身经历才能获得真知。",
+    "sent_trad": "只有親身經歷才能獲得真知。",
+    "pinyin": "Zhǐyǒu qīnshēn jīnglì cái néng huòdé zhēn zhī.",
+    "english": "Only through personal experience can one gain real knowledge."
+  },
+  {
+    "word": "插件",
+    "sent_simp": "我下载了一个翻译插件，用起来很方便。",
+    "sent_trad": "我下載了一個翻譯插件，用起來很方便。",
+    "pinyin": "Wǒ xiàzài le yī gè fānyì chājiàn, yòng qǐlái hěn fāngbiàn.",
+    "english": "I downloaded a translation plug-in and it's very convenient to use."
+  },
+  {
+    "word": "毛拉",
+    "sent_simp": "村里的毛拉每天带领大家做礼拜。",
+    "sent_trad": "村裡的毛拉每天帶領大家做禮拜。",
+    "pinyin": "Cūn lǐ de máolā měitiān dàilǐng dàjiā zuò lǐbài.",
+    "english": "The village mullah leads everyone in prayer every day."
+  },
+  {
+    "word": "自然保护区",
+    "sent_simp": "这片森林已被列为自然保护区。",
+    "sent_trad": "這片森林已被列為自然保護區。",
+    "pinyin": "Zhè piàn sēnlín yǐ bèi liè wéi zìrán bǎohù qū.",
+    "english": "This forest has been designated a nature reserve."
+  },
+  {
+    "word": "驳斥",
+    "sent_simp": "他在会上驳斥了对方的说法。",
+    "sent_trad": "他在會上駁斥了對方的說法。",
+    "pinyin": "Tā zài huì shàng bóchì le duìfāng de shuōfǎ.",
+    "english": "He refuted the other side's claim at the meeting."
+  },
+  {
+    "word": "实心",
+    "sent_simp": "这根柱子是实心的，很结实。",
+    "sent_trad": "這根柱子是實心的，很結實。",
+    "pinyin": "Zhè gēn zhùzi shì shíxīn de, hěn jiēshi.",
+    "english": "This pillar is solid and very sturdy."
+  },
+  {
+    "word": "披萨",
+    "sent_simp": "他们订了一个海鲜披萨外卖。",
+    "sent_trad": "他們訂了一個海鮮披薩外賣。",
+    "pinyin": "Tāmen dìng le yī gè hǎixiān pīsà wàimài.",
+    "english": "They ordered a seafood pizza for delivery."
+  },
+  {
+    "word": "跑车",
+    "sent_simp": "他梦想有一天能开上跑车。",
+    "sent_trad": "他夢想有一天能開上跑車。",
+    "pinyin": "Tā mèngxiǎng yǒu yītiān néng kāi shàng pǎochē.",
+    "english": "He dreams of driving a sports car one day."
+  },
+  {
+    "word": "税金",
+    "sent_simp": "每年到这个时候都要缴税金。",
+    "sent_trad": "每年到這個時候都要繳稅金。",
+    "pinyin": "Měi nián dào zhège shíhou dōu yào jiǎo shuìjīn.",
+    "english": "Every year at this time, taxes have to be paid."
+  },
+  {
+    "word": "阶梯",
+    "sent_simp": "图书馆门前有一段宽阔的阶梯。",
+    "sent_trad": "圖書館門前有一段寬闊的階梯。",
+    "pinyin": "Túshūguǎn mén qián yǒu yī duàn kuānkuò de jiētī.",
+    "english": "There is a wide flight of steps in front of the library."
+  },
+  {
+    "word": "纸条",
+    "sent_simp": "他在桌上留了一张纸条。",
+    "sent_trad": "他在桌上留了一張紙條。",
+    "pinyin": "Tā zài zhuō shàng liú le yī zhāng zhǐtiáo.",
+    "english": "He left a slip of paper on the desk."
+  },
+  {
+    "word": "勃起",
+    "sent_simp": "医生说这种药物可能影响勃起功能。",
+    "sent_trad": "醫生說這種藥物可能影響勃起功能。",
+    "pinyin": "Yīshēng shuō zhè zhǒng yàowù kěnéng yǐngxiǎng bóqǐ gōngnéng.",
+    "english": "The doctor said this medication may affect erectile function."
+  },
+  {
+    "word": "集装箱",
+    "sent_simp": "港口堆满了各种颜色的集装箱。",
+    "sent_trad": "港口堆滿了各種顏色的集裝箱。",
+    "pinyin": "Gǎngkǒu duī mǎn le gèzhǒng yánsè de jízhuāngxiāng.",
+    "english": "The port was piled high with shipping containers of all colors."
+  }
+]

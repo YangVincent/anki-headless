@@ -1,0 +1,282 @@
+[
+  {
+    "word": "意识形态",
+    "sent_simp": "他们的意识形态差异很大。",
+    "sent_trad": "他們的意識形態差異很大。",
+    "pinyin": "Tāmen de yìshi xíngtài chāyì hěn dà.",
+    "english": "Their ideologies are very different."
+  },
+  {
+    "word": "对谈",
+    "sent_simp": "两位教授今天进行了公开对谈。",
+    "sent_trad": "兩位教授今天進行了公開對談。",
+    "pinyin": "Liǎng wèi jiàoshòu jīntiān jìnxíngle gōngkāi duìtán.",
+    "english": "Two professors held a public discussion today."
+  },
+  {
+    "word": "民兵",
+    "sent_simp": "村里的民兵负责夜间巡逻。",
+    "sent_trad": "村裡的民兵負責夜間巡邏。",
+    "pinyin": "Cūn lǐ de mínbīng fùzé yèjiān xúnluó.",
+    "english": "The village militia is responsible for nightly patrols."
+  },
+  {
+    "word": "装甲",
+    "sent_simp": "这辆车装甲很厚，很安全。",
+    "sent_trad": "這輛車裝甲很厚，很安全。",
+    "pinyin": "Zhè liàng chē zhuāngjiǎ hěn hòu, hěn ānquán.",
+    "english": "This vehicle has thick armor and is very safe."
+  },
+  {
+    "word": "公社",
+    "sent_simp": "爷爷曾经住在人民公社里。",
+    "sent_trad": "爺爺曾經住在人民公社裡。",
+    "pinyin": "Yéye céngjīng zhù zài rénmín gōngshè lǐ.",
+    "english": "Grandpa used to live in a people's commune."
+  },
+  {
+    "word": "总长",
+    "sent_simp": "这条路的总长是五十公里。",
+    "sent_trad": "這條路的總長是五十公里。",
+    "pinyin": "Zhè tiáo lù de zǒngcháng shì wǔshí gōnglǐ.",
+    "english": "The total length of this road is fifty kilometers."
+  },
+  {
+    "word": "文本",
+    "sent_simp": "请把这段文本复制到表格里。",
+    "sent_trad": "請把這段文本複製到表格裡。",
+    "pinyin": "Qǐng bǎ zhè duàn wénběn fùzhì dào biǎogé lǐ.",
+    "english": "Please copy this text into the form."
+  },
+  {
+    "word": "以南",
+    "sent_simp": "超市在火车站以南两公里处。",
+    "sent_trad": "超市在火車站以南兩公里處。",
+    "pinyin": "Chāoshì zài huǒchēzhàn yǐnán liǎng gōnglǐ chù.",
+    "english": "The supermarket is two kilometers to the south of the train station."
+  },
+  {
+    "word": "学派",
+    "sent_simp": "这两个学派的观点完全不同。",
+    "sent_trad": "這兩個學派的觀點完全不同。",
+    "pinyin": "Zhè liǎng gè xuépài de guāndiǎn wánquán bùtóng.",
+    "english": "The views of these two schools of thought are completely different."
+  },
+  {
+    "word": "猪肉",
+    "sent_simp": "今天的猪肉比平时便宜一些。",
+    "sent_trad": "今天的豬肉比平時便宜一些。",
+    "pinyin": "Jīntiān de zhūròu bǐ píngshí piányí yīxiē.",
+    "english": "Today's pork is a bit cheaper than usual."
+  },
+  {
+    "word": "彩色",
+    "sent_simp": "孩子们喜欢用彩色铅笔画画。",
+    "sent_trad": "孩子們喜歡用彩色鉛筆畫畫。",
+    "pinyin": "Háizimen xǐhuān yòng cǎisè qiānbǐ huà huà.",
+    "english": "Children love to draw with colored pencils."
+  },
+  {
+    "word": "本届",
+    "sent_simp": "本届运动会共有三十个国家参加。",
+    "sent_trad": "本屆運動會共有三十個國家參加。",
+    "pinyin": "Běn jiè yùndònghuì gòng yǒu sānshí gè guójiā cānjiā.",
+    "english": "This year's games have thirty countries participating."
+  },
+  {
+    "word": "节点",
+    "sent_simp": "网络中有一个节点出现了故障。",
+    "sent_trad": "網絡中有一個節點出現了故障。",
+    "pinyin": "Wǎngluò zhōng yǒu yī gè jiédiǎn chūxiànle gùzhàng.",
+    "english": "One node in the network has failed."
+  },
+  {
+    "word": "花被",
+    "sent_simp": "这朵花的花被颜色非常鲜艳。",
+    "sent_trad": "這朵花的花被顏色非常鮮艷。",
+    "pinyin": "Zhè duǒ huā de huābèi yánsè fēicháng xiānyàn.",
+    "english": "The perianth of this flower is very brightly colored."
+  },
+  {
+    "word": "交易会",
+    "sent_simp": "他每年都去广州参加交易会。",
+    "sent_trad": "他每年都去廣州參加交易會。",
+    "pinyin": "Tā měi nián dōu qù Guǎngzhōu cānjiā jiāoyìhuì.",
+    "english": "He goes to Guangzhou every year to attend the trade fair."
+  },
+  {
+    "word": "国务卿",
+    "sent_simp": "美国国务卿今天访问了北京。",
+    "sent_trad": "美國國務卿今天訪問了北京。",
+    "pinyin": "Měiguó guówùqīng jīntiān fǎngwènle Běijīng.",
+    "english": "The U.S. Secretary of State visited Beijing today."
+  },
+  {
+    "word": "县城",
+    "sent_simp": "他从农村搬到了附近的县城。",
+    "sent_trad": "他從農村搬到了附近的縣城。",
+    "pinyin": "Tā cóng nóngcūn bāndàole fùjìn de xiànchéng.",
+    "english": "He moved from the countryside to the nearby county town."
+  },
+  {
+    "word": "伴侣",
+    "sent_simp": "她和伴侣一起去旅游了。",
+    "sent_trad": "她和伴侶一起去旅遊了。",
+    "pinyin": "Tā hé bànlǚ yīqǐ qù lǚyóu le.",
+    "english": "She went on a trip together with her partner."
+  },
+  {
+    "word": "灯光",
+    "sent_simp": "舞台上的灯光突然暗下来了。",
+    "sent_trad": "舞台上的燈光突然暗下來了。",
+    "pinyin": "Wǔtái shàng de dēngguāng tūrán àn xiàlái le.",
+    "english": "The stage lighting suddenly dimmed."
+  },
+  {
+    "word": "服务业",
+    "sent_simp": "这座城市的服务业发展很快。",
+    "sent_trad": "這座城市的服務業發展很快。",
+    "pinyin": "Zhè zuò chéngshì de fúwùyè fāzhǎn hěn kuài.",
+    "english": "The service industry in this city is developing rapidly."
+  },
+  {
+    "word": "进士",
+    "sent_simp": "他的曾祖父曾是清朝的进士。",
+    "sent_trad": "他的曾祖父曾是清朝的進士。",
+    "pinyin": "Tā de zēngzǔfù céng shì Qīngcháo de jìnshì.",
+    "english": "His great-grandfather was a palace graduate during the Qing dynasty."
+  },
+  {
+    "word": "民政",
+    "sent_simp": "他在民政局工作了十多年。",
+    "sent_trad": "他在民政局工作了十多年。",
+    "pinyin": "Tā zài mínzhèng jú gōngzuò le shí duō nián.",
+    "english": "He has worked at the civil affairs bureau for over ten years."
+  },
+  {
+    "word": "单车",
+    "sent_simp": "他每天骑单车上下班。",
+    "sent_trad": "他每天騎單車上下班。",
+    "pinyin": "Tā měitiān qí dānchē shàngxiàbān.",
+    "english": "He rides his bike to and from work every day."
+  },
+  {
+    "word": "摘要",
+    "sent_simp": "请先看一下这篇论文的摘要。",
+    "sent_trad": "請先看一下這篇論文的摘要。",
+    "pinyin": "Qǐng xiān kàn yīxià zhè piān lùnwén de zhāiyào.",
+    "english": "Please take a look at the abstract of this paper first."
+  },
+  {
+    "word": "用以",
+    "sent_simp": "他存了一些钱，用以备不时之需。",
+    "sent_trad": "他存了一些錢，用以備不時之需。",
+    "pinyin": "Tā cúnle yīxiē qián, yòng yǐ bèi bùshí zhī xū.",
+    "english": "He saved some money so as to be prepared for unexpected needs."
+  },
+  {
+    "word": "神父",
+    "sent_simp": "神父每周日都会做弥撒。",
+    "sent_trad": "神父每週日都會做彌撒。",
+    "pinyin": "Shénfù měi zhōurì dōu huì zuò mísa.",
+    "english": "The priest holds Mass every Sunday."
+  },
+  {
+    "word": "门票",
+    "sent_simp": "这个展览的门票已经卖完了。",
+    "sent_trad": "這個展覽的門票已經賣完了。",
+    "pinyin": "Zhège zhǎnlǎn de ménpiào yǐjīng mài wán le.",
+    "english": "Tickets for this exhibition are already sold out."
+  },
+  {
+    "word": "公交车",
+    "sent_simp": "我每天坐公交车去上班。",
+    "sent_trad": "我每天坐公交車去上班。",
+    "pinyin": "Wǒ měitiān zuò gōngjiāochē qù shàngbān.",
+    "english": "I take the bus to work every day."
+  },
+  {
+    "word": "世纪末",
+    "sent_simp": "这栋建筑是在世纪末建成的。",
+    "sent_trad": "這棟建築是在世紀末建成的。",
+    "pinyin": "Zhè dòng jiànzhú shì zài shìjìmò jiànchéng de.",
+    "english": "This building was completed at the end of the century."
+  },
+  {
+    "word": "进驻",
+    "sent_simp": "新的咖啡品牌已进驻这栋楼。",
+    "sent_trad": "新的咖啡品牌已進駐這棟樓。",
+    "pinyin": "Xīn de kāfēi pǐnpái yǐ jìnzhù zhè dòng lóu.",
+    "english": "A new coffee brand has established a presence in this building."
+  },
+  {
+    "word": "航空公司",
+    "sent_simp": "这家航空公司的服务非常好。",
+    "sent_trad": "這家航空公司的服務非常好。",
+    "pinyin": "Zhè jiā hángkōng gōngsī de fúwù fēicháng hǎo.",
+    "english": "This airline's service is excellent."
+  },
+  {
+    "word": "收录",
+    "sent_simp": "这本词典收录了五万个词条。",
+    "sent_trad": "這本詞典收錄了五萬個詞條。",
+    "pinyin": "Zhè běn cídiǎn shōulùle wǔwàn gè cítiáo.",
+    "english": "This dictionary includes fifty thousand entries."
+  },
+  {
+    "word": "农药",
+    "sent_simp": "买蔬菜前要检查有没有残余农药。",
+    "sent_trad": "買蔬菜前要檢查有沒有殘餘農藥。",
+    "pinyin": "Mǎi shūcài qián yào jiǎnchá yǒu méiyǒu cányú nóngyào.",
+    "english": "Before buying vegetables, check whether there are pesticide residues."
+  },
+  {
+    "word": "死水",
+    "sent_simp": "池塘里的死水散发出一股异味。",
+    "sent_trad": "池塘裡的死水散發出一股異味。",
+    "pinyin": "Chítáng lǐ de sǐshuǐ sànfā chū yī gǔ yìwèi.",
+    "english": "The stagnant water in the pond gives off an unpleasant smell."
+  },
+  {
+    "word": "视角",
+    "sent_simp": "从不同的视角看，结果可能不同。",
+    "sent_trad": "從不同的視角看，結果可能不同。",
+    "pinyin": "Cóng bùtóng de shìjiǎo kàn, jiéguǒ kěnéng bùtóng.",
+    "english": "Viewed from different perspectives, the results may differ."
+  },
+  {
+    "word": "获利",
+    "sent_simp": "他通过炒股获利了不少。",
+    "sent_trad": "他通過炒股獲利了不少。",
+    "pinyin": "Tā tōngguò chǎo gǔ huòlì le bùshǎo.",
+    "english": "He made quite a profit by trading stocks."
+  },
+  {
+    "word": "烟草",
+    "sent_simp": "他戒掉了烟草，身体好多了。",
+    "sent_trad": "他戒掉了煙草，身體好多了。",
+    "pinyin": "Tā jièdiào le yāncǎo, shēntǐ hǎo duō le.",
+    "english": "He quit tobacco and his health improved a lot."
+  },
+  {
+    "word": "保护性",
+    "sent_simp": "这种面霜有保护性的作用。",
+    "sent_trad": "這種面霜有保護性的作用。",
+    "pinyin": "Zhè zhǒng miànchuāng yǒu bǎohùxìng de zuòyòng.",
+    "english": "This face cream has a protective effect."
+  },
+  {
+    "word": "房产",
+    "sent_simp": "她把所有房产都留给了孩子们。",
+    "sent_trad": "她把所有房產都留給了孩子們。",
+    "pinyin": "Tā bǎ suǒyǒu fángchǎn dōu liú gěi le háizimen.",
+    "english": "She left all her real estate to her children."
+  },
+  {
+    "word": "上半年",
+    "sent_simp": "公司上半年的销售额超出了预期。",
+    "sent_trad": "公司上半年的銷售額超出了預期。",
+    "pinyin": "Gōngsī shàngbànnián de xiāoshòué chāochūle yùqī.",
+    "english": "The company's sales in the first half of the year exceeded expectations."
+  }
+]

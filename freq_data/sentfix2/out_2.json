@@ -1,0 +1,282 @@
+[
+  {
+    "word": "变压器",
+    "sent_simp": "这台变压器已经用了十年了。",
+    "sent_trad": "這台變壓器已經用了十年了。",
+    "pinyin": "Zhè tái biànyāqì yǐjīng yòng le shí nián le.",
+    "english": "This transformer has been in use for ten years."
+  },
+  {
+    "word": "变种",
+    "sent_simp": "科学家发现了病毒的新变种。",
+    "sent_trad": "科學家發現了病毒的新變種。",
+    "pinyin": "Kēxuéjiā fāxiàn le bìngdú de xīn biànzhǒng.",
+    "english": "Scientists discovered a new variant of the virus."
+  },
+  {
+    "word": "变量",
+    "sent_simp": "这个公式里有三个变量。",
+    "sent_trad": "這個公式裡有三個變量。",
+    "pinyin": "Zhège gōngshì lǐ yǒu sān gè biànliàng.",
+    "english": "There are three variables in this formula."
+  },
+  {
+    "word": "句式",
+    "sent_simp": "老师讲解了这种句式的用法。",
+    "sent_trad": "老師講解了這種句式的用法。",
+    "pinyin": "Lǎoshī jiǎngjiě le zhè zhǒng jùshì de yòngfǎ.",
+    "english": "The teacher explained the usage of this sentence pattern."
+  },
+  {
+    "word": "合作伙伴",
+    "sent_simp": "我们找到了一个可靠的合作伙伴。",
+    "sent_trad": "我們找到了一個可靠的合作夥伴。",
+    "pinyin": "Wǒmen zhǎodào le yī gè kěkào de hézuò huǒbàn.",
+    "english": "We found a reliable cooperative partner."
+  },
+  {
+    "word": "同质",
+    "sent_simp": "这两种产品同质化严重。",
+    "sent_trad": "這兩種產品同質化嚴重。",
+    "pinyin": "Zhè liǎng zhǒng chǎnpǐn tóngzhì huà yánzhòng.",
+    "english": "These two products are highly homogeneous."
+  },
+  {
+    "word": "名词",
+    "sent_simp": "「桌子」是一个名词。",
+    "sent_trad": "「桌子」是一個名詞。",
+    "pinyin": "「Zhuōzi」 shì yī gè míngcí.",
+    "english": "\"Table\" is a noun."
+  },
+  {
+    "word": "后脚",
+    "sent_simp": "他前脚刚走，后脚她就来了。",
+    "sent_trad": "他前腳剛走，後腳她就來了。",
+    "pinyin": "Tā qiánjiǎo gāng zǒu, hòujiǎo tā jiù lái le.",
+    "english": "He had barely left when she arrived right after."
+  },
+  {
+    "word": "吧台",
+    "sent_simp": "他坐在吧台边点了一杯咖啡。",
+    "sent_trad": "他坐在吧台邊點了一杯咖啡。",
+    "pinyin": "Tā zuò zài bātái biān diǎn le yī bēi kāfēi.",
+    "english": "He sat at the bar counter and ordered a cup of coffee."
+  },
+  {
+    "word": "吨级",
+    "sent_simp": "这艘船属于万吨级货轮。",
+    "sent_trad": "這艘船屬於萬噸級貨輪。",
+    "pinyin": "Zhè sōu chuán shǔyú wàn dūnjí huòlún.",
+    "english": "This ship is a ten-thousand-ton class freighter."
+  },
+  {
+    "word": "商家",
+    "sent_simp": "很多商家在节假日打折促销。",
+    "sent_trad": "很多商家在節假日打折促銷。",
+    "pinyin": "Hěn duō shāngjiā zài jiéjiàrì dǎzhé cùxiāo.",
+    "english": "Many merchants offer discounts during holidays."
+  },
+  {
+    "word": "四海",
+    "sent_simp": "他为人豪爽，四海皆兄弟。",
+    "sent_trad": "他為人豪爽，四海皆兄弟。",
+    "pinyin": "Tā wéirén háoshuǎng, sìhǎi jiē xiōngdì.",
+    "english": "He is generous and treats everyone in the world as brothers."
+  },
+  {
+    "word": "围观",
+    "sent_simp": "街上发生了事故，许多人围观。",
+    "sent_trad": "街上發生了事故，許多人圍觀。",
+    "pinyin": "Jiē shàng fāshēng le shìgù, xǔduō rén wéiguān.",
+    "english": "An accident happened on the street and many people gathered to watch."
+  },
+  {
+    "word": "固态",
+    "sent_simp": "水在零度以下会变成固态。",
+    "sent_trad": "水在零度以下會變成固態。",
+    "pinyin": "Shuǐ zài líng dù yǐxià huì biànchéng gùtài.",
+    "english": "Water turns into a solid state below zero degrees."
+  },
+  {
+    "word": "国书",
+    "sent_simp": "大使向总统递交了国书。",
+    "sent_trad": "大使向總統遞交了國書。",
+    "pinyin": "Dàshǐ xiàng zǒngtǒng dìjiāo le guóshū.",
+    "english": "The ambassador presented his credentials to the president."
+  },
+  {
+    "word": "国务",
+    "sent_simp": "他负责处理国务方面的事务。",
+    "sent_trad": "他負責處理國務方面的事務。",
+    "pinyin": "Tā fùzé chǔlǐ guówù fāngmiàn de shìwù.",
+    "english": "He is responsible for handling affairs of state."
+  },
+  {
+    "word": "圆圈",
+    "sent_simp": "请在正确答案上画一个圆圈。",
+    "sent_trad": "請在正確答案上畫一個圓圈。",
+    "pinyin": "Qǐng zài zhèngquè dá'àn shàng huà yī gè yuánquān.",
+    "english": "Please draw a circle around the correct answer."
+  },
+  {
+    "word": "地势",
+    "sent_simp": "这里地势较高，视野开阔。",
+    "sent_trad": "這裡地勢較高，視野開闊。",
+    "pinyin": "Zhèlǐ dìshì jiào gāo, shìyě kāikuò.",
+    "english": "The terrain here is relatively high with a wide view."
+  },
+  {
+    "word": "地图集",
+    "sent_simp": "图书馆里有一本世界地图集。",
+    "sent_trad": "圖書館裡有一本世界地圖集。",
+    "pinyin": "Túshūguǎn lǐ yǒu yī běn shìjiè dìtújí.",
+    "english": "There is a world atlas in the library."
+  },
+  {
+    "word": "地球化学",
+    "sent_simp": "她在大学学习地球化学专业。",
+    "sent_trad": "她在大學學習地球化學專業。",
+    "pinyin": "Tā zài dàxué xuéxí dìqiú huàxué zhuānyè.",
+    "english": "She studies geochemistry at university."
+  },
+  {
+    "word": "地震学",
+    "sent_simp": "他是专门研究地震学的教授。",
+    "sent_trad": "他是專門研究地震學的教授。",
+    "pinyin": "Tā shì zhuānmén yánjiū dìzhènxué de jiàoshòu.",
+    "english": "He is a professor who specializes in seismology."
+  },
+  {
+    "word": "型式",
+    "sent_simp": "这款产品有多种型式可选。",
+    "sent_trad": "這款產品有多種型式可選。",
+    "pinyin": "Zhè kuǎn chǎnpǐn yǒu duō zhǒng xíngshì kě xuǎn.",
+    "english": "This product comes in multiple types to choose from."
+  },
+  {
+    "word": "垮台",
+    "sent_simp": "管理混乱导致公司最终垮台。",
+    "sent_trad": "管理混亂導致公司最終垮台。",
+    "pinyin": "Guǎnlǐ hǔnluàn dǎozhì gōngsī zuìzhōng kuǎtái.",
+    "english": "Poor management caused the company to eventually collapse."
+  },
+  {
+    "word": "堆积",
+    "sent_simp": "桌上堆积了很多未读的文件。",
+    "sent_trad": "桌上堆積了很多未讀的文件。",
+    "pinyin": "Zhuō shàng duījī le hěn duō wèi dú de wénjiàn.",
+    "english": "A pile of unread documents has accumulated on the desk."
+  },
+  {
+    "word": "堕胎",
+    "sent_simp": "医生向她解释了堕胎的相关风险。",
+    "sent_trad": "醫生向她解釋了墮胎的相關風險。",
+    "pinyin": "Yīshēng xiàng tā jiěshì le duòtāi de xiāngguān fēngxiǎn.",
+    "english": "The doctor explained the relevant risks of abortion to her."
+  },
+  {
+    "word": "增设",
+    "sent_simp": "学校决定增设一门选修课。",
+    "sent_trad": "學校決定增設一門選修課。",
+    "pinyin": "Xuéxiào juédìng zēngshè yī mén xuǎnxiū kè.",
+    "english": "The school decided to add an elective course."
+  },
+  {
+    "word": "增长率",
+    "sent_simp": "今年的经济增长率超过了预期。",
+    "sent_trad": "今年的經濟增長率超過了預期。",
+    "pinyin": "Jīnnián de jīngjì zēngzhǎnglǜ chāoguò le yùqī.",
+    "english": "This year's economic growth rate exceeded expectations."
+  },
+  {
+    "word": "声带",
+    "sent_simp": "他感冒后声带发炎，说不了话。",
+    "sent_trad": "他感冒後聲帶發炎，說不了話。",
+    "pinyin": "Tā gǎnmào hòu shēngdài fāyán, shuō bù liǎo huà.",
+    "english": "After catching a cold, his vocal cords became inflamed and he couldn't speak."
+  },
+  {
+    "word": "备注",
+    "sent_simp": "表格最后一栏是备注，可以填写说明。",
+    "sent_trad": "表格最後一欄是備註，可以填寫說明。",
+    "pinyin": "Biǎogé zuìhòu yī lán shì bèizhù, kěyǐ tiánxiě shuōmíng.",
+    "english": "The last column of the form is for remarks where you can fill in notes."
+  },
+  {
+    "word": "外快",
+    "sent_simp": "他周末做兼职来赚点外快。",
+    "sent_trad": "他週末做兼職來賺點外快。",
+    "pinyin": "Tā zhōumò zuò jiānzhí lái zuàn diǎn wàikuài.",
+    "english": "He does part-time work on weekends to earn some extra income."
+  },
+  {
+    "word": "多彩",
+    "sent_simp": "节日的街道装饰得多彩多姿。",
+    "sent_trad": "節日的街道裝飾得多彩多姿。",
+    "pinyin": "Jiérì de jiēdào zhuāngshì de duōcǎi duōzī.",
+    "english": "The festival streets are decorated in a colorful and lively way."
+  },
+  {
+    "word": "大理石",
+    "sent_simp": "这栋建筑的地板用的是大理石。",
+    "sent_trad": "這棟建築的地板用的是大理石。",
+    "pinyin": "Zhè dòng jiànzhú de dìbǎn yòng de shì dàlǐshí.",
+    "english": "The floor of this building is made of marble."
+  },
+  {
+    "word": "大豆",
+    "sent_simp": "豆腐是用大豆制作的。",
+    "sent_trad": "豆腐是用大豆製作的。",
+    "pinyin": "Dòufu shì yòng dàdòu zhìzuò de.",
+    "english": "Tofu is made from soybeans."
+  },
+  {
+    "word": "天干",
+    "sent_simp": "农历纪年用天干地支来表示。",
+    "sent_trad": "農曆紀年用天干地支來表示。",
+    "pinyin": "Nónglì jìnián yòng tiāngān dìzhī lái biǎoshì.",
+    "english": "The lunar calendar uses the heavenly stems and earthly branches to mark years."
+  },
+  {
+    "word": "太阳风",
+    "sent_simp": "太阳风会影响地球的磁场。",
+    "sent_trad": "太陽風會影響地球的磁場。",
+    "pinyin": "Tàiyángfēng huì yǐngxiǎng dìqiú de cíchǎng.",
+    "english": "Solar wind can affect Earth's magnetic field."
+  },
+  {
+    "word": "失衡",
+    "sent_simp": "长期熬夜会导致身体失衡。",
+    "sent_trad": "長期熬夜會導致身體失衡。",
+    "pinyin": "Chángqī áoyè huì dǎozhì shēntǐ shīhéng.",
+    "english": "Staying up late for a long time can cause the body to become imbalanced."
+  },
+  {
+    "word": "夺权",
+    "sent_simp": "副总裁试图在公司内部夺权。",
+    "sent_trad": "副總裁試圖在公司內部奪權。",
+    "pinyin": "Fù zǒngcái shìtú zài gōngsī nèibù duóquán.",
+    "english": "The vice president attempted to seize power within the company."
+  },
+  {
+    "word": "好不好",
+    "sent_simp": "我们明天一起去，好不好？",
+    "sent_trad": "我們明天一起去，好不好？",
+    "pinyin": "Wǒmen míngtiān yīqǐ qù, hǎo bu hǎo?",
+    "english": "Let's go together tomorrow, OK?"
+  },
+  {
+    "word": "如是",
+    "sent_simp": "他如是说，大家都点头同意。",
+    "sent_trad": "他如是說，大家都點頭同意。",
+    "pinyin": "Tā rúshì shuō, dàjiā dōu diǎntóu tóngyì.",
+    "english": "He said thus, and everyone nodded in agreement."
+  },
+  {
+    "word": "妇人",
+    "sent_simp": "一位妇人在公园里散步。",
+    "sent_trad": "一位婦人在公園裡散步。",
+    "pinyin": "Yī wèi fùrén zài gōngyuán lǐ sànbù.",
+    "english": "A woman was taking a walk in the park."
+  }
+]

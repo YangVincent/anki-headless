@@ -1,0 +1,282 @@
+[
+  {
+    "word": "星系",
+    "sent_simp": "银河系是我们所在的星系。",
+    "sent_trad": "銀河系是我們所在的星系。",
+    "pinyin": "Yínhé xì shì wǒmen suǒ zài de xīngxì.",
+    "english": "The Milky Way is the galaxy we live in."
+  },
+  {
+    "word": "氧化",
+    "sent_simp": "铁在潮湿的环境中容易氧化。",
+    "sent_trad": "鐵在潮濕的環境中容易氧化。",
+    "pinyin": "Tiě zài cháoshī de huánjìng zhōng róngyì yǎnghuà.",
+    "english": "Iron oxidizes easily in a damp environment."
+  },
+  {
+    "word": "内化",
+    "sent_simp": "他把老师的建议内化成了自己的习惯。",
+    "sent_trad": "他把老師的建議內化成了自己的習慣。",
+    "pinyin": "Tā bǎ lǎoshī de jiànyì nèihuà chéngle zìjǐ de xíguàn.",
+    "english": "He internalized his teacher's advice into his own habits."
+  },
+  {
+    "word": "数学家",
+    "sent_simp": "这位数学家年轻时就解出了难题。",
+    "sent_trad": "這位數學家年輕時就解出了難題。",
+    "pinyin": "Zhè wèi shùxuéjiā niánqīng shí jiù jiě chūle nántí.",
+    "english": "This mathematician solved the difficult problem at a young age."
+  },
+  {
+    "word": "传感器",
+    "sent_simp": "手机上的传感器能检测到温度变化。",
+    "sent_trad": "手機上的傳感器能檢測到溫度變化。",
+    "pinyin": "Shǒujī shàng de chuángǎnqì néng jiǎncè dào wēndù biànhuà.",
+    "english": "The sensor on the phone can detect temperature changes."
+  },
+  {
+    "word": "民航",
+    "sent_simp": "他在民航公司工作了十年。",
+    "sent_trad": "他在民航公司工作了十年。",
+    "pinyin": "Tā zài mínháng gōngsī gōngzuòle shí nián.",
+    "english": "He has worked at a civil aviation company for ten years."
+  },
+  {
+    "word": "宣判",
+    "sent_simp": "法院今天上午正式宣判了结果。",
+    "sent_trad": "法院今天上午正式宣判了結果。",
+    "pinyin": "Fǎyuàn jīntiān shàngwǔ zhèngshì xuānpànle jiéguǒ.",
+    "english": "The court officially delivered its verdict this morning."
+  },
+  {
+    "word": "心神",
+    "sent_simp": "考试前他心神不定，睡不着觉。",
+    "sent_trad": "考試前他心神不定，睡不著覺。",
+    "pinyin": "Kǎoshì qián tā xīnshén bùdìng, shuì bu zháo jiào.",
+    "english": "Before the exam he was unsettled in mind and couldn't sleep."
+  },
+  {
+    "word": "出包",
+    "sent_simp": "活动策划出包了，现场一片混乱。",
+    "sent_trad": "活動策劃出包了，現場一片混亂。",
+    "pinyin": "Huódòng cèhuà chū bāo le, xiànchǎng yīpiàn hùnluàn.",
+    "english": "The event planning ran into problems and the venue was chaotic."
+  },
+  {
+    "word": "供水",
+    "sent_simp": "这条管道负责向全区供水。",
+    "sent_trad": "這條管道負責向全區供水。",
+    "pinyin": "Zhè tiáo guǎndào fùzé xiàng quán qū gōngshuǐ.",
+    "english": "This pipeline is responsible for supplying water to the entire district."
+  },
+  {
+    "word": "交通警察",
+    "sent_simp": "路口的交通警察正在指挥车流。",
+    "sent_trad": "路口的交通警察正在指揮車流。",
+    "pinyin": "Lùkǒu de jiāotōng jǐngchá zhèngzài zhǐhuī chēliú.",
+    "english": "The traffic police at the intersection are directing the traffic."
+  },
+  {
+    "word": "打坐",
+    "sent_simp": "她每天早上打坐二十分钟来放松身心。",
+    "sent_trad": "她每天早上打坐二十分鐘來放鬆身心。",
+    "pinyin": "Tā měitiān zǎoshang dǎzuò èrshí fēnzhōng lái fàngsōng shēnxīn.",
+    "english": "She meditates for twenty minutes every morning to relax body and mind."
+  },
+  {
+    "word": "分级",
+    "sent_simp": "这部电影被分级为适合成人观看。",
+    "sent_trad": "這部電影被分級為適合成人觀看。",
+    "pinyin": "Zhè bù diànyǐng bèi fēnjí wéi shìhé chéngrén guānkàn.",
+    "english": "This movie was classified as suitable for adult viewers."
+  },
+  {
+    "word": "读经",
+    "sent_simp": "爷爷每天清晨都会读经半小时。",
+    "sent_trad": "爺爺每天清晨都會讀經半小時。",
+    "pinyin": "Yéye měitiān qīngchén dōu huì dújīng bàn xiǎoshí.",
+    "english": "Grandpa reads scriptures for half an hour every morning."
+  },
+  {
+    "word": "弹劾",
+    "sent_simp": "议会对该官员提出了弹劾动议。",
+    "sent_trad": "議會對該官員提出了彈劾動議。",
+    "pinyin": "Yìhuì duì gāi guānyuán tíchūle tánhé dòngyì.",
+    "english": "The parliament filed an impeachment motion against the official."
+  },
+  {
+    "word": "固体",
+    "sent_simp": "冰是水的固体形态。",
+    "sent_trad": "冰是水的固體形態。",
+    "pinyin": "Bīng shì shuǐ de gùtǐ xíngtài.",
+    "english": "Ice is the solid form of water."
+  },
+  {
+    "word": "矿山",
+    "sent_simp": "这座矿山已经开采了五十多年。",
+    "sent_trad": "這座礦山已經開採了五十多年。",
+    "pinyin": "Zhè zuò kuàngshān yǐjīng kāicǎile wǔshí duō nián.",
+    "english": "This mine has been in operation for over fifty years."
+  },
+  {
+    "word": "大炮",
+    "sent_simp": "博物馆里展示着一门古老的大炮。",
+    "sent_trad": "博物館裡展示著一門古老的大炮。",
+    "pinyin": "Bówùguǎn lǐ zhǎnshì zhe yī mén gǔlǎo de dàpào.",
+    "english": "An ancient cannon is on display in the museum."
+  },
+  {
+    "word": "以东",
+    "sent_simp": "超市在车站以东两百米处。",
+    "sent_trad": "超市在車站以東兩百米處。",
+    "pinyin": "Chāoshì zài chēzhàn yǐdōng liǎng bǎi mǐ chù.",
+    "english": "The supermarket is two hundred meters to the east of the station."
+  },
+  {
+    "word": "地表",
+    "sent_simp": "地表温度在夏天可以高达六十度。",
+    "sent_trad": "地表溫度在夏天可以高達六十度。",
+    "pinyin": "Dìbiǎo wēndù zài xiàtiān kěyǐ gāodá liùshí dù.",
+    "english": "Surface temperatures can reach sixty degrees Celsius in summer."
+  },
+  {
+    "word": "安于",
+    "sent_simp": "他安于平淡的生活，从不羡慕别人。",
+    "sent_trad": "他安於平淡的生活，從不羨慕別人。",
+    "pinyin": "Tā ānyú píngdàn de shēnghuó, cóng bù xiànmù biérén.",
+    "english": "He is content with a simple life and never envies others."
+  },
+  {
+    "word": "无度",
+    "sent_simp": "他喝酒无度，最终伤了身体。",
+    "sent_trad": "他喝酒無度，最終傷了身體。",
+    "pinyin": "Tā hējiǔ wúdù, zuìzhōng shāngle shēntǐ.",
+    "english": "His immoderate drinking eventually ruined his health."
+  },
+  {
+    "word": "先知",
+    "sent_simp": "没有人能真正预见未来，除非是先知。",
+    "sent_trad": "沒有人能真正預見未來，除非是先知。",
+    "pinyin": "Méiyǒu rén néng zhēnzhèng yùjiàn wèilái, chúfēi shì xiānzhī.",
+    "english": "No one can truly foresee the future unless they are a prophet."
+  },
+  {
+    "word": "门户",
+    "sent_simp": "这个网站是当地最大的信息门户。",
+    "sent_trad": "這個網站是當地最大的信息門戶。",
+    "pinyin": "Zhège wǎngzhàn shì dāngdì zuì dà de xìnxī ménhù.",
+    "english": "This website is the largest local information portal."
+  },
+  {
+    "word": "交互",
+    "sent_simp": "这款应用的交互设计很直观易用。",
+    "sent_trad": "這款應用的交互設計很直觀易用。",
+    "pinyin": "Zhè kuǎn yìngyòng de jiāohù shèjì hěn zhíguān yìyòng.",
+    "english": "The interaction design of this app is very intuitive and easy to use."
+  },
+  {
+    "word": "脚本",
+    "sent_simp": "导演昨晚改了脚本里的结局。",
+    "sent_trad": "導演昨晚改了腳本裡的結局。",
+    "pinyin": "Dǎoyǎn zuówǎn gǎile jiǎoběn lǐ de jiéjú.",
+    "english": "The director changed the ending in the script last night."
+  },
+  {
+    "word": "神性",
+    "sent_simp": "许多文化认为神性存在于自然之中。",
+    "sent_trad": "許多文化認為神性存在於自然之中。",
+    "pinyin": "Xǔduō wénhuà rènwéi shénxìng cúnzài yú zìrán zhī zhōng.",
+    "english": "Many cultures believe that divinity exists within nature."
+  },
+  {
+    "word": "北国",
+    "sent_simp": "北国的冬天寒冷而漫长。",
+    "sent_trad": "北國的冬天寒冷而漫長。",
+    "pinyin": "Běiguó de dōngtiān hánlěng ér màncháng.",
+    "english": "Winter in the northern regions is cold and long."
+  },
+  {
+    "word": "兼并",
+    "sent_simp": "大公司兼并了这家小型科技公司。",
+    "sent_trad": "大公司兼併了這家小型科技公司。",
+    "pinyin": "Dà gōngsī jiānbìngle zhè jiā xiǎoxíng kējì gōngsī.",
+    "english": "The large company acquired this small tech firm."
+  },
+  {
+    "word": "线性",
+    "sent_simp": "这道题考查的是线性方程的解法。",
+    "sent_trad": "這道題考查的是線性方程的解法。",
+    "pinyin": "Zhè dào tí kǎochá de shì xiànxìng fāngchéng de jiěfǎ.",
+    "english": "This problem tests the method for solving linear equations."
+  },
+  {
+    "word": "区块",
+    "sent_simp": "每个区块都记录了一批交易信息。",
+    "sent_trad": "每個區塊都記錄了一批交易信息。",
+    "pinyin": "Měi gè qūkuài dōu jìlùle yī pī jiāoyì xìnxī.",
+    "english": "Each block records a batch of transaction information."
+  },
+  {
+    "word": "编纂",
+    "sent_simp": "这部词典由百名学者历时十年编纂完成。",
+    "sent_trad": "這部詞典由百名學者歷時十年編纂完成。",
+    "pinyin": "Zhè bù cídiǎn yóu bǎi míng xuézhě lìshí shí nián biānzuǎn wánchéng.",
+    "english": "This dictionary was compiled by a hundred scholars over ten years."
+  },
+  {
+    "word": "报价",
+    "sent_simp": "供应商今天发来了最新的报价单。",
+    "sent_trad": "供應商今天發來了最新的報價單。",
+    "pinyin": "Gōngyìngshāng jīntiān fā lái le zuìxīn de bàojià dān.",
+    "english": "The supplier sent over the latest price quote today."
+  },
+  {
+    "word": "要不然",
+    "sent_simp": "你快点出门，要不然会迟到的。",
+    "sent_trad": "你快點出門，要不然會遲到的。",
+    "pinyin": "Nǐ kuài diǎn chūmén, yàobùrán huì chídào de.",
+    "english": "You should leave soon, otherwise you'll be late."
+  },
+  {
+    "word": "剪辑",
+    "sent_simp": "他花了一整天剪辑这段旅行视频。",
+    "sent_trad": "他花了一整天剪輯這段旅行視頻。",
+    "pinyin": "Tā huāle yī zhěng tiān jiǎnjí zhè duàn lǚxíng shìpín.",
+    "english": "He spent a whole day editing this travel video."
+  },
+  {
+    "word": "性生活",
+    "sent_simp": "健康的性生活对夫妻关系有积极影响。",
+    "sent_trad": "健康的性生活對夫妻關係有積極影響。",
+    "pinyin": "Jiànkāng de xìngshēnghuó duì fūqī guānxi yǒu jījí yǐngxiǎng.",
+    "english": "A healthy sex life has a positive impact on a couple's relationship."
+  },
+  {
+    "word": "旧名",
+    "sent_simp": "这条街的旧名叫做和平路。",
+    "sent_trad": "這條街的舊名叫做和平路。",
+    "pinyin": "Zhè tiáo jiē de jiùmíng jiào zuò Hépíng Lù.",
+    "english": "The former name of this street was Heping Road."
+  },
+  {
+    "word": "共同利益",
+    "sent_simp": "两国之间存在广泛的共同利益。",
+    "sent_trad": "兩國之間存在廣泛的共同利益。",
+    "pinyin": "Liǎng guó zhījiān cúnzài guǎngfàn de gòngtóng lìyì.",
+    "english": "There are extensive common interests between the two countries."
+  },
+  {
+    "word": "教宗",
+    "sent_simp": "教宗在梵蒂冈向信众发表了讲话。",
+    "sent_trad": "教宗在梵蒂岡向信眾發表了講話。",
+    "pinyin": "Jiàozōng zài Fàndìgāng xiàng xìnzhòng fābiǎole jiǎnghuà.",
+    "english": "The pope addressed the faithful in Vatican City."
+  },
+  {
+    "word": "智库",
+    "sent_simp": "政府参考了几家知名智库的研究报告。",
+    "sent_trad": "政府參考了幾家知名智庫的研究報告。",
+    "pinyin": "Zhèngfǔ cānkǎole jǐ jiā zhīmíng zhìkù de yánjiū bàogào.",
+    "english": "The government consulted research reports from several well-known think tanks."
+  }
+]

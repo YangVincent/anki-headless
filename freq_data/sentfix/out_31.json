@@ -1,0 +1,282 @@
+[
+  {
+    "word": "仓储",
+    "sent_simp": "公司新建了一座仓储中心。",
+    "sent_trad": "公司新建了一座倉儲中心。",
+    "pinyin": "Gōngsī xīn jiàn le yī zuò cāngchǔ zhōngxīn.",
+    "english": "The company built a new warehousing center."
+  },
+  {
+    "word": "长诗",
+    "sent_simp": "他花了三年写完这首长诗。",
+    "sent_trad": "他花了三年寫完這首長詩。",
+    "pinyin": "Tā huā le sān nián xiě wán zhè shǒu cháng shī.",
+    "english": "He spent three years finishing this long poem."
+  },
+  {
+    "word": "储量",
+    "sent_simp": "这个油田的储量非常丰富。",
+    "sent_trad": "這個油田的儲量非常豐富。",
+    "pinyin": "Zhège yóutián de chǔliàng fēicháng fēngfù.",
+    "english": "The reserves in this oil field are very abundant."
+  },
+  {
+    "word": "挂机",
+    "sent_simp": "电话说完就挂机，别等太久。",
+    "sent_trad": "電話說完就掛機，別等太久。",
+    "pinyin": "Diànhuà shuō wán jiù guà jī, bié děng tài jiǔ.",
+    "english": "Hang up as soon as you're done talking; don't wait too long."
+  },
+  {
+    "word": "通胀",
+    "sent_simp": "今年通胀让日常开销涨了不少。",
+    "sent_trad": "今年通脹讓日常開銷漲了不少。",
+    "pinyin": "Jīnnián tōngzhàng ràng rìcháng kāixiāo zhǎng le bù shǎo.",
+    "english": "This year's inflation has driven up everyday expenses quite a bit."
+  },
+  {
+    "word": "聊天室",
+    "sent_simp": "他们在聊天室里认识了彼此。",
+    "sent_trad": "他們在聊天室裡認識了彼此。",
+    "pinyin": "Tāmen zài liáotiānshì lǐ rènshi le bǐcǐ.",
+    "english": "They got to know each other in a chat room."
+  },
+  {
+    "word": "保证金",
+    "sent_simp": "租房时要先交一个月的保证金。",
+    "sent_trad": "租房時要先交一個月的保證金。",
+    "pinyin": "Zū fáng shí yào xiān jiāo yī gè yuè de bǎozhèngjīn.",
+    "english": "When renting an apartment you need to pay one month's deposit upfront."
+  },
+  {
+    "word": "祖师",
+    "sent_simp": "他被徒弟们尊为武术的祖师。",
+    "sent_trad": "他被徒弟們尊為武術的祖師。",
+    "pinyin": "Tā bèi túdìmen zūn wéi wǔshù de zǔshī.",
+    "english": "His disciples revere him as the founder of the martial art."
+  },
+  {
+    "word": "自给",
+    "sent_simp": "这个农场基本上能做到蔬菜自给。",
+    "sent_trad": "這個農場基本上能做到蔬菜自給。",
+    "pinyin": "Zhège nóngchǎng jīběn shàng néng zuò dào shūcài zìjǐ.",
+    "english": "This farm is essentially self-sufficient in vegetables."
+  },
+  {
+    "word": "拇指",
+    "sent_simp": "他用拇指按了一下门铃。",
+    "sent_trad": "他用拇指按了一下門鈴。",
+    "pinyin": "Tā yòng mǔzhǐ àn le yīxià ménlíng.",
+    "english": "He pressed the doorbell with his thumb."
+  },
+  {
+    "word": "雪白",
+    "sent_simp": "她洗完的衬衫雪白雪白的。",
+    "sent_trad": "她洗完的襯衫雪白雪白的。",
+    "pinyin": "Tā xǐ wán de chènshān xuěbái xuěbái de.",
+    "english": "The shirt she washed came out snow white."
+  },
+  {
+    "word": "两端",
+    "sent_simp": "绳子的两端分别绑在树上。",
+    "sent_trad": "繩子的兩端分別綁在樹上。",
+    "pinyin": "Shéngzi de liǎng duān fēnbié bǎng zài shù shàng.",
+    "english": "Both ends of the rope are tied to trees."
+  },
+  {
+    "word": "路基",
+    "sent_simp": "施工队正在加固公路的路基。",
+    "sent_trad": "施工隊正在加固公路的路基。",
+    "pinyin": "Shīgōng duì zhèngzài jiāgù gōnglù de lùjī.",
+    "english": "The construction crew is reinforcing the road's roadbed."
+  },
+  {
+    "word": "咖啡店",
+    "sent_simp": "我们在附近那家咖啡店见面吧。",
+    "sent_trad": "我們在附近那家咖啡店見面吧。",
+    "pinyin": "Wǒmen zài fùjìn nà jiā kāfēidiàn jiànmiàn ba.",
+    "english": "Let's meet at that nearby coffee shop."
+  },
+  {
+    "word": "感官",
+    "sent_simp": "这道菜给人很强的感官享受。",
+    "sent_trad": "這道菜給人很強的感官享受。",
+    "pinyin": "Zhè dào cài gěi rén hěn qiáng de gǎnguān xiǎngshòu.",
+    "english": "This dish gives a very strong sensory pleasure."
+  },
+  {
+    "word": "分辨率",
+    "sent_simp": "这台显示器的分辨率很高，图像清晰。",
+    "sent_trad": "這台顯示器的分辨率很高，圖像清晰。",
+    "pinyin": "Zhè tái xiǎnshìqì de fēnbiànlǜ hěn gāo, túxiàng qīngxī.",
+    "english": "This monitor has a very high resolution, so the image is sharp."
+  },
+  {
+    "word": "调转",
+    "sent_simp": "他把车调转方向，往回开。",
+    "sent_trad": "他把車調轉方向，往回開。",
+    "pinyin": "Tā bǎ chē diàozhuǎn fāngxiàng, wǎng huí kāi.",
+    "english": "He turned the car around and drove back."
+  },
+  {
+    "word": "留住",
+    "sent_simp": "好的工作环境才能留住人才。",
+    "sent_trad": "好的工作環境才能留住人才。",
+    "pinyin": "Hǎo de gōngzuò huánjìng cái néng liúzhù réncái.",
+    "english": "A good work environment is what retains talent."
+  },
+  {
+    "word": "译本",
+    "sent_simp": "这本书有好几个中文译本。",
+    "sent_trad": "這本書有好幾個中文譯本。",
+    "pinyin": "Zhè běn shū yǒu hǎo jǐ gè Zhōngwén yìběn.",
+    "english": "This book has several Chinese translations."
+  },
+  {
+    "word": "兄弟姐妹",
+    "sent_simp": "她家有四个兄弟姐妹，很热闹。",
+    "sent_trad": "她家有四個兄弟姐妹，很熱鬧。",
+    "pinyin": "Tā jiā yǒu sì gè xiōngdì jiěmèi, hěn rènao.",
+    "english": "Her family has four siblings; it's very lively."
+  },
+  {
+    "word": "制片人",
+    "sent_simp": "这位制片人投资了好几部大片。",
+    "sent_trad": "這位製片人投資了好幾部大片。",
+    "pinyin": "Zhè wèi zhìpiànrén tóuzī le hǎo jǐ bù dà piàn.",
+    "english": "This film producer has invested in several blockbusters."
+  },
+  {
+    "word": "闲暇",
+    "sent_simp": "他利用闲暇时间学吉他。",
+    "sent_trad": "他利用閒暇時間學吉他。",
+    "pinyin": "Tā lìyòng xiánxiá shíjiān xué jítā.",
+    "english": "He uses his leisure time to learn guitar."
+  },
+  {
+    "word": "古时候",
+    "sent_simp": "古时候人们靠烛光照明。",
+    "sent_trad": "古時候人們靠燭光照明。",
+    "pinyin": "Gǔ shíhou rénmen kào zhúguāng zhàomíng.",
+    "english": "In ancient times, people relied on candlelight for illumination."
+  },
+  {
+    "word": "限期",
+    "sent_simp": "老师限期一周内交作业。",
+    "sent_trad": "老師限期一週內交作業。",
+    "pinyin": "Lǎoshī xiànqī yī zhōu nèi jiāo zuòyè.",
+    "english": "The teacher set a one-week deadline for submitting the assignment."
+  },
+  {
+    "word": "既定",
+    "sent_simp": "会议按既定议程顺利进行。",
+    "sent_trad": "會議按既定議程順利進行。",
+    "pinyin": "Huìyì àn jìdìng yìchéng shùnlì jìnxíng.",
+    "english": "The meeting proceeded smoothly according to the established agenda."
+  },
+  {
+    "word": "贴心",
+    "sent_simp": "他总是帮我想到细节，真贴心。",
+    "sent_trad": "他總是幫我想到細節，真貼心。",
+    "pinyin": "Tā zǒng shì bāng wǒ xiǎngdào xìjié, zhēn tiēxīn.",
+    "english": "He always thinks of the little details for me; he's really considerate."
+  },
+  {
+    "word": "特使",
+    "sent_simp": "总统派特使前往谈判。",
+    "sent_trad": "總統派特使前往談判。",
+    "pinyin": "Zǒngtǒng pài tèshǐ qiánwǎng tánpàn.",
+    "english": "The president sent a special envoy to conduct negotiations."
+  },
+  {
+    "word": "雪球",
+    "sent_simp": "孩子们在院子里滚雪球玩。",
+    "sent_trad": "孩子們在院子裡滾雪球玩。",
+    "pinyin": "Háizimen zài yuànzi lǐ gǔn xuěqiú wán.",
+    "english": "The kids are playing by rolling snowballs in the yard."
+  },
+  {
+    "word": "解禁",
+    "sent_simp": "那款被禁的游戏终于解禁了。",
+    "sent_trad": "那款被禁的遊戲終於解禁了。",
+    "pinyin": "Nà kuǎn bèi jìn de yóuxì zhōngyú jiějìn le.",
+    "english": "That banned game has finally had its ban lifted."
+  },
+  {
+    "word": "毗邻",
+    "sent_simp": "我家毗邻一个小公园，很方便。",
+    "sent_trad": "我家毗鄰一個小公園，很方便。",
+    "pinyin": "Wǒ jiā pílín yī gè xiǎo gōngyuán, hěn fāngbiàn.",
+    "english": "My home is adjacent to a small park, which is very convenient."
+  },
+  {
+    "word": "足球队",
+    "sent_simp": "他从小就加入了学校的足球队。",
+    "sent_trad": "他從小就加入了學校的足球隊。",
+    "pinyin": "Tā cóng xiǎo jiù jiārù le xuéxiào de zúqiú duì.",
+    "english": "He joined the school's soccer team from a young age."
+  },
+  {
+    "word": "缓存",
+    "sent_simp": "清除浏览器缓存后页面加载变快了。",
+    "sent_trad": "清除瀏覽器緩存後頁面加載變快了。",
+    "pinyin": "Qīngchú liúlǎnqì huǎncún hòu yèmiàn jiāzǎi biàn kuài le.",
+    "english": "After clearing the browser cache, the page loads faster."
+  },
+  {
+    "word": "离线",
+    "sent_simp": "地铁里没有信号，手机一直离线。",
+    "sent_trad": "地鐵裡沒有信號，手機一直離線。",
+    "pinyin": "Dìtiě lǐ méiyǒu xìnhào, shǒujī yīzhí lí xiàn.",
+    "english": "There's no signal in the subway, so the phone stays offline the whole time."
+  },
+  {
+    "word": "驻军",
+    "sent_simp": "边境附近长期有驻军保卫安全。",
+    "sent_trad": "邊境附近長期有駐軍保衛安全。",
+    "pinyin": "Biānjìng fùjìn chángqī yǒu zhùjūn bǎowèi ānquán.",
+    "english": "There are troops permanently garrisoned near the border to maintain security."
+  },
+  {
+    "word": "矿区",
+    "sent_simp": "这个矿区已经开采了二十多年。",
+    "sent_trad": "這個礦區已經開採了二十多年。",
+    "pinyin": "Zhège kuàngqū yǐjīng kāicǎi le èrshí duō nián.",
+    "english": "This mining area has been in operation for over twenty years."
+  },
+  {
+    "word": "常量",
+    "sent_simp": "程序里的常量不能在运行时改变。",
+    "sent_trad": "程式裡的常量不能在運行時改變。",
+    "pinyin": "Chénxù lǐ de chángliàng bù néng zài yùnxíng shí gǎibiàn.",
+    "english": "Constants in a program cannot be changed at runtime."
+  },
+  {
+    "word": "阐释",
+    "sent_simp": "老师耐心阐释了这首诗的含义。",
+    "sent_trad": "老師耐心闡釋了這首詩的含義。",
+    "pinyin": "Lǎoshī nàixīn chǎnshì le zhè shǒu shī de hányì.",
+    "english": "The teacher patiently explained the meaning of this poem."
+  },
+  {
+    "word": "购物中心",
+    "sent_simp": "周末那家购物中心人很多。",
+    "sent_trad": "週末那家購物中心人很多。",
+    "pinyin": "Zhōumò nà jiā gòuwù zhōngxīn rén hěn duō.",
+    "english": "That shopping center is very crowded on weekends."
+  },
+  {
+    "word": "朝代",
+    "sent_simp": "唐朝是中国历史上很重要的一个朝代。",
+    "sent_trad": "唐朝是中國歷史上很重要的一個朝代。",
+    "pinyin": "Táng cháo shì Zhōngguó lìshǐ shàng hěn zhòngyào de yī gè cháodài.",
+    "english": "The Tang dynasty is one of the most important dynasties in Chinese history."
+  },
+  {
+    "word": "健身房",
+    "sent_simp": "她每天下班后去健身房锻炼一小时。",
+    "sent_trad": "她每天下班後去健身房鍛煉一小時。",
+    "pinyin": "Tā měitiān xià bān hòu qù jiànshēnfáng duànliàn yī xiǎoshí.",
+    "english": "She goes to the gym for an hour every day after work."
+  }
+]

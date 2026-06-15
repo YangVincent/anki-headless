@@ -1,0 +1,282 @@
+[
+  {
+    "word": "余额",
+    "sent_simp": "我查了一下，银行卡余额还剩两百块。",
+    "sent_trad": "我查了一下，銀行卡餘額還剩兩百塊。",
+    "pinyin": "Wǒ chá le yīxià, yínhángkǎ yú'é hái shèng liǎngbǎi kuài.",
+    "english": "I checked and there's still two hundred yuan left in my bank card balance."
+  },
+  {
+    "word": "尺度",
+    "sent_simp": "这部电影的尺度有点大，不适合孩子看。",
+    "sent_trad": "這部電影的尺度有點大，不適合孩子看。",
+    "pinyin": "Zhè bù diànyǐng de chǐdù yǒudiǎn dà, bù shìhé háizi kàn.",
+    "english": "This movie's content scale is a bit much — not suitable for kids to watch."
+  },
+  {
+    "word": "天干",
+    "sent_simp": "老师让我们背十个天干的顺序。",
+    "sent_trad": "老師讓我們背十個天干的順序。",
+    "pinyin": "Lǎoshī ràng wǒmen bèi shí gè tiāngān de shùnxù.",
+    "english": "The teacher had us memorize the order of the ten heavenly stems."
+  },
+  {
+    "word": "能级",
+    "sent_simp": "电子跃迁时会从高能级跳到低能级。",
+    "sent_trad": "電子躍遷時會從高能級跳到低能級。",
+    "pinyin": "Diànzǐ yuèqiān shí huì cóng gāo néng jí tiào dào dī néng jí.",
+    "english": "When electrons transition, they jump from a higher energy level to a lower one."
+  },
+  {
+    "word": "无人机",
+    "sent_simp": "他用无人机拍了一段很漂亮的航拍视频。",
+    "sent_trad": "他用無人機拍了一段很漂亮的航拍視頻。",
+    "pinyin": "Tā yòng wúrénjī pāi le yī duàn hěn piàoliang de hángpāi shìpín.",
+    "english": "He used a drone to shoot a beautiful aerial video."
+  },
+  {
+    "word": "新派",
+    "sent_simp": "这家餐厅主打新派粤菜，味道很独特。",
+    "sent_trad": "這家餐廳主打新派粵菜，味道很獨特。",
+    "pinyin": "Zhè jiā cāntīng zhǔdǎ xīnpài yuècài, wèidào hěn dútè.",
+    "english": "This restaurant specializes in new-style Cantonese cuisine — the flavor is quite unique."
+  },
+  {
+    "word": "本本",
+    "sent_simp": "我的本本太旧了，开机要等好几分钟。",
+    "sent_trad": "我的本本太舊了，開機要等好幾分鐘。",
+    "pinyin": "Wǒ de běnben tài jiù le, kāijī yào děng hǎo jǐ fēnzhōng.",
+    "english": "My laptop is too old — it takes several minutes to boot up."
+  },
+  {
+    "word": "开办",
+    "sent_simp": "她打算开办一家网络课程平台。",
+    "sent_trad": "她打算開辦一家網絡課程平台。",
+    "pinyin": "Tā dǎsuàn kāibàn yī jiā wǎngluò kèchéng píngtái.",
+    "english": "She plans to set up an online course platform."
+  },
+  {
+    "word": "服务台",
+    "sent_simp": "有问题可以去一楼的服务台咨询。",
+    "sent_trad": "有問題可以去一樓的服務台諮詢。",
+    "pinyin": "Yǒu wèntí kěyǐ qù yī lóu de fúwùtái zīxún.",
+    "english": "If you have any questions, you can ask at the service desk on the first floor."
+  },
+  {
+    "word": "长条",
+    "sent_simp": "她把面团擀成一个长条，再切成小块。",
+    "sent_trad": "她把麵團擀成一個長條，再切成小塊。",
+    "pinyin": "Tā bǎ miàntuán gǎn chéng yī gè cháotiáo, zài qiē chéng xiǎo kuài.",
+    "english": "She rolled the dough into a long strip and then cut it into small pieces."
+  },
+  {
+    "word": "鱼类",
+    "sent_simp": "医生建议他多吃鱼类，少吃红肉。",
+    "sent_trad": "醫生建議他多吃魚類，少吃紅肉。",
+    "pinyin": "Yīshēng jiànyì tā duō chī yúlèi, shǎo chī hóngròu.",
+    "english": "The doctor advised him to eat more fish and less red meat."
+  },
+  {
+    "word": "审计",
+    "sent_simp": "公司每年都要接受一次财务审计。",
+    "sent_trad": "公司每年都要接受一次財務審計。",
+    "pinyin": "Gōngsī měi nián dōu yào jiēshòu yī cì cáiwù shěnjì.",
+    "english": "The company undergoes a financial audit once every year."
+  },
+  {
+    "word": "法西斯",
+    "sent_simp": "这本书详细介绍了法西斯的历史起源。",
+    "sent_trad": "這本書詳細介紹了法西斯的歷史起源。",
+    "pinyin": "Zhè běn shū xiángxì jièshào le fǎxīsī de lìshǐ qǐyuán.",
+    "english": "This book gives a detailed account of the historical origins of fascism."
+  },
+  {
+    "word": "国书",
+    "sent_simp": "新任大使向总统递交了国书。",
+    "sent_trad": "新任大使向總統遞交了國書。",
+    "pinyin": "Xīnrèn dàshǐ xiàng zǒngtǒng dìjiāo le guóshū.",
+    "english": "The newly appointed ambassador presented his credentials to the president."
+  },
+  {
+    "word": "名词",
+    "sent_simp": "老师说"桌子"是一个名词。",
+    "sent_trad": "老師說「桌子」是一個名詞。",
+    "pinyin": "Lǎoshī shuō "zhuōzi" shì yī gè míngcí.",
+    "english": "The teacher said that 'table' is a noun."
+  },
+  {
+    "word": "注意力",
+    "sent_simp": "孩子的注意力很难集中超过二十分钟。",
+    "sent_trad": "孩子的注意力很難集中超過二十分鐘。",
+    "pinyin": "Háizi de zhùyìlì hěn nán jízhōng chāoguò èrshí fēnzhōng.",
+    "english": "It's hard for children to keep their attention focused for more than twenty minutes."
+  },
+  {
+    "word": "预警",
+    "sent_simp": "手机收到了台风预警，提醒大家注意安全。",
+    "sent_trad": "手機收到了颱風預警，提醒大家注意安全。",
+    "pinyin": "Shǒujī shōudào le táifēng yùjǐng, tíxǐng dàjiā zhùyì ānquán.",
+    "english": "A typhoon early warning was received on the phone, reminding everyone to stay safe."
+  },
+  {
+    "word": "记者会",
+    "sent_simp": "发布会后，他们举行了简短的记者会。",
+    "sent_trad": "發布會後，他們舉行了簡短的記者會。",
+    "pinyin": "Fābù huì hòu, tāmen jǔxíng le jiǎnduǎn de jìzhě huì.",
+    "english": "After the launch event, they held a brief press conference."
+  },
+  {
+    "word": "理智",
+    "sent_simp": "生气的时候要保持理智，别冲动。",
+    "sent_trad": "生氣的時候要保持理智，別衝動。",
+    "pinyin": "Shēngqì de shíhou yào bǎochí lǐzhì, bié chōngdòng.",
+    "english": "When you're angry, stay rational — don't act impulsively."
+  },
+  {
+    "word": "全集",
+    "sent_simp": "他把鲁迅的全集都读了一遍。",
+    "sent_trad": "他把魯迅的全集都讀了一遍。",
+    "pinyin": "Tā bǎ Lǔ Xùn de quánjí dōu dú le yī biàn.",
+    "english": "He read through the complete works of Lu Xun once."
+  },
+  {
+    "word": "真真",
+    "sent_simp": "这件事真真让我没想到。",
+    "sent_trad": "這件事真真讓我沒想到。",
+    "pinyin": "Zhè jiàn shì zhēnzhēn ràng wǒ méi xiǎngdào.",
+    "english": "This really and truly caught me off guard."
+  },
+  {
+    "word": "停车场",
+    "sent_simp": "地下停车场里的位子几乎都满了。",
+    "sent_trad": "地下停車場裡的位子幾乎都滿了。",
+    "pinyin": "Dìxià tíngchēchǎng lǐ de wèizi jīhū dōu mǎn le.",
+    "english": "Almost all the spots in the underground parking lot are taken."
+  },
+  {
+    "word": "午夜",
+    "sent_simp": "他忙到午夜才把报告写完。",
+    "sent_trad": "他忙到午夜才把報告寫完。",
+    "pinyin": "Tā máng dào wǔyè cái bǎ bàogào xiě wán.",
+    "english": "He was busy until midnight before he finished writing the report."
+  },
+  {
+    "word": "诉求",
+    "sent_simp": "他们希望管理层认真听取员工的诉求。",
+    "sent_trad": "他們希望管理層認真聽取員工的訴求。",
+    "pinyin": "Tāmen xīwàng guǎnlǐ céng rènzhēn tīngqǔ yuángōng de sùqiú.",
+    "english": "They hope that management will seriously listen to the employees' demands."
+  },
+  {
+    "word": "报时",
+    "sent_simp": "这个老钟每到整点就会报时。",
+    "sent_trad": "這個老鐘每到整點就會報時。",
+    "pinyin": "Zhège lǎo zhōng měi dào zhěngdiǎn jiù huì bàoshí.",
+    "english": "This old clock chimes to announce the time at every full hour."
+  },
+  {
+    "word": "商家",
+    "sent_simp": "平台上有很多商家都在做促销活动。",
+    "sent_trad": "平台上有很多商家都在做促銷活動。",
+    "pinyin": "Píngtái shàng yǒu hěn duō shāngjīa dōu zài zuò cùxiāo huódòng.",
+    "english": "Many merchants on the platform are running promotional deals."
+  },
+  {
+    "word": "专访",
+    "sent_simp": "记者对这位导演做了一次深度专访。",
+    "sent_trad": "記者對這位導演做了一次深度專訪。",
+    "pinyin": "Jìzhě duì zhè wèi dǎoyǎn zuò le yī cì shēndù zhuānfǎng.",
+    "english": "The journalist conducted an in-depth exclusive interview with the director."
+  },
+  {
+    "word": "动物园",
+    "sent_simp": "周末我带孩子去动物园看了大熊猫。",
+    "sent_trad": "週末我帶孩子去動物園看了大熊貓。",
+    "pinyin": "Zhōumò wǒ dài háizi qù dòngwùyuán kàn le dà xióngmāo.",
+    "english": "On the weekend I took the kids to the zoo to see the giant pandas."
+  },
+  {
+    "word": "增设",
+    "sent_simp": "学校决定增设一个图书馆阅览室。",
+    "sent_trad": "學校決定增設一個圖書館閱覽室。",
+    "pinyin": "Xuéxiào juédìng zēngshè yī gè túshūguǎn yuèlǎn shì.",
+    "english": "The school decided to add a library reading room."
+  },
+  {
+    "word": "意味",
+    "sent_simp": "他的沉默意味着他并不同意这个计划。",
+    "sent_trad": "他的沉默意味著他並不同意這個計劃。",
+    "pinyin": "Tā de chénmò yìwèi zhe tā bìng bù tóngyì zhège jìhuà.",
+    "english": "His silence implies that he doesn't actually agree with this plan."
+  },
+  {
+    "word": "研讨会",
+    "sent_simp": "下周她要去北京参加一个学术研讨会。",
+    "sent_trad": "下週她要去北京參加一個學術研討會。",
+    "pinyin": "Xià zhōu tā yào qù Běijīng cānjiā yī gè xuéshù yántǎo huì.",
+    "english": "Next week she's going to Beijing to attend an academic seminar."
+  },
+  {
+    "word": "宪章",
+    "sent_simp": "他们签署了一份保护环境的宪章。",
+    "sent_trad": "他們簽署了一份保護環境的憲章。",
+    "pinyin": "Tāmen qiānshǔ le yī fèn bǎohù huánjìng de xiànzhāng.",
+    "english": "They signed a charter for environmental protection."
+  },
+  {
+    "word": "总台",
+    "sent_simp": "退房时请把钥匙交还给总台。",
+    "sent_trad": "退房時請把鑰匙交還給總台。",
+    "pinyin": "Tuìfáng shí qǐng bǎ yàoshi jiāohuán gěi zǒngtái.",
+    "english": "Please return your key to the front desk when you check out."
+  },
+  {
+    "word": "等式",
+    "sent_simp": "老师在黑板上写了一个简单的等式。",
+    "sent_trad": "老師在黑板上寫了一個簡單的等式。",
+    "pinyin": "Lǎoshī zài hēibǎn shàng xiě le yī gè jiǎndān de děngshì.",
+    "english": "The teacher wrote a simple equation on the blackboard."
+  },
+  {
+    "word": "做文章",
+    "sent_simp": "别在这点小事上做文章，没必要。",
+    "sent_trad": "別在這點小事上做文章，沒必要。",
+    "pinyin": "Bié zài zhè diǎn xiǎoshì shàng zuò wénzhāng, méi bìyào.",
+    "english": "Don't make a big deal out of this little thing — it's not worth it."
+  },
+  {
+    "word": "变量",
+    "sent_simp": "程序里有个变量名字写错了，所以出错了。",
+    "sent_trad": "程式裡有個變量名字寫錯了，所以出錯了。",
+    "pinyin": "Chéngxù lǐ yǒu gè biànliàng míngzi xiě cuò le, suǒyǐ chū cuò le.",
+    "english": "A variable name in the program was written incorrectly, which caused the error."
+  },
+  {
+    "word": "湿地",
+    "sent_simp": "这片湿地是很多候鸟迁徙的必经之地。",
+    "sent_trad": "這片濕地是很多候鳥遷徙的必經之地。",
+    "pinyin": "Zhè piàn shīdì shì hěn duō hòuniǎo qiānxǐ de bì jīng zhī dì.",
+    "english": "This wetland is a must-pass spot for many migratory birds."
+  },
+  {
+    "word": "低地",
+    "sent_simp": "雨季时低地容易发生洪涝。",
+    "sent_trad": "雨季時低地容易發生洪澇。",
+    "pinyin": "Yǔjì shí dīdì róngyì fāshēng hónglào.",
+    "english": "Lowlands are prone to flooding during the rainy season."
+  },
+  {
+    "word": "上街",
+    "sent_simp": "她今天上街买了一些日用品回来。",
+    "sent_trad": "她今天上街買了一些日用品回來。",
+    "pinyin": "Tā jīntiān shàng jiē mǎi le yīxiē rìyòngpǐn huílái.",
+    "english": "She went out shopping today and came back with some everyday supplies."
+  },
+  {
+    "word": "高端",
+    "sent_simp": "这款手机定位高端市场，价格不便宜。",
+    "sent_trad": "這款手機定位高端市場，價格不便宜。",
+    "pinyin": "Zhè kuǎn shǒujī dìngwèi gāoduān shìchǎng, jiàgé bù piányí.",
+    "english": "This phone targets the high-end market, so it doesn't come cheap."
+  }
+]

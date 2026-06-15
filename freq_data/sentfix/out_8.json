@@ -1,0 +1,282 @@
+[
+  {
+    "word": "恐怖分子",
+    "sent_simp": "警方逮捕了一名恐怖分子。",
+    "sent_trad": "警方逮捕了一名恐怖分子。",
+    "pinyin": "Jǐngfāng dàibǔ le yī míng kǒngbù fènzǐ.",
+    "english": "The police arrested a terrorist."
+  },
+  {
+    "word": "参与者",
+    "sent_simp": "所有参与者都收到了一份礼物。",
+    "sent_trad": "所有參與者都收到了一份禮物。",
+    "pinyin": "Suǒyǒu cānyùzhě dōu shōudào le yī fèn lǐwù.",
+    "english": "All participants received a gift."
+  },
+  {
+    "word": "关切",
+    "sent_simp": "妈妈很关切我的健康状况。",
+    "sent_trad": "媽媽很關切我的健康狀況。",
+    "pinyin": "Māma hěn guānqiē wǒ de jiànkāng zhuàngkuàng.",
+    "english": "Mom is very concerned about my health."
+  },
+  {
+    "word": "解密",
+    "sent_simp": "他花了一个小时才解密文件。",
+    "sent_trad": "他花了一個小時才解密文件。",
+    "pinyin": "Tā huā le yī gè xiǎoshí cái jiěmì wénjiàn.",
+    "english": "It took him an hour to decrypt the file."
+  },
+  {
+    "word": "大热",
+    "sent_simp": "这首歌最近大热，到处都在播。",
+    "sent_trad": "這首歌最近大熱，到處都在播。",
+    "pinyin": "Zhè shǒu gē zuìjìn dàrè, dàochù dōu zài bō.",
+    "english": "This song is really popular lately — it's playing everywhere."
+  },
+  {
+    "word": "福音",
+    "sent_simp": "这款新药对患者来说真是福音。",
+    "sent_trad": "這款新藥對患者來說真是福音。",
+    "pinyin": "Zhè kuǎn xīn yào duì huànzhě lái shuō zhēn shì fúyīn.",
+    "english": "This new medicine is truly good news for patients."
+  },
+  {
+    "word": "大度",
+    "sent_simp": "他很大度，没有计较那件事。",
+    "sent_trad": "他很大度，沒有計較那件事。",
+    "pinyin": "Tā hěn dàdù, méiyǒu jìjiào nà jiàn shì.",
+    "english": "He was very magnanimous and didn't make a fuss about the matter."
+  },
+  {
+    "word": "大卡",
+    "sent_simp": "这碗米饭大约有两百大卡。",
+    "sent_trad": "這碗米飯大約有兩百大卡。",
+    "pinyin": "Zhè wǎn mǐfàn dàyuē yǒu liǎng bǎi dàkǎ.",
+    "english": "This bowl of rice has about 200 kilocalories."
+  },
+  {
+    "word": "统一性",
+    "sent_simp": "整个设计缺乏统一性。",
+    "sent_trad": "整個設計缺乏統一性。",
+    "pinyin": "Zhěnggè shèjì quēfá tǒngyīxìng.",
+    "english": "The overall design lacks unity."
+  },
+  {
+    "word": "性交",
+    "sent_simp": "性教育课讲到了性交的相关知识。",
+    "sent_trad": "性教育課講到了性交的相關知識。",
+    "pinyin": "Xìngjiàoyù kè jiǎng dào le xìngjiāo de xiāngguān zhīshi.",
+    "english": "The sex education class covered knowledge related to sexual intercourse."
+  },
+  {
+    "word": "物理学",
+    "sent_simp": "他对物理学非常感兴趣。",
+    "sent_trad": "他對物理學非常感興趣。",
+    "pinyin": "Tā duì wùlǐxué fēicháng gǎn xìngqù.",
+    "english": "He is very interested in physics."
+  },
+  {
+    "word": "地铁站",
+    "sent_simp": "我们在最近的地铁站见面吧。",
+    "sent_trad": "我們在最近的地鐵站見面吧。",
+    "pinyin": "Wǒmen zài zuìjìn de dìtiězhàn jiànmiàn ba.",
+    "english": "Let's meet at the nearest subway station."
+  },
+  {
+    "word": "称重",
+    "sent_simp": "快递员拿起包裹开始称重。",
+    "sent_trad": "快遞員拿起包裹開始稱重。",
+    "pinyin": "Kuàidìyuán ná qǐ bāoguǒ kāishǐ chēngzhòng.",
+    "english": "The courier picked up the package and began weighing it."
+  },
+  {
+    "word": "贪腐",
+    "sent_simp": "政府正在努力打击贪腐现象。",
+    "sent_trad": "政府正在努力打擊貪腐現象。",
+    "pinyin": "Zhèngfǔ zhèngzài nǔlì dǎjī tānfǔ xiànxiàng.",
+    "english": "The government is working hard to combat corruption."
+  },
+  {
+    "word": "选送",
+    "sent_simp": "学校选送她去参加全国比赛。",
+    "sent_trad": "學校選送她去參加全國比賽。",
+    "pinyin": "Xuéxiào xuǎnsòng tā qù cānjiā quánguó bǐsài.",
+    "english": "The school selected and sent her to compete in the national competition."
+  },
+  {
+    "word": "小传",
+    "sent_simp": "书后附有作者的小传。",
+    "sent_trad": "書後附有作者的小傳。",
+    "pinyin": "Shū hòu fù yǒu zuòzhě de xiǎozhuàn.",
+    "english": "At the back of the book there is a brief biography of the author."
+  },
+  {
+    "word": "国际化",
+    "sent_simp": "公司正在推进业务国际化。",
+    "sent_trad": "公司正在推進業務國際化。",
+    "pinyin": "Gōngsī zhèngzài tuījìn yèwù guójìhuà.",
+    "english": "The company is pushing forward with internationalizing its business."
+  },
+  {
+    "word": "运算",
+    "sent_simp": "计算机每秒可以完成数十亿次运算。",
+    "sent_trad": "計算機每秒可以完成數十億次運算。",
+    "pinyin": "Jìsuànjī měi miǎo kěyǐ wánchéng shù shí yì cì yùnsuàn.",
+    "english": "A computer can perform billions of operations per second."
+  },
+  {
+    "word": "税率",
+    "sent_simp": "这类商品的税率是百分之十三。",
+    "sent_trad": "這類商品的稅率是百分之十三。",
+    "pinyin": "Zhè lèi shāngpǐn de shuìlǜ shì bǎifēnzhī shísān.",
+    "english": "The tax rate for this type of goods is thirteen percent."
+  },
+  {
+    "word": "绘制",
+    "sent_simp": "他花了一周时间绘制这张地图。",
+    "sent_trad": "他花了一週時間繪製這張地圖。",
+    "pinyin": "Tā huā le yī zhōu shíjiān huìzhì zhè zhāng dìtú.",
+    "english": "He spent a week drafting this map."
+  },
+  {
+    "word": "检索",
+    "sent_simp": "你可以在数据库里检索这篇论文。",
+    "sent_trad": "你可以在數據庫裡檢索這篇論文。",
+    "pinyin": "Nǐ kěyǐ zài shùjùkù lǐ jiǎnsuǒ zhè piān lùnwén.",
+    "english": "You can retrieve this paper from the database."
+  },
+  {
+    "word": "已婚",
+    "sent_simp": "她在表格上填了已婚。",
+    "sent_trad": "她在表格上填了已婚。",
+    "pinyin": "Tā zài biǎogé shàng tián le yǐhūn.",
+    "english": "She wrote 'married' on the form."
+  },
+  {
+    "word": "医学院",
+    "sent_simp": "他考上了北京的一所医学院。",
+    "sent_trad": "他考上了北京的一所醫學院。",
+    "pinyin": "Tā kǎo shàng le Běijīng de yī suǒ yīxuéyuàn.",
+    "english": "He got into a medical school in Beijing."
+  },
+  {
+    "word": "利益集团",
+    "sent_simp": "这项改革受到了利益集团的阻挠。",
+    "sent_trad": "這項改革受到了利益集團的阻撓。",
+    "pinyin": "Zhè xiàng gǎigé shòudào le lìyì jítuán de zǔnáo.",
+    "english": "This reform was obstructed by interest groups."
+  },
+  {
+    "word": "影院",
+    "sent_simp": "我们周末去影院看新片吧。",
+    "sent_trad": "我們週末去影院看新片吧。",
+    "pinyin": "Wǒmen zhōumò qù yǐngyuàn kàn xīn piàn ba.",
+    "english": "Let's go to the cinema to watch the new film this weekend."
+  },
+  {
+    "word": "由不得",
+    "sent_simp": "这件事由不得你自己决定。",
+    "sent_trad": "這件事由不得你自己決定。",
+    "pinyin": "Zhè jiàn shì yóu bu dé nǐ zìjǐ juédìng.",
+    "english": "This matter is not yours to decide on your own."
+  },
+  {
+    "word": "动物学",
+    "sent_simp": "她在大学主修动物学。",
+    "sent_trad": "她在大學主修動物學。",
+    "pinyin": "Tā zài dàxué zhǔxiū dòngwùxué.",
+    "english": "She majored in zoology at university."
+  },
+  {
+    "word": "特别感谢",
+    "sent_simp": "我想特别感谢所有帮助过我的人。",
+    "sent_trad": "我想特別感謝所有幫助過我的人。",
+    "pinyin": "Wǒ xiǎng tèbié gǎnxiè suǒyǒu bāngzhù guò wǒ de rén.",
+    "english": "I'd like to give special thanks to everyone who has helped me."
+  },
+  {
+    "word": "上半",
+    "sent_simp": "比赛上半结束时比分是一比零。",
+    "sent_trad": "比賽上半結束時比分是一比零。",
+    "pinyin": "Bǐsài shàngbàn jiéshù shí bǐfēn shì yī bǐ líng.",
+    "english": "The score was one to zero at the end of the first half."
+  },
+  {
+    "word": "姑姑",
+    "sent_simp": "我姑姑每年春节都来我们家。",
+    "sent_trad": "我姑姑每年春節都來我們家。",
+    "pinyin": "Wǒ gūgu měi nián Chūnjié dōu lái wǒmen jiā.",
+    "english": "My aunt (father's sister) comes to our house every Spring Festival."
+  },
+  {
+    "word": "宽松",
+    "sent_simp": "她喜欢穿宽松的衣服，感觉舒服。",
+    "sent_trad": "她喜歡穿寬鬆的衣服，感覺舒服。",
+    "pinyin": "Tā xǐhuān chuān kuānsōng de yīfu, gǎnjué shūfu.",
+    "english": "She likes wearing loose clothes because they feel comfortable."
+  },
+  {
+    "word": "警局",
+    "sent_simp": "他去警局报告了丢失钱包的事。",
+    "sent_trad": "他去警局報告了丟失錢包的事。",
+    "pinyin": "Tā qù jǐngjú bàogào le diūshī qiánbāo de shì.",
+    "english": "He went to the police station to report his lost wallet."
+  },
+  {
+    "word": "评级",
+    "sent_simp": "这家酒店刚获得了五星评级。",
+    "sent_trad": "這家酒店剛獲得了五星評級。",
+    "pinyin": "Zhè jiā jiǔdiàn gāng huòdé le wǔ xīng píngjí.",
+    "english": "This hotel just received a five-star rating."
+  },
+  {
+    "word": "维权",
+    "sent_simp": "消费者可以通过投诉渠道维权。",
+    "sent_trad": "消費者可以通過投訴渠道維權。",
+    "pinyin": "Xiāofèizhě kěyǐ tōngguò tóusù qúdào wéiquán.",
+    "english": "Consumers can defend their rights through complaint channels."
+  },
+  {
+    "word": "机械化",
+    "sent_simp": "农业机械化大大提高了生产效率。",
+    "sent_trad": "農業機械化大大提高了生產效率。",
+    "pinyin": "Nóngyè jīxièhuà dàdà tígāo le shēngchǎn xiàolǜ.",
+    "english": "The mechanization of agriculture has greatly increased production efficiency."
+  },
+  {
+    "word": "额度",
+    "sent_simp": "我的信用卡额度不够，付不了款。",
+    "sent_trad": "我的信用卡額度不夠，付不了款。",
+    "pinyin": "Wǒ de xìnyòngkǎ édù bùgòu, fù bu liǎo kuǎn.",
+    "english": "My credit card limit isn't enough to make the payment."
+  },
+  {
+    "word": "三分之一",
+    "sent_simp": "他把三分之一的工资存起来了。",
+    "sent_trad": "他把三分之一的工資存起來了。",
+    "pinyin": "Tā bǎ sānfēnzhīyī de gōngzī cún qǐlái le.",
+    "english": "He saved one third of his salary."
+  },
+  {
+    "word": "黑帮",
+    "sent_simp": "这部电影讲的是黑帮之间的斗争。",
+    "sent_trad": "這部電影講的是黑幫之間的鬥爭。",
+    "pinyin": "Zhè bù diànyǐng jiǎng de shì hēibāng zhījiān de dòuzhēng.",
+    "english": "This film is about the conflict between criminal gangs."
+  },
+  {
+    "word": "享用",
+    "sent_simp": "大家围坐在一起享用丰盛的晚餐。",
+    "sent_trad": "大家圍坐在一起享用豐盛的晚餐。",
+    "pinyin": "Dàjiā wéi zuò zài yīqǐ xiǎngyòng fēngshèng de wǎncān.",
+    "english": "Everyone sat together to enjoy a lavish dinner."
+  },
+  {
+    "word": "群发",
+    "sent_simp": "他群发了一条新年祝福消息。",
+    "sent_trad": "他群發了一條新年祝福消息。",
+    "pinyin": "Tā qúnfā le yī tiáo xīnnián zhùfú xiāoxi.",
+    "english": "He sent a New Year's greeting message to multiple recipients."
+  }
+]

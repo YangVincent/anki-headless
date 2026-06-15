@@ -1,0 +1,282 @@
+[
+  {
+    "word": "书本",
+    "sent_simp": "她把书本整齐地放在书架上。",
+    "sent_trad": "她把書本整齊地放在書架上。",
+    "pinyin": "Tā bǎ shūběn zhěngqí de fàng zài shūjià shàng.",
+    "english": "She neatly arranged the books on the bookshelf."
+  },
+  {
+    "word": "光谱",
+    "sent_simp": "彩虹展示了可见光的光谱。",
+    "sent_trad": "彩虹展示了可見光的光譜。",
+    "pinyin": "Cǎihóng zhǎnshì le kějiànguāng de guāngpǔ.",
+    "english": "A rainbow displays the spectrum of visible light."
+  },
+  {
+    "word": "恋情",
+    "sent_simp": "他们的恋情是从大学开始的。",
+    "sent_trad": "他們的戀情是從大學開始的。",
+    "pinyin": "Tāmen de liànqíng shì cóng dàxué kāishǐ de.",
+    "english": "Their romance started back in college."
+  },
+  {
+    "word": "死亡率",
+    "sent_simp": "这种病的死亡率已经大幅下降。",
+    "sent_trad": "這種病的死亡率已經大幅下降。",
+    "pinyin": "Zhè zhǒng bìng de sǐwánglǜ yǐjīng dàfú xiàjiàng.",
+    "english": "The mortality rate for this disease has dropped significantly."
+  },
+  {
+    "word": "停火",
+    "sent_simp": "双方同意立即停火。",
+    "sent_trad": "雙方同意立即停火。",
+    "pinyin": "Shuāngfāng tóngyì lìjí tínghuǒ.",
+    "english": "Both sides agreed to an immediate ceasefire."
+  },
+  {
+    "word": "移除",
+    "sent_simp": "他从手机里移除了几个不用的应用。",
+    "sent_trad": "他從手機裡移除了幾個不用的應用。",
+    "pinyin": "Tā cóng shǒujī lǐ yíchú le jǐ ge bùyòng de yìngyòng.",
+    "english": "He removed a few unused apps from his phone."
+  },
+  {
+    "word": "提请",
+    "sent_simp": "我想提请大家注意这个问题。",
+    "sent_trad": "我想提請大家注意這個問題。",
+    "pinyin": "Wǒ xiǎng tíqǐng dàjiā zhùyì zhège wèntí.",
+    "english": "I'd like to propose that everyone pay attention to this issue."
+  },
+  {
+    "word": "如故",
+    "sent_simp": "多年没见，我们见面后却一见如故。",
+    "sent_trad": "多年沒見，我們見面後卻一見如故。",
+    "pinyin": "Duō nián méi jiàn, wǒmen jiànmiàn hòu què yī jiàn rú gù.",
+    "english": "We hadn't seen each other in years, but we clicked instantly like old friends."
+  },
+  {
+    "word": "重设",
+    "sent_simp": "我需要重设一下路由器才能上网。",
+    "sent_trad": "我需要重設一下路由器才能上網。",
+    "pinyin": "Wǒ xūyào chóngshè yīxià lùyóuqì cái néng shàngwǎng.",
+    "english": "I need to reset the router to get back online."
+  },
+  {
+    "word": "批复",
+    "sent_simp": "申请已经得到上级的批复。",
+    "sent_trad": "申請已經得到上級的批復。",
+    "pinyin": "Shēnqǐng yǐjīng dédào shàngjí de pīfù.",
+    "english": "The application has received approval from the higher authorities."
+  },
+  {
+    "word": "新生儿",
+    "sent_simp": "医院里有很多新生儿在哭。",
+    "sent_trad": "醫院裡有很多新生兒在哭。",
+    "pinyin": "Yīyuàn lǐ yǒu hěn duō xīnshēng'ér zài kū.",
+    "english": "There are many newborns crying in the hospital."
+  },
+  {
+    "word": "生物工程",
+    "sent_simp": "她在大学学的是生物工程专业。",
+    "sent_trad": "她在大學學的是生物工程專業。",
+    "pinyin": "Tā zài dàxué xué de shì shēngwùgōngchéng zhuānyè.",
+    "english": "She studied bioengineering as her major in college."
+  },
+  {
+    "word": "合伙人",
+    "sent_simp": "他找到了一个可靠的合伙人一起开店。",
+    "sent_trad": "他找到了一個可靠的合夥人一起開店。",
+    "pinyin": "Tā zhǎodào le yī ge kěkào de héhuǒrén yīqǐ kāi diàn.",
+    "english": "He found a reliable partner to open a shop together."
+  },
+  {
+    "word": "山坡",
+    "sent_simp": "孩子们在山坡上跑来跑去。",
+    "sent_trad": "孩子們在山坡上跑來跑去。",
+    "pinyin": "Háizimen zài shānpō shàng pǎolái pǎoqù.",
+    "english": "The children ran back and forth on the hillside."
+  },
+  {
+    "word": "检查员",
+    "sent_simp": "检查员来工厂检查食品安全情况。",
+    "sent_trad": "檢查員來工廠檢查食品安全情況。",
+    "pinyin": "Jiǎncháyuán lái gōngchǎng jiǎnchá shípǐn ānquán qíngkuàng.",
+    "english": "The inspector came to the factory to check food safety conditions."
+  },
+  {
+    "word": "四旧",
+    "sent_simp": "文化大革命期间，破除四旧成了口号。",
+    "sent_trad": "文化大革命期間，破除四舊成了口號。",
+    "pinyin": "Wénhuà Dà Gémìng qījiān, pòchú sì jiù chéng le kǒuhào.",
+    "english": "During the Cultural Revolution, eliminating the Four Olds became a slogan."
+  },
+  {
+    "word": "太阳系",
+    "sent_simp": "太阳系里有八颗行星。",
+    "sent_trad": "太陽系裡有八顆行星。",
+    "pinyin": "Tàiyánɡxì lǐ yǒu bā kē xíngxīng.",
+    "english": "There are eight planets in the solar system."
+  },
+  {
+    "word": "流产",
+    "sent_simp": "她不幸流产了，心情很低落。",
+    "sent_trad": "她不幸流產了，心情很低落。",
+    "pinyin": "Tā bùxìng liúchǎn le, xīnqíng hěn dīluò.",
+    "english": "She unfortunately had a miscarriage and has been feeling down."
+  },
+  {
+    "word": "微波",
+    "sent_simp": "我用微波炉热了一下饭。",
+    "sent_trad": "我用微波爐熱了一下飯。",
+    "pinyin": "Wǒ yòng wēibōlú rè le yīxià fàn.",
+    "english": "I warmed up the rice in the microwave."
+  },
+  {
+    "word": "牛仔",
+    "sent_simp": "他小时候最喜欢扮成牛仔玩。",
+    "sent_trad": "他小時候最喜歡扮成牛仔玩。",
+    "pinyin": "Tā xiǎoshíhòu zuì xǐhuān bànchéng niúzǎi wán.",
+    "english": "As a kid, he loved pretending to be a cowboy."
+  },
+  {
+    "word": "科学研究",
+    "sent_simp": "这项科学研究花了五年时间。",
+    "sent_trad": "這項科學研究花了五年時間。",
+    "pinyin": "Zhè xiàng kēxué yánjiū huā le wǔ nián shíjiān.",
+    "english": "This scientific research took five years to complete."
+  },
+  {
+    "word": "旗舰",
+    "sent_simp": "这款手机是该品牌今年的旗舰产品。",
+    "sent_trad": "這款手機是該品牌今年的旗艦產品。",
+    "pinyin": "Zhè kuǎn shǒujī shì gāi pǐnpái jīnnián de qíjiàn chǎnpǐn.",
+    "english": "This phone is the brand's flagship product this year."
+  },
+  {
+    "word": "奢华",
+    "sent_simp": "酒店的装修非常奢华。",
+    "sent_trad": "酒店的裝修非常奢華。",
+    "pinyin": "Jiǔdiàn de zhuāngxiū fēicháng shēhuá.",
+    "english": "The hotel's decor is extremely luxurious."
+  },
+  {
+    "word": "来意",
+    "sent_simp": "他说明了来意后，我们开始谈正事。",
+    "sent_trad": "他說明了來意後，我們開始談正事。",
+    "pinyin": "Tā shuōmíng le láiyì hòu, wǒmen kāishǐ tán zhèngshì.",
+    "english": "After he explained his purpose in coming, we got down to business."
+  },
+  {
+    "word": "取向",
+    "sent_simp": "每个人都有权选择自己的价值取向。",
+    "sent_trad": "每個人都有權選擇自己的價值取向。",
+    "pinyin": "Měi ge rén dōu yǒu quán xuǎnzé zìjǐ de jiàzhí qǔxiàng.",
+    "english": "Everyone has the right to choose their own value orientation."
+  },
+  {
+    "word": "周岁",
+    "sent_simp": "宝宝明天就满一周岁了。",
+    "sent_trad": "寶寶明天就滿一週歲了。",
+    "pinyin": "Bǎobao míngtiān jiù mǎn yī zhōusuì le.",
+    "english": "The baby will turn one full year old tomorrow."
+  },
+  {
+    "word": "球赛",
+    "sent_simp": "今晚有一场球赛，我们一起看吧。",
+    "sent_trad": "今晚有一場球賽，我們一起看吧。",
+    "pinyin": "Jīn wǎn yǒu yī chǎng qiúsài, wǒmen yīqǐ kàn ba.",
+    "english": "There's a game tonight — let's watch it together."
+  },
+  {
+    "word": "套房",
+    "sent_simp": "他们订了一间海景套房度蜜月。",
+    "sent_trad": "他們訂了一間海景套房度蜜月。",
+    "pinyin": "Tāmen dìng le yī jiān hǎijǐng tàofáng dù mìyuè.",
+    "english": "They booked an ocean-view suite for their honeymoon."
+  },
+  {
+    "word": "电影演员",
+    "sent_simp": "她从小的梦想就是成为电影演员。",
+    "sent_trad": "她從小的夢想就是成為電影演員。",
+    "pinyin": "Tā cóngxiǎo de mèngxiǎng jiùshì chéngwéi diànyǐng yǎnyuán.",
+    "english": "Her childhood dream was to become a movie actress."
+  },
+  {
+    "word": "据称",
+    "sent_simp": "据称这家餐厅的厨师曾在法国学艺。",
+    "sent_trad": "據稱這家餐廳的廚師曾在法國學藝。",
+    "pinyin": "Jùchēng zhè jiā cāntīng de chúshī céng zài Fǎguó xuéyì.",
+    "english": "It is said the chef at this restaurant once trained in France."
+  },
+  {
+    "word": "入神",
+    "sent_simp": "他看书看得入神，没听到我叫他。",
+    "sent_trad": "他看書看得入神，沒聽到我叫他。",
+    "pinyin": "Tā kàn shū kàn de rùshén, méi tīngdào wǒ jiào tā.",
+    "english": "He was so engrossed in his book that he didn't hear me call him."
+  },
+  {
+    "word": "开源",
+    "sent_simp": "这个软件是开源的，任何人都可以使用。",
+    "sent_trad": "這個軟件是開源的，任何人都可以使用。",
+    "pinyin": "Zhège ruǎnjiàn shì kāiyuán de, rènhé rén dōu kěyǐ shǐyòng.",
+    "english": "This software is open-source and anyone can use it."
+  },
+  {
+    "word": "选择性",
+    "sent_simp": "他的记忆有很强的选择性。",
+    "sent_trad": "他的記憶有很強的選擇性。",
+    "pinyin": "Tā de jìyì yǒu hěn qiáng de xuǎnzéxìng.",
+    "english": "His memory is highly selective."
+  },
+  {
+    "word": "部族",
+    "sent_simp": "这个部族世代住在山里。",
+    "sent_trad": "這個部族世代住在山裡。",
+    "pinyin": "Zhège bùzú shìdài zhù zài shān lǐ.",
+    "english": "This tribe has lived in the mountains for generations."
+  },
+  {
+    "word": "婚纱",
+    "sent_simp": "她试穿婚纱的时候激动得哭了。",
+    "sent_trad": "她試穿婚紗的時候激動得哭了。",
+    "pinyin": "Tā shì chuān hūnshā de shíhòu jīdòng de kū le.",
+    "english": "She burst into tears with excitement when she tried on the wedding dress."
+  },
+  {
+    "word": "匆匆",
+    "sent_simp": "她匆匆吃完早饭就出门了。",
+    "sent_trad": "她匆匆吃完早飯就出門了。",
+    "pinyin": "Tā cōngcōng chī wán zǎofàn jiù chūmén le.",
+    "english": "She hurriedly finished breakfast and headed out the door."
+  },
+  {
+    "word": "层级",
+    "sent_simp": "公司的层级太多，审批很慢。",
+    "sent_trad": "公司的層級太多，審批很慢。",
+    "pinyin": "Gōngsī de cénjí tài duō, shěnpī hěn màn.",
+    "english": "The company has too many levels of hierarchy, which makes approvals slow."
+  },
+  {
+    "word": "购置",
+    "sent_simp": "他们购置了一套新房子。",
+    "sent_trad": "他們購置了一套新房子。",
+    "pinyin": "Tāmen gòuzhì le yī tào xīn fángzi.",
+    "english": "They purchased a new home."
+  },
+  {
+    "word": "急性",
+    "sent_simp": "医生说他得了急性肠胃炎。",
+    "sent_trad": "醫生說他得了急性腸胃炎。",
+    "pinyin": "Yīshēng shuō tā dé le jíxìng chángwèiyán.",
+    "english": "The doctor said he has acute gastroenteritis."
+  },
+  {
+    "word": "选单",
+    "sent_simp": "点击左上角的选单可以切换页面。",
+    "sent_trad": "點擊左上角的選單可以切換頁面。",
+    "pinyin": "Diǎnjī zuǒ shàngjiǎo de xuǎndān kěyǐ qiēhuàn yèmiàn.",
+    "english": "Click the menu in the top-left corner to switch pages."
+  }
+]

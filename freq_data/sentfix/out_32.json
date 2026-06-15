@@ -1,0 +1,282 @@
+[
+  {
+    "word": "产科",
+    "sent_simp": "她在产科工作了十年。",
+    "sent_trad": "她在產科工作了十年。",
+    "pinyin": "Tā zài chǎnkē gōngzuò le shí nián.",
+    "english": "She has worked in the maternity department for ten years."
+  },
+  {
+    "word": "高速路",
+    "sent_simp": "高速路上的车很多。",
+    "sent_trad": "高速路上的車很多。",
+    "pinyin": "Gāosùlù shàng de chē hěn duō.",
+    "english": "There are many cars on the highway."
+  },
+  {
+    "word": "发射场",
+    "sent_simp": "火箭从发射场升空了。",
+    "sent_trad": "火箭從發射場升空了。",
+    "pinyin": "Huǒjiàn cóng fāshèchǎng shēngkōng le.",
+    "english": "The rocket lifted off from the launch site."
+  },
+  {
+    "word": "彩绘",
+    "sent_simp": "这个花瓶上有漂亮的彩绘。",
+    "sent_trad": "這個花瓶上有漂亮的彩繪。",
+    "pinyin": "Zhège huāpíng shàng yǒu piàoliang de cǎihuì.",
+    "english": "This vase has beautiful painted designs on it."
+  },
+  {
+    "word": "黄绿色",
+    "sent_simp": "她买了一件黄绿色的上衣。",
+    "sent_trad": "她買了一件黃綠色的上衣。",
+    "pinyin": "Tā mǎi le yī jiàn huánglǜsè de shàngyī.",
+    "english": "She bought a yellow-green top."
+  },
+  {
+    "word": "避孕",
+    "sent_simp": "医生向她介绍了避孕的方法。",
+    "sent_trad": "醫生向她介紹了避孕的方法。",
+    "pinyin": "Yīshēng xiàng tā jièshào le bìyùn de fāngfǎ.",
+    "english": "The doctor explained contraception methods to her."
+  },
+  {
+    "word": "费拉",
+    "sent_simp": "费拉是埃及农村的普通百姓。",
+    "sent_trad": "費拉是埃及農村的普通百姓。",
+    "pinyin": "Fèilā shì Āijí nóngcūn de pǔtōng bǎixìng.",
+    "english": "Fellah refers to ordinary rural folk in Egypt."
+  },
+  {
+    "word": "法典",
+    "sent_simp": "这部法典规定了公民的权利。",
+    "sent_trad": "這部法典規定了公民的權利。",
+    "pinyin": "Zhè bù fǎdiǎn guīdìng le gōngmín de quánlì.",
+    "english": "This legal code stipulates the rights of citizens."
+  },
+  {
+    "word": "封地",
+    "sent_simp": "国王把那片土地作为封地赐给他。",
+    "sent_trad": "國王把那片土地作為封地賜給他。",
+    "pinyin": "Guówáng bǎ nà piàn tǔdì zuòwéi fēngdì cì gěi tā.",
+    "english": "The king granted him that land as a feudal fiefdom."
+  },
+  {
+    "word": "接单",
+    "sent_simp": "司机每天接单到很晚。",
+    "sent_trad": "司機每天接單到很晚。",
+    "pinyin": "Sījī měitiān jiēdān dào hěn wǎn.",
+    "english": "The driver accepts bookings until very late every day."
+  },
+  {
+    "word": "出口商品",
+    "sent_simp": "这些出口商品质量很好。",
+    "sent_trad": "這些出口商品質量很好。",
+    "pinyin": "Zhèxiē chūkǒu shāngpǐn zhìliàng hěn hǎo.",
+    "english": "These export goods are of very high quality."
+  },
+  {
+    "word": "心气",
+    "sent_simp": "他心气很高，想做大事业。",
+    "sent_trad": "他心氣很高，想做大事業。",
+    "pinyin": "Tā xīnqì hěn gāo, xiǎng zuò dà shìyè.",
+    "english": "He has great ambition and wants to achieve big things."
+  },
+  {
+    "word": "布线",
+    "sent_simp": "工人正在新房子里布线。",
+    "sent_trad": "工人正在新房子裡布線。",
+    "pinyin": "Gōngrén zhèngzài xīn fángzi lǐ bùxiàn.",
+    "english": "Workers are doing the wiring in the new house."
+  },
+  {
+    "word": "或称",
+    "sent_simp": "这种病或称流行性感冒。",
+    "sent_trad": "這種病或稱流行性感冒。",
+    "pinyin": "Zhè zhǒng bìng huòchēng liúxíngxìng gǎnmào.",
+    "english": "This disease is also known as influenza."
+  },
+  {
+    "word": "塞车",
+    "sent_simp": "早高峰经常塞车，我骑车去。",
+    "sent_trad": "早高峰經常塞車，我騎車去。",
+    "pinyin": "Zǎo gāofēng jīngcháng sāichē, wǒ qíchē qù.",
+    "english": "There's often a traffic jam during the morning rush, so I ride my bike."
+  },
+  {
+    "word": "佣金",
+    "sent_simp": "销售员按比例拿佣金。",
+    "sent_trad": "銷售員按比例拿佣金。",
+    "pinyin": "Xiāoshòuyuán àn bǐlì ná yōngjīn.",
+    "english": "Salespeople receive commission based on a percentage."
+  },
+  {
+    "word": "本地人",
+    "sent_simp": "他是本地人，对这里很熟悉。",
+    "sent_trad": "他是本地人，對這裡很熟悉。",
+    "pinyin": "Tā shì běndìrén, duì zhèlǐ hěn shúxī.",
+    "english": "He is a local and knows this place very well."
+  },
+  {
+    "word": "百分之百",
+    "sent_simp": "我百分之百相信他说的话。",
+    "sent_trad": "我百分之百相信他說的話。",
+    "pinyin": "Wǒ bǎifēnzhībǎi xiāngxìn tā shuō de huà.",
+    "english": "I absolutely believe what he said."
+  },
+  {
+    "word": "通电话",
+    "sent_simp": "我们昨晚通电话聊了一个小时。",
+    "sent_trad": "我們昨晚通電話聊了一個小時。",
+    "pinyin": "Wǒmen zuówǎn tōng diànhuà liáo le yī gè xiǎoshí.",
+    "english": "We talked on the phone for an hour last night."
+  },
+  {
+    "word": "漂流",
+    "sent_simp": "暑假我们去河里漂流。",
+    "sent_trad": "暑假我們去河裡漂流。",
+    "pinyin": "Shǔjià wǒmen qù hé lǐ piāoliú.",
+    "english": "We went river rafting during the summer vacation."
+  },
+  {
+    "word": "字形",
+    "sent_simp": "学习汉字要注意字形的结构。",
+    "sent_trad": "學習漢字要注意字形的結構。",
+    "pinyin": "Xuéxí Hànzì yào zhùyì zìxíng de jiégòu.",
+    "english": "When learning Chinese characters, pay attention to the structure of character forms."
+  },
+  {
+    "word": "高声",
+    "sent_simp": "他高声叫了一声，把大家吓到了。",
+    "sent_trad": "他高聲叫了一聲，把大家嚇到了。",
+    "pinyin": "Tā gāoshēng jiào le yī shēng, bǎ dàjiā xià dào le.",
+    "english": "He let out a loud shout and startled everyone."
+  },
+  {
+    "word": "观察员",
+    "sent_simp": "他以观察员身份参加了会议。",
+    "sent_trad": "他以觀察員身份參加了會議。",
+    "pinyin": "Tā yǐ guānchányuán shēnfèn cānjiā le huìyì.",
+    "english": "He attended the meeting in the capacity of an observer."
+  },
+  {
+    "word": "插曲",
+    "sent_simp": "这部电影的插曲非常好听。",
+    "sent_trad": "這部電影的插曲非常好聽。",
+    "pinyin": "Zhè bù diànyǐng de chāqǔ fēicháng hǎotīng.",
+    "english": "The incidental music in this film is very pleasant to listen to."
+  },
+  {
+    "word": "跨国公司",
+    "sent_simp": "她在一家跨国公司上班。",
+    "sent_trad": "她在一家跨國公司上班。",
+    "pinyin": "Tā zài yī jiā kuàguó gōngsī shàngbān.",
+    "english": "She works at a multinational corporation."
+  },
+  {
+    "word": "液压",
+    "sent_simp": "这台机器用液压系统控制。",
+    "sent_trad": "這台機器用液壓系統控制。",
+    "pinyin": "Zhè tái jīqì yòng yèyā xìtǒng kòngzhì.",
+    "english": "This machine is controlled by a hydraulic system."
+  },
+  {
+    "word": "办公楼",
+    "sent_simp": "新办公楼下个月就能用了。",
+    "sent_trad": "新辦公樓下個月就能用了。",
+    "pinyin": "Xīn bàngōnglóu xià gè yuè jiù néng yòng le.",
+    "english": "The new office building will be ready to use next month."
+  },
+  {
+    "word": "佛像",
+    "sent_simp": "寺庙里有一尊金色佛像。",
+    "sent_trad": "寺廟裡有一尊金色佛像。",
+    "pinyin": "Sìmiào lǐ yǒu yī zūn jīnsè fóxiàng.",
+    "english": "There is a golden statue of Buddha in the temple."
+  },
+  {
+    "word": "藏书",
+    "sent_simp": "他家的藏书超过了两千册。",
+    "sent_trad": "他家的藏書超過了兩千冊。",
+    "pinyin": "Tā jiā de cángshū chāoguò le liǎng qiān cè.",
+    "english": "His home library collection exceeds two thousand volumes."
+  },
+  {
+    "word": "核试验",
+    "sent_simp": "各国签约停止核试验。",
+    "sent_trad": "各國簽約停止核試驗。",
+    "pinyin": "Gè guó qiānyuē tíngzhǐ héshìyàn.",
+    "english": "Countries signed an agreement to stop nuclear tests."
+  },
+  {
+    "word": "漠视",
+    "sent_simp": "我们不能漠视身边人的困难。",
+    "sent_trad": "我們不能漠視身邊人的困難。",
+    "pinyin": "Wǒmen bù néng mòshì shēnbiān rén de kùnnán.",
+    "english": "We cannot ignore the difficulties of people around us."
+  },
+  {
+    "word": "以求",
+    "sent_simp": "他努力学习以求通过考试。",
+    "sent_trad": "他努力學習以求通過考試。",
+    "pinyin": "Tā nǔlì xuéxí yǐqiú tōngguò kǎoshì.",
+    "english": "He studied hard in order to pass the exam."
+  },
+  {
+    "word": "飞艇",
+    "sent_simp": "广告飞艇缓缓飞过体育场上空。",
+    "sent_trad": "廣告飛艇緩緩飛過體育場上空。",
+    "pinyin": "Guǎnggào fēitǐng huǎnhuǎn fēiguò tǐyùchǎng shàngkōng.",
+    "english": "An advertising airship slowly flew over the stadium."
+  },
+  {
+    "word": "分部",
+    "sent_simp": "公司在上海设有分部。",
+    "sent_trad": "公司在上海設有分部。",
+    "pinyin": "Gōngsī zài Shànghǎi shè yǒu fēnbù.",
+    "english": "The company has a branch in Shanghai."
+  },
+  {
+    "word": "女巫",
+    "sent_simp": "故事里的女巫会用魔法变苹果。",
+    "sent_trad": "故事裡的女巫會用魔法變蘋果。",
+    "pinyin": "Gùshì lǐ de nǚwū huì yòng mófǎ biàn píngguǒ.",
+    "english": "The witch in the story can use magic to transform apples."
+  },
+  {
+    "word": "小伙",
+    "sent_simp": "那个小伙帮我拿了行李。",
+    "sent_trad": "那個小伙幫我拿了行李。",
+    "pinyin": "Nàge xiǎohuǒ bāng wǒ ná le xínglǐ.",
+    "english": "That young guy helped me carry my luggage."
+  },
+  {
+    "word": "奇幻",
+    "sent_simp": "他喜欢看奇幻类的小说。",
+    "sent_trad": "他喜歡看奇幻類的小說。",
+    "pinyin": "Tā xǐhuān kàn qíhuàn lèi de xiǎoshuō.",
+    "english": "He enjoys reading fantasy novels."
+  },
+  {
+    "word": "打铁",
+    "sent_simp": "老师傅还在用传统方法打铁。",
+    "sent_trad": "老師傅還在用傳統方法打鐵。",
+    "pinyin": "Lǎo shīfu hái zài yòng chuántǒng fāngfǎ dǎtiě.",
+    "english": "The old craftsman still forges ironware using traditional methods."
+  },
+  {
+    "word": "大将军",
+    "sent_simp": "他被封为大将军，统领全军。",
+    "sent_trad": "他被封為大將軍，統領全軍。",
+    "pinyin": "Tā bèi fēng wéi dàjiāngjūn, tǒnglǐng quánjūn.",
+    "english": "He was appointed generalissimo and commanded the entire army."
+  },
+  {
+    "word": "声张",
+    "sent_simp": "这件事先别声张，等确认再说。",
+    "sent_trad": "這件事先別聲張，等確認再說。",
+    "pinyin": "Zhè jiàn shì xiān bié shēngzhāng, děng quèrèn zài shuō.",
+    "english": "Don't make this public yet — wait until it's confirmed."
+  }
+]

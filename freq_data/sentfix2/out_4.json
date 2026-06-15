@@ -1,0 +1,282 @@
+[
+  {
+    "word": "总称",
+    "sent_simp": "这些水果的总称是热带水果。",
+    "sent_trad": "這些水果的總稱是熱帶水果。",
+    "pinyin": "Zhèxiē shuǐguǒ de zǒngchēng shì rèdài shuǐguǒ.",
+    "english": "The generic term for these fruits is tropical fruit."
+  },
+  {
+    "word": "总站",
+    "sent_simp": "公交车总站就在火车站旁边。",
+    "sent_trad": "公交車總站就在火車站旁邊。",
+    "pinyin": "Gōngjiāo chē zǒngzhàn jiù zài huǒchēzhàn pángbiān.",
+    "english": "The bus terminus is right next to the train station."
+  },
+  {
+    "word": "情境",
+    "sent_simp": "在这种情境下，保持冷静最重要。",
+    "sent_trad": "在這種情境下，保持冷靜最重要。",
+    "pinyin": "Zài zhè zhǒng qíngjìng xià, bǎochí lěngjìng zuì zhòngyào.",
+    "english": "In this kind of situation, staying calm is most important."
+  },
+  {
+    "word": "惊吓",
+    "sent_simp": "突然的雷声把孩子惊吓到了。",
+    "sent_trad": "突然的雷聲把孩子驚嚇到了。",
+    "pinyin": "Tūrán de léishēng bǎ háizi jīngxià dào le.",
+    "english": "The sudden thunder frightened the child."
+  },
+  {
+    "word": "意味",
+    "sent_simp": "他的话意味着计划要改变了。",
+    "sent_trad": "他的話意味著計劃要改變了。",
+    "pinyin": "Tā de huà yìwèizhe jìhuà yào gǎibiàn le.",
+    "english": "His words imply that the plan is going to change."
+  },
+  {
+    "word": "意境",
+    "sent_simp": "这首诗的意境非常深远。",
+    "sent_trad": "這首詩的意境非常深遠。",
+    "pinyin": "Zhè shǒu shī de yìjìng fēicháng shēnyuǎn.",
+    "english": "The artistic mood of this poem is very profound."
+  },
+  {
+    "word": "愿景",
+    "sent_simp": "公司的愿景是为所有人服务。",
+    "sent_trad": "公司的願景是為所有人服務。",
+    "pinyin": "Gōngsī de yuànjǐng shì wèi suǒyǒu rén fúwù.",
+    "english": "The company's vision is to serve everyone."
+  },
+  {
+    "word": "戏院",
+    "sent_simp": "我们周末去戏院看了一场京剧。",
+    "sent_trad": "我們週末去戲院看了一場京劇。",
+    "pinyin": "Wǒmen zhōumò qù xìyuàn kàn le yī chǎng jīngjù.",
+    "english": "We went to the theater to watch a Peking opera on the weekend."
+  },
+  {
+    "word": "房地产",
+    "sent_simp": "他在北京投资了一些房地产。",
+    "sent_trad": "他在北京投資了一些房地產。",
+    "pinyin": "Tā zài Běijīng tóuzī le yīxiē fángdìchǎn.",
+    "english": "He invested in some real estate in Beijing."
+  },
+  {
+    "word": "所指",
+    "sent_simp": "这个词的所指因地区不同而有差异。",
+    "sent_trad": "這個詞的所指因地區不同而有差異。",
+    "pinyin": "Zhège cí de suǒzhǐ yīn dìqū bùtóng ér yǒu chāyì.",
+    "english": "What this word refers to differs by region."
+  },
+  {
+    "word": "打码",
+    "sent_simp": "编辑对视频中的车牌进行了打码。",
+    "sent_trad": "編輯對視頻中的車牌進行了打碼。",
+    "pinyin": "Biānjí duì shìpín zhōng de chēpái jìnxíng le dǎmǎ.",
+    "english": "The editor pixelated the license plates in the video."
+  },
+  {
+    "word": "打结",
+    "sent_simp": "她把绳子打结固定在树上。",
+    "sent_trad": "她把繩子打結固定在樹上。",
+    "pinyin": "Tā bǎ shéngzi dǎjié gùdìng zài shù shàng.",
+    "english": "She tied a knot in the rope to secure it to the tree."
+  },
+  {
+    "word": "批号",
+    "sent_simp": "请核对一下产品上的批号。",
+    "sent_trad": "請核對一下產品上的批號。",
+    "pinyin": "Qǐng héduì yīxià chǎnpǐn shàng de pīhào.",
+    "english": "Please check the batch number on the product."
+  },
+  {
+    "word": "把玩",
+    "sent_simp": "他喜欢把玩各种古董小物件。",
+    "sent_trad": "他喜歡把玩各種古董小物件。",
+    "pinyin": "Tā xǐhuān bǎwán gè zhǒng gǔdǒng xiǎo wùjiàn.",
+    "english": "He enjoys fiddling with all kinds of small antique items."
+  },
+  {
+    "word": "报时",
+    "sent_simp": "收音机每整点都会自动报时。",
+    "sent_trad": "收音機每整點都會自動報時。",
+    "pinyin": "Shōuyīnjī měi zhěngdiǎn dōu huì zìdòng bàoshí.",
+    "english": "The radio automatically gives the time at every hour."
+  },
+  {
+    "word": "报表",
+    "sent_simp": "财务部每月都要提交一份报表。",
+    "sent_trad": "財務部每月都要提交一份報表。",
+    "pinyin": "Cáiwù bù měi yuè dōu yào tíjiāo yī fèn bàobiǎo.",
+    "english": "The finance department must submit a report form every month."
+  },
+  {
+    "word": "拷贝",
+    "sent_simp": "请把这个文件拷贝一份给我。",
+    "sent_trad": "請把這個文件拷貝一份給我。",
+    "pinyin": "Qǐng bǎ zhège wénjiàn kǎobèi yī fèn gěi wǒ.",
+    "english": "Please make a copy of this file for me."
+  },
+  {
+    "word": "拼写",
+    "sent_simp": "她检查了邮件中的拼写错误。",
+    "sent_trad": "她檢查了郵件中的拼寫錯誤。",
+    "pinyin": "Tā jiǎnchá le yóujiàn zhōng de pīnxiě cuòwù.",
+    "english": "She checked the spelling errors in the email."
+  },
+  {
+    "word": "指代",
+    "sent_simp": "这里的\"他\"指代的是谁？",
+    "sent_trad": "這裡的「他」指代的是誰？",
+    "pinyin": "Zhèlǐ de \"tā\" zhǐdài de shì shuí?",
+    "english": "Who does \"he\" refer to here?"
+  },
+  {
+    "word": "指挥家",
+    "sent_simp": "著名指挥家今晚将亲自登台。",
+    "sent_trad": "著名指揮家今晚將親自登台。",
+    "pinyin": "Zhùmíng zhǐhuījiā jīn wǎn jiāng qīnzì dēngtái.",
+    "english": "The famous conductor will take the stage in person tonight."
+  },
+  {
+    "word": "捕捞",
+    "sent_simp": "这片海域禁止过度捕捞鱼类。",
+    "sent_trad": "這片海域禁止過度捕撈魚類。",
+    "pinyin": "Zhè piàn hǎiyù jìnzhǐ guòdù bǔlāo yúlèi.",
+    "english": "Overfishing is prohibited in this sea area."
+  },
+  {
+    "word": "改期",
+    "sent_simp": "会议因故改期到下周三。",
+    "sent_trad": "會議因故改期到下週三。",
+    "pinyin": "Huìyì yīn gù gǎiqī dào xià zhōu sān.",
+    "english": "The meeting has been rescheduled to next Wednesday."
+  },
+  {
+    "word": "放空",
+    "sent_simp": "他每天午休时都会放空一会儿。",
+    "sent_trad": "他每天午休時都會放空一會兒。",
+    "pinyin": "Tā měi tiān wǔxiū shí dōu huì fàngkōng yīhuìr.",
+    "english": "He empties his mind for a while during his lunch break every day."
+  },
+  {
+    "word": "故地",
+    "sent_simp": "退休后她回到故地探望旧友。",
+    "sent_trad": "退休後她回到故地探望舊友。",
+    "pinyin": "Tuìxiū hòu tā huídào gùdì tànwàng jiùyǒu.",
+    "english": "After retiring she returned to her old haunts to visit old friends."
+  },
+  {
+    "word": "效应",
+    "sent_simp": "这项政策产生了明显的蝴蝶效应。",
+    "sent_trad": "這項政策產生了明顯的蝴蝶效應。",
+    "pinyin": "Zhè xiàng zhèngcè chǎnshēng le míngxiǎn de húdié xiàoyìng.",
+    "english": "This policy produced an obvious butterfly effect."
+  },
+  {
+    "word": "教士",
+    "sent_simp": "一位教士在教堂门口迎接信徒。",
+    "sent_trad": "一位教士在教堂門口迎接信徒。",
+    "pinyin": "Yī wèi jiàoshì zài jiàotáng ménkǒu yíngjiē xìntú.",
+    "english": "A clergyman welcomed the congregation at the church door."
+  },
+  {
+    "word": "教皇",
+    "sent_simp": "教皇每年都会向全球信徒发表祝词。",
+    "sent_trad": "教皇每年都會向全球信徒發表祝詞。",
+    "pinyin": "Jiàohuáng měi nián dōu huì xiàng quánqiú xìntú fābiǎo zhùcí.",
+    "english": "The pope delivers a blessing to believers worldwide every year."
+  },
+  {
+    "word": "数据流",
+    "sent_simp": "服务器需要处理大量的数据流。",
+    "sent_trad": "服務器需要處理大量的數據流。",
+    "pinyin": "Fúwùqì xūyào chǔlǐ dàliàng de shùjùliú.",
+    "english": "The server needs to process a large volume of data streams."
+  },
+  {
+    "word": "新意",
+    "sent_simp": "这道菜的做法很有新意。",
+    "sent_trad": "這道菜的做法很有新意。",
+    "pinyin": "Zhè dào cài de zuòfǎ hěn yǒu xīnyì.",
+    "english": "The way this dish is made is very creative."
+  },
+  {
+    "word": "新派",
+    "sent_simp": "他属于公司里的新派管理风格。",
+    "sent_trad": "他屬於公司裡的新派管理風格。",
+    "pinyin": "Tā shǔyú gōngsī lǐ de xīnpài guǎnlǐ fēnggé.",
+    "english": "He represents the new-school management style in the company."
+  },
+  {
+    "word": "新闻界",
+    "sent_simp": "这一事件引起了新闻界的广泛关注。",
+    "sent_trad": "這一事件引起了新聞界的廣泛關注。",
+    "pinyin": "Zhè yī shìjiàn yǐnqǐ le xīnwénjiè de guǎngfàn guānzhù.",
+    "english": "This event attracted widespread attention from the media."
+  },
+  {
+    "word": "旁听",
+    "sent_simp": "她申请旁听了一节大学公开课。",
+    "sent_trad": "她申請旁聽了一節大學公開課。",
+    "pinyin": "Tā shēnqǐng pángtīng le yī jié dàxué gōngkāikè.",
+    "english": "She applied to sit in on a university open lecture."
+  },
+  {
+    "word": "无人机",
+    "sent_simp": "摄影师用无人机拍摄了壮观的航拍。",
+    "sent_trad": "攝影師用無人機拍攝了壯觀的航拍。",
+    "pinyin": "Shèyǐngshī yòng wúrénjī pāishè le zhuànguān de hángpāi.",
+    "english": "The photographer used a drone to capture spectacular aerial footage."
+  },
+  {
+    "word": "无望",
+    "sent_simp": "在医生看来，这个病例并非无望。",
+    "sent_trad": "在醫生看來，這個病例並非無望。",
+    "pinyin": "Zài yīshēng kànlái, zhège bìnglì bìng fēi wúwàng.",
+    "english": "In the doctor's view, this case is not without hope."
+  },
+  {
+    "word": "无物",
+    "sent_simp": "房间空旷，四壁无物。",
+    "sent_trad": "房間空曠，四壁無物。",
+    "pinyin": "Fángjiān kōngkuàng, sì bì wúwù.",
+    "english": "The room was wide open with nothing on the four walls."
+  },
+  {
+    "word": "无道",
+    "sent_simp": "历史上许多无道的统治者最终都被推翻。",
+    "sent_trad": "歷史上許多無道的統治者最終都被推翻。",
+    "pinyin": "Lìshǐ shàng xǔduō wúdào de tǒngzhìzhě zuìzhōng dōu bèi tuīfān.",
+    "english": "Many tyrannical rulers throughout history were ultimately overthrown."
+  },
+  {
+    "word": "日日",
+    "sent_simp": "她日日坚持练习书法。",
+    "sent_trad": "她日日堅持練習書法。",
+    "pinyin": "Tā rìrì jiānchí liànxí shūfǎ.",
+    "english": "She practices calligraphy every single day."
+  },
+  {
+    "word": "时任",
+    "sent_simp": "时任市长出席了开幕式。",
+    "sent_trad": "時任市長出席了開幕式。",
+    "pinyin": "Shí rèn shìzhǎng chūxí le kāimùshì.",
+    "english": "The then mayor attended the opening ceremony."
+  },
+  {
+    "word": "时钟",
+    "sent_simp": "墙上的时钟显示现在是下午三点。",
+    "sent_trad": "牆上的時鐘顯示現在是下午三點。",
+    "pinyin": "Qiáng shàng de shízhōng xiǎnshì xiànzài shì xiàwǔ sān diǎn.",
+    "english": "The clock on the wall shows it is three o'clock in the afternoon."
+  },
+  {
+    "word": "是的",
+    "sent_simp": "是的，我已经收到了你发的邮件。",
+    "sent_trad": "是的，我已經收到了你發的郵件。",
+    "pinyin": "Shì de, wǒ yǐjīng shōudào le nǐ fā de yóujiàn.",
+    "english": "Yes, I have already received the email you sent."
+  }
+]

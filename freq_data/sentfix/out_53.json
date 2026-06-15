@@ -1,0 +1,282 @@
+[
+  {
+    "word": "存货",
+    "sent_simp": "仓库里的存货已经不多了。",
+    "sent_trad": "倉庫裡的存貨已經不多了。",
+    "pinyin": "Cāngkù lǐ de cúnhuò yǐjīng bù duō le.",
+    "english": "There isn't much inventory left in the warehouse."
+  },
+  {
+    "word": "总称",
+    "sent_simp": "这些水果的总称是热带水果。",
+    "sent_trad": "這些水果的總稱是熱帶水果。",
+    "pinyin": "Zhèxiē shuǐguǒ de zǒngchēng shì rèdài shuǐguǒ.",
+    "english": "The generic term for these fruits is tropical fruit."
+  },
+  {
+    "word": "征兵",
+    "sent_simp": "政府宣布开始新一轮征兵。",
+    "sent_trad": "政府宣布開始新一輪征兵。",
+    "pinyin": "Zhèngfǔ xuānbù kāishǐ xīn yī lún zhēngbīng.",
+    "english": "The government announced the start of a new round of military recruitment."
+  },
+  {
+    "word": "无望",
+    "sent_simp": "他感到这件事已经无望了。",
+    "sent_trad": "他感到這件事已經無望了。",
+    "pinyin": "Tā gǎndào zhè jiàn shì yǐjīng wúwàng le.",
+    "english": "He felt that this matter was already hopeless."
+  },
+  {
+    "word": "新闻界",
+    "sent_simp": "新闻界对这件事非常关注。",
+    "sent_trad": "新聞界對這件事非常關注。",
+    "pinyin": "Xīnwénjiè duì zhè jiàn shì fēicháng guānzhù.",
+    "english": "The press paid close attention to this matter."
+  },
+  {
+    "word": "争先",
+    "sent_simp": "大家争先报名参加比赛。",
+    "sent_trad": "大家爭先報名參加比賽。",
+    "pinyin": "Dàjiā zhēngxiān bàomíng cānjiā bǐsài.",
+    "english": "Everyone rushed to sign up for the competition."
+  },
+  {
+    "word": "放空",
+    "sent_simp": "下班后我喜欢坐着放空一会儿。",
+    "sent_trad": "下班後我喜歡坐著放空一會兒。",
+    "pinyin": "Xiàbān hòu wǒ xǐhuān zuòzhe fàngkōng yīhuìr.",
+    "english": "After work I like to sit and empty my mind for a while."
+  },
+  {
+    "word": "附上",
+    "sent_simp": "邮件里附上了合同文件。",
+    "sent_trad": "郵件裡附上了合同文件。",
+    "pinyin": "Yóujiàn lǐ fùshàng le hétong wénjiàn.",
+    "english": "The contract document is attached to the email."
+  },
+  {
+    "word": "参阅",
+    "sent_simp": "具体操作请参阅使用说明书。",
+    "sent_trad": "具體操作請參閱使用說明書。",
+    "pinyin": "Jùtǐ cāozuò qǐng cānyuè shǐyòng shuōmíngshū.",
+    "english": "For specific operations, please refer to the user manual."
+  },
+  {
+    "word": "性病",
+    "sent_simp": "医生建议定期检查是否感染性病。",
+    "sent_trad": "醫生建議定期檢查是否感染性病。",
+    "pinyin": "Yīshēng jiànyì dìngqī jiǎnchá shìfǒu gǎnrǎn xìngbìng.",
+    "english": "The doctor recommends regular check-ups for sexually transmitted diseases."
+  },
+  {
+    "word": "型式",
+    "sent_simp": "这款产品有三种型式可以选择。",
+    "sent_trad": "這款產品有三種型式可以選擇。",
+    "pinyin": "Zhè kuǎn chǎnpǐn yǒu sān zhǒng xíngshì kěyǐ xuǎnzé.",
+    "english": "This product comes in three types to choose from."
+  },
+  {
+    "word": "受训",
+    "sent_simp": "新员工需要受训两周才能上岗。",
+    "sent_trad": "新員工需要受訓兩週才能上崗。",
+    "pinyin": "Xīn yuángōng xūyào shòuxùn liǎng zhōu cái néng shànggǎng.",
+    "english": "New employees need two weeks of training before they can start work."
+  },
+  {
+    "word": "笔录",
+    "sent_simp": "警察把他说的话全部记入笔录。",
+    "sent_trad": "警察把他說的話全部記入筆錄。",
+    "pinyin": "Jǐngchá bǎ tā shuō de huà quánbù jì rù bǐlù.",
+    "english": "The police put everything he said into the written record."
+  },
+  {
+    "word": "金融危机",
+    "sent_simp": "金融危机导致很多人失业。",
+    "sent_trad": "金融危機導致很多人失業。",
+    "pinyin": "Jīnróng wēijī dǎozhì hěn duō rén shīyè.",
+    "english": "The financial crisis caused many people to lose their jobs."
+  },
+  {
+    "word": "轻取",
+    "sent_simp": "主队以三比零轻取对手。",
+    "sent_trad": "主隊以三比零輕取對手。",
+    "pinyin": "Zhǔduì yǐ sān bǐ líng qīngqǔ duìshǒu.",
+    "english": "The home team beat their opponents easily three to zero."
+  },
+  {
+    "word": "传唱",
+    "sent_simp": "这首歌被一代代人传唱至今。",
+    "sent_trad": "這首歌被一代代人傳唱至今。",
+    "pinyin": "Zhè shǒu gē bèi yīdài dài rén chuánchàng zhìjīn.",
+    "english": "This song has been passed down and sung from generation to generation."
+  },
+  {
+    "word": "西端",
+    "sent_simp": "图书馆位于街道的西端。",
+    "sent_trad": "圖書館位於街道的西端。",
+    "pinyin": "Túshūguǎn wèiyú jiēdào de xīduān.",
+    "english": "The library is located at the western end of the street."
+  },
+  {
+    "word": "邻里",
+    "sent_simp": "邻里之间应该互相帮助。",
+    "sent_trad": "鄰里之間應該互相幫助。",
+    "pinyin": "Línlǐ zhījiān yīnggāi hùxiāng bāngzhù.",
+    "english": "Neighbors should help each other."
+  },
+  {
+    "word": "乳腺癌",
+    "sent_simp": "早期发现乳腺癌治愈率很高。",
+    "sent_trad": "早期發現乳腺癌治癒率很高。",
+    "pinyin": "Zǎoqī fāxiàn rǔxiàn'ái zhìyù lǜ hěn gāo.",
+    "english": "When breast cancer is detected early, the cure rate is very high."
+  },
+  {
+    "word": "菜系",
+    "sent_simp": "川菜是中国最受欢迎的菜系之一。",
+    "sent_trad": "川菜是中國最受歡迎的菜系之一。",
+    "pinyin": "Chuāncài shì Zhōngguó zuì shòu huānyíng de càixì zhī yī.",
+    "english": "Sichuan cuisine is one of the most popular regional cuisines in China."
+  },
+  {
+    "word": "火鸡",
+    "sent_simp": "感恩节那天他们烤了一只火鸡。",
+    "sent_trad": "感恩節那天他們烤了一隻火雞。",
+    "pinyin": "Gǎn'ēnjié nà tiān tāmen kǎo le yī zhī huǒjī.",
+    "english": "On Thanksgiving they roasted a turkey."
+  },
+  {
+    "word": "拼写",
+    "sent_simp": "他总是记不住这个单词的拼写。",
+    "sent_trad": "他總是記不住這個單詞的拼寫。",
+    "pinyin": "Tā zǒng shì jì bu zhù zhège dāncí de pīnxiě.",
+    "english": "He can never remember how to spell this word."
+  },
+  {
+    "word": "表亲",
+    "sent_simp": "她的表亲从外地来看望她。",
+    "sent_trad": "她的表親從外地來看望她。",
+    "pinyin": "Tā de biǎoqīn cóng wàidì lái kànwàng tā.",
+    "english": "Her cousin came from out of town to visit her."
+  },
+  {
+    "word": "博士后",
+    "sent_simp": "他毕业后在高校做了两年博士后。",
+    "sent_trad": "他畢業後在高校做了兩年博士後。",
+    "pinyin": "Tā bìyè hòu zài gāoxiào zuò le liǎng nián bóshìhòu.",
+    "english": "After graduating he did a two-year postdoc at a university."
+  },
+  {
+    "word": "随笔",
+    "sent_simp": "她经常在博客上发表随笔。",
+    "sent_trad": "她經常在博客上發表隨筆。",
+    "pinyin": "Tā jīngcháng zài bókè shàng fābiǎo suíbǐ.",
+    "english": "She often posts personal essays on her blog."
+  },
+  {
+    "word": "最优化",
+    "sent_simp": "这道题需要用最优化方法来求解。",
+    "sent_trad": "這道題需要用最優化方法來求解。",
+    "pinyin": "Zhè dào tí xūyào yòng zuìyōuhuà fāngfǎ lái qiújiě.",
+    "english": "This problem needs to be solved using optimization methods."
+  },
+  {
+    "word": "应届",
+    "sent_simp": "公司优先录用应届毕业生。",
+    "sent_trad": "公司優先錄用應屆畢業生。",
+    "pinyin": "Gōngsī yōuxiān lùyòng yīngjiè bìyèshēng.",
+    "english": "The company gives priority to hiring this year's graduates."
+  },
+  {
+    "word": "干货",
+    "sent_simp": "超市里的干货区卖各种蘑菇和虾米。",
+    "sent_trad": "超市裡的乾貨區賣各種蘑菇和蝦米。",
+    "pinyin": "Chāoshì lǐ de gānhuò qū mài gèzhǒng mógū hé xiāmǐ.",
+    "english": "The dried goods section of the supermarket sells all kinds of mushrooms and dried shrimp."
+  },
+  {
+    "word": "高薪",
+    "sent_simp": "他跳槽是为了找一份高薪工作。",
+    "sent_trad": "他跳槽是為了找一份高薪工作。",
+    "pinyin": "Tā tiàocáo shì wèile zhǎo yī fèn gāoxīn gōngzuò.",
+    "english": "He changed jobs in order to find a higher-paying position."
+  },
+  {
+    "word": "批号",
+    "sent_simp": "请核对一下药品上的批号。",
+    "sent_trad": "請核對一下藥品上的批號。",
+    "pinyin": "Qǐng héduì yīxià yàopǐn shàng de pīhào.",
+    "english": "Please check the batch number on the medicine."
+  },
+  {
+    "word": "重剑",
+    "sent_simp": "他学的是重剑，不是花剑。",
+    "sent_trad": "他學的是重劍，不是花劍。",
+    "pinyin": "Tā xué de shì zhòngjiàn, bù shì huājiàn.",
+    "english": "He practices épée, not foil."
+  },
+  {
+    "word": "辍学",
+    "sent_simp": "他因为家里穷不得不辍学打工。",
+    "sent_trad": "他因為家裡窮不得不輟學打工。",
+    "pinyin": "Tā yīnwèi jiālǐ qióng bùdébù chuòxué dǎgōng.",
+    "english": "He had to drop out of school to work because his family was poor."
+  },
+  {
+    "word": "代词",
+    "sent_simp": "她分不清"他"和"她"是什么代词。",
+    "sent_trad": "她分不清「他」和「她」是什麼代詞。",
+    "pinyin": "Tā fēn bu qīng "tā" hé "tā" shì shénme dàicí.",
+    "english": "She can't tell what kind of pronouns \"he\" and \"she\" are."
+  },
+  {
+    "word": "共同点",
+    "sent_simp": "两人虽然性格不同，却有很多共同点。",
+    "sent_trad": "兩人雖然性格不同，卻有很多共同點。",
+    "pinyin": "Liǎng rén suīrán xìnggé bùtóng, què yǒu hěn duō gòngtóngdiǎn.",
+    "english": "Although the two have different personalities, they have a lot in common."
+  },
+  {
+    "word": "笔记本电脑",
+    "sent_simp": "她把新买的笔记本电脑带到了公司。",
+    "sent_trad": "她把新買的筆記本電腦帶到了公司。",
+    "pinyin": "Tā bǎ xīn mǎi de bǐjìběn diànnǎo dài dào le gōngsī.",
+    "english": "She brought her newly bought laptop to the office."
+  },
+  {
+    "word": "句式",
+    "sent_simp": "老师讲解了几个常用的句式。",
+    "sent_trad": "老師講解了幾個常用的句式。",
+    "pinyin": "Lǎoshī jiǎngjiě le jǐ gè chángyòng de jùshì.",
+    "english": "The teacher explained several commonly used sentence patterns."
+  },
+  {
+    "word": "小巷",
+    "sent_simp": "我们穿过一条小巷找到了那家店。",
+    "sent_trad": "我們穿過一條小巷找到了那家店。",
+    "pinyin": "Wǒmen chuānguò yī tiáo xiǎoxiàng zhǎodào le nà jiā diàn.",
+    "english": "We went through an alley to find that shop."
+  },
+  {
+    "word": "构图",
+    "sent_simp": "这张照片的构图非常有层次感。",
+    "sent_trad": "這張照片的構圖非常有層次感。",
+    "pinyin": "Zhè zhāng zhàopiàn de gòutú fēicháng yǒu céngcì gǎn.",
+    "english": "The composition of this photo has a strong sense of depth."
+  },
+  {
+    "word": "集市",
+    "sent_simp": "周末的集市上卖的东西很多。",
+    "sent_trad": "週末的集市上賣的東西很多。",
+    "pinyin": "Zhōumò de jíshì shàng mài de dōngxi hěn duō.",
+    "english": "There are many things for sale at the weekend market."
+  },
+  {
+    "word": "下沉",
+    "sent_simp": "船慢慢地开始下沉了。",
+    "sent_trad": "船慢慢地開始下沉了。",
+    "pinyin": "Chuán màn man de kāishǐ xiàchén le.",
+    "english": "The boat started to slowly sink."
+  }
+]

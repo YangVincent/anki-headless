@@ -1,0 +1,282 @@
+[
+  {
+    "word": "税务",
+    "sent_simp": "我去税务局办了一张发票。",
+    "sent_trad": "我去稅務局辦了一張發票。",
+    "pinyin": "Wǒ qù shuìwù jú bàn le yī zhāng fāpiào.",
+    "english": "I went to the tax office to get an invoice."
+  },
+  {
+    "word": "改制",
+    "sent_simp": "这家工厂正在改制，变成股份公司。",
+    "sent_trad": "這家工廠正在改制，變成股份公司。",
+    "pinyin": "Zhè jiā gōngchǎng zhèngzài gǎizhì, biànchéng gǔfèn gōngsī.",
+    "english": "This factory is being restructured into a joint-stock company."
+  },
+  {
+    "word": "旅游业",
+    "sent_simp": "海南的旅游业每年都在增长。",
+    "sent_trad": "海南的旅遊業每年都在增長。",
+    "pinyin": "Hǎinán de lǚyóuyè měi nián dōu zài zēngzhǎng.",
+    "english": "Hainan's tourism industry grows every year."
+  },
+  {
+    "word": "矿产",
+    "sent_simp": "这个地区矿产资源非常丰富。",
+    "sent_trad": "這個地區礦產資源非常豐富。",
+    "pinyin": "Zhège dìqū kuàngchǎn zīyuán fēicháng fēngfù.",
+    "english": "This region is very rich in mineral resources."
+  },
+  {
+    "word": "出神",
+    "sent_simp": "她盯着窗外出神，没听见我说话。",
+    "sent_trad": "她盯著窗外出神，沒聽見我說話。",
+    "pinyin": "Tā dīngzhe chuāng wài chūshén, méi tīngjiàn wǒ shuōhuà.",
+    "english": "She stared out the window lost in thought and didn't hear me."
+  },
+  {
+    "word": "演化",
+    "sent_simp": "鸟类是由恐龙演化而来的。",
+    "sent_trad": "鳥類是由恐龍演化而來的。",
+    "pinyin": "Niǎolèi shì yóu kǒnglóng yǎnhuà ér lái de.",
+    "english": "Birds evolved from dinosaurs."
+  },
+  {
+    "word": "光学",
+    "sent_simp": "他在大学里学的是光学专业。",
+    "sent_trad": "他在大學裡學的是光學專業。",
+    "pinyin": "Tā zài dàxué lǐ xué de shì guāngxué zhuānyè.",
+    "english": "He majored in optics at university."
+  },
+  {
+    "word": "接口",
+    "sent_simp": "这台电脑只有两个USB接口。",
+    "sent_trad": "這台電腦只有兩個USB接口。",
+    "pinyin": "Zhè tái diànnǎo zhǐyǒu liǎng gè USB jiēkǒu.",
+    "english": "This computer only has two USB ports."
+  },
+  {
+    "word": "奶子",
+    "sent_simp": "小猫嗅了嗅奶子就开始喝奶。",
+    "sent_trad": "小貓嗅了嗅奶子就開始喝奶。",
+    "pinyin": "Xiǎo māo xiù le xiù nǎizi jiù kāishǐ hē nǎi.",
+    "english": "The kitten sniffed the milk and then started drinking."
+  },
+  {
+    "word": "如花",
+    "sent_simp": "春天到了，满园如花，美不胜收。",
+    "sent_trad": "春天到了，滿園如花，美不勝收。",
+    "pinyin": "Chūntiān dào le, mǎn yuán rú huā, měi bù shèng shōu.",
+    "english": "Spring has arrived; the whole garden is in bloom and breathtakingly beautiful."
+  },
+  {
+    "word": "稳步",
+    "sent_simp": "公司的销售额稳步上升。",
+    "sent_trad": "公司的銷售額穩步上升。",
+    "pinyin": "Gōngsī de xiāoshòu'é wěnbù shàngshēng.",
+    "english": "The company's sales are rising steadily."
+  },
+  {
+    "word": "相较",
+    "sent_simp": "相较于去年，今年夏天更热。",
+    "sent_trad": "相較於去年，今年夏天更熱。",
+    "pinyin": "Xiāngjiào yú qùnián, jīnnián xiàtiān gèng rè.",
+    "english": "Compared to last year, this summer is even hotter."
+  },
+  {
+    "word": "英寸",
+    "sent_simp": "这块屏幕是十五英寸的。",
+    "sent_trad": "這塊螢幕是十五英寸的。",
+    "pinyin": "Zhè kuài píngmù shì shíwǔ yīngcùn de.",
+    "english": "This screen is fifteen inches."
+  },
+  {
+    "word": "民调",
+    "sent_simp": "最新民调显示他的支持率下降了。",
+    "sent_trad": "最新民調顯示他的支持率下降了。",
+    "pinyin": "Zuìxīn míndiào xiǎnshì tā de zhīchí lǜ xiàjiàng le.",
+    "english": "The latest poll shows his approval rating has dropped."
+  },
+  {
+    "word": "血管",
+    "sent_simp": "医生说他的血管里有一处堵塞。",
+    "sent_trad": "醫生說他的血管裡有一處堵塞。",
+    "pinyin": "Yīshēng shuō tā de xuèguǎn lǐ yǒu yī chù dǔsè.",
+    "english": "The doctor said there is a blockage in his blood vessel."
+  },
+  {
+    "word": "多媒体",
+    "sent_simp": "老师用多媒体课件上课，很生动。",
+    "sent_trad": "老師用多媒體課件上課，很生動。",
+    "pinyin": "Lǎoshī yòng duōméitǐ kèjiàn shàngkè, hěn shēngdòng.",
+    "english": "The teacher used multimedia slides in class; it was very engaging."
+  },
+  {
+    "word": "期货",
+    "sent_simp": "他在做大豆期货，风险不小。",
+    "sent_trad": "他在做大豆期貨，風險不小。",
+    "pinyin": "Tā zài zuò dàdòu qīhuò, fēngxiǎn bù xiǎo.",
+    "english": "He is trading soybean futures, which carries considerable risk."
+  },
+  {
+    "word": "经线",
+    "sent_simp": "北京位于东经一百一十六度经线附近。",
+    "sent_trad": "北京位於東經一百一十六度經線附近。",
+    "pinyin": "Běijīng wèiyú dōng jīng yībǎi yīshíliù dù jīngxiàn fùjìn.",
+    "english": "Beijing is located near the 116° east meridian."
+  },
+  {
+    "word": "化妆品",
+    "sent_simp": "她每天出门前都要用化妆品。",
+    "sent_trad": "她每天出門前都要用化妝品。",
+    "pinyin": "Tā měitiān chūmén qián dōu yào yòng huàzhuāngpǐn.",
+    "english": "She puts on cosmetics every day before going out."
+  },
+  {
+    "word": "效能",
+    "sent_simp": "换了新引擎后，汽车的效能提高了很多。",
+    "sent_trad": "換了新引擎後，汽車的效能提高了很多。",
+    "pinyin": "Huàn le xīn yǐnqíng hòu, qìchē de xiàonéng tígāo le hěn duō.",
+    "english": "After replacing the engine, the car's performance improved a lot."
+  },
+  {
+    "word": "操作系统",
+    "sent_simp": "我的电脑需要重新安装操作系统。",
+    "sent_trad": "我的電腦需要重新安裝操作系統。",
+    "pinyin": "Wǒ de diànnǎo xūyào chóngxīn ānzhuāng cāozuò xìtǒng.",
+    "english": "My computer needs to have its operating system reinstalled."
+  },
+  {
+    "word": "嫌疑人",
+    "sent_simp": "警方已经锁定了一名嫌疑人。",
+    "sent_trad": "警方已經鎖定了一名嫌疑人。",
+    "pinyin": "Jǐngfāng yǐjīng suǒdìng le yī míng xiányírén.",
+    "english": "The police have already identified a suspect."
+  },
+  {
+    "word": "女童",
+    "sent_simp": "一名五岁女童在公园里走失了。",
+    "sent_trad": "一名五歲女童在公園裡走失了。",
+    "pinyin": "Yī míng wǔ suì nǚtóng zài gōngyuán lǐ zǒushī le.",
+    "english": "A five-year-old girl got lost in the park."
+  },
+  {
+    "word": "雇用",
+    "sent_simp": "公司今年打算雇用十名新员工。",
+    "sent_trad": "公司今年打算雇用十名新員工。",
+    "pinyin": "Gōngsī jīnnián dǎsuàn gùyòng shí míng xīn yuángōng.",
+    "english": "The company plans to hire ten new employees this year."
+  },
+  {
+    "word": "祷告",
+    "sent_simp": "她每晚睡前都会祷告。",
+    "sent_trad": "她每晚睡前都會禱告。",
+    "pinyin": "Tā měi wǎn shuì qián dōu huì dǎogào.",
+    "english": "She prays every night before going to sleep."
+  },
+  {
+    "word": "独裁者",
+    "sent_simp": "历史书里记录了许多独裁者的故事。",
+    "sent_trad": "歷史書裡記錄了許多獨裁者的故事。",
+    "pinyin": "Lìshǐ shū lǐ jìlù le xǔduō dúcáizhě de gùshi.",
+    "english": "History books record the stories of many dictators."
+  },
+  {
+    "word": "知名度",
+    "sent_simp": "这个品牌的知名度在年轻人中很高。",
+    "sent_trad": "這個品牌的知名度在年輕人中很高。",
+    "pinyin": "Zhège pǐnpái de zhīmíngdù zài niánqīngrén zhōng hěn gāo.",
+    "english": "This brand has very high name recognition among young people."
+  },
+  {
+    "word": "制造商",
+    "sent_simp": "我们直接联系了手机制造商。",
+    "sent_trad": "我們直接聯繫了手機製造商。",
+    "pinyin": "Wǒmen zhíjiē liánxì le shǒujī zhìzàoshāng.",
+    "english": "We contacted the phone manufacturer directly."
+  },
+  {
+    "word": "订阅",
+    "sent_simp": "我订阅了一个学英语的频道。",
+    "sent_trad": "我訂閱了一個學英語的頻道。",
+    "pinyin": "Wǒ dìngyuè le yī gè xué Yīngyǔ de píndào.",
+    "english": "I subscribed to a channel for learning English."
+  },
+  {
+    "word": "编码",
+    "sent_simp": "这个文件的编码格式是UTF-8。",
+    "sent_trad": "這個文件的編碼格式是UTF-8。",
+    "pinyin": "Zhège wénjiàn de biānmǎ géshì shì UTF-8.",
+    "english": "This file's encoding format is UTF-8."
+  },
+  {
+    "word": "望远镜",
+    "sent_simp": "他用望远镜观察远处的山。",
+    "sent_trad": "他用望遠鏡觀察遠處的山。",
+    "pinyin": "Tā yòng wàngyuǎnjìng guānchá yuǎnchù de shān.",
+    "english": "He used binoculars to look at the mountains in the distance."
+  },
+  {
+    "word": "受害人",
+    "sent_simp": "警察正在询问案件中的受害人。",
+    "sent_trad": "警察正在詢問案件中的受害人。",
+    "pinyin": "Jǐngchá zhèngzài xúnwèn ànjiàn zhōng de shòuhàirén.",
+    "english": "The police are questioning the victim in the case."
+  },
+  {
+    "word": "投资人",
+    "sent_simp": "这家创业公司找到了一位新投资人。",
+    "sent_trad": "這家創業公司找到了一位新投資人。",
+    "pinyin": "Zhè jiā chuàngyè gōngsī zhǎodào le yī wèi xīn tóuzīrén.",
+    "english": "This startup found a new investor."
+  },
+  {
+    "word": "诡异",
+    "sent_simp": "那栋废弃的楼里有种诡异的气氛。",
+    "sent_trad": "那棟廢棄的樓裡有種詭異的氣氛。",
+    "pinyin": "Nà dòng fèiqì de lóu lǐ yǒu zhǒng guǐyì de qìfēn.",
+    "english": "There is a strange atmosphere inside that abandoned building."
+  },
+  {
+    "word": "模块",
+    "sent_simp": "这款软件的每个模块都可以单独使用。",
+    "sent_trad": "這款軟件的每個模塊都可以單獨使用。",
+    "pinyin": "Zhè kuǎn ruǎnjiàn de měi gè mókuài dōu kěyǐ dāndú shǐyòng.",
+    "english": "Each module of this software can be used independently."
+  },
+  {
+    "word": "离子",
+    "sent_simp": "盐溶解在水中会变成离子。",
+    "sent_trad": "鹽溶解在水中會變成離子。",
+    "pinyin": "Yán róngjiě zài shuǐ zhōng huì biànchéng lízǐ.",
+    "english": "Salt dissolves in water and becomes ions."
+  },
+  {
+    "word": "政局",
+    "sent_simp": "最近那个国家政局动荡，很多人想离开。",
+    "sent_trad": "最近那個國家政局動盪，很多人想離開。",
+    "pinyin": "Zuìjìn nàgè guójiā zhèngjú dòngdàng, hěn duō rén xiǎng líkāi.",
+    "english": "Recently that country's political situation has been turbulent and many people want to leave."
+  },
+  {
+    "word": "坐牢",
+    "sent_simp": "他因为诈骗坐牢三年才出来。",
+    "sent_trad": "他因為詐騙坐牢三年才出來。",
+    "pinyin": "Tā yīnwèi zhàpiàn zuòláo sān nián cái chūlái.",
+    "english": "He served three years in prison for fraud before being released."
+  },
+  {
+    "word": "科学技术",
+    "sent_simp": "现代科学技术让生活越来越方便。",
+    "sent_trad": "現代科學技術讓生活越來越方便。",
+    "pinyin": "Xiàndài kēxué jìshù ràng shēnghuó yuèláiyuè fāngbiàn.",
+    "english": "Modern science and technology make life more and more convenient."
+  },
+  {
+    "word": "注明",
+    "sent_simp": "请在表格上注明您的联系方式。",
+    "sent_trad": "請在表格上注明您的聯繫方式。",
+    "pinyin": "Qǐng zài biǎogé shàng zhùmíng nín de liánxì fāngshì.",
+    "english": "Please clearly indicate your contact information on the form."
+  }
+]

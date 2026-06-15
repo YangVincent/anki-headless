@@ -1,0 +1,282 @@
+[
+  {
+    "word": "生产率",
+    "sent_simp": "提高生产率是工厂的首要目标。",
+    "sent_trad": "提高生產率是工廠的首要目標。",
+    "pinyin": "Tígāo shēngchǎnlǜ shì gōngchǎng de shǒuyào mùbiāo.",
+    "english": "Improving productivity is the factory's top priority."
+  },
+  {
+    "word": "全球性",
+    "sent_simp": "气候变化是一个全球性问题。",
+    "sent_trad": "氣候變化是一個全球性問題。",
+    "pinyin": "Qìhòu biànhuà shì yīgè quánqiúxìng wèntí.",
+    "english": "Climate change is a global issue."
+  },
+  {
+    "word": "接壤",
+    "sent_simp": "中国与俄罗斯接壤。",
+    "sent_trad": "中國與俄羅斯接壤。",
+    "pinyin": "Zhōngguó yǔ Éluósī jiērǎng.",
+    "english": "China borders Russia."
+  },
+  {
+    "word": "够格",
+    "sent_simp": "她的经验完全够格担任这个职位。",
+    "sent_trad": "她的經驗完全夠格擔任這個職位。",
+    "pinyin": "Tā de jīngyàn wánquán gòugé dānrèn zhège zhíwèi.",
+    "english": "Her experience is more than enough to qualify for this position."
+  },
+  {
+    "word": "上班族",
+    "sent_simp": "地铁里挤满了早高峰的上班族。",
+    "sent_trad": "地鐵裡擠滿了早高峰的上班族。",
+    "pinyin": "Dìtiě lǐ jǐmǎnle zǎo gāofēng de shàngbānzú.",
+    "english": "The subway is packed with office workers during the morning rush hour."
+  },
+  {
+    "word": "从句",
+    "sent_simp": "这道题考的是定语从句的用法。",
+    "sent_trad": "這道題考的是定語從句的用法。",
+    "pinyin": "Zhè dào tí kǎo de shì dìngyǔ cóngjù de yòngfǎ.",
+    "english": "This question tests the usage of attributive clauses."
+  },
+  {
+    "word": "石器",
+    "sent_simp": "博物馆里展出了很多石器时代的工具。",
+    "sent_trad": "博物館裡展出了很多石器時代的工具。",
+    "pinyin": "Bówùguǎn lǐ zhǎnchūle hěnduō shíqì shídài de gōngjù.",
+    "english": "The museum displays many Stone Age tools."
+  },
+  {
+    "word": "天鹅",
+    "sent_simp": "湖面上有几只白色的天鹅在游水。",
+    "sent_trad": "湖面上有幾隻白色的天鵝在游水。",
+    "pinyin": "Húmiàn shàng yǒu jǐ zhī báisè de tiān'é zài yóushuǐ.",
+    "english": "A few white swans are swimming on the lake."
+  },
+  {
+    "word": "摇头",
+    "sent_simp": "他听到这个消息只是摇头叹气。",
+    "sent_trad": "他聽到這個消息只是搖頭嘆氣。",
+    "pinyin": "Tā tīngdào zhège xiāoxi zhǐshì yáotóu tànqì.",
+    "english": "Hearing the news, he just shook his head and sighed."
+  },
+  {
+    "word": "通奸",
+    "sent_simp": "通奸在某些国家仍是违法的。",
+    "sent_trad": "通姦在某些國家仍是違法的。",
+    "pinyin": "Tōngjiān zài mǒuxiē guójiā réng shì wéifǎ de.",
+    "english": "Adultery is still illegal in some countries."
+  },
+  {
+    "word": "市集",
+    "sent_simp": "周末的市集上有很多新鲜蔬菜。",
+    "sent_trad": "週末的市集上有很多新鮮蔬菜。",
+    "pinyin": "Zhōumò de shìjí shàng yǒu hěnduō xīnxiān shūcài.",
+    "english": "There are lots of fresh vegetables at the weekend market."
+  },
+  {
+    "word": "仿真",
+    "sent_simp": "工程师用仿真软件测试新设计。",
+    "sent_trad": "工程師用仿真軟件測試新設計。",
+    "pinyin": "Gōngchéngshī yòng fǎngzhēn ruǎnjiàn cèshì xīn shèjì.",
+    "english": "Engineers use simulation software to test new designs."
+  },
+  {
+    "word": "酿酒",
+    "sent_simp": "他爷爷喜欢在家自己酿酒。",
+    "sent_trad": "他爺爺喜歡在家自己釀酒。",
+    "pinyin": "Tā yéye xǐhuān zài jiā zìjǐ niàngjiǔ.",
+    "english": "His grandfather likes to brew his own wine at home."
+  },
+  {
+    "word": "酒后",
+    "sent_simp": "请不要酒后开车，非常危险。",
+    "sent_trad": "請不要酒後開車，非常危險。",
+    "pinyin": "Qǐng búyào jiǔhòu kāichē, fēicháng wēixiǎn.",
+    "english": "Please don't drink and drive — it's very dangerous."
+  },
+  {
+    "word": "非暴力",
+    "sent_simp": "他们坚持用非暴力方式表达诉求。",
+    "sent_trad": "他們堅持用非暴力方式表達訴求。",
+    "pinyin": "Tāmen jiānchí yòng fēibàolì fāngshì biǎodá sùqiú.",
+    "english": "They insist on expressing their demands through nonviolent means."
+  },
+  {
+    "word": "核定",
+    "sent_simp": "预算需要经过财务部门核定后才能执行。",
+    "sent_trad": "預算需要經過財務部門核定後才能執行。",
+    "pinyin": "Yùsuàn xūyào jīngguò cáiwù bùmén hédìng hòu cáinéng zhíxíng.",
+    "english": "The budget must be reviewed and approved by the finance department before it can be implemented."
+  },
+  {
+    "word": "寡头",
+    "sent_simp": "几个寡头控制了该国大部分能源。",
+    "sent_trad": "幾個寡頭控制了該國大部分能源。",
+    "pinyin": "Jǐgè guǎtóu kòngzhìle gāiguó dàbùfèn néngyuán.",
+    "english": "A few oligarchs control most of the country's energy resources."
+  },
+  {
+    "word": "街坊",
+    "sent_simp": "有事找街坊邻居帮帮忙就好了。",
+    "sent_trad": "有事找街坊鄰居幫幫忙就好了。",
+    "pinyin": "Yǒu shì zhǎo jiēfāng línjū bāng bāng máng jiù hǎo le.",
+    "english": "If you need help, just ask the neighbors."
+  },
+  {
+    "word": "发疯",
+    "sent_simp": "他听到这个消息差点儿发疯。",
+    "sent_trad": "他聽到這個消息差點兒發瘋。",
+    "pinyin": "Tā tīngdào zhège xiāoxi chàdiǎnr fāfēng.",
+    "english": "He almost went crazy when he heard the news."
+  },
+  {
+    "word": "互换",
+    "sent_simp": "两人互换了联系方式。",
+    "sent_trad": "兩人互換了聯繫方式。",
+    "pinyin": "Liǎng rén hùhuànle liánxì fāngshì.",
+    "english": "The two exchanged contact information with each other."
+  },
+  {
+    "word": "脱光",
+    "sent_simp": "孩子洗澡前把衣服脱光了。",
+    "sent_trad": "孩子洗澡前把衣服脫光了。",
+    "pinyin": "Háizi xǐzǎo qián bǎ yīfu tuōguāng le.",
+    "english": "The child stripped off all his clothes before taking a bath."
+  },
+  {
+    "word": "巫术",
+    "sent_simp": "村里的老人相信巫术能治病。",
+    "sent_trad": "村裡的老人相信巫術能治病。",
+    "pinyin": "Cūn lǐ de lǎorén xiāngxìn wūshù néng zhìbìng.",
+    "english": "The village elders believe witchcraft can cure illness."
+  },
+  {
+    "word": "鬼脸",
+    "sent_simp": "小弟弟对着镜子做鬼脸逗大家笑。",
+    "sent_trad": "小弟弟對著鏡子做鬼臉逗大家笑。",
+    "pinyin": "Xiǎo dìdi duìzhe jìngzi zuò guǐliǎn dòu dàjiā xiào.",
+    "english": "The little boy made faces in the mirror to make everyone laugh."
+  },
+  {
+    "word": "叛国",
+    "sent_simp": "他被指控犯有叛国罪。",
+    "sent_trad": "他被指控犯有叛國罪。",
+    "pinyin": "Tā bèi zhǐkòng fànyǒu pànguó zuì.",
+    "english": "He was accused of committing treason."
+  },
+  {
+    "word": "接地",
+    "sent_simp": "电器安装时要注意接地是否可靠。",
+    "sent_trad": "電器安裝時要注意接地是否可靠。",
+    "pinyin": "Diànqì ānzhuāng shí yào zhùyì jiēdì shìfǒu kěkào.",
+    "english": "When installing appliances, make sure the earthing connection is reliable."
+  },
+  {
+    "word": "军装",
+    "sent_simp": "他穿着军装出现在毕业典礼上。",
+    "sent_trad": "他穿著軍裝出現在畢業典禮上。",
+    "pinyin": "Tā chuānzhe jūnzhuāng chūxiàn zài bìyè diǎnlǐ shàng.",
+    "english": "He appeared at the graduation ceremony wearing his military uniform."
+  },
+  {
+    "word": "卫兵",
+    "sent_simp": "博物馆门口站着两名卫兵。",
+    "sent_trad": "博物館門口站著兩名衛兵。",
+    "pinyin": "Bówùguǎn ménkǒu zhànzhe liǎng míng wèibīng.",
+    "english": "Two guards stand at the entrance of the museum."
+  },
+  {
+    "word": "少校",
+    "sent_simp": "他刚被晋升为少校。",
+    "sent_trad": "他剛被晉升為少校。",
+    "pinyin": "Tā gāng bèi jìnshēng wéi shàoxiào.",
+    "english": "He was just promoted to the rank of major."
+  },
+  {
+    "word": "严重后果",
+    "sent_simp": "超速驾驶可能带来严重后果。",
+    "sent_trad": "超速駕駛可能帶來嚴重後果。",
+    "pinyin": "Chāosù jiàshǐ kěnéng dàilái yánzhòng hòuguǒ.",
+    "english": "Speeding can lead to grave consequences."
+  },
+  {
+    "word": "圣战",
+    "sent_simp": "他们声称这是一场圣战。",
+    "sent_trad": "他們聲稱這是一場聖戰。",
+    "pinyin": "Tāmen chēngchēng zhè shì yī chǎng shèngzhàn.",
+    "english": "They claimed it was a holy war."
+  },
+  {
+    "word": "损耗",
+    "sent_simp": "机器长期使用会产生一定的损耗。",
+    "sent_trad": "機器長期使用會產生一定的損耗。",
+    "pinyin": "Jīqì chángqī shǐyòng huì chǎnshēng yīdìng de sǔnhào.",
+    "english": "Long-term use of machinery results in a certain degree of wear and tear."
+  },
+  {
+    "word": "满面",
+    "sent_simp": "她满面笑容地迎接每一位客人。",
+    "sent_trad": "她滿面笑容地迎接每一位客人。",
+    "pinyin": "Tā mǎnmiàn xiàoróng de yíngjiē měi yī wèi kèrén.",
+    "english": "She greeted every guest with a smile across her whole face."
+  },
+  {
+    "word": "宇宙学",
+    "sent_simp": "他在大学选修了宇宙学这门课。",
+    "sent_trad": "他在大學選修了宇宙學這門課。",
+    "pinyin": "Tā zài dàxué xuǎnxiūle yǔzhòuxué zhè mén kè.",
+    "english": "He took a cosmology course as an elective in college."
+  },
+  {
+    "word": "翻新",
+    "sent_simp": "他们花了两个月把老房子翻新了。",
+    "sent_trad": "他們花了兩個月把老房子翻新了。",
+    "pinyin": "Tāmen huāle liǎng gè yuè bǎ lǎo fángzi fānxīn le.",
+    "english": "They spent two months renovating the old house."
+  },
+  {
+    "word": "熟女",
+    "sent_simp": "这个品牌主要面向有品位的熟女群体。",
+    "sent_trad": "這個品牌主要面向有品位的熟女群體。",
+    "pinyin": "Zhège pǐnpái zhǔyào miànxiàng yǒu pǐnwèi de shúnǚ qúntǐ.",
+    "english": "This brand mainly targets stylish and confident middle-aged women."
+  },
+  {
+    "word": "业已",
+    "sent_simp": "相关手续业已办理完毕。",
+    "sent_trad": "相關手續業已辦理完畢。",
+    "pinyin": "Xiāngguān shǒuxù yèyǐ bànlǐ wánbì.",
+    "english": "The relevant procedures have already been completed."
+  },
+  {
+    "word": "轻武器",
+    "sent_simp": "边境检查站发现了一批走私轻武器。",
+    "sent_trad": "邊境檢查站發現了一批走私輕武器。",
+    "pinyin": "Biānjìng jiǎncházhàn fāxiànle yī pī zǒusī qīngwǔqì.",
+    "english": "A border checkpoint discovered a batch of smuggled light weapons."
+  },
+  {
+    "word": "重温",
+    "sent_simp": "周末她喜欢重温小时候看过的老电影。",
+    "sent_trad": "週末她喜歡重溫小時候看過的老電影。",
+    "pinyin": "Zhōumò tā xǐhuān chóngwēn xiǎoshíhou kànguò de lǎo diànyǐng.",
+    "english": "On weekends she likes to revisit old movies she watched as a child."
+  },
+  {
+    "word": "引得",
+    "sent_simp": "书末附有详细的引得，方便查阅。",
+    "sent_trad": "書末附有詳細的引得，方便查閱。",
+    "pinyin": "Shū mò fù yǒu xiángxì de yǐndé, fāngbiàn cháyuè.",
+    "english": "A detailed index is appended at the end of the book for easy reference."
+  },
+  {
+    "word": "意指",
+    "sent_simp": "这个词意指一种特别的感情状态。",
+    "sent_trad": "這個詞意指一種特別的感情狀態。",
+    "pinyin": "Zhège cí yìzhǐ yī zhǒng tèbié de gǎnqíng zhuàngtài.",
+    "english": "This word implies a particular emotional state."
+  }
+]

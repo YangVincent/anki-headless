@@ -1,0 +1,282 @@
+[
+  {
+    "word": "神灵",
+    "sent_simp": "奶奶每年都祭拜神灵，祈求全家平安。",
+    "sent_trad": "奶奶每年都祭拜神靈，祈求全家平安。",
+    "pinyin": "Nǎi nai měi nián dōu jì bài shén líng, qí qiú quán jiā píng ān.",
+    "english": "Grandma worships the spirits every year, praying for the whole family's safety."
+  },
+  {
+    "word": "装满",
+    "sent_simp": "他把购物袋装满了水果和蔬菜。",
+    "sent_trad": "他把購物袋裝滿了水果和蔬菜。",
+    "pinyin": "Tā bǎ gòu wù dài zhuāng mǎn le shuǐ guǒ hé shū cài.",
+    "english": "He filled the shopping bag with fruits and vegetables."
+  },
+  {
+    "word": "宪兵",
+    "sent_simp": "基地入口处有宪兵站岗。",
+    "sent_trad": "基地入口處有憲兵站崗。",
+    "pinyin": "Jī dì rù kǒu chù yǒu xiàn bīng zhàn gǎng.",
+    "english": "Military police are standing guard at the base entrance."
+  },
+  {
+    "word": "教书",
+    "sent_simp": "她在乡村小学教书已经十年了。",
+    "sent_trad": "她在鄉村小學教書已經十年了。",
+    "pinyin": "Tā zài xiāng cūn xiǎo xué jiāo shū yǐ jīng shí nián le.",
+    "english": "She has been teaching at a rural elementary school for ten years."
+  },
+  {
+    "word": "警觉",
+    "sent_simp": "深夜独自走路要保持警觉。",
+    "sent_trad": "深夜獨自走路要保持警覺。",
+    "pinyin": "Shēn yè dú zì zǒu lù yào bǎo chí jǐng jué.",
+    "english": "Stay alert when walking alone late at night."
+  },
+  {
+    "word": "欢庆",
+    "sent_simp": "全校师生欢庆建校一百周年。",
+    "sent_trad": "全校師生歡慶建校一百週年。",
+    "pinyin": "Quán xiào shī shēng huān qìng jiàn xiào yī bǎi zhōu nián.",
+    "english": "All teachers and students celebrated the school's centennial."
+  },
+  {
+    "word": "武将",
+    "sent_simp": "这位武将以勇猛善战著称。",
+    "sent_trad": "這位武將以勇猛善戰著稱。",
+    "pinyin": "Zhè wèi wǔ jiàng yǐ yǒng měng shàn zhàn zhù chēng.",
+    "english": "This military general was renowned for his bravery and combat skills."
+  },
+  {
+    "word": "争辩",
+    "sent_simp": "兄弟俩为了谁洗碗而争辩起来。",
+    "sent_trad": "兄弟倆為了誰洗碗而爭辯起來。",
+    "pinyin": "Xiōng dì liǎ wèi le shuí xǐ wǎn ér zhēng biàn qǐ lái.",
+    "english": "The two brothers started arguing about who should wash the dishes."
+  },
+  {
+    "word": "高质量",
+    "sent_simp": "消费者越来越注重高质量的产品。",
+    "sent_trad": "消費者越來越注重高質量的產品。",
+    "pinyin": "Xiāo fèi zhě yuè lái yuè zhù zhòng gāo zhì liàng de chǎn pǐn.",
+    "english": "Consumers are paying more and more attention to high-quality products."
+  },
+  {
+    "word": "北纬",
+    "sent_simp": "这座城市位于北纬四十度附近。",
+    "sent_trad": "這座城市位於北緯四十度附近。",
+    "pinyin": "Zhè zuò chéng shì wèi yú běi wěi sì shí dù fù jìn.",
+    "english": "This city is located near 40 degrees north latitude."
+  },
+  {
+    "word": "球类",
+    "sent_simp": "他从小就喜欢各种球类运动。",
+    "sent_trad": "他從小就喜歡各種球類運動。",
+    "pinyin": "Tā cóng xiǎo jiù xǐ huān gè zhǒng qiú lèi yùn dòng.",
+    "english": "He has loved all kinds of ball sports since childhood."
+  },
+  {
+    "word": "奢侈品",
+    "sent_simp": "她很少买奢侈品，更喜欢存钱。",
+    "sent_trad": "她很少買奢侈品，更喜歡存錢。",
+    "pinyin": "Tā hěn shǎo mǎi shē chǐ pǐn, gèng xǐ huān cún qián.",
+    "english": "She rarely buys luxury goods and prefers to save money."
+  },
+  {
+    "word": "革命家",
+    "sent_simp": "孙中山是近代著名的革命家。",
+    "sent_trad": "孫中山是近代著名的革命家。",
+    "pinyin": "Sūn Zhōng Shān shì jìn dài zhù míng de gé mìng jiā.",
+    "english": "Sun Yat-sen was a famous revolutionary in modern Chinese history."
+  },
+  {
+    "word": "要饭",
+    "sent_simp": "老人在街头要饭，路人纷纷给他食物。",
+    "sent_trad": "老人在街頭要飯，路人紛紛給他食物。",
+    "pinyin": "Lǎo rén zài jiē tóu yào fàn, lù rén fēn fēn gěi tā shí wù.",
+    "english": "The old man was begging on the street, and passersby gave him food."
+  },
+  {
+    "word": "官职",
+    "sent_simp": "他考中进士后获得了一个官职。",
+    "sent_trad": "他考中進士後獲得了一個官職。",
+    "pinyin": "Tā kǎo zhòng jìn shì hòu huò dé le yī gè guān zhí.",
+    "english": "After passing the imperial exam, he obtained an official position."
+  },
+  {
+    "word": "未婚",
+    "sent_simp": "她目前未婚，工作是她的重心。",
+    "sent_trad": "她目前未婚，工作是她的重心。",
+    "pinyin": "Tā mù qián wèi hūn, gōng zuò shì tā de zhòng xīn.",
+    "english": "She is currently unmarried and focuses mainly on her career."
+  },
+  {
+    "word": "翡翠",
+    "sent_simp": "妈妈手腕上戴着一块翡翠手镯。",
+    "sent_trad": "媽媽手腕上戴著一塊翡翠手鐲。",
+    "pinyin": "Mā ma shǒu wàn shàng dài zhe yī kuài fěi cuì shǒu zhuó.",
+    "english": "Mom wears a jadeite bracelet on her wrist."
+  },
+  {
+    "word": "现货",
+    "sent_simp": "这款手机有现货，今天下单明天到。",
+    "sent_trad": "這款手機有現貨，今天下單明天到。",
+    "pinyin": "Zhè kuǎn shǒu jī yǒu xiàn huò, jīn tiān xià dān míng tiān dào.",
+    "english": "This phone model is in stock — order today and it arrives tomorrow."
+  },
+  {
+    "word": "倒挂",
+    "sent_simp": "那栋楼的空调外机倒挂在墙上。",
+    "sent_trad": "那棟樓的空調外機倒掛在牆上。",
+    "pinyin": "Nà dòng lóu de kōng tiáo wài jī dào guà zài qiáng shàng.",
+    "english": "The outdoor AC unit of that building is mounted upside down on the wall."
+  },
+  {
+    "word": "聚居",
+    "sent_simp": "这个地区有许多少数民族聚居于此。",
+    "sent_trad": "這個地區有許多少數民族聚居於此。",
+    "pinyin": "Zhè ge dì qū yǒu xǔ duō shǎo shù mín zú jù jū yú cǐ.",
+    "english": "Many ethnic minority groups inhabit this region."
+  },
+  {
+    "word": "景气",
+    "sent_simp": "今年旅游行业十分景气，游客很多。",
+    "sent_trad": "今年旅遊行業十分景氣，遊客很多。",
+    "pinyin": "Jīn nián lǚ yóu háng yè shí fēn jǐng qì, yóu kè hěn duō.",
+    "english": "The tourism industry is booming this year, with many visitors."
+  },
+  {
+    "word": "毒害",
+    "sent_simp": "过度使用农药会毒害土壤和水源。",
+    "sent_trad": "過度使用農藥會毒害土壤和水源。",
+    "pinyin": "Guò dù shǐ yòng nóng yào huì dú hài tǔ rǎng hé shuǐ yuán.",
+    "english": "Overuse of pesticides can poison the soil and water sources."
+  },
+  {
+    "word": "讲授",
+    "sent_simp": "教授每周讲授两节中国历史课。",
+    "sent_trad": "教授每週講授兩節中國歷史課。",
+    "pinyin": "Jiào shòu měi zhōu jiǎng shòu liǎng jié Zhōng guó lì shǐ kè.",
+    "english": "The professor teaches two sessions of Chinese history class each week."
+  },
+  {
+    "word": "亚热带",
+    "sent_simp": "广州属于亚热带气候，冬天不太冷。",
+    "sent_trad": "廣州屬於亞熱帶氣候，冬天不太冷。",
+    "pinyin": "Guǎng zhōu shǔ yú yà rè dài qì hòu, dōng tiān bù tài lěng.",
+    "english": "Guangzhou has a subtropical climate and winters are not very cold."
+  },
+  {
+    "word": "阅兵",
+    "sent_simp": "国庆节那天，广场上举行了盛大的阅兵仪式。",
+    "sent_trad": "國慶節那天，廣場上舉行了盛大的閱兵儀式。",
+    "pinyin": "Guó qìng jié nà tiān, guǎng chǎng shàng jǔ xíng le shèng dà de yuè bīng yí shì.",
+    "english": "On National Day, a grand military parade was held at the square."
+  },
+  {
+    "word": "新闻稿",
+    "sent_simp": "公司公关部门发出了一份新闻稿。",
+    "sent_trad": "公司公關部門發出了一份新聞稿。",
+    "pinyin": "Gōng sī gōng guān bù mén fā chū le yī fèn xīn wén gǎo.",
+    "english": "The company's PR department issued a press release."
+  },
+  {
+    "word": "专科学校",
+    "sent_simp": "他毕业于一所护理专科学校。",
+    "sent_trad": "他畢業於一所護理專科學校。",
+    "pinyin": "Tā bì yè yú yī suǒ hù lǐ zhuān kē xué xiào.",
+    "english": "He graduated from a nursing polytechnic college."
+  },
+  {
+    "word": "逻辑学",
+    "sent_simp": "大一新生都要修一门逻辑学基础课。",
+    "sent_trad": "大一新生都要修一門邏輯學基礎課。",
+    "pinyin": "Dà yī xīn shēng dōu yào xiū yī mén luó jí xué jī chǔ kè.",
+    "english": "All first-year university students must take an introductory logic course."
+  },
+  {
+    "word": "历次",
+    "sent_simp": "他参加了公司历次重要的谈判。",
+    "sent_trad": "他參加了公司歷次重要的談判。",
+    "pinyin": "Tā cān jiā le gōng sī lì cì zhòng yào de tán pàn.",
+    "english": "He participated in every major negotiation the company has held."
+  },
+  {
+    "word": "刊载",
+    "sent_simp": "这篇文章刊载于本月的学术杂志上。",
+    "sent_trad": "這篇文章刊載於本月的學術雜誌上。",
+    "pinyin": "Zhè piān wén zhāng kān zǎi yú běn yuè de xué shù zá zhì shàng.",
+    "english": "This article was published in this month's academic journal."
+  },
+  {
+    "word": "手球",
+    "sent_simp": "他们学校的手球队刚赢得了市冠军。",
+    "sent_trad": "他們學校的手球隊剛贏得了市冠軍。",
+    "pinyin": "Tā men xué xiào de shǒu qiú duì gāng yíng dé le shì guàn jūn.",
+    "english": "Their school's handball team just won the city championship."
+  },
+  {
+    "word": "乱伦",
+    "sent_simp": "法律明确禁止乱伦行为。",
+    "sent_trad": "法律明確禁止亂倫行為。",
+    "pinyin": "Fǎ lǜ míng què jìn zhǐ luàn lún xíng wéi.",
+    "english": "The law explicitly prohibits incest."
+  },
+  {
+    "word": "瓜分",
+    "sent_simp": "几个合伙人商量好如何瓜分利润。",
+    "sent_trad": "幾個合夥人商量好如何瓜分利潤。",
+    "pinyin": "Jǐ gè hé huǒ rén shāng liáng hǎo rú hé guā fēn lì rùn.",
+    "english": "The business partners agreed on how to divide up the profits."
+  },
+  {
+    "word": "舞弊",
+    "sent_simp": "考试舞弊被发现后，他被取消了成绩。",
+    "sent_trad": "考試舞弊被發現後，他被取消了成績。",
+    "pinyin": "Kǎo shì wǔ bì bèi fā xiàn hòu, tā bèi qǔ xiāo le chéng jì.",
+    "english": "After his exam fraud was discovered, his scores were disqualified."
+  },
+  {
+    "word": "侍郎",
+    "sent_simp": "他官至兵部侍郎，深得皇帝信任。",
+    "sent_trad": "他官至兵部侍郎，深得皇帝信任。",
+    "pinyin": "Tā guān zhì bīng bù shì láng, shēn dé huáng dì xìn rèn.",
+    "english": "He rose to the position of vice-minister of the Board of War, deeply trusted by the emperor."
+  },
+  {
+    "word": "调笑",
+    "sent_simp": "同事们开会前互相调笑，气氛很轻松。",
+    "sent_trad": "同事們開會前互相調笑，氣氛很輕鬆。",
+    "pinyin": "Tóng shì men kāi huì qián hù xiāng tiáo xiào, qì fēn hěn qīng sōng.",
+    "english": "Colleagues teased each other before the meeting, and the atmosphere was relaxed."
+  },
+  {
+    "word": "参考系",
+    "sent_simp": "在物理课上，老师解释了参考系的概念。",
+    "sent_trad": "在物理課上，老師解釋了參考系的概念。",
+    "pinyin": "Zài wù lǐ kè shàng, lǎo shī jiě shì le cān kǎo xì de gài niàn.",
+    "english": "In physics class, the teacher explained the concept of a frame of reference."
+  },
+  {
+    "word": "古墓",
+    "sent_simp": "考古队在城郊发现了一座汉代古墓。",
+    "sent_trad": "考古隊在城郊發現了一座漢代古墓。",
+    "pinyin": "Kǎo gǔ duì zài chéng jiāo fā xiàn le yī zuò Hàn dài gǔ mù.",
+    "english": "An archaeology team discovered a Han dynasty tomb on the outskirts of the city."
+  },
+  {
+    "word": "海子",
+    "sent_simp": "藏区的海子清澈见底，风景如画。",
+    "sent_trad": "藏區的海子清澈見底，風景如畫。",
+    "pinyin": "Zàng qū de hǎi zi qīng chè jiàn dǐ, fēng jǐng rú huà.",
+    "english": "The lakes in Tibetan areas are crystal clear and the scenery is picturesque."
+  },
+  {
+    "word": "聚落",
+    "sent_simp": "这片山谷中有几个古老的聚落遗址。",
+    "sent_trad": "這片山谷中有幾個古老的聚落遺址。",
+    "pinyin": "Zhè piàn shān gǔ zhōng yǒu jǐ gè gǔ lǎo de jù luò yí zhǐ.",
+    "english": "There are several ancient settlement ruins in this valley."
+  }
+]

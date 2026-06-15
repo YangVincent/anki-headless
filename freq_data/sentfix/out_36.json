@@ -1,0 +1,282 @@
+[
+  {
+    "word": "垃圾车",
+    "sent_simp": "垃圾车每天早上七点来收垃圾。",
+    "sent_trad": "垃圾車每天早上七點來收垃圾。",
+    "pinyin": "Lājī chē měi tiān zǎoshang qī diǎn lái shōu lājī.",
+    "english": "The garbage truck comes to collect trash every morning at seven."
+  },
+  {
+    "word": "车库",
+    "sent_simp": "他把自行车停在车库里。",
+    "sent_trad": "他把自行車停在車庫裡。",
+    "pinyin": "Tā bǎ zìxíngchē tíng zài chēkù lǐ.",
+    "english": "He parked his bicycle in the garage."
+  },
+  {
+    "word": "墓园",
+    "sent_simp": "清明节我们去墓园祭扫。",
+    "sent_trad": "清明節我們去墓園祭掃。",
+    "pinyin": "Qīngmíngjié wǒmen qù mùyuán jì sǎo.",
+    "english": "We go to the cemetery to pay respects on Tomb Sweeping Day."
+  },
+  {
+    "word": "端口",
+    "sent_simp": "请确认防火墙已开放这个端口。",
+    "sent_trad": "請確認防火牆已開放這個端口。",
+    "pinyin": "Qǐng quèrèn fánghuǒqiáng yǐ kāifàng zhège duānkǒu.",
+    "english": "Please confirm that the firewall has opened this port."
+  },
+  {
+    "word": "夜店",
+    "sent_simp": "她不喜欢去夜店，觉得太吵。",
+    "sent_trad": "她不喜歡去夜店，覺得太吵。",
+    "pinyin": "Tā bù xǐhuān qù yèdiàn, juéde tài chǎo.",
+    "english": "She doesn't like going to nightclubs; she finds them too noisy."
+  },
+  {
+    "word": "新贵",
+    "sent_simp": "他是互联网行业的新贵。",
+    "sent_trad": "他是互聯網行業的新貴。",
+    "pinyin": "Tā shì hùliánwǎng hángyè de xīnguì.",
+    "english": "He is a rising star in the internet industry."
+  },
+  {
+    "word": "原著",
+    "sent_simp": "我更想读这本小说的原著。",
+    "sent_trad": "我更想讀這本小說的原著。",
+    "pinyin": "Wǒ gèng xiǎng dú zhè běn xiǎoshuō de yuánzhù.",
+    "english": "I'd rather read the original work of this novel."
+  },
+  {
+    "word": "千瓦",
+    "sent_simp": "这台空调的功率是两千瓦。",
+    "sent_trad": "這台空調的功率是兩千瓦。",
+    "pinyin": "Zhè tái kōngtiáo de gōnglǜ shì liǎng qiānwǎ.",
+    "english": "This air conditioner has a power of two kilowatts."
+  },
+  {
+    "word": "专场",
+    "sent_simp": "今晚有一场钢琴专场演出。",
+    "sent_trad": "今晚有一場鋼琴專場演出。",
+    "pinyin": "Jīnwǎn yǒu yī chǎng gāngqín zhuānchǎng yǎnchū.",
+    "english": "There is a special piano performance tonight."
+  },
+  {
+    "word": "坠机",
+    "sent_simp": "新闻报道了昨天的坠机事故。",
+    "sent_trad": "新聞報道了昨天的墜機事故。",
+    "pinyin": "Xīnwén bàodào le zuótiān de zhuìjī shìgù.",
+    "english": "The news reported yesterday's airplane crash accident."
+  },
+  {
+    "word": "大亨",
+    "sent_simp": "他是当地有名的房地产大亨。",
+    "sent_trad": "他是當地有名的房地產大亨。",
+    "pinyin": "Tā shì dāngdì yǒumíng de fángdìchǎn dàhēng.",
+    "english": "He is a well-known local real estate tycoon."
+  },
+  {
+    "word": "避孕套",
+    "sent_simp": "药店里有各种品牌的避孕套。",
+    "sent_trad": "藥店裡有各種品牌的避孕套。",
+    "pinyin": "Yàodiàn lǐ yǒu gè zhǒng pǐnpái de bìyùntào.",
+    "english": "The pharmacy carries various brands of condoms."
+  },
+  {
+    "word": "求解",
+    "sent_simp": "老师教我们如何求解这道方程。",
+    "sent_trad": "老師教我們如何求解這道方程。",
+    "pinyin": "Lǎoshī jiāo wǒmen rúhé qiújiě zhè dào fāngchéng.",
+    "english": "The teacher taught us how to solve this equation."
+  },
+  {
+    "word": "第一流",
+    "sent_simp": "这家餐厅的服务是第一流的。",
+    "sent_trad": "這家餐廳的服務是第一流的。",
+    "pinyin": "Zhè jiā cāntīng de fúwù shì dìyīliú de.",
+    "english": "This restaurant's service is first-class."
+  },
+  {
+    "word": "跨年",
+    "sent_simp": "我们一起去广场跨年吧。",
+    "sent_trad": "我們一起去廣場跨年吧。",
+    "pinyin": "Wǒmen yīqǐ qù guǎngchǎng kuànián ba.",
+    "english": "Let's go to the plaza together to ring in the New Year."
+  },
+  {
+    "word": "化学系",
+    "sent_simp": "她考上了北大化学系。",
+    "sent_trad": "她考上了北大化學系。",
+    "pinyin": "Tā kǎo shàng le Běidà huàxué xì.",
+    "english": "She got into Peking University's department of chemistry."
+  },
+  {
+    "word": "加速器",
+    "sent_simp": "开启网络加速器后，网页加载快多了。",
+    "sent_trad": "開啟網路加速器後，網頁載入快多了。",
+    "pinyin": "Kāiqǐ wǎngluò jiāsùqì hòu, wǎngyè jiāzài kuài duō le.",
+    "english": "After turning on the network accelerator, web pages load much faster."
+  },
+  {
+    "word": "衣柜",
+    "sent_simp": "她的衣柜里塞满了衣服。",
+    "sent_trad": "她的衣櫃裡塞滿了衣服。",
+    "pinyin": "Tā de yīguì lǐ sāi mǎn le yīfú.",
+    "english": "Her wardrobe is stuffed full of clothes."
+  },
+  {
+    "word": "商议",
+    "sent_simp": "双方正在就合同细节进行商议。",
+    "sent_trad": "雙方正在就合同細節進行商議。",
+    "pinyin": "Shuāngfāng zhèngzài jiù hétong xìjié jìnxíng shāngyì.",
+    "english": "Both sides are currently negotiating the details of the contract."
+  },
+  {
+    "word": "汇编",
+    "sent_simp": "老师把同学的作文汇编成册。",
+    "sent_trad": "老師把同學的作文彙編成冊。",
+    "pinyin": "Lǎoshī bǎ tóngxué de zuòwén huìbiān chéng cè.",
+    "english": "The teacher compiled the students' essays into a booklet."
+  },
+  {
+    "word": "相对论",
+    "sent_simp": "爱因斯坦提出了相对论。",
+    "sent_trad": "愛因斯坦提出了相對論。",
+    "pinyin": "Àiyīnsītǎn tíchū le xiāngduìlùn.",
+    "english": "Einstein proposed the theory of relativity."
+  },
+  {
+    "word": "骨灰",
+    "sent_simp": "家人将他的骨灰撒入大海。",
+    "sent_trad": "家人將他的骨灰撒入大海。",
+    "pinyin": "Jiārén jiāng tā de gǔhuī sǎ rù dàhǎi.",
+    "english": "His family scattered his ashes into the sea."
+  },
+  {
+    "word": "方格",
+    "sent_simp": "她买了一件方格衬衫。",
+    "sent_trad": "她買了一件方格襯衫。",
+    "pinyin": "Tā mǎi le yī jiàn fānggé chènshān.",
+    "english": "She bought a checked shirt."
+  },
+  {
+    "word": "色拉",
+    "sent_simp": "他午饭只吃了一份色拉。",
+    "sent_trad": "他午飯只吃了一份色拉。",
+    "pinyin": "Tā wǔfàn zhǐ chī le yī fèn sèlā.",
+    "english": "He only had a salad for lunch."
+  },
+  {
+    "word": "古罗马",
+    "sent_simp": "古罗马的建筑至今仍令人叹服。",
+    "sent_trad": "古羅馬的建築至今仍令人歎服。",
+    "pinyin": "Gǔ Luómǎ de jiànzhù zhìjīn réng lìng rén tànfú.",
+    "english": "The architecture of ancient Rome still impresses people today."
+  },
+  {
+    "word": "英亩",
+    "sent_simp": "这片农场大约有五十英亩。",
+    "sent_trad": "這片農場大約有五十英畝。",
+    "pinyin": "Zhè piàn nóngchǎng dàyuē yǒu wǔshí yīngmǔ.",
+    "english": "This farm is about fifty acres in size."
+  },
+  {
+    "word": "热病",
+    "sent_simp": "孩子得了热病，需要好好休息。",
+    "sent_trad": "孩子得了熱病，需要好好休息。",
+    "pinyin": "Háizi dé le rèbìng, xūyào hǎohǎo xiūxi.",
+    "english": "The child has a fever and needs to rest well."
+  },
+  {
+    "word": "基石",
+    "sent_simp": "信任是友谊的基石。",
+    "sent_trad": "信任是友誼的基石。",
+    "pinyin": "Xìnrèn shì yǒuyì de jīshí.",
+    "english": "Trust is the cornerstone of friendship."
+  },
+  {
+    "word": "第三世界",
+    "sent_simp": "该组织致力于帮助第三世界国家发展。",
+    "sent_trad": "該組織致力於幫助第三世界國家發展。",
+    "pinyin": "Gāi zǔzhī zhìlì yú bāngzhù dìsān shìjiè guójiā fāzhǎn.",
+    "english": "The organization is dedicated to helping Third World countries develop."
+  },
+  {
+    "word": "麻雀",
+    "sent_simp": "一只麻雀停在窗台上叫。",
+    "sent_trad": "一隻麻雀停在窗台上叫。",
+    "pinyin": "Yī zhī máquè tíng zài chuāngtái shàng jiào.",
+    "english": "A sparrow perched on the windowsill and chirped."
+  },
+  {
+    "word": "入座",
+    "sent_simp": "请大家按照号码入座。",
+    "sent_trad": "請大家按照號碼入座。",
+    "pinyin": "Qǐng dàjiā ànzhào hàomǎ rùzuò.",
+    "english": "Please take your seats according to your numbers."
+  },
+  {
+    "word": "定型",
+    "sent_simp": "方案还没定型，随时可以修改。",
+    "sent_trad": "方案還沒定型，隨時可以修改。",
+    "pinyin": "Fāng'àn hái méi dìngxíng, suíshí kěyǐ xiūgǎi.",
+    "english": "The plan hasn't been finalized yet; it can be changed at any time."
+  },
+  {
+    "word": "红花",
+    "sent_simp": "中药里常用红花来活血。",
+    "sent_trad": "中藥裡常用紅花來活血。",
+    "pinyin": "Zhōngyào lǐ cháng yòng hónghuā lái huóxuè.",
+    "english": "Safflower is often used in traditional Chinese medicine to improve blood circulation."
+  },
+  {
+    "word": "密谋",
+    "sent_simp": "他们在背地里密谋对付竞争对手。",
+    "sent_trad": "他們在背地裡密謀對付競爭對手。",
+    "pinyin": "Tāmen zài bèidì lǐ mìmóu duìfù jìngzhēng duìshǒu.",
+    "english": "They conspired behind the scenes against their competitor."
+  },
+  {
+    "word": "封杀",
+    "sent_simp": "该账号因违规被平台封杀。",
+    "sent_trad": "該帳號因違規被平台封殺。",
+    "pinyin": "Gāi zhànghào yīn wéiguī bèi píngtái fēngshā.",
+    "english": "The account was banned by the platform for violating the rules."
+  },
+  {
+    "word": "城邦",
+    "sent_simp": "雅典是古希腊最著名的城邦之一。",
+    "sent_trad": "雅典是古希臘最著名的城邦之一。",
+    "pinyin": "Yǎdiǎn shì gǔ Xīlà zuì zhùmíng de chéngbāng zhī yī.",
+    "english": "Athens is one of the most famous city-states of ancient Greece."
+  },
+  {
+    "word": "极好",
+    "sent_simp": "今天的天气极好，适合出游。",
+    "sent_trad": "今天的天氣極好，適合出遊。",
+    "pinyin": "Jīntiān de tiānqì jí hǎo, shìhé chūyóu.",
+    "english": "The weather today is excellent, perfect for an outing."
+  },
+  {
+    "word": "跨度",
+    "sent_simp": "这座桥的跨度超过一百米。",
+    "sent_trad": "這座橋的跨度超過一百米。",
+    "pinyin": "Zhè zuò qiáo de kuādù chāoguò yī bǎi mǐ.",
+    "english": "The span of this bridge exceeds one hundred meters."
+  },
+  {
+    "word": "流连",
+    "sent_simp": "她在花园里流连，不肯离去。",
+    "sent_trad": "她在花園裡流連，不肯離去。",
+    "pinyin": "Tā zài huāyuán lǐ liúlián, bù kěn lí qù.",
+    "english": "She lingered in the garden, reluctant to leave."
+  },
+  {
+    "word": "旗号",
+    "sent_simp": "他打着慈善的旗号骗取捐款。",
+    "sent_trad": "他打著慈善的旗號騙取捐款。",
+    "pinyin": "Tā dǎ zhe císhàn de qíhào piànqǔ juānkuǎn.",
+    "english": "He used the pretext of charity to swindle donations."
+  }
+]

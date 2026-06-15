@@ -1,0 +1,282 @@
+[
+  {
+    "word": "免税",
+    "sent_simp": "在免税店买香水比较划算。",
+    "sent_trad": "在免稅店買香水比較划算。",
+    "pinyin": "Zài miǎnshuì diàn mǎi xiāngshuǐ bǐjiào huásuàn.",
+    "english": "Buying perfume at a duty-free shop is quite a good deal."
+  },
+  {
+    "word": "白血病",
+    "sent_simp": "他被确诊为白血病后积极接受治疗。",
+    "sent_trad": "他被確診為白血病後積極接受治療。",
+    "pinyin": "Tā bèi quèzhěn wéi báixuèbìng hòu jījí jiēshòu zhìliáo.",
+    "english": "After being diagnosed with leukemia, he actively underwent treatment."
+  },
+  {
+    "word": "常数",
+    "sent_simp": "圆周率是一个著名的数学常数。",
+    "sent_trad": "圓周率是一個著名的數學常數。",
+    "pinyin": "Yuánzhōulǜ shì yī gè zhùmíng de shùxué chángshù.",
+    "english": "Pi is a famous mathematical constant."
+  },
+  {
+    "word": "上尉",
+    "sent_simp": "他刚晋升为上尉，很高兴。",
+    "sent_trad": "他剛晉升為上尉，很高興。",
+    "pinyin": "Tā gāng jìnshēng wéi shàngwèi, hěn gāoxìng.",
+    "english": "He was just promoted to captain and is very happy."
+  },
+  {
+    "word": "代数",
+    "sent_simp": "我高中时觉得代数很难学。",
+    "sent_trad": "我高中時覺得代數很難學。",
+    "pinyin": "Wǒ gāozhōng shí juéde dàishù hěn nán xué.",
+    "english": "I found algebra very hard to learn in high school."
+  },
+  {
+    "word": "门厅",
+    "sent_simp": "客人在门厅脱鞋换拖鞋。",
+    "sent_trad": "客人在門廳脫鞋換拖鞋。",
+    "pinyin": "Kèrén zài méntīng tuō xié huàn tuōxié.",
+    "english": "Guests take off their shoes and put on slippers in the entrance hall."
+  },
+  {
+    "word": "婚前",
+    "sent_simp": "他们婚前已经认识了五年。",
+    "sent_trad": "他們婚前已經認識了五年。",
+    "pinyin": "Tāmen hūnqián yǐjīng rènshi le wǔ nián.",
+    "english": "They had already known each other for five years before getting married."
+  },
+  {
+    "word": "风潮",
+    "sent_simp": "最近掀起了一股露营风潮。",
+    "sent_trad": "最近掀起了一股露營風潮。",
+    "pinyin": "Zuìjìn xiānqǐ le yī gǔ lùyíng fēngcháo.",
+    "english": "A camping craze has swept through recently."
+  },
+  {
+    "word": "古玩",
+    "sent_simp": "爷爷喜欢在市场上淘古玩。",
+    "sent_trad": "爺爺喜歡在市場上淘古玩。",
+    "pinyin": "Yéye xǐhuān zài shìchǎng shàng táo gǔwán.",
+    "english": "Grandpa likes hunting for antiques at the market."
+  },
+  {
+    "word": "拉德",
+    "sent_simp": "辐射剂量以拉德为单位来计算。",
+    "sent_trad": "輻射劑量以拉德為單位來計算。",
+    "pinyin": "Fúshè jìliàng yǐ lādé wéi dānwèi lái jìsuàn.",
+    "english": "Radiation dose is calculated in units of rads."
+  },
+  {
+    "word": "女流",
+    "sent_simp": "她不接受别人说她是女流之辈。",
+    "sent_trad": "她不接受別人說她是女流之輩。",
+    "pinyin": "Tā bù jiēshòu biérén shuō tā shì nǚliú zhī bèi.",
+    "english": "She does not accept being dismissed as just a woman."
+  },
+  {
+    "word": "娘娘",
+    "sent_simp": "庙里供奉的是送子娘娘。",
+    "sent_trad": "廟裡供奉的是送子娘娘。",
+    "pinyin": "Miào lǐ gòngfèng de shì sòngzǐ Niángniáng.",
+    "english": "The temple enshrines the Goddess of Fertility."
+  },
+  {
+    "word": "面纱",
+    "sent_simp": "她戴上面纱走进了婚礼现场。",
+    "sent_trad": "她戴上面紗走進了婚禮現場。",
+    "pinyin": "Tā dàishàng miànshā zǒujìn le hūnlǐ xiànchǎng.",
+    "english": "She put on her veil and walked into the wedding venue."
+  },
+  {
+    "word": "贴纸",
+    "sent_simp": "孩子喜欢在本子上贴贴纸。",
+    "sent_trad": "孩子喜歡在本子上貼貼紙。",
+    "pinyin": "Háizi xǐhuān zài běnzi shàng tiē tiēzhǐ.",
+    "english": "Kids love putting stickers on their notebooks."
+  },
+  {
+    "word": "升空",
+    "sent_simp": "火箭顺利升空，全场欢呼。",
+    "sent_trad": "火箭順利升空，全場歡呼。",
+    "pinyin": "Huǒjiàn shùnlì shēngkōng, quánchǎng huānhū.",
+    "english": "The rocket lifted off successfully and the whole venue cheered."
+  },
+  {
+    "word": "阁楼",
+    "sent_simp": "他把旧书箱搬到了阁楼里。",
+    "sent_trad": "他把舊書箱搬到了閣樓裡。",
+    "pinyin": "Tā bǎ jiù shūxiāng bān dào le gélóu lǐ.",
+    "english": "He moved the old book boxes up to the attic."
+  },
+  {
+    "word": "耗资",
+    "sent_simp": "这座桥耗资二十亿元才建成。",
+    "sent_trad": "這座橋耗資二十億元才建成。",
+    "pinyin": "Zhè zuò qiáo hàozī èrshí yì yuán cái jiànchéng.",
+    "english": "This bridge cost two billion yuan to build."
+  },
+  {
+    "word": "狭义",
+    "sent_simp": "狭义上的教育指学校里的教学。",
+    "sent_trad": "狹義上的教育指學校裡的教學。",
+    "pinyin": "Xiáyì shàng de jiàoyù zhǐ xuéxiào lǐ de jiàoxué.",
+    "english": "In the narrow sense, education refers to classroom teaching at school."
+  },
+  {
+    "word": "模板",
+    "sent_simp": "公司提供了一套合同模板供参考。",
+    "sent_trad": "公司提供了一套合同模板供參考。",
+    "pinyin": "Gōngsī tígōng le yī tào hétóng múbǎn gōng cānkǎo.",
+    "english": "The company provided a set of contract templates for reference."
+  },
+  {
+    "word": "链条",
+    "sent_simp": "自行车的链条松了需要调整。",
+    "sent_trad": "自行車的鏈條鬆了需要調整。",
+    "pinyin": "Zìxíngchē de liàntiáo sōng le xūyào tiáozhěng.",
+    "english": "The bicycle chain is loose and needs to be adjusted."
+  },
+  {
+    "word": "铺设",
+    "sent_simp": "工人正在铺设新的地下管道。",
+    "sent_trad": "工人正在鋪設新的地下管道。",
+    "pinyin": "Gōngrén zhèngzài pūshè xīn de dìxià guǎndào.",
+    "english": "Workers are laying new underground pipelines."
+  },
+  {
+    "word": "王座",
+    "sent_simp": "国王端坐在王座上接受朝拜。",
+    "sent_trad": "國王端坐在王座上接受朝拜。",
+    "pinyin": "Guówáng duānzuò zài wángzuò shàng jiēshòu cháobài.",
+    "english": "The king sat upright on the throne receiving obeisance."
+  },
+  {
+    "word": "祭司",
+    "sent_simp": "祭司主持了神庙的开幕仪式。",
+    "sent_trad": "祭司主持了神廟的開幕儀式。",
+    "pinyin": "Jìsī zhǔchí le shénmiào de kāimù yíshì.",
+    "english": "The priest presided over the opening ceremony of the temple."
+  },
+  {
+    "word": "前夫",
+    "sent_simp": "她和前夫分开后搬去了上海。",
+    "sent_trad": "她和前夫分開後搬去了上海。",
+    "pinyin": "Tā hé qiánfū fēnkāi hòu bān qù le Shànghǎi.",
+    "english": "After separating from her ex-husband, she moved to Shanghai."
+  },
+  {
+    "word": "不朽",
+    "sent_simp": "他的作品至今被视为不朽经典。",
+    "sent_trad": "他的作品至今被視為不朽經典。",
+    "pinyin": "Tā de zuòpǐn zhìjīn bèi shì wéi bùxiǔ jīngdiǎn.",
+    "english": "His works are still regarded as enduring classics today."
+  },
+  {
+    "word": "即位",
+    "sent_simp": "新王即位后宣布减免赋税。",
+    "sent_trad": "新王即位後宣布減免賦稅。",
+    "pinyin": "Xīn wáng jíwèi hòu xuānbù jiǎnmiǎn fùshuì.",
+    "english": "After the new king ascended the throne, he announced tax reductions."
+  },
+  {
+    "word": "清纯",
+    "sent_simp": "她的笑容清纯可爱，让人心情好。",
+    "sent_trad": "她的笑容清純可愛，讓人心情好。",
+    "pinyin": "Tā de xiàoróng qīngchún kě'ài, ràng rén xīnqíng hǎo.",
+    "english": "Her smile is fresh and pure, making people feel happy."
+  },
+  {
+    "word": "入球",
+    "sent_simp": "他在比赛最后一分钟打进了入球。",
+    "sent_trad": "他在比賽最後一分鐘打進了入球。",
+    "pinyin": "Tā zài bǐsài zuìhòu yī fēnzhōng dǎjìn le rùqiú.",
+    "english": "He scored a goal in the last minute of the match."
+  },
+  {
+    "word": "盟国",
+    "sent_simp": "两国是关系密切的盟国。",
+    "sent_trad": "兩國是關係密切的盟國。",
+    "pinyin": "Liǎng guó shì guānxi mìqiē de méngguó.",
+    "english": "The two countries are close allies."
+  },
+  {
+    "word": "雨量",
+    "sent_simp": "今年夏天的雨量比往年多很多。",
+    "sent_trad": "今年夏天的雨量比往年多很多。",
+    "pinyin": "Jīnnián xiàtiān de yǔliàng bǐ wǎngnián duō hěn duō.",
+    "english": "This summer's rainfall is much higher than in previous years."
+  },
+  {
+    "word": "迁居",
+    "sent_simp": "退休后他们迁居到了海边小镇。",
+    "sent_trad": "退休後他們遷居到了海邊小鎮。",
+    "pinyin": "Tuìxiū hòu tāmen qiānjū dào le hǎibiān xiǎozhèn.",
+    "english": "After retiring, they moved to a small seaside town."
+  },
+  {
+    "word": "品格",
+    "sent_simp": "老师说一个人的品格比成绩更重要。",
+    "sent_trad": "老師說一個人的品格比成績更重要。",
+    "pinyin": "Lǎoshī shuō yī gè rén de pǐngé bǐ chéngjì gèng zhòngyào.",
+    "english": "The teacher said a person's moral character is more important than grades."
+  },
+  {
+    "word": "中标",
+    "sent_simp": "我们公司顺利中标了这个项目。",
+    "sent_trad": "我們公司順利中標了這個項目。",
+    "pinyin": "Wǒmen gōngsī shùnlì zhòngbiāo le zhège xiàngmù.",
+    "english": "Our company successfully won the bid for this project."
+  },
+  {
+    "word": "辱骂",
+    "sent_simp": "网络上不应该随意辱骂他人。",
+    "sent_trad": "網絡上不應該隨意辱罵他人。",
+    "pinyin": "Wǎngluò shàng bù yīnggāi suíyì rǔmà tārén.",
+    "english": "People should not casually insult others online."
+  },
+  {
+    "word": "轻生",
+    "sent_simp": "遇到困难要及时求助，不要轻生。",
+    "sent_trad": "遇到困難要及時求助，不要輕生。",
+    "pinyin": "Yùdào kùnnán yào jíshí qiúzhù, bùyào qīngshēng.",
+    "english": "When facing difficulties, seek help in time and don't take your own life."
+  },
+  {
+    "word": "罚金",
+    "sent_simp": "他因为超速被处以一千元罚金。",
+    "sent_trad": "他因為超速被處以一千元罰金。",
+    "pinyin": "Tā yīnwèi chāosù bèi chǔyǐ yīqiān yuán fájīn.",
+    "english": "He was fined one thousand yuan for speeding."
+  },
+  {
+    "word": "收视",
+    "sent_simp": "这部剧的收视率创了新高。",
+    "sent_trad": "這部劇的收視率創了新高。",
+    "pinyin": "Zhè bù jù de shōushì lǜ chuàng le xīn gāo.",
+    "english": "The viewership ratings for this drama hit a new high."
+  },
+  {
+    "word": "性关系",
+    "sent_simp": "健康的性关系建立在相互尊重的基础上。",
+    "sent_trad": "健康的性關係建立在相互尊重的基礎上。",
+    "pinyin": "Jiànkāng de xìngguānxi jiànlì zài xiānghù zūnzhòng de jīchǔ shàng.",
+    "english": "A healthy sexual relationship is built on mutual respect."
+  },
+  {
+    "word": "批量",
+    "sent_simp": "工厂开始批量生产这款新手机。",
+    "sent_trad": "工廠開始批量生產這款新手機。",
+    "pinyin": "Gōngchǎng kāishǐ pīliàng shēngchǎn zhè kuǎn xīn shǒujī.",
+    "english": "The factory has begun mass-producing this new phone."
+  },
+  {
+    "word": "量词",
+    "sent_simp": "学中文时量词是一个难点。",
+    "sent_trad": "學中文時量詞是一個難點。",
+    "pinyin": "Xué Zhōngwén shí liàngcí shì yī gè nándiǎn.",
+    "english": "Measure words are a difficult point when learning Chinese."
+  }
+]

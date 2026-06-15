@@ -1,0 +1,282 @@
+[
+  {
+    "word": "交通费",
+    "sent_simp": "公司会报销你的交通费。",
+    "sent_trad": "公司會報銷你的交通費。",
+    "pinyin": "Gōngsī huì bàoxiāo nǐ de jiāotōngfèi.",
+    "english": "The company will reimburse your transport costs."
+  },
+  {
+    "word": "饮品",
+    "sent_simp": "菜单上有很多饮品可以选。",
+    "sent_trad": "菜單上有很多飲品可以選。",
+    "pinyin": "Càidān shàng yǒu hěn duō yǐnpǐn kěyǐ xuǎn.",
+    "english": "There are many beverages to choose from on the menu."
+  },
+  {
+    "word": "综合症",
+    "sent_simp": "他被诊断出患有代谢综合症。",
+    "sent_trad": "他被診斷出患有代謝綜合症。",
+    "pinyin": "Tā bèi zhěnduàn chū huànyǒu dàixiè zōnghézhèng.",
+    "english": "He was diagnosed with metabolic syndrome."
+  },
+  {
+    "word": "报表",
+    "sent_simp": "每月底都要提交销售报表。",
+    "sent_trad": "每月底都要提交銷售報表。",
+    "pinyin": "Měi yuèdǐ dōu yào tíjiāo xiāoshòu bàobiǎo.",
+    "english": "Sales report forms must be submitted at the end of each month."
+  },
+  {
+    "word": "愿景",
+    "sent_simp": "这家公司的愿景是改善环境。",
+    "sent_trad": "這家公司的願景是改善環境。",
+    "pinyin": "Zhè jiā gōngsī de yuànjǐng shì gǎishàn huánjìng.",
+    "english": "This company's vision is to improve the environment."
+  },
+  {
+    "word": "野战军",
+    "sent_simp": "这支野战军曾在西部驻扎多年。",
+    "sent_trad": "這支野戰軍曾在西部駐紮多年。",
+    "pinyin": "Zhè zhī yězhànjūn céng zài xībù zhùzhā duō nián.",
+    "english": "This field army was stationed in the west for many years."
+  },
+  {
+    "word": "节节",
+    "sent_simp": "他的成绩节节提高，老师很满意。",
+    "sent_trad": "他的成績節節提高，老師很滿意。",
+    "pinyin": "Tā de chéngjì jiéjié tígāo, lǎoshī hěn mǎnyì.",
+    "english": "His grades have been improving step by step, and his teacher is very pleased."
+  },
+  {
+    "word": "变压器",
+    "sent_simp": "这台变压器负责给整栋楼供电。",
+    "sent_trad": "這台變壓器負責給整棟樓供電。",
+    "pinyin": "Zhè tái biànyāqì fùzé gěi zhěng dòng lóu gōngdiàn.",
+    "english": "This transformer is responsible for supplying power to the entire building."
+  },
+  {
+    "word": "濒危",
+    "sent_simp": "大熊猫曾经是濒危动物。",
+    "sent_trad": "大熊貓曾經是瀕危動物。",
+    "pinyin": "Dàxióngmāo céngjīng shì bīnwēi dòngwù.",
+    "english": "Giant pandas were once an endangered species."
+  },
+  {
+    "word": "地图集",
+    "sent_simp": "我在图书馆借了一本世界地图集。",
+    "sent_trad": "我在圖書館借了一本世界地圖集。",
+    "pinyin": "Wǒ zài túshūguǎn jiè le yī běn shìjiè dìtújí.",
+    "english": "I borrowed a world atlas from the library."
+  },
+  {
+    "word": "发源",
+    "sent_simp": "黄河发源于青藏高原。",
+    "sent_trad": "黃河發源於青藏高原。",
+    "pinyin": "Huánghé fāyuán yú Qīng-Zàng gāoyuán.",
+    "english": "The Yellow River originates from the Qinghai-Tibet Plateau."
+  },
+  {
+    "word": "变种",
+    "sent_simp": "科学家正在研究这个病毒的变种。",
+    "sent_trad": "科學家正在研究這個病毒的變種。",
+    "pinyin": "Kēxuéjiā zhèngzài yánjiū zhège bìngdú de biànzhǒng.",
+    "english": "Scientists are studying this variant of the virus."
+  },
+  {
+    "word": "乙醇",
+    "sent_simp": "消毒酒精的主要成分是乙醇。",
+    "sent_trad": "消毒酒精的主要成分是乙醇。",
+    "pinyin": "Xiāodú jiǔjīng de zhǔyào chéngfèn shì yǐchún.",
+    "english": "The main ingredient in rubbing alcohol is ethanol."
+  },
+  {
+    "word": "专业化",
+    "sent_simp": "工厂的生产越来越专业化了。",
+    "sent_trad": "工廠的生產越來越專業化了。",
+    "pinyin": "Gōngchǎng de shēngchǎn yuèláiyuè zhuānyèhuà le.",
+    "english": "The factory's production has become increasingly specialized."
+  },
+  {
+    "word": "引述",
+    "sent_simp": "她在报告中引述了专家的话。",
+    "sent_trad": "她在報告中引述了專家的話。",
+    "pinyin": "Tā zài bàogào zhōng yǐnshù le zhuānjiā de huà.",
+    "english": "She quoted the expert's words in her report."
+  },
+  {
+    "word": "新意",
+    "sent_simp": "这个设计颇有新意，大家都很喜欢。",
+    "sent_trad": "這個設計頗有新意，大家都很喜歡。",
+    "pinyin": "Zhège shèjì pō yǒu xīnyì, dàjiā dōu hěn xǐhuān.",
+    "english": "This design has quite a fresh new idea; everyone likes it."
+  },
+  {
+    "word": "男方",
+    "sent_simp": "婚礼费用由男方家里来出。",
+    "sent_trad": "婚禮費用由男方家裡來出。",
+    "pinyin": "Hūnlǐ fèiyòng yóu nánfāng jiālǐ lái chū.",
+    "english": "The wedding expenses will be covered by the groom's family."
+  },
+  {
+    "word": "估价",
+    "sent_simp": "房产中介对这套房子进行了估价。",
+    "sent_trad": "房產中介對這套房子進行了估價。",
+    "pinyin": "Fángchǎn zhōngjiè duì zhè tào fángzi jìnxíng le gūjià.",
+    "english": "The real estate agent appraised this apartment."
+  },
+  {
+    "word": "四海",
+    "sent_simp": "他们的产品畅销四海。",
+    "sent_trad": "他們的產品暢銷四海。",
+    "pinyin": "Tāmen de chǎnpǐn chàngxiāo sìhǎi.",
+    "english": "Their products sell well all over the world."
+  },
+  {
+    "word": "流利",
+    "sent_simp": "她的英语说得非常流利。",
+    "sent_trad": "她的英語說得非常流利。",
+    "pinyin": "Tā de Yīngyǔ shuō de fēicháng liúlì.",
+    "english": "She speaks English very fluently."
+  },
+  {
+    "word": "一排",
+    "sent_simp": "门口停着一排自行车。",
+    "sent_trad": "門口停著一排自行車。",
+    "pinyin": "Ménkǒu tíng zhe yī pái zìxíngchē.",
+    "english": "There is a row of bicycles parked at the entrance."
+  },
+  {
+    "word": "数据流",
+    "sent_simp": "系统需要处理大量的数据流。",
+    "sent_trad": "系統需要處理大量的數據流。",
+    "pinyin": "Xìtǒng xūyào chǔlǐ dàliàng de shùjùliú.",
+    "english": "The system needs to handle a large volume of data flow."
+  },
+  {
+    "word": "颇具",
+    "sent_simp": "这家小餐厅颇具特色。",
+    "sent_trad": "這家小餐廳頗具特色。",
+    "pinyin": "Zhè jiā xiǎo cāntīng pō jù tèsè.",
+    "english": "This small restaurant has quite a distinctive character."
+  },
+  {
+    "word": "教士",
+    "sent_simp": "那位教士每周日在教堂讲道。",
+    "sent_trad": "那位教士每週日在教堂講道。",
+    "pinyin": "Nà wèi jiàoshì měi zhōurì zài jiàotáng jiǎngdào.",
+    "english": "That clergyman preaches at the church every Sunday."
+  },
+  {
+    "word": "三轮车",
+    "sent_simp": "他骑着三轮车在市场卖水果。",
+    "sent_trad": "他騎著三輪車在市場賣水果。",
+    "pinyin": "Tā qí zhe sānlúnchē zài shìchǎng mài shuǐguǒ.",
+    "english": "He rides a tricycle to sell fruit at the market."
+  },
+  {
+    "word": "气旋",
+    "sent_simp": "强烈气旋正在向沿海地区移动。",
+    "sent_trad": "強烈氣旋正在向沿海地區移動。",
+    "pinyin": "Qiángliè qìxuán zhèngzài xiàng yánhǎi dìqū yídòng.",
+    "english": "An intense cyclone is moving toward coastal areas."
+  },
+  {
+    "word": "公使",
+    "sent_simp": "这位公使代表本国与外国协商。",
+    "sent_trad": "這位公使代表本國與外國協商。",
+    "pinyin": "Zhè wèi gōngshǐ dàibiǎo běnguó yǔ wàiguó xiéshāng.",
+    "english": "This minister represented his country in negotiations with foreign nations."
+  },
+  {
+    "word": "座机",
+    "sent_simp": "请拨打我的座机，信号更稳定。",
+    "sent_trad": "請撥打我的座機，信號更穩定。",
+    "pinyin": "Qǐng bōdǎ wǒ de zuòjī, xìnhào gèng wěndìng.",
+    "english": "Please call my landline; the connection is more stable."
+  },
+  {
+    "word": "制备",
+    "sent_simp": "实验室正在制备新的化学试剂。",
+    "sent_trad": "實驗室正在製備新的化學試劑。",
+    "pinyin": "Shíyànshì zhèngzài zhìbèi xīn de huàxué shìjì.",
+    "english": "The laboratory is preparing new chemical reagents."
+  },
+  {
+    "word": "检疫",
+    "sent_simp": "进口动物必须先通过检疫才能入境。",
+    "sent_trad": "進口動物必須先通過檢疫才能入境。",
+    "pinyin": "Jìnkǒu dòngwù bìxū xiān tōngguò jiǎnyì cái néng rùjìng.",
+    "english": "Imported animals must pass quarantine before entering the country."
+  },
+  {
+    "word": "电邮",
+    "sent_simp": "我刚发了一封电邮给你，请查收。",
+    "sent_trad": "我剛發了一封電郵給你，請查收。",
+    "pinyin": "Wǒ gāng fā le yī fēng diànyóu gěi nǐ, qǐng cháshōu.",
+    "english": "I just sent you an email; please check it."
+  },
+  {
+    "word": "安安",
+    "sent_simp": "朋友在群里发了句"安安"打招呼。",
+    "sent_trad": "朋友在群裡發了句「安安」打招呼。",
+    "pinyin": "Péngyǒu zài qún lǐ fā le jù "ān'ān" dǎ zhāohū.",
+    "english": "My friend sent a \"hi there\" greeting in the group chat."
+  },
+  {
+    "word": "吨级",
+    "sent_simp": "这艘船属于万吨级货轮。",
+    "sent_trad": "這艘船屬於萬噸級貨輪。",
+    "pinyin": "Zhè sōu chuán shǔyú wàn dūnjí huòlún.",
+    "english": "This ship belongs to the ten-thousand-ton class of cargo vessels."
+  },
+  {
+    "word": "循环系统",
+    "sent_simp": "心脏是循环系统的核心器官。",
+    "sent_trad": "心臟是循環系統的核心器官。",
+    "pinyin": "Xīnzàng shì xúnhuán xìtǒng de héxīn qìguān.",
+    "english": "The heart is the central organ of the circulatory system."
+  },
+  {
+    "word": "大理石",
+    "sent_simp": "这栋楼的地板是大理石铺的。",
+    "sent_trad": "這棟樓的地板是大理石鋪的。",
+    "pinyin": "Zhè dòng lóu de dìbǎn shì dàlǐshí pū de.",
+    "english": "The floors of this building are laid with marble."
+  },
+  {
+    "word": "姐夫",
+    "sent_simp": "我姐夫下周要来家里吃饭。",
+    "sent_trad": "我姐夫下週要來家裡吃飯。",
+    "pinyin": "Wǒ jiěfū xià zhōu yào lái jiālǐ chīfàn.",
+    "english": "My older sister's husband is coming to our home for dinner next week."
+  },
+  {
+    "word": "意境",
+    "sent_simp": "这首诗的意境非常深远。",
+    "sent_trad": "這首詩的意境非常深遠。",
+    "pinyin": "Zhè shǒu shī de yìjìng fēicháng shēnyuǎn.",
+    "english": "The artistic mood of this poem is very profound."
+  },
+  {
+    "word": "入伍",
+    "sent_simp": "他刚满十八岁就申请入伍了。",
+    "sent_trad": "他剛滿十八歲就申請入伍了。",
+    "pinyin": "Tā gāng mǎn shíbā suì jiù shēnqǐng rùwǔ le.",
+    "english": "He applied to enlist in the army as soon as he turned eighteen."
+  },
+  {
+    "word": "飞越",
+    "sent_simp": "飞机飞越了喜马拉雅山脉。",
+    "sent_trad": "飛機飛越了喜馬拉雅山脈。",
+    "pinyin": "Fēijī fēiyuè le Xǐmǎlāyǎ shānmài.",
+    "english": "The plane flew over the Himalayas."
+  },
+  {
+    "word": "装载",
+    "sent_simp": "这辆卡车已经装载了满满一车货物。",
+    "sent_trad": "這輛卡車已經裝載了滿滿一車貨物。",
+    "pinyin": "Zhè liàng kǎchē yǐjīng zhuāngzài le mǎnmǎn yī chē huòwù.",
+    "english": "This truck has already been loaded with a full cargo of goods."
+  }
+]

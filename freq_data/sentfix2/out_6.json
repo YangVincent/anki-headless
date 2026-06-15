@@ -1,0 +1,282 @@
+[
+  {
+    "word": "游乐场",
+    "sent_simp": "孩子们在游乐场玩得很开心。",
+    "sent_trad": "孩子們在遊樂場玩得很開心。",
+    "pinyin": "Háizimen zài yóulèchǎng wán de hěn kāixīn.",
+    "english": "The children are having a great time at the playground."
+  },
+  {
+    "word": "湿地",
+    "sent_simp": "这片湿地是候鸟的重要栖息地。",
+    "sent_trad": "這片濕地是候鳥的重要棲息地。",
+    "pinyin": "Zhè piàn shīdì shì hòuniǎo de zhòngyào qīxīdì.",
+    "english": "This wetland is an important habitat for migratory birds."
+  },
+  {
+    "word": "溶液",
+    "sent_simp": "把盐放入水中就能配成溶液。",
+    "sent_trad": "把鹽放入水中就能配成溶液。",
+    "pinyin": "Bǎ yán fàng rù shuǐ zhōng jiù néng pèi chéng róngyè.",
+    "english": "Adding salt to water can make a solution."
+  },
+  {
+    "word": "濒危",
+    "sent_simp": "大熊猫曾经是濒危动物。",
+    "sent_trad": "大熊貓曾經是瀕危動物。",
+    "pinyin": "Dàxióngmāo céngjīng shì bīnwēi dòngwù.",
+    "english": "Giant pandas were once endangered animals."
+  },
+  {
+    "word": "火鸡",
+    "sent_simp": "感恩节那天他们烤了一只火鸡。",
+    "sent_trad": "感恩節那天他們烤了一隻火雞。",
+    "pinyin": "Gǎn'ēnjié nà tiān tāmen kǎo le yī zhī huǒjī.",
+    "english": "They roasted a turkey on Thanksgiving Day."
+  },
+  {
+    "word": "焊接",
+    "sent_simp": "工人正在焊接两块金属板。",
+    "sent_trad": "工人正在焊接兩塊金屬板。",
+    "pinyin": "Gōngrén zhèngzài hànjiē liǎng kuài jīnshǔ bǎn.",
+    "english": "The worker is welding two metal plates together."
+  },
+  {
+    "word": "爱国主义",
+    "sent_simp": "学校教育中常常包含爱国主义内容。",
+    "sent_trad": "學校教育中常常包含愛國主義內容。",
+    "pinyin": "Xuéxiào jiàoyù zhōng chángcháng bāohán àiguózhǔyì nèiróng.",
+    "english": "School education often includes patriotism content."
+  },
+  {
+    "word": "片中",
+    "sent_simp": "片中的主角是一位年轻的老师。",
+    "sent_trad": "片中的主角是一位年輕的老師。",
+    "pinyin": "Piàn zhōng de zhǔjué shì yī wèi niánqīng de lǎoshī.",
+    "english": "The main character in the film is a young teacher."
+  },
+  {
+    "word": "牧师",
+    "sent_simp": "牧师在教堂里为大家祈祷。",
+    "sent_trad": "牧師在教堂裡為大家祈禱。",
+    "pinyin": "Mùshī zài jiàotáng lǐ wèi dàjiā qídǎo.",
+    "english": "The pastor prayed for everyone in the church."
+  },
+  {
+    "word": "特指",
+    "sent_simp": "这里的"老人"特指六十岁以上的人。",
+    "sent_trad": "這裡的「老人」特指六十歲以上的人。",
+    "pinyin": "Zhèlǐ de "lǎorén" tèzhǐ liùshí suì yǐshàng de rén.",
+    "english": "The term 'elderly' here refers specifically to people over sixty."
+  },
+  {
+    "word": "班子",
+    "sent_simp": "新的领导班子已经正式成立。",
+    "sent_trad": "新的領導班子已經正式成立。",
+    "pinyin": "Xīn de lǐngdǎo bānzi yǐjīng zhèngshì chénglì.",
+    "english": "The new leadership team has been officially established."
+  },
+  {
+    "word": "理智",
+    "sent_simp": "遇到困难时要保持理智，冷静分析。",
+    "sent_trad": "遇到困難時要保持理智，冷靜分析。",
+    "pinyin": "Yù dào kùnnán shí yào bǎochí lǐzhì, lěngjìng fēnxī.",
+    "english": "When facing difficulties, stay rational and analyze calmly."
+  },
+  {
+    "word": "生铁",
+    "sent_simp": "炼钢需要先将生铁进行提纯。",
+    "sent_trad": "煉鋼需要先將生鐵進行提純。",
+    "pinyin": "Liàn gāng xūyào xiān jiāng shēngtiě jìnxíng tíchún.",
+    "english": "Steel smelting requires purifying pig iron first."
+  },
+  {
+    "word": "申请人",
+    "sent_simp": "申请人需要提交完整的材料。",
+    "sent_trad": "申請人需要提交完整的材料。",
+    "pinyin": "Shēnqǐngrén xūyào tíjiāo wánzhěng de cáiliào.",
+    "english": "The applicant needs to submit complete documents."
+  },
+  {
+    "word": "电击",
+    "sent_simp": "他不小心触碰电线，遭到了电击。",
+    "sent_trad": "他不小心觸碰電線，遭到了電擊。",
+    "pinyin": "Tā bù xiǎoxīn chùpèng diànxiàn, zāodào le diànjī.",
+    "english": "He accidentally touched the wire and received an electric shock."
+  },
+  {
+    "word": "电子游戏",
+    "sent_simp": "他每天放学后都会玩一会儿电子游戏。",
+    "sent_trad": "他每天放學後都會玩一會兒電子遊戲。",
+    "pinyin": "Tā měitiān fàngxué hòu dōu huì wán yīhuìr diànzǐ yóuxì.",
+    "english": "He plays video games for a while every day after school."
+  },
+  {
+    "word": "电邮",
+    "sent_simp": "请把报告发电邮给我。",
+    "sent_trad": "請把報告發電郵給我。",
+    "pinyin": "Qǐng bǎ bàogào fā diànyóu gěi wǒ.",
+    "english": "Please send the report to me by email."
+  },
+  {
+    "word": "男方",
+    "sent_simp": "婚礼费用由男方家庭承担。",
+    "sent_trad": "婚禮費用由男方家庭承擔。",
+    "pinyin": "Hūnlǐ fèiyòng yóu nánfāng jiātíng chéngdān.",
+    "english": "The wedding expenses are covered by the groom's family."
+  },
+  {
+    "word": "白条",
+    "sent_simp": "他打了张白条说下个月还钱。",
+    "sent_trad": "他打了張白條說下個月還錢。",
+    "pinyin": "Tā dǎ le zhāng báitiáo shuō xià gè yuè huán qián.",
+    "english": "He wrote an IOU saying he'd pay back next month."
+  },
+  {
+    "word": "白线",
+    "sent_simp": "请在白线内等候地铁。",
+    "sent_trad": "請在白線內等候地鐵。",
+    "pinyin": "Qǐng zài báixiàn nèi děnghòu dìtiě.",
+    "english": "Please wait behind the white line for the subway."
+  },
+  {
+    "word": "百分比",
+    "sent_simp": "这道题要求计算合格率的百分比。",
+    "sent_trad": "這道題要求計算合格率的百分比。",
+    "pinyin": "Zhè dào tí yāoqiú jìsuàn hégélǜ de bǎifēnbǐ.",
+    "english": "This question asks you to calculate the percentage of the pass rate."
+  },
+  {
+    "word": "监测",
+    "sent_simp": "气象站每天监测当地的天气变化。",
+    "sent_trad": "氣象站每天監測當地的天氣變化。",
+    "pinyin": "Qìxiàngzhàn měitiān jiāncè dāngdì de tiānqì biànhuà.",
+    "english": "The weather station monitors local weather changes every day."
+  },
+  {
+    "word": "直行",
+    "sent_simp": "到路口后直行三百米就到了。",
+    "sent_trad": "到路口後直行三百米就到了。",
+    "pinyin": "Dào lùkǒu hòu zhíxíng sānbǎi mǐ jiù dào le.",
+    "english": "After reaching the intersection, go straight for three hundred meters and you'll be there."
+  },
+  {
+    "word": "看着办",
+    "sent_simp": "这件事你自己看着办吧。",
+    "sent_trad": "這件事你自己看著辦吧。",
+    "pinyin": "Zhè jiàn shì nǐ zìjǐ kànzheàn bā.",
+    "english": "Handle this matter however you see fit."
+  },
+  {
+    "word": "真真",
+    "sent_simp": "这是真真发生过的事，不是故事。",
+    "sent_trad": "這是真真發生過的事，不是故事。",
+    "pinyin": "Zhè shì zhēnzhēn fāshēng guò de shì, bú shì gùshi.",
+    "english": "This is something that really and truly happened, not a story."
+  },
+  {
+    "word": "着色",
+    "sent_simp": "孩子们正在给图画着色。",
+    "sent_trad": "孩子們正在給圖畫著色。",
+    "pinyin": "Háizimen zhèngzài gěi túhuà zhuósè.",
+    "english": "The children are coloring the pictures."
+  },
+  {
+    "word": "石块",
+    "sent_simp": "小路旁边摆着几块大石块。",
+    "sent_trad": "小路旁邊擺著幾塊大石塊。",
+    "pinyin": "Xiǎolù pángbiān bǎizhe jǐ kuài dà shíkuài.",
+    "english": "Several large rocks are placed along the side of the path."
+  },
+  {
+    "word": "研究者",
+    "sent_simp": "研究者发现这种植物有抗炎作用。",
+    "sent_trad": "研究者發現這種植物有抗炎作用。",
+    "pinyin": "Yánjiūzhě fāxiàn zhè zhǒng zhíwù yǒu kàngyán zuòyòng.",
+    "english": "Researchers found that this plant has anti-inflammatory properties."
+  },
+  {
+    "word": "研讨会",
+    "sent_simp": "他下周要参加一场学术研讨会。",
+    "sent_trad": "他下週要參加一場學術研討會。",
+    "pinyin": "Tā xià zhōu yào cānjiā yī chǎng xuéshù yántǎohuì.",
+    "english": "He is attending an academic seminar next week."
+  },
+  {
+    "word": "神马",
+    "sent_simp": "网上流行说"神马都是浮云"。",
+    "sent_trad": "網上流行說「神馬都是浮雲」。",
+    "pinyin": "Wǎng shàng liúxíng shuō "shénmǎ dōu shì fúyún".",
+    "english": "Online, the phrase 'everything is just fleeting clouds' became popular slang."
+  },
+  {
+    "word": "私信",
+    "sent_simp": "你可以给我发私信，我会尽快回复。",
+    "sent_trad": "你可以給我發私信，我會儘快回覆。",
+    "pinyin": "Nǐ kěyǐ gěi wǒ fā sīxìn, wǒ huì jǐnkuài huífù.",
+    "english": "You can send me a private message and I'll reply as soon as possible."
+  },
+  {
+    "word": "种族灭绝",
+    "sent_simp": "种族灭绝是国际法严格禁止的罪行。",
+    "sent_trad": "種族滅絕是國際法嚴格禁止的罪行。",
+    "pinyin": "Zhǒngzú mièjué shì guójìfǎ yángé jìnzhǐ de zuìxíng.",
+    "english": "Genocide is a crime strictly prohibited by international law."
+  },
+  {
+    "word": "科技",
+    "sent_simp": "现代科技让我们的生活更加便利。",
+    "sent_trad": "現代科技讓我們的生活更加便利。",
+    "pinyin": "Xiàndài kējì ràng wǒmen de shēnghuó gèngjiā biànlì.",
+    "english": "Modern science and technology make our lives more convenient."
+  },
+  {
+    "word": "程序员",
+    "sent_simp": "他是一名经验丰富的程序员。",
+    "sent_trad": "他是一名經驗豐富的程序員。",
+    "pinyin": "Tā shì yī míng jīngyàn fēngfù de chéngxùyuán.",
+    "english": "He is an experienced programmer."
+  },
+  {
+    "word": "税收",
+    "sent_simp": "政府用税收来建设公共设施。",
+    "sent_trad": "政府用稅收來建設公共設施。",
+    "pinyin": "Zhèngfǔ yòng shuìshōu lái jiànshè gōnggòng shèshī.",
+    "english": "The government uses tax revenue to build public facilities."
+  },
+  {
+    "word": "突击队",
+    "sent_simp": "突击队迅速控制了现场局面。",
+    "sent_trad": "突擊隊迅速控制了現場局面。",
+    "pinyin": "Tūjīduì xùnsù kòngzhì le xiànchǎng júmiàn.",
+    "english": "The commando unit quickly took control of the scene."
+  },
+  {
+    "word": "立项",
+    "sent_simp": "这个研究计划已经正式立项。",
+    "sent_trad": "這個研究計畫已經正式立項。",
+    "pinyin": "Zhège yánjiū jìhuà yǐjīng zhèngshì lìxiàng.",
+    "english": "This research plan has been officially approved and launched."
+  },
+  {
+    "word": "笔下",
+    "sent_simp": "他笔下的人物形象生动真实。",
+    "sent_trad": "他筆下的人物形象生動真實。",
+    "pinyin": "Tā bǐxià de rénwù xíngxiàng shēngdòng zhēnshí.",
+    "english": "The characters he writes are vivid and true to life."
+  },
+  {
+    "word": "笔录",
+    "sent_simp": "警察对证人的陈述做了详细笔录。",
+    "sent_trad": "警察對證人的陳述做了詳細筆錄。",
+    "pinyin": "Jǐngchá duì zhèngrén de chénshù zuò le xiángxì bǐlù.",
+    "english": "The police made a detailed transcript of the witness's statement."
+  },
+  {
+    "word": "笔记",
+    "sent_simp": "上课时记笔记有助于加深理解。",
+    "sent_trad": "上課時記筆記有助於加深理解。",
+    "pinyin": "Shàngkè shí jì bǐjì yǒuzhù yú jiāshēn lǐjiě.",
+    "english": "Taking notes in class helps deepen understanding."
+  }
+]

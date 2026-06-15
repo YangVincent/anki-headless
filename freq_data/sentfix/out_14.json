@@ -1,0 +1,282 @@
+[
+  {
+    "word": "联系方式",
+    "sent_simp": "请把你的联系方式留给我。",
+    "sent_trad": "請把你的聯繫方式留給我。",
+    "pinyin": "Qǐng bǎ nǐ de liánxì fāngshì liú gěi wǒ.",
+    "english": "Please leave your contact details with me."
+  },
+  {
+    "word": "下层",
+    "sent_simp": "柜子下层放的都是书。",
+    "sent_trad": "櫃子下層放的都是書。",
+    "pinyin": "Guìzi xià céng fàng de dōu shì shū.",
+    "english": "The bottom shelf of the cabinet is all books."
+  },
+  {
+    "word": "历史学家",
+    "sent_simp": "这位历史学家写了很多关于唐朝的书。",
+    "sent_trad": "這位歷史學家寫了很多關於唐朝的書。",
+    "pinyin": "Zhè wèi lìshǐ xuéjiā xiě le hěn duō guānyú Táng cháo de shū.",
+    "english": "This historian has written many books about the Tang dynasty."
+  },
+  {
+    "word": "改期",
+    "sent_simp": "会议需要改期，下周再开。",
+    "sent_trad": "會議需要改期，下週再開。",
+    "pinyin": "Huìyì xūyào gǎiqī, xià zhōu zài kāi.",
+    "english": "The meeting needs to be rescheduled to next week."
+  },
+  {
+    "word": "语系",
+    "sent_simp": "汉语属于汉藏语系。",
+    "sent_trad": "漢語屬於漢藏語系。",
+    "pinyin": "Hànyǔ shǔyú Hàn-Zàng yǔxì.",
+    "english": "Chinese belongs to the Sino-Tibetan language family."
+  },
+  {
+    "word": "时任",
+    "sent_simp": "时任市长亲自出席了开幕式。",
+    "sent_trad": "時任市長親自出席了開幕式。",
+    "pinyin": "Shí rèn shìzhǎng qīnzì chūxí le kāimùshì.",
+    "english": "The then-mayor personally attended the opening ceremony."
+  },
+  {
+    "word": "横跨",
+    "sent_simp": "这座桥横跨整条河流。",
+    "sent_trad": "這座橋橫跨整條河流。",
+    "pinyin": "Zhè zuò qiáo héngkuà zhěng tiáo héliú.",
+    "english": "This bridge spans the entire river."
+  },
+  {
+    "word": "防火",
+    "sent_simp": "楼道里贴着防火安全须知。",
+    "sent_trad": "樓道裡貼著防火安全須知。",
+    "pinyin": "Lóudào lǐ tiē zhe fánghuǒ ānquán xūzhī.",
+    "english": "Fire safety instructions are posted in the hallway."
+  },
+  {
+    "word": "研究者",
+    "sent_simp": "这些研究者每天都在实验室工作。",
+    "sent_trad": "這些研究者每天都在實驗室工作。",
+    "pinyin": "Zhèxiē yánjiū zhě měitiān dōu zài shíyànshì gōngzuò.",
+    "english": "These researchers work in the lab every day."
+  },
+  {
+    "word": "花子",
+    "sent_simp": "街边的花子向过路人伸手要钱。",
+    "sent_trad": "街邊的花子向過路人伸手要錢。",
+    "pinyin": "Jiē biān de huāzi xiàng guòlù rén shēn shǒu yào qián.",
+    "english": "The beggar on the street held out his hand asking passersby for money."
+  },
+  {
+    "word": "海豚",
+    "sent_simp": "孩子们在水族馆第一次见到了海豚。",
+    "sent_trad": "孩子們在水族館第一次見到了海豚。",
+    "pinyin": "Háizimen zài shuǐzúguǎn dìyī cì jiàndào le hǎitún.",
+    "english": "The children saw dolphins for the first time at the aquarium."
+  },
+  {
+    "word": "酋长",
+    "sent_simp": "部落酋长在村口迎接了来访的客人。",
+    "sent_trad": "部落酋長在村口迎接了來訪的客人。",
+    "pinyin": "Bùluò qiúzhǎng zài cūn kǒu yíngjiē le láifǎng de kèrén.",
+    "english": "The tribal chief greeted the visiting guests at the village entrance."
+  },
+  {
+    "word": "特指",
+    "sent_simp": "这里的"春节"特指农历新年。",
+    "sent_trad": "這裡的「春節」特指農曆新年。",
+    "pinyin": "Zhèlǐ de "Chūnjié" tèzhǐ nónglì xīnnián.",
+    "english": "The term \"Spring Festival\" here refers specifically to the Lunar New Year."
+  },
+  {
+    "word": "经久",
+    "sent_simp": "这款皮鞋经久耐穿，用了十年还很好。",
+    "sent_trad": "這款皮鞋經久耐穿，用了十年還很好。",
+    "pinyin": "Zhè kuǎn píxié jīngjiǔ nài chuān, yòng le shí nián hái hěn hǎo.",
+    "english": "These leather shoes are very durable — still in great shape after ten years."
+  },
+  {
+    "word": "溶液",
+    "sent_simp": "把盐加入水中就形成了溶液。",
+    "sent_trad": "把鹽加入水中就形成了溶液。",
+    "pinyin": "Bǎ yán jiārù shuǐ zhōng jiù xíngchéng le róngyè.",
+    "english": "Adding salt to water creates a solution."
+  },
+  {
+    "word": "卢比",
+    "sent_simp": "她在印度换了一些卢比用于消费。",
+    "sent_trad": "她在印度換了一些盧比用於消費。",
+    "pinyin": "Tā zài Yìndù huàn le yīxiē lúbǐ yòng yú xiāofèi.",
+    "english": "She exchanged some rupees in India for spending money."
+  },
+  {
+    "word": "后脚",
+    "sent_simp": "他前脚刚走，后脚她就到了。",
+    "sent_trad": "他前腳剛走，後腳她就到了。",
+    "pinyin": "Tā qián jiǎo gāng zǒu, hòu jiǎo tā jiù dào le.",
+    "english": "He had barely left when she arrived right after."
+  },
+  {
+    "word": "本市",
+    "sent_simp": "本市今年新开了两条地铁线。",
+    "sent_trad": "本市今年新開了兩條地鐵線。",
+    "pinyin": "Běn shì jīnnián xīn kāi le liǎng tiáo dìtiě xiàn.",
+    "english": "Our city opened two new subway lines this year."
+  },
+  {
+    "word": "丛书",
+    "sent_simp": "图书馆新进了一套科普丛书。",
+    "sent_trad": "圖書館新進了一套科普叢書。",
+    "pinyin": "Túshūguǎn xīn jìn le yī tào kēpǔ cóngshū.",
+    "english": "The library received a new set of popular science book series."
+  },
+  {
+    "word": "氏族",
+    "sent_simp": "这个氏族世代居住在山区。",
+    "sent_trad": "這個氏族世代居住在山區。",
+    "pinyin": "Zhège shìzú shìdài jūzhù zài shānqū.",
+    "english": "This clan has lived in the mountains for generations."
+  },
+  {
+    "word": "西南部",
+    "sent_simp": "他家在城市的西南部，离地铁很近。",
+    "sent_trad": "他家在城市的西南部，離地鐵很近。",
+    "pinyin": "Tā jiā zài chéngshì de xīnánbù, lí dìtiě hěn jìn.",
+    "english": "His home is in the southwest part of the city, close to the subway."
+  },
+  {
+    "word": "门神",
+    "sent_simp": "过年时家家户户都会贴门神。",
+    "sent_trad": "過年時家家戶戶都會貼門神。",
+    "pinyin": "Guònián shí jiājiāhùhù dōu huì tiē ménshen.",
+    "english": "During the New Year, every household puts up door god pictures."
+  },
+  {
+    "word": "精子",
+    "sent_simp": "医生解释了精子与卵子结合的过程。",
+    "sent_trad": "醫生解釋了精子與卵子結合的過程。",
+    "pinyin": "Yīshēng jiěshì le jīngzǐ yǔ luǎnzǐ jiéhé de guòchéng.",
+    "english": "The doctor explained the process of a sperm cell combining with an egg."
+  },
+  {
+    "word": "爱国主义",
+    "sent_simp": "老师在课堂上讲了爱国主义的故事。",
+    "sent_trad": "老師在課堂上講了愛國主義的故事。",
+    "pinyin": "Lǎoshī zài kètáng shàng jiǎng le àiguó zhǔyì de gùshi.",
+    "english": "The teacher told stories about patriotism in class."
+  },
+  {
+    "word": "增长率",
+    "sent_simp": "今年公司的增长率达到了百分之十五。",
+    "sent_trad": "今年公司的增長率達到了百分之十五。",
+    "pinyin": "Jīnnián gōngsī de zēngzhǎnglǜ dádào le bǎifēnzhī shíwǔ.",
+    "english": "The company's growth rate reached fifteen percent this year."
+  },
+  {
+    "word": "原子弹",
+    "sent_simp": "历史课讲到了原子弹对战争的影响。",
+    "sent_trad": "歷史課講到了原子彈對戰爭的影響。",
+    "pinyin": "Lìshǐ kè jiǎng dào le yuánzǐdàn duì zhànzhēng de yǐngxiǎng.",
+    "english": "The history class covered the impact of the atomic bomb on the war."
+  },
+  {
+    "word": "石块",
+    "sent_simp": "河边散落着大大小小的石块。",
+    "sent_trad": "河邊散落著大大小小的石塊。",
+    "pinyin": "Hé biān sànluò zhe dàdàxiǎoxiǎo de shíkuài.",
+    "english": "Stones of all sizes are scattered along the riverbank."
+  },
+  {
+    "word": "制药",
+    "sent_simp": "他在一家制药公司做研发工作。",
+    "sent_trad": "他在一家製藥公司做研發工作。",
+    "pinyin": "Tā zài yī jiā zhìyào gōngsī zuò yánfā gōngzuò.",
+    "english": "He does research and development work at a pharmaceutical company."
+  },
+  {
+    "word": "驱逐舰",
+    "sent_simp": "新闻里报道了一艘驱逐舰完成任务返港。",
+    "sent_trad": "新聞裡報道了一艘驅逐艦完成任務返港。",
+    "pinyin": "Xīnwén lǐ bàodào le yī sōu qūzhújiàn wánchéng rènwù fǎn gǎng.",
+    "english": "The news reported that a destroyer completed its mission and returned to port."
+  },
+  {
+    "word": "内层",
+    "sent_simp": "这件羽绒服的内层非常柔软保暖。",
+    "sent_trad": "這件羽絨服的內層非常柔軟保暖。",
+    "pinyin": "Zhè jiàn yǔróngfú de nèi céng fēicháng róuruǎn bǎonuǎn.",
+    "english": "The inner layer of this down jacket is very soft and warm."
+  },
+  {
+    "word": "酷刑",
+    "sent_simp": "法律明令禁止对犯人使用酷刑。",
+    "sent_trad": "法律明令禁止對犯人使用酷刑。",
+    "pinyin": "Fǎlǜ míng lìng jìnzhǐ duì fànrén shǐyòng kùxíng.",
+    "english": "The law explicitly prohibits the use of torture on prisoners."
+  },
+  {
+    "word": "参谋长",
+    "sent_simp": "参谋长主持了这次军事会议。",
+    "sent_trad": "參謀長主持了這次軍事會議。",
+    "pinyin": "Cānmóuzhǎng zhǔchí le zhè cì jūnshì huìyì.",
+    "english": "The chief of staff presided over the military meeting."
+  },
+  {
+    "word": "大豆",
+    "sent_simp": "妈妈用大豆自己做了豆腐。",
+    "sent_trad": "媽媽用大豆自己做了豆腐。",
+    "pinyin": "Māma yòng dàdòu zìjǐ zuò le dòufu.",
+    "english": "Mom made tofu herself using soybeans."
+  },
+  {
+    "word": "射杀",
+    "sent_simp": "警察将那只伤人的野猪射杀了。",
+    "sent_trad": "警察將那隻傷人的野豬射殺了。",
+    "pinyin": "Jǐngchá jiāng nà zhī shāngrén de yězhū shèshā le.",
+    "english": "Police shot and killed the wild boar that had injured people."
+  },
+  {
+    "word": "故地",
+    "sent_simp": "他回到故地，发现街道变化很大。",
+    "sent_trad": "他回到故地，發現街道變化很大。",
+    "pinyin": "Tā huídào gùdì, fāxiàn jiēdào biànhuà hěn dà.",
+    "english": "He returned to his old haunts and found the streets had changed a lot."
+  },
+  {
+    "word": "堕胎",
+    "sent_simp": "她在医生的建议下做了堕胎手术。",
+    "sent_trad": "她在醫生的建議下做了墮胎手術。",
+    "pinyin": "Tā zài yīshēng de jiànyì xià zuò le duòtāi shǒushù.",
+    "english": "She had an abortion following her doctor's advice."
+  },
+  {
+    "word": "传教士",
+    "sent_simp": "那位传教士在偏远山区生活了二十年。",
+    "sent_trad": "那位傳教士在偏遠山區生活了二十年。",
+    "pinyin": "Nà wèi chuánjiàoshì zài piānyuǎn shānqū shēnghuó le èrshí nián.",
+    "english": "That missionary lived in a remote mountain area for twenty years."
+  },
+  {
+    "word": "讯号",
+    "sent_simp": "山里的讯号很差，电话经常打不通。",
+    "sent_trad": "山裡的訊號很差，電話經常打不通。",
+    "pinyin": "Shān lǐ de xùnhào hěn chà, diànhuà jīngcháng dǎ bu tōng.",
+    "english": "The signal in the mountains is poor and calls often can't get through."
+  },
+  {
+    "word": "电击",
+    "sent_simp": "他不小心碰到裸露的电线，受到了电击。",
+    "sent_trad": "他不小心碰到裸露的電線，受到了電擊。",
+    "pinyin": "Tā bù xiǎoxīn pèng dào luǒlù de diànxiàn, shòudào le diànjī.",
+    "english": "He accidentally touched a bare wire and got an electric shock."
+  },
+  {
+    "word": "胁迫",
+    "sent_simp": "他声称自己是被胁迫签字的。",
+    "sent_trad": "他聲稱自己是被脅迫簽字的。",
+    "pinyin": "Tā chēngchēng zìjǐ shì bèi xiépò qiānzì de.",
+    "english": "He claimed he was coerced into signing."
+  }
+]

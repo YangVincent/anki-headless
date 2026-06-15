@@ -1,0 +1,282 @@
+[
+  {
+    "word": "卡片",
+    "sent_simp": "她给朋友写了一张生日卡片。",
+    "sent_trad": "她給朋友寫了一張生日卡片。",
+    "pinyin": "Tā gěi péngyou xiě le yī zhāng shēngrì kǎpiàn.",
+    "english": "She wrote a birthday card for her friend."
+  },
+  {
+    "word": "功率",
+    "sent_simp": "这台空调的功率太高，很费电。",
+    "sent_trad": "這台空調的功率太高，很費電。",
+    "pinyin": "Zhè tái kōngtiáo de gōnglǜ tài gāo, hěn fèi diàn.",
+    "english": "This air conditioner's power rating is too high and uses a lot of electricity."
+  },
+  {
+    "word": "航天",
+    "sent_simp": "他从小就梦想参与航天事业。",
+    "sent_trad": "他從小就夢想參與航天事業。",
+    "pinyin": "Tā cóng xiǎo jiù mèngxiǎng cānyù hángtiān shìyè.",
+    "english": "He has dreamed of working in space flight since childhood."
+  },
+  {
+    "word": "星际",
+    "sent_simp": "这部电影讲的是星际旅行的故事。",
+    "sent_trad": "這部電影講的是星際旅行的故事。",
+    "pinyin": "Zhè bù diànyǐng jiǎng de shì xīngjì lǚxíng de gùshi.",
+    "english": "This movie is about interstellar travel."
+  },
+  {
+    "word": "终端",
+    "sent_simp": "他在终端里输入命令来运行程序。",
+    "sent_trad": "他在終端裡輸入命令來運行程式。",
+    "pinyin": "Tā zài zhōngduān lǐ shūrù mìnglìng lái yùnxíng chéngxù.",
+    "english": "He typed commands in the terminal to run the program."
+  },
+  {
+    "word": "发展中国家",
+    "sent_simp": "很多发展中国家正在努力改善教育。",
+    "sent_trad": "很多發展中國家正在努力改善教育。",
+    "pinyin": "Hěn duō fāzhǎnzhōng guójiā zhèngzài nǔlì gǎishàn jiàoyù.",
+    "english": "Many developing countries are working hard to improve education."
+  },
+  {
+    "word": "推送",
+    "sent_simp": "我把手机推送通知都关掉了。",
+    "sent_trad": "我把手機推送通知都關掉了。",
+    "pinyin": "Wǒ bǎ shǒujī tuīsòng tōngzhī dōu guān diào le.",
+    "english": "I turned off all push notifications on my phone."
+  },
+  {
+    "word": "新一代",
+    "sent_simp": "新一代的手机电池续航更长。",
+    "sent_trad": "新一代的手機電池續航更長。",
+    "pinyin": "Xīn yīdài de shǒujī diànchí xùháng gèng cháng.",
+    "english": "The new generation of phones has longer battery life."
+  },
+  {
+    "word": "次生",
+    "sent_simp": "洪水引发了次生灾害，道路受损。",
+    "sent_trad": "洪水引發了次生災害，道路受損。",
+    "pinyin": "Hóngshuǐ yǐnfā le cìshēng zāihài, dàolù shòusǔn.",
+    "english": "The flood triggered secondary disasters, damaging roads."
+  },
+  {
+    "word": "伯爵",
+    "sent_simp": "他在游戏里扮演一位伯爵。",
+    "sent_trad": "他在遊戲裡扮演一位伯爵。",
+    "pinyin": "Tā zài yóuxì lǐ bànyǎn yī wèi bójué.",
+    "english": "He plays the role of an earl in the game."
+  },
+  {
+    "word": "主教",
+    "sent_simp": "主教在教堂里主持了婚礼。",
+    "sent_trad": "主教在教堂裡主持了婚禮。",
+    "pinyin": "Zhǔjiào zài jiàotáng lǐ zhǔchí le hūnlǐ.",
+    "english": "The bishop presided over the wedding ceremony in the church."
+  },
+  {
+    "word": "全副",
+    "sent_simp": "她全副心思都放在备考上。",
+    "sent_trad": "她全副心思都放在備考上。",
+    "pinyin": "Tā quánfù xīnsi dōu fàng zài bèikǎo shàng.",
+    "english": "Her full attention was on preparing for the exam."
+  },
+  {
+    "word": "楼上",
+    "sent_simp": "楼上的邻居昨晚一直在走动。",
+    "sent_trad": "樓上的鄰居昨晚一直在走動。",
+    "pinyin": "Lóu shàng de línjū zuówǎn yīzhí zài zǒudòng.",
+    "english": "The upstairs neighbor was walking around all night."
+  },
+  {
+    "word": "上床",
+    "sent_simp": "孩子们九点就上床睡觉了。",
+    "sent_trad": "孩子們九點就上床睡覺了。",
+    "pinyin": "Háizimen jiǔ diǎn jiù shàngchuáng shuìjiào le.",
+    "english": "The children went to bed at nine o'clock."
+  },
+  {
+    "word": "量子",
+    "sent_simp": "量子计算机将来可能改变很多行业。",
+    "sent_trad": "量子計算機將來可能改變很多行業。",
+    "pinyin": "Liàngzǐ jìsuànjī jiānglái kěnéng gǎibiàn hěn duō hángyè.",
+    "english": "Quantum computers may change many industries in the future."
+  },
+  {
+    "word": "知识产权",
+    "sent_simp": "公司很重视保护自己的知识产权。",
+    "sent_trad": "公司很重視保護自己的知識產權。",
+    "pinyin": "Gōngsī hěn zhòngshì bǎohù zìjǐ de zhīshi chǎnquán.",
+    "english": "The company takes protecting its intellectual property rights very seriously."
+  },
+  {
+    "word": "维基",
+    "sent_simp": "他在维基百科上查了这个词的含义。",
+    "sent_trad": "他在維基百科上查了這個詞的含義。",
+    "pinyin": "Tā zài Wéijī bǎikē shàng chá le zhège cí de hányì.",
+    "english": "He looked up the meaning of this word on Wikipedia."
+  },
+  {
+    "word": "运营商",
+    "sent_simp": "我换了一家运营商，信号好多了。",
+    "sent_trad": "我換了一家運營商，信號好多了。",
+    "pinyin": "Wǒ huàn le yī jiā yùnyíngshāng, xìnhào hǎo duō le.",
+    "english": "I switched carriers and the signal is much better now."
+  },
+  {
+    "word": "管理员",
+    "sent_simp": "管理员帮我重置了账号密码。",
+    "sent_trad": "管理員幫我重置了帳號密碼。",
+    "pinyin": "Guǎnlǐyuán bāng wǒ chóngzhì le zhànghào mìmǎ.",
+    "english": "The administrator helped me reset my account password."
+  },
+  {
+    "word": "子宫",
+    "sent_simp": "医生说她的子宫一切正常。",
+    "sent_trad": "醫生說她的子宮一切正常。",
+    "pinyin": "Yīshēng shuō tā de zǐgōng yīqiē zhèngcháng.",
+    "english": "The doctor said her uterus is completely normal."
+  },
+  {
+    "word": "号子",
+    "sent_simp": "工人们喊着号子一起搬重物。",
+    "sent_trad": "工人們喊著號子一起搬重物。",
+    "pinyin": "Gōngrénmen hǎn zhe háozi yīqǐ bān zhòngwù.",
+    "english": "The workers chanted a work song together while carrying the heavy load."
+  },
+  {
+    "word": "低分",
+    "sent_simp": "他这次考试得了低分，很沮丧。",
+    "sent_trad": "他這次考試得了低分，很沮喪。",
+    "pinyin": "Tā zhè cì kǎoshì dé le dīfēn, hěn jǔsàng.",
+    "english": "He got a low score on the exam this time and was very discouraged."
+  },
+  {
+    "word": "处理器",
+    "sent_simp": "这款笔记本用的处理器速度很快。",
+    "sent_trad": "這款筆記本用的處理器速度很快。",
+    "pinyin": "Zhè kuǎn bǐjìběn yòng de chǔlǐqì sùdù hěn kuài.",
+    "english": "The processor in this laptop is very fast."
+  },
+  {
+    "word": "警察局",
+    "sent_simp": "她去警察局报告了钱包丢失的情况。",
+    "sent_trad": "她去警察局報告了錢包丟失的情況。",
+    "pinyin": "Tā qù jǐngchájú bàogào le qiánbāo diūshī de qíngkuàng.",
+    "english": "She went to the police station to report her lost wallet."
+  },
+  {
+    "word": "听任",
+    "sent_simp": "父母不能听任孩子整天玩游戏。",
+    "sent_trad": "父母不能聽任孩子整天玩遊戲。",
+    "pinyin": "Fùmǔ bù néng tīngrèn háizi zhěng tiān wán yóuxì.",
+    "english": "Parents shouldn't let children play games all day without any limits."
+  },
+  {
+    "word": "幼儿",
+    "sent_simp": "这个公园专门为幼儿设计了游乐区。",
+    "sent_trad": "這個公園專門為幼兒設計了遊樂區。",
+    "pinyin": "Zhège gōngyuán zhuānmén wèi yòu'ér shèjì le yóulè qū.",
+    "english": "This park has a play area specially designed for young children."
+  },
+  {
+    "word": "条文",
+    "sent_simp": "合同里有一条条文他没看清楚。",
+    "sent_trad": "合同裡有一條條文他沒看清楚。",
+    "pinyin": "Hétong lǐ yǒu yī tiáo tiáowén tā méi kàn qīngchǔ.",
+    "english": "There was one clause in the contract that he didn't read carefully."
+  },
+  {
+    "word": "标准化",
+    "sent_simp": "工厂推行标准化生产后效率提高了。",
+    "sent_trad": "工廠推行標準化生產後效率提高了。",
+    "pinyin": "Gōngchǎng tuīxíng biāozhǔnhuà shēngchǎn hòu xiàolǜ tígāo le.",
+    "english": "After the factory introduced standardized production, efficiency improved."
+  },
+  {
+    "word": "城墙",
+    "sent_simp": "西安的城墙保存得非常完好。",
+    "sent_trad": "西安的城牆保存得非常完好。",
+    "pinyin": "Xī'ān de chéngqiáng bǎocún de fēicháng wánhǎo.",
+    "english": "Xi'an's city wall is very well preserved."
+  },
+  {
+    "word": "还乡",
+    "sent_simp": "老人退休后决定还乡颐养天年。",
+    "sent_trad": "老人退休後決定還鄉頤養天年。",
+    "pinyin": "Lǎorén tuìxiū hòu juédìng huánxiāng yíyǎng tiānnián.",
+    "english": "After retiring, the old man decided to return to his hometown to spend his remaining years."
+  },
+  {
+    "word": "另加",
+    "sent_simp": "餐厅收了服务费，另加了税。",
+    "sent_trad": "餐廳收了服務費，另加了稅。",
+    "pinyin": "Cāntīng shōu le fúwùfèi, lìng jiā le shuì.",
+    "english": "The restaurant charged a service fee with tax added on top."
+  },
+  {
+    "word": "婊子",
+    "sent_simp": "他气急了，骂了一句婊子。",
+    "sent_trad": "他氣急了，罵了一句婊子。",
+    "pinyin": "Tā qì jí le, mà le yī jù biǎozi.",
+    "english": "He was furious and shouted an insult."
+  },
+  {
+    "word": "王室",
+    "sent_simp": "英国王室的婚礼吸引了全球关注。",
+    "sent_trad": "英國王室的婚禮吸引了全球關注。",
+    "pinyin": "Yīngguó wángshì de hūnlǐ xīyǐn le quánqiú guānzhù.",
+    "english": "The British royal family's wedding attracted worldwide attention."
+  },
+  {
+    "word": "信徒",
+    "sent_simp": "这座寺庙每天都有很多信徒来祈祷。",
+    "sent_trad": "這座寺廟每天都有很多信徒來祈禱。",
+    "pinyin": "Zhè zuò sìmiào měitiān dōu yǒu hěn duō xìntú lái qídǎo.",
+    "english": "Many believers come to this temple to pray every day."
+  },
+  {
+    "word": "轰炸机",
+    "sent_simp": "博物馆里展出了一架老式轰炸机。",
+    "sent_trad": "博物館裡展出了一架老式轟炸機。",
+    "pinyin": "Bówùguǎn lǐ zhǎnchū le yī jià lǎoshì hōngzhàjī.",
+    "english": "The museum has an old bomber on display."
+  },
+  {
+    "word": "教徒",
+    "sent_simp": "她是一名虔诚的佛教教徒。",
+    "sent_trad": "她是一名虔誠的佛教教徒。",
+    "pinyin": "Tā shì yī míng qiánchéng de Fójiào jiàotú.",
+    "english": "She is a devout Buddhist follower."
+  },
+  {
+    "word": "定制",
+    "sent_simp": "他为婚礼定制了一套西装。",
+    "sent_trad": "他為婚禮定制了一套西裝。",
+    "pinyin": "Tā wèi hūnlǐ dìngzhì le yī tào xīzhuāng.",
+    "english": "He had a suit custom-made for the wedding."
+  },
+  {
+    "word": "民事",
+    "sent_simp": "这是一场民事纠纷，不涉及刑事。",
+    "sent_trad": "這是一場民事糾紛，不涉及刑事。",
+    "pinyin": "Zhè shì yī chǎng mínshì jiūfēn, bù shèjí xíngshì.",
+    "english": "This is a civil dispute and does not involve criminal matters."
+  },
+  {
+    "word": "恒星",
+    "sent_simp": "太阳是距离地球最近的恒星。",
+    "sent_trad": "太陽是距離地球最近的恆星。",
+    "pinyin": "Tàiyáng shì jùlí dìqiú zuì jìn de héngxīng.",
+    "english": "The sun is the nearest star to Earth."
+  },
+  {
+    "word": "拨款",
+    "sent_simp": "政府向灾区拨款用于重建工作。",
+    "sent_trad": "政府向災區撥款用於重建工作。",
+    "pinyin": "Zhèngfǔ xiàng zāiqū bōkuǎn yòng yú chóngjiàn gōngzuò.",
+    "english": "The government allocated funds to the disaster area for reconstruction."
+  }
+]

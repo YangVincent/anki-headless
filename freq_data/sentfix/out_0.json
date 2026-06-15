@@ -1,0 +1,282 @@
+[
+  {
+    "word": "是的",
+    "sent_simp": "是的，我已经订好机票了。",
+    "sent_trad": "是的，我已經訂好機票了。",
+    "pinyin": "Shì de, wǒ yǐjīng dìng hǎo jīpiào le.",
+    "english": "Yes, I've already booked the plane ticket."
+  },
+  {
+    "word": "科技",
+    "sent_simp": "现在的科技发展太快了。",
+    "sent_trad": "現在的科技發展太快了。",
+    "pinyin": "Xiànzài de kējì fāzhǎn tài kuài le.",
+    "english": "Technology is developing so fast these days."
+  },
+  {
+    "word": "全球",
+    "sent_simp": "这款手机在全球都很受欢迎。",
+    "sent_trad": "這款手機在全球都很受歡迎。",
+    "pinyin": "Zhè kuǎn shǒujī zài quánqiú dōu hěn shòu huānyíng.",
+    "english": "This phone is popular all over the world."
+  },
+  {
+    "word": "与会",
+    "sent_simp": "与会的代表来自五个国家。",
+    "sent_trad": "與會的代表來自五個國家。",
+    "pinyin": "Yùhuì de dàibiǎo láizì wǔ gè guójiā.",
+    "english": "The representatives attending the meeting came from five countries."
+  },
+  {
+    "word": "不由",
+    "sent_simp": "看到这道菜，我不由地咽了口水。",
+    "sent_trad": "看到這道菜，我不由地嚥了口水。",
+    "pinyin": "Kàn dào zhè dào cài, wǒ bùyóu de yàn le kǒushuǐ.",
+    "english": "Seeing that dish, I couldn't help swallowing."
+  },
+  {
+    "word": "日日",
+    "sent_simp": "他日日去公园散步。",
+    "sent_trad": "他日日去公園散步。",
+    "pinyin": "Tā rìrì qù gōngyuán sànbù.",
+    "english": "He goes to the park for a walk every day."
+  },
+  {
+    "word": "学者",
+    "sent_simp": "那位学者在大学教了三十年书。",
+    "sent_trad": "那位學者在大學教了三十年書。",
+    "pinyin": "Nà wèi xuézhě zài dàxué jiāo le sānshí nián shū.",
+    "english": "That scholar taught at the university for thirty years."
+  },
+  {
+    "word": "差异",
+    "sent_simp": "南北两地的饮食差异很大。",
+    "sent_trad": "南北兩地的飲食差異很大。",
+    "pinyin": "Nán běi liǎng dì de yǐnshí chāyì hěn dà.",
+    "english": "There are big differences in food between the north and the south."
+  },
+  {
+    "word": "如是",
+    "sent_simp": "她如是说，大家都信了。",
+    "sent_trad": "她如是說，大家都信了。",
+    "pinyin": "Tā rúshì shuō, dàjiā dōu xìn le.",
+    "english": "She said thus, and everyone believed her."
+  },
+  {
+    "word": "及第",
+    "sent_simp": "他苦读多年终于及第。",
+    "sent_trad": "他苦讀多年終於及第。",
+    "pinyin": "Tā kǔdú duō nián zhōngyú jídì.",
+    "english": "After years of hard study he finally passed the imperial exam."
+  },
+  {
+    "word": "最后的",
+    "sent_simp": "这是今天最后的一班地铁。",
+    "sent_trad": "這是今天最後的一班地鐵。",
+    "pinyin": "Zhè shì jīntiān zuìhòu de yī bān dìtiě.",
+    "english": "This is the last subway train of the day."
+  },
+  {
+    "word": "房地产",
+    "sent_simp": "他在房地产行业工作了十年。",
+    "sent_trad": "他在房地產行業工作了十年。",
+    "pinyin": "Tā zài fángdìchǎn hángyè gōngzuò le shí nián.",
+    "english": "He has worked in the real estate industry for ten years."
+  },
+  {
+    "word": "局长",
+    "sent_simp": "局长今天下午开完会就回来了。",
+    "sent_trad": "局長今天下午開完會就回來了。",
+    "pinyin": "Júzhǎng jīntiān xiàwǔ kāi wán huì jiù huílái le.",
+    "english": "The bureau chief came back after finishing the meeting this afternoon."
+  },
+  {
+    "word": "效应",
+    "sent_simp": "蝴蝶效应说明小事也能引发大变化。",
+    "sent_trad": "蝴蝶效應說明小事也能引發大變化。",
+    "pinyin": "Húdié xiàoyìng shuōmíng xiǎoshì yě néng yǐnfā dà biànhuà.",
+    "english": "The butterfly effect shows that small things can trigger big changes."
+  },
+  {
+    "word": "他者",
+    "sent_simp": "我们要学会尊重他者的想法。",
+    "sent_trad": "我們要學會尊重他者的想法。",
+    "pinyin": "Wǒmen yào xuéhuì zūnzhòng tāzhě de xiǎngfǎ.",
+    "english": "We need to learn to respect others' perspectives."
+  },
+  {
+    "word": "计划经济",
+    "sent_simp": "计划经济时代物资由国家统一分配。",
+    "sent_trad": "計劃經濟時代物資由國家統一分配。",
+    "pinyin": "Jìhuà jīngjì shídài wùzī yóu guójiā tǒngyī fēnpèi.",
+    "english": "In the era of the planned economy, resources were distributed by the state."
+  },
+  {
+    "word": "兴建",
+    "sent_simp": "市里决定在郊区兴建一座图书馆。",
+    "sent_trad": "市裡決定在郊區興建一座圖書館。",
+    "pinyin": "Shì lǐ juédìng zài jiāoqū xīngjiàn yī zuò túshūguǎn.",
+    "english": "The city decided to build a library in the suburbs."
+  },
+  {
+    "word": "农场",
+    "sent_simp": "我们周末去农场采草莓了。",
+    "sent_trad": "我們週末去農場採草莓了。",
+    "pinyin": "Wǒmen zhōumò qù nóngchǎng cǎi cǎoméi le.",
+    "english": "We went to a farm to pick strawberries on the weekend."
+  },
+  {
+    "word": "任期",
+    "sent_simp": "他的任期还有两年才结束。",
+    "sent_trad": "他的任期還有兩年才結束。",
+    "pinyin": "Tā de rènqī hái yǒu liǎng nián cái jiéshù.",
+    "english": "His term of office still has two years to go."
+  },
+  {
+    "word": "劳动力",
+    "sent_simp": "这家工厂需要大量劳动力。",
+    "sent_trad": "這家工廠需要大量勞動力。",
+    "pinyin": "Zhè jiā gōngchǎng xūyào dàliàng láodònglì.",
+    "english": "This factory needs a large labor force."
+  },
+  {
+    "word": "对位",
+    "sent_simp": "安装时注意把螺丝孔对位再固定。",
+    "sent_trad": "安裝時注意把螺絲孔對位再固定。",
+    "pinyin": "Ānzhuāng shí zhùyì bǎ luósīkǒng duìwèi zài gùdìng.",
+    "english": "When installing, align the screw holes before securing."
+  },
+  {
+    "word": "把玩",
+    "sent_simp": "他喜欢把玩各种小摆件。",
+    "sent_trad": "他喜歡把玩各種小擺件。",
+    "pinyin": "Tā xǐhuān bǎwán gè zhǒng xiǎo bǎijiàn.",
+    "english": "He likes to fiddle with all kinds of little ornaments."
+  },
+  {
+    "word": "价值观",
+    "sent_simp": "父母对孩子的价值观影响很大。",
+    "sent_trad": "父母對孩子的價值觀影響很大。",
+    "pinyin": "Fùmǔ duì háizi de jiàzhíguān yǐngxiǎng hěn dà.",
+    "english": "Parents have a big influence on their children's values."
+  },
+  {
+    "word": "税收",
+    "sent_simp": "提高税收是为了改善公共服务。",
+    "sent_trad": "提高稅收是為了改善公共服務。",
+    "pinyin": "Tígāo shuìshōu shì wèile gǎishàn gōnggòng fúwù.",
+    "english": "Raising tax revenue is meant to improve public services."
+  },
+  {
+    "word": "随机",
+    "sent_simp": "抽奖是随机的，不要担心。",
+    "sent_trad": "抽獎是隨機的，不要擔心。",
+    "pinyin": "Chōujiǎng shì suíjī de, bùyào dānxīn.",
+    "english": "The lottery draw is random, don't worry."
+  },
+  {
+    "word": "监测",
+    "sent_simp": "医院会监测病人的心率和血压。",
+    "sent_trad": "醫院會監測病人的心率和血壓。",
+    "pinyin": "Yīyuàn huì jiāncè bìngrén de xīnlǜ hé xuèyā.",
+    "english": "The hospital monitors patients' heart rate and blood pressure."
+  },
+  {
+    "word": "吧台",
+    "sent_simp": "我们坐在吧台旁边点了两杯果汁。",
+    "sent_trad": "我們坐在吧台旁邊點了兩杯果汁。",
+    "pinyin": "Wǒmen zuò zài bātái pángbiān diǎn le liǎng bēi guǒzhī.",
+    "english": "We sat by the bar counter and ordered two glasses of juice."
+  },
+  {
+    "word": "无道",
+    "sent_simp": "历史上无道的君主最终都失去了民心。",
+    "sent_trad": "歷史上無道的君主最終都失去了民心。",
+    "pinyin": "Lìshǐ shàng wúdào de jūnzhǔ zuìzhōng dōu shīqù le mínxīn.",
+    "english": "Tyrannical rulers in history ultimately lost the support of the people."
+  },
+  {
+    "word": "外快",
+    "sent_simp": "他周末接单赚点外快。",
+    "sent_trad": "他週末接單賺點外快。",
+    "pinyin": "Tā zhōumò jiē dān zhuàn diǎn wàikuài.",
+    "english": "He takes orders on weekends to earn some extra income."
+  },
+  {
+    "word": "零售",
+    "sent_simp": "这家店既批发也零售。",
+    "sent_trad": "這家店既批發也零售。",
+    "pinyin": "Zhè jiā diàn jì pīfā yě língshòu.",
+    "english": "This store does both wholesale and retail."
+  },
+  {
+    "word": "从来不",
+    "sent_simp": "他从来不迟到，今天怎么还没来？",
+    "sent_trad": "他從來不遲到，今天怎麼還沒來？",
+    "pinyin": "Tā cónglái bù chídào, jīntiān zěnme hái méi lái?",
+    "english": "He never arrives late — why isn't he here yet today?"
+  },
+  {
+    "word": "笔记",
+    "sent_simp": "上课时记笔记有助于复习。",
+    "sent_trad": "上課時記筆記有助於複習。",
+    "pinyin": "Shàngkè shí jì bǐjì yǒu zhùyú fùxí.",
+    "english": "Taking notes in class helps with reviewing."
+  },
+  {
+    "word": "某人",
+    "sent_simp": "某人把咖啡忘在桌上了。",
+    "sent_trad": "某人把咖啡忘在桌上了。",
+    "pinyin": "Mǒu rén bǎ kāfēi wàng zài zhuō shàng le.",
+    "english": "Someone left their coffee on the table."
+  },
+  {
+    "word": "普查",
+    "sent_simp": "政府每十年进行一次人口普查。",
+    "sent_trad": "政府每十年進行一次人口普查。",
+    "pinyin": "Zhèngfǔ měi shí nián jìnxíng yī cì rénkǒu pǔchá.",
+    "english": "The government conducts a census every ten years."
+  },
+  {
+    "word": "左派",
+    "sent_simp": "左派候选人主张增加社会福利。",
+    "sent_trad": "左派候選人主張增加社會福利。",
+    "pinyin": "Zuǒpài hòuxuǎnrén zhǔzhāng zēngjiā shèhuì fúlì.",
+    "english": "Left-wing candidates advocate for increasing social welfare."
+  },
+  {
+    "word": "共和",
+    "sent_simp": "法国是一个共和制国家。",
+    "sent_trad": "法國是一個共和制國家。",
+    "pinyin": "Fǎguó shì yī gè gònghé zhì guójiā.",
+    "english": "France is a republic."
+  },
+  {
+    "word": "牧师",
+    "sent_simp": "牧师在婚礼上为新人祈祷。",
+    "sent_trad": "牧師在婚禮上為新人祈禱。",
+    "pinyin": "Mùshī zài hūnlǐ shàng wèi xīnrén qídǎo.",
+    "english": "The pastor said a prayer for the couple at the wedding."
+  },
+  {
+    "word": "好不好",
+    "sent_simp": "我们明天早点出发，好不好？",
+    "sent_trad": "我們明天早點出發，好不好？",
+    "pinyin": "Wǒmen míngtiān zǎo diǎn chūfā, hǎo bu hǎo?",
+    "english": "Let's set off a bit earlier tomorrow, OK?"
+  },
+  {
+    "word": "别号",
+    "sent_simp": "他的别号叫"东坡"，朋友们都这么叫他。",
+    "sent_trad": "他的別號叫「東坡」，朋友們都這麼叫他。",
+    "pinyin": "Tā de biéhào jiào "Dōngpō", péngyoumen dōu zhème jiào tā.",
+    "english": "His alias is \"Dongpo\" and that's what all his friends call him."
+  },
+  {
+    "word": "这类",
+    "sent_simp": "这类问题最好提前问清楚。",
+    "sent_trad": "這類問題最好提前問清楚。",
+    "pinyin": "Zhè lèi wèntí zuìhǎo tíqián wèn qīngchǔ.",
+    "english": "It's best to clarify this kind of question in advance."
+  }
+]

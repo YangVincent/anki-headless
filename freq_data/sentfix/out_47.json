@@ -1,0 +1,282 @@
+[
+  {
+    "word": "雨林",
+    "sent_simp": "亚马逊雨林里有很多珍稀动物。",
+    "sent_trad": "亞馬遜雨林裡有很多珍稀動物。",
+    "pinyin": "Yàmǎxùn yǔlín lǐ yǒu hěn duō zhēnxī dòngwù.",
+    "english": "The Amazon rainforest is home to many rare animals."
+  },
+  {
+    "word": "回流",
+    "sent_simp": "很多海外华人选择回流到家乡发展。",
+    "sent_trad": "很多海外華人選擇回流到家鄉發展。",
+    "pinyin": "Hěn duō hǎiwài Huárén xuǎnzé huíliú dào jiāxiāng fāzhǎn.",
+    "english": "Many overseas Chinese choose to return home to develop their careers."
+  },
+  {
+    "word": "记忆体",
+    "sent_simp": "这台电脑的记忆体不够用，需要升级。",
+    "sent_trad": "這台電腦的記憶體不夠用，需要升級。",
+    "pinyin": "Zhè tái diànnǎo de jìyìtǐ bù gòu yòng, xūyào shēngjí.",
+    "english": "This computer doesn't have enough memory and needs an upgrade."
+  },
+  {
+    "word": "皈依",
+    "sent_simp": "他去年正式皈依佛教。",
+    "sent_trad": "他去年正式皈依佛教。",
+    "pinyin": "Tā qùnián zhèngshì guīyī Fójiào.",
+    "english": "He officially converted to Buddhism last year."
+  },
+  {
+    "word": "显要",
+    "sent_simp": "那场晚宴来了不少社会显要。",
+    "sent_trad": "那場晚宴來了不少社會顯要。",
+    "pinyin": "Nà chǎng wǎnyàn lái le bù shǎo shèhuì xiǎnyào.",
+    "english": "Many prominent figures attended that dinner banquet."
+  },
+  {
+    "word": "集体主义",
+    "sent_simp": "集体主义强调团队的利益高于个人。",
+    "sent_trad": "集體主義強調團隊的利益高於個人。",
+    "pinyin": "Jítǐ zhǔyì qiángdiào tuánduì de lìyì gāoyú gèrén.",
+    "english": "Collectivism emphasizes that the team's interests come before the individual's."
+  },
+  {
+    "word": "仿效",
+    "sent_simp": "弟弟总是仿效哥哥的一举一动。",
+    "sent_trad": "弟弟總是仿效哥哥的一舉一動。",
+    "pinyin": "Dìdi zǒngshì fǎngxiào gēge de yī jǔ yī dòng.",
+    "english": "The younger brother always imitates everything his older brother does."
+  },
+  {
+    "word": "加宽",
+    "sent_simp": "这条路正在加宽，施工要两个月。",
+    "sent_trad": "這條路正在加寬，施工要兩個月。",
+    "pinyin": "Zhè tiáo lù zhèngzài jiākuān, shīgōng yào liǎng gè yuè.",
+    "english": "This road is being widened and the construction will take two months."
+  },
+  {
+    "word": "殊荣",
+    "sent_simp": "获得这个奖是莫大的殊荣。",
+    "sent_trad": "獲得這個獎是莫大的殊榮。",
+    "pinyin": "Huòdé zhège jiǎng shì mòdà de shūróng.",
+    "english": "Receiving this award is a tremendous honor."
+  },
+  {
+    "word": "陈情",
+    "sent_simp": "居民们去市政府陈情，要求改善交通。",
+    "sent_trad": "居民們去市政府陳情，要求改善交通。",
+    "pinyin": "Jūmínmen qù shì zhèngfǔ chénqíng, yāoqiú gǎishàn jiāotōng.",
+    "english": "Residents went to petition the city government to improve transportation."
+  },
+  {
+    "word": "乐师",
+    "sent_simp": "那位乐师在音乐会上演奏了一曲古筝。",
+    "sent_trad": "那位樂師在音樂會上演奏了一曲古箏。",
+    "pinyin": "Nà wèi yuèshī zài yīnyuèhuì shàng yǎnzòu le yī qǔ gǔzhēng.",
+    "english": "That musician performed a guzheng piece at the concert."
+  },
+  {
+    "word": "编者",
+    "sent_simp": "编者在前言中说明了这本书的目的。",
+    "sent_trad": "編者在前言中說明了這本書的目的。",
+    "pinyin": "Biānzhě zài qiányán zhōng shuōmíng le zhè běn shū de mùdì.",
+    "english": "The editor explained the purpose of the book in the preface."
+  },
+  {
+    "word": "三部曲",
+    "sent_simp": "他花了十年时间完成这部三部曲小说。",
+    "sent_trad": "他花了十年時間完成這部三部曲小說。",
+    "pinyin": "Tā huā le shí nián shíjiān wánchéng zhè bù sānbùqǔ xiǎoshuō.",
+    "english": "He spent ten years completing this trilogy of novels."
+  },
+  {
+    "word": "地标",
+    "sent_simp": "东方明珠是上海最著名的地标之一。",
+    "sent_trad": "東方明珠是上海最著名的地標之一。",
+    "pinyin": "Dōngfāng Míngzhū shì Shànghǎi zuì zhùmíng de dìbiāo zhī yī.",
+    "english": "The Oriental Pearl Tower is one of Shanghai's most famous landmarks."
+  },
+  {
+    "word": "椰子",
+    "sent_simp": "她在海边喝了一个新鲜椰子。",
+    "sent_trad": "她在海邊喝了一個新鮮椰子。",
+    "pinyin": "Tā zài hǎibiān hē le yī gè xīnxiān yēzi.",
+    "english": "She drank a fresh coconut by the seaside."
+  },
+  {
+    "word": "哺乳",
+    "sent_simp": "医生建议妈妈至少哺乳六个月。",
+    "sent_trad": "醫生建議媽媽至少哺乳六個月。",
+    "pinyin": "Yīshēng jiànyì māma zhìshǎo bǔrǔ liù gè yuè.",
+    "english": "The doctor recommended that the mother breastfeed for at least six months."
+  },
+  {
+    "word": "显示屏",
+    "sent_simp": "这款手机的显示屏非常清晰。",
+    "sent_trad": "這款手機的顯示屏非常清晰。",
+    "pinyin": "Zhè kuǎn shǒujī de xiǎnshìpíng fēicháng qīngxī.",
+    "english": "The display screen on this phone is very clear."
+  },
+  {
+    "word": "亮度",
+    "sent_simp": "在太阳下看手机，需要调高亮度。",
+    "sent_trad": "在太陽下看手機，需要調高亮度。",
+    "pinyin": "Zài tàiyáng xià kàn shǒujī, xūyào tiáo gāo liàngdù.",
+    "english": "You need to increase the brightness to use your phone in sunlight."
+  },
+  {
+    "word": "肠道",
+    "sent_simp": "多吃蔬菜有助于保持肠道健康。",
+    "sent_trad": "多吃蔬菜有助於保持腸道健康。",
+    "pinyin": "Duō chī shūcài yǒu zhù yú bǎochí chángdào jiànkāng.",
+    "english": "Eating more vegetables helps maintain gut health."
+  },
+  {
+    "word": "警力",
+    "sent_simp": "演唱会现场部署了大量警力维持秩序。",
+    "sent_trad": "演唱會現場部署了大量警力維持秩序。",
+    "pinyin": "Yǎnchànghhuì xiànchǎng bùshǔ le dàliàng jǐnglì wéichí zhìxù.",
+    "english": "A large police force was deployed at the concert venue to maintain order."
+  },
+  {
+    "word": "户头",
+    "sent_simp": "他在银行开了一个新的储蓄户头。",
+    "sent_trad": "他在銀行開了一個新的儲蓄戶頭。",
+    "pinyin": "Tā zài yínháng kāi le yī gè xīn de chǔxù hùtóu.",
+    "english": "He opened a new savings account at the bank."
+  },
+  {
+    "word": "播映",
+    "sent_simp": "这部电影将在周末播映，别错过。",
+    "sent_trad": "這部電影將在週末播映，別錯過。",
+    "pinyin": "Zhè bù diànyǐng jiāng zài zhōumò bōyìng, bié cuòguò.",
+    "english": "This film will be broadcast this weekend, don't miss it."
+  },
+  {
+    "word": "医疗保险",
+    "sent_simp": "公司帮所有员工购买了医疗保险。",
+    "sent_trad": "公司幫所有員工購買了醫療保險。",
+    "pinyin": "Gōngsī bāng suǒyǒu yuángōng gòumǎi le yīliáo bǎoxiǎn.",
+    "english": "The company purchased medical insurance for all employees."
+  },
+  {
+    "word": "禁运",
+    "sent_simp": "多国对该地区实施了武器禁运。",
+    "sent_trad": "多國對該地區實施了武器禁運。",
+    "pinyin": "Duō guó duì gāi dìqū shíshī le wǔqì jìnyùn.",
+    "english": "Multiple countries imposed an arms embargo on the region."
+  },
+  {
+    "word": "绿水",
+    "sent_simp": "公园里绿水环绕，景色很美。",
+    "sent_trad": "公園裡綠水環繞，景色很美。",
+    "pinyin": "Gōngyuán lǐ lǜshuǐ huánrào, jǐngsè hěn měi.",
+    "english": "The park is surrounded by clear green water and the scenery is beautiful."
+  },
+  {
+    "word": "男童",
+    "sent_simp": "那个男童在公园里开心地玩耍。",
+    "sent_trad": "那個男童在公園裡開心地玩耍。",
+    "pinyin": "Nàge nántóng zài gōngyuán lǐ kāixīn de wánshuǎ.",
+    "english": "The little boy was playing happily in the park."
+  },
+  {
+    "word": "鬼子",
+    "sent_simp": "奶奶小时候见过鬼子进村的景象。",
+    "sent_trad": "奶奶小時候見過鬼子進村的景象。",
+    "pinyin": "Nǎinai xiǎoshíhòu jiàn guò guǐzi jìn cūn de jǐngxiàng.",
+    "english": "Grandma witnessed the invaders entering the village when she was a child."
+  },
+  {
+    "word": "黑名单",
+    "sent_simp": "他的账号被平台加入了黑名单。",
+    "sent_trad": "他的帳號被平臺加入了黑名單。",
+    "pinyin": "Tā de zhànghào bèi píngtái jiārù le hēimíngdān.",
+    "english": "His account was added to the platform's blacklist."
+  },
+  {
+    "word": "挥霍",
+    "sent_simp": "他把奖金全都挥霍在买衣服上了。",
+    "sent_trad": "他把獎金全都揮霍在買衣服上了。",
+    "pinyin": "Tā bǎ jiǎngjīn quán dōu huīhuò zài mǎi yīfu shàng le.",
+    "english": "He squandered all his bonus money on buying clothes."
+  },
+  {
+    "word": "用具",
+    "sent_simp": "烹饪用具要定期清洗，保持干净。",
+    "sent_trad": "烹飪用具要定期清洗，保持乾淨。",
+    "pinyin": "Pēngrèn yòngjù yào dìngqī qīngxǐ, bǎochí gānjìng.",
+    "english": "Cooking utensils should be cleaned regularly to stay hygienic."
+  },
+  {
+    "word": "椭圆",
+    "sent_simp": "这张桌子是椭圆形的，可以坐很多人。",
+    "sent_trad": "這張桌子是橢圓形的，可以坐很多人。",
+    "pinyin": "Zhè zhāng zhuōzi shì tuǒyuán xíng de, kěyǐ zuò hěn duō rén.",
+    "english": "This table is oval-shaped and can seat many people."
+  },
+  {
+    "word": "老奶奶",
+    "sent_simp": "那位老奶奶每天早上在公园里散步。",
+    "sent_trad": "那位老奶奶每天早上在公園裡散步。",
+    "pinyin": "Nà wèi lǎonǎinai měitiān zǎoshang zài gōngyuán lǐ sànbù.",
+    "english": "That elderly lady takes a walk in the park every morning."
+  },
+  {
+    "word": "坚果",
+    "sent_simp": "每天吃一小把坚果对身体很好。",
+    "sent_trad": "每天吃一小把堅果對身體很好。",
+    "pinyin": "Měitiān chī yī xiǎo bǎ jiānguǒ duì shēntǐ hěn hǎo.",
+    "english": "Eating a small handful of nuts every day is good for your health."
+  },
+  {
+    "word": "衣着",
+    "sent_simp": "她的衣着总是很得体，给人好印象。",
+    "sent_trad": "她的衣著總是很得體，給人好印象。",
+    "pinyin": "Tā de yīzhuó zǒngshì hěn détǐ, gěi rén hǎo yìnxiàng.",
+    "english": "Her clothes are always appropriate and make a good impression."
+  },
+  {
+    "word": "星云",
+    "sent_simp": "天文望远镜拍到了美丽的星云照片。",
+    "sent_trad": "天文望遠鏡拍到了美麗的星雲照片。",
+    "pinyin": "Tiānwén wàngyuǎnjìng pāi dào le měilì de xīngyún zhàopiàn.",
+    "english": "The telescope captured beautiful photos of a nebula."
+  },
+  {
+    "word": "三角形",
+    "sent_simp": "老师在黑板上画了一个三角形。",
+    "sent_trad": "老師在黑板上畫了一個三角形。",
+    "pinyin": "Lǎoshī zài hēibǎn shàng huà le yī gè sānjiǎoxíng.",
+    "english": "The teacher drew a triangle on the blackboard."
+  },
+  {
+    "word": "戏台",
+    "sent_simp": "村里的戏台每逢过节都会有演出。",
+    "sent_trad": "村裡的戲台每逢過節都會有演出。",
+    "pinyin": "Cūn lǐ de xìtái měi féng guòjié dōu huì yǒu yǎnchū.",
+    "english": "The village stage has performances every time there's a festival."
+  },
+  {
+    "word": "蜿蜒",
+    "sent_simp": "一条小河蜿蜒流过这片田野。",
+    "sent_trad": "一條小河蜿蜒流過這片田野。",
+    "pinyin": "Yī tiáo xiǎohé wānyán liú guò zhè piàn tiányě.",
+    "english": "A small river winds its way through the fields."
+  },
+  {
+    "word": "新闻媒体",
+    "sent_simp": "新闻媒体对这件事进行了广泛报道。",
+    "sent_trad": "新聞媒體對這件事進行了廣泛報道。",
+    "pinyin": "Xīnwén méitǐ duì zhè jiàn shì jìnxíng le guǎngfàn bàodào.",
+    "english": "The news media gave extensive coverage to this event."
+  },
+  {
+    "word": "滑动",
+    "sent_simp": "在屏幕上向左滑动可以切换图片。",
+    "sent_trad": "在螢幕上向左滑動可以切換圖片。",
+    "pinyin": "Zài píngmù shàng xiàng zuǒ huádòng kěyǐ qiēhuàn túpiàn.",
+    "english": "Slide left on the screen to switch to the next photo."
+  }
+]

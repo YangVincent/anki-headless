@@ -1,0 +1,282 @@
+[
+  {
+    "word": "涡轮",
+    "sent_simp": "这台发动机装有涡轮增压系统。",
+    "sent_trad": "這台發動機裝有渦輪增壓系統。",
+    "pinyin": "Zhè tái fādòngjī zhuāng yǒu wōlún zēngyā xìtǒng.",
+    "english": "This engine has a turbocharger system."
+  },
+  {
+    "word": "苹果派",
+    "sent_simp": "妈妈烤了一个热乎乎的苹果派。",
+    "sent_trad": "媽媽烤了一個熱乎乎的蘋果派。",
+    "pinyin": "Māma kǎo le yī gè rèhūhū de píngguǒpài.",
+    "english": "Mom baked a warm apple pie."
+  },
+  {
+    "word": "共赢",
+    "sent_simp": "双方希望谈出一个共赢的方案。",
+    "sent_trad": "雙方希望談出一個共贏的方案。",
+    "pinyin": "Shuāngfāng xīwàng tán chū yī gè gòngyíng de fāng'àn.",
+    "english": "Both sides hope to negotiate a win-win solution."
+  },
+  {
+    "word": "灾民",
+    "sent_simp": "政府紧急为灾民提供了食物和帐篷。",
+    "sent_trad": "政府緊急為災民提供了食物和帳篷。",
+    "pinyin": "Zhèngfǔ jǐnjí wèi zāimín tígōng le shíwù hé zhàngpeng.",
+    "english": "The government urgently provided food and tents for the disaster victims."
+  },
+  {
+    "word": "农户",
+    "sent_simp": "村里大多数农户都种了小麦。",
+    "sent_trad": "村裡大多數農戶都種了小麥。",
+    "pinyin": "Cūn lǐ dàduōshù nónghù dōu zhòng le xiǎomài.",
+    "english": "Most farming households in the village grew wheat."
+  },
+  {
+    "word": "鱼雷",
+    "sent_simp": "潜水艇发射了一枚鱼雷。",
+    "sent_trad": "潛水艇發射了一枚魚雷。",
+    "pinyin": "Qiánshuǐtǐng fāshè le yī méi yúléi.",
+    "english": "The submarine launched a torpedo."
+  },
+  {
+    "word": "反物质",
+    "sent_simp": "科学家正在研究反物质的特性。",
+    "sent_trad": "科學家正在研究反物質的特性。",
+    "pinyin": "Kēxuéjiā zhèngzài yánjiū fǎnwùzhì de tèxìng.",
+    "english": "Scientists are studying the properties of antimatter."
+  },
+  {
+    "word": "中叶",
+    "sent_simp": "这首诗写于十九世纪中叶。",
+    "sent_trad": "這首詩寫於十九世紀中葉。",
+    "pinyin": "Zhè shǒu shī xiě yú shíjiǔ shìjì zhōngyè.",
+    "english": "This poem was written in the mid-nineteenth century."
+  },
+  {
+    "word": "点亮",
+    "sent_simp": "她点亮了蜡烛，整个房间都亮了。",
+    "sent_trad": "她點亮了蠟燭，整個房間都亮了。",
+    "pinyin": "Tā diǎnliàng le làzhú, zhěnggè fángjiān dōu liàng le.",
+    "english": "She lit the candle and the whole room lit up."
+  },
+  {
+    "word": "以防",
+    "sent_simp": "带把雨伞吧，以防下雨。",
+    "sent_trad": "帶把雨傘吧，以防下雨。",
+    "pinyin": "Dài bǎ yǔsǎn ba, yǐfáng xià yǔ.",
+    "english": "Bring an umbrella, just in case it rains."
+  },
+  {
+    "word": "巡回",
+    "sent_simp": "这支乐队正在全国巡回演出。",
+    "sent_trad": "這支樂隊正在全國巡回演出。",
+    "pinyin": "Zhè zhī yuèduì zhèngzài quánguó xúnhuí yǎnchū.",
+    "english": "This band is currently on a nationwide tour."
+  },
+  {
+    "word": "真实性",
+    "sent_simp": "记者需要核实这条新闻的真实性。",
+    "sent_trad": "記者需要核實這條新聞的真實性。",
+    "pinyin": "Jìzhě xūyào héshí zhè tiáo xīnwén de zhēnshíxìng.",
+    "english": "The reporter needs to verify the authenticity of this news."
+  },
+  {
+    "word": "自动控制",
+    "sent_simp": "工厂引入了自动控制系统来提高效率。",
+    "sent_trad": "工廠引入了自動控制系統來提高效率。",
+    "pinyin": "Gōngchǎng yǐnrù le zìdòng kòngzhì xìtǒng lái tígāo xiàolǜ.",
+    "english": "The factory introduced an automatic control system to improve efficiency."
+  },
+  {
+    "word": "据估计",
+    "sent_simp": "据估计，这次活动有五千人参加。",
+    "sent_trad": "據估計，這次活動有五千人參加。",
+    "pinyin": "Jù gūjì, zhè cì huódòng yǒu wǔqiān rén cānjiā.",
+    "english": "According to estimates, five thousand people attended this event."
+  },
+  {
+    "word": "近似",
+    "sent_simp": "这两种颜色非常近似，不容易区分。",
+    "sent_trad": "這兩種顏色非常近似，不容易區分。",
+    "pinyin": "Zhè liǎng zhǒng yánsè fēicháng jìnsì, bù róngyì qūfēn.",
+    "english": "These two colors are very similar and hard to tell apart."
+  },
+  {
+    "word": "透明度",
+    "sent_simp": "公众要求政府提高财政透明度。",
+    "sent_trad": "公眾要求政府提高財政透明度。",
+    "pinyin": "Gōngzhòng yāoqiú zhèngfǔ tígāo cáizhèng tòumíngdù.",
+    "english": "The public demands the government improve fiscal transparency."
+  },
+  {
+    "word": "北侧",
+    "sent_simp": "学校的北侧有一片操场。",
+    "sent_trad": "學校的北側有一片操場。",
+    "pinyin": "Xuéxiào de běicè yǒu yī piàn cāochǎng.",
+    "english": "There is a sports field on the north side of the school."
+  },
+  {
+    "word": "区间",
+    "sent_simp": "这列火车只在这个区间运行。",
+    "sent_trad": "這列火車只在這個區間運行。",
+    "pinyin": "Zhè liè huǒchē zhǐ zài zhège qūjiān yùnxíng.",
+    "english": "This train only runs within this section of the route."
+  },
+  {
+    "word": "救国",
+    "sent_simp": "那个年代，很多青年立志救国。",
+    "sent_trad": "那個年代，很多青年立志救國。",
+    "pinyin": "Nà gè niándài, hěn duō qīngnián lìzhì jiùguó.",
+    "english": "In that era, many young people were determined to save the nation."
+  },
+  {
+    "word": "至尊",
+    "sent_simp": "这款套餐被称为至尊版。",
+    "sent_trad": "這款套餐被稱為至尊版。",
+    "pinyin": "Zhè kuǎn tàocān bèi chēng wéi zhìzūn bǎn.",
+    "english": "This package is called the supreme edition."
+  },
+  {
+    "word": "走访",
+    "sent_simp": "记者走访了多个受灾村庄。",
+    "sent_trad": "記者走訪了多個受災村莊。",
+    "pinyin": "Jìzhě zǒufǎng le duō gè shòuzāi cūnzhuāng.",
+    "english": "The reporter visited several disaster-affected villages."
+  },
+  {
+    "word": "深长",
+    "sent_simp": "老师说的这句话意味深长。",
+    "sent_trad": "老師說的這句話意味深長。",
+    "pinyin": "Lǎoshī shuō de zhè jù huà yìwèi shēncháng.",
+    "english": "What the teacher said carries deep and profound meaning."
+  },
+  {
+    "word": "专线",
+    "sent_simp": "机场和市区之间有一条专线大巴。",
+    "sent_trad": "機場和市區之間有一條專線大巴。",
+    "pinyin": "Jīchǎng hé shìqū zhījiān yǒu yī tiáo zhuānxiàn dàbā.",
+    "english": "There is a dedicated bus line between the airport and downtown."
+  },
+  {
+    "word": "纺织品",
+    "sent_simp": "这家公司主要出口纺织品。",
+    "sent_trad": "這家公司主要出口紡織品。",
+    "pinyin": "Zhè jiā gōngsī zhǔyào chūkǒu fǎngzhīpǐn.",
+    "english": "This company mainly exports textiles."
+  },
+  {
+    "word": "入围",
+    "sent_simp": "她的短片成功入围了电影节。",
+    "sent_trad": "她的短片成功入圍了電影節。",
+    "pinyin": "Tā de duǎnpiàn chénggōng rùwéi le diànyǐngjié.",
+    "english": "Her short film successfully made it into the film festival."
+  },
+  {
+    "word": "小脚",
+    "sent_simp": "曾祖母那个年代的女性很多都裹小脚。",
+    "sent_trad": "曾祖母那個年代的女性很多都裹小腳。",
+    "pinyin": "Zēngzǔmǔ nà gè niándài de nǚxìng hěn duō dōu guǒ xiǎojiǎo.",
+    "english": "Many women in great-grandmother's era had bound feet."
+  },
+  {
+    "word": "收音机",
+    "sent_simp": "爷爷每天早上都听收音机里的新闻。",
+    "sent_trad": "爺爺每天早上都聽收音機裡的新聞。",
+    "pinyin": "Yéye měitiān zǎoshang dōu tīng shōuyīnjī lǐ de xīnwén.",
+    "english": "Grandpa listens to the news on the radio every morning."
+  },
+  {
+    "word": "说明书",
+    "sent_simp": "安装前请先仔细阅读说明书。",
+    "sent_trad": "安裝前請先仔細閱讀說明書。",
+    "pinyin": "Ānzhuāng qián qǐng xiān zǐxì yuèdú shuōmíngshū.",
+    "english": "Please read the instruction manual carefully before installation."
+  },
+  {
+    "word": "黑洞",
+    "sent_simp": "科学家拍到了第一张黑洞的照片。",
+    "sent_trad": "科學家拍到了第一張黑洞的照片。",
+    "pinyin": "Kēxuéjiā pāi dào le dì yī zhāng hēidòng de zhàopiàn.",
+    "english": "Scientists captured the first photograph of a black hole."
+  },
+  {
+    "word": "分装",
+    "sent_simp": "她把糖果分装进小袋子里。",
+    "sent_trad": "她把糖果分裝進小袋子裡。",
+    "pinyin": "Tā bǎ tángguǒ fēnzhuāng jìn xiǎo dàizi lǐ.",
+    "english": "She divided the candies into small bags."
+  },
+  {
+    "word": "投标",
+    "sent_simp": "三家公司同时参与了这个项目的投标。",
+    "sent_trad": "三家公司同時參與了這個項目的投標。",
+    "pinyin": "Sān jiā gōngsī tóngshí cānyù le zhège xiàngmù de tóubiāo.",
+    "english": "Three companies simultaneously bid on this project."
+  },
+  {
+    "word": "双生",
+    "sent_simp": "她生了一对双生姐妹。",
+    "sent_trad": "她生了一對雙生姐妹。",
+    "pinyin": "Tā shēng le yī duì shuāngshēng jiěmèi.",
+    "english": "She gave birth to a pair of twin sisters."
+  },
+  {
+    "word": "经营者",
+    "sent_simp": "作为一个经营者，他很注重客户关系。",
+    "sent_trad": "作為一個經營者，他很注重客戶關係。",
+    "pinyin": "Zuòwéi yī gè jīngyíngzhě, tā hěn zhùzhòng kèhù guānxi.",
+    "english": "As a business manager, he pays great attention to customer relationships."
+  },
+  {
+    "word": "综艺",
+    "sent_simp": "这档综艺节目最近非常受欢迎。",
+    "sent_trad": "這檔綜藝節目最近非常受歡迎。",
+    "pinyin": "Zhè dàng zōngyì jiémù zuìjìn fēicháng shòu huānyíng.",
+    "english": "This variety show has been very popular lately."
+  },
+  {
+    "word": "贫民",
+    "sent_simp": "慈善机构为城市贫民提供免费餐食。",
+    "sent_trad": "慈善機構為城市貧民提供免費餐食。",
+    "pinyin": "Císhàn jīgòu wèi chéngshì pínmín tígōng miǎnfèi cānshí.",
+    "english": "The charity provides free meals for the urban poor."
+  },
+  {
+    "word": "推论",
+    "sent_simp": "他根据现有证据做出了合理的推论。",
+    "sent_trad": "他根據現有證據做出了合理的推論。",
+    "pinyin": "Tā gēnjù xiànyǒu zhèngjù zuòchū le hélǐ de tuīlùn.",
+    "english": "He made a reasonable inference based on the available evidence."
+  },
+  {
+    "word": "咖啡馆",
+    "sent_simp": "我们在附近的咖啡馆聊了两个小时。",
+    "sent_trad": "我們在附近的咖啡館聊了兩個小時。",
+    "pinyin": "Wǒmen zài fùjìn de kāfēiguǎn liáo le liǎng gè xiǎoshí.",
+    "english": "We chatted at the nearby café for two hours."
+  },
+  {
+    "word": "桌面",
+    "sent_simp": "他把文件放在电脑桌面上方便查找。",
+    "sent_trad": "他把文件放在電腦桌面上方便查找。",
+    "pinyin": "Tā bǎ wénjiàn fàng zài diànnǎo zhuōmiàn shàng fāngbiàn cházhǎo.",
+    "english": "He put the files on the computer desktop for easy access."
+  },
+  {
+    "word": "大帝",
+    "sent_simp": "亚历山大大帝建立了庞大的帝国。",
+    "sent_trad": "亞歷山大大帝建立了龐大的帝國。",
+    "pinyin": "Yàlìshāndà Dàdì jiànlì le pángdà de dìguó.",
+    "english": "Alexander the Great established a vast empire."
+  },
+  {
+    "word": "自律",
+    "sent_simp": "学好一门语言需要很强的自律。",
+    "sent_trad": "學好一門語言需要很強的自律。",
+    "pinyin": "Xué hǎo yī mén yǔyán xūyào hěn qiáng de zìlǜ.",
+    "english": "Mastering a language requires strong self-discipline."
+  }
+]

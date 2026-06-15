@@ -1,0 +1,282 @@
+[
+  {
+    "word": "吸引力",
+    "sent_simp": "这家餐厅的菜对我很有吸引力。",
+    "sent_trad": "這家餐廳的菜對我很有吸引力。",
+    "pinyin": "Zhè jiā cāntīng de cài duì wǒ hěn yǒu xīyǐnlì.",
+    "english": "The food at this restaurant is very appealing to me."
+  },
+  {
+    "word": "龙头",
+    "sent_simp": "厨房的龙头漏水了，要修一下。",
+    "sent_trad": "廚房的龍頭漏水了，要修一下。",
+    "pinyin": "Chúfáng de lóngtóu lòushuǐ le, yào xiū yīxià.",
+    "english": "The kitchen faucet is leaking and needs to be fixed."
+  },
+  {
+    "word": "英尺",
+    "sent_simp": "这块木板大概有六英尺长。",
+    "sent_trad": "這塊木板大概有六英尺長。",
+    "pinyin": "Zhè kuài mùbǎn dàgài yǒu liù yīngchǐ cháng.",
+    "english": "This plank is about six feet long."
+  },
+  {
+    "word": "接管",
+    "sent_simp": "新经理下周开始接管这个部门。",
+    "sent_trad": "新經理下週開始接管這個部門。",
+    "pinyin": "Xīn jīnglǐ xià zhōu kāishǐ jiēguǎn zhège bùmén.",
+    "english": "The new manager starts taking over this department next week."
+  },
+  {
+    "word": "羞辱",
+    "sent_simp": "当众羞辱别人是很不礼貌的行为。",
+    "sent_trad": "當眾羞辱別人是很不禮貌的行為。",
+    "pinyin": "Dāngzhòng xiūrǔ biérén shì hěn bù lǐmào de xíngwéi.",
+    "english": "Humiliating someone in public is very rude behavior."
+  },
+  {
+    "word": "集成",
+    "sent_simp": "这款手机使用了最新的集成电路。",
+    "sent_trad": "這款手機使用了最新的集成電路。",
+    "pinyin": "Zhè kuǎn shǒujī shǐyòng le zuìxīn de jíchéng diànlù.",
+    "english": "This phone uses the latest integrated circuits."
+  },
+  {
+    "word": "变天",
+    "sent_simp": "今天可能要变天，出门带把伞。",
+    "sent_trad": "今天可能要變天，出門帶把傘。",
+    "pinyin": "Jīntiān kěnéng yào biàntiān, chūmén dài bǎ sǎn.",
+    "english": "The weather might turn today; bring an umbrella when you go out."
+  },
+  {
+    "word": "议案",
+    "sent_simp": "委员会正在讨论这项新议案。",
+    "sent_trad": "委員會正在討論這項新議案。",
+    "pinyin": "Wěiyuánhuì zhèngzài tǎolùn zhè xiàng xīn yì'àn.",
+    "english": "The committee is discussing this new proposal."
+  },
+  {
+    "word": "社群",
+    "sent_simp": "她在网上加入了一个摄影社群。",
+    "sent_trad": "她在網上加入了一個攝影社群。",
+    "pinyin": "Tā zài wǎngshàng jiārù le yīgè shèyǐng shèqún.",
+    "english": "She joined an online photography community."
+  },
+  {
+    "word": "津贴",
+    "sent_simp": "公司每个月给员工交通津贴。",
+    "sent_trad": "公司每個月給員工交通津貼。",
+    "pinyin": "Gōngsī měi gè yuè gěi yuángōng jiāotōng jīntiē.",
+    "english": "The company gives employees a monthly transportation allowance."
+  },
+  {
+    "word": "亲王",
+    "sent_simp": "那位亲王昨天访问了这座城市。",
+    "sent_trad": "那位親王昨天訪問了這座城市。",
+    "pinyin": "Nà wèi qīnwáng zuótiān fǎngwèn le zhè zuò chéngshì.",
+    "english": "The prince visited this city yesterday."
+  },
+  {
+    "word": "恐怖主义",
+    "sent_simp": "各国合作打击恐怖主义非常重要。",
+    "sent_trad": "各國合作打擊恐怖主義非常重要。",
+    "pinyin": "Gè guó hézuò dǎjī kǒngbù zhǔyì fēicháng zhòngyào.",
+    "english": "It is very important for countries to cooperate in fighting terrorism."
+  },
+  {
+    "word": "全球化",
+    "sent_simp": "全球化让我们更容易买到外国商品。",
+    "sent_trad": "全球化讓我們更容易買到外國商品。",
+    "pinyin": "Quánqiúhuà ràng wǒmen gèng róngyì mǎi dào wàiguó shāngpǐn.",
+    "english": "Globalization makes it easier for us to buy foreign goods."
+  },
+  {
+    "word": "首届",
+    "sent_simp": "首届社区运动会吸引了很多居民。",
+    "sent_trad": "首屆社區運動會吸引了很多居民。",
+    "pinyin": "Shǒu jiè shèqū yùndònghuì xīyǐn le hěn duō jūmín.",
+    "english": "The first community sports meet attracted many residents."
+  },
+  {
+    "word": "将令",
+    "sent_simp": "士兵们服从将令，迅速撤退。",
+    "sent_trad": "士兵們服從將令，迅速撤退。",
+    "pinyin": "Shìbīngmen fúcóng jiānglìng, xùnsù chètuì.",
+    "english": "The soldiers obeyed the military order and retreated quickly."
+  },
+  {
+    "word": "电影节",
+    "sent_simp": "她买票去参加今年的电影节。",
+    "sent_trad": "她買票去參加今年的電影節。",
+    "pinyin": "Tā mǎi piào qù cānjiā jīnnián de diànyǐng jié.",
+    "english": "She bought tickets to attend this year's film festival."
+  },
+  {
+    "word": "棒球",
+    "sent_simp": "他每周末都去公园打棒球。",
+    "sent_trad": "他每週末都去公園打棒球。",
+    "pinyin": "Tā měi zhōumò dōu qù gōngyuán dǎ bàngqiú.",
+    "english": "He goes to the park to play baseball every weekend."
+  },
+  {
+    "word": "军阀",
+    "sent_simp": "那段历史中军阀之间争斗不断。",
+    "sent_trad": "那段歷史中軍閥之間爭鬥不斷。",
+    "pinyin": "Nà duàn lìshǐ zhōng jūnfá zhījiān zhēngdòu bùduàn.",
+    "english": "During that period of history, warlords were constantly fighting each other."
+  },
+  {
+    "word": "公报",
+    "sent_simp": "会议结束后双方发表了联合公报。",
+    "sent_trad": "會議結束後雙方發表了聯合公報。",
+    "pinyin": "Huìyì jiéshù hòu shuāngfāng fābiǎo le liánhé gōngbào.",
+    "english": "After the meeting, both sides issued a joint communiqué."
+  },
+  {
+    "word": "步枪",
+    "sent_simp": "博物馆里展示了一把老式步枪。",
+    "sent_trad": "博物館裡展示了一把老式步槍。",
+    "pinyin": "Bówùguǎn lǐ zhǎnshì le yī bǎ lǎoshì bùqiāng.",
+    "english": "The museum displayed an old-style rifle."
+  },
+  {
+    "word": "加密",
+    "sent_simp": "记得给文件加密再发给对方。",
+    "sent_trad": "記得給文件加密再發給對方。",
+    "pinyin": "Jìde gěi wénjiàn jiāmì zài fā gěi duìfāng.",
+    "english": "Remember to encrypt the file before sending it to them."
+  },
+  {
+    "word": "鸟类",
+    "sent_simp": "这本书介绍了中国常见的鸟类。",
+    "sent_trad": "這本書介紹了中國常見的鳥類。",
+    "pinyin": "Zhè běn shū jièshào le Zhōngguó chángjiàn de niǎolèi.",
+    "english": "This book introduces common birds found in China."
+  },
+  {
+    "word": "得主",
+    "sent_simp": "今年奖学金的得主是一名大一学生。",
+    "sent_trad": "今年獎學金的得主是一名大一學生。",
+    "pinyin": "Jīnnián jiǎngxuéjīn de dézhǔ shì yī míng dàyī xuéshēng.",
+    "english": "This year's scholarship recipient is a first-year university student."
+  },
+  {
+    "word": "改建",
+    "sent_simp": "他们把旧仓库改建成了咖啡馆。",
+    "sent_trad": "他們把舊倉庫改建成了咖啡館。",
+    "pinyin": "Tāmen bǎ jiù cāngkù gǎijiàn chéng le kāfēiguǎn.",
+    "english": "They converted the old warehouse into a café."
+  },
+  {
+    "word": "小黄",
+    "sent_simp": "下雨天很难叫到小黄，要等很久。",
+    "sent_trad": "下雨天很難叫到小黃，要等很久。",
+    "pinyin": "Xià yǔ tiān hěn nán jiào dào xiǎohuáng, yào děng hěn jiǔ.",
+    "english": "On rainy days it's hard to get a cab; you have to wait a long time."
+  },
+  {
+    "word": "数据处理",
+    "sent_simp": "这台电脑的数据处理速度很快。",
+    "sent_trad": "這臺電腦的數據處理速度很快。",
+    "pinyin": "Zhè tái diànnǎo de shùjù chǔlǐ sùdù hěn kuài.",
+    "english": "This computer's data processing speed is very fast."
+  },
+  {
+    "word": "手表",
+    "sent_simp": "他把那块手表当作生日礼物送给了我。",
+    "sent_trad": "他把那塊手錶當作生日禮物送給了我。",
+    "pinyin": "Tā bǎ nà kuài shǒubiǎo dāngzuò shēngrì lǐwù sòng gěi le wǒ.",
+    "english": "He gave me that watch as a birthday gift."
+  },
+  {
+    "word": "强暴",
+    "sent_simp": "社会应该严惩强暴犯罪行为。",
+    "sent_trad": "社會應該嚴懲強暴犯罪行為。",
+    "pinyin": "Shèhuì yīnggāi yán chéng qiángbào fànzuì xíngwéi.",
+    "english": "Society should severely punish violent criminal behavior."
+  },
+  {
+    "word": "全书",
+    "sent_simp": "他用两周时间读完了全书。",
+    "sent_trad": "他用兩週時間讀完了全書。",
+    "pinyin": "Tā yòng liǎng zhōu shíjiān dú wán le quánshū.",
+    "english": "He finished reading the entire book in two weeks."
+  },
+  {
+    "word": "反恐",
+    "sent_simp": "多国联合开展了一次反恐演习。",
+    "sent_trad": "多國聯合開展了一次反恐演習。",
+    "pinyin": "Duō guó liánhé kāizhǎn le yīcì fǎnkǒng yǎnxí.",
+    "english": "Several countries jointly conducted an anti-terrorism drill."
+  },
+  {
+    "word": "战区",
+    "sent_simp": "记者进入战区前必须穿防弹衣。",
+    "sent_trad": "記者進入戰區前必須穿防彈衣。",
+    "pinyin": "Jìzhě jìnrù zhànqū qián bìxū chuān fángdàn yī.",
+    "english": "Journalists must wear bulletproof vests before entering the war zone."
+  },
+  {
+    "word": "代表性",
+    "sent_simp": "这个案例很有代表性，值得研究。",
+    "sent_trad": "這個案例很有代表性，值得研究。",
+    "pinyin": "Zhège ànlì hěn yǒu dàibiǎoxìng, zhídé yánjiū.",
+    "english": "This case is very representative and worth studying."
+  },
+  {
+    "word": "专科",
+    "sent_simp": "她在专科医院看了皮肤科。",
+    "sent_trad": "她在專科醫院看了皮膚科。",
+    "pinyin": "Tā zài zhuānkē yīyuàn kàn le pífū kē.",
+    "english": "She saw a dermatologist at a specialized hospital."
+  },
+  {
+    "word": "校区",
+    "sent_simp": "新校区离市中心比较远。",
+    "sent_trad": "新校區離市中心比較遠。",
+    "pinyin": "Xīn xiàoqū lí shì zhōngxīn bǐjiào yuǎn.",
+    "english": "The new campus is quite far from downtown."
+  },
+  {
+    "word": "集团军",
+    "sent_simp": "历史书上提到了那支著名的集团军。",
+    "sent_trad": "歷史書上提到了那支著名的集團軍。",
+    "pinyin": "Lìshǐ shū shàng tídào le nà zhī zhùmíng de jítuánjūn.",
+    "english": "The history book mentioned that famous army group."
+  },
+  {
+    "word": "音乐家",
+    "sent_simp": "他从小的梦想是成为一名音乐家。",
+    "sent_trad": "他從小的夢想是成為一名音樂家。",
+    "pinyin": "Tā cóng xiǎo de mèngxiǎng shì chéngwéi yī míng yīnyuèjiā.",
+    "english": "His dream since childhood was to become a musician."
+  },
+  {
+    "word": "禁令",
+    "sent_simp": "市政府发布了禁止燃放烟花的禁令。",
+    "sent_trad": "市政府發布了禁止燃放煙花的禁令。",
+    "pinyin": "Shì zhèngfǔ fābù le jìnzhǐ ránfàng yānhuā de jìnlìng.",
+    "english": "The city government issued a ban on setting off fireworks."
+  },
+  {
+    "word": "干儿子",
+    "sent_simp": "他把邻居的孩子认作干儿子。",
+    "sent_trad": "他把鄰居的孩子認作乾兒子。",
+    "pinyin": "Tā bǎ línjū de háizi rèn zuò gān érzi.",
+    "english": "He took the neighbor's child as his adopted son."
+  },
+  {
+    "word": "英里",
+    "sent_simp": "从这里到机场大约有二十英里。",
+    "sent_trad": "從這裡到機場大約有二十英里。",
+    "pinyin": "Cóng zhèlǐ dào jīchǎng dàyuē yǒu èrshí yīnglǐ.",
+    "english": "It is about twenty miles from here to the airport."
+  },
+  {
+    "word": "灰色",
+    "sent_simp": "他穿了一件灰色的外套去上班。",
+    "sent_trad": "他穿了一件灰色的外套去上班。",
+    "pinyin": "Tā chuān le yī jiàn huīsè de wàitào qù shàngbān.",
+    "english": "He wore a gray coat to work."
+  }
+]
