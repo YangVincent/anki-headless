@@ -1335,6 +1335,12 @@ async def run_conversation(chat_id, bot, message_obj):
     """Run the Claude conversation loop for a chat.
     Calls Claude with the full history, executes tools, and sends the final text reply.
     """
+    # remember the last chat_id so scheduled jobs (e.g. weekly report) can reach the user
+    try:
+        with open(os.path.expanduser("~/.anki_chat_id"), "w") as _f:
+            _f.write(str(chat_id))
+    except Exception:
+        pass
     MAX_TURNS = 20
 
     for turn in range(MAX_TURNS):
