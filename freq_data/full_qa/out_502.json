@@ -1,0 +1,18 @@
+[
+  {
+    "nid": 1708747524628,
+    "word": "离线",
+    "sent_simp": "地铁里没有信号，手机一直离线。",
+    "sent_trad": "地鐵裡沒有訊號，手機一直離線。",
+    "pinyin": "Dìtiě lǐ méiyǒu xìnhào, shǒujī yīzhí líxiàn.",
+    "english": "There's no signal in the subway, so the phone stays offline the whole time."
+  },
+  {
+    "nid": 1708747525175,
+    "word": "常量",
+    "sent_simp": "程序里的常量不能在运行时改变。",
+    "sent_trad": "程序裡的常量不能在執行時改變。",
+    "pinyin": "Chéngxù lǐ de chángliàng bù néng zài yùnxíng shí gǎibiàn.",
+    "english": "Constants in a program cannot be changed at runtime."
+  }
+]

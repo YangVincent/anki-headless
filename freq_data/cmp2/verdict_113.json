@@ -1,0 +1,1 @@
+{"nid": 1717270473108, "word": "性疾病", "verdict": "use_new", "reason": "The old sentence embeds '性疾病' after '预防' creating a parsing ambiguity where '预防性' reads as the adjective 'preventive', obscuring the target word; the new sentence uses it unambiguously."}

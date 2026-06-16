@@ -1,0 +1,26 @@
+[
+  {
+    "nid": 1781538470786,
+    "word": "工作证",
+    "sent_simp": "进入公司大楼需要出示工作证。",
+    "sent_trad": "進入公司大樓需要出示工作證。",
+    "pinyin": "Jìnrù gōngsī dàlóu xūyào chūshì gōngzuòzhèng.",
+    "english": "You need to show your employee ID card to enter the company building."
+  },
+  {
+    "nid": 1781538470788,
+    "word": "腊肉",
+    "sent_simp": "妈妈每年冬天都会自己腌腊肉。",
+    "sent_trad": "媽媽每年冬天都會自己醃臘肉。",
+    "pinyin": "Māma měinián dōngtiān dōu huì zìjǐ yān làròu.",
+    "english": "Every winter, mom cures her own air-dried pork."
+  },
+  {
+    "nid": 1781538470793,
+    "word": "重整",
+    "sent_simp": "公司决定重整内部结构，提高工作效率。",
+    "sent_trad": "公司決定重整內部結構，提高工作效率。",
+    "pinyin": "Gōngsī juédìng chóngzhěng nèibù jiégòu, tígāo gōngzuò xiàolǜ.",
+    "english": "The company decided to restructure its internal organization to improve efficiency."
+  }
+]

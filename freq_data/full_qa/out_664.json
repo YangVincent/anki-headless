@@ -1,0 +1,18 @@
+[
+  {
+    "nid": 1781538743594,
+    "word": "超级计算机",
+    "sent_simp": "这台超级计算机每秒能完成亿次运算。",
+    "sent_trad": "這台超級計算機每秒能完成億次運算。",
+    "pinyin": "Zhè tái chāojí jìsuànjī měi miǎo néng wánchéng yì cì yùnsuàn.",
+    "english": "This supercomputer can perform one hundred million calculations per second."
+  },
+  {
+    "nid": 1781538743600,
+    "word": "活血",
+    "sent_simp": "这些药材有活血的功效。",
+    "sent_trad": "這些藥材有活血的功效。",
+    "pinyin": "Zhèxiē yàocái yǒu huóxuè de gōngxiào.",
+    "english": "These medicinal herbs have the effect of improving blood circulation."
+  }
+]
