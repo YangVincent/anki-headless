@@ -1,0 +1,616 @@
+{
+  "model_essays": [
+    {
+      "title": "北京时代汽车有限公司简介",
+      "genre": "company introduction (书面介绍)",
+      "text": "北京时代汽车有限公司成立于1982年，是一家中外合资企业，主要生产各类轿车和汽车配件，产品销往欧洲、美洲、澳洲、东南亚等100多个国家和地区。公司有员工1.5万人，占地面积300多万平方米。本公司有一流的技术和设备，有先进的全自动化生产线，年生产能力为50万辆，2005年销售30万辆，销售额达500亿元人民币。本公司在香港设立了分公司，在美国、日本、欧洲等地设立了办事处。关于公司的详细情况请浏览我们的网站www.timesauto.com。",
+      "summary": "A model company introduction covering founding date, enterprise type, main products, market reach, workforce, facilities, production capacity, sales figures, and branch network.",
+      "why_study": "This tight 100-character passage is the canonical template for a Chinese company self-introduction. It hits every obligatory element in the conventional order: 成立于→性质→产品→市场→人员→设备→产能→销售→机构。Learners can substitute data to produce any company intro.",
+      "key_devices": [
+        "成立于 + year (founding construction)",
+        "是一家…企业 (enterprise-type identification)",
+        "主要生产/从事 (core business)",
+        "产品销往…等…个国家和地区 (market scope formula)",
+        "达 + figure (reaching a milestone figure)",
+        "设立了分公司/办事处 (branch structure)"
+      ]
+    },
+    {
+      "title": "第一季度销售情况报告（销售部经理发言）",
+      "genre": "business report speech (会议发言/汇报)",
+      "text": "下面我给大家介绍一下第一季度的销售情况。第一季度是电脑销售的淡季，不过今年我们的销售情况不错。\n1—3月份，台式电脑总销量为20万台，和上一季度基本持平，同比增长22%。由于笔记本电脑价格逐渐下降，销量直线上升，达到了12万台，和上一季度相比增长30%，和去年同期相比增长150%。第一季度的总销售额为36亿元人民币，同比增长40%。\n目前，我们的国内市场占有率为22.7%，超过了老对手长城电脑，仅次于戴尔电脑，排在第二位。戴尔电脑和长城电脑的市场占有率分别为29%和18%。",
+      "summary": "A sales manager's verbal report at a company meeting presenting Q1 computer sales data: desktop volumes, laptop growth, total revenue, and market share ranking versus competitors.",
+      "why_study": "Extremely high-value for business writing and speaking. Shows how to narrate sales data with cause-and-effect (由于…), comparison across periods (同比/环比/和上一季度相比), and market ranking (仅次于…排在第二位). The passage is short but data-dense — a model of efficient business Chinese.",
+      "key_devices": [
+        "淡季/旺季 framing to contextualize results",
+        "由于…，… (causal: because prices fell, volume rose)",
+        "同比增长X% vs 和上一季度相比增长X%",
+        "直线上升/下降 for sharp trends",
+        "仅次于…排在第二位 for competitive ranking",
+        "分别为…和… for parallel figures"
+      ]
+    },
+    {
+      "title": "别克自行车推荐信",
+      "genre": "business letter — product promotion (商务推荐信)",
+      "text": "北京大成贸易有限公司销售部经理刘建安先生：\n您好！我们是一家生产自行车的美国公司，本公司生产的"别克"牌自行车畅销欧美各国。最近我们准备开发中国市场，我向您推荐我们新上市的折叠自行车，我想贵公司会对我们的产品感兴趣。\n本公司生产的折叠自行车可以在20秒钟之内不用任何工具折叠或者展开。折叠后体积小，可以放在汽车的行李箱里或者办公室内。因为我们使用了最新的合成材料，重量比一般自行车轻很多，可以提着上楼、坐电梯、乘地铁，非常方便。除此之外，产品的设计时尚现代，深受消费者喜爱。\n随信附上本公司的产品目录和图片，如果您对我们的产品感兴趣，欢迎来函联系。\n敬祝\n商祺！\n别克自行车有限公司销售部经理史密斯\n2008.9.2",
+      "summary": "A product-promotion letter from a US bicycle company to a Chinese trading company manager, recommending a new foldable bicycle and highlighting its features, materials, and convenience.",
+      "why_study": "A complete, correctly formatted Chinese business letter. It models the full structure (salutation, self-introduction, recommendation, product description, enclosure notice, closing 敬祝商祺). The body uses natural product-promotion rhetoric:畅销欧美→开发中国市场→功能演示→材料优势→设计亮点. The closing formulas are mandatory for formal correspondence.",
+      "key_devices": [
+        "Full letter format: 受信人称谓 → 您好 → 正文 → 随信附上 → 敬祝商祺 → 署名日期",
+        "畅销…各国 (market credibility opener)",
+        "可以在…之内 + V + 而不用 (feature spec with ease-of-use focus)",
+        "除此之外 (adding further selling points)",
+        "深受消费者喜爱 (formulaic popularity claim)",
+        "随信附上…，欢迎来函联系 (enclosure + call-to-action)"
+      ]
+    },
+    {
+      "title": "对报价提出异议的商务信函",
+      "genre": "business letter — counter-offer / price objection (商务还价信)",
+      "text": "尊敬的王经理：\n您好！贵公司寄来的报价单已经收到，非常感谢你们这么快就给了我们回复。\n遗憾的是，贵公司每台节能冰箱的报价是800美元，这个价格对我们来说太高了，我们无法接受。\n现在各大厂商新研发的冰箱都已经上市，市场竞争激烈，厂商大打价格战，冰箱的价格一直在下降，贵公司应该了解这方面的情况。虽然贵公司的产品在质量和设计方面有一定的优势，但是800美元的报价和其他厂商相比没有竞争力。\n希望贵公司能考虑到国际市场的情况，降低报价。我们期望的价格是每台700美元，不知道贵公司能否接受？希望贵公司考虑我方建议重新报价，我们等待你们的回复。\n敬祝\n商祺\n美国国际贸易公司史密斯\n2008.12.15",
+      "summary": "A formal written counter-offer from an American buyer to a Chinese supplier, acknowledging receipt of a quotation, explaining why the price is unacceptable with market evidence, and proposing a lower price of $700.",
+      "why_study": "This is a masterclass in polite but firm written negotiation. The structure is: (1) acknowledge + thank, (2) signal refusal with 遗憾的是, (3) present market argument, (4) concede partial strength (虽然…优势), (5) pivot to competitive weakness (但是…没有竞争力), (6) state desired price + request re-quote. This 4-move objection pattern transfers to any negotiation context.",
+      "key_devices": [
+        "遗憾的是 (soft but clear refusal opener)",
+        "虽然…有一定的优势，但是…没有竞争力 (concede-then-pivot)",
+        "希望贵公司考虑到… (polite pressure with 考虑到)",
+        "我们期望的价格是…，不知道贵公司能否接受？(named counter-price + open question)",
+        "我方 vs 贵公司 (formal pronoun register)",
+        "等待你们的回复 (close with action expectation)"
+      ]
+    },
+    {
+      "title": "价格谈判成功对话（电话）",
+      "genre": "business dialogue — price negotiation (询价还价对话)",
+      "text": "史密斯：王经理，您好！我们对贵公司新研发的节能冰箱很感兴趣，决定订购500台，贵公司的报价是多少？\n王经理：现在这款冰箱在市场上很畅销，我们的报价是每台800美元。\n史密斯：800美元？你们的报价太高了，现在市场上同类产品的价格一般在600美元左右。\n王经理：中国有句俗话说"一分钱一分货"，这款冰箱质量好、环保节能、深受消费者欢迎，价格高一些很正常。\n史密斯：但是800美元的报价实在太高了，我们不能接受，能不能给我们打个折扣？\n王经理：您是我们的老客户，我们给您优惠3%。\n史密斯：谢谢您做出了让步，但3%少了点，如果我们增加订购量，能不能多打点折扣？\n王经理：如果订购1000台以上，可以优惠5%，这已经是最低价了。\n史密斯：这个价格比较合理，我们打算订购1200台。\n王经理：我们的报价有效期是两周，希望贵公司尽快下订单。\n史密斯：好的，我明天就可以把订单传真给你们。",
+      "summary": "Telephone dialogue showing a complete successful price negotiation: buyer asks for quote, rejects it citing market comparables, seller invokes quality, buyer pushes for discount, seller offers tiered discount tied to volume, deal is struck.",
+      "why_study": "Models all four moves of a Chinese price negotiation: (1) ask price, (2) reject with market reference, (3) seller defends with proverb + quality argument, (4) buyer requests discount, (5) seller offers conditional discount (增加订购量→优惠5%), (6) acceptance. The volume-linked discount structure 如果订购…以上，可以优惠X% is directly transferable.",
+      "key_devices": [
+        "一分钱一分货 (seller's quality defense proverb)",
+        "实在太高了，我们不能接受 (emphatic rejection)",
+        "谢谢您做出了让步，但… (acknowledge concession then push further)",
+        "如果订购X以上，可以优惠X%，这已经是最低价了 (conditional volume discount)",
+        "报价有效期 (validity pressure close)",
+        "把订单传真给你们 (transactional close)"
+      ]
+    },
+    {
+      "title": "价格谈判破裂对话",
+      "genre": "business dialogue — failed negotiation (谈判破裂对话)",
+      "text": "客户：李经理您好，你们发来的报价单已经收到了。贵公司的报价太高了，我们没有办法接受。\n李经理：现在生产成本增加，国际市场的价格都在上涨，我们的报价已经很优惠了。\n客户：其他几家公司的报价比贵公司要低15%左右，你们的报价没有竞争力。\n李经理：我们产品的质量是一流的，公司信誉也非常好，这个报价还是比较合理的。\n客户：这么高的报价，我们真的不能接受，能不能给我们打个折扣？\n李经理：考虑到我们双方以后的合作，我们可以优惠5%。\n客户：5%离我们期望的价格还有一定差距，我们希望能优惠10%。\n李经理：优惠5%已经是我们的成本价了，不能再降价了。\n客户：这样吧，我们各让一步，7%怎么样？\n李经理：很抱歉，我们最多降价5%，真的无法再让步了。\n客户：那很遗憾，我们只能谈到这儿了。\n李经理：我们也很遗憾，希望下次有机会合作。",
+      "summary": "Dialogue showing a price negotiation that fails: buyer rejects quotation citing competitor prices 15% lower; seller holds at 5% max discount claiming cost price; neither side meets in the middle; talks collapse gracefully.",
+      "why_study": "The failed negotiation is as important to study as the successful one. It models the phrases for stalemate and exit: 无法再让步了, 只能谈到这儿了, 希望下次有机会合作. These closing phrases maintain the relationship while ending talks — a critical real-world skill. Also shows how sellers defend price with 成本价.",
+      "key_devices": [
+        "考虑到我们双方以后的合作，我们可以… (concession framing with relationship appeal)",
+        "离我们期望的价格还有一定差距 (gap-framing counter)",
+        "这样吧，我们各让一步，X怎么样？ (split-the-difference proposal)",
+        "无法再让步了 (firm final refusal)",
+        "只能谈到这儿了 (polite exit from negotiations)",
+        "希望下次有机会合作 (face-saving closing line)"
+      ]
+    },
+    {
+      "title": "销售会议：价格战讨论",
+      "genre": "internal meeting dialogue (公司内部会议对话)",
+      "text": "王经理：明年的工作计划我们就讨论到这儿，下面讨论第二个议题：如何增加我们的销量。请大家谈谈自己的看法。\n小赵：现在市场竞争很激烈，我认为可以考虑降价销售，用低价格来吸引消费者。\n小陈：我不主张和对手打价格战。我们的价格已经很低了，如果再降，即使销量增长了，利润也不会增长。\n小孙：我也反对打价格战，我们降价对手也会跟着降价，最后的结果是两败俱伤，对谁都没有好处。\n小赵：你们说得都很有道理，可是现在我们的竞争对手已经降价了，我们没有选择。\n小陈：现在消费者选择产品并不是完全根据价格，而是根据性价比，包括质量、设计和服务等，我们应该在这些方面多想想办法。\n小孙：小陈说得很对，市场上最受欢迎的不是最便宜的产品而是性价比高的产品。\n小赵：我保留我的意见，如果不直接降价也可以考虑搞一些促销活动。\n王经理：看来大家的看法不太一样，下次会议再讨论。没有其他问题的话，今天的会就到这儿，散会。",
+      "summary": "An internal sales meeting debate on whether to cut prices to boost sales volume. Three employees argue: pro-price-cut (赵), anti-price-war with profit concern (陈), anti-price-war with mutual-damage argument (孙). The meeting ends without consensus.",
+      "why_study": "Models how to express and disagree with opinions in Chinese business settings. Key meeting language: 不主张、反对、我保留我的意见. Also models the 性价比 vs pure price argument — a crucial commercial reasoning pattern in Chinese business discourse.",
+      "key_devices": [
+        "不主张 + V (I don't advocate doing X)",
+        "即使…也… (even if volume grows, profit won't)",
+        "两败俱伤 (idiomatic: mutually destructive outcome)",
+        "并不是…而是… (contrastive negation: not price but value-for-money)",
+        "我保留我的意见 (I maintain my position / agree to disagree)",
+        "看来大家的看法不太一样，下次再讨论 (chair closing without resolution)"
+      ]
+    },
+    {
+      "title": "售后服务部门会议",
+      "genre": "internal meeting dialogue with problem-solving (部门会议对话)",
+      "text": "主持人：大家好，我们开始开会。今天的会议有两个议题：一是讨论近期出现的售后服务的问题；二是安排下半年的工作计划。下面先请李经理谈一谈售后服务的问题。\n李经理：最近我们接到一些投诉电话，顾客对我们的售后服务很不满意。公司希望我们部门能尽快解决这个问题。\n主持人：下面请大家自由发言，说说自己的看法。\n小李：我们对公司的新产品不太了解，不能及时解决顾客遇到的问题，所以顾客意见比较大。\n主持人：这是一个很重要的原因，大家有什么解决办法吗？\n小王：我认为可以请研发部的同事每周给我们做一次报告，介绍公司的新产品。\n李经理：这个办法很好，会后我和研发部经理商量一下。\n小刘：我们只有两部服务热线电话，常常占线，顾客的电话打不进来。\n主持人：这也是顾客不满的一个重要原因，我记下来了。小张，你有什么意见吗？\n小张：我觉得最重要的一点是我们缺乏服务意识，以为产品卖出去了任务就完成了。\n李经理：我非常同意小张的看法。很多员工没有认识到售后服务的重要性，不知道售后服务也是销售的一部分，以为是在帮顾客的忙。\n主持人：大家的发言都很好。下次会议我们专门讨论售后服务的重要性。由于时间关系，今天售后服务的问题就讨论到这儿，下面我们讨论下一个问题。",
+      "summary": "An after-sales service department meeting identifying causes of customer complaints — staff unfamiliarity with new products, too few hotline phones, and lack of service mindset — and proposing solutions.",
+      "why_study": "Models a multi-speaker Chinese business meeting in full: opening (今天的会议有两个议题：一是…二是…), eliciting opinions (请大家自由发言), validating speakers (这是一个很重要的原因), transitioning topics (由于时间关系，今天…就讨论到这儿). The meeting chairman's register is directly reusable.",
+      "key_devices": [
+        "今天的会议有两个议题：一是…二是… (agenda announcement)",
+        "下面先请X谈一谈… (calling on a speaker)",
+        "这是一个很重要的原因，大家有什么解决办法吗？ (validate + redirect)",
+        "由于时间关系，今天X就讨论到这儿，下面我们讨论下一个问题 (topic transition)",
+        "以为 (mistakenly thought — implies wrong assumption)",
+        "缺乏服务意识 (idiomatic: lacking service consciousness)"
+      ]
+    },
+    {
+      "title": "付款方式谈判（信用证 vs 付款交单）",
+      "genre": "business negotiation dialogue (付款谈判对话)",
+      "text": "王经理：既然贵公司接受了我们的还价，那么我们谈一谈付款方式吧。\n史密斯：好的。通常你们采用什么付款方式？\n王经理：我们一般只接受信用证。\n史密斯：能不能破一次例，采用付款交单的方式？您知道，在银行开立信用证，我们必须交一笔保证金，这会影响我们的资金周转。\n王经理：史密斯先生，很抱歉，货款数额很大的交易，我们都采用信用证付款，这次也不能例外。\n史密斯：考虑到这次我们的订单数额很大，贵公司能否通融一下，用信用证支付一半货款可以吗？本公司的信誉良好，从未延期付款。\n王经理：这是我们初次合作，我们希望用信用证付款，在这个问题上我们无法做出让步。以后双方彼此都比较了解了，我们可以考虑其他付款方式。\n史密斯：好吧，我们也只好同意了，希望以后贵公司可以考虑其他方式。下面我们谈谈一些细节问题好吧？\n王经理：好的。贵公司必须在装运前30天开立以我方为受益人的信用证。\n史密斯：这个没有问题，我们会在7月1日以前向银行申请开立以你方为受益人的10万美元的信用证。信用证的有效期到什么时候？\n王经理：有效期至少应该到装运后15天，也就是8月15号以后。\n史密斯：好的，就这么定了，希望我们合作愉快。\n王经理：我们双方都很有诚意，我们的首次合作一定会非常成功。",
+      "summary": "Negotiation on payment terms: seller insists on L/C for first-time cooperation; buyer argues for D/P citing cash-flow impact; compromise on L/C only; technical details of L/C issuance (beneficiary, amount, validity period) are agreed.",
+      "why_study": "Rich in trade finance vocabulary used naturally in conversation: 信用证、保证金、资金周转、开立以X方为受益人的信用证、有效期. Also models how Chinese sellers frame refusal to deviate from standard terms with 初次合作 (first-time cooperation as justification). The closing 首次合作一定会非常成功 is a warm relationship-building formula.",
+      "key_devices": [
+        "能不能破一次例 (request for exception)",
+        "这次也不能例外 (no exception, firm refusal)",
+        "通融一下 (bend the rules slightly — softer than 破例)",
+        "从未延期付款 (credibility claim: never late paying)",
+        "初次合作 (first-time cooperation as policy justification)",
+        "以我方为受益人的X万美元的信用证 (L/C spec formula)"
+      ]
+    },
+    {
+      "title": "货币选择与付款交单细节（含定金电汇安排）",
+      "genre": "business negotiation dialogue (结算货币与定金对话)",
+      "text": "进口商：我们这次交易用什么货币结算？\n出口商：最近人民币兑美元的汇率变动比较大，我建议用欧元结算，您看怎么样？\n进口商：我完全同意，最近美元一直在贬值，用欧元结算比较好。这次交易的货款数额不大，贵公司能否接受付款交单？\n出口商：我们通常只接受信用证付款，但考虑到贵公司是我们的老客户，多年来我们一直合作得非常愉快，这次我们可以接受付款交单。\n进口商：太好了，您帮了我们公司的大忙。用信用证付款不但要付一笔手续费，而且还要交一大笔保证金，对我们这样的小企业来说影响太大了。\n出口商：我们是老朋友了，相信您不会延期付款。按照我们公司的规定，付款交单要付30%的定金。\n进口商：没问题，这笔定金用什么方式付款呢？\n出口商：最好是电汇，直接把钱汇到我们公司的账户上，又快又方便。\n进口商：好的，请告诉我贵公司的开户银行和账号，我们尽快办理电汇手续。\n出口商：我们的开户行是中国工商银行北京分行，账号是6226-0202-0000-1466-114，户名是北京五星电器集团。\n进口商：我记下来了。一会儿我给您发个传真确认一下，以免出错。\n出口商：好的，我们收到定金以后马上装运。",
+      "summary": "Dialogue covering settlement currency choice (EUR over USD due to exchange-rate volatility), switching from L/C to D/P based on established relationship, deposit requirement (30%), and telegraphic transfer details including bank account.",
+      "why_study": "Teaches the full chain of payment logistics: currency → payment method → deposit → remittance. The 以免出错 (fax to confirm, lest there be errors) is excellent idiomatic practice. Also models relationship-based exceptions (老客户 allows D/P), a very common Chinese business scenario.",
+      "key_devices": [
+        "人民币兑美元的汇率变动比较大 (exchange-rate reasoning)",
+        "不但…而且… (stacking disadvantages: fees AND deposit)",
+        "按照我们公司的规定 (citing company policy for requirement)",
+        "把钱汇到我们公司的账户上，又快又方便 (consecutive 又…又… for dual benefit)",
+        "一会儿我给您发个传真确认一下，以免出错 (confirmation + 以免 to avoid error)",
+        "收到定金以后马上装运 (conditional sequence: receipt → shipment)"
+      ]
+    },
+    {
+      "title": "国际贸易付款方式比较",
+      "genre": "expository prose — trade knowledge (说明文/商务知识)",
+      "text": "对外贸易的主要付款方式有三种：信用证、电汇和付款交单，其中信用证用得最多，其次是电汇，付款交单用得较少。\n信用证付款方式对出口商最有利，只要单据齐全就不用担心对方拒付或者延期付款，比较安全。缺点是手续复杂、费用较高，申请开立信用证要向银行交一笔保证金和手续费，增加了进口商的进口成本。\n和信用证付款方式比起来，电汇手续非常简单，银行的手续费也低得多，一般都是几十美金，而信用证的手续费会多达几百美金。但是这种付款方式的风险比较大，能否按时收到货款或按时收到货，完全取决于对方的信用。\n付款交单对买方比较有利，出口商能否收到货款，完全取决于进口商的信用。遇到信誉差的进口商，常常出现延期付款或拒付货款的现象。因此，这种付款方式多用于信誉比较好的进口商。",
+      "summary": "Short comparative essay on three international trade payment methods (L/C, T/T, D/P): their frequency of use, advantages, and disadvantages from both buyer and seller perspectives.",
+      "why_study": "Models Chinese expository prose at its clearest: introduce category → rank by frequency → analyze each (优点/缺点) → conclude with application condition. The parallel structure 对出口商最有利/对买方比较有利 and 完全取决于对方的信用 are elegant and reusable patterns.",
+      "key_devices": [
+        "其中X用得最多，其次是Y，Z用得较少 (frequency ranking)",
+        "只要…就不用担心… (sufficient condition for peace of mind)",
+        "和…比起来，… (comparative framing)",
+        "会多达…而… (contrast: can reach as much as… whereas…)",
+        "完全取决于对方的信用 (entirely depends on counterpart's credit)",
+        "因此，这种方式多用于… (therefore, this method is used for…)"
+      ]
+    },
+    {
+      "title": "国际运输方式比较",
+      "genre": "expository prose — trade knowledge (说明文/商务知识)",
+      "text": "在国际贸易中常见的运输方式主要有以下几种：海运、空运、铁路运输、公路运输和管道运输。\n海运是国际贸易中最重要的运输方式。海运的优点是运输量大、运费低，但是海运受自然条件的影响比较大，速度慢，运输时间长。\n铁路运输是仅次于海运的主要运输方式，优点是运输量比较大、速度比较快、一般不受自然条件影响，缺点是受铁路限制、修建铁路的成本很高。\n和海运、铁路运输相比，空运的优势是速度快、安全性高，劣势是运输量小、运费高，适合运输急需的货物和贵重物品。\n公路运输很方便，修建公路的成本也不是很高，可是容易损坏货物，而且不能运输大件货物。\n在国际贸易中，气体、液体货物可以使用管道运输。这种运输方式运输量大，没有污染，不受自然条件影响，缺点是成本很高，而且不能运输其他货物。\n国际贸易中运输方式很多，应该根据商品的特点、数量和交货时间等情况选择合适的运输方式。",
+      "summary": "Comparative overview of five international freight methods: sea, air, rail, road, and pipeline. Each is analyzed by volume capacity, cost, speed, reliability, and limitations, with a conclusion on how to choose appropriately.",
+      "why_study": "A textbook comparative essay with a clean five-paragraph structure. Each paragraph follows the same template: define category → 优点 → 缺点/劣势 → 适合. The concluding sentence (根据…等情况选择合适的…) is a reusable business-writing formula for any 'how-to-choose' conclusion.",
+      "key_devices": [
+        "仅次于…的主要运输方式 (second-only-to ranking)",
+        "优势是…，劣势是… (formal advantage/disadvantage pair — more elevated than 优点/缺点)",
+        "适合运输X (suitable for transporting X)",
+        "受…影响比较大 (significantly affected by)",
+        "应该根据…等情况选择合适的… (concluding recommendation formula)",
+        "不受自然条件影响 (not subject to natural conditions)"
+      ]
+    },
+    {
+      "title": "商品包装要求（出口贸易）",
+      "genre": "expository prose — trade knowledge (说明文/商务知识)",
+      "text": "国际贸易中的商品，一般都要经过长途运输才能到达客户手中。为了把运输中的损失减少到最低限度，外包装必须结实、科学。不同的商品要有不同的包装，例如玻璃制品容易破碎，这就要求外包装应该防震，需要在包装箱内使用泡沫塑料或防震纸板；服装怕潮，应该使用塑料等防水、防潮的包装材料。不同运输方式对外包装的要求不同，例如，海运包装要求结实，铁路运输包装要求不怕震动，空运包装要求轻便。\n另外有些国家规定不能使用某些包装材料；有的国家规定，如果货物的包装不符合要求，买方有权拒收。所以包装前必须考虑有关国家的法律规定和客户的要求。",
+      "summary": "A practical explanation of packaging requirements for international trade goods: material strength by product type, requirements per transport mode, and legal compliance by destination country.",
+      "why_study": "Models the Chinese expository paragraph structure: general principle → concrete examples with 例如 → additional considerations → conclusion with 所以. The pattern 这就要求…应该… (this requires that…should…) is a common formal writing construction.",
+      "key_devices": [
+        "为了把…减少到最低限度 (purpose clause: in order to minimize)",
+        "这就要求…应该… (this therefore requires…should…)",
+        "不同的X要有不同的Y (different X calls for different Y)",
+        "怕潮/怕震 (fears moisture/vibration — personifying product vulnerability)",
+        "有权拒收 (has the right to refuse acceptance)",
+        "所以…前必须考虑… (therefore, before X, one must consider Y)"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "仅次于…，排在第X位",
+      "explanation": "Ranks something as second (or Nth) only to a named item. 仅 (only/merely) + 次于 (inferior to / ranked below). Used for competitive rankings, market share, or any ordinal comparison.",
+      "examples": [
+        "目前，我们的国内市场占有率为22.7%，超过了老对手长城电脑，仅次于戴尔电脑，排在第二位。",
+        "铁路运输是仅次于海运的主要运输方式。"
+      ]
+    },
+    {
+      "pattern": "分别为…和… / 分别是…",
+      "explanation": "Used to assign individual values to multiple items listed previously. 分别 (respectively) distributes the following figures one-to-one. Common in data presentations and comparisons.",
+      "examples": [
+        "戴尔电脑和长城电脑的市场占有率分别为29%和18%。",
+        "台式电脑和笔记本的销量分别为20万台和12万台。",
+        "今年一月份和二月份的销售额与去年同期相比分别增长了10%、15%。"
+      ]
+    },
+    {
+      "pattern": "考虑到…，（我们）可以/决定…",
+      "explanation": "A concession or decision framing pattern: 'Taking X into account, we can/have decided to Y.' Used to justify discounts, policy exceptions, or changes of position without losing face. Very common in negotiations.",
+      "examples": [
+        "考虑到我们双方以后的合作，我们可以优惠5%。",
+        "考虑到贵公司是我们的老客户，这次我们可以接受付款交单。",
+        "考虑到原材料的价格上涨，公司决定从下个月起提高产品的价格。"
+      ]
+    },
+    {
+      "pattern": "只要…就…",
+      "explanation": "Sufficient condition: 'As long as X, then Y.' In business Chinese used to state the minimum requirement for a guarantee, benefit, or outcome.",
+      "examples": [
+        "只要单据齐全就不用担心对方拒付或者延期付款。",
+        "只要订购1000台以上，就可以优惠5%。"
+      ]
+    },
+    {
+      "pattern": "即使…也…",
+      "explanation": "Concessive conditional: 'Even if X, still Y.' Used to argue that a proposed action won't achieve its goal — a key debating move in meetings.",
+      "examples": [
+        "如果再降，即使销量增长了，利润也不会增长。",
+        "即使贵公司做出了让步，差距还是很大。"
+      ]
+    },
+    {
+      "pattern": "并不是…而是…",
+      "explanation": "Contrastive negation: 'It's not X, but rather Y.' Used to redirect an argument or correct a misconception. Adds rhetorical force in debates and persuasive writing.",
+      "examples": [
+        "现在消费者选择产品并不是完全根据价格，而是根据性价比。",
+        "市场上最受欢迎的并不是最便宜的产品而是性价比高的产品。"
+      ]
+    },
+    {
+      "pattern": "完全取决于…",
+      "explanation": "Entirely depends on X. A formal written/spoken expression used to assign responsibility or risk to a single factor. Stronger and more elevated than 看 or 靠.",
+      "examples": [
+        "能否按时收到货款，完全取决于对方的信用。",
+        "这批货能否及时交付，完全取决于运输公司的安排。"
+      ]
+    },
+    {
+      "pattern": "以免…",
+      "explanation": "Conjunction meaning 'lest' or 'to avoid the possibility of.' Signals a precautionary action. Slightly formal register; appears in written instructions and careful spoken business contexts.",
+      "examples": [
+        "一会儿我给您发个传真确认一下，以免出错。",
+        "请在包装上标明毛重和净重，以免在海关出现问题。"
+      ]
+    },
+    {
+      "pattern": "不但…而且…",
+      "explanation": "Not only X but also Y. Used to stack criticisms or benefits for rhetorical emphasis. In negotiation context, often used by the buyer to pile up reasons against a payment method or price.",
+      "examples": [
+        "用信用证付款不但要付一笔手续费，而且还要交一大笔保证金。",
+        "这款冰箱不但节能省电，而且设计人性化。"
+      ]
+    },
+    {
+      "pattern": "有助于…",
+      "explanation": "Contributes to / helps with X. Formal, slightly written register. Used in product descriptions, proposals, and reports to describe beneficial effects.",
+      "examples": [
+        "在包装上印上具有民族特色的图案，有助于产品销售。",
+        "增加服务热线，有助于提高客户满意度。"
+      ]
+    },
+    {
+      "pattern": "为了把…减少/提高到…",
+      "explanation": "Purpose clause with a quantified goal: 'In order to reduce/increase X to level Y.' Common opening for expository paragraphs that explain a requirement or procedure.",
+      "examples": [
+        "为了把运输中的损失减少到最低限度，外包装必须结实、科学。",
+        "为了把销售额提高到8000万元，我们引进了新生产线。"
+      ]
+    },
+    {
+      "pattern": "根据…（等情况）选择/安排…",
+      "explanation": "Based on X (factors), choose/arrange Y. A concluding recommendation formula common in business writing when multiple variables govern a decision.",
+      "examples": [
+        "应该根据商品的特点、数量和交货时间等情况选择合适的运输方式。",
+        "我们会根据贵公司的要求重新安排交货时间。"
+      ]
+    },
+    {
+      "pattern": "由于时间关系，今天X就讨论到这儿",
+      "explanation": "Meeting chair's transition formula: 'Due to time constraints, we'll end the discussion of X here.' Paired with 下面我们讨论下一个问题 or 散会.",
+      "examples": [
+        "由于时间关系，今天售后服务的问题就讨论到这儿，下面我们讨论下一个问题。",
+        "没有其他问题的话，今天的会就到这儿，散会。"
+      ]
+    },
+    {
+      "pattern": "今天的会议有X个议题：一是…；二是…",
+      "explanation": "Meeting agenda announcement pattern. 议题 (agenda item) is more formal than 问题; using 一是/二是 (first/second) clearly enumerates items.",
+      "examples": [
+        "今天的会议有两个议题：一是讨论售后服务的问题；二是安排下半年的工作计划。",
+        "今天把大家请来主要是讨论一下明年的工作计划。"
+      ]
+    },
+    {
+      "pattern": "同比增长X% / 和上一季度相比增长X%",
+      "explanation": "同比 = year-on-year (same period last year); 环比 = sequential period (previous month/quarter). Both followed by 增长X% (grew by X%) or 下降X% (fell by X%). Essential vocabulary for any business report.",
+      "examples": [
+        "台式电脑总销量为20万台，同比增长22%。",
+        "笔记本电脑达到了12万台，和上一季度相比增长30%，和去年同期相比增长150%。",
+        "2008年11月份，全国70个大中城市房价格同比上涨0.2%，环比下降0.5%。"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "与众不同",
+      "pinyin": "yǔ zhòng bùtóng",
+      "meaning": "out of the ordinary; stands apart from the rest — used to claim product distinctiveness",
+      "register": "neutral/formal; common in marketing and product descriptions"
+    },
+    {
+      "zh": "一分钱一分货",
+      "pinyin": "yī fēn qián yī fēn huò",
+      "meaning": "You get what you pay for (lit. one cent, one unit of goods) — seller's proverb to justify premium pricing",
+      "register": "colloquial proverb used in sales contexts; very recognizable to Chinese businesspeople"
+    },
+    {
+      "zh": "两败俱伤",
+      "pinyin": "liǎng bài jù shāng",
+      "meaning": "Both sides suffer losses; mutually destructive — used to argue against price wars or adversarial tactics",
+      "register": "formal idiom; business meeting and negotiation contexts"
+    },
+    {
+      "zh": "性价比",
+      "pinyin": "xìngjiàbǐ",
+      "meaning": "Value for money; price-performance ratio — the Chinese consumer's primary decision criterion in competitive markets",
+      "register": "business/consumer — very common in modern Chinese business discourse"
+    },
+    {
+      "zh": "不堪设想",
+      "pinyin": "bù kān shèxiǎng",
+      "meaning": "The consequences would be unthinkable / too horrible to contemplate — used to stress urgency of risk management",
+      "register": "formal; slightly literary; appears in written reports and formal spoken warnings"
+    },
+    {
+      "zh": "市场占有率",
+      "pinyin": "shìchǎng zhànyǒulǜ",
+      "meaning": "Market share",
+      "register": "standard business term; appears in reports, pitches, and presentations"
+    },
+    {
+      "zh": "保留意见",
+      "pinyin": "bǎoliú yìjiàn",
+      "meaning": "Reserve/maintain one's opinion; agree to disagree — used to formally note dissent while not blocking a meeting",
+      "register": "formal meeting language; also 我保留我的意见"
+    },
+    {
+      "zh": "研发部",
+      "pinyin": "yánfābù",
+      "meaning": "R&D department (research and development)",
+      "register": "standard business terminology"
+    },
+    {
+      "zh": "售后服务",
+      "pinyin": "shòuhòu fúwù",
+      "meaning": "After-sales service",
+      "register": "standard business/consumer"
+    },
+    {
+      "zh": "报价单",
+      "pinyin": "bàojiàdān",
+      "meaning": "Quotation sheet / price list submitted to a potential buyer",
+      "register": "trade/business standard"
+    },
+    {
+      "zh": "有效期",
+      "pinyin": "yǒuxiàoqī",
+      "meaning": "Period of validity (for a quotation, contract, letter of credit, etc.)",
+      "register": "business/legal — ubiquitous in contracts and trade documents"
+    },
+    {
+      "zh": "竞争力",
+      "pinyin": "jìngzhēnglì",
+      "meaning": "Competitiveness; competitive edge — 没有竞争力 means 'not competitive'",
+      "register": "business neutral; very common in negotiations and reports"
+    },
+    {
+      "zh": "成本价",
+      "pinyin": "chéngběnjià",
+      "meaning": "Cost price; the seller's minimum price floor",
+      "register": "business negotiation — used to signal the absolute bottom line"
+    },
+    {
+      "zh": "让步",
+      "pinyin": "ràng bù",
+      "meaning": "To make a concession; to yield ground in a negotiation",
+      "register": "formal/neutral; both written and spoken negotiation"
+    },
+    {
+      "zh": "通融",
+      "pinyin": "tōngróng",
+      "meaning": "To accommodate; to bend the rules slightly for someone — a softer, more face-saving request than 破例",
+      "register": "polite/formal; used to request exceptions without implying the other party is being unreasonable"
+    },
+    {
+      "zh": "信用证",
+      "pinyin": "xìnyòngzhèng",
+      "meaning": "Letter of Credit (L/C) — the most common international trade payment instrument",
+      "register": "trade/financial term; formal"
+    },
+    {
+      "zh": "付款交单",
+      "pinyin": "fùkuǎn jiāodān",
+      "meaning": "Documents against Payment (D/P) — importer pays before receiving shipping documents",
+      "register": "trade finance terminology"
+    },
+    {
+      "zh": "资金周转",
+      "pinyin": "zijīn zhōuzhuǎn",
+      "meaning": "Cash flow; capital turnover — 影响资金周转 means 'affects cash flow'",
+      "register": "business/financial; appears in payment negotiations and financial reports"
+    },
+    {
+      "zh": "受益人",
+      "pinyin": "shòuyirén",
+      "meaning": "Beneficiary (of a letter of credit or insurance policy)",
+      "register": "financial/legal term"
+    },
+    {
+      "zh": "以X方为受益人",
+      "pinyin": "yǐ X fāng wéi shòuyirén",
+      "meaning": "With X party as beneficiary — the standard formula for specifying L/C beneficiary",
+      "register": "trade document / formal spoken negotiation"
+    },
+    {
+      "zh": "定金",
+      "pinyin": "dìngjīn",
+      "meaning": "Deposit; down payment required before shipment or service delivery",
+      "register": "business/commercial standard"
+    },
+    {
+      "zh": "电汇",
+      "pinyin": "diànhuì",
+      "meaning": "Telegraphic Transfer (T/T); wire transfer",
+      "register": "trade/banking standard"
+    },
+    {
+      "zh": "交货时间",
+      "pinyin": "jiāohuò shíjiān",
+      "meaning": "Delivery date; time of delivery of goods",
+      "register": "standard trade term"
+    },
+    {
+      "zh": "分批交货",
+      "pinyin": "fēn pī jiāohuò",
+      "meaning": "Partial delivery; delivery in batches — a common compromise when full delivery by deadline is impossible",
+      "register": "trade/logistics standard"
+    },
+    {
+      "zh": "装运",
+      "pinyin": "zhuāngyùn",
+      "meaning": "To load and ship; shipment date refers to when goods are loaded for transport",
+      "register": "trade/logistics"
+    },
+    {
+      "zh": "险别",
+      "pinyin": "xiǎnbié",
+      "meaning": "Type of insurance coverage/risk category",
+      "register": "insurance/trade finance"
+    },
+    {
+      "zh": "投保",
+      "pinyin": "tóu bǎo",
+      "meaning": "To take out insurance; to insure (goods)",
+      "register": "business/insurance standard"
+    },
+    {
+      "zh": "一切险",
+      "pinyin": "yíqièxiǎn",
+      "meaning": "All Risks insurance (a basic cargo insurance category in Chinese marine insurance)",
+      "register": "insurance/trade"
+    },
+    {
+      "zh": "保险费率",
+      "pinyin": "bǎoxiǎn fèilù",
+      "meaning": "Insurance premium rate (expressed as ‰ or %)",
+      "register": "insurance technical term"
+    },
+    {
+      "zh": "节能环保",
+      "pinyin": "jiénéng huánbǎo",
+      "meaning": "Energy-saving and environmentally friendly — a paired attribute used in product descriptions",
+      "register": "marketing/product description; very current in Chinese business vocabulary"
+    },
+    {
+      "zh": "人性化",
+      "pinyin": "rénxìnghuà",
+      "meaning": "User-friendly; human-oriented design — describes product/service designed with user experience in mind",
+      "register": "marketing/product description; modern business Chinese"
+    },
+    {
+      "zh": "畅销",
+      "pinyin": "chàngxiāo",
+      "meaning": "Selling well; a best-seller — used to establish product credibility",
+      "register": "sales/marketing; neutral register"
+    },
+    {
+      "zh": "供不应求",
+      "pinyin": "gōng bú yìng qiú",
+      "meaning": "Demand exceeds supply — a stronger version of 'selling well' implying stock shortages",
+      "register": "business/consumer; idiomatic"
+    },
+    {
+      "zh": "深受消费者欢迎/喜爱",
+      "pinyin": "shēn shòu xiāofèizhě huānyíng / xǐ'ài",
+      "meaning": "Deeply popular with consumers / greatly loved by consumers — a marketing boast formula",
+      "register": "formal marketing language; appears in product introductions and letters"
+    },
+    {
+      "zh": "敬祝商祺",
+      "pinyin": "jìng zhù shāng qí",
+      "meaning": "Respectfully wishing you business success — the standard closing of a Chinese business letter (like 'Best regards' but business-specific)",
+      "register": "formal written; mandatory in business correspondence"
+    },
+    {
+      "zh": "随信附上",
+      "pinyin": "suí xìn fùshàng",
+      "meaning": "Enclosed herewith; attached to this letter — used before listing enclosures in business letters",
+      "register": "formal written business correspondence"
+    },
+    {
+      "zh": "欢迎来函联系",
+      "pinyin": "huānyíng lái hán liánxì",
+      "meaning": "Please feel free to contact us by letter — a formal invitation to respond, common in product-promotion letters",
+      "register": "formal written business correspondence"
+    },
+    {
+      "zh": "我方 / 贵方 / 对方",
+      "pinyin": "wǒfāng / guìfāng / duìfāng",
+      "meaning": "Our side / your (esteemed) side / the other party — formal pronouns used in contracts, letters, and negotiations instead of 我们/你们",
+      "register": "formal business/legal — a register marker that signals professionalism"
+    },
+    {
+      "zh": "合资企业",
+      "pinyin": "hézī qǐyè",
+      "meaning": "Joint venture — a company formed by Chinese and foreign investors together (中外合资企业)",
+      "register": "business/legal standard"
+    },
+    {
+      "zh": "开发市场",
+      "pinyin": "kāifā shìchǎng",
+      "meaning": "To develop / open up a market — e.g. 开发北美市场 (develop the North American market)",
+      "register": "business/marketing standard"
+    },
+    {
+      "zh": "收获很大",
+      "pinyin": "shōuhuò hěn dà",
+      "meaning": "We gained a lot; very productive (visit/meeting) — a polite compliment after a factory tour or business meeting",
+      "register": "polite spoken register; relationship maintenance"
+    },
+    {
+      "zh": "各让一步",
+      "pinyin": "gè ràng yī bù",
+      "meaning": "Each side makes one concession; let's meet halfway — a split-the-difference proposal in negotiations",
+      "register": "negotiation standard; both spoken and written"
+    },
+    {
+      "zh": "这样吧",
+      "pinyin": "zhèyàng ba",
+      "meaning": "How about this / let me propose this — used to introduce a compromise or new proposal in negotiations",
+      "register": "spoken negotiation; conversational but common in formal discussions"
+    },
+    {
+      "zh": "占地面积",
+      "pinyin": "zhàndì miànjī",
+      "meaning": "Area occupied (by a factory or facility) — essential in company introductions",
+      "register": "standard business/real estate description"
+    },
+    {
+      "zh": "销售额",
+      "pinyin": "xiāoshòu'é",
+      "meaning": "Sales revenue / turnover figure",
+      "register": "business standard"
+    },
+    {
+      "zh": "营业额",
+      "pinyin": "yíngyè'é",
+      "meaning": "Turnover; total business revenue — similar to 销售额 but often used for service businesses or total corporate revenue",
+      "register": "business/financial standard"
+    }
+  ],
+  "essay_takeaways": [
+    "The Chinese business letter has a fixed skeleton that cannot be varied: (1) recipient title+name on first line, (2) 您好！as salutation, (3) body paragraphs, (4) 随信附上… if enclosures, (5) closing action invitation, (6) blank line then 敬祝商祺 (on its own line), (7) sender name and date. Using 商祺 is non-negotiable in any formal business letter — 祝工作顺利 is too casual.",
+    "When writing a price objection letter, use the four-move Chinese structure: (a) acknowledge receipt + thank promptly, (b) open refusal with 遗憾的是 (not an abrupt 'your price is wrong'), (c) build market argument with evidence (competitor prices, market trends), then (d) concede a partial strength with 虽然…有一定的优势 before pivoting to the weakness with 但是…没有竞争力. This softens the rejection and maintains face.",
+    "For company introductions, the canonical order is: 成立时间 → 企业性质 → 主要产品/业务 → 市场范围 → 员工人数 → 占地面积/技术设备 → 产能/销售额 → 子公司/办事处 → 联系方式. Missing or reordering these signals a non-native writer. Each element has a fixed verb: 成立于, 主要生产/从事, 销往, 拥有/现有, 设立.",
+    "In business reports and presentations, always frame data with temporal context before giving numbers: 第一季度是淡季，不过今年情况不错 primes the audience before the numbers. Then compare systematically using 和上一季度相比 and 同比 — never give a raw number without a benchmark comparison.",
+    "The 考虑到… concession formula is the most face-saving way to offer a discount or make an exception in Chinese: 考虑到我们双方以后的合作，我们可以优惠5%. It frames the concession as relationship investment, not weakness. Use it whenever granting anything that costs your side something.",
+    "To signal a firm final position in negotiations, Chinese uses 已经是最低价了 / 无法再让步了. The tone is regretful, not aggressive. Pair with 我们也很遗憾, 希望下次有机会合作 to exit gracefully without burning the relationship.",
+    "In internal meetings, disagree with 不主张 (I don't advocate) or 反对 (I oppose) rather than outright 不同意. Maintain a position with 我保留我的意见 (I maintain my view) — this signals you're not persuaded without blocking consensus. The chair closes unresolved topics with 下次会议再讨论, avoiding forced decisions.",
+    "Product descriptions follow a fixed Chinese pitch sequence: 上市时间/销售情况 → 技术特点 → 设计/功能特点 → 材料 → 价格/性价比 → 售后服务. Each section transitions with 除了…, 另外, 此外. The signature closer is 欢迎贵公司前来订货.",
+    "When comparing transport modes or payment methods in expository writing, use the parallel 优点是…缺点是… / 优势是…劣势是… framework for each item, then conclude with 应该根据…等情况选择合适的… This concluding formula can be adapted to any 'how to choose' conclusion in professional writing.",
+    "The formal pronoun system (我方, 贵方, 对方) is a register marker in written Chinese. Using 我们/你们 in a formal contract or letter sounds amateurish; switching to the fāng-compounds signals professional competence. Similarly, use 贵公司/贵厂 (not 你们公司) when addressing partners in speech and writing.",
+    "Sequence adverbs in product or process description: 首先/其次/再次/最后 for steps, 除了…之外/除此之外/另外/此外 for additive features. These maintain flow across bullet-like feature lists and mark the writing as structured rather than telegraphic.",
+    "For packaging and logistics discussions, the standard vocabulary pairs are: 内包装/外包装, 硬纸板箱/木板箱, 毛重/净重, 防水/防潮/防震. Knowing these as pairs helps you sound fluent in operations discussions. The buyer's standard instruction formula is: 请在…上标明…的字样，另外请标明…."
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "model_essays": [
+    {
+      "title": "中国私营行业的发展情况（会议发言）",
+      "genre": "formal conference speech with statistics",
+      "text": "主席、同事们、朋友们：\n我非常高兴有机会参加今天的会议。今天我想介绍一下中国私营行业的发展情况。我想先说明三个具体的概念。第一个概念是民营行业，它包括私营行业、乡镇企业、外资企业、股份公司和联合公司等；第二个概念是私营行业，它包括私营公司和个体户；第三个概念是私营企业，也就是私营公司，指的是超过8个员工、自然人为股东的企业。\n现在我再讲几个私营行业的统计数字。第一个数字是，私营企业现在共占有中国城市GDP的15%；民营行业占全中国GDP的1/3。第二个数字是，城市里的私营企业的销售收入从1991年开始到现在，每年的平均增长率超过50%。第三个数字是，私营企业提供的就业增长率最近5年达到21%，这个增长率是中国城市就业增长率2%的10倍。这些简单的统计数据说明，私营公司在中国未来的经济发展中占有重要地位。\n（资料来源：金戈投资公司总裁金永益（Dr. Kim Woodard）的演讲《如何吸引国际风险投资》）",
+      "summary": "Conference speech defining three key terms (民营行业, 私营行业, 私营企业), then presenting three clusters of statistics, and drawing a conclusion about private enterprise's importance in China's future economy.",
+      "why_study": "Exemplifies a tight academic/conference speech structure: term definition → statistics → explicit conclusion. The three-part enumeration pattern is a transferable template for any professional presentation or report in Chinese. Demonstrates how to integrate statistics credibly and how to attribute sources.",
+      "key_devices": [
+        "先说明三个具体的概念 (define terms before arguing)",
+        "第一个概念是…第二个…第三个… (tripartite term enumeration)",
+        "第一个数字是…第二个数字是… (structured statistics presentation)",
+        "这些简单的统计数据说明，… (data → conclusion formula)",
+        "对比数字：增长率是2%的10倍 (proportional comparison to dramatize scale)"
+      ]
+    },
+    {
+      "title": "神龙汽车有限公司介绍",
+      "genre": "company profile / business description",
+      "text": "神龙汽车有限公司是中国东风汽车公司和法国标致-雪铁龙汽车集团合资兴建的大型轿车生产企业。合资比例为东风公司31%，标致-雪铁龙公司26.875%，国家开发银行19.5%，中国东方资产管理公司19.5%，法国兴业银行2.5%，法国巴黎银行0.625%。\n1992年5月18日，神龙汽车有限公司在武汉市成立。公司主要部门有生产部、质量部、采购部、技术中心、商务部、财务部、人力资源部以及武汉、襄樊两个工厂，现有员工近5000人。\n从1996年至今，神龙汽车有限公司边建设边生产，边生产边经营，边经营边开发，产量和销量增长很快，1999年以后，月销量一直稳定在4000辆以上，特别是2003年年销量突破了10万辆。\n（资料来源：神龙汽车有限公司网站；263网汽车频道）",
+      "summary": "Company profile of Shenlong Automobile Co., Ltd. (Dongfeng–PSA joint venture): equity breakdown, founding date and city, departmental structure and headcount, and production/sales milestones from 1996 to 2003.",
+      "why_study": "Model of Chinese business company profile writing in a fixed sequence: equity structure → founding facts → org structure/headcount → operational trajectory with quantified milestones. The 边…边… triple chaining and 突破 milestone verb are directly reusable.",
+      "key_devices": [
+        "合资比例为… (equity ratio formula with percentage listing)",
+        "边建设边生产，边生产边经营，边经营边开发 (chained 边…边… for virtuous-cycle narrative)",
+        "从…至今，…一直稳定在…以上 (sustained achievement framing)",
+        "突破 (break through — milestone achievement verb)",
+        "现有员工近… (current headcount formula with 近 for approximation)"
+      ]
+    },
+    {
+      "title": "新欧广告公司组织结构描述",
+      "genre": "organizational description (business report / briefing style)",
+      "text": "新欧广告公司有三位董事，其中的两位董事不参加公司的日常经营活动。另外的一位董事欧阳力先生是公司的总经理。\n欧阳总经理负责公司的财务、客户关系和人力资源三个部门的政策制定。在欧阳总经理手下，有一个办公室主任负责行政工作，办公室主任手下有一位全职秘书和一位接待员负责办公室事务；财务部有一位经理和一位会计；客户关系经理和他手下的六位业务员负责联系客户；人力资源经理负责招聘、培训和员工福利等。\n董事们在每月一次的管理例会上常常要作一些重大决策。除了三位董事以外，办公室主任、人力资源经理、财务和客户关系经理也必须参加每月一次的管理例会，并且六位业务员中的一位也常常需要参加。经理们可以提出建议和意见，但重大决策常常由几位董事一起作出。",
+      "summary": "Description of an advertising company's governance and org chart: board composition, management hierarchy, departmental responsibilities, and monthly meeting governance structure.",
+      "why_study": "Demonstrates how to describe org chart hierarchies in formal written Chinese. Contains the full toolkit for organizational writing: 其中, 在…手下, 分别负责, 由…作出, 除了…以外. Directly applicable to business reports, company introductions, and meeting minutes.",
+      "key_devices": [
+        "其中 (among which — partitive pronoun to pick out a subset)",
+        "在…手下有… / …手下有… (top-down reporting structure formula)",
+        "负责 + noun/VP (be responsible for — assigns portfolio concisely)",
+        "由…作出 (formal passive: decisions made by)",
+        "除了…以外，…也必须… (inclusive addition: in addition to X, Y must also…)",
+        "重大决策 (major decision — formal register collocation)"
+      ]
+    },
+    {
+      "title": "北京国际汽车博览会广播通知",
+      "genre": "radio broadcast announcement",
+      "text": "北京经济台的听众朋友们，你们好！明天，2002年6月10号，第六届北京国际汽车博览会就要在北京国际展览中心举行了。中国、德国、法国和美国等一百多家著名整车制造商带来了一千多辆新车参加这次博览会，包括国内外零部件企业和相关企业，一共有五百多家公司参加了此次展览。\n博览会的参观时间是2002年6月10号到20号，上午9点到下午5点。希望参观的朋友们可以在国际展览中心和北京的各个购物中心买到参观票。听众朋友们也可以登录北京国际汽车博览会的网站http://www.bautoexpo.com.cn订票。北京国际汽车博览会欢迎您！",
+      "summary": "Radio announcement for the 6th Beijing International Auto Show: participants (100+ manufacturers, 500+ companies total), dates, visiting hours, and ticket purchasing channels, closing with a welcome.",
+      "why_study": "Model of Chinese official/broadcast announcement register. Shows how to compress event information (who, what, when, where, how to participate) into a tight formal announcement. Note 此次 (formal) vs 这次 (neutral), and 就要…了 for imminent future.",
+      "key_devices": [
+        "听众朋友们，你们好！ (broadcast address formula)",
+        "就要…举行了 (imminent event: is about to be held)",
+        "一共有…家公司 (total participant count formula)",
+        "此次 (formal demonstrative — elevated register vs 这次)",
+        "届 (measure word for numbered-edition events)",
+        "欢迎您！(formal closing welcome)"
+      ]
+    },
+    {
+      "title": "兰格公司外贸出口经济新闻播报",
+      "genre": "economic news broadcast",
+      "text": "听众朋友们，大家好！今天是2004年1月29日，现在是经济新闻时间。根据海关统计数据，有关机构最近公布了2003年中国出口额最多的200家企业的名单。兰格公司以1.9亿美元的出口额排名第189位。另外，其他的一些统计数据也表明，在家电行业，兰格公司的出口额排名第2位。\n2003年兰格公司外贸出口继续保持稳定增长，微波炉年出口量首次超过国内市场年销售量。另外，该公司的空调和小家电产品的出口额也有增长。",
+      "summary": "Economic radio news reporting 2003 export statistics for Lange (兰格), including national ranking by export value, sector ranking in home appliances, year-on-year growth, and a milestone: annual microwave exports exceeding domestic sales for the first time.",
+      "why_study": "Compact model of Chinese economic/business news language. Shows key patterns for reporting statistics and rankings (以…排名第…位), anaphoric reference (该公司), and milestone language (首次超过). These phrases appear constantly in Chinese business journalism, earnings reports, and press releases.",
+      "key_devices": [
+        "根据…统计数据 (according to statistical data — source citation formula)",
+        "以…的出口额排名第…位 (ranked Nth by/with [metric])",
+        "表明 (indicate/demonstrate — formal evidence verb)",
+        "继续保持稳定增长 (continue to sustain steady growth — sustained performance formula)",
+        "首次超过 (surpassed for the first time — milestone marker)",
+        "该公司 (the company in question — formal anaphora in reports)"
+      ]
+    },
+    {
+      "title": "商务询价留言与供应商回复（传真 / 电子邮件）",
+      "genre": "written business inquiry and reply (fax / email)",
+      "text": "留言一：（给中国茶叶进出口公司）\n这是东京国际贸易有限公司。我们想购买中国福牌红茶。请用传真或电子邮件的方式报给我们最低东京港船上交货价，并说明红茶的包装，可提供数量和最早交货期。\n公司电话：0081-3-67578921\n传真号码：0081-3-67578901\nE-mail: tanaka@ittokyo.jp\n非常感谢。\n\n留言二：（给巴黎王记服装有限公司）\n这是杭州丝绸制品有限公司。贵公司的询价传真前天已经收到。我公司今天上午已经把贵公司需要的唐装目录、报价单、包装标准、交货期等有关材料通过电子邮件发过去了，贵公司需要的唐装样品也已通过DHL寄出。希望在七天的报价有效期内得到贵公司的答复。谢谢。",
+      "summary": "Two contrasting trade communications: an inquiry (询价) requesting FOB price with packaging and delivery details; and a supplier reply confirming dispatch of catalog, quotation sheet, and samples, with a 7-day validity period for the offer.",
+      "why_study": "Demonstrates the standard format for Chinese international trade correspondence. The inquiry model shows the required elements (price term, packaging, quantity, delivery date). The reply model shows the confirmation-and-close structure. Both are immediately reusable templates.",
+      "key_devices": [
+        "这是…公司 (opener: self-identification without 您好 filler)",
+        "请用…的方式报给我们… (please use [channel] to quote us…)",
+        "并说明…，可提供数量和最早交货期 (and specify packaging, available quantity, and earliest delivery date — the required inquiry checklist)",
+        "贵公司 (your esteemed company — polite second-person in correspondence)",
+        "有关材料 (relevant materials — formal collective noun)",
+        "希望在…有效期内得到…的答复 (hope to receive reply within the validity period)"
+      ]
+    },
+    {
+      "title": "微波炉询价谈判对话",
+      "genre": "B2B negotiation dialogue (trade fair setting)",
+      "text": "胡志伟：您好！我是越南河内贸易进出口公司的胡志伟，这是我的名片。我对贵公司生产的微波炉特别感兴趣。\n朱广东：谢谢。这是我的名片，我叫朱广东，是销售经理。\n胡志伟：我看过贵公司的微波炉展品和商品目录。我很想知道WD900和WP910两种型号的微波炉的广西凭祥友谊关边境交货价。\n朱广东：您能不能告诉我贵公司订购的数量以便我们报价。\n胡志伟：好的，我会的。不过您现在能不能给我个参考价?\n朱广东：请您等一下。（几秒钟后）您看，这是我们最新的WD900和WP910工厂交货价。\n胡志伟：贵方报价的有效期是多长时间？\n朱广东：有效期是五天。请问您现在订货吗？\n胡志伟：那就要看贵方的价格了。如果价格很优惠，我可以马上订货。\n朱广东：您请这边坐。我们可以详细谈谈。",
+      "summary": "First-contact B2B negotiation at a trade fair: buyer expresses interest, requests border delivery price for specific models, seller asks for quantities before quoting, buyer requests a reference price, quote validity is discussed, and buyer gives a conditional commitment.",
+      "why_study": "Models polite but commercially direct negotiation Chinese: how to express interest (特别感兴趣), request a quote with a specific Incoterm, stall while buying time (请您等一下), ask for validity period, and give a conditional commitment that signals genuine interest while preserving leverage. Note 贵方 (your party — negotiation register) vs 贵公司 (general business correspondence).",
+      "key_devices": [
+        "以便 (so that — links buyer request to seller benefit)",
+        "贵方 vs 贵公司 (贵方 = negotiation/contract register; 贵公司 = general correspondence)",
+        "有效期是…天 (validity period formula)",
+        "那就要看贵方的价格了 (it depends on your price — conditional leverage formula)",
+        "如果价格很优惠，我可以马上订货 (conditional commitment to order)",
+        "请您等一下 (polite stall / buying time during negotiation)"
+      ]
+    },
+    {
+      "title": "工厂参观欢迎致辞",
+      "genre": "formal welcome address / factory tour opening remarks",
+      "text": "欢迎欢迎，欢迎开发区领导和外宾。请让我自我介绍一下，我是服装厂的厂长，我叫李大庆。请大家先跟我到会议室。（过了一会儿）我先给大家介绍一下我们厂的基本情况，然后带大家去参观我们的服装生产车间。大家请坐，请喝茶。现在请大家看个介绍我们工厂发展历程的电视短片。请关灯。（音乐声起，过了一会儿，声音淡出）请开灯。各位领导和外宾，现在我们去生产车间，如果有什么问题，我们可以边走边谈。",
+      "summary": "A factory director's opening welcome to visiting officials and foreign guests: self-introduction, agenda (briefing → film → factory floor tour), hospitality cues, and the invitation to ask questions during the walk.",
+      "why_study": "Model of Chinese formal welcoming remarks for a site visit or delegation reception. Shows the fixed agenda-signposting structure (我先…然后…), directional hosting cues, and the gracious closing invitation 边走边谈 (talk as we walk). Applicable to any formal hosted visit.",
+      "key_devices": [
+        "欢迎欢迎 (doubled welcome — heightened hospitality register)",
+        "请让我自我介绍一下 (formal self-introduction opener)",
+        "我先…，然后… (sequenced agenda announcement)",
+        "各位领导和外宾 (formal collective address for mixed official/foreign audience)",
+        "如果有什么问题，我们可以边走边谈 (open-invitation close: ask questions as we go)"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "边 A 边 B（，边 B 边 C）",
+      "explanation": "Two or more simultaneous ongoing actions. Can be chained in triplets to suggest integrated, virtuous-cycle development. More formal/literary than 一边…一边… in business prose; the chained version is a rhetorical device for describing organic corporate growth.",
+      "examples": [
+        "边建设边生产，边生产边经营，边经营边开发 (while building, simultaneously producing; while producing, operating; while operating, developing) [Unit 8 company profile]",
+        "如果有什么问题，我们可以边走边谈 (if you have questions, we can talk as we walk) [Unit 6 factory tour]"
+      ]
+    },
+    {
+      "pattern": "自从…（以后/后），…从 X 到 Y",
+      "explanation": "Marks a turning point: 'ever since [event], [quantity] changed from X to Y'. The standard Chinese structure for before/after business narratives with quantified results. Pairs naturally with numbers for credibility.",
+      "examples": [
+        "自从进口了这些生产设备后，我们生产车间的日产量从3500件增加到5000件 (Ever since we imported the new production equipment, daily output increased from 3,500 to 5,000 units) [Unit 6]"
+      ]
+    },
+    {
+      "pattern": "只好… (have no choice but to)",
+      "explanation": "Expresses reluctant necessity following an adverse situation. Slightly more literary than 不得不 and carries a resigned, matter-of-fact tone. Common in narrative recounting of business difficulties.",
+      "examples": [
+        "只好让工人回家了 (had no choice but to send the workers home) [Unit 7 taxi driver narrative]",
+        "我也只好回家了 (I too had no choice but to go home) [Unit 7]"
+      ]
+    },
+    {
+      "pattern": "以便… (so that / in order to facilitate)",
+      "explanation": "Formal conjunction of purpose linking a main clause to its enabling reason. Preferred over 这样 in written business Chinese; signals that the action benefits the other party.",
+      "examples": [
+        "您能不能告诉我贵公司订购的数量以便我们报价 (Could you tell us your order quantity so that we can provide a quote) [Unit 9 negotiation]"
+      ]
+    },
+    {
+      "pattern": "其中… (among which / of which)",
+      "explanation": "Partitive pronoun picking out a subset from a previously mentioned group. Extremely high-frequency in business descriptions, org charts, and statistical reporting. Avoids repeating the noun.",
+      "examples": [
+        "新欧广告公司有三位董事，其中的两位董事不参加公司的日常经营活动 (Xin'ou has three directors; of them, two do not participate in daily operations) [Unit 8]",
+        "六位业务员中的一位也常常需要参加 (one of the six salespeople also often needs to attend) [Unit 8]"
+      ]
+    },
+    {
+      "pattern": "在…手下（有）… / …手下有…",
+      "explanation": "Describes organizational reporting structure. 在 X 手下 = reporting to / under X; X 手下有 Y = X has Y reporting to them. The two forms can alternate in an org description to cascade hierarchy without repeating the same structure.",
+      "examples": [
+        "在欧阳总经理手下，有一个办公室主任负责行政工作 (Under GM Ouyang, there is an office director handling administration) [Unit 8]",
+        "我手下有四个副经理 (I have four deputy managers reporting to me) [Unit 8 radio interview]"
+      ]
+    },
+    {
+      "pattern": "由…作出 / 由…负责 (passive with agent: done/decided/handled by)",
+      "explanation": "由 introduces the agent in a formal passive construction, especially for decisions, responsibilities, and assignments. More formal than 被; used when the agent is a person or body making a decision, not suffering an action.",
+      "examples": [
+        "重大决策常常由几位董事一起作出 (Major decisions are usually made jointly by the directors) [Unit 8]"
+      ]
+    },
+    {
+      "pattern": "分别负责 A、B、C 和 D (respectively responsible for A, B, C, D)",
+      "explanation": "分别 + same verb distributes a role across multiple people/departments without repeating the verb. The standard formula for org chart bullet-list descriptions in Chinese.",
+      "examples": [
+        "这四个副经理分别负责招聘、培训与发展、劳资关系和福利待遇 (The four deputy managers are respectively responsible for recruitment, training & development, labor relations, and benefits) [Unit 8]"
+      ]
+    },
+    {
+      "pattern": "这些…说明，… (These [data/examples] demonstrate that…)",
+      "explanation": "Concluding formula for data-driven argument. Summarize the data, then use 说明 + clause to state the conclusion. Core pattern for analytical writing and speeches; prevents the reader from having to infer the conclusion.",
+      "examples": [
+        "这些简单的统计数据说明，私营公司在中国未来的经济发展中占有重要地位 (These simple statistics demonstrate that private companies occupy an important position in China's future economic development) [Unit 7 speech]"
+      ]
+    },
+    {
+      "pattern": "以[metric]排名第[N]位 (ranked Nth by/with [metric])",
+      "explanation": "Standard formula for citing rankings tied to a quantified metric. Always uses 以 to introduce the metric and 排名第N位 for the rank. More precise than simply saying 第N名.",
+      "examples": [
+        "兰格公司以1.9亿美元的出口额排名第189位 (Lange ranked 189th with an export value of USD 190 million) [Unit 9 news broadcast]"
+      ]
+    },
+    {
+      "pattern": "继续保持…增长 (continue to maintain/sustain … growth)",
+      "explanation": "Standard business news and earnings report phrase for sustained performance. 继续 + 保持 + [modifier] + 增长 is a fixed collocation. Modifiers: 稳定 (steady), 快速 (rapid), 显著 (notable).",
+      "examples": [
+        "2003年兰格公司外贸出口继续保持稳定增长 (In 2003, Lange's foreign trade exports continued to maintain steady growth) [Unit 9 news]"
+      ]
+    },
+    {
+      "pattern": "虽然…，可是/但是… (although…, however…)",
+      "explanation": "Standard adversative concession. In spoken/business narrative 可是 is common; 然而 or 但 are more formal in written reports. Frequently used to acknowledge one positive before raising a complication.",
+      "examples": [
+        "虽然钱拿得比服装厂多，可是常常要跑外地 (Although the pay was better than at the garment factory, I frequently had to travel out of town) [Unit 7]"
+      ]
+    },
+    {
+      "pattern": "除了…以外，…也必须/也… (in addition to X, Y also must…)",
+      "explanation": "Inclusive addition: expands a list to include more participants or items. Unlike 除了…之外不… (exclusive), this construction adds to a group rather than subtracting from it. Key for listing meeting attendees or required actions.",
+      "examples": [
+        "除了三位董事以外，办公室主任、人力资源经理、财务和客户关系经理也必须参加每月一次的管理例会 (In addition to the three directors, the office director, HR manager, finance and client relations managers must also attend the monthly meeting) [Unit 8]"
+      ]
+    }
+  ],
+  "expressions": [
+    {"zh": "询价", "pinyin": "xúnjià", "meaning": "price inquiry; to inquire about price (first step in trade negotiation)", "register": "formal/business"},
+    {"zh": "还盘", "pinyin": "huánpán", "meaning": "counter-offer (buyer's response to seller's initial quote)", "register": "formal/trade"},
+    {"zh": "反还盘", "pinyin": "fǎnhuánpán", "meaning": "counter-counter-offer (seller's response to buyer's counter-offer)", "register": "formal/trade"},
+    {"zh": "报价单", "pinyin": "bàojiàdān", "meaning": "quotation sheet (formal written price quote document)", "register": "formal/business"},
+    {"zh": "有效期", "pinyin": "yǒuxiàoqī", "meaning": "validity period (of a quote, contract, passport, etc.)", "register": "formal/business"},
+    {"zh": "交货期", "pinyin": "jiāohuòqī", "meaning": "delivery period / delivery date", "register": "formal/trade"},
+    {"zh": "工厂交货价", "pinyin": "gōngchǎng jiāohuòjià", "meaning": "Ex Works (EXW) — buyer collects from factory gate", "register": "formal/trade Incoterm"},
+    {"zh": "船上交货价", "pinyin": "chuánshàng jiāohuòjià", "meaning": "Free On Board (FOB) — seller delivers to named port", "register": "formal/trade Incoterm"},
+    {"zh": "即期信用证", "pinyin": "jíqī xìnyòngzhèng", "meaning": "Sight Letter of Credit — payment on presentation of documents", "register": "formal/banking/trade"},
+    {"zh": "合资比例", "pinyin": "hézī bǐlì", "meaning": "joint venture equity ratio / shareholding breakdown", "register": "formal/legal/business"},
+    {"zh": "市场占有率", "pinyin": "shìchǎng zhànyǒulǜ", "meaning": "market share", "register": "formal/business"},
+    {"zh": "增长率", "pinyin": "zēngzhǎnglǜ", "meaning": "growth rate", "register": "formal/business"},
+    {"zh": "营业额", "pinyin": "yíngyè'é", "meaning": "business turnover / revenue volume", "register": "formal/business"},
+    {"zh": "风险投资", "pinyin": "fēngxiǎn tóuzī", "meaning": "venture capital", "register": "formal/finance"},
+    {"zh": "倒闭", "pinyin": "dǎobì", "meaning": "go bankrupt; shut down (of a business) — direct, not euphemistic", "register": "neutral/business"},
+    {"zh": "跨国公司", "pinyin": "kuàguó gōngsī", "meaning": "transnational / multinational corporation", "register": "formal/business"},
+    {"zh": "国有企业", "pinyin": "guóyǒu qǐyè", "meaning": "state-owned enterprise (SOE)", "register": "formal"},
+    {"zh": "个体户", "pinyin": "gètìhù", "meaning": "self-employed individual / sole proprietor (Chinese legal category)", "register": "neutral/everyday"},
+    {"zh": "乡镇企业", "pinyin": "xiāngzhèn qǐyè", "meaning": "township and village enterprise (TVE) — China-specific economic category", "register": "formal/China-specific"},
+    {"zh": "控股子公司", "pinyin": "kònggǔ zǐgōngsī", "meaning": "holding subsidiary", "register": "formal/legal/business"},
+    {"zh": "重大决策", "pinyin": "zhòngdà juécè", "meaning": "major / significant decision (fixed collocation in governance contexts)", "register": "formal/business"},
+    {"zh": "劳资关系", "pinyin": "láozī guānxì", "meaning": "labor-management relations", "register": "formal/HR"},
+    {"zh": "体制改革", "pinyin": "tǐzhì gǎigé", "meaning": "institutional / systemic reform", "register": "formal/political-economic"},
+    {"zh": "在职培训", "pinyin": "zàizhí péixùn", "meaning": "on-the-job training", "register": "formal/HR"},
+    {"zh": "贵方", "pinyin": "guìfāng", "meaning": "your party / your side — used in negotiations and formal contracts; more protocol-specific than 贵公司", "register": "formal/negotiation"},
+    {"zh": "贵公司", "pinyin": "guì gōngsī", "meaning": "your esteemed company — polite second-person reference in general business correspondence", "register": "formal/business correspondence"},
+    {"zh": "一分钱一分货", "pinyin": "yīfēnqián yīfēnhuò", "meaning": "you get what you pay for; the higher the price, the better the quality (proverb)", "register": "colloquial/proverb"},
+    {"zh": "一如既往", "pinyin": "yīrú-jìwǎng", "meaning": "as always; as before — formal, often used in business letters to emphasize consistency of service or cooperation", "register": "formal/written"},
+    {"zh": "与众不同", "pinyin": "yǔzhòng-bùtóng", "meaning": "out of the ordinary; distinctive; set apart from the rest", "register": "formal/neutral"},
+    {"zh": "迄今为止", "pinyin": "qìjīn wéizhǐ", "meaning": "up to now / to date — formal, stronger and more written than 到现在", "register": "formal/written"},
+    {"zh": "该公司", "pinyin": "gāi gōngsī", "meaning": "the company in question; said company — formal anaphoric reference in reports and journalism (not 这家公司 or 它)", "register": "formal/written/journalism"},
+    {"zh": "首次", "pinyin": "shǒucì", "meaning": "for the first time — formal milestone marker (more formal than 第一次 in reports)", "register": "formal/written"},
+    {"zh": "继续保持稳定增长", "pinyin": "jìxù bǎochí wěndìng zēngzhǎng", "meaning": "continue to maintain steady growth (fixed collocation for sustained business performance)", "register": "formal/business/journalism"},
+    {"zh": "表明", "pinyin": "biǎomíng", "meaning": "indicate, show, demonstrate — formal evidence verb; used to introduce data-backed conclusions", "register": "formal/written"},
+    {"zh": "在…手下", "pinyin": "zài…shǒuxia", "meaning": "under the authority/supervision of (someone); reporting to", "register": "formal/business"},
+    {"zh": "分别负责", "pinyin": "fēnbié fùzé", "meaning": "respectively responsible for (each person/department handles a separate portfolio)", "register": "formal/business"},
+    {"zh": "日产量", "pinyin": "rìchǎnliàng", "meaning": "daily output / daily production volume", "register": "formal/manufacturing"},
+    {"zh": "洽谈", "pinyin": "qiàtán", "meaning": "business talks / commercial negotiation (noun or verb; more formal than 谈判 for early-stage discussions)", "register": "formal/business"},
+    {"zh": "过奖", "pinyin": "guòjiǎng", "meaning": "you flatter me / you are too kind (modest response to a compliment about one's work)", "register": "formal/polite"},
+    {"zh": "深受…喜爱", "pinyin": "shēnshòu…xǐ'ài", "meaning": "be deeply/warmly liked / well received by… (positive PR collocation)", "register": "formal/promotional"},
+    {"zh": "务必", "pinyin": "wùbì", "meaning": "must; be sure to (strong imperative, more emphatic than 一定 in written instructions)", "register": "formal/written"},
+    {"zh": "以便", "pinyin": "yǐbiàn", "meaning": "so that; in order to facilitate (formal purpose conjunction in written business Chinese)", "register": "formal/written"}
+  ],
+  "essay_takeaways": [
+    "Define your terms before arguing. Open with 我想先说明三个具体的概念 and enumerate each with 第一个概念是…，它包括… This immediately signals rigor and makes any subsequent data easier to interpret. Applicable to presentations, reports, and analytical memos.",
+    "Use the 第一个数字是…第二个数字是… scaffolding to present multiple data points with clear logical separation. Always close with 这些数据说明，… to state the conclusion explicitly — never leave the reader to infer it.",
+    "In company profiles and business descriptions, follow the fixed Chinese sequence: equity/ownership structure → founding date and location → departmental structure → headcount → operational milestones with numbers. Deviating from this order reads as amateurish.",
+    "The chained 边…边… in triplets (边建设边生产，边生产边经营，边经营边开发) creates a rhetorical rhythm implying simultaneously integrated, self-reinforcing development. Use it for describing corporate growth phases; it sounds more dynamic than listing phases sequentially.",
+    "Use 自从…后，从X到Y to frame before/after narratives with quantified results. This structure is the standard in Chinese business case writing for attributing improvement to a specific decision or investment.",
+    "In written trade inquiries, always specify all four elements: price term (Incoterm: 工厂交货价, 船上交货价, etc.), packaging (包装), available quantity (可提供数量), and earliest delivery date (最早交货期). Missing any of these signals inexperience to Chinese trade counterparts.",
+    "贵方 (your party) is the correct formal term in negotiations and contracts; 贵公司 is for general business correspondence. Deploying 贵方 in a negotiation context signals professional command of formal trade register.",
+    "Formal Chinese broadcasts and press releases follow a strict formula: audience address (听众朋友们，大家好) → date + program name → 根据 + source → findings with rankings → concluding synthesis. Master this template to write press releases and economic briefings.",
+    "The standard ranking formula is 以[metric]排名第[N]位, not simply 第N名. The 以…排名 construction specifies the basis for ranking, which is more precise and more common in formal economic reporting.",
+    "该公司 is the correct anaphoric reference for 'the company' in formal business writing (not 这家公司 or 它). Switching from the company's full name to 该公司 in the second sentence immediately elevates the register of any business report paragraph.",
+    "To describe org chart hierarchy, alternate 在X手下有Y and Y手下有Z without repeating the same sentence pattern — it creates a clean top-down cascade that is readable and not repetitive.",
+    "The conditional commitment formula 那就要看贵方的价格了。如果价格很优惠，我可以马上订货 lets a buyer signal genuine interest while preserving leverage. It is more face-preserving and commercially savvy than a flat refusal or an unconditional yes.",
+    "Use 首次超过 (surpassed for the first time) to mark milestones; it is more emphatic and formal than 第一次超过. Paired with 继续保持稳定增长 for prior trend data, it creates a narrative arc: sustained growth → breakthrough milestone.",
+    "The 除了…以外，…也必须… construction is the correct way to expand a list inclusively (everyone on the list, plus these additional people). Distinguish it from 除了…以外，其他都… which is exclusive (everyone except those listed)."
+  ]
+}

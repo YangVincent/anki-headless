@@ -1,0 +1,213 @@
+{
+  "model_essays": [
+    {
+      "title": "第一课课文：开学（张天明到宿舍）",
+      "genre": "conversational dialogue / campus narrative",
+      "text": "张天明是大学一年级的新生。快开学了，他家离大学很远，得坐飞机去学校。他坐飞机坐了两个多小时，下飞机以后，马上叫了一辆出租汽车，很快就到了学校宿舍。\n\n人真多！\n你是新生吧？\n是，我是新生。你呢？\n我是研究生。在这儿帮新生搬东西。请问，你叫什么名字？\n我叫张天明。\n张天明？是中文名字吗？\n对，我爸爸妈妈是从中国来的。可是我是在美国出生，在美国长大的。请问你的名字是……\n我正在学中文，我的中文名字是柯林。你的名字是哪三个字？\n张是弓长张，就是一张纸的张，天是天气的天，明是明天的明。\n你是怎么来学校的？\n我先坐飞机，从机场到学校坐出租汽车。\n柯林，你也住在这儿吗？\n不，这是新生宿舍，我住在校外。\n是吗？你为什么住校外？你觉得住在校内好，还是住在校外好？\n有的人喜欢住在学校宿舍，觉得又方便又安全，有的人喜欢住在校外，因为校外的房子比较便宜。我住在校外，除了想省点儿钱以外，还因为住在校外自由。再说，住在校内也不见得很方便。\n真的吗？那我以后也搬到校外去。\n你刚来，在学校住对你有好处，可以适应一下学校的生活。要是你以后想搬家，我可以帮你找房子。\n好吧，我以后要是搬家，一定请你帮忙。\n天明，前边没人了，我帮你把行李搬进去吧。\n好，谢谢。哎，我的电脑呢？……糟糕，电脑可能拉在出租车上了！",
+      "summary": "Zhang Tianming, a Chinese-American freshman, arrives at his college dormitory by plane and taxi. He meets Ke Lin, a graduate student helping newcomers move in. They discuss how to write and explain Zhang's Chinese name using mnemonic decomposition, how Zhang traveled to campus, and the trade-offs of living on-campus vs. off-campus. Ke Lin argues for off-campus living (cheaper, more freedom) while also counseling the newcomer to stay on campus first to adjust. The dialogue ends with Zhang realizing he may have left his laptop in the taxi.",
+      "why_study": "This dialogue models the natural rhythm of educated spoken Mandarin: sequential question-answer turns, character-name disambiguation by decomposition, balanced-view presentation (有的人…有的人…), reason-stacking with 除了…以外还…, and polite counter-argument with 不见得. Though the register is informal, the structural patterns transfer directly into professional discussion and written argumentation.",
+      "key_devices": [
+        "Character disambiguation via decomposition and association: 张是弓长张，就是一张纸的张 — standard native-speaker technique to clarify homophones",
+        "Balanced-view framing: 有的人…，有的人… — presents two sides before expressing personal stance",
+        "Reason-stacking with 除了…以外，还… — layers a primary and secondary reason without repetition",
+        "再说 as discourse connector — adds a further point conversationally, more native-sounding than 而且",
+        "不见得 for soft pushback — hedges without confrontation (not necessarily / it's not certain that)",
+        "Conditional offer template: 要是你以后想…，我可以… — natural spoken form of a polite offer",
+        "Consecutive action sequencing: V了 + V₂ — 下飞机以后，马上叫了一辆出租汽车 tightens narrative",
+        "糟糕 as spontaneous alarm exclamation — high-frequency colloquial interjection"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "了 (IV) — occurrence marking with quantified / definite object",
+      "explanation": "The dynamic particle 了 signals that an action has occurred. It appears: (a) after the verb before a quantified object; (b) between verb and object when a second sentence-final 了 follows; (c) between verb and object when a further clause follows; (d) between verb and a definite/known object. Adding 了 does NOT automatically make the verb past tense — it can mark future actions (e.g., 吃了早饭去机场). When no time phrase is given, 了 implies the immediate past.",
+      "examples": [
+        "昨天晚上我看了一个电影。 (quantified object — last night I saw a movie)",
+        "我给小李打了电话了。 (double 了 — I called Little Li)",
+        "张天明买了机票就回家了。 (followed by clause — after buying the ticket he went home)",
+        "昨天我在学校里看见了小王。 (definite object — I saw Little Wang at school yesterday)",
+        "明天我吃了早饭去机场。 (future action — tomorrow after breakfast I'll go to the airport)"
+      ]
+    },
+    {
+      "pattern": "了 (IV) — consecutive actions: V₁了 + V₂",
+      "explanation": "When the first verb phrase in a sentence carries 了, it signals that V₂ begins only once V₁ is completed. The two verbs are in strict temporal sequence. This pattern is compact and avoids explicit time words.",
+      "examples": [
+        "我下了课再去找你。 (After class I'll come look for you.)",
+        "昨天我搬进了宿舍就去餐厅吃饭了。 (As soon as I finished moving in, I went to eat.)",
+        "他下了课回家就睡觉了。 (As soon as class ended he went home and slept.)"
+      ]
+    },
+    {
+      "pattern": "是…的 construction (I) — focusing on circumstances of a known action",
+      "explanation": "When both speakers know an action occurred, 是…的 highlights HOW, WHEN, WHERE, WHY, or WHO performed it — not whether it happened. 是 is optional in positive sentences but obligatory in negatives. 的 can appear at sentence end or before the object. Do NOT use this construction to assert that an action occurred; use 了 for that.",
+      "examples": [
+        "（是）什么时候来的？ — （是）昨天晚上来的。 (When did he come? — Yesterday evening.)",
+        "张天明（是）在美国出生的。 (Zhang Tianming was born in the U.S. [focus: location])",
+        "我不是在中国学的中文，是在美国学的。 (I didn't study Chinese in China — 是 cannot be dropped in negatives)",
+        "你是在哪儿上的大学？ — 我是在纽约上的大学。 (Where did you go to college? — In New York.)"
+      ]
+    },
+    {
+      "pattern": "除了…以外，还/也… vs. 除了…以外，都…",
+      "explanation": "These two structures look similar but mean opposite things. 除了X以外，还/也Y = 'In addition to X, also Y' (both X and Y are included). 除了X以外，都Y = 'Except for X, everything/everyone else does Y' (X is excluded). The crucial marker is 都 (all/everything) vs. 还/也 (also). In speech 以外 can often be dropped.",
+      "examples": [
+        "他除了学中文以外，还学日文。 (In addition to Chinese, he also studies Japanese. — both included)",
+        "除了小柯以外，我们班的同学都去过中国。 (Except for Little Ke, every classmate has been to China. — Ke excluded)",
+        "我住在校外，除了想省点儿钱以外，还因为住在校外自由。 (I live off campus not only to save money but also for the freedom. — both reasons included)"
+      ]
+    },
+    {
+      "pattern": "有的…，有的… — presenting parallel contrasting cases",
+      "explanation": "有的人/有的 + clause A，有的人/有的 + clause B presents two distinct groups or situations without assigning judgment. It is a compact, neutral way to frame a two-sided issue. In formal writing it appears as 有些人…；另一些人…",
+      "examples": [
+        "有的人喜欢住在学校宿舍，觉得又方便又安全，有的人喜欢住在校外，因为校外的房子比较便宜。",
+        "有的同学选理科，有的同学选文科。 (Some students choose science, others choose humanities.)"
+      ]
+    },
+    {
+      "pattern": "再说 — discourse connector adding a further reason or point",
+      "explanation": "再说 (lit. 'and furthermore') introduces an additional point after the main point(s) have been made. It is more colloquial than 另外 or 此外 and signals a casual afterthought or supplementary argument. Common in spoken and informal written Chinese.",
+      "examples": [
+        "我住在校外，除了想省点儿钱以外，还因为住在校外自由。再说，住在校内也不见得很方便。",
+        "今天我不想出去。再说，天气也不好。 (I don't want to go out today. Besides, the weather is bad.)"
+      ]
+    },
+    {
+      "pattern": "不见得 — soft negation / polite counter-assertion",
+      "explanation": "不见得 (not necessarily; it's not certain that) hedges a counter-argument, softening it compared to 不一定 or 不对. It implies 'I'm not so sure about that' rather than a flat denial, which is important for maintaining conversational face.",
+      "examples": [
+        "住在校内也不见得很方便。 (Living on campus isn't necessarily all that convenient.)",
+        "贵的东西不见得好。 (Expensive things aren't necessarily good.)",
+        "他说得那么好，不见得是真的。 (Just because he said it so well doesn't mean it's true.)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "新生",
+      "pinyin": "xīnshēng",
+      "meaning": "freshman / new student; note Taiwan usage 新鲜人 (xīnxiānrén)",
+      "register": "neutral / academic"
+    },
+    {
+      "zh": "研究生",
+      "pinyin": "yánjiūshēng",
+      "meaning": "graduate student (master's or doctoral level)",
+      "register": "neutral / academic"
+    },
+    {
+      "zh": "不见得",
+      "pinyin": "bújiànde",
+      "meaning": "not necessarily; it's not certain that — softens a counter-argument",
+      "register": "colloquial; excellent for tactful disagreement in spoken and informal written Chinese"
+    },
+    {
+      "zh": "好处 / 坏处",
+      "pinyin": "hǎochu / huàichu",
+      "meaning": "advantage, benefit / disadvantage, drawback — standard pair for weighing pros and cons",
+      "register": "neutral"
+    },
+    {
+      "zh": "适应",
+      "pinyin": "shìyìng",
+      "meaning": "to adapt to, to get used to, to adjust to (e.g., 适应新环境 adapt to a new environment)",
+      "register": "neutral; slightly formal in written use"
+    },
+    {
+      "zh": "再说",
+      "pinyin": "zàishuō",
+      "meaning": "besides, moreover, furthermore — spoken discourse connector for adding a secondary point",
+      "register": "colloquial / informal written"
+    },
+    {
+      "zh": "糟糕",
+      "pinyin": "zāogāo",
+      "meaning": "oh no! / that's terrible! — exclamation of sudden alarm or dismay",
+      "register": "colloquial"
+    },
+    {
+      "zh": "拉 (là)",
+      "pinyin": "là",
+      "meaning": "to inadvertently leave something behind (e.g., 把手机拉在车上了); distinct from 拉 lā (to pull)",
+      "register": "colloquial / informal; common in everyday speech"
+    },
+    {
+      "zh": "省钱 / 省时间 / 省力",
+      "pinyin": "shěng qián / shěng shíjiān / shěng lì",
+      "meaning": "to save money / time / effort; 省 is a productive verb meaning 'to economize on, to spare'",
+      "register": "neutral"
+    },
+    {
+      "zh": "自由",
+      "pinyin": "zìyóu",
+      "meaning": "freedom; free, unconstrained — functions as noun (享受自由) and predicate adjective (住得很自由)",
+      "register": "neutral"
+    },
+    {
+      "zh": "有的人…，有的人…",
+      "pinyin": "yǒu de rén…, yǒu de rén…",
+      "meaning": "Some people…, other people… — standard balanced-view frame in discussion and argument",
+      "register": "neutral / spoken and written"
+    },
+    {
+      "zh": "要是…，就/一定…",
+      "pinyin": "yàoshi…, jiù/yīdìng…",
+      "meaning": "If/Should …, (then) … — colloquial conditional; warmer/softer than 如果; common in spoken offers",
+      "register": "colloquial; use 如果/假如 in formal written contexts"
+    },
+    {
+      "zh": "对…有好处",
+      "pinyin": "duì… yǒu hǎochu",
+      "meaning": "to be beneficial for …; to do good for … (e.g., 在学校住对你有好处)",
+      "register": "neutral"
+    },
+    {
+      "zh": "帮忙",
+      "pinyin": "bāng máng",
+      "meaning": "to help; separable: 帮个忙 (do me a favor), 请你帮忙 (please help)",
+      "register": "neutral / colloquial"
+    },
+    {
+      "zh": "刚来 / 刚到",
+      "pinyin": "gāng lái / gāng dào",
+      "meaning": "just arrived; used to contextualize why someone needs time, patience, or orientation",
+      "register": "neutral / colloquial"
+    },
+    {
+      "zh": "弓长张 / [分解式记忆法]",
+      "pinyin": "gōng cháng Zhāng",
+      "meaning": "Mnemonic character decomposition: '张 is the 张 with bow (弓) and long (长).' Standard native-speaker method for disambiguating homophones orally.",
+      "register": "conversational / pragmatic metalanguage; essential for name introductions"
+    },
+    {
+      "zh": "搬家",
+      "pinyin": "bān jiā",
+      "meaning": "to move (one's place of residence); separable verb: 搬了家, 帮你搬家",
+      "register": "neutral"
+    },
+    {
+      "zh": "除了…以外，还…",
+      "pinyin": "chúle… yǐwài, hái…",
+      "meaning": "In addition to X, also Y (both X and Y apply); reason-stacking or set-expansion",
+      "register": "neutral; used in both spoken and formal written Chinese"
+    },
+    {
+      "zh": "除了…以外，都…",
+      "pinyin": "chúle… yǐwài, dōu…",
+      "meaning": "Except for X, everything/everyone else does Y (X is excluded from the universal)",
+      "register": "neutral; used in both spoken and formal written Chinese"
+    }
+  ],
+  "essay_takeaways": [
+    "Character disambiguation by decomposition: When introducing your name or clarifying a character, native speakers break it into recognizable components and link each to a familiar word (张是弓长张，就是一张纸的张). Build a repertoire of these decompositions for characters in your name and common surnames — this is expected in every Chinese introduction.",
+    "Balanced-view frame (有的人…，有的人…): Before stating your own position, briefly present two sides using 有的人…，有的人… This signals intellectual fairness and is ubiquitous in Chinese essays, speeches, and business presentations. It is structurally equivalent to 'Some argue X; others prefer Y; I believe…'.",
+    "Reason-stacking with 除了…以外，还…: Layer reasons rather than listing them flatly. 我住在校外，除了想省点儿钱以外，还因为住在校外自由 is more sophisticated than listing two reasons with 因为. This pattern also works in business writing: 除了成本方面的考虑以外，我们还需要考虑……",
+    "再说 as a spoken addendum: Use 再说 to append a supplementary reason after your main argument — it signals 'and while I'm at it.' In formal writing substitute 此外 or 另外; in emails and spoken pitches 再说 is natural and human.",
+    "不见得 for polite counter-argument: Substituting 不见得 for 不一定 or 不对 softens your pushback and maintains face. It says 'I question your premise' without 'you're wrong.' Especially valuable in professional and academic settings where direct negation is socially costly.",
+    "Consecutive action sequencing with 了: The V₁了 + V₂ construction (e.g., 下了课去找你, 吃了饭再说) creates tight narrative without needing extra time words. In business reports and summaries this pattern economizes on words while keeping sequence clear.",
+    "是…的 for situational focus on known events: In professional contexts — status reports, post-mortems, meeting minutes — use 是…的 to highlight HOW or WHERE a known outcome was achieved (e.g., 这个项目是在上海完成的). Never use it to claim an action occurred; use 了 for that. Confusing the two is a common error in intermediate learners.",
+    "Conditional offer template: 要是你…，我可以/一定… is a spoken-register offer. For business correspondence, upgrade to 如果贵公司有需要，我们随时可以… The underlying pattern — hypothetical + willing response — transfers across registers; only the vocabulary of formality shifts."
+  ]
+}

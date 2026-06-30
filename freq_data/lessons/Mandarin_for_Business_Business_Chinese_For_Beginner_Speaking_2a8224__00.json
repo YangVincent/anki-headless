@@ -1,0 +1,534 @@
+{
+  "model_essays": [],
+  "grammar_patterns": [
+    {
+      "pattern": "免得 (miǎnde) + [bad outcome]",
+      "explanation": "Conjunction meaning 'so as not to / so as to avoid'. Placed after the proposed action to preemptively justify it by naming the bad outcome it prevents. More efficient than a separate 'otherwise' clause. Very common in business writing and professional emails.",
+      "examples": [
+        "我们提前确认好日期，免得临时有变动。",
+        "请尽早回复，免得误了截止日期。",
+        "走高速吧，免得堵车耽误时间。"
+      ]
+    },
+    {
+      "pattern": "白 (bái) + Verb",
+      "explanation": "Adverb meaning 'in vain / to no effect'. '白+V' means the action produced no result or was wasted effort. Colloquial/spoken register; formal writing prefers 徒劳 or 无济于事. Useful for understanding spoken complaints or light business banter.",
+      "examples": [
+        "等了两个小时，白等了。",
+        "没带证件，白跑一趟。",
+        "你说了也白说，他根本不听。"
+      ]
+    },
+    {
+      "pattern": "据我所知 (jù wǒ suǒ zhī)，…",
+      "explanation": "Sentence-initial phrase meaning 'as far as I know'. Signals the speaker is sharing known information while taking epistemic responsibility without overstating certainty. Highly productive in business reports, proposals, and professional emails. Equivalent to 'to my knowledge' or 'from what I understand'.",
+      "examples": [
+        "据我所知，那家公司的服务一流，口碑很好。",
+        "据我所知，合同还没有正式签署。",
+        "据我所知，他已经提交申请了。"
+      ]
+    },
+    {
+      "pattern": "竟然 (jìngrán)…",
+      "explanation": "Adverb meaning 'surprisingly / to one's surprise / actually (unexpectedly)'. Marks the action/fact as contrary to what was expected. Can express positive surprise or indignation. Stronger than '居然' in formal writing is debatable, but both are common. Very useful in persuasive writing to frame an opponent's behaviour as outrageous without explicit judgment.",
+      "examples": [
+        "他竟然没来参加会议，真让人意外。",
+        "这个地方竟然有这么多外国游客。",
+        "这么简单的错误，他竟然没发现。"
+      ]
+    },
+    {
+      "pattern": "否则 (fǒuzé)，… / 不然 (bùrán)，…",
+      "explanation": "Conjunction meaning 'otherwise / if not'. Introduces the negative consequence of not following the preceding advice or condition. '否则' is slightly more formal than '不然'. Common in warnings, instructions, and business communications.",
+      "examples": [
+        "请准时到达，否则会议无法开始。",
+        "你得早点预订，否则订不到房间。",
+        "必须按规定操作，否则后果自负。"
+      ]
+    },
+    {
+      "pattern": "顺便 (shùnbiàn) + Verb",
+      "explanation": "Adverb meaning 'while you're at it / incidentally / without extra effort'. Signals that an additional action requires little extra effort since you are already doing something else. Very effective in spoken and written requests to soften the burden of an ask.",
+      "examples": [
+        "你去银行的时候，顺便帮我取一下快递。",
+        "我去书店，顺便买几本参考书。",
+        "您顺便把这份文件交给李经理好吗？"
+      ]
+    },
+    {
+      "pattern": "甚至 (shènzhì) + [extreme case]",
+      "explanation": "Adverb meaning 'even / going so far as to'. Used to introduce the most extreme member of a series, escalating the argument to its logical peak. Items before 甚至 should build progressively. Commonly paired with 也/都. Do not use 甚至 for the first or mildest case in a list.",
+      "examples": [
+        "他工作非常努力，甚至周末也不休息。",
+        "这家餐厅什么都有，甚至还有现场音乐。",
+        "价格很高，甚至超过了我们的预算。"
+      ]
+    },
+    {
+      "pattern": "多亏 (duōkuī) …，否则/要不然…",
+      "explanation": "Phrase meaning 'luckily / thanks to'. Expresses gratitude for someone/something that prevented a bad outcome. Typically followed by '否则/要不然' + the bad thing that was avoided. Powerful for formal thank-you letters, performance reviews, and business correspondence.",
+      "examples": [
+        "多亏你提醒，否则我真忘了带合同。",
+        "多亏了她的帮助，项目才顺利完成。",
+        "多亏经理及时介入，问题才得以解决。"
+      ]
+    },
+    {
+      "pattern": "一连 (yīlián) + 数量 + V/N",
+      "explanation": "Adverb meaning 'for X consecutive times / in a row'. Must be followed by a quantifier (number + measure word). Expresses that an action or state repeats without interruption. More vivid than simple repetition, implies notable persistence or frequency.",
+      "examples": [
+        "他一连打了三个电话，没人接。",
+        "这家店一连开了五天促销活动。",
+        "她一连工作了十个小时，没有休息。"
+      ]
+    },
+    {
+      "pattern": "只要 A，就 B (zhǐyào…jiù…)",
+      "explanation": "Sufficient condition: 'As long as A, then B'. A is sufficient to guarantee B. The condition is easy to fulfil, and the result follows automatically. Contrast with 只有/才 which expresses necessity.",
+      "examples": [
+        "只要你努力，就一定能成功。",
+        "只要提前预约，就可以享受优惠。",
+        "只要按时提交，就不会有问题。"
+      ]
+    },
+    {
+      "pattern": "只有 A，才 B (zhǐyǒu…cái…)",
+      "explanation": "Necessary condition: 'Only if/when A, then B'. A is the one and only prerequisite for B. Without A, B cannot happen. Logically the opposite emphasis from 只要/就. Critical to distinguish these two in formal writing — wrong choice inverts your argument's logic.",
+      "examples": [
+        "只有签了合同，才能正式开始工作。",
+        "只有了解市场，才能制定好策略。",
+        "只有持有效证件，才能办理业务。"
+      ]
+    },
+    {
+      "pattern": "除了 A，还/也 B (chúle…hái/yě…)",
+      "explanation": "Additive pattern: 'Besides A, also B'. Indicates B is included in addition to A. Often followed by 还 (also, in addition) or 也 (also). Useful for listing comprehensive features, services, or capabilities without sounding exhaustive.",
+      "examples": [
+        "除了汉语，他还会说英语和法语。",
+        "除了价格优惠，服务也很周到。",
+        "除了办理开户，还可以申请网上银行。"
+      ]
+    },
+    {
+      "pattern": "难怪 (nánguài) [conclusion]，原来 (yuánlái) [reason]",
+      "explanation": "难怪 means 'no wonder / it's no surprise that'. Used to express that, having understood the cause, the result makes perfect sense. Often paired with 原来 (so that's why / as it turns out) which reveals the surprising underlying reason. This pair is useful for transitions in analytical writing: state observation → reveal cause with 原来 → validate with 难怪.",
+      "examples": [
+        "难怪他总是第一个到，原来他住得离公司很近。",
+        "难怪这家餐厅这么受欢迎，原来是名厨掌勺。",
+        "原来他去年就来过中国，难怪普通话说得这么好。"
+      ]
+    },
+    {
+      "pattern": "难得 (nándé) + [rare opportunity / rare behaviour]",
+      "explanation": "Adjective/adverb meaning 'rare / it is rare that / it is a privilege to'. Expresses that something does not happen often and should be cherished. Used to frame a welcome occasion, a special quality, or a rare chance. Slightly formal and appreciative in tone.",
+      "examples": [
+        "难得有这么好的机会，一定要好好把握。",
+        "他难得来一次，我们好好款待他。",
+        "能大饱口福一次，真是难得。"
+      ]
+    },
+    {
+      "pattern": "对了 (duìle)，… (topic shift / confirmation marker)",
+      "explanation": "Spoken marker meaning 'right / that's right / oh, by the way'. Used either to confirm the other party's idea or to introduce a new topic that just occurred to the speaker. In business dialogue, 对了 signals a pivoting follow-up point. Register: conversational, suitable for meetings and calls but not formal written documents.",
+      "examples": [
+        "对了，你有没有带合同？",
+        "—我们下午两点开会。—对了，要通知李总吗？",
+        "对了，你说的方案我已经看过了，很不错。"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "营业部",
+      "pinyin": "yíngyèbù",
+      "meaning": "sales department / business department",
+      "register": "business/formal"
+    },
+    {
+      "zh": "业务经理",
+      "pinyin": "yèwù jǐnglǐ",
+      "meaning": "sales manager / business manager",
+      "register": "business/formal"
+    },
+    {
+      "zh": "国际金融",
+      "pinyin": "guójì jīnróng",
+      "meaning": "international finance",
+      "register": "business/formal"
+    },
+    {
+      "zh": "金融",
+      "pinyin": "jīnróng",
+      "meaning": "finance / banking",
+      "register": "business/formal"
+    },
+    {
+      "zh": "商务",
+      "pinyin": "shāngwù",
+      "meaning": "business affairs / commercial (as modifier: 商务旅行, 商务签证)",
+      "register": "business/formal"
+    },
+    {
+      "zh": "发票",
+      "pinyin": "fāpiào",
+      "meaning": "official invoice / tax receipt (required in China for expense reimbursement — not the same as a mere receipt/收据)",
+      "register": "business/transactional"
+    },
+    {
+      "zh": "收银台",
+      "pinyin": "shōuyíntái",
+      "meaning": "cashier's desk / checkout counter",
+      "register": "business/transactional"
+    },
+    {
+      "zh": "打折",
+      "pinyin": "dǎzhé",
+      "meaning": "to sell at a discount; 打八折 = 20% off (80% of price)",
+      "register": "business/transactional"
+    },
+    {
+      "zh": "优惠",
+      "pinyin": "yōuhuì",
+      "meaning": "preferential / favourable (price/treatment); 优惠价 = discounted price",
+      "register": "business/transactional"
+    },
+    {
+      "zh": "活动",
+      "pinyin": "huódòng",
+      "meaning": "promotional activity / event; in business context often means sales campaign or special offer",
+      "register": "business/transactional"
+    },
+    {
+      "zh": "中介",
+      "pinyin": "zhōngjiè",
+      "meaning": "intermediary / agency (real estate agent, broker, middleman)",
+      "register": "business/neutral"
+    },
+    {
+      "zh": "投资",
+      "pinyin": "tóuzī",
+      "meaning": "to invest / investment",
+      "register": "business/formal"
+    },
+    {
+      "zh": "基础",
+      "pinyin": "jīchǔ",
+      "meaning": "foundation / basis; 打好基础 = lay a solid foundation",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "充实",
+      "pinyin": "chōngshí",
+      "meaning": "(adj.) substantial / enriching / full; (v.) to enrich / to fill out; 生活充实 = a full life",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "招待",
+      "pinyin": "zhāodài",
+      "meaning": "to entertain / receive (guests or customers); to treat (someone to food/hospitality); 招待客户 = entertain clients",
+      "register": "business/service"
+    },
+    {
+      "zh": "周到",
+      "pinyin": "zhōudào",
+      "meaning": "thoughtful / considerate / thorough; 服务周到 = attentive service; collocates with 招待, 照顾",
+      "register": "business/service"
+    },
+    {
+      "zh": "照顾",
+      "pinyin": "zhàogù",
+      "meaning": "to look after / attend to / take care of; 多多照顾 = please take care of me (requesting favour)",
+      "register": "neutral/polite"
+    },
+    {
+      "zh": "首选",
+      "pinyin": "shǒuxuǎn",
+      "meaning": "(n.) first choice / top preference; (adj.) preferred; 首选方案 = preferred option",
+      "register": "formal/written"
+    },
+    {
+      "zh": "应有尽有",
+      "pinyin": "yīngyǒu jìnyǒu",
+      "meaning": "chengyu: have everything one would expect to find; nothing is lacking; comprehensive selection",
+      "register": "written/idiomatic"
+    },
+    {
+      "zh": "吹牛",
+      "pinyin": "chuīniú",
+      "meaning": "to boast / brag / talk big; colloquial and slightly pejorative",
+      "register": "colloquial"
+    },
+    {
+      "zh": "普通话",
+      "pinyin": "pǔtōnghuà",
+      "meaning": "Mandarin / standard Chinese (literally 'common speech'); the official spoken standard of mainland China",
+      "register": "neutral"
+    },
+    {
+      "zh": "充满活力",
+      "pinyin": "chōngmǎn huólì",
+      "meaning": "full of vitality / energy / dynamism; 充满 = to be full of; 活力 = vitality; productive collocation",
+      "register": "written/positive"
+    },
+    {
+      "zh": "名胜古迹",
+      "pinyin": "míngshèng gǔjì",
+      "meaning": "scenic spots and historical sites / places of interest and historic monuments",
+      "register": "formal/tourism"
+    },
+    {
+      "zh": "中国通",
+      "pinyin": "zhōngguótōng",
+      "meaning": "China expert / someone with deep knowledge of China (affectionate/respectful term for foreigners)",
+      "register": "informal/complimentary"
+    },
+    {
+      "zh": "尽管",
+      "pinyin": "jǐnguǎn",
+      "meaning": "(conj.) although / even though; (adv.) feel free to / go ahead (in speech: 尽管问 = feel free to ask)",
+      "register": "neutral — two usages: formal (conjunction) and spoken (permission)"
+    },
+    {
+      "zh": "的确",
+      "pinyin": "díquè",
+      "meaning": "indeed / truly / certainly; used for affirmative emphasis, more formal than 确实",
+      "register": "formal/written"
+    },
+    {
+      "zh": "加倍",
+      "pinyin": "jiābèi",
+      "meaning": "to double / to redouble; 加倍努力 = work twice as hard",
+      "register": "neutral"
+    },
+    {
+      "zh": "通过",
+      "pinyin": "tōngguò",
+      "meaning": "(prep.) through / by means of; (v.) to pass (exam, law, resolution); 通过考试 / 通过会议决议",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "本科",
+      "pinyin": "běnkē",
+      "meaning": "undergraduate (bachelor's degree programme); 本科生 = undergraduate student",
+      "register": "formal/academic"
+    },
+    {
+      "zh": "消息",
+      "pinyin": "xiāoxi",
+      "meaning": "news / information / piece of news; more conversational than 信息",
+      "register": "neutral/spoken"
+    },
+    {
+      "zh": "满意",
+      "pinyin": "mǎnyì",
+      "meaning": "satisfied / satisfactory; 对...感到满意 = to be satisfied with…; 令人满意 = satisfying",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "借记卡",
+      "pinyin": "jièjìkǎ",
+      "meaning": "debit card (as opposed to 信用卡 credit card)",
+      "register": "business/banking"
+    },
+    {
+      "zh": "手续",
+      "pinyin": "shǒuxù",
+      "meaning": "procedure / formalities; 办理手续 = go through the procedures",
+      "register": "business/administrative"
+    },
+    {
+      "zh": "业务",
+      "pinyin": "yèwù",
+      "meaning": "business affairs / professional work / operations; 业务量 = volume of business; 核心业务 = core business",
+      "register": "business/formal"
+    },
+    {
+      "zh": "提供",
+      "pinyin": "tígōng",
+      "meaning": "to provide / supply / offer; 提供服务/资料/方案 = provide services/materials/plans",
+      "register": "formal/neutral"
+    },
+    {
+      "zh": "理财",
+      "pinyin": "lǐcái",
+      "meaning": "to manage finances / financial planning; 理财产品 = financial products",
+      "register": "business/banking"
+    },
+    {
+      "zh": "顾客",
+      "pinyin": "gùkè",
+      "meaning": "customer / client (for retail/service); 上帝 is a hyperbolic synonym from the phrase 顾客是上帝",
+      "register": "business/service"
+    },
+    {
+      "zh": "后顾之忧",
+      "pinyin": "hòugù zhī yōu",
+      "meaning": "worries about what is happening behind you / concern about one's rear; 解除后顾之忧 = remove one's worries so one can focus on the task at hand",
+      "register": "formal/idiomatic"
+    },
+    {
+      "zh": "打交道",
+      "pinyin": "dǎ jiāodào",
+      "meaning": "to deal with / have dealings with / interact with (people or organisations)",
+      "register": "neutral/spoken"
+    },
+    {
+      "zh": "快餐",
+      "pinyin": "kuàicān",
+      "meaning": "fast food",
+      "register": "neutral"
+    },
+    {
+      "zh": "自助餐",
+      "pinyin": "zìzhùcān",
+      "meaning": "buffet / self-service meal (lit. self-help meal)",
+      "register": "neutral"
+    },
+    {
+      "zh": "气氛",
+      "pinyin": "qìfēn",
+      "meaning": "atmosphere / ambience; 营造气氛 = create an atmosphere",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "档次",
+      "pinyin": "dàngcì",
+      "meaning": "grade / level of quality/luxury; 上档次 = upmarket / raise the quality level; 低档次 = low-end",
+      "register": "neutral/business"
+    },
+    {
+      "zh": "包间",
+      "pinyin": "bāojiān",
+      "meaning": "private room (in a restaurant); essential term for business dining where privacy is expected",
+      "register": "business/dining"
+    },
+    {
+      "zh": "AA制",
+      "pinyin": "AA zhì",
+      "meaning": "going Dutch / splitting the bill equally; contrast with 请客 (treating someone)",
+      "register": "colloquial"
+    },
+    {
+      "zh": "大饱口福",
+      "pinyin": "dàbǎo kǒufú",
+      "meaning": "to eat and drink to one's heart's content / to feast; idiomatic and enthusiastic register",
+      "register": "informal/idiomatic"
+    },
+    {
+      "zh": "招牌菜",
+      "pinyin": "zhāopáicài",
+      "meaning": "signature dish / specialty dish (the dish a restaurant is known for)",
+      "register": "neutral/dining"
+    },
+    {
+      "zh": "报销",
+      "pinyin": "bàoxiāo",
+      "meaning": "to reimburse / submit for reimbursement; 申请报销 = apply for reimbursement; requires 发票",
+      "register": "business/administrative"
+    },
+    {
+      "zh": "保险",
+      "pinyin": "bǎoxiǎn",
+      "meaning": "insurance; (adj./adv.) safe / reliable; 买保险 = buy insurance; 保险起见 = to be safe",
+      "register": "business/neutral"
+    },
+    {
+      "zh": "节奏",
+      "pinyin": "jiézòu",
+      "meaning": "rhythm / pace; 工作节奏 = work pace; 生活节奏快 = fast pace of life",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "俗话说",
+      "pinyin": "súhuà shuō",
+      "meaning": "as the saying goes / there's an old saying that; used to introduce proverbs and folk wisdom",
+      "register": "neutral/rhetorical"
+    },
+    {
+      "zh": "大同小异",
+      "pinyin": "dàtóng xiǎoyì",
+      "meaning": "largely the same with minor differences; chengyu for acknowledging similarity while noting variation",
+      "register": "formal/written"
+    },
+    {
+      "zh": "满足",
+      "pinyin": "mǎnzú",
+      "meaning": "to satisfy / meet (needs, demands); 满足需求 = meet the demand; 满足条件 = meet the conditions",
+      "register": "formal/neutral"
+    },
+    {
+      "zh": "一流",
+      "pinyin": "yīliú",
+      "meaning": "first-rate / top-class; 一流服务 = first-class service; 世界一流 = world-class",
+      "register": "formal/positive"
+    },
+    {
+      "zh": "租金",
+      "pinyin": "zūjīn",
+      "meaning": "rent (monetary amount paid for renting); 月租金 = monthly rent",
+      "register": "neutral/transactional"
+    },
+    {
+      "zh": "合同",
+      "pinyin": "hétong",
+      "meaning": "contract / agreement; 签合同 = sign a contract; 合同条款 = contract terms",
+      "register": "business/legal"
+    },
+    {
+      "zh": "考察",
+      "pinyin": "kǎochá",
+      "meaning": "to investigate / conduct a site visit / make an on-the-spot investigation; 实地考察 = field investigation",
+      "register": "business/formal"
+    }
+  ],
+  "essay_takeaways": [
+    {
+      "lesson": "Use 免得 for preemptive justification in professional writing",
+      "detail": "In business emails and memos, state the recommended action and immediately follow with 免得 + the bad outcome it prevents. This is more economical than a separate 'otherwise' sentence and sounds more decisive. Pattern: [do X]，免得[bad Y]。 Example: '请提前发送日程，免得与会人员时间冲突。'"
+    },
+    {
+      "lesson": "Distinguish 只要/就 from 只有/才 for precise conditional logic",
+      "detail": "只要A就B expresses a sufficient condition (A alone is enough to guarantee B). 只有A才B expresses a necessary condition (B is impossible without A). Using the wrong one inverts your argument: '只要签合同就开工' (signing is sufficient to start) ≠ '只有签合同才能开工' (signing is the only way to start). In formal proposals and reports, choose carefully."
+    },
+    {
+      "lesson": "Escalate arguments with 甚至 before the climactic case",
+      "detail": "甚至 is not a general intensifier — it introduces the most extreme, surprising, or notable item in a progression. Build up a series from mild to strong, then introduce the peak with 甚至: '他工作积极，周末也不休息，甚至放弃了年假。' Do not use 甚至 for the first or mildest example in a list."
+    },
+    {
+      "lesson": "Hedge claims professionally with 据我所知",
+      "detail": "Place 据我所知 at the start of a sentence when reporting what you understand but cannot fully verify. This protects credibility in business reports and professional emails: it signals you are sharing genuine knowledge while inviting correction. More professional than either stating as undisputed fact or over-hedging with 也许/可能."
+    },
+    {
+      "lesson": "Frame gratitude with 多亏…，否则… for maximum impact",
+      "detail": "The pattern 多亏了[person/thing]，否则[bad outcome that was avoided] is far more powerful than a simple 谢谢. It makes the value delivered concrete and explicit — essential in formal thank-you messages, performance reviews, and client communications. Example: '多亏了您的及时反馈，否则我们可能错过了这个机会。'"
+    },
+    {
+      "lesson": "Use 顺便 to soften additional requests",
+      "detail": "When making a secondary request of a colleague or client, 顺便 signals the ask is low-effort because the person is already doing something related. This reduces perceived imposition. '你去财务部的时候，顺便把这份报告交过去好吗？' sounds much lighter than a standalone request. Use freely in verbal communication and informal written messages."
+    },
+    {
+      "lesson": "Cluster 招待、周到、照顾 when writing about service quality",
+      "detail": "These three words form a natural collocational cluster in business Chinese when describing hospitality or customer service: 招待周到 (attentive hospitality), 照顾入微 (attentive care), 服务周到 (thoughtful service). Using them together raises register and demonstrates command of service-industry lexicon in business correspondence and reviews."
+    },
+    {
+      "lesson": "Know the difference between 发票 and 收据 for expense contexts",
+      "detail": "In Chinese business practice, 发票 (fāpiào) is the official tax-stamped invoice issued by a registered entity, required for reimbursement (报销). 收据 is a generic payment receipt that is often not acceptable for reimbursement. Always ask for 发票 when a transaction is business-related. This distinction frequently appears in professional dialogue and correspondence."
+    },
+    {
+      "lesson": "Use 难怪…原来… to structure cause-effect transitions in analytical writing",
+      "detail": "The pair 原来 (reveals the underlying reason) + 难怪 (validates the observable result) creates a satisfying analytical transition: first reveal the cause with 原来, then confirm it explains the effect with 难怪. Works in reverse order too: 难怪→原来. Example structure: '难怪她的汉语说得这么流利，原来她在北京住了五年。' This is more elegant than 因为A所以B in descriptive and reflective writing."
+    },
+    {
+      "lesson": "竟然 signals controlled indignation or surprise without explicit judgment",
+      "detail": "In persuasive or analytical writing, 竟然 before an action or fact frames it as outrageous or surprising without needing a separate evaluative sentence. '他竟然没有通知任何人就做了这个决定' carries the judgment implicitly. This is a more sophisticated rhetorical move than stating 他这样做是不对的. Use when you want the reader to form the negative judgment themselves."
+    },
+    {
+      "lesson": "Business dining vocabulary is essential for professional social contexts",
+      "detail": "Master the distinction between 请客 (one person treats, pays for all) and AA制 (each pays their own share). Know 包间 (private room), 点菜 (order dishes), 结账 (settle the bill), 招牌菜 (signature dish). In professional dining contexts, choosing whether to 请客 or go AA制 carries social significance and knowing how to negotiate this linguistically is a key soft skill."
+    },
+    {
+      "lesson": "应有尽有 is a high-yield chengyu for describing comprehensive offerings",
+      "detail": "应有尽有 (yīngyǒu jìnyǒu, 'everything one would expect is there') is extremely productive in business descriptions: product catalogues, store recommendations, service descriptions. It saves multiple sentences of listing: '这个平台应有尽有，从办公用品到电子产品都能找到。' Memorise and reuse — it appears frequently in business promotional language and evaluations."
+    }
+  ]
+}

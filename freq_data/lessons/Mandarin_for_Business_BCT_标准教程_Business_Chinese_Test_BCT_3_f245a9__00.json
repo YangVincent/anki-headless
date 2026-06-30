@@ -1,0 +1,430 @@
+{
+  "model_essays": [
+    {
+      "title": "自我介绍——接管人事部（幸会·短文）",
+      "genre": "formal self-introduction speech",
+      "text": "大家好，幸会！我想简单地介绍一下自己。我在市场部做经理，从2000年开始管理市场部，一直到今年，工作了十五年。从今天开始，将由我来负责人事部，我将和大家一起工作，这对我来说是一个新的开始。我对人事部的工作还不是很了解，也不太懂人事部的管理，希望各位能给我更多的帮助，谢谢大家！",
+      "summary": "A new department head delivers a brief self-introduction to their new team, establishing fifteen years of Marketing experience before announcing their move to lead HR, and closing with a humble request for support.",
+      "why_study": "A compact, authentic template for a Chinese workplace self-introduction when changing roles. Covers all required moves: background, tenure, new assignment framed as 新的开始, honest admission of knowledge gap, and collegial request for help. Every sentence is imitable.",
+      "key_devices": [
+        "从…开始…一直到…工作了X年 (establishing tenure arc)",
+        "从今天开始，将由我来负责… (formal delegation / role-assumption formula)",
+        "这对我来说是一个新的开始 (reframing a challenge as opportunity)",
+        "我对…还不是很了解，也不太懂… (humble dual-admission of unfamiliarity)",
+        "希望各位能给我更多的帮助 (collegial closing request)"
+      ]
+    },
+    {
+      "title": "销售经验访谈（为了健康·对话二）",
+      "genre": "business consultation / interview dialogue",
+      "text": "王经理，你们公司的产品卖得很好。请问，你们的销售经验是什么？\n在我看来，产品的质量一定要好。客户喜欢，才会选择我们的产品。\n简单地说，产品的质量是最重要的，对吗？\n对，让客户满意的质量是最重要的。\n好的，我知道了，谢谢您！",
+      "summary": "A visitor asks a successful manager to share their sales experience. The manager explains that product quality that satisfies customers is the decisive factor, using 在我看来 to frame the opinion and 才 to express conditionality.",
+      "why_study": "Shows how to give a concise, confident business opinion: open with 在我看来, state the logic with 才, let your interlocutor paraphrase with 简单地说…，对吗？, then confirm with amplification. The closing formula 让客户满意的质量是最重要的 is a well-formed business maxim worth memorising.",
+      "key_devices": [
+        "在我看来 (personal-opinion opener)",
+        "才 conditional (X才会Y: only if X, then Y)",
+        "简单地说 (discourse marker for summarising the interlocutor's point)",
+        "让客户满意 (causative result phrase as nominalised subject)"
+      ]
+    },
+    {
+      "title": "竞争对手的销售经验（为了健康·短文）",
+      "genre": "business competitive analysis / post-meeting memo",
+      "text": "我们公司和李经理公司的主要产品都是照相机。今年，他们公司的产品卖得比我们公司好。李经理向我们介绍了一些经验：第一，产品的质量和价格非常重要，产品质量好，价格便宜，客户才会喜欢。第二，一个好的产品介绍是做好销售的关键。第三，客户服务一定要做好。我认为，这些建议对我们的帮助很大。",
+      "summary": "A narrator reports on lessons learned from a competitor (Manager Li) whose camera products outsold theirs. Three enumerated takeaways cover quality-price balance, product presentation, and customer service, ending with a personal endorsement.",
+      "why_study": "A model for writing a brief competitive analysis or post-meeting summary in Chinese. The 第一…第二…第三 enumeration combined with an 我认为 closing assessment is a reusable skeleton for any business report or recommendations memo.",
+      "key_devices": [
+        "卖得比…好 (comparative selling performance)",
+        "向我们介绍了一些经验 (framing knowledge transfer from a senior party)",
+        "第一……第二……第三 enumeration (standard business rhetorical structure)",
+        "才会 conditional (quality + price → only then customers like it)",
+        "我认为，这些建议对我们的帮助很大 (closing personal endorsement)"
+      ]
+    },
+    {
+      "title": "春节公司聚会（节日聚会·短文）",
+      "genre": "company event description / cultural note",
+      "text": "对中国人来说，春节是最重要的节日。每年春节前，公司都会办一个很大的聚会，请所有部门的员工参加。下周二就是今年的春节，所以今天CTI公司有一个聚会。除了各部门的经理和员工，一些外国客户也来了。聚会上有很多中国有名的小吃，还有很多种茶和其他好喝的饮料。外国客户都很喜欢，公司的员工也都聊得很高兴。",
+      "summary": "A short description of how CTI Company organises a large Spring Festival gathering that includes all departments plus foreign clients, featuring famous Chinese snacks and teas, with everyone enjoying themselves.",
+      "why_study": "A reusable template for describing Chinese company cultural events. Opens with a cultural context sentence (对中国人来说), establishes a habitual annual practice (每年…都会…), uses 除了…也 to widen scope to include clients, and closes with a parallel satisfaction statement for both client and staff groups.",
+      "key_devices": [
+        "对中国人来说 (cultural framing opener)",
+        "每年…都会… (habitual annual event structure)",
+        "除了…也/还 (additive inclusion pattern)",
+        "聊得很高兴 (manner result complement expressing satisfactory outcome)"
+      ]
+    },
+    {
+      "title": "忙碌的一天——秘书的叙述（他出去了·短文）",
+      "genre": "first-person workplace narrative",
+      "text": "我是CTI公司的秘书，我很喜欢这份工作，但是有时候工作有点儿多。上午九点，钱经理让我上去开会。开完会后，我又出去了一趟，给车加了油。刚回来不久，广告部的小王下来找我，让我打印几份报告。刚做完，又有一位姓周的先生过来找钱经理。钱经理正在做报告，我就进去告诉了他。过了一会儿，钱经理做完报告出来，和周先生谈了半个小时才谈完。终于可以下班了！",
+      "summary": "A secretary narrates a hectic day: attending a meeting upstairs, refuelling the car, printing reports for the Advertising Department, and managing a walk-in visitor who needed the manager — all before finally getting off work.",
+      "why_study": "The densest model text in this chunk for directional complements and sequential narrative. A chain of 上去/出去/下来/进去/出来 compounds creates vivid office movement. 刚…又 back-to-back events convey relentlessness. 才谈完 marks extended duration before completion. 终于 delivers the payoff.",
+      "key_devices": [
+        "directional complement chain: 上去 → 出去 → 下来 → 进去 → 出来",
+        "刚…不久，又 (barely…then again — conveying a hectic pace)",
+        "V+完 as a temporal pivot (开完会后, 做完报告出来)",
+        "才谈完 (才 marking extended effort before completion)",
+        "终于可以下班了 (climactic resolution with 终于)"
+      ]
+    },
+    {
+      "title": "把字句叙事——周日的工作（请把门打开·短文）",
+      "genre": "first-person diary / personal narrative",
+      "text": "今天是星期天，我没有去上班。上午，我在家先把门修理好了，然后去了一趟超市，把明天需要的水果买了。回来后，我把东西放在桌上，就去做饭了。吃完饭后，我把写给小李的信寄了出去。晚饭前，我把张经理需要的文件发到了他的电子邮箱，然后把明天开会要的报告读完了。今天虽然不上班，但是我还是觉得很累。",
+      "summary": "A first-person Sunday account where the narrator completes a chain of domestic and work tasks — repairing a door, shopping, cooking, mailing a letter, emailing documents, reading a report — all rendered with 把 constructions, closing with a 虽然…但是 concession.",
+      "why_study": "Five consecutive 把-sentences in a short passage make this the best imitation model in this chunk for task-completion narrative. Every 把 is followed by a result complement or direction complement, demonstrating the full range of the construction. The 虽然…但是…还是 close is a clean concessive wrap-up pattern.",
+      "key_devices": [
+        "把+Object+V+Result/Direction complement (×5 instances in sequence)",
+        "先…然后 (sequential steps)",
+        "吃完饭后 (V+完 temporal pivot)",
+        "虽然…但是…还是 (concessive close: 'even though…still…')"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "把 + Object + Verb + Result/Direction Complement",
+      "explanation": "The 把 construction foregrounds the object and emphasises what happens to it — completion, placement, or directed action. In business writing it conveys that a task has been fully handled. The object must be specific and definite. Result complements include 好 (properly), 完 (finished), 清楚 (clearly), 出去 (out), etc.",
+      "examples": [
+        "请把门打开。(Please open the door.)",
+        "我们得把这份文件写好。(We have to write this document properly.)",
+        "今天一定要把问题的原因讲清楚。(Today we must clarify the reasons for the problem.)",
+        "我把写给小李的信寄了出去。(I sent out the letter I had written to Xiao Li.)",
+        "我把张经理需要的文件发到了他的电子邮箱。(I sent the documents Manager Zhang needed to his email.)"
+      ]
+    },
+    {
+      "pattern": "对……来说",
+      "explanation": "Introduces a perspective or standpoint: 'for / to [person or group]…'. A neutral and polite way to qualify statements from a specific angle — indispensable in business presentations, reports, and introductions.",
+      "examples": [
+        "对中国人来说，春节是最重要的节日。(For Chinese people, Spring Festival is the most important holiday.)",
+        "对我来说，汉语太难了。(For me, Chinese is too difficult.)",
+        "这对我来说是一个新的开始。(This is a new beginning for me.)",
+        "但是这份工作对我来说非常重要。(But this job is very important to me.)"
+      ]
+    },
+    {
+      "pattern": "在……看来",
+      "explanation": "Introduces a subjective opinion: 'in [person]'s view…'. More emphatic and personal than 对…来说 — it positions the speaker as offering their own interpretation of a situation rather than noting how something affects them.",
+      "examples": [
+        "在我看来，产品的质量一定要好。(In my view, product quality must be high.)",
+        "在我看来，最好的方法是和中国人聊聊天儿。(In my opinion, the best method is to chat with Chinese people.)"
+      ]
+    },
+    {
+      "pattern": "就……来说",
+      "explanation": "'Speaking for / as for [topic or person]'. Used to narrow the frame of reference to a specific domain or individual, often to contrast personal experience against a general claim.",
+      "examples": [
+        "就我来说，学汉语很容易。(Speaking for myself, learning Chinese is easy.)"
+      ]
+    },
+    {
+      "pattern": "才 (restrictive / conditional result marker)",
+      "explanation": "才 between two clauses means 'only then / only if'. The second action is conditional on or delayed by the first. This is the key structure for expressing logical prerequisites in business argument: 'Customers will only choose us if quality is high.'",
+      "examples": [
+        "客户喜欢，才会选择我们的产品。(Only if customers like it will they choose our products.)",
+        "听医生的话，身体才能好得快。(Only by following the doctor's advice will you recover quickly.)",
+        "和周先生谈了半个小时才谈完。(It took half an hour of talking with Mr Zhou before they finished.)",
+        "产品质量好，价格便宜，客户才会喜欢。(Only when quality is good and price is low will customers like it.)"
+      ]
+    },
+    {
+      "pattern": "从……开始（……，一直到……）",
+      "explanation": "Marks the starting point of an ongoing action or state: 'starting from…'. Can be extended with 一直到 to close the arc. Used in introductions, timelines, and business handovers.",
+      "examples": [
+        "从2000年开始管理市场部，一直到今年，工作了十五年。(I managed the Marketing Department from 2000 until this year — fifteen years.)",
+        "从今天开始，将由我来负责人事部。(Starting today, I will be responsible for the HR Department.)"
+      ]
+    },
+    {
+      "pattern": "由……来/负责",
+      "explanation": "'To be handled / managed by [person]'. A formal delegation structure — near-passive with an explicit agent. Used in announcements, contracts, and formal memos.",
+      "examples": [
+        "将由我来负责人事部。(The HR Department will be managed by me.)",
+        "这个部门由李经理负责。(This department is managed by Manager Li.)",
+        "高先生的日程由周秘书安排。(Mr Gao's schedule is arranged by Secretary Zhou.)"
+      ]
+    },
+    {
+      "pattern": "除了……还/也",
+      "explanation": "'In addition to X, also Y'. Extends a list without discarding what has already been mentioned. Very common in business writing to broaden scope inclusively.",
+      "examples": [
+        "除了各部门的经理和员工，一些外国客户也来了。(In addition to managers and staff from every department, some foreign clients also came.)",
+        "除了和中国人聊天儿，你还有别的好方法吗？(Besides chatting with Chinese people, do you have any other good methods?)"
+      ]
+    },
+    {
+      "pattern": "V + 完 (result complement: finish doing)",
+      "explanation": "Attached to a verb, 完 signals the action has been completed to its natural end. Frequently used as a temporal pivot in narratives: V+完+后/了 → next action.",
+      "examples": [
+        "开完会后，我又出去了一趟。(After finishing the meeting, I went out again.)",
+        "钱经理做完报告出来，和周先生谈了半个小时才谈完。(After Manager Qian finished the report, he and Mr Zhou talked for half an hour before finishing.)",
+        "把明天开会要的报告读完了。(I finished reading the report needed for tomorrow's meeting.)"
+      ]
+    },
+    {
+      "pattern": "Directional complements: V + 上/下/进/出/过 + 来/去 (+ 一趟)",
+      "explanation": "Compound directional complements encode movement relative to the speaker or a reference point. 来 = toward speaker/reference; 去 = away. 一趟 ('one trip') quantifies a single errand. Essential for office and building-movement language.",
+      "examples": [
+        "钱经理让我上去开会。(Manager Qian told me to go upstairs for a meeting.)",
+        "广告部的小王下来找我。(Xiao Wang from Advertising came down to find me.)",
+        "我就进去告诉了他。(I went in and told him.)",
+        "你过来一趟取一下文件夹，好吗？(Could you come over once to pick up the folder?)",
+        "终于可以下班了。(Finally I could leave work / go downstairs.)"
+      ]
+    },
+    {
+      "pattern": "刚……（不久），又/就……",
+      "explanation": "'Just barely [did X], then [Y] again'. 刚 signals recency; 又 or 就 signals an immediate sequel. Creates a sense of relentless busyness or rapid-fire succession of events.",
+      "examples": [
+        "刚回来不久，广告部的小王下来找我。(I had barely returned when Xiao Wang from Advertising came down.)",
+        "刚做完，又有一位姓周的先生过来找钱经理。(I had just finished when another person came to see Manager Qian.)"
+      ]
+    },
+    {
+      "pattern": "虽然……但是……（还是……）",
+      "explanation": "Concessive structure: 'although X, (still) Y'. Adding 还是 in the result clause stresses the unexpected persistence of the consequence despite the concession. Common in narrative closings and self-assessments.",
+      "examples": [
+        "虽然今天很累，但是我认识了不少同事。(Although I am tired today, I have gotten to know many colleagues.)",
+        "今天虽然不上班，但是我还是觉得很累。(Although I didn't work today, I still feel very tired.)"
+      ]
+    },
+    {
+      "pattern": "为了 + Purpose",
+      "explanation": "'For the sake of / in order to [purpose]'. Opens a clause stating a goal or motivation. Used in declarations, slogans, rationales for action, and business justifications.",
+      "examples": [
+        "为了健康，我明天就不吸了！(For my health, I'll quit starting tomorrow!)",
+        "为了学好汉语，我也试一下这个方法。(In order to learn Chinese well, I'll try this method too.)"
+      ]
+    },
+    {
+      "pattern": "对 + N + 有帮助 / 不好 / 重要 / 满意",
+      "explanation": "'Good / bad / helpful / important / satisfying for [noun]'. Uses 对 as a preposition of relevance, benefit, or harm. Very common in health, product quality, and business-outcome contexts.",
+      "examples": [
+        "这个习惯对身体不好。(This habit is bad for your health.)",
+        "这些建议对我们的帮助很大。(These suggestions are very helpful to us.)",
+        "让客户满意的质量是最重要的。(The quality that satisfies customers is most important.)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "幸会",
+      "pinyin": "xìng huì",
+      "meaning": "What an honour to meet you / delighted to make your acquaintance — more formal and literary than 认识你很高兴; used at first introductions in business or formal social settings",
+      "register": "formal / business social"
+    },
+    {
+      "zh": "有空多联系",
+      "pinyin": "yǒu kòng duō liánxì",
+      "meaning": "Keep in touch when you have time — a polite closing line after exchanging business cards or at the end of a first meeting",
+      "register": "polite / business social"
+    },
+    {
+      "zh": "经常听……提起",
+      "pinyin": "jīngcháng tīng ... tí qǐ",
+      "meaning": "I've often heard [person] mention you — a warm, face-giving opener when meeting someone you've heard about indirectly",
+      "register": "business social"
+    },
+    {
+      "zh": "让您久等了",
+      "pinyin": "ràng nín jiǔ děng le",
+      "meaning": "Sorry to have kept you waiting (formal) — the standard apology formula for lateness or delays in business settings; 您 signals formality",
+      "register": "formal / polite"
+    },
+    {
+      "zh": "不好意思",
+      "pinyin": "bù hǎo yì si",
+      "meaning": "Excuse me / I'm sorry / how embarrassing — a versatile softener and apology for minor impositions or errors",
+      "register": "everyday / business"
+    },
+    {
+      "zh": "谈判",
+      "pinyin": "tánpàn",
+      "meaning": "To negotiate; negotiation — the standard business term for formal negotiations or talks",
+      "register": "business"
+    },
+    {
+      "zh": "日程很满",
+      "pinyin": "rìchéng hěn mǎn",
+      "meaning": "The schedule is full / packed — describes a booked-out calendar; 日程 alone means 'schedule / itinerary'",
+      "register": "business"
+    },
+    {
+      "zh": "向……介绍经验",
+      "pinyin": "xiàng ... jièshào jīngyàn",
+      "meaning": "To share experience / insights with someone — formal way to frame knowledge transfer from one party to another",
+      "register": "business"
+    },
+    {
+      "zh": "在我看来",
+      "pinyin": "zài wǒ kàn lái",
+      "meaning": "In my opinion / in my view — signals a personal assessment; slightly more deliberate and emphatic than 我觉得",
+      "register": "neutral / business"
+    },
+    {
+      "zh": "对……来说",
+      "pinyin": "duì ... lái shuō",
+      "meaning": "For / to [person or group] — frames a statement from a specific perspective without asserting it as universally true",
+      "register": "neutral / business"
+    },
+    {
+      "zh": "就我来说",
+      "pinyin": "jiù wǒ lái shuō",
+      "meaning": "As for me / speaking for myself — narrows scope to personal experience; often used to offer a contrasting example",
+      "register": "neutral / spoken"
+    },
+    {
+      "zh": "让客户满意",
+      "pinyin": "ràng kèhù mǎnyì",
+      "meaning": "To satisfy customers / make customers satisfied — a core customer-service phrase, also usable as a nominalized subject: 让客户满意的质量…",
+      "register": "business"
+    },
+    {
+      "zh": "解决问题",
+      "pinyin": "jiějué wèntí",
+      "meaning": "To solve a problem / resolve an issue — the most common business action phrase for problem-handling",
+      "register": "neutral / business"
+    },
+    {
+      "zh": "有急事",
+      "pinyin": "yǒu jí shì",
+      "meaning": "Something urgent came up — the standard explanation for a sudden departure or unexpected unavailability",
+      "register": "business / everyday"
+    },
+    {
+      "zh": "提前离开",
+      "pinyin": "tíqián líkāi",
+      "meaning": "To leave early; to depart ahead of schedule",
+      "register": "neutral / business"
+    },
+    {
+      "zh": "终于可以……了",
+      "pinyin": "zhōngyú kěyǐ ... le",
+      "meaning": "Finally can… — expresses relief after sustained effort; a narrative climax / resolution marker",
+      "register": "spoken / narrative"
+    },
+    {
+      "zh": "出问题",
+      "pinyin": "chū wèntí",
+      "meaning": "A problem arose / something went wrong — 出 here means 'to emerge / arise'; 出 alone can mean 'to happen' in this sense",
+      "register": "neutral / business"
+    },
+    {
+      "zh": "向……报告",
+      "pinyin": "xiàng ... bàogào",
+      "meaning": "To report to [someone]; to brief sb. — formal upward communication, both as verb and noun (报告 = a report / briefing)",
+      "register": "business / formal"
+    },
+    {
+      "zh": "产品质量",
+      "pinyin": "chǎnpǐn zhìliàng",
+      "meaning": "Product quality — a fundamental business collocation appearing in sales, procurement, and contract contexts",
+      "register": "business"
+    },
+    {
+      "zh": "客户服务",
+      "pinyin": "kèhù fúwù",
+      "meaning": "Customer service — standard business term for the after-sales or support function",
+      "register": "business"
+    },
+    {
+      "zh": "提醒",
+      "pinyin": "tíxǐng",
+      "meaning": "To remind; to give a heads-up — used in scheduling, deadline management, and task follow-up",
+      "register": "neutral / business"
+    },
+    {
+      "zh": "别担心，……怎么要求我们怎么做",
+      "pinyin": "bié dānxīn, ... zěnme yāoqiú wǒmen zěnme zuò",
+      "meaning": "Don't worry, we'll do whatever [the client] asks — a reassurance formula that echoes the client's own verb (要求 → 做) for emphasis",
+      "register": "business / spoken"
+    },
+    {
+      "zh": "要求",
+      "pinyin": "yāoqiú",
+      "meaning": "Requirements / demands (n.) or to demand / request (v.) — key in contract, client-management, and negotiation language",
+      "register": "business"
+    },
+    {
+      "zh": "循序渐进",
+      "pinyin": "xúnxù jiànjìn",
+      "meaning": "Step by step; gradual and orderly progress — a 四字成语 used in educational, strategic, and planning contexts",
+      "register": "formal / written"
+    },
+    {
+      "zh": "各部门",
+      "pinyin": "gè bùmén",
+      "meaning": "Each / every department — standard collective reference in company-wide communications and announcements",
+      "register": "business / formal"
+    },
+    {
+      "zh": "所有员工",
+      "pinyin": "suǒyǒu yuángōng",
+      "meaning": "All employees / all staff — formal collective noun phrase used in notices, announcements, and HR communications",
+      "register": "business / formal"
+    },
+    {
+      "zh": "出差",
+      "pinyin": "chūchāi",
+      "meaning": "To go on a business trip — one of the highest-frequency business Chinese collocations",
+      "register": "business"
+    },
+    {
+      "zh": "比较",
+      "pinyin": "bǐjiào",
+      "meaning": "Comparatively / fairly / relatively (adv.) — a moderating adverb softer than 很; also means 'to compare'. 25箱比较好 = '25 cartons would be better / more appropriate'",
+      "register": "neutral"
+    },
+    {
+      "zh": "突然",
+      "pinyin": "tūrán",
+      "meaning": "Suddenly; unexpectedly — used to introduce unplanned events in narrative; 突然有急事 is a fixed phrase",
+      "register": "neutral / narrative"
+    },
+    {
+      "zh": "简单地说",
+      "pinyin": "jiǎndān de shuō",
+      "meaning": "Simply put / to put it simply — a discourse marker for summarising or reducing an argument to its core claim",
+      "register": "neutral / spoken"
+    },
+    {
+      "zh": "一直到",
+      "pinyin": "yīzhí dào",
+      "meaning": "All the way until; right up to — marks an unbroken duration from a starting point to an endpoint",
+      "register": "neutral"
+    },
+    {
+      "zh": "将由……来负责",
+      "pinyin": "jiāng yóu ... lái fùzé",
+      "meaning": "Will be handled / managed by [person] — formal delegation formula: 将 (future) + 由 (by/agent) + 来负责 (take charge)",
+      "register": "formal / business"
+    },
+    {
+      "zh": "产品的质量和价格",
+      "pinyin": "chǎnpǐn de zhìliàng hé jiàgé",
+      "meaning": "Product quality and price — the canonical pairing in BCT-level sales and marketing discourse",
+      "register": "business"
+    },
+    {
+      "zh": "我认为",
+      "pinyin": "wǒ rènwéi",
+      "meaning": "I think / I believe / in my assessment — slightly more formal and assertive than 我觉得; appropriate in written reports",
+      "register": "neutral / written"
+    }
+  ],
+  "essay_takeaways": [
+    "Role-handover speech formula: 从今天开始，将由我来负责[新部门]，我将和大家一起工作，这对我来说是一个新的开始 is a polished, reusable template when taking over a team or role. Pair it with a humble dual-admission (我对…还不是很了解，也不太懂…的管理) and a request for collegial help (希望各位能给我更多的帮助) to build goodwill without losing face.",
+    "Establish credibility through tenure: 从X年开始…一直到今年，工作了Y年 is a concise formula for anchoring your experience to a timeline. The progression from start point (从…开始) through unbroken duration (一直到) to total years (工作了Y年) accomplishes in one sentence what English often takes a paragraph for.",
+    "Enumerate business advice in threes: 第一……，第二……，第三…… signals organisational clarity to Chinese business audiences. Always open with the most concrete item and close with 我认为，这些建议对我们的帮助很大 or a similar endorsement. Never leave the list without a personal sign-off.",
+    "Use 在我看来 / 对…来说 / 就我来说 for perspective — rotate them strategically: 在我看来 is most assertive (your own reading of the situation); 对我来说 frames personal impact or relevance; 就我来说 speaks from personal experience in contrast to general claims. All three soften assertions without erasing them.",
+    "Use 才 for business logic conditionals: X，才会Y means 'only if X, then Y' — stronger and more logical than simply stating Y. In a competitive-analysis passage, 产品质量好，价格便宜，客户才会喜欢 makes the causal chain explicit and persuasive rather than implied.",
+    "把-sentence density signals task completion: when writing a task-completion narrative (what I accomplished today, a project summary), load 把 constructions to foreground the successful handling of each item. Five 把-sentences in six sentences, as in the Lesson 5 passage, is stylistically appropriate for a to-do-list diary or work log.",
+    "Chain directional complements for office movement: 上去/下来/进去/出来/过来 attached to verbs create vivid, idiomatic workplace narrative. 广告部的小王下来找我 is more natural than 小王从楼上来找我. These compounds are small but conspicuous markers of fluency in Chinese office writing.",
+    "刚……（不久），又…… creates a 'barely caught my breath' effect: this back-to-back structure is the Chinese equivalent of 'no sooner had I X than Y'. It efficiently conveys a hectic sequence without needing transition sentences — critical for professional narrative that must be both dense and readable.",
+    "终于 as a narrative payoff: place 终于可以……了 at the end of a completed task sequence to mark resolution or relief. It functions like 'at long last' or 'finally' — one adverb carries the emotional weight of everything that preceded it. Use it sparingly for maximum impact.",
+    "Cultural opener for company event writing: begin with 对中国人来说，[节日]是最重要的节日 when writing about a seasonal company event. This shows cultural awareness, immediately grounds the text in shared context, and makes the subsequent event description feel purposeful rather than incidental.",
+    "虽然……但是……还是 as a closing concessive: this structure is the standard pattern for acknowledging a trade-off at the end of a passage. Adding 还是 in the result clause stresses that the outcome persists despite the concession — 今天虽然不上班，但是我还是觉得很累 is more nuanced than simply saying 我很累."
+  ]
+}

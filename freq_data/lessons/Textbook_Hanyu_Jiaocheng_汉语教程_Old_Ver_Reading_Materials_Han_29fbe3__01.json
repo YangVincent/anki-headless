@@ -1,0 +1,464 @@
+{
+  "source": "汉语阅读教程第三册 (Hanyu Yuedu Jiaocheng Vol. 3) — OCR extract",
+  "ocr_quality_note": "Moderate-to-poor OCR: systematic confusions include 革/草→系, 贵/责→资, numbers garbled, English glosses and pinyin interspersed. Texts below have been reconstructed with obvious OCR errors silently corrected; residual errors may remain.",
+  "model_essays": [
+    {
+      "title": "藏羚羊的命运",
+      "genre": "investigative expository / environmental journalism",
+      "text": "在中国的青藏高原上生活着一种美丽而独特的动物——藏羚羊。在20世纪初，美国一位探险家到青藏高原考察，他一次就看到了近两万只藏羚羊。那时候，在青藏高原大约生活着一百多万只藏羚羊。一百多年过去了，在人类活动的影响下，青藏高原已经没有了以前那种到处是藏羚羊的景象。调查表明：20世纪90年代初，藏羚羊的数量不超过75000只。\n\n是什么原因使藏羚羊的数量减少得这么快呢？人类对藏羚羊究竟了解多少呢？美国的一位研究者从1985年到1997年对青藏高原的野生动物作了深入的考察和研究，发现了藏羚羊数量越来越少的原因。\n\n藏羚羊在晚上，只要有灯光照射，就绝对跑不出灯光照射的范围。于是，很多偷猎者就在晚上，从打开车灯的汽车上开枪向羊群射击。一次打死一二百只是很平常的事，最多一次可以打死500只藏羚羊。人们杀死藏羚羊以后，迅速剥下羊皮。在黑市上，一张羊皮可以卖到人民币500元以上。除了羊皮以外，雄性的藏羚羊头还被制作成羊头标本卖给游客，而藏羚羊角既可以做藏刀的手柄，还是藏药中不可缺少的珍贵药材。人们为了得到更多的羊皮，大量捕杀藏羚羊，这就是藏羚羊大量减少的真正原因。\n\n那么，人们要那么多的藏羚羊皮做什么呢？人们从藏羚羊皮上摘下羊绒，用羊绒织成价格昂贵的披肩，卖给那些有钱的先生和太太。按照尺寸、颜色、织法的不同，一条藏羚羊绒披肩在欧美市场上可以卖到一万美元以上。但是，这个数字不能代表披肩的真正价值，因为那是用青藏高原上平均每天50只藏羚羊的生命换来的。\n\n藏羚羊的偷猎和羊绒加工贸易已经形成一个涉及许多国家和地区的网络，对藏羚羊的捕杀、羊皮的买卖和羊绒的加工等已经达到了高度的专业化、国际化。首先是偷猎者把剥下的藏羚羊皮80到100张装进一个袋子，用车偷运到格尔木或拉萨的黑市上，羊皮收购商买到羊皮以后，在自己的秘密地点找人用手工把羊绒从羊皮上一点一点地摘下来。从一只藏羚羊皮上最多可以得到150克羊绒。然后，收购商把又轻又小的羊绒装进汽油桶、睡袋或内衣里，通过公路，把羊绒运到国外。据说，摘完羊绒的羊皮大部分被扔掉了。在摘羊绒的季节，拉萨河里到处可以看见被扔掉的藏羚羊皮。\n\n以后，那些羊绒被织成一种名贵的手工艺品——披肩。这些价格昂贵的披肩绝大多数都流向国外，其数量以欧洲最多。\n\n由此可见，正是人们对舒适的生活和金钱无休止的追求，才造成了对藏羚羊的大量捕杀。如果我们现在还不对藏羚羊的捕杀采取措施，那么在不远的将来，我们的后代只能在博物馆和历史教科书上看到藏羚羊了。\n\n近些年，中国政府加大了对藏羚羊的保护力度，同时也加大了对青藏高原环保工作的投入，藏羚羊的种群数量在一年年增加。据报道，到2009年，西藏境内藏羚羊数量已经达到15万只左右，青海可可西里地区藏羚羊也已达到60000只。让我们共同携起手来，让藏羚羊和人类共同长久地生存下去。",
+      "summary": "Traces the dramatic decline of Tibetan antelope from over 1 million to under 75,000 due to poaching for cashmere shawls, exposing the international black-market supply chain, and ends with a cautiously optimistic note on government protection.",
+      "why_study": "Excellent model for investigative/advocacy writing. Shows how to open with historical contrast, build logical cause-effect chains, narrate a supply chain step-by-step, deploy statistics with emotional weight, and close with a call to action. Register is formal-journalistic, highly imitable.",
+      "key_devices": [
+        "Historical contrast opening (那时候 vs 一百多年过去了)",
+        "Rhetorical questions to advance argument (是什么原因……呢？)",
+        "由此可见 to pivot to moral conclusion",
+        "正是…才… to assign blame precisely",
+        "Step-by-step supply chain narration (首先…然后…以后…)",
+        "Statistics with emotional framing (平均每天50只藏羚羊的生命换来的)",
+        "Call-to-action close with communal 让我们……"
+      ]
+    },
+    {
+      "title": "拒绝戒指披肩——藏羚羊绒披肩",
+      "genre": "long-form feature / cultural-investigative essay",
+      "text": "藏羚羊绒披肩的历史很悠久。早在唐朝，玄奘在他的中亚和印度游记中就提到克什米尔出产一种极柔软的披肩。几个世纪以来，印度北部有一种风俗，就是母亲从女儿出生的时候起就开始为她们存钱，以便在女儿出嫁时买一条藏羚羊绒披肩作为最珍贵的嫁妆。17世纪60年代，首先到达克什米尔的西方人弗朗克斯·贝尼尔第一次把这种披肩介绍到欧洲。18世纪70年代，羊毛披肩成为欧洲妇女的时髦服装，而且人们认为披肩越轻软越珍贵，藏羚羊绒披肩可说是其中的珍品。\n\n一根藏羚羊绒披肩的毛丝直径是9-12微米，而一般山羊绒的直径是14-17微米，极细的纤维决定了藏羚羊绒披肩非常轻软。传说，用藏羚羊绒披肩包起一个鸽子蛋，就可以孵出小鸽子。据说用藏羚羊绒织成的披肩可以很容易地从一枚戒指中穿过，所以，藏羚羊绒披肩又有「戒指披肩」之称。这些说法虽然有些夸张，但也说明了藏羚羊绒披肩不寻常的轻柔和保暖性。\n\n一条女士用的披肩长2米，宽1米，重100克。这是成品的重量，织这样一条披肩要用300-400克生绒，而一头藏羚羊最多产绒150克，所以，一条女士披肩是用3头藏羚羊的生命和无数人的辛勤劳动换来的。而男士的披肩尺寸更大，有3米长，1.5米宽，重250克，它甚至有自己专用的名称——「固沙拉」。「固沙拉」披肩最常见的颜色是米色、灰色、咖啡色。白色是最罕见和珍贵的，藏羚羊绒中只有12%-14%的绒是白色的，它们来自藏羚羊的胸部和腹部。\n\n为了制止人们对藏羚羊的偷猎活动，中国政府从20世纪80年代起就颁布了一系列的法令。但是，偷猎、买卖藏羚羊已经成为跨国、跨地区的活动，因此，需要全世界的动物爱好者和各国政府联合起来，统一行动。实际上，1999年10月，各国政府机构代表、民间组织和专家已经坐到一起，为挽救和保护即将灭绝的藏羚羊寻找办法，并且发表了关于藏羚羊保护及贸易控制的「西宁宣言」。同时世界自然基金会（WWF）1999年10月21日在北京宣布：全世界「不要购买藏羚羊绒」活动也正式开始。我们相信，随着人们保护野生动物意识的提高，藏羚羊一定会得到有效的保护，数量也会越来越多。",
+      "summary": "Historical and commercial investigation of the Tibetan antelope shawl: traces the shawl from Tang Dynasty to European fashion, explains the physical properties that make it prized, calculates the animal cost per shawl, and reports on international protection efforts.",
+      "why_study": "Superb model for feature writing that blends history, science, economics, and advocacy. Shows how to use precise measurements and calculations as persuasion, how to handle legend vs. fact, and how to end on an optimistic-activist note. Strong in formal-journalistic register with touches of lyrical description.",
+      "key_devices": [
+        "Historical depth: tracing a commodity across centuries",
+        "Legend vs. fact contrast (虽然有些夸张，但也说明了……)",
+        "Precise measurements as persuasion (一条女士披肩是用3头藏羚羊的生命换来的)",
+        "International scope: China → India → Europe → global advocacy",
+        "随着……的提高 for optimistic forward projection",
+        "Compound predicate for accumulation (颁布了……需要……联合起来……)"
+      ]
+    },
+    {
+      "title": "保护臭氧层",
+      "genre": "science popularization / environmental advocacy essay",
+      "text": "臭氧是由三个氧原子结合在一起的、蓝色、有特殊气味的气体。地球上90%的臭氧气体集中在距地面15公里至50公里的大气层中。大气臭氧层的厚度仅为几毫米。别小看这几毫米厚的臭氧层，千百年来，地球上的万物所以能顺利生长，全靠臭氧层吸收了对地球上生物有害的那部分太阳紫外线。没有臭氧层，地球上的生物将会被毁灭。\n\n臭氧层与人们的生活关系密切。医学专家指出，一般情况下，太阳发出的短波紫外线对人体有害，而臭氧层正好能挡住短波紫外线，使人体不受侵害。如果臭氧层被破坏，短波紫外线就会直射到地球表面，紫外线波长越短，对人体的危害就越大，致癌率就越高。例如，皮肤癌多发生在西方国家，其原因有三点：一是白种人皮肤中色素少，抗紫外线照射的能力低；二是西方人喜爱日光浴，接受紫外线辐射的机会大大增加，因此容易得皮肤病；三是遗传因素。而东方人皮肤癌的发病率相对低一些，主要原因是黄种人皮肤中色素较多，对抵御紫外线辐射有一定作用；另外东方人穿衣服身体外露部分少。但是，目前由于污染越来越严重以及人们穿得越来越少，因此，中国人皮肤癌的发病率已有上升趋势。研究表明，地球上空臭氧层每减少1%，到达地球表面的紫外线辐射就会增强2%，全球皮肤癌的发病率可能会上升25%。\n\n臭氧层的破坏不仅对人类，而且对动植物也会产生严重的危害。当危害到来时，人可以想办法防护。如果太阳光很强，可以戴太阳镜，皮肤怕晒可以穿衣服，也可以躲到没有紫外线辐射的地方，可是地里的农作物没有腿，更不会跑，所以受到的损害就更大。强烈的紫外线会使某些农作物的化学组成发生变化，从而使作物在生长过程中发生变异，使产量、质量下降。紫外线辐射的增加，对海洋生物也有危害。研究表明，如果臭氧层减少25%，海洋中初级生物产量将减少10%，水面附近的生物将减少35%，这将使世界鱼类和贝壳类动物的产量大大减少。\n\n臭氧层与人类及地球上的生物关系如此密切，我们应该好好儿保护它。然而，随着工业化的发展，人为造成的对臭氧层的破坏十分严重，这其中，电冰箱、空调机、汽车的大量使用所造成的破坏更加突出。因此，要减少使用或者不用一切对臭氧层有破坏性的物质。研究发现，破坏臭氧层的主要物质是氟利昂。近些年，世界各国都在进行技术开发，推广使用氟利昂的替代物和无氟产品，无氟冰箱、无氟空调机等已经走进了百姓家。\n\n保护臭氧层是一项艰巨而重要的任务。为了我们人类的生存，为了保护我们人类生存的环境，大家行动起来吧！",
+      "summary": "Explains what ozone is, how the ozone layer protects life, the escalating harm from its depletion (to humans, crops, marine life), human causes, and current mitigation efforts; closes with a call to action.",
+      "why_study": "Model for science-popularization writing that moves from definition to mechanism to quantified harm to cause to solution to call to action. The three-reason enumeration (一是……二是……三是……) and percentage statistics are highly imitable. Register: formal-popular science.",
+      "key_devices": [
+        "别小看…— dismissing apparent triviality to hook reader",
+        "Three-point enumeration (一是……二是……三是……)",
+        "越……越…… chain for escalation (波长越短，危害就越大)",
+        "不仅……而且…… to extend scope of harm",
+        "然而 pivot to human cause after establishing natural value",
+        "Quantified if-then: 每减少1%……就会增强2%……可能会上升25%",
+        "Imperative close: 大家行动起来吧！"
+      ]
+    },
+    {
+      "title": "议食文化",
+      "genre": "comparative cultural essay / personal narrative",
+      "text": "一说到吃，中国的美食家们就津津乐道起来。他们从南吃到北，从天上吃到地下。地道的菜要做几天几夜，精致的点心要里三层外三层。\n\n中国的菜是好吃。不管是大的宾馆，还是小的店堂，只要它有特色，一吃就让你忘了自己还有高血压、糖尿病和肥胖症。\n\n中国的食品做起来很复杂。肉要慢炖，鸡汤要温煲，面要缓缓地发。一桌人吃饭，很可能得超过一桌子的人来准备。\n\n于是，宾客到齐后，端菜师傅就会向你报出每一道菜的名称，是川菜的叫得很有「辣」味，是粤菜的叫得很有「生」调，那情景很有点儿唱戏的感觉。文静一点儿的饭桌，主人说「吃呀，吃呀。」一边就开始为客人敬菜了。每人的小碟子很快地就堆得像小山一样高。\n\n要是有客人到家里来做客，说是只吃晚饭，可是天一亮主人就开始忙了。买菜、拣菜、洗菜、切菜、烧菜、上菜、敬菜。客人酒足饭饱后，扔下了一大半剩菜说声感谢，主人欢乐是欢乐，但欢乐里渗透着满身心的劳累。\n\n平时的家常菜，起码也要四菜一汤。累了一天下班回到家，结果却比上班还忙，为了吃得舒服，必须要打起精神。\n\n所以，把中国称做「美食国」，是一点儿不过分的。\n\n可是北美人呢？从眼睛睁开用早餐到晚上的正餐，家里做饭所花的时间比中国妇女上公园打太极拳的时间还要短。\n\n早餐各人有各人的吃法，你想吃麦片香蕉切片加葡萄干，他想吃黄油面包加煎鸡蛋，所以，只要各人吃饱自己的肚子就行了。午餐在外面买着吃。真正需要为做饭忙的，大概也就是晚餐了。\n\n然而这种忙，也还是很有限度的。你可以从食品店里买到快速的包装食品。蔬菜、荤菜，买来已经是煮熟或半熟的了。晚饭的餐桌上不需要上几道菜肴，最常见的吃法是：一小碗汤、主食、甜点、水果，再喝点儿咖啡或者茶。汤可以用罐头再加水和你所喜欢的食料，主食是炒饭。甜点、水果一概不用煮。一顿饭30分钟就可以准备好了。单身汉更是简单随意。餐餐吃汉堡包、三明治也不觉得腻。所以，有的中国人开玩笑说：「不会做饭的，也可以去加拿大和美国的饭馆当厨师。」\n\n这就是北美人的食文化。一代又一代的人就是这么过来的。文化培养了习惯，形成了风俗。他们嫌中国的菜太油、味精多、好放盐。到中国餐馆来吃饭，一家子会点一样款式的四盘菜放在一起吃。他们不懂中国菜的吃法，讲究的只是氛围、情调、方便，而并不在意烹调手艺的好坏。\n\n结果，这边的文化少了，其他方面的文化补充了上去。省下的时间，他们可以放慢生活的节奏，把家务劳动的时间用来锻炼身体，带着轻松的好心情，度过愉快的业余生活。\n\n所以，北美人的精神文化和东方人的饮食文化一样，是居世界领先地位的。\n\n由于历史短，北美没有自己的食文化，但是它却集世界各国之美食作为自己多元的饮食文化，使自己的短处，又摇身一变成了特长。北美人喜欢搞宴会，却很少有人请客，往往是大家聚在一起，各自带上一两盘菜，然后有人带酒，有人带饮料，有人带点心，放在一起吃，热闹欢快，谁也没有累着谁。剩下的食物也一定都打包带回去，名曰「狗食包」（doggy bag），其实都是人吃的。\n\n北美人的食文化，对我们也有一定的借鉴意义。",
+      "summary": "A breezy first-person comparative essay on Chinese vs. North American food culture: Chinese cooking's elaborate preparation vs. North American efficiency, ending with a surprising argument that North America's lack of food culture became its multicultural strength.",
+      "why_study": "Outstanding model for comparative cultural essays in a personal, slightly ironic register. Shows how to use self-deprecating humor to make a point, how to pivot from criticism to genuine appreciation, and how to use concrete vivid details (买菜、拣菜、洗菜……) instead of abstractions. The closing logical twist (短处变特长) is a device worth imitating.",
+      "key_devices": [
+        "津津乐道 as lead colloquial idiom to set register",
+        "Hyperbolic vivid scene-setting before analysis",
+        "Parallel comparison structure: Chinese X versus North American X",
+        "Concrete verb enumeration: 买菜、拣菜、洗菜、切菜、烧菜……",
+        "Ironic understatement: 不会做饭的，也可以去美国当厨师",
+        "Logical twist close: 短处摇身一变成了特长",
+        "借鉴 as closing key word for intercultural takeaway"
+      ]
+    },
+    {
+      "title": "养老：一个严肃的话题",
+      "genre": "social policy commentary / argumentative essay",
+      "text": "随着科学技术的不断进步和人们生活条件的日益改善，中国的人口死亡率大大降低，人口寿命不断延长，中国已迈入「老年型」社会。这样，养老就成为全社会关注的一个重要问题。\n\n按照国际上60岁以上老年人口达到10%、65岁以上老年人口达到7%即为进入老龄化社会的标准，中国在1999年就已经进入了老龄化社会。目前，中国已成为世界上老年人最多的国家，60岁以上老年人口已经达到1.4亿，占总人口的11%。据推算，到2050年，中国老年人口总数将增至3.74亿，占人口总数的24.48%，这就是说，到那时候中国每4个人中就有一个老年人。\n\n老年人是人口中特殊的群体，当他们从工作岗位上退下来以后，生活空间越来越小。当他们的收入降低，当他们与社会的沟通、联系越来越少，当他们的保健、营养、就业、学习、交通、家庭、心理、精神等特殊的需求因种种原因得不到满足时，那种孤独和寂寞的心情是难以用语言来形容的。\n\n老年人渴望社会的关注，渴望儿女的关怀，渴望享受天伦之乐，渴望走出家门继续为社会作些贡献。对此，社会和家庭成员应该充分理解和关怀老年人。要知道，关怀老年人是一种美德，并且也意味着关怀未来的自己。正如人们常说的：今天你关怀老人，明天就会有人关怀你。现实生活中，由于受「养儿防老」传统观念的影响，大多数子女在赡养老人、尊重老人问题上是尽职尽责的。但由于种种原因，有些子女的做法还不能使他们的父母十分满意。\n\n养老到底应该走向何方呢？首先是加入养老保险，它是人们未来生活的保障，是安全投资中最为理想的选择。但是应该看到，在现阶段，大多数人在观念上对养老保险还没有完全接受，要让人们逐步认识到它的有效性、合理性还需要些时间。而目前最为可行的养老出路是走进养老院。当然这里有个转变观念问题：老人走进养老院并不能说明儿女不孝，孝顺老人并不是非要把自己的事业、甚至把家庭都赔进去。事实上，许多老人是渴望走进老人群体的。因为老人之间容易交流和沟通。\n\n养老是一个社会问题，需要全社会作出努力。有专家建议，解决养老问题，要发展经济，增强经济承受能力，实现老年人与其他人共享经济社会发展成果；要建立和完善老年社会福利保障体系，力争实现全社会养老保险、医疗保险；要建立以社区为中心的老年服务体系，做好老年福利服务、生活照料、医疗保健、体育健身、文化教育和法律服务等方面的建设；要建立和完善老年法律法规体系，宣传并落实老年人权益保障法；要建立以居家养老为基础、以社区服务为依托、以社会机构养老为补充的养老机制；要提高老年人生活质量，营造健康老龄化的环境。\n\n总之，让我们把关怀老人作为一种义不容辞的社会责任，尊老敬老，使天下所有的老年人都能过上愉快的晚年生活。",
+      "summary": "Analytical essay on China's aging population challenge: presents demographic data, describes the psychological needs of the elderly, evaluates options (insurance vs. nursing homes), and calls for a multi-level social support system.",
+      "why_study": "Model for policy/social commentary essays. Excellent example of the 问题分析→原因→解决方案→号召 structure. The six-point policy list using 要……要……要…… is a powerful rhetorical pattern for formal Chinese writing. Rich in formal register vocabulary.",
+      "key_devices": [
+        "随着……的不断进步/日益改善 opening",
+        "International standard as legitimating authority",
+        "Anaphoric 渴望……渴望……渴望……渴望…… for emotional accumulation",
+        "养老到底走向何方？rhetorical question as structural pivot",
+        "Six-point policy list: 要……要……要……要……要……要……",
+        "义不容辞 + 总之 closing formula",
+        "对此 to introduce the author's stance"
+      ]
+    },
+    {
+      "title": "城镇职工的「双休日」",
+      "genre": "sociological survey analysis / opinion essay",
+      "text": "1995年5月1日，中国开始实行每周工作5天的「双休日」制度，这一制度改变了中国城镇职工的生活方式。\n\n休闲方式因人而异\n\n人们是如何度过「双休日」的呢？一份关于「双休日」的调查表明，北京市民中50.8%的人外出娱乐，30.5%的人在家休闲。外出娱乐的人中，逛商店购物最普遍，其次是串门或朋友聚会；去大小公园、郊外风景区游玩，去歌舞厅、健身中心、电子游戏厅等娱乐场所娱乐、健身也是部分人的休闲方式；也有的人周末去外面就餐或者看电影、欣赏文艺演出。\n\n那些周末不出门的人又是怎样度过的呢？他们中5.8%的人在家睡觉、聊天儿或什么也不做；79%的人在家看电视、听音乐或读书看报；还有12.7%的人邀请朋友来家聚会。由此可见，这些不出门的人，周末多与电视、书报和音乐为伴，他们要求享受的是一个既经济、轻松，又多少能增长些知识的假日。\n\n上海市一家公司对市民休闲方式的调查结果显示，上海人最喜爱的双休日活动是到郊外旅游，其次是在市区旅游，两者一共占49.3%。居第三位的是看电视，有7.8%的居民认同这种既轻松又经济的娱乐方式。另有7.2%的人选择阅读书报杂志；4.2%的人最愿意到商业区购物，认为身着时装，走在人流如潮的街上是最好的休闲。\n\n调查分析表明，调查对象的收入及职业状况与对休闲方式的选择明显有关。收入在中等以上的家庭，更多地选择到市区或郊外旅游，而低收入家庭则倾向于在家里看电视或在市区游玩。从性别来分析，男性市民更愿意出门旅游，而把逛商业区购物作为休闲活动的绝大多数是女性。对在职和离退休人员的调查和比较显示，前者更愿意外出，而后者则愿意在家享受天伦之乐。\n\n相关分析表明，休闲方式的选择与每个人的文化素养和休闲观念有很大关系。休闲作为一种生活态度，也明显受到特定城市文化传统的影响。上海在历史上曾经被称做「十里洋场」，这里的生活化气息比北京和广州都浓厚。\n\n休闲带来了商机\n\n新的工时制给商业带来了新的财源。北京各大商场，周末假日营业额比平日增加三至五成。\n\n在中国各大城市，平日百姓可望而不可即的大宾馆、大饭店，纷纷推出面向大众的套餐、自助餐、早晚茶。什么「周末大减价」、「假日大酬宾」等商家价格战更是此起彼伏。\n\n在西方国家，休闲形成一个产业已经有不少年的历史了。如今，在中国，许多企业家也已认识到了休闲产业的发展潜力，出现了一批以休闲为主的企业和一些休闲场馆以及休闲俱乐部。\n\n过积极而有意义的休闲日\n\n目前，人们在「双休日」的活动大体上可分为良性和恶性两种类型。有的人首选学习求知的休闲方式，有的人在家教育子女，有的人选择健身运动。\n\n也有些人的休闲生活处于恶性状态：有些青年职工把双休日全部时间花在看电视或玩麻将上；有的人从早到晚在歌舞厅、录像厅里虚度……\n\n一些社会学家指出，如果人们只求娱乐，而不能使休闲生活促进高效的工作，那么中国人的小康生活和真正的休闲生活将难以尽快到来。\n\n学者们指出，休闲不等于毫无限制地玩乐，也不是懒懒散散地打发时光。学会过上积极而有意义的休闲日，才能使人们的生活质量得到明显改善，才能使人们的生产价值得到更完善、更充分的体现。",
+      "summary": "Survey-based analysis of how Chinese urban workers spend the two-day weekend introduced in 1995: compares Beijing vs. Shanghai patterns, links leisure choices to income and gender, examines commercial opportunities, and argues for meaningful rather than mindless leisure.",
+      "why_study": "Excellent model for data-driven analytical writing. Shows how to organize survey data with clear subheadings, compare city/demographic segments, link statistics to broader social commentary, and use rhetorical questions as section closers. The 可望而不可即 and 此起彼伏 idioms in context are high-value.",
+      "key_devices": [
+        "Dated policy as authoritative opening anchor",
+        "Bold subheadings to organize multi-part essay",
+        "由此可见 after data block to draw inference",
+        "Demographic breakdown: income → gender → employment status",
+        "可望而不可即 and 此起彼伏 in natural journalistic context",
+        "良性/恶性 binary opposition as analytical frame",
+        "Closing scholar citation: 学者们指出……才能……"
+      ]
+    },
+    {
+      "title": "闲话中国茶",
+      "genre": "cultural expository essay",
+      "text": "中国是茶叶的故乡，中国人是世界上最先认识并且种植制作茶叶的。中国历史上有不少有关茶的书，如《茶经》、《茶录》、《茶谱》、《茶史》等。这些书对种茶、采茶和饮茶都作了研究和总结。\n\n中国人最爱品茶，在家中喝茶，上茶馆也要喝茶；开会时喝茶，朋友一起谈话时要喝茶，甚至打架讲理时也要喝茶；早饭前喝茶，午饭后也要喝茶。中国人喝茶的习惯，影响了不少国家。17世纪中叶，中国茶开始传入美国。美国人好冷饮，尤其喜欢将茶泡水后冷却，去掉茶叶，倒在有冰块的杯子里，再加入少量的糖或果汁，制成「冰茶」饮用。18世纪初，中国茶进入伦敦市场。饮茶逐渐在英国流行起来，并且形成了午后四五点钟饮「午后茶」的礼仪。印度在1780年首次引进中国茶；斯里兰卡在1841年开始引种中国茶树；俄国于1893年聘请中国人去做种茶技术顾问，茶叶生产得到了发展。到目前为止，饮茶习惯已经流传到100多个国家和地区，产茶国家和地区也已达到近50个。\n\n中国茶叶品种很多，习惯上可分为五类：绿茶、红茶、乌龙茶、花茶、紧压茶。\n\n绿茶采取茶树新叶，不经发酵，其成品的颜色以及冲泡后的茶汤较多地保存了鲜茶叶的绿色主调。\n\n红茶属于发酵茶类，因其干茶颜色和冲泡的茶汤以红色为主调，故名红茶。\n\n乌龙茶，也叫青茶，是一种半发酵茶，在中国几大茶类中，它独具特色，其茶汤为透明的琥珀色。\n\n花茶，又名香片，它是利用茶善于吸收异味的特点，将有香味的鲜花和新茶放在一起，茶将香味吸收后再把干花去掉而制成的。制成的花茶香味浓，茶汤颜色深，深得偏好重口味的中国北方人的喜爱。普通花茶大都是用绿茶制作，也有用红茶制作的。\n\n紧压茶是为了长途运输和长时间保存方便，将茶压成方砖状或块状，为了防止途中变质，一般紧压茶都是用红茶或黑茶制作。多数紧压茶品种比较粗老，干茶颜色呈黑褐色，茶汤为橙黄色或橙红色。\n\n各类茶叶中都有名茶。绿茶有名的有：杭州的西湖龙井、江苏太湖的碧螺春、安徽黄山的黄山毛峰、安徽六安的六安瓜片、河南信阳的信阳毛尖等。红茶有名的有：安徽祁门的祁红、云南的滇红等。乌龙茶有名的有：福建武夷山的武夷岩茶、福建安溪的铁观音、台湾南投县的台湾乌龙茶。花茶中有名的有：福州茉莉烘青、杭州茉莉烘青和苏州茉莉烘青。紧压茶有名的有：云南思茅和西双版纳的普洱茶、广西苍梧县的六堡茶。\n\n茶除了饮用外，还具有药用价值。茶可以祛痰止渴、防治癌症、预防「电视病」、抗衰老、减肥等。近年来，许多新的茶叶制品相继问世，有液体饮料茶，如茶叶汽水、可可牛奶红茶；有固体茶叶制品，如速溶茶品、柠檬红茶糖果等；还有用茶叶制成的名菜，如茶叶粉蒸肉、潮州茶香鸡等。\n\n喝茶少不了茶具。说到茶具，不能不提到宜兴紫砂壶。紫砂壶是江苏省宜兴县生产的茶具，造型与装饰都具有明显的民族风格。用宜兴紫砂壶泡出的茶独具特色，深受人们的喜爱。\n\n茶、咖啡、可可是世界著名的「三大饮料」。有报道说，21世纪茶叶将成为世界「饮料之王」。茶叶已被世界医学界公认为「当代最佳健康饮料」。",
+      "summary": "Comprehensive cultural essay on Chinese tea: historical primacy, global spread, five major categories with characteristics, famous regional varieties, medicinal uses, and the Yixing teapot; closes with tea's global recognition as top health beverage.",
+      "why_study": "Model for the encyclopedic cultural essay genre, showing how to organize extensive factual information into a readable flow. Classification structure (分为五类……) plus examples by region is highly practical for writing about any Chinese cultural category. The 少不了……不能不提到…… linking device is idiomatic.",
+      "key_devices": [
+        "Classification structure: 习惯上可分为五类",
+        "因……故名…… etymology device",
+        "独具特色 as value-judgment close for each item",
+        "少不了…… / 不能不提 as transition idioms",
+        "Geographic enumeration of famous varieties",
+        "Closing authoritative endorsement: 世界医学界公认为……",
+        "问世 as formal synonym for 出现"
+      ]
+    },
+    {
+      "title": "白酒的历史",
+      "genre": "historical narrative / cultural essay",
+      "text": "自古以来，酒就是中国人喜欢喝的东西之一。到了节日，亲朋好友聚会，都少不了酒。那么，酒是什么时候产生的？是用什么做的？又是谁发明的呢？\n\n关于酒的来源有两种说法，一种是《酒经》中记载，在4000年前的夏朝初期，有一个人用桑叶把米饭包起来，经过一段时间的发酵，就造出了酒。他造酒是为了把酒献给当时的皇帝，以便得到奖赏。皇帝喝了他造的酒，觉得味道很好，但是他怕后代因为饮酒而使国家灭亡，就下令不许人们造酒。\n\n另一种说法是在3000多年前的周朝，有一个叫杜康的放羊人，一天，他把小米粥装进竹筒里，带着去放羊。竹筒放在一棵树下，走的时候忘了带走。过了半个月，他赶着羊回来，在树下找到了自己忘了带走的竹筒。他打开一看，竹筒里的小米粥已经发酵，变成酒了。他把酒送给村子里的人喝，大家都说这个东西好喝。于是，他就办起了一家杜康酒店。\n\n以上两种关于酒的发明的说法到底哪个是真的，还需要历史学家作进一步的研究和考证，但是酒早在周朝就已经能够酿造这是历史事实，因为《周礼》当中就记载了酿酒应该注意的六个问题，可见当时酿酒技术已经非常完备。中国的考古学家还在河南安阳发现了殷商的酿酒工厂遗址，这证明在3000多年以前中国就有了很发达的酿酒业。\n\n中国古代的酒都是用谷物酿造的。首先把酒曲加入到谷物中，因为酒曲中含有大量的霉菌和酵母，分别起着糖化和使谷物发酵的作用。经过一段时间的糖化和发酵，酒就做好了。19世纪末，欧洲人研究了中国的酒曲后，才明白了中国这种独特的造酒方法，并且称这种造酒法为「淀粉发酵法」。\n\n自从有了酒，中国的文人学士就成了酒的爱好者，他们在喝酒的同时，还给酒起了不少好听的名字，如「琼浆」、「玉液」、「琼苏」等。而在史书中记载的最早的酒名，大概是南北朝的「乾和酒」了。唐宋两代的酿酒业很兴旺，常用「春」为酒名。宋明以来，「珍珠红」、「琼酥」都是当时有名的美酒。到了清代，长江以南酿造的黄酒流行全国，其中绍兴酒最有名。\n\n现在，我们从书中常常可以看到描写古代人喝酒的情景，好像古代人都很有酒量。比如，武松就是喝了15碗酒以后，打死了一只虎，成了打虎英雄。那是因为古代酿出来的酒酒精度数不高，所以他们才能一次喝那么多而不醉。\n\n现在，酒的种类越来越多了，除了用粮食酿造的白酒以外，还有啤酒、果酒等，但是中国一般老百姓最喜欢喝的还是白酒。目前，中国最有名的白酒要数贵州的「茅台酒」、四川的「五粮液」、四川的「剑南春」、「泸州老窖」、山西的「汾酒」、安徽的「古井贡酒」等，这些酒一般都比较贵。当然也有不少又便宜又好喝的酒，那才是人们平时常喝的酒呢。",
+      "summary": "Historical narrative tracing the origin of Chinese liquor through two legendary accounts (Xia Dynasty and Du Kang), archaeological evidence, brewing technology, literary names for wine, and a survey of famous modern brands.",
+      "why_study": "Model for cultural-historical narrative. Shows how to present competing origin stories with appropriate hedging (到底哪个是真的……还需要考证，但……这是历史事实), use archaeological evidence to strengthen argument, and blend historical sweep with folksy anecdote (武松打虎). Formal and narrative registers coexist effectively.",
+      "key_devices": [
+        "Three rhetorical opening questions (什么时候？用什么？谁发明？)",
+        "Two-version comparison with hedging: 到底哪个是真的，还需要考证，但……是历史事实",
+        "考证 + 历史事实 as formal epistemic pair",
+        "自从……就…… temporal clause",
+        "Anecdote (武松) to explain historical phenomenon",
+        "要数…… to introduce superlatives in a list"
+      ]
+    },
+    {
+      "title": "茅台酒",
+      "genre": "cultural/commercial history essay",
+      "text": "茅台酒是世界三大名酒（中国茅台、法国白兰地、苏格兰威士忌）之一，已有800多年的历史。1915年茅台酒在美国「巴拿马万国博览会」上荣获金奖，从此誉满全球。\n\n茅台酒被称为中国国酒。它有着悠久的酿造历史、独特的酿造工艺、上乘的内在质量和深厚的酿造文化，在中国政治、外交、经济生活中发挥了无可比拟的作用，在中国酒业中占有特殊地位。\n\n茅台酒产自茅台镇。茅台镇位于贵州省仁怀市赤水河畔，酿制茅台酒用的水主要是赤水河的水。赤水河水质好，入口微甜，无溶解杂质，用来酿酒特别甘美。茅台镇还具有极特殊的自然环境和气候条件。它位于贵州高原最低点的盆地，远离高原气流，终日云雾密集。夏日高温期长达5个月，一年有大半时间笼罩在闷热、潮湿的雨雾之中。这种特殊气候、水质、土壤条件，对于酒料的发酵、熟化非常有利，同时也在一定程度上对茅台酒中香气成分的微生物的产生、精化、增减起了决定性的作用。可以说，如果离开这里的特殊气候条件，酒中的一些香气成分就根本无法产生，酒的味道也就欠缺了。茅台酒的传统制作方法，只有在茅台镇这块不大的地方去做，才能酿造出这精美绝伦的好酒。\n\n茅台酒的酿制技术被称做「千古一绝」。茅台酒的整个生产工艺不同于其他酒，它生产周期7个月，蒸出的酒入库贮存4年以上，再与贮存40年、30年、20年、10年、8年、5年的陈酿酒混合勾兑，最后经过化验、品尝，再装瓶出厂销售。\n\n茅台酒的高品质多年保持不变。在1952年、1963年、1979年、1984年、1989年举办过的五次全国评酒会上，茅台酒五次蝉联国家名酒金奖，并连续四次荣获国际金奖。全国评酒会对贵州茅台酒的风格作了这样的概括：「酱香突出，幽雅细腻，酒体醇厚，回味悠长」，更有人赞美它「风味隔壁三家醉，雨后开瓶十里芳」。",
+      "summary": "Brand profile of Maotai: history, geography and microclimate of Maotai Town, unique 7-month production process with multi-year blending, and award record, ending with evocative tasting notes.",
+      "why_study": "Model for product/brand writing in formal Chinese. Shows how to integrate geographical, historical, technical, and sensory information. The final tasting-note couplet (隔壁三家醉，十里芳) is an excellent model for closing with memorable imagery. 无可比拟 and 精美绝伦 are high-register idioms worth internalizing.",
+      "key_devices": [
+        "Triad opening: 世界三大名酒 as instant legitimacy",
+        "Geographical determinism argument: 水质→气候→酒质",
+        "只有在……才能…… for irreplaceable conditions",
+        "千古一绝 as superlative label",
+        "Awards list with 蝉联 (retain championship consecutively)",
+        "Four-character tasting notes: 酱香突出，幽雅细腻，酒体醇厚，回味悠长",
+        "Closing poetic couplet for sensory impact"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "正是…才…",
+      "explanation": "Emphasizes that a specific cause is precisely what produces the result. Stronger than 因为…所以…; conveys 'it is exactly X and nothing else that accounts for Y'. High register; common in formal editorials and arguments.",
+      "examples": [
+        "正是人们对舒适生活和金钱无休止的追求，才造成了对藏羚羊的大量捕杀。",
+        "正是这种特殊气候条件，才使茅台酒有了独一无二的香气。"
+      ]
+    },
+    {
+      "pattern": "由此可见…",
+      "explanation": "Pivot phrase meaning 'from this we can see / therefore we conclude'. Places a logical inference after a block of evidence. Formal; essential in expository and argumentative writing.",
+      "examples": [
+        "由此可见，汉族是因汉朝而得名。",
+        "由此可见，这些不出门的人，周末多与电视、书报和音乐为伴。"
+      ]
+    },
+    {
+      "pattern": "随着…的（不断）发展/进步/提高，…",
+      "explanation": "Standard expository opening or transition: 'as X has progressed/developed, Y has resulted'. Nearly obligatory in formal Chinese writing about social or scientific trends.",
+      "examples": [
+        "随着科学技术的不断进步和人们生活条件的日益改善，中国的人口死亡率大大降低。",
+        "随着人们保护野生动物意识的提高，藏羚羊一定会得到有效的保护。"
+      ]
+    },
+    {
+      "pattern": "不仅…而且…（甚至…）",
+      "explanation": "Progressive addition: 'not only X but also Y (and even Z)'. 而且 adds equal weight; 甚至 escalates to surprising or extreme degree.",
+      "examples": [
+        "臭氧层的破坏不仅对人类，而且对动植物也会产生严重的危害。",
+        "茅台酒不仅五次蝉联国家金奖，而且连续四次荣获国际金奖。"
+      ]
+    },
+    {
+      "pattern": "既…又…",
+      "explanation": "Simultaneous double attribute: 'both X and Y at the same time'. More literary than 也…也…. Common in descriptions of products, lifestyles, or policies that balance two qualities.",
+      "examples": [
+        "他们要求享受的是一个既经济、轻松，又多少能增长些知识的假日。",
+        "绿色洗衣机既可清洁衣服，又可消毒灭菌。"
+      ]
+    },
+    {
+      "pattern": "由于…，导致/造成/使得…（进而…）",
+      "explanation": "Formal cause-effect chain. 由于 is more formal than 因为; 导致/造成 imply negative consequences; 进而 extends the chain to a secondary effect. Essential in analytical writing.",
+      "examples": [
+        "由于日益严重的全球荒漠化问题不断威胁着人类的生存，联合国通过决议将6月17日定为「世界防治荒漠化和干旱日」。",
+        "由于工业废弃物对水、土壤的污染，造成了水产品、农作物被污染，进而影响了人们的食品安全。"
+      ]
+    },
+    {
+      "pattern": "如果…（那么）…就/将…",
+      "explanation": "Standard conditional. Adding 那么 makes the consequence more formal and deliberate. Common in analytical scenarios and policy writing.",
+      "examples": [
+        "如果臭氧层减少25%，海洋中初级生物产量将减少10%。",
+        "如果我们现在还不对藏羚羊的捕杀采取措施，那么在不远的将来，我们的后代只能在博物馆看到藏羚羊了。"
+      ]
+    },
+    {
+      "pattern": "据（调查/报道/统计/研究）表明/显示，…",
+      "explanation": "Citation formula for data or reported facts. 据 + source + 表明/显示 + clause. Indispensable in journalistic and academic Chinese; signals evidence-based argumentation.",
+      "examples": [
+        "据调查，中国700余条河流中水质良好的仅剩32.2%。",
+        "据报道，到2009年，西藏境内藏羚羊数量已经达到15万只左右。"
+      ]
+    },
+    {
+      "pattern": "以…为主（/核心/基础/依托/补充）",
+      "explanation": "Identifies the dominant or foundational element in a composition or policy structure. 以A为主 = 'with A as the main component'. Used in classification, policy, and system descriptions.",
+      "examples": [
+        "绿茶采取茶树新叶，其成品以绿色主调为主。",
+        "要建立以居家养老为基础、以社区服务为依托、以社会机构养老为补充的养老机制。"
+      ]
+    },
+    {
+      "pattern": "只有…才…",
+      "explanation": "Exclusive condition: 'only if X, then Y'. The condition is necessary, not merely sufficient. Creates emphasis on the one true path. Formal register.",
+      "examples": [
+        "只有在茅台镇这块地方去做，才能酿造出这精美绝伦的好酒。",
+        "学会过上积极而有意义的休闲日，才能使人们的生活质量得到明显改善。"
+      ]
+    },
+    {
+      "pattern": "一…就…",
+      "explanation": "Immediate sequence or trigger-response: 'as soon as X, immediately Y'. Expresses temporal immediacy and logical causation. Very common and versatile.",
+      "examples": [
+        "只要有灯光照射，藏羚羊就绝对跑不出灯光照射的范围。",
+        "只要它有特色，一吃就让你忘了自己还有高血压、糖尿病和肥胖症。"
+      ]
+    },
+    {
+      "pattern": "与…相比，…更/更加/尤其…",
+      "explanation": "Explicit comparison structure. Elevate the comparison to a formal analytical move. Prefer 与……相比 over 比……在 in formal writing.",
+      "examples": [
+        "与汽油车相比，天然气汽车一氧化碳减少97%，烃氢化合物减少72%。",
+        "中国愿意消费绿色食品的人比例与西方发达国家相比差距明显。"
+      ]
+    },
+    {
+      "pattern": "对此，…（应该/需要/值得）…",
+      "explanation": "Transition phrase meaning 'regarding this / in response to this'. Introduces the author's or society's response to a described situation. Formal and direct.",
+      "examples": [
+        "对此，社会和家庭成员应该充分理解和关怀老年人。",
+        "对此，专家建议，解决养老问题，要发展经济，增强经济承受能力。"
+      ]
+    },
+    {
+      "pattern": "一方面…，另一方面…；与此同时…",
+      "explanation": "Two-aspect analysis structure. Signals balanced treatment of a complex issue. Common in social analysis and persuasive writing to show nuance.",
+      "examples": [
+        "一方面绿色产品受到越来越多消费者的欢迎，另一方面国内绿色产品的质量和技术水平还比较低。",
+        "中国政府加大了对藏羚羊的保护力度，与此同时也加大了对青藏高原环保工作的投入。"
+      ]
+    },
+    {
+      "pattern": "使…发生（了）变化 / 产生了… / 受到了…",
+      "explanation": "Causative construction with 使 ('cause X to Y'). 使 is more formal than 让 in expository writing. The embedded result clause can be a state change, production, or reception.",
+      "examples": [
+        "强烈的紫外线会使某些农作物的化学组成发生变化，从而使作物在生长过程中发生变异。",
+        "1995年的双休日制度改变了中国城镇职工的生活方式，使休闲产业获得了新的发展机遇。"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "由此可见",
+      "pinyin": "yóu cǐ kě jiàn",
+      "meaning": "from this it can be seen; therefore we conclude",
+      "register": "formal written; essential pivot phrase in expository/argumentative writing"
+    },
+    {
+      "zh": "日益",
+      "pinyin": "rì yì",
+      "meaning": "increasingly; more and more (day by day)",
+      "register": "formal written; more literary than 越来越; use in news, policy, academic writing"
+    },
+    {
+      "zh": "逐渐 / 逐步",
+      "pinyin": "zhújiàn / zhúbù",
+      "meaning": "gradually; 逐步 implies deliberate step-by-step progression while 逐渐 is more general",
+      "register": "neutral-formal; both common in expository writing"
+    },
+    {
+      "zh": "目前",
+      "pinyin": "mùqián",
+      "meaning": "at present; currently",
+      "register": "formal written; preferred over 现在 in journalistic and policy contexts"
+    },
+    {
+      "zh": "据报道 / 据调查表明",
+      "pinyin": "jù bàodào / jù diàochá biǎomíng",
+      "meaning": "according to reports / surveys indicate that",
+      "register": "formal journalistic; citation formula to introduce data or reported facts"
+    },
+    {
+      "zh": "层出不穷",
+      "pinyin": "céng chū bù qióng",
+      "meaning": "emerge in an endless stream; keep coming one after another",
+      "register": "formal-literary; chengyu; used for innovations, problems, or products appearing continuously"
+    },
+    {
+      "zh": "义不容辞",
+      "pinyin": "yì bù róng cí",
+      "meaning": "be morally obliged to; have no alternative but to fulfil a duty",
+      "register": "formal; chengyu; strong moral obligation; good for closing calls to action"
+    },
+    {
+      "zh": "津津乐道",
+      "pinyin": "jīnjīn lè dào",
+      "meaning": "talk about with great relish and enthusiasm",
+      "register": "slightly colloquial-literary; characterizes enthusiastic topic preference"
+    },
+    {
+      "zh": "天伦之乐",
+      "pinyin": "tiānlún zhī lè",
+      "meaning": "the happiness of family life; domestic bliss",
+      "register": "literary-formal; used when describing what elderly or retired people desire"
+    },
+    {
+      "zh": "可望而不可即",
+      "pinyin": "kě wàng ér bù kě jí",
+      "meaning": "within sight but beyond reach; tantalisingly unattainable",
+      "register": "literary; chengyu-phrase; for describing aspirational but inaccessible goods or status"
+    },
+    {
+      "zh": "此起彼伏",
+      "pinyin": "cǐ qǐ bǐ fú",
+      "meaning": "one rises as another falls; happening in alternating succession",
+      "register": "formal-literary; chengyu; used for competing trends, pricing wars, or alternating social phenomena"
+    },
+    {
+      "zh": "尽职尽责",
+      "pinyin": "jìn zhí jìn zé",
+      "meaning": "fulfill one's duties and responsibilities conscientiously",
+      "register": "formal; used in assessments of employees, family members, officials"
+    },
+    {
+      "zh": "功夫不负有心人",
+      "pinyin": "gōngfu bù fù yǒuxīn rén",
+      "meaning": "perseverance pays off; hard work will not disappoint those who are committed",
+      "register": "proverb; motivational; appropriate in personal narrative and inspirational writing"
+    },
+    {
+      "zh": "无可比拟",
+      "pinyin": "wú kě bǐ nǐ",
+      "meaning": "incomparable; without parallel; matchless",
+      "register": "formal; stronger and more elegant than 无法比较; for products, achievements, roles"
+    },
+    {
+      "zh": "独具特色",
+      "pinyin": "dú jù tèsè",
+      "meaning": "uniquely characteristic; distinctively one's own",
+      "register": "formal; common in product descriptions, cultural writing, tourism"
+    },
+    {
+      "zh": "源远流长",
+      "pinyin": "yuán yuǎn liú cháng",
+      "meaning": "have a long and unbroken history; long-established and deep-rooted",
+      "register": "literary-formal; chengyu; typically used for cultural traditions, historical relationships"
+    },
+    {
+      "zh": "得心应手",
+      "pinyin": "dé xīn yìng shǒu",
+      "meaning": "work with ease and confidence; be in complete command of one's skills",
+      "register": "literary; chengyu; used when describing mastery or smooth performance"
+    },
+    {
+      "zh": "讲究",
+      "pinyin": "jiǎngjiu",
+      "meaning": "to be particular about; fastidious attention to quality or detail; (n.) refinement, finesse",
+      "register": "both colloquial and formal; essential for describing Chinese aesthetic standards in food, tea, architecture"
+    },
+    {
+      "zh": "涵盖",
+      "pinyin": "hángài",
+      "meaning": "to encompass; to cover; to include comprehensively",
+      "register": "formal written; preferred over 包括 when coverage is systematic and complete"
+    },
+    {
+      "zh": "差距",
+      "pinyin": "chājù",
+      "meaning": "gap; disparity; difference in level",
+      "register": "formal; used in comparative analysis of quality, standards, or development levels"
+    },
+    {
+      "zh": "借鉴",
+      "pinyin": "jièjiàn",
+      "meaning": "to use as a reference; to draw lessons from; to learn from another's practice",
+      "register": "formal; used when explicitly citing something else's practice as a model or warning"
+    },
+    {
+      "zh": "涉及",
+      "pinyin": "shèjí",
+      "meaning": "to involve; to relate to; to touch on",
+      "register": "formal; common in analytical writing to describe scope of a phenomenon or issue"
+    },
+    {
+      "zh": "加大力度",
+      "pinyin": "jiādà lìdù",
+      "meaning": "to increase the force/intensity of (efforts, investment, enforcement)",
+      "register": "formal; policy/government language; useful for describing escalated action"
+    },
+    {
+      "zh": "与此同时",
+      "pinyin": "yǔ cǐ tóngshí",
+      "meaning": "at the same time; simultaneously; meanwhile",
+      "register": "formal written; transition phrase linking parallel developments"
+    },
+    {
+      "zh": "难以形容 / 难以估量 / 难以避免",
+      "pinyin": "nányǐ xíngróng / nányǐ gūliàng / nányǐ bìmiǎn",
+      "meaning": "difficult to describe / incalculable / unavoidable",
+      "register": "formal-literary; 难以 + verb is a productive formal pattern for intensifying inability"
+    },
+    {
+      "zh": "亮相",
+      "pinyin": "liàngxiàng",
+      "meaning": "to make a public debut; to appear on stage or in public for the first time",
+      "register": "journalistic-colloquial; originally theatrical; now used for product launches, public appearances"
+    },
+    {
+      "zh": "无休止",
+      "pinyin": "wú xiūzhǐ",
+      "meaning": "unceasing; without end; relentless (pursuit, demands)",
+      "register": "formal-literary; often modifies negative behaviors or demands"
+    },
+    {
+      "zh": "蝉联",
+      "pinyin": "chánlián",
+      "meaning": "to retain a title or championship consecutively; to win again and again",
+      "register": "formal; used in award/competition contexts; elegant alternative to 连续获得"
+    },
+    {
+      "zh": "精美绝伦",
+      "pinyin": "jīngměi juélún",
+      "meaning": "exquisitely beautiful; of unparalleled refinement",
+      "register": "literary; chengyu; superlative aesthetic praise"
+    },
+    {
+      "zh": "可见当时……已经……",
+      "pinyin": "kě jiàn dāngshí yǐjīng",
+      "meaning": "this shows that at the time X had already Y; formulaic phrase drawing historical inference from documentary evidence",
+      "register": "formal-historical; useful for historical narrative that draws conclusions from texts or artifacts"
+    }
+  ],
+  "essay_takeaways": [
+    "Open with historical contrast or a surprising statistic before stating your thesis. 那时候有一百多万只，而一百年后不超过75000只 creates urgency immediately, without abstract editorializing.",
+    "Use enumerated parallel structures to make analytical points feel exhaustive: 一是……二是……三是…… or policy 要……要……要…… The six-point 要 list in 养老 is a standard pattern for formal Chinese argumentation.",
+    "Quantify with emotional weight, not just data: 一条女士披肩是用3头藏羚羊的生命和无数人的辛勤劳动换来的 turns a number into an ethical claim.",
+    "Deploy cause-chains for analytical depth: 由于A → 导致B → 进而C. This three-link chain appears throughout the corpus and is more persuasive than a flat single cause-effect statement.",
+    "Use rhetorical questions as structural pivots between sections: 养老到底应该走向何方呢？ or 是什么原因使藏羚羊数量减少得这么快呢？ These reset reader attention and signal a new analytical move.",
+    "Anchor abstract arguments in concrete everyday scenes: 买菜、拣菜、洗菜、切菜 is far more vivid than 做饭过程很复杂. Use verb enumeration chains for procedural vividness.",
+    "Close comparative essays with a logical twist rather than a summary: the North American food culture essay's 短处摇身一变成了特长 is memorable precisely because it subverts expectations.",
+    "Use formal citation phrases (据调查/据报道/研究表明) to signal evidence-based reasoning even in cultural essays — this distinguishes formal from informal Chinese prose and builds authority.",
+    "Master the 随着……中国/人们/社会…… opening: it is the single most common opener in formal Chinese expository writing and immediately sets a socio-temporal frame that professional readers expect.",
+    "End advocacy essays with communal first-person calls to action (让我们……, 大家行动起来吧！) or anchor the close with 义不容辞 + 总之 — these signal social responsibility and are standard in Chinese public discourse."
+  ]
+}

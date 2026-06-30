@@ -1,0 +1,449 @@
+{
+  "model_essays": [
+    {
+      "title": "史密斯先生和房东的看房对话",
+      "genre": "口语对话 / Spoken dialogue (renting an apartment)",
+      "text": "（史密斯先生和房东在看房子）\n房东：这套房子我刚装修过，家具和各种电器几乎都是新的。\n史密斯：不错，房子宽敞舒适，也很安静，我很满意。这个小区的治安怎么样？\n房东：这儿的治安很好，不用担心安全问题。\n史密斯：那我就放心了。房租是多少？\n房东：租金是每个月5000元，每三个月付一次；另外您还要付5000元的押金。\n史密斯：房租包括物业费、水费、电费在内吗？\n房东：房租只包括物业费，水费、电费和煤气费都要您自己付。\n史密斯：我们要签一份租房协议是吧？\n房东：对，房租和押金会写在协议里。\n史密斯：我什么时候可以搬进来？\n房东：这套房子现在空着，签了协议您随时都可以住进来。",
+      "summary": "A foreign tenant (Mr. Smith) inspects a furnished apartment with the landlord, asking about the neighbourhood security, rent amount, payment schedule, deposit, included utilities, the lease agreement, and move-in timing.",
+      "why_study": "A compact, complete model for real-estate negotiation dialogue. Covers the full arc of a rental inquiry from first impression to closing logistics. The language is natural, practical, and models the polite but direct register appropriate for a foreigner renting in China.",
+      "key_devices": [
+        "Topic-chaining: each Smith question naturally follows from the landlord's answer, modelling smooth conversational flow",
+        "包括...在内吗? as a standard inclusion-checking question",
+        "签了协议您随时都可以住进来 — conditional clause + 随时 for open availability",
+        "那我就放心了 — formulaic reassurance response after receiving good news",
+        "不用担心...问题 — common reassurance formula"
+      ]
+    },
+    {
+      "title": "东方商务写字楼招商广告",
+      "genre": "商业广告 / Business property advertisement",
+      "text": "东方商务写字楼，位于青年大街127号，东风桥往北50米，在城市商业中心区，临近地铁四号线，有多路公交车可以直达，地理位置好，交通便利。\n写字楼建筑面积21,000平方米，地下两层，是车库和超市，有停车位188个；地上21层，单层建筑面积830平方米，一层是多功能商务会议中心，2层以上招商，租金为25美元/平方米/月。\n写字楼配有电话、宽带网络、中央空调，附近有银行、邮局、超市和麦当劳等餐厅，能为您提供一个安全、舒适、便利的办公环境。现在已有多家著名企业入住。\n招商电话：87821625\n传真：87821626",
+      "summary": "A commercial real-estate advertisement for Dongfang Business Tower: location and transit access, building specs (floors, area, parking), facilities, surrounding amenities, rental rate, and contact details.",
+      "why_study": "A complete, well-structured Chinese commercial property ad. The three-paragraph structure (location → specs → facilities/environment) is the standard template for office-building marketing copy and can be directly imitated. The language is formal-promotional with dense noun phrases.",
+      "key_devices": [
+        "位于...，临近...，交通便利 — standard Chinese location formula: address → landmark → proximity to transit → evaluation",
+        "配有 — 'equipped with' (formal alternative to 有)",
+        "能为您提供... — 'can provide you with...' — standard service-sector promotional phrase",
+        "现在已有多家著名企业入住 — social proof as a closing device",
+        "地下...层...地上...层 — floor-by-floor building breakdown pattern",
+        "租金为...美元/平方米/月 — unit pricing formula standard in commercial leasing"
+      ]
+    },
+    {
+      "title": "出租房屋广告（天河小区）",
+      "genre": "分类广告 / Classified rental advertisement (prose paragraph form)",
+      "text": "出租房屋\n东山区中山路20号天河小区，两室一厅，每月房租2600元，包括水电费、宽带费、有线电视费、物业费，月付。家电、家具齐全。附近有天河公园，周边环境优美，治安好。有意者请和我联系，看房请提前预约。1361238651 陈小姐",
+      "summary": "A short paragraph-form classified ad for a two-bedroom apartment: address, layout, rent, what is included, payment terms, furnishing, surrounding environment, and contact.",
+      "why_study": "Models the compact Chinese classified-ad genre: every slot (location, layout, price, inclusions, environment, contact) appears in minimum words. Ideal for learning how to write or decode Chinese property listings.",
+      "key_devices": [
+        "包括...，月付 — rent inclusions listed without repeating the subject",
+        "家电、家具齐全 — set phrase meaning 'fully equipped with appliances and furniture'",
+        "有意者请和我联系 — formal call-to-action: '有意者' (interested parties) is the correct register for ads",
+        "看房请提前预约 — practical qualifier at the end of the ad"
+      ]
+    },
+    {
+      "title": "出租房屋广告（海珠花园，包含押金说明）",
+      "genre": "分类广告 / Classified rental advertisement (prose paragraph form with deposit clause)",
+      "text": "静安区东广路33号海珠花园小区2层3室1厅1卫，95平方米，精装修，南北朝向。水、电、煤气、ADSL；电器、家具齐全。租金4500元/月，季付；押金为一个月房租，三个月起租。联系人：张小姐 81679321",
+      "summary": "A compact rental ad specifying apartment size, orientation, finish level, utilities, furnishing, monthly rent, payment frequency (quarterly), deposit terms (one month's rent), minimum lease term (3 months), and contact.",
+      "why_study": "More information-dense than the previous ad and explicitly models how to state deposit terms (押金为一个月房租) and minimum lease period (三个月起租) — both highly practical for real-life rental situations in China.",
+      "key_devices": [
+        "精装修 vs 一般装修 vs 毛坯房 — the three renovation-level terms in Chinese real estate",
+        "押金为一个月房租 — deposit specification formula",
+        "三个月起租 — minimum lease-period formula using 起",
+        "季付 — 'quarterly payment' — alongside 月付, 半年付, 年付 as standard payment frequencies"
+      ]
+    },
+    {
+      "title": "租房协议（标准模板）",
+      "genre": "法律文书 / Lease agreement template",
+      "text": "甲方（出租方）：\n乙方（承租方）：\n身份证号码：\n身份证号码：\n甲方将位于___区___路___号___号楼___单元___户的房屋出租给乙方使用。乙方已对房屋做了充分了解，愿意承租该房。\n二、双方议定的上述房屋租金为___。租赁期限自___年___月___日至___年___月___日。租金每四个月付一次。另外，乙方需交纳押金___。\n三、乙方保证承租上述房屋仅做居住使用，因使用不当或其他人为原因使房屋或设施损坏的，乙方负责赔偿或修复。乙方将在租赁期满时把房屋交还给甲方。如需继续承租上述房屋或提前退房，应提前___天与甲方协商。\n四、要爱惜使用房内设施及物品，如有损毁，请按下列约定赔偿价格：[损毁赔偿表]\n五、乙方在租赁期间，水、电、煤气按实际使用量自付。卫生费、治安费、有线电视费、物业管理费等费用包含在房租里。\n六、乙方不得利用租赁房屋从事违法、犯罪活动，不得影响邻里生活、休息。\n七、违约责任：任何一方未能履行本协议规定，另方有权解除本协议，所造成的损失由责任一方承担。\n本协议一式___份，双方各执___份。\n出租方（签章）：___\n承租方（签章）：___\n___年___月___日",
+      "summary": "A standard seven-clause residential lease agreement template: party identification, address/consent, rent and deposit terms, permitted use and damage liability, item-by-item damages schedule, utility split, prohibited activities, breach-of-contract liability, and signature block.",
+      "why_study": "The only legal-register text in this chunk. Exposes the fixed structure and formulaic language of Chinese private lease contracts — 甲方/乙方, 承租方/出租方, 一式___份双方各执___份 — all are recurring patterns in Chinese legal and business documents of any type.",
+      "key_devices": [
+        "甲方/乙方 — Party A/Party B: universal in Chinese contracts regardless of transaction type",
+        "承租方 vs 出租方 — morphologically transparent: 承(承受) = receive, 出(出让) = give out",
+        "因使用不当或其他人为原因...负责赔偿或修复 — liability clause pattern",
+        "按实际使用量自付 — 'pay according to actual usage' — standard utility split clause",
+        "违约责任：...有权解除本协议，所造成的损失由责任一方承担 — standard breach clause",
+        "一式___份，双方各执___份 — 'executed in N copies, one for each party' — universal contract closing",
+        "愿意承租该房 — formal consent language using 该 (said/the above-mentioned)"
+      ]
+    },
+    {
+      "title": "售票处购买火车票对话",
+      "genre": "口语对话 / Spoken dialogue (train ticket counter)",
+      "text": "（火车票售票窗口）\n男：你好！买两张14号去长沙的车票，一张卧铺和一张硬座。\n女：到长沙有三趟车，两趟特快，一趟普快，您想坐哪趟？\n男：这几趟车到长沙要多长时间？\n女：特快要15个小时，普快20多个小时。\n男：两趟特快什么时候发车？\n女：一趟是T1次，13点发车；另一趟是T145次，15点发车。\n男：嗯，我就买T145次，这趟车时间比较合适。\n女：卧铺您想要上铺、中铺还是下铺？\n男：中铺。\n女：我重复一遍：14号T145次到长沙的硬卧中铺一张、硬座一张。没有问题的话就出票了。\n男：没问题，出票吧。一共多少钱？\n女：卧铺票是346元，硬座191，加上10块钱手续费，一共是547。",
+      "summary": "A male customer buys two train tickets (one sleeper berth, one hard seat) to Changsha for the 14th. The ticket clerk explains train types and schedules, confirms the berth preference, reads back the order, and states the total price including the service fee.",
+      "why_study": "Models the complete ticket-purchase interaction: stating destination + date + quantity + class, eliciting options, confirming choices, and handling the read-back confirmation (重复一遍). The clerk's read-back is an especially useful real-world pattern.",
+      "key_devices": [
+        "买两张14号去[目的地]的车票，一张[类型]和一张[类型] — standard ticket-purchase opening",
+        "两趟特快什么时候发车？ — asking about departure times using 趟 (measure word for trips/trains)",
+        "这趟车时间比较合适 — evaluating options with 比较 + adjective",
+        "我重复一遍：... — read-back confirmation pattern (crucial in service-industry Chinese)",
+        "没有问题的话就... — conditional signalling readiness to proceed",
+        "加上...手续费，一共是... — price summary with service charge"
+      ]
+    },
+    {
+      "title": "电话订购机票对话",
+      "genre": "口语对话 / Spoken dialogue (airline ticket phone booking)",
+      "text": "女：你好！新时代票务中心。\n男：你好！我想订一张7月14号从北京到东京的飞机票。\n女：您要单程票还是往返票？\n男：单程票，最好是上午的航班。\n女：14号上午有两趟航班飞往东京，一趟是中国国际航空公司的CA925次航班，一趟是日本全日空航空公司的NH906次航班。\n男：这两趟航班什么时候起飞？\n女：CA925次航班9:20起飞，NH906次的起飞时间是11:00。\n男：我坐11:00起飞的吧。\n女：您想要经济舱还是头等舱？\n男：经济舱。\n女：好的，请您留下姓名、护照号码和联系方式。",
+      "summary": "A phone booking for a one-way Beijing–Tokyo flight on July 14th. The agent presents two morning options, the customer selects the 11:00 ANA flight in economy class, and the agent collects personal details to complete the booking.",
+      "why_study": "Models the complete flight-booking phone call arc. The sequence (destination + date → one-way/return → preferred time → options presented → selection → cabin class → contact details) is the standard Chinese ticket-booking script.",
+      "key_devices": [
+        "我想订一张[日期]从[出发地]到[目的地]的飞机票 — standard flight-booking opening",
+        "您要单程票还是往返票？ — binary choice question pattern in service contexts",
+        "最好是上午的航班 — expressing preference with 最好",
+        "飞往[目的地] — 'flying to' (more formal/aviation-specific than 去)",
+        "请您留下姓名、护照号码和联系方式 — booking-completion request pattern"
+      ]
+    },
+    {
+      "title": "机场送别对话",
+      "genre": "口语对话 / Spoken dialogue (airport farewell)",
+      "text": "（在机场）\n史密斯：李主任，非常感谢您来机场送我。\n李建明：史密斯先生，您太客气了。时间过得真快，一眨眼您就要回国了。\n史密斯：是啊，时间过得太快了，还有很多名胜古迹我还没来得及参观呢。\n李建明：这次您的日程安排得太紧了。不过没关系，我们双方建立了长期的合作关系，我想您以后会经常来北京出差的。\n史密斯：希望是这样。虽然在北京只待了一个星期，但北京给我留下了深刻的印象；同时非常感谢您的帮助，帮了我很多忙。\n李建明：这都是我应该做的。您的登机手续都办完了吗？\n史密斯：都办完了。我一共有三件行李，托运了两件，这个小箱子我带上飞机。我买了很多纪念品和礼物，行李差点儿超重。\n（广播：前往纽约的乘客请注意：您乘坐的CA981次航班现在开始登机。请带好您的随身物品，出示登机牌，由12号登机口上飞机。祝您旅途愉快。）\n史密斯：我该上飞机了。\n李建明：祝您一路平安！\n史密斯：谢谢。再见！",
+      "summary": "Mr. Smith thanks his Chinese counterpart Mr. Li at the airport. They exchange pleasantries about time passing quickly, discuss the long-term business relationship established, Smith describes his checked luggage and near-overweight situation, a boarding announcement is made, and they exchange formal farewells.",
+      "why_study": "A model for the formal cross-cultural business farewell: gratitude → reflection on the visit → looking ahead to future cooperation → practical logistics → farewell formula. The embedded airport announcement is also a model of that sub-genre. The dialogue demonstrates how 虽然...但... gracefully acknowledges a limitation (only one week) while emphasising the positive (深刻的印象).",
+      "key_devices": [
+        "一眨眼...就... — 'in the blink of an eye' + imminent event; vivid, idiomatic time idiom",
+        "没来得及 + V — 'didn't have time to V / didn't get around to V-ing'",
+        "建立了长期的合作关系 — standard business Chinese phrase for establishing a long-term partnership",
+        "虽然...只...，但...给我留下了深刻的印象 — diplomatic concession + positive emphasis",
+        "这都是我应该做的 — humble deflection of praise; standard polite response",
+        "差点儿 + V — 'almost V-ed (but didn't)'; here 差点儿超重 = almost overweight",
+        "祝您一路平安 — the most formal of the farewell wishes; appropriate for business guests"
+      ]
+    },
+    {
+      "title": "机场广播——登机通知",
+      "genre": "官方广播 / Airport public announcement (boarding)",
+      "text": "前往东京的乘客请注意：\n您乘坐的NH906次航班现在开始登机。请带好您的随身物品，出示登机牌，由12号登机口上飞机。祝您旅途愉快。\n谢谢！",
+      "summary": "A standard boarding announcement: directed to passengers by destination, states the flight number, announces boarding has begun, gives instructions (bring belongings, show boarding pass, gate number), and closes with a polite wish.",
+      "why_study": "The three-sentence structure is the canonical Chinese boarding announcement template. Every element is formulaic and transferable. Mastering this lets you produce or understand any variation.",
+      "key_devices": [
+        "前往[目的地]的乘客请注意 — standard Chinese PA opening: 'Passengers to X, please be advised'",
+        "您乘坐的[航班号]次航班现在开始登机 — boarding-commencement formula",
+        "请带好您的随身物品，出示登机牌，由[X]号登机口上飞机 — three-part instruction sequence",
+        "祝您旅途愉快 — polite closing for boarding/departure announcements"
+      ]
+    },
+    {
+      "title": "机场广播——航班延误通知",
+      "genre": "官方广播 / Airport public announcement (flight delay)",
+      "text": "前往东京的乘客请注意：\n我们很抱歉地通知您，您乘坐的NH906次航班由于飞机在本站出现机械故障不能按时起飞，起飞时间推迟到13点30分。在此我们深表歉意，请您在候机厅休息，等候通知。如果您有什么要求，请与8号服务台工作人员联系。\n谢谢！",
+      "summary": "A delay announcement: apology formula, specific cause (mechanical fault at this station), revised departure time, second apology, instructions (wait in terminal, await further notice), and contact information for the service desk.",
+      "why_study": "A full-length formal apology announcement. The structure — apology lead-in → cause (由于...) → consequence and revised plan → formal apology (在此深表歉意) → instructions → contact → thanks — is reusable for any formal Chinese apology notice, not just aviation.",
+      "key_devices": [
+        "我们很抱歉地通知您 — formal apology notification lead-in (more formal than 我们抱歉地告诉您)",
+        "由于[原因]，不能按时... — cause-and-effect delay formula",
+        "起飞时间推迟到[时间] — delay specification: 推迟到 vs 推迟了",
+        "在此我们深表歉意 — 'We hereby express our sincere apologies' — standard formal written/spoken apology",
+        "请您在[地点]休息，等候通知 — polite instruction to wait",
+        "如果您有什么要求，请与[联系方式]联系 — standard service-escalation contact formula"
+      ]
+    },
+    {
+      "title": "机场广播——航班取消通知",
+      "genre": "官方广播 / Airport public announcement (flight cancellation)",
+      "text": "前往东京的乘客请注意：\n我们很抱歉地通知您，您乘坐的NH906次航班由于天气原因决定取消今日飞行，请您改乘明日NH906次航班，起飞时间为11点。在此我们深表歉意。如果您有什么问题，请与6号服务台工作人员联系。\n谢谢！",
+      "summary": "A cancellation announcement: cause (weather), cancellation of today's flight, rebooking instruction (改乘 next day's same flight at 11:00), apology, contact.",
+      "why_study": "Nearly identical structure to the delay announcement but adds 请您改乘... — the rebooking instruction — and uses 决定取消 (officially decided to cancel) vs. the delay's descriptive framing. Studying the pair teaches how to modulate formality and vary a template.",
+      "key_devices": [
+        "由于天气原因决定取消今日飞行 — 'due to weather conditions, decided to cancel today's flight'",
+        "请您改乘[次日/备选]航班 — '改乘' = 'change to / transfer to (another service)' — key transport verb",
+        "起飞时间为... — alternative to 起飞时间是: 为 is more formal in notices"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "包括...在内（吗）",
+      "explanation": "Inclusive question/statement: 'including X (within/in the total)'. Used to ask or state what a price, package, or scope covers. The item being asked about comes between 包括 and 在内. More specific than just 包括 + object.",
+      "examples": [
+        "房租包括物业费、水费、电费在内吗？（Does the rent include property management, water, and electricity fees?）",
+        "房租只包括物业费，水费、电费和煤气费都要您自己付。（The rent only covers the property management fee; water, electricity, and gas you pay yourself.）"
+      ]
+    },
+    {
+      "pattern": "一眨眼（就）+ imminent/completed event",
+      "explanation": "'In the blink of an eye / in no time at all'. A vivid idiomatic time expression marking how quickly time has passed. Followed by 就 + verb phrase. Used when reflecting on a period that felt short.",
+      "examples": [
+        "时间过得真快，一眨眼您就要回国了。（Time flies; in the blink of an eye you're already heading home.）"
+      ]
+    },
+    {
+      "pattern": "没来得及 + V",
+      "explanation": "'Didn't have time to V / didn't get around to V-ing / didn't manage to V in time'. Expresses a regret that something didn't happen because there wasn't enough time. Contrast with 没有时间 (don't have time) — 没来得及 specifically means the opportunity passed.",
+      "examples": [
+        "还有很多名胜古迹我还没来得及参观呢。（There are still many historic sites I didn't manage to visit.）"
+      ]
+    },
+    {
+      "pattern": "差点儿（没）+ V",
+      "explanation": "'Almost V-ed (but didn't)' when used without 没; 'just barely V-ed (managed to V)' when used with 没 — a tricky pattern. In everyday speech 差点儿 alone = almost did something undesirable (and didn't). 差点儿没 = almost failed to do something desirable (but succeeded).",
+      "examples": [
+        "行李差点儿超重。（The luggage was almost overweight / came close to being overweight — but wasn't.）"
+      ]
+    },
+    {
+      "pattern": "由于...（原因），（决定）...",
+      "explanation": "'Due to [reason], [consequence/decision]'. Formal cause-and-effect structure used in written notices, announcements, and business communications. 原因 may be explicit or omitted. More formal than 因为.",
+      "examples": [
+        "由于飞机在本站出现机械故障不能按时起飞，起飞时间推迟到13点30分。（Due to a mechanical fault with the aircraft at this station, the departure has been delayed to 13:30.）",
+        "由于天气原因决定取消今日飞行。（Due to weather conditions, today's flight has been cancelled.）"
+      ]
+    },
+    {
+      "pattern": "在此（我们）深表歉意",
+      "explanation": "'We hereby express our sincere / deepest apologies.' A fixed formal phrase for written and spoken apology in official contexts — airport announcements, business letters, public notices. Much stronger and more formal than 对不起 or 抱歉. 在此 = 'herein/hereby'; 深表 = 'deeply express'.",
+      "examples": [
+        "在此我们深表歉意，请您在候机厅休息，等候通知。（We hereby sincerely apologise; please wait in the departure lounge and await further notice.）"
+      ]
+    },
+    {
+      "pattern": "V + 了协议/手续/...（之后），您随时（都）可以...",
+      "explanation": "Conditional completion + 随时 for open availability: 'Once you have done X, you can Y at any time.' 随时都可以 emphasises there is no further restriction on timing.",
+      "examples": [
+        "签了协议您随时都可以住进来。（Once the agreement is signed, you can move in any time.）",
+        "办完手续以后，您随时都可以取款。（Once the formalities are complete, you can withdraw money at any time.）"
+      ]
+    },
+    {
+      "pattern": "虽然...只...，但...给我留下了深刻的印象",
+      "explanation": "Concessive structure acknowledging a limitation (short time, small scope) before emphasising the strong positive impact. 留下深刻的印象 ('leave a deep impression') is a high-frequency business Chinese phrase. The full pattern is diplomatic and face-saving.",
+      "examples": [
+        "虽然在北京只待了一个星期，但北京给我留下了深刻的印象。（Although I only stayed in Beijing for a week, Beijing left a deep impression on me.）"
+      ]
+    },
+    {
+      "pattern": "位于...，临近...，交通便利",
+      "explanation": "Standard Chinese location description for commercial properties and official addresses. Three beats: (1) 位于 + address, (2) 临近 + landmark/transit, (3) evaluative summary (交通便利, 地理位置优越, etc.).",
+      "examples": [
+        "东方商务写字楼，位于青年大街127号，东风桥往北50米，在城市商业中心区，临近地铁四号线，有多路公交车可以直达，地理位置好，交通便利。"
+      ]
+    },
+    {
+      "pattern": "配有 + 设施列表",
+      "explanation": "'Equipped with [list of facilities]'. 配有 is the formal/written counterpart of 有 when listing equipment or amenities, especially in commercial, real-estate, or product descriptions.",
+      "examples": [
+        "写字楼配有电话、宽带网络、中央空调。（The office building is equipped with telephone, broadband, and central air-conditioning.）"
+      ]
+    },
+    {
+      "pattern": "因使用不当或其他人为原因...负责赔偿或修复",
+      "explanation": "Legal liability clause: 'Due to improper use or other man-made causes...shall be responsible for compensation or repair.' 使用不当 = improper use; 人为原因 = man-made causes; 负责 + V = 'to be responsible for V-ing'.",
+      "examples": [
+        "因使用不当或其他人为原因使房屋或设施损坏的，乙方负责赔偿或修复。"
+      ]
+    },
+    {
+      "pattern": "请您改乘 + [alternative service]",
+      "explanation": "'Please take/transfer to [alternative transport]'. 改乘 = 'change to (another vehicle/service)'. Used for rebooking passengers onto alternative transport after a cancellation or delay.",
+      "examples": [
+        "请您改乘明日NH906次航班，起飞时间为11点。（Please rebook onto tomorrow's NH906 flight, departing at 11:00.）"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "招商",
+      "pinyin": "zhāo shāng",
+      "meaning": "to attract investment / to solicit tenants or business partners; also used as a noun: leasing/investment invitation. 招商广告 = investment/leasing advertisement.",
+      "register": "business/commercial formal"
+    },
+    {
+      "zh": "洽谈",
+      "pinyin": "qiàtán",
+      "meaning": "to negotiate / to discuss (business). More formal and specific than 谈 or 商量; used for business negotiations.",
+      "register": "business formal"
+    },
+    {
+      "zh": "押金",
+      "pinyin": "yājīn",
+      "meaning": "security deposit / cash deposit. Paid upfront and returned (退押金) on checkout, subject to deductions for damage.",
+      "register": "practical / contractual"
+    },
+    {
+      "zh": "治安",
+      "pinyin": "zhì'ān",
+      "meaning": "public order / public security. 治安好 = good neighbourhood safety. 治安问题 = security issues.",
+      "register": "everyday/semi-formal"
+    },
+    {
+      "zh": "物业管理费",
+      "pinyin": "wùyè guǎnlǐ fèi",
+      "meaning": "property management fee (covers building maintenance, security, common-area upkeep). Often shortened to 物业费.",
+      "register": "practical / contractual"
+    },
+    {
+      "zh": "精装修",
+      "pinyin": "jīng zhuāngxiū",
+      "meaning": "premium / fully renovated (highest level of finish in Chinese real estate listings). Contrasts with 简装修 (basic finish) and 毛坯房 (bare concrete shell).",
+      "register": "real-estate / commercial"
+    },
+    {
+      "zh": "承租方 / 出租方",
+      "pinyin": "chéngzū fāng / chūzū fāng",
+      "meaning": "lessee (the one renting) / lessor (the one renting out). Used in formal lease contracts alongside 甲方/乙方.",
+      "register": "legal/contractual formal"
+    },
+    {
+      "zh": "甲方 / 乙方",
+      "pinyin": "jiǎ fāng / yǐ fāng",
+      "meaning": "Party A / Party B. Universal in all Chinese contracts regardless of transaction type.",
+      "register": "legal/contractual formal"
+    },
+    {
+      "zh": "违约责任",
+      "pinyin": "wéiyuē zérèn",
+      "meaning": "liability for breach of contract. 违约 = breach/default; 责任 = liability/responsibility.",
+      "register": "legal/contractual formal"
+    },
+    {
+      "zh": "一式___份，双方各执___份",
+      "pinyin": "yī shì ___ fèn, shuāngfāng gè zhí ___ fèn",
+      "meaning": "'Executed in N copies, one held by each party.' Standard closing formula in all Chinese contracts.",
+      "register": "legal/contractual formal"
+    },
+    {
+      "zh": "在此深表歉意",
+      "pinyin": "zài cǐ shēn biǎo qiànyì",
+      "meaning": "'We hereby express our sincere/deepest apologies.' Fixed formal apology phrase for official announcements, letters, and public communications. Stronger than 对不起 or 抱歉.",
+      "register": "formal written/official"
+    },
+    {
+      "zh": "等候通知",
+      "pinyin": "děnghòu tōngzhī",
+      "meaning": "'Await further notice / stand by for notification.' Used in official announcements when a situation is ongoing.",
+      "register": "formal/official"
+    },
+    {
+      "zh": "建立长期的合作关系",
+      "pinyin": "jiànlì chángqī de hézuò guānxi",
+      "meaning": "'Establish a long-term cooperative relationship.' A cornerstone phrase in business Chinese for signalling sustained partnership commitment.",
+      "register": "business formal"
+    },
+    {
+      "zh": "留下深刻的印象",
+      "pinyin": "liúxià shēnkè de yìnxiàng",
+      "meaning": "'Leave a deep/profound impression.' Used to express that a place, person, or event made a strong positive impact.",
+      "register": "formal / general"
+    },
+    {
+      "zh": "一路平安",
+      "pinyin": "yīlù píng'ān",
+      "meaning": "'Have a safe journey / bon voyage.' The most formal farewell wish for travellers; appropriate for business guests. Variants in descending formality: 一路顺风 (may the wind be with you), 一路顺利 (smooth journey), 旅途愉快 (have a pleasant trip).",
+      "register": "formal/polite"
+    },
+    {
+      "zh": "这都是我应该做的",
+      "pinyin": "zhè dōu shì wǒ yīnggāi zuò de",
+      "meaning": "'This is all just what I should do / it was the least I could do.' Standard humble deflection of praise or thanks in Chinese professional and social contexts.",
+      "register": "polite/conversational"
+    },
+    {
+      "zh": "一眨眼",
+      "pinyin": "yī zhǎ yǎn",
+      "meaning": "'In the blink of an eye.' Vivid idiomatic expression for time passing very quickly. Usually followed by 就 + verb.",
+      "register": "idiomatic / conversational"
+    },
+    {
+      "zh": "没来得及",
+      "pinyin": "méi lái de jí",
+      "meaning": "'Didn't have time to / didn't get around to / didn't manage to (in time).' Expresses that an opportunity passed without the action being completed.",
+      "register": "conversational / idiomatic"
+    },
+    {
+      "zh": "差点儿",
+      "pinyin": "chàdiǎnr",
+      "meaning": "'Almost (but didn't).' Signals a near-miss for something typically undesirable. Note: 差点儿没 + V means 'just barely managed to V' — the negation reverses the implication.",
+      "register": "conversational"
+    },
+    {
+      "zh": "行李超重",
+      "pinyin": "xíngli chāozhòng",
+      "meaning": "Luggage is overweight. 超重 = to exceed the weight limit. Used at airport check-in.",
+      "register": "travel/practical"
+    },
+    {
+      "zh": "托运",
+      "pinyin": "tuōyùn",
+      "meaning": "To check (luggage); to consign for transport. 托运两件行李 = check two bags. Contrasts with 带上飞机 (carry on board).",
+      "register": "travel/practical"
+    },
+    {
+      "zh": "登机手续",
+      "pinyin": "dēngjī shǒuxù",
+      "meaning": "Check-in / boarding procedures. 办理登机手续 = to complete check-in formalities.",
+      "register": "travel/practical"
+    },
+    {
+      "zh": "改乘",
+      "pinyin": "gǎichéng",
+      "meaning": "To transfer to / rebook onto (another vehicle or service). Used when a passenger needs to switch to an alternative transport option.",
+      "register": "travel/official"
+    },
+    {
+      "zh": "有意者",
+      "pinyin": "yǒuyì zhě",
+      "meaning": "'Interested parties.' Standard noun phrase in Chinese classified ads and commercial announcements for referring to potential buyers/renters.",
+      "register": "written/commercial"
+    },
+    {
+      "zh": "家电、家具齐全",
+      "pinyin": "jiādiàn, jiājù qíquán",
+      "meaning": "'Fully equipped with appliances and furniture.' A fixed collocational phrase in rental listings.",
+      "register": "real-estate / classified ad"
+    },
+    {
+      "zh": "能为您提供安全、舒适、便利的办公环境",
+      "pinyin": "néng wèi nín tígōng ānquán, shūshì, biànlì de bàngōng huánjìng",
+      "meaning": "'Can provide you with a safe, comfortable, and convenient office environment.' A standard three-adjective promotional closing in Chinese commercial-property advertising.",
+      "register": "business promotional / formal"
+    },
+    {
+      "zh": "三个月起租",
+      "pinyin": "sān gè yuè qǐ zū",
+      "meaning": "Minimum lease term is three months. 起 here means 'starting from / minimum of'. Pattern: [duration] + 起租.",
+      "register": "real-estate / contractual"
+    },
+    {
+      "zh": "按实际使用量自付",
+      "pinyin": "àn shíjì shǐyòng liàng zì fù",
+      "meaning": "'Pay according to actual usage / pay by actual consumption.' Standard Chinese utility-split clause in lease agreements.",
+      "register": "contractual formal"
+    },
+    {
+      "zh": "机械故障",
+      "pinyin": "jīxiè gùzhàng",
+      "meaning": "Mechanical fault / technical malfunction. Standard phrase for equipment failures in transport and industrial contexts.",
+      "register": "technical/official"
+    },
+    {
+      "zh": "由于天气原因",
+      "pinyin": "yóuyú tiānqì yuányīn",
+      "meaning": "'Due to weather conditions.' A fixed phrase for weather-related delays, cancellations, or disruptions in transport and event contexts.",
+      "register": "formal/official"
+    },
+    {
+      "zh": "出差",
+      "pinyin": "chū chāi",
+      "meaning": "To go on a business trip. 出差 is the standard term; 商务出行 is more formal in writing.",
+      "register": "business / everyday"
+    }
+  ],
+  "essay_takeaways": [
+    "Use the three-beat property description template: 位于[address] → 临近[transit/landmark] → 交通便利/地理位置好. This structure appears in both spoken sales pitches and written ads and can be applied to any location description.",
+    "For formal apologies in Chinese (business letters, announcements, emails), use 在此深表歉意 or 对此深表歉意 rather than 对不起/很抱歉. The 由于[原因]...在此深表歉意 pattern is the complete formal template.",
+    "Chinese classified ads and commercial notices pack maximum information into minimum words: address, layout (N室M厅), price, inclusions (包括...在内), payment terms (月付/季付), and contact (有意者请联系...). Study these slots to write or decode any Chinese ad.",
+    "In all Chinese contracts, regardless of domain, master: 甲方/乙方, 承租方/出租方, 按实际使用量自付, 违约责任由责任一方承担, 一式N份双方各执N份. These five recurring elements appear in virtually every Chinese private contract.",
+    "The airport-announcement genre follows a fixed five-part structure: (1) address passengers by destination (前往X的乘客请注意), (2) state the situation with 由于, (3) give the consequence/update, (4) express apology (深表歉意), (5) direct to contact or action. This template is reusable for any Chinese public notice announcing a problem.",
+    "The read-back confirmation pattern (我重复一遍：..., 没有问题的话就...) is essential in service-industry Chinese — at ticket windows, when placing orders, and in customer service calls. Using it signals professionalism and prevents errors.",
+    "差点儿 and 没来得及 cover two distinct near-miss meanings: 差点儿 = nearly happened (usually something undesirable); 没来得及 = didn't get to do something in time (regret about inaction). Using both correctly distinguishes advanced from intermediate speakers.",
+    "Business farewells in Chinese follow an escalating formality ladder: 旅途愉快 (pleasant journey, casual) → 一路顺利 (smooth journey) → 一路顺风 (may the wind be with you, idiomatic) → 一路平安 (safe journey, most formal, appropriate for departing business guests). Match the level to the relationship.",
+    "When expressing concession in professional Chinese, the pattern 虽然...只...，但...给我留下了深刻的印象 is diplomatically powerful: it acknowledges a limitation upfront (short visit, small project, limited budget) and pivots to the strong positive impact — a face-saving, relationship-building rhetorical move.",
+    "For commercial property (office buildings, shops), Chinese promotional copy always closes with social proof: 现在已有多家著名企业入住 ('a number of well-known companies have already moved in'). This pattern applies equally to hotel ads (多家知名企业选择), product endorsements, and event announcements."
+  ]
+}

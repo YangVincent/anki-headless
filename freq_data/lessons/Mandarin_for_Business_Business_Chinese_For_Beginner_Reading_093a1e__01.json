@@ -1,0 +1,350 @@
+{
+  "model_essays": [],
+  "_model_essays_note": "No model essays could be extracted. The OCR rendering of Chinese characters throughout this file is completely corrupted — all Chinese text was converted to unreadable ASCII/symbol garbage. Only English-language glosses, pinyin fragments, and occasional headings survived legibly. Fabricating Chinese prose would violate the faithfulness requirement.",
+
+  "grammar_patterns": [
+    {
+      "pattern": "把 + Object + V + 结果/趋向补语",
+      "explanation": "The 把-construction moves the object before the verb to foreground what happens TO it. Required when the verb has a resultative or directional complement that specifies the object's fate or new location. The object must be specific/definite. Business contexts: 把合同签好 (sign the contract [to completion]), 把文件发过去 (send the documents [across]).",
+      "examples": [
+        "把合同签好",
+        "把资料整理好",
+        "把邮件发出去",
+        "把账算清楚"
+      ]
+    },
+    {
+      "pattern": "V + 得/不 + 结果补语 (可能补语 Potential Complement)",
+      "explanation": "Insert 得 (possibility affirmed) or 不 (possibility denied) between a verb and its resultative complement to express whether an action can or cannot achieve its result. Extremely common in spoken and written business Chinese for hedging, promising, or refusing. 得 = can achieve result; 不 = cannot. Neither is negated with 不 externally.",
+      "examples": [
+        "这个项目来得及 (there's still time)",
+        "今天的任务完成不了 (today's task can't be finished)",
+        "合同签得好 (the contract can be signed well)",
+        "价格谈得下来 (the price can be negotiated down)"
+      ]
+    },
+    {
+      "pattern": "结果补语: V + 好/完/到/住/开/懂/清楚",
+      "explanation": "Resultative complements attach directly to verbs (no particle between them) and describe the result or completion of an action. 好 = well/done; 完 = finished; 到 = reached/achieved; 住 = fixed/retained; 开 = opened/separated; 懂 = understood; 清楚 = clearly. Essential for business writing precision.",
+      "examples": [
+        "写好报告",
+        "看完文件",
+        "达到目标",
+        "记住要点",
+        "想清楚再决定"
+      ]
+    },
+    {
+      "pattern": "趋向补语: V + 来/去 (simple) or V + 上/下/进/出/回/过/起 + 来/去 (complex)",
+      "explanation": "Directional complements indicate the direction of movement relative to the speaker. Complex forms express more nuanced meanings: 上来/上去 (upward), 下来/下去 (downward/continuing), 进来/进去 (inward), 出来/出去 (outward). 下来 can also signal a transition to a new state (e.g., 安静下来 = settle down).",
+      "examples": [
+        "把报告拿过来",
+        "走进会议室",
+        "想出来一个好办法",
+        "市场慢慢稳定下来"
+      ]
+    },
+    {
+      "pattern": "是...的 强调句 (Emphasis/Cleft Construction)",
+      "explanation": "Frames an already-completed action to emphasize one of its circumstances: time, place, manner, or agent. The verb is bracketed by 是 and 的. In business contexts, often used to clarify the terms of a past agreement or event. 是 can be omitted in speech but not 的.",
+      "examples": [
+        "这份合同是昨天签的。",
+        "他是从上海来的。",
+        "产品是在本地生产的。",
+        "这个价格是我们特别优惠的。"
+      ]
+    },
+    {
+      "pattern": "越...越... (The more X, the more Y)",
+      "explanation": "Links two parallel changes: as one condition increases, so does another. Both clauses share the same subject or the second clause has its own. Very common in business analysis: 越卖越好 (the more it sells the better), 越早越好 (the sooner the better). Contrast with 越来越 + adj/V (increasingly...) which has only one clause.",
+      "examples": [
+        "价格越低，销量越好。",
+        "了解得越多，越有信心。",
+        "越来越多的客户选择网购。",
+        "这个问题越拖越难解决。"
+      ]
+    },
+    {
+      "pattern": "才 vs 就: timing attitude particles",
+      "explanation": "Both relate action B to a prior condition A, but encode opposite evaluations of timing. 才 = only then (speaker finds it late, slow, difficult, or conditional); 就 = right away / as early as (speaker finds it quick, easy, or surprising). Critical in business dialogue: 他才来 (he only just arrived — late!) vs 他就来了 (he'll be here right away).",
+      "examples": [
+        "等了两个小时他才来。(waited 2 hrs, only then came — late)",
+        "他一收到邮件就回复了。(the moment he got it, immediately replied)",
+        "价格谈了很久才决定。(took a long time to agree on price)",
+        "客户说明天就可以付款。(client says payment can happen as early as tomorrow)"
+      ]
+    },
+    {
+      "pattern": "被 + (Agent) + V + Complement (Passive)",
+      "explanation": "Marks the subject as the receiver of an action. Agent is optional. In formal business Chinese, 被 passives frequently appear in reports and notices to describe outcomes (especially unwanted ones): 合同被取消 (the contract was cancelled). Also used neutrally in formal prose.",
+      "examples": [
+        "货物被损坏了。",
+        "合同被双方签署了。",
+        "项目被批准。",
+        "这个方案被否决了。"
+      ]
+    },
+    {
+      "pattern": "只 vs 全 scope particles",
+      "explanation": "只 (zhǐ) restricts scope downward (only, merely); 全 (quán) expands scope upward (all, entirely). Both precede the verb. In formal registers, 仅 substitutes for 只. Contrast: 只有一个选择 (only one choice) vs 全部同意 (all agree).",
+      "examples": [
+        "我们只接受人民币付款。",
+        "全体员工参加培训。",
+        "仅供参考。",
+        "全年营业额增长了15%。"
+      ]
+    },
+    {
+      "pattern": "量词短语 + 就/才 in quantitative judgments",
+      "explanation": "Combining a specific quantity phrase with 就 (as little as / already) or 才 (only / no more than) encodes the speaker's evaluation of whether the quantity is large or small. 就 signals 'impressively small amount achieves result'; 才 signals 'disappointingly small amount or late'. Used in negotiations and reports to frame quantities rhetorically.",
+      "examples": [
+        "一千元就够了。(1000 yuan is sufficient — easy)",
+        "才卖出去五件。(only sold 5 — disappointing)",
+        "两天就完成了。(finished in just 2 days — fast)",
+        "花了一个月才搞定。(took a whole month — slow)"
+      ]
+    }
+  ],
+
+  "expressions": [
+    {
+      "zh": "理财",
+      "pinyin": "lǐcái",
+      "meaning": "manage personal/household finances; financial management",
+      "register": "general / semi-formal"
+    },
+    {
+      "zh": "记账",
+      "pinyin": "jìzhàng",
+      "meaning": "keep accounts; record expenses in a ledger",
+      "register": "general"
+    },
+    {
+      "zh": "账本",
+      "pinyin": "zhàngběn",
+      "meaning": "account book; ledger",
+      "register": "general / business"
+    },
+    {
+      "zh": "月初",
+      "pinyin": "yuèchū",
+      "meaning": "beginning of the month (first few days)",
+      "register": "general / business"
+    },
+    {
+      "zh": "花费",
+      "pinyin": "huāfèi",
+      "meaning": "expenditure; to spend (money or time); expenses",
+      "register": "general"
+    },
+    {
+      "zh": "伙食费",
+      "pinyin": "huǒshífèi",
+      "meaning": "board expenses; money spent on food/meals",
+      "register": "general / domestic"
+    },
+    {
+      "zh": "总结",
+      "pinyin": "zǒngjié",
+      "meaning": "to summarize; a summary; wrap-up",
+      "register": "formal / business"
+    },
+    {
+      "zh": "一向",
+      "pinyin": "yīxiàng",
+      "meaning": "always; consistently; all along (describes habitual pattern)",
+      "register": "written / formal"
+    },
+    {
+      "zh": "随便",
+      "pinyin": "suíbiàn",
+      "meaning": "casual; careless; indiscriminate; as one pleases",
+      "register": "colloquial"
+    },
+    {
+      "zh": "奇怪",
+      "pinyin": "qíguài",
+      "meaning": "strange; surprising; odd",
+      "register": "general"
+    },
+    {
+      "zh": "预订",
+      "pinyin": "yùdìng",
+      "meaning": "to book/reserve in advance (a table, room, ticket)",
+      "register": "general / service industry"
+    },
+    {
+      "zh": "推荐",
+      "pinyin": "tuījiàn",
+      "meaning": "to recommend; recommendation",
+      "register": "general / business"
+    },
+    {
+      "zh": "菜单",
+      "pinyin": "càidān",
+      "meaning": "menu (restaurant)",
+      "register": "general"
+    },
+    {
+      "zh": "点菜",
+      "pinyin": "diǎncài",
+      "meaning": "to order food/dishes at a restaurant",
+      "register": "general"
+    },
+    {
+      "zh": "味道",
+      "pinyin": "wèidào",
+      "meaning": "taste; flavor; smell",
+      "register": "general"
+    },
+    {
+      "zh": "特色（菜）",
+      "pinyin": "tèsè (cài)",
+      "meaning": "specialty (dish); characteristic; distinctive feature",
+      "register": "general / restaurant"
+    },
+    {
+      "zh": "老顾客",
+      "pinyin": "lǎo gùkè",
+      "meaning": "regular customer; returning customer; long-standing client",
+      "register": "business / service"
+    },
+    {
+      "zh": "老字号",
+      "pinyin": "lǎozìhào",
+      "meaning": "old established brand or business; time-honored shop/restaurant",
+      "register": "formal / cultural"
+    },
+    {
+      "zh": "信誉",
+      "pinyin": "xìnyù",
+      "meaning": "reputation; credibility; trustworthiness (of a business)",
+      "register": "formal / business"
+    },
+    {
+      "zh": "讨价还价",
+      "pinyin": "tǎojiàhuánjià",
+      "meaning": "to bargain; to haggle over price (4-char idiom, slightly colloquial)",
+      "register": "colloquial / commercial"
+    },
+    {
+      "zh": "合理",
+      "pinyin": "hélǐ",
+      "meaning": "reasonable; fair; rational (of a price, proposal, or arrangement)",
+      "register": "general / business"
+    },
+    {
+      "zh": "款式",
+      "pinyin": "kuǎnshì",
+      "meaning": "style; design; model (of goods, clothing, products)",
+      "register": "commercial / fashion"
+    },
+    {
+      "zh": "下载",
+      "pinyin": "xiàzǎi",
+      "meaning": "to download",
+      "register": "tech / general"
+    },
+    {
+      "zh": "安装",
+      "pinyin": "ānzhuāng",
+      "meaning": "to install (software, equipment)",
+      "register": "tech / general"
+    },
+    {
+      "zh": "注册",
+      "pinyin": "zhùcè",
+      "meaning": "to register (an account, a company); registration",
+      "register": "general / business / tech"
+    },
+    {
+      "zh": "用户名",
+      "pinyin": "yònghùmíng",
+      "meaning": "username; user ID",
+      "register": "tech"
+    },
+    {
+      "zh": "即时通讯",
+      "pinyin": "jíshí tōngxùn",
+      "meaning": "instant messaging (IM); real-time communication",
+      "register": "tech / formal"
+    },
+    {
+      "zh": "胡同",
+      "pinyin": "hútòng",
+      "meaning": "hutong; traditional narrow alley/lane in old Beijing neighborhoods",
+      "register": "cultural / general"
+    },
+    {
+      "zh": "四合院",
+      "pinyin": "sìhéyuàn",
+      "meaning": "traditional Chinese quadrangle courtyard dwelling (Beijing)",
+      "register": "cultural / architectural"
+    },
+    {
+      "zh": "郊区",
+      "pinyin": "jiāoqū",
+      "meaning": "suburbs; outskirts of a city",
+      "register": "general"
+    },
+    {
+      "zh": "优惠",
+      "pinyin": "yōuhuì",
+      "meaning": "preferential; special discount; favorable (terms, price)",
+      "register": "business / commercial"
+    },
+    {
+      "zh": "专门",
+      "pinyin": "zhuānmén",
+      "meaning": "specialized; dedicated; especially (for a purpose)",
+      "register": "general / business"
+    },
+    {
+      "zh": "决心",
+      "pinyin": "juéxīn",
+      "meaning": "determination; resolve; to be determined (to do something)",
+      "register": "general / formal"
+    },
+    {
+      "zh": "加强",
+      "pinyin": "jiāqiáng",
+      "meaning": "to strengthen; to reinforce; to enhance",
+      "register": "formal / business"
+    },
+    {
+      "zh": "直接",
+      "pinyin": "zhíjiē",
+      "meaning": "direct; directly; straightforward (communication or route)",
+      "register": "general / business"
+    },
+    {
+      "zh": "承认",
+      "pinyin": "chéngrèn",
+      "meaning": "to acknowledge; to admit; to recognize (a fact or situation)",
+      "register": "formal / business"
+    },
+    {
+      "zh": "损失",
+      "pinyin": "sǔnshī",
+      "meaning": "loss; damage (financial or otherwise); to suffer a loss",
+      "register": "formal / business"
+    },
+    {
+      "zh": "项目",
+      "pinyin": "xiàngmù",
+      "meaning": "item; project; program",
+      "register": "business / formal"
+    }
+  ],
+
+  "essay_takeaways": [
+    "Business Chinese at the beginner-intermediate level organizes around thematic, real-world scenarios (financial management, restaurant dining, bargaining, tech use, urban tourism) — when writing for a professional Chinese audience, ground your prose in a concrete situational frame before making abstract claims.",
+    "The 把-construction is not merely a grammar rule but a rhetorical choice: use it when you want to foreground what happens to a specific object, especially its transformation or displacement. In formal reports and instructions, this makes outcomes vivid and unambiguous.",
+    "Resultative and potential complements (V+好, V+完, V+得了/不了) are the backbone of precision writing in Chinese. Avoid bare verbs for completed actions; adding a resultative complement signals completion and often carries professional register weight.",
+    "Temporal attitude with 才 vs 就 is a high-leverage register tool. 才 frames an event as belated or difficult (useful for expressing urgency or frustration in business negotiation); 就 frames it as prompt or easy (useful for reassurance or selling). Choosing the wrong one inverts your intended tone.",
+    "The 越...越... pattern is ideal for business analysis: it links two variables in a dynamic relationship (越早决定，越有竞争优势) and reads as polished formal prose, unlike purely additive clause structures.",
+    "Old brand vocabulary (老字号, 信誉, 特色) reflects a distinctly Chinese commercial register where heritage and authenticity are key selling propositions — when writing about Chinese companies or products, incorporating this vocabulary signals cultural literacy.",
+    "Online commerce terminology (淘宝/当当/京东, 注册, 下载, 用户名) is now standard in business Chinese contexts; its register is neutral-to-informal but appearing in formal documents (company reports, e-commerce contracts) requires pairing it with formal syntactic structures.",
+    "Dialogue in Chinese business contexts — restaurant ordering, customer service, negotiation — routinely relies on 推荐 collocations: X推荐Y，（给）Z推荐 = recommend Y to Z. Mastering this pattern and its argument structure (what is recommended, to whom, by whom) is foundational for service-industry and hospitality writing."
+  ]
+}

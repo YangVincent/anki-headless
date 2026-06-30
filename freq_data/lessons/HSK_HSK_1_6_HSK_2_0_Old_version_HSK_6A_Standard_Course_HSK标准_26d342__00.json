@@ -1,0 +1,520 @@
+{
+  "model_essays": [],
+  "_note_model_essays": "OCR quality is catastrophic throughout: all Chinese prose passages are fragmented into single-character or partial-character lines, heavily mixed with Cyrillic characters and noise. No reading text (lessons 1-10, each ~700-950 chars per the chapter headers) can be faithfully reconstructed. Titles are visible (e.g., 孩子们给我的启示, 父母的爱, 一盒月饼, 完胜, 全球视野中的中国饮食) but the body text is irrecoverable. Vocabulary lists and English glosses are largely intact and form the basis for all extractions below.",
+
+  "grammar_patterns": [
+    {
+      "pattern": "固然…但是/却…",
+      "explanation": "Concession pattern: 'Admittedly X, but Y.' 固然 grants the truth of the premise, then introduces a contrasting conclusion. Slightly more formal than 虽然…但是… and more suited to written argumentation. The conceded clause often contains what the reader expects; the但/却 clause delivers the author's actual point.",
+      "examples": []
+    },
+    {
+      "pattern": "以致…",
+      "explanation": "Result/consequence clause marker: 'resulting in…', 'so much so that…'. Used when the preceding situation produces a negative or noteworthy outcome. More formal than 所以; often introduces undesirable results. Vocabulary entry in lesson 7 glosses it as 'consequently, as a result' and in lesson 10 as 'to such an extent as to…, so… that…'. The two slightly different usages depend on what follows: a noun phrase (consequence) or a full clause (degree).",
+      "examples": []
+    },
+    {
+      "pattern": "不料…",
+      "explanation": "Unexpected-outcome pivot: 'unexpectedly…', 'to one's surprise…'. Appears at the start of a clause or sentence to signal that the following event contradicts what the subject or reader would have predicted. Creates narrative tension and is common in both fiction and opinion writing when introducing a reversal.",
+      "examples": []
+    },
+    {
+      "pattern": "无非…而已",
+      "explanation": "Double-layer restriction/minimization: 'nothing but… and that's all.' 无非 restricts the scope ('nothing other than'), and 而已 at the end deflates it further ('that's all it amounts to'). Often used rhetorically to downplay an opposing view or to simplify a complex situation. Both items appear as vocabulary entries in lessons 5 and 5 respectively.",
+      "examples": []
+    },
+    {
+      "pattern": "倘若/一旦…就…",
+      "explanation": "Formal conditional: 'if/supposing/once… then…'. 倘若 (lesson 4) is more literary than 如果; 一旦 adds the nuance of 'once it happens'. Both pair with 就 in the consequence clause. Useful in essays to set up hypothetical scenarios before arguing against or for them.",
+      "examples": []
+    },
+    {
+      "pattern": "adj./v. + 得 + 程度补语",
+      "explanation": "Degree complement construction: verb or adjective followed by 得 and a phrase describing the degree or result of the action. Explicitly listed as a grammar point in the textbook's unit overview (Unit 3). Examples would follow the form 高兴得跳起来 or 忙得不可开交. The complement can be a clause, adjective, or verbal phrase. Used to vividly describe the intensity of a state or action rather than simply asserting it—a key tool for descriptive writing.",
+      "examples": []
+    },
+    {
+      "pattern": "不由得…",
+      "explanation": "Involuntary-action marker: 'can't help but…', 'involuntarily…'. Lesson 2 vocabulary entry: 不由得 adv. 'can't help (doing sth.)'. Used to describe emotional or physical reactions that the subject cannot suppress. Creates empathy in narrative and is more literary than 情不自禁 in prose rhythm.",
+      "examples": []
+    }
+  ],
+
+  "expressions": [
+    {
+      "zh": "滔滔不绝",
+      "pinyin": "tāo tāo bù jué",
+      "meaning": "to pour out words in a steady flow; to talk without stopping",
+      "register": "literary/formal"
+    },
+    {
+      "zh": "鸦雀无声",
+      "pinyin": "yā què wú shēng",
+      "meaning": "in utter silence; not even a crow or sparrow can be heard",
+      "register": "literary/formal"
+    },
+    {
+      "zh": "热泪盈眶",
+      "pinyin": "rè lèi yíng kuàng",
+      "meaning": "eyes brimming with tears; deeply moved to tears",
+      "register": "literary/formal"
+    },
+    {
+      "zh": "无精打采",
+      "pinyin": "wú jīng dǎ cǎi",
+      "meaning": "listless, in low spirits, lacking energy",
+      "register": "formal"
+    },
+    {
+      "zh": "饱经沧桑",
+      "pinyin": "bǎo jīng cāng sāng",
+      "meaning": "to have witnessed or experienced many changes in life; world-weary",
+      "register": "literary/formal"
+    },
+    {
+      "zh": "小心翼翼",
+      "pinyin": "xiǎo xīn yì yì",
+      "meaning": "with utmost care, gingerly, with extreme caution",
+      "register": "formal"
+    },
+    {
+      "zh": "举世瞩目",
+      "pinyin": "jǔ shì zhǔ mù",
+      "meaning": "to attract worldwide attention; watched by the whole world",
+      "register": "formal/written"
+    },
+    {
+      "zh": "空前绝后",
+      "pinyin": "kōng qián jué hòu",
+      "meaning": "unprecedented and unrepeatable; unique in all of history",
+      "register": "literary/formal"
+    },
+    {
+      "zh": "各抒己见",
+      "pinyin": "gè shū jǐ jiàn",
+      "meaning": "each expresses his/her own views; everyone voices their opinion",
+      "register": "formal"
+    },
+    {
+      "zh": "争先恐后",
+      "pinyin": "zhēng xiān kǒng hòu",
+      "meaning": "to strive to be first, to vie with each other; scrambling to get ahead",
+      "register": "formal"
+    },
+    {
+      "zh": "称心如意",
+      "pinyin": "chèn xīn rú yì",
+      "meaning": "after one's own heart; exactly what one wished for",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "兴致勃勃",
+      "pinyin": "xìng zhì bó bó",
+      "meaning": "full of enthusiasm; in high spirits, keenly interested",
+      "register": "formal"
+    },
+    {
+      "zh": "兴高采烈",
+      "pinyin": "xìng gāo cǎi liè",
+      "meaning": "in high spirits, cheerful and elated",
+      "register": "formal"
+    },
+    {
+      "zh": "斩钉截铁",
+      "pinyin": "zhǎn dīng jié tiě",
+      "meaning": "firm and decisive; cutting nails and chopping iron—brooking no hesitation",
+      "register": "formal"
+    },
+    {
+      "zh": "全力以赴",
+      "pinyin": "quán lì yǐ fù",
+      "meaning": "to go all out; to spare no effort; to put in everything one has",
+      "register": "formal"
+    },
+    {
+      "zh": "兢兢业业",
+      "pinyin": "jīng jīng yè yè",
+      "meaning": "cautious and conscientious; diligent and meticulous in one's work",
+      "register": "formal/written"
+    },
+    {
+      "zh": "想方设法",
+      "pinyin": "xiǎng fāng shè fǎ",
+      "meaning": "to try every means; to do everything possible to find a way",
+      "register": "formal"
+    },
+    {
+      "zh": "无忧无虑",
+      "pinyin": "wú yōu wú lǜ",
+      "meaning": "carefree, free from worries and anxieties",
+      "register": "formal"
+    },
+    {
+      "zh": "一举两得",
+      "pinyin": "yī jǔ liǎng dé",
+      "meaning": "to kill two birds with one stone; to achieve two goals with one action",
+      "register": "formal"
+    },
+    {
+      "zh": "翻天覆地",
+      "pinyin": "fān tiān fù dì",
+      "meaning": "earth-shaking, tremendous; a complete reversal or transformation",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "迫不及待",
+      "pinyin": "pò bù jí dài",
+      "meaning": "too impatient to wait; itching to do something",
+      "register": "formal"
+    },
+    {
+      "zh": "狼吞虎咽",
+      "pinyin": "láng tūn hǔ yàn",
+      "meaning": "to wolf down food; to eat ravenously",
+      "register": "colloquial/literary"
+    },
+    {
+      "zh": "固然",
+      "pinyin": "gù rán",
+      "meaning": "admittedly, it is true that (concession marker, more formal than 虽然)",
+      "register": "written/formal"
+    },
+    {
+      "zh": "无非",
+      "pinyin": "wú fēi",
+      "meaning": "nothing but, no more than (reductive marker; downgrades an opposing claim)",
+      "register": "written/formal"
+    },
+    {
+      "zh": "而已",
+      "pinyin": "ér yǐ",
+      "meaning": "nothing more, that is all (sentence-final particle of restriction/dismissal)",
+      "register": "written/formal"
+    },
+    {
+      "zh": "不料",
+      "pinyin": "bù liào",
+      "meaning": "unexpectedly, to one's surprise (pivot word for narrative reversals)",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "倘若",
+      "pinyin": "tǎng ruò",
+      "meaning": "if, supposing (literary conditional, more formal than 如果)",
+      "register": "literary/formal"
+    },
+    {
+      "zh": "以致",
+      "pinyin": "yǐ zhì",
+      "meaning": "consequently, resulting in; to such an extent that (formal result connector)",
+      "register": "written/formal"
+    },
+    {
+      "zh": "风度",
+      "pinyin": "fēng dù",
+      "meaning": "demeanor, bearing, manner; the quality of how one carries oneself",
+      "register": "formal"
+    },
+    {
+      "zh": "修养",
+      "pinyin": "xiū yǎng",
+      "meaning": "self-cultivation, refinement; cultural and moral development",
+      "register": "formal"
+    },
+    {
+      "zh": "知音",
+      "pinyin": "zhī yīn",
+      "meaning": "a person who is deeply appreciative of one's talents; a kindred spirit or true friend",
+      "register": "literary/formal"
+    },
+    {
+      "zh": "约束",
+      "pinyin": "yuē shù",
+      "meaning": "to keep within bounds, to restrain, to impose discipline",
+      "register": "formal"
+    },
+    {
+      "zh": "启示",
+      "pinyin": "qǐ shì",
+      "meaning": "enlightenment, revelation, epiphany (often from an event or person)",
+      "register": "formal"
+    },
+    {
+      "zh": "体谅",
+      "pinyin": "tǐ liàng",
+      "meaning": "to show understanding and sympathy; to make allowances for someone",
+      "register": "formal"
+    },
+    {
+      "zh": "融洽",
+      "pinyin": "róng qià",
+      "meaning": "getting along well, on friendly terms, harmonious in relationship",
+      "register": "formal"
+    },
+    {
+      "zh": "宽容",
+      "pinyin": "kuān róng",
+      "meaning": "tolerant, forgiving; to accommodate others' faults or differences",
+      "register": "formal"
+    },
+    {
+      "zh": "嫉妒",
+      "pinyin": "jí dù",
+      "meaning": "to envy, to be jealous of; envy (as a noun or verb)",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "忽略",
+      "pinyin": "hū lüè",
+      "meaning": "to ignore, to neglect, to overlook",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "严厉",
+      "pinyin": "yán lì",
+      "meaning": "stern, severe, strict (of a person's manner or punishment)",
+      "register": "formal"
+    },
+    {
+      "zh": "意识",
+      "pinyin": "yì shí",
+      "meaning": "to realize, to be aware of; consciousness (noun); to become conscious of",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "顿时",
+      "pinyin": "dùn shí",
+      "meaning": "at once, instantly, all at once (marks a sudden change of state)",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "不由得",
+      "pinyin": "bù yóu de",
+      "meaning": "can't help (doing sth.); involuntarily, without being able to stop oneself",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "漫长",
+      "pinyin": "màn cháng",
+      "meaning": "very long, endless, interminable (of time or distance)",
+      "register": "formal"
+    },
+    {
+      "zh": "难得",
+      "pinyin": "nán dé",
+      "meaning": "hard to come by, rare; seldom available or occurring",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "向往",
+      "pinyin": "xiàng wǎng",
+      "meaning": "to yearn for, to look forward to; to have longing for something ideal",
+      "register": "formal"
+    },
+    {
+      "zh": "酝酿",
+      "pinyin": "yùn niàng",
+      "meaning": "to brew, to ferment; to deliberate and develop (a plan, emotion, idea) gradually",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "欣慰",
+      "pinyin": "xīn wèi",
+      "meaning": "gratified, satisfied, heartened; feeling pleased because something met expectations",
+      "register": "formal"
+    },
+    {
+      "zh": "朴实",
+      "pinyin": "pǔ shí",
+      "meaning": "sincere, honest, unpretentious; simple and genuine",
+      "register": "formal"
+    },
+    {
+      "zh": "辜负",
+      "pinyin": "gū fù",
+      "meaning": "to let down, to fail to live up to; to betray trust or expectations",
+      "register": "formal"
+    },
+    {
+      "zh": "流露",
+      "pinyin": "liú lù",
+      "meaning": "to reveal unintentionally; for feelings or thoughts to show involuntarily",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "承诺",
+      "pinyin": "chéng nuò",
+      "meaning": "to promise, to commit to; a promise or commitment",
+      "register": "formal"
+    },
+    {
+      "zh": "尝试",
+      "pinyin": "cháng shì",
+      "meaning": "to try, to attempt; a trial or experiment",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "盲目",
+      "pinyin": "máng mù",
+      "meaning": "blind, aimless; acting without direction or knowledge",
+      "register": "formal"
+    },
+    {
+      "zh": "良心",
+      "pinyin": "liáng xīn",
+      "meaning": "conscience; moral sense of right and wrong",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "未免",
+      "pinyin": "wèi miǎn",
+      "meaning": "rather, a bit too, somewhat (used to gently criticize or express reservation)",
+      "register": "formal"
+    },
+    {
+      "zh": "意志",
+      "pinyin": "yì zhì",
+      "meaning": "will, willpower, determination",
+      "register": "formal"
+    },
+    {
+      "zh": "挫折",
+      "pinyin": "cuò zhé",
+      "meaning": "setback, defeat, frustration",
+      "register": "formal"
+    },
+    {
+      "zh": "畏惧",
+      "pinyin": "wèi jù",
+      "meaning": "to fear, to dread; to be intimidated by",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "勇于",
+      "pinyin": "yǒng yú",
+      "meaning": "to be brave enough to, to have the courage to (followed by a verb)",
+      "register": "formal"
+    },
+    {
+      "zh": "日益",
+      "pinyin": "rì yì",
+      "meaning": "day by day, increasingly, with each passing day",
+      "register": "formal/written"
+    },
+    {
+      "zh": "演变",
+      "pinyin": "yǎn biàn",
+      "meaning": "to change, to evolve, to develop over time",
+      "register": "formal"
+    },
+    {
+      "zh": "陷入",
+      "pinyin": "xiàn rù",
+      "meaning": "to be immersed in, to be lost in, to fall into (a state)",
+      "register": "formal"
+    },
+    {
+      "zh": "思索",
+      "pinyin": "sī suǒ",
+      "meaning": "to think deeply, to ponder, to reflect carefully",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "视野",
+      "pinyin": "shì yě",
+      "meaning": "field of vision; breadth of perspective or knowledge",
+      "register": "formal"
+    },
+    {
+      "zh": "辉煌",
+      "pinyin": "huī huáng",
+      "meaning": "glorious, splendid, brilliant; dazzling achievement or appearance",
+      "register": "formal"
+    },
+    {
+      "zh": "和谐",
+      "pinyin": "hé xié",
+      "meaning": "harmonious, in accord; balanced and mutually compatible",
+      "register": "formal"
+    },
+    {
+      "zh": "辽阔",
+      "pinyin": "liáo kuò",
+      "meaning": "vast, extensive, wide (of territory, sea, sky)",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "蕴藏",
+      "pinyin": "yùn cáng",
+      "meaning": "to contain, to hold in store; to harbor latent resources or meaning",
+      "register": "formal"
+    },
+    {
+      "zh": "构思",
+      "pinyin": "gòu sī",
+      "meaning": "to conceive, to design, to plan out (an artistic or intellectual work)",
+      "register": "formal"
+    },
+    {
+      "zh": "防止",
+      "pinyin": "fáng zhǐ",
+      "meaning": "to prevent, to guard against",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "弥补",
+      "pinyin": "mí bǔ",
+      "meaning": "to make up for, to remedy, to offset (a deficiency or mistake)",
+      "register": "formal"
+    },
+    {
+      "zh": "干扰",
+      "pinyin": "gān rǎo",
+      "meaning": "to disturb, to interfere with, to disrupt",
+      "register": "formal"
+    },
+    {
+      "zh": "麻木",
+      "pinyin": "má mù",
+      "meaning": "numb, apathetic; lacking sensitivity or responsiveness",
+      "register": "formal"
+    },
+    {
+      "zh": "空虚",
+      "pinyin": "kōng xū",
+      "meaning": "empty, void; feeling a lack of meaning or substance",
+      "register": "formal"
+    },
+    {
+      "zh": "激情",
+      "pinyin": "jī qíng",
+      "meaning": "passion, fervor, intense enthusiasm",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "人格",
+      "pinyin": "rén gé",
+      "meaning": "personality, character; moral quality of a person",
+      "register": "formal"
+    },
+    {
+      "zh": "时机",
+      "pinyin": "shí jī",
+      "meaning": "the right moment, opportune time, occasion",
+      "register": "formal"
+    }
+  ],
+
+  "essay_takeaways": [
+    "Use 成语 to signal register and compress complex ideas. This textbook's reading passages at HSK 6 rely heavily on 4-character idioms (e.g., 鸦雀无声, 滔滔不绝, 饱经沧桑, 举世瞩目) as standalone, high-density descriptive anchors. In your own essays, drop a well-placed 成语 rather than three sentences of description—it signals sophistication and fluency to native readers.",
+    "Master formal discourse markers to control essay flow. Words like 固然 (concession), 不料 (reversal), 以致 (consequence), 无非…而已 (minimization), and 倘若 (hypothetical) do heavy structural work in written Chinese. Developing a toolkit of 10–15 such connectors lets you argue with precision and variety rather than relying on 但是 and 所以.",
+    "The 无非…而已 double-restriction construction is a powerful rhetorical move for argumentation. Use it to deflate an opponent's position: '那不过是无非…而已' reduces their claim to triviality. Practice using both particles together rather than separately.",
+    "Vocabulary register matters as much as vocabulary breadth. Many of the words in these lessons have near-synonyms at lower register: 思索 vs 想, 畏惧 vs 害怕, 顿时 vs 马上, 漫长 vs 很长. Consciously replacing the lower-register word with the 书面语 equivalent elevates any passage immediately.",
+    "Character studies and internal monologue are defining features of HSK 6 narrative texts. Topics range from family relationships (父母之爱, 孩子的启示) to identity (遇见从前的自己) to career (职场新人). For essay writing, this suggests that grounding abstract arguments in personal or observed experience, then stepping back to the principle, is a preferred Chinese essay structure.",
+    "The degree-complement structure (adj./v. + 得 + 程度补语) is explicitly taught at this level. Rather than just saying 他很担心, an HSK 6 writer says 他担心得整夜睡不着觉. Practice transforming flat adverbial intensifiers into degree complements for vivid, precise description.",
+    "Exploit antonymy for contrast-based paragraph structure. The textbook's vocabulary consistently introduces paired opposites: 别扭 ↔ 融洽, 严厉 ↔ 宽容, 空虚 ↔ 踏实, 盲目 ↔ 果断. In essays, contrasting two states or approaches using their formal vocabulary equivalents creates clean, readable argument.",
+    "Formal expressions for emotional/involuntary states (热泪盈眶, 不由得, 滔滔不绝) are essential for descriptive writing. These constructions place the emotion as an unstoppable force acting on the subject—more powerful and writerly than just saying 他哭了 or 他说了很多.",
+    "Balance narrative episode with general principle. The reading texts are typically 700–950 characters—a length that fits roughly one developed anecdote plus a generalized reflection. When structuring an HSK 6-level essay, aim for this ratio: open with a concrete scene or example (~300 chars), then expand to the broader lesson or argument (~400 chars), then close with the principle restated or opened out (~200 chars).",
+    "The vocabulary cluster around 意志—挫折—勇于—坚持 (willpower, setback, courage, perseverance) appears across multiple lessons. This is a recurrent Chinese rhetorical cluster for personal-development essays. Having fluent control of this semantic field (including formal collocations like 经受挫折, 意志坚定, 勇于面对) lets you handle a broad range of essay prompts about growth, adversity, and character."
+  ]
+}

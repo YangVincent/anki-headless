@@ -1,0 +1,384 @@
+{
+  "model_essays": [],
+  "grammar_patterns": [
+    {
+      "pattern": "把 + Object + Verb + (Complement/了)",
+      "explanation": "The 把 disposal construction (preposition, Lesson 15) fronts a definite, affected object before the verb to show what is done to it or how it ends up. The verb must carry additional material: a result complement, direction, 了, or a quantifier. Signals intentional, completed, or deliberate action.",
+      "examples": [
+        "把行李托运了 — check the luggage (dispose of the luggage by checking it)",
+        "把房间整理好 — put the room in order (result complement 好)",
+        "把东西放好 — put things away properly"
+      ]
+    },
+    {
+      "pattern": "被 + (Agent) + Verb + (Complement)",
+      "explanation": "Passive marker 被 (preposition, Lesson 18) introduces the agent. Often carries an adverse or unexpected sense in Chinese. The verb usually has a complement or aspect marker. Agent can be omitted when unknown or unimportant.",
+      "examples": [
+        "东西被人拿走了 — things were taken away by someone",
+        "行李超重了，被罚了钱 — the luggage was overweight and a fine was paid",
+        "他被选上了 — he was chosen/selected"
+      ]
+    },
+    {
+      "pattern": "不但…，而且…",
+      "explanation": "Correlative conjunction pair (Lesson 11): 'not only … but also …'. Escalates from the first clause to the second, which is stronger or adds new information. Subject can precede 不但 (same subject) or follow 不但 (different subjects).",
+      "examples": [
+        "不但方便，而且安全 — not only convenient, but also safe",
+        "不但价格合适，而且质量很好 — not only is the price right, but the quality is also good",
+        "她不但学习好，而且体育也很棒 — she excels not only academically but also in sports"
+      ]
+    },
+    {
+      "pattern": "除了…以外，还/也…",
+      "explanation": "'Besides / in addition to X, also Y.' (Lesson 8). With 还/也, it adds information. Without 都, it means 'in addition to'; with 都, it typically means 'except for X, all Y'. Extremely versatile in both speech and writing.",
+      "examples": [
+        "除了中文以外，她还学日文 — besides Chinese, she also studies Japanese",
+        "除了这件以外，我都喜欢 — I like all of them except this one",
+        "除了想省钱以外，还想要自由 — besides wanting to save money, (he) also wants freedom"
+      ]
+    },
+    {
+      "pattern": "如果…的话，(就)…",
+      "explanation": "Conditional: 'if … then …' (Lesson 9). 如果 opens the condition; 的话 is an optional closing particle that softens and clarifies the conditional frame. The main clause often uses 就 for correlation. Polite and common in both speech and writing.",
+      "examples": [
+        "如果你想住校外的话，我可以帮你找地方 — if you want to live off campus, I can help you find a place",
+        "如果价格合适的话，就买吧 — if the price is right, go ahead and buy it",
+        "如果你有时间的话，我们可以一起去 — if you have time, we can go together"
+      ]
+    },
+    {
+      "pattern": "越来越 + Adj/V",
+      "explanation": "'More and more [adjective/verb].' (Lesson 15). Describes progressive change over time. The adjective or stative verb directly follows; no additional 很 or degree adverb.",
+      "examples": [
+        "越来越重要 — more and more important",
+        "越来越忙 — busier and busier",
+        "电脑在我们生活中越来越重要 — computers are becoming increasingly important in our lives"
+      ]
+    },
+    {
+      "pattern": "连 + (Noun/Pronoun) + 都/也 + Verb",
+      "explanation": "'Even … also/even.' (连 as preposition, Lesson 17). Emphasizes an extreme or unexpected case. The element after 连 is the most extreme/unlikely member of a set, which is still included.",
+      "examples": [
+        "连家具都没有 — there isn't even any furniture",
+        "连他也不知道 — even he doesn't know",
+        "他忙得连饭都没时间吃 — he was so busy he didn't even have time to eat"
+      ]
+    },
+    {
+      "pattern": "一边 + V1，一边 + V2",
+      "explanation": "Simultaneous actions: 'while doing X, also doing Y.' (一边 as adverb, Lesson 8). Both verb phrases describe actions happening at the same time by the same subject. Common in narrative and descriptive writing.",
+      "examples": [
+        "一边听音乐，一边做作业 — while listening to music, also doing homework",
+        "一边吃饭，一边聊天 — eating and chatting at the same time",
+        "他们一边走一边说话 — they walked along talking"
+      ]
+    },
+    {
+      "pattern": "正在 + V (+ 呢)",
+      "explanation": "Progressive aspect: action is currently in progress (Lesson 8). 正在 emphasizes that the action is ongoing right now. 呢 at the sentence end reinforces the in-progress sense. Contrast with 在 alone (less emphatic) or 着 (ongoing state rather than dynamic action).",
+      "examples": [
+        "他正在上网 — he is surfing the internet right now",
+        "她正在做饭呢 — she is in the middle of cooking",
+        "我正在找地方呢 — I'm in the middle of looking for a place"
+      ]
+    },
+    {
+      "pattern": "太 + Adj + 了",
+      "explanation": "'Too / extremely [adjective].' (Lesson 3). Degree complement indicating excess. Can be positive (太好了 — wonderful!) or negative (太贵了 — too expensive). The 了 is obligatory in this pattern.",
+      "examples": [
+        "太贵了！ — too expensive!",
+        "太方便了 — extremely convenient",
+        "这里太吵了，不安静 — it's way too noisy here, not quiet at all"
+      ]
+    },
+    {
+      "pattern": "Verb + Resultative Complement (VC)",
+      "explanation": "Verb-complement compounds (labeled 'vc' in the vocabulary) indicate the result of an action. IC3 introduces many: 卖完 (sell out / finish selling), 吃坏 (get sick from eating), 长大 (grow up), 想起来 (recall), 躺下 (lie down), 淹死 (drown). The complement describes what state the object reaches or what happens as a result.",
+      "examples": [
+        "票卖完了 — the tickets are sold out",
+        "他终于想起来了 — he finally recalled it",
+        "吃坏了肚子 — got a stomachache from eating (bad food)"
+      ]
+    },
+    {
+      "pattern": "Verb + Directional Complement (来/去, or compound)",
+      "explanation": "Simple directional complements (来/去 after verbs of motion) and compound directional complements (进来, 出去, 回来, 回去, 起来, 下来, etc.). 来 = motion toward speaker; 去 = motion away from speaker. These are labeled 'vc' in the vocabulary.",
+      "examples": [
+        "进来 — come in (toward speaker)",
+        "出去 — go out (away from speaker)",
+        "回来 — come back",
+        "回去 — go back"
+      ]
+    },
+    {
+      "pattern": "要不然 / 否则 + consequence clause",
+      "explanation": "'Otherwise / or else.' (Lesson 15). Introduces the negative consequence of not doing what was stated in the preceding clause. Connects two clauses in a cause-consequence chain. More colloquial than 否则 or 不然.",
+      "examples": [
+        "你得吃药，要不然病好不了 — you must take medicine, otherwise you won't get better",
+        "赶快走，要不然要迟到了 — hurry up, or we'll be late",
+        "要早点预订，要不然没有位置了 — book early, otherwise there won't be any seats"
+      ]
+    },
+    {
+      "pattern": "再说 (moreover / what's more)",
+      "explanation": "Conjunction (Lesson 15) used to add a further, often stronger reason in support of a previous statement. Functions like English 'besides' or 'what's more' when giving additional reasons for a decision or argument. Useful in both spoken reasoning and written argumentation.",
+      "examples": [
+        "住校外可以省钱，再说也可以有自己的自由 — living off campus saves money, and besides you also get your own freedom",
+        "这件衣服质量很好，再说价格也不贵 — this garment is high quality, and moreover the price isn't expensive either"
+      ]
+    },
+    {
+      "pattern": "Modal verb stacking: 应该/能/可以/会/得 (děi) + Verb",
+      "explanation": "IC3 Volumes 1–2 introduce five key modal verbs. 应该 (should/ought to, Lesson 18); 能 (can/able to, physical ability or permission, Lesson 8); 可以 (may/can, permission, Lesson 5); 会 (will; know how to, acquired ability, Lessons 8, 11); 得 děi (must/have to, Lesson 6). Each has distinct nuance; confusing them is a common learner error.",
+      "examples": [
+        "你应该多运动 — you should exercise more (moral/logical obligation)",
+        "她会说中文 — she knows how to speak Chinese (learned skill)",
+        "这里可以停车吗？ — may one park here? (permission)",
+        "我得走了 — I have to go (necessity)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "名胜古迹",
+      "pinyin": "míngshèng gǔjì",
+      "meaning": "Famous scenic spots and historic sites; tourism and cultural heritage fixed noun phrase",
+      "register": "Formal/written; standard in travel writing, tourism texts, official descriptions"
+    },
+    {
+      "zh": "一言为定",
+      "pinyin": "yì yán wéi dìng",
+      "meaning": "It's a deal; that settles it; one word and it's decided — sealing an agreement with a single utterance",
+      "register": "Colloquial but idiomatic; used in conversation to finalize plans or agreements"
+    },
+    {
+      "zh": "一路平安",
+      "pinyin": "yí lù píng'ān",
+      "meaning": "Have a safe journey; bon voyage; may the whole road be peaceful — farewell wish for travelers",
+      "register": "Set phrase; used at departures; equivalent to 'safe travels'"
+    },
+    {
+      "zh": "不好意思",
+      "pinyin": "bù hǎoyìsi",
+      "meaning": "Feel embarrassed / excuse me / sorry to trouble you — mild apology or polite preface to a request",
+      "register": "Colloquial; extremely frequent in everyday and polite speech; softer than 对不起"
+    },
+    {
+      "zh": "没关系",
+      "pinyin": "méi guānxi",
+      "meaning": "It doesn't matter; no problem; don't worry about it — response to an apology or minor mishap",
+      "register": "Colloquial; common reassurance phrase"
+    },
+    {
+      "zh": "算了",
+      "pinyin": "suàn le",
+      "meaning": "Forget it; never mind; let it go — signals resignation or deliberate decision to drop an issue",
+      "register": "Colloquial; implies giving up on a plan or grievance"
+    },
+    {
+      "zh": "赶快",
+      "pinyin": "gǎnkuài",
+      "meaning": "Hurry up; quickly; right away — implies urgency and speed",
+      "register": "Colloquial; signals time pressure"
+    },
+    {
+      "zh": "再说",
+      "pinyin": "zàishuō",
+      "meaning": "Moreover; besides; what's more — adds a supplementary reason or point",
+      "register": "Semi-formal; useful in both spoken argumentation and written prose"
+    },
+    {
+      "zh": "要不然",
+      "pinyin": "yàobùrán",
+      "meaning": "Otherwise; or else — introduces the negative consequence of failing to act",
+      "register": "Colloquial; common in reasoning chains"
+    },
+    {
+      "zh": "马上",
+      "pinyin": "mǎshàng",
+      "meaning": "Immediately; right away; at once",
+      "register": "Colloquial to neutral; very common across all registers"
+    },
+    {
+      "zh": "当然",
+      "pinyin": "dāngrán",
+      "meaning": "Of course; naturally; goes without saying",
+      "register": "Colloquial to neutral; affirms something obvious or expected"
+    },
+    {
+      "zh": "一定",
+      "pinyin": "yídìng",
+      "meaning": "Certainly; definitely; sure to (adverb) / certain; definite (adjective)",
+      "register": "Neutral; emphatic certainty across all registers"
+    },
+    {
+      "zh": "越来越",
+      "pinyin": "yuè lái yuè",
+      "meaning": "More and more; increasingly — describes progressive change",
+      "register": "Neutral; used across all registers"
+    },
+    {
+      "zh": "一直",
+      "pinyin": "yìzhí",
+      "meaning": "Straight; all along; continuously; the whole time — indicates unbroken continuity",
+      "register": "Neutral; very high frequency in both speech and writing"
+    },
+    {
+      "zh": "正在",
+      "pinyin": "zhèngzài",
+      "meaning": "In the middle of; right now (progressive marker)",
+      "register": "Neutral"
+    },
+    {
+      "zh": "打折",
+      "pinyin": "dǎ zhé",
+      "meaning": "To give / get a discount; to sell at a reduced price",
+      "register": "Neutral; commercial and everyday context"
+    },
+    {
+      "zh": "往返",
+      "pinyin": "wǎngfǎn",
+      "meaning": "Round trip; to go and come back",
+      "register": "Neutral; standard travel and transportation vocabulary"
+    },
+    {
+      "zh": "单程",
+      "pinyin": "dānchéng",
+      "meaning": "One-way (trip or ticket)",
+      "register": "Neutral; standard travel vocabulary"
+    },
+    {
+      "zh": "面试",
+      "pinyin": "miànshì",
+      "meaning": "Job or school admission interview (both verb and noun)",
+      "register": "Formal/professional; key term in career and academic contexts"
+    },
+    {
+      "zh": "实习",
+      "pinyin": "shíxí",
+      "meaning": "Internship; to intern; practical training period",
+      "register": "Professional/academic; essential for work-related writing"
+    },
+    {
+      "zh": "提高",
+      "pinyin": "tígāo",
+      "meaning": "To improve; raise; heighten (level, standards, quality)",
+      "register": "Neutral to formal; high frequency in professional and educational writing. Fixed collocation: 提高水平 (raise one's level)"
+    },
+    {
+      "zh": "水平",
+      "pinyin": "shuǐpíng",
+      "meaning": "Level; standard (of skill, proficiency, or performance)",
+      "register": "Neutral; common in educational, professional, and everyday contexts"
+    },
+    {
+      "zh": "专业",
+      "pinyin": "zhuānyè",
+      "meaning": "Academic major; specialty; professional (adj.)",
+      "register": "Neutral to formal; academic and professional contexts"
+    },
+    {
+      "zh": "保险",
+      "pinyin": "bǎoxiǎn",
+      "meaning": "Insurance (noun); safe / secure (adjective)",
+      "register": "Neutral; financial and practical contexts"
+    },
+    {
+      "zh": "好久",
+      "pinyin": "hǎo jiǔ",
+      "meaning": "A long time; quite a while — 好 intensifies 久",
+      "register": "Colloquial; e.g. 好久不见 (long time no see)"
+    },
+    {
+      "zh": "另外",
+      "pinyin": "lìngwài",
+      "meaning": "Furthermore; in addition; besides — introduces additional information or items",
+      "register": "Semi-formal; common in both speech and written lists or arguments"
+    },
+    {
+      "zh": "不过",
+      "pinyin": "búguò",
+      "meaning": "However; but — concessive conjunction, slightly softer than 但是",
+      "register": "Colloquial to neutral; introduces a qualification or contrast"
+    },
+    {
+      "zh": "好像",
+      "pinyin": "hǎoxiàng",
+      "meaning": "Seems like; appear to be; as if — expresses approximation or impression",
+      "register": "Colloquial to neutral; hedges a claim"
+    },
+    {
+      "zh": "担心",
+      "pinyin": "dān xīn",
+      "meaning": "To worry; be worried about (verb-object)",
+      "register": "Neutral; colloquial and written"
+    },
+    {
+      "zh": "打工",
+      "pinyin": "dǎ gōng",
+      "meaning": "To work a part-time or temporary job; to work for wages (often connotes manual or low-wage work)",
+      "register": "Colloquial; informal labor context"
+    },
+    {
+      "zh": "希望",
+      "pinyin": "xīwàng",
+      "meaning": "To hope; to wish (verb) / hope; wish (noun) — very common in both speech and formal writing",
+      "register": "Neutral; universally applicable"
+    },
+    {
+      "zh": "计划",
+      "pinyin": "jìhuà",
+      "meaning": "Plan; to plan (verb/noun) — more formal than 打算",
+      "register": "Formal to neutral; preferred in written/business contexts over 打算"
+    },
+    {
+      "zh": "打算",
+      "pinyin": "dǎsuàn",
+      "meaning": "To intend; to plan (verb/noun) — more colloquial than 计划",
+      "register": "Colloquial to neutral; everyday planning"
+    },
+    {
+      "zh": "印象",
+      "pinyin": "yìnxiàng",
+      "meaning": "Impression — often in 印象很深 (left a deep impression) or 给…留下印象",
+      "register": "Neutral; common in descriptive and analytical writing"
+    },
+    {
+      "zh": "兴趣",
+      "pinyin": "xìngqù",
+      "meaning": "Interest (in something) — collocates with 对…有兴趣 or 感兴趣",
+      "register": "Neutral; academic, personal, professional"
+    },
+    {
+      "zh": "方便",
+      "pinyin": "fāngbiàn",
+      "meaning": "Convenient; to be convenient — extremely common in everyday and professional speech",
+      "register": "Neutral; key word in service/business discussions"
+    },
+    {
+      "zh": "糟糕",
+      "pinyin": "zāogāo",
+      "meaning": "What a mess; terrible; in a terrible state — exclamatory or descriptive",
+      "register": "Colloquial; expresses dismay at a bad situation"
+    },
+    {
+      "zh": "紧张",
+      "pinyin": "jǐnzhāng",
+      "meaning": "Nervous; anxious; tense; tight (as in resources being scarce) — dual sense",
+      "register": "Neutral; common across registers; note business use '资源紧张' (resources are tight)"
+    }
+  ],
+  "essay_takeaways": [
+    "This file contains NO Chinese prose model texts: it is entirely an English-Chinese vocabulary index (Lessons 1–20, IC3 Volumes 1–2) followed by English translations of lesson dialogues (Lessons 1–10). All Chinese appears only as individual vocabulary entries. For advanced Chinese reading models, other chunks in this series will be more productive.",
+    "Discourse structure — layered reasoning with 再说: The English dialogues (e.g. Lesson 1, Ke Lin explaining off-campus life) consistently use a pattern of '(main point) + 再说 + (additional point)'. In Chinese written argumentation, 再说 is a high-value connector that adds a supplementary reason while maintaining logical flow, unlike 而且 which merely conjoins. Cultivate this in your own essay drafts.",
+    "Concession-then-assertion pattern (让步转折): Multiple dialogues (Lessons 4, 9) show characters conceding a point before asserting their own view: '你说得有道理，但是…' / '我不完全同意，但是我能理解'. This 虽然…但是 / 你说得对，不过 structure is the backbone of Chinese argumentative essays. Practice inserting 不过 or 但是 after genuine acknowledgment, not just as a filler.",
+    "Graduated recommendation with 最好: The vocabulary includes 最好 (Lesson 15) as 'had better'. In written Chinese, 最好 introduces a strong but polite recommendation — softer than 应该, stronger than 可以. Use it in professional writing to suggest optimal courses of action without sounding prescriptive.",
+    "Business/professional register upgrade: The dialogues are colloquial American-Chinese. An HSK 5–6 writer should swap register when writing professionally — 不错 → 优秀/出色; 好玩 → 有趣/富有吸引力; 算了 → 此事暂且搁置/不再追究; 打工 → 兼职/实习; 搞定 (implied) → 解决/处理完毕.",
+    "Collocation anchors from the vocabulary: Several high-frequency collocations are evidenced here. Master these as units: 提高水平 (raise one's level), 增加压力 (increase pressure), 安排时间 (arrange time), 做出计划 (make a plan), 留下印象 (leave an impression), 对…感兴趣 (be interested in). Using these fixed collocations correctly is a reliable signal of advanced Chinese.",
+    "Geographic/analytical discourse (Lesson 10 English text): The dialogue provides a template for analytical description of regions — 人口主要分布在…; 自然条件不理想所以人口稀少; 东部是平原和海洋. This structure (geographic feature → population consequence → comparison) maps directly to analytical writing about economic zones, market segments, or organizational divisions.",
+    "Education and child-development debate (Lesson 9): The English text stages a genuine values debate — parental pressure vs. happy childhood — with each character staking a position, partially conceding, then reasserting. The resolution '两者都重要' (both are important) is a classic Chinese essay conclusion. Study the move sequence: claim → challenge → concession ('我不完全同意，但是…') → reassertion → synthesis.",
+    "Measure word system (critical for writing precision): The vocabulary index catalogs 18+ measure words with their semantic domains — 篇 for essays/articles, 封 for letters, 张 for flat objects/tickets/paper, 节 for class periods, 遍 for complete repetitions of an action, 份 for portions/jobs. Advanced writers who use the wrong measure word signal non-native competence. Prioritize 篇 (for writing tasks) and 遍 (for describing how many times you did something completely).",
+    "Modal verb precision: Five modal verbs in IC3 (应该, 能, 可以, 会, 得) are often conflated by learners. In formal writing: 应该 (moral/logical obligation, normative claims), 能 (inherent ability or situational permission), 可以 (granted permission), 会 (acquired skill or prediction), 得 děi (practical necessity). Using the wrong modal undermines register — e.g. 你应该来 (you ought to come, implying moral duty) vs. 你能来吗 (can you come, asking about ability/circumstances).",
+    "Conditional politeness — 如果…的话: This construction (Lesson 9) is essential for professional writing because it frames assertions as contingent rather than absolute, which is culturally appropriate in Chinese business communication. Compare: 你应该早点订票 (you should book early — direct) vs. 如果方便的话，您最好早点订票 (if it's convenient, you'd best book early — polite and conditional). The latter is far more appropriate in formal correspondence."
+  ]
+}

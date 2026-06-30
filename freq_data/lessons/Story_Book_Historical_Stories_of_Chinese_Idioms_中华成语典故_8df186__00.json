@@ -1,0 +1,442 @@
+{
+  "model_essays": [
+    {
+      "title": "《中华成语故事》前言",
+      "genre": "book_preface",
+      "text": "我国历史悠久，灿烂的文化博大精深。成语作为古人智慧的结晶、汉语言中的精华，以其言近旨远、形象生动的独有特点，传承了中华五千年丰富的历史文化。而成语典故更是集深厚的历史底蕴与强烈的文学色彩于一体，其内涵深刻，妙趣无穷，真实地保留下一段段传奇往事和历史遗痕。\n\n《中华成语故事》（图文版）共收录了三百零四条成语典故，根据它们所包涵的不同意义，分为六个篇章，即：品格意志、为人处世、智慧谋略、好学求知、生活启示、幽默诙谐。每个篇章各收录了几十条具有典型教育意义的成语，并注明其词义、用法、出处与典故。每条成语，我们都竭力返本溯源，对于起源较晚的，也在故事中说明其演变过程，使读者了解来龙去脉，从而加深对每条成语的理解。\n\n本书是一套图文并茂的成语鉴赏书籍，取材广泛、体例新颖、编排合理，并注重知识性、准确性、趣味性。在条目方面，我们着重选取了实用性强，同时对青少年读者具有启发教育意义的成语故事；在内容上，力求做到深入浅出，语言通俗易懂，适合青少年理解与记忆，通过文字、图片、版式的有机结合，将一个个脍炙人口的成语故事呈现给读者。本书还将与成语典故相关的风格多样的手绘插图、背景资料、文物古迹作为参考信息补充融入其中，使版面内容更加层次丰富。让读者通过成语典故去了解中华民族悠久的历史、宝贵的文化遗产、高超的智慧、历久弥新的语言文字；通过鲜活的图片及插图使学习成语、掌握成语成为一个轻松、愉快的过程；使青少年原有的知识结构在这种全新的形式下获得更新与提高。",
+      "summary": "Official editorial preface describing the book's scope (304 chengyu stories across six thematic chapters), methodology (tracing each idiom to its origins), and educational aims for young readers.",
+      "why_study": "Exemplifies formal Chinese editorial/scholarly preface style: 四字短语串联 as structural backbone, layered scope (single expression → cultural heritage → history), and elegant purposive sentence closers (让读者通过…去了解…). High model value for academic forewords, grant proposals, or any formal introductory writing in Chinese.",
+      "key_devices": [
+        "四字格串联排比 (取材广泛、体例新颖、编排合理)",
+        "集A与B于一体 (combining two qualities into one subject)",
+        "力求做到… (aspirational goal marker in formal writing)",
+        "通过A的有机结合，将B呈现给C (purposive chain: instrument → product → audience)",
+        "让读者通过…去了解/使…成为… (paired 让/使 sentences for effect statement)"
+      ]
+    },
+    {
+      "title": "卧薪尝胆",
+      "genre": "historical_narrative",
+      "text": "春秋时期，吴国和越国作战，越国兵败投降，越王勾践被迫前往吴国服役。在吴国，勾践身穿粗布衣裳，每日为吴王夫差养马驾车。其妻也如仆人一般，身着布衣，每日清早便起身打扫灰尘。日复一日，年复一年，越王勾践在吴国受尽了折磨和羞辱。终于在三年后，吴王夫差觉得勾践的确甘心臣服，已不可能起兵反抗，就把他及其妻子、随从释放回国。\n\n勾践深觉自己应没齿不忘战败之痛、服役之辱，暗暗发誓一定要雪耻报仇。他回国后，仍穿粗布衣衫，吃粗茶淡饭，以柴草为褥。他冬天抱着冰块睡觉，夏天烤着炭火入眠。在自己卧榻之侧，勾践挂上苦胆，每天都去尝一口胆汁，借此时刻激励自己的复仇意志。越王勾践处处身体力行，励精图治，使越国的经济和军事实力都得到了长足的发展，终于在公元前473年一举消灭了吴国，一雪前耻。",
+      "summary": "King Gou Jian of Yue endures years of servitude in Wu, then returns to live with deliberate austerity — sleeping on brushwood, tasting bile daily — as self-imposed discipline, until he destroys Wu twenty years later.",
+      "why_study": "One of the canonical four-character narrative arcs in classical Chinese: defeat → humiliation → self-discipline → reversal (雪耻). The pacing devices (日复一日，年复一年) and seasonal contrast (冬天…夏天…) are reusable templates. Vocabulary spans concrete hardship, interior resolve, and geopolitical outcome in a single compact passage.",
+      "key_devices": [
+        "日复一日，年复一年 (iterative time intensifier for sustained effort)",
+        "冬天…夏天… (seasonal antithesis to show extremity of self-punishment)",
+        "深觉/暗暗发誓 (interior monologue markers without 'he thought')",
+        "身体力行，励精图治，…终于 (effort → sustained effort → earned resolution arc)",
+        "一雪前耻 (four-character climactic idiom as closing punch)"
+      ]
+    },
+    {
+      "title": "破釜沉舟",
+      "genre": "historical_narrative",
+      "text": "秦朝末年，秦派兵攻打复国后的赵国。赵军不敌，退守巨鹿（今河北平乡西南），被秦军包围。被项梁、项羽叔侄等各路义军拥立的楚怀王任命宋义为上将军，项羽为副将，让他们带领军队前去援救赵国。但是，宋义把兵带到安阳就不再前进了，在此停留了四十六天。项羽非常焦急，再三要求他渡江北上，与赵军里应外合，一举打败秦军。而宋义则希望赵、秦两军打得精疲力尽之时再发兵，以坐收渔翁之利。于是他严令军中不准轻举妄动。与此同时，宋义又宴请宾客，大吃大喝，而士兵、百姓却忍饥挨饿。项羽实在忍不下去，便杀死了宋义，将士们马上拥戴项羽为上将军。\n\n之后，项羽立即派出两名将军，率两万人马渡河解救巨鹿。取得小胜后，项羽下令全军渡河救援赵军。在全军渡河之后，他采取了一系列果断的行动：把所有船只凿沉，把煮饭的锅都打破，把营房都烧掉，只携带三天的干粮，以此表示决一死战的决心，不给士兵留一点儿退路。项羽领军到达巨鹿外围，立即包围了秦军，经过九天激战，最终取得巨鹿之战的胜利。",
+      "summary": "Xiang Yu, frustrated by the general Song Yi's paralysis and self-indulgence, kills him, takes command, crosses the river, then smashes all boats and cooking pots so his troops must fight to the death — and wins the decisive Battle of Julu.",
+      "why_study": "Classic military narrative with sharp character contrast (inaction vs. decisiveness). The three-item anaphoric list 把…凿沉，把…打破，把…烧掉 is a reusable template for listing irreversible actions. The structure of 'accumulated frustration → decisive break → total commitment → victory' is applicable to persuasive essays and case studies.",
+      "key_devices": [
+        "人物对比刻画 (宋义 self-indulgence vs. 项羽 decisive action — set up before the pivot)",
+        "把字句排比三连 (把…凿沉，把…打破，把…烧掉 — anaphoric listing of drastic actions)",
+        "以此表示…，不给… (dual-purpose clause: signal intent + eliminate alternative)",
+        "取得小胜后，…下令全军… (staged escalation of commitment)",
+        "经过九天激战，最终取得… (duration marker + climactic resolution)"
+      ]
+    },
+    {
+      "title": "负荆请罪",
+      "genre": "historical_narrative_with_dialogue",
+      "text": "蔺相如和廉颇是战国时期赵国著名的文臣武将。蔺相如因在出使秦国时立下了大功而被赵王拜为上卿，名列廉颇之上。这使为赵国屡建战功的大将廉颇很不服气，到处扬言要当众羞辱蔺相如。蔺相如知道后，处处回避廉颇，致使他手下的随从以为他胆小而感到非常羞辱。\n\n蔺相如闻言道：“像秦王那样威风，我尚敢当面呵斥，现在我怎么会怕廉颇呢？我之所以避着他，完全是为国家安危着想，不想让敌国有任何可乘之机呀！”\n\n不久廉颇听到了蔺相如所说的话，十分惭愧。于是他脱下衣袍，袒露脊梁，背负荆条，来到蔺相如家中，跪在地上向蔺相如请罪。他说：“廉颇无知，不知先生如此宽宏大量，得罪之处，还请先生恕罪！”蔺相如急忙躬身扶起大将廉颇。从此，二人仇怨尽消，团结一心，共同报效国家。",
+      "summary": "General Lian Po resents minister Lin Xiangru's higher rank and threatens humiliation; Lin avoids him for the state's sake; hearing Lin's reasoning, Lian Po strips to the waist, carries thorns on his back, and begs forgiveness — they become allies.",
+      "why_study": "Model for virtuous interpersonal reasoning and dramatic reconciliation. Contains two reusable patterns: the 之所以…完全是为了 pivot to explain counter-intuitive behavior, and the sequence of physical humiliation actions (脱下…袒露…背负…来到…跪在…) that show rather than tell remorse. The final 从此，二人… is a clean resolution formula.",
+      "key_devices": [
+        "之所以A，完全是为了B (explanatory causal pivot — justifying what looks like weakness)",
+        "像A那样…，我尚敢…，现在怎么会…（递进反问 escalating rhetorical question）",
+        "行为序列描述 (脱下…袒露…背负…来到…跪在… — physical enactment of remorse)",
+        "致使 (causing an unintended negative consequence — useful formal connector)",
+        "从此，二人仇怨尽消，团结一心 (resolution formula with two balanced final clauses)"
+      ]
+    },
+    {
+      "title": "痛定思痛——文天祥传略与《过零丁洋》",
+      "genre": "historical_narrative_with_poem",
+      "text": "公元1275年，元朝军队兵临南宋都城临安城下，南宋形势十分危急。右丞相文天祥毅然辞去官职，主动请求以资政殿学士的身份前往元军的军营探察情况。文天祥到了元军营中之后，慷慨激昂地怒斥了元军入侵的罪行。元军统帅伯颜十分钦佩文天祥，想劝他投降，被文天祥拒绝了。于是他又强迫文天祥前往元朝的京城大都。在船行驶到京口时，文天祥乘敌人没有防备，坐上一条小船逃走了。文天祥想向南宋军禀告元军的情况，但驻守扬州的淮东边帅李庭芝以为文天祥已投降元军，下令将他逮捕。文天祥不得已只得绕过扬子江口，几经辗转来到永嘉，最后又乘船去福州。经历了这些事情之后，文天祥在《指南录后序》中感叹道：“生与死，像昼夜转换一样平淡无奇。如果死了也就算了，但艰险的困境反复出现，不是世人所能承受得了的。痛苦的心情平定之后，再去回想当时痛苦的情景，更加令人伤感。”\n\n南宋名将文天祥积极抗元，终因寡不敌众而被捕。后文天祥被元军软禁在军船上，押往燕京。路过零丁洋，面对波涛汹涌的大海，感慨惆怅之余，挥笔写下千古名作《过零丁洋》：\n\n辛苦遭逢起一经，干戈寥落四周星。\n山河破碎风飘絮，身世浮沉雨打萍。\n惶恐滩头说惶恐，零丁洋里叹零丁。\n人生自古谁无死，留取丹心照汗青。",
+      "summary": "Wen Tianxiang defies the Yuan invaders, flees capture, wanders in exile, and on the way to execution composes the immortal poem 《过零丁洋》, ending with the line that became the emblem of patriotic sacrifice: '人生自古谁无死，留取丹心照汗青.'",
+      "why_study": "Dual model: (1) formal prose narrating adversity with 几经辗转 and 寡不敌众, and (2) the canonical 律诗 using landscape-as-fate metaphor, place-name double meaning (惶恐/零丁), and a universalizing moral close. The final couplet is among the most quoted lines in Chinese — understanding its structure is essential for patriotic or commemorative register.",
+      "key_devices": [
+        "律诗结构 (首联/颔联/颈联/尾联 — four couplets, each with distinct rhetorical function)",
+        "景物喻身世 (风飘絮=破碎河山; 雨打萍=drifting personal fate — landscape mapped onto biography)",
+        "地名双关 (惶恐滩→inward terror; 零丁洋→inner desolation — place names echo emotional state)",
+        "人生自古谁无死… (rhetorical universal question opening the moral conclusion)",
+        "几经辗转 (formal literary adverb for repeated reversal and wandering — concise and vivid)"
+      ]
+    },
+    {
+      "title": "鞠躬尽瘁——诸葛亮北伐",
+      "genre": "historical_narrative",
+      "text": "公元220年，曹操的儿子曹丕废去汉献帝，自己做了皇帝，改国号为魏，即魏文帝。不久，占据四川一带的刘备也宣告登基，即历史上所谓的蜀汉“先主”。刘备任命诸葛亮为丞相，定都成都。这样，连同江南的东吴，就出现了魏、蜀、吴三国鼎立的局面。不久，刘备去世，他的儿子刘禅继位，历史上称为“后主”。诸葛亮仍任丞相，并受封为“武乡侯”，掌握了蜀汉的一切军政大权。\n\n诸葛亮是一贯主张联吴抗魏的。他一面和东吴结好，一面南征孟获，平定南中诸郡，以消除后顾之忧，然后操练兵马，积极准备北伐魏国。出征前，他曾上表后主，力劝刘禅听信忠言，任用贤臣，疏远小人，这就是流传千古的《前出师表》。但是，这次北伐没有成功，诸葛亮暂时退兵回蜀。后来，他再次发动北伐，蜀国有不少官员极力反对。诸葛亮因此又上一表，说明蜀汉与曹魏势不两立，必须北伐的道理，即《后出师表》。在这篇宏文伟论中，诸葛亮表示自己要为蜀汉事业“鞠躬尽力，死而后已”，字里行间，无不体现出一位忠臣贤相的高风亮节。",
+      "summary": "After Liu Bei's death Zhuge Liang balances the three-kingdom equilibrium, campaigns south to secure the rear, and twice memorializes the weak heir-emperor in famous documents before northern expeditions. His words 鞠躬尽力，死而后已 became the definitive statement of selfless loyal service.",
+      "why_study": "Model for political-historical narrative with clear factional mapping, strategic sequencing, and character evaluation. The phrase 以消除后顾之忧，然后… shows subordinate-clause strategic reasoning; 字里行间，无不体现出… is a high-register critical appreciation formula usable in writing analysis or character eulogies.",
+      "key_devices": [
+        "一面A，一面B (parallel simultaneous action — multi-front strategy)",
+        "以消除后顾之忧，然后… (precondition phrase followed by main action — strategic sequencing)",
+        "流传千古的《…》 (prestige-framing of a canonical text)",
+        "字里行间，无不体现出… (critical appreciation formula for implicit textual qualities)",
+        "高风亮节 (moral character idiom as closing evaluation)"
+      ]
+    },
+    {
+      "title": "洁身自好——屈原与渔夫",
+      "genre": "philosophical_dialogue",
+      "text": "战国时期，楚国三闾大夫屈原，因不与同朝贪官同流合污，被人陷害遭到流放。他常常一边走，一边吟唱着楚国的诗歌，心中牵挂着国家大事。一天，屈原来到湘江边。一个渔夫见到他后惊讶地问：“你不就是屈大夫吗？为何落到这般地步？”\n\n屈原叹息道：“整个世道都像这泛滥的江水一样浑浊，而我却像山泉一样清澈见底。”\n\n渔夫故意说：“世道浑浊，你为什么不搅动泥沙，推波助澜？何苦洁身自好，遭此下场。”\n\n屈原说：“我听说一个人洗头后戴帽，先要弹去帽上的灰尘；洗澡后穿衣，先要抖直衣服。我怎么能使自己洁净的身躯被脏物污染呢。”\n\n渔夫听这番话后，对屈原正直和高尚的品格十分敬佩，于是唱着歌，划着船离开了。",
+      "summary": "Exiled Qu Yuan meets a fisherman on the Xiang River; when the fisherman provocatively suggests going along with the corrupt world, Qu Yuan uses a vivid domestic analogy — one doesn't put on clean clothes without shaking the dust off first — to explain why he cannot compromise integrity.",
+      "why_study": "Models the Socratic dialogue structure in classical Chinese: provocative challenge → extended metaphor reply → silent approval-and-departure as validation. The 世道浑浊/山泉清澈 water metaphor and the 洗头/洗澡 analogy demonstrate how to build an ethical argument from concrete, everyday imagery. Dialogue-driven and accessible; useful for understanding how to argue values without abstraction.",
+      "key_devices": [
+        "以水喻世道 (turbid river = corrupt world; mountain spring = personal integrity)",
+        "故意说 (narrator marks the fisherman's challenge as a rhetorical probe, not genuine advice)",
+        "日常类比构筑道德论证 (洗头→弹灰, 洗澡→抖衣 — concrete hygiene analogy for moral cleanliness)",
+        "何苦…，遭此下场 (rhetorical challenge with negative consequence — invites rebuttal)",
+        "唱着歌，划着船离开 (silent, graceful departure = the opponent concedes without words)"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "不A则已，一A则B",
+      "explanation": "If one doesn't do A, so be it — but once one does A, B (an astonishing or extreme result) immediately follows. Used to describe someone or something that is dormant but explosive when activated. Common in narrative climax and motivational rhetoric.",
+      "examples": [
+        "此鸟不飞则已，一飞冲天；不鸣则已，一鸣惊人。（《史记·滑稽列传》）",
+        "楚庄王三年不理朝政，但一鸣惊人，从此励精图治，使楚国成为南方最强大的国家。"
+      ]
+    },
+    {
+      "pattern": "宁（可/愿）A（，也/而）不（肯/能/愿）B",
+      "explanation": "Would rather A than B. Expresses a strong principled preference, often moral or dignified, for an extreme option over a comfortable compromise. A cornerstone of ethical argument in classical and modern Chinese.",
+      "examples": [
+        "大丈夫宁可玉碎，不能瓦全。",
+        "宁可牺牲自己宝贵的生命，也要维护至高无上的道义。",
+        "我怎能为五斗米向乡里小人折腰！"
+      ]
+    },
+    {
+      "pattern": "与其A，（还）不如B",
+      "explanation": "Rather than A, it is better to B. Presents a choice between two bad or unequal options and selects the lesser evil or wiser path. Useful in decision-making, strategic arguments, and cost-benefit analysis.",
+      "examples": [
+        "与其去白白送死，还不如率众起义。",
+        "与其坐以待毙，不如先发制人。"
+      ]
+    },
+    {
+      "pattern": "之所以A，（完全/正/都）是（为了/因为/由于）B",
+      "explanation": "The reason (subject) does A is precisely because of B. A formal causal explanation pattern, often deployed to justify behavior that might otherwise appear contradictory, cowardly, or inexplicable.",
+      "examples": [
+        "我之所以避着他，完全是为国家安危着想，不想让敌国有任何可乘之机呀！",
+        "之所以委屈诸位听从我的命令，是因为我对国家还有些用处，能够忍受委屈、负担重任的缘故。"
+      ]
+    },
+    {
+      "pattern": "非但（不/没有）A，反而B",
+      "explanation": "Not only did (subject) fail to A, but on the contrary B (an opposite or even worse outcome). Highlights outrage, unexpected reversal, or perverse injustice.",
+      "examples": [
+        "灵帝非但没有查办盖升，反而升了盖升的职。",
+        "刘秀不但没有治祭遵的罪，反而还封他为征虏将军。"
+      ]
+    },
+    {
+      "pattern": "人固有一死，或A，或B",
+      "explanation": "Everyone must die; the question is whether their death will be A (weighty/meaningful) or B (trivial/worthless). A classical rhetorical frame for presenting a value judgment on the quality, significance, or worth of a life. Originated in Sima Qian's letter.",
+      "examples": [
+        "人固有一死，或重于泰山，或轻于鸿毛，用之所趋异也。（司马迁《报任安书》）"
+      ]
+    },
+    {
+      "pattern": "一面A，一面B",
+      "explanation": "Describes two simultaneous ongoing actions by the same subject. Common in historical narration to show strategic multi-tasking or to contrast a character's public face with private maneuvering.",
+      "examples": [
+        "他一面和东吴结好，一面南征孟获，平定南中诸郡。",
+        "他一边走，一边吟唱着楚国的诗歌，心中牵挂着国家大事。"
+      ]
+    },
+    {
+      "pattern": "以A为B / 不以A为B",
+      "explanation": "To treat / regard A as B. The negative form 不以A为B is common in formal contexts to describe someone who does not let distance, difficulty, rank, or status be an obstacle or consideration.",
+      "examples": [
+        "不远千里而来 (full form: 不以千里为远而来到此地)。",
+        "不以困难为意，勇往直前。"
+      ]
+    },
+    {
+      "pattern": "只要A，就B",
+      "explanation": "As long as A (sufficient condition), then B (result) will follow. Used for motivational arguments, policy proposals, and logical claims about causation or inevitability.",
+      "examples": [
+        "大王您只要讲究仁义就足够了。",
+        "只要大家一条心，那就会像坚固的城池一样不可摧毁。"
+      ]
+    },
+    {
+      "pattern": "A（小/凡人）安知B（大志者）之志哉",
+      "explanation": "How could A (a small or ordinary entity) possibly understand the aspirations of B (a person of great ambition)? A rhetorical question using scale or status contrast to assert that small-minded people cannot comprehend great ambitions. Used in defiant or aspirational speech.",
+      "examples": [
+        "燕雀安知鸿鹄之志哉！（陈涉语）",
+        "不飞则已，一飞冲天；不鸣则已，一鸣惊人。（楚庄王自喻）"
+      ]
+    },
+    {
+      "pattern": "锲而不舍，金石可镂 / 锲而舍之，朽木不折",
+      "explanation": "Contrastive conditional antithesis: persist → achieve even the hardest goal; quit → fail even the easiest. A classical model for arguing that willpower determines outcome, not difficulty. The two halves are often quoted separately.",
+      "examples": [
+        "锲而舍之，朽木不折；锲而不舍，金石可镂。（《荀子·劝学》）",
+        "不积跬步，无以至千里；不积小流，无以成江海。（同出《劝学》）"
+      ]
+    },
+    {
+      "pattern": "字里行间，无不体现出…",
+      "explanation": "Between every character and every line, one can find (quality/spirit). A critical appreciation formula for describing the implicit expression of character, virtue, or meaning in a text. High-register; used in literary criticism, eulogies, and formal evaluations.",
+      "examples": [
+        "字里行间，无不体现出一位忠臣贤相的高风亮节。",
+        "全文字里行间，无不流露出作者深厚的家国情怀。"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "卧薪尝胆",
+      "pinyin": "wò xīn cháng dǎn",
+      "meaning": "Sleep on brushwood and taste bile — endure deliberate self-imposed hardship to fuel determination for future success or revenge",
+      "register": "literary/formal; high-frequency chengyu; widely used in motivational and business contexts"
+    },
+    {
+      "zh": "破釜沉舟",
+      "pinyin": "pò fǔ chén zhōu",
+      "meaning": "Smash the cauldrons, sink the boats — take drastic, irreversible action to signal total commitment; burn one's bridges; go all-in",
+      "register": "literary/formal; strategic and military contexts; now common in business (全力以赴)"
+    },
+    {
+      "zh": "百折不挠",
+      "pinyin": "bǎi zhé bù náo",
+      "meaning": "Unyielding after a hundred setbacks — indomitable perseverance regardless of repeated failures",
+      "register": "formal; complimentary; written and formal speech"
+    },
+    {
+      "zh": "锲而不舍",
+      "pinyin": "qiè ér bù shě",
+      "meaning": "Carve without stopping — sustained, patient effort that never quits partway through",
+      "register": "formal/academic; motivational and evaluation contexts"
+    },
+    {
+      "zh": "励精图治",
+      "pinyin": "lì jīng tú zhì",
+      "meaning": "Brace one's spirit and strive to govern well — energetic self-dedication by a leader to reform and improve administration",
+      "register": "formal; governance and leadership discourse"
+    },
+    {
+      "zh": "舍生取义",
+      "pinyin": "shě shēng qǔ yì",
+      "meaning": "Sacrifice life to uphold righteousness — willingness to die for moral principle; Mencian ethics in four characters",
+      "register": "classical/formal; patriotic and moral discourse"
+    },
+    {
+      "zh": "鞠躬尽瘁，死而后已",
+      "pinyin": "jū gōng jìn cuì, sǐ ér hòu yǐ",
+      "meaning": "Give one's all with humble dedication, stopping only at death — the classic expression of total, selfless service to a cause",
+      "register": "classical/formal; loyalty, public service, and eulogy contexts"
+    },
+    {
+      "zh": "义无反顾",
+      "pinyin": "yì wú fǎn gù",
+      "meaning": "Righteousness admits no looking back — to act decisively for duty without hesitation or retreat",
+      "register": "formal/literary; describes principled, irreversible commitment"
+    },
+    {
+      "zh": "痛定思痛",
+      "pinyin": "tòng dìng sī tòng",
+      "meaning": "When the pain has settled, to revisit it — reflecting on past suffering once the immediate anguish has passed, only to feel it more deeply",
+      "register": "literary/formal; reflective, commemorative, or self-critical writing"
+    },
+    {
+      "zh": "重于泰山，轻于鸿毛",
+      "pinyin": "zhòng yú tài shān, qīng yú hóng máo",
+      "meaning": "Weightier than Mount Tai, lighter than a wild goose feather — the contrast between a death (or action) of great significance and one of total insignificance; from Sima Qian's 《报任安书》",
+      "register": "classical/literary; philosophical and patriotic discourse"
+    },
+    {
+      "zh": "两袖清风",
+      "pinyin": "liǎng xiù qīng fēng",
+      "meaning": "Nothing in one's sleeves but a clean breeze — to hold office without taking bribes; clean-handed and incorruptible",
+      "register": "formal; used to praise officials' integrity; proverb-like"
+    },
+    {
+      "zh": "脚踏实地",
+      "pinyin": "jiǎo tà shí dì",
+      "meaning": "Both feet firmly on solid ground — realistic, practical, diligent without pretension or shortcuts",
+      "register": "neutral/formal; praise for work ethic and character"
+    },
+    {
+      "zh": "明察秋毫",
+      "pinyin": "míng chá qiū háo",
+      "meaning": "See even the finest autumn hair clearly — extremely perceptive and discerning; not missing details others overlook",
+      "register": "formal/literary; praise for perceptiveness"
+    },
+    {
+      "zh": "德高望重",
+      "pinyin": "dé gāo wàng zhòng",
+      "meaning": "High virtue and great prestige — said of a senior figure who commands moral authority and wide respect",
+      "register": "formal; complimentary; used for distinguished elders or officials"
+    },
+    {
+      "zh": "大公无私",
+      "pinyin": "dà gōng wú sī",
+      "meaning": "Completely impartial with no selfish interests — exercising authority fairly without personal bias or favoritism",
+      "register": "formal; civic virtue and political discourse"
+    },
+    {
+      "zh": "克己奉公",
+      "pinyin": "kè jǐ fèng gōng",
+      "meaning": "Restrain self-interest and serve the public good — personal discipline directed toward collective benefit",
+      "register": "formal; official ethics and public service"
+    },
+    {
+      "zh": "平易近人",
+      "pinyin": "píng yì jìn rén",
+      "meaning": "Mild and approachable to people — unassuming, easy to talk to, unpretentious (especially of leaders or seniors)",
+      "register": "neutral/formal; widely used character description"
+    },
+    {
+      "zh": "出类拔萃",
+      "pinyin": "chū lèi bá cuì",
+      "meaning": "Stand out from the crowd — to surpass one's peers in talent or virtue; outstanding among equals",
+      "register": "formal/written; complimentary; from Mencius"
+    },
+    {
+      "zh": "一鸣惊人",
+      "pinyin": "yī míng jīng rén",
+      "meaning": "One cry that astonishes — after long obscurity, suddenly achieve something extraordinary that surprises everyone",
+      "register": "neutral/formal; used in business, arts, and public life"
+    },
+    {
+      "zh": "愚公移山",
+      "pinyin": "yú gōng yí shān",
+      "meaning": "The Foolish Old Man removes mountains — persistent collective effort over time can overcome any obstacle, however vast",
+      "register": "literary/formal; motivational or philosophical discourse"
+    },
+    {
+      "zh": "精卫填海",
+      "pinyin": "jīng wèi tián hǎi",
+      "meaning": "The Jingwei bird fills the sea — tireless, unyielding effort toward a seemingly impossible goal; can be admiring or ironic depending on context",
+      "register": "literary/classical; tone varies by context"
+    },
+    {
+      "zh": "疾恶如仇",
+      "pinyin": "jí è rú chóu",
+      "meaning": "Hate evil as one hates an enemy — a strong, uncompromising sense of justice; to detest wrongdoing intensely and visibly",
+      "register": "formal/literary; character praise for principled individuals"
+    },
+    {
+      "zh": "老当益壮",
+      "pinyin": "lǎo dāng yì zhuàng",
+      "meaning": "The older, the more vigorous — an elder whose spirit and determination increase rather than diminish with age",
+      "register": "formal/literary; complimentary for older high-achievers"
+    },
+    {
+      "zh": "投笔从戎",
+      "pinyin": "tóu bǐ cóng róng",
+      "meaning": "Throw down the pen and take up arms — to leave a scholarly or civilian career for the military or a greater cause",
+      "register": "literary/formal; patriotic and career-change contexts"
+    },
+    {
+      "zh": "闻鸡起舞",
+      "pinyin": "wén jī qǐ wǔ",
+      "meaning": "Wake at the cock's crow and practise swordplay — to rise early and work diligently on one's skills; determined self-cultivation",
+      "register": "literary/formal; motivational"
+    },
+    {
+      "zh": "威武不屈",
+      "pinyin": "wēi wǔ bù qū",
+      "meaning": "Unyielding before power and force — not to be intimidated or subdued by authority or coercion; moral backbone under pressure",
+      "register": "formal/literary; moral integrity discourse"
+    },
+    {
+      "zh": "同仇敌忾",
+      "pinyin": "tóng chóu dí kài",
+      "meaning": "Share a common righteous hatred of the enemy — united in indignation against a common foe",
+      "register": "formal/literary; political and military solidarity"
+    },
+    {
+      "zh": "东山再起",
+      "pinyin": "dōng shān zài qǐ",
+      "meaning": "Make a comeback from East Mountain — return to prominence, power, or success after a period of retreat or failure",
+      "register": "formal/neutral; career, political, and business contexts"
+    },
+    {
+      "zh": "负荆请罪",
+      "pinyin": "fù jīng qǐng zuì",
+      "meaning": "Carry thorns on one's back to beg forgiveness — make a sincere, self-humbling, bodily apology; prostrate oneself in contrition",
+      "register": "literary/formal; dramatic apology or reconciliation contexts"
+    },
+    {
+      "zh": "忍辱负重",
+      "pinyin": "rěn rǔ fù zhòng",
+      "meaning": "Endure humiliation and bear a heavy burden — to swallow one's pride and put up with indignities for the sake of a greater mission",
+      "register": "formal/literary; leadership and sacrifice contexts"
+    },
+    {
+      "zh": "道不拾遗",
+      "pinyin": "dào bù shí yí",
+      "meaning": "Dropped objects on the road are not picked up — a socially harmonious and honest society where theft is absent; ideal governance outcome",
+      "register": "literary/formal; political description of ideal or well-governed society"
+    },
+    {
+      "zh": "运筹帷幄（决胜千里）",
+      "pinyin": "yùn chóu wéi wò (jué shèng qiān lǐ)",
+      "meaning": "Plan strategy from within the command tent and win victory a thousand miles away — to mastermind operations from headquarters; strategic command and foresight",
+      "register": "literary/formal; leadership and military strategy; now used in business planning"
+    },
+    {
+      "zh": "赫赫战功",
+      "pinyin": "hè hè zhàn gōng",
+      "meaning": "Resplendent, illustrious military achievements — outstanding, widely recognized military merit",
+      "register": "formal/literary; military and historical writing"
+    },
+    {
+      "zh": "高风亮节",
+      "pinyin": "gāo fēng liàng jié",
+      "meaning": "Lofty conduct and bright integrity — the admirable moral character of a principled person; used in eulogy, critical appreciation, and character evaluation",
+      "register": "formal/literary; complimentary; slightly elevated register"
+    },
+    {
+      "zh": "民不聊生",
+      "pinyin": "mín bù liáo shēng",
+      "meaning": "The people have no means to survive — extreme hardship and misery imposed on the populace by oppressive rule, war, or corruption",
+      "register": "formal/literary; political criticism and historical narration"
+    },
+    {
+      "zh": "安居乐业",
+      "pinyin": "ān jū lè yè",
+      "meaning": "Live in peace and work contentedly — a stable, prosperous society where people enjoy secure lives and their livelihoods",
+      "register": "formal/neutral; political and social ideals; governance discourse"
+    },
+    {
+      "zh": "寡不敌众",
+      "pinyin": "guǎ bù dí zhòng",
+      "meaning": "The few cannot match the many — to be overwhelmed by superior numbers; used when defeat is caused by numerical disadvantage",
+      "register": "formal/literary; military and narrative contexts"
+    },
+    {
+      "zh": "几经辗转",
+      "pinyin": "jǐ jīng zhǎn zhuǎn",
+      "meaning": "After repeated turns and reversals — after going through many indirect, circuitous, or difficult stages to reach a destination or outcome",
+      "register": "literary/formal; narrative prose, travel, and biography"
+    }
+  ],
+  "essay_takeaways": [
+    "Deploy chengyu as rhetorical compression: each four-character idiom in this book compresses a full historical narrative into a scene-setter or character evaluator. In your own writing, use chengyu at transitions or climaxes — e.g., '他破釜沉舟，终于扭转了局势' — to invoke historical depth without lengthy explanation. At HSK 5-6, choosing the right chengyu signals intellectual register.",
+    "Structure arguments around 对比 (contrast): nearly every powerful passage in this book pairs two characters (项羽 vs. 宋义; 廉颇 vs. 蔺相如) or two states (humiliation before / triumph after). Organizing persuasive essays or narratives around a central contrast gives both clarity and rhetorical momentum. Make the contrast explicit early, then let the resolution redeem it.",
+    "Use 排比 (parallel clause series) for rhythm and emphasis: '把所有船只凿沉，把煮饭的锅都打破，把营房都烧掉' — three 把字句 in sequence create a drumbeat of irreversibility. For professional writing (reports, proposals), use two or three parallel structures at key points to convey completeness and systematic thinking.",
+    "The 之所以…是因为 pattern pre-empts misreading: when a character behaves counter-intuitively (Lin Xiangru avoids Lian Po; Gou Jian lives austerely), the text pivots with 之所以…完全是为了… to reveal the real motivation. Use this pattern in business or diplomatic writing to explain decisions that might appear passive or strange without prior framing.",
+    "Argue ethics from concrete analogy, not abstract principle: Qu Yuan's洗头/洗澡 analogy and Mencius' 鱼/熊掌 comparison show that moral positions become compelling when grounded in everyday physical experience. In professional and formal Chinese writing, lead with a concrete scenario or image before stating the abstract claim.",
+    "The time arc 终于 signals earned resolution: nearly every story ends with 终于, preceded by specific durations (三年后, 经过九天激战). This pattern creates narrative satisfaction and is also effective in reports or proposals: describe the effort duration, then land on 终于实现了/取得了 to show the payoff was earned, not lucky.",
+    "Use 反问 (rhetorical questions) to intensify conviction: '我怎么能为五斗米向乡里小人折腰！' and '燕雀安知鸿鹄之志哉！' are not questions but statements of principled refusal or aspiration. Adding a 反问 to your persuasive writing signals that the alternative is unthinkable — far stronger than a direct assertion.",
+    "The formula 字里行间，无不体现出… is a high-register critical phrase: use it when praising a text, a speech, or a person's implicit qualities. Similarly, '一位忠臣贤相的高风亮节' shows how to stack character evaluation: role identifier + moral-quality compound noun.",
+    "Map landscape onto emotional or national state: '山河破碎风飘絮，身世浮沉雨打萍' — the landscape is not decorative but directly maps onto personal and political fate. In Chinese writing, nature metaphors lend dignity and historical depth to personal or national narratives. Choose metaphors that echo emotional register: solid objects (泰山, 金石) for firmness; flowing or turbid water for instability or corruption.",
+    "Adopt formal register collocations for credibility: 竭力 (exhaust one's efforts), 力求 (strive to), 深入浅出 (profound yet accessible), 脍炙人口 (on everyone's lips, widely beloved), 流传千古 (handed down through the ages), 历久弥新 (growing fresher with time), 来龙去脉 (the full background and development of an issue). These appear in academic prefaces, annual reports, book reviews, and formal proposals — deploying them signals literary confidence and cultural competence."
+  ]
+}

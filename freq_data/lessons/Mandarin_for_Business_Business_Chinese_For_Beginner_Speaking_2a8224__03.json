@@ -1,0 +1,932 @@
+{
+  "source_note": "This chunk is a vocabulary index appendix (alphabetical glossary) from a business Chinese textbook. It contains no connected prose, essays, dialogues, or grammar explanations. All Chinese character forms in 'expressions' are reconstructed from the pinyin and English definitions, because OCR failed on the CJK characters throughout the file (producing garbled ASCII). Only reconstructions of standard, dictionary-attested vocabulary are included — nothing invented.",
+
+  "model_essays": [],
+
+  "grammar_patterns": [],
+
+  "expressions": [
+    {
+      "zh": "本来",
+      "pinyin": "běnlái",
+      "meaning": "originally; actually, as it turns out",
+      "register": "neutral/spoken"
+    },
+    {
+      "zh": "毕竟",
+      "pinyin": "bìjìng",
+      "meaning": "after all; when all is said and done",
+      "register": "formal/written"
+    },
+    {
+      "zh": "不愧",
+      "pinyin": "bùkuì",
+      "meaning": "be worthy of, deserve to be called (e.g. 不愧是专家)",
+      "register": "formal/written"
+    },
+    {
+      "zh": "便携式",
+      "pinyin": "biànxiéshì",
+      "meaning": "portable (device)",
+      "register": "business/technical"
+    },
+    {
+      "zh": "标准间",
+      "pinyin": "biāozhǔnjiān",
+      "meaning": "standard room (hotel)",
+      "register": "business/hospitality"
+    },
+    {
+      "zh": "表现",
+      "pinyin": "biǎoxiàn",
+      "meaning": "exhibit, display, manifest; (n.) performance",
+      "register": "neutral"
+    },
+    {
+      "zh": "博客",
+      "pinyin": "bókè",
+      "meaning": "blog",
+      "register": "digital/colloquial"
+    },
+    {
+      "zh": "薄利",
+      "pinyin": "bólì",
+      "meaning": "a narrow margin of profit (cf. 薄利多销 thin-margin high-volume)",
+      "register": "business"
+    },
+    {
+      "zh": "财经",
+      "pinyin": "cáijīng",
+      "meaning": "finance and economics (sector); financial",
+      "register": "business/formal"
+    },
+    {
+      "zh": "彩票",
+      "pinyin": "cǎipiào",
+      "meaning": "lottery ticket",
+      "register": "neutral"
+    },
+    {
+      "zh": "菜单",
+      "pinyin": "càidān",
+      "meaning": "menu",
+      "register": "business/hospitality"
+    },
+    {
+      "zh": "参与",
+      "pinyin": "cānyù",
+      "meaning": "participate in, take part in",
+      "register": "formal/business"
+    },
+    {
+      "zh": "参展商",
+      "pinyin": "cānzhǎnshāng",
+      "meaning": "exhibitor; participant in a trade exhibition",
+      "register": "business/trade"
+    },
+    {
+      "zh": "餐饮",
+      "pinyin": "cānyǐn",
+      "meaning": "food and beverage (industry); catering",
+      "register": "business"
+    },
+    {
+      "zh": "操作",
+      "pinyin": "cāozuò",
+      "meaning": "operate; operation; handle",
+      "register": "business/technical"
+    },
+    {
+      "zh": "策划",
+      "pinyin": "cèhuà",
+      "meaning": "plan; planning; scheme",
+      "register": "business/formal"
+    },
+    {
+      "zh": "策略",
+      "pinyin": "cèlüè",
+      "meaning": "strategy; tactic",
+      "register": "business/formal"
+    },
+    {
+      "zh": "产品",
+      "pinyin": "chǎnpǐn",
+      "meaning": "product",
+      "register": "business"
+    },
+    {
+      "zh": "产销量",
+      "pinyin": "chǎnxiāoliàng",
+      "meaning": "production and sales volume",
+      "register": "business"
+    },
+    {
+      "zh": "倡导",
+      "pinyin": "chàngdǎo",
+      "meaning": "propose, initiate, advocate",
+      "register": "formal/written"
+    },
+    {
+      "zh": "超市",
+      "pinyin": "chāoshì",
+      "meaning": "supermarket",
+      "register": "neutral"
+    },
+    {
+      "zh": "成本",
+      "pinyin": "chéngběn",
+      "meaning": "cost (of production); cost base",
+      "register": "business"
+    },
+    {
+      "zh": "成交",
+      "pinyin": "chéngjiāo",
+      "meaning": "close a deal; strike a bargain",
+      "register": "business/trade"
+    },
+    {
+      "zh": "成千上万",
+      "pinyin": "chéngqiān-shàngwàn",
+      "meaning": "tens of thousands; enormous number",
+      "register": "written/idiomatic"
+    },
+    {
+      "zh": "成熟",
+      "pinyin": "chéngshú",
+      "meaning": "mature; ripe; well-developed",
+      "register": "formal/written"
+    },
+    {
+      "zh": "诚信",
+      "pinyin": "chéngxìn",
+      "meaning": "good faith, honesty, integrity (a core business-Chinese value term)",
+      "register": "business/formal"
+    },
+    {
+      "zh": "程序",
+      "pinyin": "chéngxù",
+      "meaning": "procedure; program (software); process",
+      "register": "business/technical"
+    },
+    {
+      "zh": "持续",
+      "pinyin": "chíxù",
+      "meaning": "continue, sustain; sustained (e.g. 持续增长 sustained growth)",
+      "register": "business/formal"
+    },
+    {
+      "zh": "创造",
+      "pinyin": "chuàngzào",
+      "meaning": "create; creation; 创造条件 create conditions for",
+      "register": "formal"
+    },
+    {
+      "zh": "促进",
+      "pinyin": "cùjìn",
+      "meaning": "promote, accelerate, foster (growth, cooperation, etc.)",
+      "register": "formal/business"
+    },
+    {
+      "zh": "促销",
+      "pinyin": "cùxiāo",
+      "meaning": "(n.) sales promotion; (v.) promote the sale of goods",
+      "register": "business/marketing"
+    },
+    {
+      "zh": "措施",
+      "pinyin": "cuòshī",
+      "meaning": "measure, step, action taken (采取措施 take measures)",
+      "register": "formal/written"
+    },
+    {
+      "zh": "贷款",
+      "pinyin": "dàikuǎn",
+      "meaning": "loan; lend money",
+      "register": "business/finance"
+    },
+    {
+      "zh": "大型",
+      "pinyin": "dàxíng",
+      "meaning": "large-scale",
+      "register": "formal"
+    },
+    {
+      "zh": "地铁",
+      "pinyin": "dìtiě",
+      "meaning": "subway; metro",
+      "register": "neutral"
+    },
+    {
+      "zh": "调查",
+      "pinyin": "diàochá",
+      "meaning": "survey; investigate; investigation",
+      "register": "formal/business"
+    },
+    {
+      "zh": "电池",
+      "pinyin": "diànchí",
+      "meaning": "battery",
+      "register": "neutral/technical"
+    },
+    {
+      "zh": "电邮",
+      "pinyin": "diànyóu",
+      "meaning": "e-mail (shorthand, more colloquial than 电子邮件)",
+      "register": "business/colloquial"
+    },
+    {
+      "zh": "订购",
+      "pinyin": "dìnggòu",
+      "meaning": "order goods; place an order",
+      "register": "business/trade"
+    },
+    {
+      "zh": "发挥",
+      "pinyin": "fāhuī",
+      "meaning": "bring into play; give full scope to (talent, advantage, etc.)",
+      "register": "formal/written"
+    },
+    {
+      "zh": "发票",
+      "pinyin": "fāpiào",
+      "meaning": "invoice; receipt (official tax invoice)",
+      "register": "business"
+    },
+    {
+      "zh": "方式",
+      "pinyin": "fāngshì",
+      "meaning": "manner, way, means, mode",
+      "register": "formal"
+    },
+    {
+      "zh": "服务台",
+      "pinyin": "fúwùtái",
+      "meaning": "service desk; information counter",
+      "register": "business/hospitality"
+    },
+    {
+      "zh": "供不应求",
+      "pinyin": "gōng bù yìng qiú",
+      "meaning": "supply falls short of demand (set four-character phrase, very common in economic writing)",
+      "register": "business/idiomatic"
+    },
+    {
+      "zh": "供需",
+      "pinyin": "gōngxū",
+      "meaning": "supply and demand (as a compound)",
+      "register": "business"
+    },
+    {
+      "zh": "广告",
+      "pinyin": "guǎnggào",
+      "meaning": "advertisement; advertising",
+      "register": "business/marketing"
+    },
+    {
+      "zh": "股票",
+      "pinyin": "gǔpiào",
+      "meaning": "share; stock (financial instrument)",
+      "register": "business/finance"
+    },
+    {
+      "zh": "国际金融",
+      "pinyin": "guójì jīnróng",
+      "meaning": "international finance",
+      "register": "business/formal"
+    },
+    {
+      "zh": "观众",
+      "pinyin": "guānzhòng",
+      "meaning": "audience; spectators; viewers",
+      "register": "neutral"
+    },
+    {
+      "zh": "更新换代",
+      "pinyin": "gēngxīn-huàndài",
+      "meaning": "replace the old with the new; upgrade a generation of products",
+      "register": "business/idiomatic"
+    },
+    {
+      "zh": "高原反应",
+      "pinyin": "gāoyuán fǎnyìng",
+      "meaning": "altitude sickness",
+      "register": "neutral/colloquial"
+    },
+    {
+      "zh": "合同",
+      "pinyin": "hétong",
+      "meaning": "contract",
+      "register": "business/legal"
+    },
+    {
+      "zh": "合作",
+      "pinyin": "hézuò",
+      "meaning": "(v.) cooperate; (n.) cooperation",
+      "register": "business"
+    },
+    {
+      "zh": "行业",
+      "pinyin": "hángyè",
+      "meaning": "profession, industry, trade (sector)",
+      "register": "business"
+    },
+    {
+      "zh": "航班",
+      "pinyin": "hángbān",
+      "meaning": "flight; scheduled flight",
+      "register": "business/travel"
+    },
+    {
+      "zh": "航空",
+      "pinyin": "hángkōng",
+      "meaning": "aviation; airline",
+      "register": "business/travel"
+    },
+    {
+      "zh": "互联网",
+      "pinyin": "hùliánwǎng",
+      "meaning": "the Internet",
+      "register": "business/technical"
+    },
+    {
+      "zh": "环保",
+      "pinyin": "huánbǎo",
+      "meaning": "environmental protection; eco-friendly",
+      "register": "formal/business"
+    },
+    {
+      "zh": "货真价实",
+      "pinyin": "huòzhēn-jiàshí",
+      "meaning": "genuine goods at a fair price; authentic and worth the money (chéngyǔ)",
+      "register": "business/idiomatic"
+    },
+    {
+      "zh": "价格",
+      "pinyin": "jiàgé",
+      "meaning": "price",
+      "register": "business"
+    },
+    {
+      "zh": "价值",
+      "pinyin": "jiàzhí",
+      "meaning": "value; worth",
+      "register": "business/formal"
+    },
+    {
+      "zh": "假冒",
+      "pinyin": "jiǎmào",
+      "meaning": "counterfeit; fake; pass off as genuine",
+      "register": "business/legal"
+    },
+    {
+      "zh": "监管",
+      "pinyin": "jiānguǎn",
+      "meaning": "supervise and control; regulate; regulatory oversight",
+      "register": "business/formal"
+    },
+    {
+      "zh": "简历",
+      "pinyin": "jiǎnlì",
+      "meaning": "resume; curriculum vitae",
+      "register": "business/HR"
+    },
+    {
+      "zh": "建议",
+      "pinyin": "jiànyì",
+      "meaning": "(n.) suggestion; proposal; (v.) suggest, propose",
+      "register": "formal"
+    },
+    {
+      "zh": "交通",
+      "pinyin": "jiāotōng",
+      "meaning": "traffic; transportation",
+      "register": "neutral"
+    },
+    {
+      "zh": "节能",
+      "pinyin": "jiénéng",
+      "meaning": "energy-saving; save energy",
+      "register": "business/technical"
+    },
+    {
+      "zh": "精打细算",
+      "pinyin": "jīng dǎ xì suàn",
+      "meaning": "careful calculation and strict budgeting; economize meticulously (chéngyǔ)",
+      "register": "business/idiomatic"
+    },
+    {
+      "zh": "经济",
+      "pinyin": "jīngjì",
+      "meaning": "(n.) economy; (adj.) economical, cost-effective",
+      "register": "business"
+    },
+    {
+      "zh": "经验",
+      "pinyin": "jīngyàn",
+      "meaning": "experience (accumulated)",
+      "register": "neutral"
+    },
+    {
+      "zh": "竞争",
+      "pinyin": "jìngzhēng",
+      "meaning": "compete; competition",
+      "register": "business"
+    },
+    {
+      "zh": "就业",
+      "pinyin": "jiùyè",
+      "meaning": "get employment; employment (as a social/economic concept)",
+      "register": "formal/business"
+    },
+    {
+      "zh": "举办",
+      "pinyin": "jǔbàn",
+      "meaning": "hold, conduct, organize (an event)",
+      "register": "formal"
+    },
+    {
+      "zh": "开发票",
+      "pinyin": "kāi fāpiào",
+      "meaning": "make out an invoice; issue a receipt",
+      "register": "business/colloquial"
+    },
+    {
+      "zh": "慷慨解囊",
+      "pinyin": "kāngkǎi-jiěnáng",
+      "meaning": "help sb. generously with money; open one's purse freely (chéngyǔ)",
+      "register": "formal/idiomatic"
+    },
+    {
+      "zh": "宽带",
+      "pinyin": "kuāndài",
+      "meaning": "broadband",
+      "register": "business/technical"
+    },
+    {
+      "zh": "扩大",
+      "pinyin": "kuòdà",
+      "meaning": "enlarge, expand (market, scale, influence)",
+      "register": "business/formal"
+    },
+    {
+      "zh": "劳动力",
+      "pinyin": "láodòng lì",
+      "meaning": "labour force; workforce",
+      "register": "business/formal"
+    },
+    {
+      "zh": "老板",
+      "pinyin": "lǎobǎn",
+      "meaning": "boss; business owner (informal)",
+      "register": "colloquial/business"
+    },
+    {
+      "zh": "灵活",
+      "pinyin": "línghuó",
+      "meaning": "flexible; nimble; adaptable",
+      "register": "business/formal"
+    },
+    {
+      "zh": "络绎不绝",
+      "pinyin": "luòyì-bùjué",
+      "meaning": "in an endless stream, coming and going continuously (chéngyǔ; used for customer flow, traffic, etc.)",
+      "register": "written/idiomatic"
+    },
+    {
+      "zh": "媒体",
+      "pinyin": "méitì",
+      "meaning": "media; media outlet",
+      "register": "business/formal"
+    },
+    {
+      "zh": "名牌",
+      "pinyin": "míngpái",
+      "meaning": "famous brand; name brand",
+      "register": "business/marketing"
+    },
+    {
+      "zh": "名胜古迹",
+      "pinyin": "míngshèng gǔjì",
+      "meaning": "scenic spots and historical sites",
+      "register": "formal/written"
+    },
+    {
+      "zh": "内需",
+      "pinyin": "nèixū",
+      "meaning": "domestic demand",
+      "register": "business/economics"
+    },
+    {
+      "zh": "品牌",
+      "pinyin": "pǐnpái",
+      "meaning": "brand",
+      "register": "business/marketing"
+    },
+    {
+      "zh": "平衡",
+      "pinyin": "pínghéng",
+      "meaning": "(v.) bring into equilibrium, balance; (n.) balance",
+      "register": "business/formal"
+    },
+    {
+      "zh": "普通话",
+      "pinyin": "pǔtōnghuà",
+      "meaning": "Mandarin Chinese; standard Chinese",
+      "register": "neutral"
+    },
+    {
+      "zh": "企业",
+      "pinyin": "qǐyè",
+      "meaning": "corporation, enterprise, company",
+      "register": "business"
+    },
+    {
+      "zh": "洽谈",
+      "pinyin": "qiàtán",
+      "meaning": "discuss together, consult, hold talks, negotiate (often used for business talks)",
+      "register": "business/formal"
+    },
+    {
+      "zh": "取长补短",
+      "pinyin": "qǔ cháng bǔ duǎn",
+      "meaning": "learn from others' strong points to offset one's own weaknesses; complement each other's strengths (chéngyǔ)",
+      "register": "formal/idiomatic"
+    },
+    {
+      "zh": "权益",
+      "pinyin": "quányì",
+      "meaning": "rights and interests; entitlements",
+      "register": "formal/legal"
+    },
+    {
+      "zh": "热线",
+      "pinyin": "rèxiàn",
+      "meaning": "hot line; direct line",
+      "register": "business"
+    },
+    {
+      "zh": "人才",
+      "pinyin": "réncái",
+      "meaning": "talented person; person with ability; human talent",
+      "register": "business/HR"
+    },
+    {
+      "zh": "日程",
+      "pinyin": "rìchéng",
+      "meaning": "schedule; agenda; itinerary",
+      "register": "business/formal"
+    },
+    {
+      "zh": "随行就市",
+      "pinyin": "suíháng-jiùshì",
+      "meaning": "fix prices according to market rates and fluctuations; go with the market (business set phrase)",
+      "register": "business/idiomatic"
+    },
+    {
+      "zh": "生产线",
+      "pinyin": "shēngchǎn xiàn",
+      "meaning": "production line",
+      "register": "business/manufacturing"
+    },
+    {
+      "zh": "生意",
+      "pinyin": "shēngyì",
+      "meaning": "business; trade; commerce (more colloquial than 业务)",
+      "register": "business/colloquial"
+    },
+    {
+      "zh": "收费",
+      "pinyin": "shōufèi",
+      "meaning": "charge a fee; levy a charge",
+      "register": "business"
+    },
+    {
+      "zh": "数据",
+      "pinyin": "shùjù",
+      "meaning": "data",
+      "register": "business/technical"
+    },
+    {
+      "zh": "双赢",
+      "pinyin": "shuāngyíng",
+      "meaning": "win-win; mutually beneficial",
+      "register": "business"
+    },
+    {
+      "zh": "税款",
+      "pinyin": "shuìkuǎn",
+      "meaning": "tax; tax payment",
+      "register": "business/legal"
+    },
+    {
+      "zh": "私营",
+      "pinyin": "sīyíng",
+      "meaning": "private-owned; private sector",
+      "register": "business/formal"
+    },
+    {
+      "zh": "网络",
+      "pinyin": "wǎngluò",
+      "meaning": "network; the Internet",
+      "register": "business/technical"
+    },
+    {
+      "zh": "网页",
+      "pinyin": "wǎngyè",
+      "meaning": "webpage; web page",
+      "register": "business/technical"
+    },
+    {
+      "zh": "无精打采",
+      "pinyin": "wújīng-dǎcǎi",
+      "meaning": "listless; in low spirits; dispirited (chéngyǔ, useful contrast with 精力充沛)",
+      "register": "written/idiomatic"
+    },
+    {
+      "zh": "物美价廉",
+      "pinyin": "wùměi-jiàlián",
+      "meaning": "cheap but good; inexpensive and of high quality (chéngyǔ)",
+      "register": "business/idiomatic"
+    },
+    {
+      "zh": "下载",
+      "pinyin": "xiàzài",
+      "meaning": "download",
+      "register": "business/technical"
+    },
+    {
+      "zh": "消费",
+      "pinyin": "xiāofèi",
+      "meaning": "consume; consumption",
+      "register": "business/economics"
+    },
+    {
+      "zh": "消费者",
+      "pinyin": "xiāofèizhě",
+      "meaning": "consumer",
+      "register": "business/economics"
+    },
+    {
+      "zh": "销售",
+      "pinyin": "xiāoshòu",
+      "meaning": "sell; sales",
+      "register": "business"
+    },
+    {
+      "zh": "信息",
+      "pinyin": "xìnxī",
+      "meaning": "information",
+      "register": "business"
+    },
+    {
+      "zh": "信誉",
+      "pinyin": "xìnyù",
+      "meaning": "credit standing; reputation for trustworthiness",
+      "register": "business/formal"
+    },
+    {
+      "zh": "需求",
+      "pinyin": "xūqiú",
+      "meaning": "demand; requirement; need",
+      "register": "business/economics"
+    },
+    {
+      "zh": "宣传",
+      "pinyin": "xuānchuán",
+      "meaning": "(v.) publicize, propagandize; (n.) publicity, promotion",
+      "register": "business/formal"
+    },
+    {
+      "zh": "应聘",
+      "pinyin": "yìngpìn",
+      "meaning": "apply for an advertised post",
+      "register": "business/HR"
+    },
+    {
+      "zh": "应有尽有",
+      "pinyin": "yīng yǒu jìn yǒu",
+      "meaning": "have everything that one expects to find; comprehensively stocked (chéngyǔ)",
+      "register": "business/idiomatic"
+    },
+    {
+      "zh": "一举两得",
+      "pinyin": "yī jǔ liǎng dé",
+      "meaning": "achieve two goals with one action; kill two birds with one stone (chéngyǔ)",
+      "register": "idiomatic/written"
+    },
+    {
+      "zh": "一言为定",
+      "pinyin": "yī yán wéi dìng",
+      "meaning": "that's settled then; a promise is a promise; it's a deal (set phrase, closing negotiations)",
+      "register": "business/idiomatic"
+    },
+    {
+      "zh": "一知半解",
+      "pinyin": "yī zhī bàn jiě",
+      "meaning": "have only a shallow or partial understanding; know only half (chéngyǔ)",
+      "register": "written/idiomatic"
+    },
+    {
+      "zh": "营销",
+      "pinyin": "yíngxiāo",
+      "meaning": "marketing",
+      "register": "business/marketing"
+    },
+    {
+      "zh": "优惠",
+      "pinyin": "yōuhuì",
+      "meaning": "favourable terms; preferential (price, treatment, policy)",
+      "register": "business"
+    },
+    {
+      "zh": "优势",
+      "pinyin": "yōushì",
+      "meaning": "superiority; competitive advantage",
+      "register": "business/formal"
+    },
+    {
+      "zh": "预订",
+      "pinyin": "yùdìng",
+      "meaning": "book in advance; reserve; place an advance order",
+      "register": "business"
+    },
+    {
+      "zh": "增长",
+      "pinyin": "zēngzhǎng",
+      "meaning": "grow, increase, rise (of figures, output, sales, etc.)",
+      "register": "business/economics"
+    },
+    {
+      "zh": "展示",
+      "pinyin": "zhǎnshì",
+      "meaning": "exhibit, display, show",
+      "register": "business/formal"
+    },
+    {
+      "zh": "展位",
+      "pinyin": "zhǎnwèi",
+      "meaning": "(exhibition) booth; display stand",
+      "register": "business/trade"
+    },
+    {
+      "zh": "招待",
+      "pinyin": "zhāodài",
+      "meaning": "entertain, receive, serve (customers or guests)",
+      "register": "business/formal"
+    },
+    {
+      "zh": "招聘",
+      "pinyin": "zhāopìn",
+      "meaning": "recruit; invite applications for a position",
+      "register": "business/HR"
+    },
+    {
+      "zh": "折扣",
+      "pinyin": "zhékòu",
+      "meaning": "discount",
+      "register": "business"
+    },
+    {
+      "zh": "质量",
+      "pinyin": "zhìliàng",
+      "meaning": "quality (of products or work)",
+      "register": "business"
+    },
+    {
+      "zh": "中介",
+      "pinyin": "zhōngjiè",
+      "meaning": "agency; intermediary; broker",
+      "register": "business"
+    },
+    {
+      "zh": "争先恐后",
+      "pinyin": "zhēng xiān kǒng hòu",
+      "meaning": "strive to be first and fear to lag behind; compete eagerly (chéngyǔ)",
+      "register": "idiomatic/written"
+    },
+    {
+      "zh": "专业",
+      "pinyin": "zhuānyè",
+      "meaning": "(n.) profession, major, specialty; (adj.) professional",
+      "register": "business"
+    },
+    {
+      "zh": "资金",
+      "pinyin": "zījīn",
+      "meaning": "fund; capital; funding",
+      "register": "business/finance"
+    },
+    {
+      "zh": "资源",
+      "pinyin": "zīyuán",
+      "meaning": "resource(s)",
+      "register": "business/formal"
+    },
+    {
+      "zh": "自信",
+      "pinyin": "zìxìn",
+      "meaning": "(adj.) confident; (n.) confidence; (v.) be confident",
+      "register": "neutral"
+    },
+    {
+      "zh": "租金",
+      "pinyin": "zūjīn",
+      "meaning": "rent (payment)",
+      "register": "business"
+    },
+    {
+      "zh": "最佳",
+      "pinyin": "zuìjiā",
+      "meaning": "optimal; the best (often 最佳方案 the best plan/option)",
+      "register": "formal/business"
+    },
+    {
+      "zh": "大饱口福",
+      "pinyin": "dà bǎo kǒu fú",
+      "meaning": "eat and drink to one's heart's content; feast sumptuously (set phrase, hospitality context)",
+      "register": "colloquial/idiomatic"
+    },
+    {
+      "zh": "透支",
+      "pinyin": "tòuzhī",
+      "meaning": "make an overdraft; expenditure exceeds revenue",
+      "register": "business/finance"
+    },
+    {
+      "zh": "通过",
+      "pinyin": "tōngguò",
+      "meaning": "pass (a test, resolution); by means of, through (instrumental)",
+      "register": "formal"
+    },
+    {
+      "zh": "投资",
+      "pinyin": "tóuzī",
+      "meaning": "invest; investment",
+      "register": "business/finance"
+    },
+    {
+      "zh": "退休",
+      "pinyin": "tuìxiū",
+      "meaning": "retire (from work); retirement",
+      "register": "formal"
+    },
+    {
+      "zh": "维权",
+      "pinyin": "wéiquán",
+      "meaning": "fight for/protect one's rights",
+      "register": "formal/legal"
+    },
+    {
+      "zh": "污染",
+      "pinyin": "wūrǎn",
+      "meaning": "pollution; contaminate",
+      "register": "formal"
+    },
+    {
+      "zh": "现代化",
+      "pinyin": "xiàndàihuà",
+      "meaning": "modernize; modernization",
+      "register": "formal"
+    },
+    {
+      "zh": "限量",
+      "pinyin": "xiànliàng",
+      "meaning": "limit the quantity of; set a quota",
+      "register": "business"
+    },
+    {
+      "zh": "响应",
+      "pinyin": "xiǎngyìng",
+      "meaning": "respond; respond to a call or initiative",
+      "register": "formal"
+    },
+    {
+      "zh": "享受",
+      "pinyin": "xiǎngshòu",
+      "meaning": "enjoy; enjoyment (both material and abstract)",
+      "register": "neutral"
+    }
+  ],
+
+  "essay_takeaways": [
+    "This chunk is a pure vocabulary appendix — no prose model exists. The takeaways are about the vocabulary patterns it reveals, which inform written business Chinese style.",
+
+    "FOUR-CHARACTER IDIOMS (成语 chéngyǔ) ARE A PRESTIGE MARKER IN BUSINESS WRITING. The glossary includes at least a dozen: 供不应求, 精打细算, 货真价实, 物美价廉, 取长补短, 争先恐后, 应有尽有, 一举两得, 一言为定, 一知半解, 络绎不绝, 更新换代, 大同小异, 成千上万, 无精打采, 慷慨解囊. In business Chinese at HSK 5-6, inserting one or two apt chéngyǔ into a report, letter, or proposal signals command of the register. Overuse sounds affected — aim for one per paragraph at most.",
+
+    "COMPOUND BUSINESS NOUNS ARE HIGHLY PRODUCTIVE. Many core terms are 2- or 3-syllable compounds: 产销量 (production-sales-volume), 参展商 (exhibitor), 生产线 (production line), 劳动力 (labour force), 供需 (supply-and-demand). Fluent business writing strings these compounds efficiently rather than using periphrastic descriptions.",
+
+    "VERB-OBJECT COLLOCATIONS MATTER MORE THAN INDIVIDUAL WORDS. Note: 采取措施 (take measures), 开发票 (make out an invoice), 发挥优势 (bring advantages into play), 签合同 (sign a contract), 投入资金 (put in capital), 促进增长 (promote growth), 扩大市场 (expand the market). When studying this vocabulary, always learn the standard verb that pairs with each noun — the wrong verb is a register error.",
+
+    "诚信 (INTEGRITY) AND 信誉 (CREDIT STANDING) ARE CORE VALUE TERMS IN BUSINESS CHINESE. 诚信 appears frequently in mission statements, business letters, and negotiation contexts. Using it signals alignment with Confucian business ethics. Contrast: 诚信经营 (run a business with integrity) vs. 信誉良好 (have a good reputation). Both are appropriate in formal proposals and cover letters.",
+
+    "REGISTER CONTRAST: SPOKEN VS. WRITTEN BUSINESS CHINESE. The glossary covers both registers. Colloquial business terms: 老板 (boss), 电邮 (email — vs. formal 电子邮件), 生意 (business — vs. formal 业务 or 商务). Written/formal terms: 策略 (strategy), 举办 (hold an event), 洽谈 (negotiate — more formal than 谈). In your writing, default to the formal column.",
+
+    "SET PHRASES FOR CLOSING BUSINESS NEGOTIATIONS. 一言为定 ('it's a deal, a promise is a promise') and 洽谈 (hold talks) are both from this glossary. For formal closings, 签订合同 (sign a contract) or 达成协议 (reach an agreement) are the standard collocations.",
+
+    "THE VOCABULARY COVERS AT LEAST 6 BUSINESS DOMAINS: (1) Finance & banking: 股票, 贷款, 国际金融, 税款, 透支, 资金; (2) Trade & commerce: 合同, 合作, 销售, 折扣, 促销, 采购; (3) HR & employment: 简历, 招聘, 就业, 人才, 应聘; (4) Marketing: 品牌, 名牌, 广告, 营销, 宣传; (5) Operations: 操作, 程序, 生产线, 措施; (6) Digital: 互联网, 网络, 宽带, 下载, 电邮. When writing for a specific domain, load your text with the appropriate cluster — this is how professional register is created in Chinese.",
+
+    "ECONOMY OF EXPRESSION: Many English multi-word phrases compress to 2-character Chinese compounds. 'Supply and demand' = 供需; 'production and sales volume' = 产销量; 'domestic demand' = 内需; 'labour force' = 劳动力. Prefer these compact forms in reports and memos over paraphrase.",
+
+    "OCR NOTE FOR DOWNSTREAM PROCESSING: The CJK character layer in the original PDF was almost entirely illegible in OCR — producing garbled ASCII strings. Only English translations and (partially corrupted) pinyin romanizations were readable. All Chinese characters in this output are reconstructed from those two signals using standard vocabulary knowledge. The reconstructions are reliable for standard dictionary words but should be verified against a live dictionary before adding to Anki cards."
+  ]
+}

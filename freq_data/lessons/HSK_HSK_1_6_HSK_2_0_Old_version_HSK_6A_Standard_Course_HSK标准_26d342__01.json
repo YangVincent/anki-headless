@@ -1,0 +1,642 @@
+{
+  "model_essays": [],
+
+  "grammar_patterns": [
+    {
+      "pattern": "即便A，也B",
+      "explanation": "Concessive: 'Even if A, still B.' Stronger than 即使; used in formal writing to concede an extreme hypothetical while maintaining the main point. 即便 appears in the ch.10 vocabulary as a conjunction.",
+      "examples": [
+        "即便遇到再大的困难，他也毅然坚持下去。",
+        "即便是素食者，也能从各种品种的食材中获得充分的营养。"
+      ]
+    },
+    {
+      "pattern": "凡是A，都B",
+      "explanation": "'Every/Any A, all B.' A formal universal quantifier construction; 凡是 (fánshì) means 'every, any, all.' Used to make sweeping categorical claims in argumentative writing.",
+      "examples": [
+        "凡是认可这种形态的人，都从中得利。",
+        "凡是有助于创新的元素，都值得培育。"
+      ]
+    },
+    {
+      "pattern": "鉴于A，B",
+      "explanation": "'In view of / Given A, B.' Formal conjunctive opening used to state a premise before a conclusion or recommendation; register is elevated, suitable for analytical essays.",
+      "examples": [
+        "鉴于目前的现状，我们有必要重新审视这一准则的定义。",
+        "鉴于功效显著，理所当然地成为主流做法。"
+      ]
+    },
+    {
+      "pattern": "以便A",
+      "explanation": "'So that / In order to A.' Expresses purpose; follows an action clause. More formal and written than 为了…而…; the subject of A is typically the subject of the preceding clause.",
+      "examples": [
+        "我们需要支撑整个团队的运作，以便完成这一课题的研究。",
+        "他昼夜奔波，以便在截止日期前完成任务。"
+      ]
+    },
+    {
+      "pattern": "进而A",
+      "explanation": "'And then / Furthermore A.' A transitional adverb signaling a logical next step or escalation; more formal than 然后 and implies the second action follows naturally or is a deeper consequence of the first.",
+      "examples": [
+        "他恍然大悟，进而开始重新探索这片广阔的领域。",
+        "解除了障碍之后，进而实现了更大的突破。"
+      ]
+    },
+    {
+      "pattern": "不禁A",
+      "explanation": "'Can't help / Can't refrain from A.' Used to describe an involuntary emotional or physical reaction; elevates descriptive prose. Common in narrative and descriptive essays.",
+      "examples": [
+        "目睹这壮丽的景色，我不禁感慨万千。",
+        "看到这一幕，他不禁陶醉其中。"
+      ]
+    },
+    {
+      "pattern": "不妨A",
+      "explanation": "'There is no harm in A / Might as well A.' Softens a suggestion or recommendation; signals the writer is offering an optional but beneficial course of action. Common in advisory-register essays.",
+      "examples": [
+        "不妨换一个角度来描绘这一场面。",
+        "面对这种情况，我们不妨参考历来的准则。"
+      ]
+    },
+    {
+      "pattern": "务必A",
+      "explanation": "'Must / Be sure to A.' A strong imperative adverb; more formal and emphatic than 一定. Signals urgency or non-negotiability in instructional or persuasive contexts.",
+      "examples": [
+        "在进行任何操作之前，务必保持警惕。",
+        "处理这一课题时务必统计所有来源。"
+      ]
+    },
+    {
+      "pattern": "势必A",
+      "explanation": "'Certainly / Necessarily / Inevitably A.' Expresses strong logical inevitability; formal register. Used to present a conclusion as unavoidable given the premises.",
+      "examples": [
+        "若不加以节制，势必造成更大的误差。",
+        "忽视这一因素，势必影响整体的成效。"
+      ]
+    },
+    {
+      "pattern": "据悉，A",
+      "explanation": "'It is reported that A / According to reports, A.' A journalistic opening formula that attributes information to an unspecified source; keeps the writer at a formal distance from unverified claims. Useful for citing background in essays.",
+      "examples": [
+        "据悉，这种生物能够忍受超越250°C的高温。",
+        "据悉，该版本已在多个国家发行，影响广泛。"
+      ]
+    }
+  ],
+
+  "expressions": [
+    {
+      "zh": "见多识广",
+      "pinyin": "jiàn duō shí guǎng",
+      "meaning": "Experienced and knowledgeable; well-traveled and well-informed.",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "知足常乐",
+      "pinyin": "zhīzú cháng lè",
+      "meaning": "Happiness consists in contentment; one who is content is always happy.",
+      "register": "proverbial"
+    },
+    {
+      "zh": "千方百计",
+      "pinyin": "qiānfāng-bǎijì",
+      "meaning": "By every possible means; by hook or by crook.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "风土人情",
+      "pinyin": "fēngtǔ rénqíng",
+      "meaning": "Local conditions and customs; the flavor of a place and its people.",
+      "register": "formal"
+    },
+    {
+      "zh": "力所能及",
+      "pinyin": "lìsuǒnéngjí",
+      "meaning": "Within one's power or ability; to the best of one's ability.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "刻不容缓",
+      "pinyin": "kèbùrónghuǎn",
+      "meaning": "Extremely urgent; admits no delay; brooks no postponement.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "精打细算",
+      "pinyin": "jīngdǎ-xìsuàn",
+      "meaning": "Careful calculation and strict budgeting; meticulous financial planning.",
+      "register": "formal"
+    },
+    {
+      "zh": "锲而不舍",
+      "pinyin": "qiè'érbùshě",
+      "meaning": "To persist without giving up; to work with dogged perseverance.",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "博大精深",
+      "pinyin": "bódà-jīngshēn",
+      "meaning": "Extensive and profound; broad in scope and deep in content.",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "无能为力",
+      "pinyin": "wúnéngwéilì",
+      "meaning": "Helpless; powerless; unable to do anything about it.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "朝气蓬勃",
+      "pinyin": "zhāoqì-péngbó",
+      "meaning": "Full of youthful vitality and vigor; brimming with energy.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "与日俱增",
+      "pinyin": "yǔrì-jùzēng",
+      "meaning": "To grow with each passing day; to increase day by day.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "不可思议",
+      "pinyin": "bùkě-sīyì",
+      "meaning": "Inconceivable; unimaginable; beyond comprehension.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "一如既往",
+      "pinyin": "yīrú-jìwǎng",
+      "meaning": "As usual; as always; just as before.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "众所周知",
+      "pinyin": "zhòngsuǒzhōuzhī",
+      "meaning": "As everyone knows; as is well known. A classic essay-opening formula.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "恍然大悟",
+      "pinyin": "huǎngrán dàwù",
+      "meaning": "To suddenly see the light; to realize all at once.",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "有条不紊",
+      "pinyin": "yǒutiáo-bùwěn",
+      "meaning": "In perfect order; methodically; systematically without confusion.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "名副其实",
+      "pinyin": "míngfùqíshí",
+      "meaning": "Worthy of the name; to live up to one's reputation.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "心甘情愿",
+      "pinyin": "xīngān-qíngyuàn",
+      "meaning": "To be most willing; to do something gladly and wholeheartedly.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "废寝忘食",
+      "pinyin": "fèiqǐn-wàngshí",
+      "meaning": "To forget eating and sleeping; so absorbed in work as to neglect basic needs.",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "新陈代谢",
+      "pinyin": "xīnchén-dàixiè",
+      "meaning": "Metabolism; the old giving way to the new.",
+      "register": "formal"
+    },
+    {
+      "zh": "拔苗助长",
+      "pinyin": "bámíao-zhùzhǎng",
+      "meaning": "To spoil things through impatience; to pull up seedlings to help them grow (idiom for counterproductive haste).",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "东张西望",
+      "pinyin": "dōng zhāng xī wàng",
+      "meaning": "To gaze around in all directions; to look about restlessly.",
+      "register": "colloquial/literary"
+    },
+    {
+      "zh": "理所当然",
+      "pinyin": "lǐsuǒdāngrán",
+      "meaning": "As a matter of course; naturally; only to be expected.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "即便",
+      "pinyin": "jíbiàn",
+      "meaning": "Even if; even though. Concessive conjunction, stronger than 即使 in formal writing.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "凡是",
+      "pinyin": "fánshì",
+      "meaning": "Every; any; all. Universal quantifier in formal written Chinese.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "一向",
+      "pinyin": "yīxiàng",
+      "meaning": "All along; always; consistently. Implies an established pattern or disposition.",
+      "register": "written"
+    },
+    {
+      "zh": "纯粹",
+      "pinyin": "chúncuì",
+      "meaning": "Solely; purely; simply. Intensifier for exclusivity.",
+      "register": "written"
+    },
+    {
+      "zh": "毅然",
+      "pinyin": "yìrán",
+      "meaning": "Resolutely; firmly; without hesitation. Elevates descriptions of decision-making.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "历来",
+      "pinyin": "lìlái",
+      "meaning": "Throughout history; always; traditionally. Used to invoke historical precedent.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "鉴于",
+      "pinyin": "jiànyú",
+      "meaning": "In view of; given; in light of. Introduces a premise in formal argumentation.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "以便",
+      "pinyin": "yǐbiàn",
+      "meaning": "In order to; so that. Expresses purpose; more formal than 为了.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "进而",
+      "pinyin": "jìn'ér",
+      "meaning": "And then; furthermore; going a step further. Signals logical escalation.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "偏偏",
+      "pinyin": "piānpiān",
+      "meaning": "Only; just; contrary to expectation. Introduces a frustrating or ironic contrast.",
+      "register": "written"
+    },
+    {
+      "zh": "势必",
+      "pinyin": "shìbì",
+      "meaning": "Certainly; inevitably; necessarily. Asserts logical inevitability.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "据悉",
+      "pinyin": "jùxī",
+      "meaning": "It is reported; according to reports. Formal attribution formula for citations.",
+      "register": "formal/journalistic"
+    },
+    {
+      "zh": "不妨",
+      "pinyin": "bùfáng",
+      "meaning": "There is no harm in; might as well. Softens a suggestion in advisory writing.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "务必",
+      "pinyin": "wùbì",
+      "meaning": "Must; be sure to; without fail. A strong imperative adverb.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "不禁",
+      "pinyin": "bùjīn",
+      "meaning": "Can't help (doing sth.); can't refrain from. Expresses involuntary reaction.",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "显著",
+      "pinyin": "xiǎnzhù",
+      "meaning": "Conspicuous; notable; striking; marked. Used to assert the significance of evidence.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "探索",
+      "pinyin": "tànsuǒ",
+      "meaning": "To explore; to seek; to probe. A high-register verb for intellectual inquiry.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "振兴",
+      "pinyin": "zhènxīng",
+      "meaning": "To revitalize; to cause to prosper; to rejuvenate. Used in discussions of industries, cultures, traditions.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "遗产",
+      "pinyin": "yíchǎn",
+      "meaning": "Heritage; legacy; inheritance. Cultural and historical writing staple.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "审美",
+      "pinyin": "shěnměi",
+      "meaning": "To appreciate beauty; aesthetic sensibility. Used in cultural/artistic discourse.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "生态",
+      "pinyin": "shēngtài",
+      "meaning": "Ecology; ecosystem. Also used metaphorically for the 'ecosystem' of an industry or culture.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "变迁",
+      "pinyin": "biànqiān",
+      "meaning": "Change; vicissitude; transformation over time. Implies gradual historical change.",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "主流",
+      "pinyin": "zhǔliú",
+      "meaning": "Mainstream; the dominant tendency or trend.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "犹如",
+      "pinyin": "yóurú",
+      "meaning": "To be like; as if; just as. A formal simile connector.",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "宗旨",
+      "pinyin": "zōngzhǐ",
+      "meaning": "Aim; purpose; guiding principle. Used to articulate the core intent of an effort or organization.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "超越",
+      "pinyin": "chāoyuè",
+      "meaning": "To surpass; to exceed; to transcend.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "真理",
+      "pinyin": "zhēnlǐ",
+      "meaning": "Truth; a fundamental principle. Used in philosophical and argumentative writing.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "准则",
+      "pinyin": "zhǔnzé",
+      "meaning": "Norm; standard; criterion; rule. For discussing guiding principles.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "定义",
+      "pinyin": "dìngyì",
+      "meaning": "Definition. Used when establishing the scope of a concept in an essay.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "论证",
+      "pinyin": "lùnzhèng",
+      "meaning": "To expound and prove; to demonstrate through argument.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "权威",
+      "pinyin": "quánwēi",
+      "meaning": "Authoritative; authority. Used to invoke credible sources.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "素质",
+      "pinyin": "sùzhì",
+      "meaning": "Quality; caliber; overall competence. Often used to discuss human or institutional quality.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "开拓",
+      "pinyin": "kāituò",
+      "meaning": "To open up; to pioneer; to break new ground.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "渴望",
+      "pinyin": "kěwàng",
+      "meaning": "To long for; to thirst for; a deep yearning.",
+      "register": "written"
+    },
+    {
+      "zh": "支撑",
+      "pinyin": "zhīchēng",
+      "meaning": "To prop up; to sustain; to support. Often used metaphorically.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "执着",
+      "pinyin": "zhízhuó",
+      "meaning": "Persistent; persevering; tenacious commitment to a pursuit.",
+      "register": "written"
+    },
+    {
+      "zh": "内在",
+      "pinyin": "nèizài",
+      "meaning": "Inherent; inward; intrinsic. Used to discuss essential or hidden qualities.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "创新",
+      "pinyin": "chuàngxīn",
+      "meaning": "To innovate; to bring forth new ideas; innovation.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "灵感",
+      "pinyin": "línggǎn",
+      "meaning": "Inspiration; creative spark.",
+      "register": "written"
+    },
+    {
+      "zh": "活力",
+      "pinyin": "huólì",
+      "meaning": "Vigor; vitality; energy.",
+      "register": "written"
+    },
+    {
+      "zh": "奥秘",
+      "pinyin": "àomì",
+      "meaning": "Secret; profound mystery; hidden depth.",
+      "register": "literary/written"
+    },
+    {
+      "zh": "濒临",
+      "pinyin": "bīnlín",
+      "meaning": "To be on the verge of; to be close to (extinction, crisis, etc.).",
+      "register": "formal/written"
+    },
+    {
+      "zh": "号召",
+      "pinyin": "hàozhào",
+      "meaning": "To call; to appeal; to rally. Used in persuasive and advocacy writing.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "成效",
+      "pinyin": "chéngxiào",
+      "meaning": "Effect; result; efficacy of an effort.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "淘汰",
+      "pinyin": "táotài",
+      "meaning": "To eliminate through competition or selection; to be weeded out.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "解除",
+      "pinyin": "jiěchú",
+      "meaning": "To relieve; to remove; to dispel (stress, restrictions, etc.).",
+      "register": "formal/written"
+    },
+    {
+      "zh": "培育",
+      "pinyin": "péiyù",
+      "meaning": "To cultivate; to breed; to nurture (talent, ideas, habits).",
+      "register": "formal/written"
+    },
+    {
+      "zh": "延续",
+      "pinyin": "yánxù",
+      "meaning": "To continue; to last; to extend over time.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "演变",
+      "pinyin": "yǎnbiàn",
+      "meaning": "To evolve; to develop; gradual transformation.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "浓厚",
+      "pinyin": "nónghòu",
+      "meaning": "Strong; pronounced; deep (interest, atmosphere, flavor).",
+      "register": "written"
+    },
+    {
+      "zh": "震撼",
+      "pinyin": "zhènhàn",
+      "meaning": "To shake; to shock; to stir deeply. Used for powerful emotional impact.",
+      "register": "written"
+    },
+    {
+      "zh": "衬托",
+      "pinyin": "chèntuō",
+      "meaning": "To set off; to serve as a foil; to highlight by contrast.",
+      "register": "literary/written"
+    },
+    {
+      "zh": "感慨",
+      "pinyin": "gǎnkǎi",
+      "meaning": "To sigh with emotion; to be moved to reflection.",
+      "register": "literary/written"
+    },
+    {
+      "zh": "陶醉",
+      "pinyin": "táozuì",
+      "meaning": "To revel in; to be intoxicated by; to be enchanted by.",
+      "register": "literary/written"
+    },
+    {
+      "zh": "昼夜",
+      "pinyin": "zhòuyè",
+      "meaning": "Day and night; around the clock.",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "奔波",
+      "pinyin": "bēnbō",
+      "meaning": "To rush about; to be busy running around; to toil.",
+      "register": "written"
+    },
+    {
+      "zh": "足以",
+      "pinyin": "zúyǐ",
+      "meaning": "To be enough to; to be sufficient to. Formal equivalence marker.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "有条不紊",
+      "pinyin": "yǒutiáo-bùwěn",
+      "meaning": "In perfect order; methodically; without any confusion.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "广阔",
+      "pinyin": "guǎngkuò",
+      "meaning": "Vast; wide; extensive. Used for both physical and metaphorical scope.",
+      "register": "written"
+    },
+    {
+      "zh": "奇妙",
+      "pinyin": "qímiào",
+      "meaning": "Wonderful; marvelous; magical. Used to convey wonder in descriptive writing.",
+      "register": "written"
+    },
+    {
+      "zh": "珍稀",
+      "pinyin": "zhēnxī",
+      "meaning": "Rare and precious; rare and valuable.",
+      "register": "formal/written"
+    },
+    {
+      "zh": "壮丽",
+      "pinyin": "zhuànglì",
+      "meaning": "Magnificent; splendid; grand. For describing landscapes or achievements.",
+      "register": "literary/written"
+    },
+    {
+      "zh": "汹涌",
+      "pinyin": "xiōngyǒng",
+      "meaning": "Surging; turbulent; to surge powerfully. Used for waves, crowds, emotion.",
+      "register": "literary/written"
+    },
+    {
+      "zh": "蔚蓝",
+      "pinyin": "wèilán",
+      "meaning": "Azure; deep sky blue. A refined color descriptor for landscape writing.",
+      "register": "literary"
+    },
+    {
+      "zh": "盘旋",
+      "pinyin": "pánxuán",
+      "meaning": "To spiral; to circle; to wheel (birds, planes, thoughts).",
+      "register": "literary/written"
+    },
+    {
+      "zh": "目睹",
+      "pinyin": "mùdǔ",
+      "meaning": "To witness with one's own eyes; to see firsthand.",
+      "register": "formal/literary"
+    }
+  ],
+
+  "essay_takeaways": [
+    "Use concrete science or fact as your opening hook. Multiple passages in this book begin with a specific surprising fact (e.g., CFF values in animals, deep-sea temperatures above 250°C) before drawing broader conclusions. This grounds the reader before abstraction begins.",
+    "Master the formal universal quantifier 凡是…都… and the concessive 即便…也… — both are chapter-level grammar targets and are extremely common in Chinese argumentative writing at the HSK 6 level.",
+    "Deploy 4-character idioms (成语) to compress long ideas: e.g., 锲而不舍 replaces 'persistent and never giving up,' 废寝忘食 replaces 'so absorbed that one forgets to eat and sleep.' At HSK 6 level, one well-placed 成语 per paragraph significantly elevates register.",
+    "Formal connectors control essay rhythm. This textbook chapter set teaches: 鉴于 (premise introduction), 进而 (escalation), 以便 (purpose), 据悉 (attribution), 不妨 (soft suggestion), 势必 (inevitability). Chain these across paragraphs for logical flow rather than relying on 所以/因为.",
+    "The nature-writing register (chapters on mountains, deep sea, gardens) models how to use vivid descriptive vocabulary (壮丽, 汹涌, 蔚蓝, 盘旋, 衬托, 陶醉) before pivoting to a philosophical or social point — a structure common in Chinese essay competitions.",
+    "Personal narrative + universal reflection is a recurring structure here: a specific person's experience (North Pole photographer, wildlife photographer Xu Jian) is narrated, then the essay draws a broader lesson. This '以小见大' (from the small, see the large) structure is a core model essay technique.",
+    "Build the 众所周知 / 理所当然 / 不得不 vocabulary cluster: these phrases let you handle the common essay move of 'acknowledging a common view before complicating it.' Use 众所周知 to introduce the conventional wisdom, then pivot with 然而 or 事实上.",
+    "The travel writing chapter (ch.13) demonstrates how to write about cultural change: the vocabulary cluster 变迁 / 一向 / 振兴 / 主流 / 犹如 / 宗旨 maps onto a pattern of (1) historical state, (2) disruption, (3) current landscape, (4) significance — a transferable essay outline.",
+    "Register consistency matters at HSK 6: notice how even in lighter topics (cats, gourds), the textbook uses written-register connectors (不妨, 据悉, 进而) rather than spoken ones. Train yourself to replace 因为/所以/然后 with their formal counterparts in essay drafts.",
+    "Vocabulary for arguing about effort and persistence (执着, 毅然, 锲而不舍, 奔波, 心甘情愿, 支撑) forms a cluster useful for essays on success, craftsmanship, or personal growth — themes that recur across HSK 6 essay prompts."
+  ]
+}

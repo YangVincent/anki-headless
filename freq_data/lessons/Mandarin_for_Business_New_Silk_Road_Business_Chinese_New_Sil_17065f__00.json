@@ -1,0 +1,549 @@
+{
+  "source": "新丝路中级速成商务汉语I (New Silk Road Intermediate Business Chinese I)",
+  "notes": "Task-based spoken-Chinese textbook, 10 lessons. Primary OCR artefacts: 'PDG'/'DG'/'PDC' watermarks scattered throughout, minor punctuation breaks in dialogue, one truncated dialogue (L4 T1 missing one Wang line). Overall text is highly legible.",
+
+  "model_essays": [
+    {
+      "title": "宴会祝酒辞（欢迎三星代表团）",
+      "genre": "正式祝酒辞 (formal banquet toast speech)",
+      "text": "女士们、先生们：\n晚上好！今天我们在这里举行宴会欢迎韩国三星公司代表团。首先，我谨代表五星电器集团全体员工对远道而来的客人表示热烈的欢迎！同时也非常感谢各位能出席我们的宴会。\n三星公司是我们的老朋友，和我们集团有良好的合作关系，我们的合作一直都很成功，双方都非常满意，也很重视多年的友谊。这次三星公司派代表团来北京与我们洽谈以后的合作计划，我们深感荣幸。希望我们洽谈成功，以后能更好地合作。\n"有朋自远方来，不亦乐乎！"现在请大家举杯，为了我们双方合作成功、为了我们的友谊、为了大家的健康，干杯！",
+      "summary": "A complete, formal banquet toast delivered by the CEO of Wuxing Electric welcoming a Korean Samsung delegation to Beijing. Three-part structure: welcome/thanks → relationship recap + purpose of visit → classical quotation + toast.",
+      "why_study": "This is the most complete formal written-register text in the book. It models the exact structure Chinese executives use for business banquet speeches: opening salutation, institutional self-representation with 我谨代表, relationship background, forward-looking wish, then a classical allusion before the toast. Immediately usable at professional events.",
+      "key_devices": [
+        "Opening '女士们、先生们' salutation",
+        "我谨代表...对...表示热烈的欢迎 — the standard formal welcome formula",
+        "远道而来的客人 — stock polite term for visiting guests",
+        "历史回顾 + 展望未来 sandwich structure (past cooperation → future hopes)",
+        "引用《论语》'有朋自远方来，不亦乐乎' to elevate register",
+        "Parallel tricolon toast: 为了...、为了...、为了...,干杯"
+      ]
+    },
+    {
+      "title": "机场接人（正式会面对话）",
+      "genre": "商务对话 (business dialogue — airport pickup + formal first meeting)",
+      "text": "（在机场）\n李建明：您好！请问您是美国国际贸易公司的史密斯先生吗?\n史密斯：是的。请问您是……\n李建明：我是五星电器集团的公关部主任李建明，公司派我来接您。\n史密斯：李先生您好，谢谢您来接我。飞机晚点了一个多小时，让您久等了。\n李建明：没什么。这是我的名片，您在北京期间有什么问题都可以和我联系。\n史密斯：那以后要多麻烦您了。这是我的名片，请多多关照。\n李建明：您太客气了。公司的车在停车场等我们，我帮您拿行李，我们走吧。\n史密斯：多谢！\n\n（正式见面）\n李建明：我来介绍一下儿，这位是美国国际贸易公司的副总裁史密斯先生，这是我们公司的总经理王志东。\n（双方握手）\n王志东：幸会幸会！史密斯先生，我代表本公司对您的到来表示热烈的欢迎！\n史密斯：谢谢王总经理，很高兴认识您。\n王志东：请坐！我听说昨天您的飞机晚点了，一路上还顺利吧?\n史密斯：飞机晚点了一个多小时，不过一路上还是挺顺利的。\n王志东：您是第一次到北京来吗?\n史密斯：是的。北京给我的第一印象非常好，我想我会喜欢这个城市的。\n王志东：北京有很多名胜古迹，有时间我们会安排您去一些有名的地方看看。\n史密斯：非常感谢。",
+      "summary": "Two-scene dialogue: (1) company rep picks up foreign business guest at airport, exchanges cards; (2) formal introduction to CEO, small talk about the trip and impressions of Beijing.",
+      "why_study": "Models the full sequence of a first business encounter in China: identification, self-introduction with title + company, apology for delay, card exchange courtesy phrases, then formal third-party introduction and welcoming small talk. All phrases are immediately deployable.",
+      "key_devices": [
+        "公司派我来接您 — 'the company sent me to pick you up' (institutional framing)",
+        "让您久等了 — stock apology for making someone wait",
+        "请多多关照 — indispensable card-exchange closing phrase",
+        "我来介绍一下儿 — standard third-party introduction opener",
+        "我代表本公司对您的到来表示热烈的欢迎 — semiformal welcoming formula",
+        "寒暄话题 (small talk template): trip smoothness, first impressions, sightseeing offer"
+      ]
+    },
+    {
+      "title": "约定与取消约会的电话",
+      "genre": "商务电话对话 (business phone dialogues — scheduling and cancellation)",
+      "text": "（对话一：约定见面）\n王志东：喂，你好！我是王志东。\n史密斯：王总，你好！我是美国国际贸易公司的史密斯。我想约个时间和您见面，您什么时候有空？\n王志东：请稍等，我查一下日程表。我这周的日程差不多都安排满了，只有星期五上午有空。\n史密斯：星期五我没有什么安排。那我们定在星期五上午怎么样?\n王志东：好的。要是您方便的话，9点钟在我办公室见面好吗?\n史密斯：能不能改到10点？要是太早的话，我怕堵车。\n王志东：好吧，那就这么定了。\n\n（对话二：取消并改期）\n张丽：喂，你好！五星电器集团总经理办公室。\n史密斯：你好！我是美国国际贸易公司的史密斯，请问王志东总经理在吗?\n张丽：史密斯先生你好！王总正在开会，您有什么事情我可以转告他。\n史密斯：我和王总约好了明天见面，可我有急事去不了，不得不取消。请转告王总并代我向他表示歉意。\n张丽：好的，我一定转告他。\n史密斯：另外，麻烦你问一下王总，能不能把见面时间改到下周一?\n张丽：我一定把您的意思转告王总，一有消息我就通知您。\n史密斯：非常感谢，再见！\n张丽：不用客气，再见！",
+      "summary": "Two phone dialogues: (1) Smith calls Wang to schedule a meeting, negotiating day/time; (2) Smith calls to cancel due to emergency, leaves message via secretary to reschedule.",
+      "why_study": "Covers two critical business phone situations in a single study set. The cancellation dialogue is especially valuable: 不得不取消, 代我向他表示歉意, 一有消息我就通知您 are all high-register, immediately usable phrases that HSK 5-6 learners often lack confidence with.",
+      "key_devices": [
+        "日程差不多都安排满了 — natural way to say 'my schedule is nearly full'",
+        "要是...的话 — soft conditional for negotiating alternatives",
+        "能不能改到... — polite request to reschedule",
+        "不得不取消 — 'cannot but cancel' (formal compulsion)",
+        "代我向他表示歉意 — 'please convey my apologies on my behalf'",
+        "一有消息我就通知您 — 'as soon as I have news I will inform you' (一...就...)"
+      ]
+    },
+    {
+      "title": "宴会欢迎宾客及祝酒（对话）",
+      "genre": "商务宴会对话 (business banquet dialogue — welcoming and toasting)",
+      "text": "王志东：晚上好，史密斯先生，欢迎光临，您能出席今天的宴会，我们深感荣幸。\n史密斯：哪里哪里，谢谢您的盛情邀请。\n王志东：您太客气了，请入席吧。我们今晚吃中国菜，不知道合不合您的口味?\n史密斯：中国菜非常好吃，很合我的口味。\n王志东：那再好不过了。这家饭店是北京有名的老字号，菜做得很地道，特别是这儿的烤鸭。\n史密斯：太好了，我一直都想吃北京烤鸭，这次可以大饱口福了。\n王志东：您要喝点儿什么？白酒还是啤酒？我推荐您尝尝中国的茅台酒。\n史密斯：中国的白酒太厉害了，我喝一两杯就要醉了，还是喝啤酒吧。\n王志东：各位，今天我们在这里为史密斯先生接风，我谨代表五星电器集团对史密斯先生的到来表示热烈的欢迎！为了我们尊敬的客人、为了我们的友谊、为了大家的健康干杯！\n大家：干杯！",
+      "summary": "A complete banquet scene: host welcomes guest, checks dietary preference, introduces the restaurant and signature dish (Peking duck), offers drinks, then delivers an inline toast.",
+      "why_study": "Models Chinese business dining etiquette end-to-end: welcoming at the door, 入席, asking about 口味, recommending food and drinks graciously, and an inline toast. The phrases 深感荣幸, 盛情邀请, 老字号, 地道, 大饱口福 are all high-value banquet register.",
+      "key_devices": [
+        "深感荣幸 vs 感到荣幸 — 深 intensifier adds formality",
+        "哪里哪里 — self-deprecating response to compliment",
+        "合...的口味 — 'suits one's taste' (useful beyond food)",
+        "老字号 — 'time-honored brand/establishment'",
+        "再好不过了 — 'couldn't be better' (再...不过了 superlative)",
+        "大饱口福 — idiom: 'to feast to one's heart's content'",
+        "还是...吧 — 'I'd better stick with...' (decision after weighing)"
+      ]
+    },
+    {
+      "title": "个人简历式自我介绍",
+      "genre": "商务自我介绍 (business self-introduction, written narrative style)",
+      "text": "我叫李成恩，韩国人，1988年毕业于首尔大学中文系，1990年来到中国留学，1994年从北京大学中文系毕业，获得硕士学位，现在在一家韩国贸易公司工作，主要负责中国市场的业务。我的工作业绩不错，最近老板把我提升为部门经理了。",
+      "summary": "A first-person business self-introduction covering nationality, education (with V+于), current role, and a recent professional achievement.",
+      "why_study": "Compact model for written or spoken bio in Chinese professional contexts. V+于 for graduation/birth is essential for formal Chinese CVs and introductions. The sentence combining 负责 + business area is the standard way to describe one's work scope.",
+      "key_devices": [
+        "毕业于...大学...系 — formal education construction with V+于",
+        "获得硕士/博士学位 — standard degree attainment phrasing",
+        "主要负责...的业务 — 'primarily responsible for...' (functional scope)",
+        "工作业绩 — business performance/achievements (professional register)",
+        "把...提升为... — promotion construction with 把"
+      ]
+    },
+    {
+      "title": "公司简介及交通路线说明",
+      "genre": "商务简介 (company introduction with access directions — semi-formal written notice)",
+      "text": "本公司成立于1990年，是一家中型电脑软件公司，主要研究、开发各种电脑软件。我们真诚欢迎来自国内外的朋友与我们洽谈、合作。我们公司位于北京市北部的东方大厦，距市中心仅15公里，交通便利，来公司的客户可以选择以下交通路线：\n一、自驾车路线\n1. 沿北三环路在联想桥向北转到清东路，直行1800米左右，路西即可看到东方大厦。\n2. 沿北四环路至安福桥，向南转到清东路，直行300米右手边。\n二、公交车路线\n1. 乘坐65、320路在东方大厦站下车即到。\n2. 乘坐384、735在安福桥站下车，向东走100米，在十字路口右拐。\n三、地铁路线\n乘坐13号线地铁在知春路站下车，向西走200米左右在花园饭店路口向北拐，步行10分钟即可到达东方大厦。",
+      "summary": "A company website/brochure-style introduction stating founding year, business type, invitation to collaborate, location, and three categories of directions (driving, bus, subway).",
+      "why_study": "Models the standard format for Chinese company introductions: 本公司成立于, business scope, invitation to cooperate, then structured directions using formal connectives (沿, 至, 即). The enumerated 一/二/三 sectioning is a direct imitation device for professional writing.",
+      "key_devices": [
+        "本公司成立于...年 — standard founding-year formula",
+        "主要研究、开发... — comma-linked parallel verbs for business scope",
+        "真诚欢迎...与我们洽谈、合作 — invitation to negotiate/cooperate",
+        "距市中心仅...公里 — '仅' (only/merely) for minimizing distance",
+        "沿...路 / 至...桥 / 即可... — formal directional connectives",
+        "步行...分钟即可到达 — concise transport instruction formula"
+      ]
+    },
+    {
+      "title": "中国银行卡的普及（说明文）",
+      "genre": "说明文 / 社会现象分析 (expository article on a social-economic trend)",
+      "text": "20世纪80年代中国刚开始发行银行卡的时候，银行卡是一种财富的象征。随着银行卡的普及，现在使用的人越来越多，一个人有几张卡也很正常，银行卡成了日常生活的一部分。据统计，到2005年底，中国各家银行已经发行了9.6亿张银行卡。随着银行卡使用人数的增加，使用存折的人少了。因为和存折相比，银行卡有很多优势。银行卡除了有存折的存款、取款功能外，还可以ATM取款、刷卡消费、网上消费等，这些功能存折都没有。现在个人办理银行卡的手续越来越简单，只要拿着本人证件填一张申请表就可以，所以使用的人越来越多。",
+      "summary": "A short expository passage tracing the rise of bank cards in China from the 1980s to 2005, comparing them to passbooks and explaining why adoption accelerated.",
+      "why_study": "Dense with the patterns used in Chinese analytical writing: 随着...越来越, 据统计, 和...相比, 除了...外, 只要...就. These five patterns together cover a large share of how Chinese business and news writers structure arguments about trends.",
+      "key_devices": [
+        "随着...的普及/增加/发展,... — 'as X spread/grew, ...' causal-temporal pattern",
+        "据统计，到...底，...已经... — citing statistics with 据",
+        "和...相比，...有很多优势 — comparison pivot",
+        "除了...功能外，还可以... — 'in addition to..., also...'",
+        "越来越简单...所以使用的人越来越多 — parallel 越来越 reinforcing causation"
+      ]
+    },
+    {
+      "title": "花园宾馆电话使用说明（正式通知）",
+      "genre": "正式书面通知 (formal hotel written notice)",
+      "text": "尊敬的女士/先生：\n欢迎您光临花园宾馆！\n宾馆每个房间的电话都可以拨打内线、外线，内线电话免费，打外线电话收费。拨打电话的方法如下：\n(1) 客房之间通话：\n拨打其他客房电话可以直拨分机号，2到9楼的分机号码是在房间号码前加拨0，例如，701房间的电话号码是0701。10楼以上是房间的房号，例如，1021房的电话号码为1021。\n(2) 拨打市内电话：\n先按2，再按对方电话号码。例如，要拨打的电话是12345678，应该按212345678。\n(3) 拨打国内长途：\n先按2，再按区号和对方电话号码。\n(4) 拨打国际长途：\n先按2，再按国际代码"00"，然后按国家代码、区号和对方电话号码。",
+      "summary": "A formal hotel room notice explaining the internal phone system: free vs. charged calls, and step-by-step dialing instructions for internal, local, domestic long-distance, and international calls.",
+      "why_study": "Models two key formal writing devices: the 尊敬的 salutation and the 如下 + numbered enumeration structure, which appear constantly in Chinese business notices, manuals, and official communications. The 先...再...然后 sequence structure is particularly clean here.",
+      "key_devices": [
+        "尊敬的女士/先生：欢迎光临 — formal notice salutation",
+        "拨打...的方法如下 — '...as follows' enumeration pivot",
+        "先按...，再按...，然后按... — formal step-by-step instruction chain",
+        "内线/外线 — internal/external line distinction (applicable beyond hotels)",
+        "例如 for parenthetical examples within a numbered list"
+      ]
+    },
+    {
+      "title": "时代商场店庆促销公告",
+      "genre": "商业广告/公告 (commercial promotional announcement)",
+      "text": "时代商场位于北京市中心，是北京著名的大型百货公司。商场地下2层，地上11层，建筑面积67,000平米，营业面积62,000平米，有500个停车位。商场从1986年成立到现在已有20多年历史，为了迎接本次店庆，本商场将在本月举办大型促销活动。\n活动内容：\n活动期间所有商品一律8.8折，部分商品6折，另外，消费满100元返20元购物券，活动期间还有更多更好的礼物等着您。\n活动时间：6月18-28日\n营业时间：9:00—21:00 / 9:00—22:00（周末）\n咨询电话：82148130、82148365、82148410",
+      "summary": "A department store anniversary promotional notice: company profile, physical specs, event details (universal discount, cashback vouchers, dates, hours, contact).",
+      "why_study": "Models the standard structure of a Chinese business promotional announcement. The 本商场将在本月举办 phrasing with triple 本 is a compact formal time-referencing technique. 一律 + percentage discount and 消费满...返... (spend X get Y) are patterns repeated across Chinese commercial contexts.",
+      "key_devices": [
+        "位于...中心，是...著名的... — location + prestige opener",
+        "本商场将在本月举办 — triple 本 institutional time-reference",
+        "所有商品一律...折 — 'all goods uniformly at X% discount'",
+        "消费满...元返...元购物券 — cashback/voucher formula",
+        "活动时间/营业时间/咨询电话 — standard notice block fields"
+      ]
+    }
+  ],
+
+  "grammar_patterns": [
+    {
+      "pattern": "本 as formal institutional deictic",
+      "explanation": "本 replaces 我们的 or 这个 before institutional nouns (company, city, store, month, week) to create formal, written-register self-reference. Sounds bureaucratic/official; extremely common in announcements, reports, letters.",
+      "examples": [
+        "我代表本公司对您的到来表示热烈的欢迎。",
+        "本商场将在本月举办大型促销活动。",
+        "本店主要销售各种服装。",
+        "我们将在本周五举行酒会庆祝本公司成立20周年。"
+      ]
+    },
+    {
+      "pattern": "V + 于 + place/institution (formal)",
+      "explanation": "Formal construction meaning 'to V at/in [institution]'. Most common with 毕业于, 生于, 长于, 产于, 成立于, 位于. Appears in biographies, company profiles, and any written formal context.",
+      "examples": [
+        "他1988年毕业于首尔大学中文系。",
+        "这种咖啡产于巴西。",
+        "本公司成立于1990年，位于北京市北部的东方大厦。",
+        "他生于北京，长于北京，是土生土长的北京人。"
+      ]
+    },
+    {
+      "pattern": "随着 N 的 V/adj，...越来越...",
+      "explanation": "Expresses concurrent change: 'as X develops/grows, Y increasingly...'. The backbone of trend analysis in Chinese business and journalistic writing.",
+      "examples": [
+        "随着银行卡的普及，现在使用的人越来越多。",
+        "随着经济的发展，人们的收入也增加了。",
+        "随着社会的变化，人们的需要也在不断变化。",
+        "随着银行卡使用人数的增加，使用存折的人少了。"
+      ]
+    },
+    {
+      "pattern": "和 / 与...相比，...有...优势/特点",
+      "explanation": "Standard comparison pivot: 'compared with X, Y has [advantage/feature]'. Used in business analyses, product comparisons, trend reports.",
+      "examples": [
+        "和存折相比，银行卡有很多优势。",
+        "和那家超市比，这家商店东西要贵10%左右。",
+        "和2000年相比，我们公司的员工人数增加了30%。"
+      ]
+    },
+    {
+      "pattern": "除了 A (以外)，还/也 B",
+      "explanation": "'In addition to A, there is also B.' Additive, not exclusive. Ubiquitous in both spoken and written Chinese for enumerating features, attendees, functions.",
+      "examples": [
+        "除了王总以外，还有一位副总经理和几位部门经理。",
+        "除了负责公司的手机业务，王经理还负责销售工作。",
+        "银行卡除了有存折的存款、取款功能外，还可以ATM取款、刷卡消费、网上消费等。"
+      ]
+    },
+    {
+      "pattern": "要是...（的话），...",
+      "explanation": "Soft conditional 'if..., then...'; 的话 is optional but common in spoken register. Used for polite negotiation, offering alternatives, expressing concerns.",
+      "examples": [
+        "要是您方便的话，9点钟在我办公室见面好吗?",
+        "要是太早的话，我怕堵车。",
+        "要是您去北京出差的话，最好先预订房间。"
+      ]
+    },
+    {
+      "pattern": "先...再/然后...（然后...）",
+      "explanation": "Step-by-step sequence connector. Formal or neutral register. In written notices often appears as 先...再...然后..., in speech as 先...然后...",
+      "examples": [
+        "先拨55#号，然后拨0715就可以了。",
+        "如果拨外线，您需要先拨零再拨您要的号码。",
+        "先按2，再按国际代码"00"，然后按国家代码、区号和对方电话号码。"
+      ]
+    },
+    {
+      "pattern": "再 adj 不过了",
+      "explanation": "'Couldn't be more [adj]' — superlative with nuance of relief or satisfaction. Used after a positive development is confirmed.",
+      "examples": [
+        "您喜欢中国菜，那再好不过了。",
+        "只要签个字，所有的事情都由我们来做，再简单不过了。",
+        "如果能坐在家里办公，那真是再方便不过了。"
+      ]
+    },
+    {
+      "pattern": "V + 不了 (potential complement of impossibility)",
+      "explanation": "Cannot do X — potential complement expressing inability (due to circumstances, not skill). Different from 不能/不会: focuses on situational impossibility.",
+      "examples": [
+        "我有急事去不了。",
+        "我们的产品满足不了顾客的要求。",
+        "这件事他毕业以后才做得了。"
+      ]
+    },
+    {
+      "pattern": "就是 (concessive 'but')",
+      "explanation": "After a positive evaluation, 就是 introduces a single drawback or reservation. Equivalent to 'the only thing is...' or 'except that...'. Very natural in spoken Chinese evaluations.",
+      "examples": [
+        "这件衬衣还可以，就是稍微有点儿肥。",
+        "这家饭店的饭菜做得很地道，就是服务不太好。",
+        "我住的地方买东西很方便，就是离公司有点儿远。"
+      ]
+    },
+    {
+      "pattern": "不得不 V (cannot but / have to)",
+      "explanation": "Formal expression of necessity/compulsion. More formal and emphatic than 必须. Implies reluctance or external force.",
+      "examples": [
+        "我有急事去不了，不得不取消。",
+        "飞机晚点了，我们不得不等。",
+        "因为堵车，我不得不把见面时间推迟半个小时。"
+      ]
+    },
+    {
+      "pattern": "一 + V, 就... (as soon as)",
+      "explanation": "'As soon as [event], immediately [result]'. Used for prompt consequence. Common in business contexts for promising fast response.",
+      "examples": [
+        "一有消息我就通知您。",
+        "他一回来，我就转告他。",
+        "到时候电话就会响。"
+      ]
+    },
+    {
+      "pattern": "一律 + V / 一律 + discount/rule",
+      "explanation": "'Without exception; all uniformly'. Formal written register. Appears in announcements, policies, price notices.",
+      "examples": [
+        "活动期间所有商品一律8.8折。",
+        "所有预订将保留至下午六时。",
+        "商务汉语教材编写必然涉及较多的专业知识。"
+      ]
+    },
+    {
+      "pattern": "据...统计 / 据...了解 / 据...介绍",
+      "explanation": "Formal evidential: 'according to [source]'. 据统计 for citing statistics; 据了解 for attributed knowledge. Essential for formal reports.",
+      "examples": [
+        "据统计，到2005年底，中国各家银行已经发行了9.6亿张银行卡。",
+        "据了解，这家公司成立于1990年。"
+      ]
+    },
+    {
+      "pattern": "...的方法/要求/情况如下：(numbered list)",
+      "explanation": "'The method/requirements/situation is as follows:' — standard enumeration pivot in formal Chinese writing. Always followed by a numbered or lettered list.",
+      "examples": [
+        "拨打电话的方法如下：(1)客房之间通话…",
+        "本次招聘要求如下：①大学毕业 ②英语专业…",
+        "本套商务汉语系列教材具有如下特点：1.设计理念新…"
+      ]
+    },
+    {
+      "pattern": "顺便 + 问/说/做 (incidentally; while I'm at it)",
+      "explanation": "Softens an additional request or question by framing it as a minor aside. Very useful in professional contexts to ask follow-up questions without seeming demanding.",
+      "examples": [
+        "顺便问一下，你们饭店有叫早服务吗？",
+        "我去上海出差，顺便去看我的朋友。",
+        "顺便问一下，出席宴会的还有哪些人?"
+      ]
+    },
+    {
+      "pattern": "Adj. + 死了 (colloquial intensity)",
+      "explanation": "Colloquial intensifier: 'so [adj] I could die'. The polar opposite of formal 本 register — signals spontaneous, candid speech. Useful to recognize and produce in informal workplace contexts.",
+      "examples": [
+        "日程安排得很紧，累死了！",
+        "昨天加班加到晚上10点还没吃饭，饿死了。",
+        "要办的手续太多了，麻烦死了。"
+      ]
+    }
+  ],
+
+  "expressions": [
+    {
+      "zh": "幸会幸会",
+      "pinyin": "xìnghuì xìnghuì",
+      "meaning": "'Delighted to meet you' — emphatic form, more formal and warmer than 很高兴认识您",
+      "register": "formal / business first meeting"
+    },
+    {
+      "zh": "代表本公司对您的到来表示热烈的欢迎",
+      "pinyin": "dàibiǎo běn gōngsī duì nín de dàolái biǎoshì rèliè de huānyíng",
+      "meaning": "Represent this company in warmly welcoming your arrival — the standard formal welcome formula",
+      "register": "formal / institutional"
+    },
+    {
+      "zh": "请多多关照",
+      "pinyin": "qǐng duōduō guānzhào",
+      "meaning": "Please look after me / I am in your care — essential closing phrase when exchanging business cards or meeting new colleagues",
+      "register": "semi-formal / ubiquitous business courtesy"
+    },
+    {
+      "zh": "名胜古迹",
+      "pinyin": "míngshèng gǔjì",
+      "meaning": "Famous scenic and historical sites — stock phrase for suggesting sightseeing to visitors",
+      "register": "neutral / hospitality"
+    },
+    {
+      "zh": "一路上还顺利吧",
+      "pinyin": "yīlù shang hái shùnlì ba",
+      "meaning": "'Was your journey smooth?' — standard small-talk opener for greeting a guest who just traveled",
+      "register": "semi-formal / business greeting"
+    },
+    {
+      "zh": "让您久等了",
+      "pinyin": "ràng nín jiǔ děng le",
+      "meaning": "Sorry to have kept you waiting — used after any delay; more polite than 对不起我来晚了",
+      "register": "semi-formal / courtesy"
+    },
+    {
+      "zh": "日程安排满了",
+      "pinyin": "rìchéng ānpái mǎn le",
+      "meaning": "Schedule is fully booked — natural way to decline or signal limited availability",
+      "register": "business spoken"
+    },
+    {
+      "zh": "不得不取消",
+      "pinyin": "bùdébù qǔxiāo",
+      "meaning": "Cannot but cancel; forced to cancel — implies regret and external necessity",
+      "register": "formal / written or spoken"
+    },
+    {
+      "zh": "代我向他表示歉意",
+      "pinyin": "dài wǒ xiàng tā biǎoshì qiànyì",
+      "meaning": "Please convey my apologies on my behalf — used when leaving a message via an intermediary",
+      "register": "formal / business phone/email"
+    },
+    {
+      "zh": "一有消息我就通知您",
+      "pinyin": "yī yǒu xiāoxi wǒ jiù tōngzhī nín",
+      "meaning": "As soon as I have any news I will notify you — reliable closing promise in scheduling negotiations",
+      "register": "business spoken"
+    },
+    {
+      "zh": "举行晚宴为...接风 / 送行",
+      "pinyin": "jǔxíng wǎnyàn wèi ... jiēfēng / sòngxíng",
+      "meaning": "Hold a banquet to welcome sb. arriving from afar (接风) / to see sb. off (送行)",
+      "register": "formal / business hospitality"
+    },
+    {
+      "zh": "盛情邀请",
+      "pinyin": "shèngqíng yāoqǐng",
+      "meaning": "Gracious / generous invitation — used when accepting or thanking for an invitation",
+      "register": "formal / business"
+    },
+    {
+      "zh": "我谨代表...对...表示热烈的欢迎",
+      "pinyin": "wǒ jǐn dàibiǎo ... duì ... biǎoshì rèliè de huānyíng",
+      "meaning": "'I respectfully represent [org] in warmly welcoming [guest]' — the slightly more elevated form with 谨 (respectfully)",
+      "register": "formal speech / toast"
+    },
+    {
+      "zh": "深感荣幸",
+      "pinyin": "shēn gǎn róngxìng",
+      "meaning": "'Feel deeply honored' — stronger than 感到荣幸; used in formal speeches and written correspondence",
+      "register": "formal / written"
+    },
+    {
+      "zh": "远道而来的客人",
+      "pinyin": "yuǎndào ér lái de kèrén",
+      "meaning": "Guests who have come from afar — polite, slightly literary descriptor for visiting guests",
+      "register": "formal / speech"
+    },
+    {
+      "zh": "有朋自远方来，不亦乐乎",
+      "pinyin": "yǒu péng zì yuǎnfāng lái, bù yì lè hū",
+      "meaning": "'Is it not a delight to have friends come from afar?' (Confucius, Analects 1.1) — classical allusion used in welcoming speeches to elevate register",
+      "register": "literary / formal speech"
+    },
+    {
+      "zh": "良好的合作关系",
+      "pinyin": "liánghǎo de hézuò guānxi",
+      "meaning": "Good cooperative relationship — standard descriptor in business speeches and reports",
+      "register": "formal / business"
+    },
+    {
+      "zh": "洽谈",
+      "pinyin": "qiàtán",
+      "meaning": "To negotiate; to discuss (business) — more formal than 谈, implies purposeful commercial discussion",
+      "register": "formal / business"
+    },
+    {
+      "zh": "以后能更好地合作",
+      "pinyin": "yǐhòu néng gèng hǎo de hézuò",
+      "meaning": "That we can cooperate even better in the future — optimistic forward-looking closing in speeches",
+      "register": "formal speech"
+    },
+    {
+      "zh": "老字号",
+      "pinyin": "lǎozìhào",
+      "meaning": "Time-honored brand / long-established business — used to praise a restaurant, brand, or shop with history",
+      "register": "neutral / restaurant/retail context"
+    },
+    {
+      "zh": "地道",
+      "pinyin": "dìdao",
+      "meaning": "Authentic, genuine (of food, dialect, culture) — '地道的北京烤鸭'",
+      "register": "colloquial / food and culture"
+    },
+    {
+      "zh": "大饱口福",
+      "pinyin": "dà bǎo kǒufú",
+      "meaning": "To feast to one's heart's content; to have a real treat (food) — enthusiastic idiom expressing food anticipation",
+      "register": "spoken / informal"
+    },
+    {
+      "zh": "为了...，干杯！",
+      "pinyin": "wèile ..., gānbēi",
+      "meaning": "To [toasted topic], cheers! — toast structure; typically parallel tricolon: 为了友谊、为了合作、为了健康",
+      "register": "formal / banquet"
+    },
+    {
+      "zh": "兹定于...日...点在...举行...",
+      "pinyin": "zī dìngyú ... rì ... diǎn zài ... jǔxíng ...",
+      "meaning": "'It is hereby scheduled for [date] at [time] at [venue] to hold [event]' — formal written invitation (请柬) opener; 兹 is a classical formal particle",
+      "register": "written formal / invitation"
+    },
+    {
+      "zh": "敬请光临",
+      "pinyin": "jìng qǐng guānglín",
+      "meaning": "'Your gracious presence is respectfully requested' — closing of a written invitation",
+      "register": "written formal / invitation"
+    },
+    {
+      "zh": "如不能出席，请赐复为盼",
+      "pinyin": "rú bùnéng chūxí, qǐng cì fù wéi pàn",
+      "meaning": "'If unable to attend, please kindly reply' — formal RSVP request on written invitations; 赐复 is classical",
+      "register": "written formal / invitation"
+    },
+    {
+      "zh": "按...办理手续",
+      "pinyin": "àn ... bànlǐ shǒuxù",
+      "meaning": "Handle/complete procedures [for X] — 办理手续 is the standard phrase for bureaucratic/administrative processes",
+      "register": "neutral / business/banking/hotel"
+    },
+    {
+      "zh": "出示证件 / 护照",
+      "pinyin": "chūshì zhèngjiàn / hùzhào",
+      "meaning": "'Please show your ID / passport' — standard service phrase at hotels, banks, airports",
+      "register": "neutral / service"
+    },
+    {
+      "zh": "占线",
+      "pinyin": "zhàn xiàn",
+      "meaning": "The line is busy (telephone) — used when transferring a call",
+      "register": "neutral / telephone"
+    },
+    {
+      "zh": "转告",
+      "pinyin": "zhuǎngào",
+      "meaning": "To pass on a message / relay information to sb. — essential in phone-message contexts",
+      "register": "neutral / business phone"
+    },
+    {
+      "zh": "顺便问一下",
+      "pinyin": "shùnbiàn wèn yīxià",
+      "meaning": "'By the way / while I have you' — softens an additional question so it does not seem like an imposition",
+      "register": "spoken / polite"
+    },
+    {
+      "zh": "一律",
+      "pinyin": "yīlǜ",
+      "meaning": "Without exception; uniformly — appears in commercial announcements, policy statements, price notices",
+      "register": "formal / written"
+    },
+    {
+      "zh": "消费满...元返...元",
+      "pinyin": "xiāofèi mǎn ... yuán fǎn ... yuán",
+      "meaning": "'Spend X yuan, get Y yuan back [as vouchers]' — standard Chinese promotional formula",
+      "register": "commercial / written promotion"
+    },
+    {
+      "zh": "随着...的发展/普及/增加",
+      "pinyin": "suízhe ... de fāzhǎn / pǔjí / zēngjiā",
+      "meaning": "'With the development/spread/growth of...' — the most productive single phrase for trend analysis in Chinese",
+      "register": "formal / written analysis"
+    },
+    {
+      "zh": "汇率",
+      "pinyin": "huilù",
+      "meaning": "Exchange rate",
+      "register": "formal / banking"
+    },
+    {
+      "zh": "活期存款 / 定期存款",
+      "pinyin": "huóqī cúnkuǎn / dìngqī cúnkuǎn",
+      "meaning": "Current (demand) deposit / Fixed-term deposit",
+      "register": "banking / formal"
+    },
+    {
+      "zh": "刷卡消费",
+      "pinyin": "shuā kǎ xiāofèi",
+      "meaning": "Spend / pay by card — modern financial register",
+      "register": "neutral / financial"
+    },
+    {
+      "zh": "部门经理 / 公关部主任 / 副总裁 / 董事长",
+      "pinyin": "bùmén jīnglǐ / gōngguānbù zhǔrèn / fù zǒngcái / dǒngshìzhǎng",
+      "meaning": "Department manager / Director of PR dept / Vice president / Chairman of the board — the key title hierarchy",
+      "register": "business / formal"
+    },
+    {
+      "zh": "土生土长",
+      "pinyin": "tǔshēng tǔzhǎng",
+      "meaning": "Born and raised locally; native through and through — idiomatic expression for someone who has never left their hometown",
+      "register": "spoken / idiomatic"
+    }
+  ],
+
+  "essay_takeaways": [
+    "Use 本 (本公司、本月、本市、本商场) in any formal/institutional writing to replace 我们的 — it immediately elevates register and sounds like native formal Chinese rather than translated English.",
+    "The formal banquet toast follows a four-part scaffold: (1) state the occasion, (2) welcome + thank attendees, (3) recap relationship history + state purpose of visit + express hope, (4) quote or allusion + tricolon toast. Memorizing this scaffold lets you produce any welcome speech with pluggable content.",
+    "三 as a Confucian allusion: inserting 有朋自远方来，不亦乐乎 before a toast lifts a business speech to a genuinely cultured register — Chinese executives who use it are perceived as educated. Learn it as a single deployable chunk.",
+    "For formal company introductions, open with 本公司成立于 [year], 是一家 [type] 公司, 主要 [scope]. Follow with 我们真诚欢迎...与我们洽谈、合作. Then location with 距市中心仅...公里. This three-sentence template appears in hundreds of Chinese company brochures.",
+    "The concessive 就是 pattern (还可以，就是有点儿 X) is how Chinese speakers acknowledge a defect without being blunt. Using 但是 for the same thing sounds abrupt and translated. Master 就是 for polished evaluative language.",
+    "The V+于 construction (毕业于、成立于、位于、产于) is non-negotiable for written Chinese résumés, company bios, and formal introductions. It signals that the writer has genuine written Chinese literacy.",
+    "Build 随着...越来越... into your analytical writing. It is to Chinese trend analysis what 'as X grows, Y increases' is to English — except Chinese readers expect it and its absence makes prose feel immature.",
+    "The 如下 enumeration pattern (X如下：(1)...(2)...) is the standard way to introduce lists in formal Chinese documents. Never use a colon alone without this pivot phrase in formal writing.",
+    "For appointment negotiations: 我这周的日程差不多都安排满了，只有...有空 is a diplomatic way to show you are busy while still offering a slot. Pair with 要是您方便的话 for extra softness.",
+    "Three-tier apology escalation: 对不起 (casual) → 非常抱歉 (sincere) → 代我向他表示歉意 (formal third-party). Know which register each apology phrase belongs to and deploy accordingly.",
+    "Tricolon toasts (为了...、为了...、为了...) are expected in Chinese business banquets. Prepare two or three templates: one for welcoming guests, one for project completion, one for farewell. The structure is always 3 items, ending with 大家的健康.",
+    "顺便 is a power word for adding requests without seeming demanding. In professional contexts, 顺便问一下 makes any follow-up question sound casual and effortless rather than presumptuous."
+  ]
+}

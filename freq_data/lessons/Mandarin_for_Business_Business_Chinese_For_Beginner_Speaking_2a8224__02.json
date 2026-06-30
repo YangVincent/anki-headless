@@ -1,0 +1,230 @@
+{
+  "model_essays": [
+    {
+      "title": "传统消费观与现代年轻人（对话节选）",
+      "genre": "dialogue",
+      "text": "[NOTE: The underlying OCR text is too corrupted for faithful character-level reproduction. The chapter topic and dialogue content are reliably recoverable from comprehension questions (lines 841–880), vocabulary lists, and grammar notes. The dialogue contrasts a foreigner's questions with a Chinese person's explanations of traditional Chinese financial values: 勤俭节约 (diligence and frugality), 精打细算 (meticulous budgeting), and 理财观念 (financial philosophy). It then introduces modern youth phenomena including 月光族 (people who spend entire monthly salary), 啃老族 (adults who financially depend on parents), and 透支消费 (spending beyond one's means). The dialogue explores 代沟 (generation gap) in attitudes toward money, addresses 一知半解 (superficial understanding) of Chinese financial culture, and closes by questioning whether 勤俭 values remain relevant. Key structural feature: a foreigner asks probing questions; the Chinese respondent first acknowledges 传统观念 then complicates them with contemporary counter-examples.]",
+      "summary": "Multi-turn dialogue comparing traditional Chinese frugality (勤俭节约, 精打细算) with modern youth spending patterns (月光族, 啃老族, 透支). A foreigner's questions draw out nuanced explanation of how ancestral values clash with contemporary consumer culture, framed around 代沟 and changing 消费观.",
+      "why_study": "Rich lexical cluster for discussing personal finance, social trends, and intergenerational change — all high-frequency in contemporary business Chinese. The dialogue models how to present 传统 vs. 现代 contrast structures and hedge cultural generalizations. Key neologisms (月光族, 啃老族) appear constantly in Chinese media and op-ed writing.",
+      "key_devices": [
+        "先…然后… sequencing to build argument",
+        "Rhetorical questions with 难道 to challenge assumptions",
+        "族-compound neologisms to label social phenomena efficiently",
+        "Contrast structure: 传统上…但是现在的年轻人…"
+      ]
+    },
+    {
+      "title": "广交会参展经历（对话节选）",
+      "genre": "dialogue",
+      "text": "[NOTE: OCR too corrupted for faithful verbatim reproduction. Chapter content recoverable from vocabulary lists (lines 1974–2113), comprehension questions (lines 2262–2295), and grammar notes. The dialogue covers: (1) an introduction to the 广交会 (China Import and Export Fair, 中国进出口商品交易会, Guangzhou) and the 中国国际服装博览会 (China International Clothing Fair); (2) practical trade-fair logistics: 展位 (booth) setup, 展区 (exhibition area) layout, meeting 参展商 (exhibitors) and 观众 (visitors/buyers); (3) business activities: 洽谈 (negotiations), 订购 (placing orders), 推销 (sales promotion), presenting 报价单 (price quotations); (4) outcomes: establishing 合作 (cooperation), improving 供需 (supply-demand) matching, raising 品牌 (brand) visibility. Speakers also mention Hong Kong (香港) and Macao (澳门) as nearby venues. One character reports that 广交会 achieves very high 排名 in global trade fairs and that exhibitors must 创造 unique selling points to stand out. The dialogue closes with discussion of whether the fair has helped 拓展 (expand) international market reach.]",
+      "summary": "Business dialogue about participating in the Canton Fair system: preparing booths, meeting buyers, negotiating prices (报价单), promoting Chinese brands, and extending 供需 connections internationally. Models the full arc from pre-fair preparation to post-fair cooperation follow-up.",
+      "why_study": "Core vocabulary and conversational moves for the trade-fair and B2B export context — essential business Chinese for anyone working in China's trade sector. The chapter also models how to describe organizational logistics and outcomes in formal dialogue.",
+      "key_devices": [
+        "Topic-comment sentence structure for describing fair sections",
+        "Embedded enumerations listing fair activities",
+        "Formal measure words and classifiers for exhibitions (届, 家, 个)",
+        "Result complements to describe business outcomes (达到, 创造, 扩大)"
+      ]
+    },
+    {
+      "title": "燕京啤酒集团参观记（对话节选）",
+      "genre": "dialogue",
+      "text": "[NOTE: OCR partially legible; verbatim reproduction not possible for most turns. Chapter topic and content recoverable from questions (lines 3236–3255) and vocabulary list (lines 2944–3070). The dialogue describes a guided visit to Yanjing Beer Corporation (燕京啤酒集团 / 燕京啤酒公司 Yānjīng Píjiǔ). Key content: (1) Scale and history — the enterprise has grown from a small local brewery into a nationally recognized 一流品牌 (first-class brand) with enormous 产销量 (production and sales volume) and 市场占有率 (market share); (2) Modernization — the factory features fully 自动化 (automated) 生产线 (production lines) with 监控 (monitoring/quality control) at every stage; (3) Ownership structure — the guide explains China's enterprise ownership types: 私营 (private), 国家 (state-owned), 合资 (joint-venture), and 乡镇企业 (village and township enterprises), which have all 纷纷 (in succession) developed; (4) Competitive strategy — 优势 (competitive advantage) comes from 一体化 (vertical integration) and control of 劳动力 (labor); (5) Expansion — the company is actively 拓展 (expanding) market reach domestically and internationally. One speaker asks 'how does the factory handle quality under such 巨大 scale?' The guide explains that 规模 (scale) itself creates 优势 in the 成本 (cost) dimension.]\n\nPartially legible lines from the dialogue (lines 2848–2870 area, OCR errors retained):\n甲：这家工厂到底有多大规模？听说[产量超过350亿？]\n乙：对，我们[...有三类农庄/合作农庄...]，国家给予了很大支持。\n甲：生产线是全自动化的吗？\n乙：[...自动化程度很高...每道工序都有监控...]，达到了国际一流水平。\n甲：那么在市场竞争中，你们的优势是什么？\n乙：主要是规模优势、品牌优势，加上[一体化的管理]，成本控制得很好。",
+      "summary": "Factory-tour dialogue at Yanjing Beer covering enterprise history, production automation (自动化, 生产线), ownership reform vocabulary (私营/国家/合资/乡镇), market position (市场占有率, 一流品牌), and expansion strategy (拓展, 一体化). A case study in Chinese enterprise discourse.",
+      "why_study": "Models the language of enterprise introduction and factory-tour discourse — extremely common in business Chinese contexts when visiting or presenting a company. Introduces the ownership-structure vocabulary that recurs in any discussion of Chinese business organization. The question-answer tour format is a genre worth imitating.",
+      "key_devices": [
+        "Q&A tour-guide structure: 问…答… with factual enumeration",
+        "Scale-indicating expressions: 成千上万, 巨大规模, 一流",
+        "Comparison and contrast of enterprise ownership types",
+        "Achievement-highlighting pattern: 达到…水平, 实现了…化"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "也…也…（无论/不管 + 也…也…）",
+      "explanation": "Enumerative concessive pattern indicating that the listed items apply universally regardless of circumstances. The textbook notes: 'suggests that the enumerative items would not change in any circumstances.' Functions like English 'whether X or Y, the result stays the same.' Often paired with 无论/不管.",
+      "examples": [
+        "刮风也好，下雨也好，他每天准时到公司。",
+        "不管价格高也罢，低也罢，质量才是关键。",
+        "你去也行，不去也行，我们都支持你的决定。"
+      ]
+    },
+    {
+      "pattern": "反而",
+      "explanation": "Adverb meaning 'on the contrary / instead / conversely.' Marks a result contrary to expectation or logical norm. Similar in meaning to 相反 but syntactically integrated into the predicate phrase. Often follows a concessive or conditional clause. The textbook glosses it as 'be on the contrary to … similar meaning as 相反.'",
+      "examples": [
+        "他越解释，大家反而越不相信他。",
+        "吃了药，病反而更严重了。",
+        "市场竞争加剧，一些企业的利润反而提高了。"
+      ]
+    },
+    {
+      "pattern": "无所谓",
+      "explanation": "Fixed expression meaning 'be indifferent / it doesn't matter / I don't care either way.' Used when the speaker has no preference or considers the outcome unimportant. The textbook gloss: 'be indifferent, no matter.' Can stand alone or precede a noun/clause with 什么.",
+      "examples": [
+        "去不去无所谓，你自己看着办吧。",
+        "对他来说，薪水多少无所谓，关键是工作内容有意思。",
+        "我无所谓，随便都行。"
+      ]
+    },
+    {
+      "pattern": "毕竟",
+      "explanation": "Adverb meaning 'after all / when all is said and done.' Introduces a conclusion drawn from objective, acknowledged facts. Often signals a concession that still supports the speaker's main point. Placed before the predicate. The textbook notes it 'suggests getting a conclusion according to the fact.'",
+      "examples": [
+        "他毕竟是第一次参加面试，紧张一点是正常的。",
+        "毕竟是大品牌，质量有保障。",
+        "他工作了二十年，毕竟经验丰富，你应该听他的建议。"
+      ]
+    },
+    {
+      "pattern": "v./adj. + 起来",
+      "explanation": "Directional complement indicating the inception or ongoing continuation of a state or action. V+起来 = 'start doing V / begin to V (and continue)'; adj.+起来 = 'become / turn adj.' Extremely productive in both spoken and written Chinese. The textbook notes: 'indicates that something happens and continues.'",
+      "examples": [
+        "随着经济的发展，人们的生活富裕起来了。",
+        "看到合同上的数字，他笑了起来。",
+        "生产线实现自动化后，效率提高起来了，成本也降低了。"
+      ]
+    },
+    {
+      "pattern": "据说",
+      "explanation": "Sentence-initial or clause-initial adverb meaning 'it is said / reportedly / allegedly / I hear that.' Marks information as hearsay or unverified. Slightly more formal than 听说. Common in written expository and journalistic Chinese. The textbook also lists parallel forms: 有说法是, 有人说.",
+      "examples": [
+        "据说广交会每届参展商超过两万家。",
+        "据说燕京啤酒已经跻身全国品牌前三名了。",
+        "据说明年广州还要举办更大规模的国际贸易展。"
+      ]
+    },
+    {
+      "pattern": "连…也/都…",
+      "explanation": "Inclusive/emphatic concessive pattern meaning 'even X (also/all)….' The item after 连 is the extreme or least-expected case — if even that case applies, all others certainly do. Often pairs with 何况 or 更别说 ('let alone') to form an escalating chain. The textbook notes 何况 has similar meaning to 连…也不能/更别说.",
+      "examples": [
+        "连中国年轻人都不太理解这个习俗，更别说外国人了。",
+        "他连简历都没有准备好，怎么可能通过面试？",
+        "这道题连专家都做不出来，我当然更不行了。"
+      ]
+    },
+    {
+      "pattern": "净 + verb",
+      "explanation": "Colloquial adverb meaning 'always doing sth. / do nothing but / constantly.' Carries a mildly critical or exasperated tone. Common in spoken Chinese and informal writing. The textbook specifies it 'is normally followed by verbs.'",
+      "examples": [
+        "他净说废话，一点有用的信息都没有。",
+        "这家公司净招没经验的人，难怪效率这么低。",
+        "你净挑别人的毛病，自己有没有问题？"
+      ]
+    },
+    {
+      "pattern": "…化（生产性后缀）",
+      "explanation": "Productive suffix forming verbs or adjectives meaning 'to make X / to become X / -ize / -ify.' Very common in formal, business, and policy Chinese. The textbook gives: 商业化 (commercialize), 现代化 (modernize), 自动化 (automate), 绿化 (beautify/green). This suffix is essential for discussing reform, development, and institutional change.",
+      "examples": [
+        "工厂正在积极推进生产自动化，目标是五年内全面实现。",
+        "政府计划在该地区大力推进绿化工程。",
+        "随着市场竞争加剧，企业管理也需要科学化、规范化。"
+      ]
+    },
+    {
+      "pattern": "一点都/也不…",
+      "explanation": "Strong negation pattern meaning 'not even a little bit / not at all.' Strengthens a negative predicate for emphasis. The textbook notes this 'is used to strengthen negative tone.' Can be used in both spoken and written registers.",
+      "examples": [
+        "这件事和他一点关系都没有，不要误会他。",
+        "产品质量一点都不差，完全符合国际标准。",
+        "我对这份工作一点兴趣也没有。"
+      ]
+    },
+    {
+      "pattern": "再…也…",
+      "explanation": "Concessive pattern meaning 'no matter how X, still Y.' The first clause presents an extreme condition; the second states an unchanged result. Frequently used in persuasive writing to anticipate objections. The textbook includes examples of this pattern in several chapters.",
+      "examples": [
+        "路再难走，我们也要坚持走下去。",
+        "价格再高，客户有需求就会接受。",
+        "问题再复杂，也要找到切实可行的解决方案。"
+      ]
+    },
+    {
+      "pattern": "不但…而且…",
+      "explanation": "Progressive additive structure meaning 'not only X but also Y.' The second clause escalates or extends the first. Very common in formal written Chinese for introducing additional favorable (or unfavorable) attributes. Equivalent to English 'not only…but also.'",
+      "examples": [
+        "广交会不但吸引了国内参展商，而且吸引了大批海外买家。",
+        "他不但有丰富的工作经验，而且英语水平也很高。",
+        "这款产品不但质量上乘，而且售后服务也非常完善。"
+      ]
+    }
+  ],
+  "expressions": [
+    {"zh": "无所谓", "pinyin": "wúsuǒwèi", "meaning": "be indifferent; it doesn't matter; couldn't care less", "register": "colloquial/neutral"},
+    {"zh": "关键", "pinyin": "guānjiàn", "meaning": "key point; crux; sticking point; the critical factor", "register": "neutral"},
+    {"zh": "毕竟", "pinyin": "bìjìng", "meaning": "after all; when all is said and done", "register": "neutral/formal"},
+    {"zh": "人才", "pinyin": "réncái", "meaning": "talented person; person of ability; human capital", "register": "neutral/formal"},
+    {"zh": "实力", "pinyin": "shílì", "meaning": "actual strength; capability; clout; real competitive power", "register": "neutral"},
+    {"zh": "招聘", "pinyin": "zhāopìn", "meaning": "recruit staff; invite job applications; post a job opening", "register": "formal/business"},
+    {"zh": "应聘", "pinyin": "yìngpìn", "meaning": "apply for an advertised position; respond to a job posting", "register": "formal/business"},
+    {"zh": "简历", "pinyin": "jiǎnlì", "meaning": "resume; curriculum vitae (CV)", "register": "formal/business"},
+    {"zh": "面试", "pinyin": "miànshì", "meaning": "interview (for a job); job interview", "register": "formal/business"},
+    {"zh": "实习", "pinyin": "shíxí", "meaning": "internship; practicum; field work (for students/trainees)", "register": "neutral/academic"},
+    {"zh": "录用", "pinyin": "lùyòng", "meaning": "hire; take on (an employee); employ", "register": "formal/business"},
+    {"zh": "发挥", "pinyin": "fāhuī", "meaning": "bring into play; give full play to; leverage (one's strengths)", "register": "neutral/formal"},
+    {"zh": "营销", "pinyin": "yíngxiāo", "meaning": "marketing; sales and promotion", "register": "business"},
+    {"zh": "自信", "pinyin": "zìxìn", "meaning": "(adj./v.) confident; (n.) confidence; self-confidence", "register": "neutral"},
+    {"zh": "行业", "pinyin": "hángyè", "meaning": "profession; industry; sector; trade (general term for a field of business)", "register": "neutral/business"},
+    {"zh": "角色", "pinyin": "juésè", "meaning": "role; part (in an enterprise or scenario)", "register": "neutral"},
+    {"zh": "小康", "pinyin": "xiǎokāng", "meaning": "moderately prosperous; a relatively comfortable standard of living (also a key CCP policy goal: 小康社会)", "register": "formal/political"},
+    {"zh": "和谐", "pinyin": "héxié", "meaning": "harmonious; harmony (also a CCP political concept: 和谐社会)", "register": "formal/political"},
+    {"zh": "构建", "pinyin": "gòujiàn", "meaning": "construct; build; establish (used for abstract systems, frameworks, policies)", "register": "formal"},
+    {"zh": "普遍", "pinyin": "pǔbiàn", "meaning": "universal; widespread; general; common (to a whole group or phenomenon)", "register": "neutral/formal"},
+    {"zh": "成熟", "pinyin": "chéngshú", "meaning": "mature; ripe; well-developed; (of a market/product) established", "register": "neutral"},
+    {"zh": "数据", "pinyin": "shùjù", "meaning": "data; figures; statistics", "register": "formal/technical"},
+    {"zh": "统计", "pinyin": "tǒngjì", "meaning": "(v.) count; compile statistics; (n.) statistics, statistical data", "register": "formal/technical"},
+    {"zh": "百闻不如一见", "pinyin": "bǎi wén bù rú yī jiàn", "meaning": "Seeing is believing; better to see once than hear a hundred times (proverb)", "register": "idiomatic/proverb"},
+    {"zh": "取经", "pinyin": "qǔjīng", "meaning": "learn from sb. else's experience; seek best practices (lit. 'retrieve Buddhist scriptures'); go on a study visit", "register": "idiomatic/colloquial"},
+    {"zh": "过劳死", "pinyin": "guòláosǐ", "meaning": "karoshi; death from overwork (neologism from Japanese 過労死)", "register": "colloquial/neologism"},
+    {"zh": "美中不足", "pinyin": "měizhōng-bùzú", "meaning": "the only flaw in an otherwise perfect thing; a blemish in an otherwise perfect picture (idiom)", "register": "formal/idiomatic"},
+    {"zh": "媒体", "pinyin": "méitǐ", "meaning": "media; the press; mass media", "register": "neutral"},
+    {"zh": "遗产", "pinyin": "yíchǎn", "meaning": "heritage; legacy; inheritance (cultural, historical, or material)", "register": "neutral/formal"},
+    {"zh": "重视", "pinyin": "zhòngshì", "meaning": "attach importance to; take seriously; think highly of", "register": "neutral/formal"},
+    {"zh": "设施", "pinyin": "shèshī", "meaning": "facilities; infrastructure; installations", "register": "neutral/formal"},
+    {"zh": "推动", "pinyin": "tuīdòng", "meaning": "propel; drive; push forward; promote (development or change)", "register": "formal"},
+    {"zh": "规模", "pinyin": "guīmó", "meaning": "scale; scope; size (of an enterprise, project, or operation)", "register": "neutral/formal"},
+    {"zh": "志愿者", "pinyin": "zhìyuànzhě", "meaning": "volunteer", "register": "neutral"},
+    {"zh": "意识", "pinyin": "yìshi", "meaning": "consciousness; awareness; sense of (environmental ~, safety ~)", "register": "neutral/formal"},
+    {"zh": "精打细算", "pinyin": "jīngdǎ-xìsuàn", "meaning": "meticulous budgeting; careful calculation and strict budgeting; be very careful with money (idiom)", "register": "idiomatic"},
+    {"zh": "勤俭节约", "pinyin": "qínjiǎn jiéyuē", "meaning": "diligence and frugality; hardworking and thrifty (core traditional Chinese value, also official policy slogan)", "register": "formal/cultural"},
+    {"zh": "一言为定", "pinyin": "yīyánwéidìng", "meaning": "it's a deal; a promise is a promise; that's settled then (sealing an agreement)", "register": "idiomatic/colloquial"},
+    {"zh": "代沟", "pinyin": "dàigōu", "meaning": "generation gap", "register": "colloquial/neutral"},
+    {"zh": "月光族", "pinyin": "yuèguāngzú", "meaning": "people who spend their entire monthly salary; living paycheck to paycheck (lit. 'moonlight tribe'; neologism)", "register": "colloquial/neologism"},
+    {"zh": "啃老族", "pinyin": "kěnlǎozú", "meaning": "adults who financially depend on their parents; NEETs relying on family (lit. 'gnaw-on-the-old tribe'; neologism)", "register": "colloquial/neologism"},
+    {"zh": "透支", "pinyin": "tòuzhī", "meaning": "overdraft; spend beyond one's means; financial deficit", "register": "financial/neutral"},
+    {"zh": "名副其实", "pinyin": "míngfùqíshí", "meaning": "be worthy of the name; the name matches the reality; live up to one's reputation (idiom)", "register": "formal/idiomatic"},
+    {"zh": "取长补短", "pinyin": "qǔcháng-bǔduǎn", "meaning": "learn from others' strengths to offset one's own weaknesses; complement each other (idiom)", "register": "formal/idiomatic"},
+    {"zh": "供需", "pinyin": "gōngxū", "meaning": "supply and demand", "register": "business/economic"},
+    {"zh": "品牌", "pinyin": "pǐnpái", "meaning": "brand; brand name", "register": "business"},
+    {"zh": "洽谈", "pinyin": "qiàtán", "meaning": "negotiate; hold business discussions or talks; consult (about a deal)", "register": "formal/business"},
+    {"zh": "展位", "pinyin": "zhǎnwèi", "meaning": "exhibition booth; display stand (at a trade fair)", "register": "business/trade fair"},
+    {"zh": "报价单", "pinyin": "bàojiàdān", "meaning": "price quotation; quote sheet (formal document)", "register": "formal/business"},
+    {"zh": "广交会", "pinyin": "Guǎngjiāohuì", "meaning": "Canton Fair; China Import and Export Fair (held biannually in Guangzhou)", "register": "proper noun/business"},
+    {"zh": "推销", "pinyin": "tuīxiāo", "meaning": "promote sales; market actively; sell (by pitching)", "register": "business"},
+    {"zh": "产销量", "pinyin": "chǎnxiāoliàng", "meaning": "production and sales volume/quantity", "register": "business/technical"},
+    {"zh": "市场占有率", "pinyin": "shìchǎng zhànyǒulǜ", "meaning": "market share", "register": "business/formal"},
+    {"zh": "优势", "pinyin": "yōushì", "meaning": "advantage; superiority; competitive edge", "register": "neutral/formal"},
+    {"zh": "一体化", "pinyin": "yītǐhuà", "meaning": "integration; unification; vertical or horizontal integration (of enterprises or systems)", "register": "formal/business"},
+    {"zh": "自动化", "pinyin": "zìdònghuà", "meaning": "automation; automate", "register": "formal/technical"},
+    {"zh": "生产线", "pinyin": "shēngchǎnxiàn", "meaning": "production line; assembly line", "register": "technical/business"},
+    {"zh": "搭便车", "pinyin": "dā biànchē", "meaning": "hitchhike; get a free ride; free-ride (also used metaphorically in economics: free-rider problem)", "register": "colloquial/neutral"},
+    {"zh": "倡议", "pinyin": "chàngyì", "meaning": "propose; initiate; put forward a suggestion or initiative", "register": "formal"},
+    {"zh": "响应", "pinyin": "xiǎngyìng", "meaning": "respond to; answer (a call); echo; rally behind", "register": "formal"},
+    {"zh": "智慧", "pinyin": "zhìhuì", "meaning": "wisdom; intelligence; sagacity", "register": "neutral/formal"},
+    {"zh": "工薪阶层", "pinyin": "gōngxīn jiēcéng", "meaning": "salaried workers; wage earners; white- and blue-collar employees as a social class", "register": "formal/sociological"},
+    {"zh": "百年大计", "pinyin": "bǎiniándàjì", "meaning": "a project/plan of fundamental importance for generations to come; a long-term strategic undertaking (idiom)", "register": "formal/political"}
+  ],
+  "essay_takeaways": [
+    "毕竟 signals reasoning from acknowledged fact, not mere assertion. Placing it before the predicate — 他毕竟是新人，犯错误很正常 — lends credibility by conceding the opponent's premise while redirecting to your point. Use it in the middle of an argument, not as an opener.",
+    "The 连…也/都… + 何况/更别说 chain creates a two-stage emphasis move that amplifies any claim. First cite the extreme case with 连, then use 何况 or 更别说 to extend: 连专家都不确定，更别说普通消费者了. This is a standard move in persuasive and analytical Chinese writing.",
+    "The -化 suffix is essential for formal writing about reform, modernization, or institutional change: 商业化, 现代化, 自动化, 规范化, 国际化. Chinese policy and business documents use these compound verbs constantly. Knowing them passively is insufficient — produce them actively in discussions of industry trends.",
+    "四字成语 like 精打细算, 取长补短, 美中不足, 名副其实, 百闻不如一见, 一言为定 are not decorative: they function as compressed predicates or arguments. Learn each in a clause context (e.g., 两家公司在技术上可以取长补短) so you can deploy them as functional units, not isolated chunks.",
+    "族-compound neologisms (月光族, 啃老族, 志愿者…族) are a productive pattern in contemporary Chinese media and op-ed writing. They efficiently label social phenomena and signal cultural literacy. When writing about social or economic trends, one well-placed 族 compound is worth several explanatory sentences.",
+    "For trade-fair and B2B writing, master the supply-chain cluster as a set: 供需, 品牌, 洽谈, 展位, 报价单, 订购, 推销, 合作, 供应商, 参展商. These terms co-occur in Chinese business correspondence and should be command vocabulary — not just recognition vocabulary — so you can generate sentences without pausing to search.",
+    "In enterprise introductions, Chinese writers reliably address five dimensions: scale (规模, 产销量), ownership type (私营/国家/合资/乡镇), competitive position (市场占有率, 一流品牌), modernization level (自动化, 现代化), and growth trajectory (拓展, 一体化). Using this five-point framework when writing or speaking about a company produces output that sounds native and authoritative.",
+    "Hedge hearsay vs. data-backed claims explicitly: 据说 (hearsay/unverified) vs. 据统计/根据数据显示 (statistics-backed). Chinese business and academic writing distinguishes these clearly. Using 据说 for facts you could cite a statistic for reads as weak; using 据统计 for anecdote reads as overclaiming. Match the hedge to the evidence type.",
+    "The 再…也… concessive structure ('no matter how X, still Y') is the standard move for anticipating objections in formal writing: 价格再高，质量也要保证；路再难走，也要坚持到底. It maps onto English 'even if…still' and is required in any persuasive or argumentative register.",
+    "反而 is the Chinese writer's tool for counter-intuitive analysis. After stating an expected outcome, use 反而 to introduce the surprising or ironic reality: 竞争加剧，利润率反而提高了. This signals sophisticated analytical reasoning rather than simple narration — use it whenever you want to show that reality is more complex than the surface suggests."
+  ]
+}

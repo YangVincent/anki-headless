@@ -18,5 +18,22 @@ june_hanly.json
 # Collection backups (large .bak files)
 backups/
 
+# Large binary corpora (textbooks, graded readers, audio) — keep local only
+freq_data/textbooks/
+freq_data/books/
+
 # Misc
 out.tmp
+
+# Generated corpus intermediates — large & cheap to regenerate, keep local
+freq_data/incoming/
+freq_data/ocr/
+freq_data/chunks/
+freq_data/clean/
+freq_data/_*.js
+freq_data/_*.txt
+# (freq_data/banks/ and freq_data/lessons/ are kept: expensive subagent output)
+
+# More secrets / local config
+.env
+.bot_config_*.json

@@ -1,0 +1,458 @@
+{
+  "model_essays": [
+    {
+      "title": "对牛弹琴",
+      "genre": "成语典故 / 寓言故事 (idiom origin story — pastoral fable)",
+      "text": "【词义】这个成语的意思是指对着牛弹奏琴曲。\n【用法】比喻说话不看对象，对不懂道理的人讲道理，对外行人说内行话。\n【出处】这则成语出自南朝僧《弘明集》:"昔公明仪为牛弹清角之操，伏食如故。非牛不闻，不合其耳也。"\n【典故】古代有一位著名的音乐家叫公明仪，他对音乐有很高的造诣，精通各种乐器，尤其弹得一手好琴。优美的琴声常常使人如临其境，余音绕梁三日，不绝于耳。一个春天的午后，晴空万里，风和日丽。公明仪在郊外散步，看见在一片绿油油的草地上有一头牛正在低头吃草。这清静怡人的氛围激发了他创作的灵感，他决定要为牛弹奏一曲。他首先弹奏了一曲高深的"清角之操"，尽管他弹得非常认真、动情，琴声也非常富有感染力，可是那头牛却依然只顾着自己埋头吃草，根本不理会这悠扬美妙的琴声和正在弹琴的公明仪。公明仪看到牛对此置若罔闻，非常生气，认为牛太不懂事了。但是当他静静地观察思考后，他才明白并不是那头牛没有听见他的琴声，而是因为牛的欣赏水平有限，实在听不懂曲调高雅的"清角之操"。明白了这一点，公明仪重新弹了一曲非常通俗的乐曲。那头牛听到这如同牛蝇、小牛叫声般的琴声后，停止了吃草，竖起耳朵，好像在很认真地听着。公明仪看到后非常高兴。",
+      "summary": "春秋音乐家公明仪为一头吃草的牛弹奏高雅的"清角之操"，牛毫无反应；公明仪反思后改弹模仿牛蝇叫声的通俗曲调，牛才抬头倾听。寓意：说话办事要看对象，对牛弹琴是徒劳无功的。",
+      "why_study": "这则故事展示了中文描写人物性格和场景的经典手法：先铺垫（风景与人物才华），再叙事（失败的尝试），再反思（他才明白…不是…而是…），最后收束。结构完整，景物描写（晴空万里，风和日丽，绿油油的草地）和心理描写（非常生气→静静地观察思考→非常高兴）交织，是练习叙事节奏的上佳范本。",
+      "key_devices": [
+        "先扬后抑：先极力渲染琴声之美（余音绕梁，如临其境），再写牛的无动于衷，形成落差",
+        "转折对比：尽管…却依然…根本不…（让步-对比句式）",
+        "心理-行动反转：并不是…而是…（否定前提，给出真正原因）",
+        "景物烘托：晴空万里、风和日丽为后文创作灵感铺垫",
+        "积累式形容词：悠扬美妙、富有感染力、曲调高雅（多层叠加修饰）"
+      ]
+    },
+    {
+      "title": "滥竽充数",
+      "genre": "成语典故 / 讽刺寓言 (satirical fable with political setting)",
+      "text": "【词义】滥：混杂，失实，引申为蒙混之意。竽：古代一种簧管乐器。这则成语的意思是指不会吹竽的人混杂在吹竽的乐队里充数。\n【用法】形容没有真才实学的人混在行家中间凑数或是以次充好，有时也用作自谦之辞。\n【出处】这则成语出自《韩非子·内储说上》:"齐宣王使人吹竽，必三百人。南郭处士请为王吹竽，宣王说之，廪食以数百人。宣王死，湣王立，好一一听之，处士逃。"\n【典故】战国时期，齐宣王非常喜欢听人吹竽，便派人四处搜罗能吹善奏的乐工，组织了一支三百人的吹竽乐队。当时有一个游手好闲、不学无术的浪荡子弟，名叫南郭。他听说了齐宣王的这种嗜好，就设法求见宣王，向他吹嘘自己吹竽技艺高超，混进了吹竽的乐师班里。而实际上，南郭先生根本不会吹竽。每当乐队为齐宣王演奏的时候，他就模仿其他乐工的样子，摇头晃脑，装得惟妙惟肖。由于是几百人的合奏，齐宣王根本听不出他的破绽。南郭先生就这样混了好几年，心安理得地领受优厚的赏赐。齐宣王死后，齐湣王即位。湣王同样爱听吹竽。不同的是，他不喜欢听合奏，而是要求乐师们一个个地在他面前独奏。南郭先生听到这个消息，吓得魂不附体，知道自己犯了欺君之罪，一旦露馅，别说饭碗，就连脑袋都保不住了。所以，趁湣王还没有叫他演奏时，就赶紧溜之大吉了。",
+      "summary": "南郭先生靠假装吹竽混入齐宣王的三百人乐队多年，领取赏赐。齐湣王继位后改听独奏，南郭先生因无法露馅仓皇出逃。讽刺没有真才实学者靠蒙混充数、迟早原形毕露。",
+      "why_study": "这则故事是讽刺性叙事的经典：情节设计精巧（以合奏掩盖缺陷→独奏要求揭穿一切），人物刻画生动（南郭的自我吹嘘、惟妙惟肖的表演、最终魂不附体），结局在读者意料之中但仍有戏剧张力。适合学习如何用叙事来支撑论点（即：真才实学终将接受检验）。",
+      "key_devices": [
+        "情节逻辑的内在必然性：制度设计（合奏→独奏）决定命运，不靠外部揭发",
+        "人物行为刻画：摇头晃脑，装得惟妙惟肖（动作描写取代直接评价）",
+        "对比结构：齐宣王偏好与齐湣王偏好的对比驱动情节转折",
+        "成语密度高：游手好闲、不学无术、心安理得、魂不附体、溜之大吉",
+        "隐含讽刺：不直言批评，通过情节本身揭示道理"
+      ]
+    },
+    {
+      "title": "风声鹤唳",
+      "genre": "成语典故 / 历史叙事 (historical military narrative — 淝水之战)",
+      "text": "【词义】唳：鸣叫。成语的意思是指把风的响声和鹤鸣声当成敌人追来的声音。\n【用法】常与"草木皆兵"连用，形容人在非常恐慌的时候，稍有一点风吹草动，就十分紧张害怕。\n【出处】这则成语出自《晋书·谢玄传》:"坚众奔溃，余众弃甲销遁，闻风声鹤唳，皆以为三师已至，草行露宿，重以饥冻，死者十七八。"\n【典故】公元383年，前秦苻坚统一北方后，强征北方各族人民，组成八十七万大军南下，想一举灭掉东晋。东晋派谢玄等率兵八万迎战苻坚。苻坚自以为胜利在望，便派朱序去劝晋军投降。但朱序却将秦军的细实告知晋军。晋军将领谢玄根据朱序所报部署，突袭秦军前哨阵地，歼灭秦军万余人，与秦军对峙于淝水。谢玄要求秦军稍退，让晋军渡过淝水进行决战。苻坚以为可以乘晋军半渡时进行偷袭，便一口应允。谁知秦军将士皆是强征得来的乌合之众，人心浮动，无心应战。东晋军队乘胜追击，大败秦军。苻坚在逃跑途中，听到风声与鹤鸣声，以为是晋军追来，非常害怕。在这场战争中，晋军以少胜多，东晋得以偏安于南方，从此形成南北对峙的局面。",
+      "summary": "公元383年淝水之战：苻坚八十七万大军南侵，却因内奸朱序泄密、秦军为乌合之众，被东晋谢玄以八万兵大败。苻坚仓皇逃跑时，连风声鹤鸣都以为是追兵。此战奠定南北对峙格局。",
+      "why_study": "这则故事是历史叙事（史笔）的典范：交代背景（兵力悬殊、战略意图）→关键转折（内奸告密）→战术分析（乘半渡偷袭）→心理崩溃（乌合之众，人心浮动）→结果与影响（偏安南方，南北对峙）。信息密度高，逻辑清晰，适合学习如何用简洁语言叙述复杂事件。",
+      "key_devices": [
+        "因果链条清晰：强征→乌合之众→人心浮动→溃败→恐慌，每一步有据可依",
+        "以少胜多的叙事结构：先写强大一方的自信（胜利在望），再写其致命弱点",
+        "关键词的历史分量：一举灭掉、乘胜追击、偏安于南方、南北对峙",
+        "数字对比修辞：八十七万 vs 八万（悬殊比例强化戏剧性）",
+        "成语活用：乌合之众、人心浮动、以少胜多均出现在叙事语境中"
+      ]
+    },
+    {
+      "title": "黄粱一梦",
+      "genre": "成语典故 / 文学叙事 (literary narrative — Tang chuanqi style)",
+      "text": "【词义】黄粱：小米。成语的意思是指小米饭还未煮熟，一场好梦已经过去。\n【用法】比喻虚幻不实的事和欲望的破灭，就像做了一个梦一样。\n【出处】这则成语出自唐代沈既济《枕中记》:"卢生于邯郸逆旅遇道者吕翁，生自叹穷困，翁探囊中枕授曰：'枕此，当令汝荣适如意。'时主人蒸黄粱，生梦入枕中……及醒，黄粱尚未熟。"\n【典故】从前有一位姓卢的穷书生，有一天他在邯郸一家旅馆里遇到了道士吕翁，卢生向这位道士大叹自己一生是如何穷困潦倒。吕翁听后，便拿出一个枕头说："你把它枕在头下，便可以一切如愿了。"这时，店里正在煮黄粱饭，而卢生由于一路旅途艰辛，非常疲惫，便糊里糊涂地倒在吕翁给他的枕头上睡着了。没多久，卢生便进入了梦乡。他梦见自己娶了一位年轻漂亮、善良温柔的崔姓女子为妻。崔氏是富家千金，但她贤淑能干，还帮助卢生顺利地踏上了仕途，并为他生了几个子女。后来，他的儿女们一个个长大了，每个人都生活得舒适优裕，而卢生也步步高升，一直做到宰相的位置。又过了几年，他又有了孙子、外孙，便闲居在家当起了老太爷。他舒舒服服地活到了八十多岁，才安然死去。当卢生从梦中醒来时，嘴边还露着一丝幸福的笑容。他睁开双眼一看，发现自己仍然住在旅店的小房间中，刚才的荣华富贵只不过是一场梦而已。店主人煮的黄粱米饭，还没有煮熟。于是，"黄粱一梦"，便由此而来。",
+      "summary": "穷书生卢生在邯郸旅馆得到道士吕翁的神枕，入睡后梦见娶妻、入仕、位至宰相、儿孙满堂、八十余岁安然辞世，醒来却发现一切只是黄粱饭尚未煮熟的片刻之梦。",
+      "why_study": "这则唐传奇故事展示了压缩叙事的技巧：一整个人生（婚姻、仕途、子孙、暮年、死亡）被浓缩在几句话里，通过递进式积累（娶妻→入仕→升宰相→儿女长大→孙子外孙→闲居→安然死去）造成时间感的加速，最后与"黄粱尚未熟"的现实形成极度的落差。此技法（梦境/回忆中的时间压缩）可用于写作回忆类散文或人物传记。",
+      "key_devices": [
+        "时间压缩与展开：梦境中几十年被三四句话呈现，醒后的现实只有一句，形成时间感悖论",
+        "幸福积累的叙事逻辑：人生成就逐步叠加（妻→仕→宰相→子孙→暮年），读者被带入后才被打破",
+        "结尾的平静留白：嘴边还露着一丝幸福的笑容 — 细节写真，不需评议",
+        "框架叙事：现实（煮饭）→梦境→回到现实（饭还没熟），以客观时间对照主观时间",
+        "穷困潦倒、步步高升、荣华富贵 — 典型四字格成语构成叙事骨架"
+      ]
+    },
+    {
+      "title": "缘木求鱼",
+      "genre": "成语典故 / 政治说理对话 (Mencian political philosophy dialogue)",
+      "text": "【词义】缘：沿着。这则成语是指爬到树上去捉鱼。\n【用法】比喻行动和目的相反，终无所获。\n【出处】这则成语出自《孟子·梁惠王上》:"以若所为，求若所欲，犹缘木而求鱼也。"\n【典故】战国时期，七雄纷争，战乱频繁。孟子云游列国，推行仁政，最后被齐宣王拜为客卿。有一回，齐宣王和孟子闲聊。孟子问道："大王您让将士冒死攻打他国，难道打败了别的国家，你才感到高兴吗？"齐宣王回答说，他这样做只是为了满足自己最大的欲望。孟子又追问什么才是齐宣王最大的欲望，是因为不够吃，不够穿，还是因为宫中的珍宝太差，音乐不动听？齐宣王说都不是。孟子说："哦，那么我明白了。大王的最大欲望是征服天下，称雄于诸侯。可是，如果用你的这种办法去满足你的欲望，就好像爬到树上去抓鱼一样，肯定会徒劳无功的。"齐宣王惊问道："事情真有这么严重吗？"孟子说："恐怕比这还要严重。爬到树上去捉鱼，顶多就是抓不到鱼，还不至于有什么祸害。如果想用武力来满足自己称霸天下的欲望，不但达到不到目的，相反还会招来祸患。"说完，孟子又举例说明弱国不能与强国为敌，小国不能与大国为敌，齐国不能与天下为敌的道理，要宣王实行仁政。宣王最终听从了孟子的主张。",
+      "summary": "孟子游说齐宣王：通过逐步追问揭示宣王真正欲望是称霸天下，再以"缘木求鱼"为喻指出以武力称霸适得其反，进而以弱不敌强的逻辑劝导宣王推行仁政，最终说服宣王。",
+      "why_study": "孟子的说理技法是中文议论的经典模型：先以追问引导对方承认真实意图（苏格拉底式），再用一个鲜明的生活比喻（缘木求鱼）建立直觉上的荒谬感，接着递进论证（武力称霸→不但达不到目的，相反还会招来祸患），最后归结到正面建议（仁政）。这个"问→比喻→论→结论"的四步说服结构在现代辩论、谈判、商务写作中仍然高效。",
+      "key_devices": [
+        "苏格拉底式追问：连续排除（不是吃穿，不是珍宝音乐）直到对方承认真实欲望",
+        "比喻先行：缘木求鱼的比喻在对方还未反驳之前建立荒谬感",
+        "递进升格：顶多…不至于…→不但…相反还会…（程度从轻到重）",
+        "排比+否定：弱国不能与强国为敌，小国不能与大国为敌，齐国不能与天下为敌",
+        "说服收尾有正面出路：不只批评，同时给出替代方案（仁政）"
+      ]
+    },
+    {
+      "title": "自相矛盾",
+      "genre": "成语典故 / 哲理寓言 (philosophical marketplace fable — 韩非子)",
+      "text": "【词义】矛：古代一种长柄的装有金属枪头的武器，用来刺杀敌人。盾：古代用来保护自己、抵挡敌人刺杀的武器。成语的意思是指用自己的矛刺自己的盾。\n【用法】比喻自己的言语、行为发生冲突，不能自圆其说。\n【出处】这则成语出自《韩非子·难势》:"客有鬻矛与木盾者，誉其木盾之坚：'物莫能陷也。'俄而又誉其矛曰：'吾矛之利，物无不陷也。'人应之曰：'以子之矛，陷子之盾，何如？'其人弗能应也。"\n【典故】很久很久以前，楚国有一个卖兵器的人，到市场上去卖矛和盾。他举着盾大声说："我的盾是世界上最好的盾，无论怎样锋利的矛也刺不穿它！"围观的人都很好奇，这是用什么做成的盾啊？这时，卖兵器的人又拿起矛，大声说道："我的矛，是世界上最尖锐的矛，任何坚固的东西都能刺穿！"他一边大喊着介绍矛的好处，一边挥舞着盾，引来了更多的人围观。他一看，更高兴了，说："快来看，快来买，全世界最好的矛和全世界最好的盾呀！"围观的人群中有一个人拿起一支矛，又拿起一面盾，问他："你这矛是最尖锐的？"卖兵器的点点头。"这盾也是最坚固的？"他又点点头。"那用你的矛刺你的盾呢？"卖兵器的人无言以对，围观的众人捧腹大笑。",
+      "summary": "楚国商人在市场上同时吹嘘自己的矛"任何东西都能刺穿"和自己的盾"任何矛都刺不穿"，被人一问"用你的矛刺你的盾如何"便哑口无言。讽刺言语逻辑矛盾、不能自圆其说。",
+      "why_study": "这则故事在叙事技法上极为精炼：通过连续的直接引语（吹嘘→追问→点头→追问→点头→最终一击），节奏逐步加速，读者的期待感也随之累积，直至沉默的结局比任何解释都有力。这种"让情节本身回答问题"的写法，以及用对话构建逻辑陷阱的技巧，在论证性写作（揭示矛盾）中极有参考价值。",
+      "key_devices": [
+        "用直接引语堆砌矛盾：两个绝对化陈述（最好/任何都能）并列呈现，逻辑破绽一目了然",
+        "简短问答节奏：一问一点头，二问一点头，第三问→沉默，节奏压缩制造高潮",
+        "围观者作为放大镜：捧腹大笑是集体评价，无需叙述者评论",
+        "古文引语（出处）的对应：此处古文与白话故事形成互证，展示汉语文言-白话双轨写作",
+        "无言以对：以无声结尾比以辩解结尾更有力"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "不是…而是…",
+      "explanation": "否定原因/认知，给出真正原因。比简单否定更有说明力，常用于纠正误解或深化分析。",
+      "examples": [
+        "并不是那头牛没有听见他的琴声，而是因为牛的欣赏水平有限，实在听不懂曲调高雅的"清角之操"。",
+        "其实叶公并不是真的爱龙，只不过是喜欢那种似龙非龙的东西。"
+      ]
+    },
+    {
+      "pattern": "尽管…可是/却…依然…",
+      "explanation": "让步-转折结构，强调"即使前提条件满足，结果仍然不变"。用于强调顽固性、对比期望与现实。",
+      "examples": [
+        "尽管他弹得非常认真、动情，琴声也非常富有感染力，可是那头牛却依然只顾着自己埋头吃草。",
+        "尽管用了"珍珠粉"，寿量的病也没治好。"
+      ]
+    },
+    {
+      "pattern": "不但…反而/相反还…",
+      "explanation": "不但没有达到预期，反而产生相反结果。常用于讽刺或论证某策略的适得其反。",
+      "examples": [
+        "弃疾不但没有去管理蔡国，反而回国杀死了楚灵王的两个儿子。",
+        "如果想用武力来满足自己称霸天下的欲望，不但达到不到目的，相反还会招来祸患。"
+      ]
+    },
+    {
+      "pattern": "以为…谁知/没想到…",
+      "explanation": "设置预期（以为），再以"谁知/没想到"打破预期，制造戏剧转折。是叙事文中常见的节奏工具。",
+      "examples": [
+        "苻坚以为可以乘晋军半渡时进行偷袭，便一口应允。谁知秦军将士皆是强征得来的乌合之众，人心浮动，无心应战。",
+        "没想到这个楚国人对此毫不介意，他从行李中掏出一把小刀，在船舷上刻了一个记号。"
+      ]
+    },
+    {
+      "pattern": "这才明白/这才知道",
+      "explanation": "强调"延迟悟道"：经过某一契机之后才明白之前所不懂的道理。常用于叙事高潮之后的感悟句。",
+      "examples": [
+        "但是当他静静地观察思考后，他才明白并不是那头牛没有听见他的琴声，而是因为…",
+        "船上的人这才恍然大悟，纷纷大笑起来。"
+      ]
+    },
+    {
+      "pattern": "恍然大悟",
+      "explanation": "表示突然领悟，常接在行动失败或局面揭晓之后。可单独成句或与"才"连用（这才恍然大悟）。",
+      "examples": [
+        "船上的人这才恍然大悟，纷纷大笑起来，说："船一直在行进，你的宝剑沉入水底就不会再动了……"",
+        "（普遍用法）听了他的解释，我才恍然大悟，原来问题出在这里。"
+      ]
+    },
+    {
+      "pattern": "以X为喻 / 好比…犹如…",
+      "explanation": "古典汉语和现代书面语中以比喻阐述道理的固定框架，用于说理、劝谏、商务写作中以直觉化抽象概念。",
+      "examples": [
+        "这种骨肉相残的事，好比为了适合鞋子的尺寸，把脚削小；为了适应帽子的大小，把脑袋削尖一样愚蠢。",
+        "如果用你的这种办法去满足你的欲望，就好像爬到树上去抓鱼一样，肯定会徒劳无功的。",
+        "名气好比是地上画的饼，是无法解除饥饿的。"
+      ]
+    },
+    {
+      "pattern": "不但有名，而且…；以臣之见，…",
+      "explanation": "反驳他人意见后提出自己看法的结构，常见于文言议论和正式对话。显示说话人的分寸（承认对方有理→但引出修正）。",
+      "examples": [
+        "陛下您的话很有道理。要选拔真正的人才，不能只看名气。不过，以臣之见，名气也能反映一个人的实际情况。",
+        "有些人不但有名，而且修养高、德行好，这样的人应该要考虑进去。"
+      ]
+    },
+    {
+      "pattern": "由此引申出/演变为…这个成语",
+      "explanation": "解释成语来源的固定文体公式，在解说类文章、文化说明书写中极为常见。",
+      "examples": [
+        "后人由此引申出"临渴掘井"这句成语。",
+        "成语"一窍不通"即由此演变而来。",
+        ""黄粱一梦"，便由此而来。"
+      ]
+    },
+    {
+      "pattern": "以…为中心，反映出…",
+      "explanation": "学术/书评写作中分析文学作品结构与主题的固定句式，适用于文学评论、书面分析。",
+      "examples": [
+        "以策士的游说活动为中心，反映出这一时期各国政治、外交的情况。（《战国策》评介）"
+      ]
+    },
+    {
+      "pattern": "不知…究竟是什么/有什么…",
+      "explanation": "强调主体对某事物的完全无知，构建悬念或对比（未知→逐渐了解）。",
+      "examples": [
+        "山里的老虎发现了这头毛驴，看它很高大，不知道有什么本领，所以不敢靠近。",
+        "大家对他的所作所为都很不理解，不知道他这样做到底是干什么。"
+      ]
+    },
+    {
+      "pattern": "越…越…，结果…",
+      "explanation": "渐进强化句式：描述某状态/行为不断加深，最终导致某结果。常用于描绘心理变化或恶性循环。",
+      "examples": [
+        "于是他就天天琢磨这个问题，越想越害怕，越想越觉得危险。结果日子长了，他觉也睡不着，饭也吃不下。"
+      ]
+    },
+    {
+      "pattern": "无论…也/仍然…",
+      "explanation": "表示"不管条件如何变化，结果不变"，强调固执、顽固或某状态的恒定性。",
+      "examples": [
+        "可无论别人怎么劝说，他也不相信。",
+        "无论怎样锋利的矛也刺不穿它！"
+      ]
+    },
+    {
+      "pattern": "一旦…就…；趁…还没有…就赶紧…",
+      "explanation": "条件时间紧迫句：前者强调某触发条件下的立即后果，后者强调在某条件成立前赶紧行动。两者都体现时机意识。",
+      "examples": [
+        "一旦露馅，别说饭碗，就连脑袋都保不住了。",
+        "趁湣王还没有叫他演奏时，就赶紧溜之大吉了。"
+      ]
+    },
+    {
+      "pattern": "以…自喻/自以为…",
+      "explanation": "表示某人以某身份或某种成就自我定位，常带讽刺意味（与实际不符时）。",
+      "examples": [
+        "中国人自古对龙很崇敬，古时皇帝皆以龙自喻。",
+        "苻坚自以为胜利在望，便派朱序去劝晋军投降。"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "余音绕梁，不绝于耳",
+      "pinyin": "yú yīn rào liáng, bù jué yú ěr",
+      "meaning": "The lingering sound wraps around the beams; it never leaves the ears. Describes music (or speech) so beautiful or impactful that it echoes in the mind long afterward.",
+      "register": "literary / elevated praise (适用于对演讲、音乐、文字的高度赞美)"
+    },
+    {
+      "zh": "如临其境",
+      "pinyin": "rú lín qí jìng",
+      "meaning": "As if personally present at the scene; vividly immersive.",
+      "register": "literary / descriptive praise (常用于描写写作、音乐、表演的代入感)"
+    },
+    {
+      "zh": "置若罔闻",
+      "pinyin": "zhì ruò wǎng wén",
+      "meaning": "To treat as if unheard; to turn a deaf ear to; to ignore completely.",
+      "register": "formal / literary (书面语，可用于批评性商务/政治写作)"
+    },
+    {
+      "zh": "适得其反",
+      "pinyin": "shì dé qí fǎn",
+      "meaning": "To get exactly the opposite of what was intended; to backfire.",
+      "register": "formal/neutral (通用，适合分析策略失败)"
+    },
+    {
+      "zh": "弄巧成拙",
+      "pinyin": "nòng qiǎo chéng zhuō",
+      "meaning": "To try to be clever and end up making things worse; to outsmart oneself.",
+      "register": "colloquial-formal (可口语可书面)"
+    },
+    {
+      "zh": "惟妙惟肖",
+      "pinyin": "wéi miào wéi xiào",
+      "meaning": "Remarkably true to life; uncannily accurate imitation.",
+      "register": "formal/literary (常用于描述表演、模仿、艺术作品)"
+    },
+    {
+      "zh": "心安理得",
+      "pinyin": "xīn ān lǐ dé",
+      "meaning": "To feel perfectly at ease (often with a sense of entitlement or self-justification); conscience clear.",
+      "register": "neutral-literary (可带正面或讽刺色彩，视语境)"
+    },
+    {
+      "zh": "乌合之众",
+      "pinyin": "wū hé zhī zhòng",
+      "meaning": "A disorganized rabble; a motley crowd without cohesion or discipline.",
+      "register": "formal / slightly literary (书面语，批评性用法)"
+    },
+    {
+      "zh": "人心浮动",
+      "pinyin": "rén xīn fú dòng",
+      "meaning": "Public sentiment is unsettled/restless; morale is wavering.",
+      "register": "formal (适用于政治、组织管理、历史叙述语境)"
+    },
+    {
+      "zh": "以少胜多",
+      "pinyin": "yǐ shǎo shèng duō",
+      "meaning": "To defeat a superior force with inferior numbers; to win against the odds.",
+      "register": "formal (军事、商业竞争、体育叙述均适用)"
+    },
+    {
+      "zh": "不自量力",
+      "pinyin": "bù zì liàng lì",
+      "meaning": "To overestimate one's own strength or ability; to be oblivious to one's limitations.",
+      "register": "formal-colloquial (批评性，口语书面均可)"
+    },
+    {
+      "zh": "喧宾夺主",
+      "pinyin": "xuān bīn duó zhǔ",
+      "meaning": "The guest upstages the host; the secondary element eclipses the primary. Said when something peripheral overwhelms what should be central.",
+      "register": "literary / formal (书面语，评论设计、商务策略均可用)"
+    },
+    {
+      "zh": "洋洋自得",
+      "pinyin": "yáng yáng zì dé",
+      "meaning": "Smugly self-satisfied; complacently pleased with oneself.",
+      "register": "literary / slightly negative (常带讽刺意味)"
+    },
+    {
+      "zh": "苦口婆心",
+      "pinyin": "kǔ kǒu pó xīn",
+      "meaning": "To advise patiently and earnestly (like a kindly elder); to plead with sincerity and persistence.",
+      "register": "literary / warm (带正面情感，描述真诚劝告)"
+    },
+    {
+      "zh": "舍本逐末",
+      "pinyin": "shě běn zhú mò",
+      "meaning": "To neglect fundamentals and pursue trivialities; to mistake the incidental for the essential.",
+      "register": "formal / literary (商务、战略、文化批评中常用)"
+    },
+    {
+      "zh": "穷困潦倒",
+      "pinyin": "qióng kùn liáo dǎo",
+      "meaning": "In dire poverty and destitution; down and out.",
+      "register": "literary (书面语，叙述人物落魄境遇)"
+    },
+    {
+      "zh": "不费吹灰之力",
+      "pinyin": "bù fèi chuī huī zhī lì",
+      "meaning": "Without expending the slightest effort; effortlessly (lit. without even the effort of blowing off ash).",
+      "register": "colloquial-literary (口语书面均自然)"
+    },
+    {
+      "zh": "目瞪口呆",
+      "pinyin": "mù dèng kǒu dāi",
+      "meaning": "Stupefied; dumbfounded; struck speechless with amazement.",
+      "register": "colloquial-literary (形象生动，口语书面均可)"
+    },
+    {
+      "zh": "哑口无言",
+      "pinyin": "yǎ kǒu wú yán",
+      "meaning": "Struck dumb; rendered speechless (in the face of an unanswerable argument).",
+      "register": "formal-literary (论辩语境中常用)"
+    },
+    {
+      "zh": "恍然大悟",
+      "pinyin": "huǎng rán dà wù",
+      "meaning": "To suddenly see the light; to have a moment of revelation.",
+      "register": "neutral (口语书面均自然，叙事中极常用)"
+    },
+    {
+      "zh": "游手好闲，不学无术",
+      "pinyin": "yóu shǒu hào xián, bù xué wú shù",
+      "meaning": "Idle and lazy (游手好闲); having neither knowledge nor skill (不学无术). Often paired to describe a worthless ne'er-do-well.",
+      "register": "literary / critical (带强烈批评色彩的书面成语对)"
+    },
+    {
+      "zh": "争先恐后",
+      "pinyin": "zhēng xiān kǒng hòu",
+      "meaning": "To scramble to be first; to race each other (each fearing to be last).",
+      "register": "neutral-vivid (生动描写群体行为，口语书面均可)"
+    },
+    {
+      "zh": "步步高升",
+      "pinyin": "bù bù gāo shēng",
+      "meaning": "To advance step by step; to rise steadily in rank or status.",
+      "register": "neutral (通用祝福语或叙事用语)"
+    },
+    {
+      "zh": "自言自语",
+      "pinyin": "zì yán zì yǔ",
+      "meaning": "To talk to oneself; to mutter to oneself.",
+      "register": "neutral / descriptive (叙事中描写人物心理外化的常用词)"
+    },
+    {
+      "zh": "徒劳无功",
+      "pinyin": "tú láo wú gōng",
+      "meaning": "To toil in vain; fruitless effort; labor without result.",
+      "register": "formal-literary (论证某策略无效时的常用语)"
+    },
+    {
+      "zh": "以次充好 / 以假乱真",
+      "pinyin": "yǐ cì chōng hǎo / yǐ jiǎ luàn zhēn",
+      "meaning": "To pass off inferior goods as premium (以次充好); to use fake to confuse the genuine (以假乱真). Both used in commercial and figurative contexts.",
+      "register": "formal (商务、批评语境，可用于反假冒、质量论述)"
+    },
+    {
+      "zh": "垂头丧气",
+      "pinyin": "chuí tóu sàng qì",
+      "meaning": "Crestfallen; dejected; with drooping head and downcast spirits.",
+      "register": "colloquial-literary (生动形象，口语书面均可)"
+    },
+    {
+      "zh": "魂不附体 / 魂飞魄散",
+      "pinyin": "hún bù fù tǐ / hún fēi pò sàn",
+      "meaning": "Scared out of one's wits; absolutely terrified (lit. the soul has left the body).",
+      "register": "literary / vivid (书面夸张用法，描写极度恐惧)"
+    },
+    {
+      "zh": "标志着…的成熟",
+      "pinyin": "biāo zhì zhe … de chéng shú",
+      "meaning": "Marks the maturity/coming-of-age of (a genre, institution, technology). Formal academic/critical phrasing.",
+      "register": "academic / formal written (文学批评、商业报告均适用)"
+    },
+    {
+      "zh": "超出了…的范畴，成为…",
+      "pinyin": "chāo chū le … de fàn chóu, chéng wéi …",
+      "meaning": "Transcended the domain/scope of X and became Y. Used to mark a qualitative shift or milestone.",
+      "register": "academic / formal written (分析演变、创新时常用)"
+    },
+    {
+      "zh": "有意识的创作",
+      "pinyin": "yǒu yì shí de chuàng zuò",
+      "meaning": "Intentional/conscious literary creation (as opposed to recording or compiling). Marks the emergence of authorial agency.",
+      "register": "academic / literary criticism"
+    },
+    {
+      "zh": "系统地阐明",
+      "pinyin": "xì tǒng de chǎn míng",
+      "meaning": "To systematically expound/articulate (a theory, policy, or principle).",
+      "register": "formal written (学术、商务、政策文件均适用)"
+    },
+    {
+      "zh": "知音",
+      "pinyin": "zhī yīn",
+      "meaning": "A kindred spirit; a true confidant who understands you deeply (lit. one who hears/knows your music). Derived from the Boya-Ziqi story.",
+      "register": "literary / cultural (可用于书信、散文、演讲中表达深厚知己关系)"
+    },
+    {
+      "zh": "实行仁政",
+      "pinyin": "shí xíng rén zhèng",
+      "meaning": "To implement benevolent governance; to rule with humaneness. A Confucian/Mencian political term with broad applicability.",
+      "register": "formal / classical-political (在现代批评、政策讨论中仍有引用价值)"
+    },
+    {
+      "zh": "名副其实 / 有名无实",
+      "pinyin": "míng fù qí shí / yǒu míng wú shí",
+      "meaning": "名副其实: The name matches the reality; genuine. 有名无实: Famous but without substance; all name, no reality. The two are natural antonyms.",
+      "register": "formal (商务品牌、人才评价中均常用)"
+    },
+    {
+      "zh": "不厌其烦",
+      "pinyin": "bù yàn qí fán",
+      "meaning": "Tirelessly; patiently without getting bored or irritated; to do something repeatedly without complaint.",
+      "register": "formal-neutral (可形容服务、说明、辅导等语境)"
+    },
+    {
+      "zh": "胡作非为",
+      "pinyin": "hú zuò fēi wéi",
+      "meaning": "To act recklessly and lawlessly; to behave outrageously without restraint.",
+      "register": "formal / critical (批评行为不端，正式书面语)"
+    },
+    {
+      "zh": "偏安于南方",
+      "pinyin": "piān ān yú nán fāng",
+      "meaning": "To maintain a precarious survival by retreating to a corner (lit. to be content ruling only the south). Implies partial legitimacy amid inability to reclaim full territory.",
+      "register": "literary / historical (可引申用于商业中形容"偏安一隅"的保守策略)"
+    },
+    {
+      "zh": "风吹草动",
+      "pinyin": "fēng chuī cǎo dòng",
+      "meaning": "The slightest sign of trouble; the smallest movement or hint of change (lit. wind blowing and grass rustling).",
+      "register": "literary / idiomatic (常与"草木皆兵""风声鹤唳"连用，可用于安全/风险语境)"
+    }
+  ],
+  "essay_takeaways": [
+    "用比喻锚定论点，再推理延伸：孟子的"缘木求鱼"、韩非子的"画饼充饥"都先抛出一个让听众直觉认同的荒谬比喻，再据此推理。写作中遇到需要说服他人的论点，先找一个形象比喻，再展开分析，比直接陈述观点更有穿透力。",
+    "叙事结构：铺垫（背景+人物才能/期望）→行动失败→反思/转折→结局。这是本书所有典故的基本叙事弧，也是议论性叙事（通过故事讲道理）的通用框架。专栏文章、案例分析、汇报开头均可借鉴。",
+    "时间压缩技法：黄粱一梦将一个人的一生压缩在几行叙述里，通过积累式事件列举（娶妻→入仕→升官→子孙满堂→安然辞世）快速推进，再以一句话收回现实。写回忆、人物传略或背景介绍时，可用此技法高效呈现时间跨度。",
+    "以沉默结尾：最有力的结尾有时不是解释而是沉默——自相矛盾的"无言以对"、缘木求鱼的"…乃至于有什么祸害"之后宣王的惊问——让情节逻辑自己给出答案，叙述者退场。议论文结尾不必总是总结句，有时留一个开放性的讽刺场景更有余味。",
+    "人物刻画用行为而非标签：南郭先生的"摇头晃脑，装得惟妙惟肖"、楚国人刻舟后"自言自语"的困惑，都是行为细节而非"他很懒/很愚蠢"的直接判断。写人时多用动作和语言，少用形容词评价，读者自然得出结论。",
+    "四字格成语是叙事的加速工具：游手好闲、乌合之众、人心浮动、徒劳无功……每一个四字格都能替代一整句描述。在快节奏叙事段落中，策略性地用成语替代描述句，可以大幅提升文字的密度和节奏感。",
+    "讽刺不需要评论，只需要设计：东施效颦、买椟还珠、画蛇添足都以结果本身完成讽刺，作者几乎不发议论。要写隐含批评的文章（如商务报告中的案例分析），可采用"呈现→让读者自己判断"的策略，比直接批评更具说服力。",
+    "说服结构的四步模板（孟子式）：①追问引导对方承认真实意图/前提；②用鲜明比喻建立荒谬感；③递进论证（从轻后果到重后果）；④给出正面替代方案。这个结构在谈判、提案、劝说场景中高度可复用。",
+    "文体识别与模仿：本书的成语条目是一种固定文体——词义（定义）→用法（语用场合）→出处（文献引用）→典故（叙事）。这种"定义→用法→来源→例证"四段式结构可直接用于撰写词汇手册、术语解释、品牌故事说明，或任何需要兼顾权威性与可读性的解说文本。",
+    "古文引语作为权威背书：每则典故都引用原始文献出处（出自《韩非子》《孟子》《晋书》等），然后用白话重述。这种"引用原文+白话阐释"的双轨结构，在写高质量中文文章时可用于引用经典语句加强论据，随后用现代语言解释其应用。"
+  ]
+}

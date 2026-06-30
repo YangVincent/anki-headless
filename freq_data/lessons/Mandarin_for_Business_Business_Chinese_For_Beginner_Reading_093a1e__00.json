@@ -1,0 +1,214 @@
+{
+  "model_essays": [],
+  "_model_essays_note": "The source file is a beginner business-Chinese reading textbook (New Century Business Chinese, 新世纪商务汉语·初级读本, pub. ~2007) containing short prose passages (~200 characters each) on house-renting, banking, supermarket shopping, entertainment, travel, and internet/economy. All Chinese character text was rendered as random ASCII by the OCR engine — no faithful recovery is possible. No model essays are included rather than fabricating text.",
+  "grammar_patterns": [
+    {
+      "pattern": "有一点 (yǒu yīdiǎn) vs. 一点 (yīdiǎn)",
+      "explanation": "有一点 precedes an adjective to express a slight — often mildly undesirable — degree: 有一点 + adj. 一点 follows an adjective or verb in comparisons or polite requests to indicate a small degree: adj + 一点 (+ 吗/好吗). Key note from this textbook: reduplicated adjectives (如 干干净净) cannot be modified by degree adverbs including 有一点.",
+      "examples": [
+        "这个房间有一点小。— This room is a little small. (mild complaint)",
+        "能不能便宜一点？— Could it be a little cheaper? (polite request)",
+        "这条路比那条近一点。— This road is a bit closer than that one. (comparison)"
+      ]
+    },
+    {
+      "pattern": "比 (bǐ) comparison + differential",
+      "explanation": "A + 比 + B + adj (+ differential): A is more adj than B. The degree of difference (e.g., 多了、一些、得多、100块) follows the adjective. Equality: A 跟 B 一样 + adj. Negative comparison: A + 没有 + B + adj.",
+      "examples": [
+        "北京的房租比上海高一些。— Beijing rents are somewhat higher than Shanghai's.",
+        "坐地铁比打车便宜得多。— Taking the subway is much cheaper than a taxi.",
+        "这家银行的利息跟那家一样高。— This bank's interest rate is as high as that one's."
+      ]
+    },
+    {
+      "pattern": "就 (jiù) — consequence / immediacy / limiting scope",
+      "explanation": "Three key uses: (1) 如果/要是…就: if…then consequence; (2) immediate or early action (speaker evaluates as early or quick — opposite of 才); (3) 'just/only' limiting scope. Context disambiguates. Note: 就 = speaker judges timing as early; 才 = speaker judges timing as late.",
+      "examples": [
+        "如果你需要帮助，就告诉我。— If you need help, just tell me.",
+        "他八点就到了。— He arrived as early as eight o'clock.",
+        "我就想喝杯水。— I just want a glass of water."
+      ]
+    },
+    {
+      "pattern": "才 (cái) — not until / only then / merely",
+      "explanation": "才 indicates an action occurs later than expected or only under a specific condition. With quantities, 才 means 'only' (less than expected). Contrasts with 就 (early) in evaluative meaning. Cannot use 了 directly after 才 with timing sense.",
+      "examples": [
+        "他十点才回来。— He didn't come back until ten o'clock.",
+        "我才有五十块钱。— I only have fifty yuan (less than enough).",
+        "学好汉语才能在中国做生意。— Only by mastering Chinese can you do business in China."
+      ]
+    },
+    {
+      "pattern": "了 (le) — completion and change of state",
+      "explanation": "Verb + 了: marks completed action. Sentence-final 了: marks a change of state or newly relevant situation. Negation of completed action: 没(有) + verb (no 了). 还没(有) + verb = not yet completed.",
+      "examples": [
+        "我已经办完手续了。— I have already completed the procedures.",
+        "他走了。— He's gone now. (change of state)",
+        "我还没存款，等一会儿再去。— I haven't deposited yet; I'll go later."
+      ]
+    },
+    {
+      "pattern": "着 (zhe) — ongoing state / manner of action",
+      "explanation": "Verb + 着: indicates a continuing state or describes the manner in which another action is performed. V着V着 pattern: while continuously doing V, an unexpected result occurs. Contrasts with 在 + V (active ongoing process).",
+      "examples": [
+        "门开着，你进来吧。— The door is open; come on in.",
+        "他笑着跟客户握手。— He shook hands with the client while smiling.",
+        "他想着想着就想出了办法。— As he kept thinking, a solution occurred to him."
+      ]
+    },
+    {
+      "pattern": "因为…所以 / 由于…因此 (yīnwèi…suǒyǐ / yóuyú…yīncǐ) — cause and effect",
+      "explanation": "因为 introduces a cause; 所以 introduces the result. Either connector can stand alone. Formal/written register prefers 由于…因此 or 由于…所以. 因此 alone is very common in business reports and formal expositions.",
+      "examples": [
+        "因为银行今天关门，所以我明天再来。— Because the bank is closed today, I'll come back tomorrow.",
+        "由于经济形势不稳定，公司推迟了投资计划。— Due to economic instability, the company postponed its investment plan.",
+        "利率上升，因此很多企业减少了贷款。— Interest rates rose; therefore many companies reduced borrowing."
+      ]
+    },
+    {
+      "pattern": "除了…以外 (chúle…yǐwài) — besides / except",
+      "explanation": "Two distinct meanings distinguished by the following conjunction: (1) Inclusive — 除了A以外，还/也 + B → besides A, also B (adds to A). (2) Exclusive — 除了A以外，只/都 + B → except for A, only/all B (excludes A). The presence of 还/也 signals inclusive; absence or 只 signals exclusive.",
+      "examples": [
+        "除了银行卡以外，他还带了现金。— Besides his bank card, he also brought cash. (inclusive)",
+        "除了他以外，大家都签了合同。— Except for him, everyone signed the contract. (exclusive)",
+        "除了价格以外，质量也是重要因素。— Besides price, quality is also an important factor."
+      ]
+    },
+    {
+      "pattern": "一…就 (yī…jiù) — as soon as",
+      "explanation": "一 + V1, 就 + V2: the moment V1 happens, V2 immediately follows. Expresses tight temporal succession. Often used with two different subjects. Related: 只要…就 (as long as…then).",
+      "examples": [
+        "他一到公司就开始开会。— As soon as he arrived at the company, the meeting started.",
+        "超市一打折，顾客就特别多。— As soon as the supermarket has a sale, it's packed with customers.",
+        "只要质量好，价格稍高也没关系。— As long as the quality is good, a slightly higher price is fine."
+      ]
+    },
+    {
+      "pattern": "先…再/然后 (xiān…zài/ránhòu) — sequential actions",
+      "explanation": "先 + V1, 再 + V2: complete V1 first, then proceed to V2 (V2 waits for V1). 先…然后 is slightly more narrative in tone. Standard structure for procedural descriptions, instructions, and step-by-step business communications.",
+      "examples": [
+        "请先填写申请表，再交给柜台人员。— Please fill in the application form first, then hand it to the counter staff.",
+        "先确认货物，然后再付款。— First confirm the goods, then make payment.",
+        "先存款，再查一下账户余额。— First make the deposit, then check the account balance."
+      ]
+    },
+    {
+      "pattern": "又…又 (yòu…yòu) — simultaneous qualities",
+      "explanation": "又 + adj1 + 又 + adj2: the subject has both qualities at the same time. The adjectives should be semantically compatible (both positive, both negative, or logically related). More colloquial than 既…又 (formal/written equivalent).",
+      "examples": [
+        "这款产品又实用又耐用。— This product is both practical and durable.",
+        "那家超市又近又便宜。— That supermarket is both close and cheap.",
+        "合同条款又详细又清楚。— The contract terms are both detailed and clear."
+      ]
+    },
+    {
+      "pattern": "越来越 (yuè lái yuè) — progressive change",
+      "explanation": "越来越 + adj/verb: the degree increases progressively over time. Cannot be modified by 更 or 很. Extended pattern: 越…越 (with two clauses) expresses 'the more…the more'.",
+      "examples": [
+        "网上购物越来越方便了。— Online shopping is becoming more and more convenient.",
+        "中国的电子商务越来越发达。— China's e-commerce is becoming increasingly developed.",
+        "价格越高，顾客越少买。— The higher the price, the fewer customers buy."
+      ]
+    },
+    {
+      "pattern": "快…了 / 就要…了 (kuài…le / jiù yào…le) — imminent future",
+      "explanation": "快/快要/就要 + verb/adj + 了: something is about to happen. The sentence-final 了 is essential. 就要 often pairs with a specific time reference; 快/快要 does not require one.",
+      "examples": [
+        "银行快关门了，我们快点！— The bank is about to close; let's hurry!",
+        "合同就要到期了，请及时续签。— The contract is about to expire; please renew in time.",
+        "他快回来了，再等一下吧。— He'll be back soon; wait a moment."
+      ]
+    },
+    {
+      "pattern": "被 (bèi) — passive construction",
+      "explanation": "Subject + 被 + agent + verb + other elements. Agent can be omitted when unknown. In Chinese, 被 sentences typically describe undesirable or unintended events. For neutral processes, active voice is strongly preferred even where English would use passive.",
+      "examples": [
+        "我的信用卡被盗刷了。— My credit card was fraudulently charged.",
+        "货物在运输途中被损坏了。— The goods were damaged during transit.",
+        "原来的合同被取消了。— The original contract was cancelled."
+      ]
+    },
+    {
+      "pattern": "是…的 (shì…de) — emphasis on circumstances of past action",
+      "explanation": "是 + [time/place/manner/agent] + verb + 的: emphasizes when, where, how, or by whom a completed action was done. 是 can be omitted. The object can appear before 的 or after the verb. Used only for completed actions.",
+      "examples": [
+        "这份报告是昨天写的。— This report was written yesterday. (emphasis on time)",
+        "合同是在上海签的。— The contract was signed in Shanghai. (emphasis on place)",
+        "我们是坐高铁去的。— We went by high-speed rail. (emphasis on manner)"
+      ]
+    },
+    {
+      "pattern": "把 (bǎ) — disposal construction",
+      "explanation": "Subject + 把 + definite object + verb + complement/other element: the agent acts upon a known object with a resulting effect. Object must be definite (speaker and listener both know it). A result/complement after the verb is required. Cannot negate with 不 before 把 in most cases.",
+      "examples": [
+        "请把合同发给我们。— Please send us the contract.",
+        "他把钱存进银行了。— He deposited the money into the bank.",
+        "我把账单仔细检查了一遍。— I carefully checked through the bill once."
+      ]
+    }
+  ],
+  "expressions": [
+    {"zh": "根据", "pinyin": "gēnjù", "meaning": "according to / based on (followed by noun phrase)", "register": "formal/business"},
+    {"zh": "按照", "pinyin": "ànzhào", "meaning": "in accordance with / following (rule, agreement, procedure)", "register": "formal/business"},
+    {"zh": "由于", "pinyin": "yóuyú", "meaning": "due to / owing to — formal written substitute for 因为", "register": "written/formal"},
+    {"zh": "因此", "pinyin": "yīncǐ", "meaning": "therefore / as a result — formal substitute for 所以", "register": "written/formal"},
+    {"zh": "以便", "pinyin": "yǐbiàn", "meaning": "so as to / in order to — formal purpose connector following main clause", "register": "written/formal"},
+    {"zh": "同时", "pinyin": "tóngshí", "meaning": "at the same time / simultaneously / meanwhile", "register": "formal/written"},
+    {"zh": "日益", "pinyin": "rìyì", "meaning": "increasingly / day by day (literary/formal — not spoken)", "register": "written/formal"},
+    {"zh": "有效", "pinyin": "yǒuxiào", "meaning": "valid / effective (contracts, methods, measures)", "register": "business/formal"},
+    {"zh": "办理", "pinyin": "bànlǐ", "meaning": "to handle / to transact / to process (banking procedures, formalities)", "register": "business"},
+    {"zh": "合同", "pinyin": "hétóng", "meaning": "contract / agreement", "register": "business"},
+    {"zh": "管理", "pinyin": "guǎnlǐ", "meaning": "management / to manage / to administer", "register": "business"},
+    {"zh": "促进", "pinyin": "cùjìn", "meaning": "to promote / to boost / to advance (used with abstract objects: 发展, 合作, 效率)", "register": "business/formal"},
+    {"zh": "提高", "pinyin": "tígāo", "meaning": "to raise / to improve / to enhance (quality, efficiency, capacity)", "register": "business/formal"},
+    {"zh": "节省", "pinyin": "jiéshěng", "meaning": "to save (money, time, resources); economical", "register": "everyday/business"},
+    {"zh": "尽快", "pinyin": "jǐnkuài", "meaning": "as soon as possible / ASAP (used in requests and deadlines)", "register": "business/formal"},
+    {"zh": "及时", "pinyin": "jíshí", "meaning": "timely / in time / without delay (collocates with 回复, 通知, 处理)", "register": "business/formal"},
+    {"zh": "有关", "pinyin": "yǒuguān", "meaning": "related to / concerning / relevant — 有关方面 = the relevant parties", "register": "formal/business"},
+    {"zh": "贵公司", "pinyin": "guì gōngsī", "meaning": "your esteemed company (honorific address in business letters)", "register": "formal business letter"},
+    {"zh": "本公司", "pinyin": "běn gōngsī", "meaning": "our company (formal first-person company reference in documents)", "register": "formal business"},
+    {"zh": "存款", "pinyin": "cúnkuǎn", "meaning": "to deposit money; savings; bank deposit (noun/verb)", "register": "banking"},
+    {"zh": "取款", "pinyin": "qǔkuǎn", "meaning": "to withdraw money / cash withdrawal", "register": "banking"},
+    {"zh": "汇款", "pinyin": "huìkuǎn", "meaning": "to remit money / remittance / wire transfer", "register": "banking/business"},
+    {"zh": "转账", "pinyin": "zhuǎnzhàng", "meaning": "to transfer money (between accounts or to another party)", "register": "banking"},
+    {"zh": "利息", "pinyin": "lìxi", "meaning": "interest (on deposits or loans)", "register": "banking/financial"},
+    {"zh": "手续费", "pinyin": "shǒuxù fèi", "meaning": "handling fee / service charge / transaction fee", "register": "banking/business"},
+    {"zh": "汇率", "pinyin": "huìlǜ", "meaning": "exchange rate (foreign currency)", "register": "financial/business"},
+    {"zh": "外汇", "pinyin": "wàihuì", "meaning": "foreign exchange / foreign currency", "register": "financial/business"},
+    {"zh": "账户", "pinyin": "zhànghù", "meaning": "account (bank account — more formal than 账号)", "register": "banking"},
+    {"zh": "月底", "pinyin": "yuèdǐ", "meaning": "end of the month — 月底前 = before end of month (deadline language)", "register": "business/everyday"},
+    {"zh": "信用卡", "pinyin": "xìnyòng kǎ", "meaning": "credit card", "register": "banking/everyday"},
+    {"zh": "支票", "pinyin": "zhīpiào", "meaning": "check / cheque (formal commercial payment document)", "register": "banking/formal"},
+    {"zh": "存折", "pinyin": "cúnzhé", "meaning": "bankbook / passbook", "register": "banking"},
+    {"zh": "质量", "pinyin": "zhìliàng", "meaning": "quality (of products, work, service) — 质量保证 = quality guarantee", "register": "business/commercial"},
+    {"zh": "品牌", "pinyin": "pǐnpái", "meaning": "brand — 知名品牌 = well-known brand", "register": "commercial/business"},
+    {"zh": "打折", "pinyin": "dǎzhé", "meaning": "to give/offer a discount — 打八折 = 20% off (Chinese discount fractions are of the original price)", "register": "commercial/everyday"},
+    {"zh": "特价", "pinyin": "tèjià", "meaning": "special price / sale price — 特价商品 = sale item", "register": "commercial"},
+    {"zh": "原价", "pinyin": "yuánjià", "meaning": "original price / regular price (before discount)", "register": "commercial"},
+    {"zh": "商品", "pinyin": "shāngpǐn", "meaning": "goods / merchandise / commodity (more formal than 东西)", "register": "commercial/formal"},
+    {"zh": "保质期", "pinyin": "bǎozhìqī", "meaning": "expiry date / best-before date (on food/products)", "register": "commercial/everyday"},
+    {"zh": "划算", "pinyin": "huásuàn", "meaning": "cost-effective / worthwhile / a good deal (colloquial but very common)", "register": "informal/everyday"},
+    {"zh": "促销", "pinyin": "cùxiāo", "meaning": "sales promotion / promotional campaign", "register": "commercial/business"},
+    {"zh": "性价比", "pinyin": "xìngjià bǐ", "meaning": "price-performance ratio / value for money — 性价比高 = great value", "register": "commercial/business"},
+    {"zh": "房东", "pinyin": "fángdōng", "meaning": "landlord", "register": "everyday"},
+    {"zh": "房租", "pinyin": "fángzū", "meaning": "rent (noun — the amount paid)", "register": "everyday"},
+    {"zh": "租金", "pinyin": "zūjīn", "meaning": "rental fee (slightly more formal than 房租, used in contracts)", "register": "formal/business"},
+    {"zh": "中介", "pinyin": "zhōngjiè", "meaning": "agent / intermediary / agency (real estate, business broker)", "register": "everyday/business"},
+    {"zh": "互联网", "pinyin": "hùliánwǎng", "meaning": "the internet (formal term — 网络 is more colloquial)", "register": "tech/business/formal"},
+    {"zh": "电子商务", "pinyin": "diànzǐ shāngwù", "meaning": "e-commerce / electronic commerce", "register": "tech/business"},
+    {"zh": "工商银行", "pinyin": "Gōngshāng Yínháng", "meaning": "Industrial and Commercial Bank of China (ICBC) — 工行 abbreviated", "register": "proper noun/business"},
+    {"zh": "建设银行", "pinyin": "Jiànshè Yínháng", "meaning": "China Construction Bank (CCB) — 建行 abbreviated", "register": "proper noun/business"}
+  ],
+  "essay_takeaways": [
+    "Structure formal Chinese prose with 首先…其次…最后 (first / second / finally). This three-part sequence is the standard skeleton for business proposals, analytical reports, and formal emails in Chinese. Readers expect it; its absence feels unorganised. For longer arguments, add 另外 or 此外 to insert supplementary points without breaking the flow.",
+    "Upgrade cause-effect connectors by register: spoken/everyday uses 因为…所以; written/formal business uses 由于…因此, 鉴于…故, or 有鉴于此. Mixing registers — formal content with 因为/所以 — signals a learner rather than a native writer. Developing sensitivity to this register gradient is one of the highest-yield moves for professional Chinese writing.",
+    "Lean on disyllabic verbal compounds over single verbs in formal writing: 办理 not 做, 说明 not 说, 确认 not 知道, 提交 not 给, 协商 not 谈. Chinese business prose prefers these precise two-character verbs that encode procedural or relational meaning the single character lacks.",
+    "Master the 把 / 被 split: use 把 when an agent intentionally acts on a known object with a result (disposal); use 被 only for events the subject suffers or didn't choose (usually negative). For neutral processes, active voice is strongly preferred in Chinese even where English would use passive. Overusing 被 signals English interference.",
+    "Four-character expressions (四字格) signal fluency: business prose conventionally uses 物美价廉 (quality goods at fair price), 货真价实 (genuine goods at fair price), 互惠互利 (mutually beneficial), 按时交货 (deliver on time), 薄利多销 (small profit, high volume). These chunks are not ornamental — they are the expected register of Chinese commercial prose.",
+    "Sequence instructions explicitly with 先…再/然后, 之后, 接着, 最后. Chinese business communications (SOPs, process emails, step-by-step guides) depend on explicit temporal sequencing. Unlike English, which sometimes elides sequence markers ('Fill in the form and submit it'), Chinese makes each step an independent clause with a connector. Do not omit these markers.",
+    "Close business letters and emails with register-appropriate fixed formulas: 期待您的回复 (look forward to your reply), 请多关照 (please take care of us / look after us), 谢谢合作 (thank you for your cooperation), 如有问题，请随时联系我们 (if there are any issues, please contact us at any time). The degree of formality of the closing (敬 prefix signals high formality) should match the opener.",
+    "In product and service descriptions, always pair 质量 (quality) with either 价格 (price) or 性价比 (value for money). Chinese commercial writing frames value as a quality-price duality; mentioning one without the other feels incomplete to a native reader. The phrase 质量好，价格合理 is the minimum viable product-description sentence.",
+    "Use 比较, 相当, 较 for measured professional tone, not 很/非常. In business writing, 非常 can sound breathless or promotional. 比较 (comparatively), 相当 (quite/considerably), and 较 (written shorthand for 比较) convey evaluated judgment without hyperbole — the register of analysis rather than advertising.",
+    "Topic-comment structure: lead with the key issue, then comment on it. Chinese naturally frames sentences as 'as for X, (I think / the situation is)…'. In business writing this translates to: 关于付款方式，我方建议采用电汇 (Regarding payment method, we propose wire transfer). This front-loading of the topic matches how Chinese readers process dense information and contrasts with English S-V-O ordering."
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "source": "Integrated Chinese 3 Workbook (Cheng & Tsui), Lessons 4–8",
+  "model_essays": [
+    {
+      "title": "小李的学习计划：早毕业省钱",
+      "genre": "短文 (short narrative paragraph)",
+      "text": "小李是大学三年级的学生，因为他打算明年五月就毕业，所以每个学期都选六门课，每年暑假都实习。要是学分够，他还打算拿双学位。他的教授觉得他课选得太多了，建议他少选一点，要不然太累了，对身体健康没有好处。小李说他希望早一点毕业，这样他可以把大四一年的钱省下来。累不累，他不在乎。",
+      "summary": "A third-year student overloads on courses and internships to graduate a year early and save tuition money, ignoring his professor's health advice.",
+      "why_study": "Model of concise third-person narrative with clear causal chain (因为…所以…), resultative complements (省下来), and indirect speech. Shows how to embed a character's reasoning and attitude in a few clean sentences.",
+      "key_devices": [
+        "因为…所以… causal chain",
+        "要是…还打算… conditional planning",
+        "要不然 (otherwise) for consequence warnings",
+        "把…省下来 (resultative complement with 把)",
+        "Sentence-final 他不在乎 for decisive character summary"
+      ]
+    },
+    {
+      "title": "选专业的笑话：学医人太多",
+      "genre": "幽默小故事 / 对话 (humorous anecdote with dialogue)",
+      "text": "有一天，几个朋友讨论选专业的事。小王说他的父母一直想让他毕业以后念医学院。小林说她对上工学院很有兴趣，可是她父母觉得还是学医最好。小白说他爸爸妈妈不管他，他学什么专业都可以。小白开始想选历史专业，可是为了跟女朋友小林在一起，也考虑上医学院。小张听了以后就说："你们大家都学医，那我只好学'生病专业'了。要不然，将来你们这么多医生到哪儿去找病人啊？"",
+      "summary": "A group of friends all end up considering medicine for different reasons; one friend jokes he'll have to major in 'being sick' so the future doctors can find patients.",
+      "why_study": "Excellent model of a short comic anecdote in colloquial Chinese. Shows how to build to a punchline by establishing situation → absurd escalation → deadpan logical conclusion. Also demonstrates indirect speech, 为了, and the rhetorical question 到哪儿去…啊？",
+      "key_devices": [
+        "Accumulating parallel clauses to build comic premise",
+        "为了 + [goal] to reveal a character's hidden motive",
+        "只好 (no choice but to) for resigned tone",
+        "Rhetorical question 到哪儿去找…啊？",
+        "Punchline held to final sentence"
+      ]
+    },
+    {
+      "title": "张天明父母的相处之道",
+      "genre": "人物描写 / 短文 (character/relationship narrative)",
+      "text": "张天明的父母都很开朗，两个人一直相处得很好。他们都很爱交朋友，兴趣也差不多一样，比方说他们都喜欢听音乐、跳舞。他们也都爱旅行，去过世界很多地方。另外，两个人都喜欢看电视。不过张先生是个篮球迷，喜欢看篮球赛。张太太对篮球一点儿兴趣都没有，但特别喜欢看滑冰比赛。晚上的电视如果又有篮球比赛又有滑冰比赛的话，张太太就只好让张先生看，自己给朋友打电话聊天儿。可是有的时候张先生为了让太太高兴，也只好不看篮球赛，陪太太一起看滑冰。所以他们两个人很少吵架。\n\n张天明昨天晚上看电视的时候想到爸爸妈妈看电视的事儿，就给爸爸打电话，让爸爸给妈妈再买一个电视，送给妈妈当生日礼物。",
+      "summary": "Zhang Tianming's parents get along well despite different TV preferences — each compromises for the other, so they rarely fight. The story ends with Tianming calling his dad to buy mom a second TV as a birthday gift.",
+      "why_study": "Strong model of a character description that moves from general traits to a specific conflict and its resolution, then links to a present narrative event. Demonstrates layered structure: overview → shared traits → contrast → compromise → conclusion → plot hook. Useful for writing about relationships in any context.",
+      "key_devices": [
+        "比方说 (for example) to pivot from general to specific",
+        "另外 (in addition) as additive connector",
+        "不过 (however) for soft contrast",
+        "对…一点儿兴趣都没有 (no interest whatsoever in)",
+        "只好 for 'no-choice' decisions by each party",
+        "为了让…高兴 (in order to please...)",
+        "Final anecdote illustrates abstract relationship claim concretely"
+      ]
+    },
+    {
+      "title": "小白的父亲见汤姆",
+      "genre": "叙事短文 (third-person social narrative)",
+      "text": "小白的父亲一直希望小白在大学好好儿学习，不要交男朋友。可是小白上个星期打电话回家，告诉父亲她交男朋友了，他叫汤姆。小白说，虽然汤姆的文化背景跟她不一样，可是很开朗，长得也挺帅。白先生听了决定自己去看看。昨天是星期六，白先生开车来到小白上学的城市，约好十二点半在一家中国餐馆儿跟汤姆见面，可是汤姆一点钟才到。小白很着急，一问，才知道他跑到一家日本餐馆儿去了。白先生很生气。他觉得汤姆这样马虎，跟小白不会相处得很好。可是汤姆不停地道歉，白先生觉得汤姆态度特别好，所以就同意他们两个人交朋友了。",
+      "summary": "Xiaobo's strict father drives to meet her foreign boyfriend Tom. Tom arrives late after going to the wrong restaurant. Though the father is initially angry, Tom's repeated apologies win him over.",
+      "why_study": "Model narrative with setup, complication, and resolution — classic three-act structure in short form. Shows how 才 marks a delayed or reluctant action, how 一问，才知道 sequences discovery, and how character motivation shifts are narrated naturally. Useful template for social/personal narratives.",
+      "key_devices": [
+        "虽然…可是… (although...but) for introducing positive despite difference",
+        "才 + V to mark belated arrival or reluctant outcome",
+        "一问，才知道… (only after asking did [one] find out…)",
+        "不停地道歉 (incessantly apologize) — V + 地 + V",
+        "所以就同意… — causal resolution at end"
+      ]
+    },
+    {
+      "title": "大明上网误了约会 (母子对话)",
+      "genre": "口语对话 / 日常生活 (colloquial dialogue)",
+      "text": "妈妈：大明，七点了，你三点半就上网，到现在已经三个多小时了。\n儿子：七点了？糟糕，我跟小美约好七点一起去听演唱会，又要迟到了。\n妈妈：你这孩子！看你急急忙忙的样子。七点要去听演唱会，为什么不早点儿准备？\n儿子：我上网下载几个软件，一忙起来就忘了时间了。妈，我的汽车钥匙呢？\n妈妈：钥匙不是在你手上吗？你老是这么丢三拉四的，真让我着急。每次约会都迟到，害得小美等你，她能不生气吗？\n儿子：没关系，我会好好儿给她道歉的。再说，我下载的软件，有一个是给她的。\n妈妈：每天都是上网下载软件！我看你不用交女朋友了，从网上下载一个女朋友算了。",
+      "summary": "A mother scolds her son for spending 3.5 hours online and now being late to a concert date. The son panics, can't find keys already in his hand, and deflects with an excuse. The mother closes with a sarcastic joke: just download a girlfriend from the internet.",
+      "why_study": "Excellent colloquial dialogue model showing scolding register, rhetorical questions, sarcasm, and idiomatic expressions. The mother's closing line uses 算了 for sardonic resignation — a very natural Chinese comic device. Also shows一忙起来就… construction and harm-framing with 害得.",
+      "key_devices": [
+        "糟糕 (oh no!) as exclamation of realization",
+        "一忙起来就忘了时间 (once busy, loses track of time)",
+        "丢三拉四 (scatterbrained) — four-character idiom",
+        "害得 (causing [someone] to suffer the consequence)",
+        "她能不生气吗？ (rhetorical: how could she not be angry?)",
+        "再说 (moreover / what's more) — spoken additive connector",
+        "从…下载一个…算了 — sarcastic suggestion using 算了"
+      ]
+    },
+    {
+      "title": "电脑时代的网络：便利与隐忧",
+      "genre": "议论文 / 说明文 (reflective/argumentative mini-essay)",
+      "text": "现在是电脑时代，网络对我们的生活越来越重要了。人们可以上网看新闻、查资料、和朋友聊天儿，还可以写博客，跟别人讨论有意思的问题。以前只能在图书馆查到的资料，现在可以很方便地在网上查到；以前只能在学校里学到的东西，现在可以很方便地从网上学到。这样下去，会不会有一天大家都觉得再也不用去图书馆，再也不用上大学了呢？要是世界上没有图书馆，也没有大学，我们的生活会怎么样呢？",
+      "summary": "A short reflective piece on how the internet has made information and learning more accessible, but raises the question of whether this may eventually make libraries and universities obsolete.",
+      "why_study": "Strong model for the argumentation pattern: state current reality → give examples → contrast past vs. present → raise an open-ended rhetorical question for the reader. This structure is common in Chinese opinion essays and editorials. Also shows parallel sentence construction with semicolons (以前…现在…；以前…现在…).",
+      "key_devices": [
+        "越来越 + adj (increasingly important)",
+        "以前只能…，现在可以… parallel contrast structure",
+        "Semicolon (；) to link parallel contrasting clauses",
+        "这样下去 (if things go on like this) — transition to speculation",
+        "会不会…呢？ double-question for rhetorical uncertainty",
+        "要是…，…会怎么样呢？ hypothetical closing question"
+      ]
+    },
+    {
+      "title": "校方公告：别为了打工忘了学习",
+      "genre": "正式通知 / 官方邮件 (official institutional email)",
+      "text": "开学已经一个星期了，可是有一些同学还没有回到学校。我们给他们的家长打电话，才知道他们在给旅行社当导游或翻译，还没回来。学校觉得同学们打工，取得工作经验，是好事。可是你们的学习比打工挣钱更重要。我们知道，你们的学费和生活费对很多父母来说压力不小，学校也在想办法减轻你们的经济负担，但是因为打工不上课是不对的。而且，如果因为打工影响了学习，应该毕业的时候不能毕业，会让你们父母的经济负担更重。我们希望大家别为了打工忘了学习。",
+      "summary": "A provost's office email noting that some students are still absent working as tour guides or translators. It acknowledges financial pressures, affirms the value of work experience, but firmly reminds students that skipping class is wrong and will backfire on their families.",
+      "why_study": "Model of official Chinese institutional communication: acknowledge the problem (才知道…), show empathy (压力不小, 在想办法), state the policy (是不对的), give the consequence (经济负担更重), and close with an admonition (别为了…忘了…). This sequencing — sympathy first, rule second — is common in Chinese formal letters and announcements.",
+      "key_devices": [
+        "才知道 to reveal information obtained after effort",
+        "取得工作经验 (gain work experience) — formal verb-object",
+        "比…更重要 (more important than)",
+        "压力不小 (pressure is not small = pressure is significant) — understatement",
+        "学校也在想办法 (the school is also working on solutions)",
+        "而且 (furthermore) for escalating consequences",
+        "别为了A忘了B — don't let A make you forget B"
+      ]
+    },
+    {
+      "title": "丽丽写给父亲的信",
+      "genre": "私人书信 (personal letter, daughter to father)",
+      "text": "爸爸：\n您给我寄来的这个月的生活费收到了，九百块，比上个月又多了五十块。我上个月的生活费还没用完，这个月您给我寄六百块就够了。您在餐馆儿工作那么累，工资又低，挣钱多不容易啊。每次想到这儿我就想哭。我们班有个叫毛毛的男同学，因为他爸爸有自己的公司非常有钱，就乱花钱，每天不是上饭馆儿，就是唱卡拉OK，每个月他爸爸都要给他好几千块钱。我觉得他们心里除了钱还是钱。我的爸爸比他们棒多了，因为您教给了我很多学校里学不到的东西。\n丽丽",
+      "summary": "A frugal college student writes to her hardworking father asking him to send less money than he offered, contrasting her classmate Maomao's reckless spending with her own gratitude for her father's non-monetary lessons.",
+      "why_study": "Outstanding model for the personal letter genre in Chinese: honorific 您 throughout, emotional directness (每次想到这儿我就想哭), contrast technique to highlight values, and a closing compliment that goes beyond money (很多学校里学不到的东西). The letter also demonstrates 不是…就是… for characterizing someone's habits negatively.",
+      "key_devices": [
+        "您 (honorific 'you') maintained throughout to show filial respect",
+        "每次想到这儿我就想哭 — emotional intensifier with 每次…就…",
+        "不是上饭馆儿，就是唱卡拉OK (if not X, then Y) — habitual alternation",
+        "心里除了钱还是钱 (all they think about is money) — idiomatic dismissal",
+        "比…棒多了 (much better than) — comparative with 多了 for emphasis",
+        "学校里学不到的东西 — what school can't teach (values over money)"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "无论…都…",
+      "explanation": "No matter [what/how/who/where], still... Universalizes a condition: the outcome holds regardless of the variable. Used with question words (什么、谁、多、哪里) inside the clause.",
+      "examples": [
+        "无论买什么都得付税。(No matter what you buy, you still have to pay tax.)",
+        "他无论到哪儿去，都要让朋友帮忙。(No matter where he goes, he has to ask friends for help.)",
+        "无论颜色还是质量，这件衣服都很好。(No matter the color or quality, this piece of clothing is excellent.)"
+      ]
+    },
+    {
+      "pattern": "…什么的",
+      "explanation": "Placed after a list of items (often 2–3) to signal 'and so on / and things like that.' Similar to English 'etc.' but more colloquial. The items before it serve as examples, not an exhaustive list.",
+      "examples": [
+        "他们点了芥兰、清蒸鱼什么的，都很好吃。(They ordered Chinese broccoli, steamed fish, and so on — all very delicious.)",
+        "他喜欢打球、看电影什么的。(He likes playing ball, watching movies, and so on.)"
+      ]
+    },
+    {
+      "pattern": "adj 是 adj，就是/可是…",
+      "explanation": "Concessive construction: 'X is indeed X / X is true, but…' Acknowledges a positive quality before introducing a reservation. 就是 is slightly more colloquial than 可是 here; both signal that the main caveat follows.",
+      "examples": [
+        "这条运动裤质量好，价钱便宜，就是样子不太好看。(The tracksuit has good quality and a good price — it's just not very attractive-looking.)",
+        "当医生很好，能帮助很多人，挣很多钱，就是不太轻松。(Being a doctor is great — you help many people, earn well — but it's just not relaxing.)"
+      ]
+    },
+    {
+      "pattern": "非…不可",
+      "explanation": "Strong necessity or insistence: 'must absolutely / can't help but / insists on only.' Often used for stubborn preferences or absolute requirements. 非 + [noun/verb phrase] + 不可.",
+      "examples": [
+        "他非买名牌的衣服不可。(He absolutely must buy name-brand clothes.)",
+        "她非去看那场演唱会不可。(She insists on going to that concert no matter what.)"
+      ]
+    },
+    {
+      "pattern": "原来 (as it turns out / originally)",
+      "explanation": "Two distinct uses: (1) 'originally / before' — describes a prior state that has since changed; (2) 'as it turns out / I see now' — marks a narrative discovery or realization, often resolving a mystery or misunderstanding.",
+      "examples": [
+        "他原来学日文，后来不学了。(He originally studied Japanese but later stopped.) [prior state]",
+        "找来找去，原来钥匙在冰箱里。(Searched everywhere — turns out the key was in the fridge.) [discovery]",
+        "一问，才知道汤姆原来跑到日本餐馆去了。(After asking, [they] found out Tom had gone to a Japanese restaurant.) [reveal]"
+      ]
+    },
+    {
+      "pattern": "到底 (after all / exactly / on earth)",
+      "explanation": "In questions, 到底 intensifies the request for clarification: 'exactly what / who / where on earth…?' In statements, it can mean 'after all / ultimately.' Common in frustrated or investigative questions.",
+      "examples": [
+        "张天明到底住校内还是住校外？(Does Zhang Tianming live on campus or off campus, exactly?)",
+        "你到底想选什么专业？(What major do you actually want to choose?)"
+      ]
+    },
+    {
+      "pattern": "不是…，就是… (habitual alternation)",
+      "explanation": "Describes someone who habitually alternates between two (often negative or monotonous) things: 'If not X, then Y.' Common for characterizing someone's repetitive or one-dimensional behavior.",
+      "examples": [
+        "他每天不是上饭馆儿，就是唱卡拉OK。(Every day it's either eating out or karaoke — nothing else.)",
+        "他每个周末不是洗衣服，就是打扫房间。(Every weekend he's either doing laundry or cleaning the room.)",
+        "每次约会都迟到，不是有事，就是忘了时间。(Always late for dates — either something came up or he forgot the time.)"
+      ]
+    },
+    {
+      "pattern": "V来V去 (repeated back-and-forth action)",
+      "explanation": "Reduplication with 来…去 between two instances of the same verb (or complement) to convey exhaustive, repetitive, or frustrated effort with no satisfying resolution. 想来想去, 找来找去, 等来等去, 考虑来考虑去.",
+      "examples": [
+        "他想来想去，最后决定找工作，不念研究生了。(He thought and thought, and finally decided to find a job instead of going to grad school.)",
+        "找来找去，原来钥匙在冰箱里。(Searched high and low — turns out it was in the fridge.)",
+        "等来等去，小林还不来，大家都很生气。(Waited and waited — Xiao Lin still hadn't come; everyone was furious.)"
+      ]
+    },
+    {
+      "pattern": "连…都/也…",
+      "explanation": "Emphatic inclusion: 'even X + [predicate].' Used to emphasize that the most extreme or unexpected case is included. 连 precedes the noun/phrase; 都 or 也 precedes the predicate.",
+      "examples": [
+        "张天明玩儿电脑玩儿上瘾了，连吃饭的时候都上网。(Tianming got addicted to computers — he even goes online while eating.)",
+        "他累得连站起来都难。(He was so tired he couldn't even stand up.)"
+      ]
+    },
+    {
+      "pattern": "从…到…，都… (consistent across a span)",
+      "explanation": "Marks an unbroken span of time, space, or category across which something consistently holds. 从 marks the start, 到 the end, 都 marks the universality within.",
+      "examples": [
+        "从高中到大学，小李都在餐馆儿打工。(From high school through college, Xiao Li has always worked at a restaurant.)",
+        "从小到大，弟弟都不爱吃青菜。(From childhood to adulthood, my younger brother has never liked vegetables.)",
+        "这家购物中心从一层到三层都在打折。(This mall is having sales on every floor from the first to the third.)"
+      ]
+    },
+    {
+      "pattern": "一…起来就… (once [activity] starts, immediately…)",
+      "explanation": "Captures how getting absorbed in an activity immediately triggers a consequence, usually loss of awareness. 一 + V + 起来 = 'once one starts Ving'; 就 + [result].",
+      "examples": [
+        "我上网下载软件，一忙起来就忘了时间了。(I was downloading software — once I got busy I lost track of time.)",
+        "他一说话起来就停不下来。(Once he starts talking, he can't stop.)"
+      ]
+    },
+    {
+      "pattern": "害得 (causing [someone] to suffer the consequence of)",
+      "explanation": "害得 introduces a negative consequence suffered by a third party due to someone's behavior. It has a blaming/scolding register. Structure: [subject's action]，害得 + [affected party] + [bad outcome].",
+      "examples": [
+        "每次约会都迟到，害得小美等你，她能不生气吗？(You're always late, making Xiaomei wait — how could she not be angry?)",
+        "他把东西乱放，害得大家找来找去。(He leaves things everywhere, making everyone search frantically.)"
+      ]
+    },
+    {
+      "pattern": "要么…，要么… (either... or...)",
+      "explanation": "Presents two equally weighted options or possibilities. More binary and decisive than 或者; often used when no other option exists. Can describe choices or characterize someone's behavior.",
+      "examples": [
+        "要么你买质量好的，要么你什么都别买。(Either buy something of good quality, or don't buy anything at all.)",
+        "他要么念工学院，要么念医学院，还没决定。(He'll either go to engineering school or medical school — he hasn't decided yet.)"
+      ]
+    },
+    {
+      "pattern": "跟…打交道 (deal with / interact with a category of people or things)",
+      "explanation": "Describes regular professional or social dealings with a type of person or entity. Very useful in professional contexts: 跟客户打交道, 跟数字打交道, 跟病人打交道.",
+      "examples": [
+        "我不愿意跟病人打交道，所以不想念医学院。(I don't want to deal with patients, so I don't want to go to medical school.)",
+        "做金融的每天都要跟数字打交道。(People in finance deal with numbers every day.)",
+        "做销售要经常跟各种客户打交道。(Sales requires constantly dealing with all kinds of clients.)"
+      ]
+    },
+    {
+      "pattern": "结果 (as a result / in the end)",
+      "explanation": "Narrative pivot word meaning 'as a result / and the outcome was / it ended up that.' Places at the head of a clause to signal the conclusion of a described situation. Less formal than 因此; very natural in storytelling.",
+      "examples": [
+        "张天明跟李哲讨论选课的事，结果决定选中文、经济和电脑课。(Tianming discussed courses with Li Zhe; in the end they decided on Chinese, economics, and computer science.)",
+        "他在写文章的时候电脑坏了，结果文章也不见了。(His computer crashed while he was writing; as a result the article disappeared too.)"
+      ]
+    },
+    {
+      "pattern": "别为了A忘了B (don't let A make you forget B)",
+      "explanation": "Cautions against being so focused on A that B is neglected. Common in admonition or persuasive writing. 为了 marks the consuming goal; 忘了 marks the neglected thing.",
+      "examples": [
+        "我们希望大家别为了打工忘了学习。(We hope everyone won't let work make them forget their studies.)",
+        "别为了省钱忘了质量。(Don't let the desire to save money make you forget quality.)"
+      ]
+    },
+    {
+      "pattern": "比方说 (for example / such as)",
+      "explanation": "A spoken-register transition phrase meaning 'for example' or 'take for instance.' Unlike 例如 (formal), 比方说 is natural in conversation and informal essays. It smoothly introduces a concrete example after a general claim.",
+      "examples": [
+        "他们兴趣差不多一样，比方说他们都喜欢听音乐、跳舞。(Their interests are pretty much the same — for example, they both like listening to music and dancing.)",
+        "打工有很多好处，比方说可以取得工作经验。(Working part-time has many benefits — for instance, you can gain work experience.)"
+      ]
+    },
+    {
+      "pattern": "或者 vs 还是 (or — statements vs. questions)",
+      "explanation": "Both mean 'or,' but 还是 is used in questions (including indirect/embedded questions), while 或者 is used in statements and conditions. Mixing them is a common advanced learner error.",
+      "examples": [
+        "学金融专业或者电脑专业对将来找工作都有帮助。(Majoring in finance or computers is helpful for future employment.) [statement → 或者]",
+        "你爱吃广东菜还是湖南菜？(Do you prefer Cantonese or Hunanese food?) [question → 还是]",
+        "无论有好处或者有坏处，我们都离不开网络了。(Whether for good or bad, we can no longer live without the internet.) [statement → 或者]"
+      ]
+    },
+    {
+      "pattern": "Potential complement: V + 得/不 + RC or direction (V得下/V不下, V得到/V不到, V得开/V不开)",
+      "explanation": "Potential complements express whether a result CAN or CANNOT be achieved. 得 = can; 不 = cannot. Common patterns: 住得下 (can fit/accommodate), 吃得到 (can obtain/eat), 离得开 (can leave / can do without), 受得了 (can stand/tolerate).",
+      "examples": [
+        "张天明的宿舍住得下四个人吗？(Can four people fit in Tianming's dorm?)",
+        "他在学校附近吃得到地道的中国菜吗？(Can he find authentic Chinese food near school?)",
+        "张天明离得开网络吗？(Can Tianming live without the internet?)",
+        "丽莎受得了张天明老是迟到吗？(Can Lisha stand Tianming always being late?)"
+      ]
+    },
+    {
+      "pattern": "把 + obj + V + directional/resultative complement",
+      "explanation": "The 把 construction with a directional or resultative complement shows the object being moved/changed into a new state as a result of the action. Common complements with 把: 省下来 (save up), 想出来 (think up), 说出来 (say out / express), 看出来 (perceive / tell by looking).",
+      "examples": [
+        "小李希望早毕业，这样他可以把大四一年的钱省下来。(Xiao Li hopes to graduate early so he can save the money for his senior year.)",
+        "这个问题很难，大家考虑来考虑去，还是没把办法想出来。(The problem is hard — everyone thought and thought but still couldn't come up with a solution.)",
+        "我一眼就把他心里的事儿看出来了。(I could tell at a glance what was on his mind.)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "丢三拉四",
+      "pinyin": "diū sān lā sì",
+      "meaning": "Scatterbrained; always forgetting things or leaving things behind. Describes a habitually careless, forgetful person.",
+      "register": "colloquial, slightly scolding"
+    },
+    {
+      "zh": "跟…打交道",
+      "pinyin": "gēn … dǎ jiāodào",
+      "meaning": "To deal with / interact regularly with [a category of people or things]. Very common in professional/workplace contexts.",
+      "register": "neutral to formal"
+    },
+    {
+      "zh": "取得工作经验",
+      "pinyin": "qǔdé gōngzuò jīngyàn",
+      "meaning": "To gain / obtain work experience. Standard collocation in resume, cover letter, and interview contexts.",
+      "register": "formal, professional"
+    },
+    {
+      "zh": "减轻经济负担",
+      "pinyin": "jiǎnqīng jīngjì fùdān",
+      "meaning": "To lighten / alleviate the financial burden. Common in formal writing about education costs, family finances, policy.",
+      "register": "formal, institutional"
+    },
+    {
+      "zh": "经济压力",
+      "pinyin": "jīngjì yālì",
+      "meaning": "Financial pressure / economic stress. The standard phrase for describing financial strain on individuals or families.",
+      "register": "neutral to formal"
+    },
+    {
+      "zh": "乱花钱",
+      "pinyin": "luàn huā qián",
+      "meaning": "To spend money recklessly / frivolously. 乱 marks the disorderly or irresponsible manner of the action.",
+      "register": "colloquial, critical"
+    },
+    {
+      "zh": "上瘾",
+      "pinyin": "shàng yǐn",
+      "meaning": "To become addicted (to something). Used for internet, games, food, habits: 玩儿电脑玩儿上瘾了.",
+      "register": "colloquial"
+    },
+    {
+      "zh": "落伍",
+      "pinyin": "luò wǔ",
+      "meaning": "To fall behind the times; to be old-fashioned or out of step with current trends. Slightly pejorative.",
+      "register": "colloquial to neutral"
+    },
+    {
+      "zh": "相处得很好",
+      "pinyin": "xiāngchǔ de hěn hǎo",
+      "meaning": "To get along very well (with someone). 相处 = to live/work together; complement 得 + adverb grades the quality.",
+      "register": "neutral"
+    },
+    {
+      "zh": "不停地",
+      "pinyin": "bù tíng de",
+      "meaning": "Incessantly, without stopping. Adverb modifying a verb: 不停地道歉 (apologize non-stop), 不停地打电话 (call repeatedly).",
+      "register": "neutral"
+    },
+    {
+      "zh": "办法是人想出来的",
+      "pinyin": "bànfǎ shì rén xiǎng chūlái de",
+      "meaning": "Solutions are made by people (where there's a will, there's a way). Encouraging phrase used to motivate someone who feels stuck.",
+      "register": "colloquial, encouraging"
+    },
+    {
+      "zh": "心里除了X还是X",
+      "pinyin": "xīnlǐ chúle X háishi X",
+      "meaning": "All [they] think about is X, nothing but X. E.g., 心里除了钱还是钱 (all they care about is money). Dismissive characterization.",
+      "register": "colloquial, critical"
+    },
+    {
+      "zh": "再说",
+      "pinyin": "zài shuō",
+      "meaning": "Moreover / what's more / and besides. Spoken additive connector to introduce a second justification or point. More casual than 另外 or 而且.",
+      "register": "colloquial"
+    },
+    {
+      "zh": "比方说",
+      "pinyin": "bǐfāng shuō",
+      "meaning": "For example / for instance. Spoken-register transition that introduces a concrete example after a general statement. More natural than 例如 in conversation.",
+      "register": "colloquial to neutral"
+    },
+    {
+      "zh": "零用钱",
+      "pinyin": "líng yòng qián",
+      "meaning": "Spending money / pocket money / allowance. The standard term for discretionary personal spending money.",
+      "register": "neutral"
+    },
+    {
+      "zh": "奖学金",
+      "pinyin": "jiǎng xué jīn",
+      "meaning": "Scholarship / fellowship. Standard term in educational and professional contexts.",
+      "register": "formal"
+    },
+    {
+      "zh": "贷款",
+      "pinyin": "dài kuǎn",
+      "meaning": "Loan / to take out a loan. 跟政府贷款 = to take a government loan. Used in financial, housing, and education contexts.",
+      "register": "neutral to formal"
+    },
+    {
+      "zh": "糟糕",
+      "pinyin": "zāogāo",
+      "meaning": "Oh no! / Terrible! Exclamation of dismay upon realizing something has gone wrong. Very common in colloquial speech.",
+      "register": "colloquial"
+    },
+    {
+      "zh": "只好",
+      "pinyin": "zhǐhǎo",
+      "meaning": "To have no choice but to / can only. Expresses a reluctant or resigned action taken because there is no better option.",
+      "register": "neutral"
+    },
+    {
+      "zh": "害得",
+      "pinyin": "hài de",
+      "meaning": "Causing (someone) to suffer a negative consequence. Assigns blame: subject's action 害得 + affected party + bad result.",
+      "register": "colloquial, blaming"
+    },
+    {
+      "zh": "双学位",
+      "pinyin": "shuāng xuéwèi",
+      "meaning": "Double major / dual degree. Academic term used in discussions of university coursework and career planning.",
+      "register": "educational/professional"
+    },
+    {
+      "zh": "实习",
+      "pinyin": "shíxí",
+      "meaning": "To intern / internship. Standard term in professional contexts: 暑假实习 (summer internship), 实习经验 (internship experience).",
+      "register": "neutral to professional"
+    },
+    {
+      "zh": "文化背景",
+      "pinyin": "wénhuà bèijǐng",
+      "meaning": "Cultural background. Used in social, professional, and academic contexts when discussing diversity or cross-cultural situations.",
+      "register": "neutral to formal"
+    },
+    {
+      "zh": "态度特别好",
+      "pinyin": "tàidù tèbié hǎo",
+      "meaning": "To have a particularly good attitude / demeanor. In professional/social contexts, good 态度 often compensates for a mistake (as Tom's apology did).",
+      "register": "neutral"
+    },
+    {
+      "zh": "以前…现在… (对比结构)",
+      "pinyin": "yǐqián … xiànzài …",
+      "meaning": "Before … now … Contrast structure that efficiently compares past and present states. Parallel versions with semicolon (；) create a formal, essay-like rhythm.",
+      "register": "neutral to formal, essay-style"
+    },
+    {
+      "zh": "不在乎",
+      "pinyin": "bù zàihu",
+      "meaning": "Not to care about / indifferent to. 累不累，他不在乎 = 'Tired or not, he doesn't care.' Can close a character description with decisive force.",
+      "register": "colloquial"
+    },
+    {
+      "zh": "好几千块",
+      "pinyin": "hǎo jǐ qiān kuài",
+      "meaning": "Several thousand yuan / a good few thousand. 好几 + measure word intensifies 'several' to 'quite a few / a good many.'",
+      "register": "colloquial"
+    },
+    {
+      "zh": "压力不小",
+      "pinyin": "yālì bù xiǎo",
+      "meaning": "The pressure is not small = the pressure is considerable. Understatement used in formal/institutional writing to show empathy without hyperbole.",
+      "register": "formal, understated"
+    },
+    {
+      "zh": "从网上下载",
+      "pinyin": "cóng wǎng shàng xiàzài",
+      "meaning": "To download from the internet. Standard phrase for digital downloading; 下载软件 = download software/apps.",
+      "register": "neutral, contemporary"
+    },
+    {
+      "zh": "算了",
+      "pinyin": "suàn le",
+      "meaning": "Forget it / just… then / might as well. Marks sardonic resignation or sarcastic suggestion: 从网上下载一个女朋友算了 (might as well just download a girlfriend from the internet).",
+      "register": "colloquial, sardonic"
+    }
+  ],
+  "essay_takeaways": [
+    "Use 就是/只是 after listing multiple positives to introduce the single drawback — this creates a balanced, sophisticated register and avoids blunt negativity. It mirrors the Chinese social preference for softening criticism within praise.",
+    "Use 原来 to create narrative reveals and discovery moments. Placing 原来 before the explanation (原来在冰箱里 / 原来跑到日本餐馆去了) builds natural suspense and mimics the reader's realization in real time — far more engaging than stating facts in chronological order.",
+    "不是…就是… characterizes someone's monotonous or one-dimensional behavior in a single clause (每天不是上饭馆，就是唱卡拉OK). Use it to paint a quick, slightly ironic portrait without lengthy description — ideal for contrasting two characters.",
+    "V来V去 (想来想去, 找来找去, 等来等去) captures exhausted, repetitive effort with no immediate payoff. Use it when a character has tried hard but the result is delayed or uncertain — it conveys both effort and mild frustration economically.",
+    "In personal letters or emotional writing, use 每次想到这儿我就想哭 to convey recurring emotional weight. The 每次…就… structure signals a conditioned emotional response and is more powerful than simply saying 我很难过.",
+    "Institutional / official communications in Chinese sequence as: (1) factual situation [才知道…], (2) empathy [压力不小, 在想办法…], (3) rule/position [是不对的], (4) consequence [会让…更重], (5) closing hope [我们希望…]. This ordering softens authority and is widely used in announcements, policy letters, and formal emails.",
+    "Build short narrative with a three-beat structure: expectation → complication → resolution. The 小白/Tom story exemplifies this: father expects punctuality → Tom is late and confused → Tom's apologies win the father over. This arc is universally readable and easy to replicate.",
+    "比方说 is the natural spoken-register alternative to 例如 for introducing examples mid-sentence. Using it in otherwise formal prose creates a approachable, slightly personal tone — useful for business writing that should not feel cold.",
+    "再说 (moreover) is the colloquial connector to reach for when adding a second justification in conversation or informal essays. It is more natural than 另外 or 而且 in speech and signals that the speaker is adding a clinching point, not just listing.",
+    "Chinese humor relies on building a logical premise to absurdity and then delivering a deadpan conclusion at the very end of the sentence: 要不然，将来你们这么多医生到哪儿去找病人啊？ The joke works because the logic is sound within the absurd premise — imitate this by thinking through the comic consequence before writing the setup."
+  ]
+}

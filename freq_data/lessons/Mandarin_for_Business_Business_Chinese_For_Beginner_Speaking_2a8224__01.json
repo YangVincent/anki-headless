@@ -1,0 +1,236 @@
+{
+  "model_essays": [],
+  "grammar_patterns": [
+    {
+      "pattern": "罢了 (bàle)",
+      "explanation": "Sentence-final particle meaning 'that's all / nothing more'. Used with 只是, 不过, 无非 to minimize or downplay a claim. Common in spoken and semi-formal written Chinese to express modesty, understatement, or mild dismissal. The textbook notes it is placed at the end of declarative sentences.",
+      "examples": [
+        "不过是兴趣罢了，谈不上什么专业。",
+        "这件事只是个误会罢了，别放在心上。"
+      ]
+    },
+    {
+      "pattern": "便于 (biànyú) + V",
+      "explanation": "Auxiliary verb meaning 'easy to / convenient to / so as to'. Followed by a verb or verb phrase. Indicates that the main clause facilitates the subordinate action. The textbook identifies this as an auxiliary verb in the context of technology and service descriptions.",
+      "examples": [
+        "这款软件界面简洁，便于操作。",
+        "请留下您的联系方式，便于我们及时与您沟通。"
+      ]
+    },
+    {
+      "pattern": "一分钱一分货 (yīfēnqián yīfēnhuò)",
+      "explanation": "Idiom: 'You get what you pay for.' Price reflects quality. Also appears reversed as 一分货一分钱. Used in commercial contexts to justify premium pricing or to counsel against choosing purely on cost. The textbook presents it as a commercial proverb about quality and value.",
+      "examples": [
+        "这个品牌贵有贵的道理，一分钱一分货嘛。",
+        "买东西不能只看价格，一分钱一分货。"
+      ]
+    },
+    {
+      "pattern": "三包 (sānbāo)",
+      "explanation": "The three consumer-protection guarantees standard in Chinese commerce: 退货 (tuìhuò, return), 换货 (huànhuò, exchange), and 维修 (wéixiū, repair). Knowing this term and its components is essential for consumer-rights discourse, retail negotiation, and business correspondence.",
+      "examples": [
+        "本产品享受三包服务，一年内可免费退换修。",
+        "商家必须提供三包保障，这是消费者的基本权利。"
+      ]
+    },
+    {
+      "pattern": "V + 不了 / V + 得了 (potential complement)",
+      "explanation": "Potential complement indicating whether an action is feasible. V+不了 = 'cannot do (due to difficulty or impossibility)'; V+得了 = 'can manage to do'. Related forms include V+不完 (can't finish), V+不下 (can't hold/fit), V+不到 (can't obtain/reach). These cannot always be substituted with 能/不能. The textbook illustrates this with shopping and problem-solving contexts.",
+      "examples": [
+        "东西太多，一天买不完。",
+        "这个难题我一个人解决不了，需要大家一起想办法。"
+      ]
+    },
+    {
+      "pattern": "何况 (hékuàng)",
+      "explanation": "'Let alone / much less / not to mention'. Introduces a rhetorically stronger case using an a fortiori argument: if the lesser case is challenging, the greater case is even more so. The textbook notes it is used with rhetorical tone and carries a sense of comparison. Often appears in transportation and logistics discussions.",
+      "examples": [
+        "大人都觉得难，何况孩子呢？",
+        "坐地铁已经很方便了，何况还有公共汽车和出租车可以选择。"
+      ]
+    },
+    {
+      "pattern": "凡是…都… (fánshì…dōu…)",
+      "explanation": "Universal quantifier construction: 'All / every / any…will/must…'. 凡是 can be followed by 都, 总, or 就 in the result clause. Common in regulations, policies, and sweeping generalizations. Signals a formal or authoritative register and is used in consumer-rights and business-policy contexts.",
+      "examples": [
+        "凡是购买本产品的顾客，都可以享受售后服务。",
+        "凡是质量不合格的商品，一律不得上市销售。"
+      ]
+    },
+    {
+      "pattern": "受不了 (shòubuliǎo)",
+      "explanation": "Fixed potential complement: 'cannot bear / cannot stand / is unbearable'. Expresses that a situation exceeds the speaker's tolerance. Highly colloquial and emotionally expressive. The textbook uses it in transportation and daily-life contexts.",
+      "examples": [
+        "每天上下班堵车，真受不了！",
+        "高峰期坐地铁，人挤人，受不了。"
+      ]
+    },
+    {
+      "pattern": "只要…就… (zhǐyào…jiù…)",
+      "explanation": "Sufficient conditional: 'As long as / provided that…then…'. States the minimal condition guaranteeing a result. The textbook identifies this as a 'condition that leads to the result' and uses it in quality-of-service and consumer-behavior contexts.",
+      "examples": [
+        "只要质量好，顾客就愿意多花钱。",
+        "只要按照规定操作，就不会出现问题。"
+      ]
+    },
+    {
+      "pattern": "即使…也… (jíshǐ…yě…)",
+      "explanation": "Concessive conditional: 'Even if / even though…still…'. Presents a hypothetical or contrary-to-fact condition and shows that the result holds regardless. The textbook notes this usually indicates an unrealized condition. Useful in argumentation and persuasive prose.",
+      "examples": [
+        "即使打了折扣，这个价格也不算便宜。",
+        "即使再忙，也要抽时间维权，保护自己的利益。"
+      ]
+    },
+    {
+      "pattern": "多达 (duōdá)",
+      "explanation": "'Up to / as many/much as'. Emphasizes a surprisingly large quantity, usually preceding a number. Used to highlight scale or magnitude. The textbook identifies it in the Tibet-travel chapter as meaning 'up to, as many as', common in journalistic and business-report writing.",
+      "examples": [
+        "参展的商品多达三千种。",
+        "本次活动吸引了多达一万名消费者参加。"
+      ]
+    },
+    {
+      "pattern": "以为 (yǐwéi)",
+      "explanation": "'To think / assume / consider' — often implying a mistaken or unverified belief that turns out to be wrong. The textbook treats it as 'consider / regard as / count as'. Contrast with 认为 (neutral belief). When followed by a narrative reversal, 以为 signals the speaker's expectation was incorrect.",
+      "examples": [
+        "我以为他不来了，没想到他准时到了。",
+        "别以为便宜的东西就一定质量差。"
+      ]
+    },
+    {
+      "pattern": "不是…而是… (bùshì…érshì…)",
+      "explanation": "'Not X, but rather Y'. Negates one element and affirms another in contrast. The textbook notes that the former element is denied and the latter confirmed. Common in explanatory, analytical, and persuasive writing for clarification and redirection.",
+      "examples": [
+        "这不是价格的问题，而是质量和服务的问题。",
+        "消费者维权不是无理取闹，而是依法保护自己的权益。"
+      ]
+    },
+    {
+      "pattern": "非…不可 (fēi…bùkě)",
+      "explanation": "'Must / have no choice but to / simply must'. Double negation expressing strong necessity or compulsion — more emphatic than 必须. The textbook presents it in the context of booking and business-travel necessity. Used when something is truly unavoidable.",
+      "examples": [
+        "订机票非提前预订不可，否则根本买不到票。",
+        "这件事非今天完成不可，不能再拖了。"
+      ]
+    },
+    {
+      "pattern": "与众不同 (yǔzhòng bùtóng)",
+      "explanation": "Four-character idiom: 'Different from the common run / unique / distinctive'. The textbook defines it as having a peculiar style, special function, or quality that sets something apart from ordinary things. Positive connotation in commercial and aesthetic contexts.",
+      "examples": [
+        "这个品牌的设计风格与众不同，深受年轻消费者喜爱。",
+        "她的经营理念与众不同，所以公司发展得特别快。"
+      ]
+    },
+    {
+      "pattern": "外行 vs 内行 / 行家 (wàiháng vs nèiháng / hángjiā)",
+      "explanation": "外行 = 'layman / outsider', someone lacking knowledge or experience in a field. 内行 / 行家 = 'expert / insider / professional'. Antonyms. The textbook explicitly notes these as antonyms and uses them to discuss expertise levels in technology and purchasing contexts.",
+      "examples": [
+        "我对电脑是外行，麻烦你帮我推荐一款。",
+        "他是这一行的行家，买家电可以向他请教。"
+      ]
+    },
+    {
+      "pattern": "维权 / 诚信 as abbreviated forms",
+      "explanation": "维权 is a standard abbreviation of 维护消费者权益 ('safeguard consumer rights'). 诚信 is short for 诚实守信 ('honest and trustworthy'). Both are commonly used abbreviated forms in spoken Chinese and business/consumer-rights discourse. The textbook explicitly notes these abbreviated forms and their full originals.",
+      "examples": [
+        "消费者有权利也有必要维权，不能忍气吞声。",
+        "企业必须讲诚信，才能赢得顾客的长期信任。"
+      ]
+    }
+  ],
+  "expressions": [
+    {"zh": "马大哈", "pinyin": "mǎdàhā", "meaning": "scatterbrain; careless/absent-minded person", "register": "colloquial"},
+    {"zh": "帮手", "pinyin": "bāngshǒu", "meaning": "co-worker; helper; assistant", "register": "neutral"},
+    {"zh": "放松", "pinyin": "fàngsōng", "meaning": "to relax; to loosen up; to unwind", "register": "neutral"},
+    {"zh": "积累", "pinyin": "jīlěi", "meaning": "to accumulate (knowledge, experience, capital)", "register": "neutral/formal"},
+    {"zh": "脑力", "pinyin": "nǎolì", "meaning": "brainpower; mental capacity; intellectual energy", "register": "neutral/formal"},
+    {"zh": "更新换代", "pinyin": "gēngxīn-huàndài", "meaning": "to replace the old with the new; product iteration/upgrade cycle", "register": "business/formal"},
+    {"zh": "行情", "pinyin": "hángqíng", "meaning": "market quotations; market conditions; going price", "register": "business/formal"},
+    {"zh": "追求", "pinyin": "zhuīqiú", "meaning": "to pursue; to seek (quality, efficiency, goals)", "register": "neutral/formal"},
+    {"zh": "台式", "pinyin": "táishì", "meaning": "desktop (e.g., 台式电脑); table-top style", "register": "technical/neutral"},
+    {"zh": "便携", "pinyin": "biànxié", "meaning": "portable; easy to carry (e.g., 便携式)", "register": "technical/neutral"},
+    {"zh": "操作", "pinyin": "cāozuò", "meaning": "to operate; to handle; operation", "register": "technical/neutral"},
+    {"zh": "精通", "pinyin": "jīngtōng", "meaning": "to be expert in; to master; to be accomplished in", "register": "formal"},
+    {"zh": "网络", "pinyin": "wǎngluò", "meaning": "internet; network", "register": "neutral"},
+    {"zh": "网页", "pinyin": "wǎngyè", "meaning": "webpage; web page", "register": "technical/neutral"},
+    {"zh": "宽带", "pinyin": "kuāndài", "meaning": "broadband (internet connection)", "register": "technical/neutral"},
+    {"zh": "上网", "pinyin": "shàngwǎng", "meaning": "to surf the internet; to go online", "register": "colloquial/neutral"},
+    {"zh": "无微不至", "pinyin": "wúwēibùzhì", "meaning": "thorough and meticulous in every detail; attentive to every need (of service)", "register": "formal/literary"},
+    {"zh": "售后服务", "pinyin": "shòuhòu fúwù", "meaning": "after-sale service; post-purchase support", "register": "business"},
+    {"zh": "维修", "pinyin": "wéixiū", "meaning": "to repair; maintenance (of equipment/appliances)", "register": "neutral/technical"},
+    {"zh": "保养", "pinyin": "bǎoyǎng", "meaning": "to maintain; to service (equipment, vehicle, health)", "register": "neutral/technical"},
+    {"zh": "促销", "pinyin": "cùxiāo", "meaning": "sales promotion; to promote sales of goods", "register": "business"},
+    {"zh": "三包", "pinyin": "sānbāo", "meaning": "three consumer guarantees: repair, replacement, and refund", "register": "business/consumer"},
+    {"zh": "信誉", "pinyin": "xìnyù", "meaning": "credit standing; reputation; credibility (of a business or person)", "register": "business/formal"},
+    {"zh": "做工", "pinyin": "zuògōng", "meaning": "workmanship; quality of craftsmanship", "register": "business/commercial"},
+    {"zh": "品牌", "pinyin": "pǐnpái", "meaning": "brand; trademark; brand name", "register": "business"},
+    {"zh": "灵活", "pinyin": "línghuó", "meaning": "flexible; adaptable; nimble (of pricing, strategy, thinking)", "register": "neutral/business"},
+    {"zh": "积分", "pinyin": "jīfēn", "meaning": "loyalty points; reward points accumulated in a consumer program", "register": "business/consumer"},
+    {"zh": "返券", "pinyin": "fǎnquàn", "meaning": "cashback coupon; returned voucher given after a qualifying purchase", "register": "business/consumer"},
+    {"zh": "各取所需", "pinyin": "gèqǔsuǒxū", "meaning": "each takes what they need; to each according to their needs", "register": "formal/idiom"},
+    {"zh": "吸引", "pinyin": "xīyǐn", "meaning": "to attract; to draw in (customers, attention)", "register": "neutral"},
+    {"zh": "抢手", "pinyin": "qiǎngshǒu", "meaning": "(of goods) in great demand; selling like hot cakes", "register": "colloquial/business"},
+    {"zh": "消费者", "pinyin": "xiāofèizhě", "meaning": "consumer; buyer", "register": "formal"},
+    {"zh": "权益", "pinyin": "quányì", "meaning": "rights and interests; entitlements", "register": "formal/legal"},
+    {"zh": "义务", "pinyin": "yìwù", "meaning": "obligation; duty; responsibility", "register": "formal/legal"},
+    {"zh": "侵害", "pinyin": "qīnhài", "meaning": "to infringe upon; to violate; to aggrieve (rights, interests)", "register": "formal/legal"},
+    {"zh": "维权", "pinyin": "wéiquán", "meaning": "to safeguard consumer rights; rights protection (abbr. of 维护消费者权益)", "register": "formal/legal/civic"},
+    {"zh": "诚信", "pinyin": "chéngxìn", "meaning": "good faith; honesty and trustworthiness (abbr. of 诚实守信)", "register": "formal/business/civic"},
+    {"zh": "假冒", "pinyin": "jiǎmào", "meaning": "counterfeit; to pass off as genuine; fake", "register": "formal/legal"},
+    {"zh": "假冒伪劣", "pinyin": "jiǎmào wèiliè", "meaning": "fake and shoddy goods; counterfeit and inferior products", "register": "formal/legal/consumer"},
+    {"zh": "投诉", "pinyin": "tóusù", "meaning": "to file a complaint; complaint; to appeal to a regulatory body", "register": "formal/legal"},
+    {"zh": "协商", "pinyin": "xiéshāng", "meaning": "to negotiate; to consult; negotiation (between parties in a dispute)", "register": "formal/business/legal"},
+    {"zh": "借口", "pinyin": "jièkǒu", "meaning": "excuse; pretext; to use as an excuse", "register": "neutral/colloquial"},
+    {"zh": "交涉", "pinyin": "jiāoshè", "meaning": "to take up a matter with; to negotiate; to deal with (usually an authority or other party)", "register": "formal"},
+    {"zh": "不得不", "pinyin": "bùdébù", "meaning": "have no choice but to; be compelled to; reluctant necessity", "register": "neutral/formal"},
+    {"zh": "交通", "pinyin": "jiāotōng", "meaning": "traffic; transportation; communications infrastructure", "register": "neutral"},
+    {"zh": "地铁", "pinyin": "dìtiě", "meaning": "subway; metro; underground railway", "register": "neutral"},
+    {"zh": "堵车", "pinyin": "dǔchē", "meaning": "traffic jam; to be stuck in traffic", "register": "colloquial"},
+    {"zh": "轻轨", "pinyin": "qīngguǐ", "meaning": "light rail; urban rail transit", "register": "neutral/technical"},
+    {"zh": "高峰期", "pinyin": "gāofēngqī", "meaning": "peak period; rush hour", "register": "neutral/formal"},
+    {"zh": "拥挤", "pinyin": "yōngjǐ", "meaning": "crowded; congested; to be packed (in a space)", "register": "neutral"},
+    {"zh": "一举两得", "pinyin": "yījǔ liǎngdé", "meaning": "kill two birds with one stone; achieve two goals with one action", "register": "idiom/formal"},
+    {"zh": "措施", "pinyin": "cuòshī", "meaning": "measure; step; initiative (policy or administrative)", "register": "formal"},
+    {"zh": "容量", "pinyin": "róngliàng", "meaning": "capacity; volume; carrying capacity (of transit system)", "register": "technical/formal"},
+    {"zh": "文明", "pinyin": "wénmíng", "meaning": "civilized; culturally appropriate (behavior/conduct); civilization", "register": "formal"},
+    {"zh": "节俭", "pinyin": "jiéjiǎn", "meaning": "frugal; thrifty; economical with resources", "register": "formal/positive"},
+    {"zh": "讨价还价", "pinyin": "tǎojiàhuánjià", "meaning": "to bargain; to haggle over price", "register": "colloquial/commercial"},
+    {"zh": "砍价", "pinyin": "kǎnjià", "meaning": "to cut the price; to knock down the asking price in bargaining", "register": "colloquial"},
+    {"zh": "零售", "pinyin": "língshòu", "meaning": "retail; to sell at retail price", "register": "business"},
+    {"zh": "批发", "pinyin": "pīfā", "meaning": "wholesale; to sell in bulk/wholesale", "register": "business"},
+    {"zh": "成交", "pinyin": "chéngjiāo", "meaning": "to close/strike a deal; to complete a transaction; done deal", "register": "business/formal"},
+    {"zh": "赔本", "pinyin": "péibén", "meaning": "to sustain business losses; to run at a loss", "register": "business/colloquial"},
+    {"zh": "赚钱", "pinyin": "zhuànqián", "meaning": "to make money; to earn profit", "register": "neutral/colloquial"},
+    {"zh": "薄利多销", "pinyin": "bólì duōxiāo", "meaning": "small profit margin, high turnover (commercial strategy)", "register": "business idiom"},
+    {"zh": "让利", "pinyin": "rànglì", "meaning": "to offer a discount; to give a price concession; to reduce margin for the customer", "register": "business"},
+    {"zh": "物美价廉", "pinyin": "wùměijiàlián", "meaning": "good quality at a low price; inexpensive but excellent", "register": "idiom/commercial"},
+    {"zh": "络绎不绝", "pinyin": "luòyì bùjué", "meaning": "in an endless stream; coming and going continuously (of customers, traffic)", "register": "literary/formal"},
+    {"zh": "时尚", "pinyin": "shíshàng", "meaning": "fashion; fashionable; trendy; vogue", "register": "neutral/modern"},
+    {"zh": "老板", "pinyin": "lǎobǎn", "meaning": "boss; business owner; proprietor; (informal address to shopkeeper)", "register": "colloquial/business"},
+    {"zh": "预订", "pinyin": "yùdìng", "meaning": "to book/reserve in advance; reservation (hotel, flight, etc.)", "register": "business/formal"},
+    {"zh": "出差", "pinyin": "chūchāi", "meaning": "to go on a business trip; business travel", "register": "business/formal"},
+    {"zh": "航班", "pinyin": "hángbān", "meaning": "flight; scheduled airline service", "register": "business/formal"},
+    {"zh": "折扣", "pinyin": "zhékòu", "meaning": "discount; rebate; price reduction", "register": "business"},
+    {"zh": "安排", "pinyin": "ānpái", "meaning": "to arrange; arrangement; to plan (logistics, schedule)", "register": "neutral/business"},
+    {"zh": "征求", "pinyin": "zhēngqiú", "meaning": "to solicit (opinions, feedback); to seek; to ask for (input)", "register": "formal/business"},
+    {"zh": "需求", "pinyin": "xūqiú", "meaning": "demand; requirement; need (market demand, client requirements)", "register": "formal/business"},
+    {"zh": "企业", "pinyin": "qǐyè", "meaning": "enterprise; corporation; business entity", "register": "formal/business"},
+    {"zh": "知名", "pinyin": "zhīmíng", "meaning": "well-known; famous; prominent (of companies, brands, individuals)", "register": "formal/business"},
+    {"zh": "风采", "pinyin": "fēngcǎi", "meaning": "elegant demeanour; graceful bearing; charisma; grand style", "register": "literary/formal"},
+    {"zh": "高原反应", "pinyin": "gāoyuán fǎnyìng", "meaning": "altitude sickness; altitude reaction", "register": "technical/neutral"},
+    {"zh": "丝绸", "pinyin": "sīchóu", "meaning": "silk (fabric/textile; a common souvenir/trade good)", "register": "neutral/commercial"},
+    {"zh": "别提了", "pinyin": "bié tí le", "meaning": "don't even mention it; too frustrating/annoying to talk about (expresses exasperation)", "register": "colloquial"},
+    {"zh": "非…不可", "pinyin": "fēi…bùkě", "meaning": "must / have no choice but to / simply must (double negation for emphatic necessity)", "register": "semi-formal/spoken"},
+    {"zh": "一举两得", "pinyin": "yījǔ liǎngdé", "meaning": "kill two birds with one stone; two gains from one action", "register": "idiom/formal"}
+  ],
+  "essay_takeaways": [
+    "Register command is a primary skill in business Chinese: The textbook systematically contrasts formal vocabulary (权益、义务、协商、征求) with colloquial terms (讨价还价、砍价、受不了、别提了). Advanced writers should deploy these registers deliberately—formal in reports, proposals, and letters; colloquial in dialogue, narrative scene-setting, and character voice.",
+    "Master the consumer-rights vocabulary cluster as a coherent semantic field: 消费者、权益、义务、侵害、投诉、假冒伪劣、维权、诚信 all appear together in civic and business-ethics contexts. Internalize both full forms and standard abbreviations (维权 = 维护消费者权益; 诚信 = 诚实守信; 三包 = 退货/换货/维修) to operate fluently in complaints, editorials, and formal letters.",
+    "Four-character idioms and fixed expressions create commercial texture: 一分钱一分货, 与众不同, 各取所需, 一举两得, 络绎不绝, 物美价廉, 无微不至, 薄利多销 are high-frequency collocations in business Chinese. Using them signals idiomatic fluency and is expected in polished commercial writing, advertising copy, and business arguments.",
+    "Conditional and concessive patterns are high-yield for persuasive and explanatory prose: 只要…就…, 即使…也…, 凡是…都…, and 何况 are workhorses of Chinese exposition and argumentation. Embedding them correctly—especially 凡是 with 都/总/就, and 何况 in a fortiori reasoning—signals syntactic sophistication and is especially effective in business proposals, consumer-rights arguments, and policy writing.",
+    "Potential complements (V+得/不+了/完/下/到) are non-substitutable and texturally richer than 能/不能: Forms like 买不完, 解决不了, 受不了, 放不下 carry idiomatic weight that bare modals lack. They are emotionally expressive, context-bound, and native-sounding. Build a personal repertoire of the most productive combinations.",
+    "Non-必须 patterns for necessity: 非…不可 is more emphatic and idiomatic than 必须 for expressing truly unavoidable obligation, especially in spoken and semi-formal Chinese. 不得不 covers reluctant necessity ('have no choice but to'). Distinguishing these three necessity markers allows precise gradation of compulsion in business and negotiation contexts.",
+    "Abbreviation and compression are hallmarks of Chinese business register: Standard abbreviated forms (三包, 维权, 诚信, 精通) signal in-group fluency in spoken contexts. Using the full form in formal writing signals clarity and precision. The learner should know both and switch appropriately. The textbook explicitly glosses several abbreviations, signaling their practical importance.",
+    "Street-market and formal-retail Chinese represent two ends of a commercial register spectrum: Xiushui/Dongjiaco market material (亏本、赚钱、薄利、讨价还价、老板、砍价) versus Xidan shopping-center material (促销、三包、信誉、做工、品牌、积分、返券) illustrate this clearly. Controlling the full spectrum—from haggling register to corporate retail register—is essential for authentic and versatile business Chinese writing."
+  ]
+}

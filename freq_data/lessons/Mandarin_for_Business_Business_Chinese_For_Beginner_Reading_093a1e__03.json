@@ -1,0 +1,430 @@
+{
+  "_ocr_note": "OCR quality is severely degraded throughout. Nearly all Chinese character sequences are corrupted (mixed with symbols, fragmented strokes, or replaced by garbled Latin). Most English grammar explanations appear mirror-reversed (each word reversed letter-by-letter). No contiguous Chinese prose passage is recoverable with fidelity. Grammar patterns are inferred from partially-decipherable English grammar notes. Vocabulary terms are derived from the clearly-readable English vocabulary-list definitions, cross-referenced against topic context and pinyin fragments; Chinese characters are the standard forms for those items and are not directly OCR-confirmed. Model essays: zero recoverable.",
+  "model_essays": [],
+  "grammar_patterns": [
+    {
+      "pattern": "连动句 (Serial-Verb Sentence): V1 + O1 + V2 + O2",
+      "explanation": "Two verb phrases appear in sequence with NO conjunction or pause between them. The relationship of V1 to V2 can be: (a) V1 expresses the intention or purpose of V2; (b) V1 expresses the manner or means by which V2 is accomplished; (c) V1 and V2 are consecutive actions. The subject of both VPs is shared. In a semi-clause (subject omitted), there should likewise be no stop or conjunction between the two continuous verb phrases.",
+      "examples": [
+        "他骑自行车去上班。(He rides a bicycle to go to work — V1 expresses manner of V2.)",
+        "我去图书馆借书。(I'm going to the library to borrow books — V1 expresses purpose of V2.)",
+        "她拿着地图走进来。(She walked in holding a map — V1 expresses manner accompanying V2.)",
+        "他关上门走了。(He closed the door and left — consecutive actions.)"
+      ]
+    },
+    {
+      "pattern": "把字句否定 (Negation of the 把 Construction)",
+      "explanation": "The negating adverb (不 or 没) must be placed BEFORE 把, never between 把 and its object. Some verb types can only be negated with 不 (volitional/habitual), others only with 没 (completed action). Verbs such as 放、留、带、告诉 etc. that involve displacement or transfer of an object are typical 把-sentence verbs. The object of 把 must be definite/specific.",
+      "examples": [
+        "你不能把这件事告诉他。(You must not tell him about this matter.)",
+        "他没把行李放好。(He did not put the luggage away properly.)",
+        "请不要把护照丢了。(Please do not lose the passport.)"
+      ]
+    },
+    {
+      "pattern": "反问句 (Rhetorical Question)",
+      "explanation": "A rhetorical interrogative expresses an emphatic assertion rather than requesting information. A positive rhetorical question conveys a negative meaning; a negative rhetorical question conveys a positive meaning. Common markers: 难道…吗, 怎么能…呢, 哪里…呢. The form is interrogative but the communicative intent is declarative and emphatic. Often used in formal writing and persuasive prose for strong effect.",
+      "examples": [
+        "这难道不是事实吗？（这就是事实。）(Isn't this a fact? — It IS a fact.)",
+        "你怎么能这样对待客户呢？（你不应该这样。）(How can you treat clients like this?)",
+        "这件事哪里有那么简单？（一点也不简单。）(Is this matter really that simple? — Not at all.)"
+      ]
+    },
+    {
+      "pattern": "正反问句 (A-not-A Question / Affirmative-Negative Question)",
+      "explanation": "Formed by juxtaposing the positive and negative form of a predicate: V + 不/没 + V, or Adj + 不 + Adj. It presents two alternatives, and the respondent chooses one. Unlike a 吗 question, it carries no presupposition. Answering by repeating the positive or negative form alone (without 是 or subject) is natural. This is a neutral, non-leading way to seek confirmation.",
+      "examples": [
+        "你去不去开会？(Are you going to the meeting or not?)",
+        "他来没来？(Did he come or not?)",
+        "价格合不合适？(Is the price suitable or not?)",
+        "这个方案可行不可行？(Is this plan feasible or not?)"
+      ]
+    },
+    {
+      "pattern": "补语与宾语的语序 (Positioning of Complement vs. Object)",
+      "explanation": "When a verb takes both a result/direction complement AND an object, the usual order is: V + Complement + Object. However, if the complement is a quantified expression (duration or quantity) OR if the object is a pronoun, the object is typically moved BEFORE the complement: V + Object + Complement. Mixing up this order is a common learner error in formal writing.",
+      "examples": [
+        "他写完了报告。(He finished writing the report — result complement before object.)",
+        "我等了他两个小时。(I waited for him for two hours — pronoun object before duration complement.)",
+        "她找到了新工作。(She found a new job — result complement after verb.)",
+        "他们讨论了这个问题三个小时。(They discussed this issue for three hours.)"
+      ]
+    },
+    {
+      "pattern": "插入语 (Parenthetical / Parenthetical Insertions)",
+      "explanation": "A qualifying word, phrase, or clause inserted into a sentence so as to be grammatically independent of the surrounding structure. In written Chinese, parenthetical elements are set off by commas. They add the speaker's attitude, degree of certainty, transition cue, or meta-comment. Common parentheticals: 当然, 显然, 事实上, 换句话说, 总的来说, 总而言之, 一般来说. Mastering these raises the register of written business Chinese.",
+      "examples": [
+        "当然，这只是初步计划。(Of course, this is only a preliminary plan.)",
+        "显然，双方都需要让步。(Obviously, both parties need to compromise.)",
+        "总的来说，项目进展顺利。(Overall, the project is progressing smoothly.)",
+        "换句话说，我们需要调整策略。(In other words, we need to adjust our strategy.)"
+      ]
+    },
+    {
+      "pattern": "连词 既然…就… (Conjunction: since/given that … then …)",
+      "explanation": "既然 introduces a premise that is already established or accepted as fact; 就 introduces the logical conclusion that follows. The premise (既然-clause) often restates something the listener concedes or should concede; the conclusion (就-clause) draws the implication. This is common in formal argument, business negotiation, and persuasive writing. 既然 clause typically comes first; inversion is unusual.",
+      "examples": [
+        "既然双方已经达成共识，就应该尽快签订合同。(Since both parties have reached a consensus, we should sign the contract as soon as possible.)",
+        "既然条件不成熟，就不要急于推进。(Since the conditions are not yet ripe, there is no need to rush ahead.)"
+      ]
+    },
+    {
+      "pattern": "只要…就… / 只有…才… (Conditional Pairs)",
+      "explanation": "只要…就… = 'As long as … then …' (sufficient condition). 只有…才… = 'Only if/when … then …' (necessary condition). These are crucial for logical argumentation in business writing. Confusing the two changes the logical force of the claim significantly. 只有 sets a uniquely necessary condition; 只要 sets a broadly sufficient one.",
+      "examples": [
+        "只要双方诚意合作，就一定能取得成功。(As long as both sides cooperate sincerely, success is certain.)",
+        "只有提高产品质量，才能赢得市场。(Only by improving product quality can we win the market.)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "旅行日程",
+      "pinyin": "lǚxíng rìchéng",
+      "meaning": "travel itinerary / schedule of a trip",
+      "register": "travel/business neutral"
+    },
+    {
+      "zh": "旅行社",
+      "pinyin": "lǚxíngshè",
+      "meaning": "travel agency",
+      "register": "neutral"
+    },
+    {
+      "zh": "景点",
+      "pinyin": "jǐngdiǎn",
+      "meaning": "scenic spot / tourist attraction",
+      "register": "neutral"
+    },
+    {
+      "zh": "预订",
+      "pinyin": "yùdìng",
+      "meaning": "to book / reserve (hotel room, ticket, etc.)",
+      "register": "neutral; standard in business correspondence"
+    },
+    {
+      "zh": "报名",
+      "pinyin": "bàomíng",
+      "meaning": "to sign up / register (for a tour, event, programme)",
+      "register": "neutral"
+    },
+    {
+      "zh": "旅游团",
+      "pinyin": "lǚyóutuán",
+      "meaning": "tour group / touring party",
+      "register": "neutral"
+    },
+    {
+      "zh": "询问",
+      "pinyin": "xúnwèn",
+      "meaning": "to inquire about / ask about",
+      "register": "formal; preferred over 问 in professional writing"
+    },
+    {
+      "zh": "规定",
+      "pinyin": "guīdìng",
+      "meaning": "regulation / rule; to stipulate",
+      "register": "formal/official"
+    },
+    {
+      "zh": "航空",
+      "pinyin": "hángkōng",
+      "meaning": "aviation; airline (as modifier: 航空公司)",
+      "register": "formal/technical"
+    },
+    {
+      "zh": "定期航班",
+      "pinyin": "dìngqī hángbān",
+      "meaning": "scheduled flight",
+      "register": "travel/business formal"
+    },
+    {
+      "zh": "提前",
+      "pinyin": "tíqián",
+      "meaning": "in advance / ahead of schedule; to move up (a date)",
+      "register": "neutral; very common in business communication"
+    },
+    {
+      "zh": "提供",
+      "pinyin": "tígōng",
+      "meaning": "to provide / supply / offer",
+      "register": "formal; standard in contracts and proposals"
+    },
+    {
+      "zh": "担心",
+      "pinyin": "dānxīn",
+      "meaning": "to worry about; concern",
+      "register": "neutral"
+    },
+    {
+      "zh": "旅程",
+      "pinyin": "lǚchéng",
+      "meaning": "journey / itinerary (more literary than 行程)",
+      "register": "neutral to literary"
+    },
+    {
+      "zh": "行程",
+      "pinyin": "xíngchéng",
+      "meaning": "itinerary / schedule (of travel); distance travelled",
+      "register": "neutral; common in business travel contexts"
+    },
+    {
+      "zh": "纪念品",
+      "pinyin": "jìniànpǐn",
+      "meaning": "souvenir / memento",
+      "register": "neutral"
+    },
+    {
+      "zh": "单独",
+      "pinyin": "dāndú",
+      "meaning": "alone / independently / on one's own",
+      "register": "neutral"
+    },
+    {
+      "zh": "必要",
+      "pinyin": "bìyào",
+      "meaning": "necessary / essential (adj); necessity (n)",
+      "register": "formal; 有必要 = 'it is necessary to'"
+    },
+    {
+      "zh": "专栏",
+      "pinyin": "zhuānlán",
+      "meaning": "column (in a newspaper/magazine); special section",
+      "register": "media/publishing"
+    },
+    {
+      "zh": "发表",
+      "pinyin": "fābiǎo",
+      "meaning": "to publish / release; to deliver (a speech or statement)",
+      "register": "formal; 发表声明 = issue a statement; 发表文章 = publish an article"
+    },
+    {
+      "zh": "折扣",
+      "pinyin": "zhékòu",
+      "meaning": "discount; 打折 = to offer a discount",
+      "register": "commercial"
+    },
+    {
+      "zh": "随便",
+      "pinyin": "suíbiàn",
+      "meaning": "casually / as one pleases; informal; whatever (you like)",
+      "register": "colloquial; avoid in formal writing — signals informality"
+    },
+    {
+      "zh": "改进",
+      "pinyin": "gǎijìn",
+      "meaning": "to improve / to make improvements (in process, method, quality)",
+      "register": "formal/business; distinct from 改善 (improve conditions/situations) and 提高 (raise a level)"
+    },
+    {
+      "zh": "热情",
+      "pinyin": "rèqíng",
+      "meaning": "enthusiasm; warm / enthusiastic (adj)",
+      "register": "neutral; positive quality often cited in business/hospitality contexts"
+    },
+    {
+      "zh": "潜力",
+      "pinyin": "qiánlì",
+      "meaning": "potential / latent capacity",
+      "register": "formal; 发挥潜力 = bring out potential; 市场潜力 = market potential"
+    },
+    {
+      "zh": "促进",
+      "pinyin": "cùjìn",
+      "meaning": "to promote / facilitate / advance (a process, relationship, development)",
+      "register": "formal; standard in business and official discourse — 促进合作, 促进发展"
+    },
+    {
+      "zh": "预测",
+      "pinyin": "yùcè",
+      "meaning": "to forecast / predict; forecast (n)",
+      "register": "formal/technical; 市场预测 = market forecast"
+    },
+    {
+      "zh": "主动",
+      "pinyin": "zhǔdòng",
+      "meaning": "proactive / on one's own initiative; active (as opposed to passive)",
+      "register": "formal/business; 主动联系 = proactively reach out; 采取主动 = take initiative"
+    },
+    {
+      "zh": "经验",
+      "pinyin": "jīngyàn",
+      "meaning": "experience (accumulated); 有经验 = experienced",
+      "register": "neutral"
+    },
+    {
+      "zh": "需求",
+      "pinyin": "xūqiú",
+      "meaning": "requirement / demand / need (especially market or client demand)",
+      "register": "formal/business; 市场需求 = market demand; more precise than 需要 in commercial contexts"
+    },
+    {
+      "zh": "分析",
+      "pinyin": "fēnxī",
+      "meaning": "to analyze; analysis (n)",
+      "register": "formal; 数据分析 = data analysis; 深入分析 = in-depth analysis"
+    },
+    {
+      "zh": "出色",
+      "pinyin": "chūsè",
+      "meaning": "outstanding / excellent / remarkable",
+      "register": "formal/written; stronger and more literary than 好; 出色的成绩 = outstanding results"
+    },
+    {
+      "zh": "报告",
+      "pinyin": "bàogào",
+      "meaning": "report (n/v); to report",
+      "register": "formal; 工作报告 = work report; 提交报告 = submit a report"
+    },
+    {
+      "zh": "数据",
+      "pinyin": "shùjù",
+      "meaning": "data / figures / statistics",
+      "register": "formal/technical; 数据显示 = data shows; 根据数据 = based on data"
+    },
+    {
+      "zh": "观点",
+      "pinyin": "guāndiǎn",
+      "meaning": "point of view / perspective / standpoint",
+      "register": "formal; 从…的观点来看 = from the perspective of …"
+    },
+    {
+      "zh": "保证",
+      "pinyin": "bǎozhèng",
+      "meaning": "to guarantee / ensure; guarantee (n)",
+      "register": "formal; 保证质量 = guarantee quality; 无法保证 = cannot guarantee"
+    },
+    {
+      "zh": "信誉",
+      "pinyin": "xìnyù",
+      "meaning": "reputation / credibility / prestige (of a company or person)",
+      "register": "formal/business; 维护信誉 = maintain reputation; 信誉良好 = good standing"
+    },
+    {
+      "zh": "进一步",
+      "pinyin": "jìn yī bù",
+      "meaning": "further / to a greater degree / one step further",
+      "register": "formal; 进一步了解 = to further understand; 进一步合作 = further cooperation"
+    },
+    {
+      "zh": "气候",
+      "pinyin": "qìhòu",
+      "meaning": "climate (literal); also used figuratively: 投资气候 = investment climate",
+      "register": "neutral to formal"
+    },
+    {
+      "zh": "增加",
+      "pinyin": "zēngjiā",
+      "meaning": "to increase / add to / augment",
+      "register": "neutral/formal; 增加收入 = increase income; 增加销量 = boost sales"
+    },
+    {
+      "zh": "发达",
+      "pinyin": "fādá",
+      "meaning": "developed / prosperous; 发达国家 = developed country",
+      "register": "formal"
+    },
+    {
+      "zh": "普通",
+      "pinyin": "pǔtōng",
+      "meaning": "ordinary / common / average; 普通人 = ordinary people",
+      "register": "neutral"
+    },
+    {
+      "zh": "象征",
+      "pinyin": "xiàngzhēng",
+      "meaning": "to symbolize; symbol (n); symbolic (adj form: 象征性)",
+      "register": "formal/written"
+    },
+    {
+      "zh": "总的来说",
+      "pinyin": "zǒng de lái shuō",
+      "meaning": "generally speaking / overall; discourse connector to summarize",
+      "register": "formal/written; standard transition in essays and reports"
+    },
+    {
+      "zh": "换句话说",
+      "pinyin": "huàn jù huà shuō",
+      "meaning": "in other words; discourse connector for paraphrase or clarification",
+      "register": "formal/written"
+    },
+    {
+      "zh": "值得注意的是",
+      "pinyin": "zhídé zhùyì de shì",
+      "meaning": "it is worth noting that; it should be noted that",
+      "register": "formal/written; strong rhetorical opener for highlighting a key point"
+    },
+    {
+      "zh": "根据",
+      "pinyin": "gēnjù",
+      "meaning": "based on / according to; basis / grounds (n)",
+      "register": "formal; 根据数据 = based on data; 根据合同 = per the contract"
+    },
+    {
+      "zh": "处理",
+      "pinyin": "chǔlǐ",
+      "meaning": "to handle / deal with / process",
+      "register": "formal/business; 处理业务 = handle business affairs; 妥善处理 = handle properly"
+    },
+    {
+      "zh": "安排",
+      "pinyin": "ānpái",
+      "meaning": "to arrange / plan / schedule; arrangement (n)",
+      "register": "neutral/formal; 行程安排 = travel arrangement; 合理安排 = reasonable scheduling"
+    },
+    {
+      "zh": "确认",
+      "pinyin": "quèrèn",
+      "meaning": "to confirm / verify; confirmation",
+      "register": "formal/business; standard in correspondence: 请确认收到 = please confirm receipt"
+    },
+    {
+      "zh": "接待",
+      "pinyin": "jiēdài",
+      "meaning": "to receive (guests) / to host; reception (n)",
+      "register": "formal/hospitality; 接待客户 = receive clients; 热情接待 = warm reception"
+    }
+  ],
+  "essay_takeaways": [
+    {
+      "lesson": "Use serial-verb sentences to compress action sequences without conjunctions",
+      "detail": "In Chinese, two VPs can be chained directly with no 和/然后/并且 between them: Subject + V1 + O1 + V2 + O2. This is not only grammatical but preferred in formal writing. English learners over-use 然后 or 并且; dropping them produces crisper, more native-sounding prose. Reserve conjunctions for when the logical relationship needs marking (contrast, cause, concession)."
+    },
+    {
+      "lesson": "Rhetorical questions are a powerful device in Chinese persuasive and business writing",
+      "detail": "Chinese business and professional writing regularly employs rhetorical questions (难道不…吗？怎么能…呢？) to assert a point emphatically without stating it flatly. This raises argumentative force and engages the reader. In English this can sound combative; in Chinese it is a fully accepted formal register device. Practice crafting a point as a rhetorical question as an alternative to a blunt assertion."
+    },
+    {
+      "lesson": "Distinguish 改进, 改善, 提高, and 增强 for precision in business writing",
+      "detail": "These four all relate to 'making something better' but differ: 改进 = improve a method/process/product (operational); 改善 = improve conditions/situations/environment; 提高 = raise a level or standard (quantifiable); 增强 = strengthen (capacity, ability, confidence). Confusing them reads as imprecise. Prefer 改进效率 (operational improvement), 改善环境 (environmental improvement), 提高质量 (quality levels), 增强竞争力 (strengthen competitiveness)."
+    },
+    {
+      "lesson": "Master the 只要…就…／只有…才… distinction for logical argumentation",
+      "detail": "Business proposals and reports often argue for conditions and outcomes. 只要 sets a sufficient condition ('as long as X, then Y follows'), while 只有 sets a necessary condition ('only by X can Y be achieved'). 只有 is the stronger, more exclusive claim and is often found in persuasive contexts where you want to argue that your solution is the ONLY path. Misusing them weakens the logical structure of an argument."
+    },
+    {
+      "lesson": "Use formal vocabulary variants rather than everyday words to lift register",
+      "detail": "Business Chinese consistently prefers Sino-compound formal variants over colloquial equivalents: 询问 (not 问), 提供 (not 给), 保证 (not 说好), 处理 (not 弄), 安排 (not 弄好), 确认 (not 确定好). At HSK 5-6 level, the vocabulary is known; the challenge is deploying the formal variant as the default, not as a deliberate choice each time."
+    },
+    {
+      "lesson": "Discourse connectors are the skeleton of a well-organized Chinese essay",
+      "detail": "The textbook drills connectors extensively because they signal logical structure. Key pairs to internalize: 首先…其次…最后 (firstly/secondly/finally), 一方面…另一方面 (on one hand/on the other), 不仅…而且 (not only…but also), 虽然…但是 (although…yet), 既然…就 (since…then), 只要…就／只有…才. Without these, even accurate sentences sound disconnected. In professional writing, a paragraph without a visible connector at the start is often perceived as loosely organized."
+    },
+    {
+      "lesson": "In travel and hospitality business writing, master the collocations not just the words",
+      "detail": "Key collocations from this domain that appear in professional correspondence and reports: 安排行程 (arrange an itinerary), 提前预订 (book in advance), 核实信息 (verify information), 提供服务 (provide service), 满足需求 (meet requirements/demand), 确保质量 (ensure quality), 维护信誉 (maintain reputation), 促进合作 (promote cooperation). Memorizing these as chunks, not word-by-word, is more efficient and produces idiomatic output."
+    },
+    {
+      "lesson": "The complement-object word order trap: always resolve ambiguity with structure, not guessing",
+      "detail": "When a verb has both a result complement and an object, the default is V + Complement + Object (写完报告). But with pronoun objects or duration/quantity complements, the object comes before the complement (等了他两个小时). This asymmetry is a consistent source of errors. In business writing, incorrect word order in complement-object structures reads as elementary-level mistakes — worth drilling explicitly even at HSK 5-6."
+    },
+    {
+      "lesson": "主动 is a high-value professional register word",
+      "detail": "主动 (proactive, on one's own initiative) appears across Chinese professional contexts: 主动联系 (proactively reach out), 主动解决问题 (take initiative in solving problems), 主动承担责任 (proactively take responsibility). It signals a positive, can-do professional attitude and is a strong word to use in cover letters, self-evaluations, and business proposals. Its antonym 被动 (passive, reactive) is used to critique undesirable attitudes."
+    },
+    {
+      "lesson": "Use parenthetical elements (插入语) to add authorial voice and hedging in formal writing",
+      "detail": "Parentheticals like 当然 (of course), 显然 (obviously), 事实上 (in fact), 总的来说 (generally speaking), 一般来说 (generally), 相对来说 (relatively speaking) allow the writer to modulate certainty and add meta-commentary without disrupting the sentence structure. They are characteristic of confident, sophisticated written Chinese. An advanced writer uses them naturally at clause boundaries; a beginner avoids them and produces flat, unvarying prose."
+    }
+  ]
+}

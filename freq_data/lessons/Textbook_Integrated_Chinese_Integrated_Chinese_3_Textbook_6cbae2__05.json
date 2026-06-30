@@ -1,0 +1,322 @@
+{
+  "model_essays": [
+    {
+      "title": "中国地理",
+      "genre": "expository paragraph / geography description",
+      "text": "中国的面积很大。西边是高原，那儿有世界上最高的山，而东边是平原和大海，所以中国的河流，大多是从西往东流。因为东部和南部自然条件比较好，所以人口主要在这些地方，大城市也都靠海或者离海不远。而中国的西南，高山、高原多，西北呢，沙漠多，自然条件不太好，所以人口比较少。",
+      "summary": "A concise expository paragraph describing China's geography: the high plateau in the west contrasting with eastern plains and sea; eastward river flow driven by terrain; concentration of population and major cities along the coast due to favorable natural conditions; sparse population in the mountainous southwest and desert northwest.",
+      "why_study": "The textbook presents this explicitly as a 'Keep It Flowing' model, highlighting its cohesive devices. It demonstrates how to use conjunctions, anaphoric place pronouns, causal constructions, and the topic marker 呢 to chain short sentences into fluent expository prose. The register is clean, semi-formal, and directly transferable to academic writing, geography presentations, or any topic requiring logical spatial/causal sequencing.",
+      "key_devices": [
+        "而 as contrastive conjunction between parallel clauses (西边是高原…而东边是平原和大海)",
+        "那儿 as anaphoric place pronoun linking back to the previously mentioned location (西边是高原，那儿有…)",
+        "因为…所以… explicit cause-effect frame making the logical chain transparent",
+        "也 as additive connective within a clause (大城市也都靠海)",
+        "Sentence-initial 而 to pivot to a contrasting new topic (而中国的西南，高山、高原多)",
+        "X呢 topic marker introducing a parallel comparison (西北呢，沙漠多)",
+        "大多 as formal adverb for 'mostly / for the most part' (大多是从西往东流)",
+        "Parallel repetition of 所以 to build layered causal structure"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "而 (contrastive/connective conjunction)",
+      "explanation": "而 connects two clauses or noun phrases in contrast or complementary relationship ('while / whereas / but / and yet'). More formal and tighter than 但是/可是. Can appear mid-sentence or sentence-initially to pivot to a contrasting topic.",
+      "examples": [
+        "西边是高原，而东边是平原和大海 (The west is plateau, while the east is plains and sea)",
+        "而中国的西南，高山、高原多 (As for China's southwest — pivots to a contrasting sub-topic)",
+        "不是不想去，而是没有时间 (It's not that I don't want to go, but that I have no time)"
+      ]
+    },
+    {
+      "pattern": "不是…而是… (it's not X, but rather Y)",
+      "explanation": "Emphatic correction: denies one description and replaces it with the true one. Common in both speech and formal writing. More direct and emphatic than 不是…是…",
+      "examples": [
+        "这不是问题，而是机会 (This is not a problem but an opportunity)",
+        "他的成功不是偶然的，而是努力的结果 (His success is not accidental but the result of hard work)"
+      ]
+    },
+    {
+      "pattern": "因为…所以… (explicit cause-effect chain)",
+      "explanation": "Both halves present in formal/written Chinese, making the logic fully transparent. In speech one half may be dropped, but in expository writing keeping both signals rigor. Often chains multiple instances to build paragraph structure.",
+      "examples": [
+        "因为东部和南部自然条件比较好，所以人口主要在这些地方 (Because natural conditions are better in the east and south, most people live there)",
+        "因为签证还没办好，所以我只好推迟出发 (Because the visa wasn't settled, I had no choice but to delay departure)"
+      ]
+    },
+    {
+      "pattern": "X呢 as topic marker / parallel-contrast introducer",
+      "explanation": "Placing 呢 after a topic noun or phrase signals a new parallel element for contrast or comparison — 'As for X, ...' or 'And what about X?'. Compact and conversational in feel but structurally elegant for building parallel descriptions.",
+      "examples": [
+        "西北呢，沙漠多，自然条件不太好 (As for the northwest, there are many deserts and conditions are poor)",
+        "这个问题解决了。那个问题呢？ (This problem is solved. What about that one?)",
+        "你的意见我明白了。他呢？ (I understand your view. What about his?)"
+      ]
+    },
+    {
+      "pattern": "要么…要么… (either...or...)",
+      "explanation": "Presents two mutually exclusive alternatives. Slightly more colloquial than 或者 and implies that one of the two is inevitable. Common in reasoning and debate.",
+      "examples": [
+        "要么坐飞机，要么坐火车，你来决定 (Either fly or take the train — you decide)",
+        "他这个人，要么不做，要么做得非常好 (He either doesn't do it at all or does it extremely well)"
+      ]
+    },
+    {
+      "pattern": "非…不可 (must; there is absolutely no alternative)",
+      "explanation": "Double-negative emphatic construction meaning 'must / absolutely have to'. Stronger and more literary than 一定要 or 得. The thing after 非 is what is required; 不可 closes the negation.",
+      "examples": [
+        "这件事非你去不可 (This matter absolutely requires you to go — no one else will do)",
+        "他非拿到那个奖学金不可 (He absolutely must get that scholarship)"
+      ]
+    },
+    {
+      "pattern": "无论…都… (no matter what/who/how/where...)",
+      "explanation": "Universal concessive: 'No matter X, the result is always Y'. The 都 in the result clause is obligatory. Formal register; 不管…都… is the colloquial equivalent.",
+      "examples": [
+        "无论价钱多少，我都要买 (Regardless of the price, I'll buy it)",
+        "无论遇到什么困难，我们都要坚持 (No matter what difficulties we face, we must persevere)"
+      ]
+    },
+    {
+      "pattern": "A是A，可是/就是… (concessive acknowledgment: 'it is indeed A, but...')",
+      "explanation": "Acknowledges a quality before introducing a reservation. The repeated predicate softens the contrast and signals balanced judgment. Very common in spoken Mandarin; also effective in written commentary.",
+      "examples": [
+        "好看是好看，可是哈尔滨现在冷得不得了 (It is indeed beautiful, but Harbin is incredibly cold right now)",
+        "这个办法好是好，就是太费时间 (This approach is good, it's just too time-consuming)"
+      ]
+    },
+    {
+      "pattern": "V/Adj 得不得了 (extremely; to an unbearable degree)",
+      "explanation": "Complement of degree expressing extreme intensity — much stronger than 很/非常. Pattern: Adj/V + 得不得了. Common in speech and informal writing.",
+      "examples": [
+        "冷得不得了 (incredibly / unbearably cold)",
+        "挤得不得了 (incredibly crowded)",
+        "高兴得不得了 (overjoyed)"
+      ]
+    },
+    {
+      "pattern": "大多 (mostly; for the most part) — adverb",
+      "explanation": "Formal/literary adverb meaning 'most' or 'the majority'. Modifies a predicate directly. More authoritative in written description than 大部分 + N, which is a noun phrase.",
+      "examples": [
+        "中国的河流，大多是从西往东流 (Most of China's rivers flow from west to east)",
+        "与会者大多是学者 (Most of those attending the meeting were scholars)",
+        "他的建议大多被采纳了 (Most of his suggestions were adopted)"
+      ]
+    },
+    {
+      "pattern": "越来越… (more and more...)",
+      "explanation": "Marks gradual intensification of a quality or action over time. Works with adjectives and some verbs. Common in both speech and writing.",
+      "examples": [
+        "随着经济的发展，城市越来越大 (As the economy develops, cities are getting bigger and bigger)",
+        "她的汉语越来越流利了 (Her Chinese is becoming more and more fluent)"
+      ]
+    },
+    {
+      "pattern": "连…都/也… (even... [emphatic inclusion])",
+      "explanation": "Emphasizes that even an extreme or unlikely case is included, implying all less extreme cases are also true. 都 and 也 are interchangeable here.",
+      "examples": [
+        "连基本的汉字都不认识 (Doesn't even know basic Chinese characters — implying their level is very low)",
+        "连她都觉得太难了 (Even she found it too difficult — implying she is highly capable)"
+      ]
+    },
+    {
+      "pattern": "说不定 / 不见得 (hedging expressions for uncertainty)",
+      "explanation": "说不定 (maybe, hard to say) softens a claim about a future or uncertain outcome. 不见得 (not necessarily) pushes back on an assumption. Both are more colloquial and nuanced than 也许/可能.",
+      "examples": [
+        "说不定他今天不来了 (Maybe he won't come today after all)",
+        "有钱不见得就幸福 (Having money doesn't necessarily mean being happy)"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "衣食住行",
+      "pinyin": "yī shí zhù xíng",
+      "meaning": "The four basic necessities of life: clothing, food, shelter, and transportation. A compact cultural frame for discussing livelihood, daily life, or social conditions.",
+      "register": "formal/literary; common in written commentary, journalism, and social discourse"
+    },
+    {
+      "zh": "人山人海",
+      "pinyin": "rén shān rén hǎi",
+      "meaning": "Huge crowds of people (lit. mountains and seas of people). Describes any extremely crowded public space or event. More vivid and idiomatic than 很多人.",
+      "register": "idiomatic 四字词语; widely used in speech and writing"
+    },
+    {
+      "zh": "四季如春",
+      "pinyin": "sìjì rú chūn",
+      "meaning": "Spring-like all year round. Set description for a mild, temperate climate. Iconic for places like Kunming (Yunnan). Useful in any description of climate advantages.",
+      "register": "set phrase; descriptive/literary"
+    },
+    {
+      "zh": "丢三拉四",
+      "pinyin": "diū sān là sì",
+      "meaning": "Scatterbrained, forgetful, disorganized (lit. lose three, leave behind four). Describes habitual absent-mindedness.",
+      "register": "colloquial/idiomatic; slightly critical"
+    },
+    {
+      "zh": "一干二净",
+      "pinyin": "yì gān èr jìng",
+      "meaning": "Completely and thoroughly (lit. one dry, two clean). Often used as a complement after verbs: 吃得一干二净 (ate every last bit), 忘得一干二净 (completely forgot).",
+      "register": "colloquial/idiomatic; emphatic"
+    },
+    {
+      "zh": "望子成龙 / 望女成凤",
+      "pinyin": "wàng zǐ chéng lóng / wàng nǚ chéng fèng",
+      "meaning": "To hope one's son becomes a dragon / daughter becomes a phoenix — i.e., to have high ambitions for one's children. The quintessential expression of Chinese parental aspiration. Useful in education, family, and social commentary.",
+      "register": "literary/idiomatic; very common in discussions of education and family values"
+    },
+    {
+      "zh": "一言为定",
+      "pinyin": "yì yán wéi dìng",
+      "meaning": "That settles it; it's a deal (lit. one word is definitive). Used to seal an agreement or confirm a commitment. Interchangeable with 说好了.",
+      "register": "colloquial/idiomatic; slightly formal-sounding"
+    },
+    {
+      "zh": "一路平安",
+      "pinyin": "yí lù píng'ān",
+      "meaning": "Have a safe journey / bon voyage. Standard farewell when seeing someone off on a trip. Warm and broadly appropriate.",
+      "register": "fixed phrase; warm/polite"
+    },
+    {
+      "zh": "打交道",
+      "pinyin": "dǎ jiāodào",
+      "meaning": "To deal with, to have dealings with (people or organizations). Implies repeated or ongoing interaction. More specific than 联系 or 接触; often slightly wary in connotation.",
+      "register": "colloquial; professional and personal contexts"
+    },
+    {
+      "zh": "不见得",
+      "pinyin": "bújiànde",
+      "meaning": "Not necessarily; not for certain. A gentle hedge that pushes back on an assumption without strong negation.",
+      "register": "colloquial; useful for polite disagreement"
+    },
+    {
+      "zh": "说不定",
+      "pinyin": "shuōbudìng",
+      "meaning": "Perhaps, maybe — implying genuine uncertainty. Slightly more colloquial than 也许/可能, with a nuance of 'who knows, it could go either way'.",
+      "register": "colloquial"
+    },
+    {
+      "zh": "实际上",
+      "pinyin": "shíjìshang",
+      "meaning": "In fact; in reality; actually. Introduces the real situation vs. a misconception or surface appearance. Slightly more formal and analytical than 其实; preferred in written argumentation.",
+      "register": "semi-formal; both speech and writing"
+    },
+    {
+      "zh": "难怪",
+      "pinyin": "nánguài",
+      "meaning": "No wonder; it's no surprise that. Used when a previously puzzling thing now makes sense given new information.",
+      "register": "colloquial; expressive"
+    },
+    {
+      "zh": "良好",
+      "pinyin": "liánghǎo",
+      "meaning": "Good, fine — literary/formal adjective. Used in written Chinese where plain 好 would be tonally inadequate. Key collocations: 良好的习惯 (good habits), 良好的合作关系 (a good working relationship), 关系良好 (the relationship is sound).",
+      "register": "formal/literary; prefer in written and professional contexts over 好"
+    },
+    {
+      "zh": "受不了",
+      "pinyin": "shòu bu liǎo",
+      "meaning": "Cannot stand it; unable to bear it. Expresses that something exceeds one's tolerance. Very common and expressive.",
+      "register": "colloquial; emphatic"
+    },
+    {
+      "zh": "取得",
+      "pinyin": "qǔdé",
+      "meaning": "To obtain, achieve, or gain. More formal than 得到; the default verb for achievements and formal outcomes. Key collocations: 取得成绩 (achieve results), 取得联系 (make contact), 取得共识 (reach consensus), 取得进展 (make progress).",
+      "register": "formal/written; standard in professional and academic contexts"
+    },
+    {
+      "zh": "到底",
+      "pinyin": "dàodǐ",
+      "meaning": "What on earth; in the end; after all. In questions: adds urgency or exasperation (到底怎么了? — What on earth is going on?). In statements: 'ultimately / in the final analysis'.",
+      "register": "colloquial in questions; literary in statements"
+    },
+    {
+      "zh": "根本",
+      "pinyin": "gēnběn",
+      "meaning": "At all; simply (in negative sentences). 根本不/没 = simply not / not at all — stronger and more emphatic than 完全不. Also used as an adjective meaning 'fundamental / root-level'.",
+      "register": "emphatic/colloquial when used as adverb; neutral as adjective"
+    },
+    {
+      "zh": "落伍",
+      "pinyin": "luòwǔ",
+      "meaning": "To lag behind; to be outdated; to fall out of step with the times. Used for people or practices that haven't kept up with current trends.",
+      "register": "colloquial; mildly critical"
+    },
+    {
+      "zh": "地道",
+      "pinyin": "dìdao",
+      "meaning": "Authentic; genuine; true-to-form. Used for food, language, skills, or cultural practices: 地道的广东话 (authentic Cantonese), 地道的做法 (the genuine/proper way to do it).",
+      "register": "colloquial; evaluative/appreciative"
+    },
+    {
+      "zh": "省下来",
+      "pinyin": "shěng xia lai",
+      "meaning": "To save (money or time) — with the resultative complement 下来 indicating the resource has been successfully preserved and is now in hand. More concrete and vivid than plain 省.",
+      "register": "colloquial/practical"
+    },
+    {
+      "zh": "影响",
+      "pinyin": "yǐngxiǎng",
+      "meaning": "To influence; to have an impact (v.) / influence (n.). Key collocations: 对…有影响 (have influence on), 受…影响 (be influenced by), 影响深远 (far-reaching influence).",
+      "register": "neutral; both formal and informal"
+    },
+    {
+      "zh": "减轻负担",
+      "pinyin": "jiǎnqīng fùdān",
+      "meaning": "To lighten / reduce a burden. Standard collocation in discussions of education pressure, financial stress, or work overload.",
+      "register": "semi-formal; common in media, policy discourse, and social commentary"
+    },
+    {
+      "zh": "路线",
+      "pinyin": "lùxiàn",
+      "meaning": "Route; itinerary; line (of policy or ideology). Travel sense: the planned route. Also used in political discourse for 'political line'. More formal than 路.",
+      "register": "neutral to formal depending on context"
+    },
+    {
+      "zh": "建议",
+      "pinyin": "jiànyì",
+      "meaning": "Suggestion / to suggest. The standard word for making professional or polite recommendations. Key frames: 我有个建议 (I have a suggestion), 建议您… (I suggest you…), 提出建议 (put forward a suggestion).",
+      "register": "semi-formal; essential in professional and business writing"
+    },
+    {
+      "zh": "安排",
+      "pinyin": "ānpái",
+      "meaning": "To arrange; to plan; to schedule (v.) / arrangement (n.). The default word for organizing plans, schedules, or logistics. 安排行程 (arrange an itinerary), 做好安排 (make proper arrangements).",
+      "register": "neutral; very common in professional and personal planning"
+    },
+    {
+      "zh": "经验",
+      "pinyin": "jīngyàn",
+      "meaning": "Experience (concrete, lived experience); to experience. Distinguished from 经历 (experience as a sequence of events). 有经验 (experienced), 积累经验 (accumulate experience), 分享经验 (share experience).",
+      "register": "neutral; both formal and informal"
+    },
+    {
+      "zh": "条件",
+      "pinyin": "tiáojiàn",
+      "meaning": "Condition; requirement; circumstance. 自然条件 (natural conditions), 生活条件 (living conditions), 条件成熟 (conditions are ripe), 有条件 (have the means/resources).",
+      "register": "neutral; versatile across registers"
+    },
+    {
+      "zh": "人口",
+      "pinyin": "rénkǒu",
+      "meaning": "Population. 人口众多 (large population), 人口分布 (population distribution), 人口流动 (population mobility). Essential for geography, demographics, and social commentary.",
+      "register": "neutral/formal; standard in academic and journalistic writing"
+    }
+  ],
+  "essay_takeaways": [
+    "Use 而 instead of 但是/可是 for formal contrast in expository prose. It is leaner, avoids the slightly complaining tone of 可是, and signals a more polished register.",
+    "Deploy anaphoric place pronouns (那儿/这些地方) to avoid repeating location nouns across sentences — as in the model: 西边是高原，那儿有世界上最高的山. This is a key cohesion strategy.",
+    "Make causal logic explicit with both halves of 因为…所以… in formal writing. Omitting the second half may feel natural in speech, but in expository prose, completing the frame demonstrates rigor.",
+    "Use the topic marker X呢 to introduce parallel comparisons efficiently: 西北呢，沙漠多… It signals a structured comparison without an awkward transition sentence.",
+    "Prefer 大多 as an adverb for 'mostly' in written descriptions (大多是从西往东流) over the wordier 大部分…都是. It creates a cleaner, more authoritative sentence rhythm.",
+    "Reserve 良好 for written and professional contexts where plain 好 would feel too casual. Key professional collocations: 良好的合作关系, 建立良好的沟通, 保持良好状态.",
+    "Use 取得 + abstract achievement noun in professional writing: 取得成绩 (achieve results), 取得联系 (establish contact), 取得共识 (reach consensus). This verb elevates register markedly over 得到.",
+    "Master the concessive pattern A是A，可是/就是B for balanced judgments. It shows you can acknowledge a point before qualifying it — a hallmark of nuanced argumentation.",
+    "Invoke 衣食住行 and 人山人海 to demonstrate cultural fluency. These four-character expressions signal native-like register and are broadly applicable in social, travel, and policy contexts.",
+    "Use 实际上 (rather than 其实) when correcting a misconception in analytical writing. It carries a slightly more distanced, objective tone — better for academic prose.",
+    "The parental-aspiration idioms 望子成龙/望女成凤 are essential for discussing Chinese education culture. Invoking them in the right context signals deep familiarity with social discourse.",
+    "Use 到底 in rhetorical or exasperated questions to add emotional weight: 到底是为什么？到底去不去？This is far more expressive and colloquially natural than a plain question.",
+    "When building a paragraph comparing geographic or social regions, follow this structure: (1) general claim, (2) first sub-topic with 而, (3) anaphoric link, (4) causal inference with 因为/所以, (5) second sub-topic with 而/X呢 + parallel causal inference. The 中国地理 model paragraph is a template for this structure."
+  ]
+}

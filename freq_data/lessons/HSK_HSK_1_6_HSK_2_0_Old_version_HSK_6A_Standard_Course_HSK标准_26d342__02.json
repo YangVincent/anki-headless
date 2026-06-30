@@ -1,0 +1,307 @@
+{
+  "model_essays": [],
+  "grammar_patterns": [],
+  "expressions": [
+    {
+      "zh": "拔苗助长",
+      "pinyin": "bá miáo zhù zhǎng",
+      "meaning": "to pull up seedlings to help them grow — spoiling things through excessive impatience or haste",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "饱经沧桑",
+      "pinyin": "bǎo jīng cāng sāng",
+      "meaning": "to have witnessed or experienced many changes and hardships in life; weathered and battle-hardened",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "博大精深",
+      "pinyin": "bó dà jīng shēn",
+      "meaning": "extensive and profound — typically describing a culture, discipline, or body of knowledge",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "不择手段",
+      "pinyin": "bù zé shǒu duàn",
+      "meaning": "by fair means or foul; using any available method without scruples",
+      "register": "成语／书面语，贬义"
+    },
+    {
+      "zh": "不可思议",
+      "pinyin": "bù kě sī yì",
+      "meaning": "inconceivable, unimaginable; beyond comprehension",
+      "register": "成语"
+    },
+    {
+      "zh": "得不偿失",
+      "pinyin": "dé bù cháng shī",
+      "meaning": "the loss outweighs the gain; not worth the cost",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "废寝忘食",
+      "pinyin": "fèi qǐn wàng shí",
+      "meaning": "so engrossed as to forget eating and sleeping; total absorption in a task",
+      "register": "成语／书面语，褒义"
+    },
+    {
+      "zh": "各抒己见",
+      "pinyin": "gè shū jǐ jiàn",
+      "meaning": "each person freely expresses their own opinion; open discussion",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "举世瞩目",
+      "pinyin": "jǔ shì zhǔ mù",
+      "meaning": "to attract worldwide attention; drawing the eyes of the world",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "空前绝后",
+      "pinyin": "kōng qián jué hòu",
+      "meaning": "unprecedented and unrepeatable; without parallel in history or the future",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "见多识广",
+      "pinyin": "jiàn duō shí guǎng",
+      "meaning": "experienced and knowledgeable; well-versed through exposure",
+      "register": "成语／书面语，褒义"
+    },
+    {
+      "zh": "精打细算",
+      "pinyin": "jīng dǎ xì suàn",
+      "meaning": "careful calculation and strict budgeting; meticulous planning of resources",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "津津有味",
+      "pinyin": "jīn jīn yǒu wèi",
+      "meaning": "with great relish; eagerly enjoying something (food, story, task)",
+      "register": "成语"
+    },
+    {
+      "zh": "小心翼翼",
+      "pinyin": "xiǎo xīn yì yì",
+      "meaning": "with utmost caution and care; gingerly, on tiptoe",
+      "register": "成语"
+    },
+    {
+      "zh": "心甘情愿",
+      "pinyin": "xīn gān qíng yuàn",
+      "meaning": "most willingly; to do something gladly of one's own accord",
+      "register": "成语"
+    },
+    {
+      "zh": "新陈代谢",
+      "pinyin": "xīn chén dài xiè",
+      "meaning": "metabolism; the renewal of the old by the new (used literally for biology and figuratively for social/cultural change)",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "一举两得",
+      "pinyin": "yī jǔ liǎng dé",
+      "meaning": "to achieve two goals with one action; kill two birds with one stone",
+      "register": "成语"
+    },
+    {
+      "zh": "一如既往",
+      "pinyin": "yī rú jì wǎng",
+      "meaning": "as usual; exactly as always, unchanged",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "有条不紊",
+      "pinyin": "yǒu tiáo bù wèn",
+      "meaning": "in perfect order; methodically, without a trace of confusion",
+      "register": "成语／书面语，褒义"
+    },
+    {
+      "zh": "与日俱增",
+      "pinyin": "yǔ rì jù zēng",
+      "meaning": "to grow with each passing day; continuously increasing",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "自力更生",
+      "pinyin": "zì lì gēng shēng",
+      "meaning": "to rely on one's own efforts; self-reliance and self-regeneration",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "争先恐后",
+      "pinyin": "zhēng xiān kǒng hòu",
+      "meaning": "to vie to be first, afraid of falling behind; competitive scramble",
+      "register": "成语"
+    },
+    {
+      "zh": "众所周知",
+      "pinyin": "zhòng suǒ zhōu zhī",
+      "meaning": "as everyone knows; it is common knowledge that…",
+      "register": "成语／书面语，常用于文章开头"
+    },
+    {
+      "zh": "知足常乐",
+      "pinyin": "zhī zú cháng lè",
+      "meaning": "happiness consists in contentment; those who know enough are always happy",
+      "register": "成语／格言"
+    },
+    {
+      "zh": "无精打采",
+      "pinyin": "wú jīng dǎ cǎi",
+      "meaning": "listless, in low spirits; without energy or enthusiasm",
+      "register": "成语"
+    },
+    {
+      "zh": "无能为力",
+      "pinyin": "wú néng wéi lì",
+      "meaning": "helpless, powerless; unable to do anything about a situation",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "无忧无虑",
+      "pinyin": "wú yōu wú lǜ",
+      "meaning": "carefree, free from all anxieties; untouched by worry",
+      "register": "成语"
+    },
+    {
+      "zh": "豁然大悟",
+      "pinyin": "huò rán dà wù",
+      "meaning": "to suddenly see the light; to realize all at once after confusion",
+      "register": "成语／书面语"
+    },
+    {
+      "zh": "东张西望",
+      "pinyin": "dōng zhāng xī wàng",
+      "meaning": "to gaze around in all directions; looking about restlessly",
+      "register": "成语，常带贬义（心不在焉）"
+    },
+    {
+      "zh": "朝气蓬勃",
+      "pinyin": "zhāo qì péng bó",
+      "meaning": "full of youthful vigor and vitality; bursting with energy",
+      "register": "成语／书面语，褒义"
+    },
+    {
+      "zh": "固然",
+      "pinyin": "gùrán",
+      "meaning": "admittedly; it is true that… (concessive conjunction to acknowledge a counterpoint before asserting one's main claim)",
+      "register": "书面语连词，议论文常用"
+    },
+    {
+      "zh": "进而",
+      "pinyin": "jìn'ér",
+      "meaning": "and then; furthermore; thereby (additive/consequential connector moving argument forward)",
+      "register": "书面语连词"
+    },
+    {
+      "zh": "鉴于",
+      "pinyin": "jiànyú",
+      "meaning": "in view of; in light of; given that (formal causal/contextual preposition to introduce grounds for an argument)",
+      "register": "书面语介词，议论文"
+    },
+    {
+      "zh": "以致",
+      "pinyin": "yǐzhì",
+      "meaning": "to such an extent that; so … that (introduces an undesirable consequence)",
+      "register": "书面语连词"
+    },
+    {
+      "zh": "以便",
+      "pinyin": "yǐbiàn",
+      "meaning": "so that; in order to (introduces purpose clause in formal writing)",
+      "register": "书面语连词"
+    },
+    {
+      "zh": "无非",
+      "pinyin": "wúfēi",
+      "meaning": "nothing but; no more than; simply (minimizing what appears complex)",
+      "register": "书面语副词"
+    },
+    {
+      "zh": "不妨",
+      "pinyin": "bùfáng",
+      "meaning": "there is no harm in; might as well (softly proposing an action or suggestion)",
+      "register": "书面语副词"
+    },
+    {
+      "zh": "不禁",
+      "pinyin": "bùjīn",
+      "meaning": "can't help (doing something); unable to refrain from (marks spontaneous emotional reaction)",
+      "register": "书面语副词"
+    },
+    {
+      "zh": "借助",
+      "pinyin": "jièzhù",
+      "meaning": "with the aid of; by means of; drawing support from (formal instrumental phrase)",
+      "register": "书面语动词"
+    },
+    {
+      "zh": "阐述",
+      "pinyin": "chǎnshù",
+      "meaning": "to expound; to set forth in detail (formal verb for analytical writing)",
+      "register": "书面语，学术"
+    },
+    {
+      "zh": "呈现",
+      "pinyin": "chéngxiàn",
+      "meaning": "to present; to take on (a certain appearance); to emerge (formal descriptive verb)",
+      "register": "书面语动词"
+    },
+    {
+      "zh": "演变",
+      "pinyin": "yǎnbiàn",
+      "meaning": "to change over time; to evolve; to undergo transformation (diachronic change, formal)",
+      "register": "书面语动词"
+    },
+    {
+      "zh": "涉及",
+      "pinyin": "shèjí",
+      "meaning": "to involve; to relate to; to touch on (formal verb introducing the scope of a topic)",
+      "register": "书面语动词"
+    },
+    {
+      "zh": "修养",
+      "pinyin": "xiūyǎng",
+      "meaning": "self-cultivation; personal refinement; cultural attainment (key concept in Chinese essay culture)",
+      "register": "书面语名词，文化核心词"
+    },
+    {
+      "zh": "风土人情",
+      "pinyin": "fēngtǔ rénqíng",
+      "meaning": "local conditions and customs; the natural and social environment of a place",
+      "register": "书面语，描写地域文化"
+    },
+    {
+      "zh": "风气",
+      "pinyin": "fēngqì",
+      "meaning": "general mood; prevailing atmosphere; social ethos (formal social commentary term)",
+      "register": "书面语名词"
+    },
+    {
+      "zh": "弊端",
+      "pinyin": "bìduān",
+      "meaning": "disadvantage; drawback; malpractice (formal term for problem analysis in argumentative essays)",
+      "register": "书面语名词，议论文"
+    },
+    {
+      "zh": "素质",
+      "pinyin": "sùzhì",
+      "meaning": "quality; overall caliber (of a person or group); fundamental competence",
+      "register": "书面语名词，社会评论常用"
+    },
+    {
+      "zh": "探索",
+      "pinyin": "tànsuo",
+      "meaning": "to explore; to seek; to investigate (used both literally and figuratively in formal writing)",
+      "register": "书面语动词"
+    }
+  ],
+  "essay_takeaways": [
+    "The vocabulary register throughout this chunk is predominantly formal written Chinese (书面语). At HSK 6, essays are expected to employ formal connectives (固然、进而、鉴于、以致、以便) rather than their colloquial equivalents — mastering these connectors is the single biggest lever for lifting essay register.",
+    "Four-character idioms (成语) should appear organically, not forced. The density of chengyu in this vocabulary set (at least 25 distinct ones) signals that HSK 6 model essays use them as precision tools: each replaces a full clause while adding rhetorical weight. Pick 2-4 well-chosen chengyu per essay rather than scattering many.",
+    "Chinese analytical essays frequently use a concessive-then-assert structure signaled by 固然…但/然而. Practice: '固然X有其合理性，但Y才是问题的关键。' This acknowledges the opposing view before pivoting, which is valued as balanced reasoning.",
+    "The formal verbs (阐述、呈现、演变、涉及、探索) are preferred over their common-register equivalents (说、变成、有关) in HSK 6 writing. Building a habit of substituting these in revision will immediately elevate the written register.",
+    "This chunk is almost entirely a vocabulary index with severely corrupted prose OCR — no model essays or grammar patterns were recoverable from the text. The essay_takeaways above are derived from vocabulary register analysis, not from observed essay structures in this file."
+  ]
+}

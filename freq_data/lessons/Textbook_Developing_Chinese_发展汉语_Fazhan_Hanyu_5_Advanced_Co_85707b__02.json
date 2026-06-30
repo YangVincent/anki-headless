@@ -1,0 +1,423 @@
+{
+  "model_essays": [],
+  "grammar_patterns": [],
+  "expressions": [
+    {
+      "zh": "天涯海角",
+      "pinyin": "tiān yá hǎi jiǎo",
+      "meaning": "the ends of the earth; remote and far-away places",
+      "register": "literary/written"
+    },
+    {
+      "zh": "思前想后",
+      "pinyin": "sī qián xiǎng hòu",
+      "meaning": "think over something carefully from all angles; weigh pros and cons repeatedly",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "莞尔一笑",
+      "pinyin": "wǎn'ěr yí xiào",
+      "meaning": "smile gently and sweetly (elegant literary expression for a slight smile)",
+      "register": "literary"
+    },
+    {
+      "zh": "心血来潮",
+      "pinyin": "xīnxuè lái cháo",
+      "meaning": "have a sudden impulse; be seized by a whim",
+      "register": "neutral/spoken"
+    },
+    {
+      "zh": "无理取闹",
+      "pinyin": "wú lǐ qǔ nào",
+      "meaning": "make trouble without reason; pick quarrels unreasonably",
+      "register": "neutral"
+    },
+    {
+      "zh": "我行我素",
+      "pinyin": "wǒ xíng wǒ sù",
+      "meaning": "follow one's own way regardless of others; persist in one's own course",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "心甘情愿",
+      "pinyin": "xīn gān qíng yuàn",
+      "meaning": "willingly and gladly; from the bottom of one's heart",
+      "register": "neutral"
+    },
+    {
+      "zh": "一如既往",
+      "pinyin": "yì rú jì wǎng",
+      "meaning": "just as before; as always; unchanged from the past",
+      "register": "written/formal"
+    },
+    {
+      "zh": "一针见血",
+      "pinyin": "yì zhēn jiàn xiě",
+      "meaning": "hit the nail on the head; penetrate to the heart of the matter with a single remark",
+      "register": "written/formal"
+    },
+    {
+      "zh": "义正词严",
+      "pinyin": "yì zhèng cí yán",
+      "meaning": "speak with stern righteousness; uphold justice in forceful words",
+      "register": "formal/written"
+    },
+    {
+      "zh": "油腔滑调",
+      "pinyin": "yóu qiāng huá diào",
+      "meaning": "glib-tongued; smooth and slippery in speech (pejorative)",
+      "register": "neutral/colloquial"
+    },
+    {
+      "zh": "喜气洋洋",
+      "pinyin": "xǐqì yángyáng",
+      "meaning": "full of joy and festive cheer; beaming with happiness",
+      "register": "neutral"
+    },
+    {
+      "zh": "相提并论",
+      "pinyin": "xiāng tí bìng lùn",
+      "meaning": "mention in the same breath; put on a par (often used negatively: 不可相提并论)",
+      "register": "written/formal"
+    },
+    {
+      "zh": "小心翼翼",
+      "pinyin": "xiǎoxīn yìyì",
+      "meaning": "with extreme caution; very carefully and gingerly",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "兴致勃勃",
+      "pinyin": "xìngzhì bóbó",
+      "meaning": "full of enthusiasm and interest; in high spirits",
+      "register": "neutral"
+    },
+    {
+      "zh": "左顾右盼",
+      "pinyin": "zuǒ gù yòu pàn",
+      "meaning": "glance left and right; look around; be indecisive",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "惴惴不安",
+      "pinyin": "zhuìzhuì bù'ān",
+      "meaning": "anxious and uneasy; full of apprehension",
+      "register": "written/literary"
+    },
+    {
+      "zh": "龇牙咧嘴",
+      "pinyin": "zī yá liě zuǐ",
+      "meaning": "grimace; bare one's teeth in pain or anger",
+      "register": "colloquial/descriptive"
+    },
+    {
+      "zh": "缘木求鱼",
+      "pinyin": "yuán mù qiú yú",
+      "meaning": "seek fish from a tree; pursue the impossible; go about something the wrong way entirely",
+      "register": "written/formal"
+    },
+    {
+      "zh": "以德报怨",
+      "pinyin": "yǐ dé bào yuàn",
+      "meaning": "return good for evil; repay enmity with virtue",
+      "register": "formal/literary"
+    },
+    {
+      "zh": "下不为例",
+      "pinyin": "xià bù wéi lì",
+      "meaning": "don't let this happen again; this is an exception, not to be repeated",
+      "register": "neutral/spoken"
+    },
+    {
+      "zh": "谆谆告诫",
+      "pinyin": "zhūnzhūn gàojiè",
+      "meaning": "earnestly and repeatedly admonish; give patient and sincere advice",
+      "register": "formal/written"
+    },
+    {
+      "zh": "一本正经",
+      "pinyin": "yì běn zhèng jīng",
+      "meaning": "with a very serious air; in a solemn manner (sometimes ironic)",
+      "register": "neutral/colloquial"
+    },
+    {
+      "zh": "战战兢兢",
+      "pinyin": "zhànzhànjīngjīng",
+      "meaning": "with great caution and trepidation; trembling with fear or anxiety",
+      "register": "written/literary"
+    },
+    {
+      "zh": "无影无踪",
+      "pinyin": "wú yǐng wú zōng",
+      "meaning": "vanished without a trace; completely disappeared",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "无所不谈",
+      "pinyin": "wú suǒ bù tán",
+      "meaning": "talk about everything; have no topic that is off limits",
+      "register": "neutral"
+    },
+    {
+      "zh": "随时随地",
+      "pinyin": "suí shí suí dì",
+      "meaning": "at any time and any place; whenever and wherever",
+      "register": "neutral"
+    },
+    {
+      "zh": "所见所闻",
+      "pinyin": "suǒ jiàn suǒ wén",
+      "meaning": "what one sees and hears; one's observations and experiences",
+      "register": "written/formal"
+    },
+    {
+      "zh": "衣食无忧",
+      "pinyin": "yī shí wú yōu",
+      "meaning": "have no worries about food and clothing; be materially well provided for",
+      "register": "written/formal"
+    },
+    {
+      "zh": "相去甚远",
+      "pinyin": "xiāng qù shèn yuǎn",
+      "meaning": "be far apart; differ greatly; be very different from each other",
+      "register": "written/formal"
+    },
+    {
+      "zh": "无止无休",
+      "pinyin": "wú zhǐ wú xiū",
+      "meaning": "without end or rest; endlessly; incessantly",
+      "register": "written/formal"
+    },
+    {
+      "zh": "潇洒",
+      "pinyin": "xiāosǎ",
+      "meaning": "stylish and graceful; free and easy in manner; elegant without effort",
+      "register": "neutral/literary"
+    },
+    {
+      "zh": "婉转",
+      "pinyin": "wǎnzhuǎn",
+      "meaning": "tactful; euphemistic; (of sound) melodious and gentle",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "坦然",
+      "pinyin": "tǎnrán",
+      "meaning": "calm and unruffled; composed; at ease with oneself",
+      "register": "written/literary"
+    },
+    {
+      "zh": "悠然",
+      "pinyin": "yōurán",
+      "meaning": "carefree and leisurely; unhurried and contented",
+      "register": "literary"
+    },
+    {
+      "zh": "索性",
+      "pinyin": "suǒxìng",
+      "meaning": "simply; just go ahead and; might as well (decisive, dismissing hesitation)",
+      "register": "neutral/colloquial"
+    },
+    {
+      "zh": "徒然",
+      "pinyin": "túrán",
+      "meaning": "in vain; to no avail; for nothing",
+      "register": "written/formal"
+    },
+    {
+      "zh": "未免",
+      "pinyin": "wèimiǎn",
+      "meaning": "rather; a bit too; can't help feeling that... (expresses mild criticism or resignation)",
+      "register": "written/formal"
+    },
+    {
+      "zh": "唯独",
+      "pinyin": "wéidú",
+      "meaning": "only; solely; of all things/people, just this one (emphatic exclusion)",
+      "register": "written/formal"
+    },
+    {
+      "zh": "委婉",
+      "pinyin": "wěiwǎn",
+      "meaning": "euphemistic; tactful; indirect (in speech or writing)",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "探讨",
+      "pinyin": "tàntǎo",
+      "meaning": "explore; investigate; discuss (academic/analytical register)",
+      "register": "formal/academic"
+    },
+    {
+      "zh": "谈吐",
+      "pinyin": "tántǔ",
+      "meaning": "manner of speaking; style of conversation; way of expressing oneself orally",
+      "register": "written/formal"
+    },
+    {
+      "zh": "洋溢",
+      "pinyin": "yángyì",
+      "meaning": "overflow with; brim with; be permeated with (emotions, spirit, atmosphere)",
+      "register": "written/literary"
+    },
+    {
+      "zh": "修养",
+      "pinyin": "xiūyǎng",
+      "meaning": "self-cultivation; cultural refinement; moral development",
+      "register": "formal/written"
+    },
+    {
+      "zh": "素质",
+      "pinyin": "sùzhì",
+      "meaning": "inherent quality; caliber; overall competence or character of a person",
+      "register": "formal/written"
+    },
+    {
+      "zh": "务实",
+      "pinyin": "wùshí",
+      "meaning": "pragmatic; practical; dealing with facts rather than ideals",
+      "register": "formal/written"
+    },
+    {
+      "zh": "源泉",
+      "pinyin": "yuánquán",
+      "meaning": "source; fountainhead (often figurative: the source of inspiration, strength, etc.)",
+      "register": "written/literary"
+    },
+    {
+      "zh": "余地",
+      "pinyin": "yúdì",
+      "meaning": "room; leeway; margin; space left for adjustment (e.g. 没有余地 = no room for maneuver)",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "珍惜",
+      "pinyin": "zhēnxī",
+      "meaning": "treasure; cherish; make the most of (time, opportunity, relationships)",
+      "register": "neutral"
+    },
+    {
+      "zh": "真谛",
+      "pinyin": "zhēndì",
+      "meaning": "true meaning; essence; the real truth (e.g. 生命的真谛 = the true meaning of life)",
+      "register": "literary/formal"
+    },
+    {
+      "zh": "欲望",
+      "pinyin": "yùwàng",
+      "meaning": "desire; craving; longing (often used in philosophical or social critique contexts)",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "尊严",
+      "pinyin": "zūnyán",
+      "meaning": "dignity; self-respect; honor",
+      "register": "formal/written"
+    },
+    {
+      "zh": "诱惑",
+      "pinyin": "yòuhuò",
+      "meaning": "temptation; lure; to tempt or entice",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "知己",
+      "pinyin": "zhījǐ",
+      "meaning": "bosom friend; someone who truly understands you; intimate confidant",
+      "register": "literary/formal"
+    },
+    {
+      "zh": "体谅",
+      "pinyin": "tǐliàng",
+      "meaning": "show understanding and consideration for; make allowances for others",
+      "register": "neutral"
+    },
+    {
+      "zh": "幽默",
+      "pinyin": "yōumò",
+      "meaning": "humorous; humor (loanword from English via Japanese)",
+      "register": "neutral"
+    },
+    {
+      "zh": "向往",
+      "pinyin": "xiàngwǎng",
+      "meaning": "yearn for; look forward to; aspire toward (with emotional longing)",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "隐藏",
+      "pinyin": "yǐncáng",
+      "meaning": "conceal; hide; keep hidden",
+      "register": "neutral"
+    },
+    {
+      "zh": "信誉",
+      "pinyin": "xìnyù",
+      "meaning": "reputation; credibility; prestige",
+      "register": "formal/written"
+    },
+    {
+      "zh": "终究",
+      "pinyin": "zhōngjiū",
+      "meaning": "ultimately; in the end; after all (often concedes a result)",
+      "register": "written/formal"
+    },
+    {
+      "zh": "温馨",
+      "pinyin": "wēnxīn",
+      "meaning": "warm and cozy; tender and sweet (of an atmosphere or feeling)",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "忧愁",
+      "pinyin": "yōuchóu",
+      "meaning": "sorrowful; worried; melancholy",
+      "register": "literary/written"
+    },
+    {
+      "zh": "随笔",
+      "pinyin": "suíbǐ",
+      "meaning": "casual essay; informal notes; personal reflections in prose (genre term)",
+      "register": "literary/formal"
+    },
+    {
+      "zh": "体验",
+      "pinyin": "tǐyàn",
+      "meaning": "experience firsthand; undergo; lived experience",
+      "register": "neutral"
+    },
+    {
+      "zh": "展示",
+      "pinyin": "zhǎnshì",
+      "meaning": "display; demonstrate; reveal; showcase",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "增添",
+      "pinyin": "zēngtiān",
+      "meaning": "add to; increase; bring additional (often positive things)",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "心灵",
+      "pinyin": "xīnlíng",
+      "meaning": "soul; mind; inner world; spirit (often used in introspective writing)",
+      "register": "literary/written"
+    },
+    {
+      "zh": "引导",
+      "pinyin": "yǐndǎo",
+      "meaning": "guide; lead; steer (toward a goal or understanding)",
+      "register": "neutral/formal"
+    }
+  ],
+  "essay_takeaways": [
+    "This chunk is entirely back matter (词语总表 vocabulary index + publisher catalog) — no reading passages or grammar explanations are present. All expressions above are extracted from the vocabulary list alone.",
+    "The vocabulary clusters reveal thematic priorities in advanced Chinese essay writing: moral character (修养, 素质, 尊严, 真谛), emotional nuance (坦然, 悠然, 忧愁, 温馨), interpersonal dynamics (知己, 体谅, 委婉, 谈吐), and analytical stance (探讨, 务实, 余地, 终究).",
+    "The 成语 in this list lean heavily toward behavioral/psychological description — expressions like 小心翼翼, 战战兢兢, 惴惴不安 allow you to vividly characterize mental states in narrative essays without resorting to plain 很害怕 / 很小心.",
+    "For argumentation, prefer the adversarial 成语 set: 缘木求鱼 (futile approach), 相提并论 / 不可相提并论 (categorically different), 一针见血 (incisive critique), 义正词严 (righteous rebuttal) — these signal rhetorical confidence in formal essays.",
+    "The adverbs 徒然, 未免, 唯独, 索性 are high-value essay connectors: 徒然 concedes futility elegantly; 未免 softens a criticism politely; 唯独 creates emphatic contrast; 索性 signals a decisive pivot — all four are underused by learners who rely on 只是/只不过/反正.",
+    "The phrase 一如既往 is particularly versatile in essay conclusions and transitions, establishing continuity or characterizing someone's steadfast behavior without sounding formulaic.",
+    "Note two OCR errors spotted in this chunk: 室息 (line 829) should be 窒息 (zhìxī, to suffocate); the glyph 龃牙咧嘴 in the file should be 龇牙咧嘴 (zī yá liě zuǐ)."
+  ]
+}

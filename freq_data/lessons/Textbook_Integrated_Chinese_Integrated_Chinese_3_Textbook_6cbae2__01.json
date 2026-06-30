@@ -1,0 +1,294 @@
+{
+  "model_essays": [
+    {
+      "title": "张天明上大学的第一天",
+      "genre": "third-person narrative (process description)",
+      "text": "张天明是大学一年级的新生，他家离大学很远。大学快开学了，他坐飞机去学校。他坐飞机坐了两个多小时，下飞机以后，马上叫了一辆出租汽车，很快就到了学校宿舍。宿舍前边的人很多，在那儿，他认识了柯林。",
+      "summary": "A short narrative recounting Zhang Tianming's first day at college: a far-from-home freshman who flies in, takes a taxi, and meets Ke Lin at the busy dorm.",
+      "why_study": "A compact model of how to make a multi-sentence narrative cohere: it shows pronoun substitution (他 for 张天明), omission of repeated subjects when they stay the same, and the use of time and place words to chain events.",
+      "key_devices": [
+        "Pronoun 他 replaces the named subject once it is established",
+        "Repeated identical subject pronouns are dropped (the textbook bracketed [他] before 下飞机/马上/很快)",
+        "Time/sequence connectors: …以后, 马上, 快…了, 就",
+        "Place word 在那儿 as a connective hinge that introduces the meeting with Ke Lin",
+        "Verb-duration complement 坐了两个多小时 to express elapsed time"
+      ]
+    },
+    {
+      "title": "张天明的宿舍很方便",
+      "genre": "descriptive / persuasive paragraph",
+      "text": "张天明的宿舍很小，因为没有空调，很热，但是很方便。学生餐厅就在楼下，旁边有一个小商店，卖日用品和文具。这里洗衣服也方便得很，每层楼有三台洗衣机和三台干衣机。离教室也不远，走路差不多五、六分钟。这里离大马路很远，很安静。附近还有一家中国餐馆儿，菜很地道。",
+      "summary": "A paragraph arguing that despite being small, hot, and air-conditioner-less, the dorm is very convenient, listing the cafeteria, shop, laundry, classrooms, quiet, and a nearby authentic restaurant.",
+      "why_study": "A clean example of stating a thesis (很方便) and then supporting it with concrete, parallel evidence. It models how place words, conjunctions, and adverbs knit a description into a flowing whole.",
+      "key_devices": [
+        "Concession then claim: 很小…很热，但是很方便",
+        "Place words as connectives: 楼下, 旁边, 这里, 离…",
+        "Conjunctions 因为/但是 to join clauses; adverbs 就/还/也 as cohesion markers",
+        "Degree complement 方便得很 for emphasis",
+        "Approximation 差不多五、六分钟 to make detail vivid without false precision"
+      ]
+    },
+    {
+      "title": "宿舍房间描写（张天明的房间）",
+      "genre": "spatial description",
+      "text": "张天明宿舍的房间不太大，住两个人。他的同屋已经来了。房间里家具不多，靠窗户摆着两张书桌，每张桌子的前边有一把椅子。书桌的旁边是床，床上有被子和毯子。床旁边有两个衣柜，柜子里挂着一些衣服。门右边放着两个书架，书架还是空的。",
+      "summary": "A systematic description of a two-person dorm room, moving from desks by the window to the bed, wardrobes, and bookshelves by the door.",
+      "why_study": "The canonical model for describing a space using existential sentences. It shows how to lay out a room object by object in a logical spatial path so a reader could draw it.",
+      "key_devices": [
+        "Existential pattern: Place + verb + 着/了 + numeral + measure word + noun (靠窗户摆着两张书桌 / 柜子里挂着一些衣服 / 门右边放着两个书架)",
+        "Spatial anchors chained one to the next: 靠窗户→旁边→床上→床旁边→门右边",
+        "Measure-word precision: 张 (desk), 把 (chair), 个 (wardrobe/bookshelf)",
+        "是 vs 有 to signal a single item vs. multiple items at a location"
+      ]
+    },
+    {
+      "title": "在饭馆儿（点菜叙事开头）",
+      "genre": "narrative lead-in to a dialogue",
+      "text": "今天是周末，功课也做完了，张天明就给柯林发微信，说他和他的女朋友丽莎想吃中国饭，问他想不想去。柯林说正好他也想吃中国饭，就让张天明和丽莎在宿舍门口等着，他开车来接他们。半个钟头以后，柯林的汽车到了。张天明和丽莎上车一看，车里还有一个女孩儿，柯林介绍说，她是从中国来的留学生，叫林雪梅。几分钟以后，他们四个人到了那家中国饭馆儿。",
+      "summary": "A narrative setup: on a free weekend Zhang Tianming WeChats Ke Lin about getting Chinese food; Ke Lin drives over, and they discover a fourth person, exchange student Lin Xuemei, before arriving at the restaurant.",
+      "why_study": "A model for the narrative 'frame' that sets up a scene before dialogue. It shows topic-fronting of known information and tight action sequencing with time phrases.",
+      "key_devices": [
+        "Topic-comment opening with given information fronted: 今天是周末，功课也做完了",
+        "就 to mark the natural next action (发微信 / 让…等着)",
+        "Momentary 一 + verb: 上车一看 ('took one look and saw…')",
+        "Time-stamped sequencing: 半个钟头以后…几分钟以后…",
+        "Reported speech with 说/问/介绍说 to compress dialogue into narration"
+      ]
+    },
+    {
+      "title": "住校外的三个理由（柯林的回答）",
+      "genre": "argumentative dialogue turn",
+      "text": "有的人喜欢住在学校宿舍，觉得又方便又安全，有的人喜欢住在校外，因为校外的房子比较便宜。我住在校外，除了想省点儿钱以外，还因为住在校外自由。再说，住在校内也不见得很方便。",
+      "summary": "Ke Lin explains why he lives off campus: some prefer dorms for convenience and safety, others off campus for cheaper rent; he himself lives off campus to save money and for freedom, adding that on-campus living isn't necessarily convenient.",
+      "why_study": "A textbook demonstration of stacking connectives to deliver an organized, persuasive answer rather than a flat list. The same content is also shown reorganized with 第一/第二/第三, illustrating two equivalent structuring strategies.",
+      "key_devices": [
+        "Contrast framing: 有的人…，有的人…",
+        "Reason chain: 因为 + 除了…以外，还 + 再说",
+        "Polite hedge 不见得 to soften a counter-claim",
+        "Paired-adjective 又方便又安全",
+        "Alternative enumeration via 第一…，第二…，第三… (shown as a variant)"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "除了…以外，还/再说… (reason-stacking connectives)",
+      "explanation": "Chains multiple reasons for fluent extended speech: 因为 introduces the cause, 除了…以外，还 adds a further reason, and 再说 tacks on a final supporting point. The whole set can be replaced by ordinal enumeration 第一…，第二…，第三….",
+      "examples": [
+        "我住在校外，除了想省点儿钱以外，还因为住在校外自由。再说，住在校内也不见得很方便。",
+        "妈妈告诉我当医生最好。因为除了好找工作以外，还挣钱多，再说家里人看病也方便。"
+      ]
+    },
+    {
+      "pattern": "不见得 (not necessarily)",
+      "explanation": "An adverb placed before the predicate to politely express a dissenting or qualifying opinion — 'not necessarily so.'",
+      "examples": [
+        "在中国出生的人，中文不见得好。",
+        "报上说的不见得对。",
+        "开车不见得比走快。"
+      ]
+    },
+    {
+      "pattern": "X对Y（没）有好处 (X is (not) good for Y)",
+      "explanation": "Fixed frame for stating benefit or harm; 好处 is a noun, 对 introduces the beneficiary.",
+      "examples": [
+        "少开车，多走路，对健康有好处。",
+        "这样做对你没有好处。",
+        "上过大学、会用电脑、会说外语，对找工作有好处。"
+      ]
+    },
+    {
+      "pattern": "Existential sentence: Place + verb + 着/了 + numeral + MW + noun",
+      "explanation": "Describes what exists at a location, with the place fronted and an indefinite noun at the end. Verbs are limited to 有, 是, and posture/placement verbs (放, 摆, 挂, 站, 坐, 躺, 拿, 贴). 是 implies a single/sole item; 有 implies one of possibly several.",
+      "examples": [
+        "桌子上放着一本书。",
+        "书架上摆着三张照片。",
+        "门右边放着两个书架。",
+        "他身上穿着一件白衬衫，手里拿着一条红毯子。"
+      ]
+    },
+    {
+      "pattern": "比较 + adjective (relatively / rather)",
+      "explanation": "Expresses a general, non-specific degree ('rather, fairly'). It must NOT be used for an explicit comparison against a stated standard (where 更 or 一点儿 is used instead).",
+      "examples": [
+        "这把椅子比较贵，你别买了。",
+        "我比较喜欢打网球。",
+        "周末学校宿舍一般都有一点吵，图书馆比较安静。"
+      ]
+    },
+    {
+      "pattern": "Adjective/verb + 得很 (extremely)",
+      "explanation": "A degree complement after adjectives or cognitive/emotive verbs indicating an extreme extent; stronger than 很 + adjective.",
+      "examples": [
+        "大家都忙得很。",
+        "我们的宿舍安静得很。",
+        "张天明想家得很。",
+        "学生餐厅的饭难吃得很。"
+      ]
+    },
+    {
+      "pattern": "一 + verb  /  一…就… (as soon as)",
+      "explanation": "一 before a (usually monosyllabic) verb marks a brief, momentary action and needs a following clause. 一…就… links two consecutive actions; 就 is required when actions are immediate, subjects differ, or the first clause states a condition; optional when there is a pause with an adverbial.",
+      "examples": [
+        "我开门一看，是送信的。",
+        "老师刚才说的话，我一听就懂了。",
+        "我同屋每天一回宿舍就做功课。",
+        "他一到，我们就走。",
+        "我一吃味精就得喝很多水。"
+      ]
+    },
+    {
+      "pattern": "又…又… (both … and …)",
+      "explanation": "Joins two simultaneous qualities (adjectives, which must be same polarity) or two concurrent actions (verbs).",
+      "examples": [
+        "觉得又方便又安全。",
+        "妈妈做的清蒸鱼又嫩又香。",
+        "孩子们又跑又跳，玩儿得非常高兴。",
+        "那个小孩又哭又吵。"
+      ]
+    },
+    {
+      "pattern": "Reaffirmative 是 + adjective/verb",
+      "explanation": "Stressed 是 placed before an adjective or verb concedes/reaffirms a previously stated point, typically before a 'but' clause. Requires that the predicate was already mentioned.",
+      "examples": [
+        "住在这个宿舍是很方便，去上课，去医院，去餐厅都不远。",
+        "他们的上海菜是很地道，可是太贵了。",
+        "他是搬走了，他去了一个更有名的大学。"
+      ]
+    },
+    {
+      "pattern": "Topic-comment structure (known info fronted)",
+      "explanation": "Given/old information is placed at the front of the sentence as the topic and then commented on. Common for objects already in discourse, replacing plain SVO order.",
+      "examples": [
+        "今天是周末，功课也做完了……",
+        "这本书你看完了吗？",
+        "这件事我早就知道了。",
+        "你去台北的飞机票买好了吗？"
+      ]
+    },
+    {
+      "pattern": "这（就）要看…（了） (it depends on …)",
+      "explanation": "A frame giving a flexible/indirect answer, deferring the outcome to some condition.",
+      "examples": [
+        "什么菜好吃？这就要看你的口味了。",
+        "明天的考试难不难？这就要看你准备得怎么样了。",
+        "这就要看买得到买不到便宜的机票了。"
+      ]
+    },
+    {
+      "pattern": "是…的 (focusing on circumstances of a past event)",
+      "explanation": "Used to ask about or highlight the time, place, manner, or companion of a known past action.",
+      "examples": [
+        "你是几号回学校来的？",
+        "我是二十三号回学校来的。",
+        "我是在美国出生，在美国长大的。"
+      ]
+    },
+    {
+      "pattern": "适应 / 对…适应 (to get used to)",
+      "explanation": "The verb 适应 must take a direct object, or the object may be fronted with 对 placed before the verb.",
+      "examples": [
+        "你适应大学的生活了吗？",
+        "你对这里的天气已经适应了吗？",
+        "我们刚来美国，对美国的天气还不适应。"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "不见得",
+      "pinyin": "bújiànde",
+      "meaning": "not necessarily; not likely",
+      "register": "neutral/colloquial, polite for disagreeing"
+    },
+    {
+      "zh": "不怎么样",
+      "pinyin": "bù zěnmeyàng",
+      "meaning": "not that great; so-so",
+      "register": "colloquial, mildly dismissive — use only among familiars"
+    },
+    {
+      "zh": "差不多",
+      "pinyin": "chàbuduō",
+      "meaning": "about, roughly; almost the same",
+      "register": "neutral/colloquial"
+    },
+    {
+      "zh": "恐怕",
+      "pinyin": "kǒngpà",
+      "meaning": "I'm afraid that; probably (expressing concern/estimate)",
+      "register": "neutral; softens bad news or a polite warning"
+    },
+    {
+      "zh": "比方说",
+      "pinyin": "bǐfāng shuō",
+      "meaning": "for example",
+      "register": "neutral, slightly colloquial"
+    },
+    {
+      "zh": "麻烦你",
+      "pinyin": "máfan nǐ",
+      "meaning": "may I trouble you to…; could you please",
+      "register": "polite request opener"
+    },
+    {
+      "zh": "正好",
+      "pinyin": "zhènghǎo",
+      "meaning": "coincidentally; as it happens",
+      "register": "neutral/colloquial"
+    },
+    {
+      "zh": "特别是",
+      "pinyin": "tèbié shì",
+      "meaning": "especially",
+      "register": "neutral"
+    },
+    {
+      "zh": "地道",
+      "pinyin": "dìdao",
+      "meaning": "authentic, genuine (of food or accent)",
+      "register": "colloquial; note Taiwan/southern variant 道地"
+    },
+    {
+      "zh": "再说",
+      "pinyin": "zàishuō",
+      "meaning": "besides; what's more (adding a further reason)",
+      "register": "colloquial, common in spoken argument"
+    },
+    {
+      "zh": "这就要看…了",
+      "pinyin": "zhè jiù yào kàn … le",
+      "meaning": "it (all) depends on …",
+      "register": "neutral/colloquial"
+    },
+    {
+      "zh": "没问题",
+      "pinyin": "méi wèntí",
+      "meaning": "no problem",
+      "register": "colloquial"
+    },
+    {
+      "zh": "开玩笑",
+      "pinyin": "kāi wánxiào",
+      "meaning": "to joke, to crack a joke",
+      "register": "colloquial"
+    },
+    {
+      "zh": "你别着急",
+      "pinyin": "nǐ bié zháojí",
+      "meaning": "don't worry / don't fret",
+      "register": "colloquial, reassuring"
+    }
+  ],
+  "essay_takeaways": [
+    "Don't string bare clauses together — make multi-sentence Chinese cohere with explicit connectives: 因为, 除了…以外，还, 再说, 但是, 所以. Spoken Chinese may drop them, but written prose should keep them.",
+    "Two interchangeable ways to organize reasons: the connective chain (因为…除了…以外，还…再说…) or ordinal enumeration (第一…，第二…，第三…). Pick one and stay consistent within a passage.",
+    "For cohesion across sentences, lean on three device families the textbook highlights: pronoun substitution (他 for the named subject), omission of a repeated identical subject, and time/place words (…以后, 马上, 快…了, 在那儿, 旁边, 这里) acting as connective hinges.",
+    "To describe a space, use existential sentences (Place + verb + 着/了 + numeral + MW + noun) and walk the reader along one logical spatial path (window → desk → bed → wardrobe → door) so they could redraw the room.",
+    "Front known/old information as the topic; introduce only new information in the comment. This 'given-before-new' ordering is what makes Chinese discourse flow naturally.",
+    "Structure an opinion as thesis-then-evidence: state the claim (e.g. 很方便) and back it with concrete, parallel details rather than vague assertions.",
+    "Soften disagreement and bad news with hedges — 不见得 (not necessarily), 恐怕 (I'm afraid), and reaffirmative 是…可是… (it is X, but…) — to sound polite rather than blunt.",
+    "Add color and rhythm with paired structures (又…又…) and degree complements (…得很), and keep numeric detail natural with 差不多 rather than false precision.",
+    "Compress dialogue into narration using reported speech verbs (说, 问, 介绍说) and sequence actions tightly with 一 + verb, 就, and time stamps (半个钟头以后…几分钟以后…)."
+  ]
+}

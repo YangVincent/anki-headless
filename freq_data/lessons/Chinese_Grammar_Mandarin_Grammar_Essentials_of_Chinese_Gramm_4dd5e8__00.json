@@ -1,0 +1,623 @@
+{
+  "model_essays": [],
+  "grammar_patterns": [
+    {
+      "pattern": "S-V-O 基本语序 + 时间/地点/介词短语前置",
+      "explanation": "Chinese sentences follow S-V-O order, but time words, place words, and prepositional phrases all precede the verb, mirroring the chronological/logical sequence of events: S + Time + Place + Prepositional Phrase + V + O.",
+      "examples": [
+        "我昨天在图书馆跟几个同学一起做功课。(wǒ zuótiān zài túshūguǎn gēn jǐ gè tóngxué yīqǐ zuò gōngkè.) — I did my homework together with a few classmates in the library yesterday.",
+        "他在纸上写了一个字。(Tā zài zhǐ shàng xiě le yī gè zì.) — He wrote a word on the paper."
+      ]
+    },
+    {
+      "pattern": "主题-述题结构 (Topic-Comment Structure)",
+      "explanation": "In spoken Chinese, the topic (often a noun the listener already knows) is fronted at the start of the sentence, followed by a comment about it. No verb 'to be' is needed.",
+      "examples": [
+        "她眼睛很漂亮。(Tā yǎnjing hěn piàoliang.) — She has beautiful eyes. (Lit: She, [her] eyes, beautiful.)",
+        "咖啡他喝完了。(Kāfēi tā hēwán le.) — The coffee — he finished it."
+      ]
+    },
+    {
+      "pattern": "正反疑问句 A 不 A / A 没有 A",
+      "explanation": "Affirmative-negative question form. Place both the positive and the negative form of the verb/adjective side by side. For 有 yǒu, the negative is always 没有 méiyǒu.",
+      "examples": [
+        "你饿不饿？(Nǐ è bu è?) — Are you hungry?",
+        "他说得快不快？(Tā shuō de kuài bu kuài?) — Does he talk fast?",
+        "你吃得完吃不完？(Nǐ chī de wán chī bu wán?) — Can you finish (eating) it?"
+      ]
+    },
+    {
+      "pattern": "A 还是 B 选择问句",
+      "explanation": "Choice-type or/or question. A and B can be noun phrases, adjectives, or clauses. 还是 (háishi) is for choice questions; 或者 (huòzhě) is for non-choice statements.",
+      "examples": [
+        "你是中国人还是日本人？(Nǐ shì Zhōngguórén háishi Rìběnrén?) — Are you Chinese or Japanese?"
+      ]
+    },
+    {
+      "pattern": "句末 了 (sentence-final le) — 新情况",
+      "explanation": "'Sentence le' appears at the end of a sentence when describing a new situation or change of state. Not equivalent to past tense; can also apply to present or projected future.",
+      "examples": [
+        "下雨了！(Xià yǔ le!) — It's raining now!",
+        "我病了。(Wǒ bìng le.) — I am sick (new development).",
+        "他又病了。(Tā yòu bìng le.) — He got sick again."
+      ]
+    },
+    {
+      "pattern": "动词后 了 (post-verb le) — 动作完成",
+      "explanation": "'Completed action le' goes immediately after the verb, marking completion of an action. For verbs with a duration or object count, a second 'sentence le' often appears at the end.",
+      "examples": [
+        "我今天早上吃了一个苹果。(Wǒ jīntiān zǎoshang chī le yī gè píngguǒ.) — I had an apple this morning.",
+        "他昨天只睡了三个小时。(Tā zuótiān zhǐ shuì le sān gè xiǎoshí.) — He only slept for three hours yesterday.",
+        "他这个月已经用了两千块钱了。(Tā zhège yuè yǐjīng yòng le liǎngqiān kuài qián le.) — He has already spent two thousand dollars this month."
+      ]
+    },
+    {
+      "pattern": "双宾 了 句 (两个了) — 数量 + 持续",
+      "explanation": "When a sentence contains a number or time duration and the action may continue, use a post-verb le for completion AND a sentence-final le to indicate the ongoing nature.",
+      "examples": [
+        "他等你等了很长时间。(Tā děng nǐ děng le hěn cháng shíjiān.) — He waited for you for a very long time.",
+        "S + VO + V + le + Time Duration (repeat verb before le when object is present)"
+      ]
+    },
+    {
+      "pattern": "着 (zhe) — 状态持续/描述",
+      "explanation": "'Zhe' indicates an ongoing state or the continuing background of an action (NOT the same as English progressive -ing). It describes how someone/something looks or what state they are in.",
+      "examples": [
+        "他穿着一件白衬衫。(Tā chuān zhe yī jiàn bái chènshān.) — He is wearing a white shirt. (State, not in the act of putting it on.)",
+        "纸上写着几个字。(Zhǐ shàng xiě zhe jǐ gè zì.) — A few characters are written on the paper.",
+        "他拿着地图出去了。(Tā ná zhe dìtú chūqù le.) — He went out holding a map.",
+        "拿着！(Ná zhe!) — Hold this! (imperative)"
+      ]
+    },
+    {
+      "pattern": "V1 + 着 + V2 — 同时进行的动作",
+      "explanation": "V1 + zhe + V2: Subject does V2 while V1-ing. V1 is the background/accompanying action.",
+      "examples": [
+        "他拿着地图出去了。(Tā ná zhe dìtú chūqù le.) — He went out holding a map (in hand)."
+      ]
+    },
+    {
+      "pattern": "过 (guò) — 过去经历",
+      "explanation": "'Guo' marks that an action has been experienced before. It does NOT work with once-only events (e.g., 死 'to die') or cognitive verbs that don't change once they occur (e.g., 认识).",
+      "examples": [
+        "她上大学的时候学过。(Tā shàng dàxué de shíhou xué guo.) — She took (Chinese) in college.",
+        "我没去过中国，所以很想今年暑假去看看。(Wǒ méi qù guo Zhōngguó, suǒyǐ hěn xiǎng jīnnián shǔjià qù kànkan.) — I have never been to China, so I would really like to go there this summer.",
+        "你学过法文没有？(Nǐ xué guo Fǎwén méiyou?) — Have you ever studied French?"
+      ]
+    },
+    {
+      "pattern": "把 (bǎ) 结构 — 对宾语的处置",
+      "explanation": "The 把 construction fronts the (definite) object before the verb to focus on what is done to it and its outcome. The verb must be followed by a complement indicating result. Negation and most adverbs go before 把.",
+      "examples": [
+        "我把作业写完了。(Wǒ bǎ zuòyè xiě wán le.) — I finished writing the homework.",
+        "妈妈把椅子搬出去了。(Māma bǎ yǐzi bān chūqù le.) — Mom took the chair out.",
+        "他把衣服洗得干干净净的。(Tā bǎ yīfu xǐ de gāngān jìngjìng de.) — He washed his clothes really clean.",
+        "他把我的名字忘了。(Tā bǎ wǒ de míngzi wàng le.) — He forgot my name.",
+        "快把牛奶喝了！(Kuài bǎ niúnǎi hē le!) — Hurry and finish your milk!"
+      ]
+    },
+    {
+      "pattern": "被 (bèi) 被动结构 — 不如意的被动",
+      "explanation": "Passive voice marker. Focus is on the object/recipient and what was done to it. In informal Chinese this structure overwhelmingly carries a negative/undesirable tone. Verb must take a complement.",
+      "examples": [
+        "我的咖啡被他喝完了。(Wǒ de kāfēi bèi tā hē wán le.) — My coffee was drunk up by him.",
+        "我的钱包被小偷偷了。(Wǒ de qiánbāo bèi xiǎotōu tōu le.) — My wallet was stolen by a pickpocket.",
+        "我们的屋子被我同屋弄得乱七八糟。(Wǒmen de wūzi bèi wǒ tóngwū nòng de luànqī-bāzāo.) — Our place was all messed up by my roommate.",
+        "他被老师说了一顿。(Tā bèi lǎoshī shuō le yī dùn.) — He was given a lecture by the teacher."
+      ]
+    },
+    {
+      "pattern": "让/叫 + agent + V + 结果补语 (口语被动)",
+      "explanation": "Colloquial passive alternatives to 被. 让 and 叫 are interchangeable in spoken Chinese; unlike 被, they require specifying the agent.",
+      "examples": [
+        "咖啡让/叫他喝完了。(Kāfēi ràng/jiào tā hē wán le.) — The coffee was finished by him.",
+        "O + 给 (+ S) + V + Complement — southern informal passive, where 给 replaces 被/让/叫"
+      ]
+    },
+    {
+      "pattern": "结果补语 (Resultative Complement)",
+      "explanation": "A verb or adjective added after the main verb to indicate the result/outcome of the action. English speakers often collapse both into one verb (e.g., 'I got it' = 我听懂了). Negation: 没/没有 + V + Complement (no le).",
+      "examples": [
+        "他吃完了。(Tā chī wán le.) — He finished eating it.",
+        "我听懂了。(Wǒ tīng dǒng le.) — I listened and understood it.",
+        "他没/没有吃完。(Tā méi/méiyǒu chī wán.) — He didn't finish (eating) it.",
+        "他吃完了没有？(Tā chī wán le méiyou?) — Did he finish (eating) it?"
+      ]
+    },
+    {
+      "pattern": "趋向补语 — 简单与复合 (Directional Complement)",
+      "explanation": "Simple directional complements (来/去/出/进/回/上/下/过/起) follow a verb to show direction of movement relative to the speaker. Compound directional complements (出来/出去/进来/进去/回来/回去 etc.) also specify whether the movement is toward or away from the speaker.",
+      "examples": [
+        "他走出去了。(Tā zǒu chūqù le.) — He walked out. (Speaker is inside.)",
+        "他走出来了。(Tā zǒu chūlái le.) — He walked out. (Speaker is outside.)",
+        "拿出 ná chū — to bring/take out",
+        "拿出来 ná chū lái — bring it out toward speaker"
+      ]
+    },
+    {
+      "pattern": "可能补语 V + 得/不 + 结果或趋向补语",
+      "explanation": "Potential complements indicate whether achieving the verb-result is possible. Insert 得 (de) for affirmative ('can'), 不 (bù) for negative ('cannot'). The negative form is far more common in spoken Chinese.",
+      "examples": [
+        "吃得完 (chī de wán) — able to finish eating / 吃不完 (chī bu wán) — unable to finish eating",
+        "看得懂 (kàn de dǒng) — able to understand after reading / 看不懂 (kàn bu dǒng) — unable to understand",
+        "找得到 (zhǎo de dào) — able to find / 找不到 (zhǎo bu dào) — unable to find",
+        "拿得起来 (ná de qǐlái) — able to pick up / 拿不起来 (ná bu qǐlái) — unable to pick up",
+        "想得出来 (xiǎng de chūlái) — able to come up with / 想不出来 (xiǎng bu chūlái) — unable to come up with"
+      ]
+    },
+    {
+      "pattern": "程度补语 (得) — 描述动作或状态程度",
+      "explanation": "A predicative complement with 得 (de) describes the degree/manner of the verb ('how well / how fast') or the subject/recipient. Affirmative sentences need 很 hěn unless a comparison is implied.",
+      "examples": [
+        "他说得很快。(Tā shuō de hěn kuài.) — He talks fast.",
+        "他写汉字写得很好。(Tā xiě Hànzì xiě de hěn hǎo.) — He writes Chinese characters well. (Verb repeated before 得 when object is present.)",
+        "他气得吃不下饭。(Tā qì de chī buxià fàn.) — He was so angry he lost his appetite. (Agent form)",
+        "他气得我吃不下饭。(Tā qì de wǒ chī buxià fàn.) — He got me so upset I lost my appetite. (Recipient form)"
+      ]
+    },
+    {
+      "pattern": "极度程度补语 — 无 得 形式",
+      "explanation": "Complement of degree without 得: Adjective + 极了/死了 or Adjective + 得 + 很/多/不得了, expressing extreme degree.",
+      "examples": [
+        "S + Adjective + 极了/死了 — S is extremely Adjective",
+        "S + Adjective + 得 + 很/多/不得了 — S is extremely Adjective",
+        "Note: 多 and 多了 are used in comparison structures meaning 'much more.'"
+      ]
+    },
+    {
+      "pattern": "描述性状语 (地 de) — 修饰动词",
+      "explanation": "Descriptive adverbials with 地 (de) modify the verb and can describe the subject's state. When modifying the verb, 地 is often optional in spoken Chinese.",
+      "examples": [
+        "他伤心地走了。(Tā shāngxīn de zǒu le.) — Heartbroken, he left.",
+        "他很快(地)睡着了。(Tā hěn kuài (de) shuì zháo le.) — He quickly fell asleep."
+      ]
+    },
+    {
+      "pattern": "在 + V — 动作进行中 (Progressive Marker)",
+      "explanation": "Put 在 (zài) before the verb to indicate an action is in progress. Focus is on the continuation of the action, whereas 着 (zhe) focuses on the state of being.",
+      "examples": [
+        "你在做什么？(Nǐ zài zuò shénme?) — What are you doing?",
+        "我在做饭。(Wǒ zài zuòfàn.) — I am cooking."
+      ]
+    },
+    {
+      "pattern": "是...的 结构 (1) — 强调语气",
+      "explanation": "Used to convey an emphatic or assuring tone about a fact. The 是 can be preceded by 不 to negate.",
+      "examples": [
+        "今天是不会下雨的。(Jīntiān shì bú huì xià yǔ de.) — (Trust me.) It is not going to rain today."
+      ]
+    },
+    {
+      "pattern": "是...的 结构 (2) — 过去事件焦点化",
+      "explanation": "For events that have already taken place, 是...的 focuses on the agent (who), time (when), place (where), or manner (how). Object placement: non-personal objects after 的; personal nouns/pronouns before 的.",
+      "examples": [
+        "我是在图书馆认识他的。(Wǒ shì zài túshūguǎn rènshi tā de.) — I met him in the library.",
+        "今天的晚饭是谁做的？(Jīntiān de wǎnfàn shì shéi zuò de?) — Who made supper this evening?",
+        "你的作业是什么时候写的？(Nǐ de zuòyè shì shénme shíhou xiě de?) — When did you do your homework?",
+        "你的作业是在哪里写的？(Nǐ de zuòyè shì zài nǎlǐ xiě de?) — Where did you do your homework?",
+        "你的作业是怎么写的？(Nǐ de zuòyè shì zěnme xiě de?) — How did you do your homework?",
+        "我是八点吃(早饭)的。= 我是八点吃的(早饭)。— I had breakfast at 8 o'clock."
+      ]
+    },
+    {
+      "pattern": "存现句 (Existential Sentences) — 地方 + V + Noun",
+      "explanation": "Existential sentences describe the existence, appearance, or disappearance of people or things. They begin with a place word, followed by a predicate with a verb and a noun. Three main types: 有, 是, and 着 sentences.",
+      "examples": [
+        "教室里有很多学生。(Jiàoshi lǐ yǒu hěn duō xuésheng.) — There are many students in the classroom.",
+        "宿舍前是一个球场。(Sùshè qián shì yí gè qiúchǎng.) — In front of the dorm is a ball field.",
+        "墙上挂着一个钟。(Qiáng shàng guà zhe yí gè zhōng.) — On the wall hangs a clock."
+      ]
+    },
+    {
+      "pattern": "连动句 (Serial-Verb Sentences)",
+      "explanation": "A sentence with two or more verbs sharing the same subject. Common patterns: (1) 去/来 + V2 indicating purpose; (2) V1 as means of V2; (3) sequential actions.",
+      "examples": [
+        "他去图书馆看书。(Tā qù túshūguǎn kànshū.) — He goes to the library to study.",
+        "我明天要坐飞机去上海。(Wǒ míngtiān yào zuò fēijī qù Shànghǎi.) — I am going to fly to Shanghai tomorrow.",
+        "他听了大笑起来。(Tā tīng le dàxiào qǐlái.) — He started laughing after he heard it."
+      ]
+    },
+    {
+      "pattern": "兼语句 (Pivotal Sentences)",
+      "explanation": "The object of the first verb also serves as the subject of the second verb. Common with causative verbs (让, 叫), verbs of selection/preference, and verbs expressing likes/dislikes.",
+      "examples": [
+        "他不让我去。(Tā bú ràng wǒ qù.) — He wouldn't let me go.",
+        "我们想选他做班长。(Wǒmen xiǎng xuǎn tā zuò bānzhǎng.) — We would like to elect him to be our class leader.",
+        "老师不喜欢我们说英文。(Lǎoshī bù xǐhuan wǒmen shuō Yīngwén.) — The teacher doesn't like us speaking English.",
+        "我有一个朋友住在北京。(Wǒ yǒu yī gè péngyou zhù zài Běijīng.) — I have a friend who lives in Beijing.",
+        "我有一个问题想问您。(Wǒ yǒu yī gè wèntí xiǎng wèn nín.) — I have a question I'd like to ask you."
+      ]
+    },
+    {
+      "pattern": "动词重叠 (Verb Reduplication)",
+      "explanation": "Reduplicating a verb softens the action, suggesting 'do a little,' 'try,' or 'do briefly.' Often used for casual suggestions.",
+      "examples": [
+        "我得把这件衣服洗洗。(Wǒ děi bǎ zhè jiàn yīfu xǐ xǐ.) — I've got to wash this shirt (a bit).",
+        "我没去过中国，所以很想今年暑假去看看。— ...go take a look."
+      ]
+    },
+    {
+      "pattern": "比较句 A 比 B + Adj (+ degree modifier)",
+      "explanation": "Comparison with 比: A is more adjective than B. The degree modifier (a little 一点, a lot 得多/多了, even more 更) always goes AFTER the adjective.",
+      "examples": [
+        "我的房间比你的房间大。(Wǒ de fángjiān bǐ nǐ de fángjiān dà.) — My room is bigger than yours.",
+        "我的房间比你的房间大一点。(... dà yīdiǎn.) — My room is a little bigger than yours.",
+        "我的房间比你的房间大得多/多了。(... dà de duō / duō le.) — My room is a lot bigger than yours.",
+        "我的房间比你的房间更大。(... gèng dà.) — My room is even bigger than yours."
+      ]
+    },
+    {
+      "pattern": "比较句 — A 没有 B (这么/那么) Adj",
+      "explanation": "Negation form of 比 comparison: A is not as adjective as B. (A has not reached the extent of B.)",
+      "examples": [
+        "我弟弟没有姚明那么高。(Wǒ dìdi méiyǒu Yáo Míng nàme gāo.) — My younger brother is not as tall as Yao Ming."
+      ]
+    },
+    {
+      "pattern": "比较句 — A 不比 B Adj (非否定比较)",
+      "explanation": "NOT the negation of A比B+Adj. 不比 means 'A is not any more adjective than B' — implying they may be roughly equal. Requires context to use correctly.",
+      "examples": [
+        "日文不比中文容易。(Rìwén bùbǐ Zhōngwén róngyì.) — Japanese is not any easier than Chinese."
+      ]
+    },
+    {
+      "pattern": "比较句 — A 不如 B (Adj)",
+      "explanation": "A is not as good as B. Adjectives used with 不如 are normally related to desirable attributes.",
+      "examples": [
+        "他的成绩不如我。(Tā de chéngjì bùrú wǒ.) — His grades are not as good as mine.",
+        "他觉得美国菜不如中国菜好吃。(Tā juéde Měiguó cài bùrú Zhōngguó cài hǎochī.) — He thinks American food is not as tasty as Chinese food."
+      ]
+    },
+    {
+      "pattern": "比较句 — A 跟 B 一样 (Adj) / 不一样 (Adj)",
+      "explanation": "A is the same as B (in adjective quality) / A is not the same as B.",
+      "examples": [
+        "你的名字跟我妹妹的名字一样。(Nǐ de míngzi gēn wǒ mèimei de míngzi yīyàng.) — Your name is the same as my sister's.",
+        "我的房间跟你的房间一样大。(... yīyàng dà.) — My room is the same size as yours.",
+        "我的房间跟你的房间不一样大。(... bù yīyàng dà.) — My room is not the same size as yours."
+      ]
+    },
+    {
+      "pattern": "A 有 B (这么/那么) Adj — 达到某程度",
+      "explanation": "A is as adjective as B, implying A reaches the extent where B is. Mainly positive constructions.",
+      "examples": [
+        "我弟弟有姚明那么高。(Wǒ dìdi yǒu Yáo Míng nàme gāo.) — My younger brother is as tall as Yao Ming."
+      ]
+    },
+    {
+      "pattern": "关联连词 (Correlative Conjunctions) — 成对固定搭配",
+      "explanation": "Chinese conjunctions typically come in fixed pairs. These must be memorized as chunks. The first element sets up a condition or concession; the second delivers the consequence.",
+      "examples": [
+        "不但…而且… (búdàn...érqiě...) — not only... but also...",
+        "因为…所以… (yīnwèi...suǒyǐ...) — because... therefore...",
+        "既然…就… (jìrán...jiù...) — since (that's the case)... then...",
+        "无论…都… (wúlùn...dōu...) — regardless of... still...",
+        "只要…就… (zhǐyào...jiù...) — as long as... then...",
+        "只有…才… (zhǐyǒu...cái...) — only if... only then...",
+        "除非…要不然… (chúfēi...yàobùrán...) — unless... otherwise...",
+        "要是/如果…就… (yàoshi/rúguǒ...jiù...) — if... then...",
+        "虽然…可是/但是/不过… (suīrán...kěshì/dànshì/búguò...) — although... but..."
+      ]
+    },
+    {
+      "pattern": "修饰语前置 + 的 (modifier + de + noun)",
+      "explanation": "Modifiers ALWAYS precede the modified noun in Chinese. 的 (de, resembling a relative pronoun) is placed between a disyllabic/polysyllabic adjective or clause and the noun it modifies.",
+      "examples": [
+        "你唱的歌 (nǐ chàng de gē) — song(s) that you sing",
+        "聪明的学生 (cōngmíng de xuésheng) — bright student",
+        "我写给你的信 (wǒ xiě gěi nǐ de xìn) — the letter I wrote to you"
+      ]
+    },
+    {
+      "pattern": "形容词作谓语 — 不用 '是'",
+      "explanation": "Chinese adjectives (stative verbs) function as predicates directly. Using 是 shì before an adjective as 'to be' is grammatically incorrect in most cases. In affirmative sentences, an intensifier like 很 hěn is needed.",
+      "examples": [
+        "中文很容易。(Zhōngwén hěn róngyì.) — Chinese is easy.",
+        "他很高。(Tā hěn gāo.) — He is tall.",
+        "中文不难。(Zhōngwén bù nán.) — Chinese is not hard.",
+        "英文有点儿难。(Yīngwén yǒudiǎnr nán.) — English is a little hard."
+      ]
+    },
+    {
+      "pattern": "省略主语的无主句 (Zero-Subject Sentences)",
+      "explanation": "In situations where English uses 'it' as a dummy subject, Chinese simply omits the subject entirely.",
+      "examples": [
+        "下雨了！(Xià yǔ le!) — It's raining now!"
+      ]
+    },
+    {
+      "pattern": "虚义宾语/同义合成动词 (Dummy Objects)",
+      "explanation": "Certain verbs in Chinese take an inherent object (often the same character class as the verb root) when no specific object is indicated. The object can be dropped when a real object is specified.",
+      "examples": [
+        "吃饭 (chīfàn) — to eat (lit. eat-rice)",
+        "说话 (shuōhuà) — to speak (lit. speak-speech)",
+        "睡觉 (shuìjiào) — to sleep (lit. sleep-sleep)",
+        "走路 (zǒulù) — to walk (lit. walk-road)",
+        "写字 (xiězì) — to write (lit. write-word)",
+        "看书 (kànshū) — to read (lit. read-book)",
+        "教书 (jiāoshū) — to teach (lit. teach-book)",
+        "我不想说话。(Wǒ bùxiǎng shuōhuà.) — I don't feel like talking.",
+        "他不会写字。(Tā bù huì xiězì.) — He can't write."
+      ]
+    },
+    {
+      "pattern": "介词 + 后置词 (Preposition + Postposition / Localizers)",
+      "explanation": "Chinese has both prepositions (before noun) and postpositions/localizers (after noun), which together form prepositional phrases. The entire phrase precedes the verb.",
+      "examples": [
+        "桌子上 (zhuōzi shàng) — on the table",
+        "床下 (chuáng xià) — under the bed",
+        "教室里 (jiàoshi lǐ) — in the classroom",
+        "上课前 (shàngkè qián) — before class",
+        "下课后 (xiàkè hòu) — after class",
+        "在桌子上 (zài zhuōzi shàng) — on the table (with preposition 在)",
+        "在上课前 (zài shàngkè qián) — before class (with preposition 在)"
+      ]
+    },
+    {
+      "pattern": "一 (yī) 和 不 (bù) 的变调",
+      "explanation": "Tone sandhi rules for 一 and 不: both have context-sensitive tone changes. 一 is 1st tone alone, 2nd tone before a 4th-tone syllable, 4th tone before 1st/2nd/3rd. 不 is 4th tone alone but 2nd tone before another 4th tone. Changes are oral only, not necessarily reflected in writing.",
+      "examples": [
+        "一课、一样、一件 (yī kè, yīyàng, yī jiàn) — one lesson, the same, one piece (one before 4th becomes yí)",
+        "不吃、不拿、不想 (bù chī, bù ná, bù xiǎng) — not eat, not take, not feel like (bù before 1st/2nd/3rd stays bù)",
+        "不要、不去、不是 (bú yào, bú qù, bú shì) — not want, not go, not be (bù before 4th becomes bú)"
+      ]
+    },
+    {
+      "pattern": "第三声变调 (Third-Tone Sandhi)",
+      "explanation": "When a 3rd tone is followed by another 3rd tone, the first changes to 2nd tone. When followed by 1st, 2nd, or 4th tone, the 3rd tone is pronounced as a 'half-third' (only the dipping part, ending low without rising). Changes are oral only.",
+      "examples": [
+        "你好 (nǐ hǎo) → ní hǎo (2nd + 3rd combination)",
+        "很好 (hěn hǎo) → hén hǎo"
+      ]
+    },
+    {
+      "pattern": "顺序句 (Sequential Action with 了 以后 就)",
+      "explanation": "Two-clause sequential structure: after V1 is completed, V2 immediately follows. 就 (jiù) bridges the two clauses. With a single subject or two subjects.",
+      "examples": [
+        "老师来了以后就开始说中文。(Lǎoshī lái le yǐhòu jiù kāishǐ shuō Zhōngwén.) — (We) started speaking Chinese as soon as the teacher arrived. [One subject with implied 'we']",
+        "老师来了以后我们就开始说中文。(Lǎoshī lái le yǐhòu wǒmen jiù kāishǐ shuō Zhōngwén.) — We started speaking Chinese as soon as the teacher arrived. [Two subjects]"
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "zh": "乱七八糟",
+      "pinyin": "luànqī-bāzāo",
+      "meaning": "a total mess; all messed up; in complete disorder",
+      "register": "colloquial/informal"
+    },
+    {
+      "zh": "不但…而且…",
+      "pinyin": "búdàn...érqiě...",
+      "meaning": "not only... but also...",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "因为…所以…",
+      "pinyin": "yīnwèi...suǒyǐ...",
+      "meaning": "because... therefore...",
+      "register": "neutral"
+    },
+    {
+      "zh": "既然…就…",
+      "pinyin": "jìrán...jiù...",
+      "meaning": "since (that being the case)... then... (draws a logical conclusion from an accepted premise)",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "无论…都…",
+      "pinyin": "wúlùn...dōu...",
+      "meaning": "regardless of / no matter... still...",
+      "register": "formal/written"
+    },
+    {
+      "zh": "只要…就…",
+      "pinyin": "zhǐyào...jiù...",
+      "meaning": "as long as... then...",
+      "register": "neutral"
+    },
+    {
+      "zh": "只有…才…",
+      "pinyin": "zhǐyǒu...cái...",
+      "meaning": "only if / only when... only then... (exclusive condition)",
+      "register": "formal/emphatic"
+    },
+    {
+      "zh": "除非…要不然…",
+      "pinyin": "chúfēi...yàobùrán...",
+      "meaning": "unless... otherwise...",
+      "register": "neutral"
+    },
+    {
+      "zh": "要是/如果…就…",
+      "pinyin": "yàoshi/rúguǒ...jiù...",
+      "meaning": "if... then... (yàoshi is more colloquial; rúguǒ is more formal/written)",
+      "register": "yàoshi: colloquial; rúguǒ: written/formal"
+    },
+    {
+      "zh": "虽然…可是/但是/不过…",
+      "pinyin": "suīrán...kěshì/dànshì/búguò...",
+      "meaning": "although... but... (kěshì most colloquial; dànshì neutral; búguò softer concession)",
+      "register": "neutral; register varies by second element"
+    },
+    {
+      "zh": "不得了",
+      "pinyin": "bùdéliǎo",
+      "meaning": "extremely; terribly (used after 得 in degree complement: 高兴得不得了 — extremely happy)",
+      "register": "colloquial"
+    },
+    {
+      "zh": "极了",
+      "pinyin": "jíle",
+      "meaning": "extremely (post-adjective degree intensifier: 好极了 — extremely good)",
+      "register": "colloquial/neutral"
+    },
+    {
+      "zh": "说了一顿",
+      "pinyin": "shuō le yī dùn",
+      "meaning": "to give someone a lecture / to scold someone (量词 顿 dùn used for meals and scoldings)",
+      "register": "colloquial"
+    },
+    {
+      "zh": "吃不下饭",
+      "pinyin": "chī bu xià fàn",
+      "meaning": "to have no appetite / to be too upset to eat (potential complement with negative impact)",
+      "register": "colloquial"
+    },
+    {
+      "zh": "不如",
+      "pinyin": "bùrú",
+      "meaning": "not as good as; inferior to (used with desirable attributes; more literary than 没有)",
+      "register": "neutral/slightly formal"
+    },
+    {
+      "zh": "比较",
+      "pinyin": "bǐjiào",
+      "meaning": "relatively; comparatively (adverb: 比较难 — relatively difficult)",
+      "register": "neutral"
+    },
+    {
+      "zh": "马上",
+      "pinyin": "mǎshàng",
+      "meaning": "immediately; right away",
+      "register": "neutral/colloquial"
+    },
+    {
+      "zh": "有点儿",
+      "pinyin": "yǒudiǎnr",
+      "meaning": "a little; somewhat (before adjectives with mild negative connotation in context)",
+      "register": "colloquial; 有点 is neutral written form"
+    },
+    {
+      "zh": "于是",
+      "pinyin": "yúshì",
+      "meaning": "therefore; as a result; thereupon (sequential connector in narrative)",
+      "register": "written/formal"
+    },
+    {
+      "zh": "由于",
+      "pinyin": "yóuyú",
+      "meaning": "due to; owing to; because of (formal causal preposition)",
+      "register": "formal/written"
+    },
+    {
+      "zh": "还是",
+      "pinyin": "háishi",
+      "meaning": "or (choice-type questions); still; had better (in suggestions)",
+      "register": "neutral"
+    },
+    {
+      "zh": "或者",
+      "pinyin": "huòzhě",
+      "meaning": "or (non-choice, declarative statements)",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "而且",
+      "pinyin": "érqiě",
+      "meaning": "moreover; furthermore; and also (connects clauses, stronger additive than 和)",
+      "register": "neutral/written"
+    },
+    {
+      "zh": "既然",
+      "pinyin": "jìrán",
+      "meaning": "since; given that (signals a premise already accepted by both parties)",
+      "register": "neutral/formal"
+    },
+    {
+      "zh": "才",
+      "pinyin": "cái",
+      "meaning": "only then (delayed result); as late as; only (restrictive). Contrasts with 就 jiù (early/as soon as).",
+      "register": "neutral"
+    },
+    {
+      "zh": "就",
+      "pinyin": "jiù",
+      "meaning": "then (immediate consequence); as early as; right away. Contrasts with 才 cái.",
+      "register": "neutral"
+    },
+    {
+      "zh": "连…都/也…",
+      "pinyin": "lián...dōu/yě...",
+      "meaning": "even... (emphasizes an extreme or unexpected case)",
+      "register": "neutral/colloquial"
+    },
+    {
+      "zh": "除了…以外",
+      "pinyin": "chúle...yǐwài",
+      "meaning": "in addition to / except for... (prepositional phrase framing an exception or inclusion)",
+      "register": "neutral"
+    },
+    {
+      "zh": "吃饭",
+      "pinyin": "chīfàn",
+      "meaning": "to eat (lit. eat-rice; dummy object construction)",
+      "register": "neutral/colloquial"
+    },
+    {
+      "zh": "说话",
+      "pinyin": "shuōhuà",
+      "meaning": "to speak / to talk (dummy object construction)",
+      "register": "neutral/colloquial"
+    },
+    {
+      "zh": "睡觉",
+      "pinyin": "shuìjiào",
+      "meaning": "to sleep (dummy object construction)",
+      "register": "neutral/colloquial"
+    },
+    {
+      "zh": "认识",
+      "pinyin": "rènshi",
+      "meaning": "to know someone (cognitive verb; does NOT take 过 guo because the state doesn't change once you know someone)",
+      "register": "neutral"
+    },
+    {
+      "zh": "乱七八糟",
+      "pinyin": "luànqī-bāzāo",
+      "meaning": "in a total mess; chaotic (four-character idiom, chengyu-like fixed phrase)",
+      "register": "colloquial"
+    },
+    {
+      "zh": "伤心地",
+      "pinyin": "shāngxīn de",
+      "meaning": "heartbroken(ly) — descriptive adverbial with 地 modifying verb; used to describe subject's emotional state while acting",
+      "register": "neutral/literary"
+    },
+    {
+      "zh": "所以",
+      "pinyin": "suǒyǐ",
+      "meaning": "therefore; so; as a result (result connector in both spoken and written Chinese)",
+      "register": "neutral"
+    },
+    {
+      "zh": "看看",
+      "pinyin": "kànkàn",
+      "meaning": "take a look; have a look (reduplicated verb softening the action)",
+      "register": "colloquial"
+    },
+    {
+      "zh": "干干净净",
+      "pinyin": "gāngān jìngjìng",
+      "meaning": "very clean; spotless (AABB reduplication of adjective 干净 for vivid/emphatic description)",
+      "register": "colloquial/expressive"
+    }
+  ],
+  "essay_takeaways": [
+    "Always place time expressions, place expressions, and prepositional phrases BEFORE the main verb — this mirrors the Chinese logic of stating context before action, and is non-negotiable in grammatical Chinese.",
+    "The 把 construction is your primary tool when you want to emphasize what happens to a definite object. Use it when an object undergoes a change, gets displaced, or is fully dealt with — it tightens focus and reads as more native than a plain S-V-O sentence in those contexts.",
+    "The 被 sentence carries a strongly undesirable/unfortunate connotation in informal and semi-formal Chinese. In business or professional writing, prefer 被 only when the event is genuinely passive and the focus is the recipient of the action; in neutral formal writing it is more acceptable.",
+    "Correlative conjunctions come in fixed pairs (不但…而且…, 虽然…可是…, 只要…就… etc.) — treat these as atomic chunks. Dropping or mismatching the pair sounds unnatural. Memorizing the full pair is more useful than knowing either element alone.",
+    "Chinese adjectives do not need 是 shì as a copula — insert an intensifier (很 hěn, 比较 bǐjiào, 有点儿 yǒudiǎnr) before the adjective instead. In affirmative predicate-adjective sentences without a comparison frame, bare adjectives without 很 imply contrast (e.g., 中文容易 implies 'compared to something else').",
+    "Aspectual particles (了/着/过) encode information about completion, ongoing state, and prior experience that English handles through tense. Using the correct particle — rather than relying on time words alone — is the single largest marker of advanced versus intermediate writing.",
+    "The 是…的 structure for past events is a high-leverage writing tool: it lets you shift focus to WHO, WHEN, WHERE, or HOW something happened without changing basic word order. Master both word-order variants (object before vs. after 的) for formal fluency.",
+    "In formal written Chinese, descriptive adverbials with 地 (地 + V) and predicative complements with 得 (V + 得 + adjective/clause) are the main mechanisms for adding adverbial detail. English adverbs like 'quickly,' 'beautifully,' 'loudly' are adjectives in Chinese — use 地 to convert them to verb modifiers.",
+    "Potential complements (V + 得/不 + result) are far more common in the negative (吃不完, 看不懂, 想不出来) than the affirmative in spoken and informal Chinese. In writing, use them to express feasibility or impossibility concisely.",
+    "The distinction between 才 and 就 is crucial for timing and emphasis: 就 suggests earliness or immediacy ('as soon as,' 'right away'); 才 suggests lateness, difficulty, or a condition that had to be met first ('only then,' 'not until'). Using the wrong one completely reverses the speaker's attitude.",
+    "Existential sentences in Chinese are structurally place-first (Place + V/有/是/着 + Noun) — the opposite of English 'There is...' constructions. For formal descriptions of scenes, interiors, and environments, mastering this pattern is essential.",
+    "Verb reduplication (洗洗, 看看, 说说) softens requests and suggestions, making them sound more casual and less demanding. This is an important register marker — use it in colloquial contexts and omit it in formal business writing.",
+    "The AABB adjective reduplication pattern (干干净净, 高高兴兴) adds vividness and emphasis in description and is characteristic of colloquial, expressive, and literary Chinese. It pairs well with 得 predicative complements (洗得干干净净的).",
+    "In comparison sentences with 比, the degree modifier always follows the adjective (大一点, 大得多, 更大) — NEVER between 比 and the adjective as in English ('much bigger' → 比你的大得多, not 比你的多大).",
+    "The distinction between 虽然…但是/可是/不过 (although…but) and 尽管…还是 captures register differences: 可是 is most colloquial, 但是 is neutral, 不过 is soft/concessive. For professional writing, default to 但是 or 然而."
+  ]
+}

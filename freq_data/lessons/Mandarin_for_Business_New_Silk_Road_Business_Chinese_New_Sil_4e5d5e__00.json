@@ -1,0 +1,433 @@
+{
+  "model_essays": [
+    {
+      "title": "如何注册成立企业",
+      "genre": "informational / procedural",
+      "text": "现在，也许你想着如何开始你自己的生意，做你自己的老板。有些事情开业前你必须要考虑，比如，新公司如何选址？去哪里审批？怎样注册？当你的公司进入实际筹备阶段时，有些情况是必须要了解的。\n\n一、有限责任公司注册底线\n（1）最低注册资本10万元人民币。\n（2）股东出资达到法定资本最低限额：以生产经营和商品批发为主的公司需50万元人民币以上；以商品零售为主的公司需30万元人民币以上；科技开发、咨询、服务公司需10万元人民币以上。\n（3）有固定的生产经营场所和必要的生产经营条件。\n\n二、注册步骤\n步骤一，到市工商局（或当地区、县工商局）企业登记窗口咨询，领取注册登记相关表格。\n步骤二，到银行开设临时账户，股东将入股资金划入临时账户。\n步骤三，到有资格的会计师事务所办理验资证明。\n步骤四，将备齐的注册登记资料交工商局登记窗口初审。\n步骤五，按约定时间到工商局领取营业执照，缴纳注册费。",
+      "summary": "A step-by-step guide to registering a limited liability company (有限责任公司) in China, covering minimum capital thresholds and the five procedural steps from consulting the commerce bureau through obtaining a business license.",
+      "why_study": "Exemplary procedural writing in formal business Chinese. Shows how to structure numbered steps, use conditional clauses for categories, and present official requirements in plain yet formal prose. Mirrors the style of real-life regulatory documents.",
+      "key_devices": ["numbered section headings (一、二)", "numbered sub-items (步骤一…步骤五)", "以…为主的公司 for categorising entities", "当你…时 conditional framing", "按约定时间 formal prepositional phrase"]
+    },
+    {
+      "title": "真爱服饰有限公司简介",
+      "genre": "company profile / promotional",
+      "text": "真爱服饰有限公司是一家专业从事服饰设计、生产和销售的独资企业，创建于1982年，位于青岛市中心。公司总资产达数千万元，占地面积15000多平方米，现有8000平方米的现代化标准厂房，600多名高素质的生产技工和一支集设计、营销、管理为一体的优秀团队。年销售收入2.26亿元，公司拥有各类针织设备800多台。"真爱"品牌以"时尚、经典"为设计理念，追求面料、工艺、款式的高品质，适合25—40岁的白领女性。产品远销日本、欧美、东南亚、香港等三十几个国家和地区，并在波兰、俄罗斯、南非设有自己的销售网点。目前，公司正致力于强化内部管理，以设计时尚、面料高贵、工艺精湛为品牌特点进一步拓展市场。",
+      "summary": "A polished corporate introduction for a Qingdao apparel company, covering founding date, assets, workforce, brand positioning, target demographic, export markets, and strategic direction.",
+      "why_study": "A model for writing a 公司简介 in Chinese. Dense with high-value collocations (致力于…拓展市场, 集…为一体, 以…为设计理念). Demonstrates how to pack factual data into cohesive, flowing prose rather than bullet points.",
+      "key_devices": ["创建于 / 位于 (formal V于 structure)", "集…为一体 (integrated-function description)", "以…为…设计理念 / 品牌特点", "致力于 + V (corporate strategic goal)", "product + 远销 + destinations (export reach)"]
+    },
+    {
+      "title": "中国吸收外商直接投资情况",
+      "genre": "news report / statistical briefing",
+      "text": "据中国商务部投资促进事务局负责人说，在世界经济持续低迷、跨国投资大幅下降的情况下，中国吸收外商直接投资依然保持稳定，中国以610亿美元的外国直接投资，继续成为发展中国家的最大外资流入国，在全球范围内仅次于美国和英国，连续12年实际使用外资金额居发展中国家和地区首位。\n据介绍，截至2005年8月底，共有来自近200个国家和地区的投资者在华投资，累计投入资金6000亿美元，企业超过53万家。目前，留存注册外商投资企业约28万家，外资2455亿美元。\n据有关统计，2009年2月，中国新批设立外商投资企业1265家，同比下降13%；实际使用外资金额58.33亿美元，同比下降15.81%。",
+      "summary": "A data-rich press briefing paragraph on China's continued success in attracting foreign direct investment despite global economic slowdown, with cumulative and year-on-year figures.",
+      "why_study": "Demonstrates the standard register of Chinese financial journalism: 据…说, 据介绍, 据有关统计 as attribution phrases; 在…情况下 for contextual framing; 仅次于 and 居…首位 for ranking comparisons; 同比下降/增长 for year-on-year data.",
+      "key_devices": ["据…说 / 据介绍 / 据有关统计 (attribution chain)", "在…情况下 (contextual framing)", "依然保持稳定 (adversative contrast)", "仅次于A和B (second/third ranking)", "居发展中国家和地区首位 (superlative ranking)", "截至…底 (deadline date)", "同比下降X% (YoY comparison)"]
+    },
+    {
+      "title": "关注央行今年第六次加息",
+      "genre": "newspaper commentary / financial analysis",
+      "text": "22日起，银行存贷款利率将分别上调0.27和0.18个百分点。央行如此频繁加息，在中国货币政策调控历史上罕见。其实，央行此次加息也在情理之中。今年以来中国经济快速增长，投资增幅仍处高位，货币信贷增长仍然偏快，外贸顺差仍在扩大。这些现象给中国经济带来不少潜在的负面影响。粮食、肉禽蛋等食品价格快速攀升成为物价上涨的主要动力，这也对普通百姓生活带来一定程度的影响。当前再次加息，是为合理调控货币信贷投放，有利于抑制货币供应高增长，控制通货膨胀，保持物价基本稳定。\n受本次央行加息影响最明显的是房贷客户。21日晚，准备通过银行贷款购买住房的宋先生告诉记者，央行的频繁加息，不得不使自己的买房计划延期，而很多老的房贷客户也将选择提前还贷。记者替办理了房贷业务的市民粗略地计算了下，20万元20年期的房贷，明年1月起每个月要比今年多还71元的利息。\n今年的第六次加息以及市场对继续加息的预期，使得本次加息后市民办理转存业务的意义已经不大。银行理财经理提醒市民，在今年已经办理过转存业务的市民，没有必要将存款取出再次办理转存业务，免得资金在一年中只吃到了活期存款利息。\n央行今年连续加息及调减利息税的政策，促使多家银行开始对银行理财产品进行重新设计，以稳定投资者。由于银行理财产品可以免缴利息税，因此之前银行设计的产品，收益仅比存款收益略高一些，年收益在3.5%左右，就能吸引部分投资者。加息及减税政策的执行，打破了银行原来的好日子，银行部分理财产品的优势荡然无存。为了吸引投资者，广东发展银行率先对旗下部分人民币理财计划的管理费收取标准进行了调减，调整后银行的收费从70%调减至30%。",
+      "summary": "A Chinese newspaper commentary analysing the sixth interest-rate hike of the year: causes (overheating, inflation), effect on mortgage holders, consequences for retail banking wealth-management products, and one bank's response.",
+      "why_study": "A top-tier model of Chinese financial journalism. Rich in macro-economic vocabulary and in cause-effect argument structure. Shows how to weave statistics, official rationale, citizen impact, and institutional response into a coherent news piece. The idiom 荡然无存 and the phrase 在情理之中 are signature high-register touches.",
+      "key_devices": ["罕见 used as predicate commentary", "其实…也在情理之中 (acknowledging and contextualising)", "仍处高位 / 仍然偏快 / 仍在扩大 (triple parallel with 仍)", "受…影响最明显的是 (passive-focus)", "使得 (causative)", "荡然无存 (4-character idiom for total loss of advantage)", "率先…对旗下…进行…调减 (corporate action reporting)"]
+    },
+    {
+      "title": "肯德基在中国的经营案例",
+      "genre": "business case study",
+      "text": "★特许经营\n肯德基以"特许经营"作为一种有效的方式在全世界拓展业务，至今已超过20年。肯德基1993年就在西安开始了加盟业务，目前已拥有近20家加盟餐厅。相比之下，肯德基的竞争对手麦当劳目前在中国内地开设的300多家分店全部都是直营店，没有一家是特许店。\n★加盟者应具备的条件\n肯德基希望加盟商应该是真正的食品服务业经营者，要求有从业背景，并具有在一定区域内扩大发展的潜力。这也是一项长期的业务伙伴关系，因此，肯德基只有在对加盟商的组织机构、金融状况和项目计划完全满意的情况下，才会开始合作。\n★特许加盟模式\n肯德基目前在中国发展加盟店的方式不是让加盟者交纳加盟费后自行开店，而是让加盟者出资购买一间正在运营中并已赢利的连锁店。转让已经成熟的餐厅，加盟者不必由零开始，可以较快地融入肯德基的运作系统，进而保障加盟者成功的机会。\n★特许费\n肯德基每个餐厅的进入费在800万人民币以上。进入费是一项转让费用，是购买一家成熟的且有赢利的肯德基餐厅所需的投资。这是根据一家肯德基餐厅的投资额、营业额、赢利状况而定的。在一个加盟经营期开始时须支付35000美金的加盟经营初始费。持续经营的费用包括占总销售额6%的加盟经营权使用费和占5%的广告分摊费用。这些费用是在现行的基础上制定的，在加盟经营合同签订之后10年内保持不变。\n★培训\n加盟经营商将被要求参加一个20周的培训项目并承担自己的培训费用。有餐厅和行业经营经验的加盟经营商可以申请免去某些培训。肯德基总部和加盟店具有共同的利益关系。肯德基的成功取决于各加盟商的成功。总部必须给予加盟者足够的支持，只有当每个加盟商赢利了，整个特许经营系统才能变得更加强大。",
+      "summary": "A case study of KFC's franchise model in China: how it differs from McDonald's direct-operation model, the qualifications required of franchisees, the fee structure (entry fee, royalties, advertising), and training obligations.",
+      "why_study": "Excellent model of structured business case writing in Chinese. Each section opens with a bolded topic, then develops with specific data and logical flow. Key rhetorical patterns: 不是…而是 (contrast), 进而 (logical progression), A取决于B, 只有当…才能… Show how to present complex commercial terms clearly.",
+      "key_devices": ["相比之下 (comparative pivot)", "只有在…情况下，才会… (strict condition)", "不是…而是… (model rejection / replacement)", "由零开始 vs 融入 (vivid business idiom)", "进而保障 (consequential benefit)", "A取决于B (dependency claim)", "只有当每个加盟商赢利了，才能… (aligned incentive argument)"]
+    },
+    {
+      "title": "我的求职经历",
+      "genre": "personal narrative / 求职故事",
+      "text": "我是学工商管理的，大学毕业后在一家国企做监管，可是后来公司裁员，我被解雇了。这几年因为经济不景气，就业比较困难，我曾在几家公司做过兼职，但时间都不长。前不久我在报上看到中利公司的招聘启事，决定抓住这个机会试一试，我应聘的职位是股票经纪人。在我投出求职信和简历的一个星期之后，终于接到了通知我参加面试的电话。周六上午9点，我准时到了面试地点，门口已经有30多位应聘者在等候了。\n首先是笔试。秘书小姐按照每个人申请职位的不同给每位面试者分发不同的试卷。试卷上的题目好像跟我的专业不符，我大部分都不会做。交了试卷后等到下午两点，终于开始了第一轮的面试。面试官说话语速很快，主要是询问我以前的工作经历。半个小时后，他从秘书那儿拿了一份职位申请表让我填。我想这样是表示我这一轮面试顺利通过了。\n下一轮是集体面试。经过前两轮的淘汰，这一轮只剩下12个人了。我们被分为两组进行集体面试。\n首先是每个人轮流进行自我介绍：包括个人优缺点、未来目标等。接下来是小组讨论，论题是把你认为影响领导者权威的10个因素按照影响大小进行排序并说明理由。讨论过程中面试官一直站在旁边关注着我们的表现。我们推举了一位表达能力最好的人发言。可一位面试官说："你们这一组我指定一个人发言吧。"他指定的人竟然就是我！因为我没有准备，开始时非常紧张，但我站起来开始说话以后，我的紧张感突然全部消失了。我感觉自己的表现还不错，同组有两个成员对我的发言也做了很好的补充。这一轮讨论结束后，秘书小姐过来宣布面试到这里结束了。第三天我接到了复试通知。复试时面试官问："如果你的主管给你一个工作任务，本来按照正常情况要5个工作日完成，现在他要求必须在3个工作日内完成，这时你会怎么做？"我的回答是，既然主管这样要求，那么这件事肯定是非常紧急并且非常重要的，我可以先把工作任务进行一些分解，那么其中有些部分可以让身边的不是很忙的同事来帮助完成。然后他又问："如果你所有同事都很忙并且不能给你提供帮助，你会怎么做？"我说那可能要通过加班来完成。看得出来他对我比较满意。两个星期以后，我接到人事部主任的电话，他说本来我的专业不对口，学位也没有达到要求，但因为我在面试中的出色表现和对工作的热情，所以公司破格录用了我。",
+      "summary": "First-person account of a job-seeker applying for a stock-broker position at a company during an economic downturn: the written test, two rounds of interviews including an unexpected group discussion where he was called on to present, and a final successful offer despite mismatched qualifications.",
+      "why_study": "A richly authentic spoken-register narrative written in clean written Chinese. Excellent model for storytelling with professional content: how to describe a sequence of events (笔试→一轮→集体面试→复试), use 竟然 for surprise, deploy 既然…那么 in interview-answer logic, and show cause-effect (因为…所以破格录用). Very useful for practicing writing about personal professional experiences.",
+      "key_devices": ["经过前两轮的淘汰…只剩下 (elimination funnel)", "竟然就是我！(surprise climax)", "既然…那么…肯定… (logical deduction in speech)", "本来…但因为…所以… (concession + result)", "破格录用 (stand-out idiom for exceptional hire)"]
+    },
+    {
+      "title": "大学生就业薪酬调查",
+      "genre": "survey report / journalistic analysis",
+      "text": "为了了解目前大学生就业的薪酬情况，我们于2008年8月做了一次问卷调查，调查对象是100名从2004年到2008年的大学本科毕业生，职业包括公务员、教师、工程师、助理、文秘、业务员、技术员、会计、广告策划、金融顾问、记者等。\n根据统计，这100名大学生工作第一个月的工资平均为1671元，其中，1001—2000元这个档次占了七成多。2005年毕业的小陈在一家网络公司做电子商务工作，主要职务是营销，底薪800元，其他收入就靠提成和年终分红。他第一个月工资就只有底薪，因为没有经验，没有完成一笔业务。不过第二个月他就拿到1000元月薪，他拉到了第一笔业务，从中提成的200元成为他的奖金。第一个月工资3000元以上的相对较少，不到一成。从职业上看，主要有公务员、IT行业技术人员、媒体从业人员、教师、垄断性行业人员等。\n据调查，这些大学生目前的月平均工资为2787元，其中，2001—3000元这个档次为多数，占了四成。大学生们在工作几年后，随着经验、资历、业绩的增加，收入都普遍上涨了。工资在2000元以下的比例下降到三成多，高收入者也逐渐增多，3000元以上的占了1/4，其中不乏月薪近万元的高收入者。这些高收入者的职务有很大一部分和刚工作时有了变化，有的从原来的职员、技术员变成了部门经理、组长、主管等，也有的从原单位辞职，跳槽到更适合自己的公司，从事新的工作，更有少数人选择了自己创业。\n统计发现，这5年来，每年的应届大学毕业生工作后的第一个月工资，总体上呈逐渐上升的趋势。2008年和2004年相比，增长了500多元。其中，2006年大学毕业生的第一个月工资显著增加，突破了2000元。记者发现，主要是因为此次调查的该年度毕业的20位大学生中，有多位从事与房地产相关的行业，收入较高，从而拉高了平均水平。\n通过以上的调查，我们建议还在求职的大学生，不要抱怨自己的报酬太低或者分配不公平，积极地迎接挑战，先积累经验和提高能力才是最关键的。",
+      "summary": "A salary survey of 100 college graduates tracking first-month wages and current wages: data on salary distribution by range, case study of one graduate's commission-based income, longer-term salary growth with career changes, year-on-year trend analysis, and concluding advice.",
+      "why_study": "A model for writing data-based reports in Chinese. Shows how to introduce methodology (为了…做了一次问卷调查), present statistics with 占了…成, 不乏, 其中, embed an illustrative case (小陈), explain anomalies (从而拉高了平均水平), and close with a takeaway recommendation (通过以上的调查，我们建议…).",
+      "key_devices": ["为了…我们于…做了一次… (research purpose opener)", "其中，…这个档次占了…成 (bracket + share formula)", "不乏月薪近万元的高收入者 (nuanced quantification with 不乏)", "总体上呈逐渐上升的趋势 (trend sentence)", "从而拉高了平均水平 (explaining distortion in data)", "通过以上的调查，我们建议… (conclusion + recommendation frame)"]
+    },
+    {
+      "title": "宏远公司的薪酬制度",
+      "genre": "business case study / HR analysis",
+      "text": "宏远公司是一家投资公司，由于前几年金融行业比较景气，公司获得了长足的发展，员工收入水平增长很快。但是近两年来，金融行业的竞争越来越激烈，企业经营形势也逐渐严峻。目前，最让公司董事会头痛的是公司全面分红制奖金计划面临危机。\n分红制奖金计划是前些年宏远公司在销售额和利润猛增时，依据对员工态度的调查，大多数人宁愿要奖金分红而不愿要其他形式的福利而制定的。公司的薪酬计划提供的基本工资比当地同类工作的工资水平低20%，但是公司每季度分配的奖金平均为基本工资的50%以上，这使得员工的平均薪酬比该地区高出20%。因此，公司将福利水平保持在最小值，没有什么补贴，只有最基本的社会保险和带薪假期。然而因为平均薪酬高，员工认为还是比较合算。但是今年公司的利润显著下降，按利润分配的奖金估计还不到往年的一半。在不久前的总经理办公会议上，公司总裁张宏宣布，由于公司人工成本比较高，企业打算再普遍小幅度地降低员工奖金水平，以帮助公司渡过经营难关。\n在宏远公司，经营管理层（公司总裁、副总裁、部门经理）的报酬采用年薪制，年薪收入由基本年薪+奖励年薪+超值年薪三部分构成。其中基本年薪水平分别为10万元/年、8万元/年、6万元/年，按月发放。奖励年薪根据关键业绩指标的达成情况确定。超值年薪根据当年完成指标的超额情况确定。副总裁的奖励年薪按总裁奖励年薪的50%—30%的比例确定，部门经理的超值年薪按总裁奖励年薪的30%—10%的比例确定。公司自实行年薪制的三年来，总裁的年薪总额基本都在100万元以上，而部门经理的年薪没有超过30万元的。这种状况引起了大多数部门经理的不满。\n宏远公司员工的主要收入是工资加奖金。公司根据工作的难度、重要性把职务价值分为A、B、C、D、E五个序列。不同序列的工资标准差别并不大。例如：职能部门员工（人力资源专业人员、财务人员、审计人员、网络维护员等）属于B序列，他们的平均月工资一般介于2000元和2500元之间，而操作类岗位员工（保安、接待员、收发员、物品保管员、生产线上的工人等）属于A序列，他们的平均月工资一般介于1800元和2400元之间。所有的操作类岗位员工都对自己的收入非常满意，但几乎所有的职能部门员工都对自己的收入不满意。对此，能够听到的最普遍的答案是：操作类岗位员工的工作环境比较差，比如经常出差、工作场所没有空调等等；而职能部门员工在行政大楼内办公，不仅工作环境好，而且比较"清闲"。\n另外，员工每月的奖金是根据工作表现支付的。员工只有触犯了企业的规章制度，或者出现了工作失误或事故，才会扣除部分或全部奖金。但是一般来说，如果员工按部就班地做自己的工作，违反规章制度或者出现工作事故的可能性不大，所以，员工几乎都能足额获得月度奖金。显然，在同一部门中，岗位相同或者相似的员工无论工作业绩出色还是工作业绩平平，薪酬都没有太大的差别。\n因此，公司打算普遍小幅度地降低员工奖金水平，以帮助公司渡过经营难关的消息一经传出，马上遭到了员工的强烈反对，员工们认为自己的工作比以前更辛苦了，不应该降低收入水平。因此，大家对降薪的事议论纷纷。",
+      "summary": "An extended case study of a Chinese investment company's flawed compensation system: variable-pay structure that backfired when profits fell, inequitable annual salary ratios between executives and managers, and inadequately differentiated bonuses that fail to reward performance.",
+      "why_study": "A rich model for analytical business writing in Chinese—problem identification, system description, causation, and implied critique. Demonstrates how to describe compensation structures with precise terminology (年薪制, 基本年薪+奖励年薪+超值年薪), use 宁愿…而不愿… for preference contrast, and end with a stakeholder-reaction paragraph. High value for business-writing students.",
+      "key_devices": ["由于…公司获得了长足的发展 (historical success context)", "宁愿…而不愿… (preference contrast in policy origin)", "这使得 (causative pivot)", "年薪收入由…三部分构成 (structure description)", "介于…和…之间 (range expression)", "无论…还是…，薪酬都没有太大的差别 (null-differentiation critique)", "消息一经传出，马上… (immediate consequence)"]
+    },
+    {
+      "title": "企业员工培训",
+      "genre": "expository / business management",
+      "text": "以往，一说到福利，就会想到领的奖金、分配的住房。如今，很多企业把培训视为员工的最好福利。\n在科技发展日新月异的今天，从设备到产品，企业生产中的技术含量越来越高，职工的技能稍慢半拍，就有落伍之忧、被淘汰之险。市场的竞争，归根结底就是技术的较量，这种技术不只是产品技术，也是职工的技能。有了高技能的职工队伍，企业才能生产出高技术、高质量的产品，才能在科技发展中与市场同步。由此可见，培训不仅是职工最好的福利，也是企业最大的效益。\n职工培训工作是人力资源开发、干部队伍建设与企业文化建设的重要内容。通过培训，可以统一目标、统一认识、统一步调，增强企业的凝聚力和向心力。大公司在干部培训上的投入都是很大的。一个公司要成长，主要取决于员工的成长和客户的成长。因此与其把钱放在银行，不如把钱放在员工身上。\n企业一般有两种培训，一是入职培训，一是在职人员的培训。所谓入职培训，就是新员工培训。新员工培训的目的，不但是让员工对企业的部门、产品有所了解，重要的是了解公司的价值观，使员工更快融入团队，培养员工之间良好的人际关系，使上司和下属之间、同事之间能更好地合作协调。\n培养内部员工，目的是提升其业务能力。很多公司采用在职岗位训练的方式，为员工提供或创造机会，内部互相学习。比如，对于一些关键人才采取在部门之间、公司之间轮调的方式，从基层业务员、技术人员，到担任分公司经理等职务，这对员工的成长是大有裨益的。",
+      "summary": "An essay arguing that employee training is the best corporate welfare: the competitive imperative (日新月异 technology), the three unifying benefits of training (目标/认识/步调), the philosophy of investing in people over savings, and a taxonomy of training types (onboarding vs in-service, job rotation).",
+      "why_study": "A model persuasive-expository essay in business Chinese. Exceptionally strong use of 归根结底, 由此可见, 与其…不如…, 所谓, 不乏大有裨益. The opening contrast (以往…如今…) is a reusable rhetorical frame for any essay where attitudes or practices have shifted. The three-統一 parallel is a memorable structural device.",
+      "key_devices": ["以往…如今… (attitude shift frame)", "归根结底就是 (root-cause summary)", "由此可见 (logical conclusion signal)", "与其把钱放在银行，不如把钱放在员工身上 (memorable comparison)", "所谓…就是… (definition)", "不但…重要的是… (escalating purpose)", "对…是大有裨益的 (formal benefit claim)"]
+    },
+    {
+      "title": "培训"最短的木板"——木桶理论",
+      "genre": "argumentative / management theory essay",
+      "text": "现在企业越来越重视员工培训，但因为培训的针对性不强，往往不能满足不同层次的员工需求。这样企业虽然在培训上投入很大，但效果并不明显。因此，企业培训必须要抓住主要问题。在经济学中有个著名的"木桶理论"，一只水桶能盛多少水，并不取决于桶壁上最长的那块木板，而是取决于桶壁上最短的那块。这个理论告诉领导者，一个企业好比一个大木桶，企业的最大竞争力不只取决于某几个人的超强能力，更取决于它的整体状况，取决于它是否存在某些薄弱环节。只有让所有的板子都维持足够高的高度，才能完全发挥团队作用。而要想提高每一个员工的竞争力，并将他们的力量有效地凝聚起来，最好的办法就是对员工进行培训。培训的首要问题就是要找到并加长"最短的木板"。\n如果组成木桶的木板长短不一，要增大木桶的容量，可以采取两种办法：第一是同时加长每一块木板；第二是只加长最短的木板。相比之下我们很容易看出，第二种方法比第一种要经济得多。有不少企业的员工培训不考虑员工实际水平的参差不齐，其培训过程像学校上课一样要求统一的模式，采取统一的进度。这是前面说的第一种办法，是很不经济的，它大大增加了培训投资但效果却不一定好，因为它缺乏针对性。更有一些企业把培训视为福利的一种，奖励给表现出色的员工。这样做更是与"木桶理论"背道而驰，它只是使长木板更长而短木板依然很短，企业整体实力还是无法提高。\n目前企业培训主要有以下几方面内容，一是团队培训，培养员工的团队协作能力；二是工作技巧培训，比如营销技巧、客户接待技巧、谈话沟通技巧等；三是项目管理培训，学习如何保证项目实施质量，节省时间提高效率以及如何控制费用等；四是人力资源管理培训，包括招聘制度、员工关系、薪酬制度等各方面的综合设计，帮助企业明确雇佣双方即雇主和雇员的权利和义务，并使其得到充分的保障。而所有这些培训都应该是针对不同层次不同岗位的员工来具体安排培训内容的。由许多块木板组成的"水桶"不仅可以象征一个企业、一个部门、一个工作组，也可以象征某一个员工，而"水桶"的最大容量则象征着整体的实力和竞争力。",
+      "summary": "An argumentative essay applying the 'wooden bucket theory' (木桶理论) to employee training: the weakest link limits the whole; training should target the weakest skills, not reward the already strong; followed by a taxonomy of four training content areas.",
+      "why_study": "A model for Chinese argumentative essays that use an analogy (比喻论证). Shows the full rhetorical arc: introduce a problem, introduce an analogy, extend the analogy to two contrasting solutions, evaluate both, categorise best practices, and return to the metaphor in the conclusion. Key devices include 好比, 相比之下, 背道而驰, and needle-point criticism of common corporate mistakes.",
+      "key_devices": ["并不取决于…而是取决于… (correcting a misconception)", "企业好比一个大木桶 (明喻 simile)", "相比之下我们很容易看出 (comparison + inference)", "背道而驰 (4-char idiom: going in the opposite direction)", "一是…二是…三是…四是… (enumeration with parallel structure)", "象征 (metaphor callback in conclusion)"]
+    },
+    {
+      "title": "述职提要",
+      "genre": "prescriptive business writing / professional guidelines",
+      "text": "第一，工作述职，首先应对业绩以及职责有一个明确陈述，总结过去一年有哪些成功的经验。在陈述过程中，要以数据和事实来说话，不要只是一种罗列、记流水账。述职的最终目的是通过总结经验对工作加以改进。\n第二，述职的另一个目的是寻找问题，同时找到产生问题的原因，避免以后犯同样的错误。允许犯错误，但不要犯同样的错。从教训中去学习，不要回避问题的责任人，要找到问题的关键及解决问题的方法。\n第三，述职还是对自我能力及团队能力的一个开发过程。除了讲业绩、经验，还要分析团队的建设及人力资源管理问题。人力资源不应是人力资源部一个部门的事，而是每个管理者都要参与的事。如果人才留不住，人才结构没有提升，那说明你的业绩没有提升。\n第四，确定新目标、新思路是述职的又一要求。因为述职是一个管理过程，可以及时发现问题，改进工作，是一个新思路的产生过程。为什么要让领导参加？就是让领导了解你的思路。这个过程也是高层与基层的一个沟通过程，一个相互达成共识的过程。为何要让职员参加？要相关部门参加？这就是要让相关部门认识到，该怎么去提供支持。",
+      "summary": "A concise guide to four purposes of a job performance review (述职): (1) state achievements with data, not just lists; (2) diagnose problems and causes; (3) develop self and team capabilities; (4) set new goals and build consensus across levels.",
+      "why_study": "An excellent model of prescriptive professional Chinese writing. Four-point structure with numbered paragraphs, each starting with 第一/第二/第三/第四. Rich with bureaucratic-professional expressions: 述职, 以数据和事实来说话, 不要只是一种罗列、记流水账, 加以改进, 达成共识. The final rhetorical questions (为什么要让…参加？) and immediate answers are a reusable pattern for explainer writing.",
+      "key_devices": ["以数据和事实来说话 (evidence-based argument idiom)", "不要只是一种罗列、记流水账 (condemning a poor writing style)", "对工作加以改进 (加以 + V formal construction)", "不应是…而是… (reframing responsibility)", "如果…那说明… (conditional diagnosis)", "达成共识 (mutual consensus formula)", "rhetorical question + immediate answer structure"]
+    },
+    {
+      "title": "李新红的职业选择",
+      "genre": "career narrative",
+      "text": "李新红大学国际贸易专业毕业后，到了一家船务公司做经理助理，负责处理集装箱出口事务以及客户协调。三年后，李新红对这类业务已经非常熟悉，就找机会跳槽到了一家大规模的美国快运公司担任业务主管。全英文的工作环境使她出色的英语能力派上了用场，进出口业务管理工作也让她的组织和协调能力得到了很大提高，三年多为公司赚了不少钱，老板也多次给她加薪。但李新红并不满足，她渴望着工作内容、职责范围都能够提升到更高层次，成为全面负责本…",
+      "summary": "Career narrative of Li Xinhong tracing her progression from logistics assistant at a shipping company to business supervisor at a large US express company, showing motivation for each move and her drive for advancement. (Text is cut off mid-sentence in OCR source.)",
+      "why_study": "A compact model for writing career biographies and career-arc analyses in professional Chinese. Shows how to describe progressive job changes (跳槽), explain value transfer (派上了用场), and express professional ambition (渴望…提升到更高层次). Authentic third-person professional narrative register.",
+      "key_devices": ["大学…专业毕业后，到了…做… (career entry formula)", "对这类业务已经非常熟悉，就找机会跳槽 (competence + strategic move)", "使…派上了用场 (skills utilisation phrasing)", "让…得到了很大提高 (capability development phrasing)", "老板也多次给她加薪 (implicit performance recognition)", "渴望着…提升到更高层次 (ambition expression)"]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "进入……阶段",
+      "explanation": "Indicates that something has reached / entered a certain stage of development. Commonly used in business/process description.",
+      "examples": [
+        "当你的公司进入实际筹备阶段时，有些情况是必须要了解的。",
+        "新产品的销售量进入高速增长阶段。",
+        "当贸易谈判进入签约阶段时，要特别小心。"
+      ]
+    },
+    {
+      "pattern": "以……为……",
+      "explanation": "\"Take X as Y\" – sets a standard, focus, or basis. Widely used in business to state positioning, criteria, or guiding principles. Collocations: 以…为主, 以…为重点, 以…为中心, 以…为理念, 以…为特点.",
+      "examples": [
+        "以生产经营和商品批发为主的公司需50万元人民币以上。",
+        "我们的服务一定要以客户为中心。",
+        ""真爱"品牌以"时尚、经典"为设计理念。",
+        "以设计时尚、面料高贵、工艺精湛为品牌特点进一步拓展市场。"
+      ]
+    },
+    {
+      "pattern": "按（照）……",
+      "explanation": "Preposition 按 / 按照: \"in accordance with, following\". Formal alternative to 根据 in procedural/contractual contexts.",
+      "examples": [
+        "按约定时间到工商局领取营业执照。",
+        "我们的产品是按合同规定的标准生产的。",
+        "按公司的规定，上班迟到是要扣奖金的。"
+      ]
+    },
+    {
+      "pattern": "创建于 / 成立于 / 发表于 (V于 formal location/time)",
+      "explanation": "Preposition 于 = 在, used in formal/written Chinese for time and place. Preferred in company profiles, academic, and official prose.",
+      "examples": [
+        "真爱服饰有限公司创建于1982年，位于青岛市中心。",
+        "中网高科有限公司成立于2001年。",
+        "客户代表将于下周三抵达北京。"
+      ]
+    },
+    {
+      "pattern": "集……为一体",
+      "explanation": "\"Integrating X, Y, and Z into one whole\" – used in company profiles and product descriptions to highlight multi-function integration.",
+      "examples": [
+        "一支集设计、营销、管理为一体的优秀团队。",
+        "这个公园集旅游、娱乐为一体。",
+        "这是一座集商铺、住宅为一体的大楼。"
+      ]
+    },
+    {
+      "pattern": "致力于……",
+      "explanation": "\"Devote one's efforts to…\" – formal expression for strategic or long-term commitment. Common in corporate mission statements and news.",
+      "examples": [
+        "公司正致力于强化内部管理。",
+        "中国财政致力于解决农村家庭教育养老医疗等难题。",
+        "多年来公司技术部门一直致力于研发新技术。"
+      ]
+    },
+    {
+      "pattern": "有利于……",
+      "explanation": "\"Beneficial to / conducive to…\" – formal way to state positive consequences of a policy or action.",
+      "examples": [
+        "此次利率调整有利于引导货币信贷和投资的合理增长。",
+        "有利于抑制货币供应高增长，控制通货膨胀。",
+        "面对面的讨论交流有利于问题的尽快解决。"
+      ]
+    },
+    {
+      "pattern": "在……情况下 / 条件下",
+      "explanation": "\"Under the circumstances/conditions of…\" – formal contextual framing clause. Signals the background premise before the main assertion.",
+      "examples": [
+        "在世界经济持续低迷、跨国投资大幅下降的情况下，中国吸收外商直接投资依然保持稳定。",
+        "肯德基只有在对加盟商的组织机构、金融状况和项目计划完全满意的情况下，才会开始合作。",
+        "在公司在我本人不知道的情况下扣除了我的保险金。"
+      ]
+    },
+    {
+      "pattern": "仅次于……",
+      "explanation": "\"Second only to…\" / \"just below…\" – ranking comparison. Used in statistics, market analysis, and competitive positioning.",
+      "examples": [
+        "（中国的外商投资额）在全球范围内仅次于美国和英国。",
+        "中秋节是中国仅次于春节的第二大传统节日。",
+        "今年夏天金融业成为求职最热门行业，仅次于IT行业。"
+      ]
+    },
+    {
+      "pattern": "居……首位 / 第X位",
+      "explanation": "\"Rank first / Xth in…\" – used with statistics to express ranking. Often paired with 连续X年.",
+      "examples": [
+        "连续12年实际使用外资金额居发展中国家和地区首位。",
+        "中国留学生人数居全世界首位，占全球总数的14%。",
+        "电子工业去年收入居各行业首位，同比增长24.8%。"
+      ]
+    },
+    {
+      "pattern": "同比增长/下降X%",
+      "explanation": "\"Year-on-year growth/decline of X%\" – standard financial journalism formula for reporting comparative data. 同比 = compared to the same period of the previous year.",
+      "examples": [
+        "2009年2月，中国新批设立外商投资企业1265家，同比下降13%。",
+        "实际使用外资金额58.33亿美元，同比下降15.81%。",
+        "8月份工业品出厂价格总水平同比上涨6.8%。"
+      ]
+    },
+    {
+      "pattern": "相比之下……",
+      "explanation": "\"By comparison…\" / \"In contrast…\" – used as a sentence-initial comparative pivot between two contrasting situations. More formal than 相比.",
+      "examples": [
+        "肯德基已拥有近20家加盟餐厅。相比之下，麦当劳在中国内地开设的300多家分店全部都是直营店。",
+        "相比之下，第二种方法比第一种要经济得多。",
+        "最近亚洲的股市都在下跌，相比之下，中国的股市跌幅算是比较小的。"
+      ]
+    },
+    {
+      "pattern": "进而……",
+      "explanation": "\"And thereby…\" / \"which in turn…\" – connects a first action/result to a further consequence or step. Formal written register.",
+      "examples": [
+        "加盟者可以较快地融入肯德基的运作系统，进而保障加盟者成功的机会。",
+        "我公司计划投资海外项目进而拓展国际市场。",
+        "广州企业税费太高使得工人工资降低，进而造成企业招工困难。"
+      ]
+    },
+    {
+      "pattern": "A取决于B",
+      "explanation": "\"A depends on / is determined by B.\" – formal causative relationship, often used to state what drives outcomes in business or analysis.",
+      "examples": [
+        "肯德基的成功取决于各加盟商的成功。",
+        "一个公司要成长，主要取决于员工的成长和客户的成长。",
+        "公司的发展取决于两个因素，一是技术，二是人才。"
+      ]
+    },
+    {
+      "pattern": "为……所……（被动）",
+      "explanation": "Formal/literary passive construction: 为 A 所 V = \"be V-ed by A\". More elevated register than 被. Common in written business Chinese and news.",
+      "examples": [
+        "高中低档牛仔服装已逐渐为中国人所接受。",
+        "这款时尚新产品为众多商家所看好。",
+        "上海服装市场几乎为浙江品牌所垄断。"
+      ]
+    },
+    {
+      "pattern": "系……（书面语"是"）",
+      "explanation": "Written-language equivalent of 是. Used in formal announcements, company profiles, and official communications for elevated register.",
+      "examples": [
+        "荣城金隆实业有限公司系综合性民营企业。",
+        "张董事长系上海人。",
+        "这篇文章报道的内容确系实情。"
+      ]
+    },
+    {
+      "pattern": "不乏……",
+      "explanation": "\"There is no lack of…\" / \"quite a few…\" – expresses that something exists in notable quantity without being universal. Used for nuanced quantification.",
+      "examples": [
+        "江苏的13万保险代理人中不乏年薪百万者。",
+        "工薪阶层中不乏高收入者。",
+        "在那个歌星的歌迷中不乏老年人。"
+      ]
+    },
+    {
+      "pattern": "把……视为……",
+      "explanation": "\"Regard / view X as Y\" – formal register. Preferred over 把…看成 in written business Chinese, especially for strategic or philosophical statements.",
+      "examples": [
+        "很多企业把培训视为员工的最好福利。",
+        "本公司把产品质量视为企业的生命。",
+        "两家公司都把这次项目合作视为公司发展的关键。"
+      ]
+    },
+    {
+      "pattern": "与其A，不如B",
+      "explanation": "\"Rather than A, it would be better to B.\" – comparative recommendation. Very commonly used in persuasive business writing to dismiss one option in favour of another.",
+      "examples": [
+        "与其把钱放在银行，不如把钱放在员工身上。",
+        "与其在这里着急地等待，不如直接去找他。",
+        "很多年轻人认为与其给别人打工，还不如自己创业。"
+      ]
+    },
+    {
+      "pattern": "所谓……，就是……",
+      "explanation": "\"What is meant by X is Y.\" – used to define a term or concept in explanatory/expository writing.",
+      "examples": [
+        "所谓入职培训，就是新员工培训。",
+        "所谓奖金，就是为了奖励而给予的金钱。",
+        "股份制企业按照股份分的利润就是所谓的分红。"
+      ]
+    },
+    {
+      "pattern": "加以 + V（对……加以……）",
+      "explanation": "\"Proceed to V\" / \"subject X to V\" – formal construction using 加以 before a polysyllabic verb to mean 'deal with' or 'apply' to a preceding topic. Alternatives: 加以改进, 加以分析, 加以区别, 加以运用.",
+      "examples": [
+        "述职的最终目的是通过总结经验对工作加以改进。",
+        "请你寻找有关市场的信息并加以整理分析。",
+        "对学习的内容要能在理解的基础上加以灵活运用。"
+      ]
+    },
+    {
+      "pattern": "从而……",
+      "explanation": "\"Thereby…\" / \"hence…\" – connects a cause or action in the first clause to a result in the second. More formal than 所以. Used in written analysis and argument. The second clause shares the subject of the first.",
+      "examples": [
+        "有多位从事与房地产相关的行业，收入较高，从而拉高了平均水平。",
+        "各公司大规模裁员引起员工不满从而引起了大罢工。",
+        "公司必须对市场变化做出快速反应，从而避免被市场淘汰。"
+      ]
+    },
+    {
+      "pattern": "呈……趋势",
+      "explanation": "\"Show a trend of…\" – standard formula for describing trends in data analysis and reports. Typical collocations: 呈上升/下降/增长/低龄化趋势.",
+      "examples": [
+        "每年的应届大学毕业生工作后的第一个月工资，总体上呈逐渐上升的趋势。",
+        "患这种病的人呈低龄化趋势。",
+        "城乡居民收入差距呈扩大化趋势。"
+      ]
+    },
+    {
+      "pattern": "竟然……",
+      "explanation": "\"To one's surprise…\" – adverb expressing that a result is unexpected or counter to expectation. Key for narrative writing to signal a plot turn.",
+      "examples": [
+        "他指定的人竟然就是我！",
+        "世界排名第一的网球选手竟然输给了不知名的选手。",
+        "我第一天刚上班，没犯什么错儿，竟然被老板辞退了。"
+      ]
+    },
+    {
+      "pattern": "既然……那么/就……",
+      "explanation": "\"Since (given that) A is already the case, then B follows.\" – logical deduction pattern, setting up a premise and drawing a conclusion. Common in argument, negotiation, and interview contexts.",
+      "examples": [
+        "既然主管这样要求，那么这件事肯定是非常紧急并且非常重要的。",
+        "既然没有人反对，那么这个计划就通过了。",
+        "既然双方已经签订了合同，那就没办法再改变了。"
+      ]
+    },
+    {
+      "pattern": "针对……（来）……",
+      "explanation": "\"Targeting / aimed at…\" – used to specify the intended audience or problem that an action addresses. Crucial for expressing specificity in business planning and product design.",
+      "examples": [
+        "所有这些培训都应该是针对不同层次不同岗位的员工来具体安排培训内容。",
+        "这款手机是专门针对20岁以下的年轻消费者来设计的。",
+        "针对销售量明显下降的情况，公司采取了一系列促销措施。"
+      ]
+    },
+    {
+      "pattern": "加大 / 加强 / 加快 / 加深（V + 单音节形容词）",
+      "explanation": "The prefix 加 combines with monosyllabic adjectives/verbs to mean 'increase / intensify': 加大投入, 加强管理, 加快速度, 加深了解, 加重负担. Very productive in formal written Chinese.",
+      "examples": [
+        "公司决定加大对新产品研发的投入。",
+        "这次拓展训练加强了员工之间的团结。",
+        "下一步的工作重点是要加大宣传力度，扩大公司的影响。"
+      ]
+    },
+    {
+      "pattern": "受……影响",
+      "explanation": "\"Affected by…\" – formal passive-focus construction for introducing a causal factor. Often fronted: 受X影响，Y…….",
+      "examples": [
+        "受本次央行加息影响最明显的是房贷客户。",
+        "受大雪影响，多趟京广线列车晚点。",
+        "8月份受国际石油价格上涨的影响，工业品出厂价格总水平同比上涨6.8%。"
+      ]
+    }
+  ],
+  "expressions": [
+    {"zh": "开业大吉", "pinyin": "kāiyè dàjí", "meaning": "auspicious opening of a business; may your business opening bring good fortune", "register": "idiomatic / celebratory"},
+    {"zh": "有限责任公司", "pinyin": "yǒuxiàn zérèn gōngsī", "meaning": "limited liability company (LLC)", "register": "formal / legal"},
+    {"zh": "注册资本", "pinyin": "zhùcè zīběn", "meaning": "registered capital", "register": "business / legal"},
+    {"zh": "营业执照", "pinyin": "yíngyè zhízhào", "meaning": "business license", "register": "formal / administrative"},
+    {"zh": "工商局", "pinyin": "gōngshāngjú", "meaning": "Bureau of Industry and Commerce", "register": "administrative"},
+    {"zh": "验资证明", "pinyin": "yànzī zhèngmíng", "meaning": "capital verification certificate (issued by a CPA firm)", "register": "legal / financial"},
+    {"zh": "划入临时账户", "pinyin": "huàrù línshí zhànghù", "meaning": "transfer funds into a temporary bank account (for registration)", "register": "banking / procedural"},
+    {"zh": "基准利率", "pinyin": "jīzhǔn lìlǜ", "meaning": "benchmark / base interest rate", "register": "financial / banking"},
+    {"zh": "存款 / 贷款", "pinyin": "cúnkuǎn / dàikuǎn", "meaning": "bank deposit / bank loan", "register": "banking"},
+    {"zh": "上调 / 下调", "pinyin": "shàngtiáo / xiàtiáo", "meaning": "adjust upward / adjust downward (rates, prices)", "register": "financial / formal"},
+    {"zh": "活期存款", "pinyin": "huóqī cúnkuǎn", "meaning": "demand deposit (savings account with no fixed term)", "register": "banking"},
+    {"zh": "通货膨胀", "pinyin": "tōnghuò péngzhàng", "meaning": "inflation", "register": "economic / formal"},
+    {"zh": "外贸顺差", "pinyin": "wàimào shùnchā", "meaning": "trade surplus", "register": "economic / formal"},
+    {"zh": "同比增长/下降", "pinyin": "tóngbǐ zēngzhǎng / xiàjiàng", "meaning": "year-on-year growth / decline", "register": "financial journalism"},
+    {"zh": "截至……底", "pinyin": "jiézhì…dǐ", "meaning": "as of the end of…(a date)", "register": "formal / statistical"},
+    {"zh": "外商直接投资", "pinyin": "wàishāng zhíjiē tóuzī", "meaning": "foreign direct investment (FDI)", "register": "economic / formal"},
+    {"zh": "荡然无存", "pinyin": "dàngrán wúcún", "meaning": "completely gone; entirely dissipated (advantages, evidence)", "register": "written / idiomatic"},
+    {"zh": "率先", "pinyin": "shuàixiān", "meaning": "take the lead; be the first to…", "register": "formal / journalistic"},
+    {"zh": "旗下", "pinyin": "qíxià", "meaning": "under one's banner; subordinate to (a company/brand)", "register": "business / formal"},
+    {"zh": "特许经营", "pinyin": "tèxǔ jīngyíng", "meaning": "franchise operation", "register": "business / commercial"},
+    {"zh": "加盟连锁", "pinyin": "jiāméng liánsuǒ", "meaning": "franchise chain", "register": "business"},
+    {"zh": "直营店", "pinyin": "zhíyíng diàn", "meaning": "directly-operated (company-owned) store", "register": "business"},
+    {"zh": "进入费 / 加盟费", "pinyin": "jìnrù fèi / jiāméng fèi", "meaning": "entry/franchise fee", "register": "business"},
+    {"zh": "营业额", "pinyin": "yíngyè'é", "meaning": "turnover; business volume", "register": "business / financial"},
+    {"zh": "经营权使用费", "pinyin": "jīngyíng quán shǐyòng fèi", "meaning": "royalty fee (for use of franchise rights)", "register": "legal / commercial"},
+    {"zh": "广告分摊费用", "pinyin": "guǎnggào fēntān fèiyòng", "meaning": "allocated advertising expenditure (as % of sales)", "register": "commercial / legal"},
+    {"zh": "金字招牌", "pinyin": "jīnzì zhāopái", "meaning": "gold-lettered signboard; prestigious brand name", "register": "idiomatic / commercial"},
+    {"zh": "招聘 / 应聘", "pinyin": "zhāopìn / yìngpìn", "meaning": "recruit (employer) / apply for a job (candidate)", "register": "HR / neutral"},
+    {"zh": "人力资源", "pinyin": "rénlì zīyuán", "meaning": "human resources (HR)", "register": "business / formal"},
+    {"zh": "筛选", "pinyin": "shāixuǎn", "meaning": "screen; filter (candidates)", "register": "HR / formal"},
+    {"zh": "破格录用", "pinyin": "pògé lùyòng", "meaning": "hire exceptionally / waive normal requirements to hire someone", "register": "HR / formal"},
+    {"zh": "单刀直入", "pinyin": "dāndāo zhírù", "meaning": "come straight to the point; blunt and direct", "register": "idiomatic"},
+    {"zh": "跳槽", "pinyin": "tiào cáo", "meaning": "change jobs; job-hop", "register": "colloquial / widely used"},
+    {"zh": "底薪", "pinyin": "dǐxīn", "meaning": "base salary", "register": "HR / business"},
+    {"zh": "提成", "pinyin": "tíchéng", "meaning": "commission; percentage cut (of sales)", "register": "sales / business"},
+    {"zh": "分红", "pinyin": "fēn hóng", "meaning": "profit-sharing; bonus distribution", "register": "business / financial"},
+    {"zh": "年薪制", "pinyin": "niánxīn zhì", "meaning": "annual salary system", "register": "HR / formal"},
+    {"zh": "佣金", "pinyin": "yòngjīn", "meaning": "commission; brokerage fee", "register": "financial / business"},
+    {"zh": "津贴", "pinyin": "jīntiē", "meaning": "allowance; special stipend (for particular conditions or rank)", "register": "HR / formal"},
+    {"zh": "报销", "pinyin": "bàoxiāo", "meaning": "reimburse; claim expenses", "register": "business / practical"},
+    {"zh": "业绩说话", "pinyin": "yèjì shuōhuà", "meaning": "let performance do the talking; results speak for themselves", "register": "idiomatic / business"},
+    {"zh": "一切靠…说话", "pinyin": "yīqiē kào…shuōhuà", "meaning": "everything depends on X; let X be the deciding factor", "register": "idiomatic"},
+    {"zh": "日新月异", "pinyin": "rìxīn yuèyì", "meaning": "change with each passing day; rapid development", "register": "written / idiomatic"},
+    {"zh": "归根结底", "pinyin": "guīgēn jiédǐ", "meaning": "when all is said and done; ultimately; at bottom", "register": "written / formal"},
+    {"zh": "凝聚力 / 向心力", "pinyin": "níngjù lì / xiàngxīn lì", "meaning": "cohesion / centripetal force (team unity in corporate context)", "register": "management / formal"},
+    {"zh": "大有裨益", "pinyin": "dàyǒu bìyì", "meaning": "highly beneficial; greatly profitable (for sb.)", "register": "written / formal"},
+    {"zh": "参差不齐", "pinyin": "cēncī bùqí", "meaning": "uneven; of varying levels", "register": "written / formal"},
+    {"zh": "背道而驰", "pinyin": "bèidào ér chí", "meaning": "go in the opposite direction; run counter to", "register": "written / idiomatic"},
+    {"zh": "木桶理论", "pinyin": "mùtǒng lǐlùn", "meaning": "the Wooden Bucket Theory (weakest-link principle)", "register": "management concept"},
+    {"zh": "述职", "pinyin": "shù zhí", "meaning": "report on one's work (formal performance review report)", "register": "formal / workplace"},
+    {"zh": "以数据和事实来说话", "pinyin": "yǐ shùjù hé shìshí lái shuōhuà", "meaning": "let data and facts do the talking; evidence-based reporting", "register": "professional / written"},
+    {"zh": "记流水账", "pinyin": "jì liúshuǐ zhàng", "meaning": "keep a running tally / write in a rambling diary style (negative: lacking analysis)", "register": "idiomatic / critical"},
+    {"zh": "达成共识", "pinyin": "dáchéng gòngshí", "meaning": "reach consensus; achieve mutual understanding", "register": "formal / business"},
+    {"zh": "加以改进 / 分析 / 运用", "pinyin": "jiāyǐ gǎijìn / fēnxī / yùnyòng", "meaning": "proceed to improve / analyse / apply (formal construction)", "register": "formal / written"},
+    {"zh": "在情理之中", "pinyin": "zài qínglǐ zhī zhōng", "meaning": "within reason; entirely understandable; to be expected", "register": "written / commentary"},
+    {"zh": "招商引资", "pinyin": "zhāoshāng yǐnzī", "meaning": "attract investment; solicit investors", "register": "business / formal"},
+    {"zh": "合资 / 独资 / 控股", "pinyin": "hézī / dúzī / kòng gǔ", "meaning": "joint venture / wholly-owned / holding controlling interest", "register": "corporate / legal"},
+    {"zh": "实现年利润/销售收入", "pinyin": "shíxiàn niánlìrùn / xiāoshōu", "meaning": "achieve annual profit / revenue of X", "register": "financial / reporting"},
+    {"zh": "按部就班", "pinyin": "àn bù jiù bān", "meaning": "follow set procedures; work by the book (sometimes implying lack of initiative)", "register": "idiomatic"}
+  ],
+  "essay_takeaways": [
+    "Open with a vivid question or contrast before introducing topic: the text 如何注册成立企业 opens '也许你想着如何开始你自己的生意' to engage the reader before proceeding to numbered procedures. This reader-address technique works in business proposals and op-eds alike.",
+    "Company profiles (公司简介) should pack founding date (创建于), location (位于), total assets, team description, brand positioning (以…为理念), target demographic, and forward strategic intent (致力于…) into 150–200 characters of dense, coherent prose—not bullet points.",
+    "For comparative analysis, deploy 相比之下 as a sentence-initial pivot: state the first item, then pivot with '相比之下' to introduce the contrasting case. This is cleaner and more formal than '而'.",
+    "For trend reporting, use the formula: 总体上呈逐渐[上升/下降]的趋势 as a topic sentence, then supply data in subsequent sentences with 其中, 显著增加, 突破了X, 从而拉高/拉低了平均水平.",
+    "Data attribution in financial journalism: open paragraphs with 据…说, 据介绍, 据有关统计 to chain multiple sources. Keep each paragraph to one source. This models the Mandarin news register precisely.",
+    "Avoid 记流水账 in business writing. A report that merely lists events (先做了X，然后做了Y，接下来做了Z) without analysis reads as a diary. The 述职提要 text explicitly warns against this: 'not a mere enumeration'—always tie facts to objectives, causes, and improvements.",
+    "The 为…所… passive is a high-register alternative to 被 for written Chinese and adds stylistic variety. Use it in formal reports and analyses: '已逐渐为中国人所接受', '为众多商家所看好'.",
+    "Structure argumentative essays with an extended analogy (比喻论证): introduce the analogy (木桶理论), map its parts to business reality, derive two contrasting solutions, evaluate them, then apply to a taxonomy of recommendations. Close by returning to the analogy metaphor. This is a proven HSK-6/advanced essay structure.",
+    "Use 归根结底 to signal a root-cause conclusion that cuts through surface complexity. It has the rhetorical weight of 'when all is said and done' and is far more idiomatic than 最终原因是.",
+    "For expressing professional ambition or aspiration: 渴望着…提升到更高层次 / 致力于…进一步拓展. These collocations appear in cover letters, performance reviews, and career narratives.",
+    "When discussing compensation or salary, match register to formality: 底薪 (base), 提成 (commission), 佣金 (brokerage), 津贴 (allowance), 分红 (profit share), 报销 (reimbursement). Distinguish 福利 (non-cash benefits) from 津贴 (cash allowances) from 奖金 (performance bonus).",
+    "The idiom 以数据和事实来说话 is immediately usable as an opening-paragraph principle statement in any analytical report. It signals evidence-based reasoning and sets an expectation for the reader.",
+    "When writing franchise/business model descriptions, the structural contrast 不是让…而是让… efficiently refutes the assumed model and replaces it with the actual one. Pair with 进而 to show the downstream benefit: '不是X，而是Y，进而Z'.",
+    "For salary/compensation system case studies, decompose pay into components with 由…三/四部分构成 and list each with its formula. Then use 无论…还是，薪酬都没有太大差别 to expose a flaw (lack of differentiation). This is a reusable critique structure for HR analysis essays.",
+    "The pattern 消息一经传出，马上… is highly idiomatic for describing immediate stakeholder reactions: 'No sooner had the news broken than…'. Use it in case studies to dramatise corporate events."
+  ]
+}

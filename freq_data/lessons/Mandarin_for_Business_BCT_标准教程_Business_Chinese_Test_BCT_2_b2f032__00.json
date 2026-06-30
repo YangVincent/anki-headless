@@ -1,0 +1,464 @@
+{
+  "source": "BCT标准教程 第2册 (Business Chinese Test Standard Course Book 2), People's Education Press, 2015. Lessons 1–11 (of 20). Level: BCT Level 2 / approx. HSK 2–3.",
+  "note_for_learner": "This chunk covers Lessons 1–11 of a beginner-intermediate business Chinese textbook. Content is elementary for an HSK 5–6 reader, but the business register formulas, comparison grammar, and functional message templates are directly reusable in professional contexts.",
+
+  "model_essays": [
+    {
+      "title": "商务访问日程介绍 (Presenting a Business Visitor's Itinerary)",
+      "genre": "Spoken itinerary briefing / business hospitality script",
+      "text": "李先生，我来介绍一下您在中国的日程。您的飞机是11月15号十点到，我会去机场接您。我给您订了房间，我先送您去宾馆。中午钱经理请您吃饭，下午在我们公司开会。11月16号您可以休息一下，如果您想去走走，我可以送您去。您的飞机是11月17号早上十一点的，我早上八点去接您，送您去机场。您看这样的日程可以吗？如果您有什么需要，请告诉我，别客气。",
+      "summary": "A company liaison briefs an incoming business visitor on a three-day itinerary: airport pickup, hotel check-in, hosted lunch, afternoon meeting, free day, and departure send-off. Ends with an open offer to accommodate any needs.",
+      "why_study": "This is the most business-rich passage in the chunk. It models the standard formula for presenting a 接待 (reception/hospitality) itinerary in spoken Chinese — airport pickup, hosted meal, meeting, departure. The closing formula 如果您有什么需要，请告诉我，别客气 is a set phrase used universally in Chinese business hospitality. The text also densely illustrates 先...再/然后 sequencing and the polite request marker 您看...可以吗？",
+      "key_devices": [
+        "先...然后...再 sequencing for step-by-step agenda",
+        "如果您有什么需要，请告诉我，别客气 — standard hospitality closing",
+        "您看...可以吗？ — polite confirmation-seeking tag",
+        "给您订了 (booked for you), 请您吃饭 (treat you to a meal), 接您/送您 (pick you up/take you) — core reception collocations",
+        "Implicit politeness through all-second-person framing: every sentence centers the visitor's comfort"
+      ]
+    },
+    {
+      "title": "请假留言 (Sick-Leave Voicemail to Manager)",
+      "genre": "Business voice message / informal written memo",
+      "text": "您好，李经理。我是CTI公司的李好。我生病了，要在家休息一下。下周一不能和您开会了。我星期五上班，我们可以星期五开会吗？请给我回个电话，谢谢。",
+      "summary": "An employee leaves a phone message for her manager: she is ill, cannot attend Monday's meeting, proposes rescheduling to Friday, and asks for a call-back.",
+      "why_study": "A compact, complete model of the Chinese business message formula: [greeting + self-identification] → [reason/situation] → [impact on plans] → [proposed alternative] → [action request] → [thanks]. This five-beat structure transfers directly to email and SMS in professional Chinese.",
+      "key_devices": [
+        "Self-ID formula: 我是[公司]的[姓名] — always name your company before your name in formal messages",
+        "下周一不能和您...了 — 了 here signals a changed state (plan no longer holds)",
+        "请给我回个电话 — standard call-back request phrase",
+        "Compact closure: 谢谢 alone (no name) — appropriate for voice message"
+      ]
+    },
+    {
+      "title": "口头请假申请 (Verbal Sick-Leave Request to Manager)",
+      "genre": "Spoken workplace leave request",
+      "text": "李经理，您好，我是王欢。我生病了，今天去看了医生。医生说我感冒了，有点儿发烧，让我多休息。我想在家休息两天，可以吗？谢谢您。",
+      "summary": "An employee calls her manager to report illness: she saw a doctor, was diagnosed with a cold and mild fever, and requests two days of rest at home.",
+      "why_study": "Models how to frame a leave request in Chinese: lead with the medical fact (doctor's authority), then make the request, then seek approval with 可以吗？. The structure 医生说...让我...（做某事）is a polite way to back a request with professional authority rather than personal preference.",
+      "key_devices": [
+        "医生说...让我多休息 — cite authority (doctor's orders) to legitimize a request",
+        "有点儿发烧 — 有点儿 for mild, sympathy-evoking complaints",
+        "我想...，可以吗？ — soft permission-seeking pattern",
+        "谢谢您 (not 谢谢你) — 您 maintains formal register even with one's own manager"
+      ]
+    },
+    {
+      "title": "今天出了很多错 (Narrative: A Day Full of Mistakes)",
+      "genre": "First-person narrative / workplace self-reflection",
+      "text": "今天我做错了很多事情。高飞让我买咖啡，我买错了，买了茶。李好让我三点开会，我听错了，两点去的，等了一个小时。王欢让我告诉她王经理的电话，我说错了，说的是李经理的电话。我这是怎么了？",
+      "summary": "A self-deprecating monologue: the narrator made three successive errors (bought the wrong drink, went to a meeting at the wrong time, gave the wrong phone number), ending with a rhetorical question of self-bewilderment.",
+      "why_study": "Excellent drill text for V+错 resultative complement — the single most useful pattern for describing workplace errors and corrections. The text also shows the 让 causative in parallel structure and the 是...的 focus construction (两点去的). The closing rhetorical 我这是怎么了？ is a natural idiomatic expression of exasperation.",
+      "key_devices": [
+        "V+错 repeated in parallel: 买错了 / 听错了 / 说错了 — resultative complement pattern",
+        "让 causative: [person] 让我 [V] — reporting what you were asked to do",
+        "是...的 focus: 两点去的 — stresses the time (unexpected detail)",
+        "Anaphoric structure: each sentence follows the same shape, creating rhythm and cumulative comic effect",
+        "我这是怎么了？ — rhetorical self-questioning idiom"
+      ]
+    },
+    {
+      "title": "上班路途比较 (Comparing Commutes to Work)",
+      "genre": "Descriptive passage / comparative narrative",
+      "text": "你们每天怎么去上班？李好的家离公司很近，她每天走路上班，要走十分钟。我家离公司很远，我坐地铁上班，要坐十站。地铁虽然很快，但是人太多了。李经理的家也很远，他开车上班，要开一个小时。张迎的家不太远，她每天坐公共汽车上班，要坐半个小时。",
+      "summary": "A narrator describes how four people commute to work, contrasting distance, mode of transport, and time taken.",
+      "why_study": "Clean model of 离 (distance from), 要 (takes/costs time), and 虽然...但是... in a natural descriptive context. The passage shows how to write a short comparative paragraph about multiple people using parallel structure — useful for business reports comparing teams, options, or scenarios.",
+      "key_devices": [
+        "家离公司 + [近/远] — distance-from construction with 离",
+        "要 + [time/stations] — expressing duration or cost",
+        "虽然...但是... — concessive structure with real-world consequence",
+        "Parallel person-by-person structure: useful template for comparative business writing"
+      ]
+    },
+    {
+      "title": "怎么去北京医院 (Giving Directions to the Beijing Hospital)",
+      "genre": "Functional directions / spoken guidance",
+      "text": "怎么去北京医院？可以坐5路公共汽车，在北京医院站下车就行了，要坐一个多小时。公共汽车站很近，往东走一百多米，左转就到了。你也可以坐地铁，坐地铁比坐公共汽车快，在北京站下车，半个多小时就到了。地铁站要一直往西走，十多分钟就到了。",
+      "summary": "A speaker explains two routes to Beijing Hospital — by bus and by subway — including walking directions to each stop and estimated travel time.",
+      "why_study": "A reusable template for giving multi-option directions in Chinese. The passage models the 往 + direction + 走 + distance + turn + 就到了 template, the comparison 比...快, and the quantifier 多 (over/approximately) attached to distances and times. Professional contexts (meeting someone, explaining venue location) frequently require exactly this type of multi-option routing explanation.",
+      "key_devices": [
+        "往[direction]走[distance]，[turn]，就到了 — complete directions template",
+        "一百多米 / 半个多小时 — 多 as approximator (just over / more than)",
+        "坐地铁比坐公共汽车快 — direct comparison with 比",
+        "就 — immediacy marker (right away, as soon as you...)",
+        "一直 往西走 — 一直 for straight-ahead navigation"
+      ]
+    }
+  ],
+
+  "grammar_patterns": [
+    {
+      "pattern": "V + 着 (ongoing/continuous state)",
+      "explanation": "着 attached to a verb indicates a state resulting from an action that is still in progress (not the action itself). Commonly used to describe what people are wearing or how they are positioned. Distinguished from 在/正在 which describe an active ongoing action.",
+      "examples": [
+        "站着的那位 (the one standing [over there])",
+        "他穿着西装，打着领带 (he is wearing a suit and tie)",
+        "戴着白色的眼镜 (wearing white glasses)"
+      ]
+    },
+    {
+      "pattern": "虽然...但是/可是... (although...but...)",
+      "explanation": "Standard concessive conjunction pair. 虽然 introduces the conceded fact; 但是 or 可是 introduces the contrasting reality. In informal speech 虽然 is often dropped, leaving just 但是. Elevated register: 尽管...但是...",
+      "examples": [
+        "虽然工作有点儿忙，但是我很喜欢这个工作。",
+        "地铁虽然很快，但是人太多了。"
+      ]
+    },
+    {
+      "pattern": "V + 过 (experiential aspect marker)",
+      "explanation": "过 after a verb marks that an experience has been had at some unspecified past time. Negated with 没(有)V过. Contrasts with 了 which marks completion of a specific past event. Key for talking about travel, education, and life experience.",
+      "examples": [
+        "我去过美国和日本。(I have been to the US and Japan.)",
+        "你学过汉语吗？(Have you ever studied Chinese?)",
+        "我吃过中国菜。(I have eaten Chinese food before.)"
+      ]
+    },
+    {
+      "pattern": "是...的 (focus/cleft construction for past events)",
+      "explanation": "Used to focus attention on how, when, where, or with whom a past action took place — not whether it happened. The action is presupposed; 是...的 spotlights the circumstance. Extremely common in business Chinese to clarify details.",
+      "examples": [
+        "我今天是走路来上班的。(I walked to work today — emphasizing mode of transport)",
+        "两点去的。(I went at two — emphasizing the unexpected time)",
+        "是chuānzhe hēisè kùzi的那位吗？(Is it the one wearing black trousers?)"
+      ]
+    },
+    {
+      "pattern": "有点儿 + adj (slightly/a bit [negative nuance])",
+      "explanation": "有点儿 precedes adjectives to express a mild degree, typically with a slight negative or complaint nuance. Contrasts with 挺...的 (quite — positive) and 非常 (very — neutral/strong). Use 有点儿 when the speaker perceives the degree as inconvenient or unfortunate.",
+      "examples": [
+        "我有点儿累。(I'm a bit tired.)",
+        "工作有点儿忙。(Work is a bit hectic.)",
+        "有点儿发烧。(A slight fever.)"
+      ]
+    },
+    {
+      "pattern": "挺 + adj + 的 (quite/pretty — colloquial positive)",
+      "explanation": "挺...的 expresses a fairly high but not extreme degree, usually with positive or neutral connotation. The final 的 is characteristic of this construction and softens/personalizes the statement. More casual than 非常; warmer than just 很.",
+      "examples": [
+        "我挺喜欢这个工作的。(I quite like this job.)",
+        "这儿挺舒服的。(It's quite comfortable here.)"
+      ]
+    },
+    {
+      "pattern": "每 + [time unit] + 都 + V (every [unit], all/always V)",
+      "explanation": "每 (every/each) pairs with 都 (all) to express habitual or universal action. The 都 is nearly obligatory and cannot usually be omitted. Extended: 什么...都... (everything...) and 哪儿...都... (everywhere...).",
+      "examples": [
+        "我每天都去跑步。(I run every day.)",
+        "我什么菜都喜欢。(I like all kinds of food.)",
+        "她每天上班前和下班后都去跑步。(She runs both before and after work every day.)"
+      ]
+    },
+    {
+      "pattern": "A 比 B + adj (A is more [adj] than B)",
+      "explanation": "Standard comparison structure. The adjective stands alone — no 更 is needed (though 更 can be added for emphasis). To say 'A is much more X than B': A 比 B + adj + 多了/得多. Negated: A 没有 B + adj (A is not as X as B).",
+      "examples": [
+        "昨天比今天热。(Yesterday was hotter than today.)",
+        "坐地铁比坐公共汽车快。(The subway is faster than the bus.)",
+        "北京下雨的天气温度比晴天低。(Beijing's rainy-day temperature is lower than sunny days.)"
+      ]
+    },
+    {
+      "pattern": "A 没有 B + adj (A is not as [adj] as B)",
+      "explanation": "Negative comparison. A 没有 B + adj means 'A does not reach B's level of [adj]'. This is the negative form of the 比 construction and is interchangeable in meaning with B 比 A + adj. Often sounds more natural in spoken Chinese when emphasizing that something falls short.",
+      "examples": [
+        "温度没有今天高。(The temperature won't be as high as today's.)",
+        "今天没有昨天热。(Today is not as hot as yesterday.)"
+      ]
+    },
+    {
+      "pattern": "要 + [duration/quantity] (takes/costs [time/money/effort])",
+      "explanation": "要 as a predicate expressing the cost or duration required. Extremely common for discussing travel time, process time, and quantities. Distinct from modal 要 (want to / will).",
+      "examples": [
+        "坐公共汽车要多长时间？(How long does the bus take?)",
+        "走路要十分钟。(It takes ten minutes on foot.)",
+        "要坐五站。(Five stops to go.)"
+      ]
+    },
+    {
+      "pattern": "先...然后...（再...）(first...then...then...)",
+      "explanation": "Sequence-of-steps structure. 先 (first), 然后 (then/after that), 再 (then again/next). Use for ordered instructions, itineraries, and procedures. 先 is typically tied to the subject; 然后/再 can start new clauses or sentences. Essential for business planning language.",
+      "examples": [
+        "我先去看医生，然后再上班。(I'll go to the doctor first, then come to work.)",
+        "我先送您去宾馆，中午请您吃饭，下午开会。(I'll take you to the hotel first, then lunch at noon, then a meeting in the afternoon.)"
+      ]
+    },
+    {
+      "pattern": "正在 / 在 + V (progressive: currently doing)",
+      "explanation": "正在 (or just 在) before a verb marks an ongoing action at the moment of reference. Often paired with 呢 at the end. In business calls, 正在开会 is the standard phrase for 'in a meeting'. 刚才 + 在 + V signals an action that was in progress at a slightly earlier moment.",
+      "examples": [
+        "他正在开会。(He is currently in a meeting.)",
+        "刚才我在开会。(I was in a meeting just now.)",
+        "李小姐正在唱歌。(Miss Li is singing.)"
+      ]
+    },
+    {
+      "pattern": "让 causative: [A] 让 [B] V (A asks/makes/lets B do V)",
+      "explanation": "让 expresses permission, instruction, or causation. Reading depends on context: let (permission), ask/tell (instruction), make (causation). In workplace Chinese, the pattern is extremely common for reporting instructions received or given. Similar to 叫 but more standard.",
+      "examples": [
+        "医生让我多休息。(The doctor told me to get more rest.)",
+        "高飞让我买咖啡。(Gao Fei asked me to buy coffee.)",
+        "李经理让我来接您。(Manager Li asked me to come and pick you up.)"
+      ]
+    },
+    {
+      "pattern": "如果...，请... (if..., please...)",
+      "explanation": "Conditional polite request structure commonly used in business Chinese to make open-ended offers of assistance. The 如果 clause sets the condition; 请 + V delivers the polite instruction. This pattern is a standard closing formula in Chinese business correspondence and speech.",
+      "examples": [
+        "如果您有什么需要，请告诉我。(If there is anything you need, please let me know.)",
+        "如果您想去走走，我可以送您去。(If you'd like to take a walk, I can take you.)"
+      ]
+    },
+    {
+      "pattern": "快 + [adj/V] + 了 (about to / on the verge of)",
+      "explanation": "快...了 expresses imminent change of state — something is about to happen or a situation is approaching its endpoint. Distinguished from 要...了 which can also be used, but 快...了 implies greater immediacy and is slightly more colloquial.",
+      "examples": [
+        "我快好了。(I'm almost better now.)",
+        "飞机快到了。(The plane is about to arrive.)"
+      ]
+    },
+    {
+      "pattern": "V + 错 (resultative complement: did V wrongly)",
+      "explanation": "错 as a resultative complement indicates the action produced an erroneous result. Covers a wide range: mishearing (听错), misspeaking (说错), miswriting (写错), misbuying (买错), misdialing (打错). Essential for professional apology and correction language.",
+      "examples": [
+        "对不起，我写错了。(Sorry, I wrote it down wrong.)",
+        "我听错了，我的意思是… (I misheard; what I meant was…)",
+        "我买错了，买了茶。(I bought the wrong thing — I got tea instead.)"
+      ]
+    },
+    {
+      "pattern": "往/向 + direction + 走 + distance，然后 [turn]，就到了",
+      "explanation": "Standard Chinese template for giving walking directions. 往/向 (toward) + compass direction + 走 (walk) + distance, followed by turning instruction, concluded with 就到了 (and you'll be there). 就 signals immediate arrival upon completion of the action.",
+      "examples": [
+        "您往东走三百米，就到了。(Walk three hundred meters eastward and you'll be there.)",
+        "往西走两百米，向左转，就到了。(Walk two hundred meters west, turn left, and you're there.)",
+        "一直往西走，十多分钟就到了。(Walk straight west and you'll be there in about ten minutes.)"
+      ]
+    }
+  ],
+
+  "expressions": [
+    {
+      "zh": "出差",
+      "pinyin": "chūchāi",
+      "meaning": "to go on a business trip",
+      "register": "business standard"
+    },
+    {
+      "zh": "开会",
+      "pinyin": "kāihuì",
+      "meaning": "to hold / attend a meeting",
+      "register": "business standard"
+    },
+    {
+      "zh": "日程",
+      "pinyin": "rìchéng",
+      "meaning": "schedule; itinerary",
+      "register": "business formal"
+    },
+    {
+      "zh": "留言",
+      "pinyin": "liúyán",
+      "meaning": "message (n.); to leave a message (v.)",
+      "register": "business standard"
+    },
+    {
+      "zh": "正在开会",
+      "pinyin": "zhèngzài kāihuì",
+      "meaning": "currently in a meeting (standard phone deflection phrase)",
+      "register": "business standard"
+    },
+    {
+      "zh": "请给我回个电话",
+      "pinyin": "qǐng gěi wǒ huí gè diànhuà",
+      "meaning": "please call me back",
+      "register": "business standard"
+    },
+    {
+      "zh": "不能和您见面/开会",
+      "pinyin": "bù néng hé nín jiànmiàn / kāihuì",
+      "meaning": "unable to meet with you / unable to hold the meeting (formal regret formula)",
+      "register": "business formal"
+    },
+    {
+      "zh": "给您订了房间",
+      "pinyin": "gěi nín dìngle fángjiān",
+      "meaning": "booked a room for you (hospitality phrase)",
+      "register": "business formal / hospitality"
+    },
+    {
+      "zh": "请您吃饭",
+      "pinyin": "qǐng nín chīfàn",
+      "meaning": "to treat you to a meal; to host you for lunch/dinner",
+      "register": "business standard / hospitality"
+    },
+    {
+      "zh": "去机场接您",
+      "pinyin": "qù jīchǎng jiē nín",
+      "meaning": "to go to the airport to pick you up",
+      "register": "business hospitality"
+    },
+    {
+      "zh": "送您去…",
+      "pinyin": "sòng nín qù…",
+      "meaning": "to take/drive you to [place]; to see you off to",
+      "register": "business hospitality"
+    },
+    {
+      "zh": "办手续",
+      "pinyin": "bàn shǒuxù",
+      "meaning": "to complete formalities; to check in (hotel/office)",
+      "register": "business standard"
+    },
+    {
+      "zh": "如果您有什么需要，请告诉我，别客气",
+      "pinyin": "rúguǒ nín yǒu shénme xūyào, qǐng gàosu wǒ, bié kèqi",
+      "meaning": "If there is anything you need, please don't hesitate to let me know (standard hospitality closing)",
+      "register": "business formal / hospitality"
+    },
+    {
+      "zh": "别客气",
+      "pinyin": "bié kèqi",
+      "meaning": "don't be polite / you're welcome / please don't stand on ceremony",
+      "register": "business standard (warmer than 不客气)"
+    },
+    {
+      "zh": "您看…可以吗？",
+      "pinyin": "nín kàn… kěyǐ ma?",
+      "meaning": "What do you think of…? Does that work for you? (polite confirmation-seeking tag)",
+      "register": "business formal"
+    },
+    {
+      "zh": "商务中心",
+      "pinyin": "shāngwù zhōngxīn",
+      "meaning": "business center (building)",
+      "register": "business standard"
+    },
+    {
+      "zh": "商务间",
+      "pinyin": "shāngwù jiān",
+      "meaning": "business room (hotel room class)",
+      "register": "business / travel"
+    },
+    {
+      "zh": "真是太感谢了",
+      "pinyin": "zhēnshi tài gǎnxiè le",
+      "meaning": "I truly appreciate it; I'm really grateful (warm, emphatic thanks)",
+      "register": "business formal / polite"
+    },
+    {
+      "zh": "非常感谢",
+      "pinyin": "fēicháng gǎnxiè",
+      "meaning": "thank you very much; I greatly appreciate it (formal thanks)",
+      "register": "business formal"
+    },
+    {
+      "zh": "真抱歉",
+      "pinyin": "zhēn bàoqiàn",
+      "meaning": "I'm truly sorry (stronger, more formal than 不好意思)",
+      "register": "business formal apology"
+    },
+    {
+      "zh": "不好意思",
+      "pinyin": "bù hǎoyìsi",
+      "meaning": "sorry / I'm embarrassed / excuse me (mild, versatile apology for minor inconvenience)",
+      "register": "neutral / slightly informal"
+    },
+    {
+      "zh": "劳驾",
+      "pinyin": "láojià",
+      "meaning": "excuse me (when asking a favor or asking someone to move); more formal than 请问",
+      "register": "polite / slightly formal"
+    },
+    {
+      "zh": "没关系",
+      "pinyin": "méi guānxi",
+      "meaning": "no problem; never mind; it doesn't matter",
+      "register": "neutral / everyday"
+    },
+    {
+      "zh": "对不起，我说错了，我的意思是…",
+      "pinyin": "duìbuqǐ, wǒ shuō cuò le, wǒ de yìsi shì…",
+      "meaning": "I'm sorry, I misspoke; what I meant was… (self-correction formula)",
+      "register": "business standard"
+    },
+    {
+      "zh": "我是[公司]的[姓名]",
+      "pinyin": "wǒ shì [gōngsī] de [xìngmíng]",
+      "meaning": "I am [Name] from [Company] — standard self-identification formula for phone calls and messages",
+      "register": "business formal"
+    },
+    {
+      "zh": "身体不舒服",
+      "pinyin": "shēntǐ bù shūfu",
+      "meaning": "not feeling well; feeling unwell (softer than 生病; common in workplace leave requests)",
+      "register": "neutral / polite"
+    },
+    {
+      "zh": "要多休息",
+      "pinyin": "yào duō xiūxi",
+      "meaning": "you should get more rest (standard caring advice / doctor's instruction formula)",
+      "register": "neutral / caring"
+    },
+    {
+      "zh": "好久不见",
+      "pinyin": "hǎojiǔ bú jiàn",
+      "meaning": "long time no see (set greeting for reconnecting with acquaintances)",
+      "register": "neutral / friendly"
+    },
+    {
+      "zh": "我知道了",
+      "pinyin": "wǒ zhīdào le",
+      "meaning": "I see / I've got it / understood (acknowledging receipt of information; 了 marks newly acquired knowledge)",
+      "register": "neutral / conversational"
+    },
+    {
+      "zh": "商业 / 商务",
+      "pinyin": "shāngyè / shāngwù",
+      "meaning": "commerce/business (general, adj.: 商业中心 commerce center) vs. business affairs/commercial (formal: 商务签证 business visa, 商务舱 business class)",
+      "register": "business standard — note register distinction between the two"
+    },
+    {
+      "zh": "怎么了？",
+      "pinyin": "zěnme le?",
+      "meaning": "What happened? / What's wrong? / How come? (inquiring about a changed state)",
+      "register": "neutral / conversational"
+    },
+    {
+      "zh": "下班后",
+      "pinyin": "xiàbān hòu",
+      "meaning": "after work; after clocking off",
+      "register": "neutral / everyday"
+    },
+    {
+      "zh": "一直",
+      "pinyin": "yīzhí",
+      "meaning": "straight ahead; all along; continuously",
+      "register": "neutral"
+    },
+    {
+      "zh": "就到了",
+      "pinyin": "jiù dào le",
+      "meaning": "and you'll be right there; and you'll arrive immediately (direction closure phrase)",
+      "register": "neutral / conversational"
+    },
+    {
+      "zh": "最近",
+      "pinyin": "zuìjìn",
+      "meaning": "recently; lately (time reference for recent period, not 'nearest location')",
+      "register": "neutral / everyday"
+    }
+  ],
+
+  "essay_takeaways": [
+    "BUSINESS MESSAGE FORMULA: Chinese professional messages follow a tight five-beat structure — [greeting + company + name] → [situation/reason] → [impact on plans] → [proposed alternative or request] → [polite close + thanks]. Apply this to emails, WeChat messages, and voice messages alike.",
+    "CITE AUTHORITY TO SOFTEN REQUESTS: Rather than saying 我想休息 (I want to rest), say 医生让我多休息 (the doctor told me to rest more). Citing a third-party authority — a doctor, a policy, a superior — makes a request feel less personal and more professionally grounded in Chinese business culture.",
+    "HOSPITALITY CLOSING FORMULA: 如果您有什么需要，请告诉我，别客气 is a stock phrase that closes nearly every Chinese business welcome/reception context. Memorize and deploy it whenever hosting a visitor, ending a meeting arrangement, or closing a service interaction.",
+    "APOLOGY REGISTER LADDER: 不好意思 (mild — for small awkwardnesses) < 对不起 (standard apology) < 真抱歉 (sincere, formal regret) < 非常抱歉 (strong formal apology). Match the level to the severity of the situation. In business, overusing 对不起 can sound either sycophantic or alarmist; 真抱歉 or 非常抱歉 is appropriate for failing to keep a commitment.",
+    "PHONE DEFLECTION: 他正在开会 (he's in a meeting) is the single most common reason given in Chinese for why someone can't come to the phone. The follow-up pattern is: 要给他留言吗？/ 您要留言吗？(Would you like to leave a message?). Knowing this sequence from both sides is essential for business phone culture.",
+    "SELF-CORRECTION MID-SPEECH: 对不起，我说错了，我的意思是… is the clean formula for correcting a verbal error in Chinese. The V+错 resultative complement (听错/说错/写错/买错) covers the full range of common mistake types and is indispensable for graceful self-correction in meetings and calls.",
+    "COMPARISON STRUCTURES — TWO PATTERNS FOR ONE IDEA: Chinese has two standard comparison patterns. Use 比 (A 比 B + adj) to assert A exceeds B; use 没有 (A 没有 B + adj) to assert A falls short of B. Both appear constantly in business Chinese (comparing prices, schedules, speeds, options). Neither uses 更 in the basic form.",
+    "SEQUENCE LANGUAGE FOR AGENDAS AND PROCEDURES: 先...然后...再... is the backbone of presenting itineraries, instructions, and processes. It maps directly onto numbered steps in English (first / then / then). Professional contexts — presenting a visit schedule, explaining a procedure, walking through an agenda — all require fluent use of this chain.",
+    "DIRECTIONS TEMPLATE: Chinese directions follow a rigid template: 往/向[方向]走[距离]，然后[左/右]转，就到了. Knowing the four cardinal directions (东南西北) and terms 左转/右转/一直走 makes it possible to give or receive any navigation instruction in Chinese.",
+    "REGISTER NOTE — 您 VS. 你: Even with one's own manager, the textbook consistently uses 您 in formal/phone contexts. Chinese business culture maintains the 您 register in written messages, phone calls, and first-time meetings, even among colleagues with an established relationship. Reserve 你 for peer-level informal speech."
+  ]
+}

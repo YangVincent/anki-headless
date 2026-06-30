@@ -1,0 +1,230 @@
+{
+  "model_essays": [
+    {
+      "title": "在中国饭馆儿吃饭 (Eating at a Chinese Restaurant)",
+      "genre": "Narrative description / cohesion model",
+      "text": "周末，张天明、丽莎、柯林和柯林的女朋友林雪梅一起在一家中国饭馆儿吃饭。那个饭馆儿鸡做得不错，鱼也做得很好，特别是清蒸鱼，味道好极了。那儿的芥蓝牛肉也挺好，又嫩又香，菠菜豆腐汤做得也很好，那儿还有有机的小白菜。所以他们点了一个清蒸鱼，一个芥蓝牛肉，一个菠菜豆腐汤和一个小白菜。柯林告诉服务员，菜要清淡一点儿，别太咸，少放油，别放味精。他们的菜很快就来了。",
+      "summary": "A short third-person account of four friends ordering at a Chinese restaurant: which dishes the place does well, what they ordered, and the special requests Ke Lin made to the waiter (lighter seasoning, less salt, less oil, no MSG).",
+      "why_study": "The textbook explicitly presents this as a 'Keep It Flowing' model for cohesion. It shows how to turn a list of facts (good dishes -> dishes ordered -> special requests) into a smoothly connected paragraph rather than disjointed sentences. Excellent template for any 'describe a dining experience' or recommendation paragraph.",
+      "key_devices": [
+        "Definite reference 那个/那儿 replaces the indefinite first mention 一家饭馆儿 (introduce-then-refer-back)",
+        "Causal connective 所以 links the dishes' merits to the ordering decision",
+        "Emphasis marker 特别是 singles out the standout dish (清蒸鱼)",
+        "Additive adverbs 也 / 还 stack parallel positives (鱼也…，那儿还有…)",
+        "Descriptive 又…又… (又嫩又香) compresses two qualities into one phrase",
+        "Time/place words (周末, 那儿) act as connective anchors"
+      ]
+    },
+    {
+      "title": "张天明和柯林买衣服的标准 (Zhang Tianming's and Ke Lin's Clothes-Buying Criteria)",
+      "genre": "Expository / comparison-contrast model",
+      "text": "张天明买衣服一定要买名牌的，要不然就不买，因为他觉得名牌的衣服质量好。柯林觉得买衣服只考虑便宜当然不好，但是不一定非买名牌的不可。他买衣服的标准，第一看穿着舒服不舒服，第二看质量好不好，第三看价钱合适不合适。他不在乎是什么牌子的，也不在乎样子时髦不时髦。他认为穿衣服是为了自己，不是为了给别人看。张天明看见柯林穿了一件名牌衣服，就问柯林为什么穿名牌的衣服？柯林说，他说过不一定非买名牌的不可，但是没说过不穿名牌呀。",
+      "summary": "Contrasts two characters' shopping philosophies: Zhang Tianming insists only on brand names (believing they are higher quality), while Ke Lin ranks comfort, quality, and price over brand and fashion, arguing one dresses for oneself, not for others. Ends with Zhang catching Ke Lin wearing a brand-name item and Ke Lin's distinction (he never said he wouldn't wear brands, only that he wouldn't insist on buying them).",
+      "why_study": "A clean model for structured comparison of two viewpoints and for listing prioritized criteria with 第一…第二…第三…. Shows how to state a position, give a reason, then handle a counterpoint/apparent contradiction logically.",
+      "key_devices": [
+        "Ordinal enumeration 第一…第二…第三… to rank criteria",
+        "Pronoun 他 keeps the subject unchanged across sentences without repeating the name",
+        "Conjunctions 要不然 (otherwise), 因为 (cause), 但是 (contrast) chain the logic",
+        "Adverb 就 ties consequence to condition (要不然就不买 / 就问柯林)",
+        "Parallel negation 不在乎…，也不在乎… for balanced emphasis",
+        "是为了…不是为了… frames purpose vs. non-purpose neatly",
+        "Resolving an apparent contradiction by drawing a fine distinction (买 vs. 穿)"
+      ]
+    },
+    {
+      "title": "下个学期选什么课？ (Which Classes to Take Next Semester?)",
+      "genre": "Narrative summary / cohesion model",
+      "text": "张天明这个学期选了四门课：世界历史、电脑、政治学和中文。他觉得这几门课都很有意思，也学到了不少东西。现在得选下学期的课了，他希望下个学期能轻松点儿。这一天下午，他跟李哲聊选课的事。听说李哲要选经济和电脑课，他很高兴，[他]也决定选这两门课。然后他们又聊选专业的事。张天明说他喜欢文学，可是他妈妈非叫他学他不喜欢的金融不可。李哲说他们班很多同学选专业很自由，因为他们的父母不太管孩子选什么专业。",
+      "summary": "A condensed retelling of a longer dialogue: Zhang Tianming's current four courses, his wish for a lighter next semester, his chat with Li Zhe leading him to also pick economics and computing, and the tension over majors (he likes literature but his mother insists on finance; Li Zhe notes many classmates have more freedom).",
+      "why_study": "Demonstrates how to compress a multi-turn dialogue into a tight third-person summary—a key academic writing skill. Models sequencing with time words and reporting both hearsay and speech without quoting verbatim.",
+      "key_devices": [
+        "Pronouns 他/他们 replace names once the subject is established; redundant subject omitted (shown as [他])",
+        "Time/sequence words 现在, 这一天下午, 然后 advance the narrative",
+        "Reporting verbs 听说 (hearsay) and …说 (reported speech) fold dialogue into narration",
+        "Contrast/cause conjunctions 可是, 因为 connect clauses",
+        "非…不可 dramatizes the mother's insistence inside reported speech"
+      ]
+    },
+    {
+      "title": "买东西 (Shopping) — Lesson 4 dialogue",
+      "genre": "Dialogue",
+      "text": "张天明从家里来的时候，妈妈给他买了一些衣服，像T恤衫、毛衣、牛仔裤什么的，可是他觉得无论是样子还是颜色都不太好。今天是星期日，正好林雪梅和丽莎也需要买卫生纸、牙膏、毛巾、洗衣粉这些日用品，柯林就带他们来到附近一家最大的购物中心。\n—你要买什么衣服？\n—我想买一套运动服。\n—这边儿就是。你看看这一套，样子、大小、长短都合适，而且打八折。\n—颜色也不错。多少钱？是什么牌子的？\n—价钱不贵。这个牌子没听说过。不过，是纯棉的。\n—牌子不好不行，我想买名牌的。\n…（讨论名牌 vs. 便宜、质量）…\n—我买衣服的标准，第一是看穿着舒服不舒服，第二是质量好不好，第三是价钱合适不合适。是什么牌子的，样子时髦不时髦，我都不在乎。因为穿衣服是为了自己，不是为了给别人看。\n…（付钱）…\n—先生，付现金，还是用信用卡？\n—我刷卡。\n—先生，加上税一共是一百八十六块四。",
+      "summary": "Four friends go to a mall: Zhang shops for a tracksuit while the others buy daily necessities. The dialogue debates buying name-brand vs. cheap clothing, lays out criteria for choosing clothes, and ends at checkout (cash vs. card, tax added to the total).",
+      "why_study": "Practical register for shopping, expressing discounts (打八折), describing fit (样子/大小/长短都合适), tactful disagreement, and a checkout exchange. Useful sentence frames for everyday transactional Chinese.",
+      "key_devices": [
+        "无论…都… to dismiss every option at once (style and color both no good)",
+        "…什么的 to cap a list of examples",
+        "Partial-agreement frame 便宜是便宜，可是… for tactful pushback",
+        "Criteria listing 第一…第二…第三…",
+        "Transactional set phrases: 打八折, 付现金/刷卡, 加上税一共是…"
+      ]
+    },
+    {
+      "title": "丽莎的心事 (Lisa's Worry) — Lesson 6 opening narrative",
+      "genre": "Narrative (relationship/dating)",
+      "text": "丽莎这几天好像有什么心事。昨天林雪梅问了她好几次，她才说她跟张天明吵架了。…天明人很好，很开朗，学习也不错。在兴趣上她跟天明不太一样，天明是个球迷，电视里一有球赛，他就非看不可，丽莎是个歌迷，一有演唱会就去听。…林雪梅想来想去，想不出他们到底发生了什么事儿。…两个星期前我跟他约好去看一个演唱会，没想到他那天晚上一直玩儿电脑，把演唱会的事儿忘得一干二净。…他不停地给我道歉，说对不起，态度特别好。这让我觉得他心里还是有我。…实际上，柯林跟天明差不多，常常忘这忘那、丢三落四的。",
+      "summary": "A third-person narrative plus dialogue: Lisa has been troubled because she quarreled with her boyfriend Zhang Tianming over his forgetfulness (he forgot a concert date). Lin Xuemei reassures her that being scatterbrained is different from not caring, noting her own boyfriend Ke Lin is similarly forgetful.",
+      "why_study": "Rich source of personality/feeling vocabulary and high-frequency colloquial idioms for describing forgetful, easygoing people and emotional states. Models how narration and reported dialogue interleave in a story.",
+      "key_devices": [
+        "一…就… (一有球赛就…，一有演唱会就…) for habitual immediate reactions",
+        "非…不可 for compulsive behavior (他就非看不可)",
+        "想来想去 / 想不出 reduplication + potential complement to show pondering",
+        "Vivid set idioms: 忘得一干二净, 丢三落四, 忘这忘那",
+        "原来 to mark a realization; 到底 to press for the real story"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "无论…，都…/無論…，都…",
+      "explanation": "'Regardless / no matter…' — the result stays the same under any condition. Must pair with a question pronoun (谁/哪个/什么) OR an alternative construction (愿意不愿意 / 在家里还是在学校). The 都 (or 也) in the main clause is obligatory.",
+      "examples": [
+        "明天无论谁请客我都不去。 — No matter who's treating tomorrow, I'm not going.",
+        "无论去哪个购物中心都可以。 — Going to any of the shopping centers is fine.",
+        "他无论在家里还是在学校，都在学习。 — Whether at home or at school, he's always studying.",
+        "你无论愿意不愿意都得跟我们去。 — Whether you want to or not, you have to come."
+      ]
+    },
+    {
+      "pattern": "Non-predicative adjectives + 是…的",
+      "explanation": "Categorizing adjectives (男, 女, 国际, 有机, 纯棉) normally only sit before a noun and cannot take 很/非常. To use them as a predicate they must be wrapped in 是…的.",
+      "examples": [
+        "李友的中国朋友是个男的。 — Li You's Chinese friend is male.",
+        "小李买的水果都是有机的。 — The fruit Little Li buys is all organic.",
+        "我穿的这件衬衫是纯棉的。 — This shirt I'm wearing is 100% cotton."
+      ]
+    },
+    {
+      "pattern": "A是A，可是/但是… (partial agreement)",
+      "explanation": "Adjective/verb + 是 + same adjective/verb, then 可是/但是 + a qualifying point. Concedes the other person's point before raising an overlooked aspect or a caveat. Milder, more diplomatic than a flat 但是.",
+      "examples": [
+        "学音乐好是好，可是以后找工作不太容易。 — Studying music is good and all, but it's hard to find work later.",
+        "这件衣服贵是贵，可是牌子好。 — It's expensive, true, but it's a good brand.",
+        "我去是去，可是会晚一点儿。 — I am going, just a little late.",
+        "质量好是好，可是长短不合适。 — The quality is good, but the length isn't right."
+      ]
+    },
+    {
+      "pattern": "对…来说/對…來說",
+      "explanation": "'For / as far as (someone) is concerned' — flags that the statement holds only with respect to that particular person. The person word is stressed in speech; often combines with 觉得.",
+      "examples": [
+        "对她来说，今年最需要做的事情是选一个好大学。 — For her, the most urgent thing this year is picking a good college.",
+        "一年级的中文课，对他来说，听和说很容易。 — First-year Chinese is easy for him in listening and speaking.",
+        "对他来说，有工作比没工作好。 — For him, having a job beats having none."
+      ]
+    },
+    {
+      "pattern": "Resultative complements (verb + result)",
+      "explanation": "A verb takes a complement showing the outcome of the action; best memorized as set phrases. Three types: result on the action (搬完, 选好, 写错), result on the subject (听懂, 写累), result on the object (打哭, 搬走, 洗干净).",
+      "examples": [
+        "我搬完家就去购物中心买日用品。 — I'll buy necessities as soon as I finish moving.",
+        "下学期的课你选好了吗？ — Have you finished picking next semester's courses?",
+        "老师说的话我听懂了。 — I understood what the teacher said.",
+        "你要把衣服洗干净才能去看电影。 — You must wash the clothes clean before going to the movie."
+      ]
+    },
+    {
+      "pattern": "另外 (three uses)",
+      "explanation": "(1) Before numeral/demonstrative + noun = 'the other(s)'; (2) as an adverb before a verb phrase = 'in addition, also'; (3) sentence-initial conjunction = 'besides, moreover'.",
+      "examples": [
+        "一门电脑课，另外两门课还没决定。 — One computer course; the other two I haven't decided. (use 1)",
+        "另外再选两门电脑系的课，学分就够了。 — Plus two more CS courses and the credits are enough. (use 2)",
+        "请你给我订两张飞机票，另外，麻烦你再帮我买一个包。 — Book me two tickets; also, please get me a bag. (use 3)"
+      ]
+    },
+    {
+      "pattern": "再 vs 还/還",
+      "explanation": "再 = repetition/continuation, normally pointing to the future; modal verbs (想/要/能/会) come BEFORE 再. 还 = increase in number or expansion of scope, can be past or future; modal verbs come AFTER 还.",
+      "examples": [
+        "麻烦您再说一次。 — Please say it once more. (再, future repetition)",
+        "明年要再去两次。 — Next year I'll go twice more. (modal 要 before 再)",
+        "历史课我选了一门了，还得选一门。 — I've taken one history class; I still need one more. (还, addition)",
+        "我点了…还点了一盘饺子。 — I ordered…and also a plate of dumplings. (还, scope)"
+      ]
+    },
+    {
+      "pattern": "要么…，要么…/要麼…，要麼…",
+      "explanation": "Selective conjunction: 'either… or…' — presents (at least) two possibilities from which one must/will be chosen.",
+      "examples": [
+        "你要么学医，要么学经济，就是不能学文学。 — You must study either medicine or economics, just not literature.",
+        "（寒假）要么打工，要么实习。 — Over winter break, either work part-time or intern.",
+        "我想念研究生，要么上工学院，要么上管理学院。 — I want grad school, either engineering or management."
+      ]
+    },
+    {
+      "pattern": "非…不可/非…不可",
+      "explanation": "'Must / have no choice but / definitely will.' Two senses: (1) inevitability of a bad outcome if X isn't done; (2) strong resolve/insistence on doing X.",
+      "examples": [
+        "你再不起床，上课非晚了不可。 — If you don't get up, you'll definitely be late. (inevitability)",
+        "这个病非打针不可。 — For this illness you simply must get a shot. (necessity)",
+        "张天明买衣服非买名牌的不可。 — Zhang insists on buying only name brands. (resolve)",
+        "小林吃鱼非吃清蒸的不可。 — When Little Lin eats fish, it has to be steamed."
+      ]
+    },
+    {
+      "pattern": "只好",
+      "explanation": "Adverb 'have no choice but to / can only,' marking the absence of other options.",
+      "examples": [
+        "今天的票卖完了，只好明天看了。 — Tickets are sold out today, so I can only watch tomorrow.",
+        "服务员说不卖烤鸭，我只好点别的菜了。 — They didn't sell roast duck, so I had to order something else.",
+        "一看外边下雨了，只好不去了。 — Seeing it was raining, we had to call it off."
+      ]
+    },
+    {
+      "pattern": "（要）不然",
+      "explanation": "'Otherwise' — introduces the dire consequence of not following the advice in the previous clause.",
+      "examples": [
+        "你得再买一条毯子，要不然容易感冒。 — Buy another blanket, otherwise you'll catch cold.",
+        "找房子不要找离马路太近的，要不然会很吵。 — Don't pick a place near the road, or it'll be noisy.",
+        "别吃那么多肉，要不然你会越来越胖。 — Don't eat so much meat, or you'll keep gaining weight."
+      ]
+    },
+    {
+      "pattern": "这样/這樣 (in this way)",
+      "explanation": "Connective referring back to the previously stated fact/action, introducing the result it enables. Often 这样…就/才能….",
+      "examples": [
+        "我想申请离家近的学校，这样我就可以搬回家去住。 — I'll apply close to home, this way I can move back home.",
+        "学外语得常常听录音、念课文，这样才能提高听和说的水平。 — …this way you can improve listening and speaking.",
+        "买东西应该等打折的时候去买，这样才能买到便宜的东西。 — Shop during sales; this way you get bargains."
+      ]
+    },
+    {
+      "pattern": "只是 / 就是 (it's just that)",
+      "explanation": "Mark a turn in thought, milder than 但是/可是. Appear in the final clause to point out the one flaw in something otherwise positive (first clause positive, second qualifies it).",
+      "examples": [
+        "我不是不同意，只是觉得太早了一点儿。 — It's not that I object, just that it's a bit too soon.",
+        "那件毛衣样子好是好，只是价钱太贵。 — The sweater looks good, it's just too expensive.",
+        "这个饭馆儿很好，也不贵，就是常常没有位子。 — Good and cheap, it's just often full."
+      ]
+    }
+  ],
+  "expressions": [
+    { "zh": "…什么的/…什麼的", "pinyin": "…shénme de", "meaning": "…and so on; and the like (caps a list of examples)", "register": "colloquial" },
+    { "zh": "打折 / 打八折 / 打五折", "pinyin": "dǎ zhé / dǎ bā zhé / dǎ wǔ zhé", "meaning": "to discount; 20% off (pay 80%); 50% off — the number = fraction of price PAID", "register": "neutral/everyday" },
+    { "zh": "有道理", "pinyin": "yǒu dàoli", "meaning": "that makes sense; you have a point (used to concur)", "register": "neutral" },
+    { "zh": "在乎", "pinyin": "zàihu", "meaning": "to mind, to care (most often in the negative: 不在乎)", "register": "colloquial" },
+    { "zh": "受不了", "pinyin": "shòu bu liǎo", "meaning": "can't stand it; unable to bear", "register": "colloquial" },
+    { "zh": "跟…打交道", "pinyin": "gēn…dǎ jiāodào", "meaning": "to deal with / have regular dealings with (esp. through one's work)", "register": "neutral" },
+    { "zh": "大小 / 长短 / 宽窄", "pinyin": "dàxiǎo / chángduǎn / kuānzhǎi", "meaning": "size / length / width — abstract nouns formed from paired opposites", "register": "neutral" },
+    { "zh": "差不多", "pinyin": "chàbuduō", "meaning": "about the same; more or less alike", "register": "colloquial" },
+    { "zh": "想来想去", "pinyin": "xiǎng lái xiǎng qù", "meaning": "to turn something over in one's mind; mull it over", "register": "colloquial" },
+    { "zh": "忘得一干二净", "pinyin": "wàng de yì gān èr jìng", "meaning": "to forget completely / clean forget", "register": "colloquial idiom" },
+    { "zh": "丢三落四", "pinyin": "diū sān là sì", "meaning": "scatterbrained; always forgetting/losing things", "register": "colloquial idiom" },
+    { "zh": "别提了/別提了", "pinyin": "bié tí le", "meaning": "don't even ask / don't get me started (signals a bad mood, not just changing topic)", "register": "colloquial" },
+    { "zh": "原来", "pinyin": "yuánlái", "meaning": "so it turns out (that)… (marks a sudden realization)", "register": "colloquial" },
+    { "zh": "到底", "pinyin": "dàodǐ", "meaning": "after all; on earth (pressing for the real situation in a question)", "register": "colloquial" },
+    { "zh": "非买名牌的不可", "pinyin": "fēi mǎi míngpái de bù kě", "meaning": "have to / insist on buying name brands", "register": "neutral" },
+    { "zh": "为了自己，不是为了给别人看", "pinyin": "wèile zìjǐ, bú shì wèile gěi biéren kàn", "meaning": "for oneself, not to be seen by others", "register": "neutral" }
+  ],
+  "essay_takeaways": [
+    "Introduce a thing with an indefinite reference (一家饭馆儿), then refer back with a definite one (那个/那儿). This 'introduce-then-point-back' move is the backbone of cohesion.",
+    "Replace repeated names with pronouns (他/他们) once the subject is established, and drop the subject entirely when it stays the same in adjacent clauses — over-repeating the name reads as beginner Chinese.",
+    "Drive paragraph logic with explicit connectives: causal 所以/因为, contrast 可是/但是, condition 要不然, sequence 然后, addition 也/还. Pick them deliberately rather than stringing clauses with commas.",
+    "Rank multiple criteria with 第一…第二…第三… and use parallel structures (不在乎…也不在乎…, 又…又…) for balance and emphasis.",
+    "Disagree diplomatically with the 'A是A，可是…' concession frame or the soft 只是/就是 ('it's just that…') instead of a blunt 但是 — concede first, then qualify.",
+    "Fold dialogue into narration using reporting verbs: 听说 for hearsay, …说 for reported speech. This lets you summarize a long conversation in tight third person.",
+    "Use 特别是 to spotlight the single most important item, and time/place words (周末, 那儿, 这一天下午) as low-effort connective anchors between sentences.",
+    "Sprinkle vivid set idioms (忘得一干二净, 丢三落四, 想来想去) to lift descriptive writing above flat sentence patterns — but use them as fixed chunks.",
+    "Resolve an apparent contradiction by drawing a precise distinction (Ke Lin: never insists on BUYING brands ≠ refuses to WEAR them) — a clean rhetorical move for argumentative writing."
+  ]
+}

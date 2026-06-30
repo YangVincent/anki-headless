@@ -1,0 +1,281 @@
+{
+  "model_essays": [
+    {
+      "title": "住校内还是住校外？",
+      "genre": "日常对话 / Everyday colloquial dialogue",
+      "text": "林明：哎，王新！你怎么又搬家了？你上个学期刚刚从校内搬到校外，现在又要搬回学校宿舍了？\n王新：住在宿舍的时候觉得房租太贵，而且不自由。可是住在校外很不方便。上个星期三早上我考试又去晚了，觉得还是搬回宿舍好，所以就搬回来了。\n林明：你不会在学校宿舍住两个月，又想搬到校外去吧？\n王新：说真的，住在宿舍又方便又安全，可是一到周末我还是会想起住在校外的好处：房租便宜得多，而且很自由。\n林明：我有个好办法。你可以租两套房子，一套在校内，一套在校外。你星期一到星期五住在校内，一到周末就住到校外去。这样你会觉得又方便又安全，而且自由。\n王新：你这个办法很有意思。要是我有钱，那真是个好办法。",
+      "summary": "林明和王新的对话讨论了住校内宿舍和校外公寓各自的优缺点。王新反复搬家，两人以幽默的方式探讨了一个"两全其美"的解决方案，最后以"要是我有钱"结束，语气轻松。",
+      "why_study": "A natural, complete colloquial dialogue that models how native speakers weigh trade-offs, express reservation, and make humorous counter-proposals. It demonstrates the rhythm of informal spoken Chinese including opening particles (哎), candid openers (说真的), concessive structures, and conditional hypotheticals. The dialogue structure — problem → attempted fix → still unhappy → clever but impractical solution → deadpan reality check — is a reusable narrative arc.",
+      "key_devices": [
+        "又...又... for stacking co-existing qualities (又方便又安全)",
+        "说真的 to signal candor and shift tone",
+        "一到...就... for 'whenever / as soon as'",
+        "要是...那真是... for hypothetical conditions",
+        "Rhetorical arc: state problem → attempt fix → still have complaint → propose absurd solution → deflate with practical reality",
+        "好处 / 不方便 as natural topical pivots when comparing living situations"
+      ]
+    },
+    {
+      "title": "小柯与他常去的饭馆儿",
+      "genre": "叙述短文 / Short narrative passage",
+      "text": "小柯常到学校附近的一家中国饭馆儿吃饭。那家饭馆儿的菜又便宜又地道，他是那儿的常客，服务员都认识他。小柯今天又去那儿吃午饭。但是他一进门，就觉得跟以前不一样了。这家饭馆儿的菜以前非常清淡，可是今天油怎么这么多？还有，今天的服务员他一个都不认识。菜单上的菜也比以前贵多了。除了这些以外，他点的菜里还放了很多味精。他想下次再也不到这家饭馆儿来吃饭了。",
+      "summary": "小柯是某家中国饭馆儿的常客，但某天他发现菜品口味、价格和服务员都变了，一连串失望后决定再也不来。",
+      "why_study": "This tight narrative demonstrates how to build a character's disappointment through controlled contrast (以前...可是今天...) and cumulative grievances using progressive connectors (还有...除了这些以外...还...). The final sentence delivers a definitive emotional resolution. It is a model for the 'disappointed customer' or 'disappointed observer' narrative structure widely usable in reviews, opinion pieces, and anecdotes.",
+      "key_devices": [
+        "又便宜又地道 — stacking complementary qualities as opening praise",
+        "一...就... — immediate consequence, accelerates narrative",
+        "以前...可是今天... — temporal contrast as main structural backbone",
+        "还有 / 除了这些以外，还 — escalating accumulation of complaints",
+        "再也不...了 — emphatic permanent future negation",
+        "Sentence rhythm: brief positive setup → surprise turn → accumulation → verdict"
+      ]
+    },
+    {
+      "title": "红烧鱼变糖醋鱼",
+      "genre": "幽默短故事 / Humorous anecdote with lexical pun",
+      "text": "今天是太太的生日，李先生很早就从公司回家，想给太太做一个红烧鱼。鱼做好了，李先生觉得味道太淡。他加了一点儿盐，还是太淡，又加了一点儿盐，还是太淡。李先生觉得不对，原来自己把糖当成盐了。他就在菜里放了一些醋，把红烧鱼做成了糖醋鱼。太太笑着说："我不是爱吃醋的女人。"李先生说："多吃醋对身体有好处！"",
+      "summary": "李先生为太太生日亲自下厨做红烧鱼，结果因错把糖当盐，加了醋将其变成糖醋鱼。太太借机双关说自己不是"爱吃醋"（不嫉妒）的女人，李先生则以"醋对身体有好处"回应，双关到底。",
+      "why_study": "An excellent model of a punchy humorous Chinese anecdote that exploits a lexical pun (吃醋 = 'eat vinegar' / 'be jealous'). The escalating repetition structure (加了...还是太淡，又加了...还是太淡) is a powerful device for building suspense and mild comedy. The 原来 revelation marker pivots the story cleanly. The final exchange demonstrates how to land a Chinese double entendre with a straight-faced reply. This pattern of literal-situation → pun-punchline appears across Chinese comedy and casual writing.",
+      "key_devices": [
+        "把...当成... — mistaking X for Y (结构精炼, one verb covers the entire confusion)",
+        "把...做成... — transforming X into Y via the 把 construction",
+        "还是 (repeated with same predicate) — persistence despite effort, builds comedic frustration",
+        "原来 — revelation marker: 'it turned out that...' (pivots the story)",
+        "双关 pun: 吃醋 (vinegar) / 吃醋 (be jealous)",
+        "对...有好处 — fixed phrase 'good for one's health/well-being'",
+        "Escalating repetition for comedic/dramatic effect before the reveal"
+      ]
+    },
+    {
+      "title": "友朋小吃的谜",
+      "genre": "文化谜语故事 / Cultural riddle anecdote",
+      "text": "这是我从我的中文老师那儿听来的：\n今天是小明的生日，爸爸妈妈带他到饭馆儿吃饭。爸爸说他们要去的饭馆儿是小朋友最喜欢的。但是到了饭馆儿门前，小明看见饭馆儿的名字，就哭着说："我不进去！"妈妈说："你为什么不进去呀？"小明说："我怕！"爸爸看到饭馆儿的名字是"友朋小吃"，就笑了起来。\n你们知道小明为什么怕，爸爸为什么笑吗？",
+      "summary": "父母带小明去一家叫"友朋小吃"的餐厅过生日，小明看见招牌就哭着说不进去。谜底：按中国传统招牌从右往左读，"友朋小吃"变成"吃小朋友"，所以小明怕，爸爸明白了笑了。",
+      "why_study": "This story illustrates a culturally essential linguistic fact: traditional Chinese signs and headlines were inscribed right-to-left. The anecdote format (这是我从...那儿听来的) is a natural oral-narrative introduction. The riddle structure — unexplained reaction → dangling question — trains learners to engage readers and withhold resolution. The 就...起来 resultative compound for onset of action is worth imitating.",
+      "key_devices": [
+        "这是我从...那儿听来的 — oral narrative introduction formula, signals hearsay",
+        "哭着说 / 笑了起来 — simultaneous-action 着 vs. inceptive 起来",
+        "但是...就... — concessive pivot leading to immediate consequence",
+        "Cultural knowledge embedded: right-to-left sign reading tradition",
+        "你们知道...吗？ — rhetorical closing question to engage the listener/reader",
+        "Narrative tension: withhold explanation, let reader solve the puzzle"
+      ]
+    },
+    {
+      "title": "小张与小林的购物哲学",
+      "genre": "对比短文 / Comparative opinion passage",
+      "text": "小张买东西的标准是：只要是名牌的，无论样子好不好，价钱贵不贵，他都要买。小林买东西跟小张不一样，很在乎质量，而且要价钱便宜。他们两个一起出去买衣服的时候，小张觉得小林只想省钱，不在乎牌子；小林觉得小张只想穿名牌，不在乎衣服样子合适不合适。所以他们常常出去的时候很高兴，回来的时候很不高兴。",
+      "summary": "对比两种购物哲学：小张只认名牌，小林只重质量和价格。两人一起购物总是产生分歧，每次都是高兴出门、扫兴而归。",
+      "why_study": "A compact model of a contrast essay. It efficiently presents two internally coherent opposing viewpoints, shows each person's misreading of the other, and delivers an ironic punchy conclusion with a parallel time-clause structure. The semicolon structure switching perspectives (小张觉得...；小林觉得...) is highly imitable for balanced argumentation in professional and opinion writing.",
+      "key_devices": [
+        "只要...都... — 'as long as X, always Y' (defines absolute criterion)",
+        "无论...都 — 'regardless of...' (amplifies absoluteness)",
+        "跟...不一样 — efficient contrast framing",
+        "在乎 / 不在乎 — 'to care/not care about' (idiomatic, colloquial)",
+        "Semicolon pivot: 小张觉得...；小林觉得... (parallel perspective switching)",
+        "Ironic parallel conclusion: 出去的时候很高兴，回来的时候很不高兴 (mirror structure for twist)"
+      ]
+    },
+    {
+      "title": "中国的高考制度",
+      "genre": "说明短文 / Brief expository passage",
+      "text": "在中国，学生高中毕业以后都得考试才能上大学。考试考得好，就上好一点儿的大学；考得不太好，就上一般的大学。如果考试考得很不好，就不能上大学。很多大学新生一进学校，就已经知道自己的专业是什么了，要是不喜欢，也可以换专业。但是换专业，还是得考试。",
+      "summary": "简要说明中国高考制度：分数决定大学档次，新生入学即确定专业，换专业仍需考试。",
+      "why_study": "A tight expository passage that explains an institutional system concisely. It models the Chinese conditional cascade structure (考得好，就...；考得不太好，就...；如果很不好，就不能...) which is widely used in policy, instructions, and explanatory writing. The final 'but even so' pivot (但是换专业，还是得考试) is a natural closing that complicates the picture without lengthening the passage.",
+      "key_devices": [
+        "都得...才能... — 'must... before one can...' (prerequisite structure)",
+        "Conditional cascade: V+得好，就...；V+得不太好，就...；如果V+得很不好，就不能... (graduated conditions)",
+        "一进...就... — as soon as entering, immediately (immediacy)",
+        "还是得... — 'still has to...' (closing complication after apparent concession)"
+      ]
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "pattern": "是...的 (completed-action focus: HOW / WHEN / WHERE / WITH WHOM)",
+      "explanation": "When a past action is known to have occurred, 是...的 wraps around an adverbial element to emphasize HOW, WHEN, WHERE, or WITH WHOM it happened. 是 can be dropped in casual speech. 的 appears sentence-finally or after a short object. The verb itself does not change. This is a major feature distinguishing advanced Chinese from intermediate.",
+      "examples": [
+        "你今天是几点到的教室？— What time exactly did you get to the classroom today?",
+        "你今天是怎么来的学校？走路，开车，还是坐公共汽车？— How did you get to school today?",
+        "我是从北京坐飞机来的。— I came here by plane from Beijing.",
+        "你的电脑是在哪儿买的？什么时候买的？— Where did you buy your computer? When?"
+      ]
+    },
+    {
+      "pattern": "除了...以外，还/都 (in addition to X, also Y / except for X, all Y)",
+      "explanation": "With 还 (also): additive — 'in addition to X, there is also Y'. With 都 (all): exclusive — 'except for X, everything/everyone else is Y'. Context and the following verb determine the reading. Both senses are extremely common in spoken and written Chinese.",
+      "examples": [
+        "你这个学期除了上中文课以外，还上什么课？— Besides Chinese, what other classes are you taking?",
+        "柯林除了星期一、星期二以外，别的时间都有空。— Except for Monday and Tuesday, Ke Lin is free all other times.",
+        "除了这些以外，他点的菜里还放了很多味精。— On top of all that, the dishes he ordered also had a lot of MSG."
+      ]
+    },
+    {
+      "pattern": "不见得 (not necessarily; doesn't follow that...)",
+      "explanation": "A tactful, slightly softened way to push back on or moderate a claim. Softer than 不一定. Often used in the second speaker's turn in a dialogue as a polite counter. Implies 'just because X, it doesn't mean Y'.",
+      "examples": [
+        "在美国长大的中国孩子，学中文不见得容易。— Chinese kids who grew up in the US don't necessarily find Chinese easy.",
+        "住在宿舍方便是方便，但住宿舍不见得省钱。— Dorms are convenient, sure, but they don't necessarily save you money.",
+        "他只比我们早来一年，不见得什么都懂。— He only arrived a year before us; he doesn't necessarily know everything."
+      ]
+    },
+    {
+      "pattern": "把...V+RC/趋向补语 (把 construction for disposal, transformation, or misplacement)",
+      "explanation": "The 把 construction moves a definite, affected object before the verb to foreground what happens TO it. The verb must be followed by a result complement, directional complement, or 了. Key sub-patterns: 把X当成Y (mistake X for Y), 把X做成Y (turn X into Y), 把X放在/拉在... (leave/put X at...).",
+      "examples": [
+        "糟糕，我把电脑拉在出租车上了。— Oh no, I left my computer in the taxi.",
+        "他把糖当成盐了。— He mistook the sugar for salt.",
+        "他就把红烧鱼做成了糖醋鱼。— He ended up turning the red-braised fish into sweet-and-sour fish."
+      ]
+    },
+    {
+      "pattern": "一...就... (as soon as / the moment... then...)",
+      "explanation": "Expresses an immediate sequential consequence. The first clause sets a trigger; 就 in the second clause signals the instant result. The subjects of the two clauses can be the same or different. Widely used in narrative to accelerate pacing.",
+      "examples": [
+        "他一进门，就觉得跟以前不一样了。— The moment he walked in, he felt something was different.",
+        "小明看见饭馆儿的名字，就哭着说："我不进去！"— As soon as Xiao Ming saw the restaurant name, he cried out 'I'm not going in!'",
+        "这课的语法很容易，老师刚讲完，我就懂了。— This grammar is easy — the moment the teacher finished explaining, I understood."
+      ]
+    },
+    {
+      "pattern": "又...又... (both... and...; simultaneously...)",
+      "explanation": "Links two stative verb phrases or adjectives to express that two qualities co-exist in the same entity or situation. More emphatic and elegant than 也...也... for simultaneous stative description. Common in praise, criticism, and vivid description.",
+      "examples": [
+        "那家饭馆儿的菜又便宜又地道。— That restaurant's food is both cheap and authentic.",
+        "住在宿舍又方便又安全。— Living in the dorms is both convenient and safe.",
+        "我妈妈做的牛肉又嫩又香。— My mom's beef is both tender and deliciously fragrant."
+      ]
+    },
+    {
+      "pattern": "这就要看...了 (it depends on...)",
+      "explanation": "A hedging phrase for deflecting a yes/no question by identifying the key variable. Very natural in spoken and semi-formal Chinese whenever the speaker wants to avoid a definitive answer and direct attention to conditions. Useful in business discussions and presentations.",
+      "examples": [
+        "你下个学期还要学中文吗？这就要看我有没有时间了。— Are you taking Chinese next semester? It depends on whether I have time.",
+        "这家餐馆儿的菜好不好，这就要看你的口味了。— Whether this restaurant's food is good depends on your palate."
+      ]
+    },
+    {
+      "pattern": "无论...都... (no matter what/how/who...)",
+      "explanation": "Expresses unconditional universality. The 无论-clause contains an interrogative pronoun (什么、哪、多少、谁) or an A不A / A还是B pair. 都 in the main clause signals the invariant result. Slightly more formal than 不管...都.",
+      "examples": [
+        "只要是名牌的，无论样子好不好，价钱贵不贵，他都要买。— As long as it's a brand name, he'll buy it regardless of how it looks or how expensive it is.",
+        "那个宿舍无论什么时候都很吵。— That dorm is noisy at all hours, no matter what.",
+        "无论什么菜，他都不想吃。— He doesn't want to eat anything, regardless of what it is."
+      ]
+    },
+    {
+      "pattern": "要不然 (otherwise / or else)",
+      "explanation": "Introduces a negative consequence that will occur if the preceding advice or condition is not followed. More colloquial than 否则 or 不然. Very natural in speech and informal writing. Often follows a recommendation.",
+      "examples": [
+        "租房子最好租带家具的，要不然得花很多钱买家具。— It's best to rent a furnished place; otherwise you'll spend a lot of money buying furniture.",
+        "在饭馆儿点菜，如果不能吃咸的，就得告诉服务员少放盐，要不然菜会太咸。— When ordering, if you can't handle salty food, tell the server to use less salt; otherwise it'll be too salty."
+      ]
+    },
+    {
+      "pattern": "非...不可 (must; simply have to — emphatic)",
+      "explanation": "Emphatic assertion that something is unavoidable, obligatory, or inevitable. Stronger than 一定要 or 得. 非 + VP + 不可. Can express speaker insistence OR inevitable outcome. Common in narrative and colloquial speech.",
+      "examples": [
+        "天气又闷又热，非下雨不可，你别去打球了。— The weather is so stuffy and hot, it's bound to rain; don't go play ball.",
+        "一听说哪家商店打折，就非去买不可。— The moment she hears about a sale anywhere, she absolutely has to go."
+      ]
+    },
+    {
+      "pattern": "Adj+是+Adj，可是... (concessive: 'X it is, but...')",
+      "explanation": "A key politeness strategy for disagreement: repeat the adjective before and after 是 to acknowledge the other person's point has some validity, then introduce your own qualification with 可是/但是. Extremely useful in professional contexts for polite pushback.",
+      "examples": [
+        "他们的菜地道是地道，可是有点儿咸。— Their food is authentic, I grant you that, but it's a bit salty.",
+        "中文难是难，可是学了以后很有用。— Chinese is hard, sure, but it's very useful once learned.",
+        "打折的东西便宜是便宜，但是质量也差一些。— Sale items are cheap, no doubt, but the quality is also a bit lower."
+      ]
+    },
+    {
+      "pattern": "再说 (furthermore / besides / moreover — adding a supporting reason)",
+      "explanation": "Adds a second or third supporting reason in an argument, often after 因为 or following an initial reason. More colloquial than 另外 or 此外. Very common in spoken justifications.",
+      "examples": [
+        "因为可以适应学校生活，再说上课也方便。— Because it helps you adapt to campus life, and besides, it's also convenient for classes.",
+        "这个大学很有名，老师很好。再说，从这个学校毕业的学生找工作也容易。— This university is well-known, has good teachers — and on top of that, its graduates find jobs easily."
+      ]
+    },
+    {
+      "pattern": "原来 (it turns out / so that's why / I now realize)",
+      "explanation": "Marks a narrative or argumentative revelation — the speaker just understood something that explains a previously puzzling state. In storytelling, 原来 creates the 'a-ha' pivot moment. It can appear mid-sentence or at the start of a clause.",
+      "examples": [
+        "李先生觉得不对，原来自己把糖当成盐了。— Mr. Li sensed something was off — it turned out he had mistaken sugar for salt.",
+        "他一进门，就觉得跟以前不一样了。原来这家馆子换了老板。— The moment he walked in he felt something was different. It turned out the restaurant had changed owners."
+      ]
+    },
+    {
+      "pattern": "都得...才能... (must... before one can...)",
+      "explanation": "A tight prerequisite structure: 都得 emphasizes that everyone/always must do X; 才能 emphasizes that Y is only possible AFTER X is done. Common in descriptions of institutional rules or sequential processes.",
+      "examples": [
+        "在中国，学生高中毕业以后都得考试才能上大学。— In China, students must take an exam after graduating high school before they can enter university.",
+        "你得先学会语法，才能写好文章。— You have to master grammar first before you can write well."
+      ]
+    }
+  ],
+  "expressions": [
+    {"zh": "地道", "pinyin": "dìdao", "meaning": "authentic, genuine — used for food, accents, skills; implies the real thing, not a knock-off", "register": "colloquial/informal"},
+    {"zh": "适应", "pinyin": "shìyìng", "meaning": "to adapt to, to get used to, to adjust to (new environment)", "register": "neutral"},
+    {"zh": "房租", "pinyin": "fángjū", "meaning": "rent (for housing)", "register": "neutral/everyday"},
+    {"zh": "常客", "pinyin": "chángkè", "meaning": "regular customer, habitual patron", "register": "neutral/business"},
+    {"zh": "味精", "pinyin": "wèijīng", "meaning": "MSG (monosodium glutamate); often appears in complaints about restaurant food", "register": "neutral/culinary"},
+    {"zh": "清淡", "pinyin": "qīngdàn", "meaning": "light, mild, lightly seasoned — not greasy, salty, or spicy; a food quality prized in Cantonese/health-conscious cooking", "register": "neutral/culinary"},
+    {"zh": "口味", "pinyin": "kǒuwèi", "meaning": "flavor profile; personal taste preference (in food and beyond)", "register": "neutral"},
+    {"zh": "在乎", "pinyin": "zàihu", "meaning": "to care about, to mind — most common in negative: 不在乎 'doesn't care about, doesn't mind'", "register": "colloquial"},
+    {"zh": "名牌", "pinyin": "míngpái", "meaning": "brand name, designer label, famous brand", "register": "neutral/consumer"},
+    {"zh": "质量", "pinyin": "zhìliàng", "meaning": "quality (of goods, work, output); often collocates with 高/低质量 or 质量差/好", "register": "neutral/business"},
+    {"zh": "打折", "pinyin": "dǎ zhé", "meaning": "to discount, put on sale; 打八折 = 20% off (八折 = 80% of original price)", "register": "neutral/commercial"},
+    {"zh": "付现金", "pinyin": "fù xiànjīn", "meaning": "to pay in cash", "register": "neutral/business"},
+    {"zh": "刷卡", "pinyin": "shuā kǎ", "meaning": "to pay by card (lit. 'swipe a card'); also covers mobile payment contexts in modern usage", "register": "colloquial/everyday"},
+    {"zh": "信用卡", "pinyin": "xìnyòngkǎ", "meaning": "credit card", "register": "neutral/business"},
+    {"zh": "日用品", "pinyin": "rìyòngpǐn", "meaning": "daily necessities, household goods", "register": "neutral"},
+    {"zh": "省钱", "pinyin": "shěng qián", "meaning": "to save money; 省 + object pattern: 省时间 (save time), 省力 (save effort)", "register": "colloquial"},
+    {"zh": "不见得", "pinyin": "bù jiànde", "meaning": "not necessarily; 'it doesn't follow that...' — tactful refutation", "register": "colloquial/spoken"},
+    {"zh": "要不然", "pinyin": "yào bùrán", "meaning": "otherwise, or else — introduces negative consequence of not following advice", "register": "colloquial/spoken"},
+    {"zh": "说真的", "pinyin": "shuō zhēn de", "meaning": "honestly speaking, to be honest — signals candid shift in tone", "register": "colloquial/spoken"},
+    {"zh": "再说", "pinyin": "zàishuō", "meaning": "furthermore, besides — adds another supporting reason in argument", "register": "colloquial/spoken"},
+    {"zh": "特别是", "pinyin": "tèbié shì", "meaning": "especially, in particular — singles out the most notable instance", "register": "neutral"},
+    {"zh": "恐怕", "pinyin": "kǒngpà", "meaning": "I'm afraid (that); probably; perhaps (signals mild worry or hedge)", "register": "neutral/slightly formal"},
+    {"zh": "原来", "pinyin": "yuánlái", "meaning": "it turns out; so that's why (marks revelation); originally, formerly", "register": "neutral/narrative"},
+    {"zh": "无论...都...", "pinyin": "wúlùn...dōu...", "meaning": "no matter what/how/who — universal conditional; slightly more formal than 不管...都", "register": "neutral/formal"},
+    {"zh": "非...不可", "pinyin": "fēi...bùkě", "meaning": "must; simply have to — emphatic, unavoidable; 非去不可 = 'absolutely must go'", "register": "neutral/slightly literary"},
+    {"zh": "一...就...", "pinyin": "yī...jiù...", "meaning": "as soon as..., immediately... — marks immediate sequential consequence", "register": "neutral"},
+    {"zh": "把...当成...", "pinyin": "bǎ...dāngchéng...", "meaning": "to mistake X for Y; to regard/treat X as Y", "register": "neutral"},
+    {"zh": "把...做成...", "pinyin": "bǎ...zuòchéng...", "meaning": "to make/turn X into Y (via effort or accident)", "register": "neutral"},
+    {"zh": "对...有好处", "pinyin": "duì...yǒu hǎochù", "meaning": "to be good for, to benefit — fixed collocational phrase", "register": "neutral"},
+    {"zh": "吃醋", "pinyin": "chī cù", "meaning": "to be jealous (lit. 'eat vinegar') — common colloquial idiom", "register": "colloquial/idiomatic"},
+    {"zh": "老生", "pinyin": "lǎoshēng", "meaning": "returning/upper-class student; opposite of 新生; 老 here means 'veteran, experienced'", "register": "academic/campus"},
+    {"zh": "新生", "pinyin": "xīnshēng", "meaning": "freshman, new student, newcomer to an institution", "register": "academic/campus"},
+    {"zh": "出生", "pinyin": "chūshēng", "meaning": "to be born; 在...出生的 = 'born in...'", "register": "neutral"},
+    {"zh": "长大", "pinyin": "zhǎng dà", "meaning": "to grow up; 在...长大的 = 'grew up in...'", "register": "neutral"},
+    {"zh": "而且", "pinyin": "érqiě", "meaning": "moreover, furthermore, and also — connects clauses, escalates or adds information", "register": "neutral"},
+    {"zh": "红烧", "pinyin": "hóngshāo", "meaning": "red-braised: cooked with soy sauce, sugar, wine, slow-simmered until caramelized", "register": "culinary"},
+    {"zh": "清蒸", "pinyin": "qīngzhēng", "meaning": "steamed (simple, preserving natural flavor) — associated with Cantonese cooking", "register": "culinary"},
+    {"zh": "糖醋", "pinyin": "táng cù", "meaning": "sweet and sour (cooking style: vinegar + sugar); 糖醋鱼/排骨 etc.", "register": "culinary"},
+    {"zh": "菜单", "pinyin": "càidān", "meaning": "menu (at a restaurant)", "register": "neutral"},
+    {"zh": "点菜", "pinyin": "diǎn cài", "meaning": "to order food at a restaurant", "register": "neutral/colloquial"},
+    {"zh": "这就要看...了", "pinyin": "zhè jiù yào kàn...le", "meaning": "it depends on...; that all hinges on... — elegant hedge phrase", "register": "colloquial/spoken"},
+    {"zh": "专业", "pinyin": "zhuānyè", "meaning": "academic major; specialty; professional/specialized", "register": "academic/neutral"},
+    {"zh": "标准", "pinyin": "biāozhǔn", "meaning": "standard, criterion, benchmark — 买东西的标准 = one's shopping criteria", "register": "neutral/formal"},
+    {"zh": "合适", "pinyin": "héshì", "meaning": "suitable, appropriate, fitting (size, style, context)", "register": "neutral"},
+    {"zh": "有机", "pinyin": "yǒujī", "meaning": "organic (food); 有机蔬菜 / 有机水果", "register": "modern/consumer"},
+    {"zh": "校内 / 校外", "pinyin": "xiào nèi / xiào wài", "meaning": "on-campus / off-campus", "register": "academic/neutral"},
+    {"zh": "住校 / 住宿舍", "pinyin": "zhù xiào / zhù sùshè", "meaning": "to live on campus / to live in a dorm", "register": "academic/neutral"},
+    {"zh": "高中毕业", "pinyin": "gāozhōng bìyè", "meaning": "to graduate from high school", "register": "neutral/academic"},
+    {"zh": "不在乎", "pinyin": "bù zàihu", "meaning": "not to care, to not mind — very colloquial, dismissive; 他不在乎钱 = 'money doesn't matter to him'", "register": "colloquial"}
+  ],
+  "essay_takeaways": [
+    "Use 是...的 to zoom in on the HOW/WHEN/WHERE of a past action rather than just confirming it happened. This signals precision and is what separates intermediate from advanced Chinese prose.",
+    "Build arguments with layered connectors: 因为... 再说... 除了...以外... — each connector adds a new supporting reason. Native Chinese argumentation rarely relies on a single point; accumulation signals thoroughness.",
+    "For tactful disagreement, deploy 'Adj+是+Adj，可是...' before stating your real position. This is the idiomatic Chinese norm for polite dissent in professional or social contexts — acknowledge before pushing back.",
+    "不见得 is the most natural soft refutation in spoken and informal written Chinese. Prefer it over 不一定 when you want to sound conversational rather than declarative.",
+    "Use 原来 as a narrative reveal marker — it signals 'and here is the explanation that makes sense of everything above'. It dramatically improves story cohesion and creates the satisfying 'a-ha' moment.",
+    "The 一...就... pattern is your main pacing tool in narrative. Use it whenever you want to convey 'X happened → Y followed immediately'. It makes Chinese prose feel crisp and causally tight.",
+    "The 吃醋 story demonstrates a key Chinese humor structure: set up a plausible literal situation, then let a pun land the punchline without explanation. Chinese has many such 双关 rooted in everyday vocabulary; recognizing and deploying them marks high cultural literacy.",
+    "Spatial description in Chinese follows a consistent macro-to-micro order: whole building → floor/level → left/right/middle side → specific furniture placement. Follow this order when describing rooms, offices, or venues.",
+    "无论...都 is the standard formal/written register for 'regardless of'; prefer it over 不管...都 in business writing, reports, or any context where a slightly elevated tone is appropriate.",
+    "The contrast structure 'X出去的时候..., X回来的时候...' — using parallel time-clause mirrors — is a high-impact way to deliver an ironic twist in essay conclusions or anecdote endings.",
+    "这就要看...了 is your go-to hedge in presentations, discussions, and business conversations when a simple yes/no would be misleading. It signals analytical thinking: 'the answer depends on variable X'.",
+    "要不然 is the colloquial 'otherwise' for advice-giving and conditional reasoning. Master it alongside 否则 (formal) so you can match register to context — business emails favor 否则, while spoken advice favors 要不然."
+  ]
+}

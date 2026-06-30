@@ -20,6 +20,13 @@ BAK="$ROOT/backups/collection.anki2.${TS}.${LABEL}.bak"
 echo "[anki_op] backup -> $(basename "$BAK")"
 cp "$COL" "$BAK" || { echo "[anki_op] backup FAILED, aborting"; exit 1; }
 
+# Retention: keep only the 2 newest backups, prune the rest (they're ~112MB each).
+KEEP=2
+ls -1t "$ROOT"/backups/collection.anki2.*.bak 2>/dev/null | tail -n +$((KEEP + 1)) | while IFS= read -r old; do
+  echo "[anki_op] pruning old backup -> $(basename "$old")"
+  rm -f "$old"
+done
+
 # stop the bot only if it is currently online
 BOT_UP=0
 if pm2 pid anki-bot >/dev/null 2>&1 && [ -n "$(pm2 pid anki-bot 2>/dev/null | tr -d '[:space:]')" ]; then

@@ -1,0 +1,204 @@
+{
+  "model_essays": [],
+  "grammar_patterns": [
+    {
+      "pattern": "因为…所以/因此…",
+      "explanation": "Causal connective pair. 因为 introduces the cause clause; 所以 or 因此 introduces the result. Either can be omitted when context supplies it. 因此 is slightly more formal/written than 所以 and is preferred in business reports and notices. The textbook explicitly describes this as 'HT…trtb…' (因为…所以) indicating a cause-effect relationship.",
+      "examples": [
+        "因为北京交通堵塞，所以越来越多的市民选择骑自行车上班。",
+        "由于旅游业快速发展，因此带动了周边餐饮和住宿行业的整体提升。"
+      ]
+    },
+    {
+      "pattern": "虽然…但是/却…",
+      "explanation": "Concessive pair. The textbook describes 虽然 clause as confirming a preceding fact, while 但是/却 introduces an argument against that fact. 却 (adverb) is embedded mid-clause; 但是 (conjunction) starts the second clause. Both are formal; 却 is slightly more literary. Essential for nuanced business argumentation.",
+      "examples": [
+        "虽然农家乐条件简单，但是越来越受到城市游客的欢迎。",
+        "这种旅游方式虽然价格不高，却能给游客带来真实的乡村体验。"
+      ]
+    },
+    {
+      "pattern": "如果/要是…就/那么…",
+      "explanation": "Conditional. The textbook labels 如果 as indicating a presumed relationship: 如果 introduces the condition, 就/那么 introduces the result. 如果 is neutral register; 要是 is colloquial. 那么 is formal/written and often appears alone without 如果 in business texts. In formal writing, 若 replaces 如果.",
+      "examples": [
+        "如果您有任何疑问，请随时与我们联系。",
+        "若贵公司有意向，我们可以安排进一步洽谈。"
+      ]
+    },
+    {
+      "pattern": "既…又/也…",
+      "explanation": "Coordinate 'both…and' pattern. The textbook specifies that both clauses must share the same subject. More formal than 'A和B'. Useful for balanced praise or description in business profiles and product descriptions. Implied positive valence — usually both qualities are desirable.",
+      "examples": [
+        "这种旅游方式既轻松又愉快，非常适合家庭出游。",
+        "该企业集团既注重产品质量，又重视售后服务，赢得了客户的高度信任。"
+      ]
+    },
+    {
+      "pattern": "是…的 (shì-de emphasis frame)",
+      "explanation": "The textbook explicitly describes this as used 'to strengthen a positive mood' and that a 'time adverbial modifier indicating past tense' is required. Deploy to emphasize the time, place, manner, or agent of a completed action: 是 [focal element] VP 的. The object may come before or after 的. Critical for professional precision when recounting events.",
+      "examples": [
+        "这份合同是上个月在上海签订的。",
+        "产品是在北京工厂生产的，不是在国外加工的。",
+        "他是坐高铁来的，不是坐飞机。"
+      ]
+    },
+    {
+      "pattern": "V + 过 (guò) experiential aspect",
+      "explanation": "The textbook states: '过 is used after verb to indicate that certain action or transformation has ever happened.' Negated with 没(有). Distinct from 了: 过 asserts general life-experience or precedent; 了 pins a specific completed event. In business contexts, 过 frames qualifications and track record.",
+      "examples": [
+        "我们公司曾经与多家跨国企业合作过。",
+        "他参观过国内外许多企业，对现代化管理有深刻了解。",
+        "这种情况以前发生过，我们有应对经验。"
+      ]
+    },
+    {
+      "pattern": "V + 了 (le) completion / sentence-final change-of-state",
+      "explanation": "The textbook notes: '了 is usually used at the end of a verb-predicate sentence to strengthen a positive mood that something happened. There's always time adverbial modifier indicating past tense in such sentence.' Post-verbal 了 marks bounded completion; sentence-final 了 marks a newly relevant situation (change of state). Do not confuse with 过.",
+      "examples": [
+        "参观结束了，大家都很满意。",
+        "企业的年产量提高了30%。",
+        "去年他来北京出差了三次。"
+      ]
+    },
+    {
+      "pattern": "让/使 + person/thing + VP (causative)",
+      "explanation": "The textbook lists this as: 'make, to cause: 让 + someone + verb/adjective phrase.' 让 implies permission or softer causation; 使 is more formal and signals abstract causation (suitable for formal documents, reports). The causee functions as object of 让/使, and the VP follows. In formal/business writing, prefer 使 for processes and policies.",
+      "examples": [
+        "清新的空气让游客感到心旷神怡。",
+        "新的管理制度使企业的整体效率大幅提升。",
+        "这次参观使我们对现代化工厂有了全新的认识。"
+      ]
+    },
+    {
+      "pattern": "被 + (agent) + VP (passive)",
+      "explanation": "The textbook describes the 被-sentence: 'The subject of such sentence pattern is the target of the action, and the object is the one who takes the action.' Agent follows 被 and may be omitted. Common in formal and business writing to describe results, evaluations, or processes where the agent is irrelevant or unknown.",
+      "examples": [
+        "这家企业被评为国家高新技术企业。",
+        "产品被广泛应用于工业生产和日常生活。",
+        "该计划已被上级主管部门批准。"
+      ]
+    },
+    {
+      "pattern": "越来越 + adj/VP",
+      "explanation": "Indicates progressive increase in degree: 'increasingly', 'more and more'. Also appears as 越…越… (the more X, the more Y) with two parallel clauses. Both forms are neutral register and very common in trend descriptions. In business/analytical writing, pair with quantitative data for credibility.",
+      "examples": [
+        "选择农家乐旅游的城市居民越来越多。",
+        "消费者对产品质量的要求越来越高。",
+        "越努力，成绩越好；越用心，服务越到位。"
+      ]
+    },
+    {
+      "pattern": "一直 + VP",
+      "explanation": "The textbook states: 'It indicates that some action or situation lasts invariably.' Asserts unbroken continuity of an action or state up to a reference point. Distinct from 总是 (habitual repetition) — 一直 stresses uninterrupted persistence. Common in company histories and progress narratives.",
+      "examples": [
+        "这家企业自成立以来一直坚持高质量生产标准。",
+        "他在这个岗位上一直默默奉献，从不抱怨。",
+        "销售额一直保持稳定增长态势。"
+      ]
+    },
+    {
+      "pattern": "不断 + VP",
+      "explanation": "The textbook glosses this as 'continuously, uninterruptedly.' Like 一直 but implies repeated recurrence rather than a single unbroken state. Often collocates with 发展、改善、提高、创新 in business writing. Stronger sense of ongoing effort than 一直.",
+      "examples": [
+        "企业不断引进先进技术，持续提升竞争力。",
+        "我们将不断改善服务质量，以满足客户需求。",
+        "产品品种不断丰富，已覆盖多个市场细分领域。"
+      ]
+    },
+    {
+      "pattern": "自从…以来/以后 (temporal framing)",
+      "explanation": "自从 introduces a past starting point; the main clause describes what has continued or changed since. Naturally pairs with 一直, 不断, 越来越, or 已经. Very common in company introductions and business reports to frame a growth or change narrative. More formal than 从…开始.",
+      "examples": [
+        "自从实行新的管理制度以来，企业效益大幅提升。",
+        "自从加入该行业以后，公司一直处于快速发展阶段。",
+        "自从2000年成立以来，集团规模不断扩大。"
+      ]
+    },
+    {
+      "pattern": "只要…就… / 只有…才…",
+      "explanation": "Two conditionals with opposite logical force. 只要…就 = 'as long as X, then Y' (sufficient condition; optimistic/persuasive). 只有…才 = 'only if/when X, then Y' (necessary condition; stricter, exclusive). In business writing: use 只有…才 to assert that a specific prerequisite is non-negotiable; use 只要…就 to lower the perceived barrier.",
+      "examples": [
+        "只要坚持练习，汉语水平就会不断提高。",
+        "只有提高产品质量，企业才能在竞争激烈的市场上立于不败之地。",
+        "只有双方相互信任，合作才能长期持续。"
+      ]
+    },
+    {
+      "pattern": "不管/无论…都/也…",
+      "explanation": "Expresses that the result holds regardless of the condition. 不管 is colloquial; 无论 is formal/written (preferred in business documents). The subordinate clause typically uses interrogative words (什么、怎么、多少、如何). In formal writing, 无论…均… is an even more formal variant.",
+      "examples": [
+        "无论遇到什么困难，我们都会坚持履行合同义务。",
+        "不管价格如何变化，我们都会保证产品质量不变。",
+        "无论订单大小，均享受同等的售后服务保障。"
+      ]
+    }
+  ],
+  "expressions": [
+    {"zh": "淡季", "pinyin": "dànjì", "meaning": "off season, slack season", "register": "business/neutral"},
+    {"zh": "旺季", "pinyin": "wàngjì", "meaning": "peak/busy season", "register": "business/neutral"},
+    {"zh": "介绍信", "pinyin": "jièshàoxìn", "meaning": "letter of introduction", "register": "formal/business"},
+    {"zh": "凭", "pinyin": "píng", "meaning": "on the basis of, by virtue of, with (a credential)", "register": "formal"},
+    {"zh": "港澳台", "pinyin": "Gǎng-Ào-Tái", "meaning": "Hong Kong, Macao and Taiwan (collective abbreviation)", "register": "formal/political"},
+    {"zh": "法律制度", "pinyin": "fǎlǜ zhìdù", "meaning": "legal system", "register": "formal"},
+    {"zh": "实行", "pinyin": "shíxíng", "meaning": "put into practice, implement, carry out (a policy/system)", "register": "formal/written"},
+    {"zh": "假期", "pinyin": "jiàqī", "meaning": "holiday, vacation period", "register": "neutral"},
+    {"zh": "建国", "pinyin": "jiànguó", "meaning": "found a country, national founding", "register": "formal/political"},
+    {"zh": "周年", "pinyin": "zhōunián", "meaning": "anniversary", "register": "formal"},
+    {"zh": "集中", "pinyin": "jízhōng", "meaning": "centralize, concentrate, focus on", "register": "formal"},
+    {"zh": "形成", "pinyin": "xíngchéng", "meaning": "take shape, come into being, form (a pattern/situation)", "register": "formal/written"},
+    {"zh": "加紧", "pinyin": "jiājǐn", "meaning": "accelerate, intensify, step up (effort)", "register": "formal"},
+    {"zh": "经济", "pinyin": "jīngjì", "meaning": "economy; economic", "register": "neutral/formal"},
+    {"zh": "旅游业", "pinyin": "lǚyóuyè", "meaning": "tourism industry, tourist sector", "register": "formal/business"},
+    {"zh": "利益", "pinyin": "lìyì", "meaning": "benefit, interest, profit (often plural/abstract)", "register": "formal/business"},
+    {"zh": "电信", "pinyin": "diànxìn", "meaning": "telecommunications", "register": "formal/business"},
+    {"zh": "餐饮", "pinyin": "cānyǐn", "meaning": "food and beverage, catering (industry)", "register": "business"},
+    {"zh": "住宿", "pinyin": "zhùsù", "meaning": "accommodation, lodging", "register": "business/neutral"},
+    {"zh": "行业", "pinyin": "hángyè", "meaning": "industry, sector, trade (one's field)", "register": "formal/business"},
+    {"zh": "追求", "pinyin": "zhuīqiú", "meaning": "pursue, seek, strive for (abstract goals)", "register": "formal/written"},
+    {"zh": "消费", "pinyin": "xiāofèi", "meaning": "consume; consumption (noun/verb)", "register": "formal/business"},
+    {"zh": "商业", "pinyin": "shāngyè", "meaning": "commerce, business, trade (sector)", "register": "formal/business"},
+    {"zh": "责任", "pinyin": "zérèn", "meaning": "responsibility, duty, obligation", "register": "formal"},
+    {"zh": "建设", "pinyin": "jiànshè", "meaning": "build, construct, develop (infrastructure/capacity)", "register": "formal"},
+    {"zh": "改善", "pinyin": "gǎishàn", "meaning": "improve, ameliorate (conditions/relations)", "register": "formal/written"},
+    {"zh": "超过", "pinyin": "chāoguò", "meaning": "exceed, surpass, go beyond", "register": "neutral/formal"},
+    {"zh": "人口", "pinyin": "rénkǒu", "meaning": "population", "register": "formal"},
+    {"zh": "环保", "pinyin": "huánbǎo", "meaning": "environmental protection; eco-friendly (adj.)", "register": "modern/formal"},
+    {"zh": "舒适", "pinyin": "shūshì", "meaning": "comfortable, cozy, at ease", "register": "neutral"},
+    {"zh": "品种", "pinyin": "pǐnzhǒng", "meaning": "breed, variety, type, product line", "register": "formal/business"},
+    {"zh": "赞助", "pinyin": "zànzhù", "meaning": "sponsor; sponsorship (commercial)", "register": "business/formal"},
+    {"zh": "企业", "pinyin": "qǐyè", "meaning": "enterprise, company, business entity", "register": "formal/business"},
+    {"zh": "集团公司", "pinyin": "jítuán gōngsī", "meaning": "group company, conglomerate", "register": "business/formal"},
+    {"zh": "现代化", "pinyin": "xiàndàihuà", "meaning": "modernization; to modernize; modernized (adj.)", "register": "formal"},
+    {"zh": "监控", "pinyin": "jiānkòng", "meaning": "monitor and control, supervise, surveillance", "register": "formal/technical"},
+    {"zh": "担保", "pinyin": "dānbǎo", "meaning": "guarantee, assure, vouch for", "register": "formal/business"},
+    {"zh": "承担", "pinyin": "chéngdān", "meaning": "bear, undertake, assume (responsibility/cost)", "register": "formal/business"},
+    {"zh": "自驾", "pinyin": "zìjià", "meaning": "self-drive (travel); driving oneself (to destination)", "register": "modern/colloquial"},
+    {"zh": "农家乐", "pinyin": "nóngjiālè", "meaning": "rural recreation, agritourism, farm stay experience", "register": "modern/colloquial"},
+    {"zh": "体验", "pinyin": "tǐyàn", "meaning": "experience (noun/verb, esp. immersive first-hand experience)", "register": "neutral"},
+    {"zh": "品尝", "pinyin": "pǐncháng", "meaning": "taste, sample (food or drink, with attention to quality)", "register": "formal/literary"},
+    {"zh": "清静", "pinyin": "qīngjìng", "meaning": "quiet, peaceful, tranquil (of a place or mood)", "register": "neutral/literary"},
+    {"zh": "附近", "pinyin": "fùjìn", "meaning": "nearby, in the vicinity of", "register": "neutral"},
+    {"zh": "按时", "pinyin": "ànshí", "meaning": "on time, punctually, as scheduled", "register": "neutral/formal"},
+    {"zh": "状态", "pinyin": "zhuàngtài", "meaning": "state, condition, status (of a system or person)", "register": "neutral"},
+    {"zh": "特此通知", "pinyin": "tèCǐ tōngzhī", "meaning": "hereby notify; issued to inform (formal closing phrase in notices/announcements)", "register": "formal/administrative"},
+    {"zh": "报名截止日期", "pinyin": "bàomíng jiézhǐ rìqī", "meaning": "registration deadline", "register": "formal/administrative"},
+    {"zh": "读万卷书，行万里路", "pinyin": "dú wànjuān shū, xíng wànlǐ lù", "meaning": "Read ten thousand books, travel ten thousand miles — learning needs both theory and practice (classical proverb)", "register": "literary/proverbial"},
+    {"zh": "欢迎踊跃参与", "pinyin": "huānyíng yǒngyuè cānyù", "meaning": "Everyone is warmly invited to participate enthusiastically (standard closing for notices inviting applications)", "register": "formal/administrative"},
+    {"zh": "形成规模", "pinyin": "xíngchéng guīmó", "meaning": "achieve scale, reach critical mass (of a business or industry)", "register": "business/formal"},
+    {"zh": "不断创新", "pinyin": "bùduàn chuàngxīn", "meaning": "continuously innovate (common business formula)", "register": "business/formal"},
+    {"zh": "合理利用", "pinyin": "hélǐ lìyòng", "meaning": "make rational/optimal use of (resources, time, opportunities)", "register": "formal"},
+    {"zh": "季节性", "pinyin": "jìjiéxìng", "meaning": "seasonal (adj.); seasonality (noun)", "register": "business/formal"},
+    {"zh": "目的地", "pinyin": "mùdìdì", "meaning": "destination (travel or logistics)", "register": "neutral"},
+    {"zh": "公共交通", "pinyin": "gōnggòng jiāotōng", "meaning": "public transportation / public transit", "register": "neutral/formal"}
+  ],
+  "essay_takeaways": [
+    "Use numbered structure and parallel formatting (1. 2. 3.) for rules, fees, regulations, and registration notices. This textbook's administrative sections (fee schedules, registration rules) demonstrate that Chinese official documents overwhelmingly use enumerated items rather than flowing prose paragraphs. Mirroring this structure signals institutional competence.",
+    "Ground business narratives in concrete statistics. The Yanjing Beer enterprise passages integrate specific numbers (tonnage, percentages, years) directly into descriptive prose. Where English might say 'significant growth', professional Chinese says '产量增长了30%' or '年产量超过285万吨'. Vagueness reads as amateur; specificity reads as credible.",
+    "Use 自从…以来 + 一直/不断 to frame progress narratives. This temporal framing pattern — 'ever since [founding year], [company] has continuously [grown/improved]…' — is a standard opening move in enterprise introductions, company profiles, and annual reports. It establishes a trajectory and implies momentum.",
+    "The 是…的 emphasis frame is essential for professional precision. When stating how, when, where, or by whom something was done, use 是 [focal element] VP 的 rather than a bare verb. This pattern appears repeatedly in the textbook's grammar explanations and is especially important in contract discussions, meeting summaries, and official correspondence.",
+    "Concede before asserting. The 虽然…但是 structure signals rhetorical sophistication. Native-sounding business Chinese acknowledges constraints or counterpoints before pivoting to the main positive claim. This pattern appears in negotiation language, project proposals, and analytical reports — skipping the concession reads as overconfident.",
+    "Distinguish 让 (softer/permission-flavored causation) from 使 (formal, often abstract causation). In formal documents, reports, and notices, prefer 使: '新政策使销量大幅提升' reads as more authoritative than '新政策让销量大幅提升'. 使 is the default in analytical or institutional prose; 让 in narrative or conversational register.",
+    "For trend descriptions, 越来越 is your baseline tool; for intensification, use 越来越 anchored by a quantitative fact. Example: '选择农家乐的游客越来越多，2005年增幅达35%'. The juxtaposition of the trend phrase and the supporting statistic is a hallmark of professional analytical register.",
+    "Master the genre conventions of Chinese administrative notices (通知/启事): (1) title stating the subject clearly, e.g. 关于…的通知; (2) background/purpose statement; (3) enumerated details with deadlines and amounts; (4) requirements and conditions; (5) formal closing such as 特此通知 or 欢迎踊跃参与; (6) issuing body and date. Structural predictability is itself a register signal — deviating from it reads as informal or careless."
+  ]
+}
