@@ -10,6 +10,7 @@ import random
 import re
 import signal
 import subprocess
+import time
 import unicodedata
 import uuid
 from datetime import datetime
@@ -216,15 +217,20 @@ def promote_to_hanly(col, note_ids):
 
 
 def promote_to_vocab(col, note_ids):
-    """Wild-add promotion: tag notes 'mined', move forward (ord0) cards into the
-    'Vocab' deck and unsuspend them, suspend reverse (ord1) cards, and place the
-    forward cards at the FRONT of the new-card queue (next-up). The frequency
-    re-sort (resort_vocab.py) skips 'mined' cards, so they stay at the front."""
-    vocab_did = col.decks.id("Vocab")  # creates if missing
+    """Wild-add promotion: tag notes 'mined', move forward (ord0) cards into the separate
+    'Mined' deck (front of THAT deck, so newly added words come up next when studying Mined)
+    and unsuspend them, suspend reverse (ord1) cards, and route the cloze (ord2) card into
+    'Vocab Cloze' suspended (the maturity gate releases it later). This keeps the
+    frequency-ordered Vocab backbone clean — mined reading-words no longer spike it."""
+    mined_did = col.decks.id("Mined")          # creates if missing
+    cloze_did = col.decks.id("Vocab Cloze")
+    cv = next((m for m in col.models.all() if m["name"] == "ChineseVocabulary"), None)
+    cloze_ord = next((t["ord"] for t in cv["tmpls"] if t["name"] == "Cloze-Recall"), None) if cv else None
     tagged = 0
     forward_cards = []
     forward_to_unsuspend = []
     reverse_to_suspend = []
+    cloze_cards = []
 
     for nid in note_ids:
         try:
@@ -242,16 +248,21 @@ def promote_to_vocab(col, note_ids):
                     forward_to_unsuspend.append(card.id)
             elif card.ord == 1 and card.queue != -1:
                 reverse_to_suspend.append(card.id)
+            elif cloze_ord is not None and card.ord == cloze_ord:
+                cloze_cards.append(card.id)
 
     if forward_to_unsuspend:
         col.sched.unsuspend_cards(forward_to_unsuspend)
     if reverse_to_suspend:
         col.sched.suspend_cards(reverse_to_suspend)
+    if cloze_cards:
+        col.set_deck(cloze_cards, cloze_did)
+        col.sched.suspend_cards(cloze_cards)
     if forward_cards:
-        col.set_deck(forward_cards, vocab_did)
-        # front-of-queue: due below all current Vocab new cards, newest first
+        col.set_deck(forward_cards, mined_did)
+        # front of the Mined deck: due below all current Mined new cards, newest first
         min_due = col.db.scalar(
-            "SELECT MIN(due) FROM cards WHERE did=? AND type=0 AND ord=0", vocab_did)
+            "SELECT MIN(due) FROM cards WHERE did=? AND type=0 AND ord=0", mined_did)
         next_due = min(min_due if min_due is not None else 1, 1) - 1
         for cid in forward_cards:
             card = col.get_card(cid)
@@ -261,9 +272,9 @@ def promote_to_vocab(col, note_ids):
 
     return {
         "tagged": tagged,
-        "moved_to_vocab": len(forward_cards),
+        "moved_to_mined": len(forward_cards),
         "reverse_suspended": len(reverse_to_suspend),
-        "placed_next_up": len(forward_cards),
+        "cloze_routed": len(cloze_cards),
     }
 
 
@@ -357,6 +368,24 @@ def _trim_history(chat_id, max_messages=50, max_chars=300000):
 
 SYSTEM_PROMPT = """You are an Anki card creation and collection management assistant running as a Telegram bot. You help the user create flashcards and manage their Anki collection through natural conversation.
 
+## FIRST PRINCIPLE: The user's intent is ALWAYS to understand or improve a card
+The user is a heritage Chinese learner curating this collection. Essentially every message is about one or more specific cards — usually the card(s) most recently discussed — and the underlying goal is ALWAYS the same: understand the card and make it better. "help me look at X", "what about Y", "is there such a usage", "doesn't it just mean Z" are never abstract language questions — they mean *pull up that card and critically evaluate it with me.* Act on that intent directly; do not wait to be asked to fetch, and do not wait to be asked whether the card is good.
+
+Your standing loop for any card-related message:
+1. **Fetch first, automatically.** Call `search_notes` + `get_notes_detail` (or `get_field_values`) and read the card's ACTUAL current fields BEFORE you say anything about it. Never describe, judge, or answer from memory, from earlier in this conversation, or from general knowledge of the word — the user having to say "you didn't look up the card yet?" or "look at the example" is a failure. If the user refers to "this card", "the first card", "it", or a word already discussed, re-fetch it; don't trust your earlier view of the fields.
+2. **Critically assess it, unasked.** Once you've read the fields, proactively judge quality: Is the Meaning complete and accurate? Does it cover the character's/word's main senses? Is the example sentence real, natural, and actually illustrative of the target usage? Is the pinyin right? State plainly what's weak and what you'd change — don't wait for "do you think this is high quality?" That question means you should already have volunteered the assessment.
+3. **Ground every claim in the real fields.** Quote or reference what the card actually says. If you propose an example or usage, verify it's genuine — don't invent examples and don't defend a shaky one under pushback; re-check and correct.
+4. **Propose the improvement and offer to make it.** Since the goal is to improve the card, move toward a concrete edit (preview it, then edit_note on confirmation).
+
+When the user pushes back ("doesn't it just mean middle?", "are you over-indexing on the tone?", "isn't the card just the character itself?"), treat it as a correction: re-read the card, reconsider, and update your view — do not dig in defending a previous reply.
+
+The only messages that DON'T need a fetch first: pure chit-chat, story-writing requests (use the story tools), or a one-word confirmation (yes/ok) to an action you already previewed.
+
+## Chinese card philosophy (how the user thinks about cards)
+- **One comprehensive card per character/word — NEVER split by pronunciation or tone.** A character like 中 (zhōng / zhòng) gets a SINGLE card whose Meaning and Notes cover all its major senses and both pronunciations together. Do not propose, create, or maintain separate cards per reading. If you find duplicates split by pronunciation, the fix is to merge them into one comprehensive card, not to keep them apart.
+- **The card represents the character/word itself**, not one narrow usage. When evaluating, ask "does this card comprehensively capture what 中 IS?" — not "does this example match one specific tone?" Don't get fixated on a single reading or example at the expense of the whole.
+- A high-quality card: accurate and reasonably complete Meaning (main senses), correct tone-marked pinyin covering the readings in use, and a natural, genuine example sentence that a learner would actually encounter.
+
 ## Capabilities
 1. **Chinese vocabulary cards** — create ChineseVocabulary note type cards
 2. **General cards** — create Basic note type cards for any topic
@@ -422,6 +451,7 @@ When the user asks for a story or reading practice:
 - You can report a word's frequency tier with lookup_frequency (very common → rare).
 
 ## Important Rules
+- **Read the card before you talk about it, and critique it unasked.** For any card-related message — including follow-ups and pushback — re-fetch the current fields with get_notes_detail before answering, then proactively assess quality and propose improvements. Never answer from conversation memory or general knowledge. One comprehensive card per character/word; never split by pronunciation. (See FIRST PRINCIPLE above.)
 - **Always confirm before destructive actions** (delete, suspend, unsuspend, tag, move). Show what will be affected and ask the user to confirm before calling the modification tool.
 - **Always sync after modifications** — call sync_collection after any add/edit/delete/suspend/tag/move operation.
 - For card creation, show a preview of what you'll create and ask for confirmation before calling add_chinese_vocab or add_general_card.
@@ -1143,8 +1173,8 @@ def execute_tool(tool_name, tool_input):
                             pass
                 log_change("tag", note_ids, {"tags": tags})
                 return (f"Tagged {result['tagged']} note(s) 'mined', moved "
-                        f"{result['moved_to_vocab']} into Vocab at the front of the queue "
-                        f"(next-up), suspended {result['reverse_suspended']} reverse card(s).")
+                        f"{result['moved_to_mined']} into the Mined deck (front, next-up), "
+                        f"suspended {result['reverse_suspended']} reverse card(s).")
             elif adding_hanly:
                 result = promote_to_hanly(col, note_ids)
                 # Also add any non-hanly tags
@@ -1567,9 +1597,113 @@ async def handle_health(request):
     return web.json_response({"status": "ok"})
 
 
+# ── /api/status: read-only cross-reference for the dictionary site ─────
+# Snapshot of every ChineseVocabulary headword -> {deck, interval}, rebuilt at
+# most once per TTL so search-driven status checks never open the collection on
+# every keystroke (and never contend with anki_op.sh writers). Plus a count of
+# prior reader lookups per word as a mining signal.
+READER_LOOKUPS = "/home/vincent/anki-headless/freq_data/reader_lookups.jsonl"
+DICT_LOOKUPS = "/home/vincent/chinese-projects/chinese-dict/dict_lookups.jsonl"
+_status_cache = {"ts": 0.0, "map": {}}
+_lookup_cache = {"sig": None, "counts": {}}
+STATUS_TTL = 60.0
+
+
+def _vocab_status_map():
+    """{simplified -> {deck, interval}} for all ChineseVocabulary notes (cached).
+
+    Best-effort: if the collection is briefly locked (e.g. the bot's own periodic
+    sync holds it open), serve the last snapshot instead of raising. Never 500s."""
+    now = time.time()
+    if _status_cache["map"] and now - _status_cache["ts"] < STATUS_TTL:
+        return _status_cache["map"]
+    try:
+        col = open_collection()
+    except Exception as e:
+        log.warning(f"status map: collection unavailable ({e}); serving cached snapshot")
+        return _status_cache["map"]
+    try:
+        # field 0 of ChineseVocabulary is Simplified (verified against notetype)
+        rows = col.db.all(
+            "SELECT n.flds, c.ivl, c.did FROM notes n "
+            "JOIN notetypes nt ON nt.id = n.mid "
+            "JOIN cards c ON c.nid = n.id WHERE nt.name = 'ChineseVocabulary'")
+        deck_names = {}
+        m = {}
+        for flds, ivl, did in rows:
+            w = flds.split("\x1f", 1)[0].strip()
+            if not w:
+                continue
+            prev = m.get(w)
+            if prev is None or ivl > prev["interval"]:
+                if did not in deck_names:
+                    deck_names[did] = col.decks.name(did)
+                m[w] = {"deck": deck_names[did], "interval": ivl}
+    except Exception as e:
+        log.warning(f"status map: rebuild failed ({e}); serving cached snapshot")
+        return _status_cache["map"]
+    finally:
+        col.close()
+    _status_cache.update(ts=now, map=m)
+    return m
+
+
+def _lookup_counts():
+    """{word -> times looked up} across reader + dict logs (cached by file sig)."""
+    sig = []
+    for p in (READER_LOOKUPS, DICT_LOOKUPS):
+        try:
+            st = os.stat(p)
+            sig.append((p, st.st_mtime, st.st_size))
+        except OSError:
+            sig.append((p, 0, 0))
+    sig = tuple(sig)
+    if sig == _lookup_cache["sig"]:
+        return _lookup_cache["counts"]
+    counts = {}
+    for p in (READER_LOOKUPS, DICT_LOOKUPS):
+        try:
+            with open(p, encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    try:
+                        w = json.loads(line).get("word", "")
+                    except Exception:
+                        continue
+                    if w:
+                        counts[w] = counts.get(w, 0) + 1
+        except OSError:
+            pass
+    _lookup_cache.update(sig=sig, counts=counts)
+    return counts
+
+
+async def handle_api_status(request):
+    """GET /api/status?words=a,b,c — per-word Anki + lookup status. Read-only."""
+    raw = request.query.get("words", "").strip()
+    if not raw:
+        return web.json_response({})
+    words = [w for w in (x.strip() for x in raw.split(",")) if w][:200]
+    smap = await asyncio.to_thread(_vocab_status_map)
+    counts = _lookup_counts()
+    out = {}
+    for w in words:
+        info = smap.get(w)
+        out[w] = {
+            "in_deck": info is not None,
+            "deck": info["deck"] if info else None,
+            "interval": info["interval"] if info else None,
+            "lookup_count": counts.get(w, 0),
+        }
+    return web.json_response(out, dumps=lambda o: json.dumps(o, ensure_ascii=False))
+
+
 def create_web_app():
     app = web.Application(middlewares=[auth_middleware])
     app.router.add_post('/api/card', handle_api_card)
+    app.router.add_get('/api/status', handle_api_status)
     app.router.add_get('/health', handle_health)
     return app
 
