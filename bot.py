@@ -4,6 +4,7 @@
 import asyncio
 import base64
 import json
+import sqlite3
 import logging
 import os
 import random
@@ -1604,6 +1605,10 @@ async def handle_health(request):
 # prior reader lookups per word as a mining signal.
 READER_LOOKUPS = "/home/vincent/anki-headless/freq_data/reader_lookups.jsonl"
 DICT_LOOKUPS = "/home/vincent/chinese-projects/chinese-dict/dict_lookups.jsonl"
+# Live tap/save events from the dong reader (web + iOS) — the jsonl above froze
+# 2026-06-19 when dong's server took over event logging, so this is where the
+# reader signal actually accrues now. Read-only; owner's accounts (web=1, Apple=3).
+DONG_DB = "/home/vincent/chinese-projects/dong-chinese/server/dongchinese.db"
 _status_cache = {"ts": 0.0, "map": {}}
 _lookup_cache = {"sig": None, "counts": {}}
 STATUS_TTL = 60.0
@@ -1649,9 +1654,11 @@ def _vocab_status_map():
 
 
 def _lookup_counts():
-    """{word -> times looked up} across reader + dict logs (cached by file sig)."""
+    """{word -> times looked up} across the legacy jsonl logs + dong's live
+    reading_events (tap/save). Cached by the files' stat signature — dongchinese.db
+    is WAL so its mtime/size move on every write, which is exactly the busting we want."""
     sig = []
-    for p in (READER_LOOKUPS, DICT_LOOKUPS):
+    for p in (READER_LOOKUPS, DICT_LOOKUPS, DONG_DB):
         try:
             st = os.stat(p)
             sig.append((p, st.st_mtime, st.st_size))
@@ -1676,6 +1683,18 @@ def _lookup_counts():
                         counts[w] = counts.get(w, 0) + 1
         except OSError:
             pass
+    try:
+        con = sqlite3.connect(f"file:{DONG_DB}?mode=ro", uri=True)
+        try:
+            for w, n in con.execute(
+                    "SELECT word, COUNT(*) FROM reading_events "
+                    "WHERE user_id IN (1,3) AND kind IN ('tap','save') "
+                    "AND word IS NOT NULL AND word<>'' GROUP BY word"):
+                counts[w] = counts.get(w, 0) + n
+        finally:
+            con.close()
+    except Exception as e:
+        log.warning(f"lookup counts: dong reading_events unavailable ({e})")
     _lookup_cache.update(sig=sig, counts=counts)
     return counts
 
