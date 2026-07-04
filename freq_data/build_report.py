@@ -7,7 +7,7 @@ def clean(s): return re.sub(r"<[^>]+>", "", s or "").strip()
 
 # ── CEDICT: simplified -> (pinyin, gloss) ──
 ced = {}
-with open("/home/vincent/dong-chinese/Resources/cedict_ts.u8") as f:
+with open("/home/vincent/chinese-projects/dong-chinese/Resources/cedict_ts.u8") as f:
     for line in f:
         if line.startswith("#"): continue
         m = re.match(r"(\S+) (\S+) \[([^\]]*)\] /(.+)/", line)

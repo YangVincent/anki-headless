@@ -1,3 +1,57 @@
 {"ts": "2026-02-06T03:58:53.859570", "action": "remove_hanly_non_vocab", "count": 3853, "note_ids": [1393817665660, 1393817665668, 1393817665683, 1393817665737, 1393817665761, 1393817665824, 1393817665845, 1393817665861, 1393817666868, 1393817667200, 1393817671172, 1393817671580, 1520716965182, 1520716965213, 1520716965539, 1520716965541, 1520716965549, 1520716965596, 1520716965602, 1520716965606, "...+3833"]}
 {"ts": "2026-02-06T04:06:24.293809", "action": "suspend_english_speaking", "count": 2110}
 {"ts": "2026-02-06T07:25:40.743467", "action": "suspend", "note_ids": [1393817665778, 1520716965625, 1520716965626, 1537328239539, 1537328239542, 1537328239543, 1537328239547, 1537328240305, 1537328240312, 1537328240341, 1537328240345, 1537328242722, 1537328242724, 1537328245960, 1537328247355, 1708747485156, 1708747485166, 1708747485219, 1708747485248, 1708747485294, "...+154"], "count": 174, "card_count": 344}
+{"ts": "2026-05-03T13:28:33.373340", "action": "unsuspend", "note_ids": [1708747486972], "count": 1, "card_count": 2}
+{"ts": "2026-05-31T22:34:45.462404", "action": "unsuspend", "note_ids": [1393817668258], "count": 1, "card_count": 2}
+{"ts": "2026-05-31T22:34:47.355115", "action": "move_deck", "note_ids": [1393817668258], "count": 1, "deck": "hanly", "card_count": 2}
+{"ts": "2026-06-02T00:27:20.961438", "action": "unsuspend", "note_ids": [1537328245293], "count": 1, "card_count": 2}
+{"ts": "2026-06-02T00:27:26.652663", "action": "move_deck", "note_ids": [1537328245293], "count": 1, "deck": "hanly", "card_count": 2}
+{"ts": "2026-06-02T00:44:58.374884", "action": "edit_note", "note_ids": [1708747485362], "count": 1, "fields_updated": ["PartOfSpeech", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T00:46:14.505683", "action": "edit_note", "note_ids": [1708747485438], "count": 1, "fields_updated": ["PartOfSpeech", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T00:54:08.643537", "action": "edit_note", "note_ids": [1537328241296], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T00:54:56.721007", "action": "edit_note", "note_ids": [1708747485501], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T00:58:33.177689", "action": "edit_note", "note_ids": [1537328241440], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T00:59:18.489528", "action": "edit_note", "note_ids": [1708747487374], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T01:05:11.469077", "action": "edit_note", "note_ids": [1393817667583], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T01:23:46.284545", "action": "edit_note", "note_ids": [1708747487730], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T01:25:37.112474", "action": "edit_note", "note_ids": [1708747488918], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T01:29:53.431539", "action": "edit_note", "note_ids": [1708747485534], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T01:31:47.178625", "action": "edit_note", "note_ids": [1717270472046], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning", "PartOfSpeech"]}
+{"ts": "2026-06-02T01:31:50.026209", "action": "move_deck", "note_ids": [1717270472046], "count": 1, "deck": "hanly", "card_count": 2}
+{"ts": "2026-06-02T01:31:51.959165", "action": "unsuspend", "note_ids": [1717270472046], "count": 1, "card_count": 2}
+{"ts": "2026-06-02T01:37:13.335581", "action": "edit_note", "note_ids": [1708747486027], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T01:39:14.234008", "action": "edit_note", "note_ids": [1393817668207], "count": 1, "fields_updated": ["Notes"]}
+{"ts": "2026-06-02T01:49:27.584449", "action": "edit_note", "note_ids": [1537328247169], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T01:50:23.745556", "action": "unsuspend", "note_ids": [1393817667711], "count": 1, "card_count": 2}
+{"ts": "2026-06-02T01:50:26.234901", "action": "move_deck", "note_ids": [1393817667711], "count": 1, "deck": "hanly", "card_count": 2}
+{"ts": "2026-06-02T01:51:05.328304", "action": "edit_note", "note_ids": [1708747492435], "count": 1, "fields_updated": ["PartOfSpeech", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T01:51:07.379026", "action": "unsuspend", "note_ids": [1708747492435], "count": 1, "card_count": 2}
+{"ts": "2026-06-02T12:39:45.951807", "action": "edit_note", "note_ids": [1708747487797], "count": 1, "fields_updated": ["Traditional", "PartOfSpeech", "SentenceSimplified", "SentencePinyin", "SentenceMeaning", "Notes"]}
+{"ts": "2026-06-02T12:39:48.453376", "action": "unsuspend", "note_ids": [1708747487797], "count": 1, "card_count": 2}
+{"ts": "2026-06-02T14:22:23.389120", "action": "edit_note", "note_ids": [1708747487607], "count": 1, "fields_updated": ["Traditional", "PartOfSpeech", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-02T14:22:26.379555", "action": "move_deck", "note_ids": [1393817666859, 1707757282812, 1708747487607], "count": 3, "deck": "hanly", "card_count": 5}
+{"ts": "2026-06-02T14:22:29.078294", "action": "unsuspend", "note_ids": [1393817666859, 1707757282812, 1708747487607], "count": 3, "card_count": 5}
+{"ts": "2026-06-05T01:07:55.636950", "action": "edit_note", "note_ids": [1708747488507], "count": 1, "fields_updated": ["PartOfSpeech", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-05T01:07:55.655513", "action": "edit_note", "note_ids": [1708747487797], "count": 1, "fields_updated": ["PartOfSpeech", "Pinyin", "Notes", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-05T01:10:15.019508", "action": "delete", "note_ids": [1708747485815], "count": 1}
+{"ts": "2026-06-05T01:12:16.576557", "action": "edit_note", "note_ids": [1708747492578], "count": 1, "fields_updated": ["PartOfSpeech", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-06T00:14:41.503136", "action": "delete", "note_ids": [1708747486795], "count": 1}
+{"ts": "2026-06-06T00:17:43.223901", "action": "edit_note", "note_ids": [1708747484937], "count": 1, "fields_updated": ["PartOfSpeech", "Meaning", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-06T00:26:57.740077", "action": "delete", "note_ids": [1708747487181], "count": 1}
+{"ts": "2026-06-06T00:33:19.531638", "action": "edit_note", "note_ids": [1708747502148], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-06T00:33:19.547934", "action": "edit_note", "note_ids": [1708747491991], "count": 1, "fields_updated": ["Meaning", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-06T00:36:42.577066", "action": "edit_note", "note_ids": [1708747504301], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-06T00:39:39.138071", "action": "edit_note", "note_ids": [1708747517718], "count": 1, "fields_updated": ["Meaning", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-06T00:39:39.151857", "action": "edit_note", "note_ids": [1537328241061], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-06T00:41:25.528586", "action": "edit_note", "note_ids": [1537328241061], "count": 1, "fields_updated": ["Meaning", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-06T00:43:57.713953", "action": "edit_note", "note_ids": [1708747496472], "count": 1, "fields_updated": ["Meaning", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-06T20:32:27.847283", "action": "edit_note", "note_ids": [1708747485406], "count": 1, "fields_updated": ["Meaning", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-06T20:33:51.875902", "action": "edit_note", "note_ids": [1393817667419], "count": 1, "fields_updated": ["Meaning", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-06T20:36:16.506292", "action": "edit_note", "note_ids": [1393817668083], "count": 1, "fields_updated": ["Meaning"]}
+{"ts": "2026-06-06T20:38:12.285970", "action": "edit_note", "note_ids": [1708747484723], "count": 1, "fields_updated": ["Meaning", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-06-06T20:40:26.306447", "action": "edit_note", "note_ids": [1708747485216], "count": 1, "fields_updated": ["Meaning", "SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-07-01T16:57:07.627094", "action": "edit_note", "note_ids": [1708747484356], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-07-01T17:25:07.972917", "action": "edit_note", "note_ids": [1781670076191], "count": 1, "fields_updated": ["Pinyin", "Meaning", "PartOfSpeech", "SentenceSimplified", "SentencePinyin", "SentenceMeaning", "SentenceSimplifiedCloze", "SentenceTraditionalCloze"]}
+{"ts": "2026-07-04T01:58:35.512892", "action": "edit_note", "note_ids": [1537328247679], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
+{"ts": "2026-07-04T17:29:34.034997", "action": "edit_note", "note_ids": [1393817666455], "count": 1, "fields_updated": ["Meaning", "SentenceSimplified", "SentencePinyin", "SentenceMeaning", "Notes"]}
+{"ts": "2026-07-04T17:34:08.959129", "action": "delete", "note_ids": [1708747490527], "count": 1}

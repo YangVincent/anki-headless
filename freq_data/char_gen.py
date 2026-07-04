@@ -13,7 +13,7 @@ MODEL="claude-sonnet-4-5-20250929"   # reuse bot's proven model; bump to a newer
 
 # CEDICT single-char lookup: simp -> (trad, gloss)
 ced={}
-with open("/home/vincent/dong-chinese/Resources/cedict_ts.u8") as f:
+with open("/home/vincent/chinese-projects/dong-chinese/Resources/cedict_ts.u8") as f:
     for line in f:
         if line.startswith("#"): continue
         m=re.match(r"(\S+) (\S+) \[([^\]]*)\] /(.+)/",line)

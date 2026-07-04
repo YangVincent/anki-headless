@@ -9,7 +9,7 @@ import re
 import sys
 import time
 
-DEFAULT_COLLECTION = "/home/vincent/anki/collection.anki2"
+DEFAULT_COLLECTION = "/home/vincent/anki-headless/collection.anki2"
 AUTH_FILE = os.path.expanduser("~/.anki_auth")
 
 

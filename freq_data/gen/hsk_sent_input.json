@@ -1,0 +1,5119 @@
+[
+{
+"nid": 1393817666846,
+"word": "寒假",
+"trad": "寒假",
+"pinyin": "hánjià",
+"gloss": "winter vacation"
+},
+{
+"nid": 1393817667769,
+"word": "劳驾",
+"trad": "勞駕",
+"pinyin": "láo jià",
+"gloss": "excuse me"
+},
+{
+"nid": 1393817667845,
+"word": "报到",
+"trad": "報到",
+"pinyin": "bàodào",
+"gloss": "report for duty; to check in; register"
+},
+{
+"nid": 1393817667959,
+"word": "叉子",
+"trad": "叉子",
+"pinyin": "chāzi",
+"gloss": "fork; cross"
+},
+{
+"nid": 1393817667996,
+"word": "急诊",
+"trad": "急診",
+"pinyin": "jízhěn",
+"gloss": "emergency call; emergency treatment"
+},
+{
+"nid": 1393817668027,
+"word": "姥姥",
+"trad": "姥姥",
+"pinyin": "lǎolao",
+"gloss": "maternal grandmother"
+},
+{
+"nid": 1393817668037,
+"word": "照常",
+"trad": "照常",
+"pinyin": "zhàocháng",
+"gloss": "as usual; normal"
+},
+{
+"nid": 1393817668082,
+"word": "押金",
+"trad": "押金",
+"pinyin": "yājīn",
+"gloss": "security deposit;&nbsp;down payment"
+},
+{
+"nid": 1393817668143,
+"word": "挂号",
+"trad": "挂號",
+"pinyin": "guà hào",
+"gloss": "register; check into hospital; send by registered mail"
+},
+{
+"nid": 1393817668150,
+"word": "连忙",
+"trad": "連忙",
+"pinyin": "liánmáng",
+"gloss": "promptly; at once"
+},
+{
+"nid": 1393817668226,
+"word": "丢三落四",
+"trad": "丟三落四",
+"pinyin": "diūsān làsì",
+"gloss": "forgetful; scatterbrained"
+},
+{
+"nid": 1393817668611,
+"word": "简体字",
+"trad": "簡體字",
+"pinyin": "jiǎntǐzì",
+"gloss": "simplified Chinese characters"
+},
+{
+"nid": 1393817668795,
+"word": "纳闷儿",
+"trad": "納悶兒",
+"pinyin": "nà mènr",
+"gloss": "feel puzzled; bewildered"
+},
+{
+"nid": 1393817668932,
+"word": "镇静",
+"trad": "鎮靜",
+"pinyin": "zhènjìng",
+"gloss": "calm; cool; tranquil"
+},
+{
+"nid": 1393817669410,
+"word": "裁缝",
+"trad": "裁縫",
+"pinyin": "cáifeng",
+"gloss": "tailor; dressmaker"
+},
+{
+"nid": 1393817669521,
+"word": "话筒",
+"trad": "話筒",
+"pinyin": "huàtǒng",
+"gloss": "microphone; transmitter; megaphone"
+},
+{
+"nid": 1393817669575,
+"word": "流露",
+"trad": "流露",
+"pinyin": "liúlù",
+"gloss": "express; reveal (one's thoughts or feelings)"
+},
+{
+"nid": 1393817669597,
+"word": "和蔼",
+"trad": "和藹",
+"pinyin": "hé'ǎi",
+"gloss": "kindly; good-tempered; amiable"
+},
+{
+"nid": 1393817669617,
+"word": "辫子",
+"trad": "辮子",
+"pinyin": "biànzi",
+"gloss": "plait; braid; pigtail"
+},
+{
+"nid": 1393817669700,
+"word": "含糊",
+"trad": "含糊",
+"pinyin": "hánhu",
+"gloss": "unclear; vague; unsure"
+},
+{
+"nid": 1393817669764,
+"word": "调料",
+"trad": "調料",
+"pinyin": "tiáoliào",
+"gloss": "seasoning; flavoring"
+},
+{
+"nid": 1393817669847,
+"word": "歪曲",
+"trad": "歪曲",
+"pinyin": "wāiqū",
+"gloss": "to distort; to misrepresent; to twist; crooked; askew; aslant"
+},
+{
+"nid": 1393817669856,
+"word": "巴不得",
+"trad": "巴不得",
+"pinyin": "bābudé",
+"gloss": "eagerly look forward to; earnestly wish; be only too anxious to"
+},
+{
+"nid": 1393817669861,
+"word": "水龙头",
+"trad": "水龍頭",
+"pinyin": "shuǐlóngtóu",
+"gloss": "faucet; tap"
+},
+{
+"nid": 1393817669895,
+"word": "拘束",
+"trad": "拘束",
+"pinyin": "jūshù",
+"gloss": "restrict; constrained; ill at ease; reticent"
+},
+{
+"nid": 1393817669933,
+"word": "条理",
+"trad": "條理",
+"pinyin": "tiáolǐ",
+"gloss": "consecutive; arrangement; orderliness"
+},
+{
+"nid": 1393817669934,
+"word": "文雅",
+"trad": "文雅",
+"pinyin": "wényǎ",
+"gloss": "elegant; refined"
+},
+{
+"nid": 1393817669947,
+"word": "庄重",
+"trad": "庄重",
+"pinyin": "zhuāngzhòng",
+"gloss": "grave; solemn; dignified"
+},
+{
+"nid": 1393817669964,
+"word": "岳母",
+"trad": "岳母",
+"pinyin": "yuèmǔ",
+"gloss": "wife's mother; mother-in-law"
+},
+{
+"nid": 1393817669998,
+"word": "示意",
+"trad": "示意",
+"pinyin": "shìyì",
+"gloss": "to signal; to hint; to gesture; to motion; to indicate (an idea to sb)"
+},
+{
+"nid": 1393817669999,
+"word": "深沉",
+"trad": "深沉",
+"pinyin": "shēnchén",
+"gloss": "deep; extreme; low pitched (sound); grave; reserved (of a person);profound"
+},
+{
+"nid": 1393817670018,
+"word": "权衡",
+"trad": "權衡",
+"pinyin": "quánhéng",
+"gloss": "trade-off; weigh pros and cons"
+},
+{
+"nid": 1393817670019,
+"word": "插座",
+"trad": "插座",
+"pinyin": "chāzuò",
+"gloss": "power socket"
+},
+{
+"nid": 1393817670021,
+"word": "应酬",
+"trad": "應酬",
+"pinyin": "yìngchou",
+"gloss": "socialize with; a social engagement"
+},
+{
+"nid": 1393817670028,
+"word": "盛开",
+"trad": "盛開",
+"pinyin": "shèngkāi",
+"gloss": "to bloom; be in full flower"
+},
+{
+"nid": 1393817670070,
+"word": "迁就",
+"trad": "遷就",
+"pinyin": "qiānjiù",
+"gloss": "humor; yield; adapt to; accommodate (something)"
+},
+{
+"nid": 1393817670090,
+"word": "不像话",
+"trad": "不像話",
+"pinyin": "bụ̀ xiànghuà",
+"gloss": "unreasonable; absurd; outrageous"
+},
+{
+"nid": 1393817670105,
+"word": "嘈杂",
+"trad": "嘈雜",
+"pinyin": "cáozá",
+"gloss": "noisy; raucous"
+},
+{
+"nid": 1393817670119,
+"word": "迸发",
+"trad": "迸發",
+"pinyin": "bèngfā",
+"gloss": "burst forth; burst out"
+},
+{
+"nid": 1393817670146,
+"word": "摄氏度",
+"trad": "攝氏度",
+"pinyin": "shèshìdù",
+"gloss": "degrees Celsius"
+},
+{
+"nid": 1393817670183,
+"word": "端正",
+"trad": "端正",
+"pinyin": "duānzhèng",
+"gloss": "upright; regular; proper; correct"
+},
+{
+"nid": 1393817670192,
+"word": "赞叹",
+"trad": "贊嘆",
+"pinyin": "zàntàn",
+"gloss": "sigh or grasp in admiration; highly praise"
+},
+{
+"nid": 1393817670205,
+"word": "浸泡",
+"trad": "浸泡",
+"pinyin": "jìnpào",
+"gloss": "to soak"
+},
+{
+"nid": 1393817670218,
+"word": "俯视",
+"trad": "俯視",
+"pinyin": "fǔshì",
+"gloss": "look down at; overlook"
+},
+{
+"nid": 1393817670235,
+"word": "盛情",
+"trad": "盛情",
+"pinyin": "shèngqíng",
+"gloss": "great kindness; boundless hospitality"
+},
+{
+"nid": 1393817670239,
+"word": "冰雹",
+"trad": "冰雹",
+"pinyin": "bīngbáo",
+"gloss": "hail"
+},
+{
+"nid": 1393817670244,
+"word": "疙瘩",
+"trad": "疙瘩",
+"pinyin": "gēda",
+"gloss": "swelling or lump on skin"
+},
+{
+"nid": 1393817670281,
+"word": "追悼",
+"trad": "追悼",
+"pinyin": "zhuīdào",
+"gloss": "mourning; memorial (service, etc.)"
+},
+{
+"nid": 1393817670317,
+"word": "昼夜",
+"trad": "晝夜",
+"pinyin": "zhòuyè",
+"gloss": "day and night; continuously without stop"
+},
+{
+"nid": 1393817670336,
+"word": "亏待",
+"trad": "虧待",
+"pinyin": "kuīdài",
+"gloss": "treat sb. unfairly"
+},
+{
+"nid": 1393817670343,
+"word": "朴实",
+"trad": "朴實",
+"pinyin": "pǔshí",
+"gloss": "plain; sober; down-to-earth"
+},
+{
+"nid": 1393817670347,
+"word": "讥笑",
+"trad": "譏笑",
+"pinyin": "jīxiào",
+"gloss": "sneer at; deride"
+},
+{
+"nid": 1393817670350,
+"word": "答辩",
+"trad": "答辯",
+"pinyin": "dábiàn",
+"gloss": "reply (to an accusation)"
+},
+{
+"nid": 1393817670358,
+"word": "飘扬",
+"trad": "飄揚",
+"pinyin": "piāoyáng",
+"gloss": "wave in the wind; flutter; fly"
+},
+{
+"nid": 1393817670370,
+"word": "起哄",
+"trad": "起哄",
+"pinyin": "qǐ hòng",
+"gloss": "gather together; cause a commotion"
+},
+{
+"nid": 1393817670383,
+"word": "恭敬",
+"trad": "恭敬",
+"pinyin": "gōngjìng",
+"gloss": "dutiful; deferential"
+},
+{
+"nid": 1393817670390,
+"word": "俗话",
+"trad": "俗話",
+"pinyin": "súhuà",
+"gloss": "common saying; proverb"
+},
+{
+"nid": 1393817670404,
+"word": "陡峭",
+"trad": "陡峭",
+"pinyin": "dǒuqiào",
+"gloss": "steep; precipitous"
+},
+{
+"nid": 1393817670424,
+"word": "哆嗦",
+"trad": "哆嗦",
+"pinyin": "duōsuo",
+"gloss": "tremble; to shiver; to quiver"
+},
+{
+"nid": 1393817670438,
+"word": "兴隆",
+"trad": "興隆",
+"pinyin": "xīnglóng",
+"gloss": "prosperous; flourishing"
+},
+{
+"nid": 1393817670443,
+"word": "耐用",
+"trad": "耐用",
+"pinyin": "nàiyòng",
+"gloss": "durable"
+},
+{
+"nid": 1393817670450,
+"word": "吞吞吐吐",
+"trad": "吞吞吐吐",
+"pinyin": "tūntūntǔtǔ",
+"gloss": "hum and haw (idiom); mumble as if hiding something; speak and break off, then start again; to hold something back"
+},
+{
+"nid": 1393817670453,
+"word": "附和",
+"trad": "附和",
+"pinyin": "fùhè",
+"gloss": "repeat an agreement; copy sb.'s action or words"
+},
+{
+"nid": 1393817670457,
+"word": "神态",
+"trad": "神態",
+"pinyin": "shéntài",
+"gloss": "appearance; looks; manner; expression"
+},
+{
+"nid": 1393817670460,
+"word": "盛产",
+"trad": "盛產",
+"pinyin": "shèngchǎn",
+"gloss": "abound in; teem with; superabundant"
+},
+{
+"nid": 1393817670480,
+"word": "立交桥",
+"trad": "立交橋",
+"pinyin": "lìjiāoqiáo",
+"gloss": "overpass; one road goes on top of another; cloverleaf intersection"
+},
+{
+"nid": 1393817670482,
+"word": "珍稀",
+"trad": "珍稀",
+"pinyin": "zhēnxī",
+"gloss": "rare; precious and uncommon"
+},
+{
+"nid": 1393817670483,
+"word": "熏陶",
+"trad": "熏陶",
+"pinyin": "xūntáo",
+"gloss": "to influence (positively)"
+},
+{
+"nid": 1393817670514,
+"word": "亭子",
+"trad": "亭子",
+"pinyin": "tíngzi",
+"gloss": "pavilion; kiosk"
+},
+{
+"nid": 1393817670518,
+"word": "稿件",
+"trad": "稿件",
+"pinyin": "gǎojiàn",
+"gloss": "rough draft of a document"
+},
+{
+"nid": 1393817670531,
+"word": "稠密",
+"trad": "稠密",
+"pinyin": "chóumì",
+"gloss": "dense; thick"
+},
+{
+"nid": 1393817670532,
+"word": "砍伐",
+"trad": "砍伐",
+"pinyin": "kǎnfá",
+"gloss": "cut down; lop; hew (as a tree); fell"
+},
+{
+"nid": 1393817670534,
+"word": "挺拔",
+"trad": "挺拔",
+"pinyin": "tǐngbá",
+"gloss": "tall and straight"
+},
+{
+"nid": 1393817670545,
+"word": "把关",
+"trad": "把關",
+"pinyin": "bǎ guān",
+"gloss": "guard a pass; check on"
+},
+{
+"nid": 1393817670554,
+"word": "须知",
+"trad": "須知",
+"pinyin": "xūzhī",
+"gloss": "prerequisites; knowledge requirement"
+},
+{
+"nid": 1393817670560,
+"word": "堤坝",
+"trad": "堤壩",
+"pinyin": "dībà",
+"gloss": "dam; dyke"
+},
+{
+"nid": 1393817670566,
+"word": "辩证",
+"trad": "辯証",
+"pinyin": "biànzhèng",
+"gloss": "investigate; dialectical"
+},
+{
+"nid": 1393817670569,
+"word": "淡季",
+"trad": "淡季",
+"pinyin": "dànjì",
+"gloss": "off season; slow business season"
+},
+{
+"nid": 1393817670581,
+"word": "豪迈",
+"trad": "豪邁",
+"pinyin": "háomài",
+"gloss": "bold and generous; heroic"
+},
+{
+"nid": 1393817670586,
+"word": "查获",
+"trad": "查獲",
+"pinyin": "cháhuò",
+"gloss": "investigate and capture (a criminal); ferret out"
+},
+{
+"nid": 1393817670589,
+"word": "尚且",
+"trad": "尚且",
+"pinyin": "shàngqiě",
+"gloss": "yet; still; even; also"
+},
+{
+"nid": 1393817670591,
+"word": "体裁",
+"trad": "體裁",
+"pinyin": "tǐcái",
+"gloss": "types or forms of literature"
+},
+{
+"nid": 1393817670596,
+"word": "苦尽甘来",
+"trad": "苦盡甘來",
+"pinyin": "kǔjìngānlái",
+"gloss": "sweetness comes after bitterness; the hard times are over and the good times are just beginning"
+},
+{
+"nid": 1393817670598,
+"word": "籍贯",
+"trad": "籍貫",
+"pinyin": "jíguàn",
+"gloss": "place of one's ancestry"
+},
+{
+"nid": 1393817670603,
+"word": "压岁钱",
+"trad": "壓歲錢",
+"pinyin": "yāsuìqián",
+"gloss": "gifts of money given to children during the Spring Festival;lucky money"
+},
+{
+"nid": 1393817670604,
+"word": "举世瞩目",
+"trad": "舉世矚目",
+"pinyin": "jǔshì zhǔmù",
+"gloss": "attract worldwide attention"
+},
+{
+"nid": 1393817670612,
+"word": "季军",
+"trad": "季軍",
+"pinyin": "jìjūn",
+"gloss": "third in a race; bronze medalist"
+},
+{
+"nid": 1393817670617,
+"word": "联欢",
+"trad": "聯歡",
+"pinyin": "liánhuān",
+"gloss": "have a get-together"
+},
+{
+"nid": 1393817670623,
+"word": "沾光",
+"trad": "沾光",
+"pinyin": "zhān guāng",
+"gloss": "bask in the light; benefit from association with sth.; reflected glory"
+},
+{
+"nid": 1393817670625,
+"word": "旗袍",
+"trad": "旗袍",
+"pinyin": "qípáo",
+"gloss": "cheongsam; Chinese-style dress"
+},
+{
+"nid": 1393817670626,
+"word": "各抒己见",
+"trad": "各抒己見",
+"pinyin": "gèshūjǐjiàn",
+"gloss": "everyone gives their own view"
+},
+{
+"nid": 1393817670627,
+"word": "勉励",
+"trad": "勉勵",
+"pinyin": "miǎnlì",
+"gloss": "encourage"
+},
+{
+"nid": 1393817670631,
+"word": "羽绒服",
+"trad": "羽絨服",
+"pinyin": "yǔróngfú",
+"gloss": "down jacket"
+},
+{
+"nid": 1393817670634,
+"word": "炊烟",
+"trad": "炊煙",
+"pinyin": "chuīyān",
+"gloss": "smoke from kitchen chimneys"
+},
+{
+"nid": 1393817670638,
+"word": "喜闻乐见",
+"trad": "喜聞樂見",
+"pinyin": "xǐwénlèjiàn",
+"gloss": "a delight to see (idiom); an attractive spectacle"
+},
+{
+"nid": 1393817670640,
+"word": "勤俭",
+"trad": "勤儉",
+"pinyin": "qínjiǎn",
+"gloss": "hardworking and thrifty"
+},
+{
+"nid": 1393817670647,
+"word": "武侠",
+"trad": "武俠",
+"pinyin": "wǔxiá",
+"gloss": "knight-errant; a genre of swordplay martial arts movies and books"
+},
+{
+"nid": 1537328240106,
+"word": "纸巾",
+"trad": "",
+"pinyin": "zhǐ jīn",
+"gloss": "Tissues; Paper towels; Tissue"
+},
+{
+"nid": 1537328241843,
+"word": "近视",
+"trad": "",
+"pinyin": "jìn shì",
+"gloss": "Myopia, nearsighted"
+},
+{
+"nid": 1537328242577,
+"word": "括号",
+"trad": "",
+"pinyin": "kuò hào",
+"gloss": "Brackets"
+},
+{
+"nid": 1537328243004,
+"word": "汉服",
+"trad": "",
+"pinyin": "hàn fú",
+"gloss": "Han clothes"
+},
+{
+"nid": 1537328243137,
+"word": "读音",
+"trad": "",
+"pinyin": "dú yīn",
+"gloss": "Pronunciation"
+},
+{
+"nid": 1537328243481,
+"word": "告示",
+"trad": "",
+"pinyin": "gào shi",
+"gloss": "To advise, alert; To notify, announce"
+},
+{
+"nid": 1537328244319,
+"word": "免不了",
+"trad": "",
+"pinyin": "miǎn bù liǎo",
+"gloss": "Inevitable"
+},
+{
+"nid": 1537328244485,
+"word": "上半场",
+"trad": "",
+"pinyin": "shàng bàn chǎng",
+"gloss": "First half"
+},
+{
+"nid": 1537328244970,
+"word": "台灯",
+"trad": "",
+"pinyin": "tái dēng",
+"gloss": "Desk lamp"
+},
+{
+"nid": 1537328244989,
+"word": "窗台",
+"trad": "",
+"pinyin": "chuāng tái",
+"gloss": "Window sill"
+},
+{
+"nid": 1537328245177,
+"word": "订婚",
+"trad": "",
+"pinyin": "dìng hūn",
+"gloss": "To be engaged (before marriage)"
+},
+{
+"nid": 1537328245402,
+"word": "病历",
+"trad": "",
+"pinyin": "bìng lì",
+"gloss": "Medical record"
+},
+{
+"nid": 1537328245483,
+"word": "美德",
+"trad": "",
+"pinyin": "měi dé",
+"gloss": "Virtue"
+},
+{
+"nid": 1537328245588,
+"word": "钢笔",
+"trad": "",
+"pinyin": "gāng bǐ",
+"gloss": "Pen, fountain pen"
+},
+{
+"nid": 1537328245665,
+"word": "正能量",
+"trad": "",
+"pinyin": "zhèng néng liàng; zhēng néng liàng",
+"gloss": "Positive energy; Positive energy, positivity"
+},
+{
+"nid": 1537328245667,
+"word": "音量",
+"trad": "",
+"pinyin": "yīn liàng",
+"gloss": "Volume (sound)"
+},
+{
+"nid": 1537328245823,
+"word": "备课",
+"trad": "",
+"pinyin": "bèi kè",
+"gloss": "To prepare for a lesson"
+},
+{
+"nid": 1537328245879,
+"word": "南美洲",
+"trad": "",
+"pinyin": "nán měi zhōu",
+"gloss": "South America"
+},
+{
+"nid": 1537328245880,
+"word": "北美洲",
+"trad": "",
+"pinyin": "běi měi zhōu",
+"gloss": "North America"
+},
+{
+"nid": 1537328245972,
+"word": "留念",
+"trad": "留念",
+"pinyin": "liú niàn",
+"gloss": "to keep as a souvenir"
+},
+{
+"nid": 1537328246039,
+"word": "壮丽",
+"trad": "壯麗",
+"pinyin": "zhuàng lì",
+"gloss": "magnificence; splendid; majestic"
+},
+{
+"nid": 1537328246056,
+"word": "天桥",
+"trad": "",
+"pinyin": "tiān qiáo",
+"gloss": "(over line) Bridge"
+},
+{
+"nid": 1537328246122,
+"word": "保修",
+"trad": "",
+"pinyin": "bǎo xiū",
+"gloss": "Repair, warranty"
+},
+{
+"nid": 1537328246287,
+"word": "西餐",
+"trad": "",
+"pinyin": "xī cān",
+"gloss": "Western-style food"
+},
+{
+"nid": 1537328246343,
+"word": "苦笑",
+"trad": "",
+"pinyin": "kǔ xiào",
+"gloss": "To force a smile, a bitter laugh"
+},
+{
+"nid": 1537328246516,
+"word": "挂失",
+"trad": "",
+"pinyin": "guà shī",
+"gloss": "To report the loss of something"
+},
+{
+"nid": 1537328246563,
+"word": "惊动",
+"trad": "驚動",
+"pinyin": "jīng dòng",
+"gloss": "alarm; alert; startle; disturb"
+},
+{
+"nid": 1537328246670,
+"word": "味精",
+"trad": "",
+"pinyin": "wèi jīng",
+"gloss": "Monosodium glutamate (MSG)"
+},
+{
+"nid": 1537328246724,
+"word": "香肠",
+"trad": "香腸",
+"pinyin": "xiāng cháng",
+"gloss": "sausage"
+},
+{
+"nid": 1537328246756,
+"word": "月饼",
+"trad": "",
+"pinyin": "yuè bǐng",
+"gloss": "Mooncake (esp. for the Mid-Autumn Festival)"
+},
+{
+"nid": 1537328246770,
+"word": "剪彩",
+"trad": "剪彩",
+"pinyin": "jiǎn cǎi",
+"gloss": "cut the ribbon at an opening ceremony"
+},
+{
+"nid": 1537328246875,
+"word": "划得来",
+"trad": "",
+"pinyin": "huá de lái",
+"gloss": "Worth it, it pays to"
+},
+{
+"nid": 1537328246969,
+"word": "次品",
+"trad": "次品",
+"pinyin": "cì pǐn",
+"gloss": "defective or substandard products"
+},
+{
+"nid": 1537328247156,
+"word": "杂技",
+"trad": "雜技",
+"pinyin": "zá jì",
+"gloss": "acrobatics"
+},
+{
+"nid": 1537328247191,
+"word": "奖杯",
+"trad": "",
+"pinyin": "jiǎng bēi",
+"gloss": "Trophy cup"
+},
+{
+"nid": 1537328247279,
+"word": "零碎",
+"trad": "",
+"pinyin": "líng suì",
+"gloss": "Scattered and fragmentary, scraps"
+},
+{
+"nid": 1537328247428,
+"word": "啦啦队",
+"trad": "",
+"pinyin": "lā lā duì",
+"gloss": "Cheerleading squad"
+},
+{
+"nid": 1537328247465,
+"word": "阳历",
+"trad": "",
+"pinyin": "yáng lì",
+"gloss": "Solar calendar, Western (Gregorian) calendar"
+},
+{
+"nid": 1537328247466,
+"word": "阴历",
+"trad": "",
+"pinyin": "yīn lì",
+"gloss": "Lunar calendar"
+},
+{
+"nid": 1537328247508,
+"word": "喜事",
+"trad": "",
+"pinyin": "xǐ shì",
+"gloss": "Happy occasion, wedding"
+},
+{
+"nid": 1537328247644,
+"word": "占线",
+"trad": "佔線",
+"pinyin": "zhàn xiàn",
+"gloss": "the (phone) line is busy"
+},
+{
+"nid": 1537328247985,
+"word": "连贯",
+"trad": "",
+"pinyin": "lián guàn",
+"gloss": "To link up (disparate elements)"
+},
+{
+"nid": 1611220135523,
+"word": "不耻下问",
+"trad": "不恥下問",
+"pinyin": "bù chǐ xià wèn",
+"gloss": "not feel ashamed to ask and learn from one's subordinates"
+},
+{
+"nid": 1611220135531,
+"word": "不翼而飞",
+"trad": "不翼而飛",
+"pinyin": "bù yì ér fēi",
+"gloss": "to disappear without trace; to vanish all of a sudden; to spread fast; to spread like wildfire"
+},
+{
+"nid": 1611220135548,
+"word": "大公无私",
+"trad": "大公無私",
+"pinyin": "dà gōng wú sī",
+"gloss": "selfless; impartial"
+},
+{
+"nid": 1611220135596,
+"word": "集思广益",
+"trad": "集思廣益",
+"pinyin": "jí sī guǎng yì",
+"gloss": "collecting opinions is of wide benefit (idiom); to pool wisdom for mutual benefit; to profit from widespread suggestions"
+},
+{
+"nid": 1611220135607,
+"word": "居安思危",
+"trad": "居安思危",
+"pinyin": "jū ān sī wēi",
+"gloss": "to think of danger in times of safety; to be vigilant in peacetime (idiom)"
+},
+{
+"nid": 1611220135610,
+"word": "举一反三",
+"trad": "舉一反三",
+"pinyin": "jǔ yī fǎn sān",
+"gloss": "to raise one and infer three; to deduce many things from one case (idiom)"
+},
+{
+"nid": 1611220135678,
+"word": "似是而非",
+"trad": "似是而非",
+"pinyin": "sì shì ér fēi",
+"gloss": "apparently right but actually wrong; specious (idiom)"
+},
+{
+"nid": 1656144348676,
+"word": "橙子",
+"trad": "橙子",
+"pinyin": "chéngzi",
+"gloss": "orange (fruit)"
+},
+{
+"nid": 1672769485595,
+"word": "安全带",
+"trad": "",
+"pinyin": "Ānquán dài",
+"gloss": "seat belt, safety belt"
+},
+{
+"nid": 1705331772422,
+"word": "偏旁",
+"trad": "",
+"pinyin": "piānpáng",
+"gloss": "Chinese radicals"
+},
+{
+"nid": 1708747484380,
+"word": "联合国",
+"trad": "",
+"pinyin": "Lián hé guó",
+"gloss": "1. United Nations"
+},
+{
+"nid": 1708747486382,
+"word": "破旧",
+"trad": "",
+"pinyin": "pò jiù",
+"gloss": "1. shabby"
+},
+{
+"nid": 1708747486540,
+"word": "官员",
+"trad": "",
+"pinyin": "guān yuán",
+"gloss": "1. official (in an organization or government); 2. administrator"
+},
+{
+"nid": 1708747486836,
+"word": "飘浮",
+"trad": "",
+"pinyin": "piāo fú",
+"gloss": "1. to float; 2. to hover"
+},
+{
+"nid": 1708747486844,
+"word": "倒计时",
+"trad": "",
+"pinyin": "dào jì shí",
+"gloss": "1. to count down; 2. countdown"
+},
+{
+"nid": 1708747486870,
+"word": "冷战",
+"trad": "",
+"pinyin": "Lěng zhàn",
+"gloss": "1. (US-Soviet) Cold War"
+},
+{
+"nid": 1708747487226,
+"word": "晶莹",
+"trad": "",
+"pinyin": "jīng yíng",
+"gloss": "1. sparkling and translucent"
+},
+{
+"nid": 1708747487258,
+"word": "摆动",
+"trad": "",
+"pinyin": "bǎi dòng",
+"gloss": "1. to sway; 2. to swing; 3. to move back and forth; 4. to oscillate"
+},
+{
+"nid": 1708747487285,
+"word": "委员会",
+"trad": "",
+"pinyin": "wěi yuán huì",
+"gloss": "1. committee"
+},
+{
+"nid": 1708747487309,
+"word": "大都",
+"trad": "",
+"pinyin": "Dà dū",
+"gloss": "1. Dadu, capital of China during the Yuan Dynasty (1280-1368), modern day Beijing"
+},
+{
+"nid": 1708747487512,
+"word": "空荡荡",
+"trad": "",
+"pinyin": "kōng dàng dàng",
+"gloss": "1. absolutely empty (space); 2. complete vacuum"
+},
+{
+"nid": 1708747488060,
+"word": "机舱",
+"trad": "",
+"pinyin": "jī cāng",
+"gloss": "1. cabin of a plane"
+},
+{
+"nid": 1708747488514,
+"word": "遮盖",
+"trad": "",
+"pinyin": "zhē gài",
+"gloss": "1. to hide; 2. to cover (one&#x27;s tracks)"
+},
+{
+"nid": 1708747488535,
+"word": "炉子",
+"trad": "",
+"pinyin": "lú zi",
+"gloss": "1. stove; 2. oven; 3. furnace"
+},
+{
+"nid": 1708747489035,
+"word": "滑行",
+"trad": "",
+"pinyin": "huá xíng",
+"gloss": "1. to slide; 2. to coast; 3. to glide; 4. (of an aircraft) to taxi"
+},
+{
+"nid": 1708747489051,
+"word": "南极洲",
+"trad": "",
+"pinyin": "Nán jí zhōu",
+"gloss": "1. Antarctica"
+},
+{
+"nid": 1708747489053,
+"word": "扭头",
+"trad": "",
+"pinyin": "niǔ tóu",
+"gloss": "1. to turn one&#x27;s head; 2. to turn around"
+},
+{
+"nid": 1708747489104,
+"word": "毯子",
+"trad": "",
+"pinyin": "tǎn zi",
+"gloss": "1. blanket; 2. CL:條|条[tiáo],張|张[zhāng],床[chuáng],面[miàn]"
+},
+{
+"nid": 1708747489559,
+"word": "彬彬有礼",
+"trad": "",
+"pinyin": "bīn bīn yǒu lǐ",
+"gloss": "1. refined and courteous; 2. urbane"
+},
+{
+"nid": 1708747489961,
+"word": "豆子",
+"trad": "",
+"pinyin": "dòu zi",
+"gloss": "1. bean; 2. pea; 3. CL:顆|颗[kē]"
+},
+{
+"nid": 1708747489987,
+"word": "内地",
+"trad": "",
+"pinyin": "Nèi dì",
+"gloss": "1. mainland China (PRC excluding Hong Kong and Macau, but including islands such as Hainan); 2. Japan (used in Taiwan during Japanese colonization)"
+},
+{
+"nid": 1708747490075,
+"word": "滔滔不绝",
+"trad": "滔滔不絕",
+"pinyin": "tāo tāo bù jué",
+"gloss": "1. unceasing torrent (idiom); 2. talking non-stop; 3. gabbling forty to the dozen"
+},
+{
+"nid": 1708747490301,
+"word": "连绵",
+"trad": "",
+"pinyin": "lián mián",
+"gloss": "1. continuous; 2. unbroken; 3. uninterrupted; 4. extending forever into the distance (of mountain range, river etc)"
+},
+{
+"nid": 1708747490530,
+"word": "艳丽",
+"trad": "",
+"pinyin": "yàn lì",
+"gloss": "1. gorgeous; 2. garish and beautiful"
+},
+{
+"nid": 1708747490700,
+"word": "狂欢",
+"trad": "",
+"pinyin": "kuáng huān",
+"gloss": "1. party; 2. carousal; 3. hilarity; 4. merriment; 5. whoopee; 6. to carouse"
+},
+{
+"nid": 1708747490800,
+"word": "清静",
+"trad": "",
+"pinyin": "qīng jìng",
+"gloss": "1. quiet; 2. peaceful and quiet"
+},
+{
+"nid": 1708747490812,
+"word": "纬度",
+"trad": "",
+"pinyin": "wěi dù",
+"gloss": "1. latitude"
+},
+{
+"nid": 1708747490888,
+"word": "常温",
+"trad": "",
+"pinyin": "cháng wēn",
+"gloss": "1. room temperature; 2. ordinary temperatures"
+},
+{
+"nid": 1708747490936,
+"word": "徐徐",
+"trad": "",
+"pinyin": "xú xú",
+"gloss": "1. slowly; 2. gently"
+},
+{
+"nid": 1708747490994,
+"word": "密布",
+"trad": "",
+"pinyin": "mì bù",
+"gloss": "1. to cover densely"
+},
+{
+"nid": 1708747491400,
+"word": "宽厚",
+"trad": "",
+"pinyin": "kuān hòu",
+"gloss": "1. tolerant; 2. generous; 3. magnanimous; 4. thick and broad (build); 5. thick and deep (voice)"
+},
+{
+"nid": 1708747491487,
+"word": "深邃",
+"trad": "",
+"pinyin": "shēn suì",
+"gloss": "1. deep (valley or night); 2. abstruse; 3. hidden in depth"
+},
+{
+"nid": 1708747491491,
+"word": "浓重",
+"trad": "",
+"pinyin": "nóng zhòng",
+"gloss": "1. dense; 2. thick; 3. strong; 4. rich (colors); 5. heavy (aroma); 6. deep (friendship); 7. profound (effect)"
+},
+{
+"nid": 1708747491653,
+"word": "晚霞",
+"trad": "",
+"pinyin": "wǎn xiá",
+"gloss": "1. sunset glow; 2. sunset clouds; 3. afterglow"
+},
+{
+"nid": 1708747491858,
+"word": "睡袋",
+"trad": "",
+"pinyin": "shuì dài",
+"gloss": "1. sleeping bag"
+},
+{
+"nid": 1708747492039,
+"word": "字迹",
+"trad": "",
+"pinyin": "zì jì",
+"gloss": "1. handwriting"
+},
+{
+"nid": 1708747492044,
+"word": "出人意料",
+"trad": "",
+"pinyin": "chū rén yì liào",
+"gloss": "1. unexpected (idiom); 2. surprising"
+},
+{
+"nid": 1708747492194,
+"word": "戈壁",
+"trad": "",
+"pinyin": "Gē bì",
+"gloss": "1. Gobi (desert)"
+},
+{
+"nid": 1708747492565,
+"word": "续航",
+"trad": "",
+"pinyin": "xù háng",
+"gloss": "1. endurance; 2. long-term continuous travel or use"
+},
+{
+"nid": 1708747492613,
+"word": "矗立",
+"trad": "",
+"pinyin": "chù lì",
+"gloss": "1. to tower; 2. standing tall and upright (of large building)"
+},
+{
+"nid": 1708747492892,
+"word": "下意识",
+"trad": "",
+"pinyin": "xià yì shí",
+"gloss": "1. subconscious mind"
+},
+{
+"nid": 1708747492953,
+"word": "急促",
+"trad": "",
+"pinyin": "jí cù",
+"gloss": "1. urgent; 2. hurried and brief; 3. rushing"
+},
+{
+"nid": 1708747493567,
+"word": "竖立",
+"trad": "",
+"pinyin": "shù lì",
+"gloss": "1. to erect; 2. to set upright; 3. to stand"
+},
+{
+"nid": 1708747494109,
+"word": "坦然",
+"trad": "",
+"pinyin": "tǎn rán",
+"gloss": "1. calm; 2. undisturbed"
+},
+{
+"nid": 1708747494130,
+"word": "耸立",
+"trad": "",
+"pinyin": "sǒng lì",
+"gloss": "1. to stand tall; 2. to tower aloft"
+},
+{
+"nid": 1708747494159,
+"word": "照例",
+"trad": "",
+"pinyin": "zhào lì",
+"gloss": "1. as a rule; 2. as usual; 3. usually"
+},
+{
+"nid": 1708747494175,
+"word": "零下",
+"trad": "",
+"pinyin": "líng xià",
+"gloss": "1. below zero"
+},
+{
+"nid": 1708747494278,
+"word": "骨架",
+"trad": "",
+"pinyin": "gǔ jià",
+"gloss": "1. framework; 2. skeleton"
+},
+{
+"nid": 1708747494415,
+"word": "微波炉",
+"trad": "",
+"pinyin": "wēi bō lú",
+"gloss": "1. microwave oven; 2. CL:臺|台[tái]"
+},
+{
+"nid": 1708747494432,
+"word": "欢快",
+"trad": "",
+"pinyin": "huān kuài",
+"gloss": "1. cheerful and lighthearted; 2. lively"
+},
+{
+"nid": 1708747494454,
+"word": "清新",
+"trad": "",
+"pinyin": "Qīng xīn",
+"gloss": "1. Qingxin county in Qingyuan 清远, Guangdong"
+},
+{
+"nid": 1708747494460,
+"word": "头条",
+"trad": "",
+"pinyin": "Tóu tiáo",
+"gloss": "1. Toutiao, personalized content recommendation app (abbr. for 今日頭條|今日头条[Jīn rì Tóu tiáo])"
+},
+{
+"nid": 1708747494483,
+"word": "显赫",
+"trad": "",
+"pinyin": "xiǎn hè",
+"gloss": "1. illustrious; 2. celebrated"
+},
+{
+"nid": 1708747494496,
+"word": "当之无愧",
+"trad": "",
+"pinyin": "dāng zhī wú kuì",
+"gloss": "1. fully deserving, without any reservations (idiom); entirely worthy (of a title, honor etc)"
+},
+{
+"nid": 1708747494599,
+"word": "法庭",
+"trad": "",
+"pinyin": "fǎ tíng",
+"gloss": "1. court of law"
+},
+{
+"nid": 1708747494696,
+"word": "平房",
+"trad": "",
+"pinyin": "Píng fáng",
+"gloss": "1. Pingfang district of Harbin 哈爾濱|哈尔滨[Hā ěr bīn] in Heilongjiang"
+},
+{
+"nid": 1708747494786,
+"word": "健壮",
+"trad": "",
+"pinyin": "jiàn zhuàng",
+"gloss": "1. robust; 2. healthy; 3. sturdy"
+},
+{
+"nid": 1708747495029,
+"word": "厄运",
+"trad": "",
+"pinyin": "è yùn",
+"gloss": "1. bad luck; 2. misfortune; 3. adversity"
+},
+{
+"nid": 1708747495098,
+"word": "笨重",
+"trad": "",
+"pinyin": "bèn zhòng",
+"gloss": "1. heavy; 2. cumbersome; 3. unwieldy"
+},
+{
+"nid": 1708747495241,
+"word": "嘀咕",
+"trad": "",
+"pinyin": "dí gu",
+"gloss": "1. to mutter; 2. to feel apprehensive"
+},
+{
+"nid": 1708747495424,
+"word": "舒展",
+"trad": "",
+"pinyin": "shū zhǎn",
+"gloss": "1. to roll out; 2. to extend; 3. to smooth out; 4. to unfold"
+},
+{
+"nid": 1708747495649,
+"word": "水汽",
+"trad": "",
+"pinyin": "shuǐ qì",
+"gloss": "1. water vapor; 2. steam; 3. moisture"
+},
+{
+"nid": 1708747495745,
+"word": "喜怒哀乐",
+"trad": "",
+"pinyin": "xǐ nù āi lè",
+"gloss": "1. four types of human emotions, namely: happiness 歡喜|欢喜[huān xǐ], anger 憤怒|愤怒[fèn nù], sorrow 悲哀[bēi āi] and joy 快樂|快乐[kuài lè]"
+},
+{
+"nid": 1708747495810,
+"word": "便携式",
+"trad": "",
+"pinyin": "biàn xié shì",
+"gloss": "1. portable"
+},
+{
+"nid": 1708747496065,
+"word": "心肠",
+"trad": "",
+"pinyin": "xīn cháng",
+"gloss": "1. heart; 2. intention; 3. one&#x27;s inclination; 4. state of mind; 5. to have the heart for sth; 6. mood"
+},
+{
+"nid": 1708747496113,
+"word": "古朴",
+"trad": "",
+"pinyin": "gǔ pǔ",
+"gloss": "1. simple and unadorned (of art, architecture etc)"
+},
+{
+"nid": 1708747496207,
+"word": "人山人海",
+"trad": "",
+"pinyin": "rén shān rén hǎi",
+"gloss": "1. multitude; 2. vast crowd"
+},
+{
+"nid": 1708747496225,
+"word": "支架",
+"trad": "",
+"pinyin": "zhī jià",
+"gloss": "1. trestle; 2. support; 3. frame; 4. to prop sth up"
+},
+{
+"nid": 1708747496440,
+"word": "着落",
+"trad": "",
+"pinyin": "zhuó luò",
+"gloss": "1. whereabouts; 2. place to settle; 3. reliable source (of funds etc); 4. (of responsibility for a matter) to rest with sb; 5. settlement; 6. solution"
+},
+{
+"nid": 1708747496560,
+"word": "明媚",
+"trad": "",
+"pinyin": "míng mèi",
+"gloss": "1. bright and beautiful"
+},
+{
+"nid": 1708747496642,
+"word": "赶忙",
+"trad": "",
+"pinyin": "gǎn máng",
+"gloss": "1. to hurry; 2. to hasten; 3. to make haste"
+},
+{
+"nid": 1708747496712,
+"word": "新兴",
+"trad": "",
+"pinyin": "Xīn xīng",
+"gloss": "1. Xinxing county in Yunfu 雲浮|云浮[Yún fú], Guangdong; 2. Xinxing or Hsinhsing district of Kaohsiung city 高雄市[Gāo xióng shì], south Taiwan"
+},
+{
+"nid": 1708747496763,
+"word": "体态",
+"trad": "",
+"pinyin": "tǐ tài",
+"gloss": "1. figure; 2. physique; 3. posture"
+},
+{
+"nid": 1708747496774,
+"word": "悦耳",
+"trad": "",
+"pinyin": "yuè ěr",
+"gloss": "1. sweet-sounding; 2. beautiful (of sound)"
+},
+{
+"nid": 1708747496890,
+"word": "少不了",
+"trad": "",
+"pinyin": "shǎo bu liǎo",
+"gloss": "1. cannot do without; 2. to be unavoidable; 3. are bound to be many"
+},
+{
+"nid": 1708747497181,
+"word": "潦草",
+"trad": "",
+"pinyin": "liáo cǎo",
+"gloss": "1. careless; 2. slovenly; 3. illegible (of handwriting)"
+},
+{
+"nid": 1708747497227,
+"word": "开庭",
+"trad": "",
+"pinyin": "kāi tíng",
+"gloss": "1. to begin a (judicial) court session"
+},
+{
+"nid": 1708747497366,
+"word": "眺望",
+"trad": "",
+"pinyin": "tiào wàng",
+"gloss": "1. to survey the scene from an elevated position"
+},
+{
+"nid": 1708747497370,
+"word": "惨白",
+"trad": "",
+"pinyin": "cǎn bái",
+"gloss": "1. deathly pale"
+},
+{
+"nid": 1708747497400,
+"word": "勾勒",
+"trad": "",
+"pinyin": "gōu lè",
+"gloss": "1. to draw the outline of; 2. to outline; 3. to sketch; 4. to delineate contours of; 5. to give a brief account of"
+},
+{
+"nid": 1708747497855,
+"word": "赫然",
+"trad": "",
+"pinyin": "hè rán",
+"gloss": "1. with astonishment; 2. with a shock; 3. awe-inspiringly; 4. impressively; 5. furiously (angry)"
+},
+{
+"nid": 1708747497896,
+"word": "毛衣",
+"trad": "",
+"pinyin": "máo yī",
+"gloss": "1. (wool) sweater; 2. CL:件[jiàn]"
+},
+{
+"nid": 1708747497924,
+"word": "禁不住",
+"trad": "",
+"pinyin": "jīn bu zhù",
+"gloss": "1. can&#x27;t help it; 2. can&#x27;t bear it"
+},
+{
+"nid": 1708747498087,
+"word": "乡亲",
+"trad": "",
+"pinyin": "xiāng qīn",
+"gloss": "1. fellow countryman (from the same village); 2. local people; 3. villager; 4. the folks back home"
+},
+{
+"nid": 1708747498128,
+"word": "烘焙",
+"trad": "",
+"pinyin": "hōng bèi",
+"gloss": "1. to cure by drying over a fire (tea, meat etc); 2. to bake"
+},
+{
+"nid": 1708747498132,
+"word": "靴子",
+"trad": "",
+"pinyin": "xuē zi",
+"gloss": "1. boots"
+},
+{
+"nid": 1708747498200,
+"word": "商贩",
+"trad": "",
+"pinyin": "shāng fàn",
+"gloss": "1. trader; 2. peddler"
+},
+{
+"nid": 1708747498228,
+"word": "凳子",
+"trad": "",
+"pinyin": "dèng zi",
+"gloss": "1. stool; 2. small seat"
+},
+{
+"nid": 1708747498239,
+"word": "休克",
+"trad": "",
+"pinyin": "xiū kè",
+"gloss": "1. shock (loanword); 2. to go into shock"
+},
+{
+"nid": 1708747498432,
+"word": "趁早",
+"trad": "",
+"pinyin": "chèn zǎo",
+"gloss": "1. as soon as possible; 2. at the first opportunity; 3. the sooner the better; 4. before it&#x27;s too late"
+},
+{
+"nid": 1708747498795,
+"word": "荧光",
+"trad": "",
+"pinyin": "yíng guāng",
+"gloss": "1. fluorescence; 2. fluorescent"
+},
+{
+"nid": 1708747498860,
+"word": "灯泡",
+"trad": "",
+"pinyin": "dēng pào",
+"gloss": "1. light bulb; 2. see also 電燈泡|电灯泡[diàn dēng pào]; 3. third-wheel or unwanted third party spoiling a couple&#x27;s date (slang); 4. CL:個|个[gè]"
+},
+{
+"nid": 1708747498892,
+"word": "浩瀚",
+"trad": "",
+"pinyin": "hào hàn",
+"gloss": "1. vast (of ocean); 2. boundless"
+},
+{
+"nid": 1708747498904,
+"word": "毫升",
+"trad": "",
+"pinyin": "háo shēng",
+"gloss": "1. milliliter"
+},
+{
+"nid": 1708747498941,
+"word": "精巧",
+"trad": "",
+"pinyin": "jīng qiǎo",
+"gloss": "1. elaborate"
+},
+{
+"nid": 1708747499015,
+"word": "祥和",
+"trad": "",
+"pinyin": "xiáng hé",
+"gloss": "1. auspicious and peaceful"
+},
+{
+"nid": 1708747499084,
+"word": "贮藏",
+"trad": "",
+"pinyin": "zhù cáng",
+"gloss": "1. to store up; 2. to hoard; 3. deposits"
+},
+{
+"nid": 1708747499320,
+"word": "年轮",
+"trad": "",
+"pinyin": "nián lún",
+"gloss": "1. annual ring; 2. growth ring"
+},
+{
+"nid": 1708747499564,
+"word": "波澜",
+"trad": "",
+"pinyin": "bō lán",
+"gloss": "1. billows; 2. great waves (fig. of a story with great momentum)"
+},
+{
+"nid": 1708747499630,
+"word": "翠绿",
+"trad": "",
+"pinyin": "cuì lǜ",
+"gloss": "1. greenish-blue; 2. emerald green"
+},
+{
+"nid": 1708747499707,
+"word": "此起彼伏",
+"trad": "",
+"pinyin": "cǐ qǐ bǐ fú",
+"gloss": "1. up here, down there (idiom); to rise and fall in succession; 2. no sooner one subsides, the next arises; 3. repeating continuously; 4. occurring again and again (of applause, fires, waves, protests, conflicts, uprisings etc)"
+},
+{
+"nid": 1708747499752,
+"word": "憔悴",
+"trad": "",
+"pinyin": "qiáo cuì",
+"gloss": "1. wan and sallow; 2. thin and pallid; 3. haggard; 4. (of plants) withered"
+},
+{
+"nid": 1708747499892,
+"word": "眨眼",
+"trad": "",
+"pinyin": "zhǎ yǎn",
+"gloss": "1. to blink; 2. to wink; 3. in the twinkling of an eye"
+},
+{
+"nid": 1708747499961,
+"word": "汪洋",
+"trad": "",
+"pinyin": "wāng yáng",
+"gloss": "1. vast body of water; 2. CL:片[piàn]"
+},
+{
+"nid": 1708747500078,
+"word": "前程",
+"trad": "",
+"pinyin": "qián chéng",
+"gloss": "1. future (career etc) prospects"
+},
+{
+"nid": 1708747500258,
+"word": "脊梁",
+"trad": "",
+"pinyin": "jǐ liáng",
+"gloss": "1. backbone; 2. spine; 3. Taiwan pr. [jǐ liang]"
+},
+{
+"nid": 1708747500364,
+"word": "秉承",
+"trad": "",
+"pinyin": "bǐng chéng",
+"gloss": "1. to take orders; 2. to receive commands; 3. to carry on (a tradition)"
+},
+{
+"nid": 1708747500410,
+"word": "斑点",
+"trad": "",
+"pinyin": "bān diǎn",
+"gloss": "1. spot; 2. stain; 3. speckle"
+},
+{
+"nid": 1708747500419,
+"word": "柜子",
+"trad": "",
+"pinyin": "guì zi",
+"gloss": "1. cupboard; 2. cabinet"
+},
+{
+"nid": 1708747500478,
+"word": "修长",
+"trad": "",
+"pinyin": "xiū cháng",
+"gloss": "1. slender; 2. lanky; 3. tall and thin"
+},
+{
+"nid": 1708747500480,
+"word": "对流",
+"trad": "",
+"pinyin": "duì liú",
+"gloss": "1. convection"
+},
+{
+"nid": 1708747500549,
+"word": "漠然",
+"trad": "",
+"pinyin": "mò rán",
+"gloss": "1. indifferent; 2. apathetic; 3. cold"
+},
+{
+"nid": 1708747500565,
+"word": "哀求",
+"trad": "",
+"pinyin": "āi qiú",
+"gloss": "1. to entreat; 2. to implore; 3. to plead"
+},
+{
+"nid": 1708747500766,
+"word": "纯朴",
+"trad": "",
+"pinyin": "chún pǔ",
+"gloss": "1. variant of 淳樸|淳朴[chún pǔ]"
+},
+{
+"nid": 1708747500866,
+"word": "潜移默化",
+"trad": "潛移默化",
+"pinyin": "qián yí mò huà",
+"gloss": "1. imperceptible influence; 2. to influence secretly"
+},
+{
+"nid": 1708747500867,
+"word": "喜洋洋",
+"trad": "",
+"pinyin": "xǐ yáng yáng",
+"gloss": "1. radiant with joy"
+},
+{
+"nid": 1708747500889,
+"word": "孪生",
+"trad": "",
+"pinyin": "luán shēng",
+"gloss": "1. twin"
+},
+{
+"nid": 1708747501132,
+"word": "冲浪",
+"trad": "",
+"pinyin": "chōng làng",
+"gloss": "1. to surf; 2. surfing"
+},
+{
+"nid": 1708747501157,
+"word": "底蕴",
+"trad": "",
+"pinyin": "dǐ yùn",
+"gloss": "1. inside information; 2. concrete details"
+},
+{
+"nid": 1708747501265,
+"word": "粗略",
+"trad": "",
+"pinyin": "cū lu:è",
+"gloss": "1. rough (not precise or accurate); 2. cursory"
+},
+{
+"nid": 1708747501444,
+"word": "忽悠",
+"trad": "",
+"pinyin": "hū you",
+"gloss": "1. to rock; 2. to sway; 3. to flicker (e.g. of lights reflected on water); 4. to flutter (e.g. of a flag); 5. to trick sb into doing sth; 6. to dupe; 7. to con"
+},
+{
+"nid": 1708747501454,
+"word": "磁铁",
+"trad": "",
+"pinyin": "cí tiě",
+"gloss": "1. magnet"
+},
+{
+"nid": 1708747501455,
+"word": "矿藏",
+"trad": "",
+"pinyin": "kuàng cáng",
+"gloss": "1. mineral resources"
+},
+{
+"nid": 1708747501457,
+"word": "松弛",
+"trad": "",
+"pinyin": "sōng chí",
+"gloss": "1. to relax; 2. relaxed; 3. limp; 4. lax"
+},
+{
+"nid": 1708747501888,
+"word": "纽扣",
+"trad": "",
+"pinyin": "niǔ kòu",
+"gloss": "1. button"
+},
+{
+"nid": 1708747502091,
+"word": "淤泥",
+"trad": "",
+"pinyin": "yū ní",
+"gloss": "1. silt; 2. sludge; 3. ooze"
+},
+{
+"nid": 1708747502143,
+"word": "气泡",
+"trad": "",
+"pinyin": "qì pào",
+"gloss": "1. bubble; 2. blister (in metal); 3. (of beverages) sparkling; 4. carbonated"
+},
+{
+"nid": 1708747502211,
+"word": "亮丽",
+"trad": "",
+"pinyin": "liàng lì",
+"gloss": "1. bright and beautiful"
+},
+{
+"nid": 1708747502364,
+"word": "呜咽",
+"trad": "",
+"pinyin": "wū yè",
+"gloss": "1. to sob; 2. to whimper"
+},
+{
+"nid": 1708747502412,
+"word": "精妙",
+"trad": "",
+"pinyin": "jīng miào",
+"gloss": "1. exquisite; 2. fine and delicate (usu. of works of art)"
+},
+{
+"nid": 1708747502427,
+"word": "猛然",
+"trad": "",
+"pinyin": "měng rán",
+"gloss": "1. suddenly; 2. abruptly"
+},
+{
+"nid": 1708747502779,
+"word": "秀丽",
+"trad": "",
+"pinyin": "xiù lì",
+"gloss": "1. pretty; 2. beautiful"
+},
+{
+"nid": 1708747502861,
+"word": "芬芳",
+"trad": "",
+"pinyin": "fēn fāng",
+"gloss": "1. perfume; 2. fragrant"
+},
+{
+"nid": 1708747502881,
+"word": "突兀",
+"trad": "",
+"pinyin": "tū wù",
+"gloss": "1. lofty or towering; 2. sudden or abrupt"
+},
+{
+"nid": 1708747503032,
+"word": "絮叨",
+"trad": "",
+"pinyin": "xù dao",
+"gloss": "1. long-winded; 2. garrulous; 3. to talk endlessly without getting to the point"
+},
+{
+"nid": 1708747503049,
+"word": "敦厚",
+"trad": "",
+"pinyin": "dūn hòu",
+"gloss": "1. genuine; 2. honest and sincere"
+},
+{
+"nid": 1708747503472,
+"word": "衰减",
+"trad": "",
+"pinyin": "shuāi jiǎn",
+"gloss": "1. to weaken; 2. to attenuate"
+},
+{
+"nid": 1708747503476,
+"word": "奸诈",
+"trad": "",
+"pinyin": "jiān zhà",
+"gloss": "1. treachery; 2. devious; 3. a rogue"
+},
+{
+"nid": 1708747503599,
+"word": "气派",
+"trad": "",
+"pinyin": "qì pài",
+"gloss": "1. impressive; 2. stylish; 3. magnificent; 4. imposing manner; 5. dignified air"
+},
+{
+"nid": 1708747503660,
+"word": "中庸",
+"trad": "",
+"pinyin": "Zhōng yōng",
+"gloss": "1. the Doctrine of the Mean, one of the Four Books 四書|四书[Sì shū]"
+},
+{
+"nid": 1708747503703,
+"word": "孤零零",
+"trad": "",
+"pinyin": "gū líng líng",
+"gloss": "1. lone; 2. isolated and without help; 3. all alone; 4. solitary"
+},
+{
+"nid": 1708747503917,
+"word": "漂泊",
+"trad": "",
+"pinyin": "piāo bó",
+"gloss": "1. to drift (in the tide); 2. to rove; 3. to lead a wandering existence; 4. drifter; 5. wanderer"
+},
+{
+"nid": 1708747504066,
+"word": "形形色色",
+"trad": "",
+"pinyin": "xíng xíng sè sè",
+"gloss": "1. all kinds of; 2. all sorts of; 3. every (different) kind of"
+},
+{
+"nid": 1708747504068,
+"word": "开场白",
+"trad": "",
+"pinyin": "kāi chǎng bái",
+"gloss": "1. prologue of play; 2. opening remarks; 3. preamble (of speeches, articles etc)"
+},
+{
+"nid": 1708747504447,
+"word": "赞不绝口",
+"trad": "",
+"pinyin": "zàn bù jué kǒu",
+"gloss": "1. to praise without cease (idiom); praise sb to high heaven"
+},
+{
+"nid": 1708747504545,
+"word": "世故",
+"trad": "",
+"pinyin": "shì gù",
+"gloss": "1. the ways of the world"
+},
+{
+"nid": 1708747504635,
+"word": "长征",
+"trad": "",
+"pinyin": "Cháng zhēng",
+"gloss": "1. Long March (retreat of the Red Army 1934-1935)"
+},
+{
+"nid": 1708747504658,
+"word": "旺季",
+"trad": "",
+"pinyin": "wàng jì",
+"gloss": "1. busy season; 2. peak period; 3. see also 淡季[dàn jì]"
+},
+{
+"nid": 1708747504687,
+"word": "半边天",
+"trad": "",
+"pinyin": "bàn biān tiān",
+"gloss": "1. half the sky; 2. women of the new society; 3. womenfolk"
+},
+{
+"nid": 1708747504815,
+"word": "残缺",
+"trad": "",
+"pinyin": "cán quē",
+"gloss": "1. badly damaged; 2. shattered"
+},
+{
+"nid": 1708747505006,
+"word": "隐性",
+"trad": "",
+"pinyin": "yǐn xìng",
+"gloss": "1. hidden; 2. crypto-; 3. recessive (gene)"
+},
+{
+"nid": 1708747505014,
+"word": "翻来覆去",
+"trad": "",
+"pinyin": "fān lái fù qù",
+"gloss": "1. to toss and turn (sleeplessly); 2. again and again"
+},
+{
+"nid": 1708747505108,
+"word": "格子",
+"trad": "",
+"pinyin": "gé zi",
+"gloss": "1. lattice; 2. check (pattern of squares)"
+},
+{
+"nid": 1708747505181,
+"word": "潮水",
+"trad": "",
+"pinyin": "cháo shuǐ",
+"gloss": "1. tide"
+},
+{
+"nid": 1708747505257,
+"word": "车速",
+"trad": "",
+"pinyin": "chē sù",
+"gloss": "1. vehicle speed"
+},
+{
+"nid": 1708747505452,
+"word": "滑冰",
+"trad": "",
+"pinyin": "huá bīng",
+"gloss": "1. to skate; 2. skating"
+},
+{
+"nid": 1708747505454,
+"word": "烦闷",
+"trad": "",
+"pinyin": "fán mèn",
+"gloss": "1. moody; 2. gloomy"
+},
+{
+"nid": 1708747505603,
+"word": "足不出户",
+"trad": "",
+"pinyin": "zú bù chū hù",
+"gloss": "1. lit. not putting a foot outside; 2. to stay at home"
+},
+{
+"nid": 1708747505721,
+"word": "豆浆",
+"trad": "",
+"pinyin": "dòu jiāng",
+"gloss": "1. soy milk"
+},
+{
+"nid": 1708747505918,
+"word": "精练",
+"trad": "",
+"pinyin": "jīng liàn",
+"gloss": "1. (textiles) to scour; 2. to degum (silk); 3. variant of 精煉|精炼[jīng liàn]"
+},
+{
+"nid": 1708747505997,
+"word": "得体",
+"trad": "",
+"pinyin": "dé tǐ",
+"gloss": "1. appropriate to the occasion; 2. fitting"
+},
+{
+"nid": 1708747506133,
+"word": "洗涤",
+"trad": "",
+"pinyin": "xǐ dí",
+"gloss": "1. to rinse; 2. to wash; 3. washing"
+},
+{
+"nid": 1708747506155,
+"word": "灵巧",
+"trad": "",
+"pinyin": "líng qiǎo",
+"gloss": "1. deft; 2. nimble; 3. ingenious"
+},
+{
+"nid": 1708747506392,
+"word": "僻静",
+"trad": "",
+"pinyin": "pì jìng",
+"gloss": "1. lonely; 2. secluded"
+},
+{
+"nid": 1708747506453,
+"word": "屹立",
+"trad": "",
+"pinyin": "yì lì",
+"gloss": "1. to tower; 2. to stand straight (of person&#x27;s bearing)"
+},
+{
+"nid": 1708747506505,
+"word": "簇拥",
+"trad": "",
+"pinyin": "cù yōng",
+"gloss": "1. to crowd around; 2. to escort"
+},
+{
+"nid": 1708747506831,
+"word": "减压",
+"trad": "",
+"pinyin": "jiǎn yā",
+"gloss": "1. to reduce pressure; 2. to relax"
+},
+{
+"nid": 1708747506837,
+"word": "楼道",
+"trad": "",
+"pinyin": "lóu dào",
+"gloss": "1. corridor; 2. passageway (in storied building)"
+},
+{
+"nid": 1708747506860,
+"word": "爆竹",
+"trad": "",
+"pinyin": "bào zhú",
+"gloss": "1. firecracker"
+},
+{
+"nid": 1708747506871,
+"word": "张扬",
+"trad": "",
+"pinyin": "Zhāng Yáng",
+"gloss": "1. Zhang Yang (1967-), PRC film director and screenwriter"
+},
+{
+"nid": 1708747507394,
+"word": "不厌其烦",
+"trad": "",
+"pinyin": "bù yàn qí fán",
+"gloss": "1. not to mind taking all the trouble (idiom); 2. to take great pains; 3. to be very patient"
+},
+{
+"nid": 1708747507645,
+"word": "乖巧",
+"trad": "",
+"pinyin": "guāi qiǎo",
+"gloss": "1. clever (child); 2. smart; 3. lovable; 4. cute"
+},
+{
+"nid": 1708747507873,
+"word": "重量级",
+"trad": "",
+"pinyin": "zhòng liàng jí",
+"gloss": "1. heavyweight (boxing etc)"
+},
+{
+"nid": 1708747507886,
+"word": "丰富多彩",
+"trad": "",
+"pinyin": "fēng fù duō cǎi",
+"gloss": "1. richly colorful;in great variety"
+},
+{
+"nid": 1708747508045,
+"word": "溜达",
+"trad": "",
+"pinyin": "liū da",
+"gloss": "1. to stroll; 2. to go for a walk"
+},
+{
+"nid": 1708747508125,
+"word": "无微不至",
+"trad": "無微不至",
+"pinyin": "wú wēi bù zhì",
+"gloss": "1. in every possible way (idiom); meticulous;with great care"
+},
+{
+"nid": 1708747508203,
+"word": "咽喉",
+"trad": "",
+"pinyin": "yān hóu",
+"gloss": "1. throat"
+},
+{
+"nid": 1708747508311,
+"word": "殷勤",
+"trad": "",
+"pinyin": "yīn qín",
+"gloss": "1. politely; 2. solicitously; 3. eagerly attentive"
+},
+{
+"nid": 1708747508600,
+"word": "休眠",
+"trad": "",
+"pinyin": "xiū mián",
+"gloss": "1. to be dormant (biology); 2. inactive (volcano); 3. to hibernate (computing)"
+},
+{
+"nid": 1708747508739,
+"word": "利索",
+"trad": "",
+"pinyin": "lì suo",
+"gloss": "1. nimble"
+},
+{
+"nid": 1708747509053,
+"word": "轮换",
+"trad": "",
+"pinyin": "lún huàn",
+"gloss": "1. to rotate; 2. to take turns; 3. to switch"
+},
+{
+"nid": 1708747509059,
+"word": "璀璨",
+"trad": "",
+"pinyin": "cuǐ càn",
+"gloss": "1. bright; 2. resplendent"
+},
+{
+"nid": 1708747509105,
+"word": "干枯",
+"trad": "",
+"pinyin": "gān kū",
+"gloss": "1. withered; 2. dried up"
+},
+{
+"nid": 1708747509114,
+"word": "粪便",
+"trad": "",
+"pinyin": "fèn biàn",
+"gloss": "1. excrement; 2. feces; 3. night soil"
+},
+{
+"nid": 1708747509253,
+"word": "招手",
+"trad": "",
+"pinyin": "zhāo shǒu",
+"gloss": "1. to wave; 2. to beckon"
+},
+{
+"nid": 1708747509291,
+"word": "浮力",
+"trad": "",
+"pinyin": "fú lì",
+"gloss": "1. buoyancy"
+},
+{
+"nid": 1708747509293,
+"word": "把柄",
+"trad": "",
+"pinyin": "bǎ bǐng",
+"gloss": "1. handle; 2. (fig.) information that can be used against sb"
+},
+{
+"nid": 1708747509344,
+"word": "安眠药",
+"trad": "",
+"pinyin": "ān mián yào",
+"gloss": "1. sleeping pill; 2. CL:粒[lì]"
+},
+{
+"nid": 1708747509376,
+"word": "豁达",
+"trad": "",
+"pinyin": "huò dá",
+"gloss": "1. optimistic; 2. sanguine; 3. generous; 4. magnanimous; 5. open-minded"
+},
+{
+"nid": 1708747509545,
+"word": "启迪",
+"trad": "",
+"pinyin": "qǐ dí",
+"gloss": "1. to edify; 2. enlightenment"
+},
+{
+"nid": 1708747509945,
+"word": "半信半疑",
+"trad": "",
+"pinyin": "bàn xìn bàn yí",
+"gloss": "1. half doubting; 2. dubious; 3. skeptical"
+},
+{
+"nid": 1708747509963,
+"word": "乐此不疲",
+"trad": "",
+"pinyin": "lè cǐ bù pí",
+"gloss": "1. to enjoy sth and never tire of it (idiom)"
+},
+{
+"nid": 1708747510033,
+"word": "含蓄",
+"trad": "",
+"pinyin": "hán xù",
+"gloss": "1. to contain; 2. to hold; 3. (of a person or style etc) reserved; 4. restrained; 5. (of words, writings) full of hidden meaning; 6. implicit; 7. veiled (criticism)"
+},
+{
+"nid": 1708747510073,
+"word": "固化",
+"trad": "",
+"pinyin": "gù huà",
+"gloss": "1. to solidify; 2. solidification (chemistry)"
+},
+{
+"nid": 1708747510224,
+"word": "僵化",
+"trad": "",
+"pinyin": "jiāng huà",
+"gloss": "1. to become rigid"
+},
+{
+"nid": 1708747510233,
+"word": "宜人",
+"trad": "",
+"pinyin": "yí rén",
+"gloss": "1. nice; 2. pleasant; 3. charming; 4. hospitable to people"
+},
+{
+"nid": 1708747510268,
+"word": "探亲",
+"trad": "",
+"pinyin": "tàn qīn",
+"gloss": "1. to go home to visit one&#x27;s family"
+},
+{
+"nid": 1708747510334,
+"word": "由衷",
+"trad": "",
+"pinyin": "yóu zhōng",
+"gloss": "1. heartfelt; 2. sincere; 3. unfeigned"
+},
+{
+"nid": 1708747510417,
+"word": "咧嘴",
+"trad": "",
+"pinyin": "liě zuǐ",
+"gloss": "1. to grin"
+},
+{
+"nid": 1708747510426,
+"word": "侍候",
+"trad": "",
+"pinyin": "shì hòu",
+"gloss": "1. to serve; 2. to wait upon"
+},
+{
+"nid": 1708747510452,
+"word": "减退",
+"trad": "",
+"pinyin": "jiǎn tuì",
+"gloss": "1. to ebb; 2. to go down; 3. to decline"
+},
+{
+"nid": 1708747510806,
+"word": "打盹儿",
+"trad": "",
+"pinyin": "dǎ dǔn r",
+"gloss": "1. erhua variant of 打盹[dǎ dǔn]"
+},
+{
+"nid": 1708747511122,
+"word": "城区",
+"trad": "",
+"pinyin": "chéng qū",
+"gloss": "1. city district; 2. urban area"
+},
+{
+"nid": 1708747511165,
+"word": "潜心",
+"trad": "",
+"pinyin": "qián xīn",
+"gloss": "1. to concentrate fully on sth; 2. single-minded"
+},
+{
+"nid": 1708747511412,
+"word": "刺骨",
+"trad": "",
+"pinyin": "cì gǔ",
+"gloss": "1. piercing; 2. cutting; 3. bone-chilling; 4. penetrating (cold)"
+},
+{
+"nid": 1708747511581,
+"word": "折扣",
+"trad": "",
+"pinyin": "zhé kòu",
+"gloss": "1. discount"
+},
+{
+"nid": 1708747511818,
+"word": "缤纷",
+"trad": "",
+"pinyin": "bīn fēn",
+"gloss": "1. vast and various; 2. rich and diverse"
+},
+{
+"nid": 1708747511825,
+"word": "瓜子",
+"trad": "",
+"pinyin": "guā zǐ",
+"gloss": "1. melon seed; 2. seeds of pumpkin, watermelon or sunflower etc, roasted and flavored, consumed as a snack"
+},
+{
+"nid": 1708747511834,
+"word": "选修",
+"trad": "",
+"pinyin": "xuǎn xiū",
+"gloss": "1. optional course (in school); 2. to take an optional course"
+},
+{
+"nid": 1708747511838,
+"word": "夜班",
+"trad": "",
+"pinyin": "yè bān",
+"gloss": "1. night shift"
+},
+{
+"nid": 1708747511916,
+"word": "飞碟",
+"trad": "",
+"pinyin": "fēi dié",
+"gloss": "1. flying saucer; 2. frisbee"
+},
+{
+"nid": 1708747511920,
+"word": "燃放",
+"trad": "",
+"pinyin": "rán fàng",
+"gloss": "1. to light; 2. to set off (firecrackers etc)"
+},
+{
+"nid": 1708747511956,
+"word": "心安理得",
+"trad": "",
+"pinyin": "xīn ān lǐ dé",
+"gloss": "1. to have a clear conscience; 2. to have no qualms about sth"
+},
+{
+"nid": 1708747511997,
+"word": "势不可当",
+"trad": "",
+"pinyin": "shì bù kě dāng",
+"gloss": "1. impossible to resist (idiom); an irresistible force"
+},
+{
+"nid": 1708747512414,
+"word": "笛子",
+"trad": "",
+"pinyin": "dí zi",
+"gloss": "1. bamboo flute; 2. CL:管[guǎn]"
+},
+{
+"nid": 1708747512779,
+"word": "照办",
+"trad": "",
+"pinyin": "zhào bàn",
+"gloss": "1. to follow the rules; 2. to do as instructed; 3. to play by the book; 4. to comply with a request"
+},
+{
+"nid": 1708747513070,
+"word": "碰见",
+"trad": "",
+"pinyin": "pèng jiàn",
+"gloss": "1. to run into; 2. to meet (unexpectedly); 3. to bump into"
+},
+{
+"nid": 1708747513108,
+"word": "跑龙套",
+"trad": "",
+"pinyin": "pǎo lóng tào",
+"gloss": "1. to play a small role"
+},
+{
+"nid": 1708747513110,
+"word": "缆车",
+"trad": "",
+"pinyin": "lǎn chē",
+"gloss": "1. cable car"
+},
+{
+"nid": 1708747513243,
+"word": "风浪",
+"trad": "",
+"pinyin": "fēng làng",
+"gloss": "1. wind and waves; 2. stormy sea"
+},
+{
+"nid": 1708747513500,
+"word": "耍赖",
+"trad": "",
+"pinyin": "shuǎ lài",
+"gloss": "1. to act shamelessly; 2. to refuse to acknowledge that one has lost the game, or made a promise etc; 3. to act dumb; 4. to act as if sth never happened"
+},
+{
+"nid": 1708747513673,
+"word": "盛宴",
+"trad": "",
+"pinyin": "shèng yàn",
+"gloss": "1. feast"
+},
+{
+"nid": 1708747513735,
+"word": "顺路",
+"trad": "",
+"pinyin": "shùn lù",
+"gloss": "1. by the way; 2. while out doing sth else; 3. conveniently"
+},
+{
+"nid": 1708747513885,
+"word": "充裕",
+"trad": "",
+"pinyin": "chōng yù",
+"gloss": "1. abundant; 2. ample; 3. plenty; 4. abundance"
+},
+{
+"nid": 1708747513933,
+"word": "汤圆",
+"trad": "",
+"pinyin": "tāng yuán",
+"gloss": "1. boiled balls of glutinous rice flour, eaten during the Lantern Festival"
+},
+{
+"nid": 1708747514170,
+"word": "助威",
+"trad": "",
+"pinyin": "zhù wēi",
+"gloss": "1. to cheer for; 2. to encourage; 3. to boost the morale of"
+},
+{
+"nid": 1708747514327,
+"word": "退却",
+"trad": "",
+"pinyin": "tuì què",
+"gloss": "1. to retreat; 2. to shrink back"
+},
+{
+"nid": 1708747514476,
+"word": "温差",
+"trad": "",
+"pinyin": "wēn chā",
+"gloss": "1. difference in temperature"
+},
+{
+"nid": 1708747514755,
+"word": "拉链",
+"trad": "",
+"pinyin": "lā liàn",
+"gloss": "1. zipper"
+},
+{
+"nid": 1708747514804,
+"word": "宣读",
+"trad": "",
+"pinyin": "xuān dú",
+"gloss": "1. to read out loud to an audience; 2. a prepared speech (e.g. to a party conference)"
+},
+{
+"nid": 1708747514844,
+"word": "琐碎",
+"trad": "",
+"pinyin": "suǒ suì",
+"gloss": "1. trifling; 2. trivial; 3. tedious; 4. inconsequential"
+},
+{
+"nid": 1708747515011,
+"word": "情调",
+"trad": "",
+"pinyin": "qíng diào",
+"gloss": "1. sentiment; 2. tone and mood; 3. taste"
+},
+{
+"nid": 1708747515028,
+"word": "口吃",
+"trad": "",
+"pinyin": "kǒu chī",
+"gloss": "1. to stammer; 2. to stutter; 3. also pr. [kǒu jí]"
+},
+{
+"nid": 1708747515030,
+"word": "方向盘",
+"trad": "",
+"pinyin": "fāng xiàng pán",
+"gloss": "1. steering wheel"
+},
+{
+"nid": 1708747515058,
+"word": "韧性",
+"trad": "",
+"pinyin": "rèn xìng",
+"gloss": "1. toughness"
+},
+{
+"nid": 1708747515104,
+"word": "礁石",
+"trad": "",
+"pinyin": "jiāo shí",
+"gloss": "1. reef"
+},
+{
+"nid": 1708747515443,
+"word": "心病",
+"trad": "",
+"pinyin": "xīn bìng",
+"gloss": "1. anxiety; 2. sore point; 3. secret worry; 4. mental disorder; 5. heart disease (medicine)"
+},
+{
+"nid": 1708747515475,
+"word": "废品",
+"trad": "",
+"pinyin": "fèi pǐn",
+"gloss": "1. production rejects; 2. seconds; 3. scrap; 4. discarded material"
+},
+{
+"nid": 1708747515481,
+"word": "腼腆",
+"trad": "",
+"pinyin": "miǎn tiǎn",
+"gloss": "1. shy; 2. bashful"
+},
+{
+"nid": 1708747515534,
+"word": "驻足",
+"trad": "",
+"pinyin": "zhù zú",
+"gloss": "1. to stop (walking); 2. to halt"
+},
+{
+"nid": 1708747515618,
+"word": "交集",
+"trad": "",
+"pinyin": "jiāo jí",
+"gloss": "1. intersection (symbol ∩) (set theory)"
+},
+{
+"nid": 1708747515621,
+"word": "扫帚",
+"trad": "",
+"pinyin": "sào zhou",
+"gloss": "1. broom"
+},
+{
+"nid": 1708747515625,
+"word": "拼接",
+"trad": "",
+"pinyin": "pīn jiē",
+"gloss": "1. to put together; 2. to join"
+},
+{
+"nid": 1708747515938,
+"word": "无价之宝",
+"trad": "",
+"pinyin": "wú jià zhī bǎo",
+"gloss": "1. priceless treasure"
+},
+{
+"nid": 1708747515943,
+"word": "不肖",
+"trad": "",
+"pinyin": "bù xiào",
+"gloss": "1. (literary) unlike one&#x27;s parents; 2. degenerate; 3. unworthy"
+},
+{
+"nid": 1708747515992,
+"word": "动听",
+"trad": "",
+"pinyin": "dòng tīng",
+"gloss": "1. pleasant to listen to"
+},
+{
+"nid": 1708747516018,
+"word": "不亚于",
+"trad": "",
+"pinyin": "bù yà yú",
+"gloss": "1. no less than; 2. not inferior to"
+},
+{
+"nid": 1708747516410,
+"word": "警钟",
+"trad": "",
+"pinyin": "jǐng zhōng",
+"gloss": "1. alarm bell"
+},
+{
+"nid": 1708747516420,
+"word": "褒贬",
+"trad": "",
+"pinyin": "bāo biǎn",
+"gloss": "1. to appraise; 2. to pass judgment on; 3. to speak ill of; 4. praise and censure; 5. appraisal"
+},
+{
+"nid": 1708747516442,
+"word": "桑拿",
+"trad": "",
+"pinyin": "sāng ná",
+"gloss": "1. sauna (loanword)"
+},
+{
+"nid": 1708747516630,
+"word": "窘迫",
+"trad": "",
+"pinyin": "jiǒng pò",
+"gloss": "1. poverty-stricken; 2. very poor; 3. hard-pressed; 4. in a predicament; 5. embarrassed"
+},
+{
+"nid": 1708747516643,
+"word": "力不从心",
+"trad": "力不從心",
+"pinyin": "lì bù cóng xīn",
+"gloss": "1. less capable than desirable (idiom); not as strong as one would wish; 2. the spirit is willing but the flesh is weak"
+},
+{
+"nid": 1708747516933,
+"word": "三番五次",
+"trad": "",
+"pinyin": "sān fān wǔ cì",
+"gloss": "1. over and over again (idiom)"
+},
+{
+"nid": 1708747517026,
+"word": "当即",
+"trad": "",
+"pinyin": "dāng jí",
+"gloss": "1. at once; 2. on the spot"
+},
+{
+"nid": 1708747517273,
+"word": "间歇",
+"trad": "",
+"pinyin": "jiàn xiē",
+"gloss": "1. to stop in the middle of sth; 2. intermittent; 3. intermittence"
+},
+{
+"nid": 1708747517281,
+"word": "一技之长",
+"trad": "",
+"pinyin": "yī jì zhī cháng",
+"gloss": "1. proficiency in a particular field (idiom); 2. skill in a specialized area (idiom)"
+},
+{
+"nid": 1708747518024,
+"word": "庙会",
+"trad": "",
+"pinyin": "miào huì",
+"gloss": "1. temple fair"
+},
+{
+"nid": 1708747518039,
+"word": "不景气",
+"trad": "",
+"pinyin": "bù jǐng qì",
+"gloss": "1. slack; 2. in a slump"
+},
+{
+"nid": 1708747518087,
+"word": "疏导",
+"trad": "",
+"pinyin": "shū dǎo",
+"gloss": "1. to dredge; 2. to open up a path for; 3. to remove obstructions; 4. to clear the way; 5. to enlighten; 6. persuasion"
+},
+{
+"nid": 1708747518142,
+"word": "高调",
+"trad": "",
+"pinyin": "gāo diào",
+"gloss": "1. high-sounding speech; 2. bombast; 3. high-profile"
+},
+{
+"nid": 1708747518231,
+"word": "富足",
+"trad": "",
+"pinyin": "fù zú",
+"gloss": "1. rich; 2. plentiful"
+},
+{
+"nid": 1708747518241,
+"word": "飙升",
+"trad": "",
+"pinyin": "biāo shēng",
+"gloss": "1. to rise rapidly; 2. to soar"
+},
+{
+"nid": 1708747518300,
+"word": "醇厚",
+"trad": "",
+"pinyin": "chún hòu",
+"gloss": "1. mellow and rich; 2. simple and kind"
+},
+{
+"nid": 1708747518301,
+"word": "热议",
+"trad": "",
+"pinyin": "rè yì",
+"gloss": "1. to discuss passionately; 2. heated debate"
+},
+{
+"nid": 1708747518402,
+"word": "发愣",
+"trad": "",
+"pinyin": "fā lèng",
+"gloss": "1. to daydream; 2. in a daze"
+},
+{
+"nid": 1708747518514,
+"word": "知足",
+"trad": "",
+"pinyin": "zhī zú",
+"gloss": "1. content with one&#x27;s situation; 2. to know contentment (hence happiness)"
+},
+{
+"nid": 1708747518555,
+"word": "熄火",
+"trad": "",
+"pinyin": "xī huǒ",
+"gloss": "1. (of fire, lamp etc) to go out; 2. to put out (fire); 3. (fig.) to die down; 4. (of a vehicle) to stall"
+},
+{
+"nid": 1708747518603,
+"word": "畏缩",
+"trad": "",
+"pinyin": "wèi suō",
+"gloss": "1. to cower; 2. to flinch; 3. to quail; 4. to recoil"
+},
+{
+"nid": 1708747518622,
+"word": "短处",
+"trad": "",
+"pinyin": "duǎn chù",
+"gloss": "1. shortcoming; 2. defect; 3. fault; 4. one&#x27;s weak points"
+},
+{
+"nid": 1708747518887,
+"word": "体魄",
+"trad": "",
+"pinyin": "tǐ pò",
+"gloss": "1. physique; 2. build"
+},
+{
+"nid": 1708747518935,
+"word": "申诉",
+"trad": "",
+"pinyin": "shēn sù",
+"gloss": "1. to file a complaint; 2. to appeal (to an authority, a higher court of justice etc); 3. complaint; 4. appeal"
+},
+{
+"nid": 1708747518971,
+"word": "紧凑",
+"trad": "",
+"pinyin": "jǐn còu",
+"gloss": "1. compact; 2. terse; 3. tight (schedule)"
+},
+{
+"nid": 1708747519063,
+"word": "挨家挨户",
+"trad": "",
+"pinyin": "āi jiā āi hù",
+"gloss": "1. to go from house to house"
+},
+{
+"nid": 1708747519098,
+"word": "唾液",
+"trad": "",
+"pinyin": "tuò yè",
+"gloss": "1. saliva"
+},
+{
+"nid": 1708747519118,
+"word": "美誉",
+"trad": "",
+"pinyin": "měi yù",
+"gloss": "1. fame; 2. good reputation; 3. famous for sth"
+},
+{
+"nid": 1708747519190,
+"word": "洗漱",
+"trad": "",
+"pinyin": "xǐ shù",
+"gloss": "1. to wash the face and rinse the mouth"
+},
+{
+"nid": 1708747519227,
+"word": "怜惜",
+"trad": "",
+"pinyin": "lián xī",
+"gloss": "1. to take pity on; 2. to feel tenderness toward"
+},
+{
+"nid": 1708747519238,
+"word": "左顾右盼",
+"trad": "",
+"pinyin": "zuǒ gù yòu pàn",
+"gloss": "1. glancing to left and right (idiom); to look all around"
+},
+{
+"nid": 1708747519289,
+"word": "催促",
+"trad": "",
+"pinyin": "cuī cù",
+"gloss": "1. to urge"
+},
+{
+"nid": 1708747519297,
+"word": "谜底",
+"trad": "",
+"pinyin": "mí dǐ",
+"gloss": "1. answer to a riddle"
+},
+{
+"nid": 1708747519301,
+"word": "厚道",
+"trad": "",
+"pinyin": "hòu dao",
+"gloss": "1. kind and honest; 2. generous; 3. sincere"
+},
+{
+"nid": 1708747519401,
+"word": "夯实",
+"trad": "",
+"pinyin": "hāng shí",
+"gloss": "1. to tamp; 2. to ram (earth etc)"
+},
+{
+"nid": 1708747519524,
+"word": "秀美",
+"trad": "",
+"pinyin": "xiù měi",
+"gloss": "1. elegant; 2. graceful"
+},
+{
+"nid": 1708747519593,
+"word": "耐人寻味",
+"trad": "",
+"pinyin": "nài rén xún wèi",
+"gloss": "1. thought-provoking; 2. worth thinking over; 3. to provide food for thought"
+},
+{
+"nid": 1708747519634,
+"word": "此致",
+"trad": "",
+"pinyin": "cǐ zhì",
+"gloss": "1. (used at the end of a letter to introduce a polite salutation)"
+},
+{
+"nid": 1708747519699,
+"word": "简练",
+"trad": "",
+"pinyin": "jiǎn liàn",
+"gloss": "1. terse; 2. succinct"
+},
+{
+"nid": 1708747519793,
+"word": "抢眼",
+"trad": "",
+"pinyin": "qiǎng yǎn",
+"gloss": "1. eye-catching"
+},
+{
+"nid": 1708747519850,
+"word": "垫子",
+"trad": "",
+"pinyin": "diàn zi",
+"gloss": "1. cushion; 2. mat; 3. pad"
+},
+{
+"nid": 1708747520701,
+"word": "喜酒",
+"trad": "",
+"pinyin": "xǐ jiǔ",
+"gloss": "1. wedding feast; 2. liquor drunk at a wedding feast"
+},
+{
+"nid": 1708747520703,
+"word": "悲欢离合",
+"trad": "",
+"pinyin": "bēi huān lí hé",
+"gloss": "1. joys and sorrows; 2. partings and reunions; 3. the vicissitudes of life"
+},
+{
+"nid": 1708747520820,
+"word": "一毛不拔",
+"trad": "一毛不拔",
+"pinyin": "yī máo bù bá",
+"gloss": "1. stingy (idiom)"
+},
+{
+"nid": 1708747520962,
+"word": "保暖",
+"trad": "",
+"pinyin": "bǎo nuǎn",
+"gloss": "1. to stay warm; 2. to protect against the cold"
+},
+{
+"nid": 1708747520992,
+"word": "遇险",
+"trad": "",
+"pinyin": "yù xiǎn",
+"gloss": "1. to get into difficulties; 2. to meet with danger"
+},
+{
+"nid": 1708747521020,
+"word": "硬朗",
+"trad": "",
+"pinyin": "yìng lǎng",
+"gloss": "1. robust; 2. healthy"
+},
+{
+"nid": 1708747521119,
+"word": "碰钉子",
+"trad": "",
+"pinyin": "pèng dīng zi",
+"gloss": "1. to meet with a rebuff"
+},
+{
+"nid": 1708747521206,
+"word": "呼救",
+"trad": "",
+"pinyin": "hū jiù",
+"gloss": "1. to call for help"
+},
+{
+"nid": 1708747521304,
+"word": "兜售",
+"trad": "",
+"pinyin": "dōu shòu",
+"gloss": "1. to hawk; 2. to peddle"
+},
+{
+"nid": 1708747521312,
+"word": "名贵",
+"trad": "",
+"pinyin": "míng guì",
+"gloss": "1. famous and valuable; 2. rare; 3. precious"
+},
+{
+"nid": 1708747521321,
+"word": "忧愁",
+"trad": "",
+"pinyin": "yōu chóu",
+"gloss": "1. to be worried"
+},
+{
+"nid": 1708747521378,
+"word": "栽赃",
+"trad": "",
+"pinyin": "zāi zāng",
+"gloss": "1. to frame sb (by planting sth on them)"
+},
+{
+"nid": 1708747521468,
+"word": "迭起",
+"trad": "",
+"pinyin": "dié qǐ",
+"gloss": "1. continuously arising; 2. to arise repeatedly"
+},
+{
+"nid": 1708747521517,
+"word": "求医",
+"trad": "",
+"pinyin": "qiú yī",
+"gloss": "1. to seek medical treatment; 2. to see a doctor"
+},
+{
+"nid": 1708747521587,
+"word": "以身作则",
+"trad": "以身作則",
+"pinyin": "yǐ shēn zuò zé",
+"gloss": "1. to set an example (idiom); to serve as a model"
+},
+{
+"nid": 1708747521678,
+"word": "秘方",
+"trad": "",
+"pinyin": "mì fāng",
+"gloss": "1. secret recipe"
+},
+{
+"nid": 1708747521700,
+"word": "依依不舍",
+"trad": "",
+"pinyin": "yī yī bù shě",
+"gloss": "1. reluctant to part (idiom); broken-hearted at having to leave"
+},
+{
+"nid": 1708747521759,
+"word": "定金",
+"trad": "",
+"pinyin": "dìng jīn",
+"gloss": "1. down payment; 2. advance payment"
+},
+{
+"nid": 1708747521913,
+"word": "物力",
+"trad": "",
+"pinyin": "wù lì",
+"gloss": "1. physical resources (as opposed to labor resources)"
+},
+{
+"nid": 1708747521939,
+"word": "利弊",
+"trad": "",
+"pinyin": "lì bì",
+"gloss": "1. pros and cons; 2. merits and drawbacks; 3. advantages and disadvantages"
+},
+{
+"nid": 1708747521954,
+"word": "路况",
+"trad": "",
+"pinyin": "lù kuàng",
+"gloss": "1. road condition(s) (e.g. surface, traffic flow etc)"
+},
+{
+"nid": 1708747522218,
+"word": "忠贞",
+"trad": "",
+"pinyin": "zhōng zhēn",
+"gloss": "1. loyal and dependable"
+},
+{
+"nid": 1708747522386,
+"word": "举棋不定",
+"trad": "",
+"pinyin": "jǔ qí bù dìng",
+"gloss": "1. to hesitate over what move to make (idiom); to waver; 2. to shilly-shally"
+},
+{
+"nid": 1708747522482,
+"word": "粗心大意",
+"trad": "",
+"pinyin": "cū xīn dà yì",
+"gloss": "1. negligent; 2. careless; 3. inadvertent"
+},
+{
+"nid": 1708747522519,
+"word": "瑰宝",
+"trad": "",
+"pinyin": "guī bǎo",
+"gloss": "1. gem; 2. (fig.) rare and valuable item; 3. gem; 4. treasure"
+},
+{
+"nid": 1708747522521,
+"word": "防盗",
+"trad": "",
+"pinyin": "fáng dào",
+"gloss": "1. to guard against theft; 2. anti-theft"
+},
+{
+"nid": 1708747522544,
+"word": "仿制",
+"trad": "",
+"pinyin": "fǎng zhì",
+"gloss": "1. to copy; 2. to imitate; 3. to make by imitating a model"
+},
+{
+"nid": 1708747522546,
+"word": "原装",
+"trad": "",
+"pinyin": "yuán zhuāng",
+"gloss": "1. genuine; 2. intact in original packaging (not locally assembled and packaged)"
+},
+{
+"nid": 1708747522567,
+"word": "洪亮",
+"trad": "",
+"pinyin": "hóng liàng",
+"gloss": "1. loud and clear; 2. resonant"
+},
+{
+"nid": 1708747522601,
+"word": "心慌",
+"trad": "",
+"pinyin": "xīn huāng",
+"gloss": "1. to be flustered; 2. (dialect) irregular heart-beat"
+},
+{
+"nid": 1708747522622,
+"word": "交响乐",
+"trad": "",
+"pinyin": "jiāo xiǎng yuè",
+"gloss": "1. symphony"
+},
+{
+"nid": 1708747522749,
+"word": "共性",
+"trad": "",
+"pinyin": "gòng xìng",
+"gloss": "1. overall character;common, commonality, similarity"
+},
+{
+"nid": 1708747522803,
+"word": "游人",
+"trad": "",
+"pinyin": "yóu rén",
+"gloss": "1. a tourist"
+},
+{
+"nid": 1708747522838,
+"word": "风沙",
+"trad": "",
+"pinyin": "fēng shā",
+"gloss": "1. sand blown by wind; 2. sandstorm"
+},
+{
+"nid": 1708747522968,
+"word": "俊俏",
+"trad": "",
+"pinyin": "jùn qiào",
+"gloss": "1. attractive and intelligent; 2. charming; 3. elegant"
+},
+{
+"nid": 1708747523055,
+"word": "红薯",
+"trad": "",
+"pinyin": "hóng shǔ",
+"gloss": "1. sweet potato"
+},
+{
+"nid": 1708747523221,
+"word": "千家万户",
+"trad": "",
+"pinyin": "qiān jiā wàn hù",
+"gloss": "1. every family (idiom)"
+},
+{
+"nid": 1708747523282,
+"word": "私家车",
+"trad": "",
+"pinyin": "sī jiā chē",
+"gloss": "1. private car"
+},
+{
+"nid": 1708747523349,
+"word": "笔墨",
+"trad": "",
+"pinyin": "bǐ mò",
+"gloss": "1. pen and ink; 2. words; 3. writing"
+},
+{
+"nid": 1708747523453,
+"word": "美滋滋",
+"trad": "",
+"pinyin": "měi zī zī",
+"gloss": "1. very happy; 2. elated"
+},
+{
+"nid": 1708747523642,
+"word": "俗语",
+"trad": "",
+"pinyin": "sú yǔ",
+"gloss": "1. common saying; 2. proverb; 3. colloquial speech;slang"
+},
+{
+"nid": 1708747523744,
+"word": "守信",
+"trad": "",
+"pinyin": "shǒu xìn",
+"gloss": "1. to keep promises"
+},
+{
+"nid": 1708747523822,
+"word": "新潮",
+"trad": "",
+"pinyin": "xīn cháo",
+"gloss": "1. modern; 2. fashionable"
+},
+{
+"nid": 1708747523862,
+"word": "底子",
+"trad": "",
+"pinyin": "dǐ zi",
+"gloss": "1. base; 2. foundation; 3. bottom"
+},
+{
+"nid": 1708747523916,
+"word": "橱窗",
+"trad": "",
+"pinyin": "chú chuāng",
+"gloss": "1. display window"
+},
+{
+"nid": 1708747523969,
+"word": "喂养",
+"trad": "",
+"pinyin": "wèi yǎng",
+"gloss": "1. to feed (a child, domestic animal etc); 2. to keep; 3. to raise (an animal)"
+},
+{
+"nid": 1708747524081,
+"word": "暴利",
+"trad": "",
+"pinyin": "bào lì",
+"gloss": "1. sudden huge profits"
+},
+{
+"nid": 1708747524543,
+"word": "破案",
+"trad": "",
+"pinyin": "pò àn",
+"gloss": "1. to solve a case; 2. shabby old table"
+},
+{
+"nid": 1708747524623,
+"word": "禾苗",
+"trad": "",
+"pinyin": "hé miáo",
+"gloss": "1. seedling (of rice or other grain); 2. CL:棵[kē]"
+},
+{
+"nid": 1708747524645,
+"word": "国庆",
+"trad": "",
+"pinyin": "Guó qìng",
+"gloss": "1. National Day"
+},
+{
+"nid": 1708747524679,
+"word": "辞呈",
+"trad": "",
+"pinyin": "cí chéng",
+"gloss": "1. (written) resignation"
+},
+{
+"nid": 1708747524770,
+"word": "乞讨",
+"trad": "",
+"pinyin": "qǐ tǎo",
+"gloss": "1. to beg; 2. to go begging"
+},
+{
+"nid": 1708747524963,
+"word": "竞相",
+"trad": "",
+"pinyin": "jìng xiāng",
+"gloss": "1. competitive; 2. eagerly; 3. to vie"
+},
+{
+"nid": 1708747525396,
+"word": "哽咽",
+"trad": "",
+"pinyin": "gěng yè",
+"gloss": "1. to choke with emotion; 2. to choke with sobs"
+},
+{
+"nid": 1708747525470,
+"word": "淳朴",
+"trad": "",
+"pinyin": "chún pǔ",
+"gloss": "1. simple and honest; 2. unsophisticated; 3. guileless"
+},
+{
+"nid": 1708747525485,
+"word": "棱角",
+"trad": "",
+"pinyin": "léng jiǎo",
+"gloss": "1. edge and corner; 2. protrusion; 3. sharpness (of a protrusion); 4. craggy; 5. ridge corner"
+},
+{
+"nid": 1708747525499,
+"word": "名著",
+"trad": "",
+"pinyin": "míng zhù",
+"gloss": "1. masterpiece"
+},
+{
+"nid": 1708747525546,
+"word": "滑梯",
+"trad": "",
+"pinyin": "huá tī",
+"gloss": "1. (children&#x27;s) sliding board; 2. a slide"
+},
+{
+"nid": 1708747525562,
+"word": "一帆风顺",
+"trad": "一帆風順",
+"pinyin": "yī fān fēng shùn",
+"gloss": "1. propitious wind throughout the journey (idiom); 2. plain sailing; 3. to go smoothly; 4. have a nice trip!"
+},
+{
+"nid": 1708747525572,
+"word": "避暑",
+"trad": "",
+"pinyin": "bì shǔ",
+"gloss": "1. to be away for the summer holidays; 2. to spend a holiday at a summer resort; 3. to prevent sunstroke"
+},
+{
+"nid": 1708747525696,
+"word": "不亦乐乎",
+"trad": "",
+"pinyin": "bù yì lè hū",
+"gloss": "1. lit. isn&#x27;t that a joy? (quote from Confucius); 2. fig. (jocularly) extremely; 3. awfully"
+},
+{
+"nid": 1708747525972,
+"word": "树梢",
+"trad": "",
+"pinyin": "shù shāo",
+"gloss": "1. the tip of a tree; 2. treetop"
+},
+{
+"nid": 1708747526213,
+"word": "荡漾",
+"trad": "",
+"pinyin": "dàng yàng",
+"gloss": "1. to ripple; 2. to undulate"
+},
+{
+"nid": 1708747526242,
+"word": "卧铺",
+"trad": "",
+"pinyin": "wò pù",
+"gloss": "1. a bed (on a train); 2. a couchette"
+},
+{
+"nid": 1708747526275,
+"word": "喜出望外",
+"trad": "",
+"pinyin": "xǐ chū wàng wài",
+"gloss": "1. to be pleased beyond one&#x27;s expectations (idiom); 2. overjoyed at the turn of events"
+},
+{
+"nid": 1708747526939,
+"word": "帘子",
+"trad": "",
+"pinyin": "lián zi",
+"gloss": "1. curtain"
+},
+{
+"nid": 1708747526956,
+"word": "前赴后继",
+"trad": "",
+"pinyin": "qián fù hòu jì",
+"gloss": "1. to advance dauntlessly in wave upon wave (idiom)"
+},
+{
+"nid": 1708747527175,
+"word": "会意",
+"trad": "",
+"pinyin": "huì yì",
+"gloss": "1. combined ideogram (one of the Six Methods 六書|六书[liù shū] of forming Chinese characters); 2. Chinese character that combines the meanings of existing elements; 3. also known as joint ideogram or associative compounds; 4. to comprehend without being told explicitly; 5. to cotton on; 6. knowing (smile, glance etc)"
+},
+{
+"nid": 1710963490330,
+"word": "硕果",
+"trad": "",
+"pinyin": "shuò guǒ",
+"gloss": "1. major achievement; 2. great work; 3. triumphant success"
+},
+{
+"nid": 1710963490607,
+"word": "标致",
+"trad": "",
+"pinyin": "Biāo zhì",
+"gloss": "1. Peugeot"
+},
+{
+"nid": 1710963490653,
+"word": "节俭",
+"trad": "",
+"pinyin": "jié jiǎn",
+"gloss": "1. frugal; 2. economical"
+},
+{
+"nid": 1710963492879,
+"word": "沉甸甸",
+"trad": "",
+"pinyin": "chén diàn diàn",
+"gloss": "1. heavy"
+},
+{
+"nid": 1710963495150,
+"word": "深造",
+"trad": "",
+"pinyin": "shēn zào",
+"gloss": "1. to pursue one&#x27;s studies"
+},
+{
+"nid": 1710963495203,
+"word": "涉猎",
+"trad": "",
+"pinyin": "shè liè",
+"gloss": "1. to skim (through a book); 2. to read cursorily; 3. to dip into"
+},
+{
+"nid": 1710963495223,
+"word": "博学",
+"trad": "",
+"pinyin": "bó xué",
+"gloss": "1. learned; 2. erudite"
+},
+{
+"nid": 1710963495272,
+"word": "怡然自得",
+"trad": "",
+"pinyin": "yí rán zì dé",
+"gloss": "1. happy and content (idiom)"
+},
+{
+"nid": 1710963495326,
+"word": "耳目一新",
+"trad": "",
+"pinyin": "ěr mù yī xīn",
+"gloss": "1. a pleasant change; 2. a breath of fresh air; 3. refreshing;to find everything fresh and new"
+},
+{
+"nid": 1710963495382,
+"word": "标点",
+"trad": "",
+"pinyin": "biāo diǎn",
+"gloss": "1. punctuation; 2. a punctuation mark; 3. to punctuate; 4. CL:個|个[gè]"
+},
+{
+"nid": 1710963495421,
+"word": "初等",
+"trad": "",
+"pinyin": "chū děng",
+"gloss": "1. elementary (i.e. easy)"
+},
+{
+"nid": 1710963495530,
+"word": "温度计",
+"trad": "",
+"pinyin": "wēn dù jì",
+"gloss": "1. thermometer; 2. thermograph"
+},
+{
+"nid": 1710963495551,
+"word": "骏马",
+"trad": "",
+"pinyin": "jùn mǎ",
+"gloss": "1. fine horse; 2. steed"
+},
+{
+"nid": 1710963495647,
+"word": "供求",
+"trad": "",
+"pinyin": "gōng qiú",
+"gloss": "1. supply and demand (economics)"
+},
+{
+"nid": 1710963495691,
+"word": "奚落",
+"trad": "",
+"pinyin": "xī luò",
+"gloss": "1. to taunt; 2. to ridicule; 3. to jeer at; 4. to treat coldly; 5. to abandon"
+},
+{
+"nid": 1710963495745,
+"word": "宽泛",
+"trad": "",
+"pinyin": "kuān fàn",
+"gloss": "1. wide-ranging"
+},
+{
+"nid": 1710963495922,
+"word": "阀门",
+"trad": "",
+"pinyin": "fá mén",
+"gloss": "1. valve (mechanical)"
+},
+{
+"nid": 1710963496103,
+"word": "走过场",
+"trad": "",
+"pinyin": "zǒu guò chǎng",
+"gloss": "1. to go through the motions"
+},
+{
+"nid": 1710963496160,
+"word": "稿子",
+"trad": "",
+"pinyin": "gǎo zi",
+"gloss": "1. draft of a document; 2. script; 3. manuscript; 4. mental plan; 5. precedent"
+},
+{
+"nid": 1710963499549,
+"word": "专著",
+"trad": "",
+"pinyin": "zhuān zhù",
+"gloss": "1. monograph; 2. specialized text"
+},
+{
+"nid": 1710963500640,
+"word": "伤残",
+"trad": "",
+"pinyin": "shāng cán",
+"gloss": "1. disabled; 2. maimed; 3. crippled; 4. (of objects) damaged"
+},
+{
+"nid": 1710963500690,
+"word": "香油",
+"trad": "",
+"pinyin": "xiāng yóu",
+"gloss": "1. sesame oil; 2. perfumed oil"
+},
+{
+"nid": 1710963500810,
+"word": "家家户户",
+"trad": "",
+"pinyin": "jiā jiā hù hù",
+"gloss": "1. each and every family (idiom); 2. every household"
+},
+{
+"nid": 1710963500854,
+"word": "工整",
+"trad": "",
+"pinyin": "gōng zhěng",
+"gloss": "1. fine work; 2. carefully and neatly done"
+},
+{
+"nid": 1710963504544,
+"word": "宜居",
+"trad": "",
+"pinyin": "yí jū",
+"gloss": "1. livable"
+},
+{
+"nid": 1717270457571,
+"word": "复合",
+"trad": "複合",
+"pinyin": "fù hé",
+"gloss": "1. complex; 2. compound; 3. composite; 4. hybrid"
+},
+{
+"nid": 1717270460588,
+"word": "红润",
+"trad": "紅潤",
+"pinyin": "hóng rùn",
+"gloss": "1. ruddy; 2. rosy; 3. florid"
+},
+{
+"nid": 1717270469769,
+"word": "点赞",
+"trad": "點贊",
+"pinyin": "diǎn zàn",
+"gloss": "1. to like (an online post on Weibo, Facebook etc)"
+},
+{
+"nid": 1717270469811,
+"word": "跳槽",
+"trad": "跳槽",
+"pinyin": "tiào cáo",
+"gloss": "1. to change jobs; 2. job-hopping"
+},
+{
+"nid": 1717270470569,
+"word": "袖珍",
+"trad": "袖珍",
+"pinyin": "xiù zhēn",
+"gloss": "1. pocket-sized; 2. pocket (book etc)"
+},
+{
+"nid": 1717270471669,
+"word": "尾气",
+"trad": "尾氣",
+"pinyin": "wěi qì",
+"gloss": "1. exhaust (i.e. waste gas from engine); 2. emissions"
+},
+{
+"nid": 1717270471794,
+"word": "讹诈",
+"trad": "訛詐",
+"pinyin": "é zhà",
+"gloss": "1. to extort under false pretenses; 2. to blackmail; 3. to bluff; 4. to defraud"
+},
+{
+"nid": 1717270471859,
+"word": "河畔",
+"trad": "河畔",
+"pinyin": "hé pàn",
+"gloss": "1. riverside; 2. river plain"
+},
+{
+"nid": 1717270471901,
+"word": "埋头苦干",
+"trad": "埋頭苦幹",
+"pinyin": "mái tóu kǔ gàn",
+"gloss": "1. to bury oneself in work (idiom); to be engrossed in work; 2. to make an all-out effort; 3. up to the neck in work"
+},
+{
+"nid": 1717270471931,
+"word": "解围",
+"trad": "解圍",
+"pinyin": "jiě wéi",
+"gloss": "1. to lift a siege; 2. to help sb out of trouble or embarrassment"
+},
+{
+"nid": 1717270472031,
+"word": "易拉罐",
+"trad": "易拉罐",
+"pinyin": "yì lā guàn",
+"gloss": "1. pull-top can; 2. easy-open can (with ring-pull)"
+},
+{
+"nid": 1717270472158,
+"word": "症结",
+"trad": "癥結",
+"pinyin": "zhēng jié",
+"gloss": "1. hard lump in the abdomen (in Chinese medicine); 2. crux of an issue; 3. main point in an argument; 4. sticking point; 5. deadlock in negotiations"
+},
+{
+"nid": 1717270472778,
+"word": "四通八达",
+"trad": "四通八達",
+"pinyin": "sì tōng bā dá",
+"gloss": "1. roads open in all directions (idiom); accessible from all sides"
+},
+{
+"nid": 1717270472890,
+"word": "质朴",
+"trad": "質樸",
+"pinyin": "zhì pǔ",
+"gloss": "1. simple; 2. plain; 3. unadorned; 4. unaffected; 5. unsophisticated; 6. rustic; 7. earthy"
+},
+{
+"nid": 1717270473017,
+"word": "外甥",
+"trad": "外甥",
+"pinyin": "wài shēng",
+"gloss": "1. sister&#x27;s son; 2. wife&#x27;s sibling&#x27;s son"
+},
+{
+"nid": 1717270473583,
+"word": "一揽子",
+"trad": "一攬子",
+"pinyin": "yī lǎn zi",
+"gloss": "1. all-inclusive; 2. undiscriminating"
+},
+{
+"nid": 1717270474914,
+"word": "七嘴八舌",
+"trad": "七嘴八舌",
+"pinyin": "qī zuǐ bā shé",
+"gloss": "1. lively discussion with everybody talking at once"
+},
+{
+"nid": 1717270475069,
+"word": "油条",
+"trad": "油條",
+"pinyin": "yóu tiáo",
+"gloss": "1. youtiao (deep-fried breadstick); 2. CL:根[gēn]; 3. slick and sly person"
+},
+{
+"nid": 1717270475127,
+"word": "警犬",
+"trad": "警犬",
+"pinyin": "jǐng quǎn",
+"gloss": "1. police dog"
+},
+{
+"nid": 1717270475805,
+"word": "暖烘烘",
+"trad": "暖烘烘",
+"pinyin": "nuǎn hōng hōng",
+"gloss": "1. nice and warm; 2. cozy; 3. heartwarming"
+},
+{
+"nid": 1717270476253,
+"word": "酌情",
+"trad": "酌情",
+"pinyin": "zhuó qíng",
+"gloss": "1. to use discretion; 2. to take circumstances into account; 3. to make allowances pertinent to a situation"
+},
+{
+"nid": 1717270476274,
+"word": "俯首",
+"trad": "俯首",
+"pinyin": "fǔ shǒu",
+"gloss": "1. to bend one&#x27;s head"
+},
+{
+"nid": 1717270476771,
+"word": "解渴",
+"trad": "解渴",
+"pinyin": "jiě kě",
+"gloss": "1. to quench"
+},
+{
+"nid": 1717270477901,
+"word": "吊销",
+"trad": "吊銷",
+"pinyin": "diào xiāo",
+"gloss": "1. to suspend (an agreement); 2. to revoke"
+},
+{
+"nid": 1717270477967,
+"word": "足智多谋",
+"trad": "足智多謀",
+"pinyin": "zú zhì duō móu",
+"gloss": "1. resourceful; 2. full of stratagems"
+},
+{
+"nid": 1717270477979,
+"word": "五湖四海",
+"trad": "五湖四海",
+"pinyin": "wǔ hú sì hǎi",
+"gloss": "1. all parts of the country"
+},
+{
+"nid": 1717270478006,
+"word": "亲和力",
+"trad": "親和力",
+"pinyin": "qīn hé lì",
+"gloss": "1. (personal) warmth; 2. approachability; 3. accessibility; 4. (in a product) user friendliness; 5. (chemistry) affinity"
+},
+{
+"nid": 1717270478337,
+"word": "励志",
+"trad": "勵志",
+"pinyin": "lì zhì",
+"gloss": "1. to encourage; 2. encouragement"
+},
+{
+"nid": 1717270478415,
+"word": "寒带",
+"trad": "寒帶",
+"pinyin": "hán dài",
+"gloss": "1. polar climate"
+},
+{
+"nid": 1717270478461,
+"word": "憨厚",
+"trad": "憨厚",
+"pinyin": "hān hou",
+"gloss": "1. simple and honest; 2. straightforward"
+},
+{
+"nid": 1717270478518,
+"word": "桂花",
+"trad": "桂花",
+"pinyin": "guì huā",
+"gloss": "1. osmanthus flowers; 2. Osmanthus fragrans"
+},
+{
+"nid": 1717270478528,
+"word": "嫁妆",
+"trad": "嫁妝",
+"pinyin": "jià zhuang",
+"gloss": "1. dowry"
+},
+{
+"nid": 1717270478651,
+"word": "便饭",
+"trad": "便飯",
+"pinyin": "biàn fàn",
+"gloss": "1. an ordinary meal; 2. simple home cooking"
+},
+{
+"nid": 1717270478850,
+"word": "务工",
+"trad": "務工",
+"pinyin": "wù gōng",
+"gloss": "1. to work as a laborer"
+},
+{
+"nid": 1717270478853,
+"word": "夜市",
+"trad": "夜市",
+"pinyin": "yè shì",
+"gloss": "1. night market"
+},
+{
+"nid": 1717270478895,
+"word": "观感",
+"trad": "觀感",
+"pinyin": "guān gǎn",
+"gloss": "1. one&#x27;s impressions; 2. observations"
+},
+{
+"nid": 1717270478915,
+"word": "商贾",
+"trad": "商賈",
+"pinyin": "shāng gǔ",
+"gloss": "1. merchant"
+},
+{
+"nid": 1717270479944,
+"word": "肇事",
+"trad": "肇事",
+"pinyin": "zhào shì",
+"gloss": "1. to cause an accident; 2. to be responsible for an incident; 3. to provoke a disturbance"
+},
+{
+"nid": 1717270480062,
+"word": "售票员",
+"trad": "售票員",
+"pinyin": "shòu piào yuán",
+"gloss": "1. ticket seller"
+},
+{
+"nid": 1717270480090,
+"word": "串门",
+"trad": "串門",
+"pinyin": "chuàn mén",
+"gloss": "1. to call on sb; 2. to drop in; 3. to visit sb&#x27;s home"
+},
+{
+"nid": 1717270480227,
+"word": "阔绰",
+"trad": "闊綽",
+"pinyin": "kuò chuò",
+"gloss": "1. ostentatious; 2. extravagant; 3. liberal with money"
+},
+{
+"nid": 1717270480308,
+"word": "炎症",
+"trad": "炎症",
+"pinyin": "yán zhèng",
+"gloss": "1. inflammation"
+},
+{
+"nid": 1717270480313,
+"word": "解约",
+"trad": "解約",
+"pinyin": "jiě yuē",
+"gloss": "1. to terminate an agreement; 2. to cancel a contract"
+},
+{
+"nid": 1717270480350,
+"word": "与时俱进",
+"trad": "與時俱進",
+"pinyin": "yǔ shí jù jìn",
+"gloss": "1. abreast of modern developments; 2. to keep up with the times; 3. progressive; 4. timely"
+},
+{
+"nid": 1717270481270,
+"word": "选民",
+"trad": "選民",
+"pinyin": "xuǎn mín",
+"gloss": "1. voter; 2. constituency; 3. electorate"
+},
+{
+"nid": 1717270481702,
+"word": "单边",
+"trad": "單邊",
+"pinyin": "dān biān",
+"gloss": "1. unilateral"
+},
+{
+"nid": 1717270483105,
+"word": "强占",
+"trad": "強佔",
+"pinyin": "qiáng zhàn",
+"gloss": "1. to occupy by force"
+},
+{
+"nid": 1717270483237,
+"word": "翻番",
+"trad": "翻番",
+"pinyin": "fān fān",
+"gloss": "1. to double; 2. to increase by a certain number of times"
+},
+{
+"nid": 1717270483261,
+"word": "节衣缩食",
+"trad": "節衣縮食",
+"pinyin": "jié yī suō shí",
+"gloss": "1. to save on food and clothing (idiom); to live frugally"
+},
+{
+"nid": 1717270483374,
+"word": "祖籍",
+"trad": "祖籍",
+"pinyin": "zǔ jí",
+"gloss": "1. ancestral hometown; 2. original domicile (and civil registration)"
+},
+{
+"nid": 1717270483759,
+"word": "居高不下",
+"trad": "居高不下",
+"pinyin": "jū gāo bù xià",
+"gloss": "1. (of prices, rates etc) to remain high"
+},
+{
+"nid": 1717270483834,
+"word": "接济",
+"trad": "接濟",
+"pinyin": "jiē jì",
+"gloss": "1. to give material assistance to"
+},
+{
+"nid": 1717270484057,
+"word": "特邀",
+"trad": "特邀",
+"pinyin": "tè yāo",
+"gloss": "1. special invitation"
+},
+{
+"nid": 1717270484947,
+"word": "热水器",
+"trad": "熱水器",
+"pinyin": "rè shuǐ qì",
+"gloss": "1. water heater"
+},
+{
+"nid": 1717270484969,
+"word": "养老院",
+"trad": "養老院",
+"pinyin": "Yǎnglǎoyuàn",
+"gloss": "1. nursing home"
+},
+{
+"nid": 1717270484974,
+"word": "腊月",
+"trad": "臘月",
+"pinyin": "Là yuè",
+"gloss": "1. twelfth lunar month"
+},
+{
+"nid": 1717270484981,
+"word": "忽冷忽热",
+"trad": "忽冷忽熱",
+"pinyin": "hū lěng hū rè",
+"gloss": "1. now hot, now cold; 2. (of one&#x27;s mood, affection etc) to alternate"
+},
+{
+"nid": 1717270486068,
+"word": "红扑扑",
+"trad": "紅撲撲",
+"pinyin": "hóng pū pū",
+"gloss": "1. red; 2. rosy; 3. flushed"
+},
+{
+"nid": 1717270487634,
+"word": "光缆",
+"trad": "光纜",
+"pinyin": "guāng lǎn",
+"gloss": "1. optical cable"
+},
+{
+"nid": 1717270488660,
+"word": "辖区",
+"trad": "轄區",
+"pinyin": "xiá qū",
+"gloss": "1. administrative region"
+},
+{
+"nid": 1717270488759,
+"word": "供应链",
+"trad": "供應鏈",
+"pinyin": "gōng yīng liàn",
+"gloss": "1. supply chain"
+},
+{
+"nid": 1717270489362,
+"word": "耕耘",
+"trad": "耕耘",
+"pinyin": "gēng yún",
+"gloss": "1. plowing and weeding; 2. farm work; 3. fig. to work or study diligently"
+},
+{
+"nid": 1717270489856,
+"word": "圣贤",
+"trad": "聖賢",
+"pinyin": "shèng xián",
+"gloss": "1. a sage; 2. wise and holy man; 3. virtuous ruler; 4. Buddhist lama; 5. wine"
+},
+{
+"nid": 1717270489896,
+"word": "打下手",
+"trad": "打下手",
+"pinyin": "dǎ xià shǒu",
+"gloss": "1. to act in a supporting role; 2. fig. to play second fiddle"
+},
+{
+"nid": 1717270489933,
+"word": "封顶",
+"trad": "封頂",
+"pinyin": "fēng dǐng",
+"gloss": "1. to put a roof (on a building); 2. to cap the roof (finishing a building project); 3. fig. to put a ceiling (on spending, prize, ambition etc); 4. to top off; 5. fig. to reach the highest point (of growth, profit, interest rates); 6. to stop growing (of plant bud or branch)"
+},
+{
+"nid": 1726711163352,
+"word": "元宵",
+"trad": "元宵",
+"pinyin": "Yuánxiāo",
+"gloss": "sweet dumplings"
+},
+{
+"nid": 1782504760407,
+"word": "动车",
+"trad": "動車",
+"pinyin": "dòngchē",
+"gloss": "Bullet train;动车组"
+},
+{
+"nid": 1782504760745,
+"word": "闭幕式",
+"trad": "閉幕式",
+"pinyin": "bìmùshì",
+"gloss": "Closing ceremony"
+},
+{
+"nid": 1782504760890,
+"word": "电子版",
+"trad": "電子版",
+"pinyin": "diànzǐbǎn",
+"gloss": "Electronic version"
+},
+{
+"nid": 1782504760991,
+"word": "没法儿",
+"trad": "沒法兒",
+"pinyin": "méifǎr",
+"gloss": "There's no way; can't be done"
+},
+{
+"nid": 1782504760998,
+"word": "年夜饭",
+"trad": "年夜飯",
+"pinyin": "niányèfàn",
+"gloss": "New Year's Eve dinner"
+},
+{
+"nid": 1782504761284,
+"word": "炒股",
+"trad": "炒股",
+"pinyin": "chǎogǔ",
+"gloss": "To speculate in stocks"
+},
+{
+"nid": 1782504761337,
+"word": "电饭锅",
+"trad": "電飯鍋",
+"pinyin": "diànfànguō",
+"gloss": "Rice cooker"
+},
+{
+"nid": 1782504761345,
+"word": "低碳",
+"trad": "低碳",
+"pinyin": "dītàn",
+"gloss": "Low-carbon"
+},
+{
+"nid": 1782504761352,
+"word": "多才多艺",
+"trad": "多才多藝",
+"pinyin": "duōcái-duōyì",
+"gloss": "Versatile; talented"
+},
+{
+"nid": 1782504761359,
+"word": "儿科",
+"trad": "兒科",
+"pinyin": "érkē",
+"gloss": "Pediatrics"
+},
+{
+"nid": 1782504761741,
+"word": "退税",
+"trad": "退稅",
+"pinyin": "tuìshuì",
+"gloss": "Tax Refund"
+},
+{
+"nid": 1782504761787,
+"word": "小偷儿",
+"trad": "小偷兒",
+"pinyin": "xiǎotōur",
+"gloss": "Thief; Petty Thief"
+},
+{
+"nid": 1782504761792,
+"word": "性价比",
+"trad": "性價比",
+"pinyin": "xìngjiàbǐ",
+"gloss": "Cost Performance; Value For"
+},
+{
+"nid": 1782504761800,
+"word": "新媒体",
+"trad": "新媒體",
+"pinyin": "xīnméitǐ",
+"gloss": "New Media"
+},
+{
+"nid": 1782504761805,
+"word": "新能源",
+"trad": "新能源",
+"pinyin": "xīnnéngyuán",
+"gloss": "New Energy"
+},
+{
+"nid": 1782504761892,
+"word": "有劲",
+"trad": "有勁",
+"pinyin": "yǒujìn",
+"gloss": "Strong; Powerful"
+},
+{
+"nid": 1782504761927,
+"word": "占比",
+"trad": "佔比",
+"pinyin": "zhànbǐ",
+"gloss": "Proportion; Share"
+},
+{
+"nid": 1782504762138,
+"word": "斑马线",
+"trad": "斑馬線",
+"pinyin": "bānmǎxiàn",
+"gloss": "Zebra crossing"
+},
+{
+"nid": 1782504762194,
+"word": "保鲜",
+"trad": "保鮮",
+"pinyin": "bǎoxiān",
+"gloss": "Preserve freshness"
+},
+{
+"nid": 1782504762372,
+"word": "别看",
+"trad": "別看",
+"pinyin": "biékàn",
+"gloss": "Despite"
+},
+{
+"nid": 1782504762473,
+"word": "冰棍儿",
+"trad": "冰棍兒",
+"pinyin": "bīnggùnr",
+"gloss": "Popsicle"
+},
+{
+"nid": 1782504762576,
+"word": "部首",
+"trad": "部首",
+"pinyin": "bùshǒu",
+"gloss": "Radical"
+},
+{
+"nid": 1782504762722,
+"word": "长效",
+"trad": "長效",
+"pinyin": "chángxiào",
+"gloss": "Long-term"
+},
+{
+"nid": 1782504762764,
+"word": "成才",
+"trad": "成才",
+"pinyin": "chéngcái",
+"gloss": "Become talented"
+},
+{
+"nid": 1782504762843,
+"word": "痴心",
+"trad": "癡心",
+"pinyin": "chīxīn",
+"gloss": "Infatuation"
+},
+{
+"nid": 1782504762885,
+"word": "抽样",
+"trad": "抽樣",
+"pinyin": "chōuyàng",
+"gloss": "Sampling"
+},
+{
+"nid": 1782504762977,
+"word": "赐教",
+"trad": "賜教",
+"pinyin": "cìjiào",
+"gloss": "Teach"
+},
+{
+"nid": 1782504763065,
+"word": "错别字",
+"trad": "錯別字",
+"pinyin": "cuòbiézì",
+"gloss": "Wrongly written character"
+},
+{
+"nid": 1782504763191,
+"word": "单价",
+"trad": "單價",
+"pinyin": "dānjià",
+"gloss": "unit price"
+},
+{
+"nid": 1782504763212,
+"word": "大数据",
+"trad": "大數據",
+"pinyin": "dàshùjù",
+"gloss": "big data"
+},
+{
+"nid": 1782504763226,
+"word": "大有可为",
+"trad": "大有可爲",
+"pinyin": "dàyǒu-kěwéi",
+"gloss": "promising"
+},
+{
+"nid": 1782504763238,
+"word": "登顶",
+"trad": "登頂",
+"pinyin": "dēngdǐng",
+"gloss": "reach the peak"
+},
+{
+"nid": 1782504763272,
+"word": "垫底",
+"trad": "墊底",
+"pinyin": "diàndǐ",
+"gloss": "bottom place"
+},
+{
+"nid": 1782504763276,
+"word": "淀粉",
+"trad": "澱粉",
+"pinyin": "diànfěn",
+"gloss": "starch"
+},
+{
+"nid": 1782504763344,
+"word": "跌幅",
+"trad": "跌幅",
+"pinyin": "diēfú",
+"gloss": "decline"
+},
+{
+"nid": 1782504763494,
+"word": "对弈",
+"trad": "對弈",
+"pinyin": "duìyì",
+"gloss": "play chess"
+},
+{
+"nid": 1782504763503,
+"word": "夺魁",
+"trad": "奪魁",
+"pinyin": "duókuí",
+"gloss": "take first place"
+},
+{
+"nid": 1782504763650,
+"word": "防汛",
+"trad": "防汛",
+"pinyin": "fángxùn",
+"gloss": "flood control"
+},
+{
+"nid": 1782504763785,
+"word": "风餐露宿",
+"trad": "風餐露宿",
+"pinyin": "fēngcān-lùsù",
+"gloss": "live rough"
+},
+{
+"nid": 1782504763822,
+"word": "风景线",
+"trad": "風景線",
+"pinyin": "fēngjǐngxiàn",
+"gloss": "scenic highlight"
+},
+{
+"nid": 1782504763855,
+"word": "丰硕",
+"trad": "豐碩",
+"pinyin": "fēngshuò",
+"gloss": "fruitful"
+},
+{
+"nid": 1782504763924,
+"word": "抚恤",
+"trad": "撫卹",
+"pinyin": "fǔxù",
+"gloss": "pension"
+},
+{
+"nid": 1782504763943,
+"word": "负重",
+"trad": "負重",
+"pinyin": "fùzhòng",
+"gloss": "bear a burden"
+},
+{
+"nid": 1782504764104,
+"word": "公办",
+"trad": "公辦",
+"pinyin": "gōngbàn",
+"gloss": "publicly run"
+},
+{
+"nid": 1782504764115,
+"word": "公费",
+"trad": "公費",
+"pinyin": "gōngfèi",
+"gloss": "public expense"
+},
+{
+"nid": 1782504764136,
+"word": "供暖",
+"trad": "供暖",
+"pinyin": "gōngnuǎn",
+"gloss": "heating supply"
+},
+{
+"nid": 1782504764142,
+"word": "公仆",
+"trad": "公僕",
+"pinyin": "gōngpú",
+"gloss": "civil servant"
+},
+{
+"nid": 1782504764337,
+"word": "股民",
+"trad": "股民",
+"pinyin": "gǔmín",
+"gloss": "stock investor"
+},
+{
+"nid": 1782504764358,
+"word": "国徽",
+"trad": "國徽",
+"pinyin": "guóhuī",
+"gloss": "national emblem"
+},
+{
+"nid": 1782504764403,
+"word": "顾全大局",
+"trad": "顧全大局",
+"pinyin": "gùquán-dàjú",
+"gloss": "take the overall situation into"
+},
+{
+"nid": 1782504764425,
+"word": "酣畅",
+"trad": "酣暢",
+"pinyin": "hānchàng",
+"gloss": "exhilarated"
+},
+{
+"nid": 1782504764536,
+"word": "贺电",
+"trad": "賀電",
+"pinyin": "hèdiàn",
+"gloss": "congratulatory telegram"
+},
+{
+"nid": 1782504764541,
+"word": "荷花",
+"trad": "荷花",
+"pinyin": "héhuā",
+"gloss": "lotus"
+},
+{
+"nid": 1782504764597,
+"word": "贺信",
+"trad": "賀信",
+"pinyin": "hèxìn",
+"gloss": "congratulatory letter"
+},
+{
+"nid": 1782504764665,
+"word": "后备箱",
+"trad": "後備箱",
+"pinyin": "hòubèixiāng",
+"gloss": "trunk"
+},
+{
+"nid": 1782504764701,
+"word": "槐树",
+"trad": "槐樹",
+"pinyin": "huáishù",
+"gloss": "locust tree"
+},
+{
+"nid": 1782504764711,
+"word": "环比",
+"trad": "環比",
+"pinyin": "huánbǐ",
+"gloss": "month-on-month"
+},
+{
+"nid": 1782504764759,
+"word": "欢聚",
+"trad": "歡聚",
+"pinyin": "huānjù",
+"gloss": "reunion"
+},
+{
+"nid": 1782504764837,
+"word": "会诊",
+"trad": "會診",
+"pinyin": "huìzhěn",
+"gloss": "joint consultation"
+},
+{
+"nid": 1782504764926,
+"word": "减负",
+"trad": "減負",
+"pinyin": "jiǎnfù",
+"gloss": "reduce burden"
+},
+{
+"nid": 1782504765107,
+"word": "家政",
+"trad": "家政",
+"pinyin": "jiāzhèng",
+"gloss": "housekeeping"
+},
+{
+"nid": 1782504765254,
+"word": "激化",
+"trad": "激化",
+"pinyin": "jīhuà",
+"gloss": "intensify"
+},
+{
+"nid": 1782504765265,
+"word": "忌口",
+"trad": "忌口",
+"pinyin": "jìkǒu",
+"gloss": "diet restriction"
+},
+{
+"nid": 1782504765323,
+"word": "经久不息",
+"trad": "經久不息",
+"pinyin": "jīngjiǔ-bùxī",
+"gloss": "lasting"
+},
+{
+"nid": 1782504765396,
+"word": "锦旗",
+"trad": "錦旗",
+"pinyin": "jǐnqí",
+"gloss": "banner"
+},
+{
+"nid": 1782504765439,
+"word": "酒楼",
+"trad": "酒樓",
+"pinyin": "jiǔlóu",
+"gloss": "restaurant"
+},
+{
+"nid": 1782504765561,
+"word": "居于",
+"trad": "居於",
+"pinyin": "jūyú",
+"gloss": "reside"
+},
+{
+"nid": 1782504765581,
+"word": "开天辟地",
+"trad": "開天闢地",
+"pinyin": "kāitiān-pìdì",
+"gloss": "epochmaking"
+},
+{
+"nid": 1782504765613,
+"word": "可乘之机",
+"trad": "可乘之機",
+"pinyin": "kěchéngzhījī",
+"gloss": "opportunity"
+},
+{
+"nid": 1782504765622,
+"word": "客流",
+"trad": "客流",
+"pinyin": "kèliú",
+"gloss": "passengerflow"
+},
+{
+"nid": 1782504765648,
+"word": "口碑",
+"trad": "口碑",
+"pinyin": "kǒubēi",
+"gloss": "reputation"
+},
+{
+"nid": 1782504765787,
+"word": "拉动",
+"trad": "拉動",
+"pinyin": "lādòng",
+"gloss": "stimulate"
+},
+{
+"nid": 1782504765809,
+"word": "来之不易",
+"trad": "來之不易",
+"pinyin": "láizhī-búyì",
+"gloss": "hardwon"
+},
+{
+"nid": 1782504765838,
+"word": "老伴儿",
+"trad": "老伴兒",
+"pinyin": "lǎobànr",
+"gloss": "spouse"
+},
+{
+"nid": 1782504765963,
+"word": "两翼",
+"trad": "兩翼",
+"pinyin": "liǎngyì",
+"gloss": "wings"
+},
+{
+"nid": 1782504765986,
+"word": "廉正",
+"trad": "廉正",
+"pinyin": "liánzhèng",
+"gloss": "upright"
+},
+{
+"nid": 1782504765995,
+"word": "莲子",
+"trad": "蓮子",
+"pinyin": "liánzǐ",
+"gloss": "lotusseed"
+},
+{
+"nid": 1782504766099,
+"word": "临街",
+"trad": "臨街",
+"pinyin": "línjiē",
+"gloss": "streetfront"
+},
+{
+"nid": 1782504766112,
+"word": "离谱儿",
+"trad": "離譜兒",
+"pinyin": "lípǔr",
+"gloss": "absurd"
+},
+{
+"nid": 1782504766254,
+"word": "卤味",
+"trad": "滷味",
+"pinyin": "lǔwèi",
+"gloss": "brinedfood"
+},
+{
+"nid": 1782504766293,
+"word": "麻辣",
+"trad": "麻辣",
+"pinyin": "málà",
+"gloss": "spicy"
+},
+{
+"nid": 1782504766562,
+"word": "末日",
+"trad": "末日",
+"pinyin": "mòrì",
+"gloss": "doomsday"
+},
+{
+"nid": 1782504766659,
+"word": "内需",
+"trad": "內需",
+"pinyin": "nèixū",
+"gloss": "domestic demand"
+},
+{
+"nid": 1782504766663,
+"word": "能耗",
+"trad": "能耗",
+"pinyin": "nénghào",
+"gloss": "energy consumption"
+},
+{
+"nid": 1782504766762,
+"word": "拍板",
+"trad": "拍板",
+"pinyin": "pāibǎn",
+"gloss": "make final decision"
+},
+{
+"nid": 1782504766904,
+"word": "聘任",
+"trad": "聘任",
+"pinyin": "pìnrèn",
+"gloss": "appoint"
+},
+{
+"nid": 1782504766987,
+"word": "前无古人",
+"trad": "前無古人",
+"pinyin": "qiánwúgǔrén",
+"gloss": "unparalleled"
+},
+{
+"nid": 1782504767165,
+"word": "青铜器",
+"trad": "青銅器",
+"pinyin": "qīngtóngqì",
+"gloss": "bronze"
+},
+{
+"nid": 1782504767169,
+"word": "倾销",
+"trad": "傾銷",
+"pinyin": "qīngxiāo",
+"gloss": "dump"
+},
+{
+"nid": 1782504767315,
+"word": "取经",
+"trad": "取經",
+"pinyin": "qǔjīng",
+"gloss": "seek guidance"
+},
+{
+"nid": 1782504767318,
+"word": "曲艺",
+"trad": "曲藝",
+"pinyin": "qǔyì",
+"gloss": "folkart"
+},
+{
+"nid": 1782504767341,
+"word": "绕远儿",
+"trad": "繞遠兒",
+"pinyin": "ràoyuǎnr",
+"gloss": "gofarther"
+},
+{
+"nid": 1782504767344,
+"word": "人次",
+"trad": "人次",
+"pinyin": "réncì",
+"gloss": "headcount"
+},
+{
+"nid": 1782504767361,
+"word": "人缘儿",
+"trad": "人緣兒",
+"pinyin": "rényuánr",
+"gloss": "connections"
+},
+{
+"nid": 1782504767366,
+"word": "热腾腾",
+"trad": "熱騰騰",
+"pinyin": "rèténgténg",
+"gloss": "steaming"
+},
+{
+"nid": 1782504767370,
+"word": "热销",
+"trad": "熱銷",
+"pinyin": "rèxiāo",
+"gloss": "best seller"
+},
+{
+"nid": 1782504767411,
+"word": "软实力",
+"trad": "軟實力",
+"pinyin": "ruǎnshílì",
+"gloss": "softpower"
+},
+{
+"nid": 1782504767422,
+"word": "瑞雪",
+"trad": "瑞雪",
+"pinyin": "ruìxuě",
+"gloss": "auspicioussnow"
+},
+{
+"nid": 1782504767430,
+"word": "弱项",
+"trad": "弱項",
+"pinyin": "ruòxiàng",
+"gloss": "weakpoint"
+},
+{
+"nid": 1782504767433,
+"word": "如一",
+"trad": "如一",
+"pinyin": "rúyī",
+"gloss": "consistent"
+},
+{
+"nid": 1782504767465,
+"word": "杀毒",
+"trad": "殺毒",
+"pinyin": "shādú",
+"gloss": "antivirus"
+},
+{
+"nid": 1782504767474,
+"word": "山川",
+"trad": "山川",
+"pinyin": "shānchuān",
+"gloss": "mountains and rivers"
+},
+{
+"nid": 1782504767576,
+"word": "申领",
+"trad": "申領",
+"pinyin": "shēnlǐng",
+"gloss": "apply"
+},
+{
+"nid": 1782504767685,
+"word": "首付",
+"trad": "首付",
+"pinyin": "shǒufù",
+"gloss": "Down Payment"
+},
+{
+"nid": 1782504767760,
+"word": "顺差",
+"trad": "順差",
+"pinyin": "shùnchā",
+"gloss": "Trade Surplus"
+},
+{
+"nid": 1782504767782,
+"word": "顺心",
+"trad": "順心",
+"pinyin": "shùnxīn",
+"gloss": "Content"
+},
+{
+"nid": 1782504767785,
+"word": "顺延",
+"trad": "順延",
+"pinyin": "shùnyán",
+"gloss": "Postpone"
+},
+{
+"nid": 1782504767805,
+"word": "疏通",
+"trad": "疏通",
+"pinyin": "shūtōng",
+"gloss": "Unblock"
+},
+{
+"nid": 1782504767945,
+"word": "随处可见",
+"trad": "隨處可見",
+"pinyin": "suíchù kě",
+"gloss": "jiàn"
+},
+{
+"nid": 1782504768026,
+"word": "陶冶",
+"trad": "陶冶",
+"pinyin": "táoyě",
+"gloss": "Cultivate"
+},
+{
+"nid": 1782504768169,
+"word": "通顺",
+"trad": "通順",
+"pinyin": "tōngshùn",
+"gloss": "Fluent"
+},
+{
+"nid": 1782504768282,
+"word": "突破口",
+"trad": "突破口",
+"pinyin": "tūpòkǒu",
+"gloss": "Breakthrough"
+},
+{
+"nid": 1782504768297,
+"word": "外币",
+"trad": "外幣",
+"pinyin": "wàibì",
+"gloss": "Foreign Currency"
+},
+{
+"nid": 1782504768513,
+"word": "蚊帐",
+"trad": "蚊帳",
+"pinyin": "wénzhàng",
+"gloss": "Mosquito Net"
+},
+{
+"nid": 1782504768674,
+"word": "物证",
+"trad": "物證",
+"pinyin": "wùzhèng",
+"gloss": "Evidence"
+},
+{
+"nid": 1782504768818,
+"word": "下坠",
+"trad": "下墜",
+"pinyin": "xiàzhuì",
+"gloss": "Plunge"
+},
+{
+"nid": 1782504768963,
+"word": "心急如焚",
+"trad": "心急如焚",
+"pinyin": "xīnjí-rúfén",
+"gloss": "Anxious"
+},
+{
+"nid": 1782504769048,
+"word": "喜糖",
+"trad": "喜糖",
+"pinyin": "xǐtáng",
+"gloss": "Candy"
+},
+{
+"nid": 1782504769132,
+"word": "锡纸",
+"trad": "錫紙",
+"pinyin": "xīzhǐ",
+"gloss": "Tin Foil"
+},
+{
+"nid": 1782504769240,
+"word": "秧歌",
+"trad": "秧歌",
+"pinyin": "yāngge",
+"gloss": "Yangge Dance"
+},
+{
+"nid": 1782504769251,
+"word": "杨树",
+"trad": "楊樹",
+"pinyin": "yángshù",
+"gloss": "Poplar Tree"
+},
+{
+"nid": 1782504769319,
+"word": "压轴",
+"trad": "壓軸",
+"pinyin": "yāzhòu",
+"gloss": "Finale"
+},
+{
+"nid": 1782504769335,
+"word": "夜校",
+"trad": "夜校",
+"pinyin": "yèxiào",
+"gloss": "Night School"
+},
+{
+"nid": 1782504769381,
+"word": "一经",
+"trad": "一經",
+"pinyin": "yìjīng",
+"gloss": "Once"
+},
+{
+"nid": 1782504769450,
+"word": "因地制宜",
+"trad": "因地制宜",
+"pinyin": "yīndì-zhìyí",
+"gloss": "Adapt to Local Conditions"
+},
+{
+"nid": 1782504769472,
+"word": "营利",
+"trad": "營利",
+"pinyin": "yínglì",
+"gloss": "Profit-Making"
+},
+{
+"nid": 1782504769603,
+"word": "游船",
+"trad": "遊船",
+"pinyin": "yóuchuán",
+"gloss": "Cruise Ship"
+},
+{
+"nid": 1782504769778,
+"word": "糟粕",
+"trad": "糟粕",
+"pinyin": "zāopò",
+"gloss": "Dregs"
+},
+{
+"nid": 1782504769856,
+"word": "争光",
+"trad": "爭光",
+"pinyin": "zhēngguāng",
+"gloss": "Win Honor"
+},
+{
+"nid": 1782504769952,
+"word": "致力于",
+"trad": "致力於",
+"pinyin": "zhìlìyú",
+"gloss": "Dedicate to"
+},
+{
+"nid": 1782504770061,
+"word": "专柜",
+"trad": "專櫃",
+"pinyin": "zhuānguì",
+"gloss": "Special Counter"
+},
+{
+"nid": 1782504770112,
+"word": "竹竿",
+"trad": "竹竿",
+"pinyin": "zhúgān",
+"gloss": "Bamboo Pole"
+},
+{
+"nid": 1782504770116,
+"word": "朱红",
+"trad": "硃紅",
+"pinyin": "zhūhóng",
+"gloss": "Vermilion"
+},
+{
+"nid": 1782504770297,
+"word": "作料",
+"trad": "作料",
+"pinyin": "zuòliao",
+"gloss": "Seasoning"
+},
+{
+"nid": 1782504770321,
+"word": "做证",
+"trad": "做證",
+"pinyin": "zuòzhèng",
+"gloss": "Testify"
+}
+]

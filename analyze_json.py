@@ -7,8 +7,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-SNAPSHOTS_DIR = Path("/home/vincent/anki/json_snapshots")
-COLLECTION_PATH = "/home/vincent/anki/collection.anki2"
+SNAPSHOTS_DIR = Path("/home/vincent/anki-headless/json_snapshots")
+COLLECTION_PATH = "/home/vincent/anki-headless/collection.anki2"
 
 
 def describe_value(v, depth=0, max_depth=3):
@@ -220,7 +220,7 @@ def find_hanly_candidates(known_chars):
         col.close()
 
 
-CHANGELOG_FILE = Path("/home/vincent/anki/changelog.jsonl")
+CHANGELOG_FILE = Path("/home/vincent/anki-headless/changelog.jsonl")
 
 
 def _log_change(action, note_ids=None, details=None):

@@ -1,322 +1,594 @@
 [
-  {
-    "nid": 1708747495173,
-    "word": "不得",
-    "sent_simp": "这里不得吸烟，请到外面去。",
-    "sent_trad": "這裡不得吸煙，請到外面去。",
-    "pinyin": "Zhè lǐ bù dé xī yān, qǐng dào wài miàn qù.",
-    "english": "Smoking is not allowed here — please go outside."
-  },
-  {
-    "nid": 1537328240414,
-    "word": "南京",
-    "sent_simp": "他上周去南京出差，才回来。",
-    "sent_trad": "他上週去南京出差，才回來。",
-    "pinyin": "Tā shàng zhōu qù Nán jīng chū chāi, cái huí lái.",
-    "english": "He just got back from a business trip to Nanjing last week."
-  },
-  {
-    "nid": 1537328244936,
-    "word": "电视台",
-    "sent_simp": "她在一家地方电视台做主持人。",
-    "sent_trad": "她在一家地方電視台做主持人。",
-    "pinyin": "Tā zài yī jiā dì fāng diàn shì tái zuò zhǔ chí rén.",
-    "english": "She works as a host at a local TV station."
-  },
-  {
-    "nid": 1537328247695,
-    "word": "类型",
-    "sent_simp": "你最喜欢哪种类型的电影？",
-    "sent_trad": "你最喜歡哪種類型的電影？",
-    "pinyin": "Nǐ zuì xǐ huān nǎ zhǒng lèi xíng de diàn yǐng?",
-    "english": "What type of movie do you like most?"
-  },
-  {
-    "nid": 1537328242910,
-    "word": "刚刚",
-    "sent_simp": "他刚刚出门，你可以打他电话。",
-    "sent_trad": "他剛剛出門，你可以打他電話。",
-    "pinyin": "Tā gāng gang chū mén, nǐ kě yǐ dǎ tā diàn huà.",
-    "english": "He just stepped out — you can give him a call."
-  },
-  {
-    "nid": 1537328240675,
-    "word": "家里",
-    "sent_simp": "今天下雨，我就待在家里看书。",
-    "sent_trad": "今天下雨，我就待在家裡看書。",
-    "pinyin": "Jīn tiān xià yǔ, wǒ jiù dāi zài jiā li kàn shū.",
-    "english": "It's raining today, so I'm just staying home and reading."
-  },
-  {
-    "nid": 1537328245744,
-    "word": "手段",
-    "sent_simp": "他用了各种手段，终于解决了问题。",
-    "sent_trad": "他用了各種手段，終於解決了問題。",
-    "pinyin": "Tā yòng le gè zhǒng shǒu duàn, zhōng yú jiě jué le wèn tí.",
-    "english": "He tried all kinds of methods and finally solved the problem."
-  },
-  {
-    "nid": 1537328246070,
-    "word": "概念",
-    "sent_simp": "这个概念对初学者来说有点难懂。",
-    "sent_trad": "這個概念對初學者來說有點難懂。",
-    "pinyin": "Zhè ge gài niàn duì chū xué zhě lái shuō yǒu diǎn nán dǒng.",
-    "english": "This concept is a bit hard to grasp for beginners."
-  },
-  {
-    "nid": 1537328240633,
-    "word": "等等",
-    "sent_simp": "冰箱里有苹果、香蕉、橙子等等。",
-    "sent_trad": "冰箱裡有蘋果、香蕉、橙子等等。",
-    "pinyin": "Bīng xiāng lǐ yǒu píng guǒ, xiāng jiāo, chéng zi děng děng.",
-    "english": "There are apples, bananas, oranges, and so on in the fridge."
-  },
-  {
-    "nid": 1533209755055,
-    "word": "纽约",
-    "sent_simp": "她明年打算去纽约留学。",
-    "sent_trad": "她明年打算去紐約留學。",
-    "pinyin": "Tā míng nián dǎ suàn qù Niǔ yuē liú xué.",
-    "english": "She plans to study abroad in New York next year."
-  },
-  {
-    "nid": 1537328239967,
-    "word": "英文",
-    "sent_simp": "这份合同要翻译成英文。",
-    "sent_trad": "這份合同要翻譯成英文。",
-    "pinyin": "Zhè fèn hé tong yào fān yì chéng Yīng wén.",
-    "english": "This contract needs to be translated into English."
-  },
-  {
-    "nid": 1708747490043,
-    "word": "警方",
-    "sent_simp": "警方已经逮捕了嫌疑人。",
-    "sent_trad": "警方已經逮捕了嫌疑人。",
-    "pinyin": "Jǐng fāng yǐ jīng dài bǔ le xián yí rén.",
-    "english": "The police have already arrested the suspect."
-  },
-  {
-    "nid": 1537328246394,
-    "word": "食品",
-    "sent_simp": "超市里的进口食品越来越多。",
-    "sent_trad": "超市裡的進口食品越來越多。",
-    "pinyin": "Chāo shì lǐ de jìn kǒu shí pǐn yuè lái yuè duō.",
-    "english": "There are more and more imported food products in the supermarket."
-  },
-  {
-    "nid": 1537328239681,
-    "word": "不好",
-    "sent_simp": "最近睡眠不好，感觉很累。",
-    "sent_trad": "最近睡眠不好，感覺很累。",
-    "pinyin": "Zuì jìn shuì mián bù hǎo, gǎn jué hěn lèi.",
-    "english": "My sleep hasn't been good lately and I feel really tired."
-  },
-  {
-    "nid": 1393817667228,
-    "word": "对象",
-    "sent_simp": "她交了一个新对象，看起来很幸福。",
-    "sent_trad": "她交了一個新對象，看起來很幸福。",
-    "pinyin": "Tā jiāo le yī gè xīn duì xiàng, kàn qǐ lái hěn xìng fú.",
-    "english": "She's started dating someone new and looks really happy."
-  },
-  {
-    "nid": 1537328246328,
-    "word": "漫画",
-    "sent_simp": "他从小就喜欢看漫画，书架上摆满了。",
-    "sent_trad": "他從小就喜歡看漫畫，書架上擺滿了。",
-    "pinyin": "Tā cóng xiǎo jiù xǐ huān kàn màn huà, shū jià shàng bǎi mǎn le.",
-    "english": "He's loved reading comics since he was little — his shelf is packed with them."
-  },
-  {
-    "nid": 1537328239530,
-    "word": "人人",
-    "sent_simp": "人人都有机会参加这次比赛。",
-    "sent_trad": "人人都有機會參加這次比賽。",
-    "pinyin": "Rén rén dōu yǒu jī huì cān jiā zhè cì bǐ sài.",
-    "english": "Everyone has a chance to participate in this competition."
-  },
-  {
-    "nid": 1708747487011,
-    "word": "最新",
-    "sent_simp": "你看到最新的消息了吗？",
-    "sent_trad": "你看到最新的消息了嗎？",
-    "pinyin": "Nǐ kàn dào zuì xīn de xiāo xi le ma?",
-    "english": "Did you see the latest news?"
-  },
-  {
-    "nid": 1537328243526,
-    "word": "男性",
-    "sent_simp": "这项运动以男性参与者为主。",
-    "sent_trad": "這項運動以男性參與者為主。",
-    "pinyin": "Zhè xiàng yùn dòng yǐ nán xìng cān yù zhě wéi zhǔ.",
-    "english": "This sport is dominated by male participants."
-  },
-  {
-    "nid": 1537328247643,
-    "word": "路线",
-    "sent_simp": "导航显示这条路线最省时间。",
-    "sent_trad": "導航顯示這條路線最省時間。",
-    "pinyin": "Dǎo háng xiǎn shì zhè tiáo lù xiàn zuì shěng shí jiān.",
-    "english": "The navigation shows this route saves the most time."
-  },
-  {
-    "nid": 1537328245738,
-    "word": "一段",
-    "sent_simp": "他们交往了一段时间后分手了。",
-    "sent_trad": "他們交往了一段時間後分手了。",
-    "pinyin": "Tā men jiāo wǎng le yī duàn shí jiān hòu fēn shǒu le.",
-    "english": "They dated for a while before breaking up."
-  },
-  {
-    "nid": 1708747527036,
-    "word": "国民党",
-    "sent_simp": "国民党在台湾是主要政党之一。",
-    "sent_trad": "國民黨在台灣是主要政黨之一。",
-    "pinyin": "Guó mín dǎng zài Tái wān shì zhǔ yào zhèng dǎng zhī yī.",
-    "english": "The Kuomintang is one of the major political parties in Taiwan."
-  },
-  {
-    "nid": 1537328247297,
-    "word": "大部分",
-    "sent_simp": "大部分同学都选择了住校。",
-    "sent_trad": "大部分同學都選擇了住校。",
-    "pinyin": "Dà bù fen tóng xué dōu xuǎn zé le zhù xiào.",
-    "english": "The majority of students chose to live on campus."
-  },
-  {
-    "nid": 1705601996088,
-    "word": "海外",
-    "sent_simp": "她在海外工作了三年才回国。",
-    "sent_trad": "她在海外工作了三年才回國。",
-    "pinyin": "Tā zài hǎi wài gōng zuò le sān nián cái huí guó.",
-    "english": "She worked overseas for three years before returning home."
-  },
-  {
-    "nid": 1537328243028,
-    "word": "西班牙",
-    "sent_simp": "西班牙的足球队非常有名。",
-    "sent_trad": "西班牙的足球隊非常有名。",
-    "pinyin": "Xī bān yá de zú qiú duì fēi cháng yǒu míng.",
-    "english": "Spain's football team is very famous."
-  },
-  {
-    "nid": 1708747506039,
-    "word": "新加坡",
-    "sent_simp": "新加坡的街道非常干净整洁。",
-    "sent_trad": "新加坡的街道非常乾淨整潔。",
-    "pinyin": "Xīn jiā pō de jiē dào fēi cháng gān jìng zhěng jié.",
-    "english": "The streets of Singapore are extremely clean and tidy."
-  },
-  {
-    "nid": 1537328245922,
-    "word": "留下",
-    "sent_simp": "他走后，桌上留下了一张纸条。",
-    "sent_trad": "他走後，桌上留下了一張紙條。",
-    "pinyin": "Tā zǒu hòu, zhuō shàng liú xià le yī zhāng zhǐ tiáo.",
-    "english": "After he left, he left a note on the table."
-  },
-  {
-    "nid": 1537328240173,
-    "word": "不知",
-    "sent_simp": "不知为何，他今天心情很差。",
-    "sent_trad": "不知為何，他今天心情很差。",
-    "pinyin": "Bù zhī wèi hé, tā jīn tiān xīn qíng hěn chà.",
-    "english": "For some reason, he's in a really bad mood today."
-  },
-  {
-    "nid": 1537328240881,
-    "word": "东北",
-    "sent_simp": "他老家在东北，冬天特别冷。",
-    "sent_trad": "他老家在東北，冬天特別冷。",
-    "pinyin": "Tā lǎo jiā zài dōng běi, dōng tiān tè bié lěng.",
-    "english": "His hometown is in the Northeast — winters there are especially cold."
-  },
-  {
-    "nid": 1537328244353,
-    "word": "收到",
-    "sent_simp": "我刚收到一封来自老同学的邮件。",
-    "sent_trad": "我剛收到一封來自老同學的郵件。",
-    "pinyin": "Wǒ gāng shōu dào yī fēng lái zì lǎo tóng xué de yóu jiàn.",
-    "english": "I just received an email from an old classmate."
-  },
-  {
-    "nid": 1695787012150,
-    "word": "澳门",
-    "sent_simp": "他们去澳门旅游，顺便参观了大三巴。",
-    "sent_trad": "他們去澳門旅遊，順便參觀了大三巴。",
-    "pinyin": "Tā men qù Ào mén lǚ yóu, shùn biàn cān guān le Dà sān bā.",
-    "english": "They visited Macau and stopped by the Ruins of St. Paul's while they were at it."
-  },
-  {
-    "nid": 1537328247568,
-    "word": "用于",
-    "sent_simp": "这笔钱主要用于购买教学材料。",
-    "sent_trad": "這筆錢主要用於購買教學材料。",
-    "pinyin": "Zhè bǐ qián zhǔ yào yòng yú gòu mǎi jiāo xué cái liào.",
-    "english": "This money is mainly used to purchase teaching materials."
-  },
-  {
-    "nid": 1537328245878,
-    "word": "非洲",
-    "sent_simp": "非洲的野生动物让我印象深刻。",
-    "sent_trad": "非洲的野生動物讓我印象深刻。",
-    "pinyin": "Fēi zhōu de yě shēng dòng wù ràng wǒ yìn xiàng shēn kè.",
-    "english": "The wildlife in Africa left a deep impression on me."
-  },
-  {
-    "nid": 1708747499741,
-    "word": "天津",
-    "sent_simp": "天津的煎饼果子很有名，我很想尝尝。",
-    "sent_trad": "天津的煎餅果子很有名，我很想嚐嚐。",
-    "pinyin": "Tiān jīn de jiān bǐng guǒ zi hěn yǒu míng, wǒ hěn xiǎng cháng cháng.",
-    "english": "Tianjin's jianbing are famous — I really want to try one."
-  },
-  {
-    "nid": 1393817669772,
-    "word": "生态",
-    "sent_simp": "这片森林的生态保护得很好。",
-    "sent_trad": "這片森林的生態保護得很好。",
-    "pinyin": "Zhè piàn sēn lín de shēng tài bǎo hù de hěn hǎo.",
-    "english": "The ecology of this forest is very well protected."
-  },
-  {
-    "nid": 1393817669678,
-    "word": "规范",
-    "sent_simp": "写代码时要遵守团队的规范。",
-    "sent_trad": "寫代碼時要遵守團隊的規範。",
-    "pinyin": "Xiě dài mǎ shí yào zūn shǒu tuán duì de guī fàn.",
-    "english": "When writing code, you need to follow the team's standards."
-  },
-  {
-    "nid": 1537328241394,
-    "word": "听说",
-    "sent_simp": "我听说他最近换工作了，是真的吗？",
-    "sent_trad": "我聽說他最近換工作了，是真的嗎？",
-    "pinyin": "Wǒ tīng shuō tā zuì jìn huàn gōng zuò le, shì zhēn de ma?",
-    "english": "I heard he recently changed jobs — is that true?"
-  },
-  {
-    "nid": 1393817668325,
-    "word": "并非",
-    "sent_simp": "贵的东西并非都是好的。",
-    "sent_trad": "貴的東西並非都是好的。",
-    "pinyin": "Guì de dōng xi bìng fēi dōu shì hǎo de.",
-    "english": "Expensive things are not necessarily all good."
-  },
-  {
-    "nid": 1393817667935,
-    "word": "性质",
-    "sent_simp": "这两件事的性质完全不同。",
-    "sent_trad": "這兩件事的性質完全不同。",
-    "pinyin": "Zhè liǎng jiàn shì de xìng zhì wán quán bù tóng.",
-    "english": "The nature of these two matters is completely different."
-  },
-  {
-    "nid": 1537328245003,
-    "word": "网上",
-    "sent_simp": "我在网上买了一双新鞋，明天到货。",
-    "sent_trad": "我在網上買了一雙新鞋，明天到貨。",
-    "pinyin": "Wǒ zài wǎng shàng mǎi le yī shuāng xīn xié, míng tiān dào huò.",
-    "english": "I bought a new pair of shoes online — they'll arrive tomorrow."
-  }
+{
+"nid": 1708747496774,
+"word": "悦耳",
+"sent_simp": "她的歌声非常悦耳，让人听了很放松。",
+"sent_trad": "她的歌聲非常悅耳，讓人聽了很放鬆。",
+"pinyin": "tā de gē shēng fēi cháng yuè ěr ， ràng rén tīng le hěn fàng sōng 。",
+"english": "Her singing is very pleasant to the ear and makes people feel relaxed."
+},
+{
+"nid": 1708747496890,
+"word": "少不了",
+"sent_simp": "过年的时候，餐桌上少不了一条鱼。",
+"sent_trad": "過年的時候，餐桌上少不了一條魚。",
+"pinyin": "guò nián de shí hòu ， cān zhuō shàng shào bù liǎo yī tiáo yú 。",
+"english": "During the New Year, a fish on the dinner table is indispensable."
+},
+{
+"nid": 1708747497181,
+"word": "潦草",
+"sent_simp": "他写字太潦草，我几乎看不清楚。",
+"sent_trad": "他寫字太潦草，我幾乎看不清楚。",
+"pinyin": "tā xiě zì tài liáo cǎo ， wǒ jī hū kàn bù qīng chǔ 。",
+"english": "His handwriting is too sloppy; I can barely read it clearly."
+},
+{
+"nid": 1708747497227,
+"word": "开庭",
+"sent_simp": "这个案子下周一上午就要开庭了。",
+"sent_trad": "這個案子下週一上午就要開庭了。",
+"pinyin": "zhè ge àn zi xià zhōu yī shàng wǔ jiù yào kāi tíng le 。",
+"english": "This case will go to trial next Monday morning."
+},
+{
+"nid": 1708747497366,
+"word": "眺望",
+"sent_simp": "我们站在山顶眺望远处的大海。",
+"sent_trad": "我們站在山頂眺望遠處的大海。",
+"pinyin": "wǒ men zhàn zài shān dǐng tiào wàng yuǎn chù de dà hǎi 。",
+"english": "We stood on the mountaintop and gazed out at the distant sea."
+},
+{
+"nid": 1708747497370,
+"word": "惨白",
+"sent_simp": "听到这个消息，她的脸色一下子变得惨白。",
+"sent_trad": "聽到這個消息，她的臉色一下子變得慘白。",
+"pinyin": "tīng dào zhè ge xiāo xī ， tā de liǎn sè yī xià zi biàn dé cǎn bái 。",
+"english": "On hearing the news, her face suddenly turned deathly pale."
+},
+{
+"nid": 1708747497400,
+"word": "勾勒",
+"sent_simp": "他用几笔就勾勒出人物的轮廓。",
+"sent_trad": "他用幾筆就勾勒出人物的輪廓。",
+"pinyin": "tā yòng jǐ bǐ jiù gōu lè chū rén wù de lún kuò 。",
+"english": "With just a few strokes he sketched the outline of the figure."
+},
+{
+"nid": 1708747497855,
+"word": "赫然",
+"sent_simp": "名单上赫然写着他的名字。",
+"sent_trad": "名單上赫然寫著他的名字。",
+"pinyin": "míng dān shàng hè rán xiě zhe tā de míng zì 。",
+"english": "His name was conspicuously written on the list, to my shock."
+},
+{
+"nid": 1708747497896,
+"word": "毛衣",
+"sent_simp": "天气冷了，记得多穿一件毛衣。",
+"sent_trad": "天氣冷了，記得多穿一件毛衣。",
+"pinyin": "tiān qì lěng le ， jì de duō chuān yī jiàn máo yī 。",
+"english": "It's gotten cold; remember to put on an extra sweater."
+},
+{
+"nid": 1708747497924,
+"word": "禁不住",
+"sent_simp": "看到这么感人的场面，她禁不住流下了眼泪。",
+"sent_trad": "看到這麼感人的場面，她禁不住流下了眼淚。",
+"pinyin": "kàn dào zhè me gǎn rén de chǎng miàn ， tā jīn bú zhù liú xià le yǎn lèi 。",
+"english": "Seeing such a touching scene, she couldn't help but burst into tears."
+},
+{
+"nid": 1708747498087,
+"word": "乡亲",
+"sent_simp": "他回到老家，受到了乡亲们的热情欢迎。",
+"sent_trad": "他回到老家，受到了鄉親們的熱情歡迎。",
+"pinyin": "tā huí dào lǎo jiā ， shòu dào le xiāng qīn men de rè qíng huān yíng 。",
+"english": "When he returned to his hometown, the villagers gave him a warm welcome."
+},
+{
+"nid": 1708747498128,
+"word": "烘焙",
+"sent_simp": "她周末喜欢在家烘焙各种点心。",
+"sent_trad": "她週末喜歡在家烘焙各種點心。",
+"pinyin": "tā zhōu mò xǐ huān zài jiā hōng bèi gè zhǒng diǎn xīn 。",
+"english": "On weekends she likes to bake all kinds of pastries at home."
+},
+{
+"nid": 1708747498132,
+"word": "靴子",
+"sent_simp": "冬天到了，她买了一双新靴子。",
+"sent_trad": "冬天到了，她買了一雙新靴子。",
+"pinyin": "dōng tiān dào le ， tā mǎi le yī shuāng xīn xuē zi 。",
+"english": "Winter has come, and she bought a new pair of boots."
+},
+{
+"nid": 1708747498200,
+"word": "商贩",
+"sent_simp": "街边的商贩在大声叫卖水果。",
+"sent_trad": "街邊的商販在大聲叫賣水果。",
+"pinyin": "jiē biān de shāng fàn zài dà shēng jiào mài shuǐ guǒ 。",
+"english": "The street vendors were loudly hawking their fruit."
+},
+{
+"nid": 1708747498228,
+"word": "凳子",
+"sent_simp": "请帮我搬一把凳子过来。",
+"sent_trad": "請幫我搬一把凳子過來。",
+"pinyin": "qǐng bāng wǒ bān yī bǎ dèng zi guò lái 。",
+"english": "Please help me bring over a stool."
+},
+{
+"nid": 1708747498239,
+"word": "休克",
+"sent_simp": "病人因为失血过多而陷入了休克。",
+"sent_trad": "病人因為失血過多而陷入了休克。",
+"pinyin": "bìng rén yīn wèi shī xuè guò duō ér xiàn rù le xiū kè 。",
+"english": "The patient went into shock from excessive blood loss."
+},
+{
+"nid": 1708747498432,
+"word": "趁早",
+"sent_simp": "有问题就趁早解决，别拖到最后。",
+"sent_trad": "有問題就趁早解決，別拖到最後。",
+"pinyin": "yǒu wèn tí jiù chèn zǎo jiě jué ， bié tuō dào zuì hòu 。",
+"english": "If there's a problem, deal with it sooner rather than later, don't drag it out."
+},
+{
+"nid": 1708747498795,
+"word": "荧光",
+"sent_simp": "这些指针在黑暗中会发出淡淡的荧光。",
+"sent_trad": "這些指針在黑暗中會發出淡淡的螢光。",
+"pinyin": "zhè xiē zhǐ zhēn zài hēi àn zhōng huì fā chū dàn dàn de yíng guāng 。",
+"english": "These hands give off a faint fluorescent glow in the dark."
+},
+{
+"nid": 1708747498860,
+"word": "灯泡",
+"sent_simp": "卧室的灯泡坏了，需要换一个。",
+"sent_trad": "臥室的燈泡壞了，需要換一個。",
+"pinyin": "wò shì de dēng pào huài le ， xū yào huàn yí gè 。",
+"english": "The bedroom light bulb is broken and needs to be replaced."
+},
+{
+"nid": 1708747498892,
+"word": "浩瀚",
+"sent_simp": "面对浩瀚的大海，我感到无比渺小。",
+"sent_trad": "面對浩瀚的大海，我感到無比渺小。",
+"pinyin": "miàn duì hào hàn de dà hǎi ， wǒ gǎn dào wú bǐ miǎo xiǎo 。",
+"english": "Facing the vast ocean, I felt incomparably small."
+},
+{
+"nid": 1708747498904,
+"word": "毫升",
+"sent_simp": "这个瓶子能装五百毫升的水。",
+"sent_trad": "這個瓶子能裝五百毫升的水。",
+"pinyin": "zhè ge píng zi néng zhuāng wǔ bǎi háo shēng de shuǐ 。",
+"english": "This bottle can hold five hundred milliliters of water."
+},
+{
+"nid": 1708747498941,
+"word": "精巧",
+"sent_simp": "这件工艺品的设计十分精巧。",
+"sent_trad": "這件工藝品的設計十分精巧。",
+"pinyin": "zhè jiàn gōng yì pǐn de shè jì shí fēn jīng qiǎo 。",
+"english": "The design of this handicraft is extremely exquisite."
+},
+{
+"nid": 1708747499015,
+"word": "祥和",
+"sent_simp": "节日里，整座城市充满了祥和的气氛。",
+"sent_trad": "節日裡，整座城市充滿了祥和的氣氛。",
+"pinyin": "jié rì lǐ ， zhěng zuò chéng shì chōng mǎn le xiáng hé de qì fēn 。",
+"english": "During the holiday, the whole city was filled with a peaceful atmosphere."
+},
+{
+"nid": 1708747499084,
+"word": "贮藏",
+"sent_simp": "这些粮食贮藏在干燥的仓库里。",
+"sent_trad": "這些糧食貯藏在乾燥的倉庫裡。",
+"pinyin": "zhè xiē liáng shí zhù cáng zài gān zào de cāng kù lǐ 。",
+"english": "These grains are stored in a dry warehouse."
+},
+{
+"nid": 1708747499320,
+"word": "年轮",
+"sent_simp": "通过树木的年轮可以判断它的年龄。",
+"sent_trad": "通過樹木的年輪可以判斷它的年齡。",
+"pinyin": "tōng guò shù mù de nián lún kě yǐ pàn duàn tā de nián líng 。",
+"english": "You can determine a tree's age by its growth rings."
+},
+{
+"nid": 1708747499564,
+"word": "波澜",
+"sent_simp": "这部小说情节起伏，波澜壮阔。",
+"sent_trad": "這部小說情節起伏，波瀾壯闊。",
+"pinyin": "zhè bù xiǎo shuō qíng jié qǐ fú ， bō lán zhuàng kuò 。",
+"english": "This novel's plot rises and falls with grand, sweeping momentum."
+},
+{
+"nid": 1708747499630,
+"word": "翠绿",
+"sent_simp": "雨后的草地显得格外翠绿。",
+"sent_trad": "雨後的草地顯得格外翠綠。",
+"pinyin": "yǔ hòu de cǎo dì xiǎn de gé wài cuì lǜ 。",
+"english": "After the rain the meadow looked exceptionally emerald green."
+},
+{
+"nid": 1708747499707,
+"word": "此起彼伏",
+"sent_simp": "广场上的欢呼声此起彼伏。",
+"sent_trad": "廣場上的歡呼聲此起彼伏。",
+"pinyin": "guǎng chǎng shàng de huān hū shēng cǐ qǐ bǐ fú 。",
+"english": "Cheers rose one after another across the square."
+},
+{
+"nid": 1708747499752,
+"word": "憔悴",
+"sent_simp": "连续加班让他看上去十分憔悴。",
+"sent_trad": "連續加班讓他看上去十分憔悴。",
+"pinyin": "lián xù jiā bān ràng tā kàn shàng qù shí fēn qiáo cuì 。",
+"english": "Working overtime for days on end left him looking utterly haggard."
+},
+{
+"nid": 1708747499892,
+"word": "眨眼",
+"sent_simp": "孩子对我眨眼，好像在传递什么暗号。",
+"sent_trad": "孩子對我眨眼，好像在傳遞什麼暗號。",
+"pinyin": "hái zi duì wǒ zhǎ yǎn ， hǎo xiàng zài chuán dì shén me àn hào 。",
+"english": "The child winked at me as if passing some secret signal."
+},
+{
+"nid": 1708747499961,
+"word": "汪洋",
+"sent_simp": "暴雨过后，田地变成了一片汪洋。",
+"sent_trad": "暴雨過後，田地變成了一片汪洋。",
+"pinyin": "bào yǔ guò hòu ， tián dì biàn chéng le yī piàn wāng yáng 。",
+"english": "After the downpour, the fields turned into a vast expanse of water."
+},
+{
+"nid": 1708747500078,
+"word": "前程",
+"sent_simp": "老师祝愿每位毕业生都有美好的前程。",
+"sent_trad": "老師祝願每位畢業生都有美好的前程。",
+"pinyin": "lǎo shī zhù yuàn měi wèi bì yè shēng dōu yǒu měi hǎo de qián chéng 。",
+"english": "The teacher wished every graduate a bright future."
+},
+{
+"nid": 1708747500258,
+"word": "脊梁",
+"sent_simp": "这些劳动者是支撑国家发展的脊梁。",
+"sent_trad": "這些勞動者是支撐國家發展的脊梁。",
+"pinyin": "zhè xiē láo dòng zhě shì zhī chēng guó jiā fā zhǎn de jí liáng 。",
+"english": "These workers are the backbone supporting the nation's development."
+},
+{
+"nid": 1708747500364,
+"word": "秉承",
+"sent_simp": "这家公司一直秉承诚信经营的理念。",
+"sent_trad": "這家公司一直秉承誠信經營的理念。",
+"pinyin": "zhè jiā gōng sī yì zhí bǐng chéng chéng xìn jīng yíng de lǐ niàn 。",
+"english": "This company has always upheld the principle of doing business with integrity."
+},
+{
+"nid": 1708747500410,
+"word": "斑点",
+"sent_simp": "这只小狗身上有许多黑色的斑点。",
+"sent_trad": "這隻小狗身上有許多黑色的斑點。",
+"pinyin": "zhè zhǐ xiǎo gǒu shēn shàng yǒu xǔ duō hēi sè de bān diǎn 。",
+"english": "This puppy has many black spots on its body."
+},
+{
+"nid": 1708747500419,
+"word": "柜子",
+"sent_simp": "干净的衣服都叠好放进柜子里了。",
+"sent_trad": "乾淨的衣服都疊好放進櫃子裡了。",
+"pinyin": "gān jìng de yī fú dōu dié hǎo fàng jìn guì zi lǐ le 。",
+"english": "The clean clothes have all been folded and put away in the cabinet."
+},
+{
+"nid": 1708747500478,
+"word": "修长",
+"sent_simp": "她有一双修长而灵巧的手指。",
+"sent_trad": "她有一雙修長而靈巧的手指。",
+"pinyin": "tā yǒu yī shuāng xiū cháng ér líng qiǎo de shǒu zhǐ 。",
+"english": "She has a pair of slender, nimble fingers."
+},
+{
+"nid": 1708747500480,
+"word": "对流",
+"sent_simp": "打开两扇窗户可以形成空气对流。",
+"sent_trad": "打開兩扇窗戶可以形成空氣對流。",
+"pinyin": "dǎ kāi liǎng shàn chuāng hù kě yǐ xíng chéng kōng qì duì liú 。",
+"english": "Opening two windows creates an air convection."
+},
+{
+"nid": 1708747500549,
+"word": "漠然",
+"sent_simp": "面对别人的求助，他显得十分漠然。",
+"sent_trad": "面對別人的求助，他顯得十分漠然。",
+"pinyin": "miàn duì bié rén de qiú zhù ， tā xiǎn de shí fēn mò rán 。",
+"english": "Faced with others' pleas for help, he appeared utterly indifferent."
+},
+{
+"nid": 1708747500565,
+"word": "哀求",
+"sent_simp": "孩子哀求父母再给他一次机会。",
+"sent_trad": "孩子哀求父母再給他一次機會。",
+"pinyin": "hái zi āi qiú fù mǔ zài gěi tā yī cì jī huì 。",
+"english": "The child begged his parents to give him one more chance."
+},
+{
+"nid": 1708747500766,
+"word": "纯朴",
+"sent_simp": "这个山村的村民非常纯朴热情。",
+"sent_trad": "這個山村的村民非常純樸熱情。",
+"pinyin": "zhè ge shān cūn de cūn mín fēi cháng chún piáo rè qíng 。",
+"english": "The villagers in this mountain village are very simple and warm-hearted."
+},
+{
+"nid": 1708747500866,
+"word": "潜移默化",
+"sent_simp": "良好的家庭氛围会潜移默化地影响孩子。",
+"sent_trad": "良好的家庭氛圍會潛移默化地影響孩子。",
+"pinyin": "liáng hǎo de jiā tíng fēn wéi huì qián yí mò huà dì yǐng xiǎng hái zi 。",
+"english": "A good family atmosphere imperceptibly influences children."
+},
+{
+"nid": 1708747500867,
+"word": "喜洋洋",
+"sent_simp": "春节到了，家家户户喜洋洋。",
+"sent_trad": "春節到了，家家戶戶喜洋洋。",
+"pinyin": "chūn jié dào le ， jiā jiā hù hù xǐ yáng yáng 。",
+"english": "Spring Festival has arrived, and every household is radiant with joy."
+},
+{
+"nid": 1708747500889,
+"word": "孪生",
+"sent_simp": "这对孪生姐妹长得几乎一模一样。",
+"sent_trad": "這對孿生姐妹長得幾乎一模一樣。",
+"pinyin": "zhè duì luán shēng jiě mèi zhǎng dé jī hū yī mú yī yàng 。",
+"english": "These twin sisters look almost exactly alike."
+},
+{
+"nid": 1708747501132,
+"word": "冲浪",
+"sent_simp": "夏天他常去海边冲浪。",
+"sent_trad": "夏天他常去海邊衝浪。",
+"pinyin": "xià tiān tā cháng qù hǎi biān chōng làng 。",
+"english": "In summer he often goes surfing at the beach."
+},
+{
+"nid": 1708747501157,
+"word": "底蕴",
+"sent_simp": "这座古城有着深厚的文化底蕴。",
+"sent_trad": "這座古城有著深厚的文化底蘊。",
+"pinyin": "zhè zuò gǔ chéng yǒu zhe shēn hòu de wén huà dǐ yùn 。",
+"english": "This ancient city has a profound cultural heritage."
+},
+{
+"nid": 1708747501265,
+"word": "粗略",
+"sent_simp": "我只做了粗略的估算，不一定准确。",
+"sent_trad": "我只做了粗略的估算，不一定準確。",
+"pinyin": "wǒ zhǐ zuò le cū lüè de gū suàn ， bù yí dìng zhǔn què 。",
+"english": "I only made a rough estimate; it may not be accurate."
+},
+{
+"nid": 1708747501444,
+"word": "忽悠",
+"sent_simp": "别被那些广告忽悠了，要理性消费。",
+"sent_trad": "別被那些廣告忽悠了，要理性消費。",
+"pinyin": "bié bèi nà xiē guǎng gào hū yōu le ， yào lǐ xìng xiāo fèi 。",
+"english": "Don't be fooled by those ads; spend rationally."
+},
+{
+"nid": 1708747501454,
+"word": "磁铁",
+"sent_simp": "这块磁铁能把铁钉吸起来。",
+"sent_trad": "這塊磁鐵能把鐵釘吸起來。",
+"pinyin": "zhè kuài cí tiě néng bǎ tiě dīng xī qǐ lái 。",
+"english": "This magnet can pick up iron nails."
+},
+{
+"nid": 1708747501455,
+"word": "矿藏",
+"sent_simp": "这个地区的矿藏十分丰富。",
+"sent_trad": "這個地區的礦藏十分豐富。",
+"pinyin": "zhè ge dì qū de kuàng cáng shí fēn fēng fù 。",
+"english": "This region is extremely rich in mineral resources."
+},
+{
+"nid": 1708747501457,
+"word": "松弛",
+"sent_simp": "深呼吸有助于让紧张的神经松弛下来。",
+"sent_trad": "深呼吸有助於讓緊張的神經鬆弛下來。",
+"pinyin": "shēn hū xī yǒu zhù yú ràng jǐn zhāng de shén jīng sōng chí xià lái 。",
+"english": "Deep breathing helps relax tense nerves."
+},
+{
+"nid": 1708747501888,
+"word": "纽扣",
+"sent_simp": "他衬衫上的一颗纽扣掉了。",
+"sent_trad": "他襯衫上的一顆紐扣掉了。",
+"pinyin": "tā chèn shān shàng de yī kē niǔ kòu diào le 。",
+"english": "A button on his shirt has fallen off."
+},
+{
+"nid": 1708747502091,
+"word": "淤泥",
+"sent_simp": "荷花从淤泥中生长，却依然洁白。",
+"sent_trad": "荷花從淤泥中生長，卻依然潔白。",
+"pinyin": "hé huā cóng yū ní zhōng shēng zhǎng ， què yī rán jié bái 。",
+"english": "The lotus grows out of the mud yet remains pure white."
+},
+{
+"nid": 1708747502143,
+"word": "气泡",
+"sent_simp": "汽水里冒出许多细小的气泡。",
+"sent_trad": "汽水裡冒出許多細小的氣泡。",
+"pinyin": "qì shuǐ lǐ mào chū xǔ duō xì xiǎo de qì pào 。",
+"english": "Many tiny bubbles rise up in the soda."
+},
+{
+"nid": 1708747502211,
+"word": "亮丽",
+"sent_simp": "这身亮丽的衣服让她格外引人注目。",
+"sent_trad": "這身亮麗的衣服讓她格外引人注目。",
+"pinyin": "zhè shēn liàng lì de yī fú ràng tā gé wài yǐn rén zhù mù 。",
+"english": "This bright, beautiful outfit makes her especially eye-catching."
+},
+{
+"nid": 1708747502364,
+"word": "呜咽",
+"sent_simp": "她在角落里低声呜咽，不愿被人看见。",
+"sent_trad": "她在角落裡低聲嗚咽，不願被人看見。",
+"pinyin": "tā zài jiǎo luò lǐ dī shēng wū yè ， bù yuàn bèi rén kàn jiàn 。",
+"english": "She sobbed softly in the corner, not wanting to be seen."
+},
+{
+"nid": 1708747502412,
+"word": "精妙",
+"sent_simp": "这首诗的构思十分精妙。",
+"sent_trad": "這首詩的構思十分精妙。",
+"pinyin": "zhè shǒu shī de gòu sī shí fēn jīng miào 。",
+"english": "The conception of this poem is exquisitely fine."
+},
+{
+"nid": 1708747502427,
+"word": "猛然",
+"sent_simp": "他猛然回头，吓了我一跳。",
+"sent_trad": "他猛然回頭，嚇了我一跳。",
+"pinyin": "tā měng rán huí tóu ， xià le wǒ yī tiào 。",
+"english": "He suddenly turned his head and gave me a fright."
+},
+{
+"nid": 1708747502779,
+"word": "秀丽",
+"sent_simp": "桂林的山水以秀丽闻名于世。",
+"sent_trad": "桂林的山水以秀麗聞名於世。",
+"pinyin": "guì lín de shān shuǐ yǐ xiù lì wén míng yú shì 。",
+"english": "Guilin's scenery is world-famous for its delicate beauty."
+},
+{
+"nid": 1708747502861,
+"word": "芬芳",
+"sent_simp": "花园里弥漫着玫瑰的芬芳。",
+"sent_trad": "花園裡瀰漫著玫瑰的芬芳。",
+"pinyin": "huā yuán lǐ mí màn zhe méi guī de fēn fāng 。",
+"english": "The garden is filled with the fragrance of roses."
+},
+{
+"nid": 1708747502881,
+"word": "突兀",
+"sent_simp": "他突兀地提出辞职，让大家很意外。",
+"sent_trad": "他突兀地提出辭職，讓大家很意外。",
+"pinyin": "tā tū wù dì tí chū cí zhí ， ràng dà jiā hěn yì wài 。",
+"english": "He abruptly announced his resignation, surprising everyone."
+},
+{
+"nid": 1708747503032,
+"word": "絮叨",
+"sent_simp": "奶奶总是絮叨着让我多吃点。",
+"sent_trad": "奶奶總是絮叨著讓我多吃點。",
+"pinyin": "nǎi nǎi zǒng shì xù dāo zhe ràng wǒ duō chī diǎn 。",
+"english": "Grandma is always chattering on about getting me to eat more."
+},
+{
+"nid": 1708747503049,
+"word": "敦厚",
+"sent_simp": "他为人敦厚老实，深受同事信任。",
+"sent_trad": "他為人敦厚老實，深受同事信任。",
+"pinyin": "tā wéi rén dūn hòu lǎo shí ， shēn shòu tóng shì xìn rèn 。",
+"english": "He is honest and sincere by nature, deeply trusted by his colleagues."
+},
+{
+"nid": 1708747503472,
+"word": "衰减",
+"sent_simp": "信号在长距离传输中会逐渐衰减。",
+"sent_trad": "信號在長距離傳輸中會逐漸衰減。",
+"pinyin": "xìn hào zài zhǎng jù lí chuán shū zhōng huì zhú jiàn shuāi jiǎn 。",
+"english": "The signal gradually attenuates over long-distance transmission."
+},
+{
+"nid": 1708747503476,
+"word": "奸诈",
+"sent_simp": "这个商人为人奸诈，大家都提防着他。",
+"sent_trad": "這個商人為人奸詐，大家都提防著他。",
+"pinyin": "zhè ge shāng rén wéi rén jiān zhà ， dà jiā dōu dī fáng zhe tā 。",
+"english": "This merchant is treacherous by nature, and everyone is on guard against him."
+},
+{
+"nid": 1708747503599,
+"word": "气派",
+"sent_simp": "这座新建的大楼显得格外气派。",
+"sent_trad": "這座新建的大樓顯得格外氣派。",
+"pinyin": "zhè zuò xīn jiàn de dà lóu xiǎn de gé wài qì pài 。",
+"english": "This newly built tower looks especially grand and imposing."
+},
+{
+"nid": 1708747503660,
+"word": "中庸",
+"sent_simp": "他处事讲究中庸，从不走极端。",
+"sent_trad": "他處事講究中庸，從不走極端。",
+"pinyin": "tā chǔ shì jiǎng jiū zhōng yōng ， cóng bù zǒu jí duān 。",
+"english": "He handles matters with moderation and never goes to extremes."
+},
+{
+"nid": 1708747503703,
+"word": "孤零零",
+"sent_simp": "山坡上孤零零地立着一棵老树。",
+"sent_trad": "山坡上孤零零地立著一棵老樹。",
+"pinyin": "shān pō shàng gū líng líng dì lì zhe yī kē lǎo shù 。",
+"english": "An old tree stood all alone on the hillside."
+},
+{
+"nid": 1708747503917,
+"word": "漂泊",
+"sent_simp": "年轻时他四处漂泊，居无定所。",
+"sent_trad": "年輕時他四處漂泊，居無定所。",
+"pinyin": "nián qīng shí tā sì chù piāo bó ， jū wú dìng suǒ 。",
+"english": "When he was young he drifted from place to place, with no fixed home."
+},
+{
+"nid": 1708747504066,
+"word": "形形色色",
+"sent_simp": "展览会上有形形色色的手工艺品。",
+"sent_trad": "展覽會上有形形色色的手工藝品。",
+"pinyin": "zhǎn lǎn huì shàng yǒu xíng xíng sè sè de shǒu gōng yì pǐn 。",
+"english": "There were all kinds of handicrafts at the exhibition."
+},
+{
+"nid": 1708747504068,
+"word": "开场白",
+"sent_simp": "主持人用一段幽默的开场白活跃了气氛。",
+"sent_trad": "主持人用一段幽默的開場白活躍了氣氛。",
+"pinyin": "zhǔ chí rén yòng yī duàn yōu mò de kāi chǎng bái huó yuè le qì fēn 。",
+"english": "The host livened up the mood with a humorous opening remark."
+},
+{
+"nid": 1708747504447,
+"word": "赞不绝口",
+"sent_simp": "客人对这道菜赞不绝口。",
+"sent_trad": "客人對這道菜讚不絕口。",
+"pinyin": "kè rén duì zhè dào cài zàn bù jué kǒu 。",
+"english": "The guests couldn't stop praising this dish."
+},
+{
+"nid": 1708747504545,
+"word": "世故",
+"sent_simp": "他年纪不大，却显得十分世故。",
+"sent_trad": "他年紀不大，卻顯得十分世故。",
+"pinyin": "tā nián jì bù dà ， què xiǎn de shí fēn shì gù 。",
+"english": "He's not old, yet he seems very worldly-wise."
+},
+{
+"nid": 1708747504635,
+"word": "长征",
+"sent_simp": "红军长征是一段艰苦卓绝的历史。",
+"sent_trad": "紅軍長征是一段艱苦卓絕的歷史。",
+"pinyin": "hóng jūn cháng zhēng shì yī duàn jiān kǔ zhuó jué de lì shǐ 。",
+"english": "The Red Army's Long March was an arduous chapter of history."
+}
 ]

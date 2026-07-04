@@ -8,7 +8,7 @@ import jieba, jieba.posseg as pseg
 from wordfreq import zipf_frequency
 jieba.initialize()
 
-DONG = "/home/vincent/dong-chinese/server/dongchinese.db"
+DONG = "/home/vincent/chinese-projects/dong-chinese/server/dongchinese.db"
 book_jsonl = sys.argv[1]
 book_name = sys.argv[2] if len(sys.argv) > 2 else "the book"
 HAN = re.compile(r"[一-鿿]")

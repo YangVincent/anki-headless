@@ -37,3 +37,15 @@ freq_data/_*.txt
 # More secrets / local config
 .env
 .bot_config_*.json
+
+# Transient SQLite sidecars (like collection.anki2, already ignored above)
+collection.anki2-shm
+collection.anki2-wal
+
+# Session scratch / regenerable analysis caches
+freq_data/scratch_queue.json
+freq_data/quality/
+freq_data/regen/
+
+# Dynamic user lookup logs (grow over time; feed mining)
+freq_data/reader_lookups.jsonl

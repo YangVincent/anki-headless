@@ -13,7 +13,7 @@ frequency-ordered**, not gated on character mastery. See "Design decisions" belo
 
 | Source | What | Where | Role |
 |---|---|---|---|
-| **CC-CEDICT** | dictionary, ~120k headwords (pinyin + definitions) | `/home/vincent/dong-chinese/Resources/cedict_ts.u8` | meaning / pinyin / traditional |
+| **CC-CEDICT** | dictionary, ~120k headwords (pinyin + definitions) | `/home/vincent/chinese-projects/dong-chinese/Resources/cedict_ts.u8` | meaning / pinyin / traditional |
 | **wordfreq** (+`jieba`) | word frequencies (Zipf), 334k words | pip, in `.venv` | ordering, gap-finding |
 | **pypinyin** | hanzi → tone-marked pinyin | pip, in `.venv` | card pinyin |
 | **Hanly export** | character-learning progress | `june_hanly.json` | informational only (NOT a gate) |
