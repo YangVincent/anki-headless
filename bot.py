@@ -3,6 +3,7 @@
 
 import asyncio
 import base64
+import collections
 import json
 import sqlite3
 import logging
@@ -1719,10 +1720,236 @@ async def handle_api_status(request):
     return web.json_response(out, dumps=lambda o: json.dumps(o, ensure_ascii=False))
 
 
+# ── /api/stats & /api/deck/{name}/words: dashboard read-only endpoints ─────
+# Same computation as chinese-dashboard/build_stats.py's anki_stats()/_progression(),
+# generalized over arbitrary deck names/note types instead of the hardcoded
+# Vocab/Mined backbone. Kept independent of build_stats.py on purpose: that script
+# still owns writing the static dashboard snapshot; this just exposes the same
+# numbers live over HTTP so the dashboard can query them directly.
+PDT_OFFSET = 7 * 3600  # matches build_stats.OFF: PDT day bucketing
+_stats_cache = {}  # (deck_names_tuple, model_name) -> {"ts": float, "data": dict}
+STATS_CACHE_TTL = 60.0
+
+
+def _stats_day(ts_s):
+    return time.strftime("%Y-%m-%d", time.gmtime(ts_s - PDT_OFFSET))
+
+
+def _stats_progression(col, deck_ids, cv_id, now):
+    """Weekly card-maturity composition, reconstructed from the review log.
+
+    Ported unchanged from build_stats._progression (see there for the full
+    rationale); deck_ids/cv_id are already resolved ints here."""
+    import bisect
+    if not deck_ids:
+        return []
+    ph = ",".join("?" * len(deck_ids))
+    rows = col.db.all(
+        f"SELECT r.cid, r.id, r.ivl, r.type FROM revlog r JOIN cards c ON r.cid=c.id "
+        f"WHERE c.did IN ({ph}) AND c.ord=0 AND c.nid IN (SELECT id FROM notes WHERE mid=?) "
+        f"AND r.ease>0 ORDER BY r.id", *deck_ids, cv_id)
+    if not rows:
+        return []
+    per = collections.defaultdict(list)
+    for cid, rid, ivl, typ in rows:
+        per[cid].append((rid, ivl, typ))
+    per = {c: (lg := sorted(v), [x[0] for x in lg]) for c, v in per.items()}
+
+    def bucket(ivl, typ):
+        if typ == 2: return "Relearning"   # mid-lapse
+        if ivl <= 0: return "Learning"      # sub-day step
+        return "Young" if ivl < 21 else "Mature"
+
+    first = rows[0][1] / 1000
+    d0 = first - ((first - PDT_OFFSET) % 86400)   # midnight (PDT frame) of first-review day
+    out, b = [], d0
+    while b <= now + 7 * 86400:
+        ms = b * 1000
+        c = {"Mature": 0, "Young": 0, "Learning": 0, "Relearning": 0}
+        for logs, times in per.values():
+            i = bisect.bisect_right(times, ms) - 1
+            if i < 0:
+                continue
+            _, ivl, typ = logs[i]
+            c[bucket(ivl, typ)] += 1
+        out.append({"date": time.strftime("%Y-%m-%d", time.gmtime(b - PDT_OFFSET)), **c})
+        b += 7 * 86400
+    return out
+
+
+def _deck_stats(deck_names, model_name, now):
+    """Core of GET /api/stats. Opens the collection once and computes counts, per-card
+    word lists, weekly/daily review activity and maturity progression jointly over
+    `deck_names`. A deck name absent from the collection (col.decks.id_for_name
+    returns None) comes back as an all-zero/empty block, matching build_stats'
+    handling of a missing deck exactly — not an error. Same for a missing model name
+    (col.models.by_name returns None): the -1 sentinel id just matches nothing."""
+    col = open_collection()
+    try:
+        cv = col.models.by_name(model_name)
+        cv_id = cv["id"] if cv else -1
+        deck_ids = {name: col.decks.id_for_name(name) for name in deck_names}
+
+        def deck_counts(did):
+            if did is None:
+                return {"total": 0, "studied": 0, "mature": 0, "new_left": 0}
+            q = "SELECT %s FROM cards WHERE did=? AND ord=0 AND nid IN (SELECT id FROM notes WHERE mid=?)"
+            total = col.db.scalar(q % "COUNT(*)", did, cv_id)
+            studied = col.db.scalar(q % "COUNT(*)" + " AND type IN (1,2)", did, cv_id)
+            mature = col.db.scalar(q % "COUNT(*)" + " AND type=2 AND ivl>=21", did, cv_id)
+            new_left = col.db.scalar(q % "COUNT(*)" + " AND type=0 AND queue!=-1", did, cv_id)
+            return {"total": total, "studied": studied, "mature": mature, "new_left": new_left}
+
+        def deck_words(did):
+            # Full per-card list for drill-down: compact {w:word, p:pinyin, s:status}.
+            # status: 2=mature (type 2, ivl>=21), 1=studied/learning (type 1/2), 0=new.
+            if did is None:
+                return []
+            out = []
+            for sfld, flds, ctype, ivl in col.db.all(
+                    "SELECT n.sfld, n.flds, c.type, c.ivl FROM cards c JOIN notes n ON n.id=c.nid "
+                    "WHERE c.did=? AND c.ord=0 AND n.mid=? ORDER BY n.id DESC", did, cv_id):
+                parts = flds.split("\x1f")
+                pinyin = parts[1] if len(parts) > 1 else ""
+                s = 2 if (ctype == 2 and ivl >= 21) else (1 if ctype in (1, 2) else 0)
+                out.append({"w": sfld, "p": pinyin, "s": s})
+            return out
+
+        decks_out = {}
+        for name in deck_names:
+            block = deck_counts(deck_ids[name])
+            block["words"] = deck_words(deck_ids[name])
+            decks_out[name] = block
+
+        valid_ids = [did for did in deck_ids.values() if did is not None]
+
+        days = collections.OrderedDict()
+        for i in range(29, -1, -1):
+            d = _stats_day(now - i * 86400)
+            days[d] = {"date": d, "reviews": 0, "new": 0}
+        recent = {name: [] for name in deck_names}
+        week = {"reviews": 0, "retention": None}
+        progression = []
+
+        if valid_ids:
+            ph = ",".join("?" * len(valid_ids))
+            # r.ease>0 excludes manual/reschedule revlog rows (ease=0, e.g. an FSRS bulk
+            # reschedule writes one per card) — those aren't reviews and would inflate counts.
+            wk_ms = (now - 7 * 86400) * 1000
+            rl = col.db.all(
+                f"SELECT r.id, r.ease, r.type, r.lastIvl FROM revlog r JOIN cards c ON r.cid=c.id "
+                f"WHERE r.id>? AND c.did IN ({ph}) AND c.ord=0 AND r.ease>0", wk_ms, *valid_ids)
+            reviews = len(rl)
+            mature_revs = [e for _, e, t, liv in rl if liv >= 21 and t in (1, 2)]
+            retention = round(100 * sum(1 for e in mature_revs if e >= 2) / len(mature_revs)) if mature_revs else None
+            week = {"reviews": reviews, "retention": retention}
+
+            m30 = (now - 30 * 86400) * 1000
+            for rid, ease, rtype, liv in col.db.all(
+                    f"SELECT r.id, r.ease, r.type, r.lastIvl FROM revlog r JOIN cards c ON r.cid=c.id "
+                    f"WHERE r.id>? AND c.did IN ({ph}) AND c.ord=0 AND r.ease>0", m30, *valid_ids):
+                d = time.strftime("%Y-%m-%d", time.gmtime(rid / 1000 - PDT_OFFSET))
+                if d in days:
+                    days[d]["reviews"] += 1
+                    if rtype == 0: days[d]["new"] += 1
+
+            for name in deck_names:
+                did = deck_ids[name]
+                if did is None:
+                    continue
+                recent[name] = [r[0] for r in col.db.all(
+                    "SELECT n.sfld FROM notes n JOIN cards c ON c.nid=n.id "
+                    "WHERE c.did=? AND c.ord=0 AND n.mid=? ORDER BY n.id DESC LIMIT 20",
+                    did, cv_id)]
+
+            progression = _stats_progression(col, valid_ids, cv_id, now)
+
+        return {"decks": decks_out, "recent": recent, "week": week,
+                "daily": list(days.values()), "progression": progression}
+    finally:
+        col.close()
+
+
+def _cached_deck_stats(deck_names, model_name):
+    """Best-effort cache wrapper around _deck_stats: if the collection is briefly
+    locked, serve the last snapshot instead of raising — same idea as
+    _vocab_status_map. Only propagates the exception when there's nothing cached."""
+    key = (tuple(deck_names), model_name)
+    now = time.time()
+    cached = _stats_cache.get(key)
+    if cached and now - cached["ts"] < STATS_CACHE_TTL:
+        return cached["data"]
+    try:
+        data = _deck_stats(deck_names, model_name, now)
+    except Exception as e:
+        log.warning(f"deck stats: collection unavailable ({e}); serving cached snapshot")
+        if cached:
+            return cached["data"]
+        raise
+    _stats_cache[key] = {"ts": now, "data": data}
+    return data
+
+
+async def handle_api_stats(request):
+    """GET /api/stats?decks=Vocab,Mined&model=ChineseVocabulary — read-only deck
+    progress + review activity, for the dashboard. Cached ~60s per (decks, model)."""
+    raw = request.query.get("decks", "Vocab,Mined")
+    deck_names = [d.strip() for d in raw.split(",") if d.strip()] or ["Vocab", "Mined"]
+    model_name = request.query.get("model", "ChineseVocabulary").strip() or "ChineseVocabulary"
+    try:
+        data = await asyncio.to_thread(_cached_deck_stats, deck_names, model_name)
+    except Exception as e:
+        log.warning(f"/api/stats: collection unavailable ({e})")
+        return web.json_response({"error": "collection locked"}, status=503)
+    return web.json_response(data, dumps=lambda o: json.dumps(o, ensure_ascii=False))
+
+
+def _deck_word_list(deck_name, model_name):
+    """[{simplified, pinyin, meaning, status}] for ord=0 cards of one deck/model —
+    same field extraction as _deck_stats' deck_words, plus the note's Meaning field
+    (CHINESE_VOCAB_FIELDS field index 2)."""
+    col = open_collection()
+    try:
+        cv = col.models.by_name(model_name)
+        cv_id = cv["id"] if cv else -1
+        did = col.decks.id_for_name(deck_name)
+        if did is None:
+            return []
+        out = []
+        for sfld, flds, ctype, ivl in col.db.all(
+                "SELECT n.sfld, n.flds, c.type, c.ivl FROM cards c JOIN notes n ON n.id=c.nid "
+                "WHERE c.did=? AND c.ord=0 AND n.mid=? ORDER BY n.id DESC", did, cv_id):
+            parts = flds.split("\x1f")
+            pinyin = parts[1] if len(parts) > 1 else ""
+            meaning = parts[2] if len(parts) > 2 else ""
+            status = 2 if (ctype == 2 and ivl >= 21) else (1 if ctype in (1, 2) else 0)
+            out.append({"simplified": sfld, "pinyin": pinyin, "meaning": meaning, "status": status})
+        return out
+    finally:
+        col.close()
+
+
+async def handle_api_deck_words(request):
+    """GET /api/deck/{name}/words?model=ChineseVocabulary — full per-card word list
+    for one deck (drill-down for the dashboard). aiohttp already URL-decodes the
+    {name} path segment. Missing deck -> {"deck": name, "words": []}, not an error."""
+    deck_name = request.match_info["name"]
+    model_name = request.query.get("model", "ChineseVocabulary").strip() or "ChineseVocabulary"
+    try:
+        words = await asyncio.to_thread(_deck_word_list, deck_name, model_name)
+    except Exception as e:
+        log.warning(f"/api/deck/{deck_name}/words: collection unavailable ({e})")
+        return web.json_response({"error": "collection locked"}, status=503)
+    return web.json_response({"deck": deck_name, "words": words},
+                              dumps=lambda o: json.dumps(o, ensure_ascii=False))
+
+
 def create_web_app():
     app = web.Application(middlewares=[auth_middleware])
     app.router.add_post('/api/card', handle_api_card)
     app.router.add_get('/api/status', handle_api_status)
+    app.router.add_get('/api/stats', handle_api_stats)
+    app.router.add_get('/api/deck/{name}/words', handle_api_deck_words)
     app.router.add_get('/health', handle_health)
     return app
 
