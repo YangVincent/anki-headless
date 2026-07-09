@@ -55,3 +55,4 @@
 {"ts": "2026-07-04T01:58:35.512892", "action": "edit_note", "note_ids": [1537328247679], "count": 1, "fields_updated": ["SentenceSimplified", "SentencePinyin", "SentenceMeaning"]}
 {"ts": "2026-07-04T17:29:34.034997", "action": "edit_note", "note_ids": [1393817666455], "count": 1, "fields_updated": ["Meaning", "SentenceSimplified", "SentencePinyin", "SentenceMeaning", "Notes"]}
 {"ts": "2026-07-04T17:34:08.959129", "action": "delete", "note_ids": [1708747490527], "count": 1}
+{"ts": "2026-07-06T16:37:17.358698", "action": "remove_tag", "note_ids": [1393817668227], "count": 1, "tags": ["leech"]}
