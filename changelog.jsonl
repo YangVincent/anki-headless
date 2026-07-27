@@ -56,3 +56,12 @@
 {"ts": "2026-07-04T17:29:34.034997", "action": "edit_note", "note_ids": [1393817666455], "count": 1, "fields_updated": ["Meaning", "SentenceSimplified", "SentencePinyin", "SentenceMeaning", "Notes"]}
 {"ts": "2026-07-04T17:34:08.959129", "action": "delete", "note_ids": [1708747490527], "count": 1}
 {"ts": "2026-07-06T16:37:17.358698", "action": "remove_tag", "note_ids": [1393817668227], "count": 1, "tags": ["leech"]}
+{"ts": "2026-07-18T02:37:10.027699", "action": "add_chinese_vocab", "note_ids": [1784342230005], "count": 1, "simplified": "炮友", "deck": "Vocab", "tags": ["claude", "chinese", "claude", "chinese", "mined"]}
+{"ts": "2026-07-20T20:25:50.717767", "action": "add_chinese_vocab", "note_ids": [1784579150686], "count": 1, "simplified": "草泥马", "deck": "Vocab", "tags": ["claude", "chinese", "mined"]}
+{"ts": "2026-07-24T14:24:37.640899", "action": "edit_note", "note_ids": [1781542161837], "count": 1, "fields_updated": ["Meaning", "PartOfSpeech"]}
+{"ts": "2026-07-27T14:09:47.805334", "action": "create_deck", "deck": "Mined::十日终焉", "count": 200, "detail": "183 archive cards gathered + 17 new notes, ordered by in-book frequency; HSK/HSK7-9 untouched", "tags": ["claude", "novel", "mined", "shiri-zhongyan"]}
+{"ts": "2026-07-27T14:09:47.805334", "action": "fsrs_tune", "preset": "HSK", "detail": "fsrsParams6 refit on 4779 reviews; desiredRetention 0.93 -> 0.90; baseline saved to fsrs_baseline.json"}
+{"ts": "2026-07-27T14:09:47.805334", "action": "suspend_cards", "count": 400, "deck": "HSK", "tag": "parked::bound-character", "detail": "unseen single-char cards, standalone zipf < 4.0 (never words alone); studied cards untouched"}
+{"ts": "2026-07-27T14:09:47.805334", "action": "edit_note", "count": 118, "fields_updated": ["Meaning", "Notes", "SentenceSimplified", "SentenceMeaning", "SentencePinyin"], "detail": "leech rewrite: connective contrasts, collocations, 13 wrong glosses corrected; originals in leech_backup.json"}
+{"ts": "2026-07-27T14:09:47.805334", "action": "suspend_cards", "count": 17, "deck": "HSK", "tag": "parked::bound-character", "detail": "12 studied bound characters (舒衬激误允弃符厌污肤航幽); 祝 and 放弃 excluded"}
+{"ts": "2026-07-27T14:19:57.467939", "action": "unify_presets", "count": 24, "detail": "all decks moved to the HSK preset; autoplay off on all 10 presets; non-HSK 20->10 new/day, Hanly Gap 8->10, leech action tag@8 -> suspend@10; prior assignments in preset_backup.json"}

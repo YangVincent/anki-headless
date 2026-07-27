@@ -1,0 +1,170 @@
+{
+ "date": "2026-07-27",
+ "cards_reviewed": 1491,
+ "reviews": 4404,
+ "lapses": 919,
+ "retention_overall": 0.7913,
+ "retention_by_group": {
+  "knew on sight": {
+   "retention": 0.9304,
+   "reviews": 1278
+  },
+  "had to learn": {
+   "retention": 0.7204,
+   "reviews": 2779
+  },
+  "other": {
+   "retention": 0.8473,
+   "reviews": 347
+  }
+ },
+ "retention_by_interval": {
+  "8-30d": {
+   "retention": 0.9144,
+   "reviews": 1168
+  },
+  "31-90d": {
+   "retention": 0.9434,
+   "reviews": 265
+  },
+  "2-7d": {
+   "retention": 0.7432,
+   "reviews": 2461
+  },
+  "over 90d": {
+   "retention": 0.9583,
+   "reviews": 24
+  },
+  "1d or less": {
+   "retention": 0.6481,
+   "reviews": 486
+  }
+ },
+ "hard_words": [
+  {
+   "word": "原则",
+   "lapses": 11,
+   "reviews": 17
+  },
+  {
+   "word": "以及",
+   "lapses": 9,
+   "reviews": 18
+  },
+  {
+   "word": "主持",
+   "lapses": 9,
+   "reviews": 18
+  },
+  {
+   "word": "然而",
+   "lapses": 8,
+   "reviews": 15
+  },
+  {
+   "word": "属于",
+   "lapses": 8,
+   "reviews": 16
+  },
+  {
+   "word": "此外",
+   "lapses": 8,
+   "reviews": 12
+  },
+  {
+   "word": "领域",
+   "lapses": 7,
+   "reviews": 13
+  },
+  {
+   "word": "认可",
+   "lapses": 7,
+   "reviews": 13
+  },
+  {
+   "word": "原始",
+   "lapses": 7,
+   "reviews": 18
+  },
+  {
+   "word": "稳定",
+   "lapses": 6,
+   "reviews": 11
+  },
+  {
+   "word": "建筑",
+   "lapses": 6,
+   "reviews": 8
+  },
+  {
+   "word": "采取",
+   "lapses": 6,
+   "reviews": 13
+  },
+  {
+   "word": "安慰",
+   "lapses": 6,
+   "reviews": 13
+  },
+  {
+   "word": "主席",
+   "lapses": 6,
+   "reviews": 14
+  },
+  {
+   "word": "成立",
+   "lapses": 6,
+   "reviews": 10
+  },
+  {
+   "word": "制定",
+   "lapses": 6,
+   "reviews": 16
+  },
+  {
+   "word": "从而",
+   "lapses": 6,
+   "reviews": 14
+  },
+  {
+   "word": "综合",
+   "lapses": 6,
+   "reviews": 12
+  },
+  {
+   "word": "意识",
+   "lapses": 6,
+   "reviews": 11
+  },
+  {
+   "word": "机构",
+   "lapses": 6,
+   "reviews": 13
+  },
+  {
+   "word": "达成",
+   "lapses": 6,
+   "reviews": 16
+  },
+  {
+   "word": "一向",
+   "lapses": 6,
+   "reviews": 13
+  },
+  {
+   "word": "实施",
+   "lapses": 6,
+   "reviews": 14
+  },
+  {
+   "word": "进而",
+   "lapses": 6,
+   "reviews": 13
+  },
+  {
+   "word": "方言",
+   "lapses": 6,
+   "reviews": 14
+  }
+ ]
+}

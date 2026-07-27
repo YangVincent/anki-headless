@@ -1,0 +1,2368 @@
+[
+ {
+  "word": "原则",
+  "kind": "abstract",
+  "problem": "\"Principle\" is correct but empty — it doesn't tell you that 原则 lives almost entirely in a few fixed phrases about rules of conduct and negotiating positions.",
+  "meaning": "The standing rule you operate by and won't bend on — in personal terms \"having principles,\" in official terms the agreed basis for a policy or deal. Not \"principle\" as in a scientific law (that's 原理).",
+  "contrast": "原理 is how something works (工作原理, 杠杆原理); 原则 is what you refuse to violate. 方针 is the policy direction set from above; 原则 is the constraint the policy must respect.",
+  "collocations": [
+   "原则上 (yuánzé shàng) — in principle, in theory (often with an unspoken \"but\")",
+   "坚持原则 (jiānchí yuánzé) — stick to one's principles",
+   "有原则/讲原则 (yǒu/jiǎng yuánzé) — be a person of principle",
+   "原则问题 (yuánzé wèntí) — a matter of principle, non-negotiable",
+   "基本原则 (jīběn yuánzé) — fundamental principles"
+  ],
+  "sentence": "原则上我同意，但具体细节还要再谈。",
+  "sentence_meaning": "In principle I agree, but we still need to discuss the specifics.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667420,
+  "lapses": 11,
+  "was": "principle"
+ },
+ {
+  "word": "主持",
+  "kind": "abstract",
+  "problem": "Four English verbs in one gloss with nothing tying them together; the sample sentence shows 主持人 (a noun) rather than the verb.",
+  "meaning": "To be the one running the thing — standing at the front of a ceremony or broadcast, or being in charge of a project or department day to day. Two flavours: hosting an event, and heading up work.",
+  "contrast": "举行 is holding an event (the event happens); 主持 is a person running it. 负责 is being responsible for something; 主持 adds that you're the one directing it from the front, often temporarily or in an acting capacity (主持工作 = acting head).",
+  "collocations": [
+   "主持会议 (zhǔchí huìyì) — chair a meeting",
+   "主持婚礼/节目 (zhǔchí hūnlǐ/jiémù) — officiate a wedding / host a show",
+   "主持工作 (zhǔchí gōngzuò) — be in charge of, act as head",
+   "主持公道 (zhǔchí gōngdào) — see that justice is done"
+  ],
+  "sentence": "这个项目由王教授主持，已经进行了三年。",
+  "sentence_meaning": "This project is headed by Professor Wang and has been running for three years.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667476,
+  "lapses": 9,
+  "was": "to preside over; to host; to manage; to direct"
+ },
+ {
+  "word": "以及",
+  "kind": "connective",
+  "problem": "Glossed \"and,\" which makes it interchangeable with 和 / 与 / 还有 in your head — it isn't; it has a specific position and a hierarchy to it.",
+  "meaning": "A written \"and\" that joins the last item onto a list, typically after commas or 、, and often after the heavier items — the tail of an enumeration. It can also link whole phrases and clauses, which 和 does badly.",
+  "contrast": "和 joins two nouns casually and can't easily end a long list or link verb phrases. 与 is 和's formal twin, used in titles and pairings (中国与世界). 及 is 以及 compressed, even more written. 还有 is spoken. Rough feel: the things after 以及 are secondary or an add-on to what came before.",
+  "collocations": [
+   "……、……以及…… — the standard end-of-list slot",
+   "以及其他 (yǐjí qítā) — as well as others",
+   "以及如何…… (yǐjí rúhé) — and also how to…"
+  ],
+  "sentence": "会议讨论了预算、人事安排以及明年的发展方向。",
+  "sentence_meaning": "The meeting discussed the budget, staffing arrangements, and next year's direction of development.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666929,
+  "lapses": 9,
+  "was": "as well as; too; (formal) and"
+ },
+ {
+  "word": "然而",
+  "kind": "connective",
+  "problem": "\"However/but\" puts it in a pile with 但是, 可是, 不过, 却 with no way to tell them apart.",
+  "meaning": "Written \"however.\" It starts a new sentence (or follows a full stop or semicolon) and reverses the direction of what you just said — the turn is stated as a fact, often with a note of regret or irony.",
+  "contrast": "但是 works in the same sentence right after a comma and is neutral in register; 然而 prefers to begin a fresh sentence and sounds essayistic. 不过 is light and spoken (\"though\"). 却 sits after the subject inside the clause, not at the front. If you'd write it in an editorial, 然而; if you'd say it out loud, 但是/不过.",
+  "collocations": [
+   "然而，事实并非如此 (rán'ér, shìshí bìngfēi rúcǐ) — however, that is not the case",
+   "然而事与愿违 (rán'ér shì yǔ yuàn wéi) — however, things turned out contrary to hopes",
+   "……。然而，…… — sentence-initial pivot in writing"
+  ],
+  "sentence": "大家都以为他会放弃。然而，他坚持到了最后。",
+  "sentence_meaning": "Everyone assumed he would give up. He kept going to the end, however.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666646,
+  "lapses": 8,
+  "was": "however; yet; but"
+ },
+ {
+  "word": "属于",
+  "kind": "abstract",
+  "problem": "\"Belong to\" makes you think of possession, so you miss its most common use: sorting something into a category.",
+  "meaning": "X 属于 Y = X falls under Y, X counts as a Y. It's mostly classification (this counts as that kind of thing); ownership is a secondary use, and there's a warm idiomatic use for \"this moment is ours.\"",
+  "contrast": "是 equates; 属于 places into a larger set, so Y is always the bigger category. 归 / 归……所有 is the legal-ownership word.",
+  "collocations": [
+   "属于……范围/范畴 (shǔyú… fànwéi/fànchóu) — falls within the scope/category of",
+   "属于个人行为 (shǔyú gèrén xíngwéi) — counts as a personal act",
+   "这属于什么情况 (zhè shǔyú shénme qíngkuàng) — what category of situation is this",
+   "属于我们的时代 (shǔyú wǒmen de shídài) — an era that belongs to us"
+  ],
+  "sentence": "迟到十分钟属于小问题，可以补救。",
+  "sentence_meaning": "Being ten minutes late counts as a minor issue and can be fixed.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247580,
+  "lapses": 8,
+  "was": "to belong to; to be part of"
+ },
+ {
+  "word": "此外",
+  "kind": "connective",
+  "problem": "\"Besides / in addition\" is shared with 另外, 而且, 再者, 加上 — the gloss can't pick it out.",
+  "meaning": "Written \"apart from this / in addition.\" It opens a new sentence to add a further point after you've finished the previous one, typically the second or third item in a written argument, report, or list of reasons.",
+  "contrast": "另外 does the same job but is fine in speech and can also mean \"a different one.\" 而且 attaches inside the same sentence to intensify (\"and what's more\"), it can't start a fresh paragraph the way 此外 does. 再说 is spoken-casual. 此外 is cool and list-like: point one, point two.",
+  "collocations": [
+   "此外，还有…… (cǐwài, hái yǒu) — in addition, there is also…",
+   "除此之外 (chú cǐ zhī wài) — apart from this (the longer form)",
+   "此外无他 (cǐwài wú tā) — nothing else besides"
+  ],
+  "sentence": "这份工作要求有三年经验；此外，还需要熟练使用英语。",
+  "sentence_meaning": "This job requires three years of experience; in addition, fluent English is needed.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247679,
+  "lapses": 8,
+  "was": "besides; in addition; moreover"
+ },
+ {
+  "word": "认可",
+  "kind": "abstract",
+  "problem": "Four glosses spanning \"approve\" to \"ratify\" blur the core idea: it's about being acknowledged as good enough, not about granting permission.",
+  "meaning": "To acknowledge that something or someone measures up — the nod of recognition from peers, the public, or an authority. Very often used as a noun: 得到认可 = to gain recognition.",
+  "contrast": "批准 is official permission to proceed (a form gets stamped). 承认 is admitting a fact, including unpleasant ones. 认可 is judging something acceptable/worthy, and carries approval of quality.",
+  "collocations": [
+   "得到认可 (dédào rènkě) — gain recognition/acceptance",
+   "广泛认可 (guǎngfàn rènkě) — widely recognised",
+   "认可度 (rènkě dù) — level of acceptance, how well received something is",
+   "不被认可 (bù bèi rènkě) — not recognised (e.g. a qualification)"
+  ],
+  "sentence": "这所大学的学历在国外也得到认可。",
+  "sentence_meaning": "This university's degrees are recognised abroad as well.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817668971,
+  "lapses": 7,
+  "was": "to approve; to accept; to recognize; to ratify"
+ },
+ {
+  "word": "原始",
+  "kind": "abstract",
+  "problem": "\"Original; primitive\" reads as two unrelated words, so you guess wrong half the time; the sample only shows the \"primitive\" side.",
+  "meaning": "Two linked senses: the raw, as-first-recorded version of something (原始数据 = the raw data before anyone processed it), and primitive as in early-stage humanity or crudely undeveloped. Same idea both times — before anything was done to it.",
+  "contrast": "原来 is \"originally / it turns out.\" 本来 is \"originally, by rights.\" 最初 is \"at first\" in time. 原始 is an adjective attached to a noun: the original copy, the raw file, primitive society.",
+  "collocations": [
+   "原始数据/文件 (yuánshǐ shùjù/wénjiàn) — raw data, original file",
+   "原始社会 (yuánshǐ shèhuì) — primitive society",
+   "原始森林 (yuánshǐ sēnlín) — old-growth/virgin forest",
+   "原始积累 (yuánshǐ jīlěi) — primitive accumulation (of capital)"
+  ],
+  "sentence": "请把原始数据保存好，不要直接在上面修改。",
+  "sentence_meaning": "Please keep the raw data safe; don't edit it directly.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328246535,
+  "lapses": 7,
+  "was": "original; primitive; primeval"
+ },
+ {
+  "word": "领域",
+  "kind": "abstract",
+  "problem": "\"Domain; sphere; field; area\" — four near-synonyms, none showing that 领域 is the standard word for a field of work or research and is almost always modified.",
+  "meaning": "A field of activity or expertise — science, education, AI, the arts. It nearly always comes with a modifier in front (X 领域) and pairs with words like 专家, 研究, 应用.",
+  "contrast": "方面 is \"aspect/respect\" of a topic, much lighter. 范围 is the extent or scope of something (how far it reaches). 行业 is an industry in the commercial sense. 领域 is the intellectual or professional terrain.",
+  "collocations": [
+   "在……领域 (zài… lǐngyù) — in the field of…",
+   "研究领域 (yánjiū lǐngyù) — research field",
+   "各个领域 (gègè lǐngyù) — every field, across the board",
+   "领先领域 / 前沿领域 (qiányán lǐngyù) — cutting-edge field"
+  ],
+  "sentence": "人工智能已经应用到医疗、教育等多个领域。",
+  "sentence_meaning": "AI has already been applied in many fields, including medicine and education.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667526,
+  "lapses": 7,
+  "was": "domain; sphere; field; area"
+ },
+ {
+  "word": "进而",
+  "kind": "connective",
+  "problem": "\"And then / thus\" collapses it into 从而 and 因此, which is exactly the confusion; the difference is escalation, not result.",
+  "meaning": "\"And going on from there\" — you did step one, and it lets you move up to a further, bigger step. It sits before the second verb phrase, usually with the same subject, and the second step is a deepening of the first.",
+  "contrast": "从而 marks a result or consequence (B happens because of A). 进而 marks a next stage you then proceed to (A first, then push on to B). 因此 just states a reason-result link. Test: if B is something you go on to do, 进而; if B is what A brought about, 从而.",
+  "collocations": [
+   "先……进而…… (xiān… jìn'ér…) — first…, and then go on to…",
+   "进而影响 (jìn'ér yǐngxiǎng) — and thereby go on to affect",
+   "进而推动 (jìn'ér tuīdòng) — and further drive/promote"
+  ],
+  "sentence": "研究先分析了病因，进而提出了新的治疗方案。",
+  "sentence_meaning": "The study first analysed the causes of the disease, and went on from there to propose a new treatment.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817670231,
+  "lapses": 6,
+  "was": "and then; thereby going on to; and thus proceed to"
+ },
+ {
+  "word": "方言",
+  "kind": "abstract",
+  "problem": "\"Dialect\" is a one-to-one translation, so the card gives you nothing to grip; you fail it because it's stored as an English word, not a Chinese one.",
+  "meaning": "A regional variety of Chinese — Cantonese, Shanghainese, Sichuanese. In practice it's the word for \"the way people talk back home,\" set against 普通话.",
+  "contrast": "口音 is an accent — the same language pronounced differently. 方言 is a whole regional variety with its own vocabulary, often mutually unintelligible.",
+  "collocations": [
+   "说方言 (shuō fāngyán) — speak dialect",
+   "地方方言 / 各地方言 (gèdì fāngyán) — local dialects",
+   "方言区 (fāngyán qū) — dialect region",
+   "保护方言 (bǎohù fāngyán) — preserve dialects"
+  ],
+  "sentence": "年轻一代大多讲普通话，会说方言的越来越少。",
+  "sentence_meaning": "The younger generation mostly speaks Mandarin; fewer and fewer can speak the dialect.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328241121,
+  "lapses": 6,
+  "was": "dialect"
+ },
+ {
+  "word": "达成",
+  "kind": "abstract",
+  "problem": "The gloss lists two uses, but 达成 is really a narrow collocation word — it takes a very small set of objects, and that's what should be memorised.",
+  "meaning": "To arrive at something jointly after a process — an agreement, a consensus, a deal. Think of it as the verb that goes with 协议 and 共识 more than as a general \"achieve.\"",
+  "contrast": "实现 is realising a goal or dream. 完成 is finishing a task. 达到 is reaching a level or standard (达到标准, 达到目的). 达成 is nearly always two parties arriving at terms.",
+  "collocations": [
+   "达成协议 (dáchéng xiéyì) — reach an agreement",
+   "达成共识 (dáchéng gòngshí) — reach a consensus",
+   "达成一致 (dáchéng yīzhì) — come to agreement",
+   "达成合作/交易 (dáchéng hézuò/jiāoyì) — conclude a partnership/deal"
+  ],
+  "sentence": "经过三轮谈判，双方终于达成了共识。",
+  "sentence_meaning": "After three rounds of negotiation, the two sides finally reached a consensus.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817668355,
+  "lapses": 6,
+  "was": "to reach (an agreement); achieve (a goal)"
+ },
+ {
+  "word": "一向",
+  "kind": "abstract",
+  "problem": "\"Always\" invites confusion with 总是 and 从来, and misses that 一向 describes a settled, known trait over a long stretch of past time.",
+  "meaning": "\"Has always been that way\" — describes someone's long-standing habit or character up to now, with a slight sense that this is common knowledge. Goes before the adjective or verb.",
+  "contrast": "总是 = habitually, often with complaint, any time frame. 从来 needs a negative or 都 and means \"never/ever, at any point.\" 一直 is continuous over a specific stretch (可以是最近). 一向 is the settled reputation: 他一向如此 — he's always been like this.",
+  "collocations": [
+   "一向如此 (yīxiàng rúcǐ) — has always been this way",
+   "一向不……(yīxiàng bù) — has never been one to…",
+   "身体一向很好 (shēntǐ yīxiàng hěn hǎo) — has always been in good health"
+  ],
+  "sentence": "他一向不喜欢跟人争，这次却发了脾气。",
+  "sentence_meaning": "He's never been one to argue with people, but this time he lost his temper.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817668586,
+  "lapses": 6,
+  "was": "all along; the whole time; consistently; always"
+ },
+ {
+  "word": "正义",
+  "kind": "abstract",
+  "problem": "\"Justice; righteousness\" is abstract-to-abstract; nothing tells you 正义 is mostly used as a modifier and in moral rather than legal-procedural contexts.",
+  "meaning": "Justice in the moral sense — the right side, what is just. Used as a noun (伸张正义) and very commonly as an adjective in front of a noun: a just cause, a just war.",
+  "contrast": "公正 is fairness/impartiality in how someone is treated or judged — that's the procedural word (公正的判决). 司法公正 for court fairness; 正义 for the moral cause. 公平 is fairness in distribution.",
+  "collocations": [
+   "伸张正义 (shēnzhāng zhèngyì) — uphold/see justice done",
+   "正义感 (zhèngyì gǎn) — a sense of justice",
+   "正义的事业/战争 (zhèngyì de shìyè) — a just cause / just war",
+   "主持正义 (zhǔchí zhèngyì) — stand up for what's right"
+  ],
+  "sentence": "他这个人很有正义感，看不惯别人受欺负。",
+  "sentence_meaning": "He has a strong sense of justice and can't stand seeing others bullied.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328245374,
+  "lapses": 6,
+  "was": "justice; righteousness"
+ },
+ {
+  "word": "从而",
+  "kind": "connective",
+  "problem": "\"Thus; thereby\" is the same gloss as 因此 and 进而, which is why it keeps slipping.",
+  "meaning": "Written \"and thereby\" — the first clause is a measure taken, the second is the good result it produces. It sits at the head of the second clause, with no new subject, and the two halves are one sentence.",
+  "contrast": "因此 can start a fresh sentence and explains a cause-effect for anything, including bad outcomes. 进而 means going on to a further step, not producing a result. 从而 specifically frames B as the payoff of doing A — the standard sentence of reports and proposals: 采取了X，从而Y了。",
+  "collocations": [
+   "……，从而提高了…… (cóng'ér tígāo le) — thereby raising…",
+   "从而实现 (cóng'ér shíxiàn) — thereby achieving",
+   "从而避免 (cóng'ér bìmiǎn) — thereby avoiding"
+  ],
+  "sentence": "公司简化了审批流程，从而降低了运营成本。",
+  "sentence_meaning": "The company simplified its approval process, thereby lowering operating costs.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667854,
+  "lapses": 6,
+  "was": "thus; thereby; as a result"
+ },
+ {
+  "word": "制定",
+  "kind": "abstract",
+  "problem": "\"Formulate; draw up\" is right but doesn't tell you the restricted set of objects — 制定 lives or dies by what follows it.",
+  "meaning": "To draw up something official and rule-like: laws, policies, standards, plans. The subject is normally an institution or a team, not a private individual doodling.",
+  "contrast": "制作 is making a physical thing or a video. 规定 is stipulating a rule (and as a noun, the rule itself). 拟定 is drafting a preliminary version. 制订 is a near-twin used for plans still open to revision; 制定 implies it's finalised and in force.",
+  "collocations": [
+   "制定法律/政策 (zhìdìng fǎlǜ/zhèngcè) — enact laws / formulate policy",
+   "制定计划 (zhìdìng jìhuà) — draw up a plan",
+   "制定标准 (zhìdìng biāozhǔn) — set standards",
+   "制定规则 (zhìdìng guīzé) — lay down the rules"
+  ],
+  "sentence": "政府正在制定新的环保政策。",
+  "sentence_meaning": "The government is drawing up new environmental policies.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667711,
+  "lapses": 6,
+  "was": "to formulate; to draw up; to lay down (a plan or policy)"
+ },
+ {
+  "word": "成立",
+  "kind": "abstract",
+  "problem": "\"Establish; found\" misses half the word — the very common second sense, that an argument or charge holds up.",
+  "meaning": "Two senses. One: an organisation comes into being / is founded (often intransitive — 公司成立于1998年, no object needed). Two: a claim, theory, or accusation stands up, is valid — 这个说法不成立.",
+  "contrast": "建立 is establishing relations, systems, trust — it always takes an object and doesn't mean \"be valid.\" 创立 is founding something new from scratch, with a founder in view. 设立 is setting up a post, fund, or branch office.",
+  "collocations": [
+   "成立于……年 (chénglì yú) — founded in the year…",
+   "宣布成立 (xuānbù chénglì) — announce the establishment of",
+   "不成立 (bù chénglì) — doesn't hold, invalid",
+   "理由不成立 (lǐyóu bù chénglì) — the reason doesn't stand up"
+  ],
+  "sentence": "如果这个前提不成立，后面的结论也就没有意义了。",
+  "sentence_meaning": "If this premise doesn't hold, the conclusions that follow are meaningless too.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667535,
+  "lapses": 6,
+  "was": "to establish; to found; to set up"
+ },
+ {
+  "word": "举行",
+  "kind": "abstract",
+  "problem": "\"Hold (a meeting)\" overlaps with 开, 召开, 举办 and gives no way to choose; the card also doesn't show its favourite passive-ish pattern.",
+  "meaning": "To hold a formal event — ceremonies, games, elections, talks. Most often the event is the subject and 举行 comes at the end: 奥运会在北京举行.",
+  "contrast": "举办 focuses on the organiser putting the event on (举办展览, 举办比赛) and takes a doer. 召开 is specifically convening a meeting or congress. 开会 is the plain spoken version. 举行 leans towards ceremonies and scheduled occasions, and often appears with 在…举行.",
+  "collocations": [
+   "举行婚礼/葬礼 (jǔxíng hūnlǐ/zànglǐ) — hold a wedding/funeral",
+   "举行会谈 (jǔxíng huìtán) — hold talks",
+   "举行仪式 (jǔxíng yíshì) — hold a ceremony",
+   "如期举行 (rúqī jǔxíng) — take place as scheduled"
+  ],
+  "sentence": "开幕仪式将于下周五在体育馆举行。",
+  "sentence_meaning": "The opening ceremony will be held next Friday at the gymnasium.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328245623,
+  "lapses": 6,
+  "was": "convene; to hold (a meeting, ceremony, etc.)"
+ },
+ {
+  "word": "机构",
+  "kind": "abstract",
+  "problem": "Listing \"structure\" first is misleading — in everyday modern use it almost always means an organisation/agency, and it's the standard word for formal bodies.",
+  "meaning": "An institution or agency — a formally constituted body with a function: a government agency, a research institute, a bank, a tutoring company. Also, in a bureaucratic sense, the apparatus/setup of an organisation (机构改革, 精简机构).",
+  "contrast": "组织 is an organisation as a group of people, and also the verb \"to organise.\" 单位 is your workplace, especially a state one. 部门 is a department inside a larger body. 机构 is the entity as an official institution seen from the outside — and in finance, 机构 means institutional investors.",
+  "collocations": [
+   "金融机构 (jīnróng jīgòu) — financial institution",
+   "政府机构 (zhèngfǔ jīgòu) — government agency",
+   "培训机构 (péixùn jīgòu) — training/tutoring company",
+   "医疗机构 (yīliáo jīgòu) — medical institution"
+  ],
+  "sentence": "这项调查由一家独立研究机构完成。",
+  "sentence_meaning": "This survey was carried out by an independent research institution.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817668283,
+  "lapses": 6,
+  "was": "structure; organization; institution"
+ },
+ {
+  "word": "安慰",
+  "kind": "abstract",
+  "problem": "\"Comfort; console\" is fine for the verb, but the card hides that 安慰 is just as often an adjective/noun — \"a comfort,\" \"feel comforted\" — and the sample sentence is odd.",
+  "meaning": "To console someone who's upset, with words. Equally common as a state or a thing: 心里得到安慰 (feel comforted), 是一种安慰 (it's some consolation), 感到安慰 (be reassured/gratified).",
+  "contrast": "鼓励 is urging someone on towards something. 劝 is talking someone into or out of an action. 安慰 only tries to make the hurt easier to bear; it doesn't ask for anything.",
+  "collocations": [
+   "安慰她几句 (ānwèi tā jǐ jù) — say a few comforting words to her",
+   "感到安慰 (gǎndào ānwèi) — feel comforted / be gratified",
+   "是个安慰 (shì ge ānwèi) — is some consolation",
+   "安慰奖 (ānwèi jiǎng) — consolation prize"
+  ],
+  "sentence": "孩子们都很懂事，这让她感到很安慰。",
+  "sentence_meaning": "The children are all so sensible, which is a great comfort to her.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667366,
+  "lapses": 6,
+  "was": "to comfort; to console"
+ },
+ {
+  "word": "建筑",
+  "kind": "other",
+  "problem": "The card stacks three English words together, so nothing sticks; the core of it is physical structures/architecture, and the 'to construct' use is rare in modern speech.",
+  "meaning": "Buildings as physical things, and the field of architecture. Modern usage is overwhelmingly nominal: 建筑物 a structure, 建筑师 an architect, 古建筑 old buildings.",
+  "contrast": "建设 is building up something abstract or large-scale (经济建设, 城市建设); 建立 is establishing a system, relationship or organization. 建筑 is bricks and design.",
+  "collocations": [
+   "建筑师 (jiànzhùshī) — architect",
+   "古建筑 (gǔ jiànzhù) — historic buildings",
+   "建筑工地 (jiànzhù gōngdì) — construction site",
+   "建筑风格 (jiànzhù fēnggé) — architectural style"
+  ],
+  "sentence": "这座教堂是城里最有名的建筑。",
+  "sentence_meaning": "This church is the most famous building in the city.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667236,
+  "lapses": 6,
+  "was": "a building; to construct; architecture"
+ },
+ {
+  "word": "主席",
+  "kind": "other",
+  "problem": "'Chairperson; president' collides with 总统, 主任, 董事长 in his head, and the sentence 他是我们的主席 gives no institutional context.",
+  "meaning": "The person who chairs a body — a committee, a union, an association, a meeting. It's also the title of the PRC head of state (国家主席) and the honorific in 毛主席.",
+  "contrast": "总统 is the president of a republic (US, France); 董事长 chairs a company board; 主任 heads an office or department. 主席 presides over a council or organization.",
+  "collocations": [
+   "国家主席 (guójiā zhǔxí) — state president (PRC)",
+   "主席台 (zhǔxítái) — the platform where officials sit",
+   "工会主席 (gōnghuì zhǔxí) — union chairman",
+   "担任主席 (dānrèn zhǔxí) — serve as chair"
+  ],
+  "sentence": "会议由协会主席主持。",
+  "sentence_meaning": "The meeting was chaired by the president of the association.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667433,
+  "lapses": 6,
+  "was": "chairperson; president"
+ },
+ {
+  "word": "综合",
+  "kind": "abstract",
+  "problem": "'Summarize' is misleading — that's 总结. 综合 is about merging several separate things, not boiling something down.",
+  "meaning": "To put several separate factors together and treat them as one; as a modifier, 'combined, all-round, general-purpose'. Think 综合考虑 — weigh everything together before deciding.",
+  "contrast": "总结 = sum up experience or lessons afterwards. 全面 = covering every side (comprehensive in coverage). 综合 = the act of combining multiple inputs.",
+  "collocations": [
+   "综合考虑 (zōnghé kǎolǜ) — take everything into account",
+   "综合实力 (zōnghé shílì) — overall strength",
+   "综合大学 (zōnghé dàxué) — comprehensive university",
+   "综合素质 (zōnghé sùzhì) — all-round quality/ability"
+  ],
+  "sentence": "综合各方面的情况来看，这个方案更可行。",
+  "sentence_meaning": "Taking all the circumstances together, this plan is more workable.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667862,
+  "lapses": 6,
+  "was": "synthesized; composite; summarize"
+ },
+ {
+  "word": "实施",
+  "kind": "abstract",
+  "problem": "'Implement / carry out' is exactly the gloss he has on 进行, 执行 and 落实, so the card can't be told apart from those.",
+  "meaning": "Formal, official word for putting a law, policy, regulation or plan into force. Its subject is usually a government or institution, and it's the verb you see in news and legal text.",
+  "contrast": "执行 = carry out an order, task or sentence (enforce what's been decided); 落实 = make sure it actually gets done on the ground; 进行 = the neutral 'conduct/be underway' with almost any activity. 实施 is specifically bringing rules into effect.",
+  "collocations": [
+   "实施新政策 (shíshī xīn zhèngcè) — implement a new policy",
+   "正式实施 (zhèngshì shíshī) — formally take effect",
+   "实施方案 (shíshī fāng'àn) — implementation plan",
+   "分阶段实施 (fēn jiēduàn shíshī) — implement in stages"
+  ],
+  "sentence": "新的交通法规将从下月一日起实施。",
+  "sentence_meaning": "The new traffic regulations will take effect on the first of next month.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817668695,
+  "lapses": 6,
+  "was": "to implement; put into effect; carry out"
+ },
+ {
+  "word": "稳定",
+  "kind": "abstract",
+  "problem": "'Stable; steady' is right but hookless, and the card ignores that 稳定 is also a verb ('stabilize') and a noun in formal writing.",
+  "meaning": "Not fluctuating — prices, jobs, health, a society, a person's mood. Also used transitively: 稳定物价 hold prices steady, 稳定情绪 calm someone down.",
+  "contrast": "固定 is fixed in place or fixed in amount (固定工资); 安定 is a settled, peaceful life or social order; 稳定 is the absence of ups and downs.",
+  "collocations": [
+   "工作稳定 (gōngzuò wěndìng) — a secure job",
+   "物价稳定 (wùjià wěndìng) — stable prices",
+   "稳定发展 (wěndìng fāzhǎn) — steady development",
+   "稳定情绪 (wěndìng qíngxù) — calm someone's emotions"
+  ],
+  "sentence": "病人的情况已经稳定下来了。",
+  "sentence_meaning": "The patient's condition has stabilized.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667206,
+  "lapses": 6,
+  "was": "stable; steady"
+ },
+ {
+  "word": "采取",
+  "kind": "abstract",
+  "problem": "'Take/adopt' overlaps with 采用 and 采纳; and the old sentence (人民采取激烈的抗议行动) is stiff and unidiomatic.",
+  "meaning": "To adopt a course of action — it takes a short list of abstract objects: 措施, 行动, 政策, 态度, 手段, 方式, 立场. Almost formulaic in news and official language.",
+  "contrast": "采用 = put a method, technology or material to use (采用新技术); 采纳 = accept someone's suggestion or opinion (采纳建议). 采取 is about the stance or measures you take.",
+  "collocations": [
+   "采取措施 (cǎiqǔ cuòshī) — take measures",
+   "采取行动 (cǎiqǔ xíngdòng) — take action",
+   "采取强硬态度 (cǎiqǔ qiángyìng tàidù) — take a hard line",
+   "采取有效手段 (cǎiqǔ yǒuxiào shǒuduàn) — use effective means"
+  ],
+  "sentence": "政府采取了一系列措施控制房价。",
+  "sentence_meaning": "The government took a series of measures to control housing prices.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667309,
+  "lapses": 6,
+  "was": "carry out or adopt; take(measures, policies, attitudes, etc.)"
+ },
+ {
+  "word": "意识",
+  "kind": "abstract",
+  "problem": "Listing 'realize' first is misleading — 意识 alone is a noun; the verb is 意识到 and it needs the 到.",
+  "meaning": "Consciousness in the medical sense (失去意识), and 'awareness' of some issue — 环保意识, 安全意识, 法律意识. To say 'realize', you need 意识到 + a clause.",
+  "contrast": "认识 is understanding or knowledge of something (对问题的认识); 意识 is either being conscious or having an internalized awareness. 意识到 = the moment of realizing.",
+  "collocations": [
+   "失去意识 (shīqù yìshí) — lose consciousness",
+   "安全意识 (ānquán yìshí) — safety awareness",
+   "环保意识 (huánbǎo yìshí) — environmental awareness",
+   "意识到 (yìshí dào) — to realize that…"
+  ],
+  "sentence": "他这才意识到自己犯了个大错。",
+  "sentence_meaning": "Only then did he realize he'd made a big mistake.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817668176,
+  "lapses": 6,
+  "was": "realize; consciousness; awareness; sense"
+ },
+ {
+  "word": "舒",
+  "kind": "character",
+  "problem": "It isn't a standalone word — asking for its meaning alone is asking for something that never occurs in speech.",
+  "meaning": "Background sense: to unfold, stretch out, loosen up — hence 'at ease, comfortable' inside compounds. Also a surname and a transliteration syllable (舒伯特 Schubert).",
+  "contrast": "",
+  "collocations": [
+   "舒服 (shūfu) — comfortable, feeling well",
+   "舒适 (shūshì) — comfortable (written, of places/conditions)",
+   "舒缓 (shūhuǎn) — gentle, slow-paced; to ease",
+   "舒展 (shūzhǎn) — to stretch out, unfurl"
+  ],
+  "sentence": "这几天睡得不好，身上不太舒服。",
+  "sentence_meaning": "I haven't slept well these last few days and don't feel great.",
+  "recommend": "learn-in-word",
+  "study_instead": [
+   "舒服",
+   "舒适"
+  ],
+  "nid": 1537328243007,
+  "lapses": 6,
+  "was": "Comfortable;(transliteration sound)"
+ },
+ {
+  "word": "衬",
+  "kind": "character",
+  "problem": "The gloss 'underwear' is wrong — that's 内衣. 衬 is a lining, and it never stands alone.",
+  "meaning": "Background sense: the layer underneath — a lining, or by extension setting something off against a background. That's why it gives 衬衫 (shirt, originally the under-garment) and 衬托 (to set off).",
+  "contrast": "",
+  "collocations": [
+   "衬衫 (chènshān) — shirt",
+   "衬衣 (chènyī) — shirt, undershirt",
+   "衬托 (chèntuō) — to set off, provide a foil for",
+   "陪衬 (péichèn) — serve as a foil/backdrop"
+  ],
+  "sentence": "他穿了一件白衬衫，配了条深色领带。",
+  "sentence_meaning": "He wore a white shirt with a dark tie.",
+  "recommend": "learn-in-word",
+  "study_instead": [
+   "衬衫",
+   "衬托"
+  ],
+  "nid": 1449637010391,
+  "lapses": 6,
+  "was": "underwear; inner garments"
+ },
+ {
+  "word": "成就",
+  "kind": "abstract",
+  "problem": "'Achievement' is correct but sits in a pile with 成绩, 成果, 成功 — nothing marks out which one 成就 is.",
+  "meaning": "A major accomplishment, usually career- or lifetime-scale, something you're credited with. Standard verb is 取得; 有成就 means being accomplished, and 成就感 is the feeling of accomplishment.",
+  "contrast": "成绩 = results/marks, smaller and measurable (考试成绩); 成果 = the concrete fruits of work, esp. research (研究成果); 成功 = success as a state. 成就 is the big, honorable achievement.",
+  "collocations": [
+   "取得成就 (qǔdé chéngjiù) — achieve accomplishments",
+   "成就感 (chéngjiùgǎn) — sense of achievement",
+   "伟大的成就 (wěidà de chéngjiù) — great achievement",
+   "毕生成就奖 (bìshēng chéngjiù jiǎng) — lifetime achievement award"
+  ],
+  "sentence": "他在医学研究上取得了很大的成就。",
+  "sentence_meaning": "He has made great achievements in medical research.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667447,
+  "lapses": 5,
+  "was": "achievement; accomplishment; success"
+ },
+ {
+  "word": "违反",
+  "kind": "abstract",
+  "problem": "'Violate (a law)' is too narrow and blurs into 违法 and 违背.",
+  "meaning": "To break a written rule — 规定, 法律, 纪律, 合同, 规则. It always takes an object.",
+  "contrast": "违法 is a verb-object unit meaning 'break the law' and takes no object after it (他违法了); 违背 goes against something non-written — a promise, principle, one's conscience or someone's wishes (违背承诺). 违反 = breach a stated rule.",
+  "collocations": [
+   "违反规定 (wéifǎn guīdìng) — violate the rules",
+   "违反纪律 (wéifǎn jìlǜ) — breach discipline",
+   "违反交通规则 (wéifǎn jiāotōng guīzé) — break traffic rules",
+   "严重违反 (yánzhòng wéifǎn) — seriously violate"
+  ],
+  "sentence": "他因违反公司规定被开除了。",
+  "sentence_meaning": "He was fired for violating company rules.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667346,
+  "lapses": 5,
+  "was": "violate (a law)"
+ },
+ {
+  "word": "进行",
+  "kind": "abstract",
+  "problem": "'Carry on / undertake' says nothing about the one thing that matters: 进行 is a light verb that carries a two-syllable activity noun, and he confuses it with 实施 and 举行.",
+  "meaning": "The all-purpose formal verb for 'conduct/carry out'. It props up a two-syllable abstract activity — 进行讨论/调查/谈判/改革/比较 — and turns it into a proper predicate. Also 正在进行中 'underway'.",
+  "contrast": "实施 is only for laws, policies and plans taking effect; 举行/举办 are for events and ceremonies (举行婚礼); 开展 is for launching a campaign or drive. 进行 is the neutral default and the most colorless of them.",
+  "collocations": [
+   "进行讨论 (jìnxíng tǎolùn) — hold a discussion",
+   "进行调查 (jìnxíng diàochá) — conduct an investigation",
+   "顺利进行 (shùnlì jìnxíng) — proceed smoothly",
+   "正在进行中 (zhèngzài jìnxíng zhōng) — in progress"
+  ],
+  "sentence": "双方就贸易问题进行了三轮谈判。",
+  "sentence_meaning": "The two sides held three rounds of talks on trade issues.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666327,
+  "lapses": 5,
+  "was": "to carry on; carry out; undertake"
+ },
+ {
+  "word": "必然",
+  "kind": "connective",
+  "problem": "Glossed the same as 一定, 肯定, 必定 and 难免, so the card can't be distinguished from any of them.",
+  "meaning": "'Inevitably, as a matter of course' — a written, argumentative word claiming something follows by necessity. Sits before the verb (必然会…), and also works as a modifier or noun: 必然结果, 必然趋势, 历史的必然.",
+  "contrast": "一定 and 肯定 are everyday confidence about a fact ('surely, definitely') and 一定 also expresses insistence (你一定要来); 必定 is close to 必然 but purely adverbial; 难免 means 'hard to avoid' with a negative flavor. 必然 = objective logical or historical necessity, essay register.",
+  "collocations": [
+   "必然结果 (bìrán jiéguǒ) — inevitable result",
+   "必然趋势 (bìrán qūshì) — inevitable trend",
+   "必然会 (bìrán huì) — is bound to",
+   "历史的必然 (lìshǐ de bìrán) — a historical inevitability"
+  ],
+  "sentence": "技术落后必然导致竞争力下降。",
+  "sentence_meaning": "Falling behind technologically inevitably leads to a loss of competitiveness.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247658,
+  "lapses": 5,
+  "was": "inevitable; certain; bound to be"
+ },
+ {
+  "word": "相当",
+  "kind": "connective",
+  "problem": "Two unrelated jobs are crammed into one gloss with four synonyms, and the sample sentence uses both at once, which just muddles them.",
+  "meaning": "As a degree adverb before adjectives, 'quite/considerably' — noticeably stronger than 比较, a bit below 非常, and slightly formal. Separately, 相当（于）means 'equal to / on a par with': 两人水平相当, 一英里相当于1.6公里.",
+  "contrast": "比较 is mild ('relatively'); 非常/十分 are strong; 挺 is casual speech. 相当 leans written and is used with adjectives, not bare verbs.",
+  "collocations": [
+   "相当复杂 (xiāngdāng fùzá) — quite complicated",
+   "相当不错 (xiāngdāng bùcuò) — pretty good",
+   "相当于 (xiāngdāng yú) — equivalent to",
+   "实力相当 (shílì xiāngdāng) — evenly matched"
+  ],
+  "sentence": "这份报告写得相当详细。",
+  "sentence_meaning": "This report is written in considerable detail.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667021,
+  "lapses": 5,
+  "was": "(adverb) quite; fairly; considerably; (verb) to be equal to; to match"
+ },
+ {
+  "word": "广告",
+  "kind": "other",
+  "problem": "Nothing wrong with the gloss — it fails because it's stored as a bare English word with no phrases attached.",
+  "meaning": "An ad, in any medium. Note the verbs that go with it: 登广告 place an ad (in print), 打广告 run advertising, 做广告 advertise / appear in an ad.",
+  "contrast": "宣传 is publicity or promotion in general (including propaganda); 广告 is the paid ad itself.",
+  "collocations": [
+   "登广告 (dēng guǎnggào) — place an advertisement",
+   "打广告 (dǎ guǎnggào) — run ads",
+   "广告公司 (guǎnggào gōngsī) — ad agency",
+   "广告牌 (guǎnggàopái) — billboard"
+  ],
+  "sentence": "这个牌子请了明星来拍广告。",
+  "sentence_meaning": "This brand hired a celebrity to shoot a commercial.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328244527,
+  "lapses": 5,
+  "was": "advertisement; commercial; to advertise"
+ },
+ {
+  "word": "运行",
+  "kind": "abstract",
+  "problem": "'To run; operate' is the same gloss he has on 运转, 操作 and 经营, with nothing marking what kind of subject 运行 takes.",
+  "meaning": "Used of machines, systems, software, trains and planets — something moving along its intended course. Its subject is the system itself, not a person.",
+  "contrast": "运转 emphasizes turning/functioning (of machinery, or an organization's workings); 操作 is a person operating equipment; 经营 is running a business; 行驶 is a vehicle moving on a road. 运行 = the system is up and going.",
+  "collocations": [
+   "正常运行 (zhèngcháng yùnxíng) — run normally",
+   "系统运行 (xìtǒng yùnxíng) — the system runs",
+   "运行速度 (yùnxíng sùdù) — running speed",
+   "列车运行图 (lièchē yùnxíngtú) — train timetable/diagram"
+  ],
+  "sentence": "这套软件在旧电脑上也能正常运行。",
+  "sentence_meaning": "This software runs fine even on old computers.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817668855,
+  "lapses": 5,
+  "was": "to run; to operate; to be in motion"
+ },
+ {
+  "word": "认同",
+  "kind": "abstract",
+  "problem": "'Agree with; approve of' makes it look like a synonym of 同意, and hides the identity sense that's half its usage.",
+  "meaning": "To accept something as right and feel aligned with it — a view, a value, a way of doing things. As a noun it's 'identity/identification': 身份认同, 文化认同.",
+  "contrast": "同意 is agreeing to a specific proposal or request (同意我去); 赞同 is endorsing an opinion; 认同 is deeper buy-in or a sense of belonging, and works as a noun, which 同意 doesn't.",
+  "collocations": [
+   "文化认同 (wénhuà rèntóng) — cultural identity",
+   "身份认同 (shēnfèn rèntóng) — sense of identity",
+   "得到认同 (dédào rèntóng) — win acceptance/recognition",
+   "不认同这种做法 (bù rèntóng zhè zhǒng zuòfǎ) — don't endorse this approach"
+  ],
+  "sentence": "很多年轻员工并不认同公司的这套价值观。",
+  "sentence_meaning": "A lot of the younger employees simply don't buy into the company's values.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328242679,
+  "lapses": 5,
+  "was": "to identify with; to agree with; to approve of"
+ },
+ {
+  "word": "出自",
+  "kind": "abstract",
+  "problem": "'Come from' is the gloss on 来自 and 源于 too, so the card gives him no way to pick 出自.",
+  "meaning": "Written verb for tracing a work, quote or product back to its source — a book, an author, a workshop, a school. Followed directly by the source, no preposition.",
+  "contrast": "来自 = comes from a place or origin generally (他来自广东); 出于 = out of a motive (出于好奇); 源于 = has its roots/origin in (这个词源于拉丁语). 出自 = 'is by / is taken from' a specific source.",
+  "collocations": [
+   "出自名家之手 (chūzì míngjiā zhī shǒu) — by a master's hand",
+   "这句话出自《论语》 (…chūzì Lúnyǔ) — this line is from the Analects",
+   "出自同一家工厂 (chūzì tóng yī jiā gōngchǎng) — from the same factory",
+   "出自本人意愿 (chūzì běnrén yìyuàn) — of one's own free will"
+  ],
+  "sentence": "这段台词出自一部老电影。",
+  "sentence_meaning": "This line comes from an old film.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1708747487730,
+  "lapses": 5,
+  "was": "to come from; to originate from"
+ },
+ {
+  "word": "相似",
+  "kind": "abstract",
+  "problem": "'Similar; alike' doesn't separate it from 类似 and 相同, and gives him no sense of how it's built into a sentence.",
+  "meaning": "Two things resemble each other. It's a predicate: A 跟 B 相似, or 两者很相似. Nouns from it: 相似之处 points of similarity, 相似度 degree of similarity.",
+  "contrast": "相同 = identical/the same; 类似 mostly sits before a noun or takes 于 (类似的情况, 类似于); 像 is the spoken option. 相似 is the neutral written 'resemble each other'.",
+  "collocations": [
+   "非常相似 (fēicháng xiāngsì) — very similar",
+   "相似之处 (xiāngsì zhī chù) — similarities",
+   "跟…相似 (gēn… xiāngsì) — similar to…",
+   "相似度 (xiāngsìdù) — similarity (degree)"
+  ],
+  "sentence": "这两款手机外观相似，性能却差别很大。",
+  "sentence_meaning": "These two phones look alike, but their performance is very different.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667524,
+  "lapses": 5,
+  "was": "similar; alike; to resemble"
+ },
+ {
+  "word": "获得",
+  "kind": "abstract",
+  "problem": "'Obtain; acquire; gain' is exactly what his 得到 and 取得 cards say, so there's nothing to choose between them.",
+  "meaning": "Formal 'to receive/win' — what you get after effort or by award: prizes, titles, degrees, approval, support, freedom. Very common in news and résumés.",
+  "contrast": "得到 is the neutral, everyday version and covers almost anything; 取得 pairs with results and progress (取得成绩/进展/胜利/联系); 收到 is physically receiving something sent. 获得 leans toward being awarded or granted.",
+  "collocations": [
+   "获得冠军 (huòdé guànjūn) — win the championship",
+   "获得支持 (huòdé zhīchí) — win support",
+   "获得批准 (huòdé pīzhǔn) — receive approval",
+   "获得学位 (huòdé xuéwèi) — obtain a degree"
+  ],
+  "sentence": "她的论文获得了今年的一等奖。",
+  "sentence_meaning": "Her paper won this year's first prize.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666452,
+  "lapses": 5,
+  "was": "obtain; acquire; to gain"
+ },
+ {
+  "word": "游戏",
+  "kind": "other",
+  "problem": "The gloss stacks three English words (game/play/recreation) so nothing specific comes back; in practice 游戏 is one narrow thing — a game you play, above all a video game.",
+  "meaning": "A game — nowadays first and foremost a video game (打游戏/玩游戏), otherwise a structured game with rules. In formal writing it also shows up figuratively for anything played by rules or not taken seriously.",
+  "contrast": "比赛 is a competitive match with a winner; 玩 is the verb 'to play' generally. 游戏 is the thing being played, not the event or the activity.",
+  "collocations": [
+   "电子游戏 (diànzǐ yóuxì) — video game",
+   "游戏规则 (yóuxì guīzé) — the rules of the game, also figurative",
+   "文字游戏 (wénzì yóuxì) — word games, playing with wording to dodge an issue"
+  ],
+  "sentence": "他这是在玩文字游戏，根本没回答问题。",
+  "sentence_meaning": "He's just playing word games — he didn't actually answer the question.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666054,
+  "lapses": 5,
+  "was": "game; play; recreation"
+ },
+ {
+  "word": "选择",
+  "kind": "abstract",
+  "problem": "Glossed as three near-identical English verbs, so it never sticks to a use; the important half — 选择 as a noun, 'a choice' — is missing entirely.",
+  "meaning": "To choose between options, and equally often the noun 'choice/option'. It's the abstract act of deciding among alternatives, which is why it fits things like career, path, life partner.",
+  "contrast": "挑 is picking through goods with your hands and eyes; 选 alone leans toward voting/selecting a person or item; 选择 is the deliberate weighing of options and the only one that works as an abstract noun.",
+  "collocations": [
+   "别无选择 (bié wú xuǎnzé) — have no other choice",
+   "做出选择 (zuòchū xuǎnzé) — make a choice",
+   "选择性 (xuǎnzéxìng) — selective, as in 选择性失明"
+  ],
+  "sentence": "摆在他面前的只有两条路，他必须做出选择。",
+  "sentence_meaning": "Only two roads lay before him; he had to make a choice.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328245751,
+  "lapses": 5,
+  "was": "select; to pick; choose"
+ },
+ {
+  "word": "实现",
+  "kind": "abstract",
+  "problem": "'Achieve/implement/realize' pulls it toward 完成 and 达到; the card doesn't say what kind of object it takes, which is the whole trick.",
+  "meaning": "To make something abstract actually come true — a dream, a goal, a promise, a plan. The thing realized is always something previously only imagined or stated.",
+  "contrast": "完成 finishes a concrete task; 达到 reaches a level or number (达到标准); 落实 puts a policy into practice on the ground. 实现 is 'it went from wish to reality'.",
+  "collocations": [
+   "实现梦想 (shíxiàn mèngxiǎng) — realize a dream",
+   "实现目标 (shíxiàn mùbiāo) — achieve a goal",
+   "自我实现 (zìwǒ shíxiàn) — self-actualization"
+  ],
+  "sentence": "经过十年努力，他终于实现了当初的承诺。",
+  "sentence_meaning": "After ten years of effort, he finally made good on the promise he'd made back then.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328244789,
+  "lapses": 5,
+  "was": "achieve; to implement;to realize"
+ },
+ {
+  "word": "工程",
+  "kind": "other",
+  "problem": "'Engineering' as a field and 'an engineering project' are two different things and the card leaves them mixed; the everyday sense is the second one.",
+  "meaning": "A large construction or technical project — the thing being built, with its schedule and budget. As a modifier it means the engineering field: 工程师, 工程学.",
+  "contrast": "项目 is any project including business ones; 建筑 is the building itself. 工程 implies scale and construction/technical work — you'd never call a small office task 工程.",
+  "collocations": [
+   "工程师 (gōngchéngshī) — engineer",
+   "希望工程 (Xīwàng Gōngchéng) — the Project Hope charity scheme",
+   "豆腐渣工程 (dòufuzhā gōngchéng) — a shoddily built project"
+  ],
+  "sentence": "这项工程投资巨大，工期长达五年。",
+  "sentence_meaning": "This project involves enormous investment, with a construction period of five years.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247838,
+  "lapses": 5,
+  "was": "Engineering, an engineering project"
+ },
+ {
+  "word": "方案",
+  "kind": "abstract",
+  "problem": "'Plan/program/proposal' collides head-on with 计划 and 方法; nothing tells you 方案 is the written, worked-out version you put on the table.",
+  "meaning": "A concrete worked-out proposal — a design, a scheme, a course of action written up in enough detail that people can approve or reject it. Typically one of several on offer.",
+  "contrast": "计划 is a plan over time (what you'll do when); 方法 is a method or technique; 政策 is policy. 方案 is a specific document/scheme, so it's countable: 两个方案, 备选方案.",
+  "collocations": [
+   "解决方案 (jiějué fāng'àn) — solution (esp. in business/tech)",
+   "设计方案 (shèjì fāng'àn) — design proposal",
+   "实施方案 (shíshī fāng'àn) — implementation plan"
+  ],
+  "sentence": "会上提出了三个方案，最后选了成本最低的那个。",
+  "sentence_meaning": "Three proposals were put forward at the meeting, and in the end they chose the cheapest one.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247312,
+  "lapses": 5,
+  "was": "plan; program (for action, etc.); proposal"
+ },
+ {
+  "word": "激",
+  "kind": "character",
+  "problem": "'To swash, surge, dash' is a dictionary entry for a bound character — 激 isn't a standalone word in modern Chinese, so there's nothing to recall. The current sentence uses a rare colloquial 激 (goad someone) that's misleading as the core meaning.",
+  "meaning": "Background sense: water dashing against something and churning up — hence 'to stir up, to rouse, intense'. It only lives inside compounds, where it adds the flavour of being stirred up or violent.",
+  "contrast": "",
+  "collocations": [
+   "激动 (jīdòng) — worked up, emotionally stirred",
+   "刺激 (cìjī) — to stimulate/provoke; a stimulus",
+   "激烈 (jīliè) — fierce, intense (competition, argument)",
+   "激发 (jīfā) — to spark, arouse (interest, potential)"
+  ],
+  "sentence": "比赛进行得非常激烈，观众都激动得站了起来。",
+  "sentence_meaning": "The match was fiercely contested, and the spectators got so worked up they stood up.",
+  "recommend": "learn-in-word",
+  "study_instead": [
+   "激动",
+   "刺激",
+   "激烈"
+  ],
+  "nid": 1537328246029,
+  "lapses": 5,
+  "was": "To swash, surge, dash; To dash, excite"
+ },
+ {
+  "word": "技术",
+  "kind": "abstract",
+  "problem": "Three glosses — technology, technique, skill — that point at three different Chinese words; the card never says which corner 技术 owns.",
+  "meaning": "Technical know-how: either technology in the industrial sense, or a person's hands-on skill at doing something practical (driving, surgery, cooking).",
+  "contrast": "科技 is science-and-technology as a broad domain (科技公司, 科技新闻); 技能 is a trainable job skill on a résumé; 工艺 is a craft/manufacturing process. 技术 is the practical know-how itself.",
+  "collocations": [
+   "技术支持 (jìshù zhīchí) — technical support",
+   "高新技术 (gāoxīn jìshù) — high and new technology",
+   "技术含量 (jìshù hánliàng) — how much technical substance something has"
+  ],
+  "sentence": "这家工厂引进了国外的先进技术。",
+  "sentence_meaning": "This factory brought in advanced technology from abroad.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247164,
+  "lapses": 4,
+  "was": "technology; technique; skill"
+ },
+ {
+  "word": "竞争",
+  "kind": "abstract",
+  "problem": "Glossed with the bare verb 'compete', which sends you to 比赛; the noun use ('competition' as a market condition) is the more common one in writing and isn't shown.",
+  "meaning": "Competition in the sense of rivalry — companies, candidates, or countries all going after the same thing. Used as both verb and noun, and mostly about economics, jobs and markets rather than sport.",
+  "contrast": "比赛 is an actual match or contest that gets played; 竞赛 is an organized contest (数学竞赛). 竞争 is the ongoing state of rivalry, with no fixed event.",
+  "collocations": [
+   "竞争对手 (jìngzhēng duìshǒu) — competitor, rival",
+   "竞争力 (jìngzhēnglì) — competitiveness",
+   "恶性竞争 (èxìng jìngzhēng) — cut-throat, destructive competition"
+  ],
+  "sentence": "就业市场竞争激烈，很多毕业生选择继续读书。",
+  "sentence_meaning": "Competition in the job market is fierce, so many graduates choose to keep studying.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328246658,
+  "lapses": 4,
+  "was": "compete"
+ },
+ {
+  "word": "例外",
+  "kind": "abstract",
+  "problem": "Tagged as a verb with the gloss '(make an) exception', but it's mainly a noun, and its commonest life is in fixed negative phrases — that's what should be memorized.",
+  "meaning": "An exception to a rule. Most often you meet it in the negative: nobody is exempt, no exceptions, without exception.",
+  "contrast": "除外 means 'excluding' and goes after the excluded item (节假日除外); 特殊 means 'special'. 例外 is the exception itself, the case that breaks the rule.",
+  "collocations": [
+   "无一例外 (wúyī lìwài) — without a single exception",
+   "没有例外 (méiyǒu lìwài) — no exceptions",
+   "这次也不例外 (zhè cì yě bù lìwài) — this time is no different"
+  ],
+  "sentence": "公司规定人人都要打卡，经理也不例外。",
+  "sentence_meaning": "Company rules say everyone has to clock in — the manager included.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817668741,
+  "lapses": 4,
+  "was": "(make an) exception"
+ },
+ {
+  "word": "权利",
+  "kind": "abstract",
+  "problem": "'Right; privilege' is fine but leaves the killer confusion untouched: 权利 vs 权力, identical in speech.",
+  "meaning": "A right you're entitled to — legal or moral. It's the citizen's side of things and is almost always paired with 义务 (duties).",
+  "contrast": "权力 (same sound) is power/authority — what officials and institutions wield over others. 权利 is what you're owed; 权力 is what someone commands. 特权 is privilege proper.",
+  "collocations": [
+   "权利和义务 (quánlì hé yìwù) — rights and obligations",
+   "合法权利 (héfǎ quánlì) — legal rights",
+   "享有权利 (xiǎngyǒu quánlì) — to enjoy/hold a right"
+  ],
+  "sentence": "消费者有权利要求退货，商家不能拒绝。",
+  "sentence_meaning": "Consumers have the right to demand a refund, and merchants can't refuse.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667049,
+  "lapses": 4,
+  "was": "right; privilege"
+ },
+ {
+  "word": "化学",
+  "kind": "other",
+  "problem": "A one-word gloss with no hook — it's failing as an isolated label, not as a concept. Anchor it to the compounds it forms.",
+  "meaning": "Chemistry, the school subject and the science; as a modifier, 'chemical'. Nearly all its everyday use is as the first half of 化学X.",
+  "contrast": "",
+  "collocations": [
+   "化学反应 (huàxué fǎnyìng) — chemical reaction",
+   "化学物质 (huàxué wùzhì) — chemical substance",
+   "化学武器 (huàxué wǔqì) — chemical weapons"
+  ],
+  "sentence": "这两种液体混在一起会发生化学反应。",
+  "sentence_meaning": "Mixing these two liquids will produce a chemical reaction.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667462,
+  "lapses": 4,
+  "was": "chemistry"
+ },
+ {
+  "word": "理论",
+  "kind": "abstract",
+  "problem": "'Theory' alone is hookless, and it hides the very common adverbial 理论上 as well as the unrelated verb sense.",
+  "meaning": "A theory or body of doctrine — the systematic thinking behind a practice. Constantly set against 实践 (practice) and 实际 (reality).",
+  "contrast": "学说 is a named scholarly doctrine (进化学说); 道理 is a reason or common-sense point. Note also the separate verb 跟某人理论 = argue it out with someone, which trips people up.",
+  "collocations": [
+   "理论上 (lǐlùn shàng) — in theory, theoretically",
+   "理论与实践 (lǐlùn yǔ shíjiàn) — theory and practice",
+   "理论基础 (lǐlùn jīchǔ) — theoretical foundation"
+  ],
+  "sentence": "理论上行得通，实际操作起来问题不少。",
+  "sentence_meaning": "In theory it works, but in actual practice there are plenty of problems.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667180,
+  "lapses": 4,
+  "was": "theory"
+ },
+ {
+  "word": "上当",
+  "kind": "other",
+  "problem": "The gloss is right but the card treats it as one solid verb; it's a verb-object pair that splits, and that's what makes it hard to produce.",
+  "meaning": "To fall for a trick or scam — you took the bait. Spoken, everyday. Since 当 is the object, things go in between: 上了当, 上过好几次当, 上他的当.",
+  "contrast": "受骗 is the formal 'be deceived' you'd see in a news report; 吃亏 is losing out or getting the short end, with no trickery implied. 上当 always means somebody fooled you.",
+  "collocations": [
+   "上当受骗 (shàngdàng shòupiàn) — be taken in and cheated (set phrase)",
+   "别上当 (bié shàngdàng) — don't fall for it",
+   "上了他的当 (shàngle tā de dàng) — fell for his trick"
+  ],
+  "sentence": "这种电话都是骗人的，千万别上当。",
+  "sentence_meaning": "Calls like this are all scams — whatever you do, don't fall for it.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667948,
+  "lapses": 4,
+  "was": "to be fooled; be taken in; be duped"
+ },
+ {
+  "word": "成员",
+  "kind": "other",
+  "problem": "'Member' overlaps with 会员/队员 and the card doesn't say which kind of group 成员 belongs to.",
+  "meaning": "A member as a component part of a body — a family, a committee, a team, an organization, a country in an alliance. Slightly formal; it describes composition rather than joining.",
+  "contrast": "会员 is a paying/registered member of a club or website; 队员 is a team player; 委员 is a committee officeholder. 成员 is the neutral 'one of the people making up X'.",
+  "collocations": [
+   "家庭成员 (jiātíng chéngyuán) — family member",
+   "成员国 (chéngyuánguó) — member state",
+   "核心成员 (héxīn chéngyuán) — core member"
+  ],
+  "sentence": "填表时要写清楚每位家庭成员的职业。",
+  "sentence_meaning": "When filling in the form, state each family member's occupation clearly.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817668207,
+  "lapses": 4,
+  "was": "member (of a group, team, or family)"
+ },
+ {
+  "word": "种子",
+  "kind": "other",
+  "problem": "Concrete and easy in isolation, which is probably why it slides off — nothing distinguishes it. Give it its metaphorical and sporting uses to make it stick.",
+  "meaning": "A seed. Also used figuratively for the seed of something planted in a person, and in sports for a seeded player.",
+  "contrast": "",
+  "collocations": [
+   "种子选手 (zhǒngzi xuǎnshǒu) — seeded player, top seed",
+   "埋下种子 (máixià zhǒngzi) — plant a seed (figurative)",
+   "种子发芽 (zhǒngzi fāyá) — the seed sprouts"
+  ],
+  "sentence": "那次经历在他心里埋下了一颗种子。",
+  "sentence_meaning": "That experience planted a seed in his mind.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817669147,
+  "lapses": 4,
+  "was": "seed"
+ },
+ {
+  "word": "进化",
+  "kind": "abstract",
+  "problem": "'Evolve' in English is loose and often just means 'gradually change'; 进化 is narrower, which is why the card misleads.",
+  "meaning": "Evolution in the biological sense — species developing over generations, with the implication of progress toward something better adapted. Also used jokingly of gadgets or people 'levelling up'.",
+  "contrast": "演变 is neutral gradual change over time (局势演变), no improvement implied; 发展 is development/growth; 升级 is upgrading a version. Don't use 进化 where you just mean things changed.",
+  "collocations": [
+   "进化论 (jìnhuàlùn) — the theory of evolution",
+   "不断进化 (búduàn jìnhuà) — continually evolving",
+   "进化过程 (jìnhuà guòchéng) — the evolutionary process"
+  ],
+  "sentence": "达尔文的进化论彻底改变了人们对生命的看法。",
+  "sentence_meaning": "Darwin's theory of evolution completely changed how people saw life.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817668922,
+  "lapses": 4,
+  "was": "to evolve; evolution"
+ },
+ {
+  "word": "公元",
+  "kind": "other",
+  "problem": "Glossed as an abbreviation pair (AD/CE) with no sense of when a Chinese speaker actually says it — that's the missing piece.",
+  "meaning": "The Common Era marker used before a year when dating history: 公元前 = BC, 公元 = AD. You only use it for historical dates far from the present; nobody says 公元2024年 in ordinary talk.",
+  "contrast": "世纪 is 'century' and often follows it (公元前三世纪); 年代 is a decade or era. 公元 fixes which side of year zero you're on.",
+  "collocations": [
+   "公元前 (gōngyuánqián) — BC/BCE",
+   "公元二世纪 (gōngyuán èr shìjì) — the 2nd century AD",
+   "公元1000年 (gōngyuán yīqiān nián) — the year 1000 AD"
+  ],
+  "sentence": "孔子大约生活在公元前六世纪。",
+  "sentence_meaning": "Confucius lived roughly in the 6th century BC.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817668083,
+  "lapses": 4,
+  "was": "AD; CE (Common Era); 公元前 = BC/BCE"
+ },
+ {
+  "word": "分析",
+  "kind": "abstract",
+  "problem": "'Analyze/analysis' is correct but weightless; the card gives no phrases, and the old sentence (doing a chemical analysis) is an odd, narrow use.",
+  "meaning": "To break a situation down and work out what's going on, and the write-up that results. Used for problems, data, situations, markets — a standard word in reports and commentary.",
+  "contrast": "研究 is to research or study something over time; 解释 explains why to someone else. 分析 is the taking-apart itself, which may stay in your head.",
+  "collocations": [
+   "分析问题 (fēnxī wèntí) — analyze a problem",
+   "数据分析 (shùjù fēnxī) — data analysis",
+   "具体问题具体分析 (jùtǐ wèntí jùtǐ fēnxī) — analyze each case on its own terms"
+  ],
+  "sentence": "专家分析，房价短期内不会大幅下跌。",
+  "sentence_meaning": "Experts' analysis is that housing prices won't fall sharply in the short term.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667128,
+  "lapses": 4,
+  "was": "analyze; analysis"
+ },
+ {
+  "word": "制度",
+  "kind": "abstract",
+  "problem": "'System; institution' is exactly the gloss shared by 系统, 体制 and 体系, so the card can't distinguish them.",
+  "meaning": "A system of established rules — the written regulations an organization runs on, or the fundamental order of a society. If it's rules people must follow, it's 制度.",
+  "contrast": "系统 is a technical or connected system (操作系统, 神经系统); 体系 is a system of interrelated parts (法律体系); 体制 is the structural setup of a state or sector (教育体制). 制度 is specifically rules and institutional arrangements.",
+  "collocations": [
+   "管理制度 (guǎnlǐ zhìdù) — management rules/regulations",
+   "社会制度 (shèhuì zhìdù) — social system",
+   "制度改革 (zhìdù gǎigé) — institutional reform"
+  ],
+  "sentence": "公司要建立一套完善的考勤制度。",
+  "sentence_meaning": "The company needs to set up a proper attendance system.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247814,
+  "lapses": 4,
+  "was": "system; institution"
+ },
+ {
+  "word": "解释",
+  "kind": "abstract",
+  "problem": "'To explain' is shared with 说明 and 讲解, and the card omits the very common noun use ('an explanation' you owe someone).",
+  "meaning": "To explain or account for something — to make a meaning clear, or to justify yourself when something looks bad. Also the noun: an explanation, an interpretation.",
+  "contrast": "说明 explains how something works or states facts (说明书, 说明情况); 讲解 is walking an audience through material; 辩解 is making excuses. 解释 covers both clarifying a meaning and defending your actions.",
+  "collocations": [
+   "做出解释 (zuòchū jiěshì) — give an explanation",
+   "解释原因 (jiěshì yuányīn) — explain the reason",
+   "最终解释权 (zuìzhōng jiěshìquán) — the right of final interpretation (in fine print)"
+  ],
+  "sentence": "事故发生后，公司一直没有给出合理的解释。",
+  "sentence_meaning": "Since the accident, the company still hasn't given a reasonable explanation.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328244686,
+  "lapses": 4,
+  "was": "to explain"
+ },
+ {
+  "word": "区域",
+  "kind": "abstract",
+  "problem": "\"Area/region/district\" collapses it into 地区/范围, so nothing tells him which word to reach for.",
+  "meaning": "A zone marked off for some purpose — a piece of space with a boundary and a function (parking zone, service zone, no-smoking zone). Also the formal word for \"regional\" in policy talk: 区域经济, 区域合作.",
+  "contrast": "地区 is a geographic/administrative region on the map (华北地区); 范围 is an abstract scope or extent (工作范围); 区域 is a delimited zone or slice of space, more technical.",
+  "collocations": [
+   "区域经济 (qūyù jīngjì) — regional economy",
+   "禁止吸烟区域 (jìnzhǐ xīyān qūyù) — no-smoking zone",
+   "划分区域 (huàfēn qūyù) — divide into zones",
+   "沿海区域 (yánhǎi qūyù) — the coastal zone"
+  ],
+  "sentence": "公司把销售市场划分成五个区域。",
+  "sentence_meaning": "The company divided the sales market into five zones.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328245524,
+  "lapses": 4,
+  "was": "area; region; district"
+ },
+ {
+  "word": "实际",
+  "kind": "abstract",
+  "problem": "Three glosses (actual/reality/practice) with no sense of use; it also gets mixed up with 事实.",
+  "meaning": "\"Actual\" as opposed to nominal, theoretical or planned — 实际情况, 实际收入. As a noun it's the real situation on the ground: 符合实际, 从实际出发. 实际上 = \"actually, in fact\".",
+  "contrast": "事实 is a single fact you can state or prove; 实际 is the practical reality versus the theory or the plan. 现实 is reality as harsh circumstances.",
+  "collocations": [
+   "实际情况 (shíjì qíngkuàng) — the actual situation",
+   "实际上 (shíjìshàng) — actually, in fact",
+   "不切实际 (bù qiè shíjì) — unrealistic, impractical",
+   "实际行动 (shíjì xíngdòng) — concrete action"
+  ],
+  "sentence": "计划听起来不错，但不太符合实际。",
+  "sentence_meaning": "The plan sounds fine, but it doesn't really fit the actual situation.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666682,
+  "lapses": 4,
+  "was": "actual; reality; practice"
+ },
+ {
+  "word": "持续",
+  "kind": "other",
+  "problem": "Glossed like 继续, so he can't tell which to use; the card gives no sense of what kind of subject it takes.",
+  "meaning": "Something goes on without a break over a stretch of time — a process, a state, weather, prices, growth. Written/news register, and it's usually the situation, not a person, that 持续s.",
+  "contrast": "继续 = a person carries on doing something (继续工作); 持续 = a condition keeps holding (高温持续). 连续 counts consecutive instances (连续三天下雨).",
+  "collocations": [
+   "持续增长 (chíxù zēngzhǎng) — sustained growth",
+   "持续了三个小时 (chíxù le sān ge xiǎoshí) — lasted three hours",
+   "可持续发展 (kě chíxù fāzhǎn) — sustainable development",
+   "持续高温 (chíxù gāowēn) — an ongoing heat wave"
+  ],
+  "sentence": "这场谈判持续了将近五个小时。",
+  "sentence_meaning": "The negotiation went on for nearly five hours.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247124,
+  "lapses": 4,
+  "was": "continue; persist"
+ },
+ {
+  "word": "面积",
+  "kind": "abstract",
+  "problem": "\"(Surface) area\" is right but sits next to 区域 in his head; nothing shows it's a measured quantity.",
+  "meaning": "Size measured in square units — the number you get in 平方米. It's a quantity, so it takes 是/有/达 plus a figure, never a place you can stand in.",
+  "contrast": "区域 is a zone (a place); 面积 is how big it is (a number). 体积 is volume.",
+  "collocations": [
+   "建筑面积 (jiànzhù miànjī) — floor/built area",
+   "面积达…平方公里 (miànjī dá … píngfāng gōnglǐ) — covers … square km",
+   "扩大面积 (kuòdà miànjī) — enlarge the area",
+   "森林覆盖面积 (sēnlín fùgài miànjī) — forest coverage area"
+  ],
+  "sentence": "这套房子的建筑面积有九十多平方米。",
+  "sentence_meaning": "This apartment has a floor area of just over ninety square metres.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247021,
+  "lapses": 4,
+  "was": "(surface) area"
+ },
+ {
+  "word": "位于",
+  "kind": "other",
+  "problem": "\"Be located at\" doesn't say that it's a written-only verb with its own grammar, which is why it won't come to mind.",
+  "meaning": "Written/formal \"is situated in\" — used in descriptions of places, companies, buildings. It swallows the 在: 位于市中心, never 位于在. No 了/着/过, no negation in practice.",
+  "contrast": "在 is the everyday word in speech; 处于 is for abstract states (处于困境); 坐落于 is for buildings specifically.",
+  "collocations": [
+   "位于市中心 (wèiyú shìzhōngxīn) — located downtown",
+   "位于…以南 (wèiyú … yǐnán) — situated to the south of…",
+   "总部位于 (zǒngbù wèiyú) — headquartered in",
+   "位于世界前列 (wèiyú shìjiè qiánliè) — ranks among the world's foremost"
+  ],
+  "sentence": "该公司总部位于上海浦东。",
+  "sentence_meaning": "The company's headquarters is in Pudong, Shanghai.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667636,
+  "lapses": 4,
+  "was": "be located at"
+ },
+ {
+  "word": "事实",
+  "kind": "abstract",
+  "problem": "\"Fact; in fact\" mashes the noun and 事实上 together and leaves it indistinguishable from 实际/真相.",
+  "meaning": "A fact — something that is so and can be pointed to or proven. Lives in a small set of set phrases: 事实上, 事实证明, 摆事实讲道理.",
+  "contrast": "实际 is practical reality versus theory; 真相 is the hidden truth behind an event; 事实 is a verifiable item of fact you cite in an argument.",
+  "collocations": [
+   "事实上 (shìshíshàng) — in fact, as a matter of fact",
+   "事实证明 (shìshí zhèngmíng) — the facts prove that…",
+   "不符合事实 (bù fúhé shìshí) — not consistent with the facts",
+   "既成事实 (jìchéng shìshí) — a fait accompli"
+  ],
+  "sentence": "他嘴上说不在意，事实上非常生气。",
+  "sentence_meaning": "He says he doesn't care, but in fact he's furious.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666890,
+  "lapses": 4,
+  "was": "fact; in fact"
+ },
+ {
+  "word": "错误",
+  "kind": "abstract",
+  "problem": "Listing it as \"error; mistake; mistaken\" hides that it's the formal noun and can't replace 错 as a predicate.",
+  "meaning": "A mistake, as a countable formal noun: 犯错误, 改正错误, 语法错误. Used as a modifier it needs 的 — 错误的决定 \"a wrong decision\".",
+  "contrast": "错 is the everyday predicate (你错了 / 这个字写错了) — you can't say 你错误了. 失误 is a slip in performance (操作失误); 过错 is fault/blame.",
+  "collocations": [
+   "犯错误 (fàn cuòwù) — make a mistake",
+   "改正错误 (gǎizhèng cuòwù) — correct a mistake",
+   "错误的决定 (cuòwù de juédìng) — a wrong decision",
+   "拼写错误 (pīnxiě cuòwù) — spelling error"
+  ],
+  "sentence": "年轻人犯点错误是难免的，重要的是改正。",
+  "sentence_meaning": "It's inevitable that young people make some mistakes; what matters is fixing them.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328245350,
+  "lapses": 4,
+  "was": "error; mistake; mistaken"
+ },
+ {
+  "word": "矮",
+  "kind": "character",
+  "problem": "It's a fine standalone word, but the gloss \"short; low\" lets 短 and 低 leak in.",
+  "meaning": "Low in height — people, trees, walls, furniture, buildings. The opposite of 高, and used bare as a predicate: 他很矮。",
+  "contrast": "短 is short in length (头发短, 裤子短); 低 is low in position or level (低价, 低声, 温度低). Height of a person or thing standing up = 矮.",
+  "collocations": [
+   "矮个子 (ǎi gèzi) — a short person",
+   "比我矮 (bǐ wǒ ǎi) — shorter than me",
+   "矮墙 (ǎi qiáng) — a low wall",
+   "矮小 (ǎixiǎo) — short and slight"
+  ],
+  "sentence": "他比哥哥矮半个头。",
+  "sentence_meaning": "He's half a head shorter than his older brother.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328243416,
+  "lapses": 4,
+  "was": "short (not tall); low"
+ },
+ {
+  "word": "以外",
+  "kind": "connective",
+  "problem": "\"Apart from / except for\" makes it look like a standalone conjunction; in fact it's a tail that clamps onto a noun phrase, and half its uses are literally \"outside of\".",
+  "meaning": "Goes after a noun or phrase to mark \"outside that boundary\": physically or in time (三米以外, 一年以外), or \"other than that\" — usually paired up as 除了…以外. The clause after it typically has 还/也/都 or a negative.",
+  "contrast": "之外 is the same job in more literary writing; 以内/之内 is the inside counterpart. 除了 alone can't do it — the 以外 closes the bracket. 另外 starts a new sentence (\"besides, …\"), 以外 never does.",
+  "collocations": [
+   "除了…以外 (chúle … yǐwài) — apart from …",
+   "工作以外 (gōngzuò yǐwài) — outside of work",
+   "除此以外 (chú cǐ yǐwài) — apart from this",
+   "一公里以外 (yī gōnglǐ yǐwài) — more than a kilometre away"
+  ],
+  "sentence": "除了签名以外，还需要盖公司的章。",
+  "sentence_meaning": "Besides the signature, the company seal is also required.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247678,
+  "lapses": 4,
+  "was": "Apart from, other than, except for"
+ },
+ {
+  "word": "打扰",
+  "kind": "other",
+  "problem": "\"Disturb\" doesn't capture that it's mostly a politeness formula, and it blurs into 麻烦.",
+  "meaning": "To break in on someone who is busy or at peace. Its commonest life is as an apology when you interrupt: 打扰一下 / 不好意思，打扰了。",
+  "contrast": "麻烦你 asks someone to do work for you; 打扰 just intrudes on their time or quiet. 干扰 is technical interference (信号干扰); 妨碍 is obstructing.",
+  "collocations": [
+   "打扰一下 (dǎrǎo yíxià) — excuse me, sorry to bother you",
+   "打扰您了 (dǎrǎo nín le) — sorry to have troubled you",
+   "不想打扰他 (bù xiǎng dǎrǎo tā) — don't want to disturb him",
+   "别打扰他休息 (bié dǎrǎo tā xiūxi) — don't disturb his rest"
+  ],
+  "sentence": "不好意思，打扰您一下，请问王老师在吗？",
+  "sentence_meaning": "Sorry to bother you — is Teacher Wang in?",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666412,
+  "lapses": 4,
+  "was": "disturb"
+ },
+ {
+  "word": "脱",
+  "kind": "character",
+  "problem": "The gloss is garbled (\"to escapewithout\") and mixes three senses without saying which objects go with which.",
+  "meaning": "Standalone verb: take off clothing or shoes (脱衣服, 脱鞋, 脱下外套). Second sense: something comes off or falls out by itself — 脱皮, 脱发, 脱色. In compounds it's \"break away from\": 脱离, 逃脱, 摆脱.",
+  "contrast": "摘 is for things you unhook or remove from your head/hands — 摘帽子, 摘眼镜, 摘戒指. Clothes and shoes take 脱; the opposite is 穿.",
+  "collocations": [
+   "脱鞋 (tuō xié) — take off one's shoes",
+   "脱下外套 (tuōxià wàitào) — take off a coat",
+   "脱不开身 (tuō bu kāi shēn) — can't get away (too tied up)",
+   "脱水 (tuōshuǐ) — dehydration; spin-dry"
+  ],
+  "sentence": "进屋请先脱鞋。",
+  "sentence_meaning": "Please take your shoes off before coming in.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666423,
+  "lapses": 4,
+  "was": "to shed; take off; to escapewithout"
+ },
+ {
+  "word": "误",
+  "kind": "character",
+  "problem": "\"Mistake\" is the meaning it has inside 错误/失误, not what it does standing alone; and the sentence is an anime line about 失误, not 误.",
+  "meaning": "On its own it's a verb: to miss something because of a delay, or to hold something up — 误了火车, 别误了正事. As a prefix in compounds it means \"by mistake, in error\": 误伤, 误认为, 误会.",
+  "contrast": "耽误 is the everyday two-syllable verb for causing a delay; bare 误 is terser and more written. The noun \"a mistake\" is 错误/失误, not 误 alone.",
+  "collocations": [
+   "误了火车 (wù le huǒchē) — missed the train",
+   "误伤 (wùshāng) — injure by accident",
+   "误以为 (wù yǐwéi) — mistakenly think that",
+   "延误 (yánwù) — delay (of a flight, etc.)"
+  ],
+  "sentence": "快走吧，别误了火车。",
+  "sentence_meaning": "Let's get going, or we'll miss the train.",
+  "recommend": "learn-in-word",
+  "study_instead": [
+   "耽误 (dānwu) — to delay, hold up",
+   "误会 (wùhuì) — to misunderstand"
+  ],
+  "nid": 1537328245347,
+  "lapses": 4,
+  "was": "Mistake"
+ },
+ {
+  "word": "允",
+  "kind": "character",
+  "problem": "It isn't a word by itself in modern Chinese, so \"to permit\" is a meaning that never surfaces on its own — and there's no example sentence at all.",
+  "meaning": "Background meaning: to consent, to grant. In practice you only ever meet it inside 允许 (permit, allow) and the more literary 允诺 (give one's promise), 应允 (assent).",
+  "contrast": "允许 is permission granted by a person, rule or authority; 答应 is agreeing to someone's request; 准许 is stiffer, official approval.",
+  "collocations": [
+   "允许 (yǔnxǔ) — to permit, allow",
+   "不允许 (bù yǔnxǔ) — not allowed",
+   "允诺 (yǔnnuò) — to promise, give one's word",
+   "默许 (mòxǔ) — tacit consent"
+  ],
+  "sentence": "馆内不允许拍照。",
+  "sentence_meaning": "Photography is not allowed inside the museum.",
+  "recommend": "learn-in-word",
+  "study_instead": [
+   "允许 (yǔnxǔ) — to permit, allow",
+   "允诺 (yǔnnuò) — to promise"
+  ],
+  "nid": 1537328246172,
+  "lapses": 4,
+  "was": "To permit, to allow"
+ },
+ {
+  "word": "键",
+  "kind": "character",
+  "problem": "\"Key\" is dangerously ambiguous — it isn't a door key and it isn't \"key = crucial\"; the sentence is a game fragment that teaches nothing.",
+  "meaning": "A key you press: on a keyboard, a phone, a piano. It normally carries a modifier — 回车键, 空格键, 快捷键 — and lives in 键盘 and 按键.",
+  "contrast": "钥匙 is a key for a lock; 关键 is \"key/crucial\". 琴键 are piano keys.",
+  "collocations": [
+   "键盘 (jiànpán) — keyboard",
+   "按键 (ànjiàn) — button, keypress",
+   "快捷键 (kuàijiéjiàn) — keyboard shortcut",
+   "回车键 (huíchējiàn) — the Enter key"
+  ],
+  "sentence": "输入完密码后请按回车键确认。",
+  "sentence_meaning": "After entering your password, press Enter to confirm.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328245837,
+  "lapses": 4,
+  "was": "Key"
+ },
+ {
+  "word": "容易",
+  "kind": "other",
+  "problem": "He already knows \"easy\"; what he keeps missing is the second, commoner-in-writing use — \"tends to, is prone to\".",
+  "meaning": "Easy to do (这道题很容易). But before a verb it means \"readily happens / is liable to\": 容易出错, 容易生锈, 容易被误解 — often about something unwanted.",
+  "contrast": "简单 is simple in structure or content, not effort; 轻松 is relaxed, low-strain. For \"prone to\", 容易 is the neutral word and 易 the written short form (易碎, 易燃).",
+  "collocations": [
+   "不容易 (bù róngyì) — not easy; no mean feat",
+   "容易出错 (róngyì chūcuò) — error-prone",
+   "很容易被误解 (hěn róngyì bèi wùjiě) — easily misunderstood",
+   "来得容易 (lái de róngyì) — comes easily"
+  ],
+  "sentence": "这种材料很容易生锈，要放在干燥的地方。",
+  "sentence_meaning": "This material rusts easily, so keep it somewhere dry.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328244835,
+  "lapses": 3,
+  "was": "easy; likely; liable (to)"
+ },
+ {
+  "word": "麻烦",
+  "kind": "abstract",
+  "problem": "The card lists it as an adjective and misses that its most frequent use is the polite verb 麻烦你…",
+  "meaning": "A hassle: as a noun (给你添麻烦了), as an adjective for a procedure that's fiddly (手续很麻烦), and as a verb for imposing on someone — 麻烦你帮我看一下, which is the standard polite way to ask a favour.",
+  "contrast": "打扰 is intruding on someone's time or quiet; 麻烦 is putting work on them. 困难 is genuine difficulty, not annoying fuss.",
+  "collocations": [
+   "麻烦你了 (máfan nǐ le) — sorry to put you to the trouble",
+   "添麻烦 (tiān máfan) — cause someone bother",
+   "怕麻烦 (pà máfan) — can't be bothered",
+   "手续很麻烦 (shǒuxù hěn máfan) — the procedure is a hassle"
+  ],
+  "sentence": "麻烦你把这份文件转给王经理。",
+  "sentence_meaning": "Could I trouble you to pass this document on to Manager Wang?",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328241212,
+  "lapses": 3,
+  "was": "trouble (someone); troubling; bothersome"
+ },
+ {
+  "word": "体会",
+  "kind": "abstract",
+  "problem": "A four-part gloss with no anchor; the real issue is telling it apart from 体验 and 理解.",
+  "meaning": "To come to feel and understand something because you've lived it — usually someone's hardship, effort or feelings. Also a noun: the insight you took away (谈谈自己的体会, 心得体会).",
+  "contrast": "体验 is going through the experience itself (体验生活); 体会 is the understanding that experience leaves you with. 理解 is understanding by reasoning, no personal experience needed.",
+  "collocations": [
+   "深有体会 (shēn yǒu tǐhuì) — to know this all too well",
+   "体会到 (tǐhuì dào) — come to appreciate that…",
+   "亲身体会 (qīnshēn tǐhuì) — first-hand experience of it",
+   "谈谈体会 (tántan tǐhuì) — share what one has taken away"
+  ],
+  "sentence": "自己当了父母，才真正体会到父母的辛苦。",
+  "sentence_meaning": "Only after becoming a parent yourself do you really appreciate how hard your parents worked.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667543,
+  "lapses": 3,
+  "was": "to know from experience; to realize; to understand; understanding gained from experience"
+ },
+ {
+  "word": "开关",
+  "kind": "other",
+  "problem": "The two characters read as the verb pair \"open and close\", so the noun meaning slips away; the card gives no phrases to hang it on.",
+  "meaning": "A switch — the physical thing you flip or press to cut power on and off. Always a noun, always with 按/开/关/坏 around it.",
+  "contrast": "按钮 is a button on a device or screen; 插头/插座 are plug and socket; 阀门 is a valve for water or gas. 开关 is specifically the on-off control.",
+  "collocations": [
+   "电源开关 (diànyuán kāiguān) — power switch",
+   "总开关 (zǒng kāiguān) — main switch, master breaker",
+   "按一下开关 (àn yíxià kāiguān) — press the switch",
+   "开关坏了 (kāiguān huài le) — the switch is broken"
+  ],
+  "sentence": "走的时候记得把总开关关掉。",
+  "sentence_meaning": "Remember to turn off the main switch when you leave.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328239866,
+  "lapses": 3,
+  "was": "switch (electrical)"
+ },
+ {
+  "word": "养成",
+  "kind": "other",
+  "problem": "Glossing it as \"cultivate; develop\" makes it interchangeable with 培养, which it isn't — it takes a very narrow set of objects.",
+  "meaning": "To build up a habit or trait in yourself over time. The object is almost always 习惯, sometimes 性格/作风/风气 — 养成早睡的习惯.",
+  "contrast": "培养 takes people or abilities as its object (培养人才, 培养兴趣) and is done by someone to someone; 养成 is a habit taking root, usually your own. 形成 is neutral \"take shape\" for patterns and systems.",
+  "collocations": [
+   "养成习惯 (yǎngchéng xíguàn) — form a habit",
+   "养成好的作风 (yǎngchéng hǎo de zuòfēng) — develop good work habits",
+   "从小养成 (cóngxiǎo yǎngchéng) — acquired from childhood",
+   "养成依赖性 (yǎngchéng yīlàixìng) — develop a dependency"
+  ],
+  "sentence": "他从小就养成了记笔记的习惯。",
+  "sentence_meaning": "He got into the habit of taking notes when he was young.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666837,
+  "lapses": 3,
+  "was": "to cultivate; to form (a habit); to develop"
+ },
+ {
+  "word": "成长",
+  "kind": "other",
+  "problem": "\"Grow up; mature\" makes it look like a synonym of 长大 and hides the very common business/career use.",
+  "meaning": "To grow into something better — a child growing up healthy, but equally a person developing through work, or a company or market expanding. Written and slightly positive in tone.",
+  "contrast": "长大 is plain physical growing up (spoken); 生长 is biological growth of plants and animals; 发展 is the development of an undertaking or situation. 成长 keeps a sense of a person or entity maturing.",
+  "collocations": [
+   "健康成长 (jiànkāng chéngzhǎng) — grow up healthy",
+   "成长过程 (chéngzhǎng guòchéng) — the process of growing up",
+   "成长为 (chéngzhǎng wéi) — grow into (a …)",
+   "快速成长的企业 (kuàisù chéngzhǎng de qǐyè) — a fast-growing company"
+  ],
+  "sentence": "这几年他在工作中成长得很快。",
+  "sentence_meaning": "He's grown a lot through his work these past few years.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667331,
+  "lapses": 3,
+  "was": "to grow up; to mature"
+ },
+ {
+  "word": "利用",
+  "kind": "other",
+  "problem": "The gloss lists four English verbs and no clue when 利用 is the right one of the \"use\" words, so it collapses into 使用/运用.",
+  "meaning": "To turn something that already exists to your advantage — resources, spare time, an opening, a loophole, a person. It carries the sense of \"leverage / capitalize on\", which is why it also slides into \"exploit\" when the object is a person or a position.",
+  "contrast": "使用 is plain operating of a tool or product (使用手机). 运用 is applying knowledge, skill or a method (运用理论). 利用 is exploiting an existing condition for gain, and only 利用 can sound predatory: 他利用了我.",
+  "collocations": [
+   "充分利用 (chōngfèn lìyòng) — make full use of",
+   "利用机会 (lìyòng jīhuì) — seize the chance",
+   "利用职权 (lìyòng zhíquán) — abuse one's authority",
+   "加以利用 (jiāyǐ lìyòng) — put to use (formal)"
+  ],
+  "sentence": "我们应该充分利用现有的资源，而不是盲目扩建。",
+  "sentence_meaning": "We should make full use of the resources we already have instead of expanding blindly.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666964,
+  "lapses": 3,
+  "was": "to use; to make use of; to take advantage of; to exploit"
+ },
+ {
+  "word": "完成",
+  "kind": "other",
+  "problem": "\"Complete\" is correct but weightless; the card gives no sense of what kinds of objects 完成 takes, and the sentence 工作完成了 could equally be 做完了.",
+  "meaning": "To carry a task through to its finish — the formal, goal-oriented word. It wants an object that was assigned or planned: a task, a project, a quota, a degree.",
+  "contrast": "做完 is the everyday \"finished doing it\". 结束 means an event comes to an end (会议结束了), with no sense of achievement. 完成 always implies something was accomplished as intended.",
+  "collocations": [
+   "完成任务 (wánchéng rènwù) — complete the assignment",
+   "按时完成 (ànshí wánchéng) — finish on schedule",
+   "完成学业 (wánchéng xuéyè) — finish one's studies",
+   "顺利完成 (shùnlì wánchéng) — complete smoothly"
+  ],
+  "sentence": "这项工程必须在年底前完成。",
+  "sentence_meaning": "This project has to be completed before the end of the year.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328244582,
+  "lapses": 3,
+  "was": "to accomplish; to complete; to fulfill"
+ },
+ {
+  "word": "友好",
+  "kind": "abstract",
+  "problem": "\"Friendly\" makes it sound like everyday warmth, so it gets mixed up with 热情/亲切; in fact 友好 is mostly the vocabulary of relations between groups and countries.",
+  "meaning": "Describes a relationship or attitude as being on good terms — cordial, well-disposed. It is the standard word in diplomatic and institutional language, and with people it describes stance toward someone (对…友好) rather than personal warmth.",
+  "contrast": "热情 is warm and enthusiastic hospitality; 亲切 is kindly and approachable in manner. 友好 is cooler and more official: 中美友好, 友好协商.",
+  "collocations": [
+   "友好关系 (yǒuhǎo guānxì) — friendly relations",
+   "友好访问 (yǒuhǎo fǎngwèn) — goodwill visit",
+   "对…友好 (duì…yǒuhǎo) — be friendly toward…",
+   "友好协商 (yǒuhǎo xiéshāng) — amicable consultation"
+  ],
+  "sentence": "两国在会谈中同意进一步发展友好关系。",
+  "sentence_meaning": "In the talks the two countries agreed to further develop friendly relations.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328246821,
+  "lapses": 3,
+  "was": "friendly; amicable"
+ },
+ {
+  "word": "为何",
+  "kind": "connective",
+  "problem": "Glossed identically to 为什么, so nothing on the card tells him when it would be used — and it is not really a spoken word.",
+  "meaning": "The written-style \"why\". Same slot as 为什么 (before the verb), but it belongs in essays, news, and literary or rhetorical questions rather than conversation.",
+  "contrast": "为什么 is the neutral spoken form. 何故 is even more archaic. 怎么 asks \"how come\" with a note of surprise. Use 为何 when the register is formal or the question is rhetorical, and note the very common 不知为何 \"for some reason\".",
+  "collocations": [
+   "为何不 (wèihé bù) — why not…",
+   "不知为何 (bùzhī wèihé) — for some unknown reason",
+   "究竟为何 (jiūjìng wèihé) — why on earth"
+  ],
+  "sentence": "不知为何，他这几天一直没有回复邮件。",
+  "sentence_meaning": "For some reason he hasn't replied to any emails these past few days.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247355,
+  "lapses": 3,
+  "was": "why; for what reason"
+ },
+ {
+  "word": "时机",
+  "kind": "abstract",
+  "problem": "Glossing it \"opportunity\" makes it interchangeable with 机会, which it isn't — 时机 is about timing, not about the opening itself.",
+  "meaning": "The right moment, the timing of an action. You don't get a 时机 offered to you the way you get a 机会; you wait for it, judge it, and grab it when conditions ripen.",
+  "contrast": "机会 is a chance to do something (有机会去北京). 时机 asks whether now is the moment: 机会来了 vs 时机成熟了. You can't say 我有一个时机.",
+  "collocations": [
+   "时机成熟 (shíjī chéngshú) — the time is ripe",
+   "抓住时机 (zhuāzhù shíjī) — seize the moment",
+   "等待时机 (děngdài shíjī) — bide one's time",
+   "错过时机 (cuòguò shíjī) — miss the moment"
+  ],
+  "sentence": "现在宣布还不合适，时机还不成熟。",
+  "sentence_meaning": "Announcing it now isn't right — the time isn't ripe yet.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817668333,
+  "lapses": 3,
+  "was": "opportune time; opportunity; right moment"
+ },
+ {
+  "word": "来自",
+  "kind": "other",
+  "problem": "\"To come from (a place)\" is too narrow and doesn't flag that this is the bookish form that takes its object directly, with no 从.",
+  "meaning": "A written-style verb meaning \"originates from\": it attaches straight to the source, which can be a place, an institution, or an abstract source like pressure, funding, or data.",
+  "contrast": "Spoken Chinese says 他从法国来 or 他是法国人; 来自 is what you see in introductions, reports and captions. Don't add 从 — 来自法国, not 从来自法国.",
+  "collocations": [
+   "来自世界各地 (láizì shìjiè gèdì) — from all over the world",
+   "数据来自 (shùjù láizì) — the data comes from",
+   "压力来自 (yālì láizì) — the pressure comes from",
+   "来自民间 (láizì mínjiān) — grassroots in origin"
+  ],
+  "sentence": "本次论坛的与会者来自二十多个国家。",
+  "sentence_meaning": "The participants in this forum come from more than twenty countries.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328243220,
+  "lapses": 3,
+  "was": "to come from (a place)"
+ },
+ {
+  "word": "自我",
+  "kind": "abstract",
+  "problem": "Tagging it a pronoun is misleading — it is not a substitute for 自己. You cannot say 他只关心自我 in place of 自己.",
+  "meaning": "A bound element meaning \"self-\" that sits in front of a two-syllable verb: 自我介绍, 自我批评. As a noun it means the ego/the self, and then it appears in fixed psychological phrases.",
+  "contrast": "自己 is the real reflexive pronoun and does all ordinary work (我自己做, 他自己的车). 自我 only forms compounds; if the sentence needs \"myself/himself\" as an object, it's 自己.",
+  "collocations": [
+   "自我介绍 (zìwǒ jièshào) — introduce oneself",
+   "自我批评 (zìwǒ pīpíng) — self-criticism",
+   "自我控制 (zìwǒ kòngzhì) — self-control",
+   "以自我为中心 (yǐ zìwǒ wéi zhōngxīn) — self-centred"
+  ],
+  "sentence": "他做事完全以自我为中心，很少考虑别人。",
+  "sentence_meaning": "He is completely self-centred in what he does and rarely considers others.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328243223,
+  "lapses": 3,
+  "was": "self; oneself; ego"
+ },
+ {
+  "word": "挫折",
+  "kind": "abstract",
+  "problem": "Three glosses pointing three ways (\"setback / defeat / frustration\") blur it into 失败 and 困难.",
+  "meaning": "A setback — you were pushing toward something and got knocked back. It names the blow to your effort and morale, so it goes with verbs of suffering and with 感 for the resulting feeling.",
+  "contrast": "失败 is the failed outcome itself (考试失败). 困难 is a difficulty standing in your way. 挫折 is the experience of being thwarted along the way: 遭受挫折 is standard, 遭受失败 is not.",
+  "collocations": [
+   "遭受挫折 (zāoshòu cuòzhé) — suffer a setback",
+   "受到挫折 (shòudào cuòzhé) — meet with a setback",
+   "挫折感 (cuòzhégǎn) — sense of frustration",
+   "经受挫折 (jīngshòu cuòzhé) — go through setbacks"
+  ],
+  "sentence": "他在创业初期遭受过不少挫折，但从没想过放弃。",
+  "sentence_meaning": "He suffered quite a few setbacks in the early days of his business, but never thought of giving up.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817669449,
+  "lapses": 3,
+  "was": "setback; defeat; frustration"
+ },
+ {
+  "word": "包括",
+  "kind": "other",
+  "problem": "\"Comprise / consist of\" is misleading: 包括 lists some of the members, it does not equal the whole. And the card doesn't show the 包括…在内 frame.",
+  "meaning": "To include, i.e. to have something among its members. Typically a whole followed by examples, or negated to mark exclusions; with a person or item you often wrap it as 包括…在内.",
+  "contrast": "包含 is for something contained inside as content or implication (这句话包含另一层意思). 由…组成 is the one that means \"consists of\" exhaustively. 包括 just points at items on the list.",
+  "collocations": [
+   "包括…在内 (bāokuò…zàinèi) — including … ",
+   "不包括 (bù bāokuò) — not including",
+   "包括在内的 (…) 费用 — costs included",
+   "其中包括 (qízhōng bāokuò) — among which are"
+  ],
+  "sentence": "报价包括住宿和早餐，但不包括机票。",
+  "sentence_meaning": "The quoted price includes lodging and breakfast but not airfare.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328242574,
+  "lapses": 3,
+  "was": "comprise; include; consist of"
+ },
+ {
+  "word": "甚至",
+  "kind": "connective",
+  "problem": "\"Even\" is shared with 连…都 and 就连, and \"so much so that\" is really 以至于 — the card mixes two different words.",
+  "meaning": "Escalation marker: after saying something, it introduces the most extreme case, the one that proves the point. It sits right before that extreme item, and very often pairs with 连…都/也.",
+  "contrast": "而且 merely adds another item at the same level; 甚至 must go further than what came before. 以至于 introduces a resulting consequence, not a stronger example. 连…都 can stand alone, but 甚至连…都 is the usual combination.",
+  "collocations": [
+   "甚至连…都 (shènzhì lián…dōu) — even … ",
+   "甚至可以说 (shènzhì kěyǐ shuō) — one could even say",
+   "甚至更 (shènzhì gèng) — even more so"
+  ],
+  "sentence": "这本书写得太专业，甚至连业内人士都看不懂。",
+  "sentence_meaning": "The book is written so technically that even people in the field can't understand it.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666316,
+  "lapses": 3,
+  "was": "even (to the point of); so much so that"
+ },
+ {
+  "word": "结构",
+  "kind": "abstract",
+  "problem": "\"Structure; composition\" is correct but attached to nothing, so it never comes to mind in the contexts where Chinese actually uses it.",
+  "meaning": "How the parts of something are arranged — a building's framework, a sentence's grammar, an economy's makeup. It is the word you reach for when talking about arrangement that can be analyzed or reorganized.",
+  "contrast": "构成 is a verb, \"be made up of\", or the makeup as a list of components. 组织 is the organization as a body. 结构 is the shape of the arrangement itself: 调整结构 means restructuring.",
+  "collocations": [
+   "句子结构 (jùzi jiégòu) — sentence structure",
+   "组织结构 (zǔzhī jiégòu) — organizational structure",
+   "产业结构 (chǎnyè jiégòu) — industrial structure",
+   "结构合理 (jiégòu hélǐ) — well-structured"
+  ],
+  "sentence": "政府近年来一直在调整产业结构。",
+  "sentence_meaning": "In recent years the government has been adjusting the industrial structure.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817667656,
+  "lapses": 3,
+  "was": "structure; composition"
+ },
+ {
+  "word": "社区",
+  "kind": "abstract",
+  "problem": "\"Community\" in English covers everything from a neighborhood to an online forum to an ethnic group; the card doesn't say which sense 社区 has.",
+  "meaning": "A neighborhood treated as a unit with services and administration — the level below a district, with its own office, clinic, activity center. By extension it also names online communities.",
+  "contrast": "小区 is just the physical residential compound you live in. 团体 is an organized group. 社区 is the neighborhood as a social/administrative entity: 社区医院, 社区工作者.",
+  "collocations": [
+   "社区服务 (shèqū fúwù) — community services",
+   "社区居民 (shèqū jūmín) — community residents",
+   "社区活动 (shèqū huódòng) — community activities",
+   "网络社区 (wǎngluò shèqū) — online community"
+  ],
+  "sentence": "社区为老年人提供免费体检和送餐服务。",
+  "sentence_meaning": "The community provides free health checks and meal delivery for the elderly.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328245519,
+  "lapses": 3,
+  "was": "community"
+ },
+ {
+  "word": "居民",
+  "kind": "abstract",
+  "problem": "\"Resident; inhabitant\" doesn't distinguish it from 公民 or 住户, and the sentence 他是本地居民 shows nothing about how it's normally used.",
+  "meaning": "The people who live in a place, seen collectively — the word used in news and notices when talking about how something affects the people living there. Almost always preceded by the place: 当地居民, 城市居民.",
+  "contrast": "公民 is citizen, a legal status. 人口 is population as a number. 住户 is households in a building. 居民 is simply the people who live somewhere, and it is the word officials use about them.",
+  "collocations": [
+   "当地居民 (dāngdì jūmín) — local residents",
+   "居民区 (jūmínqū) — residential area",
+   "城市居民 (chéngshì jūmín) — urban residents",
+   "居民收入 (jūmín shōurù) — household income"
+  ],
+  "sentence": "附近的居民联名反对在这里建垃圾站。",
+  "sentence_meaning": "Residents nearby signed a joint petition against building a garbage station here.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247500,
+  "lapses": 3,
+  "was": "resident; inhabitant"
+ },
+ {
+  "word": "人士",
+  "kind": "abstract",
+  "problem": "Glossing it \"person\" invites him to use it like 人, but 人士 never stands alone — it only appears after a modifier and is a respectful, formal label.",
+  "meaning": "A polite formal word for people of a specified category, used in news and official writing. It always follows a descriptor — which field they're from, how prominent they are, what group they belong to.",
+  "contrast": "人员 is staff/personnel doing a job (工作人员). 人物 is a notable figure or a character in a story. 人士 is respectful reference to people of a stated category, and 各界人士 is its most typical shape.",
+  "collocations": [
+   "各界人士 (gèjiè rénshì) — people from all walks of life",
+   "知名人士 (zhīmíng rénshì) — well-known figures",
+   "专业人士 (zhuānyè rénshì) — professionals",
+   "有关人士 (yǒuguān rénshì) — people concerned"
+  ],
+  "sentence": "开幕式邀请了社会各界人士出席。",
+  "sentence_meaning": "People from all walks of life were invited to attend the opening ceremony.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328248133,
+  "lapses": 3,
+  "was": "person; public figure"
+ },
+ {
+  "word": "交易",
+  "kind": "abstract",
+  "problem": "The four glosses mix noun and verb and don't separate it from 贸易 or 买卖; the sample sentence only teaches the compound 交易所.",
+  "meaning": "A deal — one exchange in which goods, shares or money change hands. Used for concrete business transactions, and figuratively for a shady bargain between parties.",
+  "contrast": "贸易 is trade as an economic activity between countries or sectors (国际贸易). 买卖 is buying and selling as a small business. 交易 is the individual transaction: 达成一笔交易.",
+  "collocations": [
+   "达成交易 (dáchéng jiāoyì) — strike a deal",
+   "进行交易 (jìnxíng jiāoyì) — carry out a transaction",
+   "交易额 (jiāoyì'é) — transaction volume",
+   "内幕交易 (nèimù jiāoyì) — insider trading"
+  ],
+  "sentence": "双方经过几轮谈判，终于达成了交易。",
+  "sentence_meaning": "After several rounds of negotiation the two sides finally struck a deal.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817668184,
+  "lapses": 3,
+  "was": "transaction; deal; trade; to do business"
+ },
+ {
+  "word": "规模",
+  "kind": "abstract",
+  "problem": "\"Scale; scope; extent\" runs it together with 范围 and 程度; nothing on the card says it's about the size of an undertaking.",
+  "meaning": "How big an operation, project or event is — headcount, output, floor space, reach all rolled into one. It's the word for whether a business, a war, a protest or a factory is big or small.",
+  "contrast": "范围 is the range something covers (活动范围, 范围很广). 程度 is degree of intensity. 规模 is sheer size of an enterprise or undertaking: 大规模生产, 规模不大.",
+  "collocations": [
+   "扩大规模 (kuòdà guīmó) — expand the scale",
+   "大规模 (dàguīmó) — large-scale",
+   "规模空前 (guīmó kōngqián) — unprecedented in scale",
+   "生产规模 (shēngchǎn guīmó) — production scale"
+  ],
+  "sentence": "这家企业规模不大，但技术很有竞争力。",
+  "sentence_meaning": "This company isn't large, but its technology is quite competitive.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247759,
+  "lapses": 3,
+  "was": "scale; scope; extent"
+ },
+ {
+  "word": "以为",
+  "kind": "other",
+  "problem": "Putting \"consider; believe\" alongside \"(mistakenly)\" hides the one thing that matters: 以为 signals the belief turned out to be wrong.",
+  "meaning": "To have thought something that wasn't so. Saying 我以为… already announces that reality was different, which is why it's usually about the past and often followed by 其实 or 原来.",
+  "contrast": "认为 states an opinion you still hold, neutrally and somewhat formally; 觉得 is the casual \"feel/think\". Swap 以为 in and you've admitted a mistake. (The formal 以…为… \"regard as\" is a separate pattern.)",
+  "collocations": [
+   "我以为…原来 (wǒ yǐwéi…yuánlái) — I thought … but actually",
+   "还以为 (hái yǐwéi) — I even thought",
+   "误以为 (wù yǐwéi) — mistakenly assume"
+  ],
+  "sentence": "我以为今天不用上班，原来是我把日子记错了。",
+  "sentence_meaning": "I thought I didn't have to work today — turns out I had the date wrong.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666269,
+  "lapses": 3,
+  "was": "think (mistakenly); consider (that); believe"
+ },
+ {
+  "word": "尤其",
+  "kind": "connective",
+  "problem": "\"Especially; particularly\" is exactly the gloss of 特别, so the card can't tell him which to use.",
+  "meaning": "Singles out the standout case from something you have just stated in general terms. It needs that general statement first, and then usually comes as 尤其是 + the item.",
+  "contrast": "特别 also means \"especially\", but it doubles as \"special/unusual\" and as an intensifier (特别冷 = very cold); 尤其 only does the singling-out job and is more written. 尤其 cannot simply mean \"very\".",
+  "collocations": [
+   "尤其是 (yóuqí shì) — especially",
+   "尤其重要 (yóuqí zhòngyào) — particularly important",
+   "尤其明显 (yóuqí míngxiǎn) — particularly obvious"
+  ],
+  "sentence": "南方的夏天很潮湿，尤其是梅雨季节。",
+  "sentence_meaning": "Summers in the south are very humid, especially during the plum-rain season.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328246965,
+  "lapses": 3,
+  "was": "especially; particularly"
+ },
+ {
+  "word": "打败",
+  "kind": "other",
+  "problem": "\"To defeat, to beat\" leaves the direction ambiguous — the trap is that 败 alone means to lose, so he hesitates over who won.",
+  "meaning": "A打败B means A wins and B is beaten; the object is always the opponent, never the match. Colloquial and everyday, used for games, matches, elections, fights.",
+  "contrast": "战胜 is the formal version and can also take abstract enemies (战胜困难). 打赢 takes the contest as object (打赢这场比赛). Bare 败 means to be defeated: 我们队败了 = we lost.",
+  "collocations": [
+   "打败对手 (dǎbài duìshǒu) — beat the opponent",
+   "被…打败 (bèi…dǎbài) — be defeated by",
+   "轻松打败 (qīngsōng dǎbài) — beat easily"
+  ],
+  "sentence": "我们队在决赛中打败了上届冠军。",
+  "sentence_meaning": "Our team beat the defending champions in the final.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328246524,
+  "lapses": 3,
+  "was": "to defeat, to beat"
+ },
+ {
+  "word": "意外",
+  "kind": "abstract",
+  "problem": "The card lumps two uses together with no example of either, and 意外事件发生了 is stiff, textbook-sounding Chinese.",
+  "meaning": "Two jobs. As a feeling/quality: unexpected, surprising — 感到意外, 意外的消息. As a noun: a mishap or accident, the unlucky event nobody planned for.",
+  "contrast": "事故 is the formal word for an accident with damage (交通事故) and never means \"surprised\". 惊讶 is only the emotion of surprise. 意外 covers both the surprise and the unfortunate event.",
+  "collocations": [
+   "感到意外 (gǎndào yìwài) — be surprised",
+   "出乎意外 (chūhū yìwài) — contrary to expectations",
+   "意外收获 (yìwài shōuhuò) — unexpected bonus",
+   "发生意外 (fāshēng yìwài) — an accident happens"
+  ],
+  "sentence": "他突然辞职的消息让同事们都很意外。",
+  "sentence_meaning": "The news that he suddenly resigned came as a surprise to his colleagues.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666998,
+  "lapses": 3,
+  "was": "unexpected; accident; mishap"
+ },
+ {
+  "word": "游泳",
+  "kind": "other",
+  "problem": "The gloss is right but the tag \"verb with nominal function\" is confusing, and the sentence only shows it buried inside 游泳池, where it isn't doing anything.",
+  "meaning": "To swim — literally 游 (move through water) + 泳 (swimming), so it's verb + object glued together. That's why you can split it: 游了一会儿泳, 游了两千米. It also works as a plain noun: 我最喜欢的运动是游泳.",
+  "contrast": "Because 泳 is already the object, you don't say 游泳一个小时 in careful speech — you say 游一个小时(的)泳 or 游泳游了一个小时.",
+  "collocations": [
+   "游泳池 (yóuyǒngchí) — swimming pool",
+   "去游泳 (qù yóuyǒng) — go swimming",
+   "游泳比赛 (yóuyǒng bǐsài) — swimming competition",
+   "游泳衣 (yóuyǒngyī) — swimsuit"
+  ],
+  "sentence": "他每周去游泳两次，一次游一千米。",
+  "sentence_meaning": "He goes swimming twice a week, a thousand metres each time.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328243300,
+  "lapses": 3,
+  "was": "to swim"
+ },
+ {
+  "word": "演",
+  "kind": "character",
+  "problem": "\"To act\" is too narrow, and the anime sentence hides it inside 会演.",
+  "meaning": "Stands alone fine as a verb: to perform, to play (a role), to be showing. 谁演的？这部戏演的是抗战时期的故事。In compounds it widens out to \"unfold, work through step by step\" — 演讲 (give a speech), 演变 (evolve), 演习 (drill), 演算 (work out a calculation).",
+  "contrast": "演 is performing/playing a part; 表演 is the performance as an act or event; 扮 (扮演) stresses dressing up as someone.",
+  "collocations": [
+   "演电影 / 演话剧 (yǎn diànyǐng / huàjù) — act in a film / stage play",
+   "主演 (zhǔyǎn) — star in, lead role",
+   "演讲 (yǎnjiǎng) — deliver a speech",
+   "演变 (yǎnbiàn) — evolve, develop over time"
+  ],
+  "sentence": "这部电视剧他演一个乡村医生，演得很自然。",
+  "sentence_meaning": "In this TV series he plays a village doctor, and he plays it very naturally.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328245797,
+  "lapses": 3,
+  "was": "To act"
+ },
+ {
+  "word": "码",
+  "kind": "character",
+  "problem": "\"Code; number\" describes 码 as a suffix, but the sentence uses the completely separate counter sense (一码事), so the card teaches two unconnected things without saying so.",
+  "meaning": "Standalone it's (a) the unit \"yard\", and (b) the counter for matters in 一码事 / 两码事 — 这是两码事 \"those are two different things\". Everywhere else it's the \"-number / -code\" element on the end of a word.",
+  "contrast": "号码 is a number assigned to something (phone, room); 密码 is a secret code you type in; 代码 is code in the programming/symbolic sense.",
+  "collocations": [
+   "号码 (hàomǎ) — number (phone, license, etc.)",
+   "密码 (mìmǎ) — password, PIN",
+   "起码 (qǐmǎ) — at the very least",
+   "两码事 (liǎng mǎ shì) — two entirely different matters"
+  ],
+  "sentence": "请输入手机号码和密码；顺便说一句，注册和付款是两码事。",
+  "sentence_meaning": "Please enter your phone number and password; by the way, registering and paying are two separate matters.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328241622,
+  "lapses": 3,
+  "was": "Code; Number, code"
+ },
+ {
+  "word": "邀请",
+  "kind": "abstract",
+  "problem": "\"To invite\" is shared with 请, so nothing tells him when to reach for the two-character word; the passive sentence doesn't show it either.",
+  "meaning": "The formal act of inviting someone — issuing an invitation, usually to an event, and usually with some ceremony. It's also a noun: 接受邀请, 应他的邀请.",
+  "contrast": "请 is everyday and can mean treating someone (请你吃饭); 邀请 is the official version — you 邀请 someone 参加婚礼/出席会议, and you never say 邀请你吃个饭 casually.",
+  "collocations": [
+   "邀请函 (yāoqǐnghán) — written invitation",
+   "接受邀请 (jiēshòu yāoqǐng) — accept an invitation",
+   "应…的邀请 (yìng…de yāoqǐng) — at the invitation of…",
+   "邀请赛 (yāoqǐngsài) — invitational tournament"
+  ],
+  "sentence": "我们已经正式邀请他出席下个月的开幕式。",
+  "sentence_meaning": "We have formally invited him to attend next month's opening ceremony.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1393817666454,
+  "lapses": 3,
+  "was": "to invite"
+ },
+ {
+  "word": "放弃",
+  "kind": "abstract",
+  "problem": "The gloss chain \"abandon; renounce; give up\" makes it look usable for abandoning people or objects, which it isn't.",
+  "meaning": "To let go of something you have or could have — a chance, a right, a plan, an effort. The object is almost always abstract, and the decision is yours.",
+  "contrast": "抛弃/遗弃 is abandoning a person; 丢弃/扔 is throwing away an object; 放弃 is giving up a claim or an attempt.",
+  "collocations": [
+   "放弃机会 (fàngqì jīhuì) — give up an opportunity",
+   "放弃治疗 (fàngqì zhìliáo) — stop treatment",
+   "永不放弃 (yǒng bù fàngqì) — never give up",
+   "放弃权利 (fàngqì quánlì) — waive a right"
+  ],
+  "sentence": "为了照顾家人，她放弃了出国留学的机会。",
+  "sentence_meaning": "To look after her family, she gave up the chance to study abroad.",
+  "recommend": "learn-in-word",
+  "study_instead": [],
+  "nid": 1537328246254,
+  "lapses": 3,
+  "was": "abandon; renounce; give up"
+ },
+ {
+  "word": "弃",
+  "kind": "character",
+  "problem": "Not a standalone word in modern Chinese — asking for its meaning alone asks for something that never comes up, and the anime 弃狗 isn't normal usage (you'd say 流浪狗 or 被遗弃的狗).",
+  "meaning": "Written-style \"cast off, discard\". Useful only as a clue inside compounds: 弃权 (abstain / forfeit), 遗弃 (abandon a dependent), 嫌弃 (reject as unwanted), 自暴自弃 (give up on oneself).",
+  "contrast": "",
+  "collocations": [
+   "放弃 (fàngqì) — give up (a chance, a plan)",
+   "抛弃 (pāoqì) — abandon, cast aside (a person)",
+   "弃权 (qìquán) — abstain from voting; forfeit a match"
+  ],
+  "sentence": "他因为受伤，最后一场比赛只好弃权。",
+  "sentence_meaning": "Because of his injury he had to forfeit the last match.",
+  "recommend": "learn-in-word",
+  "study_instead": [
+   "放弃",
+   "抛弃"
+  ],
+  "nid": 1537328246253,
+  "lapses": 3,
+  "was": "To abandon"
+ },
+ {
+  "word": "矿",
+  "kind": "character",
+  "problem": "Two English nouns and no sentence at all — nothing to hang it on.",
+  "meaning": "Stands alone as \"a mine\" (这座矿已经关了；下矿). As a word-part it means ore or mineral: the stuff in the ground and the place it's dug out of.",
+  "contrast": "矿 is the deposit or the pit; 矿石 is the ore rock itself; 矿工 is the miner.",
+  "collocations": [
+   "煤矿 (méikuàng) — coal mine",
+   "矿泉水 (kuàngquánshuǐ) — mineral water",
+   "矿产资源 (kuàngchǎn zīyuán) — mineral resources",
+   "采矿 (cǎikuàng) — to mine, mining"
+  ],
+  "sentence": "这座煤矿已经开采了三十年，去年正式关闭。",
+  "sentence_meaning": "This coal mine had been worked for thirty years and was officially closed last year.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328246441,
+  "lapses": 3,
+  "was": "Ore, mine"
+ },
+ {
+  "word": "估计",
+  "kind": "abstract",
+  "problem": "\"Appraise; estimate\" hides the commonest use: 估计 as a stand-alone \"I reckon / probably\" at the front of a sentence.",
+  "meaning": "To size something up roughly. Two lives: the plain verb (估计损失/人数) and the everyday hedge at the head of a clause — 估计他不来了 \"he's probably not coming\".",
+  "contrast": "预计 is a formal projection of a figure or schedule (预计到达时间); 评估 is a proper evaluation or assessment (风险评估); 估计 is your own rough guess and can be spoken casually.",
+  "collocations": [
+   "据估计 (jù gūjì) — it is estimated that",
+   "初步估计 (chūbù gūjì) — a preliminary estimate",
+   "估计错了 (gūjì cuò le) — misjudged it",
+   "估计不足 (gūjì bùzú) — underestimated"
+  ],
+  "sentence": "据初步估计，这次台风造成的损失超过一千万元。",
+  "sentence_meaning": "According to preliminary estimates, the typhoon caused over ten million yuan in losses.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328246879,
+  "lapses": 3,
+  "was": "appraise; estimate, reckon"
+ },
+ {
+  "word": "杂",
+  "kind": "character",
+  "problem": "\"Miscellaneous\" is a dictionary label, and the sentence is a game fragment (小杂兵) that doesn't show normal use.",
+  "meaning": "Stands alone as an adjective: mixed, of all sorts, hence messy or impure. 他手上的事很杂；这批货品种太杂；声音很杂. Inside words it's the \"assorted/mixed\" element.",
+  "contrast": "乱 is disordered; 杂 is many different kinds thrown together — things can be 杂 without being 乱.",
+  "collocations": [
+   "复杂 (fùzá) — complicated",
+   "杂志 (zázhì) — magazine",
+   "杂货店 (záhuòdiàn) — general store",
+   "杂乱 (záluàn) — jumbled, in disarray"
+  ],
+  "sentence": "他管的事太杂，什么都要过问，结果哪件都做不好。",
+  "sentence_meaning": "He handles too many different things and has to weigh in on everything, so he does none of them well.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328243661,
+  "lapses": 3,
+  "was": "Miscellaneous"
+ },
+ {
+  "word": "译",
+  "kind": "character",
+  "problem": "Glossed as the noun \"translation\", but it's a verb, and there's no sentence.",
+  "meaning": "To translate — used alone in written Chinese, especially on title pages and in publishing: 译成英文, 由李明译, 全书由他一人译出. The noun senses come from compounds.",
+  "contrast": "翻译 is the everyday word and also means \"a translator/interpreter\"; bare 译 is bookish and only ever the act of translating.",
+  "collocations": [
+   "译成英文 (yì chéng Yīngwén) — translate into English",
+   "译者 (yìzhě) — translator (of a text)",
+   "口译 / 笔译 (kǒuyì / bǐyì) — interpreting / written translation",
+   "直译 (zhíyì) — literal translation"
+  ],
+  "sentence": "这本小说已经被译成十几种语言。",
+  "sentence_meaning": "This novel has already been translated into more than a dozen languages.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328244689,
+  "lapses": 3,
+  "was": "Translation"
+ },
+ {
+  "word": "降",
+  "kind": "character",
+  "problem": "The three English verbs blur together, and the sentence is an anime line using a rare compound (突降).",
+  "meaning": "Stands alone for a level going down, or for bringing one down: 物价降了, 水位降了两米, 气温一下降到零度. In compounds it's the \"lower it\" element — 降价, 降温, 降低. Note the second reading xiáng only in 投降 (surrender).",
+  "contrast": "降 is about levels and quantities (prices, temperature, altitude); 掉 is something physically falling off or dropping; 落 is landing or settling.",
+  "collocations": [
+   "降价 (jiàngjià) — cut the price",
+   "降温 (jiàngwēn) — temperature drop; cool down",
+   "下降 (xiàjiàng) — decline, go down",
+   "降落 (jiàngluò) — land (a plane)"
+  ],
+  "sentence": "这两年房价降了不少，但成交量也跟着降下来了。",
+  "sentence_meaning": "Housing prices have come down a fair bit these two years, but transaction volume has fallen along with them.",
+  "recommend": "keep",
+  "study_instead": [],
+  "nid": 1537328247963,
+  "lapses": 3,
+  "was": "To drop, to fall, to come down"
+ },
+ {
+  "word": "祝",
+  "kind": "character",
+  "problem": "\"To wish (well)\" is right but shapeless; the anime line doesn't show the frame the word actually lives in.",
+  "meaning": "Stands alone, but essentially only in one pattern: 祝 + person + good thing. 祝你生日快乐, 祝大家新年快乐, 祝您身体健康. It's how you sign off a letter or raise a toast.",
+  "contrast": "祝 is offering a wish for the future; 祝贺/恭喜 is congratulating on something that already happened.",
+  "collocations": [
+   "祝你好运 (zhù nǐ hǎoyùn) — good luck to you",
+   "祝您身体健康 (zhù nín shēntǐ jiànkāng) — wishing you good health",
+   "祝贺 (zhùhè) — to congratulate",
+   "庆祝 (qìngzhù) — to celebrate"
+  ],
+  "sentence": "最后，祝各位身体健康，工作顺利。",
+  "sentence_meaning": "Finally, I wish everyone good health and success in your work.",
+  "recommend": "learn-in-word",
+  "study_instead": [],
+  "nid": 1537328242233,
+  "lapses": 3,
+  "was": "To wish (well)"
+ },
+ {
+  "word": "符",
+  "kind": "character",
+  "problem": "Not a word by itself; the gloss piles up four unrelated English words including \"to seal\", which is wrong, and the sentence is a game item name.",
+  "meaning": "Originally a tally — a token broken in two whose halves fit together. That gives the two live uses: 符合 (to match, to conform to) and 符号 (a symbol/sign). The talisman sense survives only in 护身符.",
+  "contrast": "",
+  "collocations": [
+   "符合 (fúhé) — to match, conform to, be in line with",
+   "符号 (fúhào) — symbol, sign, mark",
+   "相符 (xiāngfú) — to correspond, tally with",
+   "护身符 (hùshēnfú) — protective charm, amulet"
+  ],
+  "sentence": "这个方案完全符合公司的规定。",
+  "sentence_meaning": "This proposal fully complies with company regulations.",
+  "recommend": "learn-in-word",
+  "study_instead": [
+   "符合",
+   "符号"
+  ],
+  "nid": 1537328247248,
+  "lapses": 3,
+  "was": "Mark, sign, talisman, to seal"
+ },
+ {
+  "word": "厌",
+  "kind": "character",
+  "problem": "Not a standalone word, and \"to loathe\" is too strong — 厌 is being fed up, not hating.",
+  "meaning": "\"Sick of, had enough of.\" Two places it shows up: in 讨厌 / 厌倦 / 厌烦, and in the pattern verb + 厌了 — 听厌了, 看厌了, 吃厌了 (which is exactly what the long passage was doing).",
+  "contrast": "恨 is hate; 厌 is weariness from too much of something.",
+  "collocations": [
+   "讨厌 (tǎoyàn) — to dislike, be annoying",
+   "厌倦 (yànjuàn) — be weary of, tired of",
+   "不厌其烦 (bù yàn qí fán) — take endless pains, not mind the trouble",
+   "看厌了 (kàn yàn le) — sick of looking at it"
+  ],
+  "sentence": "他早就厌倦了这种一成不变的生活。",
+  "sentence_meaning": "He has long been weary of this unchanging life.",
+  "recommend": "learn-in-word",
+  "study_instead": [
+   "讨厌",
+   "厌倦"
+  ],
+  "nid": 1537328247350,
+  "lapses": 3,
+  "was": "To loathe"
+ },
+ {
+  "word": "污",
+  "kind": "character",
+  "problem": "Four adjectives in English, no word, no sentence — nothing to recall.",
+  "meaning": "Filth and its verb, \"to foul\". Not used alone: it lives in 污染 (pollute), 污水 (waste water), 污点 (a stain, on cloth or on a record), and the \"corrupt\" sense in 贪污 (embezzle).",
+  "contrast": "脏 is the everyday word for dirty; 污 is the written/technical element (污染, 污渍) and never stands alone as an adjective.",
+  "collocations": [
+   "污染 (wūrǎn) — pollute, pollution",
+   "污水 (wūshuǐ) — sewage, waste water",
+   "贪污 (tānwū) — embezzle, graft",
+   "污点 (wūdiǎn) — stain; blemish on one's record"
+  ],
+  "sentence": "这家工厂长期把污水排进河里，造成严重污染。",
+  "sentence_meaning": "This factory discharged waste water into the river for years, causing serious pollution.",
+  "recommend": "learn-in-word",
+  "study_instead": [
+   "污染",
+   "贪污"
+  ],
+  "nid": 1537328246839,
+  "lapses": 3,
+  "was": "Dirty, filthy, foul, corrupt"
+ },
+ {
+  "word": "肤",
+  "kind": "character",
+  "problem": "Never stands alone — the sentence's 美肤 is advertising shorthand, not a word he can generalise from.",
+  "meaning": "Skin, in bound form only: 皮肤 (skin), 肤色 (skin colour/complexion). Worth knowing because it explains 肤浅 — \"only skin-deep\", i.e. superficial.",
+  "contrast": "",
+  "collocations": [
+   "皮肤 (pífū) — skin",
+   "肤色 (fūsè) — skin colour, complexion",
+   "肤浅 (fūqiǎn) — superficial, shallow (of views, analysis)"
+  ],
+  "sentence": "他对这个问题的分析太肤浅，只谈了表面现象。",
+  "sentence_meaning": "His analysis of the problem is too superficial; he only addressed surface phenomena.",
+  "recommend": "learn-in-word",
+  "study_instead": [
+   "皮肤",
+   "肤浅"
+  ],
+  "nid": 1537328245279,
+  "lapses": 3,
+  "was": "Skin"
+ },
+ {
+  "word": "航",
+  "kind": "character",
+  "problem": "\"Sail; navigate; ship, boat\" treats it as a usable word; it isn't one, and the sentence buries it in 航路.",
+  "meaning": "Travel by water or air. Only ever a word-part: 航班 (flight), 航空 (aviation), 航行 (to sail/fly a course), 导航 (navigation), 航线 (route).",
+  "contrast": "",
+  "collocations": [
+   "航班 (hángbān) — scheduled flight",
+   "航空公司 (hángkōng gōngsī) — airline",
+   "导航 (dǎoháng) — navigation (GPS etc.)",
+   "航线 (hángxiàn) — air or shipping route"
+  ],
+  "sentence": "因为天气原因，我的航班推迟了两个小时。",
+  "sentence_meaning": "Because of the weather, my flight was delayed by two hours.",
+  "recommend": "learn-in-word",
+  "study_instead": [
+   "航班",
+   "航空"
+  ],
+  "nid": 1449636990725,
+  "lapses": 3,
+  "was": "sail; navigate; ship, boat"
+ },
+ {
+  "word": "幽",
+  "kind": "character",
+  "problem": "The gloss \"Humor\" is simply wrong — that's 幽默's meaning, and 幽默 is a sound-borrowing of English \"humour\", so the characters contribute nothing. 幽 also isn't a word on its own.",
+  "meaning": "Deep, dim, secluded, hushed — and by extension the world of the dead. It gives 幽静 (quiet and secluded), 幽暗 (dim), 幽灵 (ghost). Learn it via 幽默 as a set unit, and via 幽静 for the real meaning.",
+  "contrast": "",
+  "collocations": [
+   "幽默 (yōumò) — humour, humorous (phonetic loan; don't decompose it)",
+   "幽静 (yōujìng) — quiet and secluded",
+   "幽灵 (yōulíng) — ghost, spectre",
+   "幽暗 (yōu'àn) — dim, gloomy"
+  ],
+  "sentence": "这条小路很幽静，几乎没有人经过。",
+  "sentence_meaning": "This little lane is quiet and secluded; hardly anyone passes through.",
+  "recommend": "learn-in-word",
+  "study_instead": [
+   "幽默",
+   "幽静"
+  ],
+  "nid": 1537328243558,
+  "lapses": 3,
+  "was": "Humor"
+ }
+]

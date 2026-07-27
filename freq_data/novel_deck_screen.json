@@ -1,0 +1,106 @@
+{
+ "pool": 320,
+ "dropped": 20,
+ "drop": [
+  {
+   "word": "潇潇",
+   "reason": "name: character nickname 潇潇 in these sentences",
+   "n": 57
+  },
+  {
+   "word": "对齐",
+   "reason": "not a word: segmentation artifact of 对+齐夏 (name)",
+   "n": 27
+  },
+  {
+   "word": "看齐",
+   "reason": "not a word: segmentation artifact of 看+齐夏 (name)",
+   "n": 21
+  },
+  {
+   "word": "无表情",
+   "reason": "not a word: fragment of 面无表情",
+   "n": 15
+  },
+  {
+   "word": "女娲",
+   "reason": "name: mythological figure/proper name",
+   "n": 8
+  },
+  {
+   "word": "喊道",
+   "reason": "not a word: verb + 道 segmentation artifact",
+   "n": 7
+  },
+  {
+   "word": "铁锅",
+   "reason": "not a word: transparent compound iron+pot",
+   "n": 7
+  },
+  {
+   "word": "眨眼睛",
+   "reason": "not a word: 眨+眼睛 transparent verb-object segmentation",
+   "n": 6
+  },
+  {
+   "word": "蠢材",
+   "reason": "name: used as nickname 正蠢材 in these sentences",
+   "n": 5
+  },
+  {
+   "word": "双臂",
+   "reason": "not a word: transparent compound 双+臂",
+   "n": 5
+  },
+  {
+   "word": "屋外",
+   "reason": "not a word: transparent compound 屋+外",
+   "n": 4
+  },
+  {
+   "word": "变暗",
+   "reason": "not a word — transparent 变+暗 'become dark', resultative compound needing no gloss",
+   "n": 4
+  },
+  {
+   "word": "甩头",
+   "reason": "not a word — separable verb-object phrase (甩了甩头), meaning is just 甩+头",
+   "n": 4
+  },
+  {
+   "word": "拖延时间",
+   "reason": "not a word — transparent phrase 拖延 + 时间",
+   "n": 4
+  },
+  {
+   "word": "试探性",
+   "reason": "not a word — 试探 plus productive suffix 性",
+   "n": 4
+  },
+  {
+   "word": "细线",
+   "reason": "not a word — transparent 细+线 'thin thread'",
+   "n": 3
+  },
+  {
+   "word": "床边",
+   "reason": "not a word: transparent compound 床+边 'bed side'",
+   "n": 3
+  },
+  {
+   "word": "别管",
+   "reason": "not a word: 别+管, transparent 'don't mind'",
+   "n": 3
+  },
+  {
+   "word": "闭着",
+   "reason": "not a word: segmentation artifact, verb 闭 + aspect 着",
+   "n": 3
+  },
+  {
+   "word": "默念",
+   "reason": "not a word: segmentation artifact of 默默念叨 in these sentences",
+   "n": 3
+  }
+ ]
+}

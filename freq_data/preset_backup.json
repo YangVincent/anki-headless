@@ -1,0 +1,40 @@
+{
+ "decks": {
+  "Characters": 1,
+  "Characters::Hanly Gap": 1781963689434,
+  "Default": 1,
+  "Hidden": 1,
+  "Hidden::Archive": 1,
+  "Hidden::Archive::Characters": 1,
+  "Hidden::Archive::Sentences": 1,
+  "Hidden::Archive::Words": 1,
+  "Hidden::Characters": 1,
+  "Hidden::cli": 1,
+  "Hidden::cli-reverse": 1,
+  "Hidden::hanly-grammar": 1,
+  "Hidden::hanly-grammar-reverse": 1,
+  "Hidden::hanly-proper-nouns": 1,
+  "Hidden::hanly-reverse": 1,
+  "Hidden::Personal": 1,
+  "Hidden::Personal-reverse": 1,
+  "Hidden::TingChinese - Saved Words": 1,
+  "HSK": 1783563765335,
+  "HSK7-9": 1783529833394,
+  "Mined": 1781705625090,
+  "Mined::十日终焉": 1781705625090,
+  "non-HSK": 1,
+  "Vocab Cloze": 1781631612787
+ },
+ "autoplay": {
+  "Default": true,
+  "Languages": true,
+  "Chinese Characters": true,
+  "Chinese Sentences": true,
+  "Chinese Vocabulary": true,
+  "Vocab Cloze": true,
+  "Mined": true,
+  "Hanly Gap": false,
+  "HSK7-9": true,
+  "HSK": false
+ }
+}
