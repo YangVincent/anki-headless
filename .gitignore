@@ -49,3 +49,23 @@ freq_data/regen/
 
 # Dynamic user lookup logs (grow over time; feed mining)
 freq_data/reader_lookups.jsonl
+
+# generated / scratch data from the char-mnemonic + gap + page pipelines (regenerable)
+freq_data/chars/
+freq_data/gen_fix/
+freq_data/gen_gaps/
+freq_data/ids/
+freq_data/mnem_batches_5/
+mnem_batches_5/
+generated/
+quality/
+freq_data/hsk3_gap_candidates.json
+freq_data/novel_deck_candidates.json
+freq_data/hsk_gloss_disagreements.json
+freq_data/ingested_reader_ids.json
+reading_marks.json
+hsk_words_no_mnemonic.json
+freq_data/*.bak-*
+# personal Hanly dumps (data, not code; cf. june_hanly.json above)
+hanly_current.json
+hanly_*.json
