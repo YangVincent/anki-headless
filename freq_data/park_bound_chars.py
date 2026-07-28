@@ -25,6 +25,7 @@ import argparse
 import json
 import re
 from pathlib import Path
+from anki_common import sync as _sync
 
 ROOT = Path("/home/vincent/anki-headless")
 COL = ROOT / "collection.anki2"
@@ -33,18 +34,6 @@ TAG = "parked::bound-character"
 THRESHOLD = 4.0        # zipf standalone-word frequency; below this it is not a word
 HANZI = re.compile(r"^[一-鿿]$")
 
-
-def _sync(col):
-    from anki.sync import SyncAuth
-    cred = json.loads(Path("~/.anki_auth").expanduser().read_text())
-    auth = SyncAuth()
-    auth.hkey = cred["hkey"]
-    if cred.get("endpoint"):
-        auth.endpoint = cred["endpoint"]
-    out = col.sync_collection(auth, sync_media=False)
-    print("sync: " + {0: "nothing further to send", 1: "changes uploaded",
-                      2: "FULL SYNC REQUIRED — resolve by hand"}
-          .get(out.required, f"status {out.required}"))
 
 
 def main():

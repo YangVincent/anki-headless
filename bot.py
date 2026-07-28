@@ -887,18 +887,18 @@ def execute_tool(tool_name, tool_input):
 
             col.add_note(note, did)
             nid = note.id
-            # Wild-add: promote into Vocab, tag 'mined', place next-up in the queue
+            # Wild-add: promote into the Mined deck, tag 'mined', place next-up in the queue
             promo = promote_to_vocab(col, [nid])
             log_change("add_chinese_vocab", [nid], {
                 "simplified": tool_input.get("simplified"),
-                "deck": "Vocab",
+                "deck": "Mined",
                 "tags": tags + ["mined"],
             })
             return json.dumps({
                 "success": True,
                 "note_id": nid,
                 "simplified": tool_input.get("simplified"),
-                "deck": "Vocab",
+                "deck": "Mined",
                 "placed": "next-up (mined)",
             })
         except Exception as e:
@@ -1893,8 +1893,11 @@ def _cached_deck_stats(deck_names, model_name):
 async def handle_api_stats(request):
     """GET /api/stats?decks=Vocab,Mined&model=ChineseVocabulary — read-only deck
     progress + review activity, for the dashboard. Cached ~60s per (decks, model)."""
-    raw = request.query.get("decks", "Vocab,Mined")
-    deck_names = [d.strip() for d in raw.split(",") if d.strip()] or ["Vocab", "Mined"]
+    # Default to the real study decks. The old "Vocab" deck was retired in the deck reorg
+    # (see DECOUPLING_PLAN.md); a bare call defaulting to it measured an empty deck. The
+    # dashboard passes ?decks= explicitly, but the default must not be a dead deck.
+    raw = request.query.get("decks", "HSK,HSK7-9,non-HSK,Mined")
+    deck_names = [d.strip() for d in raw.split(",") if d.strip()] or ["HSK", "HSK7-9", "non-HSK", "Mined"]
     model_name = request.query.get("model", "ChineseVocabulary").strip() or "ChineseVocabulary"
     try:
         data = await asyncio.to_thread(_cached_deck_stats, deck_names, model_name)
@@ -1902,6 +1905,18 @@ async def handle_api_stats(request):
         log.warning(f"/api/stats: collection unavailable ({e})")
         return web.json_response({"error": "collection locked"}, status=503)
     return web.json_response(data, dumps=lambda o: json.dumps(o, ensure_ascii=False))
+
+
+async def handle_api_sync(request):
+    """POST /api/sync — pull the latest reviews from AnkiWeb, then drop the stats
+    cache so the next /api/stats reflects them. The dashboard's refresh endpoint
+    calls this on page load so a reload shows reviews just done on another device.
+    Runs the blocking sync off the event loop; the 5-minute periodic_sync still runs
+    independently as the backstop."""
+    result = await asyncio.to_thread(_sync_collection)
+    _stats_cache.clear()
+    log.info(f"On-demand sync (dashboard): {result}")
+    return web.json_response({"result": result})
 
 
 def _deck_word_list(deck_name, model_name):
@@ -1929,6 +1944,116 @@ def _deck_word_list(deck_name, model_name):
         col.close()
 
 
+# ── /api/hsk-levels: per-HSK-3.0-level familiarity ─────────────────────────
+# Denominator is the official HSK 3.0 word list (freq_data/hsk3_vocab.json, 10,440
+# words over levels 1-6 and 7-9), NOT the HSK decks' contents — so a level's bar
+# reads as "how much of HSK n do I actually know", including the words that have no
+# card at all. Matching is by word (notes.sfld) across every non-Hidden deck rather
+# than by the HSK::HSKn tag: an HSK word mined into Mined or sitting in non-HSK
+# still counts, and suspended cards never do.
+#
+# The "none" bucket is mostly single characters on purpose: the HSK deck excludes
+# single-char words (they're studied in the Hanly app, which this collection doesn't
+# track), so `none_single` is reported separately and the dashboard says so.
+HSK_VOCAB_PATH = "/home/vincent/anki-headless/freq_data/hsk3_vocab.json"
+HSK_LEVELS = ("1", "2", "3", "4", "5", "6", "7-9")
+_hsk_vocab_cache = None
+_hsk_stats_cache = {"ts": 0.0, "data": None}
+
+
+def _hsk_vocab():
+    """{level: [{word, pinyin, gloss, ...}, ...]} from the HSK 3.0 list, file order,
+    deduped by word within each level, loaded once."""
+    global _hsk_vocab_cache
+    if _hsk_vocab_cache is None:
+        by_level = collections.defaultdict(list)
+        seen = collections.defaultdict(set)
+        with open(HSK_VOCAB_PATH, encoding="utf-8") as f:
+            for entry in json.load(f):
+                lvl = entry["level"]
+                if entry["word"] not in seen[lvl]:
+                    seen[lvl].add(entry["word"])
+                    by_level[lvl].append(entry)
+        _hsk_vocab_cache = dict(by_level)
+    return _hsk_vocab_cache
+
+
+def _hsk_level_stats():
+    """Per-level familiarity buckets over the official HSK 3.0 vocabulary.
+
+    A word's status is the *best* status of any of its ord=0 cards (a word can have
+    both a ChineseVocabulary and a ChineseCharacters note), ranked
+    new < learning < young < mature. Suspended cards (queue=-1) are ignored, so an
+    archived-only word lands in "none" alongside words with no note at all.
+    Buckets match the maturity language used everywhere else (ivl>=21 = mature)."""
+    vocab = _hsk_vocab()
+    col = open_collection()
+    try:
+        live_decks = {did for did, name in col.db.all("SELECT id, name FROM decks")
+                      if "Hidden" not in name}
+        rank = {"new": 0, "learning": 1, "young": 2, "mature": 3}
+        best = {}
+        for sfld, ctype, ivl, queue, did in col.db.all(
+                "SELECT n.sfld, c.type, c.ivl, c.queue, c.did FROM cards c "
+                "JOIN notes n ON n.id=c.nid WHERE c.ord=0 AND c.queue!=-1"):
+            if did not in live_decks:
+                continue
+            if ctype == 2:
+                st = "mature" if ivl >= 21 else "young"
+            elif ctype in (1, 3):
+                st = "learning"
+            else:
+                st = "new"
+            if sfld not in best or rank[st] > rank[best[sfld]]:
+                best[sfld] = st
+    finally:
+        col.close()
+
+    levels = []
+    for level in HSK_LEVELS:
+        entries = vocab.get(level, [])
+        counts = collections.Counter(best.get(e["word"], "none") for e in entries)
+        # Split "none" by length: single chars are the Hanly-only ones (see above).
+        none_single = sum(1 for e in entries if len(e["word"]) == 1 and e["word"] not in best)
+        # Words with a card that's still unseen (the "new" bucket), in HSK-list order —
+        # powers the dashboard's tap-to-count self-check preview.
+        new_words = [{"w": e["word"], "p": e.get("pinyin", ""), "g": e.get("gloss", "")}
+                     for e in entries if best.get(e["word"]) == "new"]
+        levels.append({"level": level, "total": len(entries),
+                       "mature": counts["mature"], "young": counts["young"],
+                       "learning": counts["learning"], "new": counts["new"],
+                       "none": counts["none"], "none_single": none_single,
+                       "new_words": new_words})
+    return {"levels": levels}
+
+
+def _cached_hsk_level_stats():
+    """Same best-effort caching as _cached_deck_stats: serve the last snapshot if the
+    collection is briefly locked, and only raise when there's nothing cached."""
+    now = time.time()
+    if _hsk_stats_cache["data"] and now - _hsk_stats_cache["ts"] < STATS_CACHE_TTL:
+        return _hsk_stats_cache["data"]
+    try:
+        data = _hsk_level_stats()
+    except Exception as e:
+        log.warning(f"hsk level stats: collection unavailable ({e}); serving cached snapshot")
+        if _hsk_stats_cache["data"]:
+            return _hsk_stats_cache["data"]
+        raise
+    _hsk_stats_cache.update(ts=now, data=data)
+    return data
+
+
+async def handle_api_hsk_levels(request):
+    """GET /api/hsk-levels — familiarity across HSK 3.0 levels 1-6 and 7-9."""
+    try:
+        data = await asyncio.to_thread(_cached_hsk_level_stats)
+    except Exception as e:
+        log.warning(f"/api/hsk-levels: collection unavailable ({e})")
+        return web.json_response({"error": "collection locked"}, status=503)
+    return web.json_response(data, dumps=lambda o: json.dumps(o, ensure_ascii=False))
+
+
 async def handle_api_deck_words(request):
     """GET /api/deck/{name}/words?model=ChineseVocabulary — full per-card word list
     for one deck (drill-down for the dashboard). aiohttp already URL-decodes the
@@ -1949,6 +2074,8 @@ def create_web_app():
     app.router.add_post('/api/card', handle_api_card)
     app.router.add_get('/api/status', handle_api_status)
     app.router.add_get('/api/stats', handle_api_stats)
+    app.router.add_post('/api/sync', handle_api_sync)
+    app.router.add_get('/api/hsk-levels', handle_api_hsk_levels)
     app.router.add_get('/api/deck/{name}/words', handle_api_deck_words)
     app.router.add_get('/health', handle_health)
     return app

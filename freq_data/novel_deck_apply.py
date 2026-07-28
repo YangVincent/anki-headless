@@ -32,6 +32,7 @@ from pathlib import Path
 
 sys.path.insert(0, "/home/vincent/anki-headless/freq_data")
 from novel_deck_build import (BOOK, HAN, PROPER, cedict, hsk_levels,  # noqa: E402
+from anki_common import sync as _sync
                               known_words, pinyin_diacritic, sample_sentences)
 
 ROOT = Path("/home/vincent/anki-headless")
@@ -52,19 +53,6 @@ def stars(n):
             return f"{label} · {n}× in 囚笼"
     return f"★ occasional · {n}× in 囚笼"
 
-
-def _sync(col):
-    """Push to AnkiWeb so the phone has it before the next session."""
-    from anki.sync import SyncAuth
-    cred = json.loads(Path("~/.anki_auth").expanduser().read_text())
-    auth = SyncAuth()
-    auth.hkey = cred["hkey"]
-    if cred.get("endpoint"):
-        auth.endpoint = cred["endpoint"]
-    out = col.sync_collection(auth, sync_media=False)
-    print("  sync: " + {0: "nothing further to send", 1: "changes uploaded",
-                        2: "FULL SYNC REQUIRED — resolve direction by hand"}
-          .get(out.required, f"status {out.required}"))
 
 
 def main():

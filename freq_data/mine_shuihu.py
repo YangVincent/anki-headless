@@ -65,16 +65,27 @@ try:
         t = col.db.scalar("SELECT type FROM cards WHERE nid=? AND ord=0", nid)
         in_deck[w] = (nid, t)
 
-    to_create = []; to_reposition = []; skip_known = []
+    # Words that already have an ACTIVE forward card of ANY note type, ANY deck — most
+    # importantly the single-character ChineseCharacters cards in the HSK deck. Without this,
+    # a mined single character (e.g. 烧) that already has an HSK character card was invisible
+    # to the ChineseVocabulary-in-Vocab check above and got a duplicate vocab card created.
+    # Same "already covered anywhere" rule hsk_gap_add.py uses.
+    have_active = {clean((sfld or "").split(SEP)[0]) for (sfld,) in col.db.all(
+        "SELECT n.sfld FROM cards c JOIN notes n ON c.nid=n.id WHERE c.ord=0 AND c.queue != -1")}
+
+    to_create = []; to_reposition = []; skip_known = []; skip_covered = []
     for w, (eng, sent) in G.items():
         if w in in_deck:
             nid, t = in_deck[w]
             (to_reposition if t == 0 else skip_known).append(w)
+        elif w in have_active:          # already covered by another note type/deck (e.g. HSK character card)
+            skip_covered.append(w)
         else:
             to_create.append(w)
     print(f"  NEW notes to create:        {len(to_create)}")
     print(f"  in-deck, reposition to front:{len(to_reposition)}")
     print(f"  in-deck, already studied(skip):{len(skip_known)}")
+    print(f"  covered elsewhere (skip):    {len(skip_covered)}")
 
     if not APPLY:
         print("\nsample new cards:")

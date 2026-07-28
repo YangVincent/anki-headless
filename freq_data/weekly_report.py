@@ -18,13 +18,22 @@ if col is None: print("could not open collection (locked)"); sys.exit(1)
 try:
     cv = next(m for m in col.models.all() if m['name']=='ChineseVocabulary')
     fi = {f['name']:i for i,f in enumerate(cv['flds'])}; SEP=chr(31)
-    vd = col.decks.id_for_name("Vocab")
+    # The study backbone used to live in one "Vocab" deck; it was reorganized into these
+    # top-level decks (+ subdecks) and "Vocab" no longer exists. id_for_name("Vocab") returns
+    # None, so `c.did = None` matched zero cards and every number came out ~0. Measure the
+    # union of the real study decks instead.
+    STUDY_ROOTS = ("HSK", "HSK7-9", "non-HSK", "Mined")
+    study_dids = [did for did, name in col.db.all("SELECT id, name FROM decks")
+                  if name.replace("\x1f", "::").split("::", 1)[0] in STUDY_ROOTS]
+    if not study_dids:
+        print("no study decks found (expected one of %s)" % (STUDY_ROOTS,)); sys.exit(1)
+    ph = ",".join("?" * len(study_dids))     # IN (?,?,…) placeholder for the deck set
     now = int(time.time()); since_ms = (now - DAYS*86400)*1000
 
-    # all revlog this week for Vocab forward cards
-    rl = col.db.all("""SELECT r.id, r.cid, r.ease, r.type, r.ivl, r.lastIvl
-                       FROM revlog r JOIN cards c ON r.cid=c.id
-                       WHERE r.id>? AND c.did=? AND c.ord=0""", since_ms, vd)
+    # all revlog this week for study-deck forward cards
+    rl = col.db.all(f"""SELECT r.id, r.cid, r.ease, r.type, r.ivl, r.lastIvl
+                        FROM revlog r JOIN cards c ON r.cid=c.id
+                        WHERE r.id>? AND c.did IN ({ph}) AND c.ord=0""", since_ms, *study_dids)
     reviews = len(rl)
     cids_week = {cid for _,cid,_,_,_,_ in rl}
 
@@ -49,14 +58,14 @@ try:
     mature = [(e) for _,_,e,t,ivl,liv in rl if liv>=4 and t in (1,2)]
     retention = (100*sum(1 for e in mature if e>=2)/len(mature)) if mature else None
 
-    studied = col.db.scalar("SELECT COUNT(*) FROM cards WHERE did=? AND ord=0 AND type IN (1,2)", vd)
-    new_left = col.db.scalar("SELECT COUNT(*) FROM cards WHERE did=? AND ord=0 AND type=0 AND queue!=-1", vd)
+    studied = col.db.scalar(f"SELECT COUNT(*) FROM cards WHERE did IN ({ph}) AND ord=0 AND type IN (1,2)", *study_dids)
+    new_left = col.db.scalar(f"SELECT COUNT(*) FROM cards WHERE did IN ({ph}) AND ord=0 AND type=0 AND queue!=-1", *study_dids)
 
     # 小Lin (finance/econ listening) track
     BUSI = re.compile(r'\b(econom|market|invest|financ|compan|trade|profit|stock|capital|bank|tax|fund|industr|commerc|monetary|price|debt|asset|revenue|enterprise|currency|inflation|loan|business|wealth|merger|equity|budget|GDP|interest rate|bond|dividend|recession|fiscal)\b', re.I)
     ACAD = re.compile(r'\b(cognit|belief|rational|logic|fallac|argument|premise|concept|epistem|moral|ethic|theor|prejudice|ideolog|doctrine|hypothes|paradox|subjectiv|objectiv|psycholog|empirical|metaphys|skeptic|dogma|narrative|discourse|societ|social|sociolog|cultur|gender|inequal|identit|institution|modernit|ethnic|hierarch|oppress|marginal|privileg|capitalis|patriarch|feminis|solidarit|alienat|bourgeois|proletari|secular|migrat|urbaniz|nationalis)\b', re.I)
     fin_tot = fin_learned = acad_tot = acad_learned = 0
-    for t, flds in col.db.all("SELECT c.type,n.flds FROM cards c JOIN notes n ON c.nid=n.id WHERE c.did=? AND c.ord=0 AND n.mid=?", vd, cv['id']):
+    for t, flds in col.db.all(f"SELECT c.type,n.flds FROM cards c JOIN notes n ON c.nid=n.id WHERE c.did IN ({ph}) AND c.ord=0 AND n.mid=?", *study_dids, cv['id']):
         mean = clean(flds.split(SEP)[fi['Meaning']])
         if BUSI.search(mean):
             fin_tot += 1

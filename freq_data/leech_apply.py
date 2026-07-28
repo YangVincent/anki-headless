@@ -30,6 +30,7 @@ restores everything.
 import argparse
 import json
 from pathlib import Path
+from anki_common import sync as _sync
 
 ROOT = Path("/home/vincent/anki-headless")
 COL = ROOT / "collection.anki2"
@@ -40,18 +41,6 @@ TAG_PARKED = "parked::bound-character"
 KEEP_ANYWAY = {"祝"}          # flagged learn-in-word, but it does stand alone
 FIELDS = ("Meaning", "Notes", "SentenceSimplified", "SentenceMeaning", "SentencePinyin")
 
-
-def _sync(col):
-    from anki.sync import SyncAuth
-    cred = json.loads(Path("~/.anki_auth").expanduser().read_text())
-    auth = SyncAuth()
-    auth.hkey = cred["hkey"]
-    if cred.get("endpoint"):
-        auth.endpoint = cred["endpoint"]
-    out = col.sync_collection(auth, sync_media=False)
-    print("sync: " + {0: "nothing further to send", 1: "changes uploaded",
-                      2: "FULL SYNC REQUIRED — resolve by hand"}
-          .get(out.required, f"status {out.required}"))
 
 
 def build_notes(card):
