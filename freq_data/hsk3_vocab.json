@@ -11,7 +11,7 @@
 "level": "1",
 "pinyin": "ba",
 "pos": "助",
-"gloss": "(modal particle indicating"
+"gloss": "(modal particle indicating suggestion, request, or supposition)"
 },
 {
 "word": "八",
@@ -522,7 +522,7 @@
 "level": "1",
 "pinyin": "jiàn",
 "pos": "量",
-"gloss": "(measure word for matters,"
+"gloss": "(measure word for matters, things, clothes, etc.)"
 },
 {
 "word": "饺子",
@@ -606,7 +606,7 @@
 "level": "1",
 "pinyin": "kànbìng",
 "pos": "动",
-"gloss": "to see a doctor (patient); to treat a"
+"gloss": "to see a doctor (patient); to treat a patient (doctor)"
 },
 {
 "word": "看见",
@@ -634,14 +634,14 @@
 "level": "1",
 "pinyin": "kǒu",
 "pos": "名、量",
-"gloss": "mouth; (measure word for family"
+"gloss": "mouth; (measure word for family members)"
 },
 {
 "word": "块",
 "level": "1",
 "pinyin": "kuài",
 "pos": "量",
-"gloss": "piece; lump; (colloquial for"
+"gloss": "piece; lump; (colloquial for the currency unit yuan)"
 },
 {
 "word": "来",
@@ -662,7 +662,7 @@
 "level": "1",
 "pinyin": "le",
 "pos": "助",
-"gloss": "(modal particle indicating change or"
+"gloss": "(modal particle indicating change of state or completed action)"
 },
 {
 "word": "冷",
@@ -2118,14 +2118,14 @@
 "level": "2",
 "pinyin": "de",
 "pos": "助",
-"gloss": "(Structural particle: verb + 得 +"
+"gloss": "(Structural particle: verb + 得 + complement of degree or manner)"
 },
 {
 "word": "地",
 "level": "2",
 "pinyin": "de",
 "pos": "助",
-"gloss": "(Structural particle:"
+"gloss": "(Structural particle: adverbial + 地 + verb)"
 },
 {
 "word": "地铁",
@@ -2202,7 +2202,7 @@
 "level": "2",
 "pinyin": "guo",
 "pos": "助",
-"gloss": "To pass; to cross; (indicates past"
+"gloss": "To pass; to cross; (indicates past experience)"
 },
 {
 "word": "过来",
@@ -2636,7 +2636,7 @@
 "level": "2",
 "pinyin": "qǐlái",
 "pos": "动",
-"gloss": "To get up; (verb complement"
+"gloss": "To get up; (verb complement indicating upward movement or the start of an action)"
 },
 {
 "word": "晴",
@@ -3077,7 +3077,7 @@
 "level": "2",
 "pinyin": "zhe",
 "pos": "助",
-"gloss": "(Aspect particle indicating"
+"gloss": "(Aspect particle indicating a continuing action or state)"
 },
 {
 "word": "这么",
@@ -6437,7 +6437,7 @@
 "level": "4",
 "pinyin": "àixīn",
 "pos": "名",
-"gloss": "Love; compassion; heart (of"
+"gloss": "Love; compassion; a caring heart"
 },
 {
 "word": "按",
@@ -6521,7 +6521,7 @@
 "level": "4",
 "pinyin": "bàokǎo",
 "pos": "动",
-"gloss": "To register for an exam (e.g.,"
+"gloss": "To register for an exam (e.g., a university entrance exam)"
 },
 {
 "word": "报名",
@@ -6759,7 +6759,7 @@
 "level": "4",
 "pinyin": "bùguǎn",
 "pos": "连",
-"gloss": "No matter (what/who/how);"
+"gloss": "No matter (what/who/how); regardless of"
 },
 {
 "word": "不光",
@@ -6780,7 +6780,7 @@
 "level": "4",
 "pinyin": "búlùn",
 "pos": "连",
-"gloss": "No matter (what/who/how);"
+"gloss": "No matter (what/who/how); regardless of"
 },
 {
 "word": "不满",
@@ -7193,7 +7193,7 @@
 "level": "4",
 "pinyin": "dǎgōng",
 "pos": "动",
-"gloss": "To work (a temporary or manual"
+"gloss": "To work (a temporary or manual job); to work part-time"
 },
 {
 "word": "戴",
@@ -7256,7 +7256,7 @@
 "level": "4",
 "pinyin": "dào",
 "pos": "名、量",
-"gloss": "Road; path; (measure word for long"
+"gloss": "Road; path; (measure word for long, narrow things)"
 },
 {
 "word": "刀",
@@ -9419,14 +9419,14 @@
 "level": "4",
 "pinyin": "láibují",
 "pos": "动",
-"gloss": "There's not enough time (to do"
+"gloss": "There's not enough time (to do sth); it's too late"
 },
 {
 "word": "来得及",
 "level": "4",
 "pinyin": "láidejí",
 "pos": "动",
-"gloss": "There's enough time (to do"
+"gloss": "There's enough time (to do sth); can still make it"
 },
 {
 "word": "垃圾",
@@ -13612,7 +13612,7 @@
 "level": "5",
 "pinyin": "bùfú",
 "pos": "动",
-"gloss": "Not in accordance with;"
+"gloss": "Not in accordance with; inconsistent with"
 },
 {
 "word": "不利",
@@ -14830,7 +14830,7 @@
 "level": "5",
 "pinyin": "dàye",
 "pos": "名",
-"gloss": "Uncle (term for elderly man);"
+"gloss": "Uncle (term for elderly man); father's elder brother"
 },
 {
 "word": "大于",
@@ -15208,7 +15208,7 @@
 "level": "5",
 "pinyin": "dúyīn",
 "pos": "名",
-"gloss": "Pronunciation; reading of a"
+"gloss": "Pronunciation; reading of a character"
 },
 {
 "word": "独自",
@@ -16328,7 +16328,7 @@
 "level": "5",
 "pinyin": "hǎozhuǎn",
 "pos": "动",
-"gloss": "To improve; to take a turn for the"
+"gloss": "To improve; to take a turn for the better"
 },
 {
 "word": "合",
@@ -17385,7 +17385,7 @@
 "level": "5",
 "pinyin": "jiùyè",
 "pos": "动",
-"gloss": "To obtain employment;"
+"gloss": "To obtain employment; to get a job"
 },
 {
 "word": "久远",
@@ -17637,7 +17637,7 @@
 "level": "5",
 "pinyin": "kē",
 "pos": "量",
-"gloss": "(Measure word for small, round"
+"gloss": "(Measure word for small, round objects: pearls, teeth, stars, etc.)"
 },
 {
 "word": "克服",
@@ -19695,7 +19695,7 @@
 "level": "5",
 "pinyin": "shěbude",
 "pos": "动",
-"gloss": "To be reluctant to part with;"
+"gloss": "To be reluctant to part with; to begrudge"
 },
 {
 "word": "舍得",
@@ -20479,7 +20479,7 @@
 "level": "5",
 "pinyin": "suān-tián-kǔ-là",
 "pos": "",
-"gloss": "Sour, sweet, bitter, spicy (joys and"
+"gloss": "Sour, sweet, bitter, spicy (fig. the joys and sorrows of life)"
 },
 {
 "word": "随",
@@ -22929,7 +22929,7 @@
 "level": "5",
 "pinyin": "yùyuē",
 "pos": "动",
-"gloss": "To make an appointment;"
+"gloss": "To make an appointment; to book in advance"
 },
 {
 "word": "在场",
@@ -23188,7 +23188,7 @@
 "level": "5",
 "pinyin": "zháoliáng",
 "pos": "动",
-"gloss": "To catch a cold;"
+"gloss": "To catch a cold; to catch a chill"
 },
 {
 "word": "折扣",
@@ -23202,14 +23202,14 @@
 "level": "5",
 "pinyin": "zhèn",
 "pos": "量",
-"gloss": "A period/spell (of time);"
+"gloss": "A period/spell (of time); (measure word for short events or states)"
 },
 {
 "word": "真诚",
 "level": "5",
 "pinyin": "zhēnchéng",
 "pos": "形",
-"gloss": "Sincere;"
+"gloss": "Sincere; genuine"
 },
 {
 "word": "诊断",
@@ -24105,7 +24105,7 @@
 "level": "6",
 "pinyin": "bǎihuò",
 "pos": "名",
-"gloss": "General merchandise (department"
+"gloss": "General merchandise (department store goods)"
 },
 {
 "word": "白领",
@@ -26429,7 +26429,7 @@
 "level": "6",
 "pinyin": "fābìng",
 "pos": "动",
-"gloss": "To have an attack (of an illness);"
+"gloss": "To have an attack (of an illness); to fall ill"
 },
 {
 "word": "发愁",
@@ -33443,7 +33443,7 @@
 "level": "6",
 "pinyin": "wéinán",
 "pos": "形、动",
-"gloss": "To Make Things Difficult; Be In A"
+"gloss": "To Make Things Difficult; Be In A Dilemma"
 },
 {
 "word": "围棋",
@@ -34346,7 +34346,7 @@
 "level": "6",
 "pinyin": "yǎnglǎo",
 "pos": "动",
-"gloss": "To Provide For The Elderly;"
+"gloss": "To Provide For The Elderly; Live Out One's Retirement"
 },
 {
 "word": "养老院",
@@ -34969,7 +34969,7 @@
 "level": "6",
 "pinyin": "yǒngxiàn",
 "pos": "动",
-"gloss": "To Emerge In Large Numbers;"
+"gloss": "To Emerge In Large Numbers; Spring Up"
 },
 {
 "word": "用心",
@@ -36418,7 +36418,7 @@
 "level": "7-9",
 "pinyin": "àishì",
 "pos": "动、形",
-"gloss": "To Be In The Way; Be A"
+"gloss": "To Be In The Way; Be A Hindrance"
 },
 {
 "word": "爱惜",

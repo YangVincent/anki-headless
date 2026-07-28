@@ -69,3 +69,4 @@ freq_data/*.bak-*
 # personal Hanly dumps (data, not code; cf. june_hanly.json above)
 hanly_current.json
 hanly_*.json
+changelog.jsonl
