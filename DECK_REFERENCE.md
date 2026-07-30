@@ -45,6 +45,91 @@ Each deck uses a **Word** note type (Simplified, Pinyin, Meaning, POS, SentenceS
 
 ---
 
+## Options Presets (daily limits) — READ BEFORE CHANGING ANY LIMIT
+
+⚠️ **Deck options in Anki belong to a shared *preset*, not to a deck.** Editing "new cards/day"
+from a deck's options screen edits every deck that shares that preset. As of 2026-07-27 this
+collection had **all 24 decks on a single preset** named `HSK`, so changing the HSK deck's
+limit would silently have changed HSK7-9, non-HSK, Vocab Cloze, Mined and every archive deck
+at the same time.
+
+Current assignment:
+
+| Preset | new/day | rev/day | Used by |
+|---|---|---|---|
+| `HSK (25/day)` | 25 | 1000 | **HSK deck only** (split out 2026-07-30) |
+| `HSK` | 10 | 1000 | the other 23 decks |
+
+**Rule: to change one deck's limit, give it its own preset — never edit a shared one.** Clone
+the existing preset so learning steps, new-card order and the review limit carry over, then
+change only `new.perDay`:
+
+```python
+from anki.collection import Collection
+col = Collection("/home/vincent/anki-headless/collection.anki2")
+shared = col.decks.config_dict_for_deck_id(col.decks.id_for_name("HSK"))
+new_id = col.decks.add_config_returning_id("HSK (25/day)")
+c = col.decks.get_config(new_id)
+keep = (c["id"], c["name"])
+c.update({k: v for k, v in shared.items() if k not in ("id", "name", "mod", "usn")})
+c["id"], c["name"] = keep
+c["new"]["perDay"] = 25
+col.decks.update_config(c)
+d = col.decks.by_name("HSK"); d["conf"] = new_id; col.decks.save(d)
+col.close()
+```
+
+Audit which deck is on which preset (do this *before* every limit change):
+
+```python
+for d in sorted(col.decks.all_names_and_ids(), key=lambda x: x.name):
+    if col.decks.get(d.id).get("dyn"): continue
+    c = col.decks.config_dict_for_deck_id(d.id)
+    print(f"{d.name:38} {c['name']:16} {c['new']['perDay']:3d}")
+```
+
+### Two things that override the preset
+
+1. **`newLimitToday` / `reviewLimitToday`** — per-deck "Today only" limits, stored on the deck,
+   not the preset. Shaped `{'limit': 100, 'today': 182}` where `today` is a day index; they
+   apply **only** when `today == col.sched.today` and are inert otherwise. HSK and non-HSK
+   carried stale day-182 copies (limit 100) for ~44 days; cleared 2026-07-30. If a limit
+   appears to be ignored, check these first.
+2. **Custom Study / filtered decks** — bypass the preset entirely. Actual intake has ranged
+   **4–124 new cards/day against a 10/day preset limit** (124 on 2026-07-13), so the preset
+   limit describes normal study only. There is a `Custom Study Session` filtered deck in the
+   collection. Don't conclude a limit is broken from intake numbers alone.
+
+There are also 10 orphaned presets (`Languages`, `Chinese Characters`, `Chinese Vocabulary`,
+`Chinese Sentences`, `Vocab Cloze`, `Mined`, `HSK7-9`, `Hanly Gap`, two `Default`s) used by
+**0 decks** — leftovers
+from the 2026-07-27 collapse onto one preset. Harmless, but don't assume a preset named after
+a deck is the one that deck uses. Verify with the audit above.
+
+### Verifying a limit change actually took
+
+`sync_collection` returns **"Synced (no changes needed)" even when it did push** — see Sync
+below. Don't trust the message; check the USN:
+
+```python
+d = col.decks.by_name("HSK")
+print(d["usn"])            # -1 = still pending upload; a positive number = server-assigned, pushed
+print(col.db.scalar("select ls from col") >= col.db.scalar("select mod from col"))  # True = in sync
+```
+
+Also confirm the scheduler agrees, remembering it subtracts cards already done today:
+
+```python
+col.sched.deck_due_tree()  # HSK node's new_count == perDay minus today's intake
+```
+
+Back up before writing: `cp collection.anki2 /home/vincent/backups/anki/collection.anki2.$(date +%Y%m%d-%H%M%S).bak`
+
+`anki-bot` opens and closes the collection per operation (it does **not** hold it open), so an
+external write is safe; it will see the change on its next operation.
+
+---
+
 ## Character Learning (Hanly Integration)
 
 - "Hanly" is a standalone mobile app for character (handwriting) learning
