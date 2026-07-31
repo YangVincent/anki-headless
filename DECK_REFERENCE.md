@@ -45,6 +45,78 @@ Each deck uses a **Word** note type (Simplified, Pinyin, Meaning, POS, SentenceS
 
 ---
 
+## Cloze cards are CUSTOM, not Anki-native — don't conclude they're missing
+
+There are **no Anki cloze note types in this collection** (`model type` is 0 everywhere, no
+`{{cloze:}}` in any template, zero notes containing `{{c1::}}`). Cloze is implemented instead
+as a third `ChineseVocabulary` template, **`Cloze-Recall`**, gated on a field:
+
+```
+{{#SentenceSimplifiedCloze}}
+  Fill the blank — the word meaning "{{Meaning}}". Say it.
+  {{SentenceSimplifiedCloze}}
+{{/SentenceSimplifiedCloze}}
+```
+
+The blank is literal `[ ]` in `SentenceSimplifiedCloze` (e.g. `他[ ]很守时。`). **17,441 of
+49,653** vocabulary notes have one, and their Cloze-Recall cards live in the `Vocab Cloze`
+deck — which is why that deck contains only `ChineseVocabulary` notes and appears, wrongly, to
+have no cloze in it.
+
+**Check by rendering a card, not by inspecting note-type names or model flags** — every
+name/flag-based check says this collection has no cloze, and every one of them is wrong.
+
+Templates: `Hanzi-English` (ord 0) · `English-Speaking` (ord 1, "Express this in Mandarin. Say
+it out loud") · `Cloze-Recall` (ord 2). Ords 1 and 2 are both **production-direction** drills —
+cue is the meaning, you generate the Chinese aloud — as opposed to ord 0's recognition.
+
+### `Vocab Cloze::Connectives` (2026-07-31) — 61 cards
+
+Cloze-Recall cards for written-register discourse glue: logical connectives → formal frames →
+stance adverbs (然而 从而 尽管 此外 反之 换句话说 由此可见 相对而言 综上所述 未必 毕竟 势必 …).
+Own subdeck on the `Default` preset (10/day), isolated from the shared `HSK` preset.
+
+Selection rule: a connective that is **not yet mature** *and* **has a cloze sentence**. Twelve
+already-mature ones (因此 于是 不过 而且 另外 否则 …) are deliberately excluded — they're known.
+
+Seven had no usable cloze sentence and were built on 2026-07-31: four existing notes
+(综上所述 一般而言 总的来说 诚然) had their sentence fields filled — they were sitting in
+`Hidden::Archive::Words`, so the *conditional* Cloze-Recall template had never generated a card
+— and three (具体而言 总体而言 在某种程度上) had no note at all and were created in `non-HSK`
+following 相对而言's shape. Sentences came from the dong-chinese reading corpus where it had
+one, otherwise written. **Their `Meaning` fields were rewritten**: the prompt is "the word
+meaning {{Meaning}}", and 综上所述 read "to summarize" while 总的来说 read "Summing up" —
+identical glosses make the card unanswerable, so near-synonyms need discriminating meanings.
+
+Note: 综上所述 / 一般而言 / 总的来说 / 诚然 still have their recognition (ord-0) cards suspended
+in the archive — they have a production card but no recognition card.
+
+#### The leech detour, and what it teaches
+
+This deck began as `Vocab Cloze::Leeches` (19 leech-tagged words) before being rebuilt on a
+connective criterion. Two lessons worth keeping:
+
+- **`leech` is a note-level tag**, so `tag:leech` returned 57 cards for only 19 words (each
+  word's three cards); only the ord-0 vocab cards had actually lapsed.
+- **The tag is sticky — Anki never removes it.** All 19 described history, not current state:
+  17 were already recovering with intervals up to 17 days. Selecting on `tag:leech` selects on
+  *what was once hard*, which is close to the opposite of *what still needs work*. The tags
+  were cleared on 2026-07-31 so `tag:leech` means something again.
+
+Leeches and connectives barely overlap — 4 words of 103. Leeches are recognition failures;
+missing connectives are mostly words never studied at all, and you cannot leech a word you have
+never seen.
+
+#### Don't use `shift_existing=True` for a small repositioning
+
+`reposition_new_cards(..., shift_existing=True)` on 19 cards bumped the queue position of
+**255,749** unrelated new cards to make room, dirtying them all for sync. Relative order was
+preserved and no review card was rescheduled, so it was harmless — but the blast radius was
+four orders of magnitude larger than the edit. Use `shift_existing=False` unless you genuinely
+mean to renumber the whole collection.
+
+---
+
 ## Options Presets (daily limits) — READ BEFORE CHANGING ANY LIMIT
 
 ⚠️ **Deck options in Anki belong to a shared *preset*, not to a deck.** Editing "new cards/day"
