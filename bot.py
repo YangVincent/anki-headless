@@ -1792,13 +1792,20 @@ def _deck_stats(deck_names, model_name, now):
 
         def deck_counts(did):
             if did is None:
-                return {"total": 0, "studied": 0, "mature": 0, "new_left": 0}
+                return {"total": 0, "studied": 0, "mature": 0, "new_left": 0, "new_per_day": 0}
             q = "SELECT %s FROM cards WHERE did=? AND ord=0 AND nid IN (SELECT id FROM notes WHERE mid=?)"
             total = col.db.scalar(q % "COUNT(*)", did, cv_id)
             studied = col.db.scalar(q % "COUNT(*)" + " AND type IN (1,2)", did, cv_id)
             mature = col.db.scalar(q % "COUNT(*)" + " AND type=2 AND ivl>=21", did, cv_id)
             new_left = col.db.scalar(q % "COUNT(*)" + " AND type=0 AND queue!=-1", did, cv_id)
-            return {"total": total, "studied": studied, "mature": mature, "new_left": new_left}
+            # The deck's CONFIGURED new-cards/day, read from whichever options preset the
+            # deck is assigned to (they're shared — see DECK_REFERENCE). The dashboard
+            # projects HSK completion from this rather than from observed new-card counts:
+            # observed counts include other decks and lag any limit change by ~30 days,
+            # so they answer "what did I do" when the projection needs "what will I do".
+            new_per_day = col.decks.config_dict_for_deck_id(did)["new"]["perDay"]
+            return {"total": total, "studied": studied, "mature": mature,
+                    "new_left": new_left, "new_per_day": new_per_day}
 
         def deck_words(did):
             # Full per-card list for drill-down: compact {w:word, p:pinyin, s:status}.
@@ -1826,7 +1833,7 @@ def _deck_stats(deck_names, model_name, now):
         days = collections.OrderedDict()
         for i in range(29, -1, -1):
             d = _stats_day(now - i * 86400)
-            days[d] = {"date": d, "reviews": 0, "new": 0}
+            days[d] = {"date": d, "reviews": 0, "new": 0, "ms": 0}
         recent = {name: [] for name in deck_names}
         week = {"reviews": 0, "retention": None}
         progression = []
@@ -1844,13 +1851,19 @@ def _deck_stats(deck_names, model_name, now):
             retention = round(100 * sum(1 for e in mature_revs if e >= 2) / len(mature_revs)) if mature_revs else None
             week = {"reviews": reviews, "retention": retention}
 
+            # r.time = milliseconds spent on that one review (Anki caps it per-card at the
+            # deck's max-answer-seconds, so a walk-away can't inflate it). Summed per day it
+            # gives real Anki study MINUTES — the unit reading/listening/video/writing already
+            # report, which is what lets the dashboard stack all five activities on one axis
+            # instead of pairing reviews against minutes on a second scale.
             m30 = (now - 30 * 86400) * 1000
-            for rid, ease, rtype, liv in col.db.all(
-                    f"SELECT r.id, r.ease, r.type, r.lastIvl FROM revlog r JOIN cards c ON r.cid=c.id "
+            for rid, ease, rtype, liv, rtime in col.db.all(
+                    f"SELECT r.id, r.ease, r.type, r.lastIvl, r.time FROM revlog r JOIN cards c ON r.cid=c.id "
                     f"WHERE r.id>? AND c.did IN ({ph}) AND c.ord=0 AND r.ease>0", m30, *valid_ids):
                 d = time.strftime("%Y-%m-%d", time.gmtime(rid / 1000 - PDT_OFFSET))
                 if d in days:
                     days[d]["reviews"] += 1
+                    days[d]["ms"] += rtime or 0
                     if rtype == 0: days[d]["new"] += 1
 
             for name in deck_names:
@@ -1863,6 +1876,12 @@ def _deck_stats(deck_names, model_name, now):
                     did, cv_id)]
 
             progression = _stats_progression(col, valid_ids, cv_id, now)
+
+        # ms is an accumulator, not part of the contract — emit whole minutes like every
+        # other source and drop it, so `daily` stays {date, reviews, new, minutes}. Runs
+        # outside `if valid_ids` so a missing deck still yields 0-minute days, not KeyError.
+        for v in days.values():
+            v["minutes"] = round(v.pop("ms") / 60000)
 
         return {"decks": decks_out, "recent": recent, "week": week,
                 "daily": list(days.values()), "progression": progression}
