@@ -1071,8 +1071,7 @@ def execute_tool(tool_name, tool_input):
                     fields = {}
                     for i, name in enumerate(field_names):
                         if i < len(note.fields):
-                            val = strip_html(note.fields[i])
-                            fields[name] = val[:200] if len(val) > 200 else val
+                            fields[name] = strip_html(note.fields[i])
                     results.append({
                         "note_id": nid,
                         "fields": fields,
@@ -1099,8 +1098,7 @@ def execute_tool(tool_name, tool_input):
                     for fname in field_names_requested:
                         if fname in field_names:
                             idx = field_names.index(fname)
-                            val = strip_html(note.fields[idx]) if idx < len(note.fields) else ""
-                            entry[fname] = val[:200] if len(val) > 200 else val
+                            entry[fname] = strip_html(note.fields[idx]) if idx < len(note.fields) else ""
                     results.append(entry)
                 except Exception:
                     results.append({"id": nid, "_error": "not found"})
