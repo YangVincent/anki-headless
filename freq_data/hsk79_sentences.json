@@ -1,0 +1,4650 @@
+[
+ {
+  "nid": 1393817667549,
+  "word": "胆小鬼",
+  "sentence": "他一遇到麻烦就躲起来，大家都笑他是胆小鬼。",
+  "pinyin": "Tā yī yùdào máfan jiù duǒ qǐlai, dàjiā dōu xiào tā shì dǎnxiǎoguǐ.",
+  "english": "Whenever he runs into trouble he hides, so everyone calls him a coward."
+ },
+ {
+  "nid": 1393817668022,
+  "word": "梳子",
+  "sentence": "她每天早上都用这把梳子把头发梳得整整齐齐。",
+  "pinyin": "Tā měitiān zǎoshang dōu yòng zhè bǎ shūzi bǎ tóufa shū de zhěngzhěngqíqí.",
+  "english": "Every morning she uses this comb to make her hair neat and tidy."
+ },
+ {
+  "nid": 1393817668064,
+  "word": "刻苦",
+  "sentence": "他为了考上理想的大学，每天刻苦学习到深夜。",
+  "pinyin": "Tā wèile kǎoshàng lǐxiǎng de dàxué, měitiān kèkǔ xuéxí dào shēnyè.",
+  "english": "In order to get into his dream university, he studies assiduously late into the night every day."
+ },
+ {
+  "nid": 1393817668099,
+  "word": "省略",
+  "sentence": "为了节省篇幅，作者把这一部分内容省略了。",
+  "pinyin": "Wèile jiéshěng piānfú, zuòzhě bǎ zhè yī bùfen nèiróng shěnglüè le.",
+  "english": "To save space, the author left out this part of the content."
+ },
+ {
+  "nid": 1393817668102,
+  "word": "吃亏",
+  "sentence": "他做生意太老实，常常因此吃亏。",
+  "pinyin": "Tā zuò shēngyi tài lǎoshi, chángcháng yīncǐ chīkuī.",
+  "english": "He's too honest in business, so he often gets the worst of deals."
+ },
+ {
+  "nid": 1393817668775,
+  "word": "圈套",
+  "sentence": "他没有识破对方的圈套，结果损失了不少钱。",
+  "pinyin": "Tā méiyǒu shípò duìfāng de quāntào, jiéguǒ sǔnshī le bù shǎo qián.",
+  "english": "He didn't see through the other side's trap, and as a result lost quite a lot of money."
+ },
+ {
+  "nid": 1393817668813,
+  "word": "和解",
+  "sentence": "经过法官的调解，双方终于达成了和解。",
+  "pinyin": "Jīngguò fǎguān de tiáojiě, shuāngfāng zhōngyú dáchéng le héjiě.",
+  "english": "After the judge's mediation, the two sides finally reached a settlement."
+ },
+ {
+  "nid": 1393817668878,
+  "word": "气色",
+  "sentence": "你最近气色不错，是不是休息得比较好？",
+  "pinyin": "Nǐ zuìjìn qìsè búcuò, shì bu shì xiūxi de bǐjiào hǎo?",
+  "english": "Your complexion has looked pretty good lately — have you been getting more rest?"
+ },
+ {
+  "nid": 1393817669056,
+  "word": "恩怨",
+  "sentence": "两家公司之间的恩怨已经持续了好几年。",
+  "pinyin": "Liǎng jiā gōngsī zhījiān de ēnyuàn yǐjīng chíxù le hǎo jǐ nián.",
+  "english": "The rivalry between the two companies has lasted for several years now."
+ },
+ {
+  "nid": 1393817669086,
+  "word": "拿手",
+  "sentence": "做红烧肉是我妈妈最拿手的菜。",
+  "pinyin": "Zuò hóngshāoròu shì wǒ māma zuì náshǒu de cài.",
+  "english": "Braised pork is my mom's specialty dish."
+ },
+ {
+  "nid": 1393817669343,
+  "word": "笨拙",
+  "sentence": "他第一次跳舞的动作显得十分笨拙。",
+  "pinyin": "Tā dì yī cì tiàowǔ de dòngzuò xiǎnde shífēn bènzhuō.",
+  "english": "His movements the first time he danced looked really clumsy."
+ },
+ {
+  "nid": 1393817669346,
+  "word": "岂有此理",
+  "sentence": "他竟然当着大家的面说谎，真是岂有此理！",
+  "pinyin": "Tā jìngrán dāngzhe dàjiā de miàn shuōhuǎng, zhēn shì qǐ yǒu cǐ lǐ!",
+  "english": "He actually lied right in front of everyone — how outrageous!"
+ },
+ {
+  "nid": 1393817669357,
+  "word": "别扭",
+  "sentence": "这句话翻译得很别扭，你能不能改一下？",
+  "pinyin": "Zhè jù huà fānyì de hěn bièniu, nǐ néng bu néng gǎi yīxià?",
+  "english": "This sentence is translated in an awkward way — could you fix it?"
+ },
+ {
+  "nid": 1393817669363,
+  "word": "机灵",
+  "sentence": "这只小狗非常机灵，一下子就学会了新把戏。",
+  "pinyin": "Zhè zhī xiǎogǒu fēicháng jīling, yīxiàzi jiù xuéhuì le xīn bǎxì.",
+  "english": "This little dog is very clever — it learned the new trick right away."
+ },
+ {
+  "nid": 1393817669375,
+  "word": "风度",
+  "sentence": "那位老师说话温和，很有风度。",
+  "pinyin": "Nà wèi lǎoshī shuōhuà wēnhé, hěn yǒu fēngdù.",
+  "english": "That teacher speaks gently and has a lot of poise."
+ },
+ {
+  "nid": 1393817669398,
+  "word": "鞠躬",
+  "sentence": "演出结束后，演员们一起向观众鞠躬。",
+  "pinyin": "Yǎnchū jiéshù hòu, yǎnyuánmen yīqǐ xiàng guānzhòng jūgōng.",
+  "english": "After the performance ended, the actors bowed to the audience together."
+ },
+ {
+  "nid": 1393817669465,
+  "word": "草率",
+  "sentence": "这个决定做得太草率，应该再考虑一下。",
+  "pinyin": "Zhège juédìng zuò de tài cǎoshuài, yīnggāi zài kǎolǜ yīxià.",
+  "english": "This decision was made too hastily; you should think it over again."
+ },
+ {
+  "nid": 1393817669495,
+  "word": "钦佩",
+  "sentence": "大家都很钦佩他多年坚持公益事业的精神。",
+  "pinyin": "Dàjiā dōu hěn qīnpèi tā duō nián jiānchí gōngyì shìyè de jīngshén.",
+  "english": "Everyone admires the spirit he's shown in sticking with charity work for so many years."
+ },
+ {
+  "nid": 1393817669532,
+  "word": "预兆",
+  "sentence": "老人说，天上出现红云是下雨的预兆。",
+  "pinyin": "Lǎorén shuō, tiānshàng chūxiàn hóngyún shì xiàyǔ de yùzhào.",
+  "english": "The old man said that red clouds in the sky are a sign of rain."
+ },
+ {
+  "nid": 1393817669536,
+  "word": "方圆",
+  "sentence": "这场大火方圆十里都能看到浓烟。",
+  "pinyin": "Zhè chǎng dàhuǒ fāngyuán shí lǐ dōu néng kàndào nóngyān.",
+  "english": "This big fire could be seen for ten li around."
+ },
+ {
+  "nid": 1393817669565,
+  "word": "渺小",
+  "sentence": "站在高山之巅，人会觉得自己十分渺小。",
+  "pinyin": "Zhàn zài gāoshān zhī diān, rén huì juéde zìjǐ shífēn miǎoxiǎo.",
+  "english": "Standing atop a high mountain, one feels utterly insignificant."
+ },
+ {
+  "nid": 1393817669595,
+  "word": "惦记",
+  "sentence": "妈妈总是惦记着在外地上学的儿子。",
+  "pinyin": "Māma zǒngshì diànjì zhe zài wàidì shàngxué de érzi.",
+  "english": "Mom is always thinking anxiously about her son who's away at school."
+ },
+ {
+  "nid": 1393817669618,
+  "word": "胸膛",
+  "sentence": "士兵们挺起胸膛，迈着整齐的步伐前进。",
+  "pinyin": "Shìbīngmen tǐngqǐ xiōngtáng, màizhe zhěngqí de bùfá qiánjìn.",
+  "english": "The soldiers puffed out their chests and marched forward in neat step."
+ },
+ {
+  "nid": 1393817669662,
+  "word": "糟蹋",
+  "sentence": "别把这么好的食材糟蹋了，好好做成一道菜吧。",
+  "pinyin": "Bié bǎ zhème hǎo de shícái zāotà le, hǎohǎo zuòchéng yī dào cài ba.",
+  "english": "Don't waste such good ingredients — make them into a proper dish."
+ },
+ {
+  "nid": 1393817669685,
+  "word": "恰巧",
+  "sentence": "我正想给他打电话，恰巧他自己先打来了。",
+  "pinyin": "Wǒ zhèng xiǎng gěi tā dǎ diànhuà, qiàqiǎo tā zìjǐ xiān dǎlái le.",
+  "english": "I was just about to call him when, as it happened, he called first."
+ },
+ {
+  "nid": 1393817669691,
+  "word": "情理",
+  "sentence": "他的做法虽然不合法律，但也算合乎情理。",
+  "pinyin": "Tā de zuòfǎ suīrán bù héfǎlǜ, dàn yě suàn héhū qínglǐ.",
+  "english": "What he did wasn't legal, but it's understandable in human terms."
+ },
+ {
+  "nid": 1393817669716,
+  "word": "齐心协力",
+  "sentence": "只要大家齐心协力，就一定能完成这个任务。",
+  "pinyin": "Zhǐyào dàjiā qíxīnxiélì, jiù yīdìng néng wánchéng zhège rènwu.",
+  "english": "As long as everyone works together with one heart, we can definitely finish this task."
+ },
+ {
+  "nid": 1393817669727,
+  "word": "安详",
+  "sentence": "老人躺在床上，脸上带着安详的笑容。",
+  "pinyin": "Lǎorén tǎng zài chuángshàng, liǎn shàng dàizhe ānxiáng de xiàoróng.",
+  "english": "The old man lay in bed, a serene smile on his face."
+ },
+ {
+  "nid": 1393817669733,
+  "word": "谜语",
+  "sentence": "老师在课堂上给学生们出了一个有趣的谜语。",
+  "pinyin": "Lǎoshī zài kètáng shàng gěi xuéshengmen chū le yīgè yǒuqù de míyǔ.",
+  "english": "In class, the teacher gave the students an interesting riddle."
+ },
+ {
+  "nid": 1393817669737,
+  "word": "仓促",
+  "sentence": "这次旅行安排得太仓促，很多东西都没准备好。",
+  "pinyin": "Zhè cì lǚxíng ānpái de tài cāngcù, hěn duō dōngxi dōu méi zhǔnbèi hǎo.",
+  "english": "This trip was arranged too hastily, and a lot of things weren't ready."
+ },
+ {
+  "nid": 1393817669755,
+  "word": "走漏",
+  "sentence": "这个秘密计划千万不能走漏消息。",
+  "pinyin": "Zhège mìmì jìhuà qiānwàn bùnéng zǒulòu xiāoxi.",
+  "english": "This secret plan must never let word leak out."
+ },
+ {
+  "nid": 1393817669773,
+  "word": "理睬",
+  "sentence": "她生气地走开了，谁叫她都不理睬。",
+  "pinyin": "Tā shēngqì de zǒukāi le, shéi jiào tā dōu bù lǐcǎi.",
+  "english": "She stormed off angrily, ignoring everyone no matter who called her."
+ },
+ {
+  "nid": 1393817669776,
+  "word": "凝视",
+  "sentence": "她静静地凝视着窗外飘落的雪花。",
+  "pinyin": "Tā jìngjìng de níngshì zhe chuāngwài piāoluò de xuěhuā.",
+  "english": "She gazed quietly at the snowflakes drifting down outside the window."
+ },
+ {
+  "nid": 1393817669781,
+  "word": "泄气",
+  "sentence": "第一次没考好，但你别泄气，还有机会。",
+  "pinyin": "Dì yī cì méi kǎohǎo, dàn nǐ bié xièqì, hái yǒu jīhuì.",
+  "english": "You didn't do well the first time, but don't give up — there's still a chance."
+ },
+ {
+  "nid": 1393817669799,
+  "word": "得力",
+  "sentence": "他是经理身边最得力的助手。",
+  "pinyin": "Tā shì jīnglǐ shēnbiān zuì délì de zhùshǒu.",
+  "english": "He is the manager's most capable assistant."
+ },
+ {
+  "nid": 1393817669805,
+  "word": "请柬",
+  "sentence": "他们提前一个月给亲戚朋友寄去了请柬。",
+  "pinyin": "Tāmen tíqián yīgè yuè gěi qīnqi péngyou jì qù le qǐngjiǎn.",
+  "english": "A month in advance, they sent out wedding invitations to relatives and friends."
+ },
+ {
+  "nid": 1393817669811,
+  "word": "悔恨",
+  "sentence": "他对当年没能好好读书感到十分悔恨。",
+  "pinyin": "Tā duì dāngnián méi néng hǎohǎo dúshū gǎndào shífēn huǐhèn.",
+  "english": "He deeply regrets not having studied hard back then."
+ },
+ {
+  "nid": 1393817669814,
+  "word": "告辞",
+  "sentence": "时间不早了，客人们纷纷起身告辞。",
+  "pinyin": "Shíjiān bù zǎo le, kèrénmen fēnfēn qǐshēn gàocí.",
+  "english": "It was getting late, and the guests all stood up one after another to say goodbye."
+ },
+ {
+  "nid": 1393817669819,
+  "word": "胆怯",
+  "sentence": "面对台下几百名观众，她一点也不胆怯。",
+  "pinyin": "Miànduì tái xià jǐ bǎi míng guānzhòng, tā yīdiǎn yě bù dǎnqiè.",
+  "english": "Facing hundreds of spectators, she wasn't the least bit timid."
+ },
+ {
+  "nid": 1393817669820,
+  "word": "未免",
+  "sentence": "你这样批评一个刚入职的新人，未免太严厉了。",
+  "pinyin": "Nǐ zhèyàng pīpíng yīgè gāng rùzhí de xīnrén, wèimiǎn tài yánlì le.",
+  "english": "Criticizing a new employee like that is really a bit too harsh."
+ },
+ {
+  "nid": 1393817669843,
+  "word": "留恋",
+  "sentence": "毕业那天，大家都对校园生活充满留恋。",
+  "pinyin": "Bìyè nà tiān, dàjiā dōu duì xiàoyuán shēnghuó chōngmǎn liúliàn.",
+  "english": "On graduation day, everyone was filled with reluctance to leave campus life."
+ },
+ {
+  "nid": 1393817669846,
+  "word": "沉闷",
+  "sentence": "开会前教室里的气氛显得十分沉闷。",
+  "pinyin": "Kāihuì qián jiàoshì lǐ de qìfēn xiǎnde shífēn chénmèn.",
+  "english": "Before the meeting, the atmosphere in the classroom felt very oppressive."
+ },
+ {
+  "nid": 1393817669874,
+  "word": "咀嚼",
+  "sentence": "医生建议吃饭时要细细咀嚼，慢慢下咽。",
+  "pinyin": "Yīshēng jiànyì chīfàn shí yào xìxì jǔjué, mànmàn xiàyàn.",
+  "english": "Doctors recommend chewing carefully and swallowing slowly while eating."
+ },
+ {
+  "nid": 1393817669875,
+  "word": "阻拦",
+  "sentence": "警察及时赶到，阻拦了这场冲突的升级。",
+  "pinyin": "Jǐngchá jíshí gǎndào, zǔlán le zhè chǎng chōngtū de shēngjí.",
+  "english": "The police arrived in time and stopped the conflict from escalating."
+ },
+ {
+  "nid": 1393817669878,
+  "word": "敷衍",
+  "sentence": "他随便敷衍了几句就挂了电话。",
+  "pinyin": "Tā suíbiàn fūyǎn le jǐ jù jiù guà le diànhuà.",
+  "english": "He gave a few half-hearted responses and then hung up the phone."
+ },
+ {
+  "nid": 1393817669890,
+  "word": "名副其实",
+  "sentence": "这家餐厅是名副其实的百年老店。",
+  "pinyin": "Zhè jiā cāntīng shì míng fù qí shí de bǎi nián lǎodiàn.",
+  "english": "This restaurant is a genuine century-old establishment, name and all."
+ },
+ {
+  "nid": 1393817669892,
+  "word": "闲话",
+  "sentence": "邻居们喜欢聚在一起说别人的闲话。",
+  "pinyin": "Línjūmen xǐhuan jù zài yīqǐ shuō biéren de xiánhuà.",
+  "english": "The neighbors like to get together and gossip about other people."
+ },
+ {
+  "nid": 1393817669907,
+  "word": "干劲",
+  "sentence": "新员工干劲十足，每天都提前到公司上班。",
+  "pinyin": "Xīn yuángōng gànjìn shízú, měitiān dōu tíqián dào gōngsī shàngbān.",
+  "english": "The new employee is full of drive, arriving at the office early every day."
+ },
+ {
+  "nid": 1393817669909,
+  "word": "凝固",
+  "sentence": "蜡烛熄灭后，融化的蜡油慢慢凝固了。",
+  "pinyin": "Làzhú xīmiè hòu, rónghuà de làyóu mànmàn nínggù le.",
+  "english": "After the candle went out, the melted wax slowly solidified."
+ },
+ {
+  "nid": 1393817669911,
+  "word": "专程",
+  "sentence": "他专程从外地赶来参加朋友的婚礼。",
+  "pinyin": "Tā zhuānchéng cóng wàidì gǎnlái cānjiā péngyou de hūnlǐ.",
+  "english": "He made a special trip from out of town to attend his friend's wedding."
+ },
+ {
+  "nid": 1393817669913,
+  "word": "缠绕",
+  "sentence": "藤蔓紧紧缠绕在老树的枝干上。",
+  "pinyin": "Téngwàn jǐnjǐn chánrào zài lǎoshù de zhīgàn shàng.",
+  "english": "The vines are tightly wound around the branches of the old tree."
+ },
+ {
+  "nid": 1393817669924,
+  "word": "力所能及",
+  "sentence": "我们应该在力所能及的范围内帮助别人。",
+  "pinyin": "Wǒmen yīnggāi zài lìsuǒnéngjí de fànwéi nèi bāngzhù biéren.",
+  "english": "We should help others to the best of our ability."
+ },
+ {
+  "nid": 1393817669927,
+  "word": "沉着",
+  "sentence": "遇到突发状况，她还是显得非常沉着。",
+  "pinyin": "Yùdào tūfā zhuàngkuàng, tā háishi xiǎnde fēicháng chénzhuó.",
+  "english": "Even when the unexpected happened, she seemed very calm and collected."
+ },
+ {
+  "nid": 1393817669929,
+  "word": "惋惜",
+  "sentence": "听说他放弃了留学的机会，大家都感到惋惜。",
+  "pinyin": "Tīngshuō tā fàngqì le liúxué de jīhuì, dàjiā dōu gǎndào wǎnxī.",
+  "english": "Hearing that he gave up the chance to study abroad, everyone felt it was a pity."
+ },
+ {
+  "nid": 1393817669935,
+  "word": "包庇",
+  "sentence": "上司不应该包庇犯错的下属。",
+  "pinyin": "Shàngsi bù yīnggāi bāobì fàncuò de xiàshǔ.",
+  "english": "A boss shouldn't shield a subordinate who has made mistakes."
+ },
+ {
+  "nid": 1393817669945,
+  "word": "无忧无虑",
+  "sentence": "童年时代的生活总是无忧无虑的。",
+  "pinyin": "Tóngnián shídài de shēnghuó zǒngshì wúyōuwúlǜ de.",
+  "english": "Childhood life is always carefree and worry-free."
+ },
+ {
+  "nid": 1393817669962,
+  "word": "牢骚",
+  "sentence": "他对新政策满腹牢骚，逢人就抱怨。",
+  "pinyin": "Tā duì xīn zhèngcè mǎnfù láosāo, féng rén jiù bàoyuàn.",
+  "english": "He's full of complaints about the new policy and grumbles to anyone he meets."
+ },
+ {
+  "nid": 1393817669971,
+  "word": "急躁",
+  "sentence": "一遇到问题他就急躁，容易发脾气。",
+  "pinyin": "Yī yùdào wèntí tā jiù jízào, róngyì fā píqi.",
+  "english": "The moment he runs into a problem he gets impatient and loses his temper easily."
+ },
+ {
+  "nid": 1393817669977,
+  "word": "谦逊",
+  "sentence": "尽管获得了大奖，他依然十分谦逊。",
+  "pinyin": "Jǐnguǎn huòdé le dàjiǎng, tā yīrán shífēn qiānxùn.",
+  "english": "Even though he won the big prize, he remained very humble."
+ },
+ {
+  "nid": 1393817670016,
+  "word": "焦急",
+  "sentence": "孩子迟迟没回家，妈妈焦急地在门口等着。",
+  "pinyin": "Háizi chíchí méi huíjiā, māma jiāojí de zài ménkǒu děngzhe.",
+  "english": "The child hadn't come home for a long time, and Mom waited anxiously at the door."
+ },
+ {
+  "nid": 1393817670063,
+  "word": "致辞",
+  "sentence": "校长在开学典礼上发表了热情的致辞。",
+  "pinyin": "Xiàozhǎng zài kāixué diǎnlǐ shàng fābiǎo le rèqíng de zhìcí.",
+  "english": "The principal gave a warm speech at the opening ceremony."
+ },
+ {
+  "nid": 1393817670080,
+  "word": "作废",
+  "sentence": "这张票过期以后就自动作废了。",
+  "pinyin": "Zhè zhāng piào guòqī yǐhòu jiù zìdòng zuòfèi le.",
+  "english": "This ticket automatically becomes invalid once it expires."
+ },
+ {
+  "nid": 1393817670097,
+  "word": "狼狈",
+  "sentence": "突然下起大雨，他被淋得十分狼狈。",
+  "pinyin": "Tūrán xià qǐ dàyǔ, tā bèi lín de shífēn lángbèi.",
+  "english": "It suddenly poured, and he got soaked and looked utterly bedraggled."
+ },
+ {
+  "nid": 1393817670112,
+  "word": "无精打采",
+  "sentence": "他今天无精打采的，好像没睡好觉。",
+  "pinyin": "Tā jīntiān wújīngdǎcǎi de, hǎoxiàng méi shuìhǎo jiào.",
+  "english": "He seems listless today, as if he didn't sleep well."
+ },
+ {
+  "nid": 1393817670125,
+  "word": "抹杀",
+  "sentence": "我们不能因为一次失败就抹杀他的努力。",
+  "pinyin": "Wǒmen bùnéng yīnwèi yī cì shībài jiù mǒshā tā de nǔlì.",
+  "english": "We shouldn't write off his efforts just because of one failure."
+ },
+ {
+  "nid": 1393817670129,
+  "word": "威风",
+  "sentence": "将军骑着高头大马，显得十分威风。",
+  "pinyin": "Jiāngjūn qízhe gāo tóu dà mǎ, xiǎnde shífēn wēifēng.",
+  "english": "Riding his tall horse, the general looked tremendously imposing."
+ },
+ {
+  "nid": 1393817670130,
+  "word": "压榨",
+  "sentence": "那家工厂长期压榨工人，从不给加班费。",
+  "pinyin": "Nà jiā gōngchǎng chángqī yāzhà gōngrén, cóng bù gěi jiābānfèi.",
+  "english": "That factory has long exploited its workers and never pays overtime."
+ },
+ {
+  "nid": 1393817670133,
+  "word": "真挚",
+  "sentence": "他在信里表达了对老师真挚的感谢。",
+  "pinyin": "Tā zài xìn lǐ biǎodá le duì lǎoshī zhēnzhì de gǎnxiè.",
+  "english": "In the letter he expressed his sincere gratitude to his teacher."
+ },
+ {
+  "nid": 1393817670151,
+  "word": "吃力",
+  "sentence": "这份工作对刚毕业的他来说有点吃力。",
+  "pinyin": "Zhè fèn gōngzuò duì gāng bìyè de tā láishuō yǒudiǎn chīlì.",
+  "english": "This job is a bit strenuous for him, since he just graduated."
+ },
+ {
+  "nid": 1393817670163,
+  "word": "生疏",
+  "sentence": "好久没弹钢琴，他的手法变得有些生疏。",
+  "pinyin": "Hǎojiǔ méi tán gāngqín, tā de shǒufǎ biàn de yǒuxiē shēngshū.",
+  "english": "Not having played piano for a long time, his technique has gotten a bit rusty."
+ },
+ {
+  "nid": 1393817670168,
+  "word": "坚韧",
+  "sentence": "这种绳子非常坚韧，一般拉不断。",
+  "pinyin": "Zhè zhǒng shéngzi fēicháng jiānrèn, yībān lā bu duàn.",
+  "english": "This kind of rope is extremely tough — it usually can't be pulled apart."
+ },
+ {
+  "nid": 1393817670169,
+  "word": "唾弃",
+  "sentence": "这种背叛朋友的行为受到大家的唾弃。",
+  "pinyin": "Zhè zhǒng bèipàn péngyou de xíngwéi shòudào dàjiā de tuòqì.",
+  "english": "This kind of betraying a friend earns everyone's contempt."
+ },
+ {
+  "nid": 1393817670172,
+  "word": "空隙",
+  "sentence": "他把信悄悄塞进了门缝的空隙里。",
+  "pinyin": "Tā bǎ xìn qiāoqiāo sāi jìn le ménfèng de kòngxì lǐ.",
+  "english": "He quietly slipped the letter into the gap in the door."
+ },
+ {
+  "nid": 1393817670178,
+  "word": "别致",
+  "sentence": "这家小店的装修风格十分别致。",
+  "pinyin": "Zhè jiā xiǎo diàn de zhuāngxiū fēnggé shífēn biézhì.",
+  "english": "This little shop's decor is very unique."
+ },
+ {
+  "nid": 1393817670180,
+  "word": "伤脑筋",
+  "sentence": "孩子的教育问题让不少家长伤脑筋。",
+  "pinyin": "Háizi de jiàoyù wèntí ràng bùshǎo jiāzhǎng shāng nǎojīn.",
+  "english": "Children's education is a headache for many parents."
+ },
+ {
+  "nid": 1393817670186,
+  "word": "崇敬",
+  "sentence": "学生们对这位老教授充满崇敬之情。",
+  "pinyin": "Xuéshengmen duì zhè wèi lǎo jiàoshòu chōngmǎn chóngjìng zhī qíng.",
+  "english": "The students are filled with a sense of reverence for the old professor."
+ },
+ {
+  "nid": 1393817670190,
+  "word": "和气",
+  "sentence": "店主对每一位顾客都很和气。",
+  "pinyin": "Diànzhǔ duì měi yī wèi gùkè dōu hěn héqi.",
+  "english": "The shop owner is friendly and polite to every customer."
+ },
+ {
+  "nid": 1393817670193,
+  "word": "苦涩",
+  "sentence": "提起那段往事，他的脸上露出苦涩的笑容。",
+  "pinyin": "Tíqǐ nà duàn wǎngshì, tā de liǎn shàng lùchū kǔsè de xiàoróng.",
+  "english": "Bringing up that old story, a pained smile crossed his face."
+ },
+ {
+  "nid": 1393817670196,
+  "word": "点缀",
+  "sentence": "几朵鲜花点缀着简单的房间。",
+  "pinyin": "Jǐ duǒ xiānhuā diǎnzhui zhe jiǎndān de fángjiān.",
+  "english": "A few fresh flowers embellished the simple room."
+ },
+ {
+  "nid": 1393817670199,
+  "word": "暂且",
+  "sentence": "这件事暂且放一放，我们先解决更急的问题。",
+  "pinyin": "Zhè jiàn shì zànqiě fàng yī fàng, wǒmen xiān jiějué gèng jí de wèntí.",
+  "english": "Let's set this matter aside for now and deal with more urgent problems first."
+ },
+ {
+  "nid": 1393817670201,
+  "word": "冷落",
+  "sentence": "自从生了二胎，她总觉得大女儿被冷落了。",
+  "pinyin": "Zìcóng shēng le èr tāi, tā zǒng juéde dà nǚ'ér bèi lěngluò le.",
+  "english": "Ever since her second child was born, she always feels her older daughter has been neglected."
+ },
+ {
+  "nid": 1393817670204,
+  "word": "眼色",
+  "sentence": "她给同事使了个眼色，让他别再说下去。",
+  "pinyin": "Tā gěi tóngshì shǐ le gè yǎnsè, ràng tā bié zài shuō xiàqù.",
+  "english": "She gave her colleague a look, signaling him to stop talking."
+ },
+ {
+  "nid": 1393817670248,
+  "word": "埋没",
+  "sentence": "这么好的才华不该被埋没在这个小公司里。",
+  "pinyin": "Zhème hǎo de cáihuá bù gāi bèi máimò zài zhège xiǎo gōngsī lǐ.",
+  "english": "Such great talent shouldn't be buried away in this small company."
+ },
+ {
+  "nid": 1393817670262,
+  "word": "隐约",
+  "sentence": "远处隐约传来几声狗叫，让人有些不安。",
+  "pinyin": "Yuǎnchù yǐnyuē chuánlái jǐ shēng gǒu jiào, ràng rén yǒuxiē bù'ān.",
+  "english": "A few dog barks can be vaguely heard in the distance, making people feel a little uneasy."
+ },
+ {
+  "nid": 1393817670268,
+  "word": "油腻",
+  "sentence": "他最近胃口不好，不想吃太油腻的东西。",
+  "pinyin": "Tā zuìjìn wèikǒu bù hǎo, bù xiǎng chī tài yóunì de dōngxi.",
+  "english": "He hasn't had much appetite lately and doesn't want to eat anything too greasy."
+ },
+ {
+  "nid": 1393817670270,
+  "word": "姑且",
+  "sentence": "事情还没查清楚，我们姑且相信他说的话。",
+  "pinyin": "Shìqing hái méi chá qīngchu, wǒmen gūqiě xiāngxìn tā shuō de huà.",
+  "english": "The matter hasn't been clarified yet, but let's temporarily believe what he says."
+ },
+ {
+  "nid": 1393817670273,
+  "word": "变故",
+  "sentence": "家里突然发生变故，他不得不放弃留学计划。",
+  "pinyin": "Jiālǐ tūrán fāshēng biàngù, tā bùdébú fàngqì liúxué jìhuà.",
+  "english": "An unforeseen event suddenly happened at home, so he had no choice but to give up his study-abroad plan."
+ },
+ {
+  "nid": 1393817670276,
+  "word": "争气",
+  "sentence": "儿子终于考上大学，总算为家里争气了。",
+  "pinyin": "Érzi zhōngyú kǎoshàng dàxué, zǒngsuàn wèi jiālǐ zhēng qì le.",
+  "english": "The son finally got into university, finally living up to the family's hopes."
+ },
+ {
+  "nid": 1393817670308,
+  "word": "操劳",
+  "sentence": "母亲为了这个家操劳了大半辈子。",
+  "pinyin": "Mǔqin wèile zhège jiā cāoláo le dàbàn bèizi.",
+  "english": "Mother worked hard and took care of this family for most of her life."
+ },
+ {
+  "nid": 1393817670313,
+  "word": "舒畅",
+  "sentence": "周末去公园散步之后，他觉得心情格外舒畅。",
+  "pinyin": "Zhōumò qù gōngyuán sànbù zhīhòu, tā juéde xīnqíng géwài shūchàng.",
+  "english": "After taking a walk in the park over the weekend, he felt especially at ease."
+ },
+ {
+  "nid": 1393817670320,
+  "word": "吹捧",
+  "sentence": "有些媒体总是喜欢吹捧明星，很少提出批评。",
+  "pinyin": "Yǒuxiē méitǐ zǒngshì xǐhuan chuīpěng míngxīng, hěn shǎo tíchū pīpíng.",
+  "english": "Some media always like to flatter celebrities and rarely offer criticism."
+ },
+ {
+  "nid": 1393817670323,
+  "word": "不言而喻",
+  "sentence": "这次比赛谁的实力更强，结果不言而喻。",
+  "pinyin": "Zhè cì bǐsài shéi de shílì gèng qiáng, jiéguǒ bùyán'éryù.",
+  "english": "In this competition, whose skills are stronger is self-evident from the result."
+ },
+ {
+  "nid": 1393817670324,
+  "word": "诧异",
+  "sentence": "听到这个消息，大家都感到十分诧异。",
+  "pinyin": "Tīngdào zhège xiāoxi, dàjiā dōu gǎndào shífēn chàyì.",
+  "english": "Upon hearing this news, everyone was quite astonished."
+ },
+ {
+  "nid": 1393817670330,
+  "word": "啰唆",
+  "sentence": "他说话太啰唆，一件小事能讲半天。",
+  "pinyin": "Tā shuōhuà tài luōsuo, yī jiàn xiǎoshì néng jiǎng bàntiān.",
+  "english": "He talks so long-windedly that he can go on for ages about one small thing."
+ },
+ {
+  "nid": 1393817670335,
+  "word": "佳肴",
+  "sentence": "饭店为客人准备了各种佳肴。",
+  "pinyin": "Fàndiàn wèi kèrén zhǔnbèi le gèzhǒng jiāyáo.",
+  "english": "The restaurant prepared all kinds of delicacies for the guests."
+ },
+ {
+  "nid": 1393817670337,
+  "word": "魄力",
+  "sentence": "这位年轻的经理做事很有魄力。",
+  "pinyin": "Zhè wèi niánqīng de jīnglǐ zuòshì hěn yǒu pòlì.",
+  "english": "This young manager is very bold and decisive in his work."
+ },
+ {
+  "nid": 1393817670339,
+  "word": "鞭策",
+  "sentence": "老师的鼓励一直鞭策着他不断进步。",
+  "pinyin": "Lǎoshī de gǔlì yīzhí biāncè zhe tā bùduàn jìnbù.",
+  "english": "The teacher's encouragement has continuously spurred him on to keep improving."
+ },
+ {
+  "nid": 1393817670340,
+  "word": "索性",
+  "sentence": "雨越下越大，他索性留在朋友家过夜。",
+  "pinyin": "Yǔ yuè xià yuè dà, tā suǒxìng liú zài péngyou jiā guòyè.",
+  "english": "The rain kept getting heavier, so he simply stayed overnight at his friend's place."
+ },
+ {
+  "nid": 1393817670361,
+  "word": "旷课",
+  "sentence": "他因为旷课太多被老师叫去谈话。",
+  "pinyin": "Tā yīnwèi kuàng kè tài duō bèi lǎoshī jiào qù tánhuà.",
+  "english": "He was called in for a talk by the teacher because he skipped school too many times."
+ },
+ {
+  "nid": 1393817670366,
+  "word": "壮烈",
+  "sentence": "那位战士为了保护战友壮烈牺牲了。",
+  "pinyin": "Nà wèi zhànshì wèile bǎohù zhànyǒu zhuàngliè xīshēng le.",
+  "english": "That soldier died a heroic death protecting his comrade."
+ },
+ {
+  "nid": 1393817670384,
+  "word": "归根到底",
+  "sentence": "归根到底，成功还是要靠自己努力。",
+  "pinyin": "Guī gēn dào dǐ, chénggōng háishi yào kào zìjǐ nǔlì.",
+  "english": "In the end, success still depends on one's own effort."
+ },
+ {
+  "nid": 1393817670387,
+  "word": "喧哗",
+  "sentence": "图书馆里请大家保持安静，不要大声喧哗。",
+  "pinyin": "Túshūguǎn lǐ qǐng dàjiā bǎochí ānjìng, bú yào dàshēng xuānhuá.",
+  "english": "Please keep quiet in the library and don't make a loud commotion."
+ },
+ {
+  "nid": 1393817670391,
+  "word": "逆行",
+  "sentence": "那辆汽车在单行道上逆行，非常危险。",
+  "pinyin": "Nà liàng qìchē zài dānxíngdào shàng nìxíng, fēicháng wēixiǎn.",
+  "english": "That car was driving the wrong way on a one-way street, which was very dangerous."
+ },
+ {
+  "nid": 1393817670405,
+  "word": "谢绝",
+  "sentence": "由于身体原因，他谢绝了所有的采访邀请。",
+  "pinyin": "Yóuyú shēntǐ yuányīn, tā xièjué le suǒyǒu de cǎifǎng yāoqǐng.",
+  "english": "Due to health reasons, he politely declined all interview requests."
+ },
+ {
+  "nid": 1393817670406,
+  "word": "自满",
+  "sentence": "取得一点成绩就自满，很容易停止进步。",
+  "pinyin": "Qǔdé yīdiǎn chéngjì jiù zìmǎn, hěn róngyì tíngzhǐ jìnbù.",
+  "english": "Getting complacent after a little achievement can easily stop your progress."
+ },
+ {
+  "nid": 1393817670415,
+  "word": "衣裳",
+  "sentence": "妈妈把洗好的衣裳晾在阳台上。",
+  "pinyin": "Māma bǎ xǐ hǎo de yīshang liàng zài yángtái shàng.",
+  "english": "Mom hung the washed clothes out to dry on the balcony."
+ },
+ {
+  "nid": 1393817670445,
+  "word": "爱不释手",
+  "sentence": "这本小说太精彩了，他读得爱不释手。",
+  "pinyin": "Zhè běn xiǎoshuō tài jīngcǎi le, tā dú de ài bù shì shǒu.",
+  "english": "This novel is so wonderful that he can't put it down."
+ },
+ {
+  "nid": 1393817670447,
+  "word": "怠慢",
+  "sentence": "客人来了，主人赶紧上前招待，生怕怠慢了他们。",
+  "pinyin": "Kèrén lái le, zhǔrén gǎnjǐn shàngqián zhāodài, shēngpà dàimàn le tāmen.",
+  "english": "When the guests arrived, the host hurried over to welcome them, afraid of neglecting them."
+ },
+ {
+  "nid": 1393817670448,
+  "word": "志气",
+  "sentence": "一个人要有志气，才能不断克服困难。",
+  "pinyin": "Yī gè rén yào yǒu zhìqi, cái néng bùduàn kèfú kùnnan.",
+  "english": "A person needs to have ambition in order to keep overcoming difficulties."
+ },
+ {
+  "nid": 1393817670451,
+  "word": "兢兢业业",
+  "sentence": "他在工作岗位上兢兢业业干了三十年。",
+  "pinyin": "Tā zài gōngzuò gǎngwèi shàng jīngjīng yèyè gàn le sānshí nián.",
+  "english": "He worked diligently and conscientiously at his post for thirty years."
+ },
+ {
+  "nid": 1393817670456,
+  "word": "称心如意",
+  "sentence": "这份新工作让他感到十分称心如意。",
+  "pinyin": "Zhè fèn xīn gōngzuò ràng tā gǎndào shífēn chènxīnrúyì.",
+  "english": "This new job makes him feel very satisfied, just as he wished."
+ },
+ {
+  "nid": 1393817670458,
+  "word": "磨合",
+  "sentence": "两人结婚以后，还需要一段时间互相磨合。",
+  "pinyin": "Liǎng rén jiéhūn yǐhòu, hái xūyào yī duàn shíjiān hùxiāng móhé.",
+  "english": "After getting married, the two of them still need time to adapt to each other."
+ },
+ {
+  "nid": 1393817670486,
+  "word": "急功近利",
+  "sentence": "做学问不能急功近利，要脚踏实地。",
+  "pinyin": "Zuò xuéwèn bùnéng jígōngjìnlì, yào jiǎotàshídì.",
+  "english": "In scholarship you can't be eager for quick success and instant benefit; you must be down-to-earth."
+ },
+ {
+  "nid": 1393817670489,
+  "word": "就近",
+  "sentence": "孩子应该就近入学，方便家长接送。",
+  "pinyin": "Háizi yīnggāi jiùjìn rùxué, fāngbiàn jiāzhǎng jiēsòng.",
+  "english": "Children should attend school nearby, so it's convenient for parents to pick them up and drop them off."
+ },
+ {
+  "nid": 1393817670494,
+  "word": "吃苦",
+  "sentence": "年轻的时候多吃苦，将来才会更有出息。",
+  "pinyin": "Niánqīng de shíhou duō chī kǔ, jiānglái cái huì gèng yǒu chūxi.",
+  "english": "Enduring more hardship when young will lead to a more promising future."
+ },
+ {
+  "nid": 1393817670508,
+  "word": "服气",
+  "sentence": "他虽然输了比赛，但心里并不服气。",
+  "pinyin": "Tā suīrán shū le bǐsài, dàn xīnli bìng bù fúqì.",
+  "english": "Although he lost the match, he wasn't really convinced deep down."
+ },
+ {
+  "nid": 1393817670522,
+  "word": "娇气",
+  "sentence": "这孩子从小娇气，一点小伤就哭个不停。",
+  "pinyin": "Zhè háizi cóngxiǎo jiāoqì, yīdiǎn xiǎo shāng jiù kū gè bùtíng.",
+  "english": "This child has been delicate since childhood, crying nonstop over even a small scrape."
+ },
+ {
+  "nid": 1393817670524,
+  "word": "后顾之忧",
+  "sentence": "公司提供住房，让员工没有后顾之忧。",
+  "pinyin": "Gōngsī tígōng zhùfáng, ràng yuángōng méiyǒu hòugùzhīyōu.",
+  "english": "The company provides housing so that employees have no worries weighing on them."
+ },
+ {
+  "nid": 1393817670528,
+  "word": "不由得",
+  "sentence": "看到这张老照片，她不由得流下了眼泪。",
+  "pinyin": "Kàndào zhè zhāng lǎo zhàopiàn, tā bùyóude liú xià le yǎnlèi.",
+  "english": "Seeing this old photograph, she couldn't help but shed tears."
+ },
+ {
+  "nid": 1393817670529,
+  "word": "不敢当",
+  "sentence": "您这样夸奖我，真是不敢当。",
+  "pinyin": "Nín zhèyàng kuājiǎng wǒ, zhēnshi bù gǎndāng.",
+  "english": "You praise me so much, I really don't deserve it."
+ },
+ {
+  "nid": 1393817670546,
+  "word": "得不偿失",
+  "sentence": "为了赶时间闯红灯，万一出事就得不偿失了。",
+  "pinyin": "Wèile gǎn shíjiān chuǎng hóngdēng, wànyī chūshì jiù débùchángshī le.",
+  "english": "Running a red light to save time isn't worth it if something goes wrong — the loss would outweigh the gain."
+ },
+ {
+  "nid": 1393817670548,
+  "word": "刻不容缓",
+  "sentence": "环境污染问题刻不容缓，必须马上解决。",
+  "pinyin": "Huánjìng wūrǎn wèntí kèbùrónghuǎn, bìxū mǎshàng jiějué.",
+  "english": "The problem of environmental pollution demands immediate action and must be solved right away."
+ },
+ {
+  "nid": 1393817670565,
+  "word": "锲而不舍",
+  "sentence": "他锲而不舍地练习了十年，终于成为钢琴家。",
+  "pinyin": "Tā qiè'érbùshě de liànxí le shí nián, zhōngyú chéngwéi gāngqínjiā.",
+  "english": "He practiced with unrelenting perseverance for ten years and finally became a pianist."
+ },
+ {
+  "nid": 1393817670571,
+  "word": "毅然",
+  "sentence": "面对危险，他毅然冲进火场救人。",
+  "pinyin": "Miànduì wēixiǎn, tā yìrán chōngjìn huǒchǎng jiù rén.",
+  "english": "Facing the danger, he resolutely rushed into the fire to save people."
+ },
+ {
+  "nid": 1393817670572,
+  "word": "正气",
+  "sentence": "社会需要弘扬正气，抵制不良风气。",
+  "pinyin": "Shèhuì xūyào hóngyáng zhèngqì, dǐzhì bùliáng fēngqì.",
+  "english": "Society needs to promote a healthy, upright atmosphere and resist bad trends."
+ },
+ {
+  "nid": 1393817670600,
+  "word": "混浊",
+  "sentence": "这条河的水又混浊又难闻。",
+  "pinyin": "Zhè tiáo hé de shuǐ yòu hùnzhuó yòu nánwén.",
+  "english": "The water in this river is both turbid and foul-smelling."
+ },
+ {
+  "nid": 1393817670636,
+  "word": "恳切",
+  "sentence": "老师用恳切的语气劝他不要放弃。",
+  "pinyin": "Lǎoshī yòng kěnqiè de yǔqì quàn tā bú yào fàngqì.",
+  "english": "The teacher earnestly urged him in a sincere tone not to give up."
+ },
+ {
+  "nid": 1393817670637,
+  "word": "得天独厚",
+  "sentence": "这座城市气候宜人，条件得天独厚。",
+  "pinyin": "Zhè zuò chéngshì qìhòu yírén, tiáojiàn détiāndúhòu.",
+  "english": "This city has a pleasant climate and exceptionally favorable natural conditions."
+ },
+ {
+  "nid": 1393817670648,
+  "word": "将就",
+  "sentence": "房子条件不太好，我们先将就住几天吧。",
+  "pinyin": "Fángzi tiáojiàn bú tài hǎo, wǒmen xiān jiāngjiu zhù jǐ tiān ba.",
+  "english": "The place isn't in great condition, but let's just put up with it and stay a few days."
+ },
+ {
+  "nid": 1449636990679,
+  "word": "宗",
+  "sentence": "他常常提醒孩子们不要忘记自己的祖宗。",
+  "pinyin": "Tā chángcháng tíxǐng háizimen bú yào wàngjì zìjǐ de zǔzōng.",
+  "english": "He often reminds the children not to forget their ancestors."
+ },
+ {
+  "nid": 1449636990941,
+  "word": "谋",
+  "sentence": "警方及时识破了他们的犯罪阴谋。",
+  "pinyin": "Jǐngfāng jíshí shípò le tāmen de fànzuì yīnmóu.",
+  "english": "The police uncovered their criminal conspiracy in time."
+ },
+ {
+  "nid": 1449636990969,
+  "word": "坦",
+  "sentence": "他向警察坦白了事情的全部经过。",
+  "pinyin": "Tā xiàng jǐngchá tǎnbái le shìqing de quánbù jīngguò.",
+  "english": "He confessed the whole story honestly to the police."
+ },
+ {
+  "nid": 1449636991038,
+  "word": "侵",
+  "sentence": "未经允许使用别人的照片属于侵犯版权。",
+  "pinyin": "Wèijīng yǔnxǔ shǐyòng biéren de zhàopiàn shǔyú qīnfàn bǎnquán.",
+  "english": "Using someone else's photo without permission counts as copyright infringement."
+ },
+ {
+  "nid": 1449636991108,
+  "word": "宇",
+  "sentence": "科学家一直在探索宇宙的奥秘。",
+  "pinyin": "Kēxuéjiā yīzhí zài tànsuǒ yǔzhòu de àomì.",
+  "english": "Scientists have been exploring the mysteries of the universe."
+ },
+ {
+  "nid": 1449636991112,
+  "word": "毁",
+  "sentence": "一场大火把整栋房子都毁了。",
+  "pinyin": "Yī chǎng dàhuǒ bǎ zhěng dòng fángzi dōu huǐ le.",
+  "english": "A big fire destroyed the entire house."
+ },
+ {
+  "nid": 1449636991165,
+  "word": "袭",
+  "sentence": "敌军趁着夜色偷偷袭击了村庄。",
+  "pinyin": "Díjūn chènzhe yèsè tōutōu xíjī le cūnzhuāng.",
+  "english": "Under cover of darkness, the enemy troops secretly raided the village."
+ },
+ {
+  "nid": 1449636991197,
+  "word": "役",
+  "sentence": "他高中毕业以后就去部队服役了。",
+  "pinyin": "Tā gāozhōng bìyè yǐhòu jiù qù bùduì fúyì le.",
+  "english": "After graduating from high school, he went to serve in the military."
+ },
+ {
+  "nid": 1449636991226,
+  "word": "缘",
+  "sentence": "两人能在国外相遇，也算是一种缘分。",
+  "pinyin": "Liǎng rén néng zài guówài xiāngyù, yě suànshì yī zhǒng yuánfèn.",
+  "english": "The two of them meeting abroad can also be considered a kind of fate."
+ },
+ {
+  "nid": 1449636991269,
+  "word": "裂",
+  "sentence": "天气太干燥，他的嘴唇都裂开了。",
+  "pinyin": "Tiānqì tài gānzào, tā de zuǐchún dōu lièkāi le.",
+  "english": "The weather is so dry that his lips have cracked."
+ },
+ {
+  "nid": 1449636991300,
+  "word": "魂",
+  "sentence": "音乐是这部电影真正的灵魂。",
+  "pinyin": "Yīnyuè shì zhè bù diànyǐng zhēnzhèng de línghún.",
+  "english": "The music is the true soul of this film."
+ },
+ {
+  "nid": 1449636991315,
+  "word": "邦",
+  "sentence": "两国是关系友好的邻邦。",
+  "pinyin": "Liǎng guó shì guānxi yǒuhǎo de línbāng.",
+  "english": "The two countries are friendly neighboring nations."
+ },
+ {
+  "nid": 1449636991331,
+  "word": "署",
+  "sentence": "公司已经部署好了新的销售计划。",
+  "pinyin": "Gōngsī yǐjīng bùshǔ hǎo le xīn de xiāoshòu jìhuà.",
+  "english": "The company has already worked out and deployed its new sales plan."
+ },
+ {
+  "nid": 1449636991436,
+  "word": "宪",
+  "sentence": "每个国家都有自己的宪法。",
+  "pinyin": "Měi gè guójiā dōu yǒu zìjǐ de xiànfǎ.",
+  "english": "Every country has its own constitution."
+ },
+ {
+  "nid": 1449636991448,
+  "word": "箭",
+  "sentence": "运动员拉满弓，一箭射中了靶心。",
+  "pinyin": "Yùndòngyuán lā mǎn gōng, yī jiàn shèzhòng le bǎxīn.",
+  "english": "The athlete drew the bow fully and shot an arrow straight into the bullseye."
+ },
+ {
+  "nid": 1449637009428,
+  "word": "邪",
+  "sentence": "电影里的反派角色充满邪恶的念头。",
+  "pinyin": "Diànyǐng lǐ de fǎnpài juésè chōngmǎn xié'è de niàntou.",
+  "english": "The villain in the movie is full of evil thoughts."
+ },
+ {
+  "nid": 1449637009486,
+  "word": "狱",
+  "sentence": "那名罪犯在监狱里度过了十年。",
+  "pinyin": "Nà míng zuìfàn zài jiānyù lǐ dùguò le shí nián.",
+  "english": "That criminal spent ten years in prison."
+ },
+ {
+  "nid": 1449637009555,
+  "word": "揭",
+  "sentence": "记者最终揭露了这起腐败案件的真相。",
+  "pinyin": "Jìzhě zuìzhōng jiēlù le zhè qǐ fǔbài ànjiàn de zhēnxiàng.",
+  "english": "The reporter ultimately exposed the truth behind this corruption case."
+ },
+ {
+  "nid": 1449637009960,
+  "word": "歧",
+  "sentence": "两位专家在这个问题上出现了严重分歧。",
+  "pinyin": "Liǎng wèi zhuānjiā zài zhège wèntí shàng chūxiàn le yánzhòng fēnqí.",
+  "english": "The two experts developed serious disagreements on this issue."
+ },
+ {
+  "nid": 1449637010027,
+  "word": "吁",
+  "sentence": "他最近工作不顺利，整天长吁短叹。",
+  "pinyin": "Tā zuìjìn gōngzuò bú shùnlì, zhěngtiān chángxūduǎntàn.",
+  "english": "His work hasn't been going well lately, and he sighs all day long."
+ },
+ {
+  "nid": 1449637010055,
+  "word": "摧",
+  "sentence": "地震瞬间摧毁了整座城市。",
+  "pinyin": "Dìzhèn shùnjiān cuīhuǐ le zhěng zuò chéngshì.",
+  "english": "The earthquake destroyed the entire city in an instant."
+ },
+ {
+  "nid": 1449637010060,
+  "word": "屠",
+  "sentence": "历史书详细记录了这场惨烈的屠杀。",
+  "pinyin": "Lìshǐ shū xiángxì jìlù le zhè chǎng cǎnliè de túshā.",
+  "english": "The history book records this brutal massacre in detail."
+ },
+ {
+  "nid": 1449637010084,
+  "word": "蠢",
+  "sentence": "明知道有危险还硬闯，实在太愚蠢了。",
+  "pinyin": "Míngzhīdào yǒu wēixiǎn hái yìng chuǎng, shízài tài yúchǔn le.",
+  "english": "Knowingly rushing into danger like that is really stupid."
+ },
+ {
+  "nid": 1449637010105,
+  "word": "逮",
+  "sentence": "警察当场把小偷逮捕了。",
+  "pinyin": "Jǐngchá dāngchǎng bǎ xiǎotōu dàibǔ le.",
+  "english": "The police arrested the thief on the spot."
+ },
+ {
+  "nid": 1449637010310,
+  "word": "绑",
+  "sentence": "歹徒把人质绑在椅子上不让他动。",
+  "pinyin": "Dǎitú bǎ rénzhì bǎng zài yǐzi shàng bú ràng tā dòng.",
+  "english": "The kidnapper tied the hostage to a chair so he couldn't move."
+ },
+ {
+  "nid": 1449637010332,
+  "word": "祈",
+  "sentence": "每天晚上她都会为家人祈祷。",
+  "pinyin": "Měitiān wǎnshang tā dōu huì wèi jiārén qídǎo.",
+  "english": "Every night she prays for her family."
+ },
+ {
+  "nid": 1449637010372,
+  "word": "祷",
+  "sentence": "他们在教堂里安静地祷告。",
+  "pinyin": "Tāmen zài jiàotáng lǐ ānjìng de dǎogào.",
+  "english": "They quietly prayed inside the church."
+ },
+ {
+  "nid": 1449637010525,
+  "word": "屿",
+  "sentence": "这片海域分布着大大小小的岛屿。",
+  "pinyin": "Zhè piàn hǎiyù fēnbù zhe dàdàxiǎoxiǎo de dǎoyǔ.",
+  "english": "This sea area is dotted with islands of various sizes."
+ },
+ {
+  "nid": 1532463239784,
+  "word": "嫌弃",
+  "sentence": "无论我变成什么样子，父母都不会嫌弃我。",
+  "pinyin": "Wúlùn wǒ biànchéng shénme yàngzi, fùmǔ dōu bú huì xián qì wǒ.",
+  "english": "No matter what I become, my parents will never dislike or reject me."
+ },
+ {
+  "nid": 1533134376753,
+  "word": "久仰",
+  "sentence": "久仰您的大名，今天终于见面了。",
+  "pinyin": "Jiǔ yǎng nín de dàmíng, jīntiān zhōngyú jiànmiàn le.",
+  "english": "I've long admired your reputation, and today we finally meet."
+ },
+ {
+  "nid": 1537328241237,
+  "word": "掉头",
+  "sentence": "前面是死胡同，司机只好掉头往回开。",
+  "pinyin": "Qiánmiàn shì sǐhútòng, sījī zhǐhǎo diào tóu wǎng huí kāi.",
+  "english": "The road ahead was a dead end, so the driver had to make a U-turn and go back."
+ },
+ {
+  "nid": 1537328242319,
+  "word": "空想",
+  "sentence": "与其整天空想，不如动手去做。",
+  "pinyin": "Yǔqí zhěngtiān kōng xiǎng, bùrú dòngshǒu qù zuò.",
+  "english": "Rather than daydreaming all day, it's better to actually get started."
+ },
+ {
+  "nid": 1537328242494,
+  "word": "屁",
+  "sentence": "他一屁股坐在地上笑个不停。",
+  "pinyin": "Tā yī pìgu zuò zài dìshang xiào gè bùtíng.",
+  "english": "He plopped right down on the ground, laughing nonstop."
+ },
+ {
+  "nid": 1537328243153,
+  "word": "废",
+  "sentence": "这辆车出了严重事故，已经报废了。",
+  "pinyin": "Zhè liàng chē chū le yánzhòng shìgù, yǐjīng bàofèi le.",
+  "english": "This car was in a serious accident and has already been written off."
+ },
+ {
+  "nid": 1537328243837,
+  "word": "费力",
+  "sentence": "这个箱子很重，搬起来非常费力。",
+  "pinyin": "Zhège xiāngzi hěn zhòng, bān qǐlai fēicháng fèi lì.",
+  "english": "This box is very heavy, so it's really strenuous to carry."
+ },
+ {
+  "nid": 1537328243845,
+  "word": "隶",
+  "sentence": "在古代社会，奴隶没有任何自由。",
+  "pinyin": "Zài gǔdài shèhuì, núlì méiyǒu rènhé zìyóu.",
+  "english": "In ancient society, slaves had no freedom at all."
+ },
+ {
+  "nid": 1537328244062,
+  "word": "懂事",
+  "sentence": "这孩子从小就很懂事，从不让父母操心。",
+  "pinyin": "Zhè háizi cóngxiǎo jiù hěn dǒng shì, cóng bú ràng fùmǔ cāoxīn.",
+  "english": "This child has been sensible since young and never makes his parents worry."
+ },
+ {
+  "nid": 1537328244206,
+  "word": "打赌",
+  "sentence": "他跟朋友打赌，今天下午一定会下雨。",
+  "pinyin": "Tā gēn péngyou dǎdǔ, jīntiān xiàwǔ yīdìng huì xiàyǔ.",
+  "english": "He bet his friend that it would definitely rain this afternoon."
+ },
+ {
+  "nid": 1537328245462,
+  "word": "反问",
+  "sentence": "我问他为什么不去，他反问我凭什么要去。",
+  "pinyin": "Wǒ wèn tā wèishénme bú qù, tā fǎnwèn wǒ píng shénme yào qù.",
+  "english": "I asked him why he wasn't going, and he shot back asking why he should go."
+ },
+ {
+  "nid": 1537328245599,
+  "word": "痴呆",
+  "sentence": "医生说奶奶得了痴呆，记性越来越差。",
+  "pinyin": "Yīshēng shuō nǎinai dé le chīdāi, jìxìng yuèláiyuè chà.",
+  "english": "The doctor said grandma has dementia and her memory is getting worse and worse."
+ },
+ {
+  "nid": 1537328245621,
+  "word": "举重",
+  "sentence": "他每天下午都去健身房举重。",
+  "pinyin": "Tā měitiān xiàwǔ dōu qù jiànshēnfáng jǔzhòng.",
+  "english": "Every afternoon he goes to the gym to lift weights."
+ },
+ {
+  "nid": 1537328245897,
+  "word": "盟",
+  "sentence": "两国为了对抗共同的敌人，决定结盟。",
+  "pinyin": "Liǎng guó wèile duìkàng gòngtóng de dírén, juédìng jiéméng.",
+  "english": "The two countries decided to form an alliance to fight their common enemy."
+ },
+ {
+  "nid": 1537328245967,
+  "word": "顺手",
+  "sentence": "这次谈判进行得很顺手，我们很快达成了协议。",
+  "pinyin": "Zhè cì tánpàn jìnxíng de hěn shùnshǒu, wǒmen hěn kuài dáchéng le xiéyì.",
+  "english": "The negotiation went smoothly this time, and we quickly reached an agreement."
+ },
+ {
+  "nid": 1537328245985,
+  "word": "爱惜",
+  "sentence": "他从小家境贫穷，所以特别爱惜粮食。",
+  "pinyin": "Tā cóngxiǎo jiājìng pínqióng, suǒyǐ tèbié àixī liángshi.",
+  "english": "He grew up poor, so he is especially careful not to waste food."
+ },
+ {
+  "nid": 1537328246087,
+  "word": "察看",
+  "sentence": "消防员进入大楼仔细察看火情。",
+  "pinyin": "Xiāofángyuán jìnrù dàlóu zǐxì chákàn huǒqíng.",
+  "english": "The firefighter went into the building to carefully inspect the fire."
+ },
+ {
+  "nid": 1537328246131,
+  "word": "考查",
+  "sentence": "这次口试主要考查学生的口语能力。",
+  "pinyin": "Zhè cì kǒushì zhǔyào kǎochá xuésheng de kǒuyǔ nénglì.",
+  "english": "This oral exam mainly tests students' spoken language ability."
+ },
+ {
+  "nid": 1537328246438,
+  "word": "破例",
+  "sentence": "校长破例批准了他的休学申请。",
+  "pinyin": "Xiàozhǎng pòlì pīzhǔn le tā de xiūxué shēnqǐng.",
+  "english": "The principal made an exception and approved his request for a leave of absence."
+ },
+ {
+  "nid": 1537328246721,
+  "word": "口香糖",
+  "sentence": "老师不允许学生上课的时候嚼口香糖。",
+  "pinyin": "Lǎoshī bù yǔnxǔ xuésheng shàngkè de shíhou jiáo kǒuxiāngtáng.",
+  "english": "Teachers don't allow students to chew gum during class."
+ },
+ {
+  "nid": 1537328246782,
+  "word": "留神",
+  "sentence": "路上车多，你骑车的时候一定要留神。",
+  "pinyin": "Lùshang chē duō, nǐ qíchē de shíhou yīdìng yào liúshén.",
+  "english": "There's a lot of traffic on the road, so you must be careful when riding your bike."
+ },
+ {
+  "nid": 1537328246876,
+  "word": "划不来",
+  "sentence": "为了省几块钱跑这么远，实在划不来。",
+  "pinyin": "Wèile shěng jǐ kuài qián pǎo zhème yuǎn, shízài huábulái.",
+  "english": "Running so far just to save a few dollars really isn't worth it."
+ },
+ {
+  "nid": 1537328246946,
+  "word": "心酸",
+  "sentence": "看到老人独自吃饭，她心里感到一阵心酸。",
+  "pinyin": "Kàndào lǎorén dúzì chīfàn, tā xīnli gǎndào yī zhèn xīnsuān.",
+  "english": "Seeing the elderly person eating alone, she felt a pang of sadness."
+ },
+ {
+  "nid": 1537328246984,
+  "word": "奴",
+  "sentence": "那位历史学家专门研究古代的奴隶制度。",
+  "pinyin": "Nà wèi lìshǐ xuéjiā zhuānmén yánjiū gǔdài de núlì zhìdù.",
+  "english": "That historian specializes in studying the slavery system of ancient times."
+ },
+ {
+  "nid": 1537328247038,
+  "word": "搞鬼",
+  "sentence": "文件突然不见了，肯定是有人在背后搞鬼。",
+  "pinyin": "Wénjiàn tūrán bú jiàn le, kěndìng shì yǒurén zài bèihòu gǎoguǐ.",
+  "english": "The documents suddenly disappeared; someone must be playing tricks behind the scenes."
+ },
+ {
+  "nid": 1537328247142,
+  "word": "稳重",
+  "sentence": "他虽然年轻，但做事非常稳重可靠。",
+  "pinyin": "Tā suīrán niánqīng, dàn zuòshì fēicháng wěnzhòng kěkào.",
+  "english": "Although he's young, he handles things very steadily and reliably."
+ },
+ {
+  "nid": 1537328247276,
+  "word": "凑合",
+  "sentence": "旅馆都订满了，我们只能在车里凑合一晚。",
+  "pinyin": "Lǚguǎn dōu dìngmǎn le, wǒmen zhǐnéng zài chēli còuhe yī wǎn.",
+  "english": "The hotels were all fully booked, so we had to make do sleeping in the car for one night."
+ },
+ {
+  "nid": 1537328247277,
+  "word": "凑巧",
+  "sentence": "我正想找他，凑巧他就打电话来了。",
+  "pinyin": "Wǒ zhèng xiǎng zhǎo tā, còuqiǎo tā jiù dǎ diànhuà lái le.",
+  "english": "I was just about to look for him, and as luck would have it, he called me."
+ },
+ {
+  "nid": 1537328247278,
+  "word": "碰巧",
+  "sentence": "我去超市买东西，碰巧遇见了老同学。",
+  "pinyin": "Wǒ qù chāoshì mǎi dōngxi, pèngqiǎo yùjiàn le lǎo tóngxué.",
+  "english": "I went to the supermarket to buy things and happened to run into an old classmate."
+ },
+ {
+  "nid": 1537328247437,
+  "word": "推辞",
+  "sentence": "朋友请他喝酒，他找了个借口推辞了。",
+  "pinyin": "Péngyou qǐng tā hē jiǔ, tā zhǎo le gè jièkǒu tuīcí le.",
+  "english": "A friend invited him for drinks, but he made up an excuse and declined."
+ },
+ {
+  "nid": 1537328247528,
+  "word": "丝",
+  "sentence": "听到这个消息，她脸上露出一丝笑意。",
+  "pinyin": "Tīngdào zhège xiāoxi, tā liǎnshang lùchū yī sī xiàoyì.",
+  "english": "Hearing this news, a hint of a smile appeared on her face."
+ },
+ {
+  "nid": 1537328247543,
+  "word": "抽签",
+  "sentence": "比赛的出场顺序由各队抽签决定。",
+  "pinyin": "Bǐsài de chūchǎng shùnxù yóu gè duì chōuqiān juédìng.",
+  "english": "The order of appearance in the competition is decided by each team drawing lots."
+ },
+ {
+  "nid": 1537328247720,
+  "word": "汇合",
+  "sentence": "两支队伍将在山顶汇合，然后一起下山。",
+  "pinyin": "Liǎng zhī duìwu jiāng zài shāndǐng huìhé, ránhòu yīqǐ xiàshān.",
+  "english": "The two teams will converge at the mountain summit and then descend together."
+ },
+ {
+  "nid": 1537328247842,
+  "word": "失态",
+  "sentence": "他在婚礼上喝多了酒，当众失态。",
+  "pinyin": "Tā zài hūnlǐ shang hē duō le jiǔ, dāngzhòng shītài.",
+  "english": "He drank too much at the wedding and made a fool of himself in front of everyone."
+ },
+ {
+  "nid": 1537328248151,
+  "word": "阅览",
+  "sentence": "学生们安静地坐在阅览室里看书。",
+  "pinyin": "Xuéshengmen ānjìng de zuò zài yuèlǎnshì li kànshū.",
+  "english": "The students sit quietly in the reading room reading books."
+ },
+ {
+  "nid": 1611220135574,
+  "word": "孤陋寡闻",
+  "sentence": "他很少读书看报，知识面很窄，显得孤陋寡闻。",
+  "pinyin": "Tā hěn shǎo dúshū kànbào, zhīshi miàn hěn zhǎi, xiǎnde gū lòu guǎ wén.",
+  "english": "He rarely reads books or newspapers, so his knowledge is narrow and he comes across as ill-informed."
+ },
+ {
+  "nid": 1656144348680,
+  "word": "柿子",
+  "sentence": "秋天到了，树上的柿子都变红了。",
+  "pinyin": "Qiūtiān dào le, shùshang de shìzi dōu biàn hóng le.",
+  "english": "Autumn has arrived, and the persimmons on the tree have all turned red."
+ },
+ {
+  "nid": 1708190012093,
+  "word": "曝",
+  "sentence": "别把塑料椅子长时间放在太阳下曝晒。",
+  "pinyin": "Bié bǎ sùliào yǐzi cháng shíjiān fàng zài tàiyáng xià pùshài.",
+  "english": "Don't leave plastic chairs out in the sun for a long time."
+ },
+ {
+  "nid": 1708747485685,
+  "word": "大陆",
+  "sentence": "很多台湾人常去大陆做生意。",
+  "pinyin": "Hěn duō Táiwān rén cháng qù Dàlù zuò shēngyi.",
+  "english": "Many Taiwanese people often go to mainland China to do business."
+ },
+ {
+  "nid": 1708747486010,
+  "word": "威慑",
+  "sentence": "这次军事演习是为了威慑潜在的对手。",
+  "pinyin": "Zhè cì jūnshì yǎnxí shì wèile wēishè qiánzài de duìshǒu.",
+  "english": "This military exercise is meant to deter potential adversaries."
+ },
+ {
+  "nid": 1708747486318,
+  "word": "仰望",
+  "sentence": "孩子们仰望夜空，数着满天的星星。",
+  "pinyin": "Háizimen yǎngwàng yèkōng, shǔzhe mǎntiān de xīngxing.",
+  "english": "The children look up at the night sky, counting the stars that fill it."
+ },
+ {
+  "nid": 1708747486831,
+  "word": "身躯",
+  "sentence": "那位老兵拖着受伤的身躯艰难地站了起来。",
+  "pinyin": "Nà wèi lǎobīng tuōzhe shòushāng de shēnqū jiānnán de zhàn le qǐlai.",
+  "english": "The old veteran struggled to stand up, dragging his wounded body."
+ },
+ {
+  "nid": 1708747487597,
+  "word": "靶子",
+  "sentence": "士兵们轮流朝远处的靶子射击。",
+  "pinyin": "Shìbīngmen lúnliú cháo yuǎnchù de bǎzi shèjī.",
+  "english": "The soldiers took turns shooting at the target in the distance."
+ },
+ {
+  "nid": 1708747487947,
+  "word": "超前",
+  "sentence": "她的设计理念在当时非常超前。",
+  "pinyin": "Tā de shèjì lǐniàn zài dāngshí fēicháng chāoqián.",
+  "english": "Her design concept was very ahead of its time."
+ },
+ {
+  "nid": 1708747488018,
+  "word": "基本功",
+  "sentence": "学钢琴一定要先打好基本功。",
+  "pinyin": "Xué gāngqín yīdìng yào xiān dǎhǎo jīběngōng.",
+  "english": "To learn piano, you must first build a solid foundation in the basics."
+ },
+ {
+  "nid": 1708747488140,
+  "word": "树干",
+  "sentence": "那棵老树的树干上刻着两个人的名字。",
+  "pinyin": "Nà kē lǎoshù de shùgàn shang kèzhe liǎng gè rén de míngzi.",
+  "english": "On the trunk of that old tree, two people's names are carved."
+ },
+ {
+  "nid": 1708747488435,
+  "word": "特制",
+  "sentence": "这家餐厅的特制酱料是老板自己研发的。",
+  "pinyin": "Zhè jiā cāntīng de tèzhì jiàngliào shì lǎobǎn zìjǐ yánfā de.",
+  "english": "This restaurant's special sauce was developed by the owner himself."
+ },
+ {
+  "nid": 1708747488785,
+  "word": "不以为然",
+  "sentence": "面对同事的批评，他一直不以为然。",
+  "pinyin": "Miànduì tóngshì de pīpíng, tā yīzhí bù yǐ wéi rán.",
+  "english": "Facing his colleagues' criticism, he remained dismissive the whole time."
+ },
+ {
+  "nid": 1708747488881,
+  "word": "取材",
+  "sentence": "这部电影取材于一个真实的历史事件。",
+  "pinyin": "Zhè bù diànyǐng qǔcái yú yī gè zhēnshí de lìshǐ shìjiàn.",
+  "english": "This movie draws its material from a real historical event."
+ },
+ {
+  "nid": 1708747488899,
+  "word": "国民",
+  "sentence": "政府有责任保障每一位国民的基本权利。",
+  "pinyin": "Zhèngfǔ yǒu zérèn bǎozhàng měi yī wèi guómín de jīběn quánlì.",
+  "english": "The government has a responsibility to protect the basic rights of every citizen."
+ },
+ {
+  "nid": 1708747488961,
+  "word": "低谷",
+  "sentence": "那几年他的事业正处于低谷。",
+  "pinyin": "Nà jǐ nián tā de shìyè zhèng chǔyú dīgǔ.",
+  "english": "During those years, his career was at a low point."
+ },
+ {
+  "nid": 1708747489083,
+  "word": "流淌",
+  "sentence": "一条小河在村子旁边静静地流淌。",
+  "pinyin": "Yī tiáo xiǎohé zài cūnzi pángbiān jìngjìng de liútǎng.",
+  "english": "A small river flows quietly beside the village."
+ },
+ {
+  "nid": 1708747489353,
+  "word": "刺眼",
+  "sentence": "中午的阳光太刺眼，她戴上了墨镜。",
+  "pinyin": "Zhōngwǔ de yángguāng tài cìyǎn, tā dàishàng le mòjìng.",
+  "english": "The midday sun was so harsh that she put on sunglasses."
+ },
+ {
+  "nid": 1708747489687,
+  "word": "干部",
+  "sentence": "他退休前是政府里的一名干部。",
+  "pinyin": "Tā tuìxiū qián shì zhèngfǔ li de yī míng gànbù.",
+  "english": "Before he retired, he was a government official."
+ },
+ {
+  "nid": 1708747489694,
+  "word": "碍事",
+  "sentence": "医生说这点小伤不碍事，很快就能好。",
+  "pinyin": "Yīshēng shuō zhè diǎn xiǎoshāng bú àishì, hěn kuài jiù néng hǎo.",
+  "english": "The doctor said this minor injury doesn't matter and will heal soon."
+ },
+ {
+  "nid": 1708747490209,
+  "word": "断然",
+  "sentence": "面对不合理的要求，经理断然拒绝了。",
+  "pinyin": "Miànduì bù hélǐ de yāoqiú, jīnglǐ duànrán jùjué le.",
+  "english": "Faced with the unreasonable request, the manager flatly refused."
+ },
+ {
+  "nid": 1708747490236,
+  "word": "若是",
+  "sentence": "若是明天下雨，运动会就得推迟。",
+  "pinyin": "Ruòshì míngtiān xiàyǔ, yùndònghuì jiù děi tuīchí.",
+  "english": "If it rains tomorrow, the sports meet will have to be postponed."
+ },
+ {
+  "nid": 1708747490394,
+  "word": "错综复杂",
+  "sentence": "这起案件的线索错综复杂，警方查了很久。",
+  "pinyin": "Zhè qǐ ànjiàn de xiànsuǒ cuò zōng fù zá, jǐngfāng chá le hěn jiǔ.",
+  "english": "The clues in this case are tangled and complicated, and the police have been investigating for a long time."
+ },
+ {
+  "nid": 1708747490480,
+  "word": "境内",
+  "sentence": "这种珍稀动物只生活在中国境内。",
+  "pinyin": "Zhè zhǒng zhēnxī dòngwù zhǐ shēnghuó zài Zhōngguó jìngnèi.",
+  "english": "This rare animal only lives within China's borders."
+ },
+ {
+  "nid": 1708747490552,
+  "word": "显眼",
+  "sentence": "他把海报贴在最显眼的位置。",
+  "pinyin": "Tā bǎ hǎibào tiē zài zuì xiǎnyǎn de wèizhi.",
+  "english": "He posted the poster in the most conspicuous spot."
+ },
+ {
+  "nid": 1708747490597,
+  "word": "朦胧",
+  "sentence": "远处的山在晨雾中显得朦胧。",
+  "pinyin": "Yuǎnchù de shān zài chénwù zhōng xiǎnde ménglóng.",
+  "english": "The distant mountains look hazy in the morning mist."
+ },
+ {
+  "nid": 1708747490749,
+  "word": "气管",
+  "sentence": "一根鱼刺卡在了他的气管里。",
+  "pinyin": "Yī gēn yúcì kǎ zài le tā de qìguǎn li.",
+  "english": "A fishbone got stuck in his windpipe."
+ },
+ {
+  "nid": 1708747490802,
+  "word": "洁白",
+  "sentence": "新娘穿着一身洁白的婚纱走进教堂。",
+  "pinyin": "Xīnniáng chuānzhe yī shēn jiébái de hūnshā zǒujìn jiàotáng.",
+  "english": "The bride walked into the church wearing a pure white wedding dress."
+ },
+ {
+  "nid": 1708747490904,
+  "word": "航天员",
+  "sentence": "那位航天员在太空中生活了半年。",
+  "pinyin": "Nà wèi hángtiānyuán zài tàikōng zhōng shēnghuó le bàn nián.",
+  "english": "That astronaut lived in space for half a year."
+ },
+ {
+  "nid": 1708747490940,
+  "word": "沉稳",
+  "sentence": "遇到突发状况，队长处理得非常沉稳。",
+  "pinyin": "Yùdào tūfā zhuàngkuàng, duìzhǎng chǔlǐ de fēicháng chénwěn.",
+  "english": "When the sudden incident occurred, the captain handled it very calmly."
+ },
+ {
+  "nid": 1708747490943,
+  "word": "径直",
+  "sentence": "他没有敲门，径直走进了办公室。",
+  "pinyin": "Tā méiyǒu qiāo mén, jìngzhí zǒujìn le bàngōngshì.",
+  "english": "He didn't knock, and walked straight into the office."
+ },
+ {
+  "nid": 1708747491096,
+  "word": "艰险",
+  "sentence": "登山队克服了重重艰险，终于到达山顶。",
+  "pinyin": "Dēngshān duì kèfú le chóngchóng jiānxiǎn, zhōngyú dàodá shāndǐng.",
+  "english": "The mountaineering team overcame numerous hardships and dangers to finally reach the summit."
+ },
+ {
+  "nid": 1708747491281,
+  "word": "队形",
+  "sentence": "士兵们保持整齐的队形向前行进。",
+  "pinyin": "Shìbīngmen bǎochí zhěngqí de duìxíng xiàng qián xíngjìn.",
+  "english": "The soldiers marched forward maintaining a neat formation."
+ },
+ {
+  "nid": 1708747491371,
+  "word": "奶酪",
+  "sentence": "这种奶酪的味道有点特别，我不太习惯。",
+  "pinyin": "Zhè zhǒng nǎilào de wèidao yǒudiǎn tèbié, wǒ bú tài xíguàn.",
+  "english": "This cheese tastes a bit unusual, and I'm not quite used to it."
+ },
+ {
+  "nid": 1708747491411,
+  "word": "伸缩",
+  "sentence": "这根鱼竿可以自由伸缩，方便携带。",
+  "pinyin": "Zhè gēn yúgān kěyǐ zìyóu shēnsuō, fāngbiàn xiédài.",
+  "english": "This fishing rod can extend and retract freely, making it convenient to carry."
+ },
+ {
+  "nid": 1708747491421,
+  "word": "喧闹",
+  "sentence": "集市上人来人往，十分喧闹。",
+  "pinyin": "Jíshì shang rén lái rén wǎng, shífēn xuānnào.",
+  "english": "The market is bustling with people coming and going, extremely noisy."
+ },
+ {
+  "nid": 1708747491443,
+  "word": "费劲",
+  "sentence": "这道数学题太难了，做起来很费劲。",
+  "pinyin": "Zhè dào shùxué tí tài nán le, zuò qǐlai hěn fèijìn.",
+  "english": "This math problem is too hard; it takes a lot of effort to solve."
+ },
+ {
+  "nid": 1708747491493,
+  "word": "敬请",
+  "sentence": "新店开业，敬请各位顾客光临指导。",
+  "pinyin": "Xīndiàn kāiyè, jìngqǐng gè wèi gùkè guānglín zhǐdǎo.",
+  "english": "The new store is opening; customers are cordially invited to come and give their patronage."
+ },
+ {
+  "nid": 1708747491497,
+  "word": "泥泞",
+  "sentence": "大雨过后，山路变得非常泥泞。",
+  "pinyin": "Dàyǔ guòhòu, shānlù biàn de fēicháng nínìng.",
+  "english": "After the heavy rain, the mountain road became very muddy."
+ },
+ {
+  "nid": 1708747491758,
+  "word": "就绪",
+  "sentence": "演出前的一切准备工作都已就绪。",
+  "pinyin": "Yǎnchū qián de yīqiè zhǔnbèi gōngzuò dōu yǐ jiùxù.",
+  "english": "All the preparation work before the performance is now ready."
+ },
+ {
+  "nid": 1708747491911,
+  "word": "托付",
+  "sentence": "临终前，老人把孩子托付给了自己的弟弟。",
+  "pinyin": "Línzhōng qián, lǎorén bǎ háizi tuōfù gěi le zìjǐ de dìdi.",
+  "english": "Before he passed away, the old man entrusted his child to his own younger brother."
+ },
+ {
+  "nid": 1708747492133,
+  "word": "无可奈何",
+  "sentence": "面对儿子的固执，父母也感到无可奈何。",
+  "pinyin": "Miànduì érzi de gùzhí, fùmǔ yě gǎndào wú kě nài hé.",
+  "english": "Faced with their son's stubbornness, the parents also felt helpless."
+ },
+ {
+  "nid": 1708747492543,
+  "word": "灼热",
+  "sentence": "沙漠中午的沙子被晒得十分灼热。",
+  "pinyin": "Shāmò zhōngwǔ de shāzi bèi shài de shífēn zhuórè.",
+  "english": "The sand in the desert at noon gets scorching hot from the sun."
+ },
+ {
+  "nid": 1708747492814,
+  "word": "徒劳",
+  "sentence": "没有正确的方法，再努力也只是徒劳。",
+  "pinyin": "Méiyǒu zhèngquè de fāngfǎ, zài nǔlì yě zhǐshì túláo.",
+  "english": "Without the correct method, trying harder is just futile."
+ },
+ {
+  "nid": 1708747492912,
+  "word": "猖狂",
+  "sentence": "敌人的进攻越来越猖狂。",
+  "pinyin": "Dírén de jìngōng yuèláiyuè chāngkuáng.",
+  "english": "The enemy's attacks grew more and more ferocious."
+ },
+ {
+  "nid": 1708747493099,
+  "word": "效仿",
+  "sentence": "很多年轻设计师都在效仿这位大师的风格。",
+  "pinyin": "Hěn duō niánqīng shèjìshī dōu zài xiàofǎng zhè wèi dàshī de fēnggé.",
+  "english": "Many young designers are imitating this master's style."
+ },
+ {
+  "nid": 1708747493113,
+  "word": "紊乱",
+  "sentence": "长期熬夜让他的内分泌变得紊乱。",
+  "pinyin": "Chángqī áoyè ràng tā de nèifēnmì biàn de wěnluàn.",
+  "english": "Staying up late for a long time has thrown his hormones into disorder."
+ },
+ {
+  "nid": 1708747493169,
+  "word": "繁杂",
+  "sentence": "公司的审批手续十分繁杂，办起来很慢。",
+  "pinyin": "Gōngsī de shěnpī shǒuxù shífēn fánzá, bàn qǐlai hěn màn.",
+  "english": "The company's approval procedures are very complicated, so it's slow to get things done."
+ },
+ {
+  "nid": 1708747493172,
+  "word": "旋涡",
+  "sentence": "小船不小心被卷进了河中的旋涡。",
+  "pinyin": "Xiǎochuán bù xiǎoxīn bèi juǎnjìn le hé zhōng de xuánwō.",
+  "english": "The small boat accidentally got pulled into a whirlpool in the river."
+ },
+ {
+  "nid": 1708747493447,
+  "word": "木匠",
+  "sentence": "他年轻时跟着师傅学做木匠。",
+  "pinyin": "Tā niánqīng shí gēnzhe shīfu xué zuò mùjiàng.",
+  "english": "When he was young, he apprenticed under a master to become a carpenter."
+ },
+ {
+  "nid": 1708747493523,
+  "word": "直视",
+  "sentence": "她不敢直视老板生气的眼神。",
+  "pinyin": "Tā bùgǎn zhíshì lǎobǎn shēngqì de yǎnshén.",
+  "english": "She didn't dare look directly at her boss's angry expression."
+ },
+ {
+  "nid": 1708747493763,
+  "word": "稚嫩",
+  "sentence": "他的字迹还带着几分稚嫩。",
+  "pinyin": "Tā de zìjì hái dàizhe jǐ fēn zhìnèn.",
+  "english": "His handwriting still carries a bit of youthful immaturity."
+ },
+ {
+  "nid": 1708747493776,
+  "word": "谜团",
+  "sentence": "这起失踪案至今仍是一个谜团。",
+  "pinyin": "Zhè qǐ shīzōng àn zhìjīn réng shì yī gè mítuán.",
+  "english": "This missing-person case still remains a mystery to this day."
+ },
+ {
+  "nid": 1708747493864,
+  "word": "指教",
+  "sentence": "这是我第一次做菜，还请大家多多指教。",
+  "pinyin": "Zhè shì wǒ dì yī cì zuòcài, hái qǐng dàjiā duōduō zhǐjiào.",
+  "english": "This is the first time I've cooked, so please give me your feedback."
+ },
+ {
+  "nid": 1708747494120,
+  "word": "格格不入",
+  "sentence": "他的穿着打扮跟这个场合格格不入。",
+  "pinyin": "Tā de chuānzhuó dǎbàn gēn zhège chǎnghé gé gé bù rù.",
+  "english": "His outfit is completely out of place for this occasion."
+ },
+ {
+  "nid": 1708747494146,
+  "word": "惬意",
+  "sentence": "躺在沙滩上晒太阳，感觉十分惬意。",
+  "pinyin": "Tǎng zài shātān shang shài tàiyáng, gǎnjué shífēn qièyì.",
+  "english": "Lying on the beach sunbathing feels extremely pleasant."
+ },
+ {
+  "nid": 1708747494154,
+  "word": "画册",
+  "sentence": "奶奶保留着一本旧的老照片画册。",
+  "pinyin": "Nǎinai bǎoliúzhe yī běn jiù de lǎo zhàopiàn huàcè.",
+  "english": "Grandma kept an old photo album of old photographs."
+ },
+ {
+  "nid": 1708747494251,
+  "word": "受挫",
+  "sentence": "他这次创业失败，一度感到十分受挫。",
+  "pinyin": "Tā zhè cì chuàngyè shībài, yīdù gǎndào shífēn shòu cuò.",
+  "english": "After failing in business this time, he felt quite thwarted for a while."
+ },
+ {
+  "nid": 1708747494292,
+  "word": "心胸",
+  "sentence": "他心胸远大，一心想干出一番事业。",
+  "pinyin": "Tā xīnxiōng yuǎndà, yīxīn xiǎng gànchū yī fān shìyè.",
+  "english": "He has great ambitions and is determined to accomplish something significant."
+ },
+ {
+  "nid": 1708747494429,
+  "word": "内行",
+  "sentence": "他修了三十年汽车，是这一行的内行。",
+  "pinyin": "Tā xiū le sānshí nián qìchē, shì zhè yī háng de nèiháng.",
+  "english": "He's repaired cars for thirty years and is an expert in this trade."
+ },
+ {
+  "nid": 1708747494436,
+  "word": "伙食",
+  "sentence": "这家工厂的伙食很好，员工都很满意。",
+  "pinyin": "Zhè jiā gōngchǎng de huǒshí hěn hǎo, yuángōng dōu hěn mǎnyì.",
+  "english": "The meals at this factory are very good, and the employees are all satisfied."
+ },
+ {
+  "nid": 1708747494541,
+  "word": "单薄",
+  "sentence": "冬天他只穿一件单薄的外套，冻得直发抖。",
+  "pinyin": "Dōngtiān tā zhǐ chuān yī jiàn dānbó de wàitào, dòng de zhí fādǒu.",
+  "english": "In winter he only wore a thin, flimsy coat and shivered from the cold."
+ },
+ {
+  "nid": 1708747494740,
+  "word": "百般",
+  "sentence": "他百般讨好上司，只为了升职。",
+  "pinyin": "Tā bǎibān tǎohǎo shàngsi, zhǐ wèile shēngzhí.",
+  "english": "He flattered his boss in every possible way, just to get promoted."
+ },
+ {
+  "nid": 1708747494807,
+  "word": "污秽",
+  "sentence": "这条河道污秽不堪，散发着难闻的气味。",
+  "pinyin": "Zhè tiáo hédào wūhuì bùkān, sànfā zhe nánwén de qìwèi.",
+  "english": "This river is filthy and unbearable, giving off a foul smell."
+ },
+ {
+  "nid": 1708747494902,
+  "word": "刺耳",
+  "sentence": "汽车突然刹车，发出刺耳的声音。",
+  "pinyin": "Qìchē tūrán shāchē, fāchū cì'ěr de shēngyīn.",
+  "english": "The car suddenly braked, making an ear-piercing sound."
+ },
+ {
+  "nid": 1708747495044,
+  "word": "骤然",
+  "sentence": "天气骤然变冷，大家都没有准备。",
+  "pinyin": "Tiānqì zhòurán biàn lěng, dàjiā dōu méiyǒu zhǔnbèi.",
+  "english": "The weather suddenly turned cold, and no one was prepared."
+ },
+ {
+  "nid": 1708747495084,
+  "word": "绷带",
+  "sentence": "护士小心地给伤口缠上绷带。",
+  "pinyin": "Hùshi xiǎoxīn de gěi shāngkǒu chán shàng bēngdài.",
+  "english": "The nurse carefully wrapped a bandage around the wound."
+ },
+ {
+  "nid": 1708747495143,
+  "word": "间隙",
+  "sentence": "他利用工作间隙给家人打了个电话。",
+  "pinyin": "Tā lìyòng gōngzuò jiànxì gěi jiārén dǎ le gè diànhuà.",
+  "english": "He used a gap in his work to call his family."
+ },
+ {
+  "nid": 1708747495211,
+  "word": "打捞",
+  "sentence": "救援队连夜打捞落水的渔船。",
+  "pinyin": "Jiùyuán duì liányè dǎlāo luòshuǐ de yúchuán.",
+  "english": "The rescue team salvaged the sunken fishing boat through the night."
+ },
+ {
+  "nid": 1708747495227,
+  "word": "高傲",
+  "sentence": "她态度高傲，从不主动和同事打招呼。",
+  "pinyin": "Tā tàidù gāo'ào, cóng bù zhǔdòng hé tóngshì dǎ zhāohu.",
+  "english": "Her attitude is arrogant; she never greets her colleagues first."
+ },
+ {
+  "nid": 1708747495327,
+  "word": "包扎",
+  "sentence": "医生迅速给伤员包扎好了伤口。",
+  "pinyin": "Yīshēng xùnsù gěi shāngyuán bāozā hǎo le shāngkǒu.",
+  "english": "The doctor quickly bandaged the wounded soldier's wound."
+ },
+ {
+  "nid": 1708747495351,
+  "word": "窟窿",
+  "sentence": "老鼠在墙角咬出一个窟窿。",
+  "pinyin": "Lǎoshǔ zài qiángjiǎo yǎo chū yī gè kūlong.",
+  "english": "A mouse gnawed a hole in the corner of the wall."
+ },
+ {
+  "nid": 1708747495536,
+  "word": "恩情",
+  "sentence": "父母的恩情，他一辈子都不会忘记。",
+  "pinyin": "Fùmǔ de ēnqíng, tā yībèizi dōu bú huì wàngjì.",
+  "english": "He will never forget his parents' kindness for his whole life."
+ },
+ {
+  "nid": 1708747495573,
+  "word": "埋藏",
+  "sentence": "这个秘密她在心里埋藏了十年。",
+  "pinyin": "Zhège mìmì tā zài xīnli máicáng le shí nián.",
+  "english": "She has kept this secret buried in her heart for ten years."
+ },
+ {
+  "nid": 1708747495853,
+  "word": "专制",
+  "sentence": "这个国家长期处于专制统治之下。",
+  "pinyin": "Zhège guójiā chángqī chǔyú zhuānzhì tǒngzhì zhī xià.",
+  "english": "This country has long been under autocratic rule."
+ },
+ {
+  "nid": 1708747495918,
+  "word": "评委",
+  "sentence": "评委给这位选手打了很高的分数。",
+  "pinyin": "Píngwěi gěi zhè wèi xuǎnshǒu dǎ le hěn gāo de fēnshù.",
+  "english": "The judges gave this contestant a very high score."
+ },
+ {
+  "nid": 1708747496000,
+  "word": "忙活",
+  "sentence": "她一整天都在厨房里忙活。",
+  "pinyin": "Tā yī zhěng tiān dōu zài chúfáng li mánghuo.",
+  "english": "She was busy working in the kitchen all day long."
+ },
+ {
+  "nid": 1708747496029,
+  "word": "闺女",
+  "sentence": "老张的闺女今年考上了大学。",
+  "pinyin": "Lǎo Zhāng de guīnǚ jīnnián kǎoshàng le dàxué.",
+  "english": "Old Zhang's daughter got into university this year."
+ },
+ {
+  "nid": 1708747496054,
+  "word": "功底",
+  "sentence": "他从小练字，书法功底非常扎实。",
+  "pinyin": "Tā cóngxiǎo liàn zì, shūfǎ gōngdǐ fēicháng zhāshi.",
+  "english": "He has practiced calligraphy since childhood and has a very solid foundation."
+ },
+ {
+  "nid": 1708747496072,
+  "word": "通红",
+  "sentence": "她走出寒风，冻得脸颊通红。",
+  "pinyin": "Tā zǒuchū hánfēng, dòng de liǎnjiá tōnghóng.",
+  "english": "She came in from the cold wind, her cheeks flushed red."
+ },
+ {
+  "nid": 1708747496318,
+  "word": "要强",
+  "sentence": "她从小就要强，做什么都不服输。",
+  "pinyin": "Tā cóngxiǎo jiù yàoqiáng, zuò shénme dōu bù fúshū.",
+  "english": "She has been eager to excel since childhood, never willing to admit defeat."
+ },
+ {
+  "nid": 1708747496401,
+  "word": "卑微",
+  "sentence": "他出身卑微，全靠自己奋斗成功。",
+  "pinyin": "Tā chūshēn bēiwēi, quán kào zìjǐ fèndòu chénggōng.",
+  "english": "He came from a lowly background and succeeded entirely through his own hard work."
+ },
+ {
+  "nid": 1708747496552,
+  "word": "鲜活",
+  "sentence": "市场里卖的都是鲜活的海鲜。",
+  "pinyin": "Shìchǎng li mài de dōu shì xiānhuó de hǎixiān.",
+  "english": "What's sold at the market is all fresh, live seafood."
+ },
+ {
+  "nid": 1708747496567,
+  "word": "绕行",
+  "sentence": "前方道路施工，车辆请绕行。",
+  "pinyin": "Qiánfāng dàolù shīgōng, chēliàng qǐng ràoxíng.",
+  "english": "There's road construction ahead; vehicles please take a detour."
+ },
+ {
+  "nid": 1708747496569,
+  "word": "清脆",
+  "sentence": "教室外传来一阵清脆的鸟叫声。",
+  "pinyin": "Jiàoshì wài chuánlái yī zhèn qīngcuì de niǎo jiào shēng.",
+  "english": "A burst of crisp birdsong came from outside the classroom."
+ },
+ {
+  "nid": 1708747496576,
+  "word": "无边无际",
+  "sentence": "飞机下面是一片无边无际的沙漠。",
+  "pinyin": "Fēijī xiàmiàn shì yī piàn wúbiānwújì de shāmò.",
+  "english": "Below the plane was a boundless desert."
+ },
+ {
+  "nid": 1708747496585,
+  "word": "透气",
+  "sentence": "闷热的车厢里，他打开窗户透气。",
+  "pinyin": "Mēnrè de chēxiāng li, tā dǎkāi chuānghu tòuqì.",
+  "english": "In the stuffy train compartment, he opened the window to get some air."
+ },
+ {
+  "nid": 1708747496689,
+  "word": "编制",
+  "sentence": "财务部正在编制下一年度的预算。",
+  "pinyin": "Cáiwù bù zhèngzài biānzhì xià yī niándù de yùsuàn.",
+  "english": "The finance department is compiling next year's budget."
+ },
+ {
+  "nid": 1708747496864,
+  "word": "建树",
+  "sentence": "他在医学研究领域有很大的建树。",
+  "pinyin": "Tā zài yīxué yánjiū lǐngyù yǒu hěn dà de jiànshù.",
+  "english": "He has made great contributions in the field of medical research."
+ },
+ {
+  "nid": 1708747496897,
+  "word": "得手",
+  "sentence": "小偷这次没有得手，被警察当场抓住。",
+  "pinyin": "Xiǎotōu zhè cì méiyǒu déshǒu, bèi jǐngchá dāngchǎng zhuāzhù.",
+  "english": "The thief didn't succeed this time and was caught by the police on the spot."
+ },
+ {
+  "nid": 1708747496988,
+  "word": "偷窥",
+  "sentence": "有人发现邻居偷窥他家的窗户。",
+  "pinyin": "Yǒurén fāxiàn línjū tōukuī tā jiā de chuānghu.",
+  "english": "Someone discovered the neighbor peeking into his house's window."
+ },
+ {
+  "nid": 1708747497141,
+  "word": "无可厚非",
+  "sentence": "年轻人想多赚钱，这无可厚非。",
+  "pinyin": "Niánqīngrén xiǎng duō zhuànqián, zhè wúkěhòufēi.",
+  "english": "It's understandable that young people want to earn more money."
+ },
+ {
+  "nid": 1708747497165,
+  "word": "逞强",
+  "sentence": "他伤还没好就逞强去搬重物。",
+  "pinyin": "Tā shāng hái méi hǎo jiù chěngqiáng qù bān zhòngwù.",
+  "english": "His injury hadn't healed yet, but he tried to show off by carrying heavy things."
+ },
+ {
+  "nid": 1708747497171,
+  "word": "不慎",
+  "sentence": "工人操作不慎，导致机器受损。",
+  "pinyin": "Gōngrén cāozuò bú shèn, dǎozhì jīqì shòusǔn.",
+  "english": "The worker was careless in operation, causing damage to the machine."
+ },
+ {
+  "nid": 1708747497213,
+  "word": "爪子",
+  "sentence": "小猫伸出爪子抓了一下沙发。",
+  "pinyin": "Xiǎomāo shēnchū zhuǎzi zhuā le yīxià shāfā.",
+  "english": "The kitten stuck out its paw and scratched the sofa."
+ },
+ {
+  "nid": 1708747497256,
+  "word": "颓废",
+  "sentence": "失业以后，他一度变得颓废消沉。",
+  "pinyin": "Shīyè yǐhòu, tā yīdù biàn de tuífèi xiāochén.",
+  "english": "After losing his job, he became dispirited and decadent for a while."
+ },
+ {
+  "nid": 1708747497298,
+  "word": "药方",
+  "sentence": "医生开了一张药方，让他按时吃药。",
+  "pinyin": "Yīshēng kāi le yī zhāng yàofāng, ràng tā ànshí chī yào.",
+  "english": "The doctor wrote a prescription and told him to take the medicine on schedule."
+ },
+ {
+  "nid": 1708747497305,
+  "word": "凶猛",
+  "sentence": "老虎是一种非常凶猛的动物。",
+  "pinyin": "Lǎohǔ shì yī zhǒng fēicháng xiōngměng de dòngwù.",
+  "english": "Tigers are a very fierce kind of animal."
+ },
+ {
+  "nid": 1708747497496,
+  "word": "积淀",
+  "sentence": "这座城市有着深厚的文化积淀。",
+  "pinyin": "Zhè zuò chéngshì yǒu zhe shēnhòu de wénhuà jīdiàn.",
+  "english": "This city has a deep accumulation of culture."
+ },
+ {
+  "nid": 1708747497700,
+  "word": "不由自主",
+  "sentence": "听到这首歌，她不由自主地流下眼泪。",
+  "pinyin": "Tīngdào zhè shǒu gē, tā bùyóuzìzhǔ de liúxià yǎnlèi.",
+  "english": "Hearing this song, she involuntarily shed tears."
+ },
+ {
+  "nid": 1708747497750,
+  "word": "突如其来",
+  "sentence": "这场突如其来的暴雨打乱了他们的计划。",
+  "pinyin": "Zhè chǎng tūrúqílái de bàoyǔ dǎluàn le tāmen de jìhuà.",
+  "english": "This sudden downpour disrupted their plans."
+ },
+ {
+  "nid": 1708747497754,
+  "word": "赶赴",
+  "sentence": "接到通知后，医疗队立刻赶赴灾区。",
+  "pinyin": "Jiēdào tōngzhī hòu, yīliáo duì lìkè gǎnfù zāiqū.",
+  "english": "After receiving the notice, the medical team rushed to the disaster area."
+ },
+ {
+  "nid": 1708747497823,
+  "word": "罢休",
+  "sentence": "他不达目的，绝不罢休。",
+  "pinyin": "Tā bù dá mùdì, jué bú bàxiū.",
+  "english": "He won't give up until he achieves his goal."
+ },
+ {
+  "nid": 1708747497830,
+  "word": "海藻",
+  "sentence": "海边的礁石上长满了海藻。",
+  "pinyin": "Hǎibiān de jiāoshí shàng zhǎngmǎn le hǎizǎo.",
+  "english": "The rocks by the sea are covered with seaweed."
+ },
+ {
+  "nid": 1708747497891,
+  "word": "劳累",
+  "sentence": "连续加班让他感到十分劳累。",
+  "pinyin": "Liánxù jiābān ràng tā gǎndào shífēn láolèi.",
+  "english": "Working overtime continuously made him feel very exhausted."
+ },
+ {
+  "nid": 1708747497984,
+  "word": "追尾",
+  "sentence": "高速公路上两辆车发生了追尾事故。",
+  "pinyin": "Gāosù gōnglù shàng liǎng liàng chē fāshēng le zhuīwěi shìgù.",
+  "english": "Two cars had a rear-end collision on the highway."
+ },
+ {
+  "nid": 1708747498431,
+  "word": "苗头",
+  "sentence": "这场纠纷已经出现了缓和的苗头。",
+  "pinyin": "Zhè chǎng jiūfēn yǐjīng chūxiàn le huǎnhé de miáotou.",
+  "english": "This dispute has already shown signs of easing."
+ },
+ {
+  "nid": 1708747498444,
+  "word": "劣质",
+  "sentence": "这批劣质产品被工商局查处了。",
+  "pinyin": "Zhè pī lièzhì chǎnpǐn bèi gōngshāngjú cháchǔ le.",
+  "english": "This batch of shoddy products was investigated by the industry and commerce bureau."
+ },
+ {
+  "nid": 1708747498472,
+  "word": "逊色",
+  "sentence": "这部电影的特效毫不逊色于好莱坞大片。",
+  "pinyin": "Zhè bù diànyǐng de tèxiào háo bú xùnsè yú Hǎoláiwù dàpiàn.",
+  "english": "This movie's special effects are in no way inferior to Hollywood blockbusters."
+ },
+ {
+  "nid": 1708747498819,
+  "word": "茁壮",
+  "sentence": "在父母的照顾下，孩子茁壮成长。",
+  "pinyin": "Zài fùmǔ de zhàogù xià, háizi zhuózhuàng chéngzhǎng.",
+  "english": "Under their parents' care, the child grew up healthy and strong."
+ },
+ {
+  "nid": 1708747498867,
+  "word": "松懈",
+  "sentence": "考试快到了，他一点也不敢松懈。",
+  "pinyin": "Kǎoshì kuài dào le, tā yīdiǎn yě bù gǎn sōngxiè.",
+  "english": "The exam is coming soon, so he doesn't dare relax at all."
+ },
+ {
+  "nid": 1708747498870,
+  "word": "一言不发",
+  "sentence": "会议上他一言不发，只是静静地听。",
+  "pinyin": "Huìyì shàng tā yīyánbùfā, zhǐshì jìngjìng de tīng.",
+  "english": "In the meeting, he didn't say a word and just listened quietly."
+ },
+ {
+  "nid": 1708747498975,
+  "word": "耻笑",
+  "sentence": "同学们因为他口音重而耻笑他。",
+  "pinyin": "Tóngxuémen yīnwèi tā kǒuyīn zhòng ér chǐxiào tā.",
+  "english": "His classmates ridiculed him because of his heavy accent."
+ },
+ {
+  "nid": 1708747499061,
+  "word": "歉意",
+  "sentence": "他向大家表达了自己的歉意。",
+  "pinyin": "Tā xiàng dàjiā biǎodá le zìjǐ de qiànyì.",
+  "english": "He expressed his apology to everyone."
+ },
+ {
+  "nid": 1708747499188,
+  "word": "掌舵",
+  "sentence": "老船长亲自为渔船掌舵。",
+  "pinyin": "Lǎo chuánzhǎng qīnzì wèi yúchuán zhǎngduò.",
+  "english": "The old captain personally steered the fishing boat."
+ },
+ {
+  "nid": 1708747499195,
+  "word": "并肩",
+  "sentence": "两位战士并肩作战，直到胜利。",
+  "pinyin": "Liǎng wèi zhànshì bìngjiān zuòzhàn, zhídào shènglì.",
+  "english": "The two soldiers fought side by side until victory."
+ },
+ {
+  "nid": 1708747499269,
+  "word": "交情",
+  "sentence": "他们俩认识多年，交情很深。",
+  "pinyin": "Tāmen liǎ rènshi duō nián, jiāoqing hěn shēn.",
+  "english": "The two of them have known each other for many years and have a deep friendship."
+ },
+ {
+  "nid": 1708747499382,
+  "word": "使唤",
+  "sentence": "老板总是随意使唤新来的员工。",
+  "pinyin": "Lǎobǎn zǒngshì suíyì shǐhuàn xīn lái de yuángōng.",
+  "english": "The boss always orders the new employees around at will."
+ },
+ {
+  "nid": 1708747499526,
+  "word": "振作",
+  "sentence": "失败以后，他很快振作起来。",
+  "pinyin": "Shībài yǐhòu, tā hěn kuài zhènzuò qǐlái.",
+  "english": "After the failure, he quickly pulled himself together."
+ },
+ {
+  "nid": 1708747499625,
+  "word": "大大咧咧",
+  "sentence": "他做事大大咧咧，经常忘东忘西。",
+  "pinyin": "Tā zuòshì dà dà liē liē, jīngcháng wàng dōng wàng xī.",
+  "english": "He's careless in his work and often forgets things."
+ },
+ {
+  "nid": 1708747499672,
+  "word": "守候",
+  "sentence": "母亲在医院门口守候了一整夜。",
+  "pinyin": "Mǔqīn zài yīyuàn ménkǒu shǒuhòu le yī zhěng yè.",
+  "english": "The mother waited at the hospital entrance the whole night."
+ },
+ {
+  "nid": 1708747499756,
+  "word": "计策",
+  "sentence": "军师想出一条巧妙的计策。",
+  "pinyin": "Jūnshī xiǎngchū yī tiáo qiǎomiào de jìcè.",
+  "english": "The military advisor came up with a clever stratagem."
+ },
+ {
+  "nid": 1708747499807,
+  "word": "怨气",
+  "sentence": "他心里积攒了不少怨气。",
+  "pinyin": "Tā xīnli jīzǎn le bù shǎo yuànqì.",
+  "english": "He has accumulated quite a bit of resentment in his heart."
+ },
+ {
+  "nid": 1708747499856,
+  "word": "偷懒",
+  "sentence": "上班的时候他总喜欢偷懒。",
+  "pinyin": "Shàngbān de shíhou tā zǒng xǐhuan tōulǎn.",
+  "english": "He always likes to slack off while at work."
+ },
+ {
+  "nid": 1708747499897,
+  "word": "泥潭",
+  "sentence": "汽车不小心陷进了路边的泥潭。",
+  "pinyin": "Qìchē bù xiǎoxīn xiànjìn le lùbiān de nítán.",
+  "english": "The car accidentally got stuck in a quagmire by the road."
+ },
+ {
+  "nid": 1708747499911,
+  "word": "焦躁",
+  "sentence": "堵车让他变得越来越焦躁。",
+  "pinyin": "Dǔchē ràng tā biàn de yuè lái yuè jiāozào.",
+  "english": "The traffic jam made him increasingly fretful and impatient."
+ },
+ {
+  "nid": 1708747499965,
+  "word": "愈合",
+  "sentence": "经过治疗，他的伤口渐渐愈合了。",
+  "pinyin": "Jīngguò zhìliáo, tā de shāngkǒu jiànjiàn yùhé le.",
+  "english": "After treatment, his wound gradually healed."
+ },
+ {
+  "nid": 1708747499993,
+  "word": "确凿",
+  "sentence": "警方掌握了确凿的证据。",
+  "pinyin": "Jǐngfāng zhǎngwò le quèzáo de zhèngjù.",
+  "english": "The police have gathered conclusive evidence."
+ },
+ {
+  "nid": 1708747500029,
+  "word": "束手无策",
+  "sentence": "面对突发的故障，工程师们束手无策。",
+  "pinyin": "Miànduì tūfā de gùzhàng, gōngchéngshīmen shùshǒuwúcè.",
+  "english": "Faced with the sudden malfunction, the engineers were at a loss."
+ },
+ {
+  "nid": 1708747500047,
+  "word": "万无一失",
+  "sentence": "为了万无一失，他又检查了一遍设备。",
+  "pinyin": "Wèile wànwúyīshī, tā yòu jiǎnchá le yī biàn shèbèi.",
+  "english": "To make sure everything was absolutely safe, he checked the equipment one more time."
+ },
+ {
+  "nid": 1708747500176,
+  "word": "导火索",
+  "sentence": "这场争吵的导火索是一件小事。",
+  "pinyin": "Zhè chǎng zhēngchǎo de dǎohuǒsuǒ shì yī jiàn xiǎoshì.",
+  "english": "The trigger of this argument was a trivial matter."
+ },
+ {
+  "nid": 1708747500415,
+  "word": "恩人",
+  "sentence": "他一直把救命的医生当作恩人。",
+  "pinyin": "Tā yīzhí bǎ jiùmìng de yīshēng dàngzuò ēnrén.",
+  "english": "He has always regarded the doctor who saved his life as his benefactor."
+ },
+ {
+  "nid": 1708747500443,
+  "word": "醒悟",
+  "sentence": "经历这次失败后，他终于醒悟过来。",
+  "pinyin": "Jīnglì zhè cì shībài hòu, tā zhōngyú xǐngwù guòlái.",
+  "english": "After going through this failure, he finally came to his senses."
+ },
+ {
+  "nid": 1708747500535,
+  "word": "消遣",
+  "sentence": "周末他常常钓鱼消遣。",
+  "pinyin": "Zhōumò tā chángcháng diàoyú xiāoqiǎn.",
+  "english": "On weekends he often fishes to pass the time."
+ },
+ {
+  "nid": 1708747500573,
+  "word": "刺绣",
+  "sentence": "奶奶年轻时最擅长刺绣。",
+  "pinyin": "Nǎinai niánqīng shí zuì shàncháng cìxiù.",
+  "english": "When Grandma was young, she was best at embroidery."
+ },
+ {
+  "nid": 1708747500662,
+  "word": "错位",
+  "sentence": "长期低头看手机会导致颈椎错位。",
+  "pinyin": "Chángqī dītóu kàn shǒujī huì dǎozhì jǐngzhuī cuòwèi.",
+  "english": "Looking down at your phone for a long time can cause your cervical vertebrae to become misaligned."
+ },
+ {
+  "nid": 1708747500666,
+  "word": "螺丝",
+  "sentence": "工人用扳手拧紧了螺丝。",
+  "pinyin": "Gōngrén yòng bānshǒu níngjǐn le luósī.",
+  "english": "The worker tightened the screw with a wrench."
+ },
+ {
+  "nid": 1708747500704,
+  "word": "溺水",
+  "sentence": "那个男孩在河里溺水，被路人救起。",
+  "pinyin": "Nàge nánhái zài hé li nìshuǐ, bèi lùrén jiùqǐ.",
+  "english": "That boy was drowning in the river and was rescued by a passerby."
+ },
+ {
+  "nid": 1708747500723,
+  "word": "年迈",
+  "sentence": "年迈的父亲每天坚持散步。",
+  "pinyin": "Niánmài de fùqīn měitiān jiānchí sànbù.",
+  "english": "His elderly father takes a walk every day without fail."
+ },
+ {
+  "nid": 1708747500833,
+  "word": "第一手",
+  "sentence": "记者去现场获取了第一手资料。",
+  "pinyin": "Jìzhě qù xiànchǎng huòqǔ le dì yī shǒu zīliào.",
+  "english": "The reporter went to the scene to obtain first-hand information."
+ },
+ {
+  "nid": 1708747500958,
+  "word": "健美",
+  "sentence": "她坚持健身，身材健美，充满活力。",
+  "pinyin": "Tā jiānchí jiànshēn, shēncái jiànměi, chōngmǎn huólì.",
+  "english": "She works out regularly and has a fit, healthy physique full of energy."
+ },
+ {
+  "nid": 1708747501003,
+  "word": "情商",
+  "sentence": "他智商很高，但情商不足，常常得罪同事。",
+  "pinyin": "Tā zhìshāng hěn gāo, dàn qíngshāng bùzú, chángcháng dézuì tóngshì.",
+  "english": "His IQ is high, but his emotional intelligence is lacking, and he often offends his coworkers."
+ },
+ {
+  "nid": 1708747501145,
+  "word": "绝迹",
+  "sentence": "这种疾病在本地已经绝迹多年。",
+  "pinyin": "Zhè zhǒng jíbìng zài běndì yǐjīng juéjì duō nián.",
+  "english": "This disease has been eradicated in this area for many years."
+ },
+ {
+  "nid": 1708747501146,
+  "word": "管用",
+  "sentence": "老中医开的这个偏方居然很管用。",
+  "pinyin": "Lǎo zhōngyī kāi de zhège piānfāng jūrán hěn guǎnyòng.",
+  "english": "The home remedy that the old Chinese medicine doctor prescribed actually turned out to be quite effective."
+ },
+ {
+  "nid": 1708747501501,
+  "word": "触觉",
+  "sentence": "盲人的触觉通常比常人更加敏锐。",
+  "pinyin": "Mángrén de chùjué tōngcháng bǐ chángrén gèngjiā mǐnruì.",
+  "english": "Blind people's sense of touch is usually more acute than that of ordinary people."
+ },
+ {
+  "nid": 1708747501700,
+  "word": "过半",
+  "sentence": "这次投票的支持率已经过半。",
+  "pinyin": "Zhè cì tóupiào de zhīchí lǜ yǐjīng guòbàn.",
+  "english": "The approval rate in this vote has already passed fifty percent."
+ },
+ {
+  "nid": 1708747501762,
+  "word": "磨炼",
+  "sentence": "多年的基层工作磨炼了他的意志。",
+  "pinyin": "Duō nián de jīcéng gōngzuò móliàn le tā de yìzhì.",
+  "english": "Years of grassroots work tempered his willpower."
+ },
+ {
+  "nid": 1708747501869,
+  "word": "奔赴",
+  "sentence": "救援队连夜奔赴受灾地区。",
+  "pinyin": "Jiùyuán duì liányè bēnfù shòuzāi dìqū.",
+  "english": "The rescue team rushed through the night to the disaster-stricken area."
+ },
+ {
+  "nid": 1708747501887,
+  "word": "恰如其分",
+  "sentence": "他在会上的发言恰如其分，大家都很满意。",
+  "pinyin": "Tā zài huì shàng de fāyán qiàrúqífèn, dàjiā dōu hěn mǎnyì.",
+  "english": "His remarks at the meeting were spot-on, and everyone was very pleased."
+ },
+ {
+  "nid": 1708747501927,
+  "word": "伺机",
+  "sentence": "猎豹静静地趴在草丛里，伺机捕捉猎物。",
+  "pinyin": "Lièbào jìngjìng de pā zài cǎocóng lǐ, sìjī bǔzhuō lièwù.",
+  "english": "The cheetah lay quietly in the grass, waiting for a chance to catch its prey."
+ },
+ {
+  "nid": 1708747502079,
+  "word": "不妙",
+  "sentence": "看到老板的脸色，他就知道情况不妙。",
+  "pinyin": "Kàndào lǎobǎn de liǎnsè, tā jiù zhīdào qíngkuàng búmiào.",
+  "english": "Seeing his boss's expression, he knew right away that things were not looking good."
+ },
+ {
+  "nid": 1708747502116,
+  "word": "莅临",
+  "sentence": "感谢各位领导莅临本次开幕典礼。",
+  "pinyin": "Gǎnxiè gèwèi lǐngdǎo lìlín běn cì kāimù diǎnlǐ.",
+  "english": "Thank you, leaders, for gracing this opening ceremony with your presence."
+ },
+ {
+  "nid": 1708747502238,
+  "word": "草丛",
+  "sentence": "一只野兔突然从草丛里窜了出来。",
+  "pinyin": "Yī zhī yětù tūrán cóng cǎocóng lǐ cuàn le chūlái.",
+  "english": "A wild rabbit suddenly darted out from the underbrush."
+ },
+ {
+  "nid": 1708747502295,
+  "word": "挖苦",
+  "sentence": "他总喜欢挖苦别人来显示自己聪明。",
+  "pinyin": "Tā zǒng xǐhuan wākǔ biérén lái xiǎnshì zìjǐ cōngming.",
+  "english": "He always likes to make sarcastic remarks about others to show off how clever he is."
+ },
+ {
+  "nid": 1708747502501,
+  "word": "骨气",
+  "sentence": "他宁可失业也不肯说谎，很有骨气。",
+  "pinyin": "Tā nìngkě shīyè yě bùkěn shuōhuǎng, hěn yǒu gǔqì.",
+  "english": "He would rather lose his job than tell a lie -- he really has moral backbone."
+ },
+ {
+  "nid": 1708747502639,
+  "word": "栋梁",
+  "sentence": "老师常说，你们是国家未来的栋梁。",
+  "pinyin": "Lǎoshī cháng shuō, nǐmen shì guójiā wèilái de dòngliáng.",
+  "english": "Our teacher often says that we are the future pillars of the nation."
+ },
+ {
+  "nid": 1708747502657,
+  "word": "夸耀",
+  "sentence": "他总爱在朋友面前夸耀自己的财富。",
+  "pinyin": "Tā zǒng ài zài péngyou miànqián kuāyào zìjǐ de cáifù.",
+  "english": "He always loves to show off his wealth in front of friends."
+ },
+ {
+  "nid": 1708747502701,
+  "word": "本分",
+  "sentence": "员工应该做好本分，别老想着投机取巧。",
+  "pinyin": "Yuángōng yīnggāi zuò hǎo běnfèn, bié lǎo xiǎngzhe tóujī qǔqiǎo.",
+  "english": "Employees should attend to their own duties instead of always trying to cut corners."
+ },
+ {
+  "nid": 1708747502730,
+  "word": "顽皮",
+  "sentence": "那个顽皮的男孩把邻居家的花都弄坏了。",
+  "pinyin": "Nàge wánpí de nánhái bǎ línjū jiā de huā dōu nòng huài le.",
+  "english": "That naughty boy ruined all the flowers in the neighbor's yard."
+ },
+ {
+  "nid": 1708747502745,
+  "word": "适量",
+  "sentence": "医生建议他每天适量运动，别太劳累。",
+  "pinyin": "Yīshēng jiànyì tā měitiān shìliàng yùndòng, bié tài láolèi.",
+  "english": "The doctor advised him to exercise a moderate amount every day and not overexert himself."
+ },
+ {
+  "nid": 1708747503023,
+  "word": "稀奇",
+  "sentence": "在大城市里，这种事情一点也不稀奇。",
+  "pinyin": "Zài dà chéngshì lǐ, zhè zhǒng shìqing yī diǎn yě bù xīqí.",
+  "english": "In a big city, this kind of thing isn't rare at all."
+ },
+ {
+  "nid": 1708747503108,
+  "word": "算账",
+  "sentence": "他这次骗了我，我迟早要找他算账。",
+  "pinyin": "Tā zhè cì piàn le wǒ, wǒ chízǎo yào zhǎo tā suàn zhàng.",
+  "english": "He cheated me this time, and sooner or later I'll settle the score with him."
+ },
+ {
+  "nid": 1708747503161,
+  "word": "探求",
+  "sentence": "科学家们一直在探求宇宙的起源。",
+  "pinyin": "Kēxuéjiā men yīzhí zài tànqiú yǔzhòu de qǐyuán.",
+  "english": "Scientists have been seeking to understand the origin of the universe."
+ },
+ {
+  "nid": 1708747503189,
+  "word": "藏品",
+  "sentence": "这幅古画是博物馆最珍贵的藏品之一。",
+  "pinyin": "Zhè fú gǔhuà shì bówùguǎn zuì zhēnguì de cángpǐn zhī yī.",
+  "english": "This ancient painting is one of the museum's most treasured pieces."
+ },
+ {
+  "nid": 1708747503248,
+  "word": "乞求",
+  "sentence": "他跪在地上乞求老板再给他一次机会。",
+  "pinyin": "Tā guì zài dìshang qǐqiú lǎobǎn zài gěi tā yī cì jīhuì.",
+  "english": "He knelt down and begged his boss to give him one more chance."
+ },
+ {
+  "nid": 1708747503384,
+  "word": "忙乱",
+  "sentence": "临近考试，她的复习计划显得有些忙乱。",
+  "pinyin": "Línjìn kǎoshì, tā de fùxí jìhuà xiǎnde yǒuxiē mángluàn.",
+  "english": "As the exam approaches, her review plan seems rather rushed and disorganized."
+ },
+ {
+  "nid": 1708747503409,
+  "word": "澎湃",
+  "sentence": "听到国歌响起，他心中热血澎湃。",
+  "pinyin": "Tīngdào guógē xiǎngqǐ, tā xīnzhōng rèxuè péngpài.",
+  "english": "When he heard the national anthem play, his blood surged with emotion."
+ },
+ {
+  "nid": 1708747503438,
+  "word": "配角",
+  "sentence": "这位演员这次只演一个配角，戏份不多。",
+  "pinyin": "Zhè wèi yǎnyuán zhè cì zhǐ yǎn yī gè pèijué, xìfèn bù duō.",
+  "english": "This actor is only playing a supporting role this time, with not many scenes."
+ },
+ {
+  "nid": 1708747503441,
+  "word": "慌乱",
+  "sentence": "火灾发生时，大家都很慌乱，不知道该往哪里跑。",
+  "pinyin": "Huǒzāi fāshēng shí, dàjiā dōu hěn huāngluàn, bù zhīdào gāi wǎng nǎlǐ pǎo.",
+  "english": "When the fire broke out, everyone panicked in confusion, not knowing where to run."
+ },
+ {
+  "nid": 1708747503460,
+  "word": "不予",
+  "sentence": "对于这种违规行为，学校决定不予录取。",
+  "pinyin": "Duìyú zhè zhǒng wéiguī xíngwéi, xuéxiào juédìng bù yú lùqǔ.",
+  "english": "For this kind of violation, the school decided not to admit the applicant."
+ },
+ {
+  "nid": 1708747503575,
+  "word": "比比皆是",
+  "sentence": "如今大城市里，会说英语的年轻人比比皆是。",
+  "pinyin": "Rújīn dà chéngshì lǐ, huì shuō Yīngyǔ de niánqīngrén bǐbǐjiēshì.",
+  "english": "Nowadays in big cities, young people who can speak English are everywhere."
+ },
+ {
+  "nid": 1708747503644,
+  "word": "凶残",
+  "sentence": "那只鳄鱼捕食的样子非常凶残。",
+  "pinyin": "Nà zhī èyú bǔshí de yàngzi fēicháng xiōngcán.",
+  "english": "The way that crocodile hunts is extremely savage."
+ },
+ {
+  "nid": 1708747503744,
+  "word": "风和日丽",
+  "sentence": "今天风和日丽，很适合出门郊游。",
+  "pinyin": "Jīntiān fēnghérìlì, hěn shìhé chūmén jiāoyóu.",
+  "english": "Today the weather is fine and sunny, perfect for going out on a trip."
+ },
+ {
+  "nid": 1708747503748,
+  "word": "受惊",
+  "sentence": "那匹马突然受惊，差点把骑手甩下来。",
+  "pinyin": "Nà pǐ mǎ tūrán shòu jīng, chàdiǎn bǎ qíshǒu shuǎi xiàlái.",
+  "english": "The horse suddenly got spooked and nearly threw its rider off."
+ },
+ {
+  "nid": 1708747503769,
+  "word": "哲理",
+  "sentence": "这句话虽然简单，却蕴含着深刻的哲理。",
+  "pinyin": "Zhè jù huà suīrán jiǎndān, què yùnhánzhe shēnkè de zhélǐ.",
+  "english": "Though this sentence is simple, it contains profound philosophical truth."
+ },
+ {
+  "nid": 1708747503827,
+  "word": "轻蔑",
+  "sentence": "他用轻蔑的眼神看着那个撒谎的人。",
+  "pinyin": "Tā yòng qīngmiè de yǎnshén kànzhe nàge sāhuǎng de rén.",
+  "english": "He looked at the person who was lying with a contemptuous expression."
+ },
+ {
+  "nid": 1708747503847,
+  "word": "脚踏实地",
+  "sentence": "成功没有捷径，只能脚踏实地一步步努力。",
+  "pinyin": "Chénggōng méiyǒu jiéjìng, zhǐ néng jiǎotàshídì yī bù bù nǔlì.",
+  "english": "There's no shortcut to success -- you can only work hard step by step in a down-to-earth way."
+ },
+ {
+  "nid": 1708747503849,
+  "word": "藤蔓",
+  "sentence": "爬山虎的藤蔓沿着墙壁爬满了整面墙。",
+  "pinyin": "Páshānhǔ de téngmàn yánzhe qiángbì pámǎn le zhěng miàn qiáng.",
+  "english": "The Boston ivy's vines climbed along the wall, covering the entire surface."
+ },
+ {
+  "nid": 1708747503911,
+  "word": "算盘",
+  "sentence": "他表面上帮忙，其实心里打着自己的算盘。",
+  "pinyin": "Tā biǎomiàn shàng bāngmáng, qíshí xīnlǐ dǎzhe zìjǐ de suànpán.",
+  "english": "On the surface he was helping out, but actually he had his own agenda in mind."
+ },
+ {
+  "nid": 1708747503996,
+  "word": "火候",
+  "sentence": "这道菜火候正好，味道特别好吃。",
+  "pinyin": "Zhè dào cài huǒhòu zhènghǎo, wèidào tèbié hǎochī.",
+  "english": "The heat for this dish was just right, and it tastes especially delicious."
+ },
+ {
+  "nid": 1708747504018,
+  "word": "奢望",
+  "sentence": "对普通家庭来说，买这套房子简直是奢望。",
+  "pinyin": "Duì pǔtōng jiātíng lái shuō, mǎi zhè tào fángzi jiǎnzhí shì shēwàng.",
+  "english": "For an ordinary family, buying this house is simply a pipe dream."
+ },
+ {
+  "nid": 1708747504074,
+  "word": "消磨",
+  "sentence": "他每天靠打游戏消磨时间。",
+  "pinyin": "Tā měitiān kào dǎ yóuxì xiāomó shíjiān.",
+  "english": "He whiles away his time every day playing video games."
+ },
+ {
+  "nid": 1708747504098,
+  "word": "彻夜",
+  "sentence": "医生彻夜守在病人床边，不敢合眼。",
+  "pinyin": "Yīshēng chèyè shǒu zài bìngrén chuángbiān, bùgǎn héyǎn.",
+  "english": "The doctor stayed by the patient's bedside all night, not daring to close his eyes."
+ },
+ {
+  "nid": 1708747504123,
+  "word": "温习",
+  "sentence": "考试前，她把笔记又温习了一遍。",
+  "pinyin": "Kǎoshì qián, tā bǎ bǐjì yòu wēnxí le yī biàn.",
+  "english": "Before the exam, she reviewed her notes once more."
+ },
+ {
+  "nid": 1708747504125,
+  "word": "独身",
+  "sentence": "她四十岁了，还坚持独身，不打算结婚。",
+  "pinyin": "Tā sìshí suì le, hái jiānchí dúshēn, bù dǎsuàn jiéhūn.",
+  "english": "She's forty years old and still remains single, with no plans to marry."
+ },
+ {
+  "nid": 1708747504749,
+  "word": "雌性",
+  "sentence": "这只鸟的羽毛鲜艳，说明它不是雌性。",
+  "pinyin": "Zhè zhī niǎo de yǔmáo xiānyàn, shuōmíng tā bú shì cíxìng.",
+  "english": "This bird's feathers are brightly colored, which shows it's not a female."
+ },
+ {
+  "nid": 1708747504765,
+  "word": "乏力",
+  "sentence": "感冒之后，他一直觉得浑身乏力。",
+  "pinyin": "Gǎnmào zhīhòu, tā yīzhí juéde húnshēn fálì.",
+  "english": "After catching a cold, he has felt weak and drained all over."
+ },
+ {
+  "nid": 1708747504827,
+  "word": "奏效",
+  "sentence": "新政策实施后不久就开始奏效了。",
+  "pinyin": "Xīn zhèngcè shíshī hòu bùjiǔ jiù kāishǐ zòuxiào le.",
+  "english": "The new policy started showing results not long after it was implemented."
+ },
+ {
+  "nid": 1708747504832,
+  "word": "不得而知",
+  "sentence": "事故发生的真正原因至今仍不得而知。",
+  "pinyin": "Shìgù fāshēng de zhēnzhèng yuányīn zhìjīn réng bùdé'érzhī.",
+  "english": "The true cause of the accident remains unknown to this day."
+ },
+ {
+  "nid": 1708747504837,
+  "word": "透支",
+  "sentence": "他这个月信用卡又透支了。",
+  "pinyin": "Tā zhège yuè xìnyòngkǎ yòu tòuzhī le.",
+  "english": "He overdrew his credit card again this month."
+ },
+ {
+  "nid": 1708747504968,
+  "word": "闷热",
+  "sentence": "夏天的夜晚闷热得让人睡不着觉。",
+  "pinyin": "Xiàtiān de yèwǎn mēnrè de ràng rén shuìbuzháo jiào.",
+  "english": "Summer nights are so hot and stuffy that people can't fall asleep."
+ },
+ {
+  "nid": 1708747505021,
+  "word": "生命线",
+  "sentence": "这条河流是这个城市的生命线。",
+  "pinyin": "Zhè tiáo héliú shì zhège chéngshì de shēngmìngxiàn.",
+  "english": "This river is the lifeline of the city."
+ },
+ {
+  "nid": 1708747505031,
+  "word": "自强不息",
+  "sentence": "面对困难，他始终自强不息，从不放弃。",
+  "pinyin": "Miànduì kùnnan, tā shǐzhōng zìqiángbùxī, cóng bú fàngqì.",
+  "english": "Facing difficulties, he has always strived unremittingly and never given up."
+ },
+ {
+  "nid": 1708747505083,
+  "word": "焕发",
+  "sentence": "退休后，爷爷精神焕发，天天去公园锻炼。",
+  "pinyin": "Tuìxiū hòu, yéye jīngshén huànfā, tiāntiān qù gōngyuán duànliàn.",
+  "english": "After retiring, grandpa became full of vigor and goes to the park to exercise every day."
+ },
+ {
+  "nid": 1708747505300,
+  "word": "志向",
+  "sentence": "他从小就立下了当医生的志向。",
+  "pinyin": "Tā cóngxiǎo jiù lìxià le dāng yīshēng de zhìxiàng.",
+  "english": "From a young age, he set his ambition on becoming a doctor."
+ },
+ {
+  "nid": 1708747505480,
+  "word": "晃荡",
+  "sentence": "小船在湖面上晃荡，让人有点晕。",
+  "pinyin": "Xiǎo chuán zài húmiàn shàng huàngdang, ràng rén yǒudiǎn yūn.",
+  "english": "The little boat rocked on the surface of the lake, making people a bit dizzy."
+ },
+ {
+  "nid": 1708747505748,
+  "word": "就餐",
+  "sentence": "请大家按顺序排队就餐。",
+  "pinyin": "Qǐng dàjiā àn shùnxù páiduì jiùcān.",
+  "english": "Please everyone line up in order to have your meal."
+ },
+ {
+  "nid": 1708747506192,
+  "word": "提防",
+  "sentence": "出门在外，要提防陌生人的诈骗。",
+  "pinyin": "Chūmén zài wài, yào dīfáng mòshēngrén de zhàpiàn.",
+  "english": "When you're out and about, you need to be on guard against strangers' scams."
+ },
+ {
+  "nid": 1708747506249,
+  "word": "野餐",
+  "sentence": "周末天气好的话，我们去公园野餐吧。",
+  "pinyin": "Zhōumò tiānqì hǎo dehuà, wǒmen qù gōngyuán yěcān ba.",
+  "english": "If the weather's nice this weekend, let's go have a picnic in the park."
+ },
+ {
+  "nid": 1708747506272,
+  "word": "洋溢",
+  "sentence": "教室里洋溢着孩子们的欢声笑语。",
+  "pinyin": "Jiàoshì lǐ yángyìzhe háizimen de huānshēng xiàoyǔ.",
+  "english": "The classroom was brimming with the children's laughter and cheerful voices."
+ },
+ {
+  "nid": 1708747506305,
+  "word": "动弹",
+  "sentence": "他的腿被压住了，完全不能动弹。",
+  "pinyin": "Tā de tuǐ bèi yāzhù le, wánquán bùnéng dòngtan.",
+  "english": "His leg was pinned down and he couldn't move at all."
+ },
+ {
+  "nid": 1708747506381,
+  "word": "茂密",
+  "sentence": "山上长满了茂密的树林。",
+  "pinyin": "Shān shàng zhǎngmǎn le màomì de shùlín.",
+  "english": "The mountain is covered with dense, lush forest."
+ },
+ {
+  "nid": 1708747506383,
+  "word": "采摘",
+  "sentence": "秋天到了，果园里可以采摘苹果了。",
+  "pinyin": "Qiūtiān dào le, guǒyuán lǐ kěyǐ cǎizhāi píngguǒ le.",
+  "english": "Autumn has arrived, and the apples in the orchard are ready to be picked."
+ },
+ {
+  "nid": 1708747506509,
+  "word": "怂恿",
+  "sentence": "是他怂恿弟弟逃课去网吧的。",
+  "pinyin": "Shì tā sǒngyǒng dìdi táokè qù wǎngbā de.",
+  "english": "It was him who talked his younger brother into skipping class to go to an internet cafe."
+ },
+ {
+  "nid": 1708747506516,
+  "word": "冲撞",
+  "sentence": "他说话直率，有时会冲撞了长辈。",
+  "pinyin": "Tā shuōhuà zhíshuài, yǒushí huì chōngzhuàng le zhǎngbèi.",
+  "english": "He speaks bluntly, and sometimes ends up offending his elders."
+ },
+ {
+  "nid": 1708747506521,
+  "word": "耗时",
+  "sentence": "修复这份古籍非常耗时。",
+  "pinyin": "Xiūfù zhè fèn gǔjí fēicháng hàoshí.",
+  "english": "Restoring this ancient book is extremely time-consuming."
+ },
+ {
+  "nid": 1708747506552,
+  "word": "噩耗",
+  "sentence": "听到父亲去世的噩耗，她当场哭了出来。",
+  "pinyin": "Tīngdào fùqīn qùshì de èhào, tā dāngchǎng kū le chūlái.",
+  "english": "Upon hearing the tragic news of her father's death, she burst into tears on the spot."
+ },
+ {
+  "nid": 1708747506687,
+  "word": "两栖",
+  "sentence": "青蛙是一种典型的两栖动物。",
+  "pinyin": "Qīngwā shì yī zhǒng diǎnxíng de liǎngqī dòngwù.",
+  "english": "The frog is a typical amphibious animal."
+ },
+ {
+  "nid": 1708747506712,
+  "word": "裂痕",
+  "sentence": "这次争吵让两人的友谊出现了裂痕。",
+  "pinyin": "Zhè cì zhēngchǎo ràng liǎng rén de yǒuyì chūxiàn le lièhén.",
+  "english": "This argument caused a crack to appear in the two people's friendship."
+ },
+ {
+  "nid": 1708747506744,
+  "word": "起程",
+  "sentence": "明天一早，探险队就要起程了。",
+  "pinyin": "Míngtiān yīzǎo, tànxiǎn duì jiù yào qǐchéng le.",
+  "english": "Early tomorrow morning, the exploration team will set out."
+ },
+ {
+  "nid": 1708747506772,
+  "word": "顺势",
+  "sentence": "对手一失误，他顺势就赢下了比赛。",
+  "pinyin": "Duìshǒu yī shīwù, tā shùnshì jiù yíngxià le bǐsài.",
+  "english": "The moment his opponent slipped up, he seized the opportunity and won the match."
+ },
+ {
+  "nid": 1708747506782,
+  "word": "看管",
+  "sentence": "妈妈临时出门，让姐姐看管弟弟。",
+  "pinyin": "Māma línshí chūmén, ràng jiějie kānguǎn dìdi.",
+  "english": "Mom went out for a bit and had my sister look after our little brother."
+ },
+ {
+  "nid": 1708747506983,
+  "word": "吐槽",
+  "sentence": "网友们纷纷在评论区吐槽这部电影。",
+  "pinyin": "Wǎngyǒu men fēnfēn zài pínglùn qū tùcáo zhè bù diànyǐng.",
+  "english": "Netizens took turns roasting the movie in the comments section."
+ },
+ {
+  "nid": 1708747507003,
+  "word": "捉迷藏",
+  "sentence": "孩子们在院子里开心地捉迷藏。",
+  "pinyin": "Háizimen zài yuànzi lǐ kāixīn de zhuōmícáng.",
+  "english": "The children happily played hide-and-seek in the yard."
+ },
+ {
+  "nid": 1708747507053,
+  "word": "扫兴",
+  "sentence": "天突然下雨，让大家的郊游很扫兴。",
+  "pinyin": "Tiān tūrán xiàyǔ, ràng dàjiā de jiāoyóu hěn sǎoxìng.",
+  "english": "It suddenly started raining, which really dampened everyone's mood for the outing."
+ },
+ {
+  "nid": 1708747507054,
+  "word": "豁出去",
+  "sentence": "为了救孩子，那位父亲豁出去了。",
+  "pinyin": "Wèile jiù háizi, nà wèi fùqīn huōchuqu le.",
+  "english": "To save the child, that father threw all caution to the wind."
+ },
+ {
+  "nid": 1708747507059,
+  "word": "日复一日",
+  "sentence": "他日复一日地重复着同样的工作。",
+  "pinyin": "Tā rìfùyīrì de chóngfùzhe tóngyàng de gōngzuò.",
+  "english": "Day after day, he repeats the same exact work."
+ },
+ {
+  "nid": 1708747507073,
+  "word": "一塌糊涂",
+  "sentence": "他把厨房弄得一塌糊涂，到处都是油污。",
+  "pinyin": "Tā bǎ chúfáng nòng de yītāhútu, dàochù dōu shì yóuwū.",
+  "english": "He made an absolute mess of the kitchen, with grease everywhere."
+ },
+ {
+  "nid": 1708747507079,
+  "word": "打搅",
+  "sentence": "抱歉打搅您休息，我马上就走。",
+  "pinyin": "Bàoqiàn dǎjiǎo nín xiūxi, wǒ mǎshàng jiù zǒu.",
+  "english": "Sorry to disturb your rest, I'll leave right away."
+ },
+ {
+  "nid": 1708747507097,
+  "word": "缝合",
+  "sentence": "医生迅速为伤口缝合止血。",
+  "pinyin": "Yīshēng xùnsù wèi shāngkǒu fénghé zhǐxuè.",
+  "english": "The doctor quickly sutured the wound to stop the bleeding."
+ },
+ {
+  "nid": 1708747507129,
+  "word": "耽搁",
+  "sentence": "路上堵车，耽搁了不少时间。",
+  "pinyin": "Lùshang dǔchē, dānge le bùshǎo shíjiān.",
+  "english": "The traffic jam on the road delayed quite a bit of time."
+ },
+ {
+  "nid": 1708747507133,
+  "word": "一鼓作气",
+  "sentence": "大家一鼓作气，终于在天黑前完成了任务。",
+  "pinyin": "Dàjiā yīgǔzuòqì, zhōngyú zài tiān hēi qián wánchéng le rènwu.",
+  "english": "Everyone pushed through in one burst of energy and finally finished the task before dark."
+ },
+ {
+  "nid": 1708747507161,
+  "word": "切磋",
+  "sentence": "两位棋手赛后互相切磋棋艺。",
+  "pinyin": "Liǎng wèi qíshǒu sài hòu hùxiāng qiēcuō qíyì.",
+  "english": "After the match, the two chess players exchanged pointers with each other on their skills."
+ },
+ {
+  "nid": 1708747507226,
+  "word": "暴躁",
+  "sentence": "他脾气暴躁，一点小事就发火。",
+  "pinyin": "Tā píqi bàozào, yīdiǎn xiǎoshì jiù fāhuǒ.",
+  "english": "He has a short temper and flies into a rage over the smallest things."
+ },
+ {
+  "nid": 1708747507232,
+  "word": "暗地里",
+  "sentence": "他暗地里帮助那个贫穷的家庭，从不声张。",
+  "pinyin": "Tā àndìli bāngzhù nàge pínqióng de jiātíng, cóngbù shēngzhāng.",
+  "english": "He secretly helps that poor family without ever making it known."
+ },
+ {
+  "nid": 1708747507311,
+  "word": "贪吃",
+  "sentence": "这只小狗特别贪吃，看见食物就扑过去。",
+  "pinyin": "Zhè zhī xiǎogǒu tèbié tānchī, kànjiàn shíwù jiù pū guòqu.",
+  "english": "This puppy is such a glutton that it pounces the moment it sees food."
+ },
+ {
+  "nid": 1708747507407,
+  "word": "情不自禁",
+  "sentence": "听到这首老歌，她情不自禁地流下了眼泪。",
+  "pinyin": "Tīngdào zhè shǒu lǎogē, tā qíngbùzìjīn de liúxià le yǎnlèi.",
+  "english": "Hearing that old song, she couldn't hold back her tears."
+ },
+ {
+  "nid": 1708747507438,
+  "word": "疗养",
+  "sentence": "医生建议他去海边疗养一段时间，好好休息。",
+  "pinyin": "Yīshēng jiànyì tā qù hǎibiān liáoyǎng yī duàn shíjiān, hǎohǎo xiūxi.",
+  "english": "The doctor suggested he go to the seaside to recuperate for a while and get some proper rest."
+ },
+ {
+  "nid": 1708747507483,
+  "word": "劲头",
+  "sentence": "大家干活的劲头十足，工地上一片热闹。",
+  "pinyin": "Dàjiā gànhuó de jìntóu shízú, gōngdì shàng yī piàn rènao.",
+  "english": "Everyone worked with such enthusiasm that the construction site was bustling with energy."
+ },
+ {
+  "nid": 1708747507490,
+  "word": "挂念",
+  "sentence": "母亲一直挂念在国外读书的儿子。",
+  "pinyin": "Mǔqin yīzhí guàniàn zài guówài dúshū de érzi.",
+  "english": "The mother constantly worries about her son who is studying abroad."
+ },
+ {
+  "nid": 1708747507495,
+  "word": "捕食",
+  "sentence": "老鹰经常在空中盘旋，寻找机会捕食小动物。",
+  "pinyin": "Lǎoyīng jīngcháng zài kōngzhōng pánxuán, xúnzhǎo jīhuì bǔshí xiǎo dòngwù.",
+  "english": "Eagles often circle in the sky, looking for opportunities to prey on small animals."
+ },
+ {
+  "nid": 1708747507535,
+  "word": "不屑",
+  "sentence": "面对对手的挑衅，他不屑做出任何回应。",
+  "pinyin": "Miànduì duìshǒu de tiǎoxìn, tā búxiè zuòchū rènhé huíyìng.",
+  "english": "Facing his opponent's provocation, he disdained to respond at all."
+ },
+ {
+  "nid": 1708747507560,
+  "word": "夜宵",
+  "sentence": "加班到深夜，我们决定点一份夜宵。",
+  "pinyin": "Jiābān dào shēnyè, wǒmen juédìng diǎn yī fèn yèxiāo.",
+  "english": "After working overtime until late at night, we decided to order a midnight snack."
+ },
+ {
+  "nid": 1708747507592,
+  "word": "泼冷水",
+  "sentence": "别人满怀信心的时候，你别老是泼冷水。",
+  "pinyin": "Biéren mǎnhuái xìnxīn de shíhou, nǐ bié lǎoshi pō lěngshuǐ.",
+  "english": "When others are full of confidence, don't always dampen their enthusiasm."
+ },
+ {
+  "nid": 1708747507602,
+  "word": "随时随地",
+  "sentence": "有了手机，我们可以随时随地跟朋友聊天。",
+  "pinyin": "Yǒule shǒujī, wǒmen kěyǐ suíshísuídì gēn péngyou liáotiān.",
+  "english": "With smartphones, we can chat with friends anytime and anywhere."
+ },
+ {
+  "nid": 1708747507624,
+  "word": "记忆犹新",
+  "sentence": "那次旅行的美好回忆，至今仍然记忆犹新。",
+  "pinyin": "Nà cì lǚxíng de měihǎo huíyì, zhìjīn réngrán jìyìyóuxīn.",
+  "english": "The wonderful memories of that trip are still as fresh as ever."
+ },
+ {
+  "nid": 1708747507629,
+  "word": "凋谢",
+  "sentence": "秋天一到，公园里的花朵渐渐凋谢了。",
+  "pinyin": "Qiūtiān yī dào, gōngyuán li de huāduǒ jiànjiàn diāoxiè le.",
+  "english": "As soon as autumn arrives, the flowers in the park gradually wither."
+ },
+ {
+  "nid": 1708747507655,
+  "word": "转悠",
+  "sentence": "吃完晚饭，他喜欢一个人在小区里转悠。",
+  "pinyin": "Chīwán wǎnfàn, tā xǐhuan yī gè rén zài xiǎoqū li zhuàn you.",
+  "english": "After dinner, he likes to wander around the neighborhood by himself."
+ },
+ {
+  "nid": 1708747507700,
+  "word": "纵观",
+  "sentence": "纵观整个历史，科技进步从未停止。",
+  "pinyin": "Zòngguān zhěnggè lìshǐ, kējì jìnbù cóngwèi tíngzhǐ.",
+  "english": "Looking across the whole of history, technological progress has never stopped."
+ },
+ {
+  "nid": 1708747507738,
+  "word": "劝阻",
+  "sentence": "朋友们极力劝阻他辞职去创业。",
+  "pinyin": "Péngyoumen jílì quànzǔ tā cízhí qù chuàngyè.",
+  "english": "His friends did their best to dissuade him from quitting his job to start a business."
+ },
+ {
+  "nid": 1708747507742,
+  "word": "嘱托",
+  "sentence": "临终前，老人把照顾孙子的事嘱托给了女儿。",
+  "pinyin": "Línzhōng qián, lǎorén bǎ zhàogù sūnzi de shì zhǔtuō gěi le nǚ'ér.",
+  "english": "Before passing away, the old man entrusted the task of caring for his grandson to his daughter."
+ },
+ {
+  "nid": 1708747507744,
+  "word": "委婉",
+  "sentence": "她用委婉的语气拒绝了对方的邀请。",
+  "pinyin": "Tā yòng wěiwǎn de yǔqì jùjué le duìfāng de yāoqǐng.",
+  "english": "She tactfully declined the other person's invitation."
+ },
+ {
+  "nid": 1708747507849,
+  "word": "胖乎乎",
+  "sentence": "那个胖乎乎的婴儿笑起来特别可爱。",
+  "pinyin": "Nàge pànghūhū de yīng'ér xiào qǐlai tèbié kě'ài.",
+  "english": "That chubby baby is especially adorable when he laughs."
+ },
+ {
+  "nid": 1708747507963,
+  "word": "小费",
+  "sentence": "在美国餐厅吃饭，一般要给服务员小费。",
+  "pinyin": "Zài Měiguó cāntīng chīfàn, yībān yào gěi fúwùyuán xiǎofèi.",
+  "english": "When dining at a restaurant in the US, you generally need to tip the waiter."
+ },
+ {
+  "nid": 1708747508027,
+  "word": "逆境",
+  "sentence": "真正的强者能够在逆境中不断成长。",
+  "pinyin": "Zhēnzhèng de qiángzhě nénggòu zài nìjìng zhōng búduàn chéngzhǎng.",
+  "english": "A truly strong person can keep growing even in adversity."
+ },
+ {
+  "nid": 1708747508547,
+  "word": "烘干",
+  "sentence": "下雨天，我把湿衣服放进烘干机里烘干。",
+  "pinyin": "Xiàyǔ tiān, wǒ bǎ shī yīfu fàngjìn hōnggānjī li hōnggān.",
+  "english": "On a rainy day, I put my wet clothes in the dryer to dry them."
+ },
+ {
+  "nid": 1708747508726,
+  "word": "拙劣",
+  "sentence": "这部电影的特效十分拙劣，观众纷纷吐槽。",
+  "pinyin": "Zhè bù diànyǐng de tèxiào shífēn zhuōliè, guānzhòng fēnfēn tǔcáo.",
+  "english": "The special effects in this movie are so shoddy that audiences have been complaining."
+ },
+ {
+  "nid": 1708747508729,
+  "word": "无所作为",
+  "sentence": "他工作多年却无所作为，心里很着急。",
+  "pinyin": "Tā gōngzuò duō nián què wúsuǒzuòwéi, xīnli hěn zháojí.",
+  "english": "He's worked for many years yet accomplished nothing, and it worries him deeply."
+ },
+ {
+  "nid": 1708747508791,
+  "word": "官兵",
+  "sentence": "前线的官兵们日夜坚守在自己的岗位上。",
+  "pinyin": "Qiánxiàn de guānbīngmen rìyè jiānshǒu zài zìjǐ de gǎngwèi shàng.",
+  "english": "The officers and soldiers at the front line guard their posts day and night."
+ },
+ {
+  "nid": 1708747508804,
+  "word": "郊游",
+  "sentence": "周末天气好，全家人一起去郊游。",
+  "pinyin": "Zhōumò tiānqì hǎo, quánjiārén yīqǐ qù jiāoyóu.",
+  "english": "The weather was nice on the weekend, so the whole family went on an outing together."
+ },
+ {
+  "nid": 1708747508846,
+  "word": "害虫",
+  "sentence": "农民用农药来消灭田里的害虫。",
+  "pinyin": "Nóngmín yòng nóngyào lái xiāomiè tián li de hàichóng.",
+  "english": "Farmers use pesticides to get rid of pests in the fields."
+ },
+ {
+  "nid": 1708747508852,
+  "word": "浮躁",
+  "sentence": "现在的年轻人做事有点浮躁，缺乏耐心。",
+  "pinyin": "Xiànzài de niánqīngrén zuòshì yǒudiǎn fúzào, quēfá nàixīn.",
+  "english": "Young people nowadays are a bit impatient and restless in their work, lacking patience."
+ },
+ {
+  "nid": 1708747508976,
+  "word": "喝彩",
+  "sentence": "运动员打破纪录，全场观众都为他喝彩。",
+  "pinyin": "Yùndòngyuán dǎpò jìlù, quánchǎng guānzhòng dōu wèi tā hècǎi.",
+  "english": "The athlete broke the record, and the whole stadium cheered for him."
+ },
+ {
+  "nid": 1708747509048,
+  "word": "缩影",
+  "sentence": "这个小村庄是整个国家发展的缩影。",
+  "pinyin": "Zhège xiǎo cūnzhuāng shì zhěnggè guójiā fāzhǎn de suōyǐng.",
+  "english": "This small village is a microcosm of the whole country's development."
+ },
+ {
+  "nid": 1708747509057,
+  "word": "韵味",
+  "sentence": "这首古诗读起来很有韵味。",
+  "pinyin": "Zhè shǒu gǔshī dú qǐlai hěn yǒu yùnwèi.",
+  "english": "This ancient poem has a lovely charm when read aloud."
+ },
+ {
+  "nid": 1708747509064,
+  "word": "老字号",
+  "sentence": "这家老字号饭馆已经开了一百多年了。",
+  "pinyin": "Zhè jiā lǎozìhào fànguǎn yǐjīng kāi le yībǎi duō nián le.",
+  "english": "This time-honored restaurant has already been open for more than a hundred years."
+ },
+ {
+  "nid": 1708747509138,
+  "word": "回味",
+  "sentence": "电影结束后，他还在慢慢回味剧情。",
+  "pinyin": "Diànyǐng jiéshù hòu, tā hái zài mànmàn huíwèi jùqíng.",
+  "english": "After the movie ended, he was still slowly reflecting on the plot."
+ },
+ {
+  "nid": 1708747509140,
+  "word": "发芽",
+  "sentence": "春天到了，种子在土里开始发芽。",
+  "pinyin": "Chūntiān dào le, zhǒngzi zài tǔ li kāishǐ fāyá.",
+  "english": "When spring arrives, the seeds start to germinate in the soil."
+ },
+ {
+  "nid": 1708747509188,
+  "word": "天敌",
+  "sentence": "蛇是老鼠的天敌，能有效控制鼠患。",
+  "pinyin": "Shé shì lǎoshǔ de tiāndí, néng yǒuxiào kòngzhì shǔhuàn.",
+  "english": "Snakes are natural predators of rats and can effectively control rat infestations."
+ },
+ {
+  "nid": 1708747509205,
+  "word": "藏匿",
+  "sentence": "警方怀疑嫌疑人藏匿在这栋旧楼里。",
+  "pinyin": "Jǐngfāng huáiyí xiányírén cángnì zài zhè dòng jiù lóu li.",
+  "english": "Police suspect the suspect is hiding in this old building."
+ },
+ {
+  "nid": 1708747509216,
+  "word": "过硬",
+  "sentence": "想当医生，专业技术必须过硬。",
+  "pinyin": "Xiǎng dāng yīshēng, zhuānyè jìshù bìxū guòyìng.",
+  "english": "If you want to be a doctor, your professional skills must be truly solid."
+ },
+ {
+  "nid": 1708747509320,
+  "word": "冗长",
+  "sentence": "会议的发言太冗长，大家都听得不耐烦了。",
+  "pinyin": "Huìyì de fāyán tài rǒngcháng, dàjiā dōu tīng de bú nàifán le.",
+  "english": "The speech at the meeting was so long-winded that everyone grew impatient listening to it."
+ },
+ {
+  "nid": 1708747509378,
+  "word": "驰名",
+  "sentence": "这种茶叶驰名中外，深受欢迎。",
+  "pinyin": "Zhè zhǒng cháyè chímíng zhōngwài, shēnshòu huānyíng.",
+  "english": "This kind of tea is famous both at home and abroad and is very popular."
+ },
+ {
+  "nid": 1708747509398,
+  "word": "赞许",
+  "sentence": "老师对他的努力表示赞许。",
+  "pinyin": "Lǎoshī duì tā de nǔlì biǎoshì zànxǔ.",
+  "english": "The teacher expressed approval of his efforts."
+ },
+ {
+  "nid": 1708747509436,
+  "word": "嬉笑",
+  "sentence": "孩子们在操场上嬉笑打闹，十分开心。",
+  "pinyin": "Háizimen zài cāochǎng shàng xīxiào dǎnào, shífēn kāixīn.",
+  "english": "The children were laughing, playing, and romping around on the playground, having a great time."
+ },
+ {
+  "nid": 1708747510057,
+  "word": "忍心",
+  "sentence": "她实在不忍心把小猫送走。",
+  "pinyin": "Tā shízài bù rěnxīn bǎ xiǎo māo sòngzǒu.",
+  "english": "She really couldn't bring herself to give the kitten away."
+ },
+ {
+  "nid": 1708747510121,
+  "word": "赛跑",
+  "sentence": "学校运动会上，同学们进行了百米赛跑。",
+  "pinyin": "Xuéxiào yùndònghuì shàng, tóngxuémen jìnxíng le bǎimǐ sàipǎo.",
+  "english": "At the school sports meet, the students held a 100-meter race."
+ },
+ {
+  "nid": 1708747510161,
+  "word": "慌忙",
+  "sentence": "听到火警铃声，大家慌忙跑出了教室。",
+  "pinyin": "Tīngdào huǒjǐng língshēng, dàjiā huāngmáng pǎochū le jiàoshì.",
+  "english": "When they heard the fire alarm, everyone rushed hurriedly out of the classroom."
+ },
+ {
+  "nid": 1708747510266,
+  "word": "扫墓",
+  "sentence": "清明节，一家人回老家给祖父扫墓。",
+  "pinyin": "Qīngmíngjié, yī jiā rén huí lǎojiā gěi zǔfù sǎomù.",
+  "english": "On Tomb-Sweeping Day, the whole family went back to their hometown to tend their grandfather's grave."
+ },
+ {
+  "nid": 1708747510316,
+  "word": "无所事事",
+  "sentence": "退休以后，他每天在家无所事事。",
+  "pinyin": "Tuìxiū yǐhòu, tā měitiān zàijiā wúsuǒshìshì.",
+  "english": "After retiring, he spends every day at home with nothing to do."
+ },
+ {
+  "nid": 1708747510340,
+  "word": "盘算",
+  "sentence": "她心里盘算着这笔钱该怎么花。",
+  "pinyin": "Tā xīnli pánsuàn zhe zhè bǐ qián gāi zěnme huā.",
+  "english": "She was mentally calculating how to spend this sum of money."
+ },
+ {
+  "nid": 1708747510645,
+  "word": "稀罕",
+  "sentence": "这种老式收音机现在已经很稀罕了。",
+  "pinyin": "Zhè zhǒng lǎoshì shōuyīnjī xiànzài yǐjīng hěn xīhan le.",
+  "english": "This old-style radio is quite rare to see nowadays."
+ },
+ {
+  "nid": 1708747510653,
+  "word": "不假思索",
+  "sentence": "听到问题，他不假思索地说出了答案。",
+  "pinyin": "Tīngdào wèntí, tā bùjiǎsīsuǒ de shuōchū le dá'àn.",
+  "english": "Upon hearing the question, he answered without a moment's hesitation."
+ },
+ {
+  "nid": 1708747510762,
+  "word": "工科",
+  "sentence": "他大学读的是工科，毕业后当了工程师。",
+  "pinyin": "Tā dàxué dú de shì gōngkē, bìyè hòu dāng le gōngchéngshī.",
+  "english": "He studied engineering in college and became an engineer after graduation."
+ },
+ {
+  "nid": 1708747510796,
+  "word": "疑点",
+  "sentence": "律师指出了这份证词中的几个疑点。",
+  "pinyin": "Lǜshī zhǐchū le zhè fèn zhèngcí zhōng de jǐ gè yídiǎn.",
+  "english": "The lawyer pointed out several doubtful points in this testimony."
+ },
+ {
+  "nid": 1708747510828,
+  "word": "喘息",
+  "sentence": "爬到山顶后，他停下来喘息了片刻。",
+  "pinyin": "Pádào shāndǐng hòu, tā tíng xiàlai chuǎnxī le piànkè.",
+  "english": "After climbing to the mountaintop, he stopped to catch his breath for a moment."
+ },
+ {
+  "nid": 1708747510862,
+  "word": "动感",
+  "sentence": "这张照片拍得很有动感，仿佛人物正在奔跑。",
+  "pinyin": "Zhè zhāng zhàopiàn pāi de hěn yǒu dònggǎn, fǎngfú rénwù zhèngzài bēnpǎo.",
+  "english": "This photo was taken with such a sense of motion that the person seems to be running."
+ },
+ {
+  "nid": 1708747510926,
+  "word": "难处",
+  "sentence": "每个家庭都有自己的难处，别随便评判。",
+  "pinyin": "Měi gè jiātíng dōu yǒu zìjǐ de nánchu, bié suíbiàn píngpàn.",
+  "english": "Every family has its own troubles, so don't judge casually."
+ },
+ {
+  "nid": 1708747510942,
+  "word": "争相",
+  "sentence": "新品一上市，顾客们就争相购买。",
+  "pinyin": "Xīnpǐn yī shàngshì, gùkèmen jiù zhēngxiāng gòumǎi.",
+  "english": "As soon as the new product launched, customers rushed to buy it."
+ },
+ {
+  "nid": 1708747511004,
+  "word": "带路",
+  "sentence": "山路很复杂，我们请了当地人带路。",
+  "pinyin": "Shānlù hěn fùzá, wǒmen qǐng le dāngdìrén dàilù.",
+  "english": "The mountain trails were quite complex, so we hired a local to guide us."
+ },
+ {
+  "nid": 1708747511015,
+  "word": "梦寐以求",
+  "sentence": "出国留学是她梦寐以求的愿望。",
+  "pinyin": "Chūguó liúxué shì tā mèngmèiyǐqiú de yuànwàng.",
+  "english": "Studying abroad is something she has dreamed of for a long time."
+ },
+ {
+  "nid": 1708747511027,
+  "word": "特例",
+  "sentence": "学校破例批准了他的申请，这只是个特例。",
+  "pinyin": "Xuéxiào pòlì pīzhǔn le tā de shēnqǐng, zhè zhǐshì gè tèlì.",
+  "english": "The school made an exception and approved his application, but it's just a special case."
+ },
+ {
+  "nid": 1708747511072,
+  "word": "恭维",
+  "sentence": "他说的那些话，其实只是恭维老板罢了。",
+  "pinyin": "Tā shuō de nàxiē huà, qíshí zhǐshì gōngwei lǎobǎn bàle.",
+  "english": "What he said was actually just flattering the boss, nothing more."
+ },
+ {
+  "nid": 1708747511089,
+  "word": "领略",
+  "sentence": "这次旅行让我领略了西藏的自然风光。",
+  "pinyin": "Zhè cì lǚxíng ràng wǒ lǐnglüè le Xīzàng de zìrán fēngguāng.",
+  "english": "This trip let me experience the natural beauty of Tibet."
+ },
+ {
+  "nid": 1708747511333,
+  "word": "本着",
+  "sentence": "公司本着诚信原则对待每一位客户。",
+  "pinyin": "Gōngsī běnzhe chéngxìn yuánzé duìdài měi yī wèi kèhù.",
+  "english": "The company treats every customer based on the principle of good faith."
+ },
+ {
+  "nid": 1708747511471,
+  "word": "阅历",
+  "sentence": "年纪大了，阅历自然也丰富了许多。",
+  "pinyin": "Niánjì dà le, yuèlì zìrán yě fēngfù le xǔduō.",
+  "english": "As he grew older, his life experience naturally grew much richer too."
+ },
+ {
+  "nid": 1708747511679,
+  "word": "玄机",
+  "sentence": "这句话看似简单，其实暗藏玄机。",
+  "pinyin": "Zhè jù huà kànsì jiǎndān, qíshí àncáng xuánjī.",
+  "english": "This sentence looks simple, but actually hides something deeper."
+ },
+ {
+  "nid": 1708747511731,
+  "word": "嘲弄",
+  "sentence": "同学们不应该嘲弄身体有缺陷的人。",
+  "pinyin": "Tóngxuémen bù yīnggāi cháonòng shēntǐ yǒu quēxiàn de rén.",
+  "english": "Classmates shouldn't mock people who have physical disabilities."
+ },
+ {
+  "nid": 1708747511794,
+  "word": "知己",
+  "sentence": "人生难得有一个真正的知己。",
+  "pinyin": "Rénshēng nándé yǒu yī gè zhēnzhèng de zhījǐ.",
+  "english": "It's rare in life to have a truly close friend who understands you."
+ },
+ {
+  "nid": 1708747511795,
+  "word": "预售",
+  "sentence": "这部电影的门票已经开始预售了。",
+  "pinyin": "Zhè bù diànyǐng de ménpiào yǐjīng kāishǐ yùshòu le.",
+  "english": "Tickets for this movie have already started presale."
+ },
+ {
+  "nid": 1708747511934,
+  "word": "五官",
+  "sentence": "她五官端正，笑起来特别好看。",
+  "pinyin": "Tā wǔguān duānzhèng, xiào qǐlai tèbié hǎokàn.",
+  "english": "Her facial features are well-proportioned, and she looks especially pretty when she smiles."
+ },
+ {
+  "nid": 1708747512007,
+  "word": "失礼",
+  "sentence": "迟到这么久才到，实在是太失礼了。",
+  "pinyin": "Chídào zhème jiǔ cái dào, shízài shì tài shīlǐ le.",
+  "english": "Being this late is truly rude of me."
+ },
+ {
+  "nid": 1708747512029,
+  "word": "有朝一日",
+  "sentence": "他坚信有朝一日自己能够实现梦想。",
+  "pinyin": "Tā jiānxìn yǒuzhāoyīrì zìjǐ nénggòu shíxiàn mèngxiǎng.",
+  "english": "He firmly believes that one day he will be able to realize his dream."
+ },
+ {
+  "nid": 1708747512031,
+  "word": "死心",
+  "sentence": "追求她五年后，他终于死心了。",
+  "pinyin": "Zhuīqiú tā wǔ nián hòu, tā zhōngyú sǐxīn le.",
+  "english": "After pursuing her for five years, he finally gave up."
+ },
+ {
+  "nid": 1708747512074,
+  "word": "没辙",
+  "sentence": "面对这个难题，大家都感到没辙了。",
+  "pinyin": "Miànduì zhège nántí, dàjiā dōu gǎndào méizhé le.",
+  "english": "Facing this tough problem, everyone felt at a total loss."
+ },
+ {
+  "nid": 1708747512092,
+  "word": "火速",
+  "sentence": "接到通知后，救援队火速赶往灾区。",
+  "pinyin": "Jiēdào tōngzhī hòu, jiùyuánduì huǒsù gǎnwǎng zāiqū.",
+  "english": "After receiving the notice, the rescue team rushed to the disaster area at top speed."
+ },
+ {
+  "nid": 1708747512119,
+  "word": "累赘",
+  "sentence": "出门旅游时，太多行李会成为累赘。",
+  "pinyin": "Chūmén lǚyóu shí, tài duō xíngli huì chéngwéi léizhuì.",
+  "english": "When traveling, too much luggage can become a burden."
+ },
+ {
+  "nid": 1708747512145,
+  "word": "同感",
+  "sentence": "听了他的看法，我也有同感。",
+  "pinyin": "Tīng le tā de kànfǎ, wǒ yě yǒu tónggǎn.",
+  "english": "After hearing his opinion, I felt the same way."
+ },
+ {
+  "nid": 1708747512187,
+  "word": "走投无路",
+  "sentence": "生意失败后，他感到自己走投无路。",
+  "pinyin": "Shēngyì shībài hòu, tā gǎndào zìjǐ zǒutóuwúlù.",
+  "english": "After his business failed, he felt like he was at a dead end."
+ },
+ {
+  "nid": 1708747512236,
+  "word": "放肆",
+  "sentence": "你这样跟长辈说话，也太放肆了吧。",
+  "pinyin": "Nǐ zhèyàng gēn zhǎngbèi shuōhuà, yě tài fàngsì le ba.",
+  "english": "Talking to your elders like that is really too impudent."
+ },
+ {
+  "nid": 1708747512264,
+  "word": "切身",
+  "sentence": "环境污染跟每个人的切身利益都有关。",
+  "pinyin": "Huánjìng wūrǎn gēn měi gè rén de qièshēn lìyì dōu yǒuguān.",
+  "english": "Environmental pollution is directly related to everyone's personal interests."
+ },
+ {
+  "nid": 1708747512275,
+  "word": "一干二净",
+  "sentence": "他把桌上的饭菜吃得一干二净。",
+  "pinyin": "Tā bǎ zhuō shàng de fàncài chī de yīgān'èrjìng.",
+  "english": "He ate all the food on the table completely, leaving nothing."
+ },
+ {
+  "nid": 1708747512345,
+  "word": "蹊跷",
+  "sentence": "这件事有点蹊跷，我们得再调查一下。",
+  "pinyin": "Zhè jiàn shì yǒudiǎn qīqiāo, wǒmen děi zài diàochá yīxià.",
+  "english": "Something about this seems fishy, so we need to investigate further."
+ },
+ {
+  "nid": 1708747512354,
+  "word": "兴奋剂",
+  "sentence": "那名运动员被查出服用了兴奋剂。",
+  "pinyin": "Nà míng yùndòngyuán bèi cháchū fúyòng le xīngfènjì.",
+  "english": "That athlete was found to have used performance-enhancing drugs."
+ },
+ {
+  "nid": 1708747512357,
+  "word": "插嘴",
+  "sentence": "大人说话的时候，小孩子不要随便插嘴。",
+  "pinyin": "Dàrén shuōhuà de shíhou, xiǎoháizi búyào suíbiàn chāzuǐ.",
+  "english": "Children shouldn't interrupt casually while adults are talking."
+ },
+ {
+  "nid": 1708747512370,
+  "word": "无话可说",
+  "sentence": "面对这样的结果，他一时无话可说。",
+  "pinyin": "Miànduì zhèyàng de jiéguǒ, tā yīshí wúhuàkěshuō.",
+  "english": "Faced with such a result, he was at a loss for words for a moment."
+ },
+ {
+  "nid": 1708747512410,
+  "word": "未知数",
+  "sentence": "这场比赛谁能获胜，现在还是一个未知数。",
+  "pinyin": "Zhè chǎng bǐsài shéi néng huòshèng, xiànzài hái shì yī gè wèizhīshù.",
+  "english": "Who will win this competition is still an unknown quantity for now."
+ },
+ {
+  "nid": 1708747512457,
+  "word": "牵挂",
+  "sentence": "儿子在国外工作，母亲整天都在牵挂他。",
+  "pinyin": "Érzi zài guówài gōngzuò, mǔqīn zhěngtiān dōu zài qiānguà tā.",
+  "english": "Her son works abroad, and his mother worries about him all day long."
+ },
+ {
+  "nid": 1708747512467,
+  "word": "够呛",
+  "sentence": "今天又要加班又要开会，我可真是够呛。",
+  "pinyin": "Jīntiān yòu yào jiābān yòu yào kāihuì, wǒ kě zhēn shì gòuqiàng.",
+  "english": "Having to work overtime and attend meetings today is really rough on me."
+ },
+ {
+  "nid": 1708747512480,
+  "word": "怨言",
+  "sentence": "尽管工作很辛苦，他却从没说过一句怨言。",
+  "pinyin": "Jǐnguǎn gōngzuò hěn xīnkǔ, tā què cóng méi shuōguo yī jù yuànyán.",
+  "english": "Although the work is very hard, he has never uttered a word of complaint."
+ },
+ {
+  "nid": 1708747512481,
+  "word": "起劲",
+  "sentence": "大家干得很起劲，很快就把院子打扫干净了。",
+  "pinyin": "Dàjiā gàn de hěn qǐjìn, hěn kuài jiù bǎ yuànzi dǎsǎo gānjìng le.",
+  "english": "Everyone worked energetically and quickly cleaned up the yard."
+ },
+ {
+  "nid": 1708747512484,
+  "word": "犹豫不决",
+  "sentence": "面对两个工作机会，她一直犹豫不决。",
+  "pinyin": "Miànduì liǎng gè gōngzuò jīhuì, tā yīzhí yóuyùbùjué.",
+  "english": "Faced with two job offers, she has been unable to decide."
+ },
+ {
+  "nid": 1708747512499,
+  "word": "数一数二",
+  "sentence": "这家医院的心脏外科在全国算是数一数二的。",
+  "pinyin": "Zhè jiā yīyuàn de xīnzàng wàikē zài quánguó suàn shì shǔyīshǔ'èr de.",
+  "english": "This hospital's cardiac surgery department is ranked among the very best in the whole country."
+ },
+ {
+  "nid": 1708747512528,
+  "word": "退让",
+  "sentence": "在原则问题上，他从不轻易退让。",
+  "pinyin": "Zài yuánzé wèntí shàng, tā cóng bù qīngyì tuìràng.",
+  "english": "On matters of principle, he never backs down easily."
+ },
+ {
+  "nid": 1708747512532,
+  "word": "衰弱",
+  "sentence": "手术后他的身体变得非常衰弱。",
+  "pinyin": "Shǒushù hòu tā de shēntǐ biàn de fēicháng shuāiruò.",
+  "english": "After the surgery, his body became extremely weak."
+ },
+ {
+  "nid": 1708747512578,
+  "word": "精疲力竭",
+  "sentence": "跑完马拉松以后，他已经精疲力竭了。",
+  "pinyin": "Pǎo wán mǎlāsōng yǐhòu, tā yǐjīng jīngpílìjié le.",
+  "english": "After finishing the marathon, he was already completely exhausted."
+ },
+ {
+  "nid": 1708747512582,
+  "word": "送行",
+  "sentence": "朋友明天出国留学，我们去机场给他送行。",
+  "pinyin": "Péngyou míngtiān chūguó liúxué, wǒmen qù jīchǎng gěi tā sòngxíng.",
+  "english": "My friend is going abroad to study tomorrow, so we're going to the airport to see him off."
+ },
+ {
+  "nid": 1708747512604,
+  "word": "绊脚石",
+  "sentence": "缺乏经验成了他求职路上的绊脚石。",
+  "pinyin": "Quēfá jīngyàn chéng le tā qiúzhí lùshang de bànjiǎoshí.",
+  "english": "Lack of experience became a stumbling block on his path to finding a job."
+ },
+ {
+  "nid": 1708747512650,
+  "word": "隐情",
+  "sentence": "她说话吞吞吐吐，好像有什么隐情。",
+  "pinyin": "Tā shuōhuà tūntūntǔtǔ, hǎoxiàng yǒu shénme yǐnqíng.",
+  "english": "She was being evasive when she spoke, as if there were something she was hiding."
+ },
+ {
+  "nid": 1708747512745,
+  "word": "出丑",
+  "sentence": "他在众人面前忘了台词，当场出丑。",
+  "pinyin": "Tā zài zhòngrén miànqián wàng le táicí, dāngchǎng chūchǒu.",
+  "english": "He forgot his lines in front of everyone and made a fool of himself on the spot."
+ },
+ {
+  "nid": 1708747512778,
+  "word": "过意不去",
+  "sentence": "让您特意跑一趟，我心里真过意不去。",
+  "pinyin": "Ràng nín tèyì pǎo yī tàng, wǒ xīnli zhēn guòyìbùqù.",
+  "english": "I feel really bad about making you make a special trip for this."
+ },
+ {
+  "nid": 1708747512869,
+  "word": "冒昧",
+  "sentence": "冒昧问一句，您今年多大年纪了？",
+  "pinyin": "Màomèi wèn yī jù, nín jīnnián duō dà niánjì le?",
+  "english": "If I may take the liberty of asking, how old are you this year?"
+ },
+ {
+  "nid": 1708747512872,
+  "word": "措手不及",
+  "sentence": "这个突发情况让公司措手不及。",
+  "pinyin": "Zhège tūfā qíngkuàng ràng gōngsī cuòshǒubùjí.",
+  "english": "This sudden situation caught the company completely off guard."
+ },
+ {
+  "nid": 1708747512891,
+  "word": "挟持",
+  "sentence": "歹徒挟持了一名人质，要求警方放他离开。",
+  "pinyin": "Dǎitú xiéchí le yī míng rénzhì, yāoqiú jǐngfāng fàng tā líkāi.",
+  "english": "The criminal took a hostage and demanded that police let him leave."
+ },
+ {
+  "nid": 1708747513089,
+  "word": "口头禅",
+  "sentence": "没问题是他的口头禅，谁请他帮忙他都这么说。",
+  "pinyin": "Méi wèntí shì tā de kǒutóuchán, shéi qǐng tā bāngmáng tā dōu zhème shuō.",
+  "english": "'No problem' is his catchphrase -- no matter who asks him for help, that's what he always says."
+ },
+ {
+  "nid": 1708747513131,
+  "word": "要领",
+  "sentence": "老师耐心地讲解了游泳的动作要领。",
+  "pinyin": "Lǎoshī nàixīn de jiǎngjiě le yóuyǒng de dòngzuò yàolǐng.",
+  "english": "The teacher patiently explained the key points of the swimming technique."
+ },
+ {
+  "nid": 1708747513153,
+  "word": "切忌",
+  "sentence": "服用这种药物期间切忌喝酒。",
+  "pinyin": "Fúyòng zhè zhǒng yàowù qījiān qièjì hē jiǔ.",
+  "english": "While taking this medicine, drinking alcohol must be strictly avoided."
+ },
+ {
+  "nid": 1708747513197,
+  "word": "起跑线",
+  "sentence": "家长都不想让孩子输在起跑线上。",
+  "pinyin": "Jiāzhǎng dōu bù xiǎng ràng háizi shū zài qǐpǎoxiàn shàng.",
+  "english": "Parents don't want their children to lose at the starting line."
+ },
+ {
+  "nid": 1708747513201,
+  "word": "一心一意",
+  "sentence": "她辞掉工作，一心一意在家照顾孩子。",
+  "pinyin": "Tā cídiào gōngzuò, yīxīnyīyì zài jiā zhàogù háizi.",
+  "english": "She quit her job to focus wholeheartedly on taking care of her children at home."
+ },
+ {
+  "nid": 1708747513216,
+  "word": "奋勇",
+  "sentence": "消防员奋勇冲进火场救出了两名儿童。",
+  "pinyin": "Xiāofángyuán fènyǒng chōngjìn huǒchǎng jiùchū le liǎng míng értóng.",
+  "english": "The firefighter bravely charged into the fire and rescued two children."
+ },
+ {
+  "nid": 1708747513288,
+  "word": "半途而废",
+  "sentence": "学外语贵在坚持，千万不能半途而废。",
+  "pinyin": "Xué wàiyǔ guì zài jiānchí, qiānwàn bùnéng bàntú'érfèi.",
+  "english": "Learning a foreign language depends on persistence -- you must never give up halfway."
+ },
+ {
+  "nid": 1708747513348,
+  "word": "失传",
+  "sentence": "这门古老的手艺已经失传了。",
+  "pinyin": "Zhè mén gǔlǎo de shǒuyì yǐjīng shīchuán le.",
+  "english": "This ancient craft has already been lost."
+ },
+ {
+  "nid": 1708747513387,
+  "word": "气馁",
+  "sentence": "第一次创业失败了，他并没有气馁。",
+  "pinyin": "Dì yī cì chuàngyè shībài le, tā bìng méiyǒu qìněi.",
+  "english": "His first business venture failed, but he didn't get discouraged."
+ },
+ {
+  "nid": 1708747513401,
+  "word": "追捧",
+  "sentence": "这个年轻歌手最近受到年轻人的追捧。",
+  "pinyin": "Zhège niánqīng gēshǒu zuìjìn shòudào niánqīngrén de zhuīpěng.",
+  "english": "This young singer has recently been chased after by young fans."
+ },
+ {
+  "nid": 1708747513405,
+  "word": "顺其自然",
+  "sentence": "孩子的婚事，父母也只能顺其自然。",
+  "pinyin": "Háizi de hūnshì, fùmǔ yě zhǐnéng shùnqízìrán.",
+  "english": "As for their child's marriage, the parents can only let nature take its course."
+ },
+ {
+  "nid": 1708747513418,
+  "word": "推卸",
+  "sentence": "出了问题，他总是想办法推卸责任。",
+  "pinyin": "Chū le wèntí, tā zǒngshì xiǎng bànfǎ tuīxiè zérèn.",
+  "english": "When problems arise, he always tries to find ways to shirk responsibility."
+ },
+ {
+  "nid": 1708747513493,
+  "word": "告状",
+  "sentence": "妹妹一有委屈就跑去跟爸爸告状。",
+  "pinyin": "Mèimei yī yǒu wěiqu jiù pǎo qù gēn bàba gàozhuàng.",
+  "english": "Whenever my little sister feels wronged, she runs to complain to dad."
+ },
+ {
+  "nid": 1708747513494,
+  "word": "媲美",
+  "sentence": "这幅画的技巧完全可以媲美大师的作品。",
+  "pinyin": "Zhè fú huà de jìqiǎo wánquán kěyǐ pìměi dàshī de zuòpǐn.",
+  "english": "The technique in this painting can fully rival that of the masters' works."
+ },
+ {
+  "nid": 1708747513518,
+  "word": "私事",
+  "sentence": "上班时间请不要处理私事。",
+  "pinyin": "Shàngbān shíjiān qǐng búyào chǔlǐ sīshì.",
+  "english": "Please don't handle personal matters during work hours."
+ },
+ {
+  "nid": 1708747513595,
+  "word": "伸张",
+  "sentence": "律师希望通过这个案件伸张正义。",
+  "pinyin": "Lǜshī xīwàng tōngguò zhège ànjiàn shēnzhāng zhèngyì.",
+  "english": "The lawyer hopes to uphold justice through this case."
+ },
+ {
+  "nid": 1708747513727,
+  "word": "强项",
+  "sentence": "数学一直是他的强项。",
+  "pinyin": "Shùxué yīzhí shì tā de qiángxiàng.",
+  "english": "Math has always been his strong suit."
+ },
+ {
+  "nid": 1708747513782,
+  "word": "打岔",
+  "sentence": "他正在讲重点，你别老是打岔。",
+  "pinyin": "Tā zhèngzài jiǎng zhòngdiǎn, nǐ bié lǎoshi dǎchà.",
+  "english": "He's explaining the key point, so stop constantly interrupting him."
+ },
+ {
+  "nid": 1708747513787,
+  "word": "素不相识",
+  "sentence": "两个素不相识的人竟然成了好朋友。",
+  "pinyin": "Liǎng gè sùbùxiāngshí de rén jìngrán chéng le hǎo péngyou.",
+  "english": "Two total strangers unexpectedly became good friends."
+ },
+ {
+  "nid": 1708747513814,
+  "word": "存心",
+  "sentence": "他不是存心要伤害你的。",
+  "pinyin": "Tā bú shì cúnxīn yào shānghài nǐ de.",
+  "english": "He didn't mean to hurt you on purpose."
+ },
+ {
+  "nid": 1708747513833,
+  "word": "因人而异",
+  "sentence": "这种药的效果因人而异。",
+  "pinyin": "Zhè zhǒng yào de xiàoguǒ yīnrén'éryì.",
+  "english": "The effect of this medicine varies from person to person."
+ },
+ {
+  "nid": 1708747513900,
+  "word": "俘获",
+  "sentence": "士兵们在战斗中俘获了大量敌军。",
+  "pinyin": "Shìbīngmen zài zhàndòu zhōng fúhuò le dàliàng díjūn.",
+  "english": "The soldiers captured a large number of enemy troops in the battle."
+ },
+ {
+  "nid": 1708747513982,
+  "word": "生硬",
+  "sentence": "他的中文说得还不错，就是语气有点生硬。",
+  "pinyin": "Tā de Zhōngwén shuō de hái búcuò, jiùshì yǔqì yǒudiǎn shēngyìng.",
+  "english": "His Chinese is pretty good, it's just that his tone sounds a bit stiff."
+ },
+ {
+  "nid": 1708747514012,
+  "word": "较劲",
+  "sentence": "两个同事总喜欢在业绩上较劲。",
+  "pinyin": "Liǎng gè tóngshì zǒng xǐhuan zài yèjì shàng jiàojìn.",
+  "english": "The two colleagues always like to compete with each other over performance."
+ },
+ {
+  "nid": 1708747514225,
+  "word": "兆头",
+  "sentence": "出门就下雨，这可不是什么好兆头。",
+  "pinyin": "Chūmén jiù xiàyǔ, zhè kě bú shì shénme hǎo zhàotou.",
+  "english": "It started raining as soon as I went out -- that's not a good sign."
+ },
+ {
+  "nid": 1708747514230,
+  "word": "剧变",
+  "sentence": "那几年，整个社会经历了剧变。",
+  "pinyin": "Nà jǐ nián, zhěnggè shèhuì jīnglì le jùbiàn.",
+  "english": "In those years, the whole society went through drastic change."
+ },
+ {
+  "nid": 1708747514241,
+  "word": "屋檐",
+  "sentence": "他寄居在别人的屋檐下，处处小心。",
+  "pinyin": "Tā jìjū zài biéren de wūyán xià, chùchù xiǎoxīn.",
+  "english": "Living under someone else's roof, he's careful in everything he does."
+ },
+ {
+  "nid": 1708747514244,
+  "word": "得益",
+  "sentence": "公司的成功得益于全体员工的努力。",
+  "pinyin": "Gōngsī de chénggōng déyì yú quántǐ yuángōng de nǔlì.",
+  "english": "The company's success benefits from the hard work of all its employees."
+ },
+ {
+  "nid": 1708747514268,
+  "word": "打磨",
+  "sentence": "工人正在仔细打磨这件家具的边角。",
+  "pinyin": "Gōngrén zhèngzài zǐxì dǎmó zhè jiàn jiājù de biānjiǎo.",
+  "english": "The worker is carefully polishing the edges and corners of this piece of furniture."
+ },
+ {
+  "nid": 1708747514388,
+  "word": "揣测",
+  "sentence": "大家都在揣测他辞职的真正原因。",
+  "pinyin": "Dàjiā dōu zài chuǎicè tā cízhí de zhēnzhèng yuányīn.",
+  "english": "Everyone is speculating about the real reason he resigned."
+ },
+ {
+  "nid": 1708747514401,
+  "word": "对得起",
+  "sentence": "只有努力工作，才对得起这份薪水。",
+  "pinyin": "Zhǐyǒu nǔlì gōngzuò, cái duìdeqǐ zhè fèn xīnshuǐ.",
+  "english": "Only by working hard can one live up to this salary."
+ },
+ {
+  "nid": 1708747514414,
+  "word": "再接再厉",
+  "sentence": "这次比赛虽然输了，但大家决定再接再厉。",
+  "pinyin": "Zhè cì bǐsài suīrán shū le, dàn dàjiā juédìng zàijiēzàilì.",
+  "english": "Although they lost this competition, everyone decided to keep up the effort next time."
+ },
+ {
+  "nid": 1708747514470,
+  "word": "送别",
+  "sentence": "车站里，很多人在为亲友送别。",
+  "pinyin": "Chēzhàn lǐ, hěn duō rén zài wèi qīnyǒu sòngbié.",
+  "english": "At the train station, many people are seeing off their friends and family."
+ },
+ {
+  "nid": 1708747514684,
+  "word": "打消",
+  "sentence": "听了医生的解释，他打消了心中的顾虑。",
+  "pinyin": "Tīng le yīshēng de jiěshì, tā dǎxiāo le xīnzhōng de gùlǜ.",
+  "english": "After hearing the doctor's explanation, he dispelled the worries in his heart."
+ },
+ {
+  "nid": 1708747514851,
+  "word": "蜜月",
+  "sentence": "他们结婚以后去欧洲度蜜月。",
+  "pinyin": "Tāmen jiéhūn yǐhòu qù Ōuzhōu dù mìyuè.",
+  "english": "After getting married, they went to Europe for their honeymoon."
+ },
+ {
+  "nid": 1708747514861,
+  "word": "变通",
+  "sentence": "规则是死的，做事有时也得懂得变通。",
+  "pinyin": "Guīzé shì sǐ de, zuòshì yǒushí yě děi dǒngde biàntōng.",
+  "english": "Rules are fixed, but sometimes you need to know how to be flexible when doing things."
+ },
+ {
+  "nid": 1708747514867,
+  "word": "慰劳",
+  "sentence": "公司准备了礼物慰劳辛苦加班的员工。",
+  "pinyin": "Gōngsī zhǔnbèi le lǐwù wèiláo xīnkǔ jiābān de yuángōng.",
+  "english": "The company prepared gifts to show appreciation to the staff who worked overtime."
+ },
+ {
+  "nid": 1708747514876,
+  "word": "火辣辣",
+  "sentence": "太阳火辣辣地照在地面上，路人都躲着走。",
+  "pinyin": "Tàiyáng huǒlàlà de zhào zài dìmiàn shàng, lùrén dōu duǒzhe zǒu.",
+  "english": "The sun beat down scorchingly on the ground, and passersby all avoided walking in it."
+ },
+ {
+  "nid": 1708747514912,
+  "word": "断断续续",
+  "sentence": "这场雨断断续续下了一整天。",
+  "pinyin": "Zhè chǎng yǔ duànduànxùxù xià le yī zhěngtiān.",
+  "english": "This rain fell off and on all day."
+ },
+ {
+  "nid": 1708747514979,
+  "word": "身不由己",
+  "sentence": "在这个大家庭里，很多事他都身不由己。",
+  "pinyin": "Zài zhège dà jiātíng lǐ, hěn duō shì tā dōu shēnbùyóujǐ.",
+  "english": "In this big family, he often has no choice but to go along with things."
+ },
+ {
+  "nid": 1708747515105,
+  "word": "捧场",
+  "sentence": "朋友开的新餐厅开业，我们都去捧场。",
+  "pinyin": "Péngyou kāi de xīn cāntīng kāiyè, wǒmen dōu qù pěngchǎng.",
+  "english": "A friend's new restaurant opened, so we all went to show our support."
+ },
+ {
+  "nid": 1708747515160,
+  "word": "贴切",
+  "sentence": "他用了一个非常贴切的比喻来解释这个概念。",
+  "pinyin": "Tā yòng le yī gè fēicháng tiēqiè de bǐyù lái jiěshì zhège gàiniàn.",
+  "english": "He used a very apt metaphor to explain this concept."
+ },
+ {
+  "nid": 1708747515216,
+  "word": "继父",
+  "sentence": "她很少提起自己的继父。",
+  "pinyin": "Tā hěn shǎo tíqǐ zìjǐ de jìfù.",
+  "english": "She rarely mentions her stepfather."
+ },
+ {
+  "nid": 1708747515229,
+  "word": "井底之蛙",
+  "sentence": "出国以后他才发现自己以前就是个井底之蛙。",
+  "pinyin": "Chūguó yǐhòu tā cái fāxiàn zìjǐ yǐqián jiùshì gè jǐngdǐzhīwā.",
+  "english": "Only after going abroad did he realize that he used to be like a frog at the bottom of a well."
+ },
+ {
+  "nid": 1708747515281,
+  "word": "一举两得",
+  "sentence": "骑车上班既能省钱又能锻炼身体，真是一举两得。",
+  "pinyin": "Qí chē shàngbān jì néng shěngqián yòu néng duànliàn shēntǐ, zhēnshì yījǔliǎngdé.",
+  "english": "Biking to work saves money and exercises the body -- it really kills two birds with one stone."
+ },
+ {
+  "nid": 1708747515295,
+  "word": "孝敬",
+  "sentence": "他每个月都拿出工资孝敬父母。",
+  "pinyin": "Tā měi gè yuè dōu ná chū gōngzī xiàojìng fùmǔ.",
+  "english": "Every month he sets aside part of his salary to support his parents out of filial respect."
+ },
+ {
+  "nid": 1708747515297,
+  "word": "穴位",
+  "sentence": "医生用手指按压他肩上的穴位。",
+  "pinyin": "Yīshēng yòng shǒuzhǐ ànyā tā jiān shàng de xuéwèi.",
+  "english": "The doctor pressed the acupuncture point on his shoulder with a finger."
+ },
+ {
+  "nid": 1708747515318,
+  "word": "脱节",
+  "sentence": "学校教育不能与社会需求脱节。",
+  "pinyin": "Xuéxiào jiàoyù bùnéng yǔ shèhuì xūqiú tuōjié.",
+  "english": "School education must not become disconnected from society's needs."
+ },
+ {
+  "nid": 1708747515344,
+  "word": "鸟巢",
+  "sentence": "一对喜鹊在树上筑了一个鸟巢。",
+  "pinyin": "Yī duì xǐquè zài shù shàng zhù le yī gè niǎocháo.",
+  "english": "A pair of magpies built a nest in the tree."
+ },
+ {
+  "nid": 1708747515387,
+  "word": "翻天覆地",
+  "sentence": "这十年间，这座城市发生了翻天覆地的变化。",
+  "pinyin": "Zhè shí nián jiān, zhè zuò chéngshì fāshēng le fāntiānfùdì de biànhuà.",
+  "english": "Over these ten years, this city has undergone earth-shaking changes."
+ },
+ {
+  "nid": 1708747515485,
+  "word": "络绎不绝",
+  "sentence": "每逢周末，公园里游客络绎不绝。",
+  "pinyin": "Měi féng zhōumò, gōngyuán lǐ yóukè luòyìbùjué.",
+  "english": "Every weekend, an endless stream of visitors comes to the park."
+ },
+ {
+  "nid": 1708747515539,
+  "word": "家喻户晓",
+  "sentence": "这个品牌在中国早已家喻户晓。",
+  "pinyin": "Zhège pǐnpái zài Zhōngguó zǎoyǐ jiāyùhùxiǎo.",
+  "english": "This brand has long been a household name in China."
+ },
+ {
+  "nid": 1708747515560,
+  "word": "祸害",
+  "sentence": "这种化学物质会祸害周边的环境。",
+  "pinyin": "Zhè zhǒng huàxué wùzhì huì huòhài zhōubiān de huánjìng.",
+  "english": "This chemical substance will harm the surrounding environment."
+ },
+ {
+  "nid": 1708747515627,
+  "word": "刁难",
+  "sentence": "办事人员故意刁难前来办证的市民。",
+  "pinyin": "Bànshì rényuán gùyì diāonàn qián lái bàn zhèng de shìmín.",
+  "english": "The clerk deliberately made things difficult for citizens who came to process their documents."
+ },
+ {
+  "nid": 1708747515695,
+  "word": "谋害",
+  "sentence": "有人怀疑他谋害了自己的合伙人。",
+  "pinyin": "Yǒu rén huáiyí tā móuhài le zìjǐ de héhuǒrén.",
+  "english": "Some people suspect he plotted to murder his business partner."
+ },
+ {
+  "nid": 1708747515720,
+  "word": "化险为夷",
+  "sentence": "幸亏机长处理得当，飞机才化险为夷。",
+  "pinyin": "Xìngkuī jīzhǎng chǔlǐ dédàng, fēijī cái huàxiǎnwéiyí.",
+  "english": "Fortunately the captain handled it properly, and the plane managed to avert disaster."
+ },
+ {
+  "nid": 1708747515742,
+  "word": "默默无闻",
+  "sentence": "他在这个岗位上默默无闻地工作了三十年。",
+  "pinyin": "Tā zài zhège gǎngwèi shàng mòmòwúwén de gōngzuò le sānshí nián.",
+  "english": "He worked in this position in obscurity for thirty years."
+ },
+ {
+  "nid": 1708747515752,
+  "word": "萌发",
+  "sentence": "春天一到，树枝上就萌发了嫩芽。",
+  "pinyin": "Chūntiān yī dào, shùzhī shàng jiù méngfā le nènyá.",
+  "english": "As soon as spring arrives, tender buds sprout on the branches."
+ },
+ {
+  "nid": 1708747515769,
+  "word": "泄密",
+  "sentence": "那名员工因为向媒体泄密而被公司解雇。",
+  "pinyin": "Nà míng yuángōng yīnwèi xiàng méitǐ xièmì ér bèi gōngsī jiěgù.",
+  "english": "That employee was fired by the company for leaking secrets to the media."
+ },
+ {
+  "nid": 1708747515781,
+  "word": "祭奠",
+  "sentence": "清明节那天，大家去墓地祭奠祖先。",
+  "pinyin": "Qīngmíngjié nà tiān, dàjiā qù mùdì jìdiàn zǔxiān.",
+  "english": "On Qingming Festival, everyone goes to the cemetery to honor their ancestors."
+ },
+ {
+  "nid": 1708747515825,
+  "word": "切记",
+  "sentence": "开车的时候切记不要看手机。",
+  "pinyin": "Kāichē de shíhou qièjì búyào kàn shǒujī.",
+  "english": "When driving, always remember not to look at your phone."
+ },
+ {
+  "nid": 1708747515832,
+  "word": "珍重",
+  "sentence": "老师在信的最后叮嘱我们要多多珍重。",
+  "pinyin": "Lǎoshī zài xìn de zuìhòu dīngzhǔ wǒmen yào duōduō zhēnzhòng.",
+  "english": "At the end of the letter, the teacher urged us to take good care of ourselves."
+ },
+ {
+  "nid": 1708747515843,
+  "word": "灵通",
+  "sentence": "他消息灵通，总能比别人先知道公司的新闻。",
+  "pinyin": "Tā xiāoxi língtōng, zǒng néng bǐ biéren xiān zhīdào gōngsī de xīnwén.",
+  "english": "He's very well-informed and always finds out company news before everyone else."
+ },
+ {
+  "nid": 1708747516041,
+  "word": "叫好",
+  "sentence": "演员精彩的表演让观众连连叫好。",
+  "pinyin": "Yǎnyuán jīngcǎi de biǎoyǎn ràng guānzhòng liánlián jiàohǎo.",
+  "english": "The actor's wonderful performance had the audience cheering again and again."
+ },
+ {
+  "nid": 1708747516060,
+  "word": "钻空子",
+  "sentence": "一些商家钻空子，逃避应缴的税款。",
+  "pinyin": "Yīxiē shāngjiā zuānkòngzi, táobì yīng jiǎo de shuìkuǎn.",
+  "english": "Some businesses exploit loopholes to evade the taxes they owe."
+ },
+ {
+  "nid": 1708747516086,
+  "word": "借条",
+  "sentence": "他向朋友借钱，写了一张借条。",
+  "pinyin": "Tā xiàng péngyou jiè qián, xiě le yī zhāng jiètiáo.",
+  "english": "He borrowed money from a friend and wrote him an IOU."
+ },
+ {
+  "nid": 1708747516090,
+  "word": "欠条",
+  "sentence": "他没还钱，只留下一张欠条。",
+  "pinyin": "Tā méi huán qián, zhǐ liú xià yī zhāng qiàntiáo.",
+  "english": "He didn't repay the money, only left behind an IOU."
+ },
+ {
+  "nid": 1708747516110,
+  "word": "勤快",
+  "sentence": "她每天早起打扫房间，非常勤快。",
+  "pinyin": "Tā měitiān zǎoqǐ dǎsǎo fángjiān, fēicháng qínkuài.",
+  "english": "She gets up early every day to tidy her room; she's very hardworking."
+ },
+ {
+  "nid": 1708747516140,
+  "word": "诉苦",
+  "sentence": "她经常跟朋友诉苦，说工作太累。",
+  "pinyin": "Tā jīngcháng gēn péngyou sùkǔ, shuō gōngzuò tài lèi.",
+  "english": "She often complains to friends that work is too exhausting."
+ },
+ {
+  "nid": 1708747516192,
+  "word": "揣摩",
+  "sentence": "他反复揣摩老板的话，猜测真实意思。",
+  "pinyin": "Tā fǎnfù chuǎimó lǎobǎn de huà, cāicè zhēnshí yìsi.",
+  "english": "He repeatedly turned his boss's words over in his mind, trying to guess the real meaning."
+ },
+ {
+  "nid": 1708747516197,
+  "word": "树荫",
+  "sentence": "夏天大家喜欢坐在树荫下乘凉。",
+  "pinyin": "Xiàtiān dàjiā xǐhuan zuò zài shùyìn xià chéngliáng.",
+  "english": "In summer everyone likes to sit in the shade of a tree to cool off."
+ },
+ {
+  "nid": 1708747516216,
+  "word": "冷门",
+  "sentence": "他选择了一个冷门专业，很少人报考。",
+  "pinyin": "Tā xuǎnzé le yī gè lěngmén zhuānyè, hěn shǎo rén bàokǎo.",
+  "english": "He chose an obscure major that few people apply for."
+ },
+ {
+  "nid": 1708747516234,
+  "word": "略微",
+  "sentence": "今天的气温比昨天略微高一些。",
+  "pinyin": "Jīntiān de qìwēn bǐ zuótiān lüèwēi gāo yīxiē.",
+  "english": "Today's temperature is slightly higher than yesterday's."
+ },
+ {
+  "nid": 1708747516235,
+  "word": "酷似",
+  "sentence": "这个孩子的长相酷似他的父亲。",
+  "pinyin": "Zhège háizi de zhǎngxiàng kùsì tā de fùqin.",
+  "english": "This child's appearance strikingly resembles his father's."
+ },
+ {
+  "nid": 1708747516261,
+  "word": "好胜",
+  "sentence": "他好胜心很强，比赛输了很不甘心。",
+  "pinyin": "Tā hàoshèngxīn hěn qiáng, bǐsài shū le hěn bù gānxīn.",
+  "english": "He's very competitive, and he was quite unwilling to accept it when he lost the match."
+ },
+ {
+  "nid": 1708747516293,
+  "word": "畅谈",
+  "sentence": "老朋友重逢，畅谈这些年的经历。",
+  "pinyin": "Lǎo péngyou chóngféng, chàngtán zhèxiē nián de jīnglì.",
+  "english": "Old friends reunited and talked freely about their experiences over the years."
+ },
+ {
+  "nid": 1708747516317,
+  "word": "崎岖",
+  "sentence": "这条山路崎岖不平，很难行走。",
+  "pinyin": "Zhè tiáo shānlù qíqū bùpíng, hěn nán xíngzǒu.",
+  "english": "This mountain road is rugged and uneven, very difficult to walk on."
+ },
+ {
+  "nid": 1708747516330,
+  "word": "酿造",
+  "sentence": "这家工厂专门酿造传统的米酒。",
+  "pinyin": "Zhè jiā gōngchǎng zhuānmén niàngzào chuántǒng de mǐjiǔ.",
+  "english": "This factory specializes in brewing traditional rice wine."
+ },
+ {
+  "nid": 1708747516341,
+  "word": "表率",
+  "sentence": "班长应该给同学们做好表率。",
+  "pinyin": "Bānzhǎng yīnggāi gěi tóngxuémen zuò hǎo biǎoshuài.",
+  "english": "The class monitor should set a good example for the other students."
+ },
+ {
+  "nid": 1708747516682,
+  "word": "笼统",
+  "sentence": "他的回答太笼统，没有具体细节。",
+  "pinyin": "Tā de huídá tài lǒngtǒng, méiyǒu jùtǐ xìjié.",
+  "english": "His answer was too vague and lacked specific details."
+ },
+ {
+  "nid": 1708747516712,
+  "word": "提速",
+  "sentence": "铁路部门决定给这条线路提速。",
+  "pinyin": "Tiělù bùmén juédìng gěi zhè tiáo xiànlù tísù.",
+  "english": "The railway authority decided to increase the speed on this line."
+ },
+ {
+  "nid": 1708747516730,
+  "word": "物色",
+  "sentence": "公司正在物色一位新的总经理。",
+  "pinyin": "Gōngsī zhèngzài wùsè yī wèi xīn de zǒngjīnglǐ.",
+  "english": "The company is currently looking for a new general manager."
+ },
+ {
+  "nid": 1708747516755,
+  "word": "碧绿",
+  "sentence": "湖水碧绿，倒映着远处的青山。",
+  "pinyin": "Húshuǐ bìlǜ, dàoyìng zhe yuǎnchù de qīngshān.",
+  "english": "The lake water was a deep green, reflecting the distant blue mountains."
+ },
+ {
+  "nid": 1708747516793,
+  "word": "掏腰包",
+  "sentence": "这次聚餐是他自己掏腰包请客的。",
+  "pinyin": "Zhè cì jùcān shì tā zìjǐ tāoyāobāo qǐngkè de.",
+  "english": "This meal was one he paid for out of his own pocket to treat everyone."
+ },
+ {
+  "nid": 1708747516817,
+  "word": "鉴赏",
+  "sentence": "他很喜欢鉴赏古代的书画作品。",
+  "pinyin": "Tā hěn xǐhuan jiànshǎng gǔdài de shūhuà zuòpǐn.",
+  "english": "He greatly enjoys appreciating ancient paintings and calligraphy."
+ },
+ {
+  "nid": 1708747516827,
+  "word": "急迫",
+  "sentence": "目前最急迫的任务是找到水源。",
+  "pinyin": "Mùqián zuì jípò de rènwu shì zhǎodào shuǐyuán.",
+  "english": "The most urgent task right now is to find a water source."
+ },
+ {
+  "nid": 1708747516863,
+  "word": "招揽",
+  "sentence": "商店打折是为了招揽更多顾客。",
+  "pinyin": "Shāngdiàn dǎzhé shì wèile zhāolǎn gèng duō gùkè.",
+  "english": "The store's discounts are meant to attract more customers."
+ },
+ {
+  "nid": 1708747516872,
+  "word": "器重",
+  "sentence": "经理很器重他，把重要项目交给他。",
+  "pinyin": "Jīnglǐ hěn qìzhòng tā, bǎ zhòngyào xiàngmù jiāo gěi tā.",
+  "english": "The manager thinks highly of him and entrusted him with an important project."
+ },
+ {
+  "nid": 1708747516985,
+  "word": "特此",
+  "sentence": "学校决定放假三天，特此通知。",
+  "pinyin": "Xuéxiào juédìng fàngjià sān tiān, tècǐ tōngzhī.",
+  "english": "The school has decided to close for three days; this is to notify you hereby."
+ },
+ {
+  "nid": 1708747517015,
+  "word": "即日",
+  "sentence": "新规定即日起在全国正式实施。",
+  "pinyin": "Xīn guīdìng jírì qǐ zài quánguó zhèngshì shíshī.",
+  "english": "The new regulation officially takes effect nationwide starting this very day."
+ },
+ {
+  "nid": 1708747517513,
+  "word": "娇惯",
+  "sentence": "爷爷奶奶总是娇惯这个孙子。",
+  "pinyin": "Yéye nǎinai zǒngshì jiāoguàn zhège sūnzi.",
+  "english": "Grandpa and grandma always spoil this grandson."
+ },
+ {
+  "nid": 1708747517586,
+  "word": "与日俱增",
+  "sentence": "随着经济发展，城市人口与日俱增。",
+  "pinyin": "Suízhe jīngjì fāzhǎn, chéngshì rénkǒu yǔrìjùzēng.",
+  "english": "As the economy develops, the city's population keeps growing day by day."
+ },
+ {
+  "nid": 1708747517590,
+  "word": "不辞而别",
+  "sentence": "他没跟任何人商量，就不辞而别了。",
+  "pinyin": "Tā méi gēn rènhé rén shāngliang, jiù bùcíérbié le.",
+  "english": "He left without saying goodbye to anyone, without consulting a soul."
+ },
+ {
+  "nid": 1708747517596,
+  "word": "浅显",
+  "sentence": "老师用浅显的语言解释这个道理。",
+  "pinyin": "Lǎoshī yòng qiǎnxiǎn de yǔyán jiěshì zhège dàolǐ.",
+  "english": "The teacher explained this principle in plain language."
+ },
+ {
+  "nid": 1708747517612,
+  "word": "民居",
+  "sentence": "古城里保存着许多明清民居。",
+  "pinyin": "Gǔchéng lǐ bǎocún zhe xǔduō Míng Qīng mínjū.",
+  "english": "Many Ming- and Qing-dynasty houses are preserved in the old town."
+ },
+ {
+  "nid": 1708747517634,
+  "word": "仙鹤",
+  "sentence": "公园的池塘边站着一只仙鹤。",
+  "pinyin": "Gōngyuán de chítáng biān zhàn zhe yī zhī xiānhè.",
+  "english": "A red-crowned crane stands by the park's pond."
+ },
+ {
+  "nid": 1708747517671,
+  "word": "大雁",
+  "sentence": "秋天到了，大雁开始往南方飞。",
+  "pinyin": "Qiūtiān dào le, dàyàn kāishǐ wǎng nánfāng fēi.",
+  "english": "Autumn has arrived, and the wild geese are starting to fly south."
+ },
+ {
+  "nid": 1708747517681,
+  "word": "绝缘",
+  "sentence": "生病以后，他几乎与外界绝缘。",
+  "pinyin": "Shēngbìng yǐhòu, tā jīhū yǔ wàijiè juéyuán.",
+  "english": "After falling ill, he became almost completely cut off from the outside world."
+ },
+ {
+  "nid": 1708747518188,
+  "word": "观摩",
+  "sentence": "老师组织学生去外校观摩教学。",
+  "pinyin": "Lǎoshī zǔzhī xuésheng qù wàixiào guānmó jiàoxué.",
+  "english": "The teacher organized students to visit another school to observe and learn from its teaching."
+ },
+ {
+  "nid": 1708747518395,
+  "word": "排查",
+  "sentence": "消防人员正在排查小区的安全隐患。",
+  "pinyin": "Xiāofáng rényuán zhèngzài páichá xiǎoqū de ānquán yǐnhuàn.",
+  "english": "Fire safety personnel are inspecting the residential complex for safety hazards."
+ },
+ {
+  "nid": 1708747518559,
+  "word": "宫廷",
+  "sentence": "这部电视剧讲述了古代宫廷的故事。",
+  "pinyin": "Zhè bù diànshìjù jiǎngshù le gǔdài gōngtíng de gùshi.",
+  "english": "This TV drama tells a story about an ancient royal court."
+ },
+ {
+  "nid": 1708747518659,
+  "word": "忌妒",
+  "sentence": "她很忌妒同事升职加薪。",
+  "pinyin": "Tā hěn jìdu tóngshì shēngzhí jiāxīn.",
+  "english": "She is very jealous of her colleague getting promoted and a raise."
+ },
+ {
+  "nid": 1708747518727,
+  "word": "诉诸",
+  "sentence": "双方无法达成协议，只好诉诸法律。",
+  "pinyin": "Shuāngfāng wúfǎ dáchéng xiéyì, zhǐhǎo sùzhū fǎlǜ.",
+  "english": "The two sides couldn't reach an agreement and had to resort to legal action."
+ },
+ {
+  "nid": 1708747518833,
+  "word": "求证",
+  "sentence": "记者正在向多个部门求证这个消息。",
+  "pinyin": "Jìzhě zhèngzài xiàng duō gè bùmén qiúzhèng zhège xiāoxi.",
+  "english": "The reporter is trying to confirm this news with several departments."
+ },
+ {
+  "nid": 1708747518839,
+  "word": "铺路",
+  "sentence": "这次实习是为他未来的工作铺路。",
+  "pinyin": "Zhè cì shíxí shì wèi tā wèilái de gōngzuò pūlù.",
+  "english": "This internship is meant to lay the groundwork for his future career."
+ },
+ {
+  "nid": 1708747519496,
+  "word": "节气",
+  "sentence": "立春是二十四节气中的第一个。",
+  "pinyin": "Lìchūn shì èrshísì jiéqi zhōng de dì yī gè.",
+  "english": "Start of Spring is the first of the twenty-four solar terms."
+ },
+ {
+  "nid": 1708747519748,
+  "word": "入场券",
+  "sentence": "没有入场券的观众不能进入体育馆。",
+  "pinyin": "Méiyǒu rùchǎngquàn de guānzhòng bùnéng jìnrù tǐyùguǎn.",
+  "english": "Spectators without admission tickets cannot enter the stadium."
+ },
+ {
+  "nid": 1708747519827,
+  "word": "拜会",
+  "sentence": "外交部长今天拜会了当地的官员。",
+  "pinyin": "Wàijiāo bùzhǎng jīntiān bàihuì le dāngdì de guānyuán.",
+  "english": "The foreign minister paid an official visit to local officials today."
+ },
+ {
+  "nid": 1708747519898,
+  "word": "存折",
+  "sentence": "她去银行办理了一本新存折。",
+  "pinyin": "Tā qù yínháng bànlǐ le yī běn xīn cúnzhé.",
+  "english": "She went to the bank and opened a new passbook."
+ },
+ {
+  "nid": 1708747519907,
+  "word": "按说",
+  "sentence": "按说这个季节应该下雨才对。",
+  "pinyin": "Ànshuō zhège jìjié yīnggāi xiàyǔ cái duì.",
+  "english": "Normally it ought to be raining during this season."
+ },
+ {
+  "nid": 1708747519974,
+  "word": "波折",
+  "sentence": "这段婚姻经历了不少波折。",
+  "pinyin": "Zhè duàn hūnyīn jīnglì le bùshǎo bōzhé.",
+  "english": "This marriage has gone through quite a few twists and turns."
+ },
+ {
+  "nid": 1708747520032,
+  "word": "损人利己",
+  "sentence": "这种损人利己的做法遭到大家批评。",
+  "pinyin": "Zhè zhǒng sǔnrénlìjǐ de zuòfǎ zāodào dàjiā pīpíng.",
+  "english": "This kind of self-serving behavior that harms others has been criticized by everyone."
+ },
+ {
+  "nid": 1708747520095,
+  "word": "输液",
+  "sentence": "医生让他住院输液治疗感冒。",
+  "pinyin": "Yīshēng ràng tā zhùyuàn shūyè zhìliáo gǎnmào.",
+  "english": "The doctor had him stay in the hospital on an IV to treat his cold."
+ },
+ {
+  "nid": 1708747520228,
+  "word": "烘托",
+  "sentence": "画家用深色背景烘托花朵的鲜艳。",
+  "pinyin": "Huàjiā yòng shēnsè bèijǐng hōngtuō huāduǒ de xiānyàn.",
+  "english": "The painter used a dark background to set off the vividness of the flowers."
+ },
+ {
+  "nid": 1708747520289,
+  "word": "鲜美",
+  "sentence": "这碗汤味道鲜美，大家都喜欢喝。",
+  "pinyin": "Zhè wǎn tāng wèidào xiānměi, dàjiā dōu xǐhuan hē.",
+  "english": "This bowl of soup tastes delicious, and everyone loves drinking it."
+ },
+ {
+  "nid": 1708747520343,
+  "word": "通畅",
+  "sentence": "手术后他的呼吸恢复了通畅。",
+  "pinyin": "Shǒushù hòu tā de hūxī huīfù le tōngchàng.",
+  "english": "After the surgery, his breathing became unobstructed again."
+ },
+ {
+  "nid": 1708747520346,
+  "word": "如痴如醉",
+  "sentence": "观众听着音乐会，如痴如醉。",
+  "pinyin": "Guānzhòng tīng zhe yīnyuèhuì, rúchīrúzuì.",
+  "english": "The audience listened to the concert, utterly enthralled."
+ },
+ {
+  "nid": 1708747520351,
+  "word": "避让",
+  "sentence": "遇到救护车，所有车辆都要避让。",
+  "pinyin": "Yùdào jiùhùchē, suǒyǒu chēliàng dōu yào bìràng.",
+  "english": "When an ambulance approaches, all vehicles must yield."
+ },
+ {
+  "nid": 1708747520417,
+  "word": "哭笑不得",
+  "sentence": "他的借口太离谱，让人哭笑不得。",
+  "pinyin": "Tā de jièkǒu tài lípǔ, ràng rén kūxiàobùdé.",
+  "english": "His excuse was so absurd that people didn't know whether to laugh or cry."
+ },
+ {
+  "nid": 1708747520426,
+  "word": "走弯路",
+  "sentence": "有了老师指导，我们少走弯路。",
+  "pinyin": "Yǒu le lǎoshī zhǐdǎo, wǒmen shǎo zǒu wānlù.",
+  "english": "With the teacher's guidance, we take fewer wrong turns."
+ },
+ {
+  "nid": 1708747520468,
+  "word": "鹤立鸡群",
+  "sentence": "她穿着礼服，在人群中鹤立鸡群。",
+  "pinyin": "Tā chuān zhe lǐfú, zài rénqún zhōng hèlìjīqún.",
+  "english": "Wearing a formal gown, she stood out from the crowd like a crane among chickens."
+ },
+ {
+  "nid": 1708747520482,
+  "word": "写照",
+  "sentence": "这部小说是当代生活的真实写照。",
+  "pinyin": "Zhè bù xiǎoshuō shì dāngdài shēnghuó de zhēnshí xiězhào.",
+  "english": "This novel is a true portrayal of contemporary life."
+ },
+ {
+  "nid": 1708747520567,
+  "word": "推敲",
+  "sentence": "写文章之前要反复推敲用词。",
+  "pinyin": "Xiě wénzhāng zhīqián yào fǎnfù tuīqiāo yòngcí.",
+  "english": "Before writing an essay, one must carefully weigh word choices repeatedly."
+ },
+ {
+  "nid": 1708747520640,
+  "word": "筛查",
+  "sentence": "医院为老人免费筛查心脏疾病。",
+  "pinyin": "Yīyuàn wèi lǎorén miǎnfèi shāichá xīnzàng jíbìng.",
+  "english": "The hospital offers free heart disease screening for the elderly."
+ },
+ {
+  "nid": 1708747520651,
+  "word": "夸夸其谈",
+  "sentence": "他总是夸夸其谈，却从不实际行动。",
+  "pinyin": "Tā zǒngshì kuākuāqítán, què cóng bù shíjì xíngdòng.",
+  "english": "He is always talking big but never actually does anything."
+ },
+ {
+  "nid": 1708747520652,
+  "word": "犯愁",
+  "sentence": "孩子的教育问题让父母犯愁。",
+  "pinyin": "Háizi de jiàoyù wèntí ràng fùmǔ fànchóu.",
+  "english": "The problem of the child's education worries the parents."
+ },
+ {
+  "nid": 1708747521900,
+  "word": "根治",
+  "sentence": "这种慢性病很难彻底根治。",
+  "pinyin": "Zhè zhǒng mànxìngbìng hěn nán chèdǐ gēnzhì.",
+  "english": "This chronic illness is very hard to completely cure."
+ },
+ {
+  "nid": 1708747522120,
+  "word": "就诊",
+  "sentence": "发烧的病人请到二楼就诊。",
+  "pinyin": "Fāshāo de bìngrén qǐng dào èr lóu jiùzhěn.",
+  "english": "Patients with fever, please go to the second floor to see a doctor."
+ },
+ {
+  "nid": 1708747522344,
+  "word": "床位",
+  "sentence": "这家医院的床位已经全部满了。",
+  "pinyin": "Zhè jiā yīyuàn de chuángwèi yǐjīng quánbù mǎn le.",
+  "english": "This hospital's beds are all already full."
+ },
+ {
+  "nid": 1708747522491,
+  "word": "说情",
+  "sentence": "他犯了错，朋友都来帮他说情。",
+  "pinyin": "Tā fàn le cuò, péngyou dōu lái bāng tā shuōqíng.",
+  "english": "He made a mistake, and his friends all came to plead on his behalf."
+ },
+ {
+  "nid": 1708747523210,
+  "word": "引荐",
+  "sentence": "老教授把他引荐给知名的公司。",
+  "pinyin": "Lǎo jiàoshòu bǎ tā yǐnjiàn gěi zhīmíng de gōngsī.",
+  "english": "The old professor recommended him to a well-known company."
+ },
+ {
+  "nid": 1708747523212,
+  "word": "一晃",
+  "sentence": "一晃十年过去了，孩子都长大了。",
+  "pinyin": "Yīhuǎng shí nián guòqù le, háizi dōu zhǎngdà le.",
+  "english": "A decade has flown by in the blink of an eye, and the children have all grown up."
+ },
+ {
+  "nid": 1708747523437,
+  "word": "亏本",
+  "sentence": "这家店最近生意亏本，快关门了。",
+  "pinyin": "Zhè jiā diàn zuìjìn shēngyi kuīběn, kuài guānmén le.",
+  "english": "This shop's business has been losing money lately, and it's about to close."
+ },
+ {
+  "nid": 1708747524023,
+  "word": "一概而论",
+  "sentence": "每个学生情况不同，不能一概而论。",
+  "pinyin": "Měi gè xuésheng qíngkuàng bùtóng, bùnéng yīgàiérlùn.",
+  "english": "Every student's situation is different, so you can't lump them all together."
+ },
+ {
+  "nid": 1708747524330,
+  "word": "旭日",
+  "sentence": "旭日从山后慢慢升了起来。",
+  "pinyin": "Xùrì cóng shān hòu mànmàn shēng le qǐlái.",
+  "english": "The rising sun slowly climbed up from behind the mountain."
+ },
+ {
+  "nid": 1708747524585,
+  "word": "夜以继日",
+  "sentence": "工人们夜以继日地抢修受损的堤坝。",
+  "pinyin": "Gōngrénmen yèyǐjìrì de qiǎngxiū shòusǔn de dībà.",
+  "english": "The workers worked around the clock repairing the damaged levee."
+ },
+ {
+  "nid": 1708747524597,
+  "word": "哺育",
+  "sentence": "这条河哺育了两岸的世代居民。",
+  "pinyin": "Zhè tiáo hé bǔyù le liǎng'àn de shìdài jūmín.",
+  "english": "This river has nourished generations of residents on both its banks."
+ },
+ {
+  "nid": 1708747527015,
+  "word": "架势",
+  "sentence": "他说话的架势，好像很懂行。",
+  "pinyin": "Tā shuōhuà de jiàshi, hǎoxiàng hěn dǒngháng.",
+  "english": "The way he talks, with that air of his, makes him seem like an expert."
+ },
+ {
+  "nid": 1708747527318,
+  "word": "哗然",
+  "sentence": "消息一出，网上顿时哗然。",
+  "pinyin": "Xiāoxi yī chū, wǎngshàng dùnshí huárán.",
+  "english": "As soon as the news broke, there was an immediate uproar online."
+ },
+ {
+  "nid": 1708747527332,
+  "word": "没劲",
+  "sentence": "这个游戏太没劲了，我不想玩了。",
+  "pinyin": "Zhège yóuxì tài méijìn le, wǒ bùxiǎng wán le.",
+  "english": "This game is so boring that I don't want to play it anymore."
+ },
+ {
+  "nid": 1710963495131,
+  "word": "嗓音",
+  "sentence": "她的嗓音很好听，适合唱歌。",
+  "pinyin": "Tā de sǎngyīn hěn hǎotīng, shìhé chànggē.",
+  "english": "Her voice sounds lovely, well suited to singing."
+ },
+ {
+  "nid": 1717270474253,
+  "word": "楷模",
+  "sentence": "这位科学家是年轻人学习的楷模。",
+  "pinyin": "Zhè wèi kēxuéjiā shì niánqīngrén xuéxí de kǎimó.",
+  "english": "This scientist is a role model for young people to learn from."
+ },
+ {
+  "nid": 1717270479023,
+  "word": "蛀牙",
+  "sentence": "他常吃糖，长了好几颗蛀牙。",
+  "pinyin": "Tā cháng chī táng, zhǎng le hǎojǐ kē zhùyá.",
+  "english": "He often eats sweets and has developed several cavities."
+ },
+ {
+  "nid": 1717270479060,
+  "word": "爆满",
+  "sentence": "电影院今晚座位爆满，一票难求。",
+  "pinyin": "Diànyǐngyuàn jīnwǎn zuòwèi bàomǎn, yī piào nán qiú.",
+  "english": "The cinema's seats are packed full tonight; tickets are hard to come by."
+ },
+ {
+  "nid": 1717270484332,
+  "word": "风雨无阻",
+  "sentence": "他每天坚持跑步，风雨无阻。",
+  "pinyin": "Tā měitiān jiānchí pǎobù, fēngyǔwúzǔ.",
+  "english": "He insists on running every day, rain or shine."
+ },
+ {
+  "nid": 1717270485707,
+  "word": "佳节",
+  "sentence": "春节是中国人团聚的佳节。",
+  "pinyin": "Chūnjié shì Zhōngguórén tuánjù de jiājié.",
+  "english": "Spring Festival is a joyous holiday for Chinese people to reunite."
+ },
+ {
+  "nid": 1717270486197,
+  "word": "公职",
+  "sentence": "他辞去公职，开始自己创业。",
+  "pinyin": "Tā cíqù gōngzhí, kāishǐ zìjǐ chuàngyè.",
+  "english": "He resigned from his government job and started his own business."
+ },
+ {
+  "nid": 1717270489157,
+  "word": "怠工",
+  "sentence": "工人们用怠工的方式表达不满。",
+  "pinyin": "Gōngrénmen yòng dàigōng de fāngshì biǎodá bùmǎn.",
+  "english": "The workers expressed their discontent by deliberately slowing down their work."
+ }
+]

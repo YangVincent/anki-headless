@@ -38,9 +38,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", default=f"{ROOT}/collection.anki2")
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--entries", default="hsk_sentences.json",
+                    help="authored sentences, relative to freq_data/")
+    ap.add_argument("--deck", default="HSK", help="deck checked by the final verification")
     args = ap.parse_args()
 
-    entries = json.load(open(f"{ROOT}/freq_data/hsk_sentences.json"))
+    entries = json.load(open(f"{ROOT}/freq_data/{args.entries}"))
     cc = OpenCC("s2tw")  # s2t picks 喫/爲/裏, which this deck does not use
     col = Collection(args.db)
     try:
@@ -82,7 +85,7 @@ def main():
             print(f"\nverify: cards {cards_before} -> {cards_after} "
                   f"({'OK, none created' if cards_after == cards_before else 'CARDS CHANGED'})")
             still = 0
-            for cid in col.decks.cids(col.decks.id_for_name("HSK"), children=True):
+            for cid in col.decks.cids(col.decks.id_for_name(args.deck), children=True):
                 n = col.get_note(col.get_card(cid).nid)
                 IX = {f["name"]: i for i, f in enumerate(n.note_type()["flds"])}
                 if "SentencePinyin" not in IX:
@@ -90,7 +93,7 @@ def main():
                 if strip_html(n.fields[IX["SentenceSimplified"]]) and \
                         not strip_html(n.fields[IX["SentencePinyin"]]):
                     still += 1
-            print(f"verify: HSK notes with a sentence but no pinyin: {still} (want 0)")
+            print(f"verify: {args.deck} notes with a sentence but no pinyin: {still} (want 0)")
         else:
             print("DRY-RUN — nothing written.")
     finally:
