@@ -57,7 +57,7 @@ def main():
     ap.add_argument("--apply", action="store_true")
     args = ap.parse_args()
 
-    cc = OpenCC("s2t")
+    cc = OpenCC("s2tw")
     col = Collection(args.db)
     try:
         cv = col.models.by_name("ChineseVocabulary")

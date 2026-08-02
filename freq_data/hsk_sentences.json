@@ -1,0 +1,5063 @@
+[
+ {
+  "nid": 1393817666423,
+  "word": "脱",
+  "sentence": "天气热了，他脱了外套。",
+  "pinyin": "Tiānqì rè le, tā tuō le wàitào.",
+  "english": "It got hot, so he took off his jacket."
+ },
+ {
+  "nid": 1393817667191,
+  "word": "摸",
+  "sentence": "她伸手摸了摸小猫的头。",
+  "pinyin": "Tā shēnshǒu mō le mō xiǎomāo de tóu.",
+  "english": "She reached out and stroked the kitten's head."
+ },
+ {
+  "nid": 1393817667327,
+  "word": "蹲",
+  "sentence": "他蹲在地上系鞋带。",
+  "pinyin": "Tā dūn zài dì shàng jì xiédài.",
+  "english": "He squatted down to tie his shoelaces."
+ },
+ {
+  "nid": 1393817667337,
+  "word": "唉",
+  "sentence": "唉，我又忘带钥匙了。",
+  "pinyin": "Āi, wǒ yòu wàng dài yàoshi le.",
+  "english": "Oh well, I forgot my keys again."
+ },
+ {
+  "nid": 1393817667748,
+  "word": "冰激凌",
+  "sentence": "夏天我最喜欢吃冰激凌。",
+  "pinyin": "Xiàtiān wǒ zuì xǐhuan chī bīngjīlíng.",
+  "english": "In summer I like eating ice cream the most."
+ },
+ {
+  "nid": 1393817667988,
+  "word": "小气",
+  "sentence": "他很小气，从来不请客吃饭。",
+  "pinyin": "Tā hěn xiǎoqì, cónglái bù qǐngkè chīfàn.",
+  "english": "He's stingy and never treats people to a meal."
+ },
+ {
+  "nid": 1393817668044,
+  "word": "不耐烦",
+  "sentence": "他等了很久，变得不耐烦了。",
+  "pinyin": "Tā děng le hěn jiǔ, biàn de búnàifán le.",
+  "english": "He waited for a long time and became impatient."
+ },
+ {
+  "nid": 1393817668049,
+  "word": "时差",
+  "sentence": "他刚到美国，还没倒过时差。",
+  "pinyin": "Tā gāng dào Měiguó, hái méi dǎoguò shíchā.",
+  "english": "He just arrived in the US and hasn't gotten over the jet lag yet."
+ },
+ {
+  "nid": 1393817668062,
+  "word": "灰心",
+  "sentence": "反复失败让他渐渐灰心了。",
+  "pinyin": "Fǎnfù shībài ràng tā jiànjiàn huī xīn le.",
+  "english": "Repeated failures gradually discouraged him."
+ },
+ {
+  "nid": 1393817668092,
+  "word": "着凉",
+  "sentence": "他昨天没穿外套，结果着凉了。",
+  "pinyin": "Tā zuótiān méi chuān wàitào, jiéguǒ zháo liáng le.",
+  "english": "He didn't wear a jacket yesterday, and as a result he caught a cold."
+ },
+ {
+  "nid": 1393817668125,
+  "word": "干活儿",
+  "sentence": "他每天在工地干活儿。",
+  "pinyin": "Tā měitiān zài gōngdì gàn huór.",
+  "english": "He does manual labor at the construction site every day."
+ },
+ {
+  "nid": 1393817668433,
+  "word": "熬",
+  "sentence": "为了赶作业，他熬了一整夜。",
+  "pinyin": "Wèile gǎn zuòyè, tā áo le yī zhěng yè.",
+  "english": "To get his homework done, he stayed up the whole night."
+ },
+ {
+  "nid": 1393817668613,
+  "word": "吊",
+  "sentence": "他把一盏灯吊在屋顶上。",
+  "pinyin": "Tā bǎ yī zhǎn dēng diào zài wūdǐng shàng.",
+  "english": "He hung a lamp from the ceiling."
+ },
+ {
+  "nid": 1393817668956,
+  "word": "榜样",
+  "sentence": "妈妈是我学习的好榜样。",
+  "pinyin": "Māma shì wǒ xuéxí de hǎo bǎngyàng.",
+  "english": "Mom is a good role model for my studies."
+ },
+ {
+  "nid": 1393817669594,
+  "word": "枯燥",
+  "sentence": "这本教材内容很枯燥。",
+  "pinyin": "Zhè běn jiàocái nèiróng hěn kūzào.",
+  "english": "This textbook's content is very dry and dull."
+ },
+ {
+  "nid": 1393817670043,
+  "word": "启事",
+  "sentence": "他在门口贴了一张寻物启事。",
+  "pinyin": "Tā zài ménkǒu tiē le yī zhāng xúnwù qǐshì.",
+  "english": "He posted a lost-and-found notice at the entrance."
+ },
+ {
+  "nid": 1393817670402,
+  "word": "严寒",
+  "sentence": "北方的冬天十分严寒。",
+  "pinyin": "Běifāng de dōngtiān shífēn yánhán.",
+  "english": "Winter in the north is bitterly cold."
+ },
+ {
+  "nid": 1449636990475,
+  "word": "敌",
+  "sentence": "士兵们勇敢地对抗敌人。",
+  "pinyin": "Shìbīngmen yǒnggǎn de duìkàng dírén.",
+  "english": "The soldiers bravely fought against the enemy."
+ },
+ {
+  "nid": 1449636990476,
+  "word": "致",
+  "sentence": "大雨导致交通堵塞。",
+  "pinyin": "Dàyǔ dǎozhì jiāotōng dǔsè.",
+  "english": "Heavy rain caused a traffic jam."
+ },
+ {
+  "nid": 1449636990513,
+  "word": "黄",
+  "sentence": "秋天的树叶变成了黄色。",
+  "pinyin": "Qiūtiān de shùyè biànchéng le huángsè.",
+  "english": "In autumn the tree leaves turn yellow."
+ },
+ {
+  "nid": 1449636990540,
+  "word": "攻",
+  "sentence": "敌军突然向城市发起攻击。",
+  "pinyin": "Díjūn tūrán xiàng chéngshì fāqǐ gōngjī.",
+  "english": "The enemy army suddenly launched an attack on the city."
+ },
+ {
+  "nid": 1449636990574,
+  "word": "威",
+  "sentence": "这种炸弹的威力非常大。",
+  "pinyin": "Zhè zhǒng zhàdàn de wēilì fēicháng dà.",
+  "english": "This kind of bomb has enormous power."
+ },
+ {
+  "nid": 1449636990591,
+  "word": "承",
+  "sentence": "他继承了父亲的生意。",
+  "pinyin": "Tā jìchéng le fùqīn de shēngyì.",
+  "english": "He inherited his father's business."
+ },
+ {
+  "nid": 1449636990626,
+  "word": "述",
+  "sentence": "请你描述一下事情的经过。",
+  "pinyin": "Qǐng nǐ miáoshù yīxià shìqing de jīngguò.",
+  "english": "Please describe what happened."
+ },
+ {
+  "nid": 1449636990627,
+  "word": "陆",
+  "sentence": "海龟爬到陆地上产卵。",
+  "pinyin": "Hǎiguī pá dào lùdì shàng chǎnluǎn.",
+  "english": "Sea turtles crawl onto land to lay eggs."
+ },
+ {
+  "nid": 1449636990636,
+  "word": "纳",
+  "sentence": "老师采纳了我的建议。",
+  "pinyin": "Lǎoshī cǎinà le wǒ de jiànyì.",
+  "english": "The teacher adopted my suggestion."
+ },
+ {
+  "nid": 1449636990656,
+  "word": "略",
+  "sentence": "今天的气温比昨天略高。",
+  "pinyin": "Jīntiān de qìwēn bǐ zuótiān lüè gāo.",
+  "english": "Today's temperature is slightly higher than yesterday's."
+ },
+ {
+  "nid": 1449636990657,
+  "word": "范",
+  "sentence": "我们公司的经理姓范。",
+  "pinyin": "Wǒmen gōngsī de jīnglǐ xìng Fàn.",
+  "english": "Our company's manager's surname is Fan."
+ },
+ {
+  "nid": 1449636990661,
+  "word": "异",
+  "sentence": "两种文化之间存在很大差异。",
+  "pinyin": "Liǎng zhǒng wénhuà zhījiān cúnzài hěn dà chāyì.",
+  "english": "There is a big difference between the two cultures."
+ },
+ {
+  "nid": 1449636990695,
+  "word": "胜",
+  "sentence": "中国队最终获胜了。",
+  "pinyin": "Zhōngguó duì zuìzhōng huòshèng le.",
+  "english": "The Chinese team finally won."
+ },
+ {
+  "nid": 1449636990697,
+  "word": "阶",
+  "sentence": "这个项目已经进入最后阶段。",
+  "pinyin": "Zhège xiàngmù yǐjīng jìnrù zuìhòu jiēduàn.",
+  "english": "This project has already entered its final stage."
+ },
+ {
+  "nid": 1449636990699,
+  "word": "沉",
+  "sentence": "那艘船慢慢沉入了海底。",
+  "pinyin": "Nà sōu chuán mànmàn chén rù le hǎidǐ.",
+  "english": "That ship slowly sank to the bottom of the sea."
+ },
+ {
+  "nid": 1449636990701,
+  "word": "善",
+  "sentence": "她是一个心地善良的女孩。",
+  "pinyin": "Tā shì yī ge xīndì shànliáng de nǚhái.",
+  "english": "She is a kind-hearted girl."
+ },
+ {
+  "nid": 1449636990719,
+  "word": "犯",
+  "sentence": "他因为犯错被老师批评了。",
+  "pinyin": "Tā yīnwèi fàncuò bèi lǎoshī pīpíng le.",
+  "english": "He was criticized by the teacher for making a mistake."
+ },
+ {
+  "nid": 1449636990723,
+  "word": "佛",
+  "sentence": "庙里供着一尊佛像。",
+  "pinyin": "Miào lǐ gòng zhe yī zūn fóxiàng.",
+  "english": "A statue of Buddha is enshrined in the temple."
+ },
+ {
+  "nid": 1449636990725,
+  "word": "航",
+  "sentence": "我们的航班明天早上起飞。",
+  "pinyin": "Wǒmen de hángbān míngtiān zǎo shàng qǐfēi.",
+  "english": "Our flight departs tomorrow morning."
+ },
+ {
+  "nid": 1449636990757,
+  "word": "索",
+  "sentence": "他在网上搜索这个问题的答案。",
+  "pinyin": "Tā zài wǎngshàng sōusuǒ zhège wèntí de dá'àn.",
+  "english": "He searched online for the answer to this question."
+ },
+ {
+  "nid": 1449636990793,
+  "word": "露",
+  "sentence": "他笑的时候露出两颗虎牙。",
+  "pinyin": "Tā xiào de shíhou lùchū liǎng kē hǔyá.",
+  "english": "When he smiles, he shows two canine teeth."
+ },
+ {
+  "nid": 1449636990810,
+  "word": "编",
+  "sentence": "他随口编了一个理由。",
+  "pinyin": "Tā suíkǒu biān le yī ge lǐyóu.",
+  "english": "He made up an excuse on the spot."
+ },
+ {
+  "nid": 1449636990815,
+  "word": "屋",
+  "sentence": "这间屋子非常安静。",
+  "pinyin": "Zhè jiān wūzi fēicháng ānjìng.",
+  "english": "This room is very quiet."
+ },
+ {
+  "nid": 1449636990819,
+  "word": "温",
+  "sentence": "这杯水已经变温了。",
+  "pinyin": "Zhè bēi shuǐ yǐjīng biàn wēn le.",
+  "english": "This cup of water has gone lukewarm."
+ },
+ {
+  "nid": 1449636990822,
+  "word": "渐",
+  "sentence": "天色渐渐暗了下来。",
+  "pinyin": "Tiānsè jiànjiàn àn le xiàlái.",
+  "english": "The sky gradually grew dark."
+ },
+ {
+  "nid": 1449636990842,
+  "word": "掌",
+  "sentence": "他伸出手掌接住了球。",
+  "pinyin": "Tā shēnchū shǒuzhǎng jiēzhù le qiú.",
+  "english": "He put out his palm and caught the ball."
+ },
+ {
+  "nid": 1449636990844,
+  "word": "遗",
+  "sentence": "她在公交车上遗失了手机。",
+  "pinyin": "Tā zài gōngjiāochē shàng yíshī le shǒujī.",
+  "english": "She lost her phone on the bus."
+ },
+ {
+  "nid": 1449636990845,
+  "word": "固",
+  "sentence": "这座桥修得非常坚固。",
+  "pinyin": "Zhè zuò qiáo xiū de fēicháng jiāngù.",
+  "english": "This bridge was built very sturdily."
+ },
+ {
+  "nid": 1449636990846,
+  "word": "席",
+  "sentence": "校长出席了今天的会议。",
+  "pinyin": "Xiàozhǎng chūxí le jīntiān de huìyì.",
+  "english": "The principal attended today's meeting."
+ },
+ {
+  "nid": 1449636990855,
+  "word": "均",
+  "sentence": "这个班的平均成绩很高。",
+  "pinyin": "Zhège bān de píngjūn chéngjì hěn gāo.",
+  "english": "This class's average grade is very high."
+ },
+ {
+  "nid": 1449636990859,
+  "word": "藏",
+  "sentence": "他把礼物藏在衣柜里。",
+  "pinyin": "Tā bǎ lǐwù cáng zài yīguì lǐ.",
+  "english": "He hid the gift in the closet."
+ },
+ {
+  "nid": 1449636990863,
+  "word": "损",
+  "sentence": "大风把屋顶损坏了。",
+  "pinyin": "Dà fēng bǎ wūdǐng sǔnhuài le.",
+  "english": "The strong wind damaged the roof."
+ },
+ {
+  "nid": 1449636990869,
+  "word": "探",
+  "sentence": "科学家正在探索宇宙的奥秘。",
+  "pinyin": "Kēxuéjiā zhèngzài tànsuǒ yǔzhòu de àomì.",
+  "english": "Scientists are exploring the mysteries of the universe."
+ },
+ {
+  "nid": 1449636990874,
+  "word": "乡",
+  "sentence": "他很想念自己的家乡。",
+  "pinyin": "Tā hěn xiǎngniàn zìjǐ de jiāxiāng.",
+  "english": "He misses his hometown very much."
+ },
+ {
+  "nid": 1449636990875,
+  "word": "附",
+  "sentence": "学校附近有一家超市。",
+  "pinyin": "Xuéxiào fùjìn yǒu yī jiā chāoshì.",
+  "english": "There's a supermarket near the school."
+ },
+ {
+  "nid": 1449636990883,
+  "word": "庭",
+  "sentence": "他家的庭院种满了花。",
+  "pinyin": "Tā jiā de tíngyuàn zhòngmǎn le huā.",
+  "english": "His family's courtyard is full of flowers."
+ },
+ {
+  "nid": 1449636990885,
+  "word": "归",
+  "sentence": "请你尽快归还借的书。",
+  "pinyin": "Qǐng nǐ jǐnkuài guīhuán jiè de shū.",
+  "english": "Please return the book you borrowed as soon as possible."
+ },
+ {
+  "nid": 1449636990889,
+  "word": "含",
+  "sentence": "这瓶饮料包含很多糖分。",
+  "pinyin": "Zhè píng yǐnliào bāohán hěn duō tángfèn.",
+  "english": "This bottle of drink contains a lot of sugar."
+ },
+ {
+  "nid": 1449636990906,
+  "word": "逐",
+  "sentence": "小狗在公园里追逐蝴蝶。",
+  "pinyin": "Xiǎogǒu zài gōngyuán lǐ zhuīzhú húdié.",
+  "english": "The puppy is chasing a butterfly in the park."
+ },
+ {
+  "nid": 1449636990914,
+  "word": "寻",
+  "sentence": "他到处寻找丢失的钱包。",
+  "pinyin": "Tā dàochù xúnzhǎo diūshī de qiánbāo.",
+  "english": "He looked everywhere for his lost wallet."
+ },
+ {
+  "nid": 1449636990921,
+  "word": "诺",
+  "sentence": "他终于兑现了自己的承诺。",
+  "pinyin": "Tā zhōngyú duìxiàn le zìjǐ de chéngnuò.",
+  "english": "He finally fulfilled his promise."
+ },
+ {
+  "nid": 1449636990928,
+  "word": "炸",
+  "sentence": "工厂里的锅炉突然炸了。",
+  "pinyin": "Gōngchǎng lǐ de guōlú tūrán zhà le.",
+  "english": "The boiler in the factory suddenly exploded."
+ },
+ {
+  "nid": 1449636990929,
+  "word": "载",
+  "sentence": "这艘船最多能载五十人。",
+  "pinyin": "Zhè sōu chuán zuìduō néng zài wǔshí rén.",
+  "english": "This boat can carry at most fifty people."
+ },
+ {
+  "nid": 1449636990932,
+  "word": "堂",
+  "sentence": "我们中午在食堂吃饭。",
+  "pinyin": "Wǒmen zhōngwǔ zài shítáng chīfàn.",
+  "english": "We eat lunch in the cafeteria at noon."
+ },
+ {
+  "nid": 1449636990934,
+  "word": "宫",
+  "sentence": "国王住在一座漂亮的皇宫里。",
+  "pinyin": "Guówáng zhù zài yī zuò piàoliang de huánggōng lǐ.",
+  "english": "The king lives in a beautiful palace."
+ },
+ {
+  "nid": 1449636990943,
+  "word": "避",
+  "sentence": "开车时要避免看手机。",
+  "pinyin": "Kāichē shí yào bìmiǎn kàn shǒujī.",
+  "english": "You should avoid looking at your phone while driving."
+ },
+ {
+  "nid": 1449636990945,
+  "word": "荣",
+  "sentence": "保护环境是我们的光荣任务。",
+  "pinyin": "Bǎohù huánjìng shì wǒmen de guāngróng rènwù.",
+  "english": "Protecting the environment is our glorious duty."
+ },
+ {
+  "nid": 1449636990958,
+  "word": "迫",
+  "sentence": "因为下雨，比赛被迫取消了。",
+  "pinyin": "Yīnwèi xiàyǔ, bǐsài bèipò qǔxiāo le.",
+  "english": "Because of the rain, the match was forced to be cancelled."
+ },
+ {
+  "nid": 1449636990973,
+  "word": "诸",
+  "sentence": "他喜欢运动，诸如篮球和游泳。",
+  "pinyin": "Tā xǐhuan yùndòng, zhūrú lánqiú hé yóuyǒng.",
+  "english": "He likes sports, such as basketball and swimming."
+ },
+ {
+  "nid": 1449636990977,
+  "word": "祖",
+  "sentence": "我们应该尊重自己的祖先。",
+  "pinyin": "Wǒmen yīnggāi zūnzhòng zìjǐ de zǔxiān.",
+  "english": "We should respect our ancestors."
+ },
+ {
+  "nid": 1449636990980,
+  "word": "暴",
+  "sentence": "电视上不应该出现暴力画面。",
+  "pinyin": "Diànshì shàng bù yīnggāi chūxiàn bàolì huàmiàn.",
+  "english": "Violent scenes shouldn't appear on television."
+ },
+ {
+  "nid": 1449636990984,
+  "word": "握",
+  "sentence": "见面时他们友好地握手。",
+  "pinyin": "Jiànmiàn shí tāmen yǒuhǎo de wòshǒu.",
+  "english": "When they met, they shook hands warmly."
+ },
+ {
+  "nid": 1449636990986,
+  "word": "隐",
+  "sentence": "他把秘密隐藏在心里。",
+  "pinyin": "Tā bǎ mìmì yǐncáng zài xīn lǐ.",
+  "english": "He kept the secret hidden in his heart."
+ },
+ {
+  "nid": 1449636990988,
+  "word": "骨",
+  "sentence": "小狗正在啃一根骨头。",
+  "pinyin": "Xiǎogǒu zhèngzài kěn yī gēn gǔtou.",
+  "english": "The puppy is gnawing on a bone."
+ },
+ {
+  "nid": 1449636990989,
+  "word": "访",
+  "sentence": "明天我要去拜访老师。",
+  "pinyin": "Míngtiān wǒ yào qù bàifǎng lǎoshī.",
+  "english": "Tomorrow I'm going to visit my teacher."
+ },
+ {
+  "nid": 1449636990997,
+  "word": "欲",
+  "sentence": "人不应该有太多欲望。",
+  "pinyin": "Rén bù yīnggāi yǒu tài duō yùwàng.",
+  "english": "People shouldn't have too many desires."
+ },
+ {
+  "nid": 1449636991000,
+  "word": "遭",
+  "sentence": "这个计划遭到大家反对。",
+  "pinyin": "Zhège jìhuà zāodào dàjiā fǎnduì.",
+  "english": "This plan met with everyone's opposition."
+ },
+ {
+  "nid": 1449636991006,
+  "word": "雄",
+  "sentence": "这只雄狮非常强壮。",
+  "pinyin": "Zhè zhī xióngshī fēicháng qiángzhuàng.",
+  "english": "This male lion is very strong."
+ },
+ {
+  "nid": 1449636991011,
+  "word": "拥",
+  "sentence": "他们在机场紧紧拥抱。",
+  "pinyin": "Tāmen zài jīchǎng jǐnjǐn yōngbào.",
+  "english": "They hugged each other tightly at the airport."
+ },
+ {
+  "nid": 1449636991012,
+  "word": "徒",
+  "sentence": "师傅正在教徒弟做菜。",
+  "pinyin": "Shīfu zhèngzài jiāo túdì zuò cài.",
+  "english": "The master is teaching his apprentice how to cook."
+ },
+ {
+  "nid": 1449636991018,
+  "word": "曲",
+  "sentence": "这条小路弯弯曲曲。",
+  "pinyin": "Zhè tiáo xiǎolù wānwānqūqū.",
+  "english": "This path is winding and curvy."
+ },
+ {
+  "nid": 1449636991025,
+  "word": "析",
+  "sentence": "老师帮我们分析这道题。",
+  "pinyin": "Lǎoshī bāng wǒmen fēnxī zhè dào tí.",
+  "english": "The teacher helped us analyze this problem."
+ },
+ {
+  "nid": 1449636991028,
+  "word": "妻",
+  "sentence": "他的妻子是一名医生。",
+  "pinyin": "Tā de qīzi shì yī míng yīshēng.",
+  "english": "His wife is a doctor."
+ },
+ {
+  "nid": 1449636991029,
+  "word": "透",
+  "sentence": "大雨把他的衣服淋透了。",
+  "pinyin": "Dàyǔ bǎ tā de yīfu lín tòu le.",
+  "english": "The heavy rain soaked his clothes through."
+ },
+ {
+  "nid": 1449636991037,
+  "word": "途",
+  "sentence": "从北京到上海路途很远。",
+  "pinyin": "Cóng Běijīng dào Shànghǎi lùtú hěn yuǎn.",
+  "english": "The journey from Beijing to Shanghai is very long."
+ },
+ {
+  "nid": 1449636991042,
+  "word": "迅",
+  "sentence": "消防员迅速赶到了现场。",
+  "pinyin": "Xiāofángyuán xùnsù gǎndào le xiànchǎng.",
+  "english": "The firefighters rushed to the scene quickly."
+ },
+ {
+  "nid": 1449636991048,
+  "word": "轮",
+  "sentence": "自行车的车轮坏了。",
+  "pinyin": "Zìxíngchē de chēlún huài le.",
+  "english": "The bicycle's wheel is broken."
+ },
+ {
+  "nid": 1449636991056,
+  "word": "震",
+  "sentence": "昨晚这里发生了地震。",
+  "pinyin": "Zuówǎn zhèlǐ fāshēng le dìzhèn.",
+  "english": "There was an earthquake here last night."
+ },
+ {
+  "nid": 1449636991063,
+  "word": "缓",
+  "sentence": "老人走路的速度很缓慢。",
+  "pinyin": "Lǎorén zǒulù de sùdù hěn huǎnmàn.",
+  "english": "The old man walks very slowly."
+ },
+ {
+  "nid": 1449636991065,
+  "word": "闪",
+  "sentence": "天上的星星突然闪了一下。",
+  "pinyin": "Tiānshàng de xīngxīng tūrán shǎn le yīxià.",
+  "english": "The star in the sky suddenly flashed."
+ },
+ {
+  "nid": 1449636991070,
+  "word": "络",
+  "sentence": "这里的网络信号很差。",
+  "pinyin": "Zhèlǐ de wǎngluò xìnhào hěn chà.",
+  "english": "The internet signal here is very poor."
+ },
+ {
+  "nid": 1449636991071,
+  "word": "抵",
+  "sentence": "士兵们努力抵抗敌人的进攻。",
+  "pinyin": "Shìbīngmen nǔlì dǐkàng dírén de jìngōng.",
+  "english": "The soldiers worked hard to resist the enemy's attack."
+ },
+ {
+  "nid": 1449636991077,
+  "word": "纯",
+  "sentence": "这是纯牛奶，没有加糖。",
+  "pinyin": "Zhè shì chún niúnǎi, méiyǒu jiā táng.",
+  "english": "This is pure milk, with no added sugar."
+ },
+ {
+  "nid": 1449636991079,
+  "word": "忍",
+  "sentence": "他实在无法忍受这种噪音。",
+  "pinyin": "Tā shízài wúfǎ rěnshòu zhè zhǒng zàoyīn.",
+  "english": "He really couldn't stand this kind of noise."
+ },
+ {
+  "nid": 1449636991081,
+  "word": "杰",
+  "sentence": "这位英杰在战场上救了很多人。",
+  "pinyin": "Zhè wèi yīngjié zài zhànchǎng shàng jiù le hěn duō rén.",
+  "english": "This hero saved many people on the battlefield."
+ },
+ {
+  "nid": 1449636991082,
+  "word": "筑",
+  "sentence": "这座建筑已经有一百年历史了。",
+  "pinyin": "Zhè zuò jiànzhù yǐjīng yǒu yībǎi nián lìshǐ le.",
+  "english": "This building is already a hundred years old."
+ },
+ {
+  "nid": 1449636991090,
+  "word": "臣",
+  "sentence": "那位大臣向皇上禀报了灾情。",
+  "pinyin": "Nà wèi dàchén xiàng huángshàng bǐngbào le zāiqíng.",
+  "english": "That minister reported the disaster to the emperor."
+ },
+ {
+  "nid": 1449636991095,
+  "word": "怒",
+  "sentence": "他因为被骗而非常愤怒。",
+  "pinyin": "Tā yīnwèi bèi piàn ér fēicháng fènnù.",
+  "english": "He was very angry because he had been cheated."
+ },
+ {
+  "nid": 1449636991100,
+  "word": "措",
+  "sentence": "政府采取了新的措施来解决交通问题。",
+  "pinyin": "Zhèngfǔ cǎiqǔ le xīn de cuòshī lái jiějué jiāotōng wèntí.",
+  "english": "The government adopted new measures to solve the traffic problem."
+ },
+ {
+  "nid": 1449636991102,
+  "word": "残",
+  "sentence": "车祸让他失去双腿，成了残疾人。",
+  "pinyin": "Chēhuò ràng tā shīqù shuāng tuǐ, chéng le cánjí rén.",
+  "english": "The car accident cost him both legs, leaving him disabled."
+ },
+ {
+  "nid": 1449636991118,
+  "word": "悲",
+  "sentence": "听到这个消息，他感到非常悲伤。",
+  "pinyin": "Tīngdào zhège xiāoxi, tā gǎndào fēicháng bēishāng.",
+  "english": "Hearing this news, he felt very sad."
+ },
+ {
+  "nid": 1449636991123,
+  "word": "麦",
+  "sentence": "农民在麦田里收割小麦。",
+  "pinyin": "Nóngmín zài màitián lǐ shōugē xiǎomài.",
+  "english": "The farmer is harvesting wheat in the wheat field."
+ },
+ {
+  "nid": 1449636991125,
+  "word": "操",
+  "sentence": "工人正在操作这台机器。",
+  "pinyin": "Gōngrén zhèngzài cāozuò zhè tái jīqì.",
+  "english": "The worker is operating this machine."
+ },
+ {
+  "nid": 1449636991127,
+  "word": "阻",
+  "sentence": "警察阻止了那辆车闯红灯。",
+  "pinyin": "Jǐngchá zǔzhǐ le nà liàng chē chuǎng hóngdēng.",
+  "english": "The police stopped that car from running the red light."
+ },
+ {
+  "nid": 1449636991131,
+  "word": "赞",
+  "sentence": "这家公司赞助了这次比赛。",
+  "pinyin": "Zhè jiā gōngsī zànzhù le zhè cì bǐsài.",
+  "english": "This company sponsored this competition."
+ },
+ {
+  "nid": 1449636991136,
+  "word": "违",
+  "sentence": "他违反了交通规则。",
+  "pinyin": "Tā wéifǎn le jiāotōng guīzé.",
+  "english": "He violated the traffic rules."
+ },
+ {
+  "nid": 1449636991144,
+  "word": "献",
+  "sentence": "他每年都去医院献血。",
+  "pinyin": "Tā měi nián dōu qù yīyuàn xiànxiě.",
+  "english": "He goes to the hospital to donate blood every year."
+ },
+ {
+  "nid": 1449636991149,
+  "word": "援",
+  "sentence": "很多国家派人去援助灾区。",
+  "pinyin": "Hěn duō guójiā pài rén qù yuánzhù zāiqū.",
+  "english": "Many countries sent people to help the disaster area."
+ },
+ {
+  "nid": 1449636991151,
+  "word": "夺",
+  "sentence": "小偷从她手里夺走了包。",
+  "pinyin": "Xiǎotōu cóng tā shǒu lǐ duózǒu le bāo.",
+  "english": "The thief snatched the bag from her hands."
+ },
+ {
+  "nid": 1449636991155,
+  "word": "裁",
+  "sentence": "裁缝正在裁布做衣服。",
+  "pinyin": "Cáiféng zhèngzài cái bù zuò yīfu.",
+  "english": "The tailor is cutting cloth to make clothes."
+ },
+ {
+  "nid": 1449636991159,
+  "word": "触",
+  "sentence": "请勿用手触碰展览品。",
+  "pinyin": "Qǐng wù yòng shǒu chùpèng zhǎnlǎnpǐn.",
+  "english": "Please do not touch the exhibits with your hands."
+ },
+ {
+  "nid": 1449636991161,
+  "word": "敬",
+  "sentence": "学生们都很尊敬这位老师。",
+  "pinyin": "Xuéshengmen dōu hěn zūnjìng zhè wèi lǎoshī.",
+  "english": "The students all respect this teacher very much."
+ },
+ {
+  "nid": 1449636991167,
+  "word": "罚",
+  "sentence": "他因为违反规定被罚款五百元。",
+  "pinyin": "Tā yīnwèi wéifǎn guīdìng bèi fákuǎn wǔbǎi yuán.",
+  "english": "He was fined five hundred yuan for violating the regulation."
+ },
+ {
+  "nid": 1449636991172,
+  "word": "侧",
+  "sentence": "他站在教室的侧面听课。",
+  "pinyin": "Tā zhàn zài jiàoshì de cèmiàn tīng kè.",
+  "english": "He stood at the side of the classroom listening to the lesson."
+ },
+ {
+  "nid": 1449636991177,
+  "word": "融",
+  "sentence": "春天来了，雪都融化了。",
+  "pinyin": "Chūntiān lái le, xuě dōu rónghuà le.",
+  "english": "Spring has come, and the snow has all melted."
+ },
+ {
+  "nid": 1449636991181,
+  "word": "童",
+  "sentence": "这个公园是专门为儿童设计的。",
+  "pinyin": "Zhège gōngyuán shì zhuānmén wèi értóng shèjì de.",
+  "english": "This park was specially designed for children."
+ },
+ {
+  "nid": 1449636991182,
+  "word": "犹",
+  "sentence": "夜晚的城市犹如一片星海。",
+  "pinyin": "Yèwǎn de chéngshì yóurú yī piàn xīnghǎi.",
+  "english": "The city at night is just like a sea of stars."
+ },
+ {
+  "nid": 1449636991189,
+  "word": "障",
+  "sentence": "轮椅使用者常常遇到很多障碍。",
+  "pinyin": "Lúnyǐ shǐyòngzhě chángcháng yùdào hěn duō zhàng'ài.",
+  "english": "Wheelchair users often encounter many obstacles."
+ },
+ {
+  "nid": 1449636991191,
+  "word": "涉",
+  "sentence": "这个案子涉及好几个国家。",
+  "pinyin": "Zhège ànzi shèjí hǎo jǐ gè guójiā.",
+  "english": "This case involves several countries."
+ },
+ {
+  "nid": 1449636991193,
+  "word": "刊",
+  "sentence": "这篇文章刊登在今天的报纸上。",
+  "pinyin": "Zhè piān wénzhāng kāndēng zài jīntiān de bàozhǐ shàng.",
+  "english": "This article was published in today's newspaper."
+ },
+ {
+  "nid": 1449636991194,
+  "word": "丈",
+  "sentence": "她的丈夫在北京工作。",
+  "pinyin": "Tā de zhàngfu zài Běijīng gōngzuò.",
+  "english": "Her husband works in Beijing."
+ },
+ {
+  "nid": 1449636991195,
+  "word": "爆",
+  "sentence": "工厂里突然发生了爆炸。",
+  "pinyin": "Gōngchǎng lǐ tūrán fāshēng le bàozhà.",
+  "english": "An explosion suddenly occurred in the factory."
+ },
+ {
+  "nid": 1449636991201,
+  "word": "患",
+  "sentence": "他不幸患上了重病。",
+  "pinyin": "Tā búxìng huàn shàng le zhòngbìng.",
+  "english": "He unfortunately came down with a serious illness."
+ },
+ {
+  "nid": 1449636991211,
+  "word": "仿",
+  "sentence": "小孩子喜欢模仿大人说话。",
+  "pinyin": "Xiǎoháizi xǐhuan mófǎng dàrén shuōhuà.",
+  "english": "Little children like to imitate adults talking."
+ },
+ {
+  "nid": 1449636991212,
+  "word": "倾",
+  "sentence": "这栋老房子已经开始倾斜了。",
+  "pinyin": "Zhè dòng lǎo fángzi yǐjīng kāishǐ qīngxié le.",
+  "english": "This old house has already started to lean."
+ },
+ {
+  "nid": 1449636991214,
+  "word": "陷",
+  "sentence": "汽车陷入了泥地里出不来。",
+  "pinyin": "Qìchē xiànrù le nídì lǐ chū bu lái.",
+  "english": "The car got stuck in the mud and couldn't get out."
+ },
+ {
+  "nid": 1449636991221,
+  "word": "庆",
+  "sentence": "全家人一起庆祝奶奶的生日。",
+  "pinyin": "Quánjiā rén yīqǐ qìngzhù nǎinai de shēngrì.",
+  "english": "The whole family celebrated grandma's birthday together."
+ },
+ {
+  "nid": 1449636991222,
+  "word": "撤",
+  "sentence": "军队接到命令撤离了那座城市。",
+  "pinyin": "Jūnduì jiēdào mìnglìng chèlí le nà zuò chéngshì.",
+  "english": "The army received orders and withdrew from that city."
+ },
+ {
+  "nid": 1449636991225,
+  "word": "疾",
+  "sentence": "老人常年被疾病困扰。",
+  "pinyin": "Lǎorén chángnián bèi jíbìng kùnrǎo.",
+  "english": "The elderly man has been troubled by illness for years."
+ },
+ {
+  "nid": 1449636991228,
+  "word": "朗",
+  "sentence": "今天天气晴朗，适合出去散步。",
+  "pinyin": "Jīntiān tiānqì qínglǎng, shìhé chūqù sànbù.",
+  "english": "The weather is clear and sunny today, perfect for a walk."
+ },
+ {
+  "nid": 1449636991237,
+  "word": "奔",
+  "sentence": "运动员在赛道上飞快地奔跑。",
+  "pinyin": "Yùndòngyuán zài sàidào shàng fēikuài de bēnpǎo.",
+  "english": "The athlete is running fast on the racetrack."
+ },
+ {
+  "nid": 1449636991238,
+  "word": "珠",
+  "sentence": "她脖子上戴着一条珍珠项链。",
+  "pinyin": "Tā bózi shàng dàizhe yī tiáo zhēnzhū xiàngliàn.",
+  "english": "She is wearing a pearl necklace around her neck."
+ },
+ {
+  "nid": 1449636991254,
+  "word": "潮",
+  "sentence": "南方的夏天又闷又潮湿。",
+  "pinyin": "Nánfāng de xiàtiān yòu mèn yòu cháoshī.",
+  "english": "Summer in the south is both stuffy and damp."
+ },
+ {
+  "nid": 1449636991255,
+  "word": "粮",
+  "sentence": "农民辛苦种植粮食养活大家。",
+  "pinyin": "Nóngmín xīnkǔ zhòngzhí liángshi yǎnghuó dàjiā.",
+  "english": "Farmers work hard growing grain to feed everyone."
+ },
+ {
+  "nid": 1449636991259,
+  "word": "径",
+  "sentence": "他沿着山间小径慢慢走。",
+  "pinyin": "Tā yánzhe shānjiān xiǎojìng mànmàn zǒu.",
+  "english": "He walked slowly along the narrow mountain path."
+ },
+ {
+  "nid": 1449636991262,
+  "word": "袋",
+  "sentence": "妈妈买了一袋苹果回家。",
+  "pinyin": "Māma mǎi le yī dài píngguǒ huí jiā.",
+  "english": "Mom bought a bag of apples and came home."
+ },
+ {
+  "nid": 1449636991264,
+  "word": "捕",
+  "sentence": "警方昨晚逮捕了那个小偷。",
+  "pinyin": "Jǐngfāng zuówǎn dàibǔ le nàge xiǎotōu.",
+  "english": "The police arrested that thief last night."
+ },
+ {
+  "nid": 1449636991268,
+  "word": "映",
+  "sentence": "湖水倒映着远处的雪山。",
+  "pinyin": "Húshuǐ dàoyìngzhe yuǎnchù de xuěshān.",
+  "english": "The lake reflects the distant snow mountains."
+ },
+ {
+  "nid": 1449636991271,
+  "word": "隔",
+  "sentence": "他家和我家只隔着一条街。",
+  "pinyin": "Tā jiā hé wǒ jiā zhǐ gézhe yī tiáo jiē.",
+  "english": "His house and mine are separated by just one street."
+ },
+ {
+  "nid": 1449636991272,
+  "word": "启",
+  "sentence": "工程师按下按钮启动了机器。",
+  "pinyin": "Gōngchéngshī àn xià ànniǔ qǐdòng le jīqì.",
+  "english": "The engineer pressed the button and started the machine."
+ },
+ {
+  "nid": 1449636991278,
+  "word": "估",
+  "sentence": "我估计他明天才能到。",
+  "pinyin": "Wǒ gūjì tā míngtiān cái néng dào.",
+  "english": "I estimate he won't arrive until tomorrow."
+ },
+ {
+  "nid": 1449636991281,
+  "word": "偿",
+  "sentence": "公司必须赔偿顾客的损失。",
+  "pinyin": "Gōngsī bìxū péicháng gùkè de sǔnshī.",
+  "english": "The company must compensate the customer for the loss."
+ },
+ {
+  "nid": 1449636991293,
+  "word": "胞",
+  "sentence": "医生在显微镜下观察细胞。",
+  "pinyin": "Yīshēng zài xiǎnwēijìng xià guānchá xìbāo.",
+  "english": "The doctor is observing cells under the microscope."
+ },
+ {
+  "nid": 1449636991301,
+  "word": "灾",
+  "sentence": "这场火灾烧毁了很多房子。",
+  "pinyin": "Zhè chǎng huǒzāi shāohuǐ le hěn duō fángzi.",
+  "english": "This fire destroyed many houses."
+ },
+ {
+  "nid": 1449636991304,
+  "word": "胆",
+  "sentence": "他胆子很大，敢一个人过夜。",
+  "pinyin": "Tā dǎnzi hěn dà, gǎn yī gè rén guòyè.",
+  "english": "He is very brave and dares to spend the night alone."
+ },
+ {
+  "nid": 1449636991306,
+  "word": "俗",
+  "sentence": "过年放鞭炮是中国的传统风俗。",
+  "pinyin": "Guònián fàng biānpào shì Zhōngguó de chuántǒng fēngsú.",
+  "english": "Setting off firecrackers during New Year is a traditional Chinese custom."
+ },
+ {
+  "nid": 1449636991310,
+  "word": "劲",
+  "sentence": "这支球队实力强劲。",
+  "pinyin": "Zhè zhī qiúduì shílì qiángjìng.",
+  "english": "This team's strength is formidable."
+ },
+ {
+  "nid": 1449636991311,
+  "word": "贫",
+  "sentence": "这个地区曾经十分贫穷。",
+  "pinyin": "Zhège dìqū céngjīng shífēn pínqióng.",
+  "english": "This region used to be very poor."
+ },
+ {
+  "nid": 1449636991313,
+  "word": "偶",
+  "sentence": "他偶尔会去公园散步。",
+  "pinyin": "Tā ǒu'ěr huì qù gōngyuán sànbù.",
+  "english": "He occasionally goes for a walk in the park."
+ },
+ {
+  "nid": 1449636991316,
+  "word": "恢",
+  "sentence": "他生病后慢慢恢复了健康。",
+  "pinyin": "Tā shēngbìng hòu mànmàn huīfù le jiànkāng.",
+  "english": "After being sick, he slowly recovered his health."
+ },
+ {
+  "nid": 1449636991317,
+  "word": "赖",
+  "sentence": "小孩子很依赖父母的照顾。",
+  "pinyin": "Xiǎoháizi hěn yīlài fùmǔ de zhàogù.",
+  "english": "Small children rely heavily on their parents' care."
+ },
+ {
+  "nid": 1449636991320,
+  "word": "仰",
+  "sentence": "他仰头望着满天的星星。",
+  "pinyin": "Tā yǎngtóu wàngzhe mǎntiān de xīngxing.",
+  "english": "He looked up at the sky full of stars."
+ },
+ {
+  "nid": 1449636991325,
+  "word": "稍",
+  "sentence": "请你稍微等我一下。",
+  "pinyin": "Qǐng nǐ shāowēi děng wǒ yīxià.",
+  "english": "Please wait for me a little while."
+ },
+ {
+  "nid": 1449636991332,
+  "word": "壁",
+  "sentence": "他在墙壁上挂了一幅画。",
+  "pinyin": "Tā zài qiángbì shàng guà le yī fú huà.",
+  "english": "He hung a painting on the wall."
+ },
+ {
+  "nid": 1449636991335,
+  "word": "旋",
+  "sentence": "风车在风中不停地旋转。",
+  "pinyin": "Fēngchē zài fēng zhōng bùtíng de xuánzhuǎn.",
+  "english": "The windmill keeps spinning in the wind."
+ },
+ {
+  "nid": 1449636991340,
+  "word": "晨",
+  "sentence": "爷爷每天早晨都去公园散步。",
+  "pinyin": "Yéye měitiān zǎochén dōu qù gōngyuán sànbù.",
+  "english": "Grandpa goes for a walk in the park every morning."
+ },
+ {
+  "nid": 1449636991351,
+  "word": "乏",
+  "sentence": "这个地区严重缺乏水资源。",
+  "pinyin": "Zhège dìqū yánzhòng quēfá shuǐ zīyuán.",
+  "english": "This region severely lacks water resources."
+ },
+ {
+  "nid": 1449636991356,
+  "word": "丧",
+  "sentence": "他们正在为去世的老人办丧事。",
+  "pinyin": "Tāmen zhèngzài wèi qùshì de lǎorén bàn sāngshì.",
+  "english": "They are arranging the funeral for the elderly person who passed away."
+ },
+ {
+  "nid": 1449636991358,
+  "word": "渡",
+  "sentence": "船夫每天划船渡河载客。",
+  "pinyin": "Chuánfū měitiān huáchuán dùhé zài kè.",
+  "english": "The ferryman rows across the river every day carrying passengers."
+ },
+ {
+  "nid": 1449636991359,
+  "word": "旗",
+  "sentence": "每天早上学校都会升国旗。",
+  "pinyin": "Měitiān zǎoshang xuéxiào dōu huì shēng guóqí.",
+  "english": "The school raises the national flag every morning."
+ },
+ {
+  "nid": 1449636991365,
+  "word": "绪",
+  "sentence": "考试失败让他情绪很低落。",
+  "pinyin": "Kǎoshì shībài ràng tā qíngxù hěn dīluò.",
+  "english": "Failing the exam left him feeling very down."
+ },
+ {
+  "nid": 1449636991367,
+  "word": "肩",
+  "sentence": "他把包背在肩膀上出门了。",
+  "pinyin": "Tā bǎ bāo bēi zài jiānbǎng shàng chūmén le.",
+  "english": "He carried the bag on his shoulder and left."
+ },
+ {
+  "nid": 1449636991368,
+  "word": "梁",
+  "sentence": "工人正在检查屋顶的房梁。",
+  "pinyin": "Gōngrén zhèngzài jiǎnchá wūdǐng de fángliáng.",
+  "english": "The workers are inspecting the roof beams."
+ },
+ {
+  "nid": 1449636991369,
+  "word": "幻",
+  "sentence": "这个孩子总是喜欢幻想未来。",
+  "pinyin": "Zhège háizi zǒngshì xǐhuan huànxiǎng wèilái.",
+  "english": "This child always likes to fantasize about the future."
+ },
+ {
+  "nid": 1449636991377,
+  "word": "综",
+  "sentence": "老工匠正在综丝准备织布。",
+  "pinyin": "Lǎo gōngjiang zhèngzài zòngsī zhǔnbèi zhībù.",
+  "english": "The old craftsman is arranging the heddle threads to prepare for weaving cloth."
+ },
+ {
+  "nid": 1449636991389,
+  "word": "碍",
+  "sentence": "这个箱子放在门口很碍事。",
+  "pinyin": "Zhège xiāngzi fàng zài ménkǒu hěn àishì.",
+  "english": "This box placed at the doorway is really in the way."
+ },
+ {
+  "nid": 1449636991397,
+  "word": "撒",
+  "sentence": "小孩子撒谎的时候会脸红。",
+  "pinyin": "Xiǎoháizi sāhuǎng de shíhou huì liǎnhóng.",
+  "english": "Children blush when they tell a lie."
+ },
+ {
+  "nid": 1449636991402,
+  "word": "赏",
+  "sentence": "我们坐在山顶欣赏日出。",
+  "pinyin": "Wǒmen zuò zài shāndǐng xīnshǎng rìchū.",
+  "english": "We sat on the mountaintop appreciating the sunrise."
+ },
+ {
+  "nid": 1449636991403,
+  "word": "液",
+  "sentence": "医生检查了他的血液样本。",
+  "pinyin": "Yīshēng jiǎnchá le tā de xuèyè yàngběn.",
+  "english": "The doctor examined a sample of his blood."
+ },
+ {
+  "nid": 1449636991405,
+  "word": "箱",
+  "sentence": "他把行李放进了箱子里。",
+  "pinyin": "Tā bǎ xínglǐ fàng jìn le xiāngzi lǐ.",
+  "english": "He put his luggage into the suitcase."
+ },
+ {
+  "nid": 1449636991406,
+  "word": "贴",
+  "sentence": "他把海报贴在墙上了。",
+  "pinyin": "Tā bǎ hǎibào tiē zài qiáng shàng le.",
+  "english": "He stuck the poster on the wall."
+ },
+ {
+  "nid": 1449636991409,
+  "word": "郎",
+  "sentence": "新郎在婚礼上非常紧张。",
+  "pinyin": "Xīnláng zài hūnlǐ shàng fēicháng jǐnzhāng.",
+  "english": "The groom was very nervous at the wedding."
+ },
+ {
+  "nid": 1449636991412,
+  "word": "眉",
+  "sentence": "她的眉毛又黑又浓。",
+  "pinyin": "Tā de méimao yòu hēi yòu nóng.",
+  "english": "Her eyebrows are thick and black."
+ },
+ {
+  "nid": 1449636991413,
+  "word": "忧",
+  "sentence": "妈妈整天为孩子的健康忧愁。",
+  "pinyin": "Māma zhěngtiān wèi háizi de jiànkāng yōuchóu.",
+  "english": "Mom worries all day about her child's health."
+ },
+ {
+  "nid": 1449636991414,
+  "word": "浮",
+  "sentence": "树叶轻轻地浮在水面上。",
+  "pinyin": "Shùyè qīngqīng de fú zài shuǐmiàn shàng.",
+  "english": "The leaf floats gently on the surface of the water."
+ },
+ {
+  "nid": 1449636991424,
+  "word": "伍",
+  "sentence": "爷爷退伍以后当了警察。",
+  "pinyin": "Yéye tuìwǔ yǐhòu dāng le jǐngchá.",
+  "english": "After being discharged from the army, grandpa became a police officer."
+ },
+ {
+  "nid": 1449636991433,
+  "word": "券",
+  "sentence": "他用优惠券买了一杯咖啡。",
+  "pinyin": "Tā yòng yōuhuìquàn mǎi le yī bēi kāfēi.",
+  "english": "He used a coupon to buy a cup of coffee."
+ },
+ {
+  "nid": 1449636991441,
+  "word": "阅",
+  "sentence": "他每天晚上都阅读一小时。",
+  "pinyin": "Tā měitiān wǎnshang dōu yuèdú yī xiǎoshí.",
+  "english": "He reads for an hour every night."
+ },
+ {
+  "nid": 1449637009391,
+  "word": "拔",
+  "sentence": "牙医帮他拔掉了一颗坏牙。",
+  "pinyin": "Yáyī bāng tā bá diào le yī kē huài yá.",
+  "english": "The dentist pulled out a bad tooth for him."
+ },
+ {
+  "nid": 1449637009396,
+  "word": "佩",
+  "sentence": "大家都很佩服他的勇气。",
+  "pinyin": "Dàjiā dōu hěn pèifú tā de yǒngqì.",
+  "english": "Everyone admires his courage."
+ },
+ {
+  "nid": 1449637009397,
+  "word": "愤",
+  "sentence": "大家对这种行为都感到气愤。",
+  "pinyin": "Dàjiā duì zhè zhǒng xíngwéi dōu gǎndào qìfèn.",
+  "english": "Everyone felt indignant about this kind of behavior."
+ },
+ {
+  "nid": 1449637009402,
+  "word": "豪",
+  "sentence": "妈妈为我的成绩感到自豪。",
+  "pinyin": "Māma wèi wǒ de chéngjì gǎndào zìháo.",
+  "english": "Mom feels proud of my grades."
+ },
+ {
+  "nid": 1449637009405,
+  "word": "跃",
+  "sentence": "运动员用力跃过了横杆。",
+  "pinyin": "Yùndòngyuán yònglì yuè guò le hénggān.",
+  "english": "The athlete leapt over the bar with force."
+ },
+ {
+  "nid": 1449637009407,
+  "word": "肃",
+  "sentence": "老师用严肃的语气批评了他。",
+  "pinyin": "Lǎoshī yòng yánsù de yǔqì pīpíng le tā.",
+  "english": "The teacher criticized him in a serious tone."
+ },
+ {
+  "nid": 1449637009409,
+  "word": "驶",
+  "sentence": "汽车正在高速公路上行驶。",
+  "pinyin": "Qìchē zhèngzài gāosù gōnglù shàng xíngshǐ.",
+  "english": "The car is driving along the highway."
+ },
+ {
+  "nid": 1449637009412,
+  "word": "欣",
+  "sentence": "我很欣赏他的音乐才华。",
+  "pinyin": "Wǒ hěn xīnshǎng tā de yīnyuè cáihuá.",
+  "english": "I really appreciate his musical talent."
+ },
+ {
+  "nid": 1449637009413,
+  "word": "惠",
+  "sentence": "这家商店今天有很多优惠。",
+  "pinyin": "Zhè jiā shāngdiàn jīntiān yǒu hěn duō yōuhuì.",
+  "english": "This store has a lot of discounts today."
+ },
+ {
+  "nid": 1449637009415,
+  "word": "储",
+  "sentence": "他每个月都储蓄一些钱。",
+  "pinyin": "Tā měi gè yuè dōu chǔxù yīxiē qián.",
+  "english": "He saves some money every month."
+ },
+ {
+  "nid": 1449637009418,
+  "word": "闲",
+  "sentence": "周末我有空闲时间看书。",
+  "pinyin": "Zhōumò wǒ yǒu kòngxián shíjiān kàn shū.",
+  "english": "I have free time to read on weekends."
+ },
+ {
+  "nid": 1449637009420,
+  "word": "洁",
+  "sentence": "他喜欢保持房间清洁。",
+  "pinyin": "Tā xǐhuan bǎochí fángjiān qīngjí.",
+  "english": "He likes to keep his room clean."
+ },
+ {
+  "nid": 1449637009421,
+  "word": "踪",
+  "sentence": "警察正在寻找他的踪迹。",
+  "pinyin": "Jǐngchá zhèngzài xúnzhǎo tā de zōngjì.",
+  "english": "The police are searching for traces of him."
+ },
+ {
+  "nid": 1449637009430,
+  "word": "拟",
+  "sentence": "公司正在拟定新的计划。",
+  "pinyin": "Gōngsī zhèngzài nǐdìng xīn de jìhuà.",
+  "english": "The company is drafting a new plan."
+ },
+ {
+  "nid": 1449637009437,
+  "word": "贡",
+  "sentence": "他为公司做出了很大贡献。",
+  "pinyin": "Tā wèi gōngsī zuòchū le hěn dà gòngxiàn.",
+  "english": "He has made a great contribution to the company."
+ },
+ {
+  "nid": 1449637009441,
+  "word": "截",
+  "sentence": "报名明天截止，请尽快申请。",
+  "pinyin": "Bàomíng míngtiān jiézhǐ, qǐng jǐnkuài shēnqǐng.",
+  "english": "Registration closes tomorrow, so please apply soon."
+ },
+ {
+  "nid": 1449637009443,
+  "word": "焦",
+  "sentence": "妈妈做的面包烤得太焦了。",
+  "pinyin": "Māma zuò de miànbāo kǎo de tài jiāo le.",
+  "english": "The bread mom made got burnt in the oven."
+ },
+ {
+  "nid": 1449637009448,
+  "word": "逼",
+  "sentence": "老板逼他加班到很晚。",
+  "pinyin": "Lǎobǎn bī tā jiābān dào hěn wǎn.",
+  "english": "The boss forced him to work overtime until very late."
+ },
+ {
+  "nid": 1449637009453,
+  "word": "搜",
+  "sentence": "他在网上搜索这个问题的答案。",
+  "pinyin": "Tā zài wǎngshàng sōusuǒ zhège wèntí de dá'àn.",
+  "english": "He searched online for the answer to this question."
+ },
+ {
+  "nid": 1449637009454,
+  "word": "勤",
+  "sentence": "她学习很勤奋，成绩一直很好。",
+  "pinyin": "Tā xuéxí hěn qínfèn, chéngjì yīzhí hěn hǎo.",
+  "english": "She studies very diligently, and her grades have always been good."
+ },
+ {
+  "nid": 1449637009456,
+  "word": "驾",
+  "sentence": "他正在学习怎么驾驶汽车。",
+  "pinyin": "Tā zhèngzài xuéxí zěnme jiàshǐ qìchē.",
+  "english": "He is learning how to drive a car."
+ },
+ {
+  "nid": 1449637009462,
+  "word": "柔",
+  "sentence": "妈妈说话的声音很温柔。",
+  "pinyin": "Māma shuōhuà de shēngyīn hěn wēnróu.",
+  "english": "Mom's voice is very gentle."
+ },
+ {
+  "nid": 1449637009472,
+  "word": "佳",
+  "sentence": "这是今年最佳的一部电影。",
+  "pinyin": "Zhè shì jīnnián zuìjiā de yī bù diànyǐng.",
+  "english": "This is the best movie of the year."
+ },
+ {
+  "nid": 1449637009476,
+  "word": "稿",
+  "sentence": "他写完了这篇文章的初稿。",
+  "pinyin": "Tā xiěwán le zhè piān wénzhāng de chūgǎo.",
+  "english": "He finished the first draft of this article."
+ },
+ {
+  "nid": 1449637009482,
+  "word": "遵",
+  "sentence": "开车的时候一定要遵守交通规则。",
+  "pinyin": "Kāichē de shíhou yīdìng yào zūnshǒu jiāotōng guīzé.",
+  "english": "When driving, you must obey the traffic rules."
+ },
+ {
+  "nid": 1449637009489,
+  "word": "惑",
+  "sentence": "这个问题让他感到很困惑。",
+  "pinyin": "Zhège wèntí ràng tā gǎndào hěn kùnhuò.",
+  "english": "This question left him feeling very confused."
+ },
+ {
+  "nid": 1449637009496,
+  "word": "叙",
+  "sentence": "老朋友见面总喜欢叙旧。",
+  "pinyin": "Lǎo péngyou jiànmiàn zǒng xǐhuan xùjiù.",
+  "english": "Old friends always like to reminisce when they meet."
+ },
+ {
+  "nid": 1449637009504,
+  "word": "寿",
+  "sentence": "奶奶身体很好，很长寿。",
+  "pinyin": "Nǎinai shēntǐ hěn hǎo, hěn chángshòu.",
+  "english": "Grandma is very healthy and lives a long life."
+ },
+ {
+  "nid": 1449637009505,
+  "word": "惧",
+  "sentence": "黑暗让很多小孩感到恐惧。",
+  "pinyin": "Hēi'àn ràng hěn duō xiǎohái gǎndào kǒngjù.",
+  "english": "Darkness makes many children feel afraid."
+ },
+ {
+  "nid": 1449637009513,
+  "word": "奈",
+  "sentence": "面对这种情况，他也很无奈。",
+  "pinyin": "Miànduì zhè zhǒng qíngkuàng, tā yě hěn wúnài.",
+  "english": "Faced with this situation, he also felt helpless."
+ },
+ {
+  "nid": 1449637009526,
+  "word": "怨",
+  "sentence": "他总是抱怨工作太累。",
+  "pinyin": "Tā zǒngshì bàoyuàn gōngzuò tài lèi.",
+  "english": "He always complains that work is too tiring."
+ },
+ {
+  "nid": 1449637009531,
+  "word": "涌",
+  "sentence": "节日期间大量游客涌入这座城市。",
+  "pinyin": "Jiérì qījiān dàliàng yóukè yǒngrù zhè zuò chéngshì.",
+  "english": "During the holidays, large numbers of tourists pour into this city."
+ },
+ {
+  "nid": 1449637009543,
+  "word": "狠",
+  "sentence": "他很狠心，抛弃了自己的狗。",
+  "pinyin": "Tā hěn hěnxīn, pāoqì le zìjǐ de gǒu.",
+  "english": "He was very cruel and abandoned his own dog."
+ },
+ {
+  "nid": 1449637009544,
+  "word": "鉴",
+  "sentence": "我们可以借鉴别人的经验。",
+  "pinyin": "Wǒmen kěyǐ jièjiàn biéren de jīngyàn.",
+  "english": "We can learn from other people's experience."
+ },
+ {
+  "nid": 1449637009550,
+  "word": "挤",
+  "sentence": "地铁上人太多，很挤。",
+  "pinyin": "Dìtiě shàng rén tài duō, hěn jǐ.",
+  "english": "There are too many people on the subway; it's very crowded."
+ },
+ {
+  "nid": 1449637009551,
+  "word": "弯",
+  "sentence": "开车的时候前面有一个弯。",
+  "pinyin": "Kāichē de shíhou qiánmiàn yǒu yī gè wān.",
+  "english": "There's a bend in the road ahead while driving."
+ },
+ {
+  "nid": 1449637009561,
+  "word": "梯",
+  "sentence": "请走楼梯，电梯坏了。",
+  "pinyin": "Qǐng zǒu lóutī, diàntī huài le.",
+  "english": "Please take the stairs, the elevator is broken."
+ },
+ {
+  "nid": 1449637009564,
+  "word": "阔",
+  "sentence": "这条河看起来非常宽阔。",
+  "pinyin": "Zhè tiáo hé kàn qǐlái fēicháng kuānkuò.",
+  "english": "This river looks extremely wide."
+ },
+ {
+  "nid": 1449637009565,
+  "word": "誉",
+  "sentence": "他为学校赢得了很大荣誉。",
+  "pinyin": "Tā wèi xuéxiào yíngdé le hěn dà róngyù.",
+  "english": "He won great honor for the school."
+ },
+ {
+  "nid": 1449637009566,
+  "word": "筹",
+  "sentence": "他们正在为病人筹钱治病。",
+  "pinyin": "Tāmen zhèngzài wèi bìngrén chóuqián zhì bìng.",
+  "english": "They are raising money to treat the patient's illness."
+ },
+ {
+  "nid": 1449637009573,
+  "word": "屈",
+  "sentence": "他不愿向困难屈服。",
+  "pinyin": "Tā bú yuàn xiàng kùnnán qūfú.",
+  "english": "He refuses to give in to difficulties."
+ },
+ {
+  "nid": 1449637009575,
+  "word": "袖",
+  "sentence": "这件衣服的袖子太长了。",
+  "pinyin": "Zhè jiàn yīfu de xiùzi tài cháng le.",
+  "english": "The sleeves of this piece of clothing are too long."
+ },
+ {
+  "nid": 1449637009585,
+  "word": "牢",
+  "sentence": "这座桥建得非常牢固。",
+  "pinyin": "Zhè zuò qiáo jiàn de fēicháng láogù.",
+  "english": "This bridge is built very sturdily."
+ },
+ {
+  "nid": 1449637009590,
+  "word": "琴",
+  "sentence": "她每天都练习弹钢琴。",
+  "pinyin": "Tā měitiān dōu liànxí tán gāngqín.",
+  "english": "She practices playing the piano every day."
+ },
+ {
+  "nid": 1449637009591,
+  "word": "衰",
+  "sentence": "爷爷身体一年比一年衰老。",
+  "pinyin": "Yéye shēntǐ yī nián bǐ yī nián shuāilǎo.",
+  "english": "Grandpa's health has been declining year after year."
+ },
+ {
+  "nid": 1449637009598,
+  "word": "池",
+  "sentence": "夏天孩子们喜欢去游泳池。",
+  "pinyin": "Xiàtiān háizimen xǐhuan qù yóuyǒngchí.",
+  "english": "In summer, children like to go to the swimming pool."
+ },
+ {
+  "nid": 1449637009601,
+  "word": "仗",
+  "sentence": "古时候两国经常打仗。",
+  "pinyin": "Gǔ shíhou liǎng guó jīngcháng dǎzhàng.",
+  "english": "In ancient times, the two countries often went to war."
+ },
+ {
+  "nid": 1449637009607,
+  "word": "尘",
+  "sentence": "桌子上有很多灰尘。",
+  "pinyin": "Zhuōzi shàng yǒu hěn duō huīchén.",
+  "english": "There's a lot of dust on the table."
+ },
+ {
+  "nid": 1449637009612,
+  "word": "纠",
+  "sentence": "他负责纠察考试纪律。",
+  "pinyin": "Tā fùzé jiūchá kǎoshì jìlǜ.",
+  "english": "He is responsible for monitoring exam discipline."
+ },
+ {
+  "nid": 1449637009613,
+  "word": "钻",
+  "sentence": "这枚钻石戒指非常漂亮。",
+  "pinyin": "Zhè méi zuànshí jièzhi fēicháng piàoliang.",
+  "english": "This diamond ring is extremely beautiful."
+ },
+ {
+  "nid": 1449637009618,
+  "word": "喷",
+  "sentence": "公园里有一个漂亮的喷泉。",
+  "pinyin": "Gōngyuán li yǒu yī gè piàoliang de pēnquán.",
+  "english": "There's a beautiful fountain in the park."
+ },
+ {
+  "nid": 1449637009619,
+  "word": "耗",
+  "sentence": "运动会消耗身体很多能量。",
+  "pinyin": "Yùndòng huì xiāohào shēntǐ hěn duō néngliàng.",
+  "english": "Exercise consumes a lot of the body's energy."
+ },
+ {
+  "nid": 1449637009620,
+  "word": "凌",
+  "sentence": "学校最近发生了一起欺凌事件。",
+  "pinyin": "Xuéxiào zuìjìn fāshēng le yī qǐ qīlíng shìjiàn.",
+  "english": "There was a bullying incident at the school recently."
+ },
+ {
+  "nid": 1449637009622,
+  "word": "菌",
+  "sentence": "洗手可以去除手上的细菌。",
+  "pinyin": "Xǐshǒu kěyǐ qùchú shǒu shàng de xìjūn.",
+  "english": "Washing your hands can remove germs from them."
+ },
+ {
+  "nid": 1449637009623,
+  "word": "赔",
+  "sentence": "他不小心打破花瓶，只好赔钱。",
+  "pinyin": "Tā bù xiǎoxīn dǎpò huāpíng, zhǐhǎo péiqián.",
+  "english": "He accidentally broke the vase, so he had to pay for it."
+ },
+ {
+  "nid": 1449637009627,
+  "word": "亏",
+  "sentence": "这次生意让他亏了不少钱。",
+  "pinyin": "Zhè cì shēngyi ràng tā kuī le bù shǎo qián.",
+  "english": "This business deal made him lose quite a lot of money."
+ },
+ {
+  "nid": 1449637009632,
+  "word": "湿",
+  "sentence": "南方的天气比较潮湿。",
+  "pinyin": "Nánfāng de tiānqì bǐjiào cháoshī.",
+  "english": "The weather in the south is relatively humid."
+ },
+ {
+  "nid": 1449637009633,
+  "word": "循",
+  "sentence": "我们应该遵循自然的规律。",
+  "pinyin": "Wǒmen yīnggāi zūnxún zìrán de guīlǜ.",
+  "english": "We should follow the laws of nature."
+ },
+ {
+  "nid": 1449637009637,
+  "word": "抑",
+  "sentence": "他努力抑制自己的情绪。",
+  "pinyin": "Tā nǔlì yìzhì zìjǐ de qíngxù.",
+  "english": "He worked hard to control his emotions."
+ },
+ {
+  "nid": 1449637009639,
+  "word": "帽",
+  "sentence": "外面很冷，记得戴帽子。",
+  "pinyin": "Wàimiàn hěn lěng, jìde dài màozi.",
+  "english": "It's cold outside, remember to wear a hat."
+ },
+ {
+  "nid": 1449637009641,
+  "word": "宿",
+  "sentence": "大学生一般住在学校宿舍。",
+  "pinyin": "Dàxuéshēng yībān zhù zài xuéxiào sùshè.",
+  "english": "College students generally live in school dormitories."
+ },
+ {
+  "nid": 1449637009642,
+  "word": "踏",
+  "sentence": "他终于踏上了回家的路。",
+  "pinyin": "Tā zhōngyú tàshàng le huí jiā de lù.",
+  "english": "He finally set foot on the road home."
+ },
+ {
+  "nid": 1449637009647,
+  "word": "夹",
+  "sentence": "这本书夹在两本词典中间。",
+  "pinyin": "Zhè běn shū jiā zài liǎng běn cídiǎn zhōngjiān.",
+  "english": "This book is wedged between two dictionaries."
+ },
+ {
+  "nid": 1449637009649,
+  "word": "肝",
+  "sentence": "医生说他的肝有点问题。",
+  "pinyin": "Yīshēng shuō tā de gān yǒudiǎn wèntí.",
+  "english": "The doctor said there's a problem with his liver."
+ },
+ {
+  "nid": 1449637009666,
+  "word": "漠",
+  "sentence": "骆驼可以在沙漠里生活。",
+  "pinyin": "Luòtuo kěyǐ zài shāmò li shēnghuó.",
+  "english": "Camels can live in the desert."
+ },
+ {
+  "nid": 1449637009667,
+  "word": "疲",
+  "sentence": "连续加班让他感到很疲惫。",
+  "pinyin": "Liánxù jiābān ràng tā gǎndào hěn píbèi.",
+  "english": "Working overtime continuously made him feel exhausted."
+ },
+ {
+  "nid": 1449637009674,
+  "word": "弥",
+  "sentence": "他想办法弥补自己的错误。",
+  "pinyin": "Tā xiǎng bànfǎ míbǔ zìjǐ de cuòwù.",
+  "english": "He tried to find a way to make up for his mistake."
+ },
+ {
+  "nid": 1449637009676,
+  "word": "档",
+  "sentence": "公司把所有档案都整理好了。",
+  "pinyin": "Gōngsī bǎ suǒyǒu dǎng'àn dōu zhěnglǐ hǎo le.",
+  "english": "The company has organized all the files."
+ },
+ {
+  "nid": 1449637009678,
+  "word": "捷",
+  "sentence": "前线传来了胜利的捷报。",
+  "pinyin": "Qiánxiàn chuánlái le shènglì de jiébào.",
+  "english": "News of victory arrived from the front line."
+ },
+ {
+  "nid": 1449637009680,
+  "word": "疫",
+  "sentence": "这次疫情影响了很多人的生活。",
+  "pinyin": "Zhè cì yìqíng yǐngxiǎng le hěn duō rén de shēnghuó.",
+  "english": "This epidemic has affected many people's lives."
+ },
+ {
+  "nid": 1449637009681,
+  "word": "肿",
+  "sentence": "他的脚被蚊子咬肿了。",
+  "pinyin": "Tā de jiǎo bèi wénzi yǎo zhǒng le.",
+  "english": "His foot got swollen from a mosquito bite."
+ },
+ {
+  "nid": 1449637009684,
+  "word": "岗",
+  "sentence": "每个人都要坚守自己的岗位。",
+  "pinyin": "Měi gè rén dōu yào jiānshǒu zìjǐ de gǎngwèi.",
+  "english": "Everyone must stick to their own post."
+ },
+ {
+  "nid": 1449637009686,
+  "word": "吞",
+  "sentence": "他一口把药片吞了下去。",
+  "pinyin": "Tā yī kǒu bǎ yàopiàn tūn le xiàqù.",
+  "english": "He swallowed the pill down in one gulp."
+ },
+ {
+  "nid": 1449637009691,
+  "word": "履",
+  "sentence": "公司必须履行合同上的责任。",
+  "pinyin": "Gōngsī bìxū lǚxíng hétong shàng de zérèn.",
+  "english": "The company must fulfill the responsibilities in the contract."
+ },
+ {
+  "nid": 1449637009694,
+  "word": "扭",
+  "sentence": "他跑步的时候不小心扭伤了脚。",
+  "pinyin": "Tā pǎobù de shíhou bù xiǎoxīn niǔshāng le jiǎo.",
+  "english": "He accidentally sprained his foot while running."
+ },
+ {
+  "nid": 1449637009695,
+  "word": "坛",
+  "sentence": "他经常在网上论坛发表意见。",
+  "pinyin": "Tā jīngcháng zài wǎngshàng lùntán fābiǎo yìjiàn.",
+  "english": "He often posts his opinions on online forums."
+ },
+ {
+  "nid": 1449637009697,
+  "word": "沃",
+  "sentence": "这里的土地非常肥沃。",
+  "pinyin": "Zhèlǐ de tǔdì fēicháng féiwò.",
+  "english": "The soil here is extremely fertile."
+ },
+ {
+  "nid": 1449637009698,
+  "word": "绘",
+  "sentence": "小女孩喜欢用彩笔绘画。",
+  "pinyin": "Xiǎo nǚhái xǐhuan yòng cǎibǐ huìhuà.",
+  "english": "The little girl likes to draw with colored pencils."
+ },
+ {
+  "nid": 1449637009711,
+  "word": "捉",
+  "sentence": "孩子们在院子里玩捉迷藏。",
+  "pinyin": "Háizimen zài yuànzi li wán zhuōmícáng.",
+  "english": "The children are playing hide-and-seek in the yard."
+ },
+ {
+  "nid": 1449637009712,
+  "word": "覆",
+  "sentence": "大雪覆盖了整座山。",
+  "pinyin": "Dàxuě fùgài le zhěng zuò shān.",
+  "english": "Heavy snow covered the entire mountain."
+ },
+ {
+  "nid": 1449637009738,
+  "word": "庞",
+  "sentence": "这座建筑非常庞大。",
+  "pinyin": "Zhè zuò jiànzhù fēicháng pángdà.",
+  "english": "This building is extremely huge."
+ },
+ {
+  "nid": 1449637009747,
+  "word": "宅",
+  "sentence": "这一带有很多新建的住宅。",
+  "pinyin": "Zhè yīdài yǒu hěn duō xīn jiàn de zhùzhái.",
+  "english": "There are many newly built residences in this area."
+ },
+ {
+  "nid": 1449637009759,
+  "word": "祸",
+  "sentence": "他昨天出了车祸，还好没受伤。",
+  "pinyin": "Tā zuótiān chū le chēhuò, hái hǎo méi shòushāng.",
+  "english": "He got into a car accident yesterday, but luckily wasn't hurt."
+ },
+ {
+  "nid": 1449637009771,
+  "word": "仓",
+  "sentence": "这些货物都存放在仓库里。",
+  "pinyin": "Zhèxiē huòwù dōu cúnfàng zài cāngkù li.",
+  "english": "These goods are all stored in the warehouse."
+ },
+ {
+  "nid": 1449637009772,
+  "word": "轨",
+  "sentence": "火车沿着轨道慢慢开来。",
+  "pinyin": "Huǒchē yánzhe guǐdào mànmàn kāilái.",
+  "english": "The train slowly approached along the track."
+ },
+ {
+  "nid": 1449637009780,
+  "word": "屏",
+  "sentence": "客厅里放着一个漂亮的屏风。",
+  "pinyin": "Kètīng li fàngzhe yī gè piàoliang de píngfēng.",
+  "english": "There's a beautiful folding screen in the living room."
+ },
+ {
+  "nid": 1449637009791,
+  "word": "劣",
+  "sentence": "这种劣质产品很快就坏了。",
+  "pinyin": "Zhè zhǒng lièzhì chǎnpǐn hěn kuài jiù huài le.",
+  "english": "This kind of inferior product breaks very quickly."
+ },
+ {
+  "nid": 1449637009798,
+  "word": "俱",
+  "sentence": "这家超市商品一应俱全。",
+  "pinyin": "Zhè jiā chāoshì shāngpǐn yī yīng jù quán.",
+  "english": "This supermarket has everything you could need."
+ },
+ {
+  "nid": 1449637009801,
+  "word": "蜂",
+  "sentence": "花园里有很多蜜蜂在采蜜。",
+  "pinyin": "Huāyuán li yǒu hěn duō mìfēng zài cǎimì.",
+  "english": "There are many bees gathering honey in the garden."
+ },
+ {
+  "nid": 1449637009803,
+  "word": "腔",
+  "sentence": "医生检查了他的口腔。",
+  "pinyin": "Yīshēng jiǎnchá le tā de kǒuqiāng.",
+  "english": "The doctor examined his mouth."
+ },
+ {
+  "nid": 1449637009806,
+  "word": "谨",
+  "sentence": "开车一定要谨慎小心。",
+  "pinyin": "Kāichē yīdìng yào jǐnshèn xiǎoxīn.",
+  "english": "You must drive cautiously and carefully."
+ },
+ {
+  "nid": 1449637009817,
+  "word": "笼",
+  "sentence": "爷爷养了一只鸟，关在笼子里。",
+  "pinyin": "Yéye yǎng le yī zhī niǎo, guān zài lóngzi li.",
+  "english": "Grandpa raised a bird and keeps it in a cage."
+ },
+ {
+  "nid": 1449637009827,
+  "word": "痕",
+  "sentence": "他手臂上留下了一道伤痕。",
+  "pinyin": "Tā shǒubì shàng liúxià le yī dào shānghén.",
+  "english": "A scar was left on his arm."
+ },
+ {
+  "nid": 1449637009830,
+  "word": "膀",
+  "sentence": "妈妈轻轻拍了拍他的肩膀。",
+  "pinyin": "Māma qīngqīng pāi le pāi tā de jiānbǎng.",
+  "english": "Mom gently patted him on the shoulder."
+ },
+ {
+  "nid": 1449637009841,
+  "word": "昂",
+  "sentence": "他昂着头走进了会场。",
+  "pinyin": "Tā ángzhe tóu zǒujìn le huìchǎng.",
+  "english": "He walked into the venue with his head held high."
+ },
+ {
+  "nid": 1449637009845,
+  "word": "豫",
+  "sentence": "他退休以后，日子过得很豫。",
+  "pinyin": "Tā tuìxiū yǐhòu, rìzi guò de hěn yù.",
+  "english": "After he retired, his days have been very relaxed and comfortable."
+ },
+ {
+  "nid": 1449637009853,
+  "word": "携",
+  "sentence": "他随身携带着一把雨伞。",
+  "pinyin": "Tā suíshēn xīdài zhe yī bǎ yǔsǎn.",
+  "english": "He carries an umbrella with him."
+ },
+ {
+  "nid": 1449637009856,
+  "word": "棉",
+  "sentence": "妈妈买了一些棉花做被子。",
+  "pinyin": "Māma mǎi le yīxiē miánhua zuò bèizi.",
+  "english": "Mom bought some cotton to make a quilt."
+ },
+ {
+  "nid": 1449637009865,
+  "word": "脆",
+  "sentence": "这种饼干吃起来很脆，孩子们都爱吃。",
+  "pinyin": "Zhè zhǒng bǐnggān chī qǐlai hěn cuì, háizimen dōu ài chī.",
+  "english": "This kind of cookie tastes very crisp, and the kids all love eating it."
+ },
+ {
+  "nid": 1449637009870,
+  "word": "柴",
+  "sentence": "爷爷每天早上都去山上砍柴。",
+  "pinyin": "Yéye měitiān zǎoshàng dōu qù shānshàng kǎn chái.",
+  "english": "Grandpa goes up the mountain to chop firewood every morning."
+ },
+ {
+  "nid": 1449637009874,
+  "word": "蓄",
+  "sentence": "他每个月都存一点钱，慢慢储蓄起来。",
+  "pinyin": "Tā měi gè yuè dōu cún yīdiǎn qián, mànman chǔxù qǐlai.",
+  "english": "He saves a little money every month, slowly building up savings."
+ },
+ {
+  "nid": 1449637009882,
+  "word": "扇",
+  "sentence": "奶奶的扇子很漂亮，是爷爷送给她的。",
+  "pinyin": "Nǎinai de shànzi hěn piàoliang, shì yéye sòng gěi tā de.",
+  "english": "Grandma's fan is very pretty; grandpa gave it to her."
+ },
+ {
+  "nid": 1449637009886,
+  "word": "诞",
+  "sentence": "这个孩子诞生在一个寒冷的冬天。",
+  "pinyin": "Zhège háizi dànshēng zài yī gè hánlěng de dōngtiān.",
+  "english": "This child was born on a cold winter day."
+ },
+ {
+  "nid": 1449637009889,
+  "word": "泡",
+  "sentence": "妈妈每天晚上都用热水泡脚。",
+  "pinyin": "Māma měi tiān wǎnshàng dōu yòng rè shuǐ pào jiǎo.",
+  "english": "Mom soaks her feet in hot water every night."
+ },
+ {
+  "nid": 1449637009898,
+  "word": "氛",
+  "sentence": "大家一起唱歌，教室里的气氛非常热闹。",
+  "pinyin": "Dàjiā yīqǐ chànggē, jiàoshì lǐ de qìfēn fēicháng rènao.",
+  "english": "Everyone sang together, and the atmosphere in the classroom was very lively."
+ },
+ {
+  "nid": 1449637009903,
+  "word": "蜜",
+  "sentence": "她每天早上都喝一杯蜂蜜水。",
+  "pinyin": "Tā měi tiān zǎoshàng dōu hē yī bēi fēngmì shuǐ.",
+  "english": "She drinks a cup of honey water every morning."
+ },
+ {
+  "nid": 1449637009913,
+  "word": "顽",
+  "sentence": "爷爷的脾气很顽固，谁劝都不听。",
+  "pinyin": "Yéye de píqi hěn wángù, shéi quàn dōu bù tīng.",
+  "english": "Grandpa's temper is very stubborn; he won't listen no matter who tries to persuade him."
+ },
+ {
+  "nid": 1449637009922,
+  "word": "辅",
+  "sentence": "老师每天放学后辅导我做作业。",
+  "pinyin": "Lǎoshī měi tiān fàngxué hòu fǔdǎo wǒ zuò zuòyè.",
+  "english": "The teacher tutors me with my homework every day after school."
+ },
+ {
+  "nid": 1449637009944,
+  "word": "悠",
+  "sentence": "这座城市的历史非常悠久。",
+  "pinyin": "Zhè zuò chéngshì de lìshǐ fēicháng yōujiǔ.",
+  "english": "This city has a very long history."
+ },
+ {
+  "nid": 1449637009955,
+  "word": "翅",
+  "sentence": "小鸟张开翅膀飞向天空。",
+  "pinyin": "Xiǎo niǎo zhāngkāi chìbǎng fēi xiàng tiānkōng.",
+  "english": "The little bird spread its wings and flew into the sky."
+ },
+ {
+  "nid": 1449637009956,
+  "word": "盒",
+  "sentence": "她把礼物放进一个漂亮的盒子里。",
+  "pinyin": "Tā bǎ lǐwù fàng jìn yī gè piàoliang de hézi lǐ.",
+  "english": "She put the gift into a pretty box."
+ },
+ {
+  "nid": 1449637009964,
+  "word": "廊",
+  "sentence": "学生们在走廊里排队等着上课。",
+  "pinyin": "Xuéshengmen zài zǒuláng lǐ páiduì děngzhe shàngkè.",
+  "english": "The students are lining up in the corridor waiting for class to start."
+ },
+ {
+  "nid": 1449637009977,
+  "word": "筒",
+  "sentence": "他把所有的铅笔都放进笔筒里。",
+  "pinyin": "Tā bǎ suǒyǒu de qiānbǐ dōu fàng jìn bǐtǒng lǐ.",
+  "english": "He put all the pencils into the pen holder."
+ },
+ {
+  "nid": 1449637009979,
+  "word": "裤",
+  "sentence": "这条裤子对我来说有点长。",
+  "pinyin": "Zhè tiáo kùzi duì wǒ lái shuō yǒudiǎn cháng.",
+  "english": "These pants are a bit long for me."
+ },
+ {
+  "nid": 1449637009993,
+  "word": "艳",
+  "sentence": "公园里的花开得非常艳丽。",
+  "pinyin": "Gōngyuán lǐ de huā kāi de fēicháng yànlì.",
+  "english": "The flowers in the park are blooming gorgeously."
+ },
+ {
+  "nid": 1449637010002,
+  "word": "愁",
+  "sentence": "儿子的工作还没找到，妈妈很发愁。",
+  "pinyin": "Érzi de gōngzuò hái méi zhǎodào, māma hěn fāchóu.",
+  "english": "The son still hasn't found a job, and mom is very worried."
+ },
+ {
+  "nid": 1449637010003,
+  "word": "瞬",
+  "sentence": "比赛结束的瞬间，大家都欢呼起来。",
+  "pinyin": "Bǐsài jiéshù de shùnjiān, dàjiā dōu huānhū qǐlai.",
+  "english": "The moment the match ended, everyone cheered."
+ },
+ {
+  "nid": 1449637010004,
+  "word": "婴",
+  "sentence": "那个婴儿在妈妈的怀里睡得很香。",
+  "pinyin": "Nàge yīng'ér zài māma de huái lǐ shuì de hěn xiāng.",
+  "english": "That baby is sleeping soundly in his mother's arms."
+ },
+ {
+  "nid": 1449637010006,
+  "word": "颈",
+  "sentence": "动物园里的长颈鹿伸长脖子吃树叶。",
+  "pinyin": "Dòngwùyuán lǐ de chángjǐnglù shēn cháng bózi chī shùyè.",
+  "english": "The giraffe at the zoo stretches its neck to eat leaves."
+ },
+ {
+  "nid": 1449637010011,
+  "word": "畅",
+  "sentence": "今天的高速公路一路畅通。",
+  "pinyin": "Jīntiān de gāosù gōnglù yīlù chàngtōng.",
+  "english": "The highway was completely clear today."
+ },
+ {
+  "nid": 1449637010012,
+  "word": "赠",
+  "sentence": "老师把一本书赠送给了那个学生。",
+  "pinyin": "Lǎoshī bǎ yī běn shū zèngsòng gěi le nàge xuésheng.",
+  "english": "The teacher gave that student a book as a gift."
+ },
+ {
+  "nid": 1449637010072,
+  "word": "撑",
+  "sentence": "下雨了，她连忙撑起一把伞。",
+  "pinyin": "Xià yǔ le, tā liánmáng chēng qǐ yī bǎ sǎn.",
+  "english": "It started raining, so she quickly put up an umbrella."
+ },
+ {
+  "nid": 1449637010076,
+  "word": "猴",
+  "sentence": "动物园里的猴子在树上跳来跳去。",
+  "pinyin": "Dòngwùyuán lǐ de hóuzi zài shù shàng tiào lái tiào qù.",
+  "english": "The monkeys at the zoo are jumping around in the trees."
+ },
+ {
+  "nid": 1449637010077,
+  "word": "枯",
+  "sentence": "好几天没浇水，花都枯萎了。",
+  "pinyin": "Hǎo jǐ tiān méi jiāo shuǐ, huā dōu kūwěi le.",
+  "english": "It hasn't been watered for several days, and the flowers have withered."
+ },
+ {
+  "nid": 1449637010095,
+  "word": "脂",
+  "sentence": "这种食物脂肪含量很高。",
+  "pinyin": "Zhè zhǒng shíwù zhīfáng hánliàng hěn gāo.",
+  "english": "This kind of food has a high fat content."
+ },
+ {
+  "nid": 1449637010109,
+  "word": "晰",
+  "sentence": "他说话的声音很清晰，大家都听得懂。",
+  "pinyin": "Tā shuōhuà de shēngyīn hěn qīngxī, dàjiā dōu tīng de dǒng.",
+  "english": "His voice was very clear, and everyone could understand him."
+ },
+ {
+  "nid": 1449637010110,
+  "word": "罕",
+  "sentence": "这种珍贵的鸟在中国很罕见。",
+  "pinyin": "Zhè zhǒng zhēnguì de niǎo zài Zhōngguó hěn hǎnjiàn.",
+  "english": "This precious bird is very rare in China."
+ },
+ {
+  "nid": 1449637010120,
+  "word": "叉",
+  "sentence": "吃西餐的时候要用叉子和刀子。",
+  "pinyin": "Chī xīcān de shíhou yào yòng chāzi hé dāozi.",
+  "english": "When eating Western food, you use a fork and knife."
+ },
+ {
+  "nid": 1449637010129,
+  "word": "粘",
+  "sentence": "米饭放久了会变得很粘。",
+  "pinyin": "Mǐfàn fàng jiǔ le huì biàn de hěn nián.",
+  "english": "Rice becomes very sticky if it sits for a long time."
+ },
+ {
+  "nid": 1449637010144,
+  "word": "棍",
+  "sentence": "爷爷拄着一根棍子慢慢走路。",
+  "pinyin": "Yéye zhǔzhe yī gēn gùnzi mànman zǒulù.",
+  "english": "Grandpa slowly walks while leaning on a stick."
+ },
+ {
+  "nid": 1449637010158,
+  "word": "憾",
+  "sentence": "没能参加朋友的婚礼，他觉得很遗憾。",
+  "pinyin": "Méi néng cānjiā péngyou de hūnlǐ, tā juéde hěn yíhàn.",
+  "english": "He felt very regretful that he couldn't attend his friend's wedding."
+ },
+ {
+  "nid": 1449637010179,
+  "word": "浴",
+  "sentence": "他每天早上都在浴室里洗澡。",
+  "pinyin": "Tā měi tiān zǎoshàng dōu zài yùshì lǐ xǐzǎo.",
+  "english": "He takes a bath in the bathroom every morning."
+ },
+ {
+  "nid": 1449637010195,
+  "word": "蝶",
+  "sentence": "一只美丽的蝴蝶落在花朵上。",
+  "pinyin": "Yī zhī měilì de húdié luò zài huāduǒ shàng.",
+  "english": "A beautiful butterfly landed on the flower."
+ },
+ {
+  "nid": 1449637010214,
+  "word": "嘲",
+  "sentence": "同学们都嘲笑他穿的衣服太旧了。",
+  "pinyin": "Tóngxuémen dōu cháoxiào tā chuān de yīfu tài jiù le.",
+  "english": "The classmates all laughed at him for wearing such old clothes."
+ },
+ {
+  "nid": 1449637010215,
+  "word": "啡",
+  "sentence": "我每天早上都要喝一杯咖啡。",
+  "pinyin": "Wǒ měi tiān zǎoshàng dōu yào hē yī bēi kāfēi.",
+  "english": "I drink a cup of coffee every morning."
+ },
+ {
+  "nid": 1449637010246,
+  "word": "篮",
+  "sentence": "她提着一个篮子去市场买菜。",
+  "pinyin": "Tā tízhe yī gè lánzi qù shìchǎng mǎi cài.",
+  "english": "She carried a basket to the market to buy vegetables."
+ },
+ {
+  "nid": 1449637010253,
+  "word": "兔",
+  "sentence": "那只白色的兔子正在吃胡萝卜。",
+  "pinyin": "Nà zhī báisè de tùzi zhèngzài chī húluóbo.",
+  "english": "That white rabbit is eating a carrot."
+ },
+ {
+  "nid": 1449637010262,
+  "word": "咳",
+  "sentence": "他感冒了，一直咳嗽个不停。",
+  "pinyin": "Tā gǎnmào le, yīzhí késou gè bù tíng.",
+  "english": "He caught a cold and can't stop coughing."
+ },
+ {
+  "nid": 1449637010264,
+  "word": "舅",
+  "sentence": "我舅舅每年过年都会来我家。",
+  "pinyin": "Wǒ jiùjiu měi nián guònián dōu huì lái wǒ jiā.",
+  "english": "My uncle comes to my house every year for New Year."
+ },
+ {
+  "nid": 1449637010266,
+  "word": "擅",
+  "sentence": "她擅长唱歌，经常在学校表演。",
+  "pinyin": "Tā shàncháng chànggē, jīngcháng zài xuéxiào biǎoyǎn.",
+  "english": "She's good at singing and often performs at school."
+ },
+ {
+  "nid": 1449637010305,
+  "word": "谐",
+  "sentence": "一家人在一起吃饭，气氛很和谐。",
+  "pinyin": "Yī jiā rén zài yīqǐ chīfàn, qìfēn hěn héxié.",
+  "english": "The family eats together, and the atmosphere is very harmonious."
+ },
+ {
+  "nid": 1449637010388,
+  "word": "淘",
+  "sentence": "妈妈在厨房里淘米准备做饭。",
+  "pinyin": "Māma zài chúfáng lǐ táomǐ zhǔnbèi zuòfàn.",
+  "english": "Mom is rinsing rice in the kitchen to prepare a meal."
+ },
+ {
+  "nid": 1449637010391,
+  "word": "衬",
+  "sentence": "他今天穿了一件白色的衬衫。",
+  "pinyin": "Tā jīntiān chuān le yī jiàn báisè de chènshān.",
+  "english": "He wore a white shirt today."
+ },
+ {
+  "nid": 1449637010398,
+  "word": "菊",
+  "sentence": "秋天到了，公园里的菊花都开了。",
+  "pinyin": "Qiūtiān dào le, gōngyuán lǐ de júhuā dōu kāi le.",
+  "english": "Autumn has arrived, and the chrysanthemums in the park have all bloomed."
+ },
+ {
+  "nid": 1449637010406,
+  "word": "蚁",
+  "sentence": "一群蚂蚁正在地上搬运食物。",
+  "pinyin": "Yī qún mǎyǐ zhèngzài dìshàng bānyùn shíwù.",
+  "english": "A group of ants is carrying food on the ground."
+ },
+ {
+  "nid": 1449637010418,
+  "word": "稻",
+  "sentence": "农民在稻田里辛苦地插秧。",
+  "pinyin": "Nóngmín zài dàotián lǐ xīnkǔ de chāyāng.",
+  "english": "The farmer is planting rice seedlings hard in the rice field."
+ },
+ {
+  "nid": 1449637010437,
+  "word": "碌",
+  "sentence": "妈妈每天工作都很忙碌，很少休息。",
+  "pinyin": "Māma měi tiān gōngzuò dōu hěn mánglù, hěn shǎo xiūxi.",
+  "english": "Mom is very busy with work every day and rarely rests."
+ },
+ {
+  "nid": 1449637010445,
+  "word": "榜",
+  "sentence": "学校把优秀学生的名字写在光荣榜上。",
+  "pinyin": "Xuéxiào bǎ yōuxiù xuésheng de míngzi xiě zài guāngróngbǎng shàng.",
+  "english": "The school writes outstanding students' names on the honor roll."
+ },
+ {
+  "nid": 1449637010469,
+  "word": "淹",
+  "sentence": "大雨过后，地下室都被水淹了。",
+  "pinyin": "Dàyǔ guòhòu, dìxiàshì dōu bèi shuǐ yān le.",
+  "english": "After the heavy rain, the basement was flooded."
+ },
+ {
+  "nid": 1449637010494,
+  "word": "枕",
+  "sentence": "睡觉前他喜欢抱着枕头看书。",
+  "pinyin": "Shuìjiào qián tā xǐhuan bàozhe zhěntou kàn shū.",
+  "english": "Before going to sleep, he likes to hold his pillow while reading."
+ },
+ {
+  "nid": 1449637010515,
+  "word": "浆",
+  "sentence": "早餐店的豆浆又香又浓。",
+  "pinyin": "Zǎocān diàn de dòujiāng yòu xiāng yòu nóng.",
+  "english": "The soy milk at the breakfast shop is both fragrant and rich."
+ },
+ {
+  "nid": 1449637010581,
+  "word": "匀",
+  "sentence": "她把颜料在纸上涂得很均匀。",
+  "pinyin": "Tā bǎ yánliào zài zhǐ shàng tú de hěn jūnyún.",
+  "english": "She spread the paint on the paper very evenly."
+ },
+ {
+  "nid": 1449637010629,
+  "word": "碳",
+  "sentence": "植物吸收二氧化碳，放出氧气。",
+  "pinyin": "Zhíwù xīshōu èryǎnghuàtàn, fàngchū yǎngqì.",
+  "english": "Plants absorb carbon dioxide and release oxygen."
+ },
+ {
+  "nid": 1449637010853,
+  "word": "蝴",
+  "sentence": "花园里飞着几只彩色的蝴蝶。",
+  "pinyin": "Huāyuán lǐ fēizhe jǐ zhī cǎisè de húdié.",
+  "english": "Several colorful butterflies are flying in the garden."
+ },
+ {
+  "nid": 1449637010858,
+  "word": "汰",
+  "sentence": "成绩不好的队伍会被淘汰出局。",
+  "pinyin": "Chéngjì bù hǎo de duìwǔ huì bèi táotài chūjú.",
+  "english": "Teams with poor results will be eliminated."
+ },
+ {
+  "nid": 1537328239557,
+  "word": "拜",
+  "sentence": "拜托你帮我把这份文件送过去。",
+  "pinyin": "Bàituō nǐ bāng wǒ bǎ zhè fèn wénjiàn sòng guòqu.",
+  "english": "Please help me deliver this document."
+ },
+ {
+  "nid": 1537328239581,
+  "word": "帮",
+  "sentence": "我搬家的时候，朋友们都来帮忙。",
+  "pinyin": "Wǒ bānjiā de shíhou, péngyoumen dōu lái bāngmáng.",
+  "english": "When I moved house, my friends all came to help."
+ },
+ {
+  "nid": 1537328239731,
+  "word": "姐",
+  "sentence": "我姐姐比我大三岁。",
+  "pinyin": "Wǒ jiějie bǐ wǒ dà sān suì.",
+  "english": "My older sister is three years older than me."
+ },
+ {
+  "nid": 1537328239743,
+  "word": "妹",
+  "sentence": "我妹妹今年上小学三年级。",
+  "pinyin": "Wǒ mèimei jīnnián shàng xiǎoxué sān niánjí.",
+  "english": "My younger sister is in third grade this year."
+ },
+ {
+  "nid": 1537328239950,
+  "word": "星期天",
+  "sentence": "我们星期天一起去公园玩吧。",
+  "pinyin": "Wǒmen xīngqītiān yīqǐ qù gōngyuán wán ba.",
+  "english": "Let's go to the park together this Sunday."
+ },
+ {
+  "nid": 1537328240034,
+  "word": "爱人",
+  "sentence": "他的爱人在医院工作，是一名护士。",
+  "pinyin": "Tā de àirén zài yīyuàn gōngzuò, shì yī míng hùshi.",
+  "english": "His wife works at the hospital as a nurse."
+ },
+ {
+  "nid": 1537328240104,
+  "word": "纸",
+  "sentence": "老师发给每个学生一张白纸。",
+  "pinyin": "Lǎoshī fā gěi měi gè xuésheng yī zhāng bái zhǐ.",
+  "english": "The teacher gave each student a piece of white paper."
+ },
+ {
+  "nid": 1537328240587,
+  "word": "迟",
+  "sentence": "今天路上堵车，他上班迟到了。",
+  "pinyin": "Jīntiān lùshàng dǔchē, tā shàngbān chídào le.",
+  "english": "There was a traffic jam today, so he was late for work."
+ },
+ {
+  "nid": 1537328240739,
+  "word": "肉",
+  "sentence": "他喜欢吃肉，不太喜欢吃蔬菜。",
+  "pinyin": "Tā xǐhuan chī ròu, bú tài xǐhuan chī shūcài.",
+  "english": "He likes eating meat and doesn't really like eating vegetables."
+ },
+ {
+  "nid": 1537328240756,
+  "word": "肌",
+  "sentence": "他每天锻炼身体，练出了肌肉。",
+  "pinyin": "Tā měi tiān duànliàn shēntǐ, liàn chū le jīròu.",
+  "english": "He exercises every day and has built up muscle."
+ },
+ {
+  "nid": 1537328240789,
+  "word": "址",
+  "sentence": "请把你的家庭地址写在这张表格上。",
+  "pinyin": "Qǐng bǎ nǐ de jiātíng dìzhǐ xiě zài zhè zhāng biǎogé shàng.",
+  "english": "Please write your home address on this form."
+ },
+ {
+  "nid": 1537328240922,
+  "word": "森",
+  "sentence": "熊猫生活在中国的森林里。",
+  "pinyin": "Xióngmāo shēnghuó zài Zhōngguó de sēnlín lǐ.",
+  "english": "Pandas live in the forests of China."
+ },
+ {
+  "nid": 1537328240991,
+  "word": "下课",
+  "sentence": "老师说下课以后大家可以出去玩。",
+  "pinyin": "Lǎoshī shuō xiàkè yǐhòu dàjiā kěyǐ chūqù wán.",
+  "english": "The teacher said that after class everyone can go out and play."
+ },
+ {
+  "nid": 1537328241187,
+  "word": "啤",
+  "sentence": "爸爸晚饭的时候喜欢喝一瓶啤酒。",
+  "pinyin": "Bàba wǎnfàn de shíhou xǐhuan hē yī píng píjiǔ.",
+  "english": "Dad likes to drink a bottle of beer with dinner."
+ },
+ {
+  "nid": 1537328241190,
+  "word": "瓶",
+  "sentence": "她一口气喝完了一瓶水。",
+  "pinyin": "Tā yī kǒuqì hē wán le yī píng shuǐ.",
+  "english": "She drank a whole bottle of water in one go."
+ },
+ {
+  "nid": 1537328241198,
+  "word": "厅",
+  "sentence": "全家人晚上都坐在客厅看电视。",
+  "pinyin": "Quánjiārén wǎnshàng dōu zuò zài kètīng kàn diànshì.",
+  "english": "The whole family sits in the living room watching TV every evening."
+ },
+ {
+  "nid": 1537328241202,
+  "word": "库",
+  "sentence": "他把车停进了车库里。",
+  "pinyin": "Tā bǎ chē tíng jìn le chēkù lǐ.",
+  "english": "He parked the car in the garage."
+ },
+ {
+  "nid": 1537328241206,
+  "word": "麻",
+  "sentence": "这件事情很麻烦，要花很多时间处理。",
+  "pinyin": "Zhè jiàn shìqing hěn máfan, yào huā hěn duō shíjiān chǔlǐ.",
+  "english": "This matter is very troublesome and will take a lot of time to handle."
+ },
+ {
+  "nid": 1537328241209,
+  "word": "烦",
+  "sentence": "每天堵车让他觉得非常心烦。",
+  "pinyin": "Měi tiān dǔchē ràng tā juéde fēicháng xīnfán.",
+  "english": "The daily traffic jam makes him feel very annoyed."
+ },
+ {
+  "nid": 1537328241260,
+  "word": "简",
+  "sentence": "这道数学题其实很简单。",
+  "pinyin": "Zhè dào shùxué tí qíshí hěn jiǎndān.",
+  "english": "This math problem is actually very simple."
+ },
+ {
+  "nid": 1537328241268,
+  "word": "难听",
+  "sentence": "他唱歌的声音很难听，大家都笑了。",
+  "pinyin": "Tā chànggē de shēngyīn hěn nántīng, dàjiā dōu xiào le.",
+  "english": "His singing sounded terrible, and everyone laughed."
+ },
+ {
+  "nid": 1537328241422,
+  "word": "忘",
+  "sentence": "我忘了带伞，结果被雨淋湿了。",
+  "pinyin": "Wǒ wàng le dài sǎn, jiéguǒ bèi yǔ lín shī le.",
+  "english": "I forgot to bring an umbrella, and ended up getting soaked in the rain."
+ },
+ {
+  "nid": 1537328241453,
+  "word": "咖",
+  "sentence": "她点了一杯热咖啡坐下来看书。",
+  "pinyin": "Tā diǎn le yī bēi rè kāfēi zuò xiàlai kàn shū.",
+  "english": "She ordered a hot coffee and sat down to read."
+ },
+ {
+  "nid": 1537328241608,
+  "word": "聊",
+  "sentence": "我们经常在网上聊天。",
+  "pinyin": "Wǒmen jīngcháng zài wǎngshàng liáotiān.",
+  "english": "We often chat online."
+ },
+ {
+  "nid": 1537328241622,
+  "word": "码",
+  "sentence": "请把你的电话号码写在纸上。",
+  "pinyin": "Qǐng bǎ nǐ de diànhuà hàomǎ xiě zài zhǐ shàng.",
+  "english": "Please write your phone number on the paper."
+ },
+ {
+  "nid": 1537328241663,
+  "word": "聪",
+  "sentence": "这个孩子从小就很聪明。",
+  "pinyin": "Zhège háizi cóngxiǎo jiù hěn cōngming.",
+  "english": "This child has been smart since childhood."
+ },
+ {
+  "nid": 1537328241687,
+  "word": "腐",
+  "sentence": "水果放在外面太久会腐烂。",
+  "pinyin": "Shuǐguǒ fàng zài wàimiàn tài jiǔ huì fǔlàn.",
+  "english": "If fruit is left outside for too long, it will rot."
+ },
+ {
+  "nid": 1537328241697,
+  "word": "惯",
+  "sentence": "他已经习惯了每天早起跑步。",
+  "pinyin": "Tā yǐjīng xíguàn le měi tiān zǎoqǐ pǎobù.",
+  "english": "He is already used to getting up early to run every day."
+ },
+ {
+  "nid": 1537328241704,
+  "word": "迎",
+  "sentence": "学校热烈欢迎新来的老师。",
+  "pinyin": "Xuéxiào rèliè huānyíng xīn lái de lǎoshī.",
+  "english": "The school warmly welcomed the new teacher."
+ },
+ {
+  "nid": 1537328241708,
+  "word": "临",
+  "sentence": "会议临时改到了下午三点。",
+  "pinyin": "Huìyì línshí gǎi dào le xiàwǔ sān diǎn.",
+  "english": "The meeting was temporarily changed to three in the afternoon."
+ },
+ {
+  "nid": 1537328241729,
+  "word": "剪",
+  "sentence": "妈妈用剪刀把纸剪成了小块。",
+  "pinyin": "Māma yòng jiǎndāo bǎ zhǐ jiǎn chéng le xiǎo kuài.",
+  "english": "Mom used scissors to cut the paper into small pieces."
+ },
+ {
+  "nid": 1537328241731,
+  "word": "旁",
+  "sentence": "邮局就在银行旁边，很好找。",
+  "pinyin": "Yóujú jiù zài yínháng pángbiān, hěn hǎo zhǎo.",
+  "english": "The post office is right next to the bank, very easy to find."
+ },
+ {
+  "nid": 1537328241899,
+  "word": "续",
+  "sentence": "休息一下以后，我们继续开会。",
+  "pinyin": "Xiūxi yīxià yǐhòu, wǒmen jìxù kāihuì.",
+  "english": "After resting for a bit, we continued the meeting."
+ },
+ {
+  "nid": 1537328241900,
+  "word": "继",
+  "sentence": "他继承了父亲留下的这家小店。",
+  "pinyin": "Tā jìchéng le fùqīn liú xià de zhè jiā xiǎo diàn.",
+  "english": "He took over the small shop his father left behind."
+ },
+ {
+  "nid": 1537328242145,
+  "word": "整",
+  "sentence": "他整个下午都在睡觉。",
+  "pinyin": "Tā zhěngge xiàwǔ dōu zài shuìjiào.",
+  "english": "He slept the whole afternoon."
+ },
+ {
+  "nid": 1537328242203,
+  "word": "板",
+  "sentence": "我们公司的老板很年轻。",
+  "pinyin": "Wǒmen gōngsī de lǎobǎn hěn niánqīng.",
+  "english": "Our company's boss is very young."
+ },
+ {
+  "nid": 1537328242209,
+  "word": "练",
+  "sentence": "我每天晚上练习写汉字。",
+  "pinyin": "Wǒ měitiān wǎnshang liànxí xiě Hànzì.",
+  "english": "I practice writing Chinese characters every evening."
+ },
+ {
+  "nid": 1537328242233,
+  "word": "祝",
+  "sentence": "老师祝我们考试顺利。",
+  "pinyin": "Lǎoshī zhù wǒmen kǎoshì shùnlì.",
+  "english": "The teacher wishes us a smooth exam."
+ },
+ {
+  "nid": 1537328242247,
+  "word": "拼",
+  "sentence": "小学生要先学拼音。",
+  "pinyin": "Xiǎoxuéshēng yào xiān xué pīnyīn.",
+  "english": "Primary school students need to learn pinyin first."
+ },
+ {
+  "nid": 1537328242297,
+  "word": "期末",
+  "sentence": "期末考试下周开始。",
+  "pinyin": "Qīmò kǎoshì xià zhōu kāishǐ.",
+  "english": "Final exams start next week."
+ },
+ {
+  "nid": 1537328242408,
+  "word": "钟",
+  "sentence": "我们下午三点钟见面吧。",
+  "pinyin": "Wǒmen xiàwǔ sān diǎn zhōng jiànmiàn ba.",
+  "english": "Let's meet at three o'clock in the afternoon."
+ },
+ {
+  "nid": 1537328242413,
+  "word": "私",
+  "sentence": "这是我的私人物品。",
+  "pinyin": "Zhè shì wǒ de sīrén wùpǐn.",
+  "english": "These are my private belongings."
+ },
+ {
+  "nid": 1537328242437,
+  "word": "厨",
+  "sentence": "妈妈正在厨房做饭。",
+  "pinyin": "Māma zhèngzài chúfáng zuòfàn.",
+  "english": "Mom is cooking in the kitchen."
+ },
+ {
+  "nid": 1537328242450,
+  "word": "豆",
+  "sentence": "奶奶每天都喜欢吃黄豆。",
+  "pinyin": "Nǎinai měitiān dōu xǐhuan chī huángdòu.",
+  "english": "Grandma likes to eat yellow soybeans every day."
+ },
+ {
+  "nid": 1537328242564,
+  "word": "赛",
+  "sentence": "他们的球队赢了比赛。",
+  "pinyin": "Tāmen de qiúduì yíng le bǐsài.",
+  "english": "Their team won the competition."
+ },
+ {
+  "nid": 1537328242573,
+  "word": "括",
+  "sentence": "价格包括早饭和晚饭。",
+  "pinyin": "Jiàgé bāokuò zǎofàn hé wǎnfàn.",
+  "english": "The price includes breakfast and dinner."
+ },
+ {
+  "nid": 1537328242609,
+  "word": "宜",
+  "sentence": "这家商店的东西很便宜。",
+  "pinyin": "Zhè jiā shāngdiàn de dōngxi hěn piányi.",
+  "english": "The things in this shop are very cheap."
+ },
+ {
+  "nid": 1537328242620,
+  "word": "随",
+  "sentence": "你想点什么菜都随便你。",
+  "pinyin": "Nǐ xiǎng diǎn shénme cài dōu suíbiàn nǐ.",
+  "english": "You can order whatever dishes you like, it's up to you."
+ },
+ {
+  "nid": 1537328242654,
+  "word": "共",
+  "sentence": "这些苹果一共十块钱。",
+  "pinyin": "Zhèxiē píngguǒ yīgòng shí kuài qián.",
+  "english": "These apples cost ten yuan in total."
+ },
+ {
+  "nid": 1537328242662,
+  "word": "恭",
+  "sentence": "大家都恭喜他找到新工作。",
+  "pinyin": "Dàjiā dōu gōngxǐ tā zhǎodào xīn gōngzuò.",
+  "english": "Everyone congratulated him on finding a new job."
+ },
+ {
+  "nid": 1537328242780,
+  "word": "请客",
+  "sentence": "今天你生日，我请客吃饭。",
+  "pinyin": "Jīntiān nǐ shēngrì, wǒ qǐngkè chīfàn.",
+  "english": "It's your birthday today, I'll treat you to a meal."
+ },
+ {
+  "nid": 1537328242788,
+  "word": "楚",
+  "sentence": "老师把问题讲得很清楚。",
+  "pinyin": "Lǎoshī bǎ wèntí jiǎng de hěn qīngchǔ.",
+  "english": "The teacher explained the problem very clearly."
+ },
+ {
+  "nid": 1537328242839,
+  "word": "漂",
+  "sentence": "一片树叶漂在水面上。",
+  "pinyin": "Yī piàn shùyè piāo zài shuǐmiàn shàng.",
+  "english": "A leaf is floating on the water."
+ },
+ {
+  "nid": 1537328243007,
+  "word": "舒",
+  "sentence": "躺在床上感觉很舒服。",
+  "pinyin": "Tǎng zài chuáng shàng gǎnjué hěn shūfu.",
+  "english": "Lying on the bed feels very comfortable."
+ },
+ {
+  "nid": 1537328243076,
+  "word": "鞋",
+  "sentence": "这双鞋是我昨天买的。",
+  "pinyin": "Zhè shuāng xié shì wǒ zuótiān mǎi de.",
+  "english": "I bought these shoes yesterday."
+ },
+ {
+  "nid": 1537328243190,
+  "word": "牙刷",
+  "sentence": "我每天早上用牙刷刷牙。",
+  "pinyin": "Wǒ měitiān zǎoshang yòng yáshuā shuā yá.",
+  "english": "I brush my teeth with a toothbrush every morning."
+ },
+ {
+  "nid": 1537328243248,
+  "word": "街",
+  "sentence": "这条街上有很多商店。",
+  "pinyin": "Zhè tiáo jiē shàng yǒu hěnduō shāngdiàn.",
+  "english": "There are many shops on this street."
+ },
+ {
+  "nid": 1537328243263,
+  "word": "疯",
+  "sentence": "考试太多，他快疯了。",
+  "pinyin": "Kǎoshì tài duō, tā kuài fēng le.",
+  "english": "There are so many exams, he's about to go crazy."
+ },
+ {
+  "nid": 1537328243269,
+  "word": "狂",
+  "sentence": "球迷们疯狂地喊他的名字。",
+  "pinyin": "Qiúmímen fēngkuáng de hǎn tā de míngzi.",
+  "english": "The fans wildly shouted his name."
+ },
+ {
+  "nid": 1537328243283,
+  "word": "旅",
+  "sentence": "他们打算下个月去旅行。",
+  "pinyin": "Tāmen dǎsuàn xià gè yuè qù lǚxíng.",
+  "english": "They plan to go traveling next month."
+ },
+ {
+  "nid": 1537328243286,
+  "word": "游",
+  "sentence": "暑假我们全家去云南旅游。",
+  "pinyin": "Shǔjià wǒmen quánjiā qù Yúnnán lǚyóu.",
+  "english": "During summer vacation, our whole family is traveling to Yunnan."
+ },
+ {
+  "nid": 1537328243293,
+  "word": "戏",
+  "sentence": "孩子们喜欢玩这个游戏。",
+  "pinyin": "Háizimen xǐhuan wán zhège yóuxì.",
+  "english": "The children like playing this game."
+ },
+ {
+  "nid": 1537328243344,
+  "word": "貌",
+  "sentence": "见到长辈要有礼貌。",
+  "pinyin": "Jiàndào zhǎngbèi yào yǒu lǐmào.",
+  "english": "You should be polite when meeting elders."
+ },
+ {
+  "nid": 1537328243354,
+  "word": "怪",
+  "sentence": "这件事情有点奇怪。",
+  "pinyin": "Zhè jiàn shìqíng yǒudiǎn qíguài.",
+  "english": "This matter is a bit strange."
+ },
+ {
+  "nid": 1537328243391,
+  "word": "泥",
+  "sentence": "下雨后地上都是泥。",
+  "pinyin": "Xià yǔ hòu dìshang dōu shì ní.",
+  "english": "After it rained, the ground was covered in mud."
+ },
+ {
+  "nid": 1537328243416,
+  "word": "矮",
+  "sentence": "那棵树比这棵矮很多。",
+  "pinyin": "Nà kē shù bǐ zhè kē ǎi hěnduō.",
+  "english": "That tree is much shorter than this one."
+ },
+ {
+  "nid": 1537328243433,
+  "word": "奋",
+  "sentence": "听到好消息，他很兴奋。",
+  "pinyin": "Tīngdào hǎo xiāoxi, tā hěn xīngfèn.",
+  "english": "He was very excited to hear the good news."
+ },
+ {
+  "nid": 1537328243482,
+  "word": "供",
+  "sentence": "学校提供免费午饭。",
+  "pinyin": "Xuéxiào tígōng miǎnfèi wǔfàn.",
+  "english": "The school provides free lunch."
+ },
+ {
+  "nid": 1537328243552,
+  "word": "口感",
+  "sentence": "这种面包的口感很软。",
+  "pinyin": "Zhè zhǒng miànbāo de kǒugǎn hěn ruǎn.",
+  "english": "This bread has a very soft texture."
+ },
+ {
+  "nid": 1537328243558,
+  "word": "幽",
+  "sentence": "公园里的小路很幽静。",
+  "pinyin": "Gōngyuán lǐ de xiǎolù hěn yōujìng.",
+  "english": "The path in the park is very secluded and quiet."
+ },
+ {
+  "nid": 1537328243559,
+  "word": "默",
+  "sentence": "他一直默默地看着我们。",
+  "pinyin": "Tā yīzhí mòmò de kàn zhe wǒmen.",
+  "english": "He silently watched us the whole time."
+ },
+ {
+  "nid": 1537328243624,
+  "word": "盲",
+  "sentence": "这位盲人自己出门买菜。",
+  "pinyin": "Zhè wèi mángrén zìjǐ chūmén mǎi cài.",
+  "english": "This blind man goes out to buy groceries by himself."
+ },
+ {
+  "nid": 1537328243652,
+  "word": "厦",
+  "sentence": "这座大厦有五十层。",
+  "pinyin": "Zhè zuò dàshà yǒu wǔshí céng.",
+  "english": "This building has fifty floors."
+ },
+ {
+  "nid": 1537328243661,
+  "word": "杂",
+  "sentence": "这个问题比较复杂。",
+  "pinyin": "Zhège wèntí bǐjiào fùzá.",
+  "english": "This problem is relatively complicated."
+ },
+ {
+  "nid": 1537328243667,
+  "word": "按",
+  "sentence": "请按一下这个开关。",
+  "pinyin": "Qǐng àn yīxià zhège kāiguān.",
+  "english": "Please press this switch."
+ },
+ {
+  "nid": 1537328243679,
+  "word": "顾",
+  "sentence": "姐姐每天照顾小猫。",
+  "pinyin": "Jiějie měitiān zhàogù xiǎomāo.",
+  "english": "My older sister takes care of the kitten every day."
+ },
+ {
+  "nid": 1537328243785,
+  "word": "馆",
+  "sentence": "我周末常去图书馆看书。",
+  "pinyin": "Wǒ zhōumò cháng qù túshūguǎn kànshū.",
+  "english": "I often go to the library to read on weekends."
+ },
+ {
+  "nid": 1537328243786,
+  "word": "饭馆",
+  "sentence": "我们在饭馆吃了晚饭。",
+  "pinyin": "Wǒmen zài fànguǎn chī le wǎnfàn.",
+  "english": "We ate dinner at the restaurant."
+ },
+ {
+  "nid": 1537328243847,
+  "word": "努",
+  "sentence": "他为了考试很努力。",
+  "pinyin": "Tā wèile kǎoshì hěn nǔlì.",
+  "english": "He works very hard for the exam."
+ },
+ {
+  "nid": 1537328243894,
+  "word": "文具",
+  "sentence": "这家商店只卖文具。",
+  "pinyin": "Zhè jiā shāngdiàn zhǐ mài wénjù.",
+  "english": "This shop only sells stationery."
+ },
+ {
+  "nid": 1537328243933,
+  "word": "典",
+  "sentence": "我用词典查这个词。",
+  "pinyin": "Wǒ yòng cídiǎn chá zhège cí.",
+  "english": "I use a dictionary to look up this word."
+ },
+ {
+  "nid": 1537328243938,
+  "word": "松",
+  "sentence": "周末在家可以放松一下。",
+  "pinyin": "Zhōumò zài jiā kěyǐ fàngsōng yīxià.",
+  "english": "On weekends you can relax at home."
+ },
+ {
+  "nid": 1537328243969,
+  "word": "辈",
+  "sentence": "奶奶一辈子都很勤劳。",
+  "pinyin": "Nǎinai yībèizi dōu hěn qínláo.",
+  "english": "Grandma has been hardworking her whole life."
+ },
+ {
+  "nid": 1537328244000,
+  "word": "微",
+  "sentence": "她对我微笑了一下。",
+  "pinyin": "Tā duì wǒ wēixiào le yīxià.",
+  "english": "She smiled at me."
+ },
+ {
+  "nid": 1537328244052,
+  "word": "酱",
+  "sentence": "做菜的时候要放酱油。",
+  "pinyin": "Zuòcài de shíhou yào fàng jiàngyóu.",
+  "english": "You need to add soy sauce when cooking."
+ },
+ {
+  "nid": 1537328244126,
+  "word": "酷",
+  "sentence": "他穿黑色皮衣很酷。",
+  "pinyin": "Tā chuān hēisè píyī hěn kù.",
+  "english": "He looks really cool wearing a black leather jacket."
+ },
+ {
+  "nid": 1537328244140,
+  "word": "绿茶",
+  "sentence": "我早上喜欢喝绿茶。",
+  "pinyin": "Wǒ zǎoshang xǐhuan hē lǜchá.",
+  "english": "I like to drink green tea in the morning."
+ },
+ {
+  "nid": 1537328244150,
+  "word": "红茶",
+  "sentence": "英国人常常喝红茶。",
+  "pinyin": "Yīngguórén chángcháng hē hóngchá.",
+  "english": "British people often drink black tea."
+ },
+ {
+  "nid": 1537328244160,
+  "word": "嘿",
+  "sentence": "嘿，你怎么现在才来这里？",
+  "pinyin": "Hēi, nǐ zěnme xiànzài cái lái zhèlǐ?",
+  "english": "Hey, why are you only getting here now?"
+ },
+ {
+  "nid": 1537328244166,
+  "word": "颜",
+  "sentence": "这件衣服的颜色很好看。",
+  "pinyin": "Zhè jiàn yīfu de yánsè hěn hǎokàn.",
+  "english": "The color of this piece of clothing looks very nice."
+ },
+ {
+  "nid": 1537328244202,
+  "word": "堵",
+  "sentence": "下班时间路上堵车很严重。",
+  "pinyin": "Xiàbān shíjiān lùshang dǔchē hěn yánzhòng.",
+  "english": "Traffic is very bad during rush hour."
+ },
+ {
+  "nid": 1537328244210,
+  "word": "著",
+  "sentence": "他是一位著名的医生。",
+  "pinyin": "Tā shì yī wèi zhùmíng de yīshēng.",
+  "english": "He is a famous doctor."
+ },
+ {
+  "nid": 1537328244251,
+  "word": "急",
+  "sentence": "他找不到钥匙，非常着急。",
+  "pinyin": "Tā zhǎo bú dào yàoshi, fēicháng zháojí.",
+  "english": "He couldn't find his keys and got very anxious."
+ },
+ {
+  "nid": 1537328244266,
+  "word": "丰",
+  "sentence": "这里的水果种类很丰富。",
+  "pinyin": "Zhèlǐ de shuǐguǒ zhǒnglèi hěn fēngfù.",
+  "english": "There is a rich variety of fruit here."
+ },
+ {
+  "nid": 1537328244267,
+  "word": "害",
+  "sentence": "医生说抽烟对身体有害。",
+  "pinyin": "Yīshēng shuō chōuyān duì shēntǐ yǒuhài.",
+  "english": "The doctor said smoking is harmful to health."
+ },
+ {
+  "nid": 1537328244270,
+  "word": "羞",
+  "sentence": "小女孩看到客人有点害羞。",
+  "pinyin": "Xiǎo nǚhái kàndào kèrén yǒudiǎn hàixiū.",
+  "english": "The little girl was a bit shy seeing the guest."
+ },
+ {
+  "nid": 1537328244277,
+  "word": "厉",
+  "sentence": "这场雨下得很厉害。",
+  "pinyin": "Zhè chǎng yǔ xià de hěn lìhai.",
+  "english": "This rain is coming down really hard."
+ },
+ {
+  "nid": 1537328244280,
+  "word": "伤",
+  "sentence": "他打球的时候受伤了。",
+  "pinyin": "Tā dǎqiú de shíhou shòushāng le.",
+  "english": "He got injured while playing ball."
+ },
+ {
+  "nid": 1537328244331,
+  "word": "享",
+  "sentence": "我们应该享受生活。",
+  "pinyin": "Wǒmen yīnggāi xiǎngshòu shēnghuó.",
+  "english": "We should enjoy life."
+ },
+ {
+  "nid": 1537328244368,
+  "word": "抽",
+  "sentence": "他从口袋里抽出一张纸。",
+  "pinyin": "Tā cóng kǒudài lǐ chōuchū yī zhāng zhǐ.",
+  "english": "He pulled a piece of paper out of his pocket."
+ },
+ {
+  "nid": 1537328244398,
+  "word": "印",
+  "sentence": "请帮我打印这份文件。",
+  "pinyin": "Qǐng bāng wǒ dǎyìn zhè fèn wénjiàn.",
+  "english": "Please help me print this document."
+ },
+ {
+  "nid": 1537328244520,
+  "word": "暂",
+  "sentence": "这个问题暂时没有答案。",
+  "pinyin": "Zhège wèntí zànshí méiyǒu dá'àn.",
+  "english": "There's no answer to this question for now."
+ },
+ {
+  "nid": 1537328244529,
+  "word": "床",
+  "sentence": "这张新床躺着很舒服。",
+  "pinyin": "Zhè zhāng xīn chuáng tǎng zhe hěn shūfu.",
+  "english": "Lying on this new bed feels very comfortable."
+ },
+ {
+  "nid": 1537328244542,
+  "word": "闹",
+  "sentence": "隔壁邻居总是很吵闹。",
+  "pinyin": "Gébì línjū zǒngshì hěn chǎonào.",
+  "english": "The neighbors next door are always very noisy."
+ },
+ {
+  "nid": 1537328244545,
+  "word": "闹钟",
+  "sentence": "我的闹钟七点响了。",
+  "pinyin": "Wǒ de nàozhōng qī diǎn xiǎng le.",
+  "english": "My alarm clock rang at seven o'clock."
+ },
+ {
+  "nid": 1537328244549,
+  "word": "超",
+  "sentence": "这家店的蛋糕超好吃。",
+  "pinyin": "Zhè jiā diàn de dàngāo chāo hǎochī.",
+  "english": "The cakes at this shop are super delicious."
+ },
+ {
+  "nid": 1537328244629,
+  "word": "肯",
+  "sentence": "他肯定会来参加聚会。",
+  "pinyin": "Tā kěndìng huì lái cānjiā jùhuì.",
+  "english": "He will definitely come to the party."
+ },
+ {
+  "nid": 1537328244685,
+  "word": "释",
+  "sentence": "老师给我们解释这个问题。",
+  "pinyin": "Lǎoshī gěi wǒmen jiěshì zhège wèntí.",
+  "english": "The teacher explains this problem to us."
+ },
+ {
+  "nid": 1537328244689,
+  "word": "译",
+  "sentence": "她把这本书翻译成中文。",
+  "pinyin": "Tā bǎ zhè běn shū fānyì chéng Zhōngwén.",
+  "english": "She translated this book into Chinese."
+ },
+ {
+  "nid": 1537328244799,
+  "word": "诚",
+  "sentence": "他一直做人很诚实。",
+  "pinyin": "Tā yīzhí zuòrén hěn chéngshí.",
+  "english": "He has always been an honest person."
+ },
+ {
+  "nid": 1537328244805,
+  "word": "舞",
+  "sentence": "他们晚上一起跳舞。",
+  "pinyin": "Tāmen wǎnshang yīqǐ tiàowǔ.",
+  "english": "They dance together in the evening."
+ },
+ {
+  "nid": 1537328244812,
+  "word": "跳",
+  "sentence": "孩子高兴地跳了起来。",
+  "pinyin": "Háizi gāoxìng de tiào le qǐlái.",
+  "english": "The child jumped up happily."
+ },
+ {
+  "nid": 1537328244825,
+  "word": "挑",
+  "sentence": "她在市场上挑水果。",
+  "pinyin": "Tā zài shìchǎng shàng tiāo shuǐguǒ.",
+  "english": "She picks out fruit at the market."
+ },
+ {
+  "nid": 1537328244828,
+  "word": "容",
+  "sentence": "这道题一点也不容易。",
+  "pinyin": "Zhè dào tí yīdiǎn yě bù róngyì.",
+  "english": "This problem isn't easy at all."
+ },
+ {
+  "nid": 1537328244871,
+  "word": "密",
+  "sentence": "我忘记了手机密码。",
+  "pinyin": "Wǒ wàngjì le shǒujī mìmǎ.",
+  "english": "I forgot my phone password."
+ },
+ {
+  "nid": 1537328244872,
+  "word": "秘",
+  "sentence": "这是我们两个人的秘密。",
+  "pinyin": "Zhè shì wǒmen liǎng gè rén de mìmì.",
+  "english": "This is a secret between the two of us."
+ },
+ {
+  "nid": 1537328244906,
+  "word": "净",
+  "sentence": "妈妈把房间打扫得很干净。",
+  "pinyin": "Māma bǎ fángjiān dǎsǎo de hěn gānjìng.",
+  "english": "Mom cleaned the room until it was very tidy."
+ },
+ {
+  "nid": 1537328244914,
+  "word": "扰",
+  "sentence": "对不起，打扰你一下。",
+  "pinyin": "Duìbuqǐ, dǎrǎo nǐ yīxià.",
+  "english": "Excuse me, may I bother you for a moment?"
+ },
+ {
+  "nid": 1537328244933,
+  "word": "台球",
+  "sentence": "他们周末喜欢打台球。",
+  "pinyin": "Tāmen zhōumò xǐhuan dǎ táiqiú.",
+  "english": "They like playing billiards on weekends."
+ },
+ {
+  "nid": 1537328244951,
+  "word": "巨",
+  "sentence": "这棵老树长得非常巨大。",
+  "pinyin": "Zhè kē lǎo shù zhǎng de fēicháng jùdà.",
+  "english": "This old tree has grown extremely huge."
+ },
+ {
+  "nid": 1537328244986,
+  "word": "窗",
+  "sentence": "请把窗户打开一下。",
+  "pinyin": "Qǐng bǎ chuānghu dǎkāi yīxià.",
+  "english": "Please open the window for a moment."
+ },
+ {
+  "nid": 1537328245044,
+  "word": "叔",
+  "sentence": "叔叔昨天来我家玩。",
+  "pinyin": "Shūshu zuótiān lái wǒ jiā wán.",
+  "english": "Uncle came to my house yesterday to play."
+ },
+ {
+  "nid": 1537328245056,
+  "word": "幕",
+  "sentence": "他的手机屏幕坏了。",
+  "pinyin": "Tā de shǒujī píngmù huài le.",
+  "english": "His phone screen is broken."
+ },
+ {
+  "nid": 1537328245092,
+  "word": "胶",
+  "sentence": "他用胶水粘好了盒子。",
+  "pinyin": "Tā yòng jiāoshuǐ niánhǎo le hézi.",
+  "english": "He glued the box shut with glue."
+ },
+ {
+  "nid": 1537328245158,
+  "word": "账",
+  "sentence": "妈妈每天晚上都记账。",
+  "pinyin": "Māma měitiān wǎnshang dōu jìzhàng.",
+  "english": "Mom keeps the accounts every evening."
+ },
+ {
+  "nid": 1537328245159,
+  "word": "结账",
+  "sentence": "吃完饭后，我们叫服务员结账。",
+  "pinyin": "Chī wán fàn hòu, wǒmen jiào fúwùyuán jiézhàng.",
+  "english": "After we finish eating, we call the waiter to pay the bill."
+ },
+ {
+  "nid": 1537328245171,
+  "word": "婚",
+  "sentence": "他们打算明年在北京结婚。",
+  "pinyin": "Tāmen dǎsuàn míngnián zài Běijīng jié hūn.",
+  "english": "They plan to get married in Beijing next year."
+ },
+ {
+  "nid": 1537328245180,
+  "word": "昆",
+  "sentence": "昆仑山是中国西部有名的山脉。",
+  "pinyin": "Kūnlún Shān shì Zhōngguó xībù yǒumíng de shānmài.",
+  "english": "The Kunlun Mountains are a famous mountain range in western China."
+ },
+ {
+  "nid": 1537328245182,
+  "word": "混",
+  "sentence": "妈妈把红豆和绿豆混在一起煮粥。",
+  "pinyin": "Māma bǎ hóngdòu hé lǜdòu hùn zài yīqǐ zhǔ zhōu.",
+  "english": "Mom mixes red beans and green beans together to cook porridge."
+ },
+ {
+  "nid": 1537328245205,
+  "word": "仔",
+  "sentence": "老师让我们仔细检查作业。",
+  "pinyin": "Lǎoshī ràng wǒmen zǐxì jiǎnchá zuòyè.",
+  "english": "The teacher asked us to carefully check our homework."
+ },
+ {
+  "nid": 1537328245223,
+  "word": "登",
+  "sentence": "我们计划周末去登山。",
+  "pinyin": "Wǒmen jìhuà zhōumò qù dēng shān.",
+  "english": "We plan to go mountain climbing this weekend."
+ },
+ {
+  "nid": 1537328245233,
+  "word": "距",
+  "sentence": "我家距离学校只有两公里。",
+  "pinyin": "Wǒ jiā jùlí xuéxiào zhǐ yǒu liǎng gōnglǐ.",
+  "english": "My house is only two kilometers from school."
+ },
+ {
+  "nid": 1537328245238,
+  "word": "璃",
+  "sentence": "请小心，这个杯子是玻璃做的。",
+  "pinyin": "Qǐng xiǎoxīn, zhège bēizi shì bōli zuò de.",
+  "english": "Be careful, this cup is made of glass."
+ },
+ {
+  "nid": 1537328245252,
+  "word": "熟",
+  "sentence": "我对这条街道非常熟悉。",
+  "pinyin": "Wǒ duì zhè tiáo jiēdào fēicháng shúxī.",
+  "english": "I am very familiar with this street."
+ },
+ {
+  "nid": 1537328245265,
+  "word": "钢",
+  "sentence": "这座桥是用钢建造的。",
+  "pinyin": "Zhè zuò qiáo shì yòng gāng jiànzào de.",
+  "english": "This bridge is built with steel."
+ },
+ {
+  "nid": 1537328245271,
+  "word": "弹",
+  "sentence": "妹妹每天晚上弹钢琴。",
+  "pinyin": "Mèimei měitiān wǎnshang tán gāngqín.",
+  "english": "My little sister plays the piano every evening."
+ },
+ {
+  "nid": 1537328245279,
+  "word": "肤",
+  "sentence": "夏天要注意保护皮肤。",
+  "pinyin": "Xiàtiān yào zhùyì bǎohù pífū.",
+  "english": "In summer you need to pay attention to protecting your skin."
+ },
+ {
+  "nid": 1537328245285,
+  "word": "粉",
+  "sentence": "她穿着一条粉色的裙子。",
+  "pinyin": "Tā chuānzhe yī tiáo fěnsè de qúnzi.",
+  "english": "She is wearing a pink skirt."
+ },
+ {
+  "nid": 1537328245295,
+  "word": "橡",
+  "sentence": "我忘了带橡皮，只好借同学的。",
+  "pinyin": "Wǒ wàng le dài xiàngpí, zhǐhǎo jiè tóngxué de.",
+  "english": "I forgot to bring an eraser, so I had to borrow my classmate's."
+ },
+ {
+  "nid": 1537328245298,
+  "word": "棋",
+  "sentence": "爷爷喜欢和邻居下棋。",
+  "pinyin": "Yéye xǐhuan hé línjū xià qí.",
+  "english": "Grandpa likes to play chess with the neighbors."
+ },
+ {
+  "nid": 1537328245304,
+  "word": "凉",
+  "sentence": "秋天的晚上有点凉。",
+  "pinyin": "Qiūtiān de wǎnshang yǒudiǎn liáng.",
+  "english": "Autumn evenings are a bit cool."
+ },
+ {
+  "nid": 1537328245316,
+  "word": "脚印",
+  "sentence": "雪地上留下了一串脚印。",
+  "pinyin": "Xuědì shang liú xià le yī chuàn jiǎoyìn.",
+  "english": "A string of footprints was left in the snow."
+ },
+ {
+  "nid": 1537328245340,
+  "word": "闭",
+  "sentence": "请闭上眼睛，好好休息。",
+  "pinyin": "Qǐng bì shàng yǎnjing, hǎohāo xiūxi.",
+  "english": "Please close your eyes and rest well."
+ },
+ {
+  "nid": 1537328245347,
+  "word": "误",
+  "sentence": "路上堵车，耽误了上班时间。",
+  "pinyin": "Lùshang dǔchē, dānwu le shàngbān shíjiān.",
+  "english": "The traffic jam on the road delayed my commute."
+ },
+ {
+  "nid": 1537328245353,
+  "word": "娱",
+  "sentence": "周末我们喜欢一起娱乐。",
+  "pinyin": "Zhōumò wǒmen xǐhuan yīqǐ yúlè.",
+  "english": "On weekends we like to have fun together."
+ },
+ {
+  "nid": 1537328245393,
+  "word": "姑",
+  "sentence": "我姑姑每年过年都回老家。",
+  "pinyin": "Wǒ gūgu měinián guònián dōu huí lǎojiā.",
+  "english": "My aunt goes back to her hometown every Chinese New Year."
+ },
+ {
+  "nid": 1537328245395,
+  "word": "娘",
+  "sentence": "那个姑娘唱歌唱得很好听。",
+  "pinyin": "Nàge gūniang chànggē chàng de hěn hǎotīng.",
+  "english": "That young lady sings very beautifully."
+ },
+ {
+  "nid": 1537328245473,
+  "word": "打雷",
+  "sentence": "外面正在打雷，你先别出门。",
+  "pinyin": "Wàimiàn zhèngzài dǎléi, nǐ xiān bié chūmén.",
+  "english": "It's thundering outside, don't go out yet."
+ },
+ {
+  "nid": 1537328245506,
+  "word": "预习",
+  "sentence": "老师要求我们预习新课文。",
+  "pinyin": "Lǎoshī yāoqiú wǒmen yùxí xīn kèwén.",
+  "english": "The teacher asked us to preview the new lesson."
+ },
+ {
+  "nid": 1537328245523,
+  "word": "域",
+  "sentence": "这个区域禁止停车。",
+  "pinyin": "Zhège qūyù jìnzhǐ tíngchē.",
+  "english": "Parking is prohibited in this area."
+ },
+ {
+  "nid": 1537328245556,
+  "word": "伟",
+  "sentence": "长城是一项伟大的工程。",
+  "pinyin": "Chángchéng shì yī xiàng wěidà de gōngchéng.",
+  "english": "The Great Wall is a great engineering project."
+ },
+ {
+  "nid": 1537328245572,
+  "word": "尾",
+  "sentence": "小狗摇着尾巴跑过来。",
+  "pinyin": "Xiǎogǒu yáozhe wěiba pǎo guòlái.",
+  "english": "The little dog ran over wagging its tail."
+ },
+ {
+  "nid": 1537328245581,
+  "word": "毛笔",
+  "sentence": "爷爷用毛笔写春联。",
+  "pinyin": "Yéye yòng máobǐ xiě chūnlián.",
+  "english": "Grandpa writes spring couplets with a calligraphy brush."
+ },
+ {
+  "nid": 1537328245590,
+  "word": "铅",
+  "sentence": "弟弟喜欢用铅笔画画。",
+  "pinyin": "Dìdi xǐhuan yòng qiānbǐ huàhuà.",
+  "english": "My younger brother likes to draw with a pencil."
+ },
+ {
+  "nid": 1537328245605,
+  "word": "歉",
+  "sentence": "他做错了事，向老师道歉。",
+  "pinyin": "Tā zuò cuò le shì, xiàng lǎoshī dàoqiàn.",
+  "english": "He did something wrong and apologized to the teacher."
+ },
+ {
+  "nid": 1537328245633,
+  "word": "尊",
+  "sentence": "我们应该尊重每一位老师。",
+  "pinyin": "Wǒmen yīnggāi zūnzhòng měi yī wèi lǎoshī.",
+  "english": "We should respect every teacher."
+ },
+ {
+  "nid": 1537328245657,
+  "word": "章",
+  "sentence": "这本书的第一章很精彩。",
+  "pinyin": "Zhè běn shū de dì yī zhāng hěn jīngcǎi.",
+  "english": "The first chapter of this book is very exciting."
+ },
+ {
+  "nid": 1537328245680,
+  "word": "矛",
+  "sentence": "古代战士常常用长矛作战。",
+  "pinyin": "Gǔdài zhànshì chángcháng yòng chángmáo zuòzhàn.",
+  "english": "Ancient warriors often fought with spears."
+ },
+ {
+  "nid": 1537328245681,
+  "word": "盾",
+  "sentence": "士兵举起盾牌挡住了箭。",
+  "pinyin": "Shìbīng jǔqǐ dùnpái dǎngzhù le jiàn.",
+  "english": "The soldier raised his shield to block the arrow."
+ },
+ {
+  "nid": 1537328245714,
+  "word": "删",
+  "sentence": "他不小心删除了重要文件。",
+  "pinyin": "Tā bù xiǎoxīn shānchú le zhòngyào wénjiàn.",
+  "english": "He accidentally deleted an important file."
+ },
+ {
+  "nid": 1537328245750,
+  "word": "择",
+  "sentence": "你可以自由选择喜欢的颜色。",
+  "pinyin": "Nǐ kěyǐ zìyóu xuǎnzé xǐhuan de yánsè.",
+  "english": "You can freely choose the color you like."
+ },
+ {
+  "nid": 1537328245753,
+  "word": "筛",
+  "sentence": "妈妈用筛子筛掉面粉里的杂质。",
+  "pinyin": "Māma yòng shāizi shāi diào miànfěn li de zázhì.",
+  "english": "Mom uses a sieve to filter out impurities from the flour."
+ },
+ {
+  "nid": 1537328245768,
+  "word": "扮",
+  "sentence": "她今天打扮得特别漂亮。",
+  "pinyin": "Tā jīntiān dǎban de tèbié piàoliang.",
+  "english": "She dressed up especially beautifully today."
+ },
+ {
+  "nid": 1537328245780,
+  "word": "毕",
+  "sentence": "姐姐明年就要大学毕业了。",
+  "pinyin": "Jiějie míngnián jiù yào dàxué bìyè le.",
+  "english": "My older sister will graduate from college next year."
+ },
+ {
+  "nid": 1537328245797,
+  "word": "演",
+  "sentence": "他在电影里演一个医生。",
+  "pinyin": "Tā zài diànyǐng li yǎn yī gè yīshēng.",
+  "english": "He plays a doctor in the movie."
+ },
+ {
+  "nid": 1537328245815,
+  "word": "鼠",
+  "sentence": "厨房里有一只老鼠跑过。",
+  "pinyin": "Chúfáng li yǒu yī zhī lǎoshǔ pǎoguò.",
+  "english": "A mouse ran through the kitchen."
+ },
+ {
+  "nid": 1537328245830,
+  "word": "盘",
+  "sentence": "服务员把菜放在盘子里。",
+  "pinyin": "Fúwùyuán bǎ cài fàng zài pánzi li.",
+  "english": "The waiter put the dish on a plate."
+ },
+ {
+  "nid": 1537328245837,
+  "word": "键",
+  "sentence": "我的电脑键盘坏了。",
+  "pinyin": "Wǒ de diànnǎo jiànpán huài le.",
+  "english": "My computer keyboard is broken."
+ },
+ {
+  "nid": 1537328245852,
+  "word": "锻",
+  "sentence": "他每天早上都锻炼身体。",
+  "pinyin": "Tā měitiān zǎoshang dōu duànliàn shēntǐ.",
+  "english": "He exercises every morning."
+ },
+ {
+  "nid": 1537328245853,
+  "word": "炼",
+  "sentence": "工人正在工厂里炼钢。",
+  "pinyin": "Gōngrén zhèngzài gōngchǎng li liàn gāng.",
+  "english": "The workers are smelting steel in the factory."
+ },
+ {
+  "nid": 1537328245854,
+  "word": "景",
+  "sentence": "山上的风景非常美丽。",
+  "pinyin": "Shān shang de fēngjǐng fēicháng měilì.",
+  "english": "The scenery on the mountain is very beautiful."
+ },
+ {
+  "nid": 1537328245864,
+  "word": "授",
+  "sentence": "老师傅向徒弟传授手艺。",
+  "pinyin": "Lǎoshīfu xiàng túdì chuánshòu shǒuyì.",
+  "english": "The old master passes down his craft skills to his apprentice."
+ },
+ {
+  "nid": 1537328245881,
+  "word": "欧",
+  "sentence": "他明年打算去欧洲旅行。",
+  "pinyin": "Tā míngnián dǎsuàn qù Ōuzhōu lǚxíng.",
+  "english": "He plans to travel to Europe next year."
+ },
+ {
+  "nid": 1537328245888,
+  "word": "恶",
+  "sentence": "这个味道让我觉得恶心。",
+  "pinyin": "Zhège wèidào ràng wǒ juéde ěxin.",
+  "english": "This smell makes me feel nauseous."
+ },
+ {
+  "nid": 1537328245908,
+  "word": "链",
+  "sentence": "她的项链是妈妈送的礼物。",
+  "pinyin": "Tā de xiàngliàn shì māma sòng de lǐwù.",
+  "english": "Her necklace is a gift from her mother."
+ },
+ {
+  "nid": 1537328245918,
+  "word": "钥",
+  "sentence": "我忘记带家里的钥匙了。",
+  "pinyin": "Wǒ wàngjì dài jiāli de yàoshi le.",
+  "english": "I forgot to bring my house key."
+ },
+ {
+  "nid": 1537328245919,
+  "word": "匙",
+  "sentence": "请把钥匙放在桌子上。",
+  "pinyin": "Qǐng bǎ yàoshi fàng zài zhuōzi shàng.",
+  "english": "Please put the key on the table."
+ },
+ {
+  "nid": 1537328245974,
+  "word": "怀",
+  "sentence": "他常常怀念小时候的生活。",
+  "pinyin": "Tā chángcháng huáiniàn xiǎoshíhou de shēnghuó.",
+  "english": "He often thinks fondly of his childhood."
+ },
+ {
+  "nid": 1537328245978,
+  "word": "疑",
+  "sentence": "警察怀疑他偷了东西。",
+  "pinyin": "Jǐngchá huáiyí tā tōu le dōngxi.",
+  "english": "The police suspect he stole something."
+ },
+ {
+  "nid": 1537328245981,
+  "word": "怜",
+  "sentence": "这只流浪猫看起来很可怜。",
+  "pinyin": "Zhè zhī liúlàng māo kàn qǐlái hěn kělián.",
+  "english": "This stray cat looks very pitiful."
+ },
+ {
+  "nid": 1537328245983,
+  "word": "惜",
+  "sentence": "我们应该珍惜现在的生活。",
+  "pinyin": "Wǒmen yīnggāi zhēnxī xiànzài de shēnghuó.",
+  "english": "We should cherish our current life."
+ },
+ {
+  "nid": 1537328245999,
+  "word": "孤",
+  "sentence": "那个孤儿被一对好心夫妻收养了。",
+  "pinyin": "Nàge gū'ér bèi yī duì hǎoxīn fūqī shōuyǎng le.",
+  "english": "That orphan was adopted by a kind-hearted couple."
+ },
+ {
+  "nid": 1537328246008,
+  "word": "娃",
+  "sentence": "邻居家的娃娃长得很可爱。",
+  "pinyin": "Línjū jiā de wáwa zhǎng de hěn kě'ài.",
+  "english": "The neighbor's baby is very cute."
+ },
+ {
+  "nid": 1537328246017,
+  "word": "封",
+  "sentence": "我昨天收到了一封信。",
+  "pinyin": "Wǒ zuótiān shōu dào le yī fēng xìn.",
+  "english": "I received a letter yesterday."
+ },
+ {
+  "nid": 1537328246029,
+  "word": "激",
+  "sentence": "听到这个消息，他非常激动。",
+  "pinyin": "Tīngdào zhège xiāoxi, tā fēicháng jīdòng.",
+  "english": "Hearing this news, he became very excited."
+ },
+ {
+  "nid": 1537328246034,
+  "word": "邀",
+  "sentence": "她邀请朋友们来家里吃饭。",
+  "pinyin": "Tā yāoqǐng péngyoumen lái jiāli chīfàn.",
+  "english": "She invited her friends over to eat."
+ },
+ {
+  "nid": 1537328246041,
+  "word": "妆",
+  "sentence": "她每天早上都要化妆。",
+  "pinyin": "Tā měitiān zǎoshang dōu yào huàzhuāng.",
+  "english": "She puts on makeup every morning."
+ },
+ {
+  "nid": 1537328246059,
+  "word": "骄",
+  "sentence": "父母为他的成绩感到骄傲。",
+  "pinyin": "Fùmǔ wèi tā de chéngjì gǎndào jiāo'ào.",
+  "english": "His parents are proud of his grades."
+ },
+ {
+  "nid": 1537328246061,
+  "word": "傲",
+  "sentence": "他从不因为成功而骄傲。",
+  "pinyin": "Tā cóng bù yīnwèi chénggōng ér jiāo'ào.",
+  "english": "He never becomes arrogant because of success."
+ },
+ {
+  "nid": 1537328246068,
+  "word": "概",
+  "sentence": "我们大概六点到家。",
+  "pinyin": "Wǒmen dàgài liù diǎn dào jiā.",
+  "english": "We will probably get home around six o'clock."
+ },
+ {
+  "nid": 1537328246088,
+  "word": "警",
+  "sentence": "警察正在路口指挥交通。",
+  "pinyin": "Jǐngchá zhèngzài lùkǒu zhǐhuī jiāotōng.",
+  "english": "The police are directing traffic at the intersection."
+ },
+ {
+  "nid": 1537328246138,
+  "word": "虑",
+  "sentence": "这个问题我需要好好考虑。",
+  "pinyin": "Zhège wèntí wǒ xūyào hǎohāo kǎolǜ.",
+  "english": "I need to think this problem over carefully."
+ },
+ {
+  "nid": 1537328246151,
+  "word": "烤",
+  "sentence": "北京烤鸭是有名的美食。",
+  "pinyin": "Běijīng kǎoyā shì yǒumíng de měishí.",
+  "english": "Peking roast duck is a famous delicacy."
+ },
+ {
+  "nid": 1537328246155,
+  "word": "烧",
+  "sentence": "妈妈正在厨房里烧菜。",
+  "pinyin": "Māma zhèngzài chúfáng li shāo cài.",
+  "english": "Mom is cooking in the kitchen."
+ },
+ {
+  "nid": 1537328246165,
+  "word": "燃",
+  "sentence": "干木头很容易燃烧起来。",
+  "pinyin": "Gān mùtou hěn róngyì ránshāo qǐlái.",
+  "english": "Dry wood catches fire very easily."
+ },
+ {
+  "nid": 1537328246172,
+  "word": "允",
+  "sentence": "老师不允许学生上课迟到。",
+  "pinyin": "Lǎoshī bù yǔnxǔ xuésheng shàngkè chídào.",
+  "english": "The teacher does not allow students to be late for class."
+ },
+ {
+  "nid": 1537328246213,
+  "word": "聚",
+  "sentence": "春节的时候全家人会聚在一起。",
+  "pinyin": "Chūnjié de shíhou quánjiā rén huì jù zài yīqǐ.",
+  "english": "During Spring Festival, the whole family gets together."
+ },
+ {
+  "nid": 1537328246226,
+  "word": "货",
+  "sentence": "卡车正在往仓库运货物。",
+  "pinyin": "Kǎchē zhèngzài wǎng cāngkù yùn huòwù.",
+  "english": "The truck is transporting goods to the warehouse."
+ },
+ {
+  "nid": 1537328246233,
+  "word": "替",
+  "sentence": "今天他生病了，我替他上课。",
+  "pinyin": "Jīntiān tā shēngbìng le, wǒ tì tā shàngkè.",
+  "english": "He got sick today, so I substituted for him in class."
+ },
+ {
+  "nid": 1537328246253,
+  "word": "弃",
+  "sentence": "不管多难，他都不会放弃。",
+  "pinyin": "Bùguǎn duō nán, tā dōu bú huì fàngqì.",
+  "english": "No matter how hard it is, he will never give up."
+ },
+ {
+  "nid": 1537328246256,
+  "word": "抛",
+  "sentence": "他把球抛给了对面的队友。",
+  "pinyin": "Tā bǎ qiú pāo gěi le duìmiàn de duìyǒu.",
+  "english": "He threw the ball to his teammate on the other side."
+ },
+ {
+  "nid": 1537328246274,
+  "word": "素",
+  "sentence": "奶奶每天早上都吃素。",
+  "pinyin": "Nǎinai měitiān zǎoshang dōu chī sù.",
+  "english": "Grandma eats vegetarian food every morning."
+ },
+ {
+  "nid": 1537328246282,
+  "word": "餐",
+  "sentence": "他每天都在餐厅吃早餐。",
+  "pinyin": "Tā měitiān dōu zài cāntīng chī zǎocān.",
+  "english": "He eats breakfast at the restaurant every day."
+ },
+ {
+  "nid": 1537328246283,
+  "word": "聚餐",
+  "sentence": "同事们下班后一起聚餐。",
+  "pinyin": "Tóngshìmen xiàbān hòu yīqǐ jùcān.",
+  "english": "The colleagues have a meal together after work."
+ },
+ {
+  "nid": 1537328246288,
+  "word": "中餐",
+  "sentence": "他们决定今晚一起吃中餐。",
+  "pinyin": "Tāmen juédìng jīnwǎn yīqǐ chī zhōngcān.",
+  "english": "They decided to eat Chinese food together tonight."
+ },
+ {
+  "nid": 1537328246301,
+  "word": "狼",
+  "sentence": "森林里住着一群狼。",
+  "pinyin": "Sēnlín li zhùzhe yī qún láng.",
+  "english": "A pack of wolves lives in the forest."
+ },
+ {
+  "nid": 1537328246302,
+  "word": "浪",
+  "sentence": "今天海边的浪特别大。",
+  "pinyin": "Jīntiān hǎibiān de làng tèbié dà.",
+  "english": "The waves at the beach are especially big today."
+ },
+ {
+  "nid": 1537328246311,
+  "word": "洋",
+  "sentence": "海洋里生活着各种各样的鱼。",
+  "pinyin": "Hǎiyáng li shēnghuózhe gèzhǒng gèyàng de yú.",
+  "english": "All kinds of fish live in the ocean."
+ },
+ {
+  "nid": 1537328246316,
+  "word": "饼",
+  "sentence": "妹妹喜欢吃巧克力饼干。",
+  "pinyin": "Mèimei xǐhuan chī qiǎokèlì bǐnggān.",
+  "english": "My little sister likes to eat chocolate cookies."
+ },
+ {
+  "nid": 1537328246318,
+  "word": "婆",
+  "sentence": "公园里坐着一位老婆婆。",
+  "pinyin": "Gōngyuán li zuòzhe yī wèi lǎopópo.",
+  "english": "An old woman is sitting in the park."
+ },
+ {
+  "nid": 1537328246326,
+  "word": "漫",
+  "sentence": "厨房里弥漫着饭菜的香味。",
+  "pinyin": "Chúfáng li mímànzhe fàncài de xiāngwèi.",
+  "english": "The kitchen is filled with the aroma of food."
+ },
+ {
+  "nid": 1537328246344,
+  "word": "脑",
+  "sentence": "多动脑筋对孩子有好处。",
+  "pinyin": "Duō dòng nǎojīn duì háizi yǒu hǎochu.",
+  "english": "Using your brain more is good for children."
+ },
+ {
+  "nid": 1537328246350,
+  "word": "耐",
+  "sentence": "老师对学生总是很有耐心。",
+  "pinyin": "Lǎoshī duì xuésheng zǒng shì hěn yǒu nàixīn.",
+  "english": "The teacher is always very patient with students."
+ },
+ {
+  "nid": 1537328246356,
+  "word": "幸",
+  "sentence": "幸好我们及时赶到了车站。",
+  "pinyin": "Xìnghǎo wǒmen jíshí gǎndào le chēzhàn.",
+  "english": "Fortunately, we made it to the station in time."
+ },
+ {
+  "nid": 1537328246360,
+  "word": "福",
+  "sentence": "一家人在一起就是幸福。",
+  "pinyin": "Yī jiā rén zài yīqǐ jiùshì xìngfú.",
+  "english": "Being together as a family is happiness."
+ },
+ {
+  "nid": 1537328246376,
+  "word": "牌",
+  "sentence": "周末爷爷喜欢和朋友打牌。",
+  "pinyin": "Zhōumò yéye xǐhuan hé péngyou dǎpái.",
+  "english": "On weekends, Grandpa likes to play cards with friends."
+ },
+ {
+  "nid": 1537328246402,
+  "word": "毒",
+  "sentence": "这个蘑菇有毒，不能吃。",
+  "pinyin": "Zhège mógu yǒu dú, bùnéng chī.",
+  "english": "This mushroom is poisonous, you can't eat it."
+ },
+ {
+  "nid": 1537328246408,
+  "word": "中暑",
+  "sentence": "他在太阳下走了太久，中暑了。",
+  "pinyin": "Tā zài tàiyáng xià zǒu le tài jiǔ, zhòngshǔ le.",
+  "english": "He walked under the sun for too long and got heatstroke."
+ },
+ {
+  "nid": 1537328246441,
+  "word": "矿",
+  "sentence": "这座山里有一个金矿。",
+  "pinyin": "Zhè zuò shān lǐ yǒu yī gè jīn kuàng.",
+  "english": "There is a gold mine in this mountain."
+ },
+ {
+  "nid": 1537328246465,
+  "word": "饮",
+  "sentence": "他很渴，喝了一大杯饮料。",
+  "pinyin": "Tā hěn kě, hē le yī dà bēi yǐnliào.",
+  "english": "He was very thirsty, so he drank a large cup of a beverage."
+ },
+ {
+  "nid": 1537328246468,
+  "word": "塑",
+  "sentence": "这个杯子是塑料做的，很轻。",
+  "pinyin": "Zhège bēizi shì sùliào zuò de, hěn qīng.",
+  "english": "This cup is made of plastic, and it's very light."
+ },
+ {
+  "nid": 1537328246478,
+  "word": "材",
+  "sentence": "造这张桌子用了很好的木材。",
+  "pinyin": "Zào zhè zhāng zhuōzi yòng le hěn hǎo de mùcái.",
+  "english": "Very good timber was used to make this table."
+ },
+ {
+  "nid": 1537328246490,
+  "word": "愿",
+  "sentence": "我愿你生日快乐，天天开心。",
+  "pinyin": "Wǒ yuàn nǐ shēngrì kuàilè, tiāntiān kāixīn.",
+  "english": "I wish you a happy birthday, and happiness every day."
+ },
+ {
+  "nid": 1537328246512,
+  "word": "忆",
+  "sentence": "这张照片让我回忆起童年。",
+  "pinyin": "Zhè zhāng zhàopiàn ràng wǒ huíyì qǐ tóngnián.",
+  "english": "This photo reminds me of my childhood."
+ },
+ {
+  "nid": 1537328246522,
+  "word": "败",
+  "sentence": "这次考试他又失败了。",
+  "pinyin": "Zhè cì kǎoshì tā yòu shībài le.",
+  "english": "He failed the exam again this time."
+ },
+ {
+  "nid": 1537328246540,
+  "word": "否",
+  "sentence": "他否认自己偷了钱。",
+  "pinyin": "Tā fǒurèn zìjǐ tōu le qián.",
+  "english": "He denied that he had stolen the money."
+ },
+ {
+  "nid": 1537328246559,
+  "word": "惊",
+  "sentence": "听到这个消息，他非常吃惊。",
+  "pinyin": "Tīngdào zhège xiāoxi, tā fēicháng chījīng.",
+  "english": "He was very shocked when he heard this news."
+ },
+ {
+  "nid": 1537328246572,
+  "word": "环",
+  "sentence": "她戴了一对漂亮的耳环。",
+  "pinyin": "Tā dài le yī duì piàoliang de ěrhuán.",
+  "english": "She wore a beautiful pair of earrings."
+ },
+ {
+  "nid": 1537328246590,
+  "word": "镜",
+  "sentence": "她站在镜子前梳头发。",
+  "pinyin": "Tā zhàn zài jìngzi qián shū tóufa.",
+  "english": "She stood in front of the mirror combing her hair."
+ },
+ {
+  "nid": 1537328246616,
+  "word": "架",
+  "sentence": "这些书都放在书架上。",
+  "pinyin": "Zhèxiē shū dōu fàng zài shūjià shàng.",
+  "english": "These books are all placed on the bookshelf."
+ },
+ {
+  "nid": 1537328246638,
+  "word": "摔",
+  "sentence": "他骑车时不小心摔倒了。",
+  "pinyin": "Tā qí chē shí bù xiǎoxīn shuāidǎo le.",
+  "english": "He accidentally fell while riding his bike."
+ },
+ {
+  "nid": 1537328246646,
+  "word": "倒是",
+  "sentence": "这个方法麻烦，效果倒是很好。",
+  "pinyin": "Zhège fāngfǎ máfan, xiàoguǒ dàoshi hěn hǎo.",
+  "english": "This method is troublesome, but surprisingly, it works quite well."
+ },
+ {
+  "nid": 1537328246647,
+  "word": "倒车",
+  "sentence": "去机场要倒车两次。",
+  "pinyin": "Qù jīchǎng yào dǎochē liǎng cì.",
+  "english": "You need to change buses twice to get to the airport."
+ },
+ {
+  "nid": 1537328246657,
+  "word": "竞",
+  "sentence": "两家公司竞争得很激烈。",
+  "pinyin": "Liǎng jiā gōngsī jìngzhēng de hěn jīliè.",
+  "english": "The two companies compete very fiercely."
+ },
+ {
+  "nid": 1537328246681,
+  "word": "详",
+  "sentence": "请把地址写得详细一点。",
+  "pinyin": "Qǐng bǎ dìzhǐ xiě de xiángxì yī diǎn.",
+  "english": "Please write the address in more detail."
+ },
+ {
+  "nid": 1537328246695,
+  "word": "奏",
+  "sentence": "他在台上演奏钢琴。",
+  "pinyin": "Tā zài tái shàng yǎnzòu gāngqín.",
+  "english": "He is playing the piano on stage."
+ },
+ {
+  "nid": 1537328246706,
+  "word": "季",
+  "sentence": "夏季的天气非常炎热。",
+  "pinyin": "Xiàjì de tiānqì fēicháng yánrè.",
+  "english": "The weather is extremely hot in summer."
+ },
+ {
+  "nid": 1537328246723,
+  "word": "肠",
+  "sentence": "他肠胃不好，不能吃辣的。",
+  "pinyin": "Tā chángwèi bù hǎo, bùnéng chī là de.",
+  "english": "He has a weak stomach and intestines, so he can't eat spicy food."
+ },
+ {
+  "nid": 1537328246739,
+  "word": "卫",
+  "sentence": "每天要注意个人卫生。",
+  "pinyin": "Měitiān yào zhùyì gèrén wèishēng.",
+  "english": "You should pay attention to personal hygiene every day."
+ },
+ {
+  "nid": 1537328246747,
+  "word": "糟",
+  "sentence": "今天的天气真糟糕。",
+  "pinyin": "Jīntiān de tiānqì zhēn zāogāo.",
+  "english": "Today's weather is really terrible."
+ },
+ {
+  "nid": 1537328246751,
+  "word": "糕",
+  "sentence": "妈妈给我做了一个生日蛋糕。",
+  "pinyin": "Māma gěi wǒ zuò le yī gè shēngrì dàngāo.",
+  "english": "Mom made me a birthday cake."
+ },
+ {
+  "nid": 1537328246754,
+  "word": "雪糕",
+  "sentence": "夏天我最喜欢吃雪糕。",
+  "pinyin": "Xiàtiān wǒ zuì xǐhuan chī xuěgāo.",
+  "english": "In summer I like eating popsicles the most."
+ },
+ {
+  "nid": 1537328246764,
+  "word": "彩",
+  "sentence": "这本书里有很多彩色图片。",
+  "pinyin": "Zhè běn shū lǐ yǒu hěn duō cǎisè túpiàn.",
+  "english": "This book has a lot of colorful pictures."
+ },
+ {
+  "nid": 1537328246791,
+  "word": "押",
+  "sentence": "租房子要交一个月押金。",
+  "pinyin": "Zū fángzi yào jiāo yī gè yuè yājīn.",
+  "english": "You need to pay one month's deposit to rent an apartment."
+ },
+ {
+  "nid": 1537328246839,
+  "word": "污",
+  "sentence": "工厂排放的废水污染了河流。",
+  "pinyin": "Gōngchǎng páifàng de fèishuǐ wūrǎn le héliú.",
+  "english": "The wastewater discharged by the factory polluted the river."
+ },
+ {
+  "nid": 1537328246854,
+  "word": "播",
+  "sentence": "电视台正在播出这条新闻。",
+  "pinyin": "Diànshìtái zhèngzài bōchū zhè tiáo xīnwén.",
+  "english": "The TV station is broadcasting this piece of news."
+ },
+ {
+  "nid": 1537328246911,
+  "word": "兼",
+  "sentence": "他在学校旁边兼职做老师。",
+  "pinyin": "Tā zài xuéxiào pángbiān jiānzhí zuò lǎoshī.",
+  "english": "He works part-time as a teacher near the school."
+ },
+ {
+  "nid": 1537328246921,
+  "word": "沟",
+  "sentence": "雨水都流进了路边的水沟。",
+  "pinyin": "Yǔshuǐ dōu liú jìn le lùbiān de shuǐgōu.",
+  "english": "The rainwater all flowed into the ditch by the road."
+ },
+ {
+  "nid": 1537328246934,
+  "word": "孕",
+  "sentence": "她现在怀孕已经八个月了。",
+  "pinyin": "Tā xiànzài huáiyùn yǐjīng bā gè yuè le.",
+  "english": "She is already eight months pregnant now."
+ },
+ {
+  "nid": 1537328246943,
+  "word": "奶茶",
+  "sentence": "我下午想喝一杯奶茶。",
+  "pinyin": "Wǒ xiàwǔ xiǎng hē yī bēi nǎichá.",
+  "english": "I want to drink a cup of milk tea this afternoon."
+ },
+ {
+  "nid": 1537328246945,
+  "word": "酸奶",
+  "sentence": "我早上喜欢喝一杯酸奶。",
+  "pinyin": "Wǒ zǎoshang xǐhuan hē yī bēi suānnǎi.",
+  "english": "I like to drink a cup of yogurt in the morning."
+ },
+ {
+  "nid": 1537328246974,
+  "word": "秀",
+  "sentence": "这个女孩长得很清秀。",
+  "pinyin": "Zhège nǚhái zhǎng de hěn qīngxiù.",
+  "english": "This girl looks very delicate and pretty."
+ },
+ {
+  "nid": 1537328246979,
+  "word": "缺",
+  "sentence": "这里缺水，大家要节约用水。",
+  "pinyin": "Zhèlǐ quē shuǐ, dàjiā yào jiéyuē yòng shuǐ.",
+  "english": "This place lacks water, so everyone should conserve water."
+ },
+ {
+  "nid": 1537328246993,
+  "word": "拖",
+  "sentence": "他把箱子拖到了门口。",
+  "pinyin": "Tā bǎ xiāngzi tuō dào le ménkǒu.",
+  "english": "He dragged the box to the doorway."
+ },
+ {
+  "nid": 1537328247016,
+  "word": "积",
+  "sentence": "学习要靠平时慢慢积累。",
+  "pinyin": "Xuéxí yào kào píngshí mànmàn jīlěi.",
+  "english": "Learning depends on slowly accumulating knowledge over time."
+ },
+ {
+  "nid": 1537328247032,
+  "word": "吸管",
+  "sentence": "服务员给了我一根吸管。",
+  "pinyin": "Fúwùyuán gěi le wǒ yī gēn xīguǎn.",
+  "english": "The waiter gave me a straw."
+ },
+ {
+  "nid": 1537328247071,
+  "word": "彼",
+  "sentence": "他们两个人彼此很了解。",
+  "pinyin": "Tāmen liǎng gè rén bǐcǐ hěn liǎojiě.",
+  "english": "The two of them understand each other very well."
+ },
+ {
+  "nid": 1537328247084,
+  "word": "乎",
+  "sentence": "他每天工作忙得不亦乐乎。",
+  "pinyin": "Tā měitiān gōngzuò máng de búyìlèhū.",
+  "english": "He's so busy with work every day that it's incredibly hectic."
+ },
+ {
+  "nid": 1537328247087,
+  "word": "呼",
+  "sentence": "深呼吸可以让你放松。",
+  "pinyin": "Shēn hūxī kěyǐ ràng nǐ fàngsōng.",
+  "english": "Taking a deep breath can help you relax."
+ },
+ {
+  "nid": 1537328247094,
+  "word": "招",
+  "sentence": "她站在门口向我招手。",
+  "pinyin": "Tā zhàn zài ménkǒu xiàng wǒ zhāoshǒu.",
+  "english": "She stood at the door and waved at me."
+ },
+ {
+  "nid": 1537328247098,
+  "word": "聘",
+  "sentence": "学校聘请了一位新老师。",
+  "pinyin": "Xuéxiào pìnqǐng le yī wèi xīn lǎoshī.",
+  "english": "The school hired a new teacher."
+ },
+ {
+  "nid": 1537328247100,
+  "word": "待",
+  "sentence": "他一整天都待在家里。",
+  "pinyin": "Tā yī zhěngtiān dōu dāi zài jiā lǐ.",
+  "english": "He stayed at home the whole day."
+ },
+ {
+  "nid": 1537328247101,
+  "word": "壮",
+  "sentence": "这头牛长得非常强壮。",
+  "pinyin": "Zhè tóu niú zhǎng de fēicháng qiángzhuàng.",
+  "english": "This ox has grown to be very strong and robust."
+ },
+ {
+  "nid": 1537328247108,
+  "word": "遇",
+  "sentence": "我在路上遇到了老朋友。",
+  "pinyin": "Wǒ zài lùshang yùdào le lǎo péngyou.",
+  "english": "I ran into an old friend on the street."
+ },
+ {
+  "nid": 1537328247112,
+  "word": "寓",
+  "sentence": "他们一家住在一套公寓里。",
+  "pinyin": "Tāmen yī jiā zhù zài yī tào gōngyù lǐ.",
+  "english": "Their family lives in an apartment."
+ },
+ {
+  "nid": 1537328247126,
+  "word": "剑",
+  "sentence": "那位武士手里拿着一把剑。",
+  "pinyin": "Nà wèi wǔshì shǒu lǐ ná zhe yī bǎ jiàn.",
+  "english": "That warrior holds a sword in his hand."
+ },
+ {
+  "nid": 1537328247137,
+  "word": "迷",
+  "sentence": "我从小就是一个足球迷。",
+  "pinyin": "Wǒ cóngxiǎo jiù shì yī gè zúqiú mí.",
+  "english": "I have been a soccer fan since I was little."
+ },
+ {
+  "nid": 1537328247140,
+  "word": "稳",
+  "sentence": "他现在的工作很稳定。",
+  "pinyin": "Tā xiànzài de gōngzuò hěn wěndìng.",
+  "english": "His current job is very stable."
+ },
+ {
+  "nid": 1537328247160,
+  "word": "巧",
+  "sentence": "我正巧路过，就进来看看。",
+  "pinyin": "Wǒ zhèngqiǎo lùguò, jiù jìn lái kànkan.",
+  "english": "I happened to be passing by, so I came in to take a look."
+ },
+ {
+  "nid": 1537328247186,
+  "word": "鼓",
+  "sentence": "弟弟每天都练习打鼓。",
+  "pinyin": "Dìdi měitiān dōu liànxí dǎ gǔ.",
+  "english": "My younger brother practices playing the drums every day."
+ },
+ {
+  "nid": 1537328247188,
+  "word": "励",
+  "sentence": "老师常常鼓励我们努力学习。",
+  "pinyin": "Lǎoshī chángcháng gǔlì wǒmen nǔlì xuéxí.",
+  "english": "The teacher often encourages us to study hard."
+ },
+ {
+  "nid": 1537328247190,
+  "word": "奖",
+  "sentence": "他工作努力，得到了奖金。",
+  "pinyin": "Tā gōngzuò nǔlì, dédào le jiǎngjīn.",
+  "english": "He worked hard and got a bonus."
+ },
+ {
+  "nid": 1537328247198,
+  "word": "获",
+  "sentence": "她在比赛中获得了第一名。",
+  "pinyin": "Tā zài bǐsài zhōng huòdé le dìyī míng.",
+  "english": "She got first place in the competition."
+ },
+ {
+  "nid": 1537328247248,
+  "word": "符",
+  "sentence": "他的回答完全符合事实。",
+  "pinyin": "Tā de huídá wánquán fúhé shìshí.",
+  "english": "His answer completely matches the facts."
+ },
+ {
+  "nid": 1537328247262,
+  "word": "盒饭",
+  "sentence": "中午我在公司吃盒饭。",
+  "pinyin": "Zhōngwǔ wǒ zài gōngsī chī héfàn.",
+  "english": "I eat a boxed lunch at the office at noon."
+ },
+ {
+  "nid": 1537328247268,
+  "word": "伴",
+  "sentence": "他是我最好的伙伴。",
+  "pinyin": "Tā shì wǒ zuì hǎo de huǒbàn.",
+  "english": "He is my best partner."
+ },
+ {
+  "nid": 1537328247320,
+  "word": "添",
+  "sentence": "不好意思，给你添麻烦了。",
+  "pinyin": "Bù hǎoyìsi, gěi nǐ tiān máfan le.",
+  "english": "Sorry for causing you trouble."
+ },
+ {
+  "nid": 1537328247350,
+  "word": "厌",
+  "sentence": "我很讨厌下雨天出门。",
+  "pinyin": "Wǒ hěn tǎoyàn xiàyǔtiān chūmén.",
+  "english": "I really hate going out on rainy days."
+ },
+ {
+  "nid": 1537328247364,
+  "word": "恋",
+  "sentence": "他们两个人正在恋爱。",
+  "pinyin": "Tāmen liǎng gè rén zhèngzài liàn'ài.",
+  "english": "The two of them are dating now."
+ },
+ {
+  "nid": 1537328247370,
+  "word": "失恋",
+  "sentence": "他失恋以后每天都不开心。",
+  "pinyin": "Tā shīliàn yǐhòu měitiān dōu bù kāixīn.",
+  "english": "He has been unhappy every day since he broke up with his girlfriend."
+ },
+ {
+  "nid": 1537328247375,
+  "word": "清淡",
+  "sentence": "医生让他多吃清淡的食物。",
+  "pinyin": "Yīshēng ràng tā duō chī qīngdàn de shíwù.",
+  "english": "The doctor told him to eat more light, non-greasy food."
+ },
+ {
+  "nid": 1537328247382,
+  "word": "欺",
+  "sentence": "你不能欺负比你小的孩子。",
+  "pinyin": "Nǐ bùnéng qīfu bǐ nǐ xiǎo de háizi.",
+  "english": "You mustn't bully children who are younger than you."
+ },
+ {
+  "nid": 1537328247399,
+  "word": "针",
+  "sentence": "医生给我打了一针。",
+  "pinyin": "Yīshēng gěi wǒ dǎ le yī zhēn.",
+  "english": "The doctor gave me an injection."
+ },
+ {
+  "nid": 1537328247414,
+  "word": "仍",
+  "sentence": "虽然很累，他仍然坚持工作。",
+  "pinyin": "Suīrán hěn lèi, tā réngrán jiānchí gōngzuò.",
+  "english": "Although he was very tired, he still kept working."
+ },
+ {
+  "nid": 1537328247416,
+  "word": "垃",
+  "sentence": "请把垃圾扔进垃圾桶。",
+  "pinyin": "Qǐng bǎ lājī rēng jìn lājītǒng.",
+  "english": "Please throw the garbage into the trash can."
+ },
+ {
+  "nid": 1537328247434,
+  "word": "肚",
+  "sentence": "我吃太多，肚子很饱。",
+  "pinyin": "Wǒ chī tài duō, dùzi hěn bǎo.",
+  "english": "I ate too much, and my stomach is very full."
+ },
+ {
+  "nid": 1537328247441,
+  "word": "眠",
+  "sentence": "良好的睡眠对身体很重要。",
+  "pinyin": "Liánghǎo de shuìmián duì shēntǐ hěn zhòngyào.",
+  "english": "Good sleep is very important for your health."
+ },
+ {
+  "nid": 1537328247457,
+  "word": "村",
+  "sentence": "他出生在一个小村子。",
+  "pinyin": "Tā chūshēng zài yī gè xiǎo cūnzi.",
+  "english": "He was born in a small village."
+ },
+ {
+  "nid": 1537328247489,
+  "word": "移",
+  "sentence": "请把桌子移动一下位置。",
+  "pinyin": "Qǐng bǎ zhuōzi yídòng yī xià wèizhi.",
+  "english": "Please move the table's position a bit."
+ },
+ {
+  "nid": 1537328247519,
+  "word": "邻",
+  "sentence": "隔壁邻居对我们很友好。",
+  "pinyin": "Gébì línjū duì wǒmen hěn yǒuhǎo.",
+  "english": "The next-door neighbor is very friendly to us."
+ },
+ {
+  "nid": 1537328247532,
+  "word": "齿",
+  "sentence": "他牙齿疼得晚上睡不着。",
+  "pinyin": "Tā yáchǐ téng de wǎnshang shuì bu zháo.",
+  "english": "His tooth hurt so much that he couldn't sleep at night."
+ },
+ {
+  "nid": 1537328247533,
+  "word": "奉",
+  "sentence": "医生把一生都奉献给了病人。",
+  "pinyin": "Yīshēng bǎ yīshēng dōu fèngxiàn gěi le bìngrén.",
+  "english": "The doctor devoted his whole life to his patients."
+ },
+ {
+  "nid": 1537328247553,
+  "word": "鼻",
+  "sentence": "他感冒了，鼻子不通气。",
+  "pinyin": "Tā gǎnmào le, bízi bù tōngqì.",
+  "english": "He has a cold, and his nose is stuffy."
+ },
+ {
+  "nid": 1537328247592,
+  "word": "甚",
+  "sentence": "他忙得甚至没时间吃饭。",
+  "pinyin": "Tā máng de shènzhì méi shíjiān chīfàn.",
+  "english": "He is so busy that he doesn't even have time to eat."
+ },
+ {
+  "nid": 1537328247630,
+  "word": "谓",
+  "sentence": "所谓成功，就是不断努力。",
+  "pinyin": "Suǒwèi chénggōng, jiùshì búduàn nǔlì.",
+  "english": "So-called success is just continuous effort."
+ },
+ {
+  "nid": 1537328247692,
+  "word": "型",
+  "sentence": "这是一种新型号的手机。",
+  "pinyin": "Zhè shì yī zhǒng xīn xínghào de shǒujī.",
+  "english": "This is a new model of phone."
+ },
+ {
+  "nid": 1537328247714,
+  "word": "贷",
+  "sentence": "他向银行申请了贷款。",
+  "pinyin": "Tā xiàng yínháng shēnqǐng le dàikuǎn.",
+  "english": "He applied to the bank for a loan."
+ },
+ {
+  "nid": 1537328247746,
+  "word": "频",
+  "sentence": "最近他出差得很频繁。",
+  "pinyin": "Zuìjìn tā chūchāi de hěn pínfán.",
+  "english": "Recently he has been traveling for work very frequently."
+ },
+ {
+  "nid": 1537328247762,
+  "word": "摩",
+  "sentence": "妈妈每天给爸爸按摩肩膀。",
+  "pinyin": "Māma měitiān gěi bàba ànmó jiānbǎng.",
+  "english": "Mom massages Dad's shoulders every day."
+ },
+ {
+  "nid": 1537328247764,
+  "word": "托",
+  "sentence": "他用手托着下巴发呆。",
+  "pinyin": "Tā yòng shǒu tuō zhe xiàba fādāi.",
+  "english": "He rested his chin on his hand, spacing out."
+ },
+ {
+  "nid": 1537328247767,
+  "word": "辛",
+  "sentence": "谢谢你，这段时间辛苦了。",
+  "pinyin": "Xièxie nǐ, zhè duàn shíjiān xīnkǔ le.",
+  "english": "Thank you, you've worked hard during this time."
+ },
+ {
+  "nid": 1537328247774,
+  "word": "创",
+  "sentence": "他大学毕业后决定创业。",
+  "pinyin": "Tā dàxué bìyè hòu juédìng chuàngyè.",
+  "english": "After graduating from college, he decided to start his own business."
+ },
+ {
+  "nid": 1537328247792,
+  "word": "控",
+  "sentence": "他很难控制自己的情绪。",
+  "pinyin": "Tā hěn nán kòngzhì zìjǐ de qíngxù.",
+  "english": "He finds it hard to control his emotions."
+ },
+ {
+  "nid": 1537328247798,
+  "word": "遥",
+  "sentence": "他的老家在一个遥远的地方。",
+  "pinyin": "Tā de lǎojiā zài yī gè yáoyuǎn de dìfang.",
+  "english": "His hometown is in a faraway place."
+ },
+ {
+  "nid": 1537328247849,
+  "word": "症",
+  "sentence": "医生一直没查出他的病症。",
+  "pinyin": "Yīshēng yīzhí méi chá chū tā de bìngzhèng.",
+  "english": "The doctor still hasn't figured out what illness he has."
+ },
+ {
+  "nid": 1537328247852,
+  "word": "绝",
+  "sentence": "这件事我绝对不会同意。",
+  "pinyin": "Zhè jiàn shì wǒ juéduì bú huì tóngyì.",
+  "english": "I will absolutely not agree to this matter."
+ },
+ {
+  "nid": 1537328247858,
+  "word": "拒",
+  "sentence": "她拒绝了他的邀请。",
+  "pinyin": "Tā jùjué le tā de yāoqǐng.",
+  "english": "She refused his invitation."
+ },
+ {
+  "nid": 1537328247860,
+  "word": "抗",
+  "sentence": "医生们努力研究，对抗新的病毒。",
+  "pinyin": "Yīshēngmen nǔlì yánjiū, duìkàng xīn de bìngdú.",
+  "english": "Doctors work hard to research new viruses and fight them."
+ },
+ {
+  "nid": 1537328247868,
+  "word": "恐",
+  "sentence": "他从小就恐高，不敢爬山。",
+  "pinyin": "Tā cóngxiǎo jiù kǒng gāo, bù gǎn pá shān.",
+  "english": "He's been afraid of heights since he was little and doesn't dare climb mountains."
+ },
+ {
+  "nid": 1537328247888,
+  "word": "宠",
+  "sentence": "妈妈太宠孩子了，什么都答应他。",
+  "pinyin": "Māma tài chǒng háizi le, shénme dōu dāying tā.",
+  "english": "Mom spoils the child too much, agreeing to everything he wants."
+ },
+ {
+  "nid": 1537328247897,
+  "word": "暖",
+  "sentence": "今天阳光很好，天气十分温暖。",
+  "pinyin": "Jīntiān yángguāng hěn hǎo, tiānqì shífēn wēnnuǎn.",
+  "english": "The sunshine is nice today, and the weather is very warm."
+ },
+ {
+  "nid": 1537328247900,
+  "word": "速",
+  "sentence": "火车的速度很快，一小时能跑三百公里。",
+  "pinyin": "Huǒchē de sùdù hěn kuài, yī xiǎoshí néng pǎo sānbǎi gōnglǐ.",
+  "english": "The train is very fast; it can travel three hundred kilometers in an hour."
+ },
+ {
+  "nid": 1537328247909,
+  "word": "肥",
+  "sentence": "这条裤子太肥了，得改一改。",
+  "pinyin": "Zhè tiáo kùzi tài féi le, děi gǎi yī gǎi.",
+  "english": "These pants are too loose; they need to be altered."
+ },
+ {
+  "nid": 1537328247960,
+  "word": "彻",
+  "sentence": "他把房间彻底打扫了一遍。",
+  "pinyin": "Tā bǎ fángjiān chèdǐ dǎsǎo le yī biàn.",
+  "english": "He thoroughly cleaned the room once."
+ },
+ {
+  "nid": 1537328247963,
+  "word": "降",
+  "sentence": "最近气温下降了很多，大家都穿上了外套。",
+  "pinyin": "Zuìjìn qìwēn xiàjiàng le hěn duō, dàjiā dōu chuān shàng le wàitào.",
+  "english": "Recently the temperature has dropped a lot, and everyone has put on coats."
+ },
+ {
+  "nid": 1537328247980,
+  "word": "贯",
+  "sentence": "这条河贯穿了整个城市。",
+  "pinyin": "Zhè tiáo hé guànchuān le zhěnggè chéngshì.",
+  "english": "This river runs through the entire city."
+ },
+ {
+  "nid": 1537328247987,
+  "word": "籍",
+  "sentence": "他的国籍是中国，他在美国工作。",
+  "pinyin": "Tā de guójí shì Zhōngguó, tā zài Měiguó gōngzuò.",
+  "english": "His nationality is Chinese, and he works in the United States."
+ },
+ {
+  "nid": 1537328248026,
+  "word": "冒",
+  "sentence": "他冒着大雨去学校上课。",
+  "pinyin": "Tā màozhe dàyǔ qù xuéxiào shàngkè.",
+  "english": "He braved the heavy rain to go to school."
+ },
+ {
+  "nid": 1537328248043,
+  "word": "危",
+  "sentence": "开车时看手机很危险。",
+  "pinyin": "Kāichē shí kàn shǒujī hěn wēixiǎn.",
+  "english": "Looking at your phone while driving is very dangerous."
+ },
+ {
+  "nid": 1537328248052,
+  "word": "刮",
+  "sentence": "外面刮风了，你多穿点衣服吧。",
+  "pinyin": "Wàimiàn guāfēng le, nǐ duō chuān diǎn yīfu ba.",
+  "english": "It's windy outside; wear a bit more clothing."
+ },
+ {
+  "nid": 1537328248089,
+  "word": "判",
+  "sentence": "法官判他坐三年牢。",
+  "pinyin": "Fǎguān pàn tā zuò sān nián láo.",
+  "english": "The judge sentenced him to three years in prison."
+ },
+ {
+  "nid": 1537328248129,
+  "word": "兵",
+  "sentence": "他长大以后想当兵，保护国家。",
+  "pinyin": "Tā zhǎngdà yǐhòu xiǎng dāngbīng, bǎohù guójiā.",
+  "english": "When he grows up he wants to be a soldier and protect the country."
+ },
+ {
+  "nid": 1537328248134,
+  "word": "硕",
+  "sentence": "这个西瓜长得十分硕大。",
+  "pinyin": "Zhège xīguā zhǎng de shífēn shuòdà.",
+  "english": "This watermelon grew extremely large."
+ },
+ {
+  "nid": 1537328248137,
+  "word": "博",
+  "sentence": "他知识渊博，懂很多东西。",
+  "pinyin": "Tā zhīshi yuānbó, dǒng hěn duō dōngxi.",
+  "english": "He has extensive knowledge and knows a lot of things."
+ },
+ {
+  "nid": 1537328248145,
+  "word": "展",
+  "sentence": "他把地图展开，找到了那条路。",
+  "pinyin": "Tā bǎ dìtú zhǎnkāi, zhǎodào le nà tiáo lù.",
+  "english": "He unfolded the map and found that road."
+ },
+ {
+  "nid": 1537328248150,
+  "word": "览",
+  "sentence": "我喜欢在网上浏览新闻。",
+  "pinyin": "Wǒ xǐhuan zài wǎngshàng liúlǎn xīnwén.",
+  "english": "I like to browse the news online."
+ },
+ {
+  "nid": 1705870291418,
+  "word": "扫码",
+  "sentence": "现在很多人喜欢用手机扫码付款。",
+  "pinyin": "Xiànzài hěn duō rén xǐhuan yòng shǒujī sǎomǎ fùkuǎn.",
+  "english": "Nowadays many people like to scan a code with their phone to pay."
+ },
+ {
+  "nid": 1708190011766,
+  "word": "蕉",
+  "sentence": "妹妹最爱吃香蕉，每天都要吃一个。",
+  "pinyin": "Mèimei zuì ài chī xiāngjiāo, měitiān dōu yào chī yī gè.",
+  "english": "My little sister loves bananas the most; she eats one every day."
+ },
+ {
+  "nid": 1708190011772,
+  "word": "筷",
+  "sentence": "中国人吃饭习惯用筷子。",
+  "pinyin": "Zhōngguó rén chīfàn xíguàn yòng kuàizi.",
+  "english": "Chinese people are used to eating with chopsticks."
+ },
+ {
+  "nid": 1708190011793,
+  "word": "宵",
+  "sentence": "每年元宵节，大家都会吃汤圆。",
+  "pinyin": "Měinián Yuánxiāo Jié, dàjiā dōu huì chī tāngyuán.",
+  "english": "Every year during the Lantern Festival, everyone eats tangyuan."
+ },
+ {
+  "nid": 1708190011849,
+  "word": "椒",
+  "sentence": "这个菜放了很多辣椒，很辣。",
+  "pinyin": "Zhège cài fàng le hěn duō làjiāo, hěn là.",
+  "english": "This dish has a lot of chili pepper in it and is very spicy."
+ },
+ {
+  "nid": 1708190012025,
+  "word": "薯",
+  "sentence": "冬天吃烤红薯特别暖和。",
+  "pinyin": "Dōngtiān chī kǎo hóngshǔ tèbié nuǎnhuo.",
+  "english": "Eating roasted sweet potato in winter feels especially warm."
+ },
+ {
+  "nid": 1708190012109,
+  "word": "乒",
+  "sentence": "他每天下午都去打乒乓球。",
+  "pinyin": "Tā měitiān xiàwǔ dōu qù dǎ pīngpāngqiú.",
+  "english": "He goes to play table tennis every afternoon."
+ },
+ {
+  "nid": 1708190012164,
+  "word": "乓",
+  "sentence": "学校的乒乓球台坏了，大家很失望。",
+  "pinyin": "Xuéxiào de pīngpāngqiú tái huài le, dàjiā hěn shīwàng.",
+  "english": "The school's ping-pong table is broken, and everyone is disappointed."
+ },
+ {
+  "nid": 1708190012276,
+  "word": "橘",
+  "sentence": "秋天到了，市场上有很多新鲜的橘子。",
+  "pinyin": "Qiūtiān dào le, shìchǎng shàng yǒu hěn duō xīnxiān de júzi.",
+  "english": "Autumn has arrived, and there are lots of fresh tangerines at the market."
+ },
+ {
+  "nid": 1708190012471,
+  "word": "甥",
+  "sentence": "舅舅很疼爱他的外甥。",
+  "pinyin": "Jiùjiu hěn téng'ài tā de wàisheng.",
+  "english": "The uncle dotes on his nephew."
+ },
+ {
+  "nid": 1708747484633,
+  "word": "白色",
+  "sentence": "她今天穿了一件白色的裙子。",
+  "pinyin": "Tā jīntiān chuān le yī jiàn báisè de qúnzi.",
+  "english": "She wore a white skirt today."
+ },
+ {
+  "nid": 1708747486733,
+  "word": "得了",
+  "sentence": "得了，别再说了，我知道错了。",
+  "pinyin": "Dé le, bié zài shuō le, wǒ zhīdào cuò le.",
+  "english": "All right, stop talking, I know I was wrong."
+ },
+ {
+  "nid": 1708747489537,
+  "word": "西北",
+  "sentence": "西北地区气候干燥，雨水很少。",
+  "pinyin": "Xīběi dìqū qìhòu gānzào, yǔshuǐ hěn shǎo.",
+  "english": "The climate in Northwest China is dry, with very little rainfall."
+ },
+ {
+  "nid": 1708747492722,
+  "word": "大吃一惊",
+  "sentence": "听到这个消息，他大吃一惊。",
+  "pinyin": "Tīngdào zhège xiāoxi, tā dà chī yī jīng.",
+  "english": "Hearing this news, he was greatly shocked."
+ },
+ {
+  "nid": 1708747494576,
+  "word": "好不",
+  "sentence": "他好不容易才找到那家店。",
+  "pinyin": "Tā hǎo bù róngyì cái zhǎodào nà jiā diàn.",
+  "english": "He finally found that shop with great difficulty."
+ },
+ {
+  "nid": 1708747494863,
+  "word": "国画",
+  "sentence": "奶奶喜欢在家画国画。",
+  "pinyin": "Nǎinai xǐhuan zài jiā huà guóhuà.",
+  "english": "Grandma likes to paint traditional Chinese paintings at home."
+ },
+ {
+  "nid": 1708747495142,
+  "word": "夸奖",
+  "sentence": "老师夸奖他这次考得很好。",
+  "pinyin": "Lǎoshī kuājiǎng tā zhè cì kǎo de hěn hǎo.",
+  "english": "The teacher praised him for doing well on this exam."
+ },
+ {
+  "nid": 1708747495983,
+  "word": "转交",
+  "sentence": "请你把这封信转交给他。",
+  "pinyin": "Qǐng nǐ bǎ zhè fēng xìn zhuǎnjiāo gěi tā.",
+  "english": "Please pass this letter on to him."
+ },
+ {
+  "nid": 1708747498886,
+  "word": "岁数",
+  "sentence": "您今年多大岁数了？",
+  "pinyin": "Nín jīnnián duō dà suìshu le?",
+  "english": "How old are you this year?"
+ },
+ {
+  "nid": 1708747499067,
+  "word": "薯片",
+  "sentence": "弟弟一边看电视一边吃薯片。",
+  "pinyin": "Dìdi yībiān kàn diànshì yībiān chī shǔpiàn.",
+  "english": "Little brother eats potato chips while watching TV."
+ },
+ {
+  "nid": 1708747499594,
+  "word": "超速",
+  "sentence": "他开车超速，被警察拦下了。",
+  "pinyin": "Tā kāichē chāosù, bèi jǐngchá lán xià le.",
+  "english": "He was speeding and got pulled over by the police."
+ },
+ {
+  "nid": 1708747501127,
+  "word": "久远",
+  "sentence": "这个故事年代久远，没人知道是真是假。",
+  "pinyin": "Zhège gùshi niándài jiǔyuǎn, méi rén zhīdào shì zhēn shì jiǎ.",
+  "english": "This story dates back a long time; no one knows if it's true or false."
+ },
+ {
+  "nid": 1708747501621,
+  "word": "响声",
+  "sentence": "夜里突然传来很大的响声。",
+  "pinyin": "Yè lǐ tūrán chuánlái hěn dà de xiǎngshēng.",
+  "english": "In the middle of the night, a loud noise suddenly came from outside."
+ },
+ {
+  "nid": 1708747502062,
+  "word": "甜品",
+  "sentence": "吃完晚饭，我们去点了一份甜品。",
+  "pinyin": "Chīwán wǎnfàn, wǒmen qù diǎn le yī fèn tiánpǐn.",
+  "english": "After dinner, we went and ordered a dessert."
+ },
+ {
+  "nid": 1708747502406,
+  "word": "味觉",
+  "sentence": "他感冒了，味觉变得不太灵敏。",
+  "pinyin": "Tā gǎnmào le, wèijué biàn de bú tài língmǐn.",
+  "english": "He caught a cold, and his sense of taste became less sensitive."
+ },
+ {
+  "nid": 1708747503466,
+  "word": "钟头",
+  "sentence": "从我家到公司要开一个钟头的车。",
+  "pinyin": "Cóng wǒ jiā dào gōngsī yào kāi yī gè zhōngtóu de chē.",
+  "english": "It takes an hour to drive from my home to the office."
+ },
+ {
+  "nid": 1708747503953,
+  "word": "人际",
+  "sentence": "他不太擅长处理人际关系。",
+  "pinyin": "Tā bú tài shàncháng chǔlǐ rénjì guānxi.",
+  "english": "He isn't very good at handling interpersonal relationships."
+ },
+ {
+  "nid": 1708747504938,
+  "word": "看得起",
+  "sentence": "老板很看得起他，常常表扬他。",
+  "pinyin": "Lǎobǎn hěn kàn de qǐ tā, chángcháng biǎoyáng tā.",
+  "english": "The boss thinks highly of him and often praises him."
+ },
+ {
+  "nid": 1708747505379,
+  "word": "旱灾",
+  "sentence": "今年南方发生了严重的旱灾。",
+  "pinyin": "Jīnnián nánfāng fāshēng le yánzhòng de hànzāi.",
+  "english": "This year, a severe drought occurred in southern China."
+ },
+ {
+  "nid": 1708747505909,
+  "word": "下功夫",
+  "sentence": "学好中文需要下功夫。",
+  "pinyin": "Xuéhǎo Zhōngwén xūyào xià gōngfu.",
+  "english": "Learning Chinese well requires putting in real effort."
+ },
+ {
+  "nid": 1708747506066,
+  "word": "倍增",
+  "sentence": "这几年公司的销量倍增。",
+  "pinyin": "Zhè jǐ nián gōngsī de xiāoliàng bèizēng.",
+  "english": "Over these past few years, the company's sales have multiplied."
+ },
+ {
+  "nid": 1708747506099,
+  "word": "姥爷",
+  "sentence": "姥爷退休以后每天在家种花。",
+  "pinyin": "Lǎoye tuìxiū yǐhòu měitiān zài jiā zhòng huā.",
+  "english": "After retiring, my maternal grandfather grows flowers at home every day."
+ },
+ {
+  "nid": 1708747507252,
+  "word": "清扫",
+  "sentence": "工人们正在清扫街道上的落叶。",
+  "pinyin": "Gōngrénmen zhèngzài qīngsǎo jiēdào shàng de luòyè.",
+  "english": "Workers are sweeping the fallen leaves off the street."
+ },
+ {
+  "nid": 1708747507648,
+  "word": "小孩儿",
+  "sentence": "那个小孩儿正在马路上跑。",
+  "pinyin": "Nàge xiǎoháir zhèngzài mǎlù shàng pǎo.",
+  "english": "That child is running on the road."
+ },
+ {
+  "nid": 1708747507721,
+  "word": "保质期",
+  "sentence": "买食品的时候要注意看保质期。",
+  "pinyin": "Mǎi shípǐn de shíhou yào zhùyì kàn bǎozhìqī.",
+  "english": "When buying food, you should pay attention to the best-before date."
+ },
+ {
+  "nid": 1708747509348,
+  "word": "主食",
+  "sentence": "中国北方人的主食是面食。",
+  "pinyin": "Zhōngguó běifāng rén de zhǔshí shì miànshí.",
+  "english": "The staple food of people in northern China is wheat-based food."
+ },
+ {
+  "nid": 1708747510873,
+  "word": "热度",
+  "sentence": "这碗汤还有热度，快趁热喝吧。",
+  "pinyin": "Zhè wǎn tāng hái yǒu rèdù, kuài chèn rè hē ba.",
+  "english": "This bowl of soup is still warm, hurry and drink it while hot."
+ },
+ {
+  "nid": 1708747512327,
+  "word": "一路顺风",
+  "sentence": "祝你一路顺风，平安到家。",
+  "pinyin": "Zhù nǐ yī lù shùn fēng, píng'ān dào jiā.",
+  "english": "Wishing you a pleasant journey and a safe arrival home."
+ },
+ {
+  "nid": 1708747512715,
+  "word": "零花钱",
+  "sentence": "爸爸每个星期给我一些零花钱。",
+  "pinyin": "Bàba měi gè xīngqī gěi wǒ yī xiē línghuāqián.",
+  "english": "Dad gives me some pocket money every week."
+ },
+ {
+  "nid": 1708747513028,
+  "word": "放飞",
+  "sentence": "孩子们在公园里放飞风筝。",
+  "pinyin": "Háizimen zài gōngyuán lǐ fàngfēi fēngzheng.",
+  "english": "The children are flying kites in the park."
+ },
+ {
+  "nid": 1708747513077,
+  "word": "自习",
+  "sentence": "放学后，同学们在教室里自习。",
+  "pinyin": "Fàngxué hòu, tóngxuémen zài jiàoshì lǐ zìxí.",
+  "english": "After school, the students study by themselves in the classroom."
+ },
+ {
+  "nid": 1708747513644,
+  "word": "五颜六色",
+  "sentence": "花园里开满了五颜六色的花。",
+  "pinyin": "Huāyuán lǐ kāimǎn le wǔ yán liù sè de huā.",
+  "english": "The garden is full of blooming flowers of every color."
+ },
+ {
+  "nid": 1708747515586,
+  "word": "晕车",
+  "sentence": "妹妹一坐长途汽车就晕车。",
+  "pinyin": "Mèimei yī zuò chángtú qìchē jiù yùnchē.",
+  "english": "My little sister gets carsick whenever she takes a long-distance bus."
+ },
+ {
+  "nid": 1708747516208,
+  "word": "阵雨",
+  "sentence": "今天下午会有阵雨，记得带伞。",
+  "pinyin": "Jīntiān xiàwǔ huì yǒu zhènyǔ, jìde dài sǎn.",
+  "english": "There will be showers this afternoon, so remember to bring an umbrella."
+ },
+ {
+  "nid": 1708747516544,
+  "word": "寒冬",
+  "sentence": "寒冬季节，河面都结冰了。",
+  "pinyin": "Hándōng jìjié, hémiàn dōu jié bīng le.",
+  "english": "In the depths of winter, the river surface has frozen over."
+ },
+ {
+  "nid": 1708747517989,
+  "word": "乘务员",
+  "sentence": "乘务员提醒大家系好安全带。",
+  "pinyin": "Chéngwùyuán tíxǐng dàjiā jì hǎo ānquándài.",
+  "english": "The flight attendant reminded everyone to fasten their seatbelts."
+ },
+ {
+  "nid": 1708747519667,
+  "word": "衣食住行",
+  "sentence": "政府很关心老百姓的衣食住行。",
+  "pinyin": "Zhèngfǔ hěn guānxīn lǎobǎixìng de yī shí zhù xíng.",
+  "english": "The government cares a lot about ordinary people's basic living needs."
+ },
+ {
+  "nid": 1708747520043,
+  "word": "酸甜苦辣",
+  "sentence": "他尝遍了生活中的酸甜苦辣。",
+  "pinyin": "Tā chángbiàn le shēnghuó zhōng de suān tián kǔ là.",
+  "english": "He has experienced all the ups and downs of life."
+ },
+ {
+  "nid": 1708747520282,
+  "word": "民宿",
+  "sentence": "我们这次旅行住在一家民宿里。",
+  "pinyin": "Wǒmen zhè cì lǚxíng zhù zài yī jiā mínsù lǐ.",
+  "english": "On this trip we stayed at a guesthouse."
+ },
+ {
+  "nid": 1708747522172,
+  "word": "补课",
+  "sentence": "他生病请假了，老师帮他补课。",
+  "pinyin": "Tā shēngbìng qǐngjià le, lǎoshī bāng tā bǔkè.",
+  "english": "He was sick and took leave, so the teacher helped him make up the lesson."
+ },
+ {
+  "nid": 1708747522686,
+  "word": "住址",
+  "sentence": "请在这里写下你的住址。",
+  "pinyin": "Qǐng zài zhèlǐ xiě xià nǐ de zhùzhǐ.",
+  "english": "Please write down your address here."
+ },
+ {
+  "nid": 1708747525644,
+  "word": "邮寄",
+  "sentence": "她把包裹邮寄给了远方的朋友。",
+  "pinyin": "Tā bǎ bāoguǒ yóujì gěi le yuǎnfāng de péngyou.",
+  "english": "She mailed the package to a friend far away."
+ },
+ {
+  "nid": 1710963495070,
+  "word": "慧",
+  "sentence": "这个孩子从小就很聪慧。",
+  "pinyin": "Zhège háizi cóngxiǎo jiù hěn cōnghuì.",
+  "english": "This child has been very intelligent since he was little."
+ },
+ {
+  "nid": 1710963504887,
+  "word": "逻",
+  "sentence": "警察每天在街上巡逻。",
+  "pinyin": "Jǐngchá měitiān zài jiē shàng xúnluó.",
+  "english": "Police patrol the streets every day."
+ },
+ {
+  "nid": 1710963504959,
+  "word": "椎",
+  "sentence": "医生检查了他的脊椎有没有受伤。",
+  "pinyin": "Yīshēng jiǎnchá le tā de jǐzhuī yǒu méiyǒu shòushāng.",
+  "english": "The doctor checked whether his spine was injured."
+ },
+ {
+  "nid": 1710963504970,
+  "word": "咨",
+  "sentence": "你可以打电话去公司咨询价格。",
+  "pinyin": "Nǐ kěyǐ dǎ diànhuà qù gōngsī zīxún jiàgé.",
+  "english": "You can call the company to inquire about the price."
+ },
+ {
+  "nid": 1717270462191,
+  "word": "浏",
+  "sentence": "她喜欢躺在床上浏览手机新闻。",
+  "pinyin": "Tā xǐhuan tǎng zài chuáng shàng liúlǎn shǒujī xīnwén.",
+  "english": "She likes to lie in bed browsing news on her phone."
+ },
+ {
+  "nid": 1717270462567,
+  "word": "膏",
+  "sentence": "老人用香油膏干裂的双手。",
+  "pinyin": "Lǎorén yòng xiāngyóu gào gānliè de shuāngshǒu.",
+  "english": "The old man applies sesame oil to moisten his chapped hands."
+ },
+ {
+  "nid": 1717270465095,
+  "word": "讶",
+  "sentence": "听到这个结果，大家都很惊讶。",
+  "pinyin": "Tīngdào zhège jiéguǒ, dàjiā dōu hěn jīngyà.",
+  "english": "Hearing this result, everyone was astonished."
+ },
+ {
+  "nid": 1717270469580,
+  "word": "打卡",
+  "sentence": "员工每天上班都要打卡。",
+  "pinyin": "Yuángōng měitiān shàngbān dōu yào dǎkǎ.",
+  "english": "Employees have to clock in every day when they arrive at work."
+ },
+ {
+  "nid": 1717270471914,
+  "word": "艰",
+  "sentence": "创业的过程十分艰难。",
+  "pinyin": "Chuàngyè de guòchéng shífēn jiānnán.",
+  "english": "The process of starting a business is very difficult."
+ },
+ {
+  "nid": 1717270477583,
+  "word": "邮",
+  "sentence": "我去邮局寄一封信。",
+  "pinyin": "Wǒ qù yóujú jì yī fēng xìn.",
+  "english": "I'm going to the post office to send a letter."
+ },
+ {
+  "nid": 1717270478331,
+  "word": "漱",
+  "sentence": "早晚刷牙以后要漱口。",
+  "pinyin": "Zǎowǎn shuāyá yǐhòu yào shùkǒu.",
+  "english": "You should rinse your mouth after brushing your teeth morning and night."
+ },
+ {
+  "nid": 1717270479523,
+  "word": "嗓",
+  "sentence": "他唱歌唱得太多，嗓子哑了。",
+  "pinyin": "Tā chànggē chàng de tài duō, sǎngzi yǎ le.",
+  "english": "He sang too much and his throat became hoarse."
+ },
+ {
+  "nid": 1717270480414,
+  "word": "必修",
+  "sentence": "这门课是大学生的必修课。",
+  "pinyin": "Zhè mén kè shì dàxuéshēng de bìxiū kè.",
+  "english": "This course is a required course for university students."
+ },
+ {
+  "nid": 1717270489190,
+  "word": "媒",
+  "sentence": "以前结婚常常要靠媒人介绍。",
+  "pinyin": "Yǐqián jiéhūn chángcháng yào kào méiren jièshào.",
+  "english": "In the past, marriages often relied on matchmakers for introductions."
+ },
+ {
+  "nid": 1717270490071,
+  "word": "嗽",
+  "sentence": "他感冒了，一直咳嗽。",
+  "pinyin": "Tā gǎnmào le, yīzhí késou.",
+  "english": "He caught a cold and has been coughing constantly."
+ }
+]
