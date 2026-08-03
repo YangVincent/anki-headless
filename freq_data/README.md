@@ -17,6 +17,18 @@ frequency-ordered**, not gated on character mastery. See "Design decisions" belo
 | **wordfreq** (+`jieba`) | word frequencies (Zipf), 334k words | pip, in `.venv` | ordering, gap-finding |
 | **pypinyin** | hanzi → tone-marked pinyin | pip, in `.venv` | card pinyin |
 | **Hanly export** | character-learning progress | `june_hanly.json` | informational only (NOT a gate) |
+| **HSK 3.0 word list** | official 2021 standard, 11,092 band entries → 10,978 distinct words | `hsk30_official.json` (built by `build_hsk30_official.py` from `hsk30_source.csv`) | HSK levels: deck tags, queue order, dashboard denominators |
+
+**`hsk3_vocab.json` is superseded and wrong — do not use it for levels.** It was parsed out of the
+HSK 1-6 Vocabulary PDF text in `chunks/`, whose layout is a fixed six lines per record (Num, Level,
+Word, Pinyin, Word Class, Meaning). Entries whose Meaning wrapped to a second line desynchronised the
+reader, so from about entry 500 on, the Level belonged to a different word than the one it was
+attached to: 62% correct over the first 500 entries, 20-25% after, and only **31% correct** across
+HSK 1-6. Word/pinyin/gloss stayed aligned (pinyin matches the official list on 9261/9294), which is
+why `build_hsk30_official.py` carries the glosses over and replaces only the levels. The builder
+refuses to run unless the source reproduces the published band sizes
+(500/772/973/1000/1071/1140/5636), which is the check that caught this. Several one-off repair
+scripts in this directory still reference the old file; they are history, not tools to re-run.
 
 Frequency note: **Zipf** = log10(per-billion-word freq). Zipf≥5 ≈ very common, ≥4 common, ≥3.5 the
 deck cutoff, <3 gets noisy (proper nouns + segmentation fragments). Always filter the raw frequency

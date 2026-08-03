@@ -48,7 +48,7 @@ DONG = "/home/vincent/chinese-projects/dong-chinese/server/dongchinese.db"
 READER_LOOKUPS = f"{ROOT}/freq_data/reader_lookups.jsonl"
 DICT_LOOKUPS   = "/home/vincent/chinese-projects/chinese-dict/dict_lookups.jsonl"
 CEDICT = "/home/vincent/chinese-projects/dong-chinese/Resources/cedict_ts.u8"
-HSK  = f"{ROOT}/freq_data/hsk3_vocab.json"
+HSK  = f"{ROOT}/freq_data/hsk30_official.json"
 # Several of these are MULTI-USER production DBs — every query MUST be scoped to Vincent's own
 # accounts or it pollutes with strangers. tingchinese: his email maps to two user_ids; dong:
 # user_id 1,3 (same scoping bot.py._lookup_counts already uses).

@@ -1962,7 +1962,7 @@ def _deck_word_list(deck_name, model_name):
 
 
 # ── /api/hsk-levels: per-HSK-3.0-level familiarity ─────────────────────────
-# Denominator is the official HSK 3.0 word list (freq_data/hsk3_vocab.json, 10,440
+# Denominator is the official HSK 3.0 word list (freq_data/hsk30_official.json, 10,978
 # words over levels 1-6 and 7-9), NOT the HSK decks' contents — so a level's bar
 # reads as "how much of HSK n do I actually know", including the words that have no
 # card at all. Matching is by word (notes.sfld) across every non-Hidden deck rather
@@ -1972,7 +1972,7 @@ def _deck_word_list(deck_name, model_name):
 # The "none" bucket is mostly single characters on purpose: the HSK deck excludes
 # single-char words (they're studied in the Hanly app, which this collection doesn't
 # track), so `none_single` is reported separately and the dashboard says so.
-HSK_VOCAB_PATH = "/home/vincent/anki-headless/freq_data/hsk3_vocab.json"
+HSK_VOCAB_PATH = "/home/vincent/anki-headless/freq_data/hsk30_official.json"
 HSK_LEVELS = ("1", "2", "3", "4", "5", "6", "7-9")
 _hsk_vocab_cache = None
 _hsk_stats_cache = {"ts": 0.0, "data": None}

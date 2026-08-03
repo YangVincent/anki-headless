@@ -55,7 +55,7 @@ def main():
                          "order reaches your study device before the next session)")
     args = ap.parse_args()
 
-    hsk = {w["word"]: w["level"] for w in json.load(open(f"{ROOT}/freq_data/hsk3_vocab.json"))}
+    hsk = {w["word"]: w["level"] for w in json.load(open(f"{ROOT}/freq_data/hsk30_official.json"))}
     col = Collection(args.db)
     try:
         cv_id = col.models.by_name("ChineseVocabulary")["id"]
