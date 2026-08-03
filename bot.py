@@ -2032,15 +2032,19 @@ def _hsk_level_stats():
         counts = collections.Counter(best.get(e["word"], "none") for e in entries)
         # Split "none" by length: single chars are the Hanly-only ones (see above).
         none_single = sum(1 for e in entries if len(e["word"]) == 1 and e["word"] not in best)
-        # Words with a card that's still unseen (the "new" bucket), in HSK-list order —
-        # powers the dashboard's tap-to-count self-check preview.
-        new_words = [{"w": e["word"], "p": e.get("pinyin", ""), "g": e.get("gloss", "")}
-                     for e in entries if best.get(e["word"]) == "new"]
+        # Every word of the level in HSK-list order, each tagged with its status, so the
+        # dashboard can list "which HSK 5 words haven't I started" and not just count
+        # them. `s` uses the same encoding as /api/deck/{name}/words (2=mature,
+        # 1=seen-but-not-solid, 0=has a card, never seen) plus -1 for "no card at all",
+        # which is what the chart's Hanly segment counts.
+        smap = {"mature": 2, "young": 1, "learning": 1, "new": 0}
+        words = [{"w": e["word"], "p": e.get("pinyin", ""), "g": e.get("gloss", ""),
+                  "s": smap.get(best.get(e["word"]), -1)} for e in entries]
         levels.append({"level": level, "total": len(entries),
                        "mature": counts["mature"], "young": counts["young"],
                        "learning": counts["learning"], "new": counts["new"],
                        "none": counts["none"], "none_single": none_single,
-                       "new_words": new_words})
+                       "words": words})
     return {"levels": levels}
 
 
