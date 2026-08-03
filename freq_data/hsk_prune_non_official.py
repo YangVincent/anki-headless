@@ -8,6 +8,11 @@ that were never HSK: the chengyu batch (各抒己见, 锲而不舍 — the offic
 four-character HSK 7-9 entries, just not these), old HSK 2.0 leftovers, and ordinary words
 like 这个 / 欧洲 / 链接.
 
+Character cards go too. They were scaffolding — resort_hsk_queue puts a character card just
+before the first word that uses it — but a character that is not itself an HSK 3.0 entry is
+not a word on the list, and the deck is meant to be the list. Characters that ARE HSK
+entries (many single characters are) stay, and keep their position rule.
+
 Cards with review history are LEFT ALONE. Moving a card you have already learned throws
 away its scheduling to satisfy a filing rule, which is a bad trade; the point of the rule
 is to control what gets introduced next, and a studied card is past that. Only never-seen
@@ -49,29 +54,30 @@ def main():
         src = {col.decks.id_for_name(d) for d in SOURCE_DECKS} - {None}
         cc_id = col.models.by_name("ChineseCharacters")["id"]
 
-        move, kept, seen = [], [], set()
+        move, kept, dropped, seen = [], [], [], set()
         for did in src:
             for nid, in col.db.all("SELECT DISTINCT nid FROM cards WHERE did=?", did):
                 if nid in seen:
                     continue
                 seen.add(nid)
                 note = col.get_note(nid)
-                # character cards are scaffolding (placed before the first word that uses
-                # them), not word-list entries — the rule is about words
-                if note.note_type()["id"] == cc_id:
-                    continue
                 word = strip_html(note.fields[0])
                 if word in official:
                     continue
                 here = [c for c in note.cards() if c.did in src]
+                kind = "char" if note.note_type()["id"] == cc_id else "word"
                 if any(c.type != 0 for c in here):
-                    kept.append(word)
+                    kept.append((kind, word))
                 else:
                     move.extend(c.id for c in here)
+                    dropped.append((kind, word))
 
-        print(f"  keeping (already studied): {len(kept)}")
-        print(f"  moving to {DEST} (never seen): {len(move)} cards")
-        print(f"  kept: {' '.join(sorted(kept))}")
+        kc = collections.Counter(k for k, _ in dropped)
+        print(f"  keeping (already studied): {len(kept)}  "
+              f"({sum(1 for k, _ in kept if k == 'word')} words, {sum(1 for k, _ in kept if k == 'char')} chars)")
+        print(f"  moving to {DEST} (never seen): {len(move)} cards  "
+              f"({kc['word']} words, {kc['char']} chars)")
+        print(f"  kept: {' '.join(w for _, w in sorted(kept))}")
 
         if args.apply:
             col.set_deck(move, dest)
@@ -79,8 +85,6 @@ def main():
             for did in src:
                 for nid, in col.db.all("SELECT DISTINCT nid FROM cards WHERE did=?", did):
                     n = col.get_note(nid)
-                    if n.note_type()["id"] == cc_id:
-                        continue
                     w = strip_html(n.fields[0])
                     if w in official:
                         continue
@@ -91,7 +95,6 @@ def main():
             studied_left = sum(1 for did in src
                                for nid, in col.db.all("SELECT DISTINCT nid FROM cards WHERE did=?", did)
                                if strip_html(col.get_note(nid).fields[0]) not in official
-                               and col.get_note(nid).note_type()["id"] != cc_id
                                and any(c.type != 0 for c in col.get_note(nid).cards() if c.did in src))
             print(f"verify: studied non-HSK-3.0 words retained: {studied_left} (want {len(kept)})")
         else:

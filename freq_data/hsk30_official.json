@@ -3131,16 +3131,6 @@
 "gloss": "friend"
 },
 {
-"word": "朋友们",
-"level": "1",
-"levels": [
-"1"
-],
-"pinyin": "péngyoumen",
-"pos": "N",
-"gloss": ""
-},
-{
 "word": "本",
 "level": "1",
 "levels": [
@@ -3977,16 +3967,6 @@
 "pinyin": "dì",
 "pos": "Prefix",
 "gloss": "前缀"
-},
-{
-"word": "第二",
-"level": "1",
-"levels": [
-"1"
-],
-"pinyin": "dì-èr",
-"pos": "Num",
-"gloss": "second; number two; next"
 },
 {
 "word": "等",
@@ -8039,16 +8019,6 @@
 "gloss": "Childhood; when (I) was young"
 },
 {
-"word": "小王",
-"level": "2",
-"levels": [
-"2"
-],
-"pinyin": "Xiǎo Wáng",
-"pos": "Name",
-"gloss": ""
-},
-{
 "word": "小组",
 "level": "2",
 "levels": [
@@ -10608,16 +10578,6 @@
 "gloss": "Science"
 },
 {
-"word": "科学家",
-"level": "2",
-"levels": [
-"2"
-],
-"pinyin": "kēxuéjiā",
-"pos": "N",
-"gloss": "scientist; CL:個|个[ge4]"
-},
-{
 "word": "租",
 "level": "2",
 "levels": [
@@ -10999,16 +10959,6 @@
 "pinyin": "lǎo péngyou",
 "pos": "",
 "gloss": "old friend; (slang) period; menstruation"
-},
-{
-"word": "老王",
-"level": "2",
-"levels": [
-"2"
-],
-"pinyin": "Lǎo Wáng",
-"pos": "Name",
-"gloss": ""
 },
 {
 "word": "考生",
@@ -14325,16 +14275,6 @@
 "pinyin": "chū",
 "pos": "Adv",
 "gloss": "Beginning; elementary"
-},
-{
-"word": "初一",
-"level": "3",
-"levels": [
-"3"
-],
-"pinyin": "chūyī",
-"pos": "N",
-"gloss": "first day of lunar month; New Year's Day; first year in junior middle school"
 },
 {
 "word": "初中",
@@ -18163,16 +18103,6 @@
 "gloss": "have plenty of; there's no lack of"
 },
 {
-"word": "服务员",
-"level": "3",
-"levels": [
-"3"
-],
-"pinyin": "fúwùyuán",
-"pos": "N",
-"gloss": "waiter; waitress; attendant"
-},
-{
 "word": "服装",
 "level": "3",
 "levels": [
@@ -19665,16 +19595,6 @@
 "pinyin": "jījí",
 "pos": "Adj",
 "gloss": "Positive; active"
-},
-{
-"word": "积极性",
-"level": "3",
-"levels": [
-"3"
-],
-"pinyin": "jījíxìng",
-"pos": "N",
-"gloss": "zeal; initiative; enthusiasm"
 },
 {
 "word": "称为",
@@ -35892,16 +35812,6 @@
 "gloss": "Craftsmanship; technology"
 },
 {
-"word": "工艺品",
-"level": "5",
-"levels": [
-"5"
-],
-"pinyin": "gōngyìpǐn",
-"pos": "N",
-"gloss": "handicraft article; handiwork; CL:個|个[ge4]"
-},
-{
 "word": "差一点儿",
 "level": "5",
 "levels": [
@@ -42725,16 +42635,6 @@
 "gloss": "stage"
 },
 {
-"word": "上班族",
-"level": "6",
-"levels": [
-"6"
-],
-"pinyin": "shàngbānzú",
-"pos": "N",
-"gloss": "office workers (as social group)"
-},
-{
 "word": "不仅仅",
 "level": "6",
 "levels": [
@@ -46797,16 +46697,6 @@
 "gloss": "to appear; to look; form"
 },
 {
-"word": "影响力",
-"level": "6",
-"levels": [
-"6"
-],
-"pinyin": "yǐngxiǎnglì",
-"pos": "N",
-"gloss": "influence; impact"
-},
-{
 "word": "影星",
 "level": "6",
 "levels": [
@@ -48235,16 +48125,6 @@
 "pinyin": "wényú",
 "pos": "N",
 "gloss": "cultural recreation; entertainment"
-},
-{
-"word": "文艺界",
-"level": "6",
-"levels": [
-"6"
-],
-"pinyin": "wényìjiè",
-"pos": "N",
-"gloss": ""
 },
 {
 "word": "斗争",
@@ -50807,16 +50687,6 @@
 "pinyin": "kēyán",
 "pos": "V/N",
 "gloss": "Scientific research"
-},
-{
-"word": "秘书长",
-"level": "6",
-"levels": [
-"6"
-],
-"pinyin": "mìshūzhǎng",
-"pos": "N",
-"gloss": "secretary-general"
 },
 {
 "word": "租金",
@@ -77239,16 +77109,6 @@
 "gloss": "Gobi Desert"
 },
 {
-"word": "成功率",
-"level": "7-9",
-"levels": [
-"7-9"
-],
-"pinyin": "chénggōnglǜ",
-"pos": "N",
-"gloss": ""
-},
-{
 "word": "成千上万",
 "level": "7-9",
 "levels": [
@@ -83457,16 +83317,6 @@
 "pinyin": "yǒuyì",
 "pos": "Adj",
 "gloss": "Beneficial"
-},
-{
-"word": "服务业",
-"level": "7-9",
-"levels": [
-"7-9"
-],
-"pinyin": "fúwùyè",
-"pos": "N",
-"gloss": "service industry"
 },
 {
 "word": "服务器",
@@ -92547,16 +92397,6 @@
 "pinyin": "yǐ",
 "pos": "Aux",
 "gloss": "Particle"
-},
-{
-"word": "知名度",
-"level": "7-9",
-"levels": [
-"7-9"
-],
-"pinyin": "zhīmíngdù",
-"pos": "N",
-"gloss": "reputation; profile; familiarity in the public consciousness"
 },
 {
 "word": "知己",
@@ -101829,16 +101669,6 @@
 "gloss": "Finance"
 },
 {
-"word": "责任感",
-"level": "7-9",
-"levels": [
-"7-9"
-],
-"pinyin": "zérèngǎn",
-"pos": "N",
-"gloss": "sense of responsibility"
-},
-{
 "word": "责备",
 "level": "7-9",
 "levels": [
@@ -107757,16 +107587,6 @@
 "pinyin": "fēifǎ",
 "pos": "Adj",
 "gloss": "illegal"
-},
-{
-"word": "非金属",
-"level": "7-9",
-"levels": [
-"7-9"
-],
-"pinyin": "fēijīnshǔ",
-"pos": "N",
-"gloss": "nonmetal (chemistry)"
 },
 {
 "word": "靠拢",

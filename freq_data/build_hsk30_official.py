@@ -17,10 +17,14 @@ the 2021 standard (https://github.com/elkmovie/hsk30, MIT). It reproduces the pu
 band sizes exactly — 500 / 772 / 973 / 1000 / 1071 / 1140 / 5636 = 11,092 — which is the
 check that this file is the real list and hsk3_vocab.json was not.
 
-Two shapes in the source need expanding, or the words go missing:
-  - "爸爸|爸"    — alternate forms of one entry, both count as HSK words
-  - "第（第二）"  — a form plus an example of it in use
-Both are decomposed via the CSV's own Variants column (37 rows).
+Two shapes in the source look similar and must NOT be treated the same:
+  - "爸爸|爸"    — alternate forms of one entry; both count as HSK words
+  - "第（第二）"  — a headword plus an ILLUSTRATION of it in use; only 第 is the word
+Both are decomposed via the CSV's own Variants column (37 rows), which tags the second
+kind with "Example". Expanding those tagged forms as headwords invents 18 HSK words that
+the standard does not contain (朋友们 is not a word, it is how you are shown 们; likewise
+小王, 老王, 第二, 服务员). 桌子, 里头 and 志愿者 look like the same case but are real
+headword rows in their own right, so they stay.
 
 A word can sit in more than one band (89 of them, e.g. 半 is 1 and 4). `level` is the
 LOWEST band — where you first meet it — and `levels` keeps the full set.
@@ -77,13 +81,19 @@ def main():
         old_pos.setdefault(e["word"], e.get("pos", ""))
     ced = cedict_glosses()
 
+    headwords = {r["Simplified"] for r in rows}
     entries = {}          # word -> {levels:set, pinyin, pos}
+    skipped_examples = set()
     for r in rows:
         forms = []
         if r.get("Variants"):
             try:
-                forms = [(v["Simplified"], v.get("Pinyin", ""), v.get("POS", ""))
-                         for v in json.loads(r["Variants"])]
+                for v in json.loads(r["Variants"]):
+                    # "Example" marks an illustration of the headword, not a word of its own
+                    if v.get("Example") and v["Simplified"] not in headwords:
+                        skipped_examples.add(v["Simplified"])
+                        continue
+                    forms.append((v["Simplified"], v.get("Pinyin", ""), v.get("POS", "")))
             except Exception:
                 forms = []
         if not forms:
@@ -115,6 +125,7 @@ def main():
     json.dump(out, open(args.out, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     multi = sum(1 for x in out if len(x["levels"]) > 1)
     print(f"wrote {args.out}: {len(out)} distinct words ({multi} appear in more than one band)")
+    print(f"  skipped {len(skipped_examples)} illustration-only forms: {' '.join(sorted(skipped_examples))}")
     print(f"  glosses: {from_old} kept from the old file, {from_ced} from CC-CEDICT, {no_gloss} empty")
     per = {}
     for x in out:
