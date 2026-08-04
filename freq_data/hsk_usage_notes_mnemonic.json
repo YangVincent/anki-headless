@@ -1,5 +1,1035 @@
 [
  {
+  "nid": 1393817666686,
+  "word": "友谊",
+  "note": "Weighty noun, used of nations and institutions as well as people: 建立友谊 · 深厚的友谊 · 友谊赛 friendly match. 友情 is more literary-personal, 交情 the casual 'we go back'."
+ },
+ {
+  "nid": 1393817666815,
+  "word": "凉快",
+  "note": "The pleasant kind of cool: 天气凉快 · 屋里挺凉快. Also works as a verb, cool off: 凉快凉快 · 到树下凉快一下. Food that has gone cold is 凉了, never 凉快."
+ },
+ {
+  "nid": 1393817666859,
+  "word": "如何",
+  "note": "Written-register 怎么/怎么样. Before a verb: 如何解决 · 该如何是好. Sentence-final assessment: 你看如何？ Fixed: 无论如何 in any case."
+ },
+ {
+  "nid": 1537328240034,
+  "word": "爱人",
+  "note": "In the PRC this is your spouse, husband or wife alike, and sounds like the older generation. In Taiwan/HK it reads as lover instead. Younger mainlanders say 老公/老婆/对象."
+ },
+ {
+  "nid": 1537328240804,
+  "word": "西方",
+  "note": ""
+ },
+ {
+  "nid": 1537328240881,
+  "word": "东北",
+  "note": ""
+ },
+ {
+  "nid": 1537328241268,
+  "word": "难听",
+  "note": "Two senses: bad-sounding (唱得难听 · 声音难听) and offensive to hear — 他把话说得很难听 he put it very harshly. Same frame as 难看 · 难闻 · 难吃."
+ },
+ {
+  "nid": 1537328241964,
+  "word": "花园",
+  "note": ""
+ },
+ {
+  "nid": 1537328242011,
+  "word": "做客",
+  "note": "V-O compound that wants a place: 去老师家做客 · 到朋友家做客 · 在他家做了几天客. You are the guest; the host's side of it is 请客/招待."
+ },
+ {
+  "nid": 1537328242615,
+  "word": "方便面",
+  "note": ""
+ },
+ {
+  "nid": 1537328242780,
+  "word": "请客",
+  "note": "V-O compound, so the person invited cannot follow it: 我请客 I'm paying · 今天我请你吃饭, not 请客你. 我请 alone works too: 这顿我请."
+ },
+ {
+  "nid": 1537328243190,
+  "word": "牙刷",
+  "note": ""
+ },
+ {
+  "nid": 1537328244158,
+  "word": "黑板",
+  "note": ""
+ },
+ {
+  "nid": 1537328244480,
+  "word": "球场",
+  "note": "A court or field, not a stadium building: 篮球场 · 足球场 · 网球场 · 进球场. The big stadium itself is 体育场; an indoor arena is 体育馆."
+ },
+ {
+  "nid": 1708747485470,
+  "word": "房子",
+  "note": ""
+ },
+ {
+  "nid": 1708747487320,
+  "word": "箱子",
+  "note": ""
+ },
+ {
+  "nid": 1708747489537,
+  "word": "西北",
+  "note": ""
+ },
+ {
+  "nid": 1708747509996,
+  "word": "晚会",
+  "note": "An organized evening programme with performances: 举办晚会 · 联欢晚会 · 迎新晚会 · 春节联欢晚会 (春晚). A private party at someone's flat is 聚会/派对."
+ },
+ {
+  "nid": 1708747516951,
+  "word": "雨衣",
+  "note": ""
+ },
+ {
+  "nid": 1773260574730,
+  "word": "从中",
+  "note": "Adverb pointing back at something just mentioned: 从中学到经验 · 从中受益 · 从中吸取教训. Also 'in between': 从中调解 mediate · 从中作梗 obstruct."
+ },
+ {
+  "nid": 1781542161837,
+  "word": "起到",
+  "note": "Takes an abstract result as object, above all 作用: 起到…的作用 · 起到重要作用 · 起到了很好的效果. Slightly more formal than plain 起作用."
+ },
+ {
+  "nid": 1781542161843,
+  "word": "节假日",
+  "note": "Cover term for public holidays plus days off, mostly in notices and official talk: 节假日期间 · 节假日照常营业 · 法定节假日. Your own time off is 假期/放假."
+ },
+ {
+  "nid": 1781542161861,
+  "word": "电动车",
+  "note": "In everyday mainland speech this is the e-bike or scooter you 骑: 骑电动车 · 电动车充电. An electric car is usually 电动汽车 or 新能源车, and you 开 that."
+ },
+ {
+  "nid": 1782504760991,
+  "word": "没法儿",
+  "note": "Colloquial and northern; a verb phrase follows directly: 没法儿专心 · 这事儿没法办 · 没法儿比. The neutral equivalent 没办法 can also stand alone as a whole reply."
+ },
+ {
+  "nid": 1783524697350,
+  "word": "聊天儿",
+  "note": "Separable V-O: 聊聊天儿 · 聊了半天天儿 · 我们聊了一会儿. The person you chat with goes after 跟/和 — 跟他聊天儿 — not after the verb."
+ },
+ {
+  "nid": 1783524697397,
+  "word": "课文",
+  "note": "The reading passage inside a lesson, not the book: 念课文 · 背课文 · 预习课文 · 第三课的课文. The book itself is 课本/教材."
+ },
+ {
+  "nid": 1537328244526,
+  "word": "广场",
+  "note": "Public square: 天安门广场 · 在广场上 · 广场舞 the square-dancing older women do. Also the -Plaza in mall names (万达广场)."
+ },
+ {
+  "nid": 1708747486045,
+  "word": "影片",
+  "note": "Written register, the word of reviews and news: 一部影片 · 影片上映 · 故事片. In speech you say 电影, or 片子 for the really casual version."
+ },
+ {
+  "nid": 1708747490500,
+  "word": "名称",
+  "note": "For things and organizations, never a person: 公司名称 · 产品名称 · 名称变更. A person's is 名字/姓名; how you address them is 称呼."
+ },
+ {
+  "nid": 1393817668623,
+  "word": "周年",
+  "note": "Counts years elapsed since an event, so a number comes first: 成立十周年 · 结婚五周年 · 周年纪念 · 建校百周年. A person's age uses 岁."
+ },
+ {
+  "nid": 1708747486949,
+  "word": "全体",
+  "note": "Only for groups of people, usually right before the noun: 全体员工 · 全体师生 · 全体起立 · 全体通过. Things and amounts take 全部; a thing viewed as one unit is 整体."
+ },
+ {
+  "nid": 1393817667013,
+  "word": "明星",
+  "note": "Also attributive for anything that stands out: 明星产品 · 明星企业 · 明星球员. Chasing them is 追星; 影星/歌星/球星 name the field."
+ },
+ {
+  "nid": 1537328241973,
+  "word": "商人",
+  "note": "Neutral term for someone in trade: 富商 · 精明的商人. 生意人 is the colloquial equivalent, 企业家 the flattering one; 商家 is the shop or vendor side."
+ },
+ {
+  "nid": 1708747496935,
+  "word": "住房",
+  "note": "Housing as a resource or policy issue, not a building you point at: 住房问题 · 住房条件 · 住房公积金 · 改善住房. The concrete thing is 房子."
+ },
+ {
+  "nid": 1537328240239,
+  "word": "太太",
+  "note": "Surname + 太太 = Mrs Wang (王太太); with a possessive it means wife — 他太太 · 我太太, polite and very common in TW/HK. 老婆 is casual, 妻子 formal/written."
+ },
+ {
+  "nid": 1537328240973,
+  "word": "平安",
+  "note": "Lives in wishes and reassurance: 一路平安 · 平平安安 · 平安到家 · 报个平安 let them know you're safe · 平安夜 Christmas Eve. For low-risk safe use 安全."
+ },
+ {
+  "nid": 1393817667668,
+  "word": "实习",
+  "note": "On-the-job training in your future field: 在医院实习 · 实习生 · 实习期 · 实习教师. 见习 is its stiffer twin; 练习 is drilling a skill, unrelated."
+ },
+ {
+  "nid": 1537328242045,
+  "word": "中医",
+  "note": "Means both the field and the practitioner: 看中医 see a TCM doctor · 学中医 · 中医认为… . The herbal medicine itself is 中药. 西医 works the same way."
+ },
+ {
+  "nid": 1708747488163,
+  "word": "天上",
+  "note": "Locative — takes verbs of existence or motion: 天上有几朵云 · 从天上掉下来 · 飞在天上. 天空 is the sky as something described (天空很蓝). Stock line: 天上不会掉馅饼."
+ },
+ {
+  "nid": 1708747496293,
+  "word": "半夜",
+  "note": "Time word used bare before the verb: 半夜醒了 · 半夜起来. 大半夜的 (with a complaint in it) · 半夜三更 in the dead of night · 前/后半夜. Exact midnight is 午夜."
+ },
+ {
+  "nid": 1393817666244,
+  "word": "爬山",
+  "note": "Separable: 爬了两个小时山 · 爬过那座山. 去爬山 is what Chinese says where English says going hiking; the serious mountaineering sense is 登山."
+ },
+ {
+  "nid": 1708747512327,
+  "word": "一路顺风",
+  "note": "Said to someone setting off, not about your own trip: 祝你一路顺风. 一路平安 is the all-purpose version (some avoid 顺风 for flights); 一帆风顺 wishes a venture well."
+ },
+ {
+  "nid": 1393817667595,
+  "word": "全面",
+  "note": "Coverage of every aspect: 全面发展 · 全面了解 · 全面提高. Also adverbial in official language: 全面推进 · 全面禁止. 全部 is quantity, 全面 is coverage."
+ },
+ {
+  "nid": 1393817667610,
+  "word": "双方",
+  "note": "The two sides of an interaction, as subject or attributive: 双方同意 · 双方家长 · 男女双方 · 中美双方. More than two is 各方/多方; the other side from where you stand is 对方."
+ },
+ {
+  "nid": 1393817667406,
+  "word": "商业",
+  "note": "Mostly attributive: 商业区 · 商业模式 · 商业价值 · 商业化. 商务 is business-as-dealings (商务舱, 商务谈判); 生意 is the everyday business you 做."
+ },
+ {
+  "nid": 1393817668232,
+  "word": "事业",
+  "note": "Life's work, not a day job: 事业有成 · 事业心 drive · 干一番事业 · 教育事业. 工作 is the job, 职业 the profession. 事业单位 is the public-institution category."
+ },
+ {
+  "nid": 1393817668686,
+  "word": "创作",
+  "note": "Making art or writing: 创作歌曲 · 文学创作 · 创作灵感 · 创作了一部小说. 创造 is creating in general (创造条件/价值/纪录); 制作 is producing or manufacturing."
+ },
+ {
+  "nid": 1537328248149,
+  "word": "开展",
+  "note": "Officialese for setting an activity going; the object is abstract: 开展工作 · 开展活动 · 开展调查 · 开展合作. Also intransitive — 工作开展得很顺利."
+ },
+ {
+  "nid": 1708747485271,
+  "word": "前往",
+  "note": "Announcement and news register for 去, and a destination must follow: 前往上海 · 前往现场 · 请前往三号登机口. In conversation you would just say 去."
+ },
+ {
+  "nid": 1393817667764,
+  "word": "文学",
+  "note": ""
+ },
+ {
+  "nid": 1393817668781,
+  "word": "先进",
+  "note": "A praise word for technology or for people singled out for merit: 先进技术 · 先进设备 · 达到世界先进水平 · 先进个人 model worker. Its opposite here is 落后."
+ },
+ {
+  "nid": 1393817667006,
+  "word": "伟大",
+  "note": "Reserved for the monumental: 伟大的祖国 · 伟大的领袖 · 伟大的事业 · 母爱是伟大的. For 'that's great' in daily talk use 太棒了/了不起."
+ },
+ {
+  "nid": 1537328247252,
+  "word": "合法",
+  "note": "Attributive or predicate: 合法权益 · 合法收入 · 这么做不合法 · 合法化. Same family: 合理 reasonable · 合适 suitable · 合格 up to standard."
+ },
+ {
+  "nid": 1393817667385,
+  "word": "指导",
+  "note": "A senior guiding a junior: 指导工作 · 指导老师 supervisor · 在老师的指导下 · 请多指导 (modest). Peer help is 帮助; classroom teaching is 教."
+ },
+ {
+  "nid": 1393817667501,
+  "word": "明确",
+  "note": "Adjective and transitive verb both: 明确的目标 · 态度很明确, and 明确责任 · 明确分工 spell out who does what · 明确表示/指出 state in no uncertain terms."
+ },
+ {
+  "nid": 1393817667826,
+  "word": "体现",
+  "note": "The carrier is the subject, the abstract quality the object: 体现了人民的意志 · 体现出他的水平 · 充分体现 · 体现在细节上. 反映 mirrors a fact; 体现 embodies a value."
+ },
+ {
+  "nid": 1708747490487,
+  "word": "女子",
+  "note": "News and sports register: 一名女子 (police reports) · 女子单打 women's singles · 女子组. In speech it's 女的/女人; 妇女 is the institutional word (妇女节)."
+ },
+ {
+  "nid": 1393817667249,
+  "word": "争取",
+  "note": "With a noun, fight to get: 争取时间 · 争取机会 · 争取支持. With a verb phrase, aim to: 争取明天完成 · 争取考上. 力争 is the emphatic version."
+ },
+ {
+  "nid": 1393817667637,
+  "word": "传播",
+  "note": "Spread of something intangible or contagious: 传播疾病 · 传播文化/知识 · 谣言迅速传播 · 广泛传播. Also the field name: 新闻传播学 media studies."
+ },
+ {
+  "nid": 1393817666935,
+  "word": "显然",
+  "note": "Sits before the predicate or opens the clause: 他显然不知道 · 显然，这行不通 · 很显然. It judges a whole statement, not a noun. Chengyu twin: 显而易见."
+ },
+ {
+  "nid": 1393817667343,
+  "word": "强烈",
+  "note": "Intensity of feeling, light or shock: 强烈要求 · 强烈反对 · 强烈的愿望 · 强烈的阳光 · 强烈地震. Physical strength is 强/强大; wind and rain just take 大."
+ },
+ {
+  "nid": 1393817667638,
+  "word": "从事",
+  "note": "Formal 'work in'; the object is a field, often ending in 工作/行业/研究: 从事贸易工作 · 从事教育 · 从事科研. CV and bio language — day to day you'd say 做."
+ },
+ {
+  "nid": 1393817667842,
+  "word": "整体",
+  "note": "The thing seen as one indivisible unit: 一个整体 · 整体水平 · 从整体上看 · 整体而言 on the whole. 全体 is all the people; 全部 is all the items."
+ },
+ {
+  "nid": 1537328246070,
+  "word": "概念",
+  "note": "Beyond 'concept': 对…没(有)概念 = have no feel for it, 我对一亿这个数字没概念. Also 基本概念 · 概念不清 · 偷换概念 shift the goalposts · 炒概念 hype."
+ },
+ {
+  "nid": 1708747485937,
+  "word": "推进",
+  "note": "Officialese for driving a process along: 推进改革 · 推进项目 · 稳步推进 · 工作正在推进中. Also literal advance (部队向前推进). Pushing an object is plain 推."
+ },
+ {
+  "nid": 1393817667228,
+  "word": "对象",
+  "note": "Two lives. Formal target group: 研究对象 · 服务对象 · 针对不同对象. Mainland colloquial steady partner, marriage implied: 找对象 · 处对象 · 谈对象."
+ },
+ {
+  "nid": 1393817667444,
+  "word": "优势",
+  "note": "An edge relative to a rival: 有优势 · 占优势 · 发挥优势 · 竞争优势 · 明显的优势. 优点 is a good quality in itself (他的优点是耐心)."
+ },
+ {
+  "nid": 1393817667591,
+  "word": "人才",
+  "note": "Usually mass and institutional: 培养人才 · 引进人才 · 人才市场 · 高级管理人才 · 人才流失 brain drain. Sarcastic in speech too: 你真是个人才."
+ },
+ {
+  "nid": 1393817667875,
+  "word": "消费",
+  "note": "Economic register: 消费者 · 消费水平 · 刺激消费 · 高消费 · 在这儿消费了两百块. Newer figurative use: 消费某人 = milk someone's fame or a tragedy for attention."
+ },
+ {
+  "nid": 1393817667094,
+  "word": "机器",
+  "note": ""
+ },
+ {
+  "nid": 1537328246125,
+  "word": "修改",
+  "note": "For texts and plans: 修改文章 · 修改计划 · 修改密码 · 修改宪法. A broken machine is 修/修理; a mistake is 改正; 修订 is revising an edition."
+ },
+ {
+  "nid": 1537328247435,
+  "word": "推广",
+  "note": "Spreading something good into wider use: 推广技术 · 推广经验 · 大力推广 · 推广普通话. In business it means marketing: 网络推广 · 推广活动. The end state is 普及."
+ },
+ {
+  "nid": 1393817667031,
+  "word": "充满",
+  "note": "Takes its filler directly, no preposition: 充满信心 · 充满希望 · 充满活力 · 房间里充满了烟味. Also 对未来充满信心. 满 alone is the plain adjective (杯子满了)."
+ },
+ {
+  "nid": 1393817667231,
+  "word": "实验",
+  "note": "做实验 is the collocation: 实验室 · 实验结果 · 化学实验 · 动物实验. Its near-twin 试验 (shìyàn) is a trial run of a device or method: 试验田 · 核试验."
+ },
+ {
+  "nid": 1393817667356,
+  "word": "形象",
+  "note": "Noun: 公众形象 · 树立形象 · 形象受损 · 品牌形象. Also an adjective meaning vivid and concrete: 他讲得很形象 · 形象的比喻 — the opposite of 抽象."
+ },
+ {
+  "nid": 1393817667438,
+  "word": "批准",
+  "note": "An authority signs off; the object is the application or the person: 批准申请 · 批准他加入 · 经上级批准 · 未经批准不得入内. Casual agreement is 同意, permission 允许."
+ },
+ {
+  "nid": 1393817667889,
+  "word": "比例",
+  "note": "占…的比例 make up a share · 男女比例 · 按比例分配 · 成/不成比例 · 1:100 的比例 scale. A percentage figure is 百分比; a rate is 率 (增长率)."
+ },
+ {
+  "nid": 1708747484744,
+  "word": "强大",
+  "note": "For nations, forces and capabilities: 强大的国家 · 军事实力强大 · 功能非常强大 (of software). A strong body is 强壮; inner toughness is 坚强."
+ },
+ {
+  "nid": 1393817667400,
+  "word": "完整",
+  "note": "Nothing missing from it: 完整的句子 · 完整的资料 · 保持完整 · 领土完整. Adverbially with 地: 完整地演奏 · 完整地保存下来. 完美 claims flawlessness instead."
+ },
+ {
+  "nid": 1537328246503,
+  "word": "消失",
+  "note": "Intransitive — the thing that vanishes is the subject: 太阳消失在云层后 · 症状消失了 · 从视线中消失. To make something vanish, use 消除 or 使…消失. Missing persons 失踪."
+ },
+ {
+  "nid": 1537328245803,
+  "word": "导演",
+  "note": "Both the person and the act: 这部片子由他导演 · 名导演. Figurative: 导演了一场闹剧 stage-managed a farce. The writer is 编剧, the lead actor 主演."
+ },
+ {
+  "nid": 1537328246812,
+  "word": "时刻",
+  "note": "Noun: 关键时刻 · 历史性的时刻 · 时刻表 timetable. Also an adverb, at every moment: 时刻准备着 · 时刻提醒自己. 时候 is the ordinary 'when'."
+ },
+ {
+  "nid": 1393817667047,
+  "word": "接近",
+  "note": "Of distance, time or figures: 快接近终点了 · 接近零度 · 接近尾声 drawing to a close. Of people it can hint at motives: 接近某人 · 他很难接近 hard to get close to."
+ },
+ {
+  "nid": 1708747500626,
+  "word": "应当",
+  "note": "Written and legal twin of 应该: 应当尊重老人 · 当事人应当在30日内提出申请. In conversation, and as a standalone reply (应该吧), you want 应该."
+ },
+ {
+  "nid": 1393817667103,
+  "word": "命运",
+  "note": "Weighty, usually about a whole life's course: 掌握自己的命运 · 改变命运 · 命运的安排 · 悲惨的命运. 运气 is everyday luck; 命 alone is more fatalistic and colloquial."
+ },
+ {
+  "nid": 1393817668098,
+  "word": "广大",
+  "note": "Almost always attributive, and most often about people: 广大人民 · 广大读者 · 广大农村地区. For a vast area you'd more often say 辽阔; 广泛 means wide-ranging (广泛的兴趣)."
+ },
+ {
+  "nid": 1393817668513,
+  "word": "实力",
+  "note": "Demonstrable capability: 有实力 · 实力雄厚 · 靠实力说话 · 实力相当 evenly matched · 实力派演员. Do not mix with 势力, which is influence or a faction."
+ },
+ {
+  "nid": 1537328246246,
+  "word": "古代",
+  "note": "Time-frame noun: 中国古代 · 在古代 · 古代文学. The historian's ladder is 古代 → 近代 → 现代 → 当代. Colloquially 古时候; the adjective 'ancient' is 古老."
+ },
+ {
+  "nid": 1537328247604,
+  "word": "始终",
+  "note": "Adverb before the verb, stressing an unbroken stretch and often paired with a negative: 始终没学会 · 始终坚持 · 始终如一. 一直 is the everyday equivalent."
+ },
+ {
+  "nid": 1393817667975,
+  "word": "完善",
+  "note": "Adjective and verb both: 制度很完善 well-developed, and 完善制度 · 不断完善 · 完善相关法律. 改善 lifts a poor situation; 完善 fills in what is still missing."
+ },
+ {
+  "nid": 1393817668148,
+  "word": "人民币",
+  "note": "The currency's name, not a unit — prices are 100块/元. Use it when contrasting currencies: 美元兑人民币 · 人民币升值 · 收人民币吗？"
+ },
+ {
+  "nid": 1393817667313,
+  "word": "合理",
+  "note": "合理的要求 · 价格合理 · 不合理, and adverbially 合理安排时间 · 合理利用资源. 有道理 is 'fair point' about what someone said; 合法 is about the law."
+ },
+ {
+  "nid": 1393817667691,
+  "word": "成果",
+  "note": "Good outcomes of effort only: 研究成果 · 取得成果 · 成果丰硕. A neutral outcome is 结果, a bad one 后果, and the effect produced is 效果."
+ },
+ {
+  "nid": 1537328245253,
+  "word": "成熟",
+  "note": "Ripe crops, ripe conditions, ripe people: 小麦成熟了 · 技术很成熟 proven · 时机还不成熟 · 想法不成熟 half-baked · 他很成熟. 熟 alone is cooked food, or familiar (跟他很熟)."
+ },
+ {
+  "nid": 1708747491268,
+  "word": "深入",
+  "note": "Adverbial before the verb: 深入研究 · 深入了解 · 深入讨论. As a verb it takes a place: 深入基层 · 深入敌后. Set phrase 深入人心. 深刻 is for impressions (印象深刻)."
+ },
+ {
+  "nid": 1537328246833,
+  "word": "传说",
+  "note": "Noun: 民间传说 · 传说中的凤凰. Also opens a clause like 据说: 传说这座山住着神仙. 神话 is myth proper; a rumour about a real person is 谣言."
+ },
+ {
+  "nid": 1537328248025,
+  "word": "保险",
+  "note": "买保险 · 上保险 · 保险公司 · 医疗保险. Also an adjective, safe bet: 这样比较保险 · 为保险起见 to be on the safe side. And 保险丝 is a fuse."
+ },
+ {
+  "nid": 1708747485773,
+  "word": "前进",
+  "note": "Forward movement itself; a destination needs 向/到 — 向山顶前进 · 继续前进 · 前进的方向 · 前进一步. To go somewhere specific is 前往/去."
+ },
+ {
+  "nid": 1393817667683,
+  "word": "安装",
+  "note": "Physical fitting and software alike: 安装空调 · 安装软件 · 安装完成. 装 alone does the same job colloquially (装个APP); 设置 is configuring afterwards; 组装 is assembling."
+ },
+ {
+  "nid": 1393817668252,
+  "word": "事故",
+  "note": "An incident with damage, and it 出 or 发生: 出了事故 · 发生交通事故 · 事故原因 · 责任事故. 意外 frames it as a mishap; 出事 is the everyday 'something happened'."
+ },
+ {
+  "nid": 1537328247359,
+  "word": "信任",
+  "note": "Trust in a person's character: 信任父母 · 得到信任 · 失去信任 · 信任危机. 相信 takes facts and clauses (我相信他会来); 信任 takes people."
+ },
+ {
+  "nid": 1393817667556,
+  "word": "各自",
+  "note": "Adverb before the verb, or with 的; the subject must be plural: 他们各自工作 · 各自回家 · 各自的想法 · 各自为政. 分别 is 'separately, one by one'; 各 attaches to a noun (各国)."
+ },
+ {
+  "nid": 1537328247287,
+  "word": "分配",
+  "note": "Handing out shares from above: 分配任务 · 分配资源 · 把房间分配给他 · 按劳分配 · 收入分配. 分 alone is splitting among people (分蛋糕)."
+ },
+ {
+  "nid": 1708747485495,
+  "word": "上升",
+  "note": "Intransitive rise of figures, levels or smoke: 物价上升 · 上升趋势 · 上升到新的高度. Prices specifically 上涨; you 提高 a standard (transitive). Opposite 下降."
+ },
+ {
+  "nid": 1537328245929,
+  "word": "保留",
+  "note": "Hold back or hold on to: 保留意见 · 保留权利 · 保留传统 · 给你保留座位. As a noun: 毫无保留地 holding nothing back. 保存 is preserving a thing from spoiling."
+ },
+ {
+  "nid": 1708747491298,
+  "word": "房屋",
+  "note": "Written and administrative: 房屋出租 · 房屋中介 · 房屋结构 · 房屋倒塌. In speech it's 房子; 住房 is housing as a policy issue; 楼房 is multi-storey buildings."
+ },
+ {
+  "nid": 1393817667371,
+  "word": "显得",
+  "note": "Always followed by an adjective or descriptive phrase: 显得很年轻 · 显得有点紧张 · 这样显得不礼貌. It reports the impression given, often against expectation; 看起来 is neutral."
+ },
+ {
+  "nid": 1537328247452,
+  "word": "保存",
+  "note": "Keeping something from perishing or being lost: 保存食物 · 保存文件 save a file · 保存完好 well preserved · 保存实力. 保留 holds on to a right or an opinion."
+ },
+ {
+  "nid": 1537328248012,
+  "word": "实验室",
+  "note": ""
+ },
+ {
+  "nid": 1393817667167,
+  "word": "对手",
+  "note": "A rival in a contest: 竞争对手 · 强劲的对手 · 与对手竞争. Idiomatic: 我不是他的对手 I'm no match for him. 敌人 is an enemy proper; 对方 is just the other side."
+ },
+ {
+  "nid": 1708747485385,
+  "word": "早已",
+  "note": "Adverb before the verb, usually with 了 or a resultative: 早已搬走了 · 早已习惯了 · 早已不复存在. Written-leaning; the spoken version is 早就."
+ },
+ {
+  "nid": 1708747497892,
+  "word": "子女",
+  "note": "Formal collective for offspring: 独生子女 · 子女教育 · 他有三个子女 · 子女抚养. In speech it's 孩子; 儿女 is the warmer literary cousin (儿女情长)."
+ },
+ {
+  "nid": 1708747488251,
+  "word": "打破",
+  "note": "Literal and figurative alike: 打破杯子 · 打破纪录 break a record · 打破沉默 · 打破僵局 break the deadlock · 打破常规. 破 alone is the result complement (碗破了)."
+ },
+ {
+  "nid": 1393817667652,
+  "word": "写作",
+  "note": "Intransitive — say 写小说, not 写作小说: 写作水平 · 写作技巧 · 从事写作 · 他在写作. Watch the parse trap: 写作业 is 写 + 作业, doing homework."
+ },
+ {
+  "nid": 1393817669570,
+  "word": "加工",
+  "note": "Processing raw material: 加工食品 · 加工零件 · 加工厂 · 深加工 · 来料加工. The object is the material, not the finished item. Figurative: 艺术加工 embellishing a story."
+ },
+ {
+  "nid": 1537328247783,
+  "word": "创业",
+  "note": "V-O compound, so no object follows: 自己创业 · 创业公司 startup · 创业者 · 创业初期 · 艰苦创业. The classic phrase for it is 白手起家 build from nothing."
+ },
+ {
+  "nid": 1393817669153,
+  "word": "人工",
+  "note": "Attributive: 人工智能 AI · 人工降雨 · 人工湖 · 人工客服 a human, not a bot. Also labour as a cost: 人工费 · 省人工. 手工 is handcrafted; 人造 labels materials (人造革)."
+ },
+ {
+  "nid": 1537328243151,
+  "word": "发言",
+  "note": "Speaking formally at a meeting; V-O, so no object follows: 在会上发言 · 他先发了言 · 发言权 the right to speak · 发言人 spokesperson. A full speech is 演讲/讲话."
+ },
+ {
+  "nid": 1537328246113,
+  "word": "人群",
+  "note": "A physical crowd: 挤进人群 · 人群中 · 人群聚集. Also a demographic segment in market and health talk: 目标人群 · 高危人群 · 特定人群."
+ },
+ {
+  "nid": 1393817667295,
+  "word": "服装",
+  "note": "Trade and formal register: 服装行业 · 服装设计 · 服装厂 · 儿童服装 · 民族服装 costume. What you actually put on day to day is 衣服 — 穿衣服."
+ },
+ {
+  "nid": 1393817667381,
+  "word": "天空",
+  "note": ""
+ },
+ {
+  "nid": 1393817668950,
+  "word": "场所",
+  "note": "Formal, and mostly in fixed pairs from signs and regulations: 公共场所 · 娱乐场所 · 经营场所 · 消费场所. An ordinary place is 地方; a venue for an event is 场地."
+ },
+ {
+  "nid": 1537328247839,
+  "word": "工程师",
+  "note": ""
+ },
+ {
+  "nid": 1393817667347,
+  "word": "否认",
+  "note": "Takes a fact or a clause: 否认事实 · 否认自己参与 · 矢口否认 flatly deny · 不可否认 undeniably (opens a sentence). 拒绝 refuses a request; 否定 rejects the value of something."
+ },
+ {
+  "nid": 1537328244419,
+  "word": "反正",
+  "note": "Signals the outcome holds either way: 反正我今天没事 · 不管你去不去，反正我要去 · 反正也来不及了. Heads its own clause and carries a shrug, so it stays colloquial."
+ },
+ {
+  "nid": 1537328245038,
+  "word": "亲自",
+  "note": "Adverb before the verb, implying the person could have sent someone else: 亲自去一趟 · 亲自出马 · 校长亲自打电话. 自己 carries no such implication; 本人 is 'in person' on forms."
+ },
+ {
+  "nid": 1537328246076,
+  "word": "客观",
+  "note": "客观事实 · 客观条件 · 客观地评价 · 客观上. Its pair is 主观. In officialese 客观原因 is the excuse outside your control, against 主观原因 your own fault."
+ },
+ {
+  "nid": 1537328247611,
+  "word": "据说",
+  "note": "Opens the clause with no subject before it: 据说纽约物价很贵. Name the source with 据…说: 据他说 · 据报道 · 据了解. 听说 is what you personally heard."
+ },
+ {
+  "nid": 1708747492974,
+  "word": "情感",
+  "note": "The inner feeling itself, formal and analytic: 情感表达 · 情感丰富 · 情感教育. 感情 is the everyday word and also covers the bond between people — 他们感情很好 · 有感情."
+ },
+ {
+  "nid": 1393817667439,
+  "word": "可靠",
+  "note": "Of people, information and equipment: 可靠的消息 · 消息来源可靠 · 质量可靠 · 不太可靠. 靠得住 is the colloquial version, 靠谱 the slang; 可信 is about believability."
+ },
+ {
+  "nid": 1537328245814,
+  "word": "标题",
+  "note": "Of a piece of writing: 文章的标题 · 起个标题 · 小标题 subheading · 标题党 clickbait. A book or film's name is 书名/片名; 题目 also means an exam question."
+ },
+ {
+  "nid": 1708747514810,
+  "word": "公务员",
+  "note": "The civil-service job everyone tests into: 考公务员 · 公务员考试, shortened to 考公 · 国家公务员 · 公务员待遇. 干部 is the older cadre word; 官员 is officials in the news."
+ },
+ {
+  "nid": 1393817667268,
+  "word": "决赛",
+  "note": "A noun despite the card's tag: 进入决赛 · 打进决赛 · 总决赛 the finals · 决赛圈. The ladder below it: 初赛/预赛 → 半决赛 semifinal → 决赛."
+ },
+ {
+  "nid": 1537328244647,
+  "word": "决心",
+  "note": "Noun with 下 or 有: 下定决心 · 有决心 · 决心很大. Also straight before a verb phrase, resolve to: 她决心戒烟 · 决心改变. 决定 is the neutral decision itself."
+ },
+ {
+  "nid": 1537328246499,
+  "word": "愿望",
+  "note": "Stays a noun: 实现愿望 · 美好的愿望 · 强烈的愿望 · 愿望落空. It cannot head a clause the way 希望 does — 希望你来, but not 愿望你来. Making a wish is 许愿."
+ },
+ {
+  "nid": 1393817667182,
+  "word": "年纪",
+  "note": "Goes with 大/小/轻 rather than a number: 他年纪不大 · 上了年纪 · 年纪轻轻 · 一大把年纪. For a figure use 年龄; 岁数 is the colloquial one for older people."
+ },
+ {
+  "nid": 1537328248045,
+  "word": "危害",
+  "note": "Verb with a direct object: 危害健康 · 危害社会 · 危害公共安全, or with 对 — 对健康危害很大. Also a noun: 吸烟的危害. 伤害 is personal injury or hurt feelings."
+ },
+ {
+  "nid": 1537328245366,
+  "word": "定期",
+  "note": "Before the verb: 定期检查 · 定期举行 · 定期更新. Also attributive: 定期存款 fixed-term deposit · 定期体检. 按时 is on schedule; 经常 is just often, no fixed interval."
+ },
+ {
+  "nid": 1708747489107,
+  "word": "年初",
+  "note": "Bare time word, no 在 needed: 年初定了目标 · 今年年初. Its partners: 年底/年末 · 年中 · 月初/月底. New Year's Day itself is 元旦."
+ },
+ {
+  "nid": 1708747499335,
+  "word": "带动",
+  "note": "One thing pulls another along: 带动经济发展 · 带动就业 · 带动气氛 · 起到带动作用. The object is a trend or a group. 推动 pushes a process; 带领 leads people directly."
+ },
+ {
+  "nid": 1393817667213,
+  "word": "好奇",
+  "note": "好 is read hào here, the 'be fond of' one as in 好学. The target takes 对: 对…感到好奇 · 好奇心 · 好奇地问 · 出于好奇 out of curiosity."
+ },
+ {
+  "nid": 1393817670485,
+  "word": "普及",
+  "note": "Both 'become widespread' — 智能手机已经普及了 · 普及率 — and 'spread to everyone': 普及知识 · 普及九年义务教育. 推广 is the active pushing that leads to it."
+ },
+ {
+  "nid": 1393817667503,
+  "word": "把握",
+  "note": "Verb: 把握机会 · 把握方向 · 把握好分寸. Noun 'certainty': 我有把握 I'm sure I can pull it off · 没什么把握 · 有几成把握. 抓住机会 is the concrete-feeling verb."
+ },
+ {
+  "nid": 1537328245431,
+  "word": "交往",
+  "note": "Social dealings in general: 与人交往 · 人际交往 · 交往能力. Also dating when it's two people: 他们交往了三年. The other party takes 与/跟, not a direct object."
+ },
+ {
+  "nid": 1537328247131,
+  "word": "坚强",
+  "note": "Inner toughness under hardship: 坚强的意志 · 你要坚强 · 坚强起来 · 坚强的后盾 a solid backing. A strong body is 强壮, a strong country 强大, dogged persistence 顽强."
+ },
+ {
+  "nid": 1537328245326,
+  "word": "从前",
+  "note": "A remote past with no reference point — the fairytale opener 从前有座山. 以前 is relative and can attach to a phrase (吃饭以前), which 从前 cannot; 过去 is the neutral one."
+ },
+ {
+  "nid": 1537328247391,
+  "word": "手指",
+  "note": ""
+ },
+ {
+  "nid": 1393817668127,
+  "word": "教材",
+  "note": "The materials a course is taught from, seen from the teacher's side: 编写教材 · 选用教材 · 这套教材. What the student carries is 课本; the formal word is 教科书."
+ },
+ {
+  "nid": 1393817667596,
+  "word": "克服",
+  "note": "The object is a difficulty in the situation or in yourself: 克服困难 · 克服缺点 · 克服恐惧 · 克服时差. Colloquially 克服一下 = put up with the inconvenience. Beating a rival is 战胜."
+ },
+ {
+  "nid": 1537328246078,
+  "word": "乐观",
+  "note": "对…感到乐观 · 保持乐观 · 乐观的态度 · 盲目乐观. News register: 形势不容乐观, the situation gives little cause for optimism. Opposite 悲观."
+ },
+ {
+  "nid": 1393817667441,
+  "word": "录音",
+  "note": "Separable V-O: 录了一段音 · 给他录音 · 正在录音. Also the noun: 一段录音 · 录音笔 voice recorder · 录音室. Video is 录像/拍视频."
+ },
+ {
+  "nid": 1393817667863,
+  "word": "手续",
+  "note": "办手续 go through the formalities · 办理出国手续 · 手续费 handling fee · 手续齐全 papers all in order · 手续繁琐. It's the paperwork steps, not the rules (规定)."
+ },
+ {
+  "nid": 1537328246542,
+  "word": "否定",
+  "note": "Rejecting the worth or truth of something: 否定他的成绩 · 全盘否定 · 不能一概否定. Also a grammar term: 否定句 · 否定形式 · 否定的答案 a no. 否认 is denying you did it."
+ },
+ {
+  "nid": 1537328247011,
+  "word": "光明",
+  "note": "Metaphorical brightness: 前途光明 · 光明的未来 · 走向光明. Set phrases 光明正大 above-board · 光明磊落. A well-lit room is 亮/明亮 instead."
+ },
+ {
+  "nid": 1537328247848,
+  "word": "形状",
+  "note": "The geometric outline only: 什么形状 · 形状很特别 · 不规则形状 · 保持形状. 样子 is overall look or manner; 外形 a product's exterior; 形象 a public image."
+ },
+ {
+  "nid": 1708747503523,
+  "word": "影视",
+  "note": "Chiefly a modifier: 影视行业 · 影视作品 · 影视明星 · 影视圈 the industry. When you need a full phrase in a sentence, 电影和电视 is what you say."
+ },
+ {
+  "nid": 1537328243718,
+  "word": "保安",
+  "note": "In daily use it's the guard himself: 小区保安 · 当保安 · 叫保安来. The abstract sense survives in compounds: 保安措施 · 保安公司. 警卫 guards officials, 保镖 is a bodyguard."
+ },
+ {
+  "nid": 1393817667813,
+  "word": "接待",
+  "note": "Formal receiving of visitors at work: 接待客户 · 接待来访者 · 接待处 reception · 热情接待. Guests at home are 招待, which also covers wining and dining them."
+ },
+ {
+  "nid": 1393817667962,
+  "word": "单元",
+  "note": "Three lives: the block entrance in an address (三号楼二单元), a textbook chapter (第三单元), and 单元测试 unit test. 单位 is your work unit or a unit of measure."
+ },
+ {
+  "nid": 1537328246354,
+  "word": "亲人",
+  "note": "Your closest family, the ones you'd grieve for: 想念亲人 · 失去亲人 · 亲人团聚. 亲戚 is the wider circle you visit at New Year; 家人 is the household you live with."
+ },
+ {
+  "nid": 1537328240999,
+  "word": "海关",
+  "note": ""
+ },
+ {
+  "nid": 1537328243473,
+  "word": "提问",
+  "note": "The person asked takes 向: 向老师提问. In a classroom it flips — 老师提问 means the teacher calls on students. Also a noun: 提问环节 the Q&A · 大家的提问."
+ },
+ {
+  "nid": 1393817667994,
+  "word": "初级",
+  "note": "Attributive, in graded sets: 初级班 · 初级阶段 · 初级水平 · 初级会计师. The ladder is 初级 → 中级 → 高级. A beginner person is 初学者."
+ },
+ {
+  "nid": 1393817667558,
+  "word": "告别",
+  "note": "Takes an object directly, or 向…告别: 告别朋友 · 告别过去 · 告别单身 · 告别演出 farewell performance. Weightier than 再见; funerals use 遗体告别仪式."
+ },
+ {
+  "nid": 1393817667802,
+  "word": "志愿者",
+  "note": "当志愿者 · 招募志愿者 · 志愿服务 · 志愿者活动. Note that bare 志愿 also means your college-application choice — 填志愿 · 第一志愿 — an unrelated everyday sense."
+ },
+ {
+  "nid": 1393817669383,
+  "word": "故乡",
+  "note": "Literary and nostalgic, the word of poems and essays: 思念故乡 · 回故乡 · 故乡的味道. In speech you say 老家 (我老家在东北) or 家乡."
+ },
+ {
+  "nid": 1393817667845,
+  "word": "报到",
+  "note": "Checking in on arrival: 新生报到 · 到公司报到 · 报到处 · 报到时间. Homophone trap: 报道 (bàodào) is a news report — 新闻报道 · 据报道."
+ },
+ {
+  "nid": 1708747494675,
+  "word": "剧场",
+  "note": "The auditorium where live shows happen: 去剧场看话剧 · 小剧场 fringe theatre. 剧院 names the institution or building (国家大剧院); a cinema is 电影院."
+ },
+ {
+  "nid": 1537328246766,
+  "word": "彩色",
+  "note": "Attributive, meaning in colour: 彩色照片 · 彩色电视 · 彩色铅笔, against 黑白. The colour of a thing is 颜色 (什么颜色); 色彩 is colour as tone or quality (色彩鲜艳)."
+ },
+ {
+  "nid": 1393817667270,
+  "word": "毛病",
+  "note": "Colloquial and three-way: a machine fault (出毛病 · 机器有毛病), a personal bad habit (改掉这个毛病), and the jab 你有毛病吧. Formal write-ups use 问题/故障."
+ },
+ {
+  "nid": 1537328239881,
+  "word": "开业",
+  "note": "The one-time opening of a new business or practice: 下个月开业 · 开业典礼 · 开业大吉. Daily trading hours are 营业 (营业时间); closing for good is 停业/关门."
+ },
+ {
+  "nid": 1708747489059,
+  "word": "整整",
+  "note": "Goes immediately before a quantity to stress it's a full one: 整整一个月 · 整整两年 · 整整十岁. Note 整整齐齐 is a different word, the reduplication of 整齐."
+ },
+ {
+  "nid": 1537328244346,
+  "word": "收看",
+  "note": "Broadcast register, what the announcer says: 收看新闻联播 · 欢迎收看. Radio is 收听; watching a live event is 观看; everyday watching is just 看."
+ },
+ {
+  "nid": 1717270478098,
+  "word": "旅行社",
+  "note": ""
+ },
+ {
+  "nid": 1393817667977,
+  "word": "武术",
+  "note": "练武术 · 学武术 · 武术表演 · 武术套路 forms. 功夫 is the everyday and export word for the same thing; 武打 is film fight choreography, 武侠 the swordsman genre."
+ },
+ {
+  "nid": 1708747488938,
+  "word": "动人",
+  "note": "For songs, stories and scenes that stir you: 动人的歌声 · 动人的故事 · 动人的场面 · 动人心弦. 感人 is specifically the moving-to-tears kind."
+ },
+ {
+  "nid": 1393817667690,
+  "word": "握手",
+  "note": "Separable, and the other person takes 跟/和: 跟他握手 · 握了握手 · 我们握过手. Set phrase 握手言和 shake hands and make peace."
+ },
+ {
+  "nid": 1537328246019,
+  "word": "信封",
+  "note": ""
+ },
+ {
+  "nid": 1708747524645,
+  "word": "国庆",
+  "note": "Oct 1 in the PRC: 国庆节 · 国庆期间 · 国庆长假 · 十一黄金周, and people often just say 十一. It names that holiday specifically, not national days in general."
+ },
+ {
+  "nid": 1393817668021,
+  "word": "本领",
+  "note": "A prowess you display, admiring and slightly old-fashioned: 有本领 · 真本领 · 本领高强 · 看家本领 one's signature skill. 能力 is the neutral ability, 技能 a trained skill."
+ },
+ {
+  "nid": 1537328246067,
+  "word": "整齐",
+  "note": "Neat in arrangement, things lined up: 摆得很整齐 · 队伍很整齐 · 整整齐齐 · 整齐划一 uniform. A tidy room or person is 整洁/干净."
+ },
+ {
+  "nid": 1708747503238,
+  "word": "图画",
+  "note": "The drawing as an object, typically a child's or a textbook's: 画一幅图画 · 图画书 picture book. Adults usually say 画 (一幅画) or 图片 for an image; painting as an art is 绘画."
+ },
+ {
+  "nid": 1393817667765,
+  "word": "打听",
+  "note": "Asking around informally for information: 打听消息 · 向他打听 · 打听一下 · 四处打听. It goes after facts, not opinions; 询问 is the formal counterpart."
+ },
+ {
+  "nid": 1708747487962,
+  "word": "沙子",
+  "note": ""
+ },
+ {
+  "nid": 1393817668079,
+  "word": "书架",
+  "note": ""
+ },
+ {
+  "nid": 1393817666941,
+  "word": "治疗",
+  "note": "Medical and formal, from the doctor's side: 治疗疾病 · 接受治疗 · 治疗方案 · 化学治疗. The patient's side is 看病/看医生; 治 alone is the colloquial verb (治好了)."
+ },
+ {
+  "nid": 1708747486796,
+  "word": "大会",
+  "note": "A large formal assembly: 召开大会 · 全国代表大会 · 大会发言 · 联合国大会. An ordinary meeting is 会议/开会; a sports meet is 运动会."
+ },
+ {
+  "nid": 1393817667768,
+  "word": "平均",
+  "note": "Before a noun: 平均水平 · 平均分 · 平均年龄; before a measure phrase, on average: 平均每天两小时. As a predicate it means evenly spread: 速度很平均 · 平均分配."
+ },
+ {
+  "nid": 1393817667840,
+  "word": "召开",
+  "note": "Only for meetings and conferences, and only from the organizer's side: 召开会议 · 召开大会 · 会议将于明天召开. Attending is 参加/出席; the everyday version is 开会."
+ },
+ {
+  "nid": 1537328245645,
+  "word": "主题",
+  "note": "文章的主题 · 会议的主题 · 围绕主题 · 主题公园 theme park · 主题曲 theme song. 题目 is the title or an exam question; 话题 is a topic of conversation."
+ },
+ {
+  "nid": 1393817668025,
+  "word": "促进",
+  "note": "The object is a positive process, not a person: 促进发展 · 促进交流 · 促进理解 · 促进消化 · 起促进作用. 推动 pushes a cause; 促使 takes a clause (促使他改变主意)."
+ },
+ {
+  "nid": 1393817667757,
+  "word": "担任",
+  "note": "Takes a post as its object, CV register: 担任班长 · 担任经理 · 担任评委 · 曾担任副总. Colloquially you'd say 当 (当老师); 承担 takes on responsibility or costs, not posts."
+ },
+ {
+  "nid": 1393817667762,
+  "word": "改善",
+  "note": "Lifts an existing condition: 改善关系 · 改善环境 · 改善生活条件 · 得到改善. 改进 is for methods and products, 改正 for mistakes, 完善 for filling in what's missing."
+ },
+ {
+  "nid": 1537328247666,
+  "word": "地位",
+  "note": "Standing in a hierarchy: 社会地位 · 地位很高 · 提高地位 · 地位平等 · 处于不利地位. A physical spot is 位置, a job post 职位, your role or identity 身份."
+ },
+ {
+  "nid": 1393817667606,
+  "word": "下载",
+  "note": "Standard reading is xiàzài (载 zài, to load), though xiàzǎi is everywhere in speech: 下载软件 · 下载到手机上 · 下载完了. The opposite is 上传 upload."
+ },
+ {
+  "nid": 1537328241645,
+  "word": "位置",
+  "note": "A physical spot or slot: 位置很好 · 找个位置 · 换个位置 · 放在原来的位置上. A booked seat is 座位, standing in society 地位, a job opening 职位."
+ },
+ {
+  "nid": 1537328246170,
+  "word": "或许",
+  "note": "Adverb, at the head or before the verb: 或许明天会放晴 · 他或许不知道. Written-leaning; 也许 is the everyday twin, 可能 the most neutral and the one you use to answer alone (可能吧)."
+ },
+ {
+  "nid": 1393817667054,
+  "word": "敌人",
+  "note": ""
+ },
+ {
+  "nid": 1393817667166,
+  "word": "巨大",
+  "note": "Mostly attributive and often abstract: 巨大的变化 · 巨大的影响 · 巨大的损失 · 巨大的成功. For sheer physical bulk 庞大 suggests unwieldy size (庞大的机构)."
+ },
+ {
+  "nid": 1393817667614,
+  "word": "大型",
+  "note": "Attributive only — it takes no 很 and does not stand as a predicate: 大型企业 · 大型活动 · 大型超市. The set is 大型/中型/小型/微型; as a predicate say 规模很大."
+ },
+ {
+  "nid": 1393817668023,
+  "word": "分布",
+  "note": "Intransitive, with 在/于 for where: 主要分布在南方 · 分布广泛 · 分布不均. Same form as a noun: 人口分布 · 分布图. Handing things out is 分配."
+ },
+ {
+  "nid": 1537328242726,
+  "word": "法院",
+  "note": ""
+ },
+ {
+  "nid": 1393817667461,
+  "word": "措施",
+  "note": "Nearly always 采取措施: 采取有效措施 · 安全措施 · 具体措施 · 措施得力. Abstract and plural-feeling; a single practice is 做法, a policy 政策, a method 办法."
+ },
+ {
+  "nid": 1537328246655,
+  "word": "挑战",
+  "note": "挑 is tiǎo, provoke (as in 挑衅), not tiāo pick. Noun: 面临挑战 · 接受挑战 · 有挑战性. Verb: 挑战极限 · 挑战权威, or 向他挑战."
+ },
+ {
+  "nid": 1393817666882,
+  "word": "伤害",
+  "note": "Takes a person or their feelings: 伤害身体 · 伤害感情 · 伤害自尊心 · 受到伤害. Getting hurt yourself is 受伤; harming interests or reputation is 损害; 危害 endangers the public."
+ },
+ {
+  "nid": 1393817667240,
+  "word": "投入",
+  "note": "Three shapes: pour resources in (投入资金/人力), put into operation (投入使用 · 投入生产), and an adjective for absorbed (工作很投入 · 演得很投入)."
+ },
+ {
   "nid": 1393817667360,
   "word": "发挥",
   "note": "Object is an abstract capacity, usually your own: 发挥优势/特长/想象力 · 发挥作用 play a role · 充分发挥 give full play to · 正常发挥 perform to form (exams, sport)."
@@ -2058,6 +3088,1036 @@
   "nid": 1537328246124,
   "word": "修理",
   "note": "Machines and hardware: 修理机器/汽车/水管 · 修理工/厂. Speech shortens to 修 (修车 · 修一下). Slang 修理他一顿 teach him a lesson. Fixing a text or plan is 修改."
+ },
+ {
+  "nid": 1537328246132,
+  "word": "考生",
+  "note": ""
+ },
+ {
+  "nid": 1537328246179,
+  "word": "值得",
+  "note": "Takes a verb, not just a noun: 值得一看 · 值得注意 · 值得一提的是… · 不值得. With a noun it means 'deserves': 值得信任/表扬."
+ },
+ {
+  "nid": 1537328246188,
+  "word": "价钱",
+  "note": "Colloquial, about what a thing costs you: 价钱贵/便宜 · 讲价钱 haggle. 价格 is the formal written term (价格上涨), 物价 the general price level."
+ },
+ {
+  "nid": 1537328246367,
+  "word": "祝贺",
+  "note": "Congratulating a person on something: 祝贺你毕业 · 向你表示祝贺 · 祝贺信. Speech prefers 恭喜; 庆祝 takes the occasion as object, not the person."
+ },
+ {
+  "nid": 1537328246447,
+  "word": "矿泉水",
+  "note": ""
+ },
+ {
+  "nid": 1537328246575,
+  "word": "环保",
+  "note": "Short for 环境保护. Mostly attributive: 环保袋 · 环保意识 · 环保部门. As a predicate it wants a degree word: 更/很环保."
+ },
+ {
+  "nid": 1537328246597,
+  "word": "眼镜",
+  "note": "戴眼镜 wear (not 穿) · 一副眼镜 · 戴上/摘下 · 隐形眼镜 contacts · 墨镜 sunglasses. Distinct from 眼睛 yǎnjing 'eyes'."
+ },
+ {
+  "nid": 1537328246897,
+  "word": "乘客",
+  "note": "Whoever is aboard a vehicle: 车上的乘客 · 乘客须知 · 提醒乘客. 旅客 is the traveler in transit at a station; 游客 the sightseer."
+ },
+ {
+  "nid": 1537328247209,
+  "word": "将要",
+  "note": "Formal/written, before the verb: 火车将要出发 · 将要举行. Bare 将 is the commoner written form; speech says 快…了 or 要…了."
+ },
+ {
+  "nid": 1537328247438,
+  "word": "推迟",
+  "note": "推迟到下周 push back to · 推迟一个星期 by a week · 婚礼推迟了. Neutral scheduling word; 拖延 is blameworthy foot-dragging, 延长 extends a length."
+ },
+ {
+  "nid": 1537328247620,
+  "word": "分数",
+  "note": "考试分数 · 分数高/低 · 分数线 the cut-off score · 平均分. 成绩 is the broader 'results'. In math the same word is a 'fraction': 三分之一."
+ },
+ {
+  "nid": 1537328247935,
+  "word": "底下",
+  "note": "Goes after the noun: 桌子底下 · 树底下 · 在太阳底下. Swaps with 下面 in most spots; colloquially also 'next': 底下再说. Neutral tone dǐxia."
+ },
+ {
+  "nid": 1537328247946,
+  "word": "到处",
+  "note": "Adverb before the verb, usually with 都/是: 到处都是人 · 到处乱扔 · 到处找他. 处处 is the more literary, emphatic twin."
+ },
+ {
+  "nid": 1704006023998,
+  "word": "话剧",
+  "note": "Modern spoken-word theater, as against sung 戏曲/京剧: 一场话剧 · 看话剧 · 话剧团/演员. 戏剧 is drama as an art form generally."
+ },
+ {
+  "nid": 1708747485350,
+  "word": "有着",
+  "note": "Written-register 有, with an abstract, modified object: 有着悠久的历史 · 有着密切的联系 · 有着重要作用. Plain possession stays 有; negation is 没有."
+ },
+ {
+  "nid": 1708747485438,
+  "word": "众多",
+  "note": "Formal, and it heads a noun: 众多的博物馆 · 众多读者 · 众多因素之一. For 'there are many' as a predicate, say 博物馆很多."
+ },
+ {
+  "nid": 1708747489416,
+  "word": "不光",
+  "note": "Colloquial 不但/不仅, paired the same way: 不光是你 · 不光…还/也…. 不仅 dominates in writing; 不光 sounds spoken."
+ },
+ {
+  "nid": 1708747494175,
+  "word": "零下",
+  "note": "The number follows: 零下五度 · 零下二十摄氏度 · 降到零下. Above zero is 零上, or just the plain number."
+ },
+ {
+  "nid": 1708747494571,
+  "word": "推动",
+  "note": "Abstract driving-forward, object is a process: 推动经济发展 · 推动改革 · 起推动作用. Physical pushing is 推; 促进 is the gentler 'facilitate'."
+ },
+ {
+  "nid": 1708747502174,
+  "word": "院长",
+  "note": "Head of anything ending in 院: 医院院长 · 学院院长 dean · 法院院长. Used as a title after the surname: 王院长 · 副院长."
+ },
+ {
+  "nid": 1708747502694,
+  "word": "多样",
+  "note": "菜式很多样 · 多种多样 all kinds of · 多样化 diversify · 多样性 diversity · 形式多样. Before a noun, 各种各样的 is the everyday choice."
+ },
+ {
+  "nid": 1708747505311,
+  "word": "父女",
+  "note": ""
+ },
+ {
+  "nid": 1708747515419,
+  "word": "师生",
+  "note": ""
+ },
+ {
+  "nid": 1708747518190,
+  "word": "千克",
+  "note": "Scientific/label register; everyday speech says 公斤 for the same amount, or 斤 = half a kilo. 五千克 · 每千克…元 · 克 = gram."
+ },
+ {
+  "nid": 1393817666019,
+  "word": "结束",
+  "note": "Works both ways: 会议结束了 (it ends) and 结束会议/结束这段关系 (end it). 结束语 closing remarks. For 'finish doing', use the complement 完: 看完、写完."
+ },
+ {
+  "nid": 1393817666455,
+  "word": "尽管",
+  "note": "Concessive, answered by 但是/还是/仍然: 尽管天气不好，他们还是去了. Separately an adverb 'go right ahead': 有事尽管说 · 尽管用. 不管 is a different word."
+ },
+ {
+  "nid": 1393817666482,
+  "word": "关键",
+  "note": "Noun first: 问题的关键 the crux · 关键在于… · 关键是…. Attributive without 的: 关键时刻 · 关键人物 · 关键词 keyword."
+ },
+ {
+  "nid": 1393817666497,
+  "word": "激动",
+  "note": "Emotion running high — excitement or agitation, not anger: 很激动 · 激动得说不出话 · 激动人心 thrilling · 别激动 calm down. 兴奋 is happy excitement."
+ },
+ {
+  "nid": 1393817666634,
+  "word": "交流",
+  "note": "Two-way exchange, usually 和/跟…交流: 和他交流 · 交流经验/意见 · 文化交流. 交换 is swapping concrete things (交换名片)."
+ },
+ {
+  "nid": 1393817666640,
+  "word": "稍微",
+  "note": "Wants a small-quantity word after the verb or adjective: 稍微有点儿咸 · 稍微等一下 · 稍微改一改. 有点儿 alone carries a complaint; 稍微 stays neutral."
+ },
+ {
+  "nid": 1393817666647,
+  "word": "耐心",
+  "note": "Chiefly a noun: 有耐心 · 没耐心 · 失去耐心. As a manner adverb it needs 地: 耐心地等待/解释. 耐心点儿 = 'be patient!'"
+ },
+ {
+  "nid": 1393817666731,
+  "word": "排队",
+  "note": "Separable: 排了半天队 · 排两个小时的队. The purpose follows the whole phrase: 排队买票 · 排队上车. Cutting in is 插队."
+ },
+ {
+  "nid": 1393817666758,
+  "word": "表格",
+  "note": "填表格 fill in a form, or just 填表 · 一张表格 · 做个表格 make a table. The specific document is 申请表/报名表."
+ },
+ {
+  "nid": 1393817666829,
+  "word": "语法",
+  "note": ""
+ },
+ {
+  "nid": 1393817666835,
+  "word": "流利",
+  "note": "Only about speech and language: 说得很流利 · 一口流利的汉语 · 流利地朗读. A smooth process is 顺利; a practiced skill is 熟练."
+ },
+ {
+  "nid": 1393817666933,
+  "word": "承认",
+  "note": "Takes a clause or a fault: 承认错误 · 承认失败 · 我承认我错了 · 不得不承认. Also official recognition: 承认学历/政权. Confessing a crime is 坦白."
+ },
+ {
+  "nid": 1393817667073,
+  "word": "庆祝",
+  "note": "The object is the occasion, not the person: 庆祝生日 · 庆祝成立十周年 · 庆祝活动 · 为我庆祝. To congratulate someone it's 祝贺你/恭喜你."
+ },
+ {
+  "nid": 1393817667110,
+  "word": "制造",
+  "note": "Factory-scale making: 制造汽车 · 中国制造. Also stirring up abstractions: 制造麻烦/谣言/紧张气氛. Everyday making is 做; 创造 brings something new into being."
+ },
+ {
+  "nid": 1393817667127,
+  "word": "基本",
+  "note": "Attributive: 基本原则/条件/工资. As an adverb it means 'by and large': 基本完成了 · 基本上同意. 根本 is 'fundamental', and in the negative 'not at all'."
+ },
+ {
+  "nid": 1393817667450,
+  "word": "利益",
+  "note": "The stakes at play: 国家利益 · 切身利益 vital interests · 利益冲突 · 维护/损害利益. The accounting figure is 利润; the everyday perk is 好处."
+ },
+ {
+  "nid": 1393817667475,
+  "word": "出版",
+  "note": "Books and periodicals: 出版一本书 · 由…出版 · 出版社 publisher · 出版业. An article or a speech is 发表 instead."
+ },
+ {
+  "nid": 1393817667605,
+  "word": "企业",
+  "note": "The business entity in policy and economic talk: 国有/民营/外资企业 · 中小企业 · 企业家 · 企业文化. A specific named firm is 公司."
+ },
+ {
+  "nid": 1393817667946,
+  "word": "操场",
+  "note": "A school's sports ground, not a children's playground (that's 游乐场): 学校操场 · 在操场上跑步 · 操场集合."
+ },
+ {
+  "nid": 1393817668129,
+  "word": "本科",
+  "note": "读本科 · 本科生 · 本科毕业/学历 · 本科四年. Sits between 大专 junior college and 研究生 postgrad; the degree itself is 学士."
+ },
+ {
+  "nid": 1393817668236,
+  "word": "协议",
+  "note": "达成协议 reach one · 签(署)协议 · 协议书 · 和平/贸易协议. A binding commercial contract is 合同; 同意 is the verb 'agree'."
+ },
+ {
+  "nid": 1393817669329,
+  "word": "创新",
+  "note": "技术创新 · 创新能力/精神 · 鼓励创新 · 创新型企业. Watch the parse in 再创新高 — that is 创 + 新高 'hit a new high', not this word."
+ },
+ {
+  "nid": 1537328241061,
+  "word": "理想",
+  "note": "Noun: 实现理想 · 远大理想. Adjective 'ideal, satisfactory', often negated: 理想的工作 · 效果不太理想. 梦想 is the dream you may never reach."
+ },
+ {
+  "nid": 1537328242053,
+  "word": "住院",
+  "note": "Separable: 住了一个星期的院 · 住过院. 因骨折住院 · 住院费/手续 · 出院 be discharged."
+ },
+ {
+  "nid": 1537328242845,
+  "word": "故意",
+  "note": "Adverb with a bad flavor: 故意迟到 · 故意气我 · 不是故意的. For 'specially, going out of one's way' use 特意/专门: 特意来看你."
+ },
+ {
+  "nid": 1537328243284,
+  "word": "旅客",
+  "note": "The traveler in transit: 旅客列车 · 旅客须知 · 站里挤满旅客. A sightseer is 游客; whoever is aboard the vehicle is 乘客."
+ },
+ {
+  "nid": 1537328243345,
+  "word": "礼貌",
+  "note": "A noun, so it pairs with 有/没: 很有礼貌 · 没礼貌 rude · 讲礼貌. As a modifier it needs 地/的: 礼貌地拒绝 · 礼貌用语. 客气 is surface politeness."
+ },
+ {
+  "nid": 1537328243715,
+  "word": "护士",
+  "note": ""
+ },
+ {
+  "nid": 1537328244255,
+  "word": "着火",
+  "note": "Read zháo: 着火了 · 房子着了火. The thing burning is the subject; setting a fire is 点火/放火. Same zháo in 着凉 catch cold, 着急."
+ },
+ {
+  "nid": 1537328244536,
+  "word": "市区",
+  "note": "The urban area as against 郊区 suburbs or 农村: 住在市区 · 市区内 · 开车进市区. The downtown point itself is 市中心."
+ },
+ {
+  "nid": 1537328245312,
+  "word": "衬衫",
+  "note": ""
+ },
+ {
+  "nid": 1537328245670,
+  "word": "商量",
+  "note": "Working something out with someone: 和他商量 · 商量一下 · 有商量的余地. 讨论 is a group on a topic, 协商 formal negotiation. Neutral tone shāngliang."
+ },
+ {
+  "nid": 1537328245760,
+  "word": "暑假",
+  "note": "放暑假 be on/start summer break · 过暑假 · 暑假作业 · 暑假期间. 寒假 is the winter one; an adult's leave is 休假."
+ },
+ {
+  "nid": 1537328245844,
+  "word": "健身",
+  "note": "健身房 gym · 健身教练 · 健身器材 · 去健身. The everyday 'get exercise' is 锻炼(身体); 健美 is bodybuilding for looks."
+ },
+ {
+  "nid": 1537328246144,
+  "word": "笔试",
+  "note": "The written round, paired with 面试 interview and 口试 oral: 笔试成绩 · 通过笔试 · 参加笔试."
+ },
+ {
+  "nid": 1537328246982,
+  "word": "优点",
+  "note": "A good quality of a person or thing: 他的优点是认真 · 优缺点 pros and cons. A competitive edge is 优势 (价格优势); a perk is 好处."
+ },
+ {
+  "nid": 1537328246983,
+  "word": "缺点",
+  "note": "改正/克服缺点 · 优缺点 · 最大的缺点是…. For a person's habits the spoken word is 毛病; a product flaw is 缺陷; a shortage is 缺乏."
+ },
+ {
+  "nid": 1537328247018,
+  "word": "积极",
+  "note": "Two senses: eager/proactive (积极参加 · 工作积极 · 积极性 initiative) and 'positive' as against 消极 (积极作用/影响). Physically active is 活跃."
+ },
+ {
+  "nid": 1537328247351,
+  "word": "讨厌",
+  "note": "Transitive 'dislike' (我讨厌下雨) and adjective 'annoying' (这个人真讨厌 · 讨厌的天气). Milder than 恨; 烦 is the closest spoken twin."
+ },
+ {
+  "nid": 1537328247573,
+  "word": "便于",
+  "note": "Formal, and a verb must follow: 便于查找 · 便于携带 portable · 便于管理. 'Convenient for a person' is 方便: 这样对你方便吗?"
+ },
+ {
+  "nid": 1537328247707,
+  "word": "形式",
+  "note": "内容与形式 · 各种形式 · 形式主义 going through the motions · 走个形式. Don't mix with its homophone 形势 'the situation, the trend' (国际形势)."
+ },
+ {
+  "nid": 1537328247775,
+  "word": "创造",
+  "note": "Bringing something new into being: 创造条件/机会/奇迹 · 创造纪录 set a record · 创造性. 创作 is composing art; 制造 is manufacturing."
+ },
+ {
+  "nid": 1537328248132,
+  "word": "男士",
+  "note": "Polite, public register — signage and marketing: 男士专用 · 男士服装 · 各位女士、男士. Everyday talk uses 男的/男人; one person is 先生."
+ },
+ {
+  "nid": 1701476732077,
+  "word": "队员",
+  "note": ""
+ },
+ {
+  "nid": 1708747485792,
+  "word": "远离",
+  "note": "Transitive, often an exhortation: 远离毒品 · 远离危险 · 远离城市的喧嚣. Plain distance is 离…很远; simply leaving is 离开."
+ },
+ {
+  "nid": 1708747486487,
+  "word": "医疗",
+  "note": "An attributive noun: 医疗条件/水平 · 医疗保险 · 医疗费用 · 医疗事故 · 医疗队. Treating a patient is 治疗/看病."
+ },
+ {
+  "nid": 1708747495902,
+  "word": "体检",
+  "note": "做/去体检 · 每年体检一次 · 体检报告 · 入职体检. Short for 体格检查; the everyday phrasing is 检查身体."
+ },
+ {
+  "nid": 1708747496160,
+  "word": "课堂",
+  "note": "The lesson as a setting, not the room: 课堂上 in class · 课堂纪律/气氛 · 课堂练习. The physical room is 教室."
+ },
+ {
+  "nid": 1708747503446,
+  "word": "不便",
+  "note": "Noun 'inconvenience': 带来不便 · 给您带来不便，敬请谅解. Adjective: 行动不便 limited mobility. Also 'not in a position to': 不便透露."
+ },
+ {
+  "nid": 1708747517056,
+  "word": "月份",
+  "note": "Attaches to a named month: 三月份 · 几月份 · 月份牌. Durations and relative months drop it: 三个月 · 上个月 · 下个月."
+ },
+ {
+  "nid": 1717270462747,
+  "word": "大巴",
+  "note": "Colloquial, chiefly the intercity coach: 坐大巴 · 大巴车 · 旅游大巴. City buses are 公交车; 中巴/小巴 are the smaller ones."
+ },
+ {
+  "nid": 1717270472205,
+  "word": "学费",
+  "note": "交学费 pay tuition · 学费上涨 · 减免学费. Figuratively 交学费 = paying for a costly lesson. Related money: 生活费, 报名费."
+ },
+ {
+  "nid": 1393817666180,
+  "word": "饮料",
+  "note": ""
+ },
+ {
+  "nid": 1393817666524,
+  "word": "竟然",
+  "note": "Sits after the subject, before the verb, flagging the speaker's surprise: 他竟然没来 · 你竟然给我打电话. 居然 is the near-twin; bare 竟 is written."
+ },
+ {
+  "nid": 1393817666637,
+  "word": "符合",
+  "note": "Takes an abstract standard: 符合要求/条件/标准 · 符合规定 · 符合事实 · 不符合. 适合 suits a person (这工作适合你); 合适 is the adjective."
+ },
+ {
+  "nid": 1393817666643,
+  "word": "适应",
+  "note": "The new circumstance is the object: 适应新环境/新工作 · 适应不了 can't get used to · 适应能力. 习惯 leans on habit; 适合 is 'be suitable for'."
+ },
+ {
+  "nid": 1393817666645,
+  "word": "辛苦",
+  "note": "Also a thank-you formula: 辛苦了 · 辛苦你了 · 让您辛苦了. As an adjective: 工作很辛苦 · 辛辛苦苦. 累 is being tired; 苦 is life being bitter."
+ },
+ {
+  "nid": 1393817666679,
+  "word": "严格",
+  "note": "Pattern 对…(要求)严格: 老板对我要求严格 · 严格要求自己 · 严格执行/遵守 · 严格来说 strictly speaking. Harsh in punishment is 严厉."
+ },
+ {
+  "nid": 1393817666690,
+  "word": "脾气",
+  "note": "发脾气 lose one's temper · 脾气好/坏 · 脾气大 · 耍脾气 throw a tantrum. 性格 is the whole personality; 情绪 a passing mood."
+ },
+ {
+  "nid": 1393817666750,
+  "word": "降低",
+  "note": "Typically transitive, on a measurable level: 降低成本/价格/标准/风险 · 降低要求. 下降 is the usual intransitive fall (产量下降); cutting a price is 降价."
+ },
+ {
+  "nid": 1393817666876,
+  "word": "失去",
+  "note": "For abstractions: 失去信心/兴趣/机会 · 失去平衡 · 失去联系 · 失去亲人. A misplaced object is 丢了 (钱包丢了); losing a match is 输."
+ },
+ {
+  "nid": 1393817667123,
+  "word": "接触",
+  "note": "Coming into range of something: 和他接触 deal with · 接触新事物 be exposed to · 第一次接触. Getting in touch is 联系; touching physically is 碰/摸."
+ },
+ {
+  "nid": 1393817667156,
+  "word": "媒体",
+  "note": "新闻/社交媒体 · 媒体报道 · 主流媒体 · 媒体人. Mass noun — one outlet is 一家媒体. 传媒 names the industry (传媒公司)."
+ },
+ {
+  "nid": 1393817667188,
+  "word": "不断",
+  "note": "Before the verb, often with 地: 不断提高/增长/出现 · 不断地重复. Fixed tails: 源源不断 a steady stream · 连续不断. 一直 lacks the repeated-instances feel."
+ },
+ {
+  "nid": 1393817667574,
+  "word": "单位",
+  "note": "Two senses: your employer/organization (我们单位 · 事业单位 · 单位领导) and a unit of measure (计量单位 · 以…为单位). A firm is 公司, a department 部门."
+ },
+ {
+  "nid": 1393817667799,
+  "word": "忽然",
+  "note": "Adverb only, before the verb: 忽然下起了大雨 · 忽然想起. 突然 covers the same ground but also modifies nouns and stands as predicate (突然的变化 · 太突然了)."
+ },
+ {
+  "nid": 1537328242432,
+  "word": "出租",
+  "note": "Direction matters — letting out: 房子出租 · 出租给学生 · 出租广告. Taking a place is 租/租下. 出租车 taxi is a frozen compound."
+ },
+ {
+  "nid": 1537328242855,
+  "word": "做梦",
+  "note": "Separable: 做了个梦 · 做过这样的梦 · 做噩梦 nightmare. What you dreamt of goes with 梦见/梦到. 别做梦了 = dream on; 梦想 is an aspiration."
+ },
+ {
+  "nid": 1537328245111,
+  "word": "当地",
+  "note": "Local to the place under discussion, usually somewhere other than here: 当地人/政府/居民 · 当地时间 · 当地风味. Where you yourself live is 本地."
+ },
+ {
+  "nid": 1537328246327,
+  "word": "浪漫",
+  "note": ""
+ },
+ {
+  "nid": 1537328246508,
+  "word": "会议",
+  "note": "召开/举行/参加/主持会议 · 会议室 · 会议记录 · 视频会议. For the plain act of meeting, the verb-object 开会 does the work: 我在开会."
+ },
+ {
+  "nid": 1537328246679,
+  "word": "节约",
+  "note": "Conserving a resource, slogan register: 节约用水/用电 · 节约能源/成本/时间. 节省 sounds more everyday; plain 省 is the spoken one (省钱)."
+ },
+ {
+  "nid": 1537328247417,
+  "word": "垃圾",
+  "note": "扔/倒垃圾 · 垃圾桶 · 垃圾分类 waste sorting. Also 'junk': 垃圾食品/邮件/短信, and slangily 太垃圾了 = rubbish, worthless."
+ },
+ {
+  "nid": 1708747486691,
+  "word": "取得",
+  "note": "Formal, and the object is an abstract achievement: 取得成绩/进展/成功 · 取得联系 · 取得资格. Physical getting is 拿/得到; 获得 is the written twin."
+ },
+ {
+  "nid": 1708747491357,
+  "word": "入学",
+  "note": "入学考试 entrance exam · 入学率 · 入学手续 · 六岁入学. Daily going-to-school is 上学; the term starting is 开学; registering on arrival is 报到."
+ },
+ {
+  "nid": 1708747496475,
+  "word": "高于",
+  "note": "Written register: 气温高于昨天 · 高于平均水平 · 高于市场价. Speech uses 比 (比昨天高). Same frame gives 低于/多于/少于/等于."
+ },
+ {
+  "nid": 1708747503070,
+  "word": "打印机",
+  "note": ""
+ },
+ {
+  "nid": 1708747503154,
+  "word": "听众",
+  "note": "Listeners specifically — radio, a concert, a speech: 台下的听众 · 广播听众 · 一位听众. People watching are 观众; readers are 读者."
+ },
+ {
+  "nid": 1708747521877,
+  "word": "银行卡",
+  "note": ""
+ },
+ {
+  "nid": 1393817666035,
+  "word": "其实",
+  "note": "Corrects an impression the listener may hold: 其实不是这样 · 我其实不想去. It can sit before or after the subject. 实际上 is the more formal twin."
+ },
+ {
+  "nid": 1393817666399,
+  "word": "即使",
+  "note": "Hypothetical concession, answered by 也: 即使失败了也没关系 · 即使下雨也去. Written flavor; speech prefers 就是…也 or 哪怕. 尽管 concedes a fact."
+ },
+ {
+  "nid": 1393817666534,
+  "word": "小伙子",
+  "note": "Colloquial and slightly avuncular — an older speaker about a young man: 那个小伙子 · 好小伙子. The female counterpart is 姑娘; neutral is 年轻人."
+ },
+ {
+  "nid": 1393817666667,
+  "word": "镜子",
+  "note": "照镜子 is the fixed verb for looking in one · 一面镜子 · 后视镜 rear-view. 眼镜, without 子, is glasses."
+ },
+ {
+  "nid": 1393817666703,
+  "word": "难受",
+  "note": "Covers bodily discomfort and emotional distress alike: 胃难受 · 心里很难受 · 难受得睡不着. 难过 leans sad; the physical opposite is 舒服."
+ },
+ {
+  "nid": 1393817666718,
+  "word": "袜子",
+  "note": ""
+ },
+ {
+  "nid": 1393817666743,
+  "word": "师傅",
+  "note": "The polite address for a tradesman or driver: 师傅，去火车站 · 出租车/修车师傅. Also a craft master with his 徒弟. 师父 (same sound) is a formal or religious master."
+ },
+ {
+  "nid": 1393817666813,
+  "word": "打折",
+  "note": "The number is what you pay, not what you save: 打八折 = 20% off · 打对折 half price · 打了个折. The discount as a noun is 折扣."
+ },
+ {
+  "nid": 1393817667062,
+  "word": "报道",
+  "note": "News reporting: 报道新闻 · 据报道… reportedly · 一篇报道. Same-sounding 报到 is checking in on arrival (新生报到); reporting to a boss is 汇报."
+ },
+ {
+  "nid": 1393817667066,
+  "word": "显示",
+  "note": "Data or a screen is the subject: 研究/数据显示… · 屏幕上显示 · 显示器 monitor · 显示出实力. A person showing something is 表示/表现."
+ },
+ {
+  "nid": 1393817667165,
+  "word": "政治",
+  "note": ""
+ },
+ {
+  "nid": 1537328240287,
+  "word": "主意",
+  "note": "出主意 offer an idea · 拿主意 make the call · 好主意 · 没主意 at a loss · 打…的主意 have designs on. It's a plan of action; an abstract idea is 想法."
+ },
+ {
+  "nid": 1537328241705,
+  "word": "欢迎",
+  "note": "It also invites an action: 欢迎参观 · 欢迎提意见 · 欢迎大家来. 受欢迎 = popular, well-liked. 欢迎光临 is the shop-door formula."
+ },
+ {
+  "nid": 1537328242213,
+  "word": "联系",
+  "note": "和/跟他联系 get in touch · 保持联系 · 联系方式 contact details · 联系不上 can't reach. Also 'link': 两者有联系 · 联系实际."
+ },
+ {
+  "nid": 1537328242259,
+  "word": "歌声",
+  "note": "One of the 声 nouns for a sound heard at a distance — 歌声 · 笑声 · 掌声 — and it usually 传来: 窗外传来歌声. A person's voice is 嗓子/嗓音."
+ },
+ {
+  "nid": 1537328243940,
+  "word": "放松",
+  "note": "Both 'loosen' and 'ease up': 放松心情/肌肉 · 放松一下 · 放松警惕 let one's guard down (a warning). 轻松 is the adjective 'relaxed, easy'."
+ },
+ {
+  "nid": 1537328245005,
+  "word": "网站",
+  "note": ""
+ },
+ {
+  "nid": 1537328245069,
+  "word": "后悔",
+  "note": "What you regret follows as a verb phrase: 后悔来晚了 · 后悔没听你的 · 后悔当初的决定. Feeling sorry toward someone else is 抱歉/遗憾. 后悔莫及."
+ },
+ {
+  "nid": 1537328246290,
+  "word": "午餐",
+  "note": "Slightly formal beside everyday 午饭: 午餐时间 · 工作午餐 · 自助午餐. The verb is 吃: 吃午餐."
+ },
+ {
+  "nid": 1537328246469,
+  "word": "塑料",
+  "note": "Attributive: 塑料袋/瓶/制品 · 一次性塑料 · 废塑料. Slang 塑料 = fake or flimsy: 塑料姐妹花 fake friends, 塑料普通话 shaky Mandarin."
+ },
+ {
+  "nid": 1537328246498,
+  "word": "杂志",
+  "note": ""
+ },
+ {
+  "nid": 1537328246683,
+  "word": "详细",
+  "note": "Modifies telling and describing: 详细介绍/说明/讲解 · 详细的资料/地址 · 说得很详细. 仔细 is doing something carefully; 细节 is a detail itself."
+ },
+ {
+  "nid": 1537328247151,
+  "word": "支持",
+  "note": "Backing a person or a plan: 支持他/这个决定 · 得到支持 · 支持率. Also technical: 这个软件支持中文. Physical propping is 支撑; funding is 资助."
+ },
+ {
+  "nid": 1708747488184,
+  "word": "高温",
+  "note": "Weather and industry: 高温天气 · 高温预警 heat alert · 高温补贴 · 高温消毒. A person running a fever is 发烧/高烧."
+ },
+ {
+  "nid": 1708747490823,
+  "word": "鲜花",
+  "note": "Cut flowers as a gift or display: 一束鲜花 · 送鲜花 · 鲜花店. 花 alone covers flowers in general; 鲜 contrasts with 假花 artificial."
+ },
+ {
+  "nid": 1708747492036,
+  "word": "出行",
+  "note": "Traffic-and-planning register for making a trip: 出行方式 how you travel · 绿色出行 · 出行高峰. Stepping out of the house is 出门/外出."
+ },
+ {
+  "nid": 1708747492785,
+  "word": "外出",
+  "note": "Leaving home or the office for a while, purpose attached: 外出办事/旅游/就餐 · 外出人员. 出门 is the everyday spoken one; a business trip is 出差."
+ },
+ {
+  "nid": 1710963495359,
+  "word": "收听",
+  "note": "Broadcasts only: 收听广播/节目 · 收听率 listenership. Watching TV is 收看; everything else is plain 听 (听音乐)."
+ },
+ {
+  "nid": 1393817665997,
+  "word": "或者",
+  "note": "Statement 'or': 喝果汁或者咖啡. A question needs 还是: 你喝果汁还是咖啡? Doubled 或者…或者… = either/or; 或者说 = 'or rather'."
+ },
+ {
+  "nid": 1393817666208,
+  "word": "瓶子",
+  "note": "The container as an object: 一个瓶子 · 空瓶子 · 瓶子里. When you count contents, the measure is bare 瓶: 一瓶水 · 两瓶啤酒."
+ },
+ {
+  "nid": 1393817666332,
+  "word": "考虑",
+  "note": "考虑一下 · 让我考虑考虑 · 考虑到… taking into account · 考虑周到 thoughtful · 值得考虑. Takes a clause: 正在考虑要不要去. 思考 is deeper reflection."
+ },
+ {
+  "nid": 1393817666358,
+  "word": "博士",
+  "note": "读博士 do a PhD · 博士生 · 博士学位 · 博士后 postdoc · 经济学博士. Above 硕士 and 学士; as a title, 王博士."
+ },
+ {
+  "nid": 1393817666507,
+  "word": "收拾",
+  "note": "收拾房间/屋子 · 收拾行李 pack · 收拾东西 · 收拾碗筷. Colloquially also 'sort someone out': 看我怎么收拾他. 整理 is the neutral 'organize'."
+ },
+ {
+  "nid": 1393817666591,
+  "word": "效果",
+  "note": "The visible result of a method: 效果很好 · 有/没有效果 · 达到效果 · 音响效果/特效. 作用 is the function exerted; 结果 is the outcome of an event."
+ },
+ {
+  "nid": 1393817666622,
+  "word": "饼干",
+  "note": ""
+ },
+ {
+  "nid": 1393817666677,
+  "word": "降落",
+  "note": "Chiefly aircraft coming down: 飞机降落 · 安全降落 · 降落伞 parachute. The opposite is 起飞; 着陆 is the technical touchdown."
+ },
+ {
+  "nid": 1393817666784,
+  "word": "得意",
+  "note": "Self-satisfied, with a smug edge: 得意地笑 · 洋洋得意 · 得意忘形 carried away · 得意门生 favorite student. Plain pride is 骄傲/自豪; 满意 is satisfied."
+ },
+ {
+  "nid": 1393817667752,
+  "word": "改进",
+  "note": "The object is a method or a product: 改进技术/工作方法 · 加以改进. 改善 is for conditions and relations (改善生活/关系); 提高 raises a level (提高水平)."
+ },
+ {
+  "nid": 1393817668119,
+  "word": "馒头",
+  "note": "Plain and unfilled — the stuffed one is 包子, the twisted one 花卷: 一个馒头 · 蒸馒头. A northern staple standing in for rice."
+ },
+ {
+  "nid": 1537328243483,
+  "word": "提供",
+  "note": "Institutional giving: 提供服务/信息/帮助/机会 · 为客户提供… · 由公司提供. Everyday giving is just 给."
+ },
+ {
+  "nid": 1537328244513,
+  "word": "停车场",
+  "note": ""
+ },
+ {
+  "nid": 1537328245269,
+  "word": "钢琴",
+  "note": "弹钢琴 — 弹 for keyboards and plucked strings, 拉 for 小提琴, 吹 for winds · 一架钢琴 · 学/练钢琴 · 钢琴家."
+ },
+ {
+  "nid": 1537328245280,
+  "word": "皮肤",
+  "note": "Human skin: 皮肤很好/干燥 · 皮肤病 · 皮肤科 dermatology. An animal hide or a fruit peel is 皮; leather is 皮革/真皮."
+ },
+ {
+  "nid": 1537328245349,
+  "word": "误会",
+  "note": "Verb and noun both: 你误会我了 · 别误会 · 产生/消除误会 · 一场误会. 误解 is the formal twin, usually about an idea or text; 弄错 is getting a fact wrong."
+ },
+ {
+  "nid": 1537328245806,
+  "word": "航班",
+  "note": "The scheduled service, not the aircraft: 航班延误/取消 · 航班号 · 国际/国内航班 · 赶航班. The plane itself is 飞机."
+ },
+ {
+  "nid": 1537328246289,
+  "word": "早餐",
+  "note": "吃早餐 · 早餐店 · 自助早餐 · 含早餐 breakfast included. The spoken form is 早饭; 早点 is northern for morning snacks."
+ },
+ {
+  "nid": 1537328246291,
+  "word": "晚餐",
+  "note": "吃晚餐 · 晚餐时间 · 一顿丰盛的晚餐. The spoken form is 晚饭; a formal dinner event is 晚宴; the late-night meal after it is 夜宵."
+ },
+ {
+  "nid": 1537328246674,
+  "word": "孙女",
+  "note": "Your son's daughter; your daughter's daughter is 外孙女. Same 外 split for 孙子 versus 外孙."
+ },
+ {
+  "nid": 1537328247111,
+  "word": "遇见",
+  "note": "By chance, and it takes an object directly: 遇见一个老同学. An arranged meeting is 见面, which uses 和…见面. 碰见 is the spoken twin; 遇到 also covers 困难."
+ },
+ {
+  "nid": 1537328247415,
+  "word": "仍然",
+  "note": "Written register, before the verb or adjective: 仍然很原始 · 他仍然不同意. Speech prefers 还/还是; 依然 is the literary twin."
+ },
+ {
+  "nid": 1537328248111,
+  "word": "合格",
+  "note": "Meeting a standard, of products and people: 产品不合格 · 合格率 · 考试合格 · 一名合格的老师. Passing an exam mark is 及格 (60分及格)."
+ },
+ {
+  "nid": 1708747485415,
+  "word": "前方",
+  "note": "Announcement and written register: 前方到站 · 前方施工 · 前方路口. Everyday 'in front' is 前面/前边. In war talk it's the front line, against 后方."
+ },
+ {
+  "nid": 1708747493173,
+  "word": "牌子",
+  "note": "Two senses: a physical sign (挂个牌子 · 门口的牌子) and a brand (什么牌子的 · 老牌子 · 杂牌). 品牌 is the marketing word; 名牌 a famous brand."
+ },
+ {
+  "nid": 1708747504114,
+  "word": "运动会",
+  "note": "举办/开运动会 · 参加运动会 · 校运动会 · 运动会开幕式. The Olympics compress to 奥运会; a single contest inside it is 比赛."
+ },
+ {
+  "nid": 1717270479033,
+  "word": "游玩",
+  "note": "Bookish — travel writing and notices: 到公园游玩 · 外出游玩 · 游玩项目. Speech says 玩/去玩儿; a formal tour is 游览/参观."
+ },
+ {
+  "nid": 1393817666132,
+  "word": "健康",
+  "note": "Noun and adjective both: 身体健康 (the standard wish) · 健康饮食/生活方式 · 心理健康 · 有益健康 · 不健康. Physically sturdy is 结实."
+ },
+ {
+  "nid": 1393817666191,
+  "word": "打扫",
+  "note": "打扫房间/教室 · 打扫卫生 = do the cleaning, a fixed pair · 打扫干净. 洗 is washing with water, 擦 is wiping; 收拾 is tidying rather than sweeping."
+ },
+ {
+  "nid": 1393817666383,
+  "word": "经历",
+  "note": "Verb 'go through': 经历了很多事 · 经历过战争. Noun = the events themselves: 工作经历 · 一段难忘的经历. 经验 is the know-how you accumulate (经验丰富)."
+ },
+ {
+  "nid": 1393817666508,
+  "word": "周围",
+  "note": "Follows what it surrounds: 房子的周围 · 学校周围 · 周围的人/环境. 附近 is 'nearby' without encircling; 四周 is the more literary 'all around'."
+ },
+ {
+  "nid": 1393817666599,
+  "word": "吃惊",
+  "note": "Separable — the count goes inside: 大吃一惊 · 吃了一惊. Also 我很吃惊 · 令人吃惊 astonishing. 惊讶 is the plain adjective; a nice surprise is 惊喜."
+ },
+ {
+  "nid": 1393817666639,
+  "word": "共同",
+  "note": "Modifier and adverb: 共同点 something in common · 共同语言 · 共同努力 · 共同利益. 一起 is plain side-by-side togetherness; 共同 implies a shared stake."
+ },
+ {
+  "nid": 1393817666685,
+  "word": "大夫",
+  "note": "Read dàifu, and it's the northern spoken address: 王大夫 · 找大夫看看. 医生 is the standard word and the job title."
+ },
+ {
+  "nid": 1393817666716,
+  "word": "力气",
+  "note": "Muscle power: 很有力气 · 没力气了 · 花力气 · 力气活 heavy manual work. Abstract force is 力量; stamina and energy are 体力/精力."
+ },
+ {
+  "nid": 1393817666817,
+  "word": "导游",
+  "note": ""
+ },
+ {
+  "nid": 1393817667063,
+  "word": "参与",
+  "note": "Formal, stressing a hand in something: 参与讨论/决策/管理 · 参与其中. 参加 is the everyday 'take part in, join' (参加考试/婚礼) and far commoner in speech."
+ },
+ {
+  "nid": 1393817667133,
+  "word": "宣布",
+  "note": "Official announcing, and it takes a clause: 宣布会议开始 · 宣布独立 · 正式宣布. 通知 is notifying people; 公布 is releasing data or a list."
+ },
+ {
+  "nid": 1393817667159,
+  "word": "建立",
+  "note": "For abstract structures: 建立关系/制度/信心/联系 · 建立起来. A physical building is 盖/建; founding an organization is 成立; 建设 develops a country."
+ },
+ {
+  "nid": 1393817668066,
+  "word": "作文",
+  "note": "A school composition: 写作文 · 一篇作文 · 作文题/作文课. A published piece is 文章, an academic paper 论文; 写作 is writing as an activity."
+ },
+ {
+  "nid": 1537328239884,
+  "word": "打工",
+  "note": "Separable: 打了两年工 · 打过工. Wage work for someone else, not a career post: 去餐厅打工 · 打零工 odd jobs. Slang 打工人 = wage earner."
+ },
+ {
+  "nid": 1537328242198,
+  "word": "老是",
+  "note": "Colloquial and complaining: 他老是迟到 · 老是忘 · 别老是玩手机. Bare 老 does the same (老不听话). Neutral 'always' is 总是; 一直 is continuous."
+ },
+ {
+  "nid": 1537328244988,
+  "word": "窗户",
+  "note": "一扇窗户 · 开/关窗户 · 窗帘 curtain · 窗台 sill. Neutral tone chuānghu. 窗口 is a service counter or a computer window."
+ },
+ {
+  "nid": 1537328245622,
+  "word": "举办",
+  "note": "Organizing and running an event: 举办展览/比赛/婚礼 · 举办方 the organizer. 举行 stages a ceremony or meeting on the day (举行仪式); 办 is the everyday one."
+ },
+ {
+  "nid": 1537328246273,
+  "word": "零食",
+  "note": "吃零食 · 买零食 · 一包零食 · 零食柜台. 小吃 is street-stall dishes, not packaged nibbles; 点心 is pastries and dim sum."
+ },
+ {
+  "nid": 1537328247147,
+  "word": "赶上",
+  "note": "Three uses: catching a departure (赶上末班车), pulling level (赶上他/赶上世界水平), and running into a situation (赶上下雨了). Missing it is 没赶上."
+ },
+ {
+  "nid": 1537328248044,
+  "word": "危险",
+  "note": "Adjective and noun both: 很危险 · 有危险 · 脱离危险 out of danger · 危险品 hazardous goods. Taking a risk is 冒险; risk as probability is 风险."
+ },
+ {
+  "nid": 1672769484639,
+  "word": "之间",
+  "note": "Written, and it follows the pair: 公司和家之间 · 两者之间 · 朋友之间 · 人与人之间. A span of time takes 期间/之内; the physical middle is 中间."
+ },
+ {
+  "nid": 1708747484673,
+  "word": "具有",
+  "note": "Formal, and the object is an abstract quality: 具有艺术性 · 具有重要意义 · 具有代表性. Concrete possession stays 有 (有一辆车); 拥有 is owning something substantial."
+ },
+ {
+  "nid": 1708747486264,
+  "word": "一生",
+  "note": "Written: 他一生都在… · 一生中最重要的… · 度过一生. The spoken equivalent is 一辈子 (等了一辈子); 终身 appears in pairs like 终身学习."
+ },
+ {
+  "nid": 1708747486973,
+  "word": "童年",
+  "note": "度过童年 · 童年回忆/时光 · 快乐的童年 · 在童年时. It names the period; 'when I was little' in speech is 小时候."
+ },
+ {
+  "nid": 1708747489567,
+  "word": "以内",
+  "note": "Follows the amount: 一个月以内 · 五公里以内 · 三十岁以内. Same frame as 以上/以下/以外. Speech often prefers 一个月内 or 不到一个月."
+ },
+ {
+  "nid": 1708747496926,
+  "word": "母子",
+  "note": ""
+ },
+ {
+  "nid": 1708747497478,
+  "word": "父子",
+  "note": ""
+ },
+ {
+  "nid": 1708747510391,
+  "word": "点名",
+  "note": "Separable: 点过名了 · 点了两次名. Beyond roll call: 点名批评 call someone out by name · 点名要你去 ask for you specifically. Signing yourself in is 签到."
+ },
+ {
+  "nid": 1708747516054,
+  "word": "报考",
+  "note": "The object is what you're testing into: 报考研究生 · 报考北大 · 报考人数. 报名 is registering for anything; getting in is 考上."
+ },
+ {
+  "nid": 1393817666319,
+  "word": "结果",
+  "note": "Noun 'result' (选举的结果 · 结果出来了) and a connective 'and then, as it turned out': 我等了半天，结果他没来 — usually something contrary to expectation."
+ },
+ {
+  "nid": 1393817666485,
+  "word": "恐怕",
+  "note": "Not fear — the speaker's hedged guess about unwelcome news: 恐怕来不及了 · 他恐怕不会同意. Real fear is 害怕/怕; 大概/也许 hedge without the bad news."
+ },
+ {
+  "nid": 1393817666489,
+  "word": "幸福",
+  "note": "Deep, life-level contentment rather than a passing mood: 生活很幸福 · 幸福的家庭 · 幸福感 · 追求幸福. A good mood is 高兴/开心; 快乐 is the 生日快乐 word."
+ },
+ {
+  "nid": 1393817666565,
+  "word": "盒子",
+  "note": ""
+ },
+ {
+  "nid": 1393817666735,
+  "word": "家具",
+  "note": "Mass noun — count with 件/套: 一件家具 · 一套家具 · 买/搬家具 · 家具城. Appliances are 家电."
+ },
+ {
+  "nid": 1393817666742,
+  "word": "来不及",
+  "note": "Takes a verb: 来不及赶地铁 · 来不及解释了. The positive counterpart is 来得及 there's still time. Missing a departure specifically is 赶不上."
+ },
+ {
+  "nid": 1393817666747,
+  "word": "客厅",
+  "note": ""
+ },
+ {
+  "nid": 1393817666850,
+  "word": "京剧",
+  "note": "唱京剧 — it's sung, so 唱 · 看/听京剧 · 京剧演员/脸谱. 戏曲 is the whole traditional sung-theater family; the modern spoken play is 话剧."
+ },
+ {
+  "nid": 1393817666932,
+  "word": "意义",
+  "note": "Significance, not word-meaning: 很有意义 · 意义重大 · 纪念意义 · 失去意义. What a word or a remark means is 意思 (这个词什么意思)."
+ },
+ {
+  "nid": 1393817667056,
+  "word": "人物",
+  "note": "A person as a figure of note or a character in a story: 历史人物 · 大人物 a big shot · 小说里的人物 · 人物形象. Personality traits are 性格."
+ },
+ {
+  "nid": 1393817669207,
+  "word": "实行",
+  "note": "The object is a policy or system: 实行改革/新制度. 执行 carries out an order or task (执行命令); 进行 pairs with activity nouns (进行讨论)."
+ },
+ {
+  "nid": 1537328239937,
+  "word": "星星",
+  "note": "一颗星星 · 满天星星 · 数星星. The reduplicated form is the colloquial one for stars in the sky; compounds use bare 星 (卫星, 恒星), and 明星 is a celebrity."
+ },
+ {
+  "nid": 1537328241525,
+  "word": "景点",
+  "note": "Tourist-industry word: 旅游景点 · 著名景点 · 景点门票 · 逛景点. The scenery itself is 风景; the formal term is 名胜古迹."
+ },
+ {
+  "nid": 1537328243703,
+  "word": "排球",
+  "note": "打排球 — 打 for ball games played with the hands, 踢 for 足球 · 排球队/排球场 · 女排 the women's national team."
+ },
+ {
+  "nid": 1537328245794,
+  "word": "发表",
+  "note": "For pieces of expression: 发表论文/文章 · 发表演讲/讲话 · 发表意见/看法 · 在杂志上发表. A book or magazine is 出版; official data is 公布."
+ },
+ {
+  "nid": 1537328245867,
+  "word": "教练",
+  "note": "Works as a title and an address: 张教练 · 健身/游泳教练 · 驾校教练 · 当教练. 训练 is the training itself."
+ },
+ {
+  "nid": 1708747491144,
+  "word": "大自然",
+  "note": "The natural world as a whole, usually with 大: 保护/爱护大自然 · 亲近大自然 · 大自然的力量. Bare 自然 leans 'natural, naturally'."
+ },
+ {
+  "nid": 1393817666021,
+  "word": "愿意",
+  "note": "Takes a verb phrase: 愿意帮忙 · 不愿意去 · 你愿意吗? It's consent more than desire — 想 is wanting, 肯 is willing to bother, 情愿 is preferring one option."
+ },
+ {
+  "nid": 1393817666162,
+  "word": "年级",
+  "note": "School year: 上/念五年级 · 你几年级? · 高年级学生 · 同年级. Don't mix with 年纪 niánjì, a person's age (年纪大了); the class group is 班."
  },
  {
   "nid": 1393817666443,
@@ -5148,5 +7208,2050 @@
   "nid": 1537328245551,
   "word": "报纸",
   "note": "Counted 一份报纸 · 看报纸, clipped to 看报 in speech · 订报纸 subscribe · 登在报纸上 appear in the paper. 报社 is the newspaper as an organisation."
+ },
+ {
+  "nid": 1537328246863,
+  "word": "总统",
+  "note": "Republican head of state: 当选总统 elected · 总统大选 · 前总统 · 总统府. China's leader is 国家主席; a head of government elsewhere is 总理/首相."
+ },
+ {
+  "nid": 1708747486636,
+  "word": "好多",
+  "note": "Colloquial 很多, normally right before a noun: 好多人 · 好多次. Same spoken 好 as 好大 · 好久不见. Written prose prefers 很多/许多."
+ },
+ {
+  "nid": 1393817666592,
+  "word": "现金",
+  "note": "付现金 pay cash · 收现金 · 现金支付 (vs 刷卡/转账) · 现金流 cash flow · 提现 cash out a balance. Small change is 零钱."
+ },
+ {
+  "nid": 1537328240880,
+  "word": "东部",
+  "note": "The eastern region inside a larger area: 中国东部 · 东部沿海 · 城市东部. 东边/东面 is the side relative to a spot; 东方 is the East as direction or culture."
+ },
+ {
+  "nid": 1537328241727,
+  "word": "目前",
+  "note": "Formal 现在, naming the current stage: 到目前为止 so far · 目前的情况 · 就目前来看 · 目前还没有决定. Heads the clause or sits right after the subject."
+ },
+ {
+  "nid": 1393817669159,
+  "word": "产业",
+  "note": "Economic-sector sense dominates: 信息/文化产业 · 产业链 supply chain · 产业升级 · 支柱产业. 工业 is manufacturing; 行业 the trade you work in."
+ },
+ {
+  "nid": 1537328240790,
+  "word": "地址",
+  "note": "The written location string: 家庭住址 · 收货地址 shipping address · 详细地址 · 留个地址. Digital too — 邮箱地址 · IP地址; a URL is 网址."
+ },
+ {
+  "nid": 1537328247657,
+  "word": "不必",
+  "note": "Negates obligation, not ability: 不必担心 · 不必客气 · 你不必每次都来 · 大可不必 quite unnecessary. 不用 is the everyday spoken version; 别 tells someone not to."
+ },
+ {
+  "nid": 1393817667079,
+  "word": "似的",
+  "note": "Reading trap: 似 = shì only in this particle (sì in 似乎/相似). Clause-final, usually paired with 像/跟/好像: 像孩子似的 · 跟没事人似的. Colloquial twin of …一样."
+ },
+ {
+  "nid": 1393817668280,
+  "word": "动手",
+  "note": "Separable (动了手 · 动过手); the person you strike takes 对 — 对孩子动手. Other sense is getting started: 自己动手 DIY · 赶快动手做 · 动手能力 hands-on skill."
+ },
+ {
+  "nid": 1537328246765,
+  "word": "精彩",
+  "note": "Said of things watched or read — 表演/比赛/演讲/片段: 演得很精彩 · 精彩极了 · 精彩瞬间. A person's quality is 优秀/出色."
+ },
+ {
+  "nid": 1537328240799,
+  "word": "东方",
+  "note": "The compass direction in the abstract, and 'the East' as a culture: 太阳从东方升起 · 东方文化 · 东方明珠. The east side of a place is 东边/东面, its region 东部."
+ },
+ {
+  "nid": 1537328243285,
+  "word": "旅行",
+  "note": "Intransitive — the destination attaches with 去/到: 去欧洲旅行 · 到处旅行. 旅游 leans sightseeing (旅游景点/业); 旅行 is the journey — 旅行社 · 旅行箱; work trips 出差."
+ },
+ {
+  "nid": 1703060606399,
+  "word": "美好",
+  "note": "Modifies abstractions: 美好的生活/回忆/未来/时光 · 美好的祝愿; predicate too — 生活很美好. A beautiful face or view is 美丽/漂亮."
+ },
+ {
+  "nid": 1708747484811,
+  "word": "眼前",
+  "note": "Literally in front of you (眼前一亮 · 眼前一片漆黑) and 'immediate', often hinting at short-sightedness: 眼前的问题 · 只顾眼前利益. 目前 is the neutral 'currently'."
+ },
+ {
+  "nid": 1708747486032,
+  "word": "全身",
+  "note": "Pairs with 都: 全身都是汗 · 全身无力 · 全身发抖 · 全身上下. 浑身 is the more colloquial twin; 全身心投入 = throw yourself in wholeheartedly."
+ },
+ {
+  "nid": 1393817666613,
+  "word": "文章",
+  "note": "Measure word 篇: 一篇文章 · 写/发表文章. Idiom 在…上做文章 make an issue of it · 大做文章. 论文 is an academic paper; 报道 a news story."
+ },
+ {
+  "nid": 1537328239876,
+  "word": "工人",
+  "note": "Blue-collar specifically: 建筑工人 · 农民工 · 工人阶级 · 一名工人. An office employee is 员工/职员; 工作人员 is 'staff on duty'."
+ },
+ {
+  "nid": 1537328243924,
+  "word": "身份证",
+  "note": "办/补办身份证 get or replace · 出示身份证 show ID · 刷身份证 scan it · 身份证号码. 身份 alone is status or identity — 身份证明 · 隐藏身份."
+ },
+ {
+  "nid": 1537328247017,
+  "word": "积累",
+  "note": "Object is abstract and slow-building: 积累经验/知识/财富 · 长期积累 · 靠阅读积累. Also a noun — 知识的积累. Saving money bit by bit is 攒(钱)."
+ },
+ {
+  "nid": 1393817666973,
+  "word": "面对",
+  "note": "Transitive: 面对现实 face facts · 面对困难/挑战/失败 · 面对镜头. 面临 is the more passive 'be confronted with' (面临危机). 面对面 face-to-face."
+ },
+ {
+  "nid": 1393817667604,
+  "word": "从此",
+  "note": "Adverb anchored to an event just narrated: 从此以后 · 从此再也不… · 从此改变了一生. When the starting point is now, 今后/从今以后 is more natural."
+ },
+ {
+  "nid": 1537328242857,
+  "word": "梦想",
+  "note": "Noun in practice: 实现梦想 · 梦想成真 · 追求梦想 · 儿时的梦想. As a verb it takes a clause: 我梦想有一天…. 理想 is the sober, planned aspiration."
+ },
+ {
+  "nid": 1537328246393,
+  "word": "商品",
+  "note": "A thing seen as for sale: 商品价格/质量 · 退换商品 · 商品房 privately sold flat. 产品 is what a maker produces (产品设计); 货 is the stock itself (进货/发货)."
+ },
+ {
+  "nid": 1537328246541,
+  "word": "否则",
+  "note": "Formal 'or else': first clause states what's required, 否则 the consequence — 要复习，否则很难通过. Spoken equivalents 不然/要不然; 否则 rules in writing and notices."
+ },
+ {
+  "nid": 1537328246581,
+  "word": "环境",
+  "note": "Two ranges: ecology — 环境保护/污染 · 环保; and a place's feel — 餐厅环境不错 · 学习/生活环境. Also circumstances: 在这种环境下. 气氛 is an occasion's mood."
+ },
+ {
+  "nid": 1708747486792,
+  "word": "一代",
+  "note": "Counts human generations and product versions: 这一代人 · 上一代/下一代 · 新一代 · 一代又一代. 年代 is a decade (八十年代); 时代 the era itself."
+ },
+ {
+  "nid": 1393817667485,
+  "word": "不如",
+  "note": "Two jobs: comparison A不如B(+adj) — 我不如他高 · 今年不如去年; and 'might as well' — 不如我们明天去 · 与其等着不如动手. 连…都不如 is the insult form."
+ },
+ {
+  "nid": 1537328244342,
+  "word": "收入",
+  "note": "Described with 高/低: 收入很高 · 提高收入 · 月收入 · 人均收入 · 收入水平. The verb sense 'take in, include' survives in 收入词典/教材."
+ },
+ {
+  "nid": 1537328247927,
+  "word": "年底",
+  "note": "到/在年底 · 年底之前 · 年底结算/总结. Pairs with 年初; 年末 is the written twin. The year-end bonus, though, is 年终奖 — 年终, not 年底."
+ },
+ {
+  "nid": 1708747486881,
+  "word": "道路",
+  "note": "Formal and often figurative: 人生道路 · 走自己的道路 · 道路建设/施工 · 道路两旁. Everyday speech says 路/马路; 公路 is the intercity highway."
+ },
+ {
+  "nid": 1708747486982,
+  "word": "用来",
+  "note": "Tool as subject, verb phrase after, usually framed 是…用来…的: 这把刀是用来切菜的 · 这笔钱用来买书. With a purpose noun switch to 用于 — 用于教学."
+ },
+ {
+  "nid": 1393817667519,
+  "word": "日期",
+  "note": "The calendar slot as data: 出生日期 · 截止日期 deadline · 定/改日期 · 日期不详. A day as lived experience is 日子 — 过日子 · 好日子."
+ },
+ {
+  "nid": 1393817667582,
+  "word": "木头",
+  "note": "Wood as lumps of stuff: 一块木头 · 木头房子 · 木头做的. Of a person, emotionally dense — 他就是块木头 · 木头人 (also the freeze game 一二三木头人)."
+ },
+ {
+  "nid": 1537328241783,
+  "word": "歌手",
+  "note": "Pop/professional singer, counted with 名/位: 流行歌手 · 民谣歌手 · 一名歌手. A trained classical vocalist is 歌唱家; 歌星 is a star."
+ },
+ {
+  "nid": 1537328243475,
+  "word": "提前",
+  "note": "Adverb before the verb: 提前完成/通知/退休; the amount follows it — 提前两天告诉我. Transitive too: 把会议提前到周三. Opposite 推迟/延期."
+ },
+ {
+  "nid": 1537328243815,
+  "word": "路边",
+  "note": ""
+ },
+ {
+  "nid": 1537328244188,
+  "word": "全都",
+  "note": "Adverb between subject and verb: 他们全都同意 · 食物全都吃完了. Whatever it covers must sit before it, so objects get fronted — 把书全都搬走."
+ },
+ {
+  "nid": 1708747484618,
+  "word": "之中",
+  "note": "Written frame, usually 在…之中: 在这些人之中 · 沉浸在工作之中 · 在不知不觉之中. Speech uses …里/…中. Same 之 as 之一 · 之内 · 之后."
+ },
+ {
+  "nid": 1537328241501,
+  "word": "电梯",
+  "note": "坐电梯 take the lift · 等电梯 · 电梯坏了/停了 · 电梯口. An escalator is 扶梯/自动扶梯; stairs are 楼梯; a ladder is 梯子."
+ },
+ {
+  "nid": 1537328242571,
+  "word": "例子",
+  "note": "The verb is 举: 举个例子 · 举了一个很好的例子 · 拿他当例子. In writing 例如/比如 introduce the example itself; 例 alone lives in 例外 · 案例 · 举例说明."
+ },
+ {
+  "nid": 1537328242999,
+  "word": "洗衣机",
+  "note": ""
+ },
+ {
+  "nid": 1537328244764,
+  "word": "家长",
+  "note": "School-world word for parent-as-guardian: 家长会 · 学生家长 · 家长签字 · 家长群. Your own parents in conversation are 父母/爸妈."
+ },
+ {
+  "nid": 1537328245013,
+  "word": "西瓜",
+  "note": ""
+ },
+ {
+  "nid": 1537328246928,
+  "word": "购买",
+  "note": "Written/commercial register for 买: 购买力 purchasing power · 购买商品/保险 · 在线购买 · 购买者. 采购 is bulk buying for an organization; 购物 is shopping."
+ },
+ {
+  "nid": 1708747485243,
+  "word": "仅仅",
+  "note": "Adverb before a verb or a quantity: 仅仅睡了三小时 · 仅仅是个开始 · 仅仅因为一句话. Written cousin of 只; most often met in 不仅仅是… 'not merely'."
+ },
+ {
+  "nid": 1393817666331,
+  "word": "成功",
+  "note": "Intransitive: 试验成功了 · 取得/获得成功. To succeed AT something use 成功地+verb or verb+成功 — 手术做成功了 · 成功地解决. 成功人士 · 成功率."
+ },
+ {
+  "nid": 1393817666724,
+  "word": "参观",
+  "note": "Object is a place or institution: 参观工厂/博物馆/校园. Visiting a person is 拜访/看望; 访问 is an official visit (访问中国); 游览 is sightseeing."
+ },
+ {
+  "nid": 1393817667651,
+  "word": "风景",
+  "note": "看风景 · 风景优美/秀丽 · 风景区 scenic area · 风景照 · 沿途的风景. 景色 is how a scene looks at a moment (景色迷人); 景点 the individual tourist spot."
+ },
+ {
+  "nid": 1537328240840,
+  "word": "晚点",
+  "note": "Two lives: transport running behind — 火车晚点了半小时 · 航班晚点; and colloquial 晚点(儿) 'a bit later' — 晚点再说 · 晚点给你打电话."
+ },
+ {
+  "nid": 1537328241037,
+  "word": "基本上",
+  "note": "Hedging 'for the most part', not 'fundamentally': 基本上同意 · 基本上没问题 · 基本上都完成了. Bare 基本 is the adjective — 基本工资 · 基本要求."
+ },
+ {
+  "nid": 1537328245928,
+  "word": "留学生",
+  "note": "Perspective-sensitive: inside China it usually means foreign students there (来华留学生); a Chinese abroad is 中国留学生. Verb: 出国留学 · 留学美国 · 留学生活."
+ },
+ {
+  "nid": 1537328246430,
+  "word": "研究生",
+  "note": "读研究生 do a postgrad degree · 考研 sit the entrance exam · 研究生毕业 · 在读研究生. The degree itself is 硕士 or 博士; an undergrad is 本科生."
+ },
+ {
+  "nid": 1537328248031,
+  "word": "感冒",
+  "note": "A verb in Chinese though a noun in English: 感冒了 · 得了重感冒 · 感冒药. Slang 对…不感冒 = not into it — 我对足球不感冒. 流感 is influenza."
+ },
+ {
+  "nid": 1708747486714,
+  "word": "读者",
+  "note": "Often the readership as a body: 广大读者 · 读者来信 · 读者群 · 读者反馈. Same -者 family as 观众 (watchers) and 听众 (listeners)."
+ },
+ {
+  "nid": 1708747514675,
+  "word": "演唱",
+  "note": "Stage register with a song as object: 演唱一首歌 · 演唱会 concert · 现场演唱. Everyday singing is 唱歌; 演奏 is playing an instrument; 翻唱 a cover."
+ },
+ {
+  "nid": 1393817666542,
+  "word": "互相",
+  "note": "Adverb before a two-syllable verb: 互相帮助/理解/尊重/影响. 相互 is the one that can also sit before a noun — 相互关系 · 相互作用."
+ },
+ {
+  "nid": 1393817666725,
+  "word": "丰富",
+  "note": "Predicate after the noun: 经验丰富 · 内容/营养丰富 · 资源丰富. Also a verb 'enrich': 丰富业余生活 · 丰富词汇量. Set phrase 丰富多彩 rich and varied."
+ },
+ {
+  "nid": 1537328241759,
+  "word": "前天",
+  "note": ""
+ },
+ {
+  "nid": 1537328242647,
+  "word": "公路",
+  "note": "The intercity road: 高速公路 expressway · 国道/省道 · 公路两旁 · 修公路. A street in town is 马路/街道; 道路 is the abstract cover term; rail is 铁路."
+ },
+ {
+  "nid": 1537328243501,
+  "word": "再说",
+  "note": "Two jobs: shelve a matter — 这事明天再说吧 · 等我回来再说; and 'besides' adding a reason — 太贵了，再说也不好看. Both are everywhere in speech."
+ },
+ {
+  "nid": 1537328243770,
+  "word": "冰箱",
+  "note": ""
+ },
+ {
+  "nid": 1656144336531,
+  "word": "大熊猫",
+  "note": "The formal/zoological name; everyday speech just says 熊猫. Counted with 只: 两只大熊猫 · 熊猫馆. 小熊猫 is a different animal, the red panda."
+ },
+ {
+  "nid": 1393817666689,
+  "word": "对面",
+  "note": "Place word: X的对面 or bare 对面 — 学校对面 · 马路对面 · 坐在我对面 · 对面楼. 对方 is the opposing party in a deal or match, not a location."
+ },
+ {
+  "nid": 1537328242794,
+  "word": "心情",
+  "note": "心情好/不好 · 心情不错 · 没心情做饭 not in the mood to · 影响心情 · 心情愉快/沉重. 情绪 is the state you lose control of — 情绪激动 · 闹情绪."
+ },
+ {
+  "nid": 1537328243138,
+  "word": "发送",
+  "note": "Tech/formal register for transmitting: 发送邮件/短信/文件 · 发送成功. Speech just says 发 (发个微信); posting a parcel is 寄; 送 alone is to deliver or see off."
+ },
+ {
+  "nid": 1537328243338,
+  "word": "动物园",
+  "note": ""
+ },
+ {
+  "nid": 1537328246741,
+  "word": "卫生",
+  "note": "打扫卫生 = do the cleaning (the whole phrase) · 讲卫生 be clean about oneself · 个人/公共卫生 · 不卫生 unsanitary · 卫生纸 · 世界卫生组织."
+ },
+ {
+  "nid": 1537328246787,
+  "word": "申请",
+  "note": "Transitive on the thing you want: 申请签证/奖学金/退款/破产. The body applied to takes 向 — 向公司申请. Noun too: 提出申请 · 申请表/申请人."
+ },
+ {
+  "nid": 1537328247006,
+  "word": "阳光",
+  "note": "Beyond the literal (阳光明媚 · 阳光照进来), it is an adjective for people — 这个男孩很阳光 upbeat and wholesome — and 'above-board': 阳光工程 · 阳光收费."
+ },
+ {
+  "nid": 1708747488959,
+  "word": "大大",
+  "note": "Adverb before verbs of change, usually with 了: 大大提高了效率 · 大大降低成本 · 大大缩短时间. Report/written register. Unrelated: 大大小小 'of all sizes'."
+ },
+ {
+  "nid": 1708747496947,
+  "word": "获取",
+  "note": "Written, often technical — the object is information or resources you go and fetch: 获取信息/数据/权限/利润. 获得 is the general 'obtain'; 取得 pairs with 成绩/进展."
+ },
+ {
+  "nid": 1537328241199,
+  "word": "大厅",
+  "note": "A big public room inside a building: 酒店大厅 lobby · 候机/候车大厅 · 展览大厅. A home's living room is 客厅; an auditorium 礼堂."
+ },
+ {
+  "nid": 1537328243541,
+  "word": "感情",
+  "note": "Often the bond between people: 两人感情很好 · 培养感情 · 伤感情 · 感情用事 act on emotion. 感觉 is a sensation or hunch; 情感 the written abstract noun."
+ },
+ {
+  "nid": 1537328245396,
+  "word": "姑娘",
+  "note": "Warm and slightly folksy — narration and older speakers: 小姑娘 · 一个漂亮姑娘 · 姑娘家. Peers say 女孩(儿)/女生; in many regions it also means one's own daughter."
+ },
+ {
+  "nid": 1537328247193,
+  "word": "奖金",
+  "note": "发奖金 hand out · 领/拿奖金 · 高额奖金 prize money · 年终奖金, usually shortened to 年终奖. 奖学金 is a scholarship; 工资/薪水 the base pay."
+ },
+ {
+  "nid": 1708747486149,
+  "word": "负责人",
+  "note": "Institutional register: 项目/部门负责人 · 主要负责人 · 有关负责人 (news-speak for an unnamed official). The verb 负责 takes 对 for accountability — 对结果负责."
+ },
+ {
+  "nid": 1708747497857,
+  "word": "一块儿",
+  "note": "Northern colloquial 一起: 一块儿去 · 咱们一块儿吃饭 · 跟我一块儿. Usually erhua'd in speech; writing prefers 一起. Different 块: 一块钱 · 一块蛋糕."
+ },
+ {
+  "nid": 1708747501495,
+  "word": "休假",
+  "note": "Separable: 休了三天假 · 休一个月的假 · 正在休假. 请假 is asking to be let off; 放假 is the institution closing (学校放假); 带薪休假 paid leave."
+ },
+ {
+  "nid": 1393817666453,
+  "word": "要是",
+  "note": "Colloquial 如果, and it wants 就 in the second clause: 要是你不来，我就… · 要是下雨的话就不去了. 的话 can close the condition; 万一 fills the slot for something feared."
+ },
+ {
+  "nid": 1393817666661,
+  "word": "整理",
+  "note": "Objects are things put into order: 整理房间/行李/资料/笔记 · 整理思路. 收拾 is the spoken twin for tidying (and 收拾人 = teach someone a lesson); 打扫 removes dirt."
+ },
+ {
+  "nid": 1537328241410,
+  "word": "区别",
+  "note": "Mostly a noun: 两者的区别 · 有什么区别？· 区别在于… · 区别对待 treat differently. As a verb it wants 开/出来 — 区别开来 — and 区分 is the commoner choice."
+ },
+ {
+  "nid": 1537328243251,
+  "word": "流行",
+  "note": "Trends and diseases alike: 很流行 · 流行起来 · 流行歌曲/服装 · 流行性感冒 → 流感. It is about spread, not affection — a well-liked thing is 受欢迎."
+ },
+ {
+  "nid": 1537328243762,
+  "word": "相互",
+  "note": "Written twin of 互相, and the one that can precede a noun: 相互作用 interaction · 相互关系 · 相互之间. Before verbs the two overlap — 相互/互相帮助."
+ },
+ {
+  "nid": 1537328244198,
+  "word": "作者",
+  "note": "Whoever wrote this particular text: 这本书的作者 · 作者不详 · 原作者 · 作者简介. 作家 is a writer by profession, independent of any one work."
+ },
+ {
+  "nid": 1537328245423,
+  "word": "随着",
+  "note": "Clause-initial written frame: 随着经济的发展，生活水平提高了 — the main clause must state a change tracking the first. Plain 'follow someone' is 跟着/跟随."
+ },
+ {
+  "nid": 1537328246975,
+  "word": "优秀",
+  "note": "Ranks people and their output against a standard: 优秀学生/教师/员工 · 成绩优秀 · 优秀作品/传统. A dazzling performance is 精彩; a well-made product 优质."
+ },
+ {
+  "nid": 1708747498161,
+  "word": "网友",
+  "note": "News register uses it for the commenting public: 网友纷纷留言 · 有网友表示. Personal sense is a friend known only online — 我的一个网友. 网民 is the statistical term."
+ },
+ {
+  "nid": 1537328240798,
+  "word": "对方",
+  "note": "The counterpart in a deal, call, match or argument: 与对方合作 · 对方公司/球队 · 站在对方的角度 · 对方不接电话. 对面 is the physical other side."
+ },
+ {
+  "nid": 1537328243543,
+  "word": "感动",
+  "note": "Both directions: 我很感动 I was moved, and 这部电影感动了很多人. The result takes 得 — 感动得流下了眼泪. 令人感动 · 感人 is the adjective 'touching'."
+ },
+ {
+  "nid": 1537328243788,
+  "word": "旅馆",
+  "note": "Small, cheap lodging, and the word feels dated: 住旅馆 · 一家小旅馆. A modern hotel is 酒店, the older state-run kind 宾馆, a hostel 青年旅舍, a homestay 民宿."
+ },
+ {
+  "nid": 1537328244524,
+  "word": "暂停",
+  "note": "Three homes: the media button 按暂停/暂停键; a sports timeout 叫暂停; and official suspension 暂停营业/服务. Transitive too — 暂停比赛."
+ },
+ {
+  "nid": 1537328245586,
+  "word": "笔记本",
+  "note": "Short for 笔记本电脑 = laptop, and context decides — 买了个笔记本 usually means a computer. The paper kind is often 本子; taking notes is 记笔记."
+ },
+ {
+  "nid": 1708747484782,
+  "word": "好好",
+  "note": "Doing something properly and thoroughly: 好好休息/学习/想想 · 好好活着. In speech it erhuas with a tone shift — hǎohāor (好好儿). Often carries urging or mild scolding."
+ },
+ {
+  "nid": 1708747490787,
+  "word": "加快",
+  "note": "Wants an object: 加快速度/脚步/进度/建设. Bare 'speed up' is 加速 (车加速了) or 快点儿 in speech; the opposite is 放慢."
+ },
+ {
+  "nid": 1708747501764,
+  "word": "毕业生",
+  "note": "应届毕业生 = this year's fresh graduate, the phrase in every job ad; 往届毕业生 earlier years'. 大学/高中毕业生 · 毕业于北大. 毕业 itself is separable — 毕了业."
+ },
+ {
+  "nid": 1393817666597,
+  "word": "态度",
+  "note": "对 X 的态度: 他对工作的态度很认真 · 态度决定一切 · 服务态度 · 端正态度 straighten it out · 表明态度 state where you stand."
+ },
+ {
+  "nid": 1393817666669,
+  "word": "专门",
+  "note": "Adverb 'expressly, for that alone': 专门来看你 · 专门为你准备的 · 专门关押政治犯. Attributive with 的 for 'specialized': 专门知识/机构. 专业 = major, professional-grade."
+ },
+ {
+  "nid": 1537328242229,
+  "word": "兄弟",
+  "note": "Reading splits the sense: xiōngdì = brothers as a set (兄弟俩 · 兄弟公司 sister company); xiōngdi with neutral 弟 = little brother or 'buddy' — 好兄弟 · 兄弟，帮个忙."
+ },
+ {
+  "nid": 1537328243526,
+  "word": "男性",
+  "note": "Clinical/statistical register for the category: 男性用户/患者/角色 · 以男性为主 · 男性化. Everyday speech says 男的/男人; forms just print 性别：男."
+ },
+ {
+  "nid": 1537328247308,
+  "word": "答应",
+  "note": "dāying, neutral second syllable. Consent to a request: 答应我一件事 · 他答应了 · 答应下来. Also 'answer when called' — 叫了半天没人答应. 同意 is agreeing with a view."
+ },
+ {
+  "nid": 1708747499062,
+  "word": "新年",
+  "note": "Ambiguous between 元旦 (Jan 1) and 春节 — 农历新年 disambiguates. 新年快乐 · 新年好 · 过新年 · 新年愿望/计划."
+ },
+ {
+  "nid": 1393817666668,
+  "word": "广播",
+  "note": "Radio and PA systems: 听广播 · 广播电台 · 校园广播 · 广播体操 · 广播了一条消息. 播放 is playing a file; 直播 is livestreaming."
+ },
+ {
+  "nid": 1393817666700,
+  "word": "只好",
+  "note": "Resignation to a second-best option: 没有车，他只好走路 · 只好等下次. 不得不 stresses outside compulsion; 只能 can also mean simply 'the only possible way'."
+ },
+ {
+  "nid": 1537328241188,
+  "word": "啤酒",
+  "note": ""
+ },
+ {
+  "nid": 1537328243406,
+  "word": "高考",
+  "note": "参加高考 sit it · 备战高考 · 高考成绩/分数线 · 高考状元 top scorer · 复读 repeat the year. 中考 is the same at the end of middle school; 考研 for postgrad."
+ },
+ {
+  "nid": 1393817666630,
+  "word": "顾客",
+  "note": "The shop-floor customer: 顾客至上 · 招待顾客 · 老顾客 regular. A firm's account is 客户 (客户经理); a guest 客人; a passenger 乘客."
+ },
+ {
+  "nid": 1393817666782,
+  "word": "往往",
+  "note": "States an observed regularity, its conditions usually attached: 他往往工作到半夜 · 这种事往往发生在冬天. 常常 is plain frequency and can look forward — 以后常常来."
+ },
+ {
+  "nid": 1393817666844,
+  "word": "羽毛球",
+  "note": ""
+ },
+ {
+  "nid": 1537328241329,
+  "word": "马路",
+  "note": "The paved city street you cross: 过马路 · 马路对面 · 马路边. 街(道) is the street as a place with shops; road names use 路 (中山路); 马路杀手 = a menace at the wheel."
+ },
+ {
+  "nid": 1537328242014,
+  "word": "客气",
+  "note": "Standing on ceremony: 你太客气了 · 别客气 · 跟我还客气什么 · 说客气话 · 不客气 answers 谢谢. General good manners is 有礼貌."
+ },
+ {
+  "nid": 1537328244095,
+  "word": "普通",
+  "note": "At home as an attributive: 普通人/普通朋友/普通话 · 一顿普通的家常便饭. As a predicate it can sound dismissive — 这衣服很普通. 一般 also means 'so-so'; 平常 'usual'."
+ },
+ {
+  "nid": 1537328245541,
+  "word": "报名",
+  "note": "Separable: 报了名 · 报不上名. What you sign up for follows as a verb phrase — 报名参加比赛 · 报名学游泳 · 网上报名 · 报名费 · 报名截止."
+ },
+ {
+  "nid": 1537328246523,
+  "word": "失败",
+  "note": "Intransitive — what failed is the subject: 投资失败了 · 手术失败. Losing a match is 输; failing an exam 没考过/不及格. 以失败告终 · 失败是成功之母."
+ },
+ {
+  "nid": 1537328247623,
+  "word": "少数",
+  "note": "少数人 · 极少数 · 少数服从多数 the minority yields to the majority · 少数情况下. Fixed term 少数民族 = ethnic minority. Counterpart 多数/大多数."
+ },
+ {
+  "nid": 1705993178393,
+  "word": "身高",
+  "note": "A measurement, stated directly: 他身高一米八 · 身高多少？· 量身高 · 身高体重. To say someone IS tall you switch to 个子高/长得高; objects have 高度."
+ },
+ {
+  "nid": 1708747487240,
+  "word": "实际上",
+  "note": "Corrects the appearance just raised: 看起来很忙，实际上没做什么. Heads the clause or follows the subject. 事实上 is the written twin; 其实 the everyday spoken one."
+ },
+ {
+  "nid": 1393817666733,
+  "word": "植物",
+  "note": "Category/scientific word: 植物园 · 植物油 · 观赏植物 · 属于…科植物 · 动植物. A plant you keep is 花/盆栽; the verb 'to plant' is 种(植)."
+ },
+ {
+  "nid": 1393817667546,
+  "word": "播放",
+  "note": "Playing media: 播放视频/音乐/广告 · 播放器 player · 播放量 view count · 循环播放 loop. 广播 is radio/PA; 直播 live; speech just says 放 — 放首歌."
+ },
+ {
+  "nid": 1537328244326,
+  "word": "感受",
+  "note": "Verb wants 到 for a completed perception: 感受到他的好意 · 亲身感受. As a noun it is your reflective takeaway — 谈谈你的感受 · 真实感受. 感觉 is the raw sensation."
+ },
+ {
+  "nid": 1537328246740,
+  "word": "卫生间",
+  "note": "The room in a home or hotel; in public you ask for 洗手间 (polite) or 厕所 (blunt, and what signs say). 上卫生间 · 打扫卫生间 · 公共卫生间."
+ },
+ {
+  "nid": 1537328247054,
+  "word": "停止",
+  "note": "Formal, and it takes an object — noun or verb: 停止说话/营业/使用 · 心脏停止跳动. Speech says 别说了 or 停下来; 停 alone halts a vehicle."
+ },
+ {
+  "nid": 1537328247211,
+  "word": "将来",
+  "note": "Time word before the verb: 我将来想当医生 · 将来你会明白. 未来 is the formal noun and takes measured spans (未来五年 · 未来的城市); 今后 = from now on."
+ },
+ {
+  "nid": 1708747488587,
+  "word": "分为",
+  "note": "Frame X 分为 N 个部分/类/阶段: 这本书分为三个部分 · 可分为两类. The whole is the subject, so no 被 is needed. 分成 is the everyday version; 分开 separates things."
+ },
+ {
+  "nid": 1393817666573,
+  "word": "暂时",
+  "note": "Adverb before the verb, and it loves negation: 暂时不能确定 · 暂时没有消息 · 暂时离开. With 的 it modifies a noun — 暂时的困难. 临时 means ad hoc (临时决定 · 临时工)."
+ },
+ {
+  "nid": 1393817667745,
+  "word": "日常",
+  "note": "Attributive: 日常生活/工作/用品/开支 · 日常对话. It labels the routine kind of thing, not a frequency — 'every day' is 每天/天天. (Net slang has begun using 很日常.)"
+ },
+ {
+  "nid": 1537328242838,
+  "word": "美丽",
+  "note": "Written and elevated: 美丽的风景/姑娘/家乡 · 美丽动人. Speech says 漂亮/好看. 美好 goes with abstractions (美好的回忆); 美丽 with what you can see."
+ },
+ {
+  "nid": 1537328245491,
+  "word": "网页",
+  "note": "One page; the whole site is 网站 and its address 网址. 打开/刷新/关闭网页 · 网页加载慢 · 网页版 the browser version as opposed to the app."
+ },
+ {
+  "nid": 1537328245865,
+  "word": "教授",
+  "note": "Title follows the surname: 王教授 · 副教授 · 客座教授 · 当上了教授. The same word doubles as a formal verb 'impart' — 教授汉语/课程. A schoolteacher is 老师."
+ },
+ {
+  "nid": 1537328246086,
+  "word": "查看",
+  "note": "Look at something to get information from it: 查看记录/邮件/详情/天气 · 查看一下. 检查 inspects for faults (检查身体/作业); 查询 queries a system (查询余额)."
+ },
+ {
+  "nid": 1393817666755,
+  "word": "网球",
+  "note": ""
+ },
+ {
+  "nid": 1537328243659,
+  "word": "复习",
+  "note": "Going back over what you have studied: 复习功课/生词 · 复习备考 · 好好复习. 预习 is the counterpart before class; 回顾 reviews events, not material."
+ },
+ {
+  "nid": 1537328247535,
+  "word": "年龄",
+  "note": "The documentary word: 填年龄 · 年龄段 age bracket · 上学的年龄 · 适龄. Asking a person politely uses 年纪 — 您多大年纪. To state it, Chinese just says 他二十岁."
+ },
+ {
+  "nid": 1537328247743,
+  "word": "有效",
+  "note": "Two senses: still valid — 优惠券还有效吗 · 有效期 · 有效证件; and producing results — 有效的方法 · 有效控制成本. 行之有效 proven effective · 无效 void."
+ },
+ {
+  "nid": 1537328247893,
+  "word": "气温",
+  "note": "Weather only: 气温下降/回升 · 最高/最低气温 · 平均气温. A room, oven or water has 温度; a body 体温; 天气 covers the weather as a whole."
+ },
+ {
+  "nid": 1708747488507,
+  "word": "现有",
+  "note": "Attributive and written: 现有资源/条件/设备/技术 · 充分利用现有的…. It labels what is already on hand versus what you would add. 原有 = what was there before."
+ },
+ {
+  "nid": 1708747497831,
+  "word": "推出",
+  "note": "Commercial launch is the live sense: 推出新产品/套餐/政策 · 隆重推出. The company is the subject. 上市 is going on sale; 发布 is announcing (发布会)."
+ },
+ {
+  "nid": 1537328240877,
+  "word": "北部",
+  "note": ""
+ },
+ {
+  "nid": 1537328240878,
+  "word": "南部",
+  "note": ""
+ },
+ {
+  "nid": 1537328245071,
+  "word": "交通",
+  "note": "交通方便/不便 well-connected · 交通堵塞 · 交通事故 · 交通工具 means of transport · 公共交通 · 交通规则. Freight haulage is 运输; commuting 通勤."
+ },
+ {
+  "nid": 1537328245871,
+  "word": "互联网",
+  "note": "The Net as industry and infrastructure: 互联网公司/行业/思维 · 移动互联网. Day to day you say 上网 · 网上 · 网络 (网络不好). 因特网 is a dated transliteration."
+ },
+ {
+  "nid": 1537328247512,
+  "word": "电视剧",
+  "note": "Counted with 部: 一部电视剧 · 看电视剧 · 追剧 follow a series · 改编自小说. 电影 is film, 综艺 variety shows, 连续剧 the older word for a serial."
+ },
+ {
+  "nid": 1537328247901,
+  "word": "速度",
+  "note": "Described with 快/慢: 速度很快 · 加快/放慢速度 · 以每小时60公里的速度. 进度 is how far along a task is; 效率 is output per effort."
+ },
+ {
+  "nid": 1708747486460,
+  "word": "内心",
+  "note": "The inner self as against what you show: 内心深处 deep down · 内心世界 · 发自内心 heartfelt · 内心强大. 心里 is the everyday 'in my mind' — 心里想 · 心里难受."
+ },
+ {
+  "nid": 1393817666526,
+  "word": "印象",
+  "note": "对 X 的印象: 我对他印象很深 · 第一印象 · 印象深刻 · 留下好印象 · 没印象 don't recall it at all · 印象中 as I remember it."
+ },
+ {
+  "nid": 1393817666834,
+  "word": "翻译",
+  "note": "Pattern 把 X 翻译成 Y: 翻译成英语 · 翻译过来. Also the person — 他是我们的翻译 · 当翻译. 口译 interpreting vs 笔译 written work; 译文 the resulting text."
+ },
+ {
+  "nid": 1393817666999,
+  "word": "食物",
+  "note": "The substance, in health and supply contexts: 食物中毒 food poisoning · 浪费食物 · 食物链. Packaged goods are 食品 (食品安全); a meal is 饭/饭菜."
+ },
+ {
+  "nid": 1537328244869,
+  "word": "不得不",
+  "note": "Adverb before the verb: 我不得不带伞出门 · 不得不承认. Marks outside compulsion, stronger than 只好. 不得不说 'I have to say' is a stock opener."
+ },
+ {
+  "nid": 1537328247964,
+  "word": "下降",
+  "note": "Intransitive, for measures that fall: 气温/价格/成绩/销量下降 · 明显下降 · 下降了三个百分点. Lowering something yourself is 降低 (降低成本); markets 下跌; planes 降落."
+ },
+ {
+  "nid": 1708747486635,
+  "word": "不够",
+  "note": "Two slots: quantity — 钱/时间不够 · 不够用; and degree before an adjective — 不够快 · 不够认真 · 做得还不够好. 不足 is the written version (资金不足)."
+ },
+ {
+  "nid": 1708747491258,
+  "word": "教学",
+  "note": "Institutional noun for the teaching side of a school's work: 教学工作/质量/方法/改革 · 教学楼 · 承担教学任务. Teaching a person something is 教 — 教我汉语."
+ },
+ {
+  "nid": 1393817666585,
+  "word": "空气",
+  "note": "空气新鲜/清新 · 空气污染/质量 · 呼吸新鲜空气 · 空气流通. The mood of a room is 气氛 (气氛尴尬); 气体 is gas in the chemical sense."
+ },
+ {
+  "nid": 1393817666698,
+  "word": "工资",
+  "note": "发工资 payday · 涨/加工资 a raise · 工资高/低 · 基本工资 · 工资条 payslip. 薪水/薪资 is the formal register (年薪 · 薪资待遇); 奖金 sits on top."
+ },
+ {
+  "nid": 1393817666729,
+  "word": "海洋",
+  "note": "Collective and written — the ocean as a domain: 海洋生物/资源/污染 · 海洋公园 · 海洋性气候. The sea you swim in or look at is 海/大海 — 去海边 · 大海很蓝."
+ },
+ {
+  "nid": 1537328247204,
+  "word": "赢得",
+  "note": "Object is usually something earned: 赢得尊重/信任/支持/掌声/时间 (赢得比赛 works too). Beating a person is plain 赢 — 赢了他; 获得 covers prizes, 取得 progress."
+ },
+ {
+  "nid": 1537328247229,
+  "word": "球队",
+  "note": "Measure word 支: 一支球队. 支持/加入/组建球队 · 国家队 · 主队/客队 home and away. 队 alone suffices in context — 我们队赢了; a teammate is 队友."
+ },
+ {
+  "nid": 1393817666581,
+  "word": "餐厅",
+  "note": "Also the dining room of a home and the canteen of an institution: 学生餐厅 · 客厅和餐厅. Eating out: 饭店/饭馆 for Chinese places, 食堂 a cafeteria."
+ },
+ {
+  "nid": 1537328240585,
+  "word": "晚安",
+  "note": "Said on parting for the night, not on meeting — the evening greeting is 晚上好. 说/道晚安 · 晚安，好梦 · 跟孩子说声晚安."
+ },
+ {
+  "nid": 1537328244429,
+  "word": "相反",
+  "note": "Connector at the head of a clause: …，相反，他笑了. Also predicate and attributive — 与我想的相反 · 朝相反的方向走 · 恰恰相反. 反而 does the job inside a sentence."
+ },
+ {
+  "nid": 1537328247891,
+  "word": "温度",
+  "note": "The general measure: 水/房间/烤箱的温度 · 温度计 thermometer · 调温度. Outdoor weather takes 气温, a body 体温. Figurative 有温度 = warm-hearted."
+ },
+ {
+  "nid": 1708747512227,
+  "word": "办事",
+  "note": "Separable and deliberately vague: 出去办点事 run an errand · 办完事就回来. Judging someone: 办事认真/靠谱 · 办事效率. 办事处 is a branch office; 办公 is office work."
+ },
+ {
+  "nid": 1393817666516,
+  "word": "无聊",
+  "note": "Both directions: 我今天很无聊 I'm bored, 这本书很无聊 it's boring. Of a person's behavior it means 'don't be daft' — 你真无聊 · 无聊的玩笑. 没意思 is softer."
+ },
+ {
+  "nid": 1537328243123,
+  "word": "错过",
+  "note": "Fail to catch: 错过班车/机会/末班地铁 · 错过了就没有了 · 千万别错过. Missing a person is 想念/想; arriving late is 迟到; skipping over something is 漏掉."
+ },
+ {
+  "nid": 1537328247115,
+  "word": "偶尔",
+  "note": "Adverb before the verb, often with 会: 偶尔会去爬山 · 偶尔喝点酒. Rarer than 有时候. For 'by chance, accidental' switch to 偶然 — 偶然发现 · 偶然的机会."
+ },
+ {
+  "nid": 1708747490690,
+  "word": "等到",
+  "note": "Clause frame with 再/就 in the main clause: 等到饭做好了，你再叫大家 · 等到那时就晚了. Plain 等 can do the same job; 到时候 picks the moment up afterwards."
+ },
+ {
+  "nid": 1393817667891,
+  "word": "爱心",
+  "note": "Charitable kindness, not romance: 有爱心 · 献爱心 donate · 爱心人士 · 爱心捐款. Of a person it is a standing quality — 她很有爱心. Romantic love is 爱情."
+ },
+ {
+  "nid": 1537328241653,
+  "word": "停车",
+  "note": "Separable: 停一下车 · 车停好了. Covers parking and pulling up: 停车场 car park · 停车位 · 禁止停车 · 靠边停车 pull over."
+ },
+ {
+  "nid": 1537328242746,
+  "word": "想法",
+  "note": "Your view or notion: 说说你的想法 · 改变想法 · 有想法 (also 'has ambition'). 主意 is a concrete plan you propose — 出个主意 · 好主意; 意见 is formal, often a complaint."
+ },
+ {
+  "nid": 1537328247183,
+  "word": "万一",
+  "note": "For hypotheticals you would rather avoid: 万一下雨呢 · 万一他不来怎么办. As a noun in 以防万一 just in case · 有个万一. 要是/如果 are neutral; 万一 carries the worry."
+ },
+ {
+  "nid": 1393817666615,
+  "word": "标准",
+  "note": "Noun: 达到/符合标准 · 制定标准 · 高标准. Also adjective 'textbook-perfect': 标准答案 · 普通话很标准 · 动作很标准. 水平 is the level reached; 规定 the rule laid down."
+ },
+ {
+  "nid": 1393817667583,
+  "word": "果然",
+  "note": "Confirms what you had predicted: 我就知道会下雨，果然下了 · 他果然来了 · 果然不出所料. The expectation must be on the table first. 居然/竟然 mark the opposite surprise."
+ },
+ {
+  "nid": 1393817666910,
+  "word": "完美",
+  "note": "完美的计划/结局 · 完美结合 · 追求完美 · 完美主义者 perfectionist · 不完美. It is flawlessness, not wholeness — that is 完整 (完整的一套); 完全 is the adverb."
+ },
+ {
+  "nid": 1537328246022,
+  "word": "强调",
+  "note": "Takes a noun or a whole clause: 强调纪律 · 他强调（说）我们必须准时 · 强调…的重要性 · 一再/反复强调. 重视 is valuing something highly rather than saying so."
+ },
+ {
+  "nid": 1537328246550,
+  "word": "规定",
+  "note": "Verb takes a whole clause: 公司规定不能迟到 · 法律规定…. Noun: 按照/根据规定 · 违反规定 · 有明文规定. 规则 is a game's rules; 制度 the institutional setup."
+ },
+ {
+  "nid": 1537328242159,
+  "word": "面试",
+  "note": "Job interviews only — a journalist's is 采访. 参加/通过面试 · 去一家公司面试 · 面试官 · 电话面试/终面. 笔试 is the written test alongside it."
+ },
+ {
+  "nid": 1393817666598,
+  "word": "自信",
+  "note": "Adjective and noun both: 他很自信 · 充满自信 · 缺乏自信 · 自信心 · 自信能完成. Confidence in something outside you is 信心 with 对 — 我对他有信心."
+ },
+ {
+  "nid": 1393817666614,
+  "word": "语言",
+  "note": "The system in the abstract: 语言能力/环境/天赋 · 肢体语言 body language · 编程语言 · 几种语言. A named one takes 语/文 — 汉语 · 英文; a spoken variety 话 (上海话)."
+ },
+ {
+  "nid": 1537328244863,
+  "word": "必要",
+  "note": "Usually 有/没有必要 + verb: 没必要生气 · 有必要说清楚. Attributive: 必要的准备/条件 · 不必要的麻烦 · 必要时 if need be. 需要 is what someone needs."
+ },
+ {
+  "nid": 1537328248118,
+  "word": "各位",
+  "note": "Polite address opening a speech or email: 各位，欢迎… · 各位来宾/同事/朋友 · 各位好. It addresses those present; 大家 is neutral and works in the third person too."
+ },
+ {
+  "nid": 1537328246108,
+  "word": "观众",
+  "note": "People watching — TV, sport, theatre: 现场观众 · 观众席 · 电视观众 · 观众反响热烈. Listeners are 听众, readers 读者; onlookers 围观群众."
+ },
+ {
+  "nid": 1537328247122,
+  "word": "保持",
+  "note": "Object is a state you hold steady: 保持安静/清洁/冷静/距离 · 保持联系 keep in touch · 保持健康. 维持 keeps something barely going (维持秩序); 保留 reserves or holds back."
+ },
+ {
+  "nid": 1537328240247,
+  "word": "目的",
+  "note": "目的是 + verb phrase: 来的目的是了解市场 · 达到目的 · 别有目的 ulterior motive · 目的地 destination. 目标 is the target you aim at (定目标); 意义 is significance."
+ },
+ {
+  "nid": 1393817667256,
+  "word": "内部",
+  "note": "Organizational insides more than physical ones: 公司内部 · 内部消息/资料/矛盾 · 内部处理 handled in-house. A box's inside is 里面; 外部 is the counterpart."
+ },
+ {
+  "nid": 1537328242687,
+  "word": "同时",
+  "note": "Adverb before the verb: 他们同时走了. Frames 在…的同时 while doing X · 与此同时 meanwhile. As a connector 同时(也) adds a further point rather than marking simultaneity."
+ },
+ {
+  "nid": 1537328244538,
+  "word": "市场",
+  "note": "Physical and abstract both: 菜市场 · 市场经济 · 市场份额 market share · 开拓市场 · 这产品很有市场 there's demand for it. A shopping mall is 商场."
+ },
+ {
+  "nid": 1537328243173,
+  "word": "信心",
+  "note": "对 X 有信心: 我对你有信心 · 对未来充满信心 · 增强/失去信心 · 必胜的信心. 自信 is self-confidence as a trait; 相信 is believing a claim."
+ },
+ {
+  "nid": 1393817666374,
+  "word": "能力",
+  "note": "有能力 + verb: 有能力完成 · 工作/学习/沟通能力 · 能力强 · 提高能力 · 能力范围之内. 水平 is the level reached; 本事 the colloquial 'what you can pull off'."
+ },
+ {
+  "nid": 1537328242650,
+  "word": "公平",
+  "note": "对…公平: 这样对他不公平 · 公平竞争/交易 · 公平对待 · 不公平. 平等 is equality of status (男女平等); 公正 is impartiality in judgment (公正判决)."
+ },
+ {
+  "nid": 1537328242181,
+  "word": "古老",
+  "note": "For traditions, buildings, civilizations — things that have lasted: 古老的传说/民族/建筑/文明. An old person is 年老/上了年纪; 古代 means 'in antiquity'."
+ },
+ {
+  "nid": 1537328242713,
+  "word": "地下",
+  "note": "Literal: 地下室 basement · 地下停车场 · 地下水 · 地下管道. Figurative 'covert': 地下工作/组织 · 地下乐队. 地上 is the counterpart; 底下 is 'underneath' something."
+ },
+ {
+  "nid": 1537328243471,
+  "word": "提出",
+  "note": "Object is something formulated: 提出建议/意见/要求/问题/申请/方案 · 提出批评. Casually bringing a topic up is 提到/说起; submitting a document is 提交."
+ },
+ {
+  "nid": 1537328240884,
+  "word": "分手",
+  "note": "Separable, and the partner takes 跟/和: 跟你分手 · 他们分手了 · 分了手. Also plain 'part ways' with companions. Marriage ends in 离婚; blunt slang 甩了."
+ },
+ {
+  "nid": 1537328242749,
+  "word": "方法",
+  "note": "The technique for doing something: 学习/减肥方法 · 用什么方法 · 方法不对 · 教学方法. 办法 is the fix for a problem — 想办法 · 没办法; 方式 is the manner (生活方式)."
+ },
+ {
+  "nid": 1537328247166,
+  "word": "手术",
+  "note": "做手术 covers both having one and performing it — context decides; 动手术 likewise. 接受手术 undergo (formal) · 手术室 · 大/小手术 · 手术很顺利. Colloquially 开刀."
+ },
+ {
+  "nid": 1393817666523,
+  "word": "好处",
+  "note": "对 X 有好处: 多劳动对身体有好处 · 有什么好处？ Also a payoff — 拿好处 · 好处费 kickback. 坏处 is the counterpart; 优点 is a merit; 利益 formal interests."
+ },
+ {
+  "nid": 1393817666294,
+  "word": "永远",
+  "note": "Adverb before the verb, at home with negation: 永远不会忘记 · 永远不分离 · 永远记得你. Attributive with 的 — 永远的痛. A stretch that actually ran takes 一直."
+ },
+ {
+  "nid": 1537328243508,
+  "word": "特点",
+  "note": "有特点 = has something distinctive about it (他写的字很有特点) · 主要特点是… · 抓住特点. 特色 is a flavor you'd advertise — 地方特色 · 特色菜; 优点 a virtue, 缺点 a flaw."
+ },
+ {
+  "nid": 1537328244085,
+  "word": "重新",
+  "note": "Reading trap: 重 = chóng here. Redoing from scratch, often because the first try failed: 重新开始/考虑/安排 · 重新做一遍. 再 sets up a future repeat, 又 reports a past one."
+ },
+ {
+  "nid": 1537328242747,
+  "word": "做法",
+  "note": "Two senses: someone's course of action, usually judged — 我不同意他的做法 · 这种做法不妥; and how a dish is made — 红烧肉的做法. 方法 is the neutral technique."
+ },
+ {
+  "nid": 1537328242823,
+  "word": "文件",
+  "note": "Office document and computer file both: 打开/保存/上传/发送文件 · 文件夹 folder · 一份文件. Officialdom: 下发文件 · 红头文件. 资料 is material; 档案 the archive."
+ },
+ {
+  "nid": 1537328242694,
+  "word": "同样",
+  "note": "Attributive with or without 的: 同样的错误 · 同样(的)问题. Also an adverb 'likewise' before the verb — 我同样不同意 · 他同样也来了. Comparisons use 一样 — 跟他一样."
+ },
+ {
+  "nid": 1537328243162,
+  "word": "头发",
+  "note": "Head hair only — body hair is 毛 (眉毛 · 汗毛). 剪/洗/吹/染头发 · 掉头发 · 一根头发 · 头发干了. 发 alone shows up in 理发 · 发型 · 白发."
+ },
+ {
+  "nid": 1393817666628,
+  "word": "作家",
+  "note": "A writer by vocation: 当作家 · 著名作家 · 青年作家 · 作家协会. 作者 is whoever wrote this particular text; 记者 reports, 编辑 edits, 写手 writes for hire."
+ },
+ {
+  "nid": 1537328243468,
+  "word": "提到",
+  "note": "Bringing a topic into the conversation: 老师提到了一本书 · 刚才提到过 · 一提到他就…. 提起 is the near-identical alternative; 提出 formally puts a proposal forward."
+ },
+ {
+  "nid": 1537328244413,
+  "word": "方向",
+  "note": "朝/往那个方向走 · 方向感 sense of direction · 迷失方向 · 指明方向. Figurative uses abound: 努力的方向 · 研究方向 one's research area · 方向盘 steering wheel."
+ },
+ {
+  "nid": 1537328248119,
+  "word": "各种",
+  "note": "Goes straight onto the noun, no 的 needed: 各种问题/原因/颜色 · 各种各样的书. 各 distributes one by one (各位 · 各国); 每 iterates; 所有 is 'all of them' as a set."
+ },
+ {
+  "nid": 1537328245052,
+  "word": "父母",
+  "note": "The neutral cover term; in speech people often say 爸妈: 我爸妈都退休了. 为人父母 being a parent · 父母双方 both parents · 父母亲 (formal) · 单亲家庭."
+ },
+ {
+  "nid": 1537328245309,
+  "word": "主动",
+  "note": "Usually adverbial before the verb: 主动帮忙 · 主动联系我 reach out first · 主动承认. Opposite 被动 · 主动权 the initiative (掌握主动权) · 化被动为主动."
+ },
+ {
+  "nid": 1537328244565,
+  "word": "城市",
+  "note": ""
+ },
+ {
+  "nid": 1537328246220,
+  "word": "消息",
+  "note": "A piece of news, or word reaching you: 听到消息 · 得到消息 · 有他的消息 word from him · 好/坏消息 · 消息灵通 well-informed. 新闻 is the news story as reported."
+ },
+ {
+  "nid": 1537328243139,
+  "word": "发现",
+  "note": "Takes a whole clause: 发现他不在了 notice that… It's coming upon something; 找到 is finding what you were looking for. Also a noun: 新发现 · 重大发现."
+ },
+ {
+  "nid": 1393817666605,
+  "word": "重点",
+  "note": "把重点放在…上 put the emphasis on · 突出重点 · 重点是… Also attributive and adverbial: 重点大学 key (elite) university · 重点介绍 focus on covering."
+ },
+ {
+  "nid": 1537328244047,
+  "word": "加油",
+  "note": "Separable in the fuel sense: 加了油 · 加满油. As a cheer it's intransitive — 给他加油 / 为他加油 cheer him on, not 加油他. 加油站 · 加把油 put in more effort."
+ },
+ {
+  "nid": 1537328244621,
+  "word": "一定",
+  "note": "一定要 must · 一定会 surely will. Note 不一定 = not necessarily, while 一定不 = definitely won't. Attributive it means 'a certain, given': 在一定程度上 · 一定的基础."
+ },
+ {
+  "nid": 1537328243748,
+  "word": "相机",
+  "note": ""
+ },
+ {
+  "nid": 1537328247589,
+  "word": "至少",
+  "note": "Before the verb or the number: 至少要三天 · 他至少四十岁了. 起码 is the colloquial equivalent; 最少 is the superlative 'the fewest'. Concessive: 至少他来了."
+ },
+ {
+  "nid": 1537328245365,
+  "word": "地点",
+  "note": "The designated spot in a plan or record: 时间和地点 · 集合地点 · 考试地点 · 出事地点. 地方 is the everyday general word ('somewhere', and also 'room')."
+ },
+ {
+  "nid": 1537328247948,
+  "word": "处理",
+  "note": "处 is chǔ here (cf. chù in 到处/办事处). 处理问题/文件/投诉 · 处理不当 mishandle · 进行处理. Also 'clear out cheap': 降价处理 · 处理品 discounted seconds."
+ },
+ {
+  "nid": 1537328244078,
+  "word": "体重",
+  "note": "量体重 / 称体重 weigh yourself · 控制体重 · 减轻体重 · 体重增加/下降 · 体重超标 over a healthy weight. The scale itself is 体重秤/称."
+ },
+ {
+  "nid": 1537328244886,
+  "word": "太阳",
+  "note": "晒太阳 bask in the sun · 出太阳 the sun's out · 太阳落山. In everyday speech it also stands for the sunshine itself: 今天太阳很大 it's blazing."
+ },
+ {
+  "nid": 1537328243411,
+  "word": "个人",
+  "note": "Attributive 'personal, one's own': 个人意见 · 个人隐私 · 个人简历. After a pronoun it means 'personally': 我个人认为. 私人 is private as opposed to public (私人时间)."
+ },
+ {
+  "nid": 1537328243369,
+  "word": "身边",
+  "note": "在…身边 at one's side, and figuratively the people around one: 身边的人/朋友 · 留在身边 · 带在身边. Also 'on one': 我身边没带钱 I've no cash on me."
+ },
+ {
+  "nid": 1537328248122,
+  "word": "各个",
+  "note": "Attributive, needing no further measure word: 各个部门 · 各个方面. In writing terse 各 + noun is often preferred: 各国 · 各方. Set phrase 各个击破 beat them one by one."
+ },
+ {
+  "nid": 1537328242499,
+  "word": "见面",
+  "note": "Separable — the person goes in a 跟/和 phrase, never after the verb: 跟他见面 · 和朋友约在这里见面 · 见过一面 · 见了一次面 · 好久没见面了."
+ },
+ {
+  "nid": 1537328247461,
+  "word": "农业",
+  "note": ""
+ },
+ {
+  "nid": 1537328246247,
+  "word": "时代",
+  "note": "A named age with a character of its own: 信息时代 · 新时代 · 时代变了 · 跟上时代. 时期 is a phase (困难时期), 年代 a decade (八十年代), 时候 plain 'when'."
+ },
+ {
+  "nid": 1537328246198,
+  "word": "去世",
+  "note": "Respectful and neutral, for people: 奶奶去世了 · 去世多年. 过世 sits at the same level; 逝世 is reserved for eminent figures; 死 is blunt and is what you use for animals."
+ },
+ {
+  "nid": 1537328244005,
+  "word": "加入",
+  "note": "Becoming a member: 加入球队/公司/工会/微信群. Taking part in an event is 参加: 参加会议/婚礼/比赛. Also the literal 'add in': 加入少量盐 · 加入新元素."
+ },
+ {
+  "nid": 1537328246527,
+  "word": "原来",
+  "note": "Two jobs: attributive 'former, original' — 原来的计划 · 恢复到原来的状态; and the mirative 'oh, so…' on discovery — 原来是你！· 原来他早就知道了. Often with 怪不得."
+ },
+ {
+  "nid": 1537328243215,
+  "word": "自然",
+  "note": "Nature itself is 大自然; bare 自然 as a noun is mostly attributive: 自然风景/资源/现象. Adverb 'as a matter of course': 努力了自然会有结果. 不自然 = stiff, awkward."
+ },
+ {
+  "nid": 1537328245782,
+  "word": "员工",
+  "note": "The institutional cover term for a workforce: 公司员工 · 员工培训/福利 · 老员工. Counted with 名: 三名员工. 职员 is office staff; 工人 manual workers."
+ },
+ {
+  "nid": 1537328243525,
+  "word": "女性",
+  "note": "The formal, category-level word: 职场女性 · 女性用品 · 女性主义 · 中年女性. 女的 is the colloquial 'a woman'; 妇女 is the official/administrative term (三八妇女节)."
+ },
+ {
+  "nid": 1537328244004,
+  "word": "加上",
+  "note": "Beyond arithmetic it's a connective 'and on top of that': 工作忙，加上身体不好，就没去. Often 再加上. As a verb the thing added follows: 加上一句话 · 加上盐."
+ },
+ {
+  "nid": 1537328243918,
+  "word": "证明",
+  "note": "The verb takes a whole clause: 证明他没说谎 · 事实证明… As a noun it's a document that gets issued: 开一张证明 · 收入证明 · 身份证明."
+ },
+ {
+  "nid": 1537328245105,
+  "word": "当时",
+  "note": "Anaphoric — it points back to a time already established in the context: 当时我不在 · 当时的情况. 那时候 does the same job more colloquially; 当年 = back in those years."
+ },
+ {
+  "nid": 1537328243478,
+  "word": "提高",
+  "note": "Takes abstract levels: 提高水平/效率/质量/警惕/收入. Physical lifting is 抬高/举起. 改善 for conditions (改善生活), 增加 for amounts, 提升 is the formal cousin."
+ },
+ {
+  "nid": 1537328246417,
+  "word": "产生",
+  "note": "Abstract objects only — effects and feelings: 产生影响/兴趣/矛盾/误会/怀疑. Making goods is the same characters reversed, 生产: 工厂生产产品."
+ },
+ {
+  "nid": 1537328242514,
+  "word": "怎样",
+  "note": "Interchangeable with 怎么样, a shade more written. Also a manner adverbial before the verb: 不知该怎样做 · 怎样才能… Predicate: 你最近过得怎样？"
+ },
+ {
+  "nid": 1393817667318,
+  "word": "产品",
+  "note": ""
+ },
+ {
+  "nid": 1393817666326,
+  "word": "咱们",
+  "note": "Always includes the listener — that is the whole point (我们 may exclude them). Northern and colloquial; southern speakers just say 我们. 咱 alone can mean 'I' up north."
+ },
+ {
+  "nid": 1393817666936,
+  "word": "政府",
+  "note": ""
+ },
+ {
+  "nid": 1537328240654,
+  "word": "出现",
+  "note": "Something comes into view or into existence: 出现问题/错误/新情况 · 屏幕上出现… 发生 overlaps here (发生问题 is fine) but leans to events happening."
+ },
+ {
+  "nid": 1393817666003,
+  "word": "世界",
+  "note": "'In the world' needs 上: 世界上最高的山 · 世界上没有… Also 全世界 · 世界各地 · 世界观 worldview · 世界杯. Someone's private world is 内心世界."
+ },
+ {
+  "nid": 1393817666527,
+  "word": "出生",
+  "note": "出生于1990年 (written) · 出生在北京 · 出生率. Keep clear of 出身 chūshēn, which is family or social origin: 出身农民家庭 · 出身贫寒."
+ },
+ {
+  "nid": 1537328240779,
+  "word": "心理",
+  "note": "Homophone trap: 心理 = the mind as an object of study (心理学 · 心理医生 · 心理压力) vs 心里 = inside one's heart (心里想 · 心里难过). 心理作用 = it's all in your head."
+ },
+ {
+  "nid": 1537328241252,
+  "word": "外卖",
+  "note": "点外卖 / 叫外卖 order in · 送外卖 deliver · 吃外卖 · 外卖员/外卖小哥 the rider · 外卖平台. In Taiwan the same service is 外送."
+ },
+ {
+  "nid": 1393817665975,
+  "word": "认为",
+  "note": "Takes a full clause and states a considered judgement: 我认为这样不行. 觉得 is softer and more subjective; 以为 implies you were wrong. 被认为是… is regarded as."
+ },
+ {
+  "nid": 1537328241789,
+  "word": "首先",
+  "note": "Enumerates: 首先…其次…最后. Also 'be the first to' before a verb: 首先发言 · 首先要考虑安全. For plain 'do X then Y' sequencing use 先…再…: 先洗手再吃饭."
+ },
+ {
+  "nid": 1393817666156,
+  "word": "主要",
+  "note": "Attributive (主要原因/内容/问题) or adverbial (主要是因为… · 我主要负责…). It rarely takes 很; as a predicate it shows up as 主要是…: 主要是钱的问题."
+ },
+ {
+  "nid": 1537328240132,
+  "word": "小说",
+  "note": "Covers fiction generally, not just novels: 长篇/中篇/短篇小说 · 科幻小说 · 武侠小说. Counted 一本/一部. Reading fiction is 看小说 rather than 读."
+ },
+ {
+  "nid": 1393817665971,
+  "word": "然后",
+  "note": "先…然后… sequences steps in any tense, plans included. 后来 narrates only what already happened. In casual speech 然后 also just chains one sentence to the next."
+ },
+ {
+  "nid": 1393817666335,
+  "word": "开心",
+  "note": "Colloquial: 玩得很开心 have fun · 开开心心 · 不开心. 高兴 works in writing too and can mean 'willing' (我不高兴去). 拿他开心 = have fun at his expense."
+ },
+ {
+  "nid": 1393817666463,
+  "word": "出发",
+  "note": "Intransitive — the place goes in a 从/向 phrase: 从北京出发 · 向山顶出发. Figuratively 'take as one's starting point': 从实际出发 · 出发点 motive, premise."
+ },
+ {
+  "nid": 1537328242333,
+  "word": "中间",
+  "note": "在…中间 in the middle of, or among: 坐在中间 · 在两座山中间 · 中间人 go-between. 之间 is the written 'between' and needs two items (朋友之间); 中心 is the center point (市中心)."
+ },
+ {
+  "nid": 1393817667399,
+  "word": "平常",
+  "note": "Two jobs: adjective 'nothing special' (很平常的事 · 平常心 an even keel) and adverb 'ordinarily' (平常我不喝酒). 平时 covers only that adverb sense."
+ },
+ {
+  "nid": 1537328240796,
+  "word": "地方",
+  "note": "Reading trap: dìfang 'a place' vs dìfāng 'local, as against central' — 地方政府 · 地方话. Also 'room': 没地方坐; and 'the part/aspect': 这是我佩服他的地方."
+ },
+ {
+  "nid": 1393817666295,
+  "word": "安全",
+  "note": "As much a noun as an adjective: 注意安全 · 保证安全 · 安全第一 · 安全感 sense of security · 安全带/安全出口. 平安 is 'safe and sound' about a person (一路平安)."
+ },
+ {
+  "nid": 1537328241939,
+  "word": "完全",
+  "note": "Order flips the meaning: 完全不同意 = not at all vs 不完全同意 = not entirely. Modifies verbs and adjectives: 完全黑了 · 完全正确 · 完全可以 · 完全没想到."
+ },
+ {
+  "nid": 1393817666129,
+  "word": "公园",
+  "note": ""
+ },
+ {
+  "nid": 1393817666349,
+  "word": "样子",
+  "note": "看样子要下雨了 by the look of it · 一副很累的样子 wearing a look of… · 装样子 put on a show · 别这个样子. Also the style/design of a thing: 这双鞋的样子."
+ },
+ {
+  "nid": 1393817666567,
+  "word": "看法",
+  "note": "对…的看法 one's view on · 谈谈你的看法 · 改变看法. Watch out: 对他有看法 means having a gripe with him, not merely an opinion — 意见 doubles the same way."
+ },
+ {
+  "nid": 1537328245119,
+  "word": "当作",
+  "note": "Pattern 把A当作B: 把他当作真正的朋友 · 别把我的话当作耳边风. 当 is dàng here, not dāng. 当成 is the colloquial twin; 看作 the more written one."
+ },
+ {
+  "nid": 1393817665994,
+  "word": "最后",
+  "note": "Last in a sequence, noun or adverb: 最后一次 · 排在最后 · 最后他还是走了 · 到最后. 终于 is 'at last, after all the waiting' (终于到了); 最终 is the formal 'ultimately'."
+ },
+ {
+  "nid": 1537328239586,
+  "word": "大小",
+  "note": "Size as a dimension, from an antonym pair: 大小合适 · 一样大小 · 看看大小. Numbered sizes are 号/尺码. Set phrase 没大没小 = showing no respect for one's elders."
+ },
+ {
+  "nid": 1537328241719,
+  "word": "当然",
+  "note": "Stands alone as a reply: 当然可以！· 当然了. Also concessive in argument: 当然，这也有风险，但… Set phrase 理所当然 as a matter of course · 想当然 take for granted."
+ },
+ {
+  "nid": 1393817667198,
+  "word": "达到",
+  "note": "Abstract targets: 达到目的/目标/标准/水平/要求 · 达到…的程度. Arriving somewhere physically is the reverse compound 到达: 到达山顶."
+ },
+ {
+  "nid": 1537328241043,
+  "word": "后来",
+  "note": "Past narration only — 'and then, later on': 后来他就走了 · 后来怎么样了？Future sequencing uses 以后/然后: 以后再说. 后来居上 the latecomer overtakes."
+ },
+ {
+  "nid": 1537328242223,
+  "word": "可怕",
+  "note": "Describes the thing that frightens, never your own feeling — being scared is 害怕/怕: 可怕的后果 · 太可怕了. 恐怖 is stronger and more graphic (恐怖片, 恐怖分子)."
+ },
+ {
+  "nid": 1393817666183,
+  "word": "作业",
+  "note": "做作业 / 写作业 · 交作业 hand in · 布置作业 assign · 批作业 grade. In technical registers it's an operation or task: 高空作业 · 作业区."
+ },
+ {
+  "nid": 1537328239922,
+  "word": "明白",
+  "note": "Also a resultative complement: 说明白 make it clear · 想明白 figure out · 听明白了. 懂 is knowing a subject or language (懂中文); 明白 is grasping what's being said."
+ },
+ {
+  "nid": 1537328241756,
+  "word": "后天",
+  "note": "Also the technical antonym of 先天: 后天的努力 · 后天因素 acquired rather than innate. Time series: 前天·昨天·今天·明天·后天·大后天."
+ },
+ {
+  "nid": 1393817666036,
+  "word": "小心",
+  "note": "Also a warning that takes an object: 小心车 · 小心地滑 · 小心别摔了 — 'watch out for' rather than just 'be careful'. 小心翼翼 gingerly. Being meticulous is 细心."
+ },
+ {
+  "nid": 1393817666182,
+  "word": "水平",
+  "note": "Rated 高/低: 水平很高 · 提高水平 · 水平有限. 生活水平 standard of living · 汉语水平考试. The literal 'horizontal' survives in 水平线 · 水平方向."
+ },
+ {
+  "nid": 1537328242007,
+  "word": "客人",
+  "note": "Both a guest at home and a customer in a shop: 家里来客人了 · 招待客人. 顾客 is the commercial customer proper, 客户 a client or account, 乘客 a passenger."
+ },
+ {
+  "nid": 1537328242143,
+  "word": "正式",
+  "note": "Adverbial 'officially': 正式开始/成立/宣布. Attributive: 正式场合 · 正式文件 · 正式员工 = a permanent (not temporary) employee. Opposite 非正式/随便."
+ },
+ {
+  "nid": 1537328243955,
+  "word": "常见",
+  "note": "About how often something turns up: 常见的错误/疾病/问题 · 这种情况很常见. 'Ordinary, run-of-the-mill' is 普通; 常见 is specifically 'often encountered'."
+ },
+ {
+  "nid": 1537328241277,
+  "word": "有用",
+  "note": "对…有用 useful for: 这本书对我很有用. The negative is 没用, which of a person means hopeless: 你真没用 · 说了也没用 it's no use saying it."
+ },
+ {
+  "nid": 1537328241820,
+  "word": "最好",
+  "note": "Beyond 'the best', it is the everyday 'had better': 你最好早点去 · 最好别告诉他 — sitting before the verb. 还是…吧 is the softer way to give the same advice."
+ },
+ {
+  "nid": 1393817667065,
+  "word": "到达",
+  "note": "Slightly formal — announcements and writing: 到达北京 · 准时到达 · 到达时间/大厅. Everyday speech just uses 到: 我到了. Abstract goals take 达到 instead."
+ },
+ {
+  "nid": 1393817667300,
+  "word": "个性",
+  "note": "有个性 means distinctive, one's own person (and can be a mild dig: 太有个性了). The neutral 'temperament' is 性格: 性格开朗. 个性化 personalized."
+ },
+ {
+  "nid": 1537328240886,
+  "word": "分开",
+  "note": "Both 'split them up' and 'part ways': 把两个人分开 · 他们分开很久了 (a couple). 分开付 pay separately · 分开住. As a complement: 分得开 · 分不开."
+ },
+ {
+  "nid": 1537328240372,
+  "word": "只要",
+  "note": "只要…就… a sufficient condition: 只要不下雨就行. Contrast 只有…才… the necessary one: 只有努力才能成功. It can also trail the main clause: 我去，只要你也去."
+ },
+ {
+  "nid": 1537328240948,
+  "word": "未来",
+  "note": "Written and forward-looking: 未来五年 · 未来一周 · 未来的世界 · 有未来. 将来 is the everyday 'in future' about one's own life (将来想做什么); 以后 is plain 'afterwards'."
+ },
+ {
+  "nid": 1393817666231,
+  "word": "公斤",
+  "note": "One 公斤 = two 斤, and market prices are almost always quoted per 斤 (500 g): 苹果多少钱一斤. 千克 is the scientific-register synonym of 公斤."
+ },
+ {
+  "nid": 1393817666293,
+  "word": "成为",
+  "note": "Takes a noun phrase, usually with a classifier: 成为一名护士 · 成为可能 · 成为朋友. Adjectival change uses 变 (变胖了); 变成 is turning into; 当老师 is the colloquial way to name a job."
+ },
+ {
+  "nid": 1537328242401,
+  "word": "就是",
+  "note": "Emphatic identity: 我要的就是这个 · 就是他！Concessive 就是…也: 就是下雨我也去 even if. 就是说 that is to say · 好就是好. Sentence-final 就是了 = and that's that."
+ },
+ {
+  "nid": 1537328245116,
+  "word": "当成",
+  "note": "把A当成B — the colloquial twin of 当作: 把这里当成自己的家 · 别把我当成小孩. 看成 leans to 'mistake for': 我把她看成她姐姐了."
+ },
+ {
+  "nid": 1393817666082,
+  "word": "关心",
+  "note": "Takes a direct object, no preposition: 关心孩子 · 关心国家大事 · 受到关心. 担心 is worrying something bad will happen; 在乎 is minding whether (我不在乎)."
+ },
+ {
+  "nid": 1393817666189,
+  "word": "文化",
+  "note": "他很有文化 means he is educated and literate, not 'cultured in the arts'; 没文化 = uneducated. Otherwise: 中国文化 · 文化交流 · 文化程度 (schooling level on forms)."
+ },
+ {
+  "nid": 1393817666302,
+  "word": "从来",
+  "note": "Nearly always negated, and the two negatives differ: 从来不说谎 = never does, as a habit; 从来没说过谎 = has never done, needing 过. 从来如此 is about the only common positive."
+ },
+ {
+  "nid": 1393817667725,
+  "word": "文字",
+  "note": "The written medium as against speech: 文字材料 · 文字说明 caption · 文字工作 editorial work · 文字游戏 wordplay. Individual characters are 汉字/字; a language is 语言."
+ },
+ {
+  "nid": 1537328242462,
+  "word": "放心",
+  "note": "对…放心 feel easy about: 妈妈对我不放心. Separable: 放心不下他 · 放得下心. Common as reassurance: 你放心吧 · 放一百个心. Opposite of 担心."
+ },
+ {
+  "nid": 1393817665988,
+  "word": "为了",
+  "note": "The purpose clause comes first: 为了健康，她锻炼身体. To put purpose after the verb, use 是为了…: 我这么做是为了你. Causes take 因为; in writing 为了…而…"
+ },
+ {
+  "nid": 1393817666717,
+  "word": "入口",
+  "note": "Pairs with 出口 exit — but mind the trade senses of the same words: 进口 = import, 出口 = export. 入口处 at the entrance · 地铁入口 · 网站入口 portal."
+ },
+ {
+  "nid": 1393817667925,
+  "word": "发达",
+  "note": "Of systems and regions rather than careers: 经济/工业/交通发达 · 发达国家. Of the body it means well-developed: 肌肉发达 · 四肢发达，头脑简单 all brawn, no brains."
+ },
+ {
+  "nid": 1537328242135,
+  "word": "自行车",
+  "note": "You 骑 a bike, never 开: 骑自行车去 · 骑车. 单车 is the southern word, 脚踏车 Taiwanese. 自行车道 bike lane · 共享单车 shared bikes."
+ },
+ {
+  "nid": 1393817666261,
+  "word": "发生",
+  "note": "The event follows the verb: 发生了一起事故 · 发生了什么事？Abstract events only — 发生变化/战争/矛盾/关系. A scheduled event 'taking place' is 举行: 会议在北京举行."
+ },
+ {
+  "nid": 1393817665974,
+  "word": "相信",
+  "note": "Takes a person or a whole clause: 相信他 · 相信他会成功 · 我有理由相信… Bare 信 is the colloquial version and carries the religious sense (信基督教); 信任 is standing trust."
+ },
+ {
+  "nid": 1393817666494,
+  "word": "正好",
+  "note": "Two uses: 'fits exactly' — 时间正好 · 这双鞋正好; and the coincidence adverb 'as it happens' — 我正好路过 · 你来得正好. 刚好 is an exact synonym, a touch more colloquial."
+ },
+ {
+  "nid": 1393817666767,
+  "word": "加油站",
+  "note": ""
+ },
+ {
+  "nid": 1393817666899,
+  "word": "方式",
+  "note": "The mode or manner of doing something: 生活方式 · 思维方式 · 付款方式 · 以…的方式. 方法 is a technique for a task (学习方法); 办法 is the colloquial 'a way out' (没办法)."
+ },
+ {
+  "nid": 1537328240011,
+  "word": "有名",
+  "note": "The everyday word, predicate or attributive: 他很有名 · 有名的餐厅. 著名 is written and almost always attributive (著名作家). 出名 is the verb 'become famous': 一夜出名."
+ },
+ {
+  "nid": 1393817666125,
+  "word": "经过",
+  "note": "Also a preposition of process: 经过三年的努力，他成功了 · 经过讨论. And a noun, the course of events: 说说事情的经过. As a verb the place follows directly: 经过学校门口."
+ },
+ {
+  "nid": 1393817666157,
+  "word": "同事",
+  "note": ""
+ },
+ {
+  "nid": 1393817666511,
+  "word": "十分",
+  "note": "A written-register 很: 十分感谢 · 十分重要 · 十分满意. Rare in casual speech, where 很/特别/非常 do the work. Distinct from the literal 十分 'ten points'."
+ },
+ {
+  "nid": 1393817666428,
+  "word": "方面",
+  "note": "在…方面 in the area of: 在学习方面. Balanced pair 一方面…另一方面… on one hand… on the other · 各方面 · 方方面面. Sides in a dispute use bare 方: 双方 · 我方."
+ },
+ {
+  "nid": 1393817666369,
+  "word": "正常",
+  "note": "Functioning as it should: 一切正常 · 恢复正常 · 正常工作/运转 · 不正常. 平常 is 'ordinary, nothing special'; 正规 is 'proper, by the book' (正规医院)."
+ },
+ {
+  "nid": 1393817665999,
+  "word": "担心",
+  "note": "Takes an object or a whole clause: 担心孩子 · 担心他会出事. Mildly separable: 担什么心 · 别担这个心. 为…担心 worry on someone's behalf. Opposite 放心."
+ },
+ {
+  "nid": 1393817666006,
+  "word": "机会",
+  "note": "有/没有机会 · 抓住机会 seize · 错过机会 miss · 趁这个机会 take the chance to · 机会难得. Counted with 个. 机遇 is the loftier 'break in life'."
+ },
+ {
+  "nid": 1782504760998,
+  "word": "年夜饭",
+  "note": ""
+ },
+ {
+  "nid": 1537328247447,
+  "word": "推荐",
+  "note": "Double-object: 推荐我参加比赛 · 给你推荐一本书 · 把他推荐给公司. 推荐信 letter of recommendation · 推荐人 referee · 值得推荐. 介绍 is introducing, not endorsing."
+ },
+ {
+  "nid": 1708747487175,
+  "word": "他人",
+  "note": "Written and impersonal — rules, ethics, legal text: 尊重他人 · 关心他人 · 不得损害他人利益. In speech it's 别人; 人家 is the colloquial 'other people' with attitude."
+ },
+ {
+  "nid": 1393817667931,
+  "word": "地理",
+  "note": "Beyond the school subject, 地理位置 is the everyday way to say 'location': 地理位置很好 · 地理环境 · 地理条件. Terrain proper is 地形."
+ },
+ {
+  "nid": 1537328244679,
+  "word": "在线",
+  "note": "Predicate ('is online now'): 他现在在线; and attributive: 在线教育/支付/客服. 上线 is going live or logging on; 网上 is the general 'on the internet': 网上买的."
+ },
+ {
+  "nid": 1537328245717,
+  "word": "删除",
+  "note": "Formal and technical; in speech people just say 删: 删了吧 · 把他删了 unfriend him. 删除文件/记录/评论 · 删除键. 取消 is cancelling, not deleting."
+ },
+ {
+  "nid": 1393817666991,
+  "word": "公寓",
+  "note": "The block is counted 栋/幢, a flat inside it 套: 一套公寓. In speech one's own flat is just 家/房子; 公寓楼 · 单元 is the stairwell number in an address."
+ },
+ {
+  "nid": 1708747490367,
+  "word": "河流",
+  "note": "Category-level and a bit written — geography and environment: 河流污染 · 众多河流 · 保护河流. Naming an actual one, people say 河/江: 门前那条河 · 长江."
+ },
+ {
+  "nid": 1393817667155,
+  "word": "奇迹",
+  "note": "创造奇迹 work wonders · 出现奇迹 · 生命的奇迹 · 七大奇迹. The adverb needs 般地: 奇迹般地康复. It's secular — a religious miracle is 神迹."
+ },
+ {
+  "nid": 1393817668278,
+  "word": "擅长",
+  "note": "Takes a verb phrase or a noun directly: 擅长滑雪 · 擅长交际 · 不擅长数学. Written register; 拿手 is the colloquial twin (拿手菜 signature dish), 善于 the formal synonym."
+ },
+ {
+  "nid": 1393817667257,
+  "word": "姿势",
+  "note": "摆姿势 strike a pose · 姿势正确/不对 · 保持这个姿势 · 睡姿. Physical only — a stance in an argument is 立场/态度, and 姿态 is the figurative posture (高姿态)."
+ },
+ {
+  "nid": 1537328245403,
+  "word": "学历",
+  "note": "The level of schooling on a CV: 大学以上学历 · 高学历 · 学历要求. 学位 is the degree itself (硕士学位) — Chinese forms list the two separately."
+ },
+ {
+  "nid": 1393817667653,
+  "word": "大厦",
+  "note": "Chiefly in the proper names of towers: 国贸大厦 · 写字楼. 厦 is shà here (though 厦门 is Xiàmén). Counted 栋/座. A residential high-rise is 高楼/楼房."
+ },
+ {
+  "nid": 1393817667934,
+  "word": "浏览",
+  "note": "浏览网页/新闻/资料 · 浏览器 web browser · 浏览量 page views. It's skimming, so it pairs with 一下/一遍: 大致浏览了一遍. Close reading is 细读/仔细看."
+ },
+ {
+  "nid": 1537328245614,
+  "word": "口味",
+  "note": "Both a person's palate — 合我的口味 · 各人口味不同 — and how strongly a dish is seasoned: 口味重/清淡. 味道 is the flavour the food actually has: 味道不错."
+ },
+ {
+  "nid": 1537328242663,
+  "word": "恭喜",
+  "note": "Said straight to the person: 恭喜你 · 恭喜恭喜 · 恭喜发财. 祝贺 is the written/formal 'congratulate' (祝贺大会召开), and 贺 gives 贺卡 · 贺电."
+ },
+ {
+  "nid": 1708747515172,
+  "word": "好评",
+  "note": "受到/获得好评 · 广受好评 well received · 五星好评. Its opposite 差评 is the everyday e-commerce word: 给了个差评. 评价 is the neutral 'evaluation'."
+ },
+ {
+  "nid": 1708747514948,
+  "word": "有助于",
+  "note": "Written register, and 于 must be followed by what is helped: 有助于健康 · 有助于提高效率. Everyday equivalent 对…有帮助 / 有好处. Negative form 无助于."
+ },
+ {
+  "nid": 1708747527002,
+  "word": "凭借",
+  "note": "Written; introduces the means, then the achievement: 凭借努力考上大学 · 凭借经验. Speech uses 靠: 靠自己. Bare 凭 also works: 凭什么 · 凭本事."
+ },
+ {
+  "nid": 1708747513857,
+  "word": "有益",
+  "note": "对…有益 good for: 对身体有益 · 有益健康. Written — speech says 对…好 / 有好处. Attributive: 有益的经验 · 有益无害. Opposite 有害."
+ },
+ {
+  "nid": 1708747490000,
+  "word": "树木",
+  "note": "Collective — trees as a mass: 树木茂盛 · 种植树木 · 保护树木. A single one is 一棵树, not 一棵树木. Same collective pattern as 车辆 · 书籍 · 人口."
+ },
+ {
+  "nid": 1393817668065,
+  "word": "悠久",
+  "note": "Practically fixed to heritage: 历史悠久 · 悠久的文化/传统. A long-lasting relationship or effect takes 长久 instead: 长久的友谊. 源远流长 is its literary partner."
+ },
+ {
+  "nid": 1708747521175,
+  "word": "售价",
+  "note": "Commercial register — the listed price of goods: 售价六百块 · 原售价. Asking in a shop is 多少钱; 价格 is the neutral 'price', 价钱 the colloquial one, 定价 the price as set."
+ },
+ {
+  "nid": 1393817669032,
+  "word": "比喻",
+  "note": "Verb pattern 用A比喻B: 用蜜蜂比喻勤劳的人. As a noun: 这是个比喻 · 比喻手法 · 打比喻. In speech 打个比方 (make an analogy) uses 比方, not 比喻."
+ },
+ {
+  "nid": 1537328245990,
+  "word": "昆虫",
+  "note": "Scientific register: 昆虫学 · 昆虫标本 · 昆虫世界. Everyday speech says 虫子 for any bug: 有只虫子. Counted with 只."
+ },
+ {
+  "nid": 1537328246518,
+  "word": "丢失",
+  "note": "Written register — reports and notices: 丢失物品 · 数据丢失 · 财物丢失. In speech it's plain 丢: 钱包丢了 · 把钥匙丢了. 丢 alone also means throw away (丢垃圾)."
+ },
+ {
+  "nid": 1393817669195,
+  "word": "忙碌",
+  "note": "More descriptive than 忙: 忙碌的一天 · 忙碌的身影. It also works as a verb, 'bustle about': 为家人忙碌了一辈子. To say you're busy right now, people say 我很忙."
+ },
+ {
+  "nid": 1708747495432,
+  "word": "存放",
+  "note": "把…存放在… leave something somewhere for keeping: 行李存放处 · 存放贵重物品. 存 alone covers money in a bank (存钱); 保存 is preserving so it doesn't spoil."
+ },
+ {
+  "nid": 1708747513498,
+  "word": "住宿",
+  "note": "Mostly nominal in practice: 住宿费 · 提供住宿 · 安排住宿. As a verb it means boarding: 学生在校住宿. The place you stay goes with plain 住: 住酒店."
+ },
+ {
+  "nid": 1708747486599,
+  "word": "外形",
+  "note": "Of objects and products: 外形设计 · 外形美观 · 外形相似. A person's looks are 外表/长相; a purely geometric shape is 形状."
+ },
+ {
+  "nid": 1708747500050,
+  "word": "加深",
+  "note": "Abstract objects: 加深理解/印象/感情/矛盾 · 加深对他的了解. Also intransitive: 危机不断加深 · 颜色加深. Digging something deeper is 挖深."
+ },
+ {
+  "nid": 1708747499214,
+  "word": "急需",
+  "note": "Written and newsy: 灾区急需食物 · 急需资金/人才. Also attributive: 急需的药品. Everyday urgency is 急着要 / 马上要: 我急着要用."
+ },
+ {
+  "nid": 1537328245437,
+  "word": "往返",
+  "note": "往返于A和B之间 shuttle between · 往返票 return ticket · 往返时间. Formal; the colloquial 'there and back' is 来回: 来回两小时 · 来回跑."
+ },
+ {
+  "nid": 1708747511581,
+  "word": "折扣",
+  "note": "The verb is 打: 打折扣 · 打八折 = 20% off (the number is the fraction you pay). Figurative: 执行时打了折扣 done half-heartedly · 不打折扣 without compromise."
+ },
+ {
+  "nid": 1537328247825,
+  "word": "厚度",
+  "note": ""
+ },
+ {
+  "nid": 1393817667339,
+  "word": "救护车",
+  "note": "叫救护车 is how you call one — 快叫救护车！In mainland China you dial 120 for it (110 police, 119 fire). 救护车赶到 · 送上救护车."
+ },
+ {
+  "nid": 1537328240160,
+  "word": "哎呀",
+  "note": "Sentence-initial, for dismay or surprise: 哎呀，忘带钥匙了！哎哟 is for physical pain, 唉 (āi) the resigned sigh, and bare 哎 hails someone."
+ },
+ {
+  "nid": 1537328247443,
+  "word": "失眠",
+  "note": "Used as a verb about a given night: 昨晚又失眠了 · 经常失眠. The condition is 失眠症. The everyday way to say you can't drop off is 睡不着."
+ },
+ {
+  "nid": 1656144348608,
+  "word": "橘子",
+  "note": ""
+ },
+ {
+  "nid": 1708747514961,
+  "word": "升温",
+  "note": "Weather forecasts: 明天继续升温. Figuratively 'heat up', common in news: 房市升温 · 关系持续升温. Opposite 降温, which also means a craze cooling off."
+ },
+ {
+  "nid": 1537328246321,
+  "word": "外婆",
+  "note": "The southern word for the mother's mother; northerners say 姥姥. Written/formal 外祖母. Her husband is 外公. Your father's mother is 奶奶."
+ },
+ {
+  "nid": 1708747498644,
+  "word": "亲情",
+  "note": "Part of the set 亲情 (family) · 友情 (friends) · 爱情 (romantic). Abstract and a bit literary: 重视亲情 · 亲情割不断. Feelings toward one particular relative are 感情."
+ },
+ {
+  "nid": 1393817668012,
+  "word": "合影",
+  "note": "Both a noun and a separable verb: 我们合个影 · 合张影 · 合影留念 · 一张合影. The other party joins with 跟/和: 跟老师合影."
+ },
+ {
+  "nid": 1393817667870,
+  "word": "外公",
+  "note": "The southern counterpart of northern 姥爷; written/formal 外祖父. Paired with 外婆. Your father's father is 爷爷 — the 外 marks the mother's side."
+ },
+ {
+  "nid": 1537328245421,
+  "word": "便利店",
+  "note": ""
+ },
+ {
+  "nid": 1708747491346,
+  "word": "汗水",
+  "note": "Everyday speech uses bare 汗: 出汗 · 流汗 · 满头大汗 · 一身汗. 汗水 is the fuller, more literary form and carries the toil metaphor: 汗水换来的成绩."
+ },
+ {
+  "nid": 1393817668027,
+  "word": "姥姥",
+  "note": "Northern and colloquial (Beijing) for the mother's mother; southerners say 外婆. Second syllable neutral (lǎolao). Her husband is 姥爷."
+ },
+ {
+  "nid": 1537328247370,
+  "word": "失恋",
+  "note": "Intransitive and one-sided — the person who lost out: 他失恋了 · 失恋以后. The couple's act of splitting is 分手 (跟他分手了); ending a marriage is 离婚."
+ },
+ {
+  "nid": 1708747509348,
+  "word": "主食",
+  "note": "The starch part of a meal, as against the 菜 dishes: 主食是米饭还是面条？· 少吃主食. Restaurants ask 主食要什么. Its counterpart is 副食."
+ },
+ {
+  "nid": 1708747522686,
+  "word": "住址",
+  "note": "Form-filling register, and specifically where a person lives: 填写住址 · 家庭住址. The general word for any address — shop, website, email — is 地址: 邮箱地址."
+ },
+ {
+  "nid": 1393817667996,
+  "word": "急诊",
+  "note": "看急诊 go to the ER · 挂急诊 register for it · 急诊科/急诊室 · 急诊病人. Ordinary by-appointment care is 门诊."
+ },
+ {
+  "nid": 1393817668147,
+  "word": "太极拳",
+  "note": "You 打太极拳: 每天早上打太极拳. Often shortened to 太极. Figuratively 打太极 = to deflect and stall instead of answering: 他跟我打太极."
+ },
+ {
+  "nid": 1708747494863,
+  "word": "国画",
+  "note": "The verb is 画: 画国画 · 学国画. Full form 中国画; the medium is 水墨. It contrasts with 油画 oil painting. A practitioner is 国画家."
+ },
+ {
+  "nid": 1708747507886,
+  "word": "丰富多彩",
+  "note": "A four-character predicate for programmes, activities, and life: 活动丰富多彩 · 生活丰富多彩 · 丰富多彩的文化. Objects in many colours are 五颜六色 instead."
+ },
+ {
+  "nid": 1717270478853,
+  "word": "夜市",
+  "note": "The verb is 逛 — you stroll it: 晚上去逛夜市. Same 逛 as 逛街 · 逛超市. What you eat there is 小吃."
+ },
+ {
+  "nid": 1393817666825,
+  "word": "橡皮",
+  "note": "Two lives: the school eraser (用橡皮擦掉) and rubber as a material in compounds — 橡皮筋 rubber band · 橡皮艇/筏 dinghy · 橡皮手套. Industrial rubber is 橡胶."
+ },
+ {
+  "nid": 1393817668143,
+  "word": "挂号",
+  "note": "Separable: 挂个号 · 挂了专家号 · 挂错科了 — the first step at a Chinese hospital, before seeing a doctor. Also postal: 挂号信 registered mail."
+ },
+ {
+  "nid": 1537328248053,
+  "word": "刮风",
+  "note": "A verb-object pair like 下雨, so it splits: 刮大风 · 刮了一夜的风 · 风刮得很大. As a weather event it needs no subject: 今天刮风了."
+ },
+ {
+  "nid": 1708747507721,
+  "word": "保质期",
+  "note": "保质期三个月 · 过了保质期 expired · 在保质期内. It's the shelf life, not the printed date — that's 生产日期 / 到期日. A goods warranty period is 保修期."
+ },
+ {
+  "nid": 1708747506099,
+  "word": "姥爷",
+  "note": "Northern colloquial, paired with 姥姥; southerners say 外公. Second syllable neutral, lǎoye — 老爷 lǎoyé with full tone is a 'master/lord' (老爷车 vintage car)."
+ },
+ {
+  "nid": 1393817666826,
+  "word": "应聘",
+  "note": "The candidate's side of 招聘 (the employer's side): 去公司应聘 · 应聘这个职位 · 应聘者 applicant. The interview itself is 面试; submitting an application is 投简历."
+ },
+ {
+  "nid": 1393817670146,
+  "word": "摄氏度",
+  "note": "Both orders occur: 三十八摄氏度 and 摄氏三十八度. In daily speech people drop it entirely: 今天三十八度. Below zero is 零下五度. Fahrenheit is 华氏度."
+ },
+ {
+  "nid": 1537328243445,
+  "word": "举例",
+  "note": "Separable, and the everyday form is 举个例子: 我举个例子 · 举几个例子说明. 举例说明 is the set written phrase. The example itself is introduced by 比如/例如."
+ },
+ {
+  "nid": 1708747488255,
+  "word": "夜晚",
+  "note": "Literary and descriptive: 夏天的夜晚 · 寂静的夜晚. For appointments and clock time people say 晚上 (晚上八点 · 晚上见); the small hours are 夜里/半夜."
+ },
+ {
+  "nid": 1708747489419,
+  "word": "友情",
+  "note": "多年的友情 · 深厚的友情. 友谊 is the more formal word and the one used between nations and institutions (友谊赛 friendly match). Set phrase 友情出演 = guest appearance."
+ },
+ {
+  "nid": 1717270469638,
+  "word": "车位",
+  "note": "停车位 is the full form; 车位 is the slot you rent or buy in a compound: 租个车位 · 没有空车位. The lot itself is 停车场, the act 停车."
+ },
+ {
+  "nid": 1537328242353,
+  "word": "时间表",
+  "note": "The general schedule, and in news the 'timeline': 制定时间表 · 没有时间表. School timetables are 课程表; train and flight ones 时刻表; a meeting agenda 日程."
+ },
+ {
+  "nid": 1537328243493,
+  "word": "景区",
+  "note": "The tourism-administration word for a managed attraction: 5A级景区 · 景区门票 · 进景区. Scenery itself is 风景/景色; a single spot within it is a 景点."
+ },
+ {
+  "nid": 1537328245965,
+  "word": "顺便",
+  "note": "Marks a second, incidental action: 出去的时候顺便买瓶水 · 顺便问一下 · 顺便说一句 by the way. 顺路 is specifically 'on the way there'; 趁机 is seizing the chance."
+ },
+ {
+  "nid": 1537328247518,
+  "word": "剧院",
+  "note": "The building, and standard in proper names: 国家大剧院 · 人民剧院. Films go in an 电影院. 剧场 is the auditorium itself; a theatre company is 剧团."
+ },
+ {
+  "nid": 1708747511660,
+  "word": "细心",
+  "note": "A person's trait — attentive to detail: 她做事很细心 · 细心的照顾. 小心 is guarding against danger; 仔细 is the adverb for doing something carefully: 仔细看 · 仔细想想."
+ },
+ {
+  "nid": 1393817666795,
+  "word": "咳嗽",
+  "note": "Verb and noun both: 咳嗽得厉害 · 咳嗽了一整夜 · 止咳 · 咳嗽药水. Second syllable neutral (késou). A single cough is 咳一声."
+ },
+ {
+  "nid": 1537328245060,
+  "word": "羡慕",
+  "note": "The benign kind — admiring envy with no ill will: 我很羡慕你 · 羡慕他有时间. Resentful jealousy is 嫉妒/忌妒. 令人羡慕 enviable · 羡慕不已."
+ },
+ {
+  "nid": 1708747524257,
+  "word": "填写",
+  "note": "Takes the form or the field as object: 填写表格/申请表/个人信息. In speech just 填: 填一下这张表. 填空 is filling in blanks; 写 alone is plain writing."
+ },
+ {
+  "nid": 1393817666660,
+  "word": "胳膊",
+  "note": "Colloquial and northern-flavoured; 手臂 is the neutral written word. Second syllable neutral (gēbo). Counted 条/只. Saying: 胳膊拧不过大腿 — you can't fight power."
+ },
+ {
+  "nid": 1708747492202,
+  "word": "少量",
+  "note": "Attributive before mass quantities: 少量盐 · 少量资金 · 少量多次. For countable people and things use 少数: 少数人 · 少数民族. Opposite 大量."
+ },
+ {
+  "nid": 1537328240794,
+  "word": "目的地",
+  "note": ""
+ },
+ {
+  "nid": 1537328242595,
+  "word": "十字路口",
+  "note": "Also the figurative one: 站在人生的十字路口. For directions, bare 路口 is what people say: 前面路口右转 · 到路口往左拐."
+ },
+ {
+  "nid": 1537328244979,
+  "word": "登机",
+  "note": "Airport fixtures: 登机口 gate · 登机牌 boarding pass · 登机时间 · 开始登机. Specifically a plane — boarding a train or bus is 上车, a ship 上船/登船."
+ },
+ {
+  "nid": 1708747497718,
+  "word": "度假",
+  "note": "Separable: 度了一个星期的假 · 去海边度假. 度假村 resort · 度假胜地. The days off are 假期; 休假 is taking leave from work, 放假 the institution closing."
+ },
+ {
+  "nid": 1708747486113,
+  "word": "人体",
+  "note": "Technical and anatomical: 人体结构 · 人体器官 · 人体艺术 the nude in art. Your own body and health is 身体: 身体不好 · 锻炼身体."
+ },
+ {
+  "nid": 1708747512454,
+  "word": "过节",
+  "note": "过 is the verb for marking any occasion: 过节 · 过年 · 过生日 · 过中秋. Separable: 过个好节. Watch the homograph 有过节 = to have bad blood with someone (他俩有过节)."
+ },
+ {
+  "nid": 1393817666711,
+  "word": "害羞",
+  "note": "A disposition or a momentary blush: 她很害羞 · 别害羞. 不好意思 is situational embarrassment (and a polite 'sorry to bother you'); 内向 is introverted as a character."
+ },
+ {
+  "nid": 1393817666757,
+  "word": "打招呼",
+  "note": "Separable: 跟他打个招呼 · 打了声招呼. Two senses — saying hello, and giving advance notice: 不打招呼就动手 without warning · 事先打个招呼 give a heads-up."
+ },
+ {
+  "nid": 1537328241282,
+  "word": "好笑",
+  "note": "Describes the thing that gets a laugh: 这个笑话很好笑 · 觉得好笑. 可笑 is derisive — absurd, worthy of scorn. A funny person is 幽默; done for laughs is 搞笑."
+ },
+ {
+  "nid": 1708747488434,
+  "word": "少见",
+  "note": "About how rarely something turns up: 这种情况很少见 · 少见的机会. 罕见 is the formal, stronger word (罕见病). Set phrase 少见多怪 = ignorance makes everything look strange."
+ },
+ {
+  "nid": 1708747508658,
+  "word": "美景",
+  "note": ""
+ },
+ {
+  "nid": 1537328247938,
+  "word": "低价",
+  "note": ""
+ },
+ {
+  "nid": 1537328247545,
+  "word": "牙膏",
+  "note": "挤牙膏 squeeze it out — figuratively, giving up information a bit at a time: 别跟挤牙膏似的. Counted 支/管. The brush is 牙刷, the act 刷牙."
+ },
+ {
+  "nid": 1537328241367,
+  "word": "零钱",
+  "note": "找零钱 give change · 换零钱 break a note · 身上没零钱. The transaction word alone is 找零. Pocket money is a different word, 零花钱."
+ },
+ {
+  "nid": 1537328247892,
+  "word": "体温",
+  "note": "量体温 / 测体温 take a temperature · 体温计 thermometer · 体温正常/偏高. Running a fever itself is 发烧: 孩子发烧了."
+ },
+ {
+  "nid": 1708747502163,
+  "word": "查找",
+  "note": "Searching through a source — files, records, a database: 查找资料 · 在文件里查找. Plain 找 is looking for anything (找钥匙); 查 is checking or verifying (查字典 · 查一下)."
+ },
+ {
+  "nid": 1393817666823,
+  "word": "乒乓球",
+  "note": "打乒乓球 — 打 for anything struck with hand or bat (打篮球, but 踢足球). The sport and the ball share the word; the table is 乒乓球台. Shortened to 乒乓."
+ },
+ {
+  "nid": 1708747505257,
+  "word": "车速",
+  "note": "降低车速 slow down · 车速过快 · 控制车速. The 速 series works the same way: 时速 speed per hour · 限速 speed limit · 加速/减速."
+ },
+ {
+  "nid": 1708747512715,
+  "word": "零花钱",
+  "note": "Money given to a child or kept for small purchases: 给零花钱 · 攒零花钱 save it up · 零花钱不够. 零钱 is physically small change — a different word."
+ },
+ {
+  "nid": 1537328241409,
+  "word": "小区",
+  "note": "The gated residential compound Chinese city life is organized around: 我们小区 · 小区门口 · 小区物业 the management company. A loose 'neighbourhood' is 附近/街区."
+ },
+ {
+  "nid": 1537328245047,
+  "word": "亲戚",
+  "note": "Extended family only — parents, siblings and children are 家人, not 亲戚: 远房亲戚 distant relative · 亲戚朋友 · 走亲戚 do the rounds of relatives at New Year."
+ },
+ {
+  "nid": 1393817666389,
+  "word": "钥匙",
+  "note": "Counted with 把: 一把钥匙 · 配钥匙 have a copy cut · 钥匙扣 keyring. Second syllable neutral (yàoshi). The lock is 锁: 锁门 · 开锁."
+ },
+ {
+  "nid": 1393817666719,
+  "word": "烦恼",
+  "note": "Doubles as a noun, the worries themselves: 有很多烦恼 · 为钱烦恼 · 自寻烦恼 make trouble for oneself. 麻烦 is a practical hassle; bare 烦 = annoyed (我很烦 · 别烦我)."
+ },
+ {
+  "nid": 1537328246708,
+  "word": "四季",
+  "note": "一年四季 means 'all year round', not just 'the four seasons': 一年四季都很热. 四季分明 is the stock phrase for a climate with distinct seasons. Listed as 春夏秋冬."
  }
 ]
