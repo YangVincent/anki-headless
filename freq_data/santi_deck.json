@@ -1,0 +1,1640 @@
+[
+ {
+  "word": "恒星",
+  "pinyin": "héngxīng",
+  "meaning": "star; fixed star",
+  "sentence": "太阳是离我们最近的一颗恒星。",
+  "sentence_pinyin": "Tàiyáng shì lí wǒmen zuì jìn de yī kē héngxīng.",
+  "english": "The sun is the star nearest to us.",
+  "from_book": false
+ },
+ {
+  "word": "艇",
+  "pinyin": "tǐng",
+  "meaning": "boat; small craft; vessel",
+  "sentence": "于是，“启示”号派出一艘无人太空艇前往探测。",
+  "sentence_pinyin": "Yúshì, \"Qǐshì\" hào pàichū yī sōu wúrén tàikōngtǐng qiánwǎng tàncè.",
+  "english": "So the Revelation sent out an unmanned space boat to investigate.",
+  "from_book": true
+ },
+ {
+  "word": "掩体",
+  "pinyin": "yǎntǐ",
+  "meaning": "bunker; shelter",
+  "sentence": "在旋转的星海的背景上，程心看到了掩体世界。",
+  "sentence_pinyin": "Zài xuánzhuǎn de xīnghǎi de bèijǐng shàng, Chéng Xīn kàndào le yǎntǐ shìjiè.",
+  "english": "Against the backdrop of the spinning sea of stars, Cheng Xin saw the bunker world.",
+  "from_book": true
+ },
+ {
+  "word": "飘浮",
+  "pinyin": "piāofú",
+  "meaning": "to float; to drift",
+  "sentence": "空中飘浮的无数小物体也都被龙卷风吞噬。",
+  "sentence_pinyin": "Kōngzhōng piāofú de wúshù xiǎo wùtǐ yě dōu bèi lóngjuǎnfēng tūnshì.",
+  "english": "The countless small objects floating in the air were all swallowed by the tornado.",
+  "from_book": true
+ },
+ {
+  "word": "航迹",
+  "pinyin": "hángjì",
+  "meaning": "wake; track (of a ship or aircraft)",
+  "sentence": "雷达上出现了一条清晰的航迹。",
+  "sentence_pinyin": "Léidá shàng chūxiàn le yī tiáo qīngxī de hángjì.",
+  "english": "A clear wake appeared on the radar.",
+  "from_book": false
+ },
+ {
+  "word": "氢弹",
+  "pinyin": "qīngdàn",
+  "meaning": "hydrogen bomb",
+  "sentence": "从警报响起到来袭的次声波氢弹爆炸，只间隔了四秒钟。",
+  "sentence_pinyin": "Cóng jǐngbào xiǎngqǐ dào láixí de cìshēngbō qīngdàn bàozhà, zhǐ jiàngé le sì miǎozhōng.",
+  "english": "Only four seconds passed between the alarm sounding and the explosion of the incoming infrasonic hydrogen bomb.",
+  "from_book": true
+ },
+ {
+  "word": "舷窗",
+  "pinyin": "xiánchuāng",
+  "meaning": "porthole; cabin window",
+  "sentence": "看着关一帆也吃了一粒后，她又向舷窗外看去。",
+  "sentence_pinyin": "Kànzhe Guān Yīfān yě chī le yī lì hòu, tā yòu xiàng xiánchuāng wài kàn qù.",
+  "english": "After watching Guan Yifan take a pill too, she looked out the porthole again.",
+  "from_book": true
+ },
+ {
+  "word": "香皂",
+  "pinyin": "xiāngzào",
+  "meaning": "toilet soap; perfumed soap",
+  "sentence": "买这块香皂的钱可以建一个小型日化厂了。",
+  "sentence_pinyin": "Mǎi zhè kuài xiāngzào de qián kěyǐ jiàn yī gè xiǎoxíng rìhuàchǎng le.",
+  "english": "The money spent on this bar of soap could have built a small toiletries factory.",
+  "from_book": true
+ },
+ {
+  "word": "尘埃",
+  "pinyin": "chén'āi",
+  "meaning": "dust",
+  "sentence": "一维丝的尘埃在三体世界的空间中是永远飘浮着的。",
+  "sentence_pinyin": "Yīwéi sī de chén'āi zài Sāntǐ shìjiè de kōngjiān zhōng shì yǒngyuǎn piāofú zhe de.",
+  "english": "The dust of one-dimensional filaments floats forever in the space of the Trisolaran world.",
+  "from_book": true
+ },
+ {
+  "word": "熄灭",
+  "pinyin": "xīmiè",
+  "meaning": "to go out (of a fire or light); to extinguish",
+  "sentence": "所谓探测器熄灭，是说它的发动机关闭了。",
+  "sentence_pinyin": "Suǒwèi tàncèqì xīmiè, shì shuō tā de fādòngjī guānbì le.",
+  "english": "Saying that the probe went dark means that its engine had shut down.",
+  "from_book": true
+ },
+ {
+  "word": "按钮",
+  "pinyin": "ànniǔ",
+  "meaning": "button; push button",
+  "sentence": "程心没有点击那些全息按钮，她不需要更多的信息了。",
+  "sentence_pinyin": "Chéng Xīn méiyǒu diǎnjī nàxiē quánxī ànniǔ, tā bù xūyào gèng duō de xìnxī le.",
+  "english": "Cheng Xin did not click those holographic buttons; she needed no more information.",
+  "from_book": true
+ },
+ {
+  "word": "饕餮",
+  "pinyin": "tāotiè",
+  "meaning": "taotie, mythical gluttonous beast; glutton",
+  "sentence": "宽姨看着船周围黑压压的饕餮鱼，心有余悸地说。",
+  "sentence_pinyin": "Kuān yí kànzhe chuán zhōuwéi hēiyāyā de tāotiè yú, xīnyǒuyújì de shuō.",
+  "english": "Aunt Kuan looked at the dark mass of taotie fish around the boat and spoke with lingering fear.",
+  "from_book": true
+ },
+ {
+  "word": "空旷",
+  "pinyin": "kōngkuàng",
+  "meaning": "open and empty; vast and bare",
+  "sentence": "宇宙不荒凉，宇宙不空旷，宇宙充满了生机！",
+  "sentence_pinyin": "Yǔzhòu bù huāngliáng, yǔzhòu bù kōngkuàng, yǔzhòu chōngmǎn le shēngjī!",
+  "english": "The universe is not desolate, the universe is not empty, the universe is full of life!",
+  "from_book": true
+ },
+ {
+  "word": "掠过",
+  "pinyin": "lüèguò",
+  "meaning": "to sweep past; to skim over; to flit across",
+  "sentence": "那个探测器也许根本没打算停留，就是要掠过太阳系的！",
+  "sentence_pinyin": "Nàge tàncèqì yěxǔ gēnběn méi dǎsuàn tíngliú, jiùshì yào lüèguò tàiyángxì de!",
+  "english": "Maybe that probe never intended to stop at all and was simply going to sweep past the solar system!",
+  "from_book": true
+ },
+ {
+  "word": "舱壁",
+  "pinyin": "cāngbì",
+  "meaning": "bulkhead; cabin wall",
+  "sentence": "接着，他在另一侧的舱壁上也拉开一个舷窗。",
+  "sentence_pinyin": "Jiēzhe, tā zài lìng yī cè de cāngbì shàng yě lākāi yī gè xiánchuāng.",
+  "english": "Then he opened another porthole in the bulkhead on the other side.",
+  "from_book": true
+ },
+ {
+  "word": "战役",
+  "pinyin": "zhànyì",
+  "meaning": "battle; military campaign",
+  "sentence": "这一片看上去像是刚刚结束了一场战役的战场。",
+  "sentence_pinyin": "Zhè yī piàn kànshàngqù xiàng shì gānggāng jiéshù le yī chǎng zhànyì de zhànchǎng.",
+  "english": "This stretch looked like a battlefield where a battle had just ended.",
+  "from_book": true
+ },
+ {
+  "word": "隐喻",
+  "pinyin": "yǐnyù",
+  "meaning": "metaphor; to be a metaphor for",
+  "sentence": "综上所述，伞隐喻着光或光速。",
+  "sentence_pinyin": "Zōngshàngsuǒshù, sǎn yǐnyù zhe guāng huò guāngsù.",
+  "english": "In summary, the umbrella is a metaphor for light or the speed of light.",
+  "from_book": true
+ },
+ {
+  "word": "光粒",
+  "pinyin": "guānglì",
+  "meaning": "photoid; light-particle weapon",
+  "sentence": "光粒现在距太阳有多近了？",
+  "sentence_pinyin": "Guānglì xiànzài jù tàiyáng yǒu duō jìn le?",
+  "english": "How close is the photoid to the sun now?",
+  "from_book": true
+ },
+ {
+  "word": "粒子",
+  "pinyin": "lìzǐ",
+  "meaning": "particle",
+  "sentence": "对智子撞击的成功率，是对普通靶标粒子的上亿倍。",
+  "sentence_pinyin": "Duì zhìzǐ zhuàngjī de chénggōnglǜ, shì duì pǔtōng bǎbiāo lìzǐ de shàng yì bèi.",
+  "english": "The hit rate against a sophon is hundreds of millions of times that against an ordinary target particle.",
+  "from_book": true
+ },
+ {
+  "word": "尾迹",
+  "pinyin": "wěijì",
+  "meaning": "wake; trail; contrail",
+  "sentence": "后来随着实验规模增大，人们才发现了曲率驱动尾迹的秘密。",
+  "sentence_pinyin": "Hòulái suízhe shíyàn guīmó zēngdà, rénmen cái fāxiàn le qūlǜ qūdòng wěijì de mìmì.",
+  "english": "Only later, as the experiments grew larger, did people discover the secret of curvature-propulsion trails.",
+  "from_book": true
+ },
+ {
+  "word": "深渊",
+  "pinyin": "shēnyuān",
+  "meaning": "abyss; chasm",
+  "sentence": "他感觉自己正在坠入无底的深渊。",
+  "sentence_pinyin": "Tā gǎnjué zìjǐ zhèngzài zhuìrù wúdǐ de shēnyuān.",
+  "english": "He felt that he was falling into a bottomless abyss.",
+  "from_book": false
+ },
+ {
+  "word": "诡异",
+  "pinyin": "guǐyì",
+  "meaning": "eerie; bizarre; uncanny",
+  "sentence": "画中的蒙娜丽莎看着她们的背影，邪恶而诡异地微笑着。",
+  "sentence_pinyin": "Huà zhōng de Méngnàlìshā kànzhe tāmen de bèiyǐng, xié'è ér guǐyì de wēixiào zhe.",
+  "english": "The Mona Lisa in the painting watched their backs, smiling wickedly and eerily.",
+  "from_book": true
+ },
+ {
+  "word": "咒语",
+  "pinyin": "zhòuyǔ",
+  "meaning": "incantation; spell",
+  "sentence": "你的咒语再也发不出去了，是吗？",
+  "sentence_pinyin": "Nǐ de zhòuyǔ zài yě fā bù chūqù le, shì ma?",
+  "english": "Your incantation can never be sent out again, can it?",
+  "from_book": true
+ },
+ {
+  "word": "流逝",
+  "pinyin": "liúshì",
+  "meaning": "(of time) to pass; to slip away",
+  "sentence": "冬眠与睡眠不同，感觉不到时间的流逝。",
+  "sentence_pinyin": "Dōngmián yǔ shuìmián bùtóng, gǎnjué bú dào shíjiān de liúshì.",
+  "english": "Hibernation is not like sleep; you cannot feel time passing.",
+  "from_book": true
+ },
+ {
+  "word": "坠落",
+  "pinyin": "zhuìluò",
+  "meaning": "to fall; to plummet",
+  "sentence": "在“星环”号上，已经明显地感觉到加速坠落产生的空间畸变。",
+  "sentence_pinyin": "Zài \"Xīnghuán\" hào shàng, yǐjīng míngxiǎn de gǎnjué dào jiāsù zhuìluò chǎnshēng de kōngjiān jībiàn.",
+  "english": "On board the Halo, the spatial distortion produced by the accelerating fall was already clearly noticeable.",
+  "from_book": true
+ },
+ {
+  "word": "岩浆",
+  "pinyin": "yánjiāng",
+  "meaning": "magma; molten rock",
+  "sentence": "在火球出现的间隙，金属岩浆的光芒则使云团变成如血的晚霞。",
+  "sentence_pinyin": "Zài huǒqiú chūxiàn de jiànxì, jīnshǔ yánjiāng de guāngmáng zé shǐ yúntuán biànchéng rú xuè de wǎnxiá.",
+  "english": "In the gaps between fireballs, the glow of the molten metal turned the clouds into a blood-red sunset.",
+  "from_book": true
+ },
+ {
+  "word": "拦截",
+  "pinyin": "lánjié",
+  "meaning": "to intercept; to head off",
+  "sentence": "为了提高对小型高速目标的打击精度，拦截使用了激光武器。",
+  "sentence_pinyin": "Wèile tígāo duì xiǎoxíng gāosù mùbiāo de dǎjī jīngdù, lánjié shǐyòng le jīguāng wǔqì.",
+  "english": "To improve accuracy against small high-speed targets, the interception used laser weapons.",
+  "from_book": true
+ },
+ {
+  "word": "嗯",
+  "pinyin": "èn",
+  "meaning": "(interjection) hm; uh-huh; yeah",
+  "sentence": "嗯，我明白你的意思了。",
+  "sentence_pinyin": "Èn, wǒ míngbai nǐ de yìsi le.",
+  "english": "Mm, I understand what you mean.",
+  "from_book": false
+ },
+ {
+  "word": "屏蔽",
+  "pinyin": "píngbì",
+  "meaning": "to shield; to block; to screen out",
+  "sentence": "这个房间可以屏蔽所有电磁信号。",
+  "sentence_pinyin": "Zhège fángjiān kěyǐ píngbì suǒyǒu diàncí xìnhào.",
+  "english": "This room can block all electromagnetic signals.",
+  "from_book": false
+ },
+ {
+  "word": "电磁",
+  "pinyin": "diàncí",
+  "meaning": "electromagnetic",
+  "sentence": "在我们的四个站址方案中，这里的电磁环境可是最好的。",
+  "sentence_pinyin": "Zài wǒmen de sì gè zhànzhǐ fāng'àn zhōng, zhèlǐ de diàncí huánjìng kěshì zuì hǎo de.",
+  "english": "Of our four proposed sites, the electromagnetic environment here is the best.",
+  "from_book": true
+ },
+ {
+  "word": "淹没",
+  "pinyin": "yānmò",
+  "meaning": "to submerge; to flood; to drown out",
+  "sentence": "太空艇朝着太阳方向无动力滑行，恒星的光芒淹没了一切星星。",
+  "sentence_pinyin": "Tàikōngtǐng cháozhe tàiyáng fāngxiàng wú dònglì huáxíng, héngxīng de guāngmáng yānmò le yīqiè xīngxing.",
+  "english": "The space boat coasted toward the sun without power, and the star's light drowned out all the other stars.",
+  "from_book": true
+ },
+ {
+  "word": "稀疏",
+  "pinyin": "xīshū",
+  "meaning": "sparse; thinly scattered",
+  "sentence": "据我知道的，宇宙将永远膨胀下去，越来越稀疏寒冷。",
+  "sentence_pinyin": "Jù wǒ zhīdào de, yǔzhòu jiāng yǒngyuǎn péngzhàng xiàqù, yuè lái yuè xīshū hánlěng.",
+  "english": "As far as I know, the universe will keep expanding forever, growing ever sparser and colder.",
+  "from_book": true
+ },
+ {
+  "word": "呵呵",
+  "pinyin": "hēhē",
+  "meaning": "(onom.) chuckle; heh heh",
+  "sentence": "呵呵，不过我忘了，同一名面壁者这样讨论问题是很可笑的。",
+  "sentence_pinyin": "Hēhē, búguò wǒ wàng le, tóng yī míng miànbìzhě zhèyàng tǎolùn wèntí shì hěn kěxiào de.",
+  "english": "Heh, but I forgot that it is quite ridiculous to discuss things this way with a fellow Wallfacer.",
+  "from_book": true
+ },
+ {
+  "word": "舱内",
+  "pinyin": "cāngnèi",
+  "meaning": "inside the cabin; in the compartment",
+  "sentence": "在狭窄的舱内，程心感觉他们像古代被困在井下的矿工。",
+  "sentence_pinyin": "Zài xiázhǎi de cāngnèi, Chéng Xīn gǎnjué tāmen xiàng gǔdài bèi kùn zài jǐngxià de kuànggōng.",
+  "english": "In the cramped cabin, Cheng Xin felt they were like ancient miners trapped down a well.",
+  "from_book": true
+ },
+ {
+  "word": "螳螂",
+  "pinyin": "tángláng",
+  "meaning": "praying mantis",
+  "sentence": "螳螂举起前肢，一动不动地等着。",
+  "sentence_pinyin": "Tángláng jǔqǐ qiánzhī, yī dòng bú dòng de děng zhe.",
+  "english": "The mantis raised its forelegs and waited without moving.",
+  "from_book": false
+ },
+ {
+  "word": "电磁波",
+  "pinyin": "diàncíbō",
+  "meaning": "electromagnetic wave",
+  "sentence": "以上两个系统都是以包括可见光在内的电磁波作为广播媒介。",
+  "sentence_pinyin": "Yǐshàng liǎng gè xìtǒng dōu shì yǐ bāokuò kějiànguāng zài nèi de diàncíbō zuòwéi guǎngbō méijiè.",
+  "english": "Both of the systems above use electromagnetic waves, including visible light, as their broadcast medium.",
+  "from_book": true
+ },
+ {
+  "word": "翘曲",
+  "pinyin": "qiáoqū",
+  "meaning": "to warp; to buckle",
+  "sentence": "问题是：恐龙能找到翘曲点吗？",
+  "sentence_pinyin": "Wèntí shì: kǒnglóng néng zhǎodào qiáoqū diǎn ma?",
+  "english": "The question is: can the dinosaurs find the warp point?",
+  "from_book": true
+ },
+ {
+  "word": "叛军",
+  "pinyin": "pànjūn",
+  "meaning": "rebel army; insurgents",
+  "sentence": "对于地球三体叛军，各国政府一直没有给予足够的重视。",
+  "sentence_pinyin": "Duìyú Dìqiú Sāntǐ pànjūn, gèguó zhèngfǔ yīzhí méiyǒu jǐyǔ zúgòu de zhòngshì.",
+  "english": "Governments everywhere had never given the Earth-Trisolaris rebels enough attention.",
+  "from_book": true
+ },
+ {
+  "word": "黯淡",
+  "pinyin": "àndàn",
+  "meaning": "dim; gloomy; bleak",
+  "sentence": "光明灿烂的前景突然变得如此黯淡，使会场沉默了好久。",
+  "sentence_pinyin": "Guāngmíng cànlàn de qiánjǐng tūrán biàn de rúcǐ àndàn, shǐ huìchǎng chénmò le hǎojiǔ.",
+  "english": "The bright, splendid prospect suddenly turned so bleak that the hall fell silent for a long while.",
+  "from_book": true
+ },
+ {
+  "word": "蒸发",
+  "pinyin": "zhēngfā",
+  "meaning": "to evaporate; to vanish",
+  "sentence": "露珠在阳光下会很快蒸发消失。",
+  "sentence_pinyin": "Lùzhū zài yángguāng xià huì hěn kuài zhēngfā xiāoshī.",
+  "english": "Dewdrops evaporate and disappear quickly in the sunlight.",
+  "from_book": true
+ },
+ {
+  "word": "漆黑",
+  "pinyin": "qīhēi",
+  "meaning": "pitch-black; pitch-dark",
+  "sentence": "罗辑抬头看看，今天的夜空漆黑一片，几乎一颗星都看不到。",
+  "sentence_pinyin": "Luó Jí táitóu kànkan, jīntiān de yèkōng qīhēi yī piàn, jīhū yī kē xīng dōu kàn bú dào.",
+  "english": "Luo Ji looked up; tonight's sky was pitch-black, with hardly a single star visible.",
+  "from_book": true
+ },
+ {
+  "word": "舱室",
+  "pinyin": "cāngshì",
+  "meaning": "cabin; compartment",
+  "sentence": "现在，章北海和东方延绪就同在一间普通舱室中。",
+  "sentence_pinyin": "Xiànzài, Zhāng Běihǎi hé Dōngfāng Yánxù jiù tóng zài yī jiān pǔtōng cāngshì zhōng.",
+  "english": "Right now, Zhang Beihai and Dongfang Yanxu were together in one ordinary cabin.",
+  "from_book": true
+ },
+ {
+  "word": "熔化",
+  "pinyin": "rónghuà",
+  "meaning": "to melt (of metal or ice)",
+  "sentence": "一片强光亮起，光是从太空艇的底部发出的，那里在熔化！",
+  "sentence_pinyin": "Yī piàn qiángguāng liàngqǐ, guāng shì cóng tàikōngtǐng de dǐbù fāchū de, nàlǐ zài rónghuà!",
+  "english": "A blaze of light flared up, coming from the bottom of the space boat, which was melting!",
+  "from_book": true
+ },
+ {
+  "word": "褐蚁",
+  "pinyin": "hèyǐ",
+  "meaning": "brown ant",
+  "sentence": "这次褐蚁来到故地，只是觅食途中偶然路过而已。",
+  "sentence_pinyin": "Zhè cì hèyǐ láidào gùdì, zhǐshì mìshí túzhōng ǒurán lùguò éryǐ.",
+  "english": "This time the brown ant came back to its old haunt only by chance while foraging.",
+  "from_book": true
+ },
+ {
+  "word": "清澈",
+  "pinyin": "qīngchè",
+  "meaning": "clear; limpid",
+  "sentence": "车灯熄灭后，两人走下车，深秋的夜空中，星海很清澈。",
+  "sentence_pinyin": "Chēdēng xīmiè hòu, liǎng rén zǒu xià chē, shēnqiū de yèkōng zhōng, xīnghǎi hěn qīngchè.",
+  "english": "After the headlights went out, the two got out of the car; in the late-autumn night sky the sea of stars was crystal clear.",
+  "from_book": true
+ },
+ {
+  "word": "存贮",
+  "pinyin": "cúnzhù",
+  "meaning": "to store; storage",
+  "sentence": "如果存贮三体信息的设备，硬盘光盘之类的，也被切割呢？",
+  "sentence_pinyin": "Rúguǒ cúnzhù Sāntǐ xìnxī de shèbèi, yìngpán guāngpán zhīlèi de, yě bèi qiēgē ne?",
+  "english": "What if the equipment storing the Trisolaran information, hard drives and discs and the like, were cut apart too?",
+  "from_book": true
+ },
+ {
+  "word": "晚霞",
+  "pinyin": "wǎnxiá",
+  "meaning": "sunset glow; evening clouds",
+  "sentence": "孩子已经跑远，同草地一起沐浴在金色的晚霞之中。",
+  "sentence_pinyin": "Háizi yǐjīng pǎo yuǎn, tóng cǎodì yīqǐ mùyù zài jīnsè de wǎnxiá zhī zhōng.",
+  "english": "The child had already run far off, bathed along with the meadow in the golden sunset glow.",
+  "from_book": true
+ },
+ {
+  "word": "链",
+  "pinyin": "liàn",
+  "meaning": "chain; link",
+  "sentence": "弹链静静地躺在平台上，像两条金黄色的蛇。",
+  "sentence_pinyin": "Dànliàn jìngjìng de tǎng zài píngtái shàng, xiàng liǎng tiáo jīnhuángsè de shé.",
+  "english": "The ammunition belts lay quietly on the platform like two golden snakes.",
+  "from_book": true
+ },
+ {
+  "word": "舱门",
+  "pinyin": "cāngmén",
+  "meaning": "hatch; cabin door",
+  "sentence": "走出舱门，呼吸很顺畅，并没有感到空气的稀薄。",
+  "sentence_pinyin": "Zǒu chū cāngmén, hūxī hěn shùnchàng, bìng méiyǒu gǎndào kōngqì de xībó.",
+  "english": "Stepping out of the hatch, he breathed easily and did not feel that the air was thin.",
+  "from_book": true
+ },
+ {
+  "word": "头盔",
+  "pinyin": "tóukuī",
+  "meaning": "helmet",
+  "sentence": "关一帆为程心戴上头盔，这时，她的身体几乎冻僵了。",
+  "sentence_pinyin": "Guān Yīfān wèi Chéng Xīn dàishàng tóukuī, zhèshí, tā de shēntǐ jīhū dòngjiāng le.",
+  "english": "Guan Yifan put the helmet on Cheng Xin; by then her body was almost frozen stiff.",
+  "from_book": true
+ },
+ {
+  "word": "噩梦",
+  "pinyin": "èmèng",
+  "meaning": "nightmare",
+  "sentence": "其实，在这噩梦般的时刻，叶哲泰已倾向于相信它不存在了。",
+  "sentence_pinyin": "Qíshí, zài zhè èmèng bān de shíkè, Yè Zhétài yǐ qīngxiàng yú xiāngxìn tā bù cúnzài le.",
+  "english": "In fact, at that nightmarish moment, Ye Zhetai was already inclined to believe it did not exist.",
+  "from_book": true
+ },
+ {
+  "word": "大殿",
+  "pinyin": "dàdiàn",
+  "meaning": "main hall (of a temple or palace)",
+  "sentence": "大殿里立刻活跃起来，大家好像遇到了什么喜事。",
+  "sentence_pinyin": "Dàdiàn lǐ lìkè huóyuè qǐlái, dàjiā hǎoxiàng yùdào le shénme xǐshì.",
+  "english": "The great hall came alive at once, as if everyone had run into some happy occasion.",
+  "from_book": true
+ },
+ {
+  "word": "外壳",
+  "pinyin": "wàiké",
+  "meaning": "outer shell; casing; housing",
+  "sentence": "机器人的金属外壳上有一道裂缝。",
+  "sentence_pinyin": "Jīqìrén de jīnshǔ wàiké shàng yǒu yī dào lièfèng.",
+  "english": "There is a crack in the robot's metal shell.",
+  "from_book": false
+ },
+ {
+  "word": "残骸",
+  "pinyin": "cánhái",
+  "meaning": "wreckage; remains",
+  "sentence": "他们在海底找到了飞船的残骸。",
+  "sentence_pinyin": "Tāmen zài hǎidǐ zhǎodào le fēichuán de cánhái.",
+  "english": "They found the wreckage of the spacecraft on the seabed.",
+  "from_book": false
+ },
+ {
+  "word": "熵",
+  "pinyin": "shāng",
+  "meaning": "entropy",
+  "sentence": "低熵体都有清理基因，清理是它们的本能。",
+  "sentence_pinyin": "Dī shāng tǐ dōu yǒu qīnglǐ jīyīn, qīnglǐ shì tāmen de běnnéng.",
+  "english": "Low-entropy beings all carry a cleansing gene; cleansing is their instinct.",
+  "from_book": true
+ },
+ {
+  "word": "舷梯",
+  "pinyin": "xiántī",
+  "meaning": "gangway; boarding ladder",
+  "sentence": "章北海向常伟思敬礼后，转身走上舷梯。",
+  "sentence_pinyin": "Zhāng Běihǎi xiàng Cháng Wěisī jìnglǐ hòu, zhuǎnshēn zǒushàng xiántī.",
+  "english": "After saluting Chang Weisi, Zhang Beihai turned and walked up the gangway.",
+  "from_book": true
+ },
+ {
+  "word": "岩",
+  "pinyin": "yán",
+  "meaning": "rock; crag",
+  "sentence": "在这个深度已经没有土壤，只有密实的岩石。",
+  "sentence_pinyin": "Zài zhège shēndù yǐjīng méiyǒu tǔrǎng, zhǐyǒu mìshí de yánshí.",
+  "english": "At this depth there is no soil left, only dense rock.",
+  "from_book": true
+ },
+ {
+  "word": "面罩",
+  "pinyin": "miànzhào",
+  "meaning": "face mask; visor",
+  "sentence": "透过面罩可以看到，丁仪的额头上已满是冷汗。",
+  "sentence_pinyin": "Tòuguò miànzhào kěyǐ kàndào, Dīng Yí de étóu shàng yǐ mǎn shì lěnghàn.",
+  "english": "Through the visor one could see that Ding Yi's forehead was already covered in cold sweat.",
+  "from_book": true
+ },
+ {
+  "word": "宇宙学",
+  "pinyin": "yǔzhòuxué",
+  "meaning": "cosmology",
+  "sentence": "那是你们的宇宙学，但我们推翻了这个结论。",
+  "sentence_pinyin": "Nà shì nǐmen de yǔzhòuxué, dàn wǒmen tuīfān le zhège jiélùn.",
+  "english": "That is your cosmology, but we have overturned that conclusion.",
+  "from_book": true
+ },
+ {
+  "word": "稀薄",
+  "pinyin": "xībó",
+  "meaning": "thin; rarefied (of air)",
+  "sentence": "高原上空气稀薄，很多人会头晕。",
+  "sentence_pinyin": "Gāoyuán shàng kōngqì xībó, hěn duō rén huì tóuyūn.",
+  "english": "The air is thin on the plateau, and many people get dizzy.",
+  "from_book": false
+ },
+ {
+  "word": "躯体",
+  "pinyin": "qūtǐ",
+  "meaning": "body; physical form",
+  "sentence": "她彻底放弃了，让风吹透躯体，让阳光穿过灵魂。",
+  "sentence_pinyin": "Tā chèdǐ fàngqì le, ràng fēng chuī tòu qūtǐ, ràng yángguāng chuānguò línghún.",
+  "english": "She gave up completely, letting the wind blow through her body and the sunlight pass through her soul.",
+  "from_book": true
+ },
+ {
+  "word": "坠入",
+  "pinyin": "zhuìrù",
+  "meaning": "to fall into; to plunge into",
+  "sentence": "自己已经坠入深渊，应该能见到他了。",
+  "sentence_pinyin": "Zìjǐ yǐjīng zhuìrù shēnyuān, yīnggāi néng jiàndào tā le.",
+  "english": "Having already fallen into the abyss, he should be able to see him.",
+  "from_book": true
+ },
+ {
+  "word": "陛下",
+  "pinyin": "bìxià",
+  "meaning": "Your Majesty",
+  "sentence": "很好，运行正确，陛下，您的士兵很聪明！",
+  "sentence_pinyin": "Hěn hǎo, yùnxíng zhèngquè, bìxià, nín de shìbīng hěn cōngmíng!",
+  "english": "Very good, it runs correctly, Your Majesty; your soldiers are clever!",
+  "from_book": true
+ },
+ {
+  "word": "链接",
+  "pinyin": "liànjiē",
+  "meaning": "to link; link; connection",
+  "sentence": "这个链接已经打不开了。",
+  "sentence_pinyin": "Zhège liànjiē yǐjīng dǎ bù kāi le.",
+  "english": "This link doesn't open anymore.",
+  "from_book": false
+ },
+ {
+  "word": "恒星系",
+  "pinyin": "héngxīngxì",
+  "meaning": "star system; stellar system",
+  "sentence": "是的，扩散到了整个恒星系，我们陷在这里了。",
+  "sentence_pinyin": "Shì de, kuòsàn dào le zhěnggè héngxīngxì, wǒmen xiàn zài zhèlǐ le.",
+  "english": "Yes, it has spread through the entire star system; we're trapped here.",
+  "from_book": true
+ },
+ {
+  "word": "兆赫",
+  "pinyin": "zhàohè",
+  "meaning": "megahertz",
+  "sentence": "这个信号的频率是一千四百兆赫。",
+  "sentence_pinyin": "Zhège xìnhào de pínlǜ shì yīqiān sìbǎi zhàohè.",
+  "english": "This signal's frequency is 1,400 megahertz.",
+  "from_book": false
+ },
+ {
+  "word": "神迹",
+  "pinyin": "shénjì",
+  "meaning": "miracle; divine sign",
+  "sentence": "直到神迹出现，或者说她闯入了神迹。",
+  "sentence_pinyin": "Zhídào shénjì chūxiàn, huòzhě shuō tā chuǎngrù le shénjì.",
+  "english": "Until the miracle appeared, or rather, until she blundered into the miracle.",
+  "from_book": true
+ },
+ {
+  "word": "烈焰",
+  "pinyin": "lièyàn",
+  "meaning": "raging flames; blaze",
+  "sentence": "大楼在烈焰中很快塌了下去。",
+  "sentence_pinyin": "Dàlóu zài lièyàn zhōng hěn kuài tā le xiàqù.",
+  "english": "The building quickly collapsed amid the raging flames.",
+  "from_book": false
+ },
+ {
+  "word": "恒定",
+  "pinyin": "héngdìng",
+  "meaning": "constant; fixed",
+  "sentence": "宇宙的物质总量基本恒定，但生命却以指数增长！",
+  "sentence_pinyin": "Yǔzhòu de wùzhì zǒngliàng jīběn héngdìng, dàn shēngmìng què yǐ zhǐshù zēngzhǎng!",
+  "english": "The total amount of matter in the universe is basically constant, but life grows exponentially!",
+  "from_book": true
+ },
+ {
+  "word": "弧形",
+  "pinyin": "húxíng",
+  "meaning": "arc; curve; arc-shaped",
+  "sentence": "远处的地平线呈现出淡淡的弧形。",
+  "sentence_pinyin": "Yuǎnchù de dìpíngxiàn chéngxiàn chū dàndàn de húxíng.",
+  "english": "The distant horizon showed a faint arc.",
+  "from_book": false
+ },
+ {
+  "word": "苍白",
+  "pinyin": "cāngbái",
+  "meaning": "pale; pallid",
+  "sentence": "公主的脸色变得苍白。",
+  "sentence_pinyin": "Gōngzhǔ de liǎnsè biàn de cāngbái.",
+  "english": "The princess's face turned pale.",
+  "from_book": true
+ },
+ {
+  "word": "光斑",
+  "pinyin": "guāngbān",
+  "meaning": "spot of light; facula",
+  "sentence": "这个光斑在大陆上移动着，寻找着目标。",
+  "sentence_pinyin": "Zhège guāngbān zài dàlù shàng yídòng zhe, xúnzhǎo zhe mùbiāo.",
+  "english": "The spot of light moved across the continent, searching for a target.",
+  "from_book": true
+ },
+ {
+  "word": "坍缩",
+  "pinyin": "tānsuō",
+  "meaning": "to collapse (gravitationally)",
+  "sentence": "当然可以，大宇宙不会因为这五公斤就不坍缩了。",
+  "sentence_pinyin": "Dāngrán kěyǐ, dà yǔzhòu bú huì yīnwèi zhè wǔ gōngjīn jiù bù tānsuō le.",
+  "english": "Of course you can; the greater universe won't stop collapsing over these five kilograms.",
+  "from_book": true
+ },
+ {
+  "word": "面孔",
+  "pinyin": "miànkǒng",
+  "meaning": "face",
+  "sentence": "黑暗中我看不清他的面孔。",
+  "sentence_pinyin": "Hēi'àn zhōng wǒ kàn bù qīng tā de miànkǒng.",
+  "english": "In the darkness I couldn't make out his face.",
+  "from_book": false
+ },
+ {
+  "word": "摆锤",
+  "pinyin": "bǎichuí",
+  "meaning": "pendulum bob; pendulum",
+  "sentence": "巨大的摆锤在空中缓缓摆动。",
+  "sentence_pinyin": "Jùdà de bǎichuí zài kōngzhōng huǎnhuǎn bǎidòng.",
+  "english": "The huge pendulum bob swung slowly through the air.",
+  "from_book": false
+ },
+ {
+  "word": "潜伏",
+  "pinyin": "qiánfú",
+  "meaning": "to lie low; to lurk; to go undercover",
+  "sentence": "亨特知道，像自己这样的潜伏者，在古代的核潜艇中也有过。",
+  "sentence_pinyin": "Hēngtè zhīdào, xiàng zìjǐ zhèyàng de qiánfú zhě, zài gǔdài de hé qiántǐng zhōng yě yǒu guò.",
+  "english": "Hunter knew that infiltrators like himself had existed in the nuclear submarines of ancient times.",
+  "from_book": true
+ },
+ {
+  "word": "宇宙速度",
+  "pinyin": "yǔzhòu sùdù",
+  "meaning": "cosmic velocity; escape velocity",
+  "sentence": "第二宇宙速度是每秒十一公里。",
+  "sentence_pinyin": "Dì'èr yǔzhòu sùdù shì měi miǎo shíyī gōnglǐ.",
+  "english": "The second cosmic velocity is eleven kilometers per second.",
+  "from_book": false
+ },
+ {
+  "word": "颗粒",
+  "pinyin": "kēlì",
+  "meaning": "grain; granule; particle",
+  "sentence": "这些细小的颗粒在阳光下闪着光。",
+  "sentence_pinyin": "Zhèxiē xìxiǎo de kēlì zài yángguāng xià shǎn zhe guāng.",
+  "english": "These tiny grains glittered in the sunlight.",
+  "from_book": false
+ },
+ {
+  "word": "逃逸速度",
+  "pinyin": "táoyì sùdù",
+  "meaning": "escape velocity",
+  "sentence": "已经证实，脱离跌落区域的逃逸速度为光速。",
+  "sentence_pinyin": "Yǐjīng zhèngshí, tuōlí diēluò qūyù de táoyì sùdù wéi guāngsù.",
+  "english": "It has been confirmed that the escape velocity from the falling zone is the speed of light.",
+  "from_book": true
+ },
+ {
+  "word": "臂",
+  "pinyin": "bì",
+  "meaning": "arm",
+  "sentence": "关一帆急忙把手抽回，手和手臂都完好无损。",
+  "sentence_pinyin": "Guān Yīfān jímáng bǎ shǒu chōu huí, shǒu hé shǒubì dōu wánhǎo wúsǔn.",
+  "english": "Guan Yifan hurriedly pulled his hand back; his hand and arm were completely unharmed.",
+  "from_book": true
+ },
+ {
+  "word": "忏悔",
+  "pinyin": "chànhuǐ",
+  "meaning": "to repent; to confess",
+  "sentence": "那你是准备听我们忏悔了？",
+  "sentence_pinyin": "Nà nǐ shì zhǔnbèi tīng wǒmen chànhuǐ le?",
+  "english": "So you're prepared to hear our confession?",
+  "from_book": true
+ },
+ {
+  "word": "烟雾",
+  "pinyin": "yānwù",
+  "meaning": "smoke; fumes; mist",
+  "sentence": "史晓明从烟雾中抬起头，担心地看着父亲。",
+  "sentence_pinyin": "Shǐ Xiǎomíng cóng yānwù zhōng táiqǐ tóu, dānxīn de kànzhe fùqīn.",
+  "english": "Shi Xiaoming raised his head out of the smoke and looked at his father with concern.",
+  "from_book": true
+ },
+ {
+  "word": "无影无踪",
+  "pinyin": "wúyǐngwúzōng",
+  "meaning": "without a trace; vanished completely",
+  "sentence": "进入这个世界的入口无影无踪。",
+  "sentence_pinyin": "Jìnrù zhège shìjiè de rùkǒu wúyǐngwúzōng.",
+  "english": "The entrance into this world had vanished without a trace.",
+  "from_book": true
+ },
+ {
+  "word": "篝火",
+  "pinyin": "gōuhuǒ",
+  "meaning": "bonfire; campfire",
+  "sentence": "夜幕降临，大地上点点篝火与夜空渐密的群星相映。",
+  "sentence_pinyin": "Yèmù jiànglín, dàdì shàng diǎndiǎn gōuhuǒ yǔ yèkōng jiàn mì de qúnxīng xiāngyìng.",
+  "english": "As night fell, the scattered bonfires on the ground mirrored the thickening stars in the sky.",
+  "from_book": true
+ },
+ {
+  "word": "哨兵",
+  "pinyin": "shàobīng",
+  "meaning": "sentry; sentinel",
+  "sentence": "两名哨兵在他们通过后关上了两扇沉重的铁门。",
+  "sentence_pinyin": "Liǎng míng shàobīng zài tāmen tōngguò hòu guānshàng le liǎng shàn chénzhòng de tiěmén.",
+  "english": "Two sentries closed the two heavy iron doors after they passed through.",
+  "from_book": true
+ },
+ {
+  "word": "茫茫",
+  "pinyin": "mángmáng",
+  "meaning": "boundless; vast and hazy",
+  "sentence": "但愿她能记得，茫茫星海中，有一颗星星是属于她的。",
+  "sentence_pinyin": "Dànyuàn tā néng jìde, mángmáng xīnghǎi zhōng, yǒu yī kē xīngxing shì shǔyú tā de.",
+  "english": "May she remember that among the vast sea of stars, one star belongs to her.",
+  "from_book": true
+ },
+ {
+  "word": "唤醒",
+  "pinyin": "huànxǐng",
+  "meaning": "to wake sb up; to awaken",
+  "sentence": "当他们被唤醒时，飞船已经泊入了蓝星的轨道。",
+  "sentence_pinyin": "Dāng tāmen bèi huànxǐng shí, fēichuán yǐjīng bó rù le Lánxīng de guǐdào.",
+  "english": "When they were awakened, the ship had already settled into orbit around Blue Star.",
+  "from_book": true
+ },
+ {
+  "word": "撕裂",
+  "pinyin": "sīliè",
+  "meaning": "to tear; to rip apart",
+  "sentence": "巨大的风把帐篷撕裂了。",
+  "sentence_pinyin": "Jùdà de fēng bǎ zhàngpeng sīliè le.",
+  "english": "The powerful wind tore the tent apart.",
+  "from_book": false
+ },
+ {
+  "word": "涌出",
+  "pinyin": "yǒngchū",
+  "meaning": "to gush out; to pour forth",
+  "sentence": "外面只有蓝天白云，云都是从近处涌出，飘得很快。",
+  "sentence_pinyin": "Wàimiàn zhǐyǒu lántiān báiyún, yún dōu shì cóng jìnchù yǒngchū, piāo de hěn kuài.",
+  "english": "Outside there was only blue sky and white clouds; the clouds all gushed up from nearby and drifted past quickly.",
+  "from_book": true
+ },
+ {
+  "word": "肥皂泡",
+  "pinyin": "féizàopào",
+  "meaning": "soap bubble",
+  "sentence": "现在的关键问题是：为什么会有肥皂泡？",
+  "sentence_pinyin": "Xiànzài de guānjiàn wèntí shì: wèishénme huì yǒu féizàopào?",
+  "english": "The key question now is: why are there soap bubbles?",
+  "from_book": true
+ },
+ {
+  "word": "矩形",
+  "pinyin": "jǔxíng",
+  "meaning": "rectangle; rectangular",
+  "sentence": "舰队排成一个巨大的矩形。",
+  "sentence_pinyin": "Jiànduì pái chéng yī gè jùdà de jǔxíng.",
+  "english": "The fleet formed up into a huge rectangle.",
+  "from_book": false
+ },
+ {
+  "word": "凑近",
+  "pinyin": "còujìn",
+  "meaning": "to move close to; to lean in toward",
+  "sentence": "他凑近窗户，仔细看着外面。",
+  "sentence_pinyin": "Tā còujìn chuānghu, zǐxì kànzhe wàimiàn.",
+  "english": "He leaned close to the window and looked carefully outside.",
+  "from_book": false
+ },
+ {
+  "word": "眸子",
+  "pinyin": "móuzi",
+  "meaning": "pupil of the eye; eyes",
+  "sentence": "她的眸子里映着窗外的星光。",
+  "sentence_pinyin": "Tā de móuzi lǐ yìngzhe chuāngwài de xīngguāng.",
+  "english": "The starlight outside the window was reflected in her eyes.",
+  "from_book": false
+ },
+ {
+  "word": "盔甲",
+  "pinyin": "kuījiǎ",
+  "meaning": "armor; suit of armor",
+  "sentence": "卫兵的盔甲在火光中闪着寒光。",
+  "sentence_pinyin": "Wèibīng de kuījiǎ zài huǒguāng zhōng shǎnzhe hánguāng.",
+  "english": "The guard's armor glinted coldly in the firelight.",
+  "from_book": false
+ },
+ {
+  "word": "山脉",
+  "pinyin": "shānmài",
+  "meaning": "mountain range",
+  "sentence": "远处的山脉在晨雾中若隐若现。",
+  "sentence_pinyin": "Yuǎnchù de shānmài zài chénwù zhōng ruòyǐnruòxiàn.",
+  "english": "The distant mountain range faded in and out of the morning mist.",
+  "from_book": false
+ },
+ {
+  "word": "荒漠",
+  "pinyin": "huāngmò",
+  "meaning": "desert; barren wasteland",
+  "sentence": "时光飞逝中，没有沧海桑田的演变，只有金属般永恒的荒漠。",
+  "sentence_pinyin": "Shíguāng fēishì zhōng, méiyǒu cānghǎisāngtián de yǎnbiàn, zhǐyǒu jīnshǔ bān yǒnghéng de huāngmò.",
+  "english": "In the rush of time there was no transformation of seas into mulberry fields, only an eternal, metallic wasteland.",
+  "from_book": true
+ },
+ {
+  "word": "赤道",
+  "pinyin": "chìdào",
+  "meaning": "equator",
+  "sentence": "二十分钟后，星环号在赤道附近的陆地上着陆了。",
+  "sentence_pinyin": "Èrshí fēnzhōng hòu, Xīnghuán hào zài chìdào fùjìn de lùdì shàng zhuólù le.",
+  "english": "Twenty minutes later, the Halo landed on the ground near the equator.",
+  "from_book": true
+ },
+ {
+  "word": "纤细",
+  "pinyin": "xiānxì",
+  "meaning": "slender; fine; delicate",
+  "sentence": "三体文明的命运，就系于这纤细的两指之上。",
+  "sentence_pinyin": "Sāntǐ wénmíng de mìngyùn, jiù xì yú zhè xiānxì de liǎng zhǐ zhī shàng.",
+  "english": "The fate of the Trisolaran civilization hung on these two slender fingers.",
+  "from_book": true
+ },
+ {
+  "word": "苍穹",
+  "pinyin": "cāngqióng",
+  "meaning": "the firmament; the vault of heaven",
+  "sentence": "苍穹之上，群星之间，隐藏着神真正的名字。",
+  "sentence_pinyin": "Cāngqióng zhī shàng, qúnxīng zhī jiān, yǐncáng zhe shén zhēnzhèng de míngzi.",
+  "english": "Above the firmament, among the stars, God's true name lies hidden.",
+  "from_book": true
+ },
+ {
+  "word": "嘿嘿",
+  "pinyin": "hēihēi",
+  "meaning": "(onom.) heh heh; snicker",
+  "sentence": "史强暧昧地嘿嘿一笑，起身告辞了。",
+  "sentence_pinyin": "Shǐ Qiáng àimèi de hēihēi yī xiào, qǐshēn gàocí le.",
+  "english": "Shi Qiang gave an ambiguous little chuckle, got up, and took his leave.",
+  "from_book": true
+ },
+ {
+  "word": "缝隙",
+  "pinyin": "fèngxì",
+  "meaning": "crack; gap; chink",
+  "sentence": "她看到，铅云低垂的天边有一道露出蓝天的缝隙。",
+  "sentence_pinyin": "Tā kàndào, qiānyún dīchuí de tiānbiān yǒu yī dào lùchū lántiān de fèngxì.",
+  "english": "She saw a crack of blue sky at the horizon where the leaden clouds hung low.",
+  "from_book": true
+ },
+ {
+  "word": "绳索",
+  "pinyin": "shéngsuǒ",
+  "meaning": "rope; cord",
+  "sentence": "真的不会再有机会了，我掏出那叠钢锯，锯断了绳索。",
+  "sentence_pinyin": "Zhēn de bú huì zài yǒu jīhuì le, wǒ tāochū nà dié gāngjù, jù duàn le shéngsuǒ.",
+  "english": "There really wouldn't be another chance, so I pulled out that stack of hacksaw blades and sawed through the rope.",
+  "from_book": true
+ },
+ {
+  "word": "沐浴",
+  "pinyin": "mùyù",
+  "meaning": "to bathe; to be immersed in",
+  "sentence": "程心的童年沐浴在母爱的阳光中，但只有母爱。",
+  "sentence_pinyin": "Chéng Xīn de tóngnián mùyù zài mǔ'ài de yángguāng zhōng, dàn zhǐyǒu mǔ'ài.",
+  "english": "Cheng Xin's childhood was bathed in the sunlight of a mother's love, but only a mother's love.",
+  "from_book": true
+ },
+ {
+  "word": "暮色",
+  "pinyin": "mùsè",
+  "meaning": "dusk; twilight",
+  "sentence": "叶文洁在暮色中离去，走向她那最后的聚会。",
+  "sentence_pinyin": "Yè Wénjié zài mùsè zhōng líqù, zǒuxiàng tā nà zuìhòu de jùhuì.",
+  "english": "Ye Wenjie departed into the twilight, heading for her final gathering.",
+  "from_book": true
+ },
+ {
+  "word": "骚动",
+  "pinyin": "sāodòng",
+  "meaning": "commotion; disturbance; unrest",
+  "sentence": "小小的骚动后，城市又恢复了怡人的平静。",
+  "sentence_pinyin": "Xiǎoxiǎo de sāodòng hòu, chéngshì yòu huīfù le yírén de píngjìng.",
+  "english": "After the small commotion, the city returned to its pleasant calm.",
+  "from_book": true
+ },
+ {
+  "word": "遥望",
+  "pinyin": "yáowàng",
+  "meaning": "to gaze into the distance",
+  "sentence": "他站在山顶遥望远处的城市。",
+  "sentence_pinyin": "Tā zhàn zài shāndǐng yáowàng yuǎnchù de chéngshì.",
+  "english": "He stood on the mountaintop gazing at the distant city.",
+  "from_book": false
+ },
+ {
+  "word": "蚂蚁",
+  "pinyin": "mǎyǐ",
+  "meaning": "ant",
+  "sentence": "谁会注意到远处的三只小蚂蚁呢？",
+  "sentence_pinyin": "Shéi huì zhùyì dào yuǎnchù de sān zhī xiǎo mǎyǐ ne?",
+  "english": "Who would notice three little ants in the distance?",
+  "from_book": true
+ },
+ {
+  "word": "光锥",
+  "pinyin": "guāngzhuī",
+  "meaning": "light cone (physics)",
+  "sentence": "没办法，我们在光锥之外。",
+  "sentence_pinyin": "Méi bànfǎ, wǒmen zài guāngzhuī zhī wài.",
+  "english": "There's nothing to be done; we're outside the light cone.",
+  "from_book": true
+ },
+ {
+  "word": "歼击机",
+  "pinyin": "jiānjījī",
+  "meaning": "fighter plane",
+  "sentence": "歼击机在进入空中格斗状态时，要抛弃副油箱减轻重量。",
+  "sentence_pinyin": "Jiānjījī zài jìnrù kōngzhōng gédòu zhuàngtài shí, yào pāoqì fù yóuxiāng jiǎnqīng zhòngliàng.",
+  "english": "When a fighter plane enters air combat, it must jettison its drop tanks to reduce weight.",
+  "from_book": true
+ },
+ {
+  "word": "簿",
+  "pinyin": "bù",
+  "meaning": "register; ledger; account book",
+  "sentence": "程心和关一帆很快明白，这是一个宇宙文明的生死簿。",
+  "sentence_pinyin": "Chéng Xīn hé Guān Yīfān hěn kuài míngbai, zhè shì yī gè yǔzhòu wénmíng de shēngsǐbù.",
+  "english": "Cheng Xin and Guan Yifan quickly understood that this was a register of life and death for the civilizations of the universe.",
+  "from_book": true
+ },
+ {
+  "word": "白雾",
+  "pinyin": "báiwù",
+  "meaning": "white mist; white fog",
+  "sentence": "希恩斯茫然地看着周围的白雾。",
+  "sentence_pinyin": "Xī'ēnsī mángrán de kànzhe zhōuwéi de báiwù.",
+  "english": "Hines stared blankly at the white mist around him.",
+  "from_book": true
+ },
+ {
+  "word": "廊道",
+  "pinyin": "lángdào",
+  "meaning": "corridor; passageway",
+  "sentence": "他沿着长长的廊道一直走到尽头。",
+  "sentence_pinyin": "Tā yánzhe chángcháng de lángdào yīzhí zǒu dào jìntóu.",
+  "english": "He walked all the way to the end of the long corridor.",
+  "from_book": false
+ },
+ {
+  "word": "小艇",
+  "pinyin": "xiǎotǐng",
+  "meaning": "small boat; dinghy; launch",
+  "sentence": "他们乘小艇驶向对岸。",
+  "sentence_pinyin": "Tāmen chéng xiǎotǐng shǐ xiàng duì'àn.",
+  "english": "They took a small boat across to the opposite shore.",
+  "from_book": false
+ },
+ {
+  "word": "斗篷",
+  "pinyin": "dǒupeng",
+  "meaning": "cloak; cape",
+  "sentence": "两人最后来到一间阴暗的地堡，寒冷让狄奥伦娜裹紧了斗篷。",
+  "sentence_pinyin": "Liǎng rén zuìhòu láidào yī jiān yīn'àn de dìbǎo, hánlěng ràng Dí'àolúnnà guǒjǐn le dǒupeng.",
+  "english": "The two finally reached a dim bunker, where the cold made Deolena pull her cloak tight.",
+  "from_book": true
+ },
+ {
+  "word": "迷茫",
+  "pinyin": "mímáng",
+  "meaning": "at a loss; confused; hazy",
+  "sentence": "正像山杉惠子预料的那样，吴岳度过了苦闷迷茫的余生。",
+  "sentence_pinyin": "Zhèng xiàng Shānshān Huìzǐ yùliào de nàyàng, Wú Yuè dùguò le kǔmèn mímáng de yúshēng.",
+  "english": "Just as Keiko Yamasugi had predicted, Wu Yue spent the rest of his life in gloom and confusion.",
+  "from_book": true
+ },
+ {
+  "word": "遮挡",
+  "pinyin": "zhēdǎng",
+  "meaning": "to block; to shelter from",
+  "sentence": "这棵大树遮挡住了大半的阳光。",
+  "sentence_pinyin": "Zhè kē dàshù zhēdǎng zhù le dàbàn de yángguāng.",
+  "english": "This big tree blocked most of the sunlight.",
+  "from_book": false
+ },
+ {
+  "word": "睁开",
+  "pinyin": "zhēngkāi",
+  "meaning": "to open (one's eyes)",
+  "sentence": "她慢慢睁开眼睛看着我。",
+  "sentence_pinyin": "Tā mànmàn zhēngkāi yǎnjing kànzhe wǒ.",
+  "english": "She slowly opened her eyes and looked at me.",
+  "from_book": false
+ },
+ {
+  "word": "轰鸣",
+  "pinyin": "hōngmíng",
+  "meaning": "to rumble; roar; boom",
+  "sentence": "天空中的轰鸣声和火光消失了，发射告一段落。",
+  "sentence_pinyin": "Tiānkōng zhōng de hōngmíng shēng hé huǒguāng xiāoshī le, fāshè gào yī duànluò.",
+  "english": "The roar and firelight in the sky vanished; the launches had come to a pause.",
+  "from_book": true
+ },
+ {
+  "word": "浸透",
+  "pinyin": "jìntòu",
+  "meaning": "to soak; to saturate; to permeate",
+  "sentence": "浸透了火光的葡萄酒，呈现出一种只属于梦境的晶莹的深红。",
+  "sentence_pinyin": "Jìntòu le huǒguāng de pútaojiǔ, chéngxiàn chū yī zhǒng zhǐ shǔyú mèngjìng de jīngyíng de shēnhóng.",
+  "english": "The wine, steeped in firelight, took on a crystalline deep red that belongs only to dreams.",
+  "from_book": true
+ },
+ {
+  "word": "呗",
+  "pinyin": "bei",
+  "meaning": "(particle) that's all; obviously so",
+  "sentence": "取出来一部分，剩下的就冻着呗。",
+  "sentence_pinyin": "Qǔ chūlái yī bùfen, shèngxià de jiù dòngzhe bei.",
+  "english": "Take out a portion and just leave the rest frozen, that's all.",
+  "from_book": true
+ },
+ {
+  "word": "萤火虫",
+  "pinyin": "yínghuǒchóng",
+  "meaning": "firefly",
+  "sentence": "妈妈，我将变成萤火虫。",
+  "sentence_pinyin": "Māma, wǒ jiāng biànchéng yínghuǒchóng.",
+  "english": "Mama, I will become a firefly.",
+  "from_book": true
+ },
+ {
+  "word": "混沌",
+  "pinyin": "hùndùn",
+  "meaning": "chaos; primordial chaos; muddled",
+  "sentence": "宇宙诞生之前是一片混沌。",
+  "sentence_pinyin": "Yǔzhòu dànshēng zhīqián shì yī piàn hùndùn.",
+  "english": "Before the universe was born there was only chaos.",
+  "from_book": false
+ },
+ {
+  "word": "眩晕",
+  "pinyin": "xuànyùn",
+  "meaning": "vertigo; dizziness",
+  "sentence": "一阵眩晕和恶心又使他躺下了。",
+  "sentence_pinyin": "Yī zhèn xuànyùn hé ěxīn yòu shǐ tā tǎng xià le.",
+  "english": "A wave of vertigo and nausea forced him to lie back down.",
+  "from_book": true
+ },
+ {
+  "word": "匀速",
+  "pinyin": "yúnsù",
+  "meaning": "uniform velocity; constant speed",
+  "sentence": "运载舱几乎全程都是匀速直线运行。",
+  "sentence_pinyin": "Yùnzài cāng jīhū quánchéng dōu shì yúnsù zhíxiàn yùnxíng.",
+  "english": "The transport capsule traveled in a straight line at constant speed for almost the entire trip.",
+  "from_book": true
+ },
+ {
+  "word": "中尉",
+  "pinyin": "zhōngwèi",
+  "meaning": "lieutenant (military rank)",
+  "sentence": "一位叫艾克的中尉咕哝一声，转身走开了。",
+  "sentence_pinyin": "Yī wèi jiào Àikè de zhōngwèi gūnong yī shēng, zhuǎnshēn zǒukāi le.",
+  "english": "A lieutenant named Ike grunted, then turned and walked away.",
+  "from_book": true
+ },
+ {
+  "word": "军衔",
+  "pinyin": "jūnxián",
+  "meaning": "military rank",
+  "sentence": "他的军衔是上校，指挥着这艘战舰。",
+  "sentence_pinyin": "Tā de jūnxián shì shàngxiào, zhǐhuī zhe zhè sōu zhànjiàn.",
+  "english": "His military rank is colonel, and he commands this warship.",
+  "from_book": false
+ },
+ {
+  "word": "烧熔",
+  "pinyin": "shāoróng",
+  "meaning": "to melt down; to fuse by heat",
+  "sentence": "火团周围的几架穿梭机倒下了，可能是起落架被烧熔了。",
+  "sentence_pinyin": "Huǒ tuán zhōuwéi de jǐ jià chuānsuōjī dǎo xià le, kěnéng shì qǐluòjià bèi shāoróng le.",
+  "english": "Several shuttles around the fireball had toppled over; their landing gear had probably been melted.",
+  "from_book": true
+ },
+ {
+  "word": "水洼",
+  "pinyin": "shuǐwā",
+  "meaning": "puddle",
+  "sentence": "宇宙中只有这一个水洼吗？",
+  "sentence_pinyin": "Yǔzhòu zhōng zhǐyǒu zhè yī gè shuǐwā ma?",
+  "english": "Is this the only puddle in the universe?",
+  "from_book": true
+ },
+ {
+  "word": "呵",
+  "pinyin": "hē",
+  "meaning": "to breathe out; ha (laughter); to scold",
+  "sentence": "呵呵，不过我忘了，同一名面壁者这样讨论问题是很可笑的。",
+  "sentence_pinyin": "Hēhē, búguò wǒ wàng le, tóng yī míng Miànbìzhě zhèyàng tǎolùn wèntí shì hěn kěxiào de.",
+  "english": "Heh, but I forgot, it is absurd to discuss things this way with a Wallfacer.",
+  "from_book": true
+ },
+ {
+  "word": "笨拙",
+  "pinyin": "bènzhuō",
+  "meaning": "clumsy; awkward",
+  "sentence": "从科研角度看，太空中的这个大规模试验笨拙到弱智的程度。",
+  "sentence_pinyin": "Cóng kēyán jiǎodù kàn, tàikōng zhōng de zhège dà guīmó shìyàn bènzhuō dào ruòzhì de chéngdù.",
+  "english": "From a research standpoint, this large-scale experiment in space was clumsy to the point of idiocy.",
+  "from_book": true
+ },
+ {
+  "word": "骨骼",
+  "pinyin": "gǔgé",
+  "meaning": "bones; skeleton",
+  "sentence": "他的骨骼也变软了？",
+  "sentence_pinyin": "Tā de gǔgé yě biàn ruǎn le?",
+  "english": "Did his bones go soft too?",
+  "from_book": true
+ },
+ {
+  "word": "竖起",
+  "pinyin": "shùqǐ",
+  "meaning": "to erect; to set upright; to prick up",
+  "sentence": "当然，也可以把它看做一排竖起的头发。",
+  "sentence_pinyin": "Dāngrán, yě kěyǐ bǎ tā kànzuò yī pái shùqǐ de tóufa.",
+  "english": "Of course, you could also see it as a row of hair standing on end.",
+  "from_book": true
+ },
+ {
+  "word": "氮",
+  "pinyin": "dàn",
+  "meaning": "nitrogen",
+  "sentence": "这雪花已经是凝固的氧、氮了，大气层正在绝对零度中消失。",
+  "sentence_pinyin": "Zhè xuěhuā yǐjīng shì nínggù de yǎng, dàn le, dàqìcéng zhèngzài juéduì língdù zhōng xiāoshī.",
+  "english": "These snowflakes are already frozen oxygen and nitrogen; the atmosphere is vanishing into absolute zero.",
+  "from_book": true
+ },
+ {
+  "word": "轻盈",
+  "pinyin": "qīngyíng",
+  "meaning": "light; graceful; lithe",
+  "sentence": "她的舞步轻盈得像一片羽毛。",
+  "sentence_pinyin": "Tā de wǔbù qīngyíng de xiàng yī piàn yǔmáo.",
+  "english": "Her dance steps were as light as a feather.",
+  "from_book": false
+ },
+ {
+  "word": "吞噬",
+  "pinyin": "tūnshì",
+  "meaning": "to swallow; to engulf; to devour",
+  "sentence": "空中飘浮的无数小物体也都被龙卷风吞噬。",
+  "sentence_pinyin": "Kōngzhōng piāofú de wúshù xiǎo wùtǐ yě dōu bèi lóngjuǎnfēng tūnshì.",
+  "english": "The countless small objects floating in the air were all devoured by the tornado.",
+  "from_book": true
+ },
+ {
+  "word": "遮住",
+  "pinyin": "zhēzhù",
+  "meaning": "to cover; to block from view",
+  "sentence": "太阳被一小片黑云遮住了，在大地上投下一团移动的阴影。",
+  "sentence_pinyin": "Tàiyáng bèi yī xiǎo piàn hēi yún zhēzhù le, zài dàdì shàng tóu xià yī tuán yídòng de yīnyǐng.",
+  "english": "The sun was blocked by a small dark cloud, casting a moving patch of shadow on the ground.",
+  "from_book": true
+ },
+ {
+  "word": "靶标",
+  "pinyin": "bǎbiāo",
+  "meaning": "target",
+  "sentence": "激光准确地击中了远处的靶标。",
+  "sentence_pinyin": "Jīguāng zhǔnquè de jīzhòng le yuǎnchù de bǎbiāo.",
+  "english": "The laser accurately struck the distant target.",
+  "from_book": false
+ },
+ {
+  "word": "叠加",
+  "pinyin": "diéjiā",
+  "meaning": "to superimpose; superposition",
+  "sentence": "叠加的是一个正弦波。",
+  "sentence_pinyin": "Diéjiā de shì yī gè zhèngxiánbō.",
+  "english": "What was superimposed was a sine wave.",
+  "from_book": true
+ },
+ {
+  "word": "阈值",
+  "pinyin": "yùzhí",
+  "meaning": "threshold (value)",
+  "sentence": "当温度超过这个阈值时，系统会自动关闭。",
+  "sentence_pinyin": "Dāng wēndù chāoguò zhège yùzhí shí, xìtǒng huì zìdòng guānbì.",
+  "english": "When the temperature exceeds this threshold, the system shuts down automatically.",
+  "from_book": false
+ },
+ {
+  "word": "绚丽",
+  "pinyin": "xuànlì",
+  "meaning": "gorgeous; brilliantly colored",
+  "sentence": "那花朵虽然娇弱但是绚丽无比。",
+  "sentence_pinyin": "Nà huāduǒ suīrán jiāoruò dànshì xuànlì wúbǐ.",
+  "english": "Though the flower was delicate, it was incomparably brilliant.",
+  "from_book": true
+ },
+ {
+  "word": "宇宙飞船",
+  "pinyin": "yǔzhòu fēichuán",
+  "meaning": "spaceship; spacecraft",
+  "sentence": "初步判断这可能是一个废墟，被废弃已久的太空城或宇宙飞船。",
+  "sentence_pinyin": "Chūbù pànduàn zhè kěnéng shì yī gè fèixū, bèi fèiqì yǐ jiǔ de tàikōngchéng huò yǔzhòu fēichuán.",
+  "english": "The preliminary judgment was that this might be a ruin, a long-abandoned space city or spaceship.",
+  "from_book": true
+ },
+ {
+  "word": "甄别",
+  "pinyin": "zhēnbié",
+  "meaning": "to screen; to vet; to distinguish",
+  "sentence": "系统需要甄别真假信号。",
+  "sentence_pinyin": "Xìtǒng xūyào zhēnbié zhēn jiǎ xìnhào.",
+  "english": "The system needs to distinguish real signals from false ones.",
+  "from_book": false
+ },
+ {
+  "word": "衰变",
+  "pinyin": "shuāibiàn",
+  "meaning": "(radioactive) decay",
+  "sentence": "这种元素的衰变周期长达几千年。",
+  "sentence_pinyin": "Zhè zhǒng yuánsù de shuāibiàn zhōuqī cháng dá jǐ qiān nián.",
+  "english": "This element's decay period lasts for thousands of years.",
+  "from_book": false
+ },
+ {
+  "word": "晃动",
+  "pinyin": "huàngdòng",
+  "meaning": "to shake; to sway; to rock",
+  "sentence": "这时，他看到岸边有手电光在晃动，还听到有人的喊声。",
+  "sentence_pinyin": "Zhè shí, tā kàndào àn biān yǒu shǒudiàn guāng zài huàngdòng, hái tīngdào yǒurén de hǎnshēng.",
+  "english": "Just then he saw a flashlight beam swaying on the bank, and heard someone shouting.",
+  "from_book": true
+ },
+ {
+  "word": "上尉",
+  "pinyin": "shàngwèi",
+  "meaning": "captain (military rank)",
+  "sentence": "上尉，你在胡说什么？",
+  "sentence_pinyin": "Shàngwèi, nǐ zài húshuō shénme?",
+  "english": "Captain, what nonsense are you talking?",
+  "from_book": true
+ },
+ {
+  "word": "烛光",
+  "pinyin": "zhúguāng",
+  "meaning": "candlelight",
+  "sentence": "屋里只有烛光，映着两个人的影子。",
+  "sentence_pinyin": "Wū lǐ zhǐyǒu zhúguāng, yìng zhe liǎng gè rén de yǐngzi.",
+  "english": "There was only candlelight in the room, casting the shadows of two people.",
+  "from_book": false
+ },
+ {
+  "word": "旋臂",
+  "pinyin": "xuánbì",
+  "meaning": "spiral arm (of a galaxy)",
+  "sentence": "是的，这一带靠近猎户旋臂的中心，有两条繁忙的航线。",
+  "sentence_pinyin": "Shì de, zhè yīdài kàojìn Lièhù xuánbì de zhōngxīn, yǒu liǎng tiáo fánmáng de hángxiàn.",
+  "english": "Yes, this area is near the center of the Orion Arm, where two busy shipping lanes run.",
+  "from_book": true
+ },
+ {
+  "word": "锐利",
+  "pinyin": "ruìlì",
+  "meaning": "sharp; keen",
+  "sentence": "维德与那只巨眼对视着，目光冷酷锐利，还带着一丝嘲讽。",
+  "sentence_pinyin": "Wéidé yǔ nà zhī jù yǎn duìshì zhe, mùguāng lěngkù ruìlì, hái dài zhe yī sī cháofěng.",
+  "english": "Wade stared back at the giant eye, his gaze cold and sharp, with a trace of mockery.",
+  "from_book": true
+ },
+ {
+  "word": "彗星",
+  "pinyin": "huìxīng",
+  "meaning": "comet",
+  "sentence": "那颗彗星拖着长长的尾巴划过夜空。",
+  "sentence_pinyin": "Nà kē huìxīng tuō zhe chángcháng de wěiba huáguò yèkōng.",
+  "english": "The comet streaked across the night sky trailing a long tail.",
+  "from_book": false
+ },
+ {
+  "word": "伪",
+  "pinyin": "wěi",
+  "meaning": "false; fake; forged; puppet (regime)",
+  "sentence": "你以为她能在五年中一直伪装自己？",
+  "sentence_pinyin": "Nǐ yǐwéi tā néng zài wǔ nián zhōng yīzhí wěizhuāng zìjǐ?",
+  "english": "You think she could have kept up the pretense for five whole years?",
+  "from_book": true
+ },
+ {
+  "word": "魔法",
+  "pinyin": "mófǎ",
+  "meaning": "magic; sorcery",
+  "sentence": "在这之前约十小时，短暂的魔法时代也结束了。",
+  "sentence_pinyin": "Zài zhè zhīqián yuē shí xiǎoshí, duǎnzàn de mófǎ shídài yě jiéshù le.",
+  "english": "About ten hours before this, the brief age of magic also came to an end.",
+  "from_book": true
+ },
+ {
+  "word": "中轴线",
+  "pinyin": "zhōngzhóuxiàn",
+  "meaning": "central axis",
+  "sentence": "这条大街正好在城市的中轴线上。",
+  "sentence_pinyin": "Zhè tiáo dàjiē zhènghǎo zài chéngshì de zhōngzhóuxiàn shàng.",
+  "english": "This avenue lies exactly on the city's central axis.",
+  "from_book": false
+ },
+ {
+  "word": "拦住",
+  "pinyin": "lánzhù",
+  "meaning": "to stop; to block; to bar the way",
+  "sentence": "当罗辑来到会议中心的大门口时，史强和坎特拦住了他。",
+  "sentence_pinyin": "Dāng Luó Jí láidào huìyì zhōngxīn de dà ménkǒu shí, Shǐ Qiáng hé Kǎntè lánzhù le tā.",
+  "english": "When Luo Ji reached the main entrance of the conference center, Shi Qiang and Kent stopped him.",
+  "from_book": true
+ },
+ {
+  "word": "啥",
+  "pinyin": "shá",
+  "meaning": "what (dialectal)",
+  "sentence": "留个人守着就行了，都这么耗着能干啥？",
+  "sentence_pinyin": "Liú gè rén shǒu zhe jiù xíng le, dōu zhème hào zhe néng gàn shá?",
+  "english": "Leaving one person on watch is enough; what's the good of us all hanging around?",
+  "from_book": true
+ },
+ {
+  "word": "白痴",
+  "pinyin": "báichī",
+  "meaning": "idiot; idiocy",
+  "sentence": "我不能容忍这个白痴了！",
+  "sentence_pinyin": "Wǒ bù néng róngrěn zhège báichī le!",
+  "english": "I can't put up with this idiot any longer!",
+  "from_book": true
+ },
+ {
+  "word": "干涸",
+  "pinyin": "gānhé",
+  "meaning": "to dry up; to run dry",
+  "sentence": "海干了鱼就要聚集在水洼里，水洼也在干涸，鱼都将消失。",
+  "sentence_pinyin": "Hǎi gān le yú jiù yào jùjí zài shuǐwā lǐ, shuǐwā yě zài gānhé, yú dōu jiāng xiāoshī.",
+  "english": "When the sea dries up the fish gather in puddles, and as the puddles dry up too, the fish will all vanish.",
+  "from_book": true
+ },
+ {
+  "word": "凝重",
+  "pinyin": "níngzhòng",
+  "meaning": "grave; solemn; heavy (of atmosphere)",
+  "sentence": "会议室里的气氛十分凝重。",
+  "sentence_pinyin": "Huìyìshì lǐ de qìfēn shífēn níngzhòng.",
+  "english": "The atmosphere in the meeting room was extremely grave.",
+  "from_book": false
+ },
+ {
+  "word": "晨曦",
+  "pinyin": "chénxī",
+  "meaning": "first light of dawn; morning sunlight",
+  "sentence": "晨曦照出了门口哨兵那黑色的剪影。",
+  "sentence_pinyin": "Chénxī zhào chū le ménkǒu shàobīng nà hēisè de jiǎnyǐng.",
+  "english": "The first light of dawn picked out the black silhouette of the sentry at the door.",
+  "from_book": true
+ },
+ {
+  "word": "咔嚓",
+  "pinyin": "kāchā",
+  "meaning": "(onom.) snap; click",
+  "sentence": "咔嚓一声，树枝被压断了。",
+  "sentence_pinyin": "Kāchā yī shēng, shùzhī bèi yā duàn le.",
+  "english": "With a snap, the branch broke under the weight.",
+  "from_book": false
+ },
+ {
+  "word": "飞刃",
+  "pinyin": "fēirèn",
+  "meaning": "Flying Blade (nanomaterial in the novel)",
+  "sentence": "他们用飞刃切开了那艘船。",
+  "sentence_pinyin": "Tāmen yòng fēirèn qiē kāi le nà sōu chuán.",
+  "english": "They used Flying Blade to slice the ship open.",
+  "from_book": false
+ },
+ {
+  "word": "长袍",
+  "pinyin": "chángpáo",
+  "meaning": "long robe; gown",
+  "sentence": "穿古希腊长袍的人说，他有一头白色的鬈发。",
+  "sentence_pinyin": "Chuān gǔ Xīlà chángpáo de rén shuō, tā yǒu yī tóu báisè de quánfà.",
+  "english": "The man in the ancient Greek robe spoke; he had a head of white curly hair.",
+  "from_book": true
+ },
+ {
+  "word": "面面相觑",
+  "pinyin": "miànmiànxiāngqù",
+  "meaning": "to look at each other in dismay",
+  "sentence": "大家先是呆若木鸡，然后面面相觑。",
+  "sentence_pinyin": "Dàjiā xiān shì dāiruòmùjī, ránhòu miànmiànxiāngqù.",
+  "english": "Everyone was dumbstruck at first, then looked at each other in dismay.",
+  "from_book": true
+ },
+ {
+  "word": "树桩",
+  "pinyin": "shùzhuāng",
+  "meaning": "tree stump",
+  "sentence": "白沐霖指指大树桩空着的另一边对叶文洁说。",
+  "sentence_pinyin": "Bái Mùlín zhǐ zhǐ dà shùzhuāng kōng zhe de lìng yī biān duì Yè Wénjié shuō.",
+  "english": "Bai Mulin pointed at the empty side of the big tree stump as he spoke to Ye Wenjie.",
+  "from_book": true
+ },
+ {
+  "word": "嗒",
+  "pinyin": "dā",
+  "meaning": "(onom.) tick; clatter",
+  "sentence": "斐兹罗没有再说话，控制室中嘀嘀嗒嗒的声音现在让他很心烦。",
+  "sentence_pinyin": "Fěizīluó méiyǒu zài shuōhuà, kòngzhìshì zhōng dīdīdādā de shēngyīn xiànzài ràng tā hěn xīnfán.",
+  "english": "Fitzroy said nothing more; the ticking sounds in the control room now irritated him.",
+  "from_book": true
+ },
+ {
+  "word": "声嘶力竭",
+  "pinyin": "shēngsīlìjié",
+  "meaning": "to shout oneself hoarse",
+  "sentence": "牛顿声嘶力竭地发令。",
+  "sentence_pinyin": "Niúdùn shēngsīlìjié de fālìng.",
+  "english": "Newton bellowed out the order at the top of his lungs.",
+  "from_book": true
+ },
+ {
+  "word": "凄惨",
+  "pinyin": "qīcǎn",
+  "meaning": "wretched; miserable; tragic",
+  "sentence": "魏成居然笑了一下，凄惨的笑。",
+  "sentence_pinyin": "Wèi Chéng jūrán xiào le yīxià, qīcǎn de xiào.",
+  "english": "Wei Cheng actually laughed, a wretched laugh.",
+  "from_book": true
+ },
+ {
+  "word": "转瞬即逝",
+  "pinyin": "zhuǎnshùnjíshì",
+  "meaning": "fleeting; gone in an instant",
+  "sentence": "这个想法转瞬即逝，程心的思想随即被一道闪电照亮！",
+  "sentence_pinyin": "Zhège xiǎngfǎ zhuǎnshùnjíshì, Chéng Xīn de sīxiǎng suíjí bèi yī dào shǎndiàn zhàoliàng!",
+  "english": "The thought vanished in an instant, and then Cheng Xin's mind was lit up by a bolt of lightning!",
+  "from_book": true
+ },
+ {
+  "word": "雕像",
+  "pinyin": "diāoxiàng",
+  "meaning": "statue; sculpture",
+  "sentence": "广场中央立着一座巨大的雕像。",
+  "sentence_pinyin": "Guǎngchǎng zhōngyāng lì zhe yī zuò jùdà de diāoxiàng.",
+  "english": "A huge statue stands in the middle of the square.",
+  "from_book": false
+ },
+ {
+  "word": "朕",
+  "pinyin": "zhèn",
+  "meaning": "I; we (used by an emperor)",
+  "sentence": "朕的国家自计算开始后从来就没有脱水过！",
+  "sentence_pinyin": "Zhèn de guójiā zì jìsuàn kāishǐ hòu cónglái jiù méiyǒu tuōshuǐ guò!",
+  "english": "My realm has never once dehydrated since the calculations began!",
+  "from_book": true
+ },
+ {
+  "word": "冰晶",
+  "pinyin": "bīngjīng",
+  "meaning": "ice crystal",
+  "sentence": "不知道，检索不到有关天文尺度的冰晶聚合体知识。",
+  "sentence_pinyin": "Bù zhīdào, jiǎnsuǒ bú dào yǒuguān tiānwén chǐdù de bīngjīng jùhétǐ zhīshi.",
+  "english": "Unknown; no knowledge can be retrieved about ice-crystal aggregates on an astronomical scale.",
+  "from_book": true
+ },
+ {
+  "word": "光焰",
+  "pinyin": "guāngyàn",
+  "meaning": "blaze of light; flame",
+  "sentence": "爆炸的光焰照亮了整个夜空。",
+  "sentence_pinyin": "Bàozhà de guāngyàn zhàoliàng le zhěnggè yèkōng.",
+  "english": "The blaze of the explosion lit up the entire night sky.",
+  "from_book": false
+ },
+ {
+  "word": "溢出",
+  "pinyin": "yìchū",
+  "meaning": "to overflow; to spill over",
+  "sentence": "前天位置维持，四号公园的水又溢出来了，淹了一大片。",
+  "sentence_pinyin": "Qiántiān wèizhì wéichí, sì hào gōngyuán de shuǐ yòu yì chūlái le, yān le yī dà piàn.",
+  "english": "During the position-keeping burn the day before yesterday, the water in Park Four spilled over again and flooded a large area.",
+  "from_book": true
+ },
+ {
+  "word": "荒唐",
+  "pinyin": "huāngtáng",
+  "meaning": "absurd; preposterous",
+  "sentence": "很快，他们发现这想法并不像初看起来那么荒唐。",
+  "sentence_pinyin": "Hěn kuài, tāmen fāxiàn zhè xiǎngfǎ bìng bú xiàng chū kàn qǐlái nàme huāngtáng.",
+  "english": "Before long they found the idea was not as absurd as it had first seemed.",
+  "from_book": true
+ },
+ {
+  "word": "蒸汽机",
+  "pinyin": "zhēngqìjī",
+  "meaning": "steam engine",
+  "sentence": "蒸汽机的发明改变了整个世界。",
+  "sentence_pinyin": "Zhēngqìjī de fāmíng gǎibiàn le zhěnggè shìjiè.",
+  "english": "The invention of the steam engine changed the entire world.",
+  "from_book": false
+ },
+ {
+  "word": "卑微",
+  "pinyin": "bēiwēi",
+  "meaning": "lowly; humble",
+  "sentence": "他就有了使自己这卑微的生命燃烧一次的机会。",
+  "sentence_pinyin": "Tā jiù yǒu le shǐ zìjǐ zhè bēiwēi de shēngmìng ránshāo yī cì de jīhuì.",
+  "english": "He would then have the chance to let this lowly life of his blaze up just once.",
+  "from_book": true
+ },
+ {
+  "word": "草丛",
+  "pinyin": "cǎocóng",
+  "meaning": "clump of grass; underbrush",
+  "sentence": "程心把虫子轻轻放到旁边的草丛中，说，它在这里会给踩死的。",
+  "sentence_pinyin": "Chéng Xīn bǎ chóngzi qīngqīng fàng dào pángbiān de cǎocóng zhōng, shuō, tā zài zhèlǐ huì gěi cǎi sǐ de.",
+  "english": "Cheng Xin gently put the bug into the grass beside them, saying it would get stepped on here.",
+  "from_book": true
+ },
+ {
+  "word": "凝视",
+  "pinyin": "níngshì",
+  "meaning": "to gaze at; to stare fixedly",
+  "sentence": "雷迪亚兹凝视着烟头的火光点点头。",
+  "sentence_pinyin": "Léidíyàzī níngshì zhe yāntóu de huǒguāng diǎn diǎn tóu.",
+  "english": "Rey Diaz gazed at the glowing tip of his cigarette and nodded.",
+  "from_book": true
+ },
+ {
+  "word": "螺旋",
+  "pinyin": "luóxuán",
+  "meaning": "spiral; helix",
+  "sentence": "这段楼梯呈螺旋形向上延伸。",
+  "sentence_pinyin": "Zhè duàn lóutī chéng luóxuán xíng xiàngshàng yánshēn.",
+  "english": "This flight of stairs spirals upward.",
+  "from_book": false
+ },
+ {
+  "word": "飘行",
+  "pinyin": "piāoxíng",
+  "meaning": "to drift along; to float along",
+  "sentence": "低重力之下，他像是在雪地上飘行，不时用拐杖点地以减慢速度。",
+  "sentence_pinyin": "Dī zhònglì zhī xià, tā xiàng shì zài xuědì shàng piāoxíng, bùshí yòng guǎizhàng diǎn dì yǐ jiǎnmàn sùdù.",
+  "english": "In the low gravity he seemed to drift over the snow, tapping the ground with his cane now and then to slow down.",
+  "from_book": true
+ },
+ {
+  "word": "地堡",
+  "pinyin": "dìbǎo",
+  "meaning": "bunker; blockhouse",
+  "sentence": "他们来到了距王宫十多里的一处幽深的地堡中。",
+  "sentence_pinyin": "Tāmen láidào le jù wánggōng shí duō lǐ de yī chù yōushēn de dìbǎo zhōng.",
+  "english": "They arrived at a deep bunker more than ten li from the royal palace.",
+  "from_book": true
+ },
+ {
+  "word": "热泪盈眶",
+  "pinyin": "rèlèiyíngkuàng",
+  "meaning": "eyes brimming with tears",
+  "sentence": "西子的眼睛湿润了，三小时后将有几十亿人与她一样热泪盈眶。",
+  "sentence_pinyin": "Xīzi de yǎnjing shīrùn le, sān xiǎoshí hòu jiāng yǒu jǐ shí yì rén yǔ tā yīyàng rèlèiyíngkuàng.",
+  "english": "Xizi's eyes moistened; three hours later billions of people would have tears in their eyes just like her.",
+  "from_book": true
+ },
+ {
+  "word": "黑曜石",
+  "pinyin": "hēiyàoshí",
+  "meaning": "obsidian",
+  "sentence": "这把刀是用黑曜石做成的。",
+  "sentence_pinyin": "Zhè bǎ dāo shì yòng hēiyàoshí zuò chéng de.",
+  "english": "This knife is made of obsidian.",
+  "from_book": false
+ }
+]
