@@ -8,14 +8,16 @@ Chinese vocabulary study system built around HSK 3.0 levels 1-9, with integrated
 
 ## Key Numbers
 
+*Verified against the collection 2026-08-04. These drift — re-measure before relying on them.*
+
 | Metric | Count |
 |---|---|
-| Total cards | 259,035 |
-| Active (non-suspended) | ~20,000 |
-| Suspended (archived) | 238,551 |
-| Learning | 110 |
-| Review | 1,554 (214 due) |
-| New | 257,397 |
+| Total cards | 258,959 |
+| Active (non-suspended) | 22,173 |
+| Suspended (archived) | 236,786 |
+| Learning | 86 |
+| Review | 2,791 |
+| New | 256,052 |
 
 ---
 
@@ -23,12 +25,20 @@ Chinese vocabulary study system built around HSK 3.0 levels 1-9, with integrated
 
 Each deck uses a **Word** note type (Simplified, Pinyin, Meaning, POS, SentenceSimplified, SentencePinyin, SentenceMeaning, Frequency, Notes, Audio) and a **Cloze** note type for sentence practice.
 
-| Deck | Cards | Description |
-|---|---|---|
-| **HSK** | 5,705 | HSK 3.0 levels 1-6. Single-character words excluded (studied in Hanly). Sorted by level then frequency. |
-| **HSK7-9** | 4,790 | HSK 7-9 word cards + 47 orphan character cards. All tagged `HSK::HSK7-9`. |
-| **non-HSK** | 10,964 | Frequency-ordered vocab not in HSK 3.0 1-9. Sorted by frequency (high to low). |
-| **Vocab Cloze** | 16,656 | Cloze-deleted sentence cards from all above sources. |
+Counts as of 2026-08-04. **Active** = non-suspended; the gap matters most for `Vocab Cloze`,
+where 94% of the deck is suspended and the raw card count badly overstates what is in play.
+
+| Deck | Cards | Active | Preset (new/day) | Description |
+|---|---|---|---|---|
+| **HSK** | 5,005 | 4,710 | `HSK (25/day)` — 25 | HSK 3.0 levels 1-6. Single-character words excluded (studied in Hanly). Sorted by level then frequency. |
+| **HSK7-9** | 5,674 | 5,525 | `HSK` — 10 | HSK 7-9 word cards + orphan character cards. All tagged `HSK::HSK7-9`. |
+| **non-HSK** | 11,609 | 9,299 | `HSK` — 10 | Frequency-ordered vocab not in HSK 3.0 1-9. Sorted by frequency (high to low). |
+| **Vocab Cloze** | 16,749 | **989** | `HSK` — 10 | Cloze-Recall (ord-2) cards from all above sources. Production direction. |
+| **Mined** (+ `::三体`, `::十日终焉`) | 503 | 463 | mixed | Mining targets; `Mined::三体` is the one deck on the `Default` preset. |
+
+Note the two distinct presets whose names both begin `HSK`: `HSK (25/day)` drives the HSK deck
+alone; the plain `HSK` preset (10/day) is shared by nearly everything else — including
+`Vocab Cloze`. A "10/day" change made on the shared preset therefore moves several decks at once.
 
 ## Archived Decks (Hidden, all suspended)
 
@@ -70,11 +80,41 @@ Templates: `Hanzi-English` (ord 0) · `English-Speaking` (ord 1, "Express this i
 it out loud") · `Cloze-Recall` (ord 2). Ords 1 and 2 are both **production-direction** drills —
 cue is the meaning, you generate the Chinese aloud — as opposed to ord 0's recognition.
 
-### `Vocab Cloze::Connectives` (2026-07-31) — 61 cards
+**External consumer (2026-08-04):** comprehensiblemandarin's Write module reads `Vocab Cloze`
+through anki-bot's `GET /api/deck/{name}/words?ord=2` to source its vocabulary writing prompts —
+it wants the production direction, so it must pass `ord=2` explicitly (the param defaults to 0).
+Because the deck holds *only* ord-2 cards, an ord-0 query against it returns `[]`, which is
+indistinguishable from a missing deck — that ambiguity is exactly the bug the param was added to
+fix. Contract in `~/chinese-projects/APIS.md`; only the 25 studied cards are eligible, per the
+status>=1 filter, which is why that consumer's word pool is small.
+
+### The connectives set (2026-07-31) — built as `Vocab Cloze::Connectives`, since dissolved
+
+> **Status 2026-08-04: the subdeck no longer exists.** No deck matching `Connectives` is in the
+> collection. Its cards now sit directly in the parent `Vocab Cloze`, and **the isolation that
+> was the whole point of the subdeck is gone** — `Vocab Cloze` runs on the shared `HSK` preset
+> (10/day), not `Default`. The connectives no longer have their own daily allocation; they
+> queue behind ~963 other unsuspended new cloze cards competing for the same 10/day.
+>
+> The visible consequence: of `Vocab Cloze`'s 16,749 cards, only **25 have ever been studied**
+> (3 learning, 22 review) and 15,760 are suspended. Of the connectives named below, only
+> 然而 / 从而 / 尽管 have entered learning; 此外 反之 换句话说 由此可见 相对而言 综上所述
+> 未必 毕竟 势必 一般而言 总的来说 诚然 具体而言 总体而言 在某种程度上 are all still new
+> and unsuspended — queued, but behind everything else.
+>
+> The exclusion of the already-mature ones was implemented by **suspension**, and only partly:
+> 因此 / 于是 / 否则 are suspended as intended, but 不过 / 而且 / 另外 are unsuspended and new,
+> so they are back in the queue despite being known. If you rebuild this set, that inconsistency
+> is the thing to fix first.
+>
+> Whether the subdeck was merged deliberately or lost in a later reorganization is not recorded.
+> The paragraphs below describe the **build** as performed on 2026-07-31 and remain accurate as
+> history — including the note-level repairs, which persist in the collection.
 
 Cloze-Recall cards for written-register discourse glue: logical connectives → formal frames →
 stance adverbs (然而 从而 尽管 此外 反之 换句话说 由此可见 相对而言 综上所述 未必 毕竟 势必 …).
-Own subdeck on the `Default` preset (10/day), isolated from the shared `HSK` preset.
+Built as its own subdeck on the `Default` preset (10/day), isolated from the shared `HSK` preset
+— see the status note above for why that description no longer holds.
 
 Selection rule: a connective that is **not yet mature** *and* **has a cloze sentence**. Twelve
 already-mature ones (因此 于是 不过 而且 另外 否则 …) are deliberately excluded — they're known.

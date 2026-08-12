@@ -78,7 +78,7 @@ CONFIG = load_config()
 TELEGRAM_TOKEN = CONFIG["telegram_bot_token"]
 ANTHROPIC_KEY = CONFIG["anthropic_api_key"]
 DEFAULT_DECK = CONFIG.get("default_deck", DEFAULT_DECK)
-API_KEY = CONFIG.get("api_key", "")
+API_KEY = (CONFIG.get("api_key") or "").strip()
 API_PORT = CONFIG.get("api_port", 8103)
 
 claude = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
@@ -1567,11 +1567,28 @@ async def run_api_conversation(word: str, context: str = "") -> dict:
 
 # ── HTTP API server ───────────────────────────────────────────────────
 
+def _bearer_token(header_value):
+    """Token out of an `Authorization: Bearer <token>` header, or None if the scheme
+    isn't Bearer. A bare `Bearer` with nothing after it yields "" (not None) so it
+    compares equal to an empty API_KEY.
+
+    This exists because the previous check was `auth != f'Bearer {API_KEY}'` — a raw
+    string compare against the *whole* header. With API_KEY empty that expects the
+    literal `'Bearer '` WITH a trailing space, so callers only authenticated if their
+    HTTP client preserved trailing header whitespace. curl, urllib and node-fetch do;
+    the WHATWG fetch spec says to strip it, so Node's built-in fetch (undici) sends
+    `'Bearer'` and got a 401. Auth correctness must not depend on which client the
+    caller happens to use, so parse the token and compare that instead."""
+    parts = (header_value or "").strip().split(None, 1)
+    if not parts or parts[0].lower() != "bearer":
+        return None
+    return parts[1].strip() if len(parts) > 1 else ""
+
+
 @web.middleware
 async def auth_middleware(request, handler):
     if request.path.startswith('/api/'):
-        auth = request.headers.get('Authorization', '')
-        if auth != f'Bearer {API_KEY}':
+        if _bearer_token(request.headers.get('Authorization', '')) != API_KEY:
             return web.json_response({"error": "unauthorized"}, status=401)
     return await handler(request)
 
@@ -1775,13 +1792,15 @@ def _stats_progression(col, deck_ids, cv_id, now):
     return out
 
 
-def _deck_stats(deck_names, model_name, now):
+def _deck_stats(deck_names, model_name, now, days_window=30):
     """Core of GET /api/stats. Opens the collection once and computes counts, per-card
     word lists, weekly/daily review activity and maturity progression jointly over
     `deck_names`. A deck name absent from the collection (col.decks.id_for_name
     returns None) comes back as an all-zero/empty block, matching build_stats'
     handling of a missing deck exactly — not an error. Same for a missing model name
-    (col.models.by_name returns None): the -1 sentinel id just matches nothing."""
+    (col.models.by_name returns None): the -1 sentinel id just matches nothing.
+    `days_window` sets the daily-series window (default 30 — the historical
+    contract); the dashboard's range views request more via ?days=."""
     col = open_collection()
     try:
         cv = col.models.by_name(model_name)
@@ -1829,7 +1848,7 @@ def _deck_stats(deck_names, model_name, now):
         valid_ids = [did for did in deck_ids.values() if did is not None]
 
         days = collections.OrderedDict()
-        for i in range(29, -1, -1):
+        for i in range(days_window - 1, -1, -1):
             d = _stats_day(now - i * 86400)
             days[d] = {"date": d, "reviews": 0, "new": 0, "ms": 0}
         recent = {name: [] for name in deck_names}
@@ -1854,7 +1873,7 @@ def _deck_stats(deck_names, model_name, now):
             # gives real Anki study MINUTES — the unit reading/listening/video/writing already
             # report, which is what lets the dashboard stack all five activities on one axis
             # instead of pairing reviews against minutes on a second scale.
-            m30 = (now - 30 * 86400) * 1000
+            m30 = (now - days_window * 86400) * 1000
             for rid, ease, rtype, liv, rtime in col.db.all(
                     f"SELECT r.id, r.ease, r.type, r.lastIvl, r.time FROM revlog r JOIN cards c ON r.cid=c.id "
                     f"WHERE r.id>? AND c.did IN ({ph}) AND c.ord=0 AND r.ease>0", m30, *valid_ids):
@@ -1887,17 +1906,17 @@ def _deck_stats(deck_names, model_name, now):
         col.close()
 
 
-def _cached_deck_stats(deck_names, model_name):
+def _cached_deck_stats(deck_names, model_name, days_window=30):
     """Best-effort cache wrapper around _deck_stats: if the collection is briefly
     locked, serve the last snapshot instead of raising — same idea as
     _vocab_status_map. Only propagates the exception when there's nothing cached."""
-    key = (tuple(deck_names), model_name)
+    key = (tuple(deck_names), model_name, days_window)
     now = time.time()
     cached = _stats_cache.get(key)
     if cached and now - cached["ts"] < STATS_CACHE_TTL:
         return cached["data"]
     try:
-        data = _deck_stats(deck_names, model_name, now)
+        data = _deck_stats(deck_names, model_name, now, days_window)
     except Exception as e:
         log.warning(f"deck stats: collection unavailable ({e}); serving cached snapshot")
         if cached:
@@ -1916,8 +1935,13 @@ async def handle_api_stats(request):
     raw = request.query.get("decks", "HSK,HSK7-9,non-HSK,Mined")
     deck_names = [d.strip() for d in raw.split(",") if d.strip()] or ["HSK", "HSK7-9", "non-HSK", "Mined"]
     model_name = request.query.get("model", "ChineseVocabulary").strip() or "ChineseVocabulary"
+    # ?days= widens the daily series (dashboard range views); default stays 30.
     try:
-        data = await asyncio.to_thread(_cached_deck_stats, deck_names, model_name)
+        days_window = max(1, min(3660, int(request.query.get("days", "30"))))
+    except ValueError:
+        days_window = 30
+    try:
+        data = await asyncio.to_thread(_cached_deck_stats, deck_names, model_name, days_window)
     except Exception as e:
         log.warning(f"/api/stats: collection unavailable ({e})")
         return web.json_response({"error": "collection locked"}, status=503)
@@ -1932,14 +1956,21 @@ async def handle_api_sync(request):
     independently as the backstop."""
     result = await asyncio.to_thread(_sync_collection)
     _stats_cache.clear()
+    _flagged_cache.clear()  # flags are edited on other devices too, not just reviews
     log.info(f"On-demand sync (dashboard): {result}")
     return web.json_response({"result": result})
 
 
-def _deck_word_list(deck_name, model_name):
-    """[{simplified, pinyin, meaning, status}] for ord=0 cards of one deck/model —
-    same field extraction as _deck_stats' deck_words, plus the note's Meaning field
-    (CHINESE_VOCAB_FIELDS field index 2)."""
+def _deck_word_list(deck_name, model_name, ord_=0):
+    """[{simplified, pinyin, meaning, status}] for one deck/model's cards at template
+    `ord_` — same field extraction as _deck_stats' deck_words, plus the note's Meaning
+    field (CHINESE_VOCAB_FIELDS field index 2).
+
+    ord_ defaults to 0 (Hanzi-English, the recognition direction) — every caller
+    predating this argument wants that. Pass 2 for Cloze-Recall, the production
+    direction: `Vocab Cloze` holds *only* ord-2 cards, so an ord-0 query against it
+    returns [] and looks indistinguishable from a missing deck (see DECK_REFERENCE —
+    the note type is still ChineseVocabulary, the direction lives in the template)."""
     col = open_collection()
     try:
         cv = col.models.by_name(model_name)
@@ -1950,7 +1981,7 @@ def _deck_word_list(deck_name, model_name):
         out = []
         for sfld, flds, ctype, ivl in col.db.all(
                 "SELECT n.sfld, n.flds, c.type, c.ivl FROM cards c JOIN notes n ON n.id=c.nid "
-                "WHERE c.did=? AND c.ord=0 AND n.mid=? ORDER BY n.id DESC", did, cv_id):
+                "WHERE c.did=? AND c.ord=? AND n.mid=? ORDER BY n.id DESC", did, ord_, cv_id):
             parts = flds.split("\x1f")
             pinyin = parts[1] if len(parts) > 1 else ""
             meaning = parts[2] if len(parts) > 2 else ""
@@ -1959,6 +1990,102 @@ def _deck_word_list(deck_name, model_name):
         return out
     finally:
         col.close()
+
+
+# ── /api/flagged: the hand-flagged "come back to this" pile ────────────────
+# Anki keeps the flag colour in the low 3 bits of cards.flags (0 = unflagged, 1-7 in
+# the order the Anki UI lists them); the upper bits are unrelated, so every read here
+# masks with & 7.
+#
+# Deliberately NOT scoped to the study decks or the vocab note type the way
+# /api/stats is: a flag is a hand-placed mark, so one left on a card in any deck is
+# exactly the thing worth surfacing — scoping it would silently hide the flags most
+# likely to be forgotten. Pinyin/meaning are only read for `model_name` notes (the
+# field order is that note type's); other note types fall back to the sort field.
+FLAG_NAMES = {1: "Red", 2: "Orange", 3: "Green", 4: "Blue",
+              5: "Pink", 6: "Turquoise", 7: "Purple"}
+_flagged_cache = {}  # model_name -> {"ts": float, "data": dict}
+FLAGGED_CACHE_TTL = 60.0
+_TAG_RE = re.compile(r"<!--.*?-->|<[^>]+>", re.S)
+
+
+def _plain(s):
+    """Field text with its HTML stripped — tone <span>s, <br>, and the trailing
+    <!--zai yu--> the Chinese-support add-on leaves in Pinyin. Consumers escape what
+    they render, so an unstripped field shows its own markup on the page."""
+    return re.sub(r"\s+", " ", _TAG_RE.sub(" ", s or "")).strip()
+
+
+def _flagged_cards(model_name):
+    """{total, by_flag, cards} for every flagged card in the collection."""
+    col = open_collection()
+    try:
+        cv = col.models.by_name(model_name)
+        cv_id = cv["id"] if cv else -1
+        dnames = {}
+
+        def deck_name(did):
+            if did not in dnames:
+                dnames[did] = col.decks.name(did)
+            return dnames[did]
+
+        cards, counts = [], collections.Counter()
+        # Ordered by flag then newest note first, so the list reads the way the flags
+        # were meant to be worked through rather than in collection order.
+        for flags, ord_, ctype, ivl, queue, did, mid, sfld, flds in col.db.all(
+                "SELECT c.flags, c.ord, c.type, c.ivl, c.queue, c.did, n.mid, n.sfld, n.flds "
+                "FROM cards c JOIN notes n ON n.id=c.nid "
+                "WHERE c.flags & 7 > 0 ORDER BY c.flags & 7, n.id DESC"):
+            f = flags & 7
+            counts[f] += 1
+            pinyin = meaning = ""
+            if mid == cv_id:
+                parts = flds.split("\x1f")
+                pinyin = parts[1] if len(parts) > 1 else ""
+                meaning = parts[2] if len(parts) > 2 else ""
+            # Same `s` encoding as _deck_stats' deck_words (2=mature, 1=seen, 0=new), so
+            # the dashboard can style a flagged word exactly like it does elsewhere.
+            s = 2 if (ctype == 2 and ivl >= 21) else (1 if ctype in (1, 2) else 0)
+            cards.append({"w": _plain(sfld), "p": _plain(pinyin), "m": _plain(meaning), "s": s,
+                          "flag": f, "flag_name": FLAG_NAMES.get(f, str(f)),
+                          "deck": deck_name(did), "ord": ord_,
+                          "suspended": queue == -1})
+        return {"total": len(cards),
+                "by_flag": [{"flag": f, "name": FLAG_NAMES.get(f, str(f)), "count": n}
+                            for f, n in sorted(counts.items())],
+                "cards": cards}
+    finally:
+        col.close()
+
+
+def _cached_flagged_cards(model_name):
+    """Best-effort cache around _flagged_cards, same contract as _cached_deck_stats:
+    a briefly-locked collection serves the last snapshot instead of raising."""
+    now = time.time()
+    cached = _flagged_cache.get(model_name)
+    if cached and now - cached["ts"] < FLAGGED_CACHE_TTL:
+        return cached["data"]
+    try:
+        data = _flagged_cards(model_name)
+    except Exception as e:
+        log.warning(f"flagged cards: collection unavailable ({e}); serving cached snapshot")
+        if cached:
+            return cached["data"]
+        raise
+    _flagged_cache[model_name] = {"ts": now, "data": data}
+    return data
+
+
+async def handle_api_flagged(request):
+    """GET /api/flagged?model=ChineseVocabulary — every flagged card in the
+    collection, grouped by flag colour. Read-only; cached ~60s per model."""
+    model_name = request.query.get("model", "ChineseVocabulary").strip() or "ChineseVocabulary"
+    try:
+        data = await asyncio.to_thread(_cached_flagged_cards, model_name)
+    except Exception as e:
+        log.warning(f"/api/flagged: collection unavailable ({e})")
+        return web.json_response({"error": "collection locked"}, status=503)
+    return web.json_response(data, dumps=lambda o: json.dumps(o, ensure_ascii=False))
 
 
 # ── /api/hsk-levels: per-HSK-3.0-level familiarity ─────────────────────────
@@ -2076,17 +2203,28 @@ async def handle_api_hsk_levels(request):
 
 
 async def handle_api_deck_words(request):
-    """GET /api/deck/{name}/words?model=ChineseVocabulary — full per-card word list
-    for one deck (drill-down for the dashboard). aiohttp already URL-decodes the
-    {name} path segment. Missing deck -> {"deck": name, "words": []}, not an error."""
+    """GET /api/deck/{name}/words?model=ChineseVocabulary&ord=0 — full per-card word
+    list for one deck (drill-down for the dashboard). aiohttp already URL-decodes the
+    {name} path segment. Missing deck -> {"deck": name, "words": []}, not an error.
+
+    `ord` selects the card template and defaults to 0 (recognition), so callers that
+    predate it are unaffected; comprehensiblemandarin's Write module passes ord=2 to
+    read `Vocab Cloze`'s production-direction cards. A non-integer ord is a 400 rather
+    than a silent fallback to 0 — quietly serving the recognition deck to a caller that
+    asked for production would be wrong in exactly the way that's hard to notice."""
     deck_name = request.match_info["name"]
     model_name = request.query.get("model", "ChineseVocabulary").strip() or "ChineseVocabulary"
+    raw_ord = request.query.get("ord", "0").strip() or "0"
     try:
-        words = await asyncio.to_thread(_deck_word_list, deck_name, model_name)
+        ord_ = int(raw_ord)
+    except ValueError:
+        return web.json_response({"error": f"ord must be an integer, got {raw_ord!r}"}, status=400)
+    try:
+        words = await asyncio.to_thread(_deck_word_list, deck_name, model_name, ord_)
     except Exception as e:
         log.warning(f"/api/deck/{deck_name}/words: collection unavailable ({e})")
         return web.json_response({"error": "collection locked"}, status=503)
-    return web.json_response({"deck": deck_name, "words": words},
+    return web.json_response({"deck": deck_name, "ord": ord_, "words": words},
                               dumps=lambda o: json.dumps(o, ensure_ascii=False))
 
 
@@ -2097,6 +2235,7 @@ def create_web_app():
     app.router.add_get('/api/stats', handle_api_stats)
     app.router.add_post('/api/sync', handle_api_sync)
     app.router.add_get('/api/hsk-levels', handle_api_hsk_levels)
+    app.router.add_get('/api/flagged', handle_api_flagged)
     app.router.add_get('/api/deck/{name}/words', handle_api_deck_words)
     app.router.add_get('/health', handle_health)
     return app
@@ -2508,6 +2647,14 @@ async def main_async():
     site = web.TCPSite(runner, '127.0.0.1', API_PORT)
     await site.start()
     log.info(f"API server listening on 127.0.0.1:{API_PORT}")
+    if API_KEY:
+        log.info("API auth: bearer key configured")
+    else:
+        # Not fatal — the 127.0.0.1 bind is the real boundary — but say it out loud
+        # so an empty key is a visible choice rather than something discovered later
+        # while debugging a 401 (or worse, not discovered at all).
+        log.warning("API auth: api_key is EMPTY in .bot_config.json — every local "
+                    "process can call /api/*; only the 127.0.0.1 bind restricts access")
 
     # Start Telegram polling (the 3 steps that run_polling() wraps)
     await tg_app.initialize()

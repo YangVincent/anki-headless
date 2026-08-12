@@ -5,6 +5,11 @@ collection.media.db2
 
 # Secrets
 .bot_config.json
+# Backups of the above hold the same secrets (telegram token, anthropic key, api_key)
+# but are not covered by the bare filename above — ignore them explicitly.
+.bot_config.json.bak-*
+.bot_config.json.*.bak
+.bot_config.json.tmp
 
 # Python
 .venv/
