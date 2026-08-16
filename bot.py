@@ -1078,7 +1078,14 @@ def execute_tool(tool_name, tool_input):
                         "tags": note.tags,
                         "deck": deck_name,
                         "note_type": model["name"],
-                        "suspended": any(c.queue == -1 for c in cards),
+                        # A note counts as suspended only if EVERY card is. This bot
+                        # suspends the reverse (ord 1) and cloze (ord 2) siblings on
+                        # purpose -- see tag_hanly_notes and the maturity gate -- so
+                        # any() called ~78% of actively-studied notes suspended while
+                        # their forward card was live and in review.
+                        "suspended": bool(cards) and all(c.queue == -1 for c in cards),
+                        "suspended_templates": [model["tmpls"][c.ord]["name"]
+                                                for c in cards if c.queue == -1],
                     })
                 except Exception as e:
                     results.append({"note_id": nid, "error": str(e)})
