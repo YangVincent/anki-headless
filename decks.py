@@ -96,14 +96,145 @@ NEW_WORDS_DECK = next(d.name for d in DECKS if d.new_words)
 
 
 def gate_sources(gate):
-    """Deck names whose ord-0 card counts as "the user knows this word", for one gate."""
+    """Deck NAMES whose ord-0 card counts as "the user knows this word", for one gate.
+
+    Prefer gate_source_ids(). This exists for display and for Anki search strings.
+    """
     return tuple(d.name for d in DECKS if gate in d.gates)
 
 
 def is_archive(name):
-    """True for the archive deck under any of its names, or a subdeck of one."""
+    """True for the archive deck under any of its names, or a subdeck of one.
+
+    Name-based because it is fed raw rows from the `decks` table. Prefer archive_ids().
+    """
     return any(name == a or name.startswith(a + "::") or name.startswith(a + "\x1f")
                for a in ARCHIVE_NAMES)
+
+
+# ── resolving a ROLE against a collection ─────────────────────────────
+# Callers ask for a role and receive deck IDs. A deck NAME does not cross this boundary.
+#
+# Three places genuinely need a name, and only those three:
+#   * Anki's search syntax, which is textual: `deck:HSK`
+#   * anything the user or the model reads or types
+#   * the /api/stats HTTP contract, which is published in terms of names
+# Everything else takes ids. The `*_name` helpers below are marked for that reason; using
+# one anywhere else re-creates the coupling this module exists to remove.
+
+
+class DeckMissing(RuntimeError):
+    """A deck declared in DECKS does not exist in the collection."""
+
+
+def _subtree_ids(col, name):
+    """Deck ids for `name` and its subdecks. Empty if the deck does not exist."""
+    return [d.id for d in col.decks.all_names_and_ids()
+            if d.name == name or d.name.startswith(name + "::")]
+
+
+def deck_ids_for(col, role):
+    """Deck IDs for every deck holding `role`, subdecks included.
+
+    Raises DeckMissing rather than returning a short list. A silently short list is how
+    `Mined` lost its subdecks from the maturity query and how a renamed source deck let
+    the gate act on half the data.
+    """
+    ids, missing = [], []
+    for d in DECKS:
+        if d.role != role:
+            continue
+        found = _subtree_ids(col, d.name)
+        ids.extend(found) if found else missing.append(d.name)
+    if missing:
+        raise DeckMissing(f"{role} deck(s) missing from the collection: "
+                          + ", ".join(repr(n) for n in missing))
+    if not ids:
+        raise DeckMissing(f"no deck declared with role {role!r}")
+    return ids
+
+
+def deck_id_for(col, role):
+    """The one deck ID for a single-deck role (production, cloze, archive)."""
+    names = _named(role)
+    if len(names) != 1:
+        raise ValueError(f"role {role!r} covers {len(names)} decks; use deck_ids_for()")
+    did = col.decks.id_for_name(names[0])
+    if did is None:
+        raise DeckMissing(f"no deck named {names[0]!r}")
+    return did
+
+
+def new_words_deck_id(col):
+    """Where a newly created vocabulary note is filed."""
+    did = col.decks.id_for_name(NEW_WORDS_DECK)
+    if did is None:
+        raise DeckMissing(f"no deck named {NEW_WORDS_DECK!r}")
+    return did
+
+
+def gate_source_ids(col, gate):
+    """Deck IDs whose ord-0 card proves the word is known, for one maturity gate.
+
+    Subdecks included, and every declared source must exist -- see deck_ids_for.
+    """
+    ids, missing = [], []
+    for d in DECKS:
+        if gate not in d.gates:
+            continue
+        found = _subtree_ids(col, d.name)
+        ids.extend(found) if found else missing.append(d.name)
+    if missing:
+        raise DeckMissing(f"{gate} gate source deck(s) missing: "
+                          + ", ".join(repr(n) for n in missing))
+    return ids
+
+
+def archive_ids(col):
+    """Deck IDs of the archive, under every name it has ever had.
+
+    Not deck_id_for(ARCHIVE): that reads only the current name, which is wrong during a
+    rename and wrong against any older backup.
+    """
+    return {d.id for d in col.decks.all_names_and_ids() if is_archive(d.name)}
+
+
+def deck_id_by_name(col, name):
+    """NAME BOUNDARY. Resolve a name the user or the model supplied. Raises if missing.
+
+    col.decks.id_for_name() returns None and col.decks.id() CREATES the deck -- one letter
+    apart, opposite failure modes, neither raising. Every silent no-op in this codebase
+    came from one of those two.
+    """
+    did = col.decks.id_for_name(name)
+    if did is None:
+        raise DeckMissing(f"no deck named {name!r}")
+    return did
+
+
+def role_of(col, did):
+    """The role of a deck id, or None if it is not one of ours."""
+    name = col.decks.name(did)
+    if is_archive(name):
+        return ARCHIVE
+    root = name.split("::", 1)[0]
+    d = BY_NAME.get(name) or BY_NAME.get(root)
+    return d.role if d else None
+
+
+def name_of(role):
+    """NAME BOUNDARY. The display name for a single-deck role."""
+    return _one(role)
+
+
+def missing_from(col, names=None):
+    """Declared deck names absent from the collection."""
+    return [n for n in (names or REQUIRED_DECKS) if col.decks.id_for_name(n) is None]
+
+
+def unexpected_in(col):
+    """Deck names present in the collection that this module does not declare."""
+    return sorted(d.name for d in col.decks.all_names_and_ids() if d.name not in ALL_NAMES)
 
 
 def describe():

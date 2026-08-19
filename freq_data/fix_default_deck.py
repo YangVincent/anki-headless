@@ -27,7 +27,8 @@ DEFAULT_DID = 1
 import decks
 # By role, not by name: `Vocab Cloze` was renamed `Cloze` hours after this script ran, and
 # a literal here would have silently left every ord-2 card behind on a re-run.
-TARGETS = {0: decks.NEW_WORDS_DECK, 2: decks.CLOZE_DECK}
+# ord -> the ROLE that owns that template's cards. Resolved to ids at run time.
+TARGETS = {0: "new_words", 2: decks.CLOZE}
 SUSPEND_ORDS = {2}
 
 col = None
@@ -55,14 +56,20 @@ try:
 
     plan, unknown = {}, []
     for o, cards in sorted(by_ord.items()):
-        name = TARGETS.get(o)
+        role = TARGETS.get(o)
+        name = None if role is None else (
+            decks.NEW_WORDS_DECK if role == "new_words" else decks.name_of(role))
         dues = sorted(c[3] for c in cards if c[2] == 0)
         span = f"queue positions {dues[0]}..{dues[-1]}" if dues else "no new cards"
         if name is None:
             unknown.append(o)
             print(f"  ord {o}: {len(cards)} cards -> NO TARGET, left alone ({span})")
             continue
-        did = col.decks.id_for_name(name)
+        try:
+            did = (decks.new_words_deck_id(col) if role == "new_words"
+                   else decks.deck_id_for(col, role))
+        except decks.DeckMissing:
+            did = None
         if did is None:
             unknown.append(o)
             print(f"  ord {o}: {len(cards)} cards -> deck {name!r} MISSING, left alone")
@@ -76,7 +83,7 @@ try:
             plan.setdefault("_suspend", []).extend(c[0] for c in cards)
 
     if dues := sorted(c[3] for cards in by_ord.values() for c in cards if c[2] == 0):
-        mined = col.decks.id_for_name(decks.NEW_WORDS_DECK)
+        mined = decks.new_words_deck_id(col)
         lo = col.db.scalar(
             "SELECT MIN(due) FROM cards WHERE did=? AND type=0 AND ord=0", mined)
         hi = col.db.scalar(
@@ -107,7 +114,11 @@ try:
     print(f"\nVERIFY")
     print(f"  cards left in 'Default': {left}  (want {len(unknown) and 'only untargeted' or 0})")
     for name in sorted(set(TARGETS.values())):
-        did = col.decks.id_for_name(name)
+        try:
+            did = (decks.new_words_deck_id(col) if role == "new_words"
+                   else decks.deck_id_for(col, role))
+        except decks.DeckMissing:
+            did = None
         if did is None:
             continue
         tot = col.db.scalar("SELECT count(*) FROM cards WHERE did=?", did)

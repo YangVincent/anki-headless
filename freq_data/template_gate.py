@@ -28,6 +28,7 @@ Three modes:
 import sys, time
 sys.path.insert(0, "/home/vincent/anki-headless")
 import bot
+import decks
 
 APPLY = "--apply" in sys.argv
 # --verify: run the checks only, write nothing, exit non-zero if any check fails. The bot
@@ -44,11 +45,10 @@ for _ in range(30):
 if col is None:
     print("collection locked"); sys.exit(1)
 
+# Driven by ROLE. The names below are pulled from decks.py only to print them.
 GATES = (
-    ("production", bot.apply_reverse_gate, bot.REVERSE_TEMPLATE,
-     bot.REVERSE_DECK, bot.REVERSE_SOURCE_DECKS),
-    ("cloze", bot.apply_cloze_gate, bot.CLOZE_TEMPLATE,
-     bot.CLOZE_DECK, bot.CLOZE_SOURCE_DECKS),
+    (decks.PRODUCTION, bot.apply_reverse_gate, bot.REVERSE_TEMPLATE),
+    (decks.CLOZE, bot.apply_cloze_gate, bot.CLOZE_TEMPLATE),
 )
 
 try:
@@ -56,7 +56,9 @@ try:
     hidden = bot._archive_deck_ids(col)
     failed = False
 
-    for label, gate, template, home, sources in GATES:
+    for role, gate, template in GATES:
+        label, home = role, decks.name_of(role)
+        sources = decks.gate_sources(role)   # names, for the report line only
         ord_ = next((t["ord"] for t in cv["tmpls"] if t["name"] == template), None)
         home_did = col.decks.id_for_name(home)
         print(f"\n=== {label} cards — {template!r} -> {home!r} ===")
@@ -103,7 +105,9 @@ try:
     archived = bot._archive_deck_ids(col)
     study = [d.id for d in col.decks.all_names_and_ids()
              if d.id not in archived and d.name != "Default"]
-    for label, gate, template, home, sources in GATES:
+    for role, gate, template in GATES:
+        label, home = role, decks.name_of(role)
+        sources = decks.gate_sources(role)   # names, for the report line only
         ord_ = next((t["ord"] for t in cv["tmpls"] if t["name"] == template), None)
         home_did = col.decks.id_for_name(home)
         if ord_ is None or home_did is None:
@@ -121,10 +125,7 @@ try:
         print(f"  {home!r}: {tot} cards, {live} unsuspended")
         # Location checks alone certified a state that broke the gate's whole purpose: a
         # live card for a word that was never mature passed all of them. Check maturity.
-        src = []
-        for name in sources:
-            src.extend(d.id for d in col.decks.all_names_and_ids()
-                       if d.name == name or d.name.startswith(name + "::"))
+        src = decks.gate_source_ids(col, role)
         ph = ",".join("?" * len(src))
         mature = set(col.db.list(
             f"SELECT nid FROM cards WHERE (CASE WHEN odid!=0 THEN odid ELSE did END) "

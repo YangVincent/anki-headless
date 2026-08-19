@@ -25,9 +25,12 @@ try:
     # top-level decks (+ subdecks) and "Vocab" no longer exists. id_for_name("Vocab") returns
     # None, so `c.did = None` matched zero cards and every number came out ~0. Measure the
     # union of the real study decks instead.
-    STUDY_ROOTS = decks.RECOGNITION_DECKS   # from decks.py; never spelled out here
-    study_dids = [did for did, name in col.db.all("SELECT id, name FROM decks")
-                  if name.replace("\x1f", "::").split("::", 1)[0] in STUDY_ROOTS]
+    # By ROLE. decks.py resolves it to ids, subdecks included, and raises if one is
+    # missing rather than silently measuring a subset.
+    try:
+        study_dids = decks.deck_ids_for(col, decks.RECOGNITION)
+    except decks.DeckMissing as e:
+        print(f"cannot measure the backbone: {e}"); sys.exit(1)
     if not study_dids:
         print("no study decks found (expected one of %s)" % (STUDY_ROOTS,)); sys.exit(1)
     ph = ",".join("?" * len(study_dids))     # IN (?,?,…) placeholder for the deck set

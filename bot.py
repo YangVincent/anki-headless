@@ -191,81 +191,42 @@ def has_cjk(text):
 # harder direction before you can recognise it. ord 1 `English-Speaking` asks you to say
 # the word in Mandarin; ord 2 `Cloze-Recall` asks you to fill it into a sentence. Both
 # stay suspended in their own deck until the word's ord 0 card matures.
-# ── Deck and scheduling API ───────────────────────────────────────────
-# Every silent-no-op bug in this file came from one of two Anki calls:
-#   col.decks.id_for_name(name)  -> returns None for a missing deck
-#   col.decks.id(name)           -> CREATES the missing deck, on preset 1
-# One letter apart, opposite failure modes, neither raising. Callers carried the None
-# onward: col.add_note(note, None) files into Default, col.set_deck(ids, None) reports
-# "your database appears to be in an inconsistent state", and the search string
-# `deck:hanly-reverse` matched nothing for months while looking healthy.
-#
-# Nothing below returns None. A missing deck raises, and startup refuses to run a
-# half-configured bot. Rename a deck and you get a loud failure, not a quiet no-op.
-
-class DeckMissing(RuntimeError):
-    """A deck this code depends on does not exist."""
+# ── Deck API ──────────────────────────────────────────────────────────
+# decks.py owns the deck list AND the resolving. Callers here ask for a ROLE and receive
+# deck IDs; a deck NAME crosses this line only where one is unavoidable — Anki's textual
+# search syntax, the published /api/stats contract, and anything a person reads.
+DeckMissing = decks.DeckMissing
+deck_id = decks.deck_id_by_name          # NAME BOUNDARY: a name the model or user supplied
+deck_subtree_ids = decks._subtree_ids
 
 
-# THE DECK LIST LIVES IN decks.py. These are aliases so existing call sites keep working;
-# nothing here is a literal. Rename a deck in decks.py and every use follows.
-STUDY_DECKS = decks.STUDY_DECKS
-ARCHIVE_DECK = decks.ARCHIVE_DECK
-ARCHIVE_DECK_NAMES = decks.ARCHIVE_NAMES
-ALLOWED_DECKS = decks.ALL_NAMES
-REQUIRED_DECKS = decks.REQUIRED_DECKS
-
-
-def deck_id(col, name):
-    """Deck id for `name`, or raise DeckMissing. Never returns None, never creates."""
-    did = col.decks.id_for_name(name)
-    if did is None:
-        raise DeckMissing(f"no deck named {name!r}")
-    return did
-
-
-def deck_subtree_ids(col, name):
-    """Deck ids for `name` AND its subdecks, or raise DeckMissing.
-
-    id_for_name resolves the parent alone, so a `did IN (...)` query against `Mined`
-    silently excluded Mined::三体 and Mined::十日终焉.
-    """
-    ids = [d.id for d in col.decks.all_names_and_ids()
-           if d.name == name or d.name.startswith(name + "::")]
-    if not ids:
-        raise DeckMissing(f"no deck named {name!r}")
-    return ids
-
-
-def missing_decks(col, names=REQUIRED_DECKS):
-    """Names that do not resolve. Empty list means every required deck exists."""
-    return [n for n in names if col.decks.id_for_name(n) is None]
+def missing_decks(col, names=None):
+    """Declared deck names absent from the collection. Display only."""
+    return decks.missing_from(col, names)
 
 
 def unexpected_decks(col):
-    """Deck names outside ALLOWED_DECKS. The collection is meant to hold exactly the
-    list above; anything else means a tool or a script created one."""
-    return sorted(d.name for d in col.decks.all_names_and_ids()
-                  if d.name not in ALLOWED_DECKS)
+    """Deck names present that decks.py does not declare. Display only."""
+    return decks.unexpected_in(col)
 
 
 def check_target_deck(col, name):
-    """Resolve a deck the bot is about to WRITE into, or return an error dict.
+    """NAME BOUNDARY. Resolve a deck the bot is about to WRITE into, or return an error.
 
-    Every card the bot creates or moves must land in ALLOWED_DECKS. Without this, a
-    stale deck name in a prompt could file cards anywhere -- `add_general_card` filed
-    into `Default` for months while reporting "Knowledge", and move_card_type would
-    CREATE whatever name it was given, on the wrong preset.
+    Every card the bot creates or moves must land in a declared deck. Without this, a
+    stale deck name in a prompt could file cards anywhere -- `add_general_card` filed into
+    `Default` for months while reporting "Knowledge", and move_card_type would CREATE
+    whatever name it was given, on the wrong preset.
     """
-    if name not in ALLOWED_DECKS:
+    if name not in decks.ALL_NAMES:
         return {"error": f"{name!r} is not one of this collection's decks. "
-                         f"Cards may only go to: {', '.join(ALLOWED_DECKS)}.",
-                "allowed_decks": list(ALLOWED_DECKS)}
+                         f"Cards may only go to: {', '.join(decks.ALL_NAMES)}.",
+                "allowed_decks": list(decks.ALL_NAMES)}
     try:
-        deck_id(col, name)
+        decks.deck_id_by_name(col, name)
     except DeckMissing as e:
         return {"error": f"{e}. Nothing was written.",
-                "allowed_decks": list(ALLOWED_DECKS)}
+                "allowed_decks": list(decks.ALL_NAMES)}
     return None
 
 
@@ -303,28 +264,24 @@ def set_new_card_position(col, card, position):
     col.update_card(card)
 
 
-REVERSE_DECK = decks.PRODUCTION_DECK
+# TEMPLATE names, not deck names. The gate takes a ROLE and resolves both the home deck
+# and its maturity sources from decks.py, so no deck-name alias is kept here — an unused
+# alias that hands out a name is exactly the coupling this removes.
 REVERSE_TEMPLATE = "English-Speaking"
-REVERSE_SOURCE_DECKS = decks.gate_sources(decks.PRODUCTION)
-
-CLOZE_DECK = decks.CLOZE_DECK
 CLOZE_TEMPLATE = "Cloze-Recall"
-# The two source lists differ: `Mined` counts for cloze and not for production. That is
-# declared per deck in decks.py, where the asymmetry is visible instead of implied.
-CLOZE_SOURCE_DECKS = decks.gate_sources(decks.CLOZE)
 
 MATURE_IVL = 21
 
 
-def _apply_template_gate(col, template, home_deck, source_decks, dry_run=False):
+def _apply_template_gate(col, template, role, dry_run=False):
     """Keep one ChineseVocabulary template's cards out of the study decks, and suspended
     until their word is known.
 
     Four invariants:
-      1. A gated card never sits in a study deck other than `home_deck`.
+      1. A gated card never sits in a study deck other than its own home deck.
       2. A card parked in `Archive` stays there until its word matures. Only a release
          moves it out, so the backlog leaves one card at a time, not in one bulk write.
-         Cards already in `home_deck` stay in `home_deck`, suspended -- most of the deck
+         Cards already in the home deck stay there, suspended -- most of the deck
          is exactly that (5,364 in Reverse, 15,533 in Vocab Cloze), which is why this
          says "stays parked", not "stays in Archive".
       3. A card in a filtered deck is left completely alone until the session ends.
@@ -340,32 +297,30 @@ def _apply_template_gate(col, template, home_deck, source_decks, dry_run=False):
     Each matched almost nothing and ran for months doing nothing, while cards leaked into
     the study decks behind them. Both scripts are gone; freq_data/template_gate.py calls
     this. Naming the decks in one place is what stops that repeating.
+
+    `role` is both the home deck's role and the gate's name, because they are the same
+    thing: the production gate fills the production deck from the decks that declare
+    `production` in their `gates`. No deck name is passed in or read here.
     """
+    home_name = decks.name_of(role)          # display only, for the returned report
     cv = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
     if not cv:
         return None
     ord_ = next((t["ord"] for t in cv["tmpls"] if t["name"] == template), None)
-    home_did = col.decks.id_for_name(home_deck)
-
-    # Each source deck INCLUDING its subdecks. id_for_name resolves the parent only, and
-    # the maturity query matches deck ids exactly, so Mined::三体 and Mined::十日终焉 could
-    # never contribute maturity and their cloze cards would have stuck forever.
-    src, missing = [], []
-    for name in source_decks:
-        try:
-            src.extend(deck_subtree_ids(col, name))
-        except DeckMissing:
-            missing.append(name)
+    try:
+        # ALL declared decks resolve, or the gate does not run. Both calls raise rather
+        # than returning a short list: dropping a renamed source silently left a partial
+        # maturity set, and the next run suspended 83 already-released cards with no
+        # error -- worse than the do-nothing failure this replaced. Subdecks included, so
+        # Mined::三体 counts where it used to be invisible.
+        home_did = decks.deck_id_for(col, role)
+        src = decks.gate_source_ids(col, role)
+    except DeckMissing as e:
+        return {"template": template, "deck": home_name, "error": str(e),
+                "mature_words": 0, "moved": 0, "unsuspended": 0, "suspended": 0}
     if ord_ is None:
-        missing.append(f"template {template!r}")
-    if home_did is None:
-        missing.append(f"deck {home_deck!r}")
-    if missing:
-        # ALL source decks, or the gate does not run. Dropping a renamed deck silently
-        # left a partial maturity set, and the next run suspended 83 already-released
-        # cards with no error -- worse than the do-nothing failure this replaced.
-        return {"template": template, "deck": home_deck,
-                "error": "missing " + ", ".join(missing),
+        return {"template": template, "deck": home_name,
+                "error": f"no template named {template!r}",
                 "mature_words": 0, "moved": 0, "unsuspended": 0, "suspended": 0}
 
     ph = ",".join("?" * len(src))
@@ -401,76 +356,29 @@ def _apply_template_gate(col, template, home_deck, source_decks, dry_run=False):
             col.sched.unsuspend_cards(to_unsuspend)
         if to_suspend:
             col.sched.suspend_cards(to_suspend)
-    return {"template": template, "deck": home_deck, "mature_words": len(mature),
+    return {"template": template, "deck": home_name, "mature_words": len(mature),
             "moved": len(to_move), "unsuspended": len(to_unsuspend),
             "suspended": len(to_suspend)}
 
 
 def apply_reverse_gate(col, dry_run=False):
-    """Production cards (`English-Speaking`) -> the `Reverse` deck. See _apply_template_gate."""
-    return _apply_template_gate(col, REVERSE_TEMPLATE, REVERSE_DECK,
-                                REVERSE_SOURCE_DECKS, dry_run)
+    """Production cards -> the production deck. See _apply_template_gate."""
+    return _apply_template_gate(col, REVERSE_TEMPLATE, decks.PRODUCTION, dry_run)
 
 
 def apply_cloze_gate(col, dry_run=False):
-    """Cloze cards (`Cloze-Recall`) -> the `Vocab Cloze` deck. See _apply_template_gate."""
-    return _apply_template_gate(col, CLOZE_TEMPLATE, CLOZE_DECK,
-                                CLOZE_SOURCE_DECKS, dry_run)
+    """Cloze cards -> the cloze deck. See _apply_template_gate."""
+    return _apply_template_gate(col, CLOZE_TEMPLATE, decks.CLOZE, dry_run)
 
 
-def promote_to_hanly(col, note_ids):
-    """Tag notes with 'hanly', unsuspend forward cards, suspend reverse cards,
-    and move to hanly/hanly-reverse decks. Returns (tagged_count, unsuspended_count)."""
-    hanly_did = col.decks.id_for_name("hanly")
-    hanly_rev_did = col.decks.id_for_name("hanly-reverse")
-    tagged = 0
-    forward_to_unsuspend = []
-    reverse_to_suspend = []
-    forward_cards = []
-    reverse_cards = []
-
-    for nid in note_ids:
-        try:
-            note = col.get_note(nid)
-        except Exception:
-            continue
-        if "hanly" not in [t.lower() for t in note.tags]:
-            note.tags.append("hanly")
-            col.update_note(note)
-            tagged += 1
-        for card in note.cards():
-            if card.ord == 0:
-                forward_cards.append(card.id)
-                if card.queue == -1:
-                    forward_to_unsuspend.append(card.id)
-            elif card.ord == 1:
-                reverse_cards.append(card.id)
-                # reps == 0 only, same invariant as promote_to_vocab and the gate: never
-                # take away a card that is already mid-schedule.
-                if card.queue != -1 and card.reps == 0:
-                    reverse_to_suspend.append(card.id)
-
-    if forward_to_unsuspend:
-        col.sched.unsuspend_cards(forward_to_unsuspend)
-    if reverse_to_suspend:
-        col.sched.suspend_cards(reverse_to_suspend)
-    if forward_cards and hanly_did:
-        col.set_deck(forward_cards, hanly_did)
-    if reverse_cards and hanly_rev_did:
-        col.set_deck(reverse_cards, hanly_rev_did)
-
-    # The 'hanly' and 'hanly-reverse' decks no longer exist in this collection, so
-    # both set_deck calls above are skipped. Report that instead of claiming a move.
-    return {
-        "tagged": tagged,
-        "forward_unsuspended": len(forward_to_unsuspend),
-        "reverse_suspended": len(reverse_to_suspend),
-        "moved_to_hanly": len(forward_cards) if hanly_did else 0,
-        "moved_to_hanly_reverse": len(reverse_cards) if hanly_rev_did else 0,
-        "decks_missing": [n for n, d in (("hanly", hanly_did),
-                                         ("hanly-reverse", hanly_rev_did)) if d is None],
-    }
-
+# promote_to_hanly was removed on 2026-08-19. It moved cards to decks named `hanly` and
+# `hanly-reverse`, neither of which has existed for months, so both moves were skipped
+# every time. What still ran were its side effects: it unsuspended ord-0 cards, which can
+# revive one of the ~164 basic HSK characters parked on purpose, and it suspended ord-1
+# cards, which the maturity gate then re-released. Two systems writing the same suspension
+# is worse than one; the gate owns it.
+#
+# The `hanly` TAG is untouched and still on 4,637 notes. Tagging it now simply tags.
 
 def promote_to_vocab(col, note_ids):
     """Wild-add promotion: tag notes 'mined', move forward (ord0) cards into the separate
@@ -483,15 +391,22 @@ def promote_to_vocab(col, note_ids):
     Hidden:: moves deck — a card already in HSK, HSK7-9, non-HSK or Mined stays there
     and goes to the front of THAT deck. A card already in learning or review keeps its
     schedule and its position, and is counted under 'already_in_review'."""
-    # id_for_name, never id(): col.decks.id() CREATES a missing deck and binds it to
-    # preset 1 ("Default"), whose FSRS params, retention and new-card order all differ
-    # from the preset the real deck uses. A silent re-create with different scheduling is
-    # the same failure as a silently reset deck config. Missing decks are reported instead.
-    mined_did = col.decks.id_for_name(decks.NEW_WORDS_DECK)
-    cloze_did = col.decks.id_for_name(CLOZE_DECK)
-    reverse_did = col.decks.id_for_name(REVERSE_DECK)
-    decks_missing = [n for n, d in ((decks.NEW_WORDS_DECK, mined_did), (CLOZE_DECK, cloze_did),
-                                    (REVERSE_DECK, reverse_did)) if d is None]
+    # Resolved by ROLE, and never with col.decks.id(): that CREATES a missing deck and
+    # binds it to preset 1 ("Default"), whose FSRS params, retention and new-card order
+    # all differ from the preset the real deck uses. A silent re-create with different
+    # scheduling is the same failure as a silently reset deck config.
+    resolved, decks_missing = {}, []
+    for key, getter in (("new_words", decks.new_words_deck_id),
+                        ("cloze", lambda c: decks.deck_id_for(c, decks.CLOZE)),
+                        ("production", lambda c: decks.deck_id_for(c, decks.PRODUCTION))):
+        try:
+            resolved[key] = getter(col)
+        except DeckMissing as e:
+            resolved[key] = None
+            decks_missing.append(str(e))
+    mined_did = resolved["new_words"]
+    cloze_did = resolved["cloze"]
+    reverse_did = resolved["production"]
     # The parked xiehanzi import notes are NOT the user's cards. Promoting one would
     # un-archive an import artefact into the study queue, and `Simplified:<word>` returns
     # four of them for most words. Skip them; see _import_pool_note_ids.
@@ -1243,15 +1158,7 @@ API_TOOLS = [t for t in TOOLS if t["name"] in API_TOOL_NAMES]
 # not "and suspended", because a handful of archive cards are unsuspended and the
 # conservative direction for a delete guard is to protect more, not less.
 
-def _archive_deck_ids(col):
-    """Deck IDs of the archive and any subdecks it still has.
-
-    The DB joins name components with \x1f, so the subtree test is an exact match or that
-    prefix. A substring test was wrong in both directions: it would claim
-    `Mined::Hidden gems`, and it would capture any future deck with the word in any
-    component."""
-    return {did for did, name in col.db.all("SELECT id, name FROM decks")
-            if decks.is_archive(name)}
+_archive_deck_ids = decks.archive_ids     # deck IDs of the archive, under every past name
 
 
 # anki/consts.py: -3 is MANUALLY_BURIED, -2 is SIBLING_BURIED. The two were swapped here.
@@ -1366,12 +1273,12 @@ def execute_tool(tool_name, tool_input):
             # against the collection's list now, and a config override outside that list
             # is ignored rather than obeyed. promote_to_vocab moves ord 0 into Mined a
             # moment later, and ord 1 / ord 2 carry their own template deck override.
-            wanted = CONFIG.get("default_deck", DEFAULT_DECK)
-            if check_target_deck(col, wanted):
+            wanted = CONFIG.get("default_deck")
+            if wanted and check_target_deck(col, wanted):
                 log.warning("config default_deck %r is not one of this collection's "
-                            "decks; filing in %r instead", wanted, DEFAULT_DECK)
-                wanted = DEFAULT_DECK
-            did = deck_id(col, wanted)
+                            "decks; using the new-words deck instead", wanted)
+                wanted = None
+            did = deck_id(col, wanted) if wanted else decks.new_words_deck_id(col)
             note = col.new_note(model)
 
             note["Simplified"] = tool_input.get("simplified", "")
@@ -1469,14 +1376,10 @@ def execute_tool(tool_name, tool_input):
             #
             # Ask about the ord-0 recognition card instead, which is the one that says
             # whether the user knows the word, and scope to the decks actually studied.
-            src = []
-            for name in decks.RECOGNITION_DECKS:
-                try:
-                    src.extend(deck_subtree_ids(col, name))
-                except DeckMissing:
-                    pass
-            if not src:
-                return json.dumps({"error": "no study decks found"})
+            try:
+                src = decks.deck_ids_for(col, decks.RECOGNITION)
+            except DeckMissing as e:
+                return json.dumps({"error": str(e)})
             ph = ",".join("?" * len(src))
             base = (f"SELECT nid FROM cards WHERE did IN ({ph}) AND ord=0 AND queue!=-1 "
                     f"AND nid IN (SELECT id FROM notes WHERE mid=?)")
@@ -1778,7 +1681,6 @@ def execute_tool(tool_name, tool_input):
             query = tool_input["query"]
             tags = tool_input.get("tags", [])
             note_ids = list(col.find_notes(query))
-            adding_hanly = "hanly" in [t.lower() for t in tags]
             adding_mined = "mined" in [t.lower() for t in tags]
 
             if adding_mined:
@@ -1823,36 +1725,6 @@ def execute_tool(tool_name, tool_input):
                             + " or ".join(repr(n) for n in result["decks_missing"])
                             + " exists, so that routing was skipped.")
                 return msg
-            elif adding_hanly:
-                result = promote_to_hanly(col, note_ids)
-                # Also add any non-hanly tags
-                other_tags = [t for t in tags if t.lower() != "hanly"]
-                if other_tags:
-                    for nid in note_ids:
-                        try:
-                            note = col.get_note(nid)
-                            existing = {t.lower() for t in note.tags}
-                            for tag in other_tags:
-                                if tag.lower() not in existing:
-                                    note.tags.append(tag)
-                            col.update_note(note)
-                        except Exception:
-                            pass
-                log_change("tag", note_ids, {"tags": tags})
-                parts = [f"Tagged {result['tagged']} note(s) with hanly."]
-                if result["forward_unsuspended"]:
-                    parts.append(f"Unsuspended {result['forward_unsuspended']} forward card(s), "
-                                 "wherever they already sat.")
-                if result["reverse_suspended"]:
-                    parts.append(f"Suspended {result['reverse_suspended']} reverse card(s), "
-                                 "wherever they already sat.")
-                parts.append(f"Moved {result['moved_to_hanly']} to hanly, {result['moved_to_hanly_reverse']} to hanly-reverse.")
-                if result["decks_missing"]:
-                    parts.append("WARNING: no deck named "
-                                 + " or ".join(repr(n) for n in result["decks_missing"])
-                                 + " exists, so no card changed deck. The 'hanly' tag is "
-                                   "defunct in this collection — tell the user.")
-                return " ".join(parts)
             else:
                 skipped = 0
                 for nid in note_ids:
@@ -3381,11 +3253,11 @@ async def main_async():
                   "will not work correctly until these exist or the constants in bot.py "
                   "are updated.", ", ".join(repr(n) for n in gone))
     else:
-        log.info("Deck check: all %d required decks resolve", len(REQUIRED_DECKS))
+        log.info("Deck check: all %d required decks resolve", len(decks.REQUIRED_DECKS))
     if extra:
         log.warning("UNEXPECTED DECKS: %s — this collection is meant to hold exactly %s. "
                     "Something created a deck outside that list.",
-                    ", ".join(repr(n) for n in extra), ", ".join(ALLOWED_DECKS))
+                    ", ".join(repr(n) for n in extra), ", ".join(decks.ALL_NAMES))
 
     # Build Telegram app
     tg_app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()

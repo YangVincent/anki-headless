@@ -48,9 +48,29 @@ NEW_WORDS_DECK      # 'Mined'
 gate_sources(CLOZE) # ('HSK', 'HSK7-9', 'non-HSK', 'Mined')
 ```
 
-Callers ask for a role, never a name: "where do new words go", not "Mined". Rename a deck
-in `decks.py` and every use follows — the six duplicated tuples that used to spell the
-names out are gone.
+Callers ask for a role and receive **deck IDs**. A deck NAME does not cross that line:
+
+```python
+decks.deck_ids_for(col, decks.RECOGNITION)   # ids, subdecks included
+decks.deck_id_for(col, decks.PRODUCTION)     # one id
+decks.gate_source_ids(col, decks.CLOZE)      # ids that prove a word is known
+decks.new_words_deck_id(col)                 # where new notes are filed
+decks.archive_ids(col)                       # under every name the archive has had
+```
+
+Each raises `DeckMissing` rather than returning a short list. A silently short list is how
+`Mined` lost its subdecks from the maturity query, and how a renamed source deck let the
+gate act on half the data and suspend 83 already-released cards.
+
+**Three places genuinely need a name, and only those three:**
+
+1. Anki's search syntax, which is textual — `deck:HSK`
+2. Anything a person or the model reads or types
+3. The published `/api/stats?decks=` contract
+
+Those call `decks.name_of(role)`, `decks.ALL_NAMES` or `decks.deck_id_by_name()`, and each
+site says why. `bot.py` holds **no deck-name alias at all** — an unused alias that hands out
+a name is the same coupling, just quieter.
 
 The `gates` field per deck is what makes the two source lists differ, visibly: `Mined`
 counts for `cloze` and not for `production`. That is a deliberate choice, and its

@@ -34,10 +34,10 @@ APPLY = "--apply" in sys.argv
 # script would have failed on a deck name it had itself been told to write.
 import decks
 OVERRIDES = [
-    ("ChineseVocabulary", bot.REVERSE_TEMPLATE, decks.PRODUCTION_DECK),
-    ("ChineseVocabulary", bot.CLOZE_TEMPLATE,   decks.CLOZE_DECK),
-    ("ChineseCharacters", "TradRecognition",    decks.ARCHIVE_DECK),
-    ("ChineseSentences",  "Listen-English",     decks.ARCHIVE_DECK),
+    ("ChineseVocabulary", bot.REVERSE_TEMPLATE, decks.PRODUCTION),
+    ("ChineseVocabulary", bot.CLOZE_TEMPLATE,   decks.CLOZE),
+    ("ChineseCharacters", "TradRecognition",    decks.ARCHIVE),
+    ("ChineseSentences",  "Listen-English",     decks.ARCHIVE),
 ]
 
 col = None
@@ -51,7 +51,8 @@ if col is None:
 
 try:
     changed, failed = 0, []
-    for mname, tname, dname in OVERRIDES:
+    for mname, tname, role in OVERRIDES:
+        dname = decks.name_of(role)
         m = col.models.by_name(mname)
         if not m:
             print(f"  SKIP {mname}: note type not found"); failed.append(mname); continue
@@ -59,8 +60,8 @@ try:
         if t is None:
             print(f"  SKIP {mname}/{tname}: template not found"); failed.append(tname); continue
         try:
-            did = bot.deck_id(col, dname)
-        except bot.DeckMissing as e:
+            did = decks.deck_id_for(col, role)
+        except decks.DeckMissing as e:
             print(f"  SKIP {mname}/{tname}: {e}"); failed.append(dname); continue
 
         current = t.get("did")
@@ -87,7 +88,8 @@ try:
     # ── verify, before anki_op.sh restarts the bot ────────────────────
     print("\nVERIFY")
     ok = True
-    for mname, tname, dname in OVERRIDES:
+    for mname, tname, role in OVERRIDES:
+        dname = decks.name_of(role)
         m = col.models.by_name(mname)
         t = next((t for t in m["tmpls"] if t["name"] == tname), None) if m else None
         if t is None:
