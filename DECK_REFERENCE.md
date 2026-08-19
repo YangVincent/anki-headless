@@ -76,10 +76,17 @@ The bot's system prompt no longer contains a hand-written deck table. `_deck_tab
 it from `decks.py` at import, so a rename cannot leave the model naming decks that are gone.
 The card counts that used to sit in it are removed — `list_decks` returns live ones.
 
-**Verified by renaming.** Changing `Mined` to `Foraged` and `Reverse` to `SpeakIt` in
-`decks.py` alone, with no other edit, changed `RECOGNITION_DECKS`, `NEW_WORDS_DECK`,
+**Verified by substitution, not by reading.** Edit a throwaway copy of `decks.py`, change
+two deck names in it, put that copy first on `sys.path`, and check what every consumer
+reports. Deliberately unreal names — nothing that could also appear in a stale literal —
+so a correct answer can only have come from the module.
+
+Two names changed in the copy moved all of: `RECOGNITION_DECKS`, `NEW_WORDS_DECK`,
 `PRODUCTION_DECK`, `bot.DEFAULT_DECK`, `bot.REVERSE_DECK`, both gate source lists,
-`ALLOWED_DECKS`, the prompt table and the `/api/decks` payload.
+`ALLOWED_DECKS`, the system prompt's deck table and the `/api/decks` payload.
+
+**No deck was renamed.** The copy lived in a temporary directory for one command. The real
+deck names are the eight in the table above.
 
 `freq_data/lint_deck_names.py` reports scripts that name a deck which no longer exists. It
 finds **43 of 61** one-shot scripts, mostly naming `Vocab` (37) — a deck retired long before

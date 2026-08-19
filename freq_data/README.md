@@ -1,5 +1,12 @@
 # Vocab system — frequency-ordered Chinese learning
 
+> **Deck names.** No script here spells a deck name out. They come from `decks.py`, which
+> declares each deck's role, and `freq_data/lint_deck_names.py` keeps that at zero.
+>
+> `freq_data/applied/` holds 45 one-shot scripts retired on 2026-08-19. Every one names a
+> deck that no longer exists, so every one is a silent no-op if re-run. See the README
+> there before re-using any of them.
+
 Tooling that turned a scattered Anki collection into a single **frequency-ordered "Vocab" deck**,
 with pipelines for generating example sentences and character mnemonics.
 
@@ -76,7 +83,8 @@ Read-only checks can run directly (retry on lock).
 ### Character-mnemonic generator (post-Hanly tool)
 ```bash
 .venv/bin/python freq_data/char_gen.py 残 酷 谬 …      # Claude → chars/char_cards.json
-bash freq_data/anki_op.sh chars freq_data/char_apply.py --apply
+# RETIRED to freq_data/applied/ — its target deck `Characters` no longer exists.
+# bash freq_data/anki_op.sh chars freq_data/char_apply.py --apply
 ```
 `char_gen.py` calls Claude (key from `.bot_config.json`) to decompose each character + write a
 Hanly-style mnemonic. `char_apply.py` **enriches** an existing `ChineseCharacters` card's `Notes`
@@ -90,7 +98,9 @@ The bot also has a **`lookup_frequency`** tool (`bot.freq_tier()`) — ask it ho
 (very common → rare).
 ```bash
 # periodically re-sort the backbone by frequency; 'mined' cards stay pinned at the front
-bash freq_data/anki_op.sh resort freq_data/resort_vocab.py --apply
+bash freq_data/anki_op.sh resort freq_data/resort_hsk_queue.py --apply
+# (resort_vocab.py is retired to freq_data/applied/ — it re-sorted the `Vocab` deck,
+#  which became HSK / HSK7-9 / non-HSK. resort_hsk_queue.py is the canonical re-sort.)
 ```
 
 ### HSK / HSK7-9 new-queue order (canonical)
@@ -127,7 +137,8 @@ deck its own limit, set a deck-level override rather than making a new preset.
 ### Novel deck — 十日终焉·囚笼  (2026-07-27)
 
 ```bash
-.venv/bin/python freq_data/novel_deck_apply.py --col <copy>              # dry run
+# RETIRED to freq_data/applied/ — `Mined::十日终焉` folded into `Mined` on 2026-08-19.
+# .venv/bin/python freq_data/applied/novel_deck_apply.py --col <copy>    # dry run
 .venv/bin/python freq_data/novel_deck_apply.py --dump-pool /tmp/p.json   # pool for screening
 .venv/bin/python freq_data/novel_deck_screen.py --pool /tmp/p.json       # drop names/non-words
 bash freq_data/anki_op.sh novel-deck freq_data/novel_deck_apply.py --apply
