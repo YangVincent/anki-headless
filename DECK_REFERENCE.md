@@ -23,7 +23,9 @@ Chinese vocabulary study system built around HSK 3.0 levels 1-9, with integrated
 
 ## Active Study Decks
 
-Each deck uses a **Word** note type (Simplified, Pinyin, Meaning, POS, SentenceSimplified, SentencePinyin, SentenceMeaning, Frequency, Notes, Audio) and a **Cloze** note type for sentence practice.
+Each deck uses the **`ChineseVocabulary`** note type. There is no note type named `Word` and
+none named `Cloze` — `models.by_name()` returns `None` for both. Cloze is the `Cloze-Recall`
+template (ord 2) of `ChineseVocabulary`; see "Cloze cards are CUSTOM" below.
 
 Counts as of 2026-08-04. **Active** = non-suspended; the gap matters most for `Vocab Cloze`,
 where 94% of the deck is suspended and the raw card count badly overstates what is in play.
@@ -37,9 +39,18 @@ where 94% of the deck is suspended and the raw card count badly overstates what 
 | **Mined** (+ `::三体`, `::十日终焉`) | 446 | 317 | mixed | Mining targets; `Mined::三体` is the one deck on the `Default` preset, and is fully suspended since 2026-08-19. |
 | **Reverse** | 7,389 | 2,025 | `HSK` — but a per-deck `newLimit` override of **25** wins over the preset's 10 | Production (`English-Speaking`) cards, gated by maturity. Top-level since 2026-08-19; was `Hidden::hanly-reverse`. |
 
-Note the two distinct presets whose names both begin `HSK`: `HSK (25/day)` drives the HSK deck
-alone; the plain `HSK` preset (10/day) is shared by nearly everything else — including
-`Vocab Cloze`. A "10/day" change made on the shared preset therefore moves several decks at once.
+**Four presets are in use, not two.** Verified 2026-08-19:
+
+| Preset | new/day | Decks |
+|---|---|---|
+| `HSK` (id 1783563765335) | 10 | **23 decks** — everything except the three below |
+| `HSK (25/day)` (id 1785419674778) | 25 | `HSK` alone |
+| `Default` (id 1) | 10 | `Mined::三体` alone |
+| — | — | `Custom Study Session` is a filtered deck and has no preset |
+
+A "10/day" change on the shared `HSK` preset moves 23 decks at once. Note also that a deck can
+carry a **per-deck limit override** that beats its preset: `Reverse` has `newLimit = 25`, so
+its effective rate is 25/day, not the preset's 10.
 
 ## Archived Decks (under `Hidden::` — *mostly*, not entirely, suspended)
 
@@ -369,9 +380,10 @@ for d in sorted(col.decks.all_names_and_ids(), key=lambda x: x.name):
    limit describes normal study only. There is a `Custom Study Session` filtered deck in the
    collection. Don't conclude a limit is broken from intake numbers alone.
 
-There are also 10 orphaned presets (`Languages`, `Chinese Characters`, `Chinese Vocabulary`,
-`Chinese Sentences`, `Vocab Cloze`, `Mined`, `HSK7-9`, `Hanly Gap`, two `Default`s) used by
-**0 decks** — leftovers
+There are also **9** orphaned presets (`Languages`, `Chinese Characters`, `Chinese Vocabulary`,
+`Chinese Sentences`, `Vocab Cloze`, `Mined`, `HSK7-9`, `Hanly Gap`, and one of the two
+`Default`s — id 1765895986398). The other `Default`, id 1, **is** in use by `Mined::三体`.
+Leftovers
 from the 2026-07-27 collapse onto one preset. Harmless, but don't assume a preset named after
 a deck is the one that deck uses. Verify with the audit above.
 
@@ -421,16 +433,20 @@ external write is safe; it will see the change on its next operation.
 
 ## HSK 3.0 Coverage
 
+*Counted from `freq_data/hsk30_official.json`, which is the source the code reads. Every
+number in this table was previously wrong; three different totals were in circulation
+(10,440 here, 10,978 in a bot.py comment, 10,440 in build_stats.py) and none matched the file.*
+
 | Level | Words in HSK 3.0 | Status |
 |---|---|---|
-| 1 | 278 | All in HSK deck |
-| 2 | 172 | All in HSK deck |
-| 3 | 468 | All in HSK deck |
-| 4 | 955 | All in HSK deck |
-| 5 | 1,559 | All in HSK deck |
-| 6 | 1,762 | All in HSK deck |
-| 7-9 | 5,246 | In HSK7-9 deck |
-| **Total 1-9** | **10,440** | Covered across both HSK decks |
+| 1 | 506 | All in HSK deck |
+| 2 | 750 | All in HSK deck |
+| 3 | 950 | All in HSK deck |
+| 4 | 973 | All in HSK deck |
+| 5 | 1,058 | All in HSK deck |
+| 6 | 1,120 | All in HSK deck |
+| 7-9 | 5,603 | In HSK7-9 deck |
+| **Total 1-9** | **10,960** | Covered across both HSK decks |
 
 ---
 
@@ -464,13 +480,16 @@ external write is safe; it will see the change on its next operation.
 ## Telegram Bot (anki-bot)
 
 - Runs under pm2 as `anki-bot`
-- Uses Claude via single-loop tool-calling architecture with 16 tools
+- Uses Claude via single-loop tool-calling architecture with 24 tools
 - 8 read-only (search, get stats, list decks, etc.)
 - 2 card creation (`add_chinese_vocab`, `add_general_card`)
 - 5 modification (suspend, unsuspend, tag, delete, move)
 - 1 sync tool
 - Commands: `/status`, `/decks`, `/log`, `/clear`, `/help`
-- Default deck: `Knowledge::Languages::Chinese::Vocabulary` (not used — cards go to HSK/non-HSK)
+- Default deck: `DEFAULT_DECK` in `.bot_config.json` names
+  `Knowledge::Languages::Chinese::Vocabulary`, **which does not exist**. `add_chinese_vocab`
+  falls back to `Mined` (and `promote_to_vocab` moves the card there anyway). Before
+  2026-08-19 the fallback was absent, so Anki filed 199 cards into `Default`.
 
 ---
 

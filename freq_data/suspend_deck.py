@@ -34,6 +34,11 @@ try:
         print("\nDRY RUN — nothing written. Add --apply to commit."); sys.exit(0)
     if live:
         col.sched.suspend_cards(live)
+        # Every bot-side tool records what it did. This script did not, so suspending all
+        # 212 cards of Mined::三体 on 2026-08-19 left no trace in changelog.jsonl.
+        nids = sorted({col.get_card(c).nid for c in live})
+        bot.log_change("suspend_deck", nids,
+                       {"deck": DECK, "card_count": len(live)})
     still = sum(1 for c in cids if col.get_card(c).queue != -1)
     print(f"\nVERIFY  unsuspended cards left in {DECK!r}: {still}  (want 0)")
 finally:

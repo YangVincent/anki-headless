@@ -1411,14 +1411,41 @@ def execute_tool(tool_name, tool_input):
         num_target = tool_input.get("num_target", 6)
         col = open_collection()
         try:
-            # Known words: reviewed ChineseVocabulary cards tagged hanly (not new, not suspended)
-            known_ids = list(col.find_notes(
-                f'"note:{CHINESE_VOCAB_NOTETYPE}" tag:hanly -is:new -is:suspended'
-            ))
-            # Target words: new or suspended ChineseVocabulary cards tagged hanly
-            target_ids = list(col.find_notes(
-                f'"note:{CHINESE_VOCAB_NOTETYPE}" tag:hanly (is:new OR is:suspended)'
-            ))
+            # These were note-level searches: `-is:new -is:suspended` matches a note with
+            # ANY card that is neither, and `(is:new OR is:suspended)` matches a note with
+            # ANY card that is either. The maturity gate suspends the production and cloze
+            # siblings on nearly every note, so the second query matched almost everything
+            # -- target was 4,637 notes and CONTAINED all 790 known words. The story tool
+            # was handing the model words the user already knows, labelled as new targets.
+            #
+            # Ask about the ord-0 recognition card instead, which is the one that says
+            # whether the user knows the word, and scope to the decks actually studied.
+            src = []
+            for name in ("HSK", "HSK7-9", "non-HSK", "Mined"):
+                try:
+                    src.extend(deck_subtree_ids(col, name))
+                except DeckMissing:
+                    pass
+            if not src:
+                return json.dumps({"error": "no study decks found"})
+            ph = ",".join("?" * len(src))
+            base = (f"SELECT nid FROM cards WHERE did IN ({ph}) AND ord=0 AND queue!=-1 "
+                    f"AND nid IN (SELECT id FROM notes WHERE mid=?)")
+            cv_model = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
+            cv_id = cv_model["id"] if cv_model else -1
+
+            # Known: prefer mature words, because a story should be built from what the
+            # user reliably reads. Fall back to anything studied if there are too few.
+            known_ids = col.db.list(base + " AND type=2 AND ivl>=?", *src, cv_id, MATURE_IVL)
+            if len(known_ids) < num_known:
+                known_ids = col.db.list(base + " AND type IN (1,2)", *src, cv_id)
+            # Target: NEW cards only, taken from the front of the queue so the story
+            # teaches what the user is about to meet, not a random word 16,000 back.
+            target_ids = col.db.list(
+                base + " AND type=0 ORDER BY due ASC LIMIT 100", *src, cv_id)
+
+            known_set = set(known_ids)
+            target_ids = [n for n in target_ids if n not in known_set]   # never overlap
 
             known_sample = random.sample(known_ids, min(num_known, len(known_ids)))
             target_sample = random.sample(target_ids, min(num_target, len(target_ids)))
@@ -1826,7 +1853,11 @@ def execute_tool(tool_name, tool_input):
             card_ids, skipped = _collect_card_ids(col, note_ids)
             col.set_deck(card_ids, did)
             log_change("move_deck", note_ids, {"deck": deck_name, "card_count": len(card_ids)})
-            return f"Moved {len(card_ids)} card(s) across {len(note_ids)} note(s) to: {deck_name}"
+            msg = (f"Moved {len(card_ids)} card(s) across {len(note_ids) - skipped} "
+                   f"note(s) to: {deck_name}")
+            if skipped:
+                msg += f" ({skipped} note(s) could not be read and were skipped)"
+            return msg
 
         elif tool_name == "edit_note":
             nid = tool_input["note_id"]
@@ -1893,26 +1924,40 @@ def execute_tool(tool_name, tool_input):
             query = tool_input["query"]
             template_name = tool_input["template_name"]
             note_ids = list(col.find_notes(query))
-            card_ids = []
+            card_ids, broken, unreadable = [], [], []
             for nid in note_ids:
                 try:
                     note = col.get_note(nid)
                     model = note.note_type()
                     for card in note.cards():
+                        # A card whose ord has no template is a real defect, not something
+                        # to swallow: the bare `except: pass` here reported "no cards
+                        # found" instead.
+                        if card.ord >= len(model["tmpls"]):
+                            broken.append(card.id)
+                            continue
                         if model["tmpls"][card.ord]["name"] == template_name:
                             card_ids.append(card.id)
-                except Exception:
-                    pass
+                except Exception as e:
+                    unreadable.append((nid, str(e)))
+            problems = ""
+            if broken:
+                problems += (f" WARNING: {len(broken)} card(s) have an ord with no "
+                             "template — a template was deleted. Tell the user.")
+            if unreadable:
+                problems += f" {len(unreadable)} note(s) could not be read and were skipped."
             if not card_ids:
-                return f"No '{template_name}' cards found for query: {query}"
+                return f"No '{template_name}' cards found for query: {query}." + problems
             if tool_name == "suspend_card_type":
                 col.sched.suspend_cards(card_ids)
                 log_change("suspend_card_type", note_ids, {"template": template_name, "card_count": len(card_ids)})
-                return f"Suspended {len(card_ids)} '{template_name}' card(s) across {len(note_ids)} note(s)."
+                return (f"Suspended {len(card_ids)} '{template_name}' card(s) across "
+                        f"{len(note_ids)} note(s)." + problems)
             else:
                 col.sched.unsuspend_cards(card_ids)
                 log_change("unsuspend_card_type", note_ids, {"template": template_name, "card_count": len(card_ids)})
-                return f"Unsuspended {len(card_ids)} '{template_name}' card(s) across {len(note_ids)} note(s)."
+                return (f"Unsuspended {len(card_ids)} '{template_name}' card(s) across "
+                        f"{len(note_ids)} note(s)." + problems)
 
         elif tool_name == "move_card_type":
             query = tool_input["query"]
@@ -1928,21 +1973,34 @@ def execute_tool(tool_name, tool_input):
                     "error": f"{e}. Nothing was moved.",
                     "existing_decks": sorted(d.name for d in col.decks.all_names_and_ids()),
                 }, ensure_ascii=False)
-            card_ids = []
+            card_ids, broken, unreadable = [], [], []
             for nid in note_ids:
                 try:
                     note = col.get_note(nid)
                     model = note.note_type()
                     for card in note.cards():
+                        # A card whose ord has no template is a real defect, not something
+                        # to swallow: the bare `except: pass` here reported "no cards
+                        # found" instead.
+                        if card.ord >= len(model["tmpls"]):
+                            broken.append(card.id)
+                            continue
                         if model["tmpls"][card.ord]["name"] == template_name:
                             card_ids.append(card.id)
-                except Exception:
-                    pass
+                except Exception as e:
+                    unreadable.append((nid, str(e)))
+            problems = ""
+            if broken:
+                problems += (f" WARNING: {len(broken)} card(s) have an ord with no "
+                             "template — a template was deleted. Tell the user.")
+            if unreadable:
+                problems += f" {len(unreadable)} note(s) could not be read and were skipped."
             if not card_ids:
-                return f"No '{template_name}' cards found for query: {query}"
+                return f"No '{template_name}' cards found for query: {query}." + problems
             col.set_deck(card_ids, did)
             log_change("move_card_type", note_ids, {"template": template_name, "deck": deck_name, "card_count": len(card_ids)})
-            return f"Moved {len(card_ids)} '{template_name}' card(s) to deck '{deck_name}'."
+            return (f"Moved {len(card_ids)} '{template_name}' card(s) to deck "
+                    f"'{deck_name}'." + problems)
 
         else:
             return json.dumps({"error": f"Unknown tool: {tool_name}"})
@@ -2237,20 +2295,30 @@ def _vocab_status_map():
     try:
         # field 0 of ChineseVocabulary is Simplified (verified against notetype)
         rows = col.db.all(
-            "SELECT n.flds, c.ivl, c.did FROM notes n "
+            "SELECT n.flds, c.ivl, c.did, c.odid, c.queue FROM notes n "
             "JOIN notetypes nt ON nt.id = n.mid "
             "JOIN cards c ON c.nid = n.id WHERE nt.name = 'ChineseVocabulary'")
+        hidden = _hidden_deck_ids(col)
         deck_names = {}
         m = {}
-        for flds, ivl, did in rows:
+        for flds, ivl, did, odid, queue in rows:
             w = flds.split("\x1f", 1)[0].strip()
             if not w:
                 continue
+            home = odid or did
+            # Rank: live before suspended, a study deck before Hidden::, then interval.
+            # Ranking on interval alone picked an archived, suspended card for ~31,000
+            # words, so the dictionary site's "in your deck" badge named
+            # Hidden::Archive::Words for words the user has never studied.
+            rank = (0 if queue == -1 else 1, 0 if home in hidden else 1, ivl)
             prev = m.get(w)
-            if prev is None or ivl > prev["interval"]:
-                if did not in deck_names:
-                    deck_names[did] = col.decks.name(did)
-                m[w] = {"deck": deck_names[did], "interval": ivl}
+            if prev is None or rank > prev["_rank"]:
+                if home not in deck_names:
+                    deck_names[home] = col.decks.name(home)
+                m[w] = {"deck": deck_names[home], "interval": ivl,
+                        "suspended": queue == -1, "_rank": rank}
+        for v in m.values():
+            v.pop("_rank", None)
     except Exception as e:
         log.warning(f"status map: rebuild failed ({e}); serving cached snapshot")
         return _status_cache["map"]
@@ -2364,7 +2432,7 @@ def _stats_progression(col, deck_ids, cv_id, now):
     def bucket(ivl, typ):
         if typ == 2: return "Relearning"   # mid-lapse
         if ivl <= 0: return "Learning"      # sub-day step
-        return "Young" if ivl < 21 else "Mature"
+        return "Young" if ivl < MATURE_IVL else "Mature"
 
     first = rows[0][1] / 1000
     d0 = first - ((first - PDT_OFFSET) % 86400)   # midnight (PDT frame) of first-review day
@@ -2396,37 +2464,50 @@ def _deck_stats(deck_names, model_name, now, days_window=30):
     try:
         cv = col.models.by_name(model_name)
         cv_id = cv["id"] if cv else -1
-        deck_ids = {name: col.decks.id_for_name(name) for name in deck_names}
+        # Each name resolves to its deck AND its subdecks. id_for_name returns the parent
+        # alone, so `Mined` excluded Mined::三体 and Mined::十日终焉 and the dashboard's
+        # Mined panel reported 143 cards where the tree holds 446.
+        deck_ids = {}
+        for name in deck_names:
+            try:
+                deck_ids[name] = deck_subtree_ids(col, name)
+            except DeckMissing:
+                deck_ids[name] = []
 
-        def deck_counts(did):
-            if did is None:
+        def deck_counts(dids):
+            if not dids:
                 return {"total": 0, "studied": 0, "mature": 0, "new_left": 0, "new_per_day": 0}
-            q = "SELECT %s FROM cards WHERE did=? AND ord=0 AND nid IN (SELECT id FROM notes WHERE mid=?)"
-            total = col.db.scalar(q % "COUNT(*)", did, cv_id)
-            studied = col.db.scalar(q % "COUNT(*)" + " AND type IN (1,2)", did, cv_id)
-            mature = col.db.scalar(q % "COUNT(*)" + " AND type=2 AND ivl>=21", did, cv_id)
-            new_left = col.db.scalar(q % "COUNT(*)" + " AND type=0 AND queue!=-1", did, cv_id)
+            dph = ",".join("?" * len(dids))
+            q = (f"SELECT %s FROM cards WHERE did IN ({dph}) AND ord=0 "
+                 "AND nid IN (SELECT id FROM notes WHERE mid=?)")
+            total = col.db.scalar(q % "COUNT(*)", *dids, cv_id)
+            studied = col.db.scalar(q % "COUNT(*)" + " AND type IN (1,2)", *dids, cv_id)
+            mature = col.db.scalar(q % "COUNT(*)" + f" AND type=2 AND ivl>={MATURE_IVL}", *dids, cv_id)
+            new_left = col.db.scalar(q % "COUNT(*)" + " AND type=0 AND queue!=-1", *dids, cv_id)
             # The deck's CONFIGURED new-cards/day, read from whichever options preset the
             # deck is assigned to (they're shared — see DECK_REFERENCE). The dashboard
             # projects HSK completion from this rather than from observed new-card counts:
             # observed counts include other decks and lag any limit change by ~30 days,
             # so they answer "what did I do" when the projection needs "what will I do".
-            new_per_day = col.decks.config_dict_for_deck_id(did)["new"]["perDay"]
+            # The parent deck's limit governs the tree when studying from the top.
+            new_per_day = col.decks.config_dict_for_deck_id(dids[0])["new"]["perDay"]
             return {"total": total, "studied": studied, "mature": mature,
                     "new_left": new_left, "new_per_day": new_per_day}
 
-        def deck_words(did):
+        def deck_words(dids):
             # Full per-card list for drill-down: compact {w:word, p:pinyin, s:status}.
-            # status: 2=mature (type 2, ivl>=21), 1=studied/learning (type 1/2), 0=new.
-            if did is None:
+            # status: 2=mature, 1=studied/learning (type 1/2), 0=new.
+            if not dids:
                 return []
+            dph = ",".join("?" * len(dids))
             out = []
             for sfld, flds, ctype, ivl in col.db.all(
                     "SELECT n.sfld, n.flds, c.type, c.ivl FROM cards c JOIN notes n ON n.id=c.nid "
-                    "WHERE c.did=? AND c.ord=0 AND n.mid=? ORDER BY n.id DESC", did, cv_id):
+                    f"WHERE c.did IN ({dph}) AND c.ord=0 AND n.mid=? ORDER BY n.id DESC",
+                    *dids, cv_id):
                 parts = flds.split("\x1f")
                 pinyin = parts[1] if len(parts) > 1 else ""
-                s = 2 if (ctype == 2 and ivl >= 21) else (1 if ctype in (1, 2) else 0)
+                s = 2 if (ctype == 2 and ivl >= MATURE_IVL) else (1 if ctype in (1, 2) else 0)
                 out.append({"w": sfld, "p": pinyin, "s": s})
             return out
 
@@ -2436,7 +2517,7 @@ def _deck_stats(deck_names, model_name, now, days_window=30):
             block["words"] = deck_words(deck_ids[name])
             decks_out[name] = block
 
-        valid_ids = [did for did in deck_ids.values() if did is not None]
+        valid_ids = [d for dids in deck_ids.values() for d in dids]
 
         days = collections.OrderedDict()
         for i in range(days_window - 1, -1, -1):
@@ -2455,7 +2536,7 @@ def _deck_stats(deck_names, model_name, now, days_window=30):
                 f"SELECT r.id, r.ease, r.type, r.lastIvl FROM revlog r JOIN cards c ON r.cid=c.id "
                 f"WHERE r.id>? AND c.did IN ({ph}) AND c.ord=0 AND r.ease>0", wk_ms, *valid_ids)
             reviews = len(rl)
-            mature_revs = [e for _, e, t, liv in rl if liv >= 21 and t in (1, 2)]
+            mature_revs = [e for _, e, t, liv in rl if liv >= MATURE_IVL and t in (1, 2)]
             retention = round(100 * sum(1 for e in mature_revs if e >= 2) / len(mature_revs)) if mature_revs else None
             week = {"reviews": reviews, "retention": retention}
 
@@ -2475,13 +2556,14 @@ def _deck_stats(deck_names, model_name, now, days_window=30):
                     if rtype == 0: days[d]["new"] += 1
 
             for name in deck_names:
-                did = deck_ids[name]
-                if did is None:
+                dids = deck_ids[name]
+                if not dids:
                     continue
+                dph = ",".join("?" * len(dids))
                 recent[name] = [r[0] for r in col.db.all(
                     "SELECT n.sfld FROM notes n JOIN cards c ON c.nid=n.id "
-                    "WHERE c.did=? AND c.ord=0 AND n.mid=? ORDER BY n.id DESC LIMIT 20",
-                    did, cv_id)]
+                    f"WHERE c.did IN ({dph}) AND c.ord=0 AND n.mid=? ORDER BY n.id DESC LIMIT 20",
+                    *dids, cv_id)]
 
             progression = _stats_progression(col, valid_ids, cv_id, now)
 
@@ -2566,17 +2648,22 @@ def _deck_word_list(deck_name, model_name, ord_=0):
     try:
         cv = col.models.by_name(model_name)
         cv_id = cv["id"] if cv else -1
-        did = col.decks.id_for_name(deck_name)
-        if did is None:
+        # Subdecks included, for the same reason as _deck_stats: `Mined` alone omits
+        # Mined::三体 and Mined::十日终焉.
+        try:
+            dids = deck_subtree_ids(col, deck_name)
+        except DeckMissing:
             return []
+        dph = ",".join("?" * len(dids))
         out = []
         for sfld, flds, ctype, ivl in col.db.all(
                 "SELECT n.sfld, n.flds, c.type, c.ivl FROM cards c JOIN notes n ON n.id=c.nid "
-                "WHERE c.did=? AND c.ord=? AND n.mid=? ORDER BY n.id DESC", did, ord_, cv_id):
+                f"WHERE c.did IN ({dph}) AND c.ord=? AND n.mid=? ORDER BY n.id DESC",
+                *dids, ord_, cv_id):
             parts = flds.split("\x1f")
             pinyin = parts[1] if len(parts) > 1 else ""
             meaning = parts[2] if len(parts) > 2 else ""
-            status = 2 if (ctype == 2 and ivl >= 21) else (1 if ctype in (1, 2) else 0)
+            status = 2 if (ctype == 2 and ivl >= MATURE_IVL) else (1 if ctype in (1, 2) else 0)
             out.append({"simplified": sfld, "pinyin": pinyin, "meaning": meaning, "status": status})
         return out
     finally:
@@ -2636,7 +2723,7 @@ def _flagged_cards(model_name):
                 meaning = parts[2] if len(parts) > 2 else ""
             # Same `s` encoding as _deck_stats' deck_words (2=mature, 1=seen, 0=new), so
             # the dashboard can style a flagged word exactly like it does elsewhere.
-            s = 2 if (ctype == 2 and ivl >= 21) else (1 if ctype in (1, 2) else 0)
+            s = 2 if (ctype == 2 and ivl >= MATURE_IVL) else (1 if ctype in (1, 2) else 0)
             cards.append({"w": _plain(sfld), "p": _plain(pinyin), "m": _plain(meaning), "s": s,
                           "flag": f, "flag_name": FLAG_NAMES.get(f, str(f)),
                           "deck": deck_name(did), "ord": ord_,
@@ -2734,7 +2821,7 @@ def _hsk_level_stats():
             if did not in live_decks:
                 continue
             if ctype == 2:
-                st = "mature" if ivl >= 21 else "young"
+                st = "mature" if ivl >= MATURE_IVL else "young"
             elif ctype in (1, 3):
                 st = "learning"
             else:

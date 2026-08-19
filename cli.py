@@ -61,8 +61,15 @@ def cmd_deck_list(args):
 def cmd_deck_create(args):
     col = open_collection(args.collection)
     try:
-        col.decks.id_for_name(args.name)
-        print(f"Deck created: {args.name}")
+        # id_for_name is a pure LOOKUP that returns None for a missing deck. It created
+        # nothing, and this printed "Deck created" every time regardless. col.decks.id()
+        # is the call that creates.
+        existing = col.decks.id_for_name(args.name)
+        if existing is not None:
+            print(f"Deck already exists: {args.name} (id {existing})")
+            return
+        did = col.decks.id(args.name)
+        print(f"Deck created: {args.name} (id {did})")
     finally:
         col.close()
 
