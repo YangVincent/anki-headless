@@ -86,6 +86,11 @@ PYCOUNT
   fi
 fi
 
+echo "$(date -Iseconds) anki_daily: test suite"
+"$ROOT/tests/run.sh" 2>&1 | tail -3
+TRC=${PIPESTATUS[0]}
+[ $TRC -ne 0 ] && echo "$(date -Iseconds) anki_daily: TESTS FAILED (exit $TRC)" >&2
+
 echo "$(date -Iseconds) anki_daily: gate verify"
 "$PY" "$ROOT/freq_data/template_gate.py" --verify
 VRC=$?
@@ -97,4 +102,5 @@ if [ "$BACKUP_OK" != 1 ]; then
   echo "$(date -Iseconds) anki_daily: exiting non-zero because the BACKUP failed" >&2
   exit 1
 fi
+[ "${TRC:-0}" -ne 0 ] && exit "$TRC"
 exit $VRC
