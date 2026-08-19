@@ -285,7 +285,10 @@ def cmd_review(args):
             # Answer the card using the scheduler
             from anki.consts import BUTTON_ONE, BUTTON_TWO, BUTTON_THREE, BUTTON_FOUR
             buttons = {"1": BUTTON_ONE, "2": BUTTON_TWO, "3": BUTTON_THREE, "4": BUTTON_FOUR}
-            col.sched.answer_card(card, buttons[choice])
+            # answerCard, not answer_card: anki 25.09.2's answer_card takes a
+            # CardAnswer object, so the two-argument form raised TypeError on EVERY
+            # rating and lost the session. answerCard is the legacy alias taking an ease.
+            col.sched.answerCard(card, buttons[choice])
             reviewed += 1
             print()
 

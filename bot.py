@@ -218,15 +218,23 @@ def check_target_deck(col, name):
     `Default` for months while reporting "Knowledge", and move_card_type would CREATE
     whatever name it was given, on the wrong preset.
     """
-    if name not in decks.ALL_NAMES:
-        return {"error": f"{name!r} is not one of this collection's decks. "
-                         f"Cards may only go to: {', '.join(decks.ALL_NAMES)}.",
-                "allowed_decks": list(decks.ALL_NAMES)}
+    if name not in decks.WRITABLE_DECKS:
+        # WRITABLE, not merely declared. `Reverse` and `Cloze` are owned by the maturity
+        # gate: a hand-move into either is undone on the next run, or worse survives
+        # ungated. `Default` is Anki's own and this collection keeps it empty.
+        why = ""
+        if name in (decks.name_of(decks.PRODUCTION), decks.name_of(decks.CLOZE)):
+            why = " It is filled and suspended by the maturity gate, not by hand."
+        elif name == "Default":
+            why = " It is Anki's own deck and this collection keeps it empty."
+        return {"error": f"{name!r} is not a deck a tool may write to.{why} "
+                         f"Cards may only go to: {', '.join(decks.WRITABLE_DECKS)}.",
+                "allowed_decks": list(decks.WRITABLE_DECKS)}
     try:
         decks.deck_id_by_name(col, name)
     except DeckMissing as e:
         return {"error": f"{e}. Nothing was written.",
-                "allowed_decks": list(decks.ALL_NAMES)}
+                "allowed_decks": list(decks.WRITABLE_DECKS)}
     return None
 
 
@@ -260,6 +268,14 @@ def set_new_card_position(col, card, position):
         raise ValueError(
             f"card {card.id} is type {card.type}: its `due` is a {due_unit(card)}, "
             "not a queue position")
+    if card.odid:
+        # On loan to a filtered deck. Anki moved the real position into `odue` and put a
+        # filtered-ordering value in `due`, so a write here is discarded the moment the
+        # session ends -- while the caller reports "moved to the front". The gate already
+        # skips these; this refuses instead of lying.
+        raise ValueError(
+            f"card {card.id} is inside a filtered deck: its real position is in `odue`, "
+            "and a write to `due` is discarded when the session ends")
     card.due = position
     col.update_card(card)
 
@@ -281,9 +297,9 @@ def _apply_template_gate(col, template, role, dry_run=False):
       1. A gated card never sits in a study deck other than its own home deck.
       2. A card parked in `Archive` stays there until its word matures. Only a release
          moves it out, so the backlog leaves one card at a time, not in one bulk write.
-         Cards already in the home deck stay there, suspended -- most of the deck
-         is exactly that (5,364 in Reverse, 15,533 in Vocab Cloze), which is why this
-         says "stays parked", not "stays in Archive".
+         Cards already in the home deck stay there, suspended -- most of each deck is
+         exactly that (5,362 in Reverse, 15,519 in Cloze), which is why this says
+         "stays parked", not "stays in Archive".
       3. A card in a filtered deck is left completely alone until the session ends.
       4. A card with reps > 0 is never suspended. The gate adds practice; it must not
          take away a card that is already mid-schedule. Invariant 4 beats invariant 1.
@@ -305,7 +321,11 @@ def _apply_template_gate(col, template, role, dry_run=False):
     home_name = decks.name_of(role)          # display only, for the returned report
     cv = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
     if not cv:
-        return None
+        # A report dict, never None: _sync_gated_templates calls r.get("error"), so a
+        # None here raised AttributeError and the SECOND gate never ran that cycle.
+        return {"template": template, "deck": home_name,
+                "error": f"note type {CHINESE_VOCAB_NOTETYPE!r} not found",
+                "mature_words": 0, "moved": 0, "unsuspended": 0, "suspended": 0}
     ord_ = next((t["ord"] for t in cv["tmpls"] if t["name"] == template), None)
     try:
         # ALL declared decks resolve, or the gate does not run. Both calls raise rather
@@ -315,6 +335,10 @@ def _apply_template_gate(col, template, role, dry_run=False):
         # Mined::三体 counts where it used to be invisible.
         home_did = decks.deck_id_for(col, role)
         src = decks.gate_source_ids(col, role)
+        # archive_ids() raises now. It used to return an empty set, which the move test
+        # below read as "nothing is parked", and one run moved the entire 42,524-card
+        # archive into the study decks while startup reported the collection healthy.
+        hidden = decks.archive_ids(col)
     except DeckMissing as e:
         return {"template": template, "deck": home_name, "error": str(e),
                 "mature_words": 0, "moved": 0, "unsuspended": 0, "suspended": 0}
@@ -324,7 +348,6 @@ def _apply_template_gate(col, template, role, dry_run=False):
                 "mature_words": 0, "moved": 0, "unsuspended": 0, "suspended": 0}
 
     ph = ",".join("?" * len(src))
-    hidden = _archive_deck_ids(col)
     mature = set(col.db.list(
         f"SELECT nid FROM cards WHERE (CASE WHEN odid!=0 THEN odid ELSE did END) "
         f"IN ({ph}) AND ord=0 AND type=2 AND ivl>=? AND queue!=-1", *src, MATURE_IVL))
@@ -374,7 +397,7 @@ def apply_cloze_gate(col, dry_run=False):
 # promote_to_hanly was removed on 2026-08-19. It moved cards to decks named `hanly` and
 # `hanly-reverse`, neither of which has existed for months, so both moves were skipped
 # every time. What still ran were its side effects: it unsuspended ord-0 cards, which can
-# revive one of the ~164 basic HSK characters parked on purpose, and it suspended ord-1
+# revive one of the 184 basic HSK characters parked on purpose, and it suspended ord-1
 # cards, which the maturity gate then re-released. Two systems writing the same suspension
 # is worse than one; the gate owns it.
 #
@@ -472,7 +495,14 @@ def promote_to_vocab(col, note_ids):
     # under Hidden:: moves to Mined. Pulling a studied HSK card out of HSK breaks that
     # deck's level ordering and its coverage, and "promote" means the word comes up
     # sooner -- not that it leaves the deck it belongs to.
-    hidden = _archive_deck_ids(col)
+    # archive_ids raises now. Without this, add_chinese_vocab commits the note and THEN
+    # raises from promote_to_vocab, so the tool reports an error for a note that exists
+    # and the model creates a duplicate on retry.
+    try:
+        hidden = _archive_deck_ids(col)
+    except DeckMissing as e:
+        hidden = set()
+        decks_missing.append(str(e))
     moved, kept = [], []
     for cid in forward_cards:
         card = col.get_card(cid)
@@ -497,6 +527,7 @@ def promote_to_vocab(col, note_ids):
 
     repositioned = 0
     already_in_review = 0
+    on_loan = 0
     for did, cids in by_deck.items():
         min_due = col.db.scalar(
             "SELECT MIN(due) FROM cards WHERE did=? AND type=0 AND ord=0", did)
@@ -511,6 +542,9 @@ def promote_to_vocab(col, note_ids):
             if card.type != 0:
                 already_in_review += 1
                 continue
+            if card.odid:
+                on_loan += 1          # in a filtered deck; its position lives in odue
+                continue
             set_new_card_position(col, card, next_due)
             next_due -= 1
             repositioned += 1
@@ -524,6 +558,7 @@ def promote_to_vocab(col, note_ids):
         "kept_in_deck": len(kept),
         "repositioned_to_front": repositioned,
         "already_in_review": already_in_review,
+        "in_filtered_deck": on_loan,
         "reverse_routed": len(reverse_cards),
         "reverse_suspended": len(reverse_to_suspend),
         "cloze_routed": len(cloze_cards),
@@ -644,7 +679,7 @@ Your standing loop for any card-related message:
 5. **After the edit, offer to move the card to the front — then stop and wait.** Never promote silently. Read `card_states` from `get_notes_detail` (the ord-0 card) and choose by its `state`:
    - **`new`** — offer it. Say how far back it sits (`queue_position`) and ask: "Move it to the front so it comes up next?" On a yes, call `tag_notes` with the `mined` tag. Say "first among the new cards", not "next" — cards already due still come first.
    - **`review`, `learning` or `day-learn`** — do NOT offer. The card is in rotation. Report `due_in_days` (or `due_in_minutes` for `learning`). Promotion would leave this card's own deck, schedule and position untouched, but it still tags the note and re-routes its production and cloze siblings, so it is not a no-op.
-   - **`suspended`** — ask whether the card was parked on purpose before you do anything. About 164 basic HSK single-character cards are suspended deliberately. `tag_notes` + `mined` UNSUSPENDS the ord-0 card, so it can silently undo that decision.
+   - **`suspended`** — ask whether the card was parked on purpose before you do anything. About 184 basic HSK single-character cards are suspended deliberately. `tag_notes` + `mined` UNSUSPENDS the ord-0 card, so it can silently undo that decision.
    - **`buried-manual`, `buried-sibling`, `preview`** — do not offer; the state is temporary. Say what it is.
    Make the offer once per card. If the user declines, drop it and do not ask again for that card.
 
@@ -747,7 +782,8 @@ When the user asks for a story or reading practice:
 
 ## User Preferences
 - Chinese vocabulary decks: **HSK**, **HSK7-9** and **non-HSK** (frequency-ordered).
-  There is NO deck named `Vocab` — that name is dead, and `deck:Vocab` matches nothing.
+  The deck list above is complete. A name not in it does not exist, and an Anki search
+  naming one matches nothing rather than failing.
   **Mined** is where wild-adds go. Words the user
   adds in the wild are tagged **mined** and placed at the FRONT of the new-card queue (next-up)
   so they're studied first. add_chinese_vocab does this automatically; to promote existing
@@ -1155,7 +1191,7 @@ API_TOOLS = [t for t in TOOLS if t["name"] in API_TOOL_NAMES]
 # notes, so `Simplified:<word>` returns the real card plus 4 archived ones. Without
 # a flag that reads as five duplicates and the model proposes deleting four of them.
 # A note is archived when EVERY one of its cards is in a Hidden:: deck -- deliberately
-# not "and suspended", because a handful of archive cards are unsuspended and the
+# not "and suspended", because archive cards were unsuspended at the time (now zero) and the
 # conservative direction for a delete guard is to protect more, not less.
 
 _archive_deck_ids = decks.archive_ids     # deck IDs of the archive, under every past name
@@ -1219,7 +1255,12 @@ def _archived_note_ids(col, note_ids):
     note_ids = [int(n) for n in note_ids]
     if not note_ids:
         return set()
-    hidden = _archive_deck_ids(col)
+    try:
+        hidden = _archive_deck_ids(col)
+    except DeckMissing:
+        # No archive deck: nothing can be archived. Reporting "none" is correct and lets
+        # the caller keep working; raising here would escape execute_tool entirely.
+        return set()
     ids_sql = ",".join(str(n) for n in note_ids)
     has_card, live = set(), set()
     for nid, did, odid in col.db.all(
@@ -1702,12 +1743,13 @@ def execute_tool(tool_name, tool_input):
                        f"{result['repositioned_to_front']} new card(s) first among the NEW "
                        f"cards of their own deck (due cards still come before them). Kept "
                        f"{result['kept_in_deck']} card(s) in the study deck they were "
-                       f"already in; moved {result['moved_to_mined']} card(s) into Mined. "
+                       f"already in; moved {result['moved_to_mined']} card(s) into "
+                       f"{decks.NEW_WORDS_DECK}. "
                        f"Routed {result['reverse_routed']} production and "
                        f"{result['cloze_routed']} cloze card(s) to their gated decks, "
                        f"suspending {result['reverse_suspended']} of them.")
                 if result["forward_unsuspended"]:
-                    # Some parked cards are parked on purpose (the ~164 basic HSK
+                    # Some parked cards are parked on purpose (the 184 basic HSK
                     # characters). Unsuspending one silently is how a deliberate decision
                     # gets undone without anyone noticing.
                     msg += (f" UNSUSPENDED {result['forward_unsuspended']} card(s) that "
@@ -1716,6 +1758,10 @@ def execute_tool(tool_name, tool_input):
                 if result["skipped_import_pool"]:
                     msg += (f" Skipped {result['skipped_import_pool']} parked import-pool "
                             "note(s); they are not the user's cards.")
+                if result["in_filtered_deck"]:
+                    msg += (f" {result['in_filtered_deck']} card(s) are on loan to a "
+                            "filtered deck; their position lives in `odue` and was left "
+                            "alone. Empty the filtered deck and re-run to move them.")
                 if result["already_in_review"]:
                     msg += (f" {result['already_in_review']} card(s) are already in "
                             "learning or review, so their schedule and their position "
@@ -2520,12 +2566,12 @@ def _cached_deck_stats(deck_names, model_name, days_window=30):
 
 
 async def handle_api_stats(request):
-    """GET /api/stats?decks=Vocab,Mined&model=ChineseVocabulary — read-only deck
+    """GET /api/stats?decks=HSK,Mined&model=ChineseVocabulary — read-only deck
     progress + review activity, for the dashboard. Cached ~60s per (decks, model)."""
-    # Default to the real study decks. The old "Vocab" deck was retired in the deck reorg
-    # (see DECOUPLING_PLAN.md); a bare call defaulting to it measured an empty deck. The
-    # dashboard passes ?decks= explicitly, but the default must not be a dead deck.
-    raw = request.query.get("decks", "HSK,HSK7-9,non-HSK,Mined")
+    # NAME BOUNDARY: ?decks= is a published contract and takes names. The default is NOT
+    # a literal -- it was, and the literal always won because it fired before the fallback
+    # on the next line could ever run.
+    raw = request.query.get("decks", "")
     deck_names = [d.strip() for d in raw.split(",") if d.strip()] or list(decks.RECOGNITION_DECKS)
     model_name = request.query.get("model", "ChineseVocabulary").strip() or "ChineseVocabulary"
     # ?days= widens the daily series (dashboard range views); default stays 30.
@@ -3188,34 +3234,15 @@ def _sync_gated_templates():
             col.close()
 
 
-def _sync_grammar_reverse_cards():
-    """Unsuspend hanly-grammar-reverse cards when the forward card has been reviewed."""
-    col = open_collection()
-    try:
-        # Notes whose forward card has been started in hanly-grammar
-        learned_notes = set()
-        # These two decks live under Hidden:: -- the old unqualified names matched
-        # nothing, exactly like the reverse job did.
-        for cid in col.find_cards('"deck:Hidden::hanly-grammar" -is:new -is:suspended'):
-            card = col.get_card(cid)
-            learned_notes.add(card.nid)
-
-        # Unsuspend grammar-reverse cards for those notes
-        to_unsuspend = []
-        for cid in col.find_cards('"deck:Hidden::hanly-grammar-reverse" is:suspended'):
-            card = col.get_card(cid)
-            if card.nid in learned_notes:
-                to_unsuspend.append(cid)
-
-        if to_unsuspend:
-            col.sched.unsuspend_cards(to_unsuspend)
-            return f"Unsuspended {len(to_unsuspend)} grammar reverse cards"
-        return None
-    except Exception as e:
-        return f"Grammar reverse sync failed: {e}"
-    finally:
-        col.close()
-
+# _sync_grammar_reverse_cards was removed on 2026-08-19. It searched
+# `deck:Hidden::hanly-grammar` and `deck:Hidden::hanly-grammar-reverse`; the deck
+# consolidation folded both into `Archive` the same day, so both queries matched zero
+# cards. Anki does not raise for a nonexistent deck, and periodic_sync only logs a
+# non-empty result, so the job ran every 5 minutes reporting nothing. That is the exact
+# silent no-op this codebase keeps producing -- and it was reintroduced by a fix earlier
+# the same day that corrected the deck names to ones about to be deleted.
+#
+# Nothing replaces it. The maturity gate owns suspension for every gated template.
 
 async def periodic_sync(context):
     """Background job: sync with AnkiWeb, then run the maturity gates.
@@ -3225,8 +3252,7 @@ async def periodic_sync(context):
     while APScheduler still logged the job as successful.
     """
     for label, fn in (("sync", _sync_collection),
-                      ("gates", _sync_gated_templates),
-                      ("grammar-reverse", _sync_grammar_reverse_cards)):
+                      ("gates", _sync_gated_templates)):
         try:
             result = await asyncio.to_thread(fn)
         except Exception as e:

@@ -31,8 +31,8 @@ try:
         study_dids = decks.deck_ids_for(col, decks.RECOGNITION)
     except decks.DeckMissing as e:
         print(f"cannot measure the backbone: {e}"); sys.exit(1)
-    if not study_dids:
-        print("no study decks found (expected one of %s)" % (STUDY_ROOTS,)); sys.exit(1)
+    if not study_dids:   # unreachable: deck_ids_for raises rather than returning []
+        print("no study decks found"); sys.exit(1)
     ph = ",".join("?" * len(study_dids))     # IN (?,?,…) placeholder for the deck set
     now = int(time.time()); since_ms = (now - DAYS*86400)*1000
 

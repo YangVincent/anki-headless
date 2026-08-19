@@ -17,7 +17,11 @@ SCRIPT="${1:?usage: anki_op.sh <label> <script> [args...]}"; shift
 
 TS=$(date +%Y%m%d-%H%M%S)
 BAK="$ROOT/backups/collection.anki2.${TS}.${LABEL}.bak"
-KEEP=2
+# 5, not 2. The prune runs before every op, so KEEP=2 meant the next two runs would have
+# deleted this session's only two pre-change snapshots -- the evidence a rollback or an
+# audit depends on. At ~112MB each that costs about 560MB of 21GB free. The daily gzipped
+# backups in /home/vincent/backups/anki cover longer history at 29MB each.
+KEEP=5
 
 # The backup is taken AFTER the bot stops and the lock clears, and with sqlite3 .backup
 # rather than cp. The collection runs in WAL mode: cp copies only the main file, so a

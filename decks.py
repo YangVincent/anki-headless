@@ -47,7 +47,9 @@ DECKS = (
          note="Frequency-ordered vocabulary outside HSK 3.0."),
     # Mined is a CLOZE source but not a PRODUCTION one. That asymmetry is a deliberate
     # choice, not an oversight -- and writing it here is what makes it visible. Its
-    # consequence: 249 production cards for mined words can never be released.
+    # consequence: all 446 production cards for mined words are unreleasable, wherever
+    # they sit (249 in Reverse, 197 still in Archive). Counting only the ones already in
+    # Reverse understated it.
     Deck("Mined", RECOGNITION, gates=(CLOZE,), new_words=True,
          note="Words added from anywhere that are not in HSK. New arrivals go to the front."),
     Deck("Reverse", PRODUCTION,
@@ -55,7 +57,9 @@ DECKS = (
     Deck("Cloze", CLOZE, legacy_names=("Vocab Cloze",),
          note="Cloze cards. Filled and suspended by the maturity gate, not by hand."),
     Deck("Archive", ARCHIVE, legacy_names=("Hidden",),
-         note="Everything parked. Always suspended. 66,382 notes exist ONLY here."),
+         note="Everything parked. Always suspended (0 of 213,434 live). 111,925 notes "
+              "have every card here; 66,382 of those are the user's own vocabulary, "
+              "character and sentence notes, which must be promoted, never re-created."),
     Deck("Default", RESERVED,
          note="0 cards. Anki reserves deck id 1 and will not let it be deleted."),
 )
@@ -88,11 +92,28 @@ ARCHIVE_NAMES = (ARCHIVE_DECK,) + BY_NAME[ARCHIVE_DECK].legacy_names
 #: Decks the user actually studies from — everything except the archive and Anki's own.
 STUDY_DECKS = tuple(d.name for d in DECKS if d.role not in (ARCHIVE, RESERVED))
 
-#: Decks that must exist for the bot to work. `Default` is excluded: Anki guarantees it.
-REQUIRED_DECKS = STUDY_DECKS
+#: Decks a TOOL may file or move a card into. Narrower than ALL_NAMES, which only says a
+#: deck is declared. `Reverse` and `Cloze` are owned by the maturity gate — a hand-move
+#: into either is immediately undone or, worse, survives ungated. `Default` is Anki's own
+#: and the collection keeps it empty.
+#: NOT the archive. A card moved there by hand stays unsuspended -- the deck's whole
+#: contract is "always suspended" -- and its production and cloze siblings land where no
+#: gate will look for them again, because a parked immature card is exactly what the gate
+#: is built to leave alone. Parking is the gate's job, or an explicit script's.
+WRITABLE_DECKS = tuple(d.name for d in DECKS if d.role == RECOGNITION)
 
-#: Where a newly created vocabulary note is filed.
-NEW_WORDS_DECK = next(d.name for d in DECKS if d.new_words)
+#: Decks that must exist for the bot to work. Only `Default` is excluded, because Anki
+#: guarantees it. The ARCHIVE belongs here: its absence is the one that causes a
+#: destructive write, and it was silently exempt.
+REQUIRED_DECKS = STUDY_DECKS + (ARCHIVE_DECK,)
+
+#: Where a newly created vocabulary note is filed. Checked like a role: a bare
+#: StopIteration at import time says nothing, and two such decks used to pick the first
+#: without a word.
+_new_words = [d.name for d in DECKS if d.new_words]
+if len(_new_words) != 1:
+    raise ValueError(f"expected exactly one deck with new_words=True, found {_new_words}")
+NEW_WORDS_DECK = _new_words[0]
 
 
 def gate_sources(gate):
@@ -128,9 +149,21 @@ class DeckMissing(RuntimeError):
 
 
 def _subtree_ids(col, name):
-    """Deck ids for `name` and its subdecks. Empty if the deck does not exist."""
+    """Deck ids for `name` and its subdecks. Empty if the deck does not exist.
+
+    Resolution goes through Anki's own id_for_name, which is case-insensitive and
+    NFC-normalising, then subdecks are matched against the CANONICAL name it returns.
+    A plain `==` disagreed with it: `id_for_name('hsk')` resolved while `== 'HSK'` did
+    not, so the startup health check called the collection healthy while the gate
+    refused to run on the same deck. Three code paths must not give three answers to
+    "does this deck exist".
+    """
+    did = col.decks.id_for_name(name)
+    if did is None:
+        return []
+    canonical = col.decks.name(did)
     return [d.id for d in col.decks.all_names_and_ids()
-            if d.name == name or d.name.startswith(name + "::")]
+            if d.id == did or d.name.startswith(canonical + "::")]
 
 
 def deck_ids_for(col, role):
@@ -187,16 +220,37 @@ def gate_source_ids(col, gate):
     if missing:
         raise DeckMissing(f"{gate} gate source deck(s) missing: "
                           + ", ".join(repr(n) for n in missing))
+    if not ids:
+        # No source deck declares this gate. `mature` would then be empty and the gate
+        # would suspend every released card -- 1,960 of them -- reporting success. An
+        # edit to a `gates=` tuple must not be able to do that silently.
+        raise DeckMissing(f"no deck declares {gate!r} in its gates; refusing to run")
     return ids
 
 
 def archive_ids(col):
-    """Deck IDs of the archive, under every name it has ever had.
+    """Deck IDs of the archive. RAISES if none is found.
 
-    Not deck_id_for(ARCHIVE): that reads only the current name, which is wrong during a
-    rename and wrong against any older backup.
+    Two rules, both learned the hard way:
+
+    1. It raises. An empty set read as "nothing is parked", and the maturity gate then
+       moved the entire 42,524-card archive into the study decks on its next run — while
+       the startup health check reported the collection healthy, because ARCHIVE was
+       missing from REQUIRED_DECKS. Every other resolver here raises; this one silently
+       did not, and it is the one whose absence causes a destructive write.
+    2. The CURRENT name wins outright. A legacy name is consulted only when no deck
+       carries the current one, so a new deck someone happens to call `Hidden` is not
+       mistaken for the archive. Legacy names exist for reading an old backup, nothing
+       more.
     """
-    return {d.id for d in col.decks.all_names_and_ids() if is_archive(d.name)}
+    by_name = {d.name: d.id for d in col.decks.all_names_and_ids()}
+    for candidate in ARCHIVE_NAMES:
+        ids = {i for n, i in by_name.items()
+               if n == candidate or n.startswith(candidate + "::")}
+        if ids:
+            return ids
+    raise DeckMissing("no archive deck: none of "
+                      + ", ".join(repr(n) for n in ARCHIVE_NAMES) + " exists")
 
 
 def deck_id_by_name(col, name):
