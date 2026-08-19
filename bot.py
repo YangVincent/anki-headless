@@ -703,6 +703,19 @@ def _trim_history(chat_id, max_messages=50, max_chars=300000):
 
 # ── Unified system prompt ─────────────────────────────────────────────
 
+def _deck_table():
+    """The deck list as a markdown table, built from decks.py.
+
+    This was hand-written, with names AND card counts in it. Both went stale: a rename
+    would have told the model deck names that no longer exist -- the exact failure this
+    codebase kept hitting. Names and roles come from the one definition now, and the
+    counts are gone, because `list_decks` returns live ones.
+    """
+    rows = ["| Deck | Role | What it is |", "|---|---|---|"]
+    rows += [f"| `{d.name}` | {d.role} | {d.note} |" for d in decks.DECKS]
+    return "\n".join(rows)
+
+
 SYSTEM_PROMPT = """You are an Anki card creation and collection management assistant running as a Telegram bot. You help the user create flashcards and manage their Anki collection through natural conversation.
 
 ## FIRST PRINCIPLE: The user's intent is ALWAYS to understand or improve a card
@@ -733,19 +746,9 @@ The only messages that DON'T need a fetch first: pure chit-chat, story-writing r
 This collection holds exactly eight decks. Nothing else exists, and nothing you create or
 move may go anywhere else.
 
-| Deck | Cards | Unsuspended | What it is |
-|---|---|---|---|
-| `HSK` | 4,859 | 4,673 | HSK 3.0 levels 1-6, recognition |
-| `HSK7-9` | 5,420 | 5,393 | HSK 7-9, recognition |
-| `non-HSK` | 9,950 | 8,660 | frequency-ordered vocabulary outside HSK |
-| `Mined` | 446 | 317 | words added from anywhere, not in HSK |
-| `Reverse` | 7,402 | 2,040 | production cards, maturity-gated |
-| `Cloze` | 17,448 | 1,929 | cloze cards, maturity-gated |
-| `Archive` | 213,434 | **0** | everything parked; always suspended |
-| `Default` | 0 | 0 | Anki reserves deck id 1 and will not let it go |
-
-(Counts measured 2026-08-19; treat them as approximate. `Reverse` and `Cloze` are filled by
-the maturity gate, not by hand.)
+""" + _deck_table() + """
+Counts change daily — call `list_decks` for live numbers. `Reverse` and `Cloze` are filled
+by the maturity gate, not by hand.
 
 **Two populations sit in `Archive`, and they need OPPOSITE actions. `search_notes` and
 `get_notes_detail` tell them apart for you — read the flags, never guess.**

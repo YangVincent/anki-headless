@@ -24,7 +24,10 @@ import bot
 
 APPLY = "--apply" in sys.argv
 DEFAULT_DID = 1
-TARGETS = {0: "Mined", 2: "Vocab Cloze"}
+import decks
+# By role, not by name: `Vocab Cloze` was renamed `Cloze` hours after this script ran, and
+# a literal here would have silently left every ord-2 card behind on a re-run.
+TARGETS = {0: decks.NEW_WORDS_DECK, 2: decks.CLOZE_DECK}
 SUSPEND_ORDS = {2}
 
 col = None
@@ -73,7 +76,7 @@ try:
             plan.setdefault("_suspend", []).extend(c[0] for c in cards)
 
     if dues := sorted(c[3] for cards in by_ord.values() for c in cards if c[2] == 0):
-        mined = col.decks.id_for_name("Mined")
+        mined = col.decks.id_for_name(decks.NEW_WORDS_DECK)
         lo = col.db.scalar(
             "SELECT MIN(due) FROM cards WHERE did=? AND type=0 AND ord=0", mined)
         hi = col.db.scalar(

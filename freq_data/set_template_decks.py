@@ -29,11 +29,15 @@ import bot
 APPLY = "--apply" in sys.argv
 
 # (note type, template name, destination deck). Only where the destination is unambiguous.
+# Destinations come from decks.py by ROLE. They were literals until 2026-08-19, and two of
+# them (`Vocab Cloze`, `Hidden::Archive::*`) stopped existing hours later — re-running this
+# script would have failed on a deck name it had itself been told to write.
+import decks
 OVERRIDES = [
-    ("ChineseVocabulary", "English-Speaking", "Reverse"),
-    ("ChineseVocabulary", "Cloze-Recall",     "Vocab Cloze"),
-    ("ChineseCharacters", "TradRecognition",  "Hidden::Archive::Characters"),
-    ("ChineseSentences",  "Listen-English",   "Hidden::Archive::Sentences"),
+    ("ChineseVocabulary", bot.REVERSE_TEMPLATE, decks.PRODUCTION_DECK),
+    ("ChineseVocabulary", bot.CLOZE_TEMPLATE,   decks.CLOZE_DECK),
+    ("ChineseCharacters", "TradRecognition",    decks.ARCHIVE_DECK),
+    ("ChineseSentences",  "Listen-English",     decks.ARCHIVE_DECK),
 ]
 
 col = None

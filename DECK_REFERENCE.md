@@ -61,9 +61,29 @@ in one line instead of implied by two tuples that happen not to match.
 `UNEXPECTED DECKS` if the collection grows one. `GET /api/decks` serves the same data for
 anything that cannot import the module.
 
-The two sibling repos import `decks.py` directly (`sys.path.insert` on the anki-headless
-path, which they already hardcode for the collection file). Each keeps one literal fallback
-pair, used only if that import fails.
+Consumers, and how each gets the list:
+
+| Consumer | How |
+|---|---|
+| `bot.py`, `freq_data/*.py` | `import decks` |
+| `dong-chinese` backfill, `jiangchinese` anki.py | `import decks` via the anki-headless path they already hardcode |
+| `chinese-dashboard/build_stats.py` | `GET /api/decks` — it is HTTP-only by design |
+
+Each of the three sibling files keeps ONE literal fallback, used only if that lookup fails.
+Those four lines are the only deck names outside `decks.py` in any live file.
+
+The bot's system prompt no longer contains a hand-written deck table. `_deck_table()` builds
+it from `decks.py` at import, so a rename cannot leave the model naming decks that are gone.
+The card counts that used to sit in it are removed — `list_decks` returns live ones.
+
+**Verified by renaming.** Changing `Mined` to `Foraged` and `Reverse` to `SpeakIt` in
+`decks.py` alone, with no other edit, changed `RECOGNITION_DECKS`, `NEW_WORDS_DECK`,
+`PRODUCTION_DECK`, `bot.DEFAULT_DECK`, `bot.REVERSE_DECK`, both gate source lists,
+`ALLOWED_DECKS`, the prompt table and the `/api/decks` payload.
+
+`freq_data/lint_deck_names.py` reports scripts that name a deck which no longer exists. It
+finds **43 of 61** one-shot scripts, mostly naming `Vocab` (37) — a deck retired long before
+this consolidation. None is in the live path; each is a silent no-op if re-run.
 
 **`Archive` replaced the `Hidden::` subtree.** It absorbed `Hidden::Archive::{Words,
 Sentences,Characters}`, `Hidden::Personal{,-reverse}`, `Hidden::hanly-grammar{,-reverse}`,

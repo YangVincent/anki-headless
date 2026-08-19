@@ -67,16 +67,19 @@ try:
     folds = []
     for name, did in sorted(cur.items()):
         n = col.db.scalar("SELECT count(*) FROM cards WHERE did=?", did)
-        if name == "Hidden" or name.startswith("Hidden::"):
+        # The old subtree names come from decks.py's legacy_names, so even this one-shot
+        # migration has no deck literal of its own.
+        if decks.is_archive(name) and name != ARCHIVE:
             folds.append((name, did, ARCHIVE, n))
-        elif name.startswith("Mined::"):
+        elif name.startswith(decks.NEW_WORDS_DECK + "::"):
             folds.append((name, did, decks.NEW_WORDS_DECK, n))
     plan += [("fold", a, b, n) for a, _, b, n in folds]
 
     # 3. decks that end up empty and are not in KEEP
     for name, did in sorted(cur.items()):
         n = col.db.scalar("SELECT count(*) FROM cards WHERE did=?", did)
-        folding = name == "Hidden" or name.startswith(("Hidden::", "Mined::"))
+        folding = ((decks.is_archive(name) and name != ARCHIVE)
+                   or name.startswith(decks.NEW_WORDS_DECK + "::"))
         if name not in KEEP and not folding and n == 0:
             plan.append(("remove-empty", name, "", 0))
 
