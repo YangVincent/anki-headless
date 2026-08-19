@@ -17,15 +17,14 @@ SCRIPT="${1:?usage: anki_op.sh <label> <script> [args...]}"; shift
 
 TS=$(date +%Y%m%d-%H%M%S)
 BAK="$ROOT/backups/collection.anki2.${TS}.${LABEL}.bak"
-echo "[anki_op] backup -> $(basename "$BAK")"
-cp "$COL" "$BAK" || { echo "[anki_op] backup FAILED, aborting"; exit 1; }
-
-# Retention: keep only the 2 newest backups, prune the rest (they're ~112MB each).
 KEEP=2
-ls -1t "$ROOT"/backups/collection.anki2.*.bak 2>/dev/null | tail -n +$((KEEP + 1)) | while IFS= read -r old; do
-  echo "[anki_op] pruning old backup -> $(basename "$old")"
-  rm -f "$old"
-done
+
+# The backup is taken AFTER the bot stops and the lock clears, and with sqlite3 .backup
+# rather than cp. The collection runs in WAL mode: cp copies only the main file, so a
+# committed write still sitting in collection.anki2-wal is silently absent from the copy.
+# Taking it first, while the bot was still writing, produced backups that rolled a
+# committed suspend back to its pre-write state. A backup that can be stale is worse than
+# no backup, because it is trusted.
 
 # stop the bot only if it is currently online
 BOT_UP=0
@@ -49,6 +48,29 @@ if [ $? -ne 0 ]; then
   [ "$BOT_UP" = 1 ] && pm2 start anki-bot >/dev/null 2>&1
   exit 1
 fi
+
+echo "[anki_op] backup -> $(basename "$BAK")"
+"$PY" - "$COL" "$BAK" <<'PYBAK'
+import sys, sqlite3
+src, dst = sys.argv[1], sys.argv[2]
+s = sqlite3.connect(f"file:{src}?mode=ro", uri=True)
+d = sqlite3.connect(dst)
+s.backup(d)          # WAL-aware: writes a consistent, fully-checkpointed copy
+d.close(); s.close()
+PYBAK
+if [ $? -ne 0 ] || [ ! -s "$BAK" ]; then
+  echo "[anki_op] backup FAILED, aborting"
+  rm -f "$BAK"
+  [ "$BOT_UP" = 1 ] && pm2 start anki-bot >/dev/null 2>&1
+  exit 1
+fi
+
+# Retention: keep only the KEEP newest .bak files (~112MB each). Files without the .bak
+# suffix, such as collection.anki2.pre-reposition-*, are never pruned.
+ls -1t "$ROOT"/backups/collection.anki2.*.bak 2>/dev/null | tail -n +$((KEEP + 1)) | while IFS= read -r old; do
+  echo "[anki_op] pruning old backup -> $(basename "$old")"
+  rm -f "$old"
+done
 
 echo "[anki_op] running: $SCRIPT $*"
 "$PY" "$SCRIPT" "$@"

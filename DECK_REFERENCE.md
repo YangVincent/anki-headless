@@ -34,24 +34,181 @@ where 94% of the deck is suspended and the raw card count badly overstates what 
 | **HSK7-9** | 5,674 | 5,525 | `HSK` — 10 | HSK 7-9 word cards + orphan character cards. All tagged `HSK::HSK7-9`. |
 | **non-HSK** | 11,609 | 9,299 | `HSK` — 10 | Frequency-ordered vocab not in HSK 3.0 1-9. Sorted by frequency (high to low). |
 | **Vocab Cloze** | 16,749 | **989** | `HSK` — 10 | Cloze-Recall (ord-2) cards from all above sources. Production direction. |
-| **Mined** (+ `::三体`, `::十日终焉`) | 503 | 463 | mixed | Mining targets; `Mined::三体` is the one deck on the `Default` preset. |
+| **Mined** (+ `::三体`, `::十日终焉`) | 446 | 317 | mixed | Mining targets; `Mined::三体` is the one deck on the `Default` preset, and is fully suspended since 2026-08-19. |
+| **Reverse** | 7,389 | 2,025 | `HSK` — but a per-deck `newLimit` override of **25** wins over the preset's 10 | Production (`English-Speaking`) cards, gated by maturity. Top-level since 2026-08-19; was `Hidden::hanly-reverse`. |
 
 Note the two distinct presets whose names both begin `HSK`: `HSK (25/day)` drives the HSK deck
 alone; the plain `HSK` preset (10/day) is shared by nearly everything else — including
 `Vocab Cloze`. A "10/day" change made on the shared preset therefore moves several decks at once.
 
-## Archived Decks (Hidden, all suspended)
+## Archived Decks (under `Hidden::` — *mostly*, not entirely, suspended)
+
+*213,447 cards, of which **499 are unsuspended and 346 are in review**. `Hidden::hanly-grammar` (226 live), `Hidden::hanly-proper-nouns` (172), `Hidden::Personal` (30) and `Hidden::Personal-reverse` (3) are studied. Do not treat "under Hidden" as "suspended".*
 
 | Deck | Cards | Contents |
 |---|---|---|
 | `Hidden::Archive::Words` | 96,733 | Legacy word backup pool |
 | `Hidden::Archive::Sentences` | 84,657 | Legacy sentence pool |
 | `Hidden::Archive::Characters` | 34,070 | Legacy character pool (some moved to HSK deck) |
-| `Hidden::hanly-reverse` | 4,460 | Production/reverse cards deferred for later |
 | `Hidden::hanly-proper-nouns` | 346 | |
 | `Hidden::hanly-grammar` | 266 | |
 | `Hidden::Personal` + `:reverse` | 87 | |
 | `Hidden::TingChinese - Saved Words` | 9 | |
+
+*`Hidden::hanly-reverse` was renamed to the top-level deck `Reverse` on 2026-08-19 — see below.*
+
+---
+
+## `Reverse` — the production deck, and the gate that fills it
+
+*Verified against the collection 2026-08-19.*
+
+`ChineseVocabulary` ord 1 is the **`English-Speaking`** template: it shows the meaning and
+asks you to say the word in Mandarin. That is the production direction. You should not
+practise producing a word before you can recognise it, so a production card stays
+**suspended until its ord 0 card matures** (type=2, interval ≥ 21 days) in `HSK`, `HSK7-9`
+or `non-HSK`.
+
+The deck is `Reverse` (top-level, preset `HSK`, 10 new/day): **7,389 cards, 2,025
+unsuspended**. It was `Hidden::hanly-reverse` until 2026-08-19.
+
+**The rule lives in exactly one place: `bot._apply_template_gate()`.** Two templates share
+it — `English-Speaking` → `Reverse`, and `Cloze-Recall` → `Vocab Cloze` — through the thin
+wrappers `apply_reverse_gate()` and `apply_cloze_gate()`. The bot's 5-minute
+`periodic_sync` and `freq_data/template_gate.py` both call them. Four invariants:
+
+1. A production card never sits in a study deck. It lives in `Reverse`.
+2. An unsuspended production card lives in `Reverse`.
+3. A card parked under `Hidden::` stays there until its word matures — the **42,356**
+   suspended `ord 1` cards in `Hidden::Archive::Words` move out one release at a time,
+   not in one bulk write. Cards already in the home deck stay there, suspended: that is
+   most of both decks (5,364 in `Reverse`, 15,533 in `Vocab Cloze`).
+4. A card with `reps > 0` is never suspended. The gate adds practice; it must not remove
+   a card that is already mid-schedule.
+
+Source decks differ on purpose: production reads `HSK`, `HSK7-9`, `non-HSK`; cloze reads
+those plus `Mined`.
+
+**Why this exists.** The old job searched `deck:hanly-reverse` after that deck had been
+renamed `Hidden::hanly-reverse`. Anki matched zero cards, so the job ran every 5 minutes
+and did nothing for months. Meanwhile production cards leaked into the study decks: 146 in
+`HSK` (44 live), 254 in `HSK7-9` (132 live), 1,025 in `non-HSK`, 106 in `Mined::三体` (all
+live), 70 in `Default`. The 2026-08-19 run moved 2,929 cards into `Reverse`, unsuspended
+1,517 for mature words, and suspended 234 that had never been studied.
+
+Run it by hand with:
+
+```
+bash freq_data/anki_op.sh template-gate freq_data/template_gate.py --apply
+```
+
+Three modes: no flag dry-runs, `--verify` runs the checks read-only and exits non-zero on
+failure, `--apply` writes. The daily cron no longer runs the gate — see below.
+
+### Card placement is DECLARED, not swept up
+
+**Each card template carries a deck override (`tmpls[n]["did"]`), set 2026-08-19.** Without
+one, every card a note generates lands in the note's home deck, and something has to move
+it afterwards. That is where the strays came from: 65 cloze cards appeared in `Default`
+when `SentenceSimplifiedCloze` was backfilled months after the note was made, 146
+production cards sat inside `HSK`, 132 inside `HSK7-9`.
+
+| Note type | Template | ord | Override |
+|---|---|---|---|
+| ChineseVocabulary | `Hanzi-English` | 0 | **none** — the word's deck varies per note |
+| ChineseVocabulary | `English-Speaking` | 1 | `Reverse` |
+| ChineseVocabulary | `Cloze-Recall` | 2 | `Vocab Cloze` |
+| ChineseCharacters | `TradRecognition` | 1 | `Hidden::Archive::Characters` |
+| ChineseSentences | `Listen-English` | 1 | `Hidden::Archive::Sentences` |
+
+`ord 0` must never get an override: a recognition card belongs in whichever of `HSK` /
+`HSK7-9` / `non-HSK` / `Mined` its note is filed under.
+
+**Setting an override does not move existing cards** — verified on a copy, all 42,356
+existing ord-1 cards stayed put. It only affects cards generated from that moment on. The
+gate still exists, but now only to decide suspension, not location.
+
+`ChineseSentences` ord 2 was deliberately left without an override: 29 of its cards live in
+`Hidden::hanly-grammar-reverse`, so the destination is not unambiguous.
+
+### The daily cron does not run the gate
+
+`freq_data/anki_daily.sh` (12:10 UTC) replaced `cloze_gate_cron.sh` on 2026-08-19. The bot
+applies the identical rule in-process every 5 minutes and the rule is idempotent, so a
+daily run had nothing to do. What the old cron actually provided, by accident, was the
+collection's **only** regular backup — taken with `cp` before the bot stopped, so a write
+still in the WAL was silently missing from it.
+
+The new script does the two things that are genuinely daily, and stops nothing:
+
+1. An online, WAL-safe, compressed backup to `/home/vincent/backups/anki/`, 14-day
+   retention, verified by comparing cards/notes/revlog counts against the source.
+   (Not `PRAGMA quick_check` — this collection uses Anki's `unicase` collation, which the
+   `sqlite3` CLI lacks, so quick_check aborts on every healthy file.)
+2. `template_gate.py --verify`, read-only, exits non-zero if an invariant broke.
+
+**`freq_data/cloze_gate.py` was deleted on 2026-08-19.** It named a deck (`Vocab`) that had
+been renamed away, so it matched almost nothing and ran daily for months doing nothing. The
+production side had the identical defect inside `bot._sync_reverse_cards`, which searched
+`deck:hanly-reverse` after that deck became `Hidden::hanly-reverse`. The cloze run recovered
+1,130 withheld cards, moved 634 out of `non-HSK`, and suspended 838 that were being drilled
+before their word was known.
+
+(`freq_data/reverse_gate.py` was written and removed within the same session on 2026-08-19.
+It never ran on a schedule and is not part of this history.)
+
+### The `Default` deck is empty on purpose
+
+`Default` held 199 stray cards until 2026-08-19. `bot.py`'s `add_chinese_vocab` asked Anki
+for a deck named `Knowledge::Languages::Chinese::Vocabulary` — dropped from this collection
+— so `id_for_name` returned `None` and Anki filed the cards in `Default`. None of the 199
+was ever reviewed. The cause is fixed (`add_chinese_vocab` now falls back to `Mined`), and
+`freq_data/fix_default_deck.py` emptied the deck:
+
+- 70 production cards → `Reverse` (taken by the reverse gate run).
+- 64 forward cards, tagged `mined` → `Mined`, repositioned to queue positions 1–64. They
+  sat at ~1,004,256 while Mined's queue ends at 3,980, so they would never have come up.
+- 65 cloze cards → `Vocab Cloze`, suspended. Their forward cards are in HSK7-9 (45),
+  non-HSK (14) and HSK (6), so they were bypassing the maturity gate.
+
+**If `Default` is not empty, something filed a card by a deck name that does not exist.**
+Check the `id_for_name` call sites before moving the cards.
+
+---
+
+## The archive shares the `Simplified` field name — a word search returns "duplicates"
+
+*Verified against the collection 2026-08-19.*
+
+**A `Simplified:<word>` search returns the live card plus up to four archived notes for the
+same word. They are not duplicates.** This has already produced one wrong recommendation from
+`anki-bot` ("safe to delete", 2026-08-19).
+
+Four note types make up one complete imported HSK 3.0 deck, **11,042 notes each**:
+
+- `Basic - new hsk 3.0 xiehanzi v3 - audio`
+- `Basic - new hsk 3.0 xiehanzi v3 - pinyin-zhuyin`
+- `Basic - new hsk 3.0 xiehanzi v3 - write`
+- `Basic - new hsk 3.0 xiehanzi v3 - meaning`
+
+Every card of all four sits in a `Hidden::` deck. Their field 0 is named **`Simplified`** —
+the same name the live `ChineseVocabulary` note type uses. Anki's `Simplified:说服` therefore
+matches five notes: one live HSK card and four archived ones.
+
+Two more facts that make this read wrongly:
+
+1. **A live note spans decks.** The `ChineseVocabulary` note for 说服 has ord 0 in `HSK`,
+   ord 1 in `Hidden::Archive::Words` and ord 2 in `Vocab Cloze`. Any tool that reports one
+   deck per note reports whichever card comes first and hides the rest.
+2. **`Hidden::` is not fully suspended.** It holds 219,218 cards, of which 1,058 are
+   unsuspended. `Hidden::Archive::*` is 214,006 cards with 213,981 suspended; the live
+   remainder sits in `Hidden::hanly-reverse`, `Hidden::Personal` and similar, on purpose.
+   Do not assume "Hidden" means "suspended", and do not assume "suspended" means "junk".
+
+`bot.py` now reports `archived: true` for any note whose every card is under `Hidden::`
+(`_archived_note_ids`). `search_notes` splits its hits into `live_note_ids` and
+`archived_note_ids`, `get_notes_detail` returns the full `decks` list, and `delete_notes`
+refuses archived notes unless it is called with `include_archived: true`.
 
 ---
 

@@ -34,7 +34,15 @@ AUTH_FILE = os.path.expanduser("~/.anki_auth")
 DEFAULT_DECK = "Knowledge::Languages::Chinese::Vocabulary"
 CHINESE_VOCAB_NOTETYPE = "ChineseVocabulary"
 SNAPSHOTS_DIR = Path("/home/vincent/anki-headless/json_snapshots")
+# Derived from COLLECTION_PATH at call time, not pinned. A test that redirects
+# COLLECTION_PATH to a copy must not append false records to the real changelog --
+# twelve such lines were written and removed on 2026-08-19.
 CHANGELOG_FILE = Path("/home/vincent/anki-headless/changelog.jsonl")
+
+
+def _changelog_path():
+    """Sit beside whichever collection is open."""
+    return Path(COLLECTION_PATH).with_name(CHANGELOG_FILE.name)
 ANALYZE_SCRIPT = "/home/vincent/anki-headless/analyze_json.py"
 CHINESE_VOCAB_FIELDS = ["Simplified", "Pinyin", "Meaning", "Traditional", "Notes",
                         "Audio", "Strokes", "ColorPinyin", "Frequency", "CustomFreq",
@@ -58,7 +66,7 @@ def log_change(action, note_ids=None, details=None):
         entry["count"] = len(note_ids)
     if details:
         entry.update(details)
-    with open(CHANGELOG_FILE, "a") as f:
+    with open(_changelog_path(), "a") as f:
         f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
 
@@ -117,8 +125,13 @@ def _sync_collection():
     if auth is None:
         return "Sync skipped (not logged in to AnkiWeb)"
 
-    col = open_collection()
+    # open_collection() INSIDE the try. Anki takes an exclusive lock, so any concurrent
+    # reader raises DBError("Anki already open"). With the open outside, that escaped
+    # _sync_collection, aborted periodic_sync before either gate ran, and the scheduler
+    # still logged "executed successfully". Observed twice on 2026-08-19 at 03:55 and 04:00.
+    col = None
     try:
+        col = open_collection()
         result = col.sync_collection(auth, sync_media=False)
         if result.new_endpoint:
             auth.endpoint = result.new_endpoint
@@ -139,7 +152,8 @@ def _sync_collection():
     except Exception as e:
         return f"Sync failed: {e}"
     finally:
-        col.close()
+        if col is not None:
+            col.close()
 
 
 def strip_html(text):
@@ -170,6 +184,205 @@ def has_cjk(text):
                for ch in text)
 
 
+# Two sibling templates are gated on the same rule: you should not drill a word in a
+# harder direction before you can recognise it. ord 1 `English-Speaking` asks you to say
+# the word in Mandarin; ord 2 `Cloze-Recall` asks you to fill it into a sentence. Both
+# stay suspended in their own deck until the word's ord 0 card matures.
+# ── Deck and scheduling API ───────────────────────────────────────────
+# Every silent-no-op bug in this file came from one of two Anki calls:
+#   col.decks.id_for_name(name)  -> returns None for a missing deck
+#   col.decks.id(name)           -> CREATES the missing deck, on preset 1
+# One letter apart, opposite failure modes, neither raising. Callers carried the None
+# onward: col.add_note(note, None) files into Default, col.set_deck(ids, None) reports
+# "your database appears to be in an inconsistent state", and the search string
+# `deck:hanly-reverse` matched nothing for months while looking healthy.
+#
+# Nothing below returns None. A missing deck raises, and startup refuses to run a
+# half-configured bot. Rename a deck and you get a loud failure, not a quiet no-op.
+
+class DeckMissing(RuntimeError):
+    """A deck this code depends on does not exist."""
+
+
+# Decks the bot cannot work without. Checked once at startup.
+REQUIRED_DECKS = ("HSK", "HSK7-9", "non-HSK", "Mined", "Reverse", "Vocab Cloze")
+
+
+def deck_id(col, name):
+    """Deck id for `name`, or raise DeckMissing. Never returns None, never creates."""
+    did = col.decks.id_for_name(name)
+    if did is None:
+        raise DeckMissing(f"no deck named {name!r}")
+    return did
+
+
+def deck_subtree_ids(col, name):
+    """Deck ids for `name` AND its subdecks, or raise DeckMissing.
+
+    id_for_name resolves the parent alone, so a `did IN (...)` query against `Mined`
+    silently excluded Mined::三体 and Mined::十日终焉.
+    """
+    ids = [d.id for d in col.decks.all_names_and_ids()
+           if d.name == name or d.name.startswith(name + "::")]
+    if not ids:
+        raise DeckMissing(f"no deck named {name!r}")
+    return ids
+
+
+def missing_decks(col, names=REQUIRED_DECKS):
+    """Names that do not resolve. Empty list means every required deck exists."""
+    return [n for n in names if col.decks.id_for_name(n) is None]
+
+
+# `cards.due` holds three different units, and nothing in Anki's API stops you mixing
+# them. This is the second cause of real damage in this file.
+DUE_POSITION = "queue_position"   # type 0 (new): an ordering index
+DUE_DAY = "day_number"            # queue 2 / 3: days since collection creation
+DUE_TIMESTAMP = "unix_timestamp"  # queue 1: intraday learning, seconds
+
+
+def due_unit(card):
+    """Which unit this card's `due` is in. A card inside a filtered deck keeps its real
+    value in `odue`, so read that instead of `due` when odid is set."""
+    if card.type == 0:
+        return DUE_POSITION
+    if card.queue in (2, 3):
+        return DUE_DAY
+    if card.queue == 1:
+        return DUE_TIMESTAMP
+    return None
+
+
+def set_new_card_position(col, card, position):
+    """Write a queue position. Refuses any card that is not new.
+
+    This is the ONLY place `due` is written. Writing a negative position onto a review
+    card turned a card due in 9 days into one 250 days overdue, because on a review card
+    `due` is a day number.
+    """
+    if card.type != 0:
+        raise ValueError(
+            f"card {card.id} is type {card.type}: its `due` is a {due_unit(card)}, "
+            "not a queue position")
+    card.due = position
+    col.update_card(card)
+
+
+REVERSE_DECK = "Reverse"
+REVERSE_TEMPLATE = "English-Speaking"
+REVERSE_SOURCE_DECKS = ("HSK", "HSK7-9", "non-HSK")
+
+CLOZE_DECK = "Vocab Cloze"
+CLOZE_TEMPLATE = "Cloze-Recall"
+# Mined is included here and not in REVERSE_SOURCE_DECKS on purpose: the old cloze gate
+# counted mined reading-words, and the reverse gate's source list was chosen separately.
+CLOZE_SOURCE_DECKS = ("HSK", "HSK7-9", "non-HSK", "Mined")
+
+MATURE_IVL = 21
+
+
+def _apply_template_gate(col, template, home_deck, source_decks, dry_run=False):
+    """Keep one ChineseVocabulary template's cards out of the study decks, and suspended
+    until their word is known.
+
+    Four invariants:
+      1. A gated card never sits in a study deck other than `home_deck`.
+      2. A card parked under Hidden:: stays there until its word matures. Only a release
+         moves it out, so the backlog leaves one card at a time, not in one bulk write.
+         Cards already in `home_deck` stay in `home_deck`, suspended -- most of the deck
+         is exactly that (5,364 in Reverse, 15,533 in Vocab Cloze), which is why this
+         says "stays parked", not "stays under Hidden::".
+      3. A card in a filtered deck is left completely alone until the session ends.
+      4. A card with reps > 0 is never suspended. The gate adds practice; it must not
+         take away a card that is already mid-schedule. Invariant 4 beats invariant 1.
+
+    "Mature" means the note's ord 0 card is in a source deck, unsuspended, type=2, with
+    interval >= MATURE_IVL.
+
+    Both callers of this had the same defect. The reverse job searched
+    `deck:hanly-reverse` after that deck was renamed `Hidden::hanly-reverse`, and
+    the old freq_data/cloze_gate.py read a deck named `Vocab` that no longer existed.
+    Each matched almost nothing and ran for months doing nothing, while cards leaked into
+    the study decks behind them. Both scripts are gone; freq_data/template_gate.py calls
+    this. Naming the decks in one place is what stops that repeating.
+    """
+    cv = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
+    if not cv:
+        return None
+    ord_ = next((t["ord"] for t in cv["tmpls"] if t["name"] == template), None)
+    home_did = col.decks.id_for_name(home_deck)
+
+    # Each source deck INCLUDING its subdecks. id_for_name resolves the parent only, and
+    # the maturity query matches deck ids exactly, so Mined::三体 and Mined::十日终焉 could
+    # never contribute maturity and their cloze cards would have stuck forever.
+    src, missing = [], []
+    for name in source_decks:
+        try:
+            src.extend(deck_subtree_ids(col, name))
+        except DeckMissing:
+            missing.append(name)
+    if ord_ is None:
+        missing.append(f"template {template!r}")
+    if home_did is None:
+        missing.append(f"deck {home_deck!r}")
+    if missing:
+        # ALL source decks, or the gate does not run. Dropping a renamed deck silently
+        # left a partial maturity set, and the next run suspended 83 already-released
+        # cards with no error -- worse than the do-nothing failure this replaced.
+        return {"template": template, "deck": home_deck,
+                "error": "missing " + ", ".join(missing),
+                "mature_words": 0, "moved": 0, "unsuspended": 0, "suspended": 0}
+
+    ph = ",".join("?" * len(src))
+    hidden = _hidden_deck_ids(col)
+    mature = set(col.db.list(
+        f"SELECT nid FROM cards WHERE (CASE WHEN odid!=0 THEN odid ELSE did END) "
+        f"IN ({ph}) AND ord=0 AND type=2 AND ivl>=? AND queue!=-1", *src, MATURE_IVL))
+
+    to_move, to_unsuspend, to_suspend = [], [], []
+    for cid, did, odid, queue, reps, nid in col.db.all(
+            "SELECT c.id, c.did, c.odid, c.queue, c.reps, c.nid FROM cards c "
+            "JOIN notes n ON n.id=c.nid WHERE c.ord=? AND n.mid=?", ord_, cv["id"]):
+        if odid:
+            # Borrowed by a filtered deck. `did` is the filtered deck, and set_deck would
+            # tear the card out of the session -- one run emptied a 20-card custom study
+            # deck. Leave it; the session returns it to odid on its own.
+            continue
+        releasing = nid in mature and queue == -1
+        # A parked card moves ONLY on release. The old `or queue != -1` disjunct dragged
+        # an unsuspended card out of Hidden:: into the study deck even when its word was
+        # nowhere near mature -- and with reps > 0 it landed live and due.
+        if did != home_did and (releasing or did not in hidden):
+            to_move.append(cid)
+        if releasing:
+            to_unsuspend.append(cid)
+        elif nid not in mature and queue != -1 and reps == 0:
+            to_suspend.append(cid)
+
+    if not dry_run:
+        if to_move:
+            col.set_deck(to_move, home_did)
+        if to_unsuspend:
+            col.sched.unsuspend_cards(to_unsuspend)
+        if to_suspend:
+            col.sched.suspend_cards(to_suspend)
+    return {"template": template, "deck": home_deck, "mature_words": len(mature),
+            "moved": len(to_move), "unsuspended": len(to_unsuspend),
+            "suspended": len(to_suspend)}
+
+
+def apply_reverse_gate(col, dry_run=False):
+    """Production cards (`English-Speaking`) -> the `Reverse` deck. See _apply_template_gate."""
+    return _apply_template_gate(col, REVERSE_TEMPLATE, REVERSE_DECK,
+                                REVERSE_SOURCE_DECKS, dry_run)
+
+
+def apply_cloze_gate(col, dry_run=False):
+    """Cloze cards (`Cloze-Recall`) -> the `Vocab Cloze` deck. See _apply_template_gate."""
+    return _apply_template_gate(col, CLOZE_TEMPLATE, CLOZE_DECK,
+                                CLOZE_SOURCE_DECKS, dry_run)
+
+
 def promote_to_hanly(col, note_ids):
     """Tag notes with 'hanly', unsuspend forward cards, suspend reverse cards,
     and move to hanly/hanly-reverse decks. Returns (tagged_count, unsuspended_count)."""
@@ -197,7 +410,9 @@ def promote_to_hanly(col, note_ids):
                     forward_to_unsuspend.append(card.id)
             elif card.ord == 1:
                 reverse_cards.append(card.id)
-                if card.queue != -1:
+                # reps == 0 only, same invariant as promote_to_vocab and the gate: never
+                # take away a card that is already mid-schedule.
+                if card.queue != -1 and card.reps == 0:
                     reverse_to_suspend.append(card.id)
 
     if forward_to_unsuspend:
@@ -209,32 +424,56 @@ def promote_to_hanly(col, note_ids):
     if reverse_cards and hanly_rev_did:
         col.set_deck(reverse_cards, hanly_rev_did)
 
+    # The 'hanly' and 'hanly-reverse' decks no longer exist in this collection, so
+    # both set_deck calls above are skipped. Report that instead of claiming a move.
     return {
         "tagged": tagged,
         "forward_unsuspended": len(forward_to_unsuspend),
         "reverse_suspended": len(reverse_to_suspend),
-        "moved_to_hanly": len(forward_cards),
-        "moved_to_hanly_reverse": len(reverse_cards),
+        "moved_to_hanly": len(forward_cards) if hanly_did else 0,
+        "moved_to_hanly_reverse": len(reverse_cards) if hanly_rev_did else 0,
+        "decks_missing": [n for n, d in (("hanly", hanly_did),
+                                         ("hanly-reverse", hanly_rev_did)) if d is None],
     }
 
 
 def promote_to_vocab(col, note_ids):
     """Wild-add promotion: tag notes 'mined', move forward (ord0) cards into the separate
     'Mined' deck (front of THAT deck, so newly added words come up next when studying Mined)
-    and unsuspend them, suspend reverse (ord1) cards, and route the cloze (ord2) card into
-    'Vocab Cloze' suspended (the maturity gate releases it later). This keeps the
-    frequency-ordered Vocab backbone clean — mined reading-words no longer spike it."""
-    mined_did = col.decks.id("Mined")          # creates if missing
-    cloze_did = col.decks.id("Vocab Cloze")
-    cv = next((m for m in col.models.all() if m["name"] == "ChineseVocabulary"), None)
-    cloze_ord = next((t["ord"] for t in cv["tmpls"] if t["name"] == "Cloze-Recall"), None) if cv else None
+    and unsuspend them, route the reverse (ord1) card into 'Reverse' and the cloze (ord2)
+    card into 'Vocab Cloze', both suspended (the maturity gate releases them later). This keeps the
+    frequency-ordered Vocab backbone clean — mined reading-words no longer spike it.
+
+    Only NEW forward cards are repositioned, and only a card in Default or under
+    Hidden:: moves deck — a card already in HSK, HSK7-9, non-HSK or Mined stays there
+    and goes to the front of THAT deck. A card already in learning or review keeps its
+    schedule and its position, and is counted under 'already_in_review'."""
+    # id_for_name, never id(): col.decks.id() CREATES a missing deck and binds it to
+    # preset 1 ("Default"), whose FSRS params, retention and new-card order all differ
+    # from the preset the real deck uses. A silent re-create with different scheduling is
+    # the same failure as a silently reset deck config. Missing decks are reported instead.
+    mined_did = col.decks.id_for_name("Mined")
+    cloze_did = col.decks.id_for_name(CLOZE_DECK)
+    reverse_did = col.decks.id_for_name(REVERSE_DECK)
+    decks_missing = [n for n, d in (("Mined", mined_did), (CLOZE_DECK, cloze_did),
+                                    (REVERSE_DECK, reverse_did)) if d is None]
+    # The parked xiehanzi import notes are NOT the user's cards. Promoting one would
+    # un-archive an import artefact into the study queue, and `Simplified:<word>` returns
+    # four of them for most words. Skip them; see _import_pool_note_ids.
+    import_pool = _import_pool_note_ids(col, note_ids)
+    cv = next((m for m in col.models.all() if m["name"] == CHINESE_VOCAB_NOTETYPE), None)
+    cloze_ord = next((t["ord"] for t in cv["tmpls"] if t["name"] == CLOZE_TEMPLATE), None) if cv else None
+    reverse_ord = next((t["ord"] for t in cv["tmpls"] if t["name"] == REVERSE_TEMPLATE), 1) if cv else 1
     tagged = 0
     forward_cards = []
     forward_to_unsuspend = []
+    reverse_cards = []
     reverse_to_suspend = []
     cloze_cards = []
 
     for nid in note_ids:
+        if nid in import_pool:
+            continue
         try:
             note = col.get_note(nid)
         except Exception:
@@ -243,38 +482,99 @@ def promote_to_vocab(col, note_ids):
             note.tags.append("mined")
             col.update_note(note)
             tagged += 1
+        # ord 1 and ord 2 mean different things in different note types -- ChineseSentences
+        # ord 1 is `Listen-English`, not a production card. Routing those into Reverse and
+        # Vocab Cloze stranded them: the gate filters on ChineseVocabulary, so it would
+        # never move or release them again. Only ord 0 is promoted for other note types.
+        is_cv = cv is not None and note.mid == cv["id"]
         for card in note.cards():
             if card.ord == 0:
                 forward_cards.append(card.id)
                 if card.queue == -1:
                     forward_to_unsuspend.append(card.id)
-            elif card.ord == 1 and card.queue != -1:
-                reverse_to_suspend.append(card.id)
-            elif cloze_ord is not None and card.ord == cloze_ord:
+            elif not is_cv:
+                continue
+            elif card.ord == reverse_ord and reverse_did:
+                # Route the production card the same way as the cloze card. Suspending it
+                # in place left it in a study deck, which breaks the gate's first
+                # invariant: add_chinese_vocab put every new note's production card in
+                # Mined, and the gate had to move it out on its next run.
+                reverse_cards.append(card.id)
+                if card.queue != -1 and card.reps == 0:
+                    reverse_to_suspend.append(card.id)
+            elif cloze_ord is not None and card.ord == cloze_ord and cloze_did:
+                # `and cloze_did`: without a target deck the card used to be suspended in
+                # place inside a study deck while the result still claimed it was routed.
                 cloze_cards.append(card.id)
 
     if forward_to_unsuspend:
         col.sched.unsuspend_cards(forward_to_unsuspend)
+    if reverse_cards:
+        col.set_deck(reverse_cards, reverse_did)
     if reverse_to_suspend:
+        # reps == 0 only: never take away a card that is already mid-schedule. The gate
+        # releases it again once the word matures.
         col.sched.suspend_cards(reverse_to_suspend)
     if cloze_cards:
         col.set_deck(cloze_cards, cloze_did)
-        col.sched.suspend_cards(cloze_cards)
-    if forward_cards:
-        col.set_deck(forward_cards, mined_did)
-        # front of the Mined deck: due below all current Mined new cards, newest first
+        col.sched.suspend_cards([c for c in cloze_cards if col.get_card(c).reps == 0])
+    # A card already in a live study deck KEEPS that deck. Only a card in Default or
+    # under Hidden:: moves to Mined. Pulling a studied HSK card out of HSK breaks that
+    # deck's level ordering and its coverage, and "promote" means the word comes up
+    # sooner -- not that it leaves the deck it belongs to.
+    hidden = _hidden_deck_ids(col)
+    moved, kept = [], []
+    for cid in forward_cards:
+        card = col.get_card(cid)
+        did = card.odid or card.did
+        (kept if (did != 1 and did not in hidden) else moved).append(cid)
+    if moved and mined_did:
+        col.set_deck(moved, mined_did)
+    elif moved:
+        kept.extend(moved)          # no Mined deck: leave them where they are
+        moved = []
+
+    # Front of each target deck: due below that deck's own new cards, newest first.
+    # `odid or did` for the same reason as above -- a card sitting in a filtered deck has
+    # its home deck in odid, and grouping by the filtered deck computed MIN(due) over the
+    # wrong deck and wrote a position that the filtered deck discards on empty.
+    by_deck = {}
+    for cid in kept:
+        c = col.get_card(cid)
+        by_deck.setdefault(c.odid or c.did, []).append(cid)
+    for cid in moved:
+        by_deck.setdefault(mined_did, []).append(cid)
+
+    repositioned = 0
+    already_in_review = 0
+    for did, cids in by_deck.items():
         min_due = col.db.scalar(
-            "SELECT MIN(due) FROM cards WHERE did=? AND type=0 AND ord=0", mined_did)
+            "SELECT MIN(due) FROM cards WHERE did=? AND type=0 AND ord=0", did)
         next_due = min(min_due if min_due is not None else 1, 1) - 1
-        for cid in forward_cards:
+        for cid in cids:
             card = col.get_card(cid)
-            card.due = next_due
-            col.update_card(card)
+            # `due` is a queue POSITION on a new card but a DAY NUMBER on a learning
+            # or review card. Writing a negative position onto a review card made it
+            # hundreds of days overdue and discarded its schedule -- a card due in 9
+            # days became 250 days late. Only new cards move. A card already in
+            # review needs no promotion; it is in rotation already.
+            if card.type != 0:
+                already_in_review += 1
+                continue
+            set_new_card_position(col, card, next_due)
             next_due -= 1
+            repositioned += 1
 
     return {
         "tagged": tagged,
-        "moved_to_mined": len(forward_cards),
+        "forward_unsuspended": len(forward_to_unsuspend),
+        "skipped_import_pool": len(import_pool),
+        "decks_missing": decks_missing,
+        "moved_to_mined": len(moved),
+        "kept_in_deck": len(kept),
+        "repositioned_to_front": repositioned,
+        "already_in_review": already_in_review,
+        "reverse_routed": len(reverse_cards),
         "reverse_suspended": len(reverse_to_suspend),
         "cloze_routed": len(cloze_cards),
     }
@@ -378,6 +678,12 @@ Your standing loop for any card-related message:
 2. **Critically assess it, unasked.** Once you've read the fields, proactively judge quality: Is the Meaning complete and accurate? Does it cover the character's/word's main senses? Is the example sentence real, natural, and actually illustrative of the target usage? Is the pinyin right? State plainly what's weak and what you'd change — don't wait for "do you think this is high quality?" That question means you should already have volunteered the assessment.
 3. **Ground every claim in the real fields.** Quote or reference what the card actually says. If you propose an example or usage, verify it's genuine — don't invent examples and don't defend a shaky one under pushback; re-check and correct.
 4. **Propose the improvement and offer to make it.** Since the goal is to improve the card, move toward a concrete edit (preview it, then edit_note on confirmation).
+5. **After the edit, offer to move the card to the front — then stop and wait.** Never promote silently. Read `card_states` from `get_notes_detail` (the ord-0 card) and choose by its `state`:
+   - **`new`** — offer it. Say how far back it sits (`queue_position`) and ask: "Move it to the front so it comes up next?" On a yes, call `tag_notes` with the `mined` tag. Say "first among the new cards", not "next" — cards already due still come first.
+   - **`review`, `learning` or `day-learn`** — do NOT offer. The card is in rotation. Report `due_in_days` (or `due_in_minutes` for `learning`). Promotion would leave this card's own deck, schedule and position untouched, but it still tags the note and re-routes its production and cloze siblings, so it is not a no-op.
+   - **`suspended`** — ask whether the card was parked on purpose before you do anything. About 164 basic HSK single-character cards are suspended deliberately. `tag_notes` + `mined` UNSUSPENDS the ord-0 card, so it can silently undo that decision.
+   - **`buried-manual`, `buried-sibling`, `preview`** — do not offer; the state is temporary. Say what it is.
+   Make the offer once per card. If the user declines, drop it and do not ask again for that card.
 
 When the user pushes back ("doesn't it just mean middle?", "are you over-indexing on the tone?", "isn't the card just the character itself?"), treat it as a correction: re-read the card, reconsider, and update your view — do not dig in defending a previous reply.
 
@@ -387,6 +693,39 @@ The only messages that DON'T need a fetch first: pure chit-chat, story-writing r
 - **One comprehensive card per character/word — NEVER split by pronunciation or tone.** A character like 中 (zhōng / zhòng) gets a SINGLE card whose Meaning and Notes cover all its major senses and both pronunciations together. Do not propose, create, or maintain separate cards per reading. If you find duplicates split by pronunciation, the fix is to merge them into one comprehensive card, not to keep them apart.
 - **The card represents the character/word itself**, not one narrow usage. When evaluating, ask "does this card comprehensively capture what 中 IS?" — not "does this example match one specific tone?" Don't get fixated on a single reading or example at the expense of the whole.
 - A high-quality card: accurate and reasonably complete Meaning (main senses), correct tone-marked pinyin covering the readings in use, and a natural, genuine example sentence that a learner would actually encounter.
+
+## Collection layout — two different things live under `Hidden::`
+`Hidden::` holds 213,447 cards. Only **499** are unsuspended, and **346 of those are in
+review**, so "under Hidden" does NOT mean "never appears in a review". The live ones sit in
+`Hidden::hanly-grammar` (226), `Hidden::hanly-proper-nouns` (172), `Hidden::Personal` (30)
+and `Hidden::Personal-reverse` (3). `Hidden::Archive::*` is 212,750 cards with only 25
+unsuspended. (Counts measured 2026-08-19; treat them as approximate.)
+
+**Two populations sit there, and they need OPPOSITE actions. `search_notes` and
+`get_notes_detail` tell them apart for you — read the flags, never guess.**
+
+1. **`import_pool` — ignore these.** The four note types `Basic - new hsk 3.0 xiehanzi v3 -
+   audio` / `- pinyin-zhuyin` / `- write` / `- meaning` are one complete HSK 3.0 deck
+   imported years ago, 11,042 notes each, entirely parked. **Every one uses a field named
+   `Simplified`**, exactly like the live ChineseVocabulary notes, so `Simplified:说服`
+   returns the real card plus four of these. That is the expected shape, not a defect.
+2. **`archived` — these are the USER'S OWN cards.** A ChineseVocabulary, ChineseCharacters
+   or ChineseSentences note parked in `Hidden::Archive::*` is the user's staged backlog:
+   **30,556 of 49,930 vocabulary notes are there.** Words like 立即, 长江, 打篮球 exist ONLY
+   as an archived note. They are not import junk and they are not duplicates.
+
+Rules that follow:
+- **An archived note means the word IS in the collection.** If the user wants to study it,
+  promote it with `tag_notes` + the `mined` tag — that unarchives it into `Mined`. **Never
+  create a second note for a word that already has an archived one.** 153 words already
+  carry both an archived and a live note from exactly that mistake.
+- **Ignore `import_pool` hits entirely.** Do not count them, edit them, or offer to delete
+  them. `tag_notes` skips them and `delete_notes` refuses them.
+- **Never propose deleting an archived note.** It costs nothing and it is the user's own
+  staged material. `delete_notes` refuses it unless the user asks explicitly.
+- **A real duplicate is two notes of the same note type that BOTH have live cards.** 13
+  words currently qualify. An archived note plus a live note is a promotion question, not
+  a duplicate — say so and offer to merge or promote, do not silently ignore it.
 
 ## Capabilities
 1. **Chinese vocabulary cards** — create ChineseVocabulary note type cards
@@ -446,7 +785,9 @@ When the user asks for a story or reading practice:
 5. If the user wants to create cards for the target words, offer to do so
 
 ## User Preferences
-- Chinese vocabulary deck: **Vocab** (the unified frequency-ordered deck). Words the user
+- Chinese vocabulary decks: **HSK**, **HSK7-9** and **non-HSK** (frequency-ordered).
+  There is NO deck named `Vocab` — that name is dead, and `deck:Vocab` matches nothing.
+  **Mined** is where wild-adds go. Words the user
   adds in the wild are tagged **mined** and placed at the FRONT of the new-card queue (next-up)
   so they're studied first. add_chinese_vocab does this automatically; to promote existing
   notes, use tag_notes with the "mined" tag. (The old "hanly" deck/tag is defunct/merged.)
@@ -468,17 +809,30 @@ You receive a Chinese word or phrase. Execute the following steps autonomously �
 
 ## Steps
 1. **Search** for an existing card: use search_notes with query `Simplified:<word>`
-2. **If found**: use get_notes_detail to inspect it. If any fields are weak/empty (missing pinyin, meaning, sentence, traditional), improve them with edit_note.
-3. **If not found**: create a new card with add_chinese_vocab. Use tone-marked pinyin (ā á ǎ à), include traditional characters, a natural example sentence, and part of speech. This automatically files the card in the **Vocab** deck, tags it **mined**, and places it at the front of the queue (next-up) — no extra step needed.
-4. **If found but in another deck**: use tag_notes with the "mined" tag to move it into Vocab at the front (next-up).
-5. **Sync**: call sync_collection.
+2. **Read the three id lists search_notes returns. They mean different things.**
+   - `import_pool_note_ids` — parked xiehanzi import artefacts. **Ignore them completely.**
+     They are not cards and they are not evidence the word exists.
+   - `archived_note_ids` — the USER'S OWN note, parked under `Hidden::`. **The word EXISTS.
+     Never treat it as "not found" and never create a second note for it.** 30,556 of
+     49,930 vocabulary notes are archived, including very common words, so this is the
+     normal case, not an edge case. Promote it instead: go to step 5.
+   - `live_note_ids` — already in an active study deck.
+   Decide with: live hit → step 3. No live hit but an archived hit → step 5. Only
+   import-pool hits, or no hits at all → step 4.
+3. **If found**: use get_notes_detail to inspect it. If any fields are weak/empty (missing pinyin, meaning, sentence, traditional), improve them with edit_note.
+4. **If not found**: create a new card with add_chinese_vocab. Use tone-marked pinyin (ā á ǎ à), include traditional characters, a natural example sentence, and part of speech. This automatically files the card in the **Mined** deck, tags it **mined**, and puts it first among that deck's new cards — no extra step needed. There is no deck named `Vocab`.
+5. **If found but archived or in another deck**: use tag_notes with the "mined" tag. That
+   unarchives the note, moves its ord-0 card into Mined, and puts it first among that
+   deck's new cards. This is the correct path for every archived hit — it is what stops a
+   duplicate note being created for a word the user already has.
+6. **Sync**: call sync_collection.
 
 ## Response format
 After completing all steps, respond with ONLY a JSON object (no markdown, no explanation):
 {"status": "created" or "improved", "word": "<simplified>", "pinyin": "<pinyin>", "meaning": "<meaning>", "action_details": "<brief description of what was done>"}
 
 If the word already exists and all fields are complete, return:
-{"status": "already_exists", "word": "<simplified>", "pinyin": "<pinyin>", "meaning": "<meaning>", "action_details": "Card already complete in Vocab deck"}
+{"status": "already_exists", "word": "<simplified>", "pinyin": "<pinyin>", "meaning": "<meaning>", "action_details": "Card already complete"}
 
 ## Rules
 - Act immediately. Do NOT ask for confirmation.
@@ -664,11 +1018,13 @@ TOOLS = [
     },
     {
         "name": "delete_notes",
-        "description": "Delete notes matching a query. DESTRUCTIVE — always confirm with user first.",
+        "description": "Delete notes matching a query. DESTRUCTIVE — always confirm with user first. "
+                       "Refuses notes archived under Hidden:: unless include_archived is true.",
         "input_schema": {
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Anki search query to select notes"}
+                "query": {"type": "string", "description": "Anki search query to select notes"},
+                "include_archived": {"type": "boolean", "description": "Allow deletion of notes whose every card sits in a Hidden:: deck. Default false. Only set this after the user explicitly asks to delete archived notes."}
             },
             "required": ["query"]
         }
@@ -830,6 +1186,95 @@ API_TOOL_NAMES = {
 }
 API_TOOLS = [t for t in TOOLS if t["name"] in API_TOOL_NAMES]
 
+# ── Archive detection ─────────────────────────────────────────────────
+# Hidden:: holds 219,218 cards and only 1,058 are unsuspended; Hidden::Archive::*
+# alone is 214,006 cards with 213,981 suspended -- legacy import pools the user
+# parked on purpose. The four "Basic - new hsk 3.0 xiehanzi v3 - *" note types live
+# there and carry a field named `Simplified`, same as the live ChineseVocabulary
+# notes, so `Simplified:<word>` returns the real card plus 4 archived ones. Without
+# a flag that reads as five duplicates and the model proposes deleting four of them.
+# A note is archived when EVERY one of its cards is in a Hidden:: deck -- deliberately
+# not "and suspended", because a handful of archive cards are unsuspended and the
+# conservative direction for a delete guard is to protect more, not less.
+
+def _hidden_deck_ids(col):
+    """Deck IDs of `Hidden` and its subdecks. The DB joins name components with \x1f,
+    so the subtree test is an exact match or that prefix. A substring test was wrong in
+    both directions: it would claim `Mined::Hidden gems`, and it would miss nothing today
+    but silently capture any future deck with "Hidden" in any component."""
+    return {did for did, name in col.db.all("SELECT id, name FROM decks")
+            if name == "Hidden" or name.startswith("Hidden\x1f")}
+
+
+# anki/consts.py: -3 is MANUALLY_BURIED, -2 is SIBLING_BURIED. The two were swapped here.
+_QUEUE_STATE = {-3: "buried-manual", -2: "buried-sibling", -1: "suspended",
+                0: "new", 1: "learning", 2: "review", 3: "day-learn", 4: "preview"}
+
+
+def _card_state(col, card, tmpl_name, today):
+    """Compact per-card state for get_notes_detail. `due` means different things by
+    card type -- a queue position on a new card, a day number on a review card -- so
+    the two go under different keys and are never compared to each other."""
+    info = {"ord": card.ord, "template": tmpl_name,
+            "deck": col.decks.name(card.odid or card.did),
+            "state": _QUEUE_STATE.get(card.queue, str(card.queue)),
+            "reviews": card.reps}
+    # `due` carries three different units. A new card holds a queue POSITION. A review
+    # or day-learn card holds a DAY NUMBER. An intraday learning card holds a unix
+    # TIMESTAMP. Reporting them under one key is what let a queue position get written
+    # onto a review card and throw its schedule away.
+    if card.type == 0:
+        info["queue_position"] = card.due
+    elif card.queue in (2, 3):
+        # A card pulled into a filtered deck keeps its real due in odue; `due` is then a
+        # filtered-queue position and subtracting today gives nonsense (-100246).
+        info["due_in_days"] = (card.odue or card.due) - today
+    elif card.queue == 1:
+        info["due_in_minutes"] = max(0, (card.due - int(time.time())) // 60)
+    return info
+
+
+# One complete HSK 3.0 deck was imported years ago under these four note types and parked
+# under Hidden::. They carry a field named `Simplified`, same as the live
+# ChineseVocabulary notes, so `Simplified:<word>` returns them beside the real card.
+# They are the ONLY notes safe to ignore outright. An archived ChineseVocabulary or
+# ChineseCharacters note is a different thing entirely -- it is the user's own staged
+# backlog (30,556 of 49,930 vocabulary notes), and it must be promoted, never ignored and
+# never re-created as a new card.
+IMPORT_POOL_NOTETYPE_PREFIX = "Basic - new hsk 3.0 xiehanzi v3"
+
+
+def _import_pool_note_ids(col, note_ids):
+    """Subset of note_ids belonging to the parked xiehanzi import note types."""
+    note_ids = [int(n) for n in note_ids]
+    if not note_ids:
+        return set()
+    mids = [m["id"] for m in col.models.all()
+            if m["name"].startswith(IMPORT_POOL_NOTETYPE_PREFIX)]
+    if not mids:
+        return set()
+    return set(col.db.list(
+        "SELECT id FROM notes WHERE id IN (%s) AND mid IN (%s)"
+        % (",".join(str(n) for n in note_ids), ",".join(str(m) for m in mids))))
+
+
+def _archived_note_ids(col, note_ids):
+    """Subset of note_ids whose every card sits in a Hidden:: deck. Notes with no
+    card at all are not archived."""
+    note_ids = [int(n) for n in note_ids]
+    if not note_ids:
+        return set()
+    hidden = _hidden_deck_ids(col)
+    ids_sql = ",".join(str(n) for n in note_ids)
+    has_card, live = set(), set()
+    for nid, did, odid in col.db.all(
+            f"SELECT nid, did, odid FROM cards WHERE nid IN ({ids_sql})"):
+        has_card.add(nid)
+        if (odid or did) not in hidden:
+            live.add(nid)
+    return has_card - live
+
+
 # ── Tool execution ────────────────────────────────────────────────────
 
 def execute_tool(tool_name, tool_input):
@@ -867,7 +1312,14 @@ def execute_tool(tool_name, tool_input):
             if not model:
                 return json.dumps({"error": f"Note type '{CHINESE_VOCAB_NOTETYPE}' not found"})
 
-            did = col.decks.id_for_name(DEFAULT_DECK)
+            # DEFAULT_DECK names a deck this collection dropped, so id_for_name gives
+            # None and Anki files the note in Default -- where 199 stray cards piled up,
+            # including 65 ungated cloze cards. promote_to_vocab sends ord0 to Mined a
+            # moment later, so Mined is the right home for the siblings too.
+            # promote_to_vocab moves ord 0 to Mined a moment later, and the ord 1 / ord 2
+            # templates carry their own deck override, so Mined is the correct home deck.
+            # DEFAULT_DECK is honoured only if it actually exists.
+            did = col.decks.id_for_name(DEFAULT_DECK) or deck_id(col, "Mined")
             note = col.new_note(model)
 
             note["Simplified"] = tool_input.get("simplified", "")
@@ -889,9 +1341,13 @@ def execute_tool(tool_name, tool_input):
             nid = note.id
             # Wild-add: promote into the Mined deck, tag 'mined', place next-up in the queue
             promo = promote_to_vocab(col, [nid])
+            # Report where the card actually is, not where it is meant to go. The
+            # hardcoded "Mined" was true only because DEFAULT_DECK did not exist.
+            landed = next((col.decks.name(c.did) for c in col.get_note(nid).cards()
+                           if c.ord == 0), "unknown")
             log_change("add_chinese_vocab", [nid], {
                 "simplified": tool_input.get("simplified"),
-                "deck": "Mined",
+                "deck": landed,
                 "tags": tags + ["mined"],
             })
             return json.dumps({
@@ -913,8 +1369,16 @@ def execute_tool(tool_name, tool_input):
             if not model:
                 return json.dumps({"error": "Note type 'Basic' not found"})
 
+            # `Knowledge` does not exist in this collection. id_for_name returned None,
+            # Anki filed the card in `Default`, and the tool reported deck "Knowledge".
+            # This is the same defect fixed in add_chinese_vocab; it survived there.
             deck = tool_input.get("deck", "Knowledge")
             did = col.decks.id_for_name(deck)
+            if did is None:
+                return json.dumps({
+                    "error": f"No deck named {deck!r}. Nothing was created.",
+                    "existing_decks": sorted(d.name for d in col.decks.all_names_and_ids()),
+                }, ensure_ascii=False)
             note = col.new_note(model)
 
             note["Front"] = tool_input.get("front", "")
@@ -1054,12 +1518,41 @@ def execute_tool(tool_name, tool_input):
             query = tool_input["query"]
             note_ids = list(col.find_notes(query))
             if len(note_ids) <= 200:
-                return json.dumps({"count": len(note_ids), "note_ids": note_ids})
+                # Three DISJOINT sets, because they call for three different actions.
+                # import_pool: parked xiehanzi import notes -- ignore them outright.
+                # archived: the user's OWN notes parked under Hidden:: -- promote, never
+                #   ignore and never re-create; 30,556 of 49,930 vocabulary notes are here.
+                # live: in an active study deck.
+                imported = _import_pool_note_ids(col, note_ids)
+                archived = _archived_note_ids(col, note_ids) - imported
+                return json.dumps({
+                    "count": len(note_ids),
+                    "import_pool_note_ids": sorted(imported),
+                    "archived_note_ids": sorted(archived),
+                    "live_note_ids": [n for n in note_ids
+                                      if n not in archived and n not in imported],
+                })
             else:
-                return json.dumps({"count": len(note_ids), "note_ids_truncated": True, "sample_ids": note_ids[:10]})
+                imported = _import_pool_note_ids(col, note_ids)
+                archived = _archived_note_ids(col, note_ids) - imported
+                return json.dumps({
+                    "count": len(note_ids),
+                    "note_ids_truncated": True,
+                    "import_pool_count": len(imported),
+                    "archived_count": len(archived),
+                    "live_count": len(note_ids) - len(imported) - len(archived),
+                    "sample_live_ids": [n for n in note_ids
+                                        if n not in archived and n not in imported][:10],
+                })
 
         elif tool_name == "get_notes_detail":
             note_ids = tool_input["note_ids"][:100]
+            today = col.sched.today
+            # Computed once, by the SAME helper delete_notes and search_notes use. This
+            # was re-derived from resolved deck names, so the two definitions could
+            # disagree and the model would see archived:false while delete_notes refused.
+            imported = _import_pool_note_ids(col, note_ids)
+            archived = _archived_note_ids(col, note_ids) - imported
             results = []
             for nid in note_ids:
                 try:
@@ -1067,7 +1560,13 @@ def execute_tool(tool_name, tool_input):
                     model = note.note_type()
                     field_names = [f["name"] for f in model["flds"]]
                     cards = note.cards()
-                    deck_name = col.decks.name(cards[0].did) if cards else "Unknown"
+                    # A note spans decks -- the live ChineseVocabulary note for a word
+                    # has its forward card in HSK, its cloze in Vocab Cloze, and its
+                    # production card in Reverse or still parked under Hidden::.
+                    # Reporting cards[0] alone hid that.
+                    deck_names = list(dict.fromkeys(col.decks.name(c.odid or c.did)
+                                                    for c in cards))
+                    deck_name = deck_names[0] if deck_names else "Unknown"
                     fields = {}
                     for i, name in enumerate(field_names):
                         if i < len(note.fields):
@@ -1077,7 +1576,21 @@ def execute_tool(tool_name, tool_input):
                         "fields": fields,
                         "tags": note.tags,
                         "deck": deck_name,
+                        "decks": deck_names,
+                        # archived: the USER'S OWN note, parked under Hidden:: -- promote
+                        # it, never ignore it and never re-create it as a new card.
+                        # import_pool: a parked xiehanzi import artefact -- ignore it.
+                        # The two are disjoint and call for opposite actions.
+                        "archived": nid in archived,
+                        "import_pool": nid in imported,
                         "note_type": model["name"],
+                        # Per-card state, so the standing loop can decide whether to
+                        # offer to move the card to the front. That offer only means
+                        # something for a NEW card; a review card is in rotation.
+                        "card_states": [
+                            _card_state(col, c, model["tmpls"][c.ord]["name"], today)
+                            for c in cards
+                        ],
                         # A note counts as suspended only if EVERY card is. This bot
                         # suspends the reverse (ord 1) and cloze (ord 2) siblings on
                         # purpose -- see tag_hanly_notes and the maturity gate -- so
@@ -1153,6 +1666,30 @@ def execute_tool(tool_name, tool_input):
         elif tool_name == "delete_notes":
             query = tool_input["query"]
             note_ids = list(col.find_notes(query))
+            # The Hidden:: pools are parked on purpose and read as duplicates of the
+            # live card (same word, same `Simplified` field). Refuse the whole call
+            # rather than delete a subset, so the model has to come back explicitly.
+            if not tool_input.get("include_archived"):
+                archived = _archived_note_ids(col, note_ids)
+                if archived:
+                    return json.dumps({
+                        "error": "refused",
+                        "reason": f"{len(archived)} of {len(note_ids)} matched note(s) are "
+                                  "archived: every card sits in a Hidden:: deck, where the "
+                                  "user parks legacy import pools. They are not duplicates "
+                                  "of the live card. Deleting them fixes nothing.",
+                        "archived_note_ids": sorted(archived)[:50],
+                        "archived_count": len(archived),
+                        # Capped: an uncapped list sent 188 KB (12,436 ids) into the model
+                        # context for a `deck:Hidden` query.
+                        "live_note_ids": [n for n in note_ids if n not in archived][:50],
+                        "live_count": len(note_ids) - len(archived),
+                        "next_step": "Tell the user which notes are archived and leave them "
+                                     "alone. To delete only the live ones, re-issue with a "
+                                     "query built from the live ids, e.g. "
+                                     "`nid:123,456`. Pass include_archived=true only if the "
+                                     "user explicitly asks to delete archived notes.",
+                    }, ensure_ascii=False)
             col.remove_notes(note_ids)
             log_change("delete", note_ids)
             return f"Deleted {len(note_ids)} note(s)."
@@ -1179,9 +1716,33 @@ def execute_tool(tool_name, tool_input):
                         except Exception:
                             pass
                 log_change("tag", note_ids, {"tags": tags})
-                return (f"Tagged {result['tagged']} note(s) 'mined', moved "
-                        f"{result['moved_to_mined']} into the Mined deck (front, next-up), "
-                        f"suspended {result['reverse_suspended']} reverse card(s).")
+                msg = (f"Tagged {result['tagged']} note(s) 'mined'. Put "
+                       f"{result['repositioned_to_front']} new card(s) first among the NEW "
+                       f"cards of their own deck (due cards still come before them). Kept "
+                       f"{result['kept_in_deck']} card(s) in the study deck they were "
+                       f"already in; moved {result['moved_to_mined']} card(s) into Mined. "
+                       f"Routed {result['reverse_routed']} production and "
+                       f"{result['cloze_routed']} cloze card(s) to their gated decks, "
+                       f"suspending {result['reverse_suspended']} of them.")
+                if result["forward_unsuspended"]:
+                    # Some parked cards are parked on purpose (the ~164 basic HSK
+                    # characters). Unsuspending one silently is how a deliberate decision
+                    # gets undone without anyone noticing.
+                    msg += (f" UNSUSPENDED {result['forward_unsuspended']} card(s) that "
+                            "were suspended — say so explicitly, in case any was parked "
+                            "on purpose.")
+                if result["skipped_import_pool"]:
+                    msg += (f" Skipped {result['skipped_import_pool']} parked import-pool "
+                            "note(s); they are not the user's cards.")
+                if result["already_in_review"]:
+                    msg += (f" {result['already_in_review']} card(s) are already in "
+                            "learning or review, so their schedule and their position "
+                            "were left untouched.")
+                if result["decks_missing"]:
+                    msg += (" WARNING: no deck named "
+                            + " or ".join(repr(n) for n in result["decks_missing"])
+                            + " exists, so that routing was skipped.")
+                return msg
             elif adding_hanly:
                 result = promote_to_hanly(col, note_ids)
                 # Also add any non-hanly tags
@@ -1200,10 +1761,17 @@ def execute_tool(tool_name, tool_input):
                 log_change("tag", note_ids, {"tags": tags})
                 parts = [f"Tagged {result['tagged']} note(s) with hanly."]
                 if result["forward_unsuspended"]:
-                    parts.append(f"Unsuspended {result['forward_unsuspended']} forward card(s) in hanly deck.")
+                    parts.append(f"Unsuspended {result['forward_unsuspended']} forward card(s), "
+                                 "wherever they already sat.")
                 if result["reverse_suspended"]:
-                    parts.append(f"Suspended {result['reverse_suspended']} reverse card(s) in hanly-reverse deck.")
+                    parts.append(f"Suspended {result['reverse_suspended']} reverse card(s), "
+                                 "wherever they already sat.")
                 parts.append(f"Moved {result['moved_to_hanly']} to hanly, {result['moved_to_hanly_reverse']} to hanly-reverse.")
+                if result["decks_missing"]:
+                    parts.append("WARNING: no deck named "
+                                 + " or ".join(repr(n) for n in result["decks_missing"])
+                                 + " exists, so no card changed deck. The 'hanly' tag is "
+                                   "defunct in this collection — tell the user.")
                 return " ".join(parts)
             else:
                 skipped = 0
@@ -1247,6 +1815,14 @@ def execute_tool(tool_name, tool_input):
             deck_name = tool_input.get("deck", "Default")
             note_ids = list(col.find_notes(query))
             did = col.decks.id_for_name(deck_name)
+            if did is None:
+                # Anki answers a None deck id with "your database appears to be in an
+                # inconsistent state ... use Check Database", which is false and alarming.
+                # Name the real problem and move nothing.
+                return json.dumps({
+                    "error": f"No deck named {deck_name!r}. Nothing was moved.",
+                    "existing_decks": sorted(d.name for d in col.decks.all_names_and_ids()),
+                }, ensure_ascii=False)
             card_ids, skipped = _collect_card_ids(col, note_ids)
             col.set_deck(card_ids, did)
             log_change("move_deck", note_ids, {"deck": deck_name, "card_count": len(card_ids)})
@@ -1343,7 +1919,15 @@ def execute_tool(tool_name, tool_input):
             template_name = tool_input["template_name"]
             deck_name = tool_input["deck"]
             note_ids = list(col.find_notes(query))
-            did = col.decks.add_normal_deck_with_name(deck_name).id
+            # add_normal_deck_with_name CREATES the deck. A prompt naming a deck that no
+            # longer exists would conjure it on preset 1 with different scheduling.
+            try:
+                did = deck_id(col, deck_name)
+            except DeckMissing as e:
+                return json.dumps({
+                    "error": f"{e}. Nothing was moved.",
+                    "existing_decks": sorted(d.name for d in col.decks.all_names_and_ids()),
+                }, ensure_ascii=False)
             card_ids = []
             for nid in note_ids:
                 try:
@@ -2293,13 +2877,14 @@ async def cmd_decks(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
         decks = col.decks.all_names_and_ids()
         lines = []
-        for d in decks:
-            if d.name == "Default" or "::" in d.name:
-                count = len(col.find_cards(f'"deck:{d.name}"'))
-                if count > 0:
-                    lines.append(f"  {d.name} ({count})")
-        if not lines:
-            lines = [f"  {d.name}" for d in decks]
+        # The old filter was `d.name == "Default" or "::" in d.name`, which listed only
+        # Default and subdecks -- every top-level study deck (HSK, HSK7-9, non-HSK,
+        # Reverse, Vocab Cloze, Mined) was missing, and the `if not lines` fallback never
+        # fired because Hidden::* always matched. List every deck that holds a card.
+        for d in sorted(decks, key=lambda x: x.name):
+            count = len(col.find_cards(f'"deck:{d.name}"'))
+            if count > 0:
+                lines.append(f"  {d.name} ({count})")
         await update.message.reply_text("Decks:\n" + "\n".join(lines[:30]))
     finally:
         col.close()
@@ -2558,35 +3143,27 @@ async def _process_json_text_direct(bot, message, chat_id, data, context):
 
 # ── Main ──────────────────────────────────────────────────────────────
 
-def _sync_reverse_cards():
-    """Unsuspend hanly-reverse cards for words started in hanly deck."""
-    col = open_collection()
+def _sync_gated_templates():
+    """Run both maturity gates. See _apply_template_gate for the rule."""
+    col = None
     try:
-        # Notes that have been started (reviewed at least once)
-        learned_notes = set(col.find_notes(
-            f'"note:{CHINESE_VOCAB_NOTETYPE}" tag:hanly -is:new -is:suspended'
-        ))
-        # Currently active reverse cards
-        active_reverse = set()
-        for cid in col.find_cards('deck:hanly-reverse -is:suspended'):
-            card = col.get_card(cid)
-            active_reverse.add(card.nid)
-
-        # Find reverse cards that should be unsuspended
-        to_unsuspend = []
-        for cid in col.find_cards('deck:hanly-reverse is:suspended'):
-            card = col.get_card(cid)
-            if card.nid in learned_notes:
-                to_unsuspend.append(cid)
-
-        if to_unsuspend:
-            col.sched.unsuspend_cards(to_unsuspend)
-            return f"Unsuspended {len(to_unsuspend)} reverse cards"
-        return None
+        col = open_collection()
+        msgs = []
+        for gate in (apply_reverse_gate, apply_cloze_gate):
+            r = gate(col)
+            if r.get("error"):
+                # Loud, every run. A gate that quietly does nothing is the failure this
+                # whole rewrite exists to stop.
+                msgs.append(f"{r['deck']} gate NOT RUN — {r['error']}")
+            elif r["moved"] or r["unsuspended"] or r["suspended"]:
+                msgs.append(f"{r['deck']}: moved {r['moved']}, unsuspended "
+                            f"{r['unsuspended']}, suspended {r['suspended']}")
+        return "; ".join(msgs) or None
     except Exception as e:
-        return f"Reverse sync failed: {e}"
+        return f"Template gates failed: {e}"
     finally:
-        col.close()
+        if col is not None:
+            col.close()
 
 
 def _sync_grammar_reverse_cards():
@@ -2595,13 +3172,15 @@ def _sync_grammar_reverse_cards():
     try:
         # Notes whose forward card has been started in hanly-grammar
         learned_notes = set()
-        for cid in col.find_cards('deck:hanly-grammar -is:new -is:suspended'):
+        # These two decks live under Hidden:: -- the old unqualified names matched
+        # nothing, exactly like the reverse job did.
+        for cid in col.find_cards('"deck:Hidden::hanly-grammar" -is:new -is:suspended'):
             card = col.get_card(cid)
             learned_notes.add(card.nid)
 
         # Unsuspend grammar-reverse cards for those notes
         to_unsuspend = []
-        for cid in col.find_cards('deck:hanly-grammar-reverse is:suspended'):
+        for cid in col.find_cards('"deck:Hidden::hanly-grammar-reverse" is:suspended'):
             card = col.get_card(cid)
             if card.nid in learned_notes:
                 to_unsuspend.append(cid)
@@ -2617,19 +3196,41 @@ def _sync_grammar_reverse_cards():
 
 
 async def periodic_sync(context):
-    """Background job: sync collection with AnkiWeb, then update reverse cards."""
-    result = await asyncio.to_thread(_sync_collection)
-    log.info(f"Periodic sync: {result}")
-    reverse_result = await asyncio.to_thread(_sync_reverse_cards)
-    if reverse_result:
-        log.info(f"Periodic sync: {reverse_result}")
-    grammar_reverse_result = await asyncio.to_thread(_sync_grammar_reverse_cards)
-    if grammar_reverse_result:
-        log.info(f"Periodic sync: {grammar_reverse_result}")
+    """Background job: sync with AnkiWeb, then run the maturity gates.
+
+    Each step is isolated. A failure in one must not skip the others -- a transient
+    collection lock during the sync used to abort the coroutine before either gate ran,
+    while APScheduler still logged the job as successful.
+    """
+    for label, fn in (("sync", _sync_collection),
+                      ("gates", _sync_gated_templates),
+                      ("grammar-reverse", _sync_grammar_reverse_cards)):
+        try:
+            result = await asyncio.to_thread(fn)
+        except Exception as e:
+            log.error(f"Periodic {label} raised: {type(e).__name__}: {e}")
+            continue
+        if result:
+            log.info(f"Periodic {label}: {result}")
 
 
 async def main_async():
     log.info("Starting Anki Telegram bot + API server...")
+
+    # Resolve every required deck ONCE, loudly. A rename used to leave a lookup returning
+    # None and the job carried on doing nothing for months. Now it is visible on the
+    # first restart after the rename.
+    col = open_collection()
+    try:
+        gone = missing_decks(col)
+    finally:
+        col.close()
+    if gone:
+        log.error("REQUIRED DECKS MISSING: %s — the maturity gates and card creation "
+                  "will not work correctly until these exist or the constants in bot.py "
+                  "are updated.", ", ".join(repr(n) for n in gone))
+    else:
+        log.info("Deck check: all %d required decks resolve", len(REQUIRED_DECKS))
 
     # Build Telegram app
     tg_app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
