@@ -3,6 +3,8 @@
 the revlog and projects reading/listening timelines. Prints a text report.
 Usage: weekly_report.py [--days N]"""
 import re, sys, os, time, collections, statistics
+sys.path.insert(0, "/home/vincent/anki-headless")
+import bot                      # for MATURE_IVL — one definition of "mature", not two
 from anki.collection import Collection
 from wordfreq import zipf_frequency
 
@@ -54,12 +56,25 @@ try:
         if ever_failed and c.type==2 and c.ivl>=3 and last and last[0]>=2:
             acquired += 1
 
-    # true retention: mature reviews this week (prev interval >=4d), % correct
-    mature = [(e) for _,_,e,t,ivl,liv in rl if liv>=4 and t in (1,2)]
-    retention = (100*sum(1 for e in mature if e>=2)/len(mature)) if mature else None
+    # True retention, at TWO thresholds. This used to report `lastIvl>=4` under the label
+    # "mature", while the dashboard and the maturity gate both use >=21. The two numbers
+    # were labelled identically and were not the same measurement. Mature now means
+    # bot.MATURE_IVL, and the looser figure is reported separately because the mature
+    # sample is small (85 reviews in a typical week vs 359).
+    def _retention(min_ivl):
+        seen = [e for _, _, e, t, ivl, liv in rl if liv >= min_ivl and t in (1, 2)]
+        pct = (100*sum(1 for e in seen if e >= 2)/len(seen)) if seen else None
+        return pct, len(seen)
+    retention, retention_n = _retention(bot.MATURE_IVL)
+    retention_young, retention_young_n = _retention(4)
 
-    studied = col.db.scalar(f"SELECT COUNT(*) FROM cards WHERE did IN ({ph}) AND ord=0 AND type IN (1,2)", *study_dids)
+    # The backbone denominator was hardcoded at ~16,500 and was 20% low. Measure it.
+    # "In play" excludes cards parked on purpose (basic HSK characters the user already
+    # knows, segmentation fragments); counting those would inflate the target instead.
+    studied = col.db.scalar(f"SELECT COUNT(*) FROM cards WHERE did IN ({ph}) AND ord=0 AND type IN (1,2) AND queue!=-1", *study_dids)
     new_left = col.db.scalar(f"SELECT COUNT(*) FROM cards WHERE did IN ({ph}) AND ord=0 AND type=0 AND queue!=-1", *study_dids)
+    parked = col.db.scalar(f"SELECT COUNT(*) FROM cards WHERE did IN ({ph}) AND ord=0 AND queue=-1", *study_dids)
+    backbone = studied + new_left
 
     # 小Lin (finance/econ listening) track
     BUSI = re.compile(r'\b(econom|market|invest|financ|compan|trade|profit|stock|capital|bank|tax|fund|industr|commerc|monetary|price|debt|asset|revenue|enterprise|currency|inflation|loan|business|wealth|merger|equity|budget|GDP|interest rate|bond|dividend|recession|fiscal)\b', re.I)
@@ -85,8 +100,10 @@ try:
     L.append(f"• New cards introduced: *{intro_week}*  — of which *{new_unknown}* you didn't know")
     L.append(f"• Genuinely learned & holding (failed once, now sticking): *{acquired}*  → ~*{rate:.0f}/day*")
     if retention is not None:
-        L.append(f"• Retention on mature reviews: *{retention:.0f}%*")
-    L.append(f"• Backbone studied: *{studied}* / ~16,500  ({new_left} still new)")
+        L.append(f"• Retention, mature (≥{bot.MATURE_IVL}d): *{retention:.0f}%*  ({retention_n} reviews)")
+    if retention_young is not None:
+        L.append(f"• Retention, ≥4d: *{retention_young:.0f}%*  ({retention_young_n} reviews)")
+    L.append(f"• Backbone studied: *{studied}* / *{backbone:,}*  ({new_left:,} still new, {parked:,} parked)")
     L.append("")
     fin_left = fin_tot - fin_learned
     if rate >= 1:
