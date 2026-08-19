@@ -62,7 +62,7 @@ Requires a `.bot_config.json` in the project directory:
 {
   "telegram_bot_token": "...",
   "anthropic_api_key": "...",
-  "default_deck": "Knowledge::Languages::Chinese::Vocabulary"
+  "default_deck": "Mined"
 }
 ```
 

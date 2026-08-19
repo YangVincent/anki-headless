@@ -104,7 +104,7 @@ try:
     print("\nVERIFY")
     archived = bot._archive_deck_ids(col)
     study = [d.id for d in col.decks.all_names_and_ids()
-             if d.id not in archived and d.name != "Default"]
+             if d.id not in archived and d.name != decks.name_of(decks.RESERVED)]
     for role, gate, template in GATES:
         label, home = role, decks.name_of(role)
         sources = decks.gate_sources(role)   # names, for the report line only

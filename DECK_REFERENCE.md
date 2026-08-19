@@ -109,8 +109,12 @@ Two names changed in the copy moved all of: `RECOGNITION_DECKS`, `NEW_WORDS_DECK
 deck names are the eight in the table above.
 
 `freq_data/lint_deck_names.py` reports scripts that name a deck which no longer exists. It
-finds **43 of 61** one-shot scripts, mostly naming `Vocab` (37) — a deck retired long before
-this consolidation. None is in the live path; each is a silent no-op if re-run.
+reads **0**, and that 0 now means something: it scans the whole live tree (repo root,
+`freq_data/`, `quality/`, `tools/`), sees a name behind `deck:` inside an Anki search
+string, and reads real string literals via the AST rather than counting comments. Its first
+version did none of those and reported 0 while `bot.py` held a dead
+`deck:Hidden::hanly-grammar` search. Retired scripts live in `freq_data/applied/` and
+`quality/applied/`; they are skipped because they are retired for naming dead decks.
 
 **`Archive` replaced the `Hidden::` subtree.** It absorbed `Hidden::Archive::{Words,
 Sentences,Characters}`, `Hidden::Personal{,-reverse}`, `Hidden::hanly-grammar{,-reverse}`,
@@ -118,8 +122,10 @@ Sentences,Characters}`, `Hidden::Personal{,-reverse}`, `Hidden::hanly-grammar{,-
 and `Hidden::Characters`. The `Mined::三体` and `Mined::十日终焉` subdecks folded into `Mined`.
 Card and note totals were identical before and after: 258,959 and 132,625.
 
-`bot.ARCHIVE_DECK_NAMES` still lists `Hidden` beside `Archive`, so the archive test stays
-correct against a pre-migration backup. Two downstream consumers carry the same pair:
+`decks.ARCHIVE_NAMES` still lists `Hidden` beside `Archive`, so the archive test stays
+correct against a pre-migration backup — but the CURRENT name wins outright, so a new deck
+someone happens to call `Hidden` is not mistaken for the archive. Three downstream
+consumers import `decks.py`; each keeps one fallback pair, used only if that import fails:
 `dong-chinese/server/scripts/backfill_known_words.py` and
 `jiangchinese/backend/app/services/anki.py`.
 
@@ -151,12 +157,14 @@ matches five notes: one live HSK card and four archived ones.
 Two more facts that make this read wrongly:
 
 1. **A live note spans decks.** The `ChineseVocabulary` note for 说服 has ord 0 in `HSK`,
-   ord 1 in `Hidden::Archive::Words` and ord 2 in `Vocab Cloze`. Any tool that reports one
+   ord 1 in `Reverse` (or still parked in `Archive`) and ord 2 in `Cloze`. Any tool that reports one
    deck per note reports whichever card comes first and hides the rest.
-2. **`Hidden::` is not fully suspended.** It holds 219,218 cards, of which 1,058 are
-   unsuspended. `Hidden::Archive::*` is 214,006 cards with 213,981 suspended; the live
-   remainder sits in `Hidden::hanly-reverse`, `Hidden::Personal` and similar, on purpose.
-   Do not assume "Hidden" means "suspended", and do not assume "suspended" means "junk".
+2. **`Archive` is fully suspended, and that is now enforced.** 213,434 cards, 0 live.
+   `bot.enforce_archive_suspended` runs with the maturity gates every 5 minutes and
+   suspends anything unstudied that appears there; a card with review history is left
+   alone and reported instead. Before that, two paths could leave a live card in the
+   archive with nothing to notice: a conditional template whose deck override points at
+   it (Anki creates that card unsuspended), and any hand move.
 
 `bot.py` now reports `archived: true` for any note whose every card is under `Hidden::`
 (`_archived_note_ids`). `search_notes` splits its hits into `live_note_ids` and
@@ -179,7 +187,7 @@ as a third `ChineseVocabulary` template, **`Cloze-Recall`**, gated on a field:
 ```
 
 The blank is literal `[ ]` in `SentenceSimplifiedCloze` (e.g. `他[ ]很守时。`). **17,441 of
-49,653** vocabulary notes have one, and their Cloze-Recall cards live in the `Vocab Cloze`
+49,930** vocabulary notes have one, and their Cloze-Recall cards live in the `Cloze`
 deck — which is why that deck contains only `ChineseVocabulary` notes and appears, wrongly, to
 have no cloze in it.
 
@@ -190,7 +198,7 @@ Templates: `Hanzi-English` (ord 0) · `English-Speaking` (ord 1, "Express this i
 it out loud") · `Cloze-Recall` (ord 2). Ords 1 and 2 are both **production-direction** drills —
 cue is the meaning, you generate the Chinese aloud — as opposed to ord 0's recognition.
 
-**External consumer (2026-08-04):** comprehensiblemandarin's Write module reads `Vocab Cloze`
+**External consumer (2026-08-04):** comprehensiblemandarin's Write module reads `Cloze`
 through anki-bot's `GET /api/deck/{name}/words?ord=2` to source its vocabulary writing prompts —
 it wants the production direction, so it must pass `ord=2` explicitly (the param defaults to 0).
 Because the deck holds *only* ord-2 cards, an ord-0 query against it returns `[]`, which is
@@ -199,6 +207,9 @@ fix. Contract in `~/chinese-projects/APIS.md`; only the 25 studied cards are eli
 status>=1 filter, which is why that consumer's word pool is small.
 
 ### The connectives set (2026-07-31) — built as `Vocab Cloze::Connectives`, since dissolved
+
+*Historical. `Vocab Cloze` was renamed `Cloze` on 2026-08-19; the names below are the ones
+in use at the time.*
 
 > **Status 2026-08-04: the subdeck no longer exists.** No deck matching `Connectives` is in the
 > collection. Its cards now sit directly in the parent `Vocab Cloze`, and **the isolation that

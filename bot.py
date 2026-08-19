@@ -348,9 +348,13 @@ def _apply_template_gate(col, template, role, dry_run=False):
                 "mature_words": 0, "moved": 0, "unsuspended": 0, "suspended": 0}
 
     ph = ",".join("?" * len(src))
+    # Restricted to the note type the gate acts on. Without it the reported count
+    # included every other note type's mature words -- 2,099 against a true 2,030.
     mature = set(col.db.list(
-        f"SELECT nid FROM cards WHERE (CASE WHEN odid!=0 THEN odid ELSE did END) "
-        f"IN ({ph}) AND ord=0 AND type=2 AND ivl>=? AND queue!=-1", *src, MATURE_IVL))
+        f"SELECT c.nid FROM cards c JOIN notes n ON n.id=c.nid "
+        f"WHERE (CASE WHEN c.odid!=0 THEN c.odid ELSE c.did END) IN ({ph}) "
+        f"AND c.ord=0 AND c.type=2 AND c.ivl>=? AND c.queue!=-1 AND n.mid=?",
+        *src, MATURE_IVL, cv["id"]))
 
     to_move, to_unsuspend, to_suspend = [], [], []
     for cid, did, odid, queue, reps, nid in col.db.all(
@@ -484,13 +488,13 @@ def promote_to_vocab(col, note_ids):
         col.sched.unsuspend_cards(forward_to_unsuspend)
     if reverse_cards:
         col.set_deck(reverse_cards, reverse_did)
-    if reverse_to_suspend:
-        # reps == 0 only: never take away a card that is already mid-schedule. The gate
-        # releases it again once the word matures.
-        col.sched.suspend_cards(reverse_to_suspend)
     if cloze_cards:
         col.set_deck(cloze_cards, cloze_did)
-        col.sched.suspend_cards([c for c in cloze_cards if col.get_card(c).reps == 0])
+    # This routes DECKS and stops there. It used to suspend as well, and the maturity gate
+    # re-released the same cards within 5 minutes -- 1,960 production and 1,902 cloze cards
+    # were exposed. Two systems writing one piece of state is the reason promote_to_hanly
+    # was deleted, and the identical behaviour had survived here. The gates run at the end
+    # instead, so suspension has one owner and the note is consistent before we return.
     # A card already in a live study deck KEEPS that deck. Only a card in Default or
     # under Hidden:: moves to Mined. Pulling a studied HSK card out of HSK breaks that
     # deck's level ordering and its coverage, and "promote" means the word comes up
@@ -549,8 +553,12 @@ def promote_to_vocab(col, note_ids):
             next_due -= 1
             repositioned += 1
 
+    gate = [g(col) for g in (apply_reverse_gate, apply_cloze_gate)]
+    ok = [r for r in gate if r and not r.get("error")]
     return {
         "tagged": tagged,
+        "gate_suspended": sum(r["suspended"] for r in ok),
+        "gate_released": sum(r["unsuspended"] for r in ok),
         "forward_unsuspended": len(forward_to_unsuspend),
         "skipped_import_pool": len(import_pool),
         "decks_missing": decks_missing,
@@ -560,7 +568,6 @@ def promote_to_vocab(col, note_ids):
         "already_in_review": already_in_review,
         "in_filtered_deck": on_loan,
         "reverse_routed": len(reverse_cards),
-        "reverse_suspended": len(reverse_to_suspend),
         "cloze_routed": len(cloze_cards),
     }
 
@@ -1320,6 +1327,21 @@ def execute_tool(tool_name, tool_input):
                             "decks; using the new-words deck instead", wanted)
                 wanted = None
             did = deck_id(col, wanted) if wanted else decks.new_words_deck_id(col)
+            # Refuse to create a second note for a word that already has one. The prompt
+            # tells the model to search first, but a prompt is not a guarantee, and the
+            # field search misses any note whose Simplified field carries HTML. 153 words
+            # already carry both an archived and a live note from exactly this.
+            word = (tool_input.get("simplified") or "").strip()
+            existing = col.db.list(
+                "SELECT id FROM notes WHERE mid=? AND sfld=?", model["id"], word)
+            if existing:
+                return json.dumps({
+                    "error": f"{word!r} already has a note; not creating a second one.",
+                    "existing_note_ids": existing,
+                    "next_step": "Read it with get_notes_detail. If it is archived, "
+                                 "promote it with tag_notes + the 'mined' tag. If it is "
+                                 "live, improve it with edit_note.",
+                }, ensure_ascii=False)
             note = col.new_note(model)
 
             note["Simplified"] = tool_input.get("simplified", "")
@@ -1392,11 +1414,14 @@ def execute_tool(tool_name, tool_input):
                 "deck": deck,
                 "tags": tags,
             })
+            landed = next((col.decks.name(c.did) for c in note.cards()), deck)
             return json.dumps({
                 "success": True,
                 "note_id": nid,
                 "front": tool_input.get("front", "")[:80],
-                "deck": deck,
+                # Where it actually is, not what was asked for. add_chinese_vocab was
+                # fixed to report this; its sibling was not.
+                "deck": landed,
             })
         except Exception as e:
             return json.dumps({"error": str(e)})
@@ -1422,8 +1447,11 @@ def execute_tool(tool_name, tool_input):
             except DeckMissing as e:
                 return json.dumps({"error": str(e)})
             ph = ",".join("?" * len(src))
-            base = (f"SELECT nid FROM cards WHERE did IN ({ph}) AND ord=0 AND queue!=-1 "
-                    f"AND nid IN (SELECT id FROM notes WHERE mid=?)")
+            # `odid or did`, like the gate and the status map: a card on loan to a
+            # filtered deck has its home deck in odid and was invisible to the story tool.
+            base = (f"SELECT nid FROM cards WHERE "
+                    f"(CASE WHEN odid!=0 THEN odid ELSE did END) IN ({ph}) "
+                    f"AND ord=0 AND queue!=-1 AND nid IN (SELECT id FROM notes WHERE mid=?)")
             cv_model = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
             cv_id = cv_model["id"] if cv_model else -1
 
@@ -1537,6 +1565,15 @@ def execute_tool(tool_name, tool_input):
         if tool_name == "search_notes":
             query = tool_input["query"]
             note_ids = list(col.find_notes(query))
+            # Anki's field search matches the RAW field, HTML included. 14 vocabulary
+            # notes carry markup in `Simplified` -- `<div><div>没差</div></div>` -- so
+            # `Simplified:没差` returned 0 hits for a word that exists. The autonomous
+            # /api/card path reads 0 hits as "not found" and creates a duplicate. `sfld`
+            # is Anki's own stripped copy of the sort field, so retry against it.
+            if not note_ids:
+                m = re.fullmatch(r"(?:Simplified|Front):(\S+)", query.strip())
+                if m:
+                    note_ids = col.db.list("SELECT id FROM notes WHERE sfld = ?", m.group(1))
             if len(note_ids) <= 200:
                 # Three DISJOINT sets, because they call for three different actions.
                 # import_pool: parked xiehanzi import notes -- ignore them outright.
@@ -1728,7 +1765,11 @@ def execute_tool(tool_name, tool_input):
                 result = promote_to_vocab(col, note_ids)
                 other_tags = [t for t in tags if t.lower() != "mined"]
                 if other_tags:
-                    for nid in note_ids:
+                    # The same skip list. promote_to_vocab filtered the import pool and
+                    # this loop did not, so a second tag was written onto parked import
+                    # notes while the reply said they had been skipped.
+                    pool = _import_pool_note_ids(col, note_ids)
+                    for nid in [n for n in note_ids if n not in pool]:
                         try:
                             note = col.get_note(nid)
                             existing = {t.lower() for t in note.tags}
@@ -1746,8 +1787,9 @@ def execute_tool(tool_name, tool_input):
                        f"already in; moved {result['moved_to_mined']} card(s) into "
                        f"{decks.NEW_WORDS_DECK}. "
                        f"Routed {result['reverse_routed']} production and "
-                       f"{result['cloze_routed']} cloze card(s) to their gated decks, "
-                       f"suspending {result['reverse_suspended']} of them.")
+                       f"{result['cloze_routed']} cloze card(s) to their gated decks; the "
+                       f"maturity gate then suspended {result['gate_suspended']} and "
+                       f"released {result['gate_released']}.")
                 if result["forward_unsuspended"]:
                     # Some parked cards are parked on purpose (the 184 basic HSK
                     # characters). Unsuspending one silently is how a deliberate decision
@@ -2261,13 +2303,13 @@ def _vocab_status_map():
     try:
         # field 0 of ChineseVocabulary is Simplified (verified against notetype)
         rows = col.db.all(
-            "SELECT n.flds, c.ivl, c.did, c.odid, c.queue FROM notes n "
+            "SELECT n.flds, c.ivl, c.did, c.odid, c.queue, c.ord FROM notes n "
             "JOIN notetypes nt ON nt.id = n.mid "
             "JOIN cards c ON c.nid = n.id WHERE nt.name = 'ChineseVocabulary'")
         hidden = _archive_deck_ids(col)
         deck_names = {}
         m = {}
-        for flds, ivl, did, odid, queue in rows:
+        for flds, ivl, did, odid, queue, ord_ in rows:
             w = flds.split("\x1f", 1)[0].strip()
             if not w:
                 continue
@@ -2276,7 +2318,12 @@ def _vocab_status_map():
             # Ranking on interval alone picked an archived, suspended card for ~31,000
             # words, so the dictionary site's "in your deck" badge named
             # Hidden::Archive::Words for words the user has never studied.
-            rank = (0 if queue == -1 else 1, 0 if home in hidden else 1, ivl)
+            # Prefer the RECOGNITION card: that is the one that answers "do you study
+            # this word". Ranking on live-and-not-archived alone moved the old
+            # Hidden::Archive::Words problem onto `Reverse`, so the dictionary badge named
+            # a production deck for 23 words.
+            rank = (1 if ord_ == 0 else 0, 0 if queue == -1 else 1,
+                    0 if home in hidden else 1, ivl)
             prev = m.get(w)
             if prev is None or rank > prev["_rank"]:
                 if home not in deck_names:
@@ -2959,10 +3006,10 @@ async def cmd_decks(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 async def cmd_log(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    if not CHANGELOG_FILE.exists():
+    if not _changelog_path().exists():
         await update.message.reply_text("No changes logged yet.")
         return
-    lines = CHANGELOG_FILE.read_text().strip().split("\n")
+    lines = _changelog_path().read_text().strip().split("\n")
     recent = lines[-20:]
     output = []
     for line in recent:
@@ -3211,8 +3258,33 @@ async def _process_json_text_direct(bot, message, chat_id, data, context):
 
 # ── Main ──────────────────────────────────────────────────────────────
 
+def enforce_archive_suspended(col):
+    """Suspend anything unsuspended in the archive that has never been studied.
+
+    The archive's whole contract is that nothing in it runs. Nothing enforced that. Two
+    paths reach it: a card generated later from a conditional template whose override
+    points at the archive (Anki creates it UNSUSPENDED), and any hand move. Neither gate
+    covers it — they filter on ChineseVocabulary ords 1 and 2, and an immature parked card
+    is exactly what they are built to leave alone, so such a card would sit live forever.
+
+    reps == 0 only. A card with review history is left alone and reported, because taking
+    away something the user has studied is a bigger error than an inconsistent deck.
+    """
+    try:
+        arch = decks.archive_ids(col)
+    except DeckMissing:
+        return {"suspended": 0, "studied_left_alone": 0, "error": "no archive deck"}
+    ph = ",".join("?" * len(arch))
+    live = col.db.all(f"SELECT id, reps FROM cards WHERE did IN ({ph}) AND queue!=-1", *arch)
+    fresh = [cid for cid, reps in live if reps == 0]
+    if fresh:
+        col.sched.suspend_cards(fresh)
+    return {"suspended": len(fresh),
+            "studied_left_alone": len(live) - len(fresh)}
+
+
 def _sync_gated_templates():
-    """Run both maturity gates. See _apply_template_gate for the rule."""
+    """Run both maturity gates, then enforce the archive's contract."""
     col = None
     try:
         col = open_collection()
@@ -3226,6 +3298,14 @@ def _sync_gated_templates():
             elif r["moved"] or r["unsuspended"] or r["suspended"]:
                 msgs.append(f"{r['deck']}: moved {r['moved']}, unsuspended "
                             f"{r['unsuspended']}, suspended {r['suspended']}")
+        arch = enforce_archive_suspended(col)
+        if arch.get("error"):
+            msgs.append(f"archive sweep NOT RUN — {arch['error']}")
+        elif arch["suspended"]:
+            msgs.append(f"archive: suspended {arch['suspended']} card(s) that were live")
+        if arch.get("studied_left_alone"):
+            msgs.append(f"archive: {arch['studied_left_alone']} STUDIED card(s) are live "
+                        "in the archive and were left alone — tell the user")
         return "; ".join(msgs) or None
     except Exception as e:
         return f"Template gates failed: {e}"
@@ -3259,7 +3339,10 @@ async def periodic_sync(context):
             log.error(f"Periodic {label} raised: {type(e).__name__}: {e}")
             continue
         if result:
-            log.info(f"Periodic {label}: {result}")
+            # A failure comes back as a STRING ("Sync failed: ..."), so logging every
+            # result at INFO reported a persistent outage as routine.
+            bad = any(w in str(result).lower() for w in ("failed", "not run", "error"))
+            (log.error if bad else log.info)(f"Periodic {label}: {result}")
 
 
 async def main_async():

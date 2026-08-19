@@ -58,6 +58,9 @@ def cmd_deck_list(args):
         col.close()
 
 
+import decks as deck_list   # the declared deck list; see anki-headless/decks.py
+
+
 def cmd_deck_create(args):
     col = open_collection(args.collection)
     try:
@@ -68,6 +71,17 @@ def cmd_deck_create(args):
         if existing is not None:
             print(f"Deck already exists: {args.name} (id {existing})")
             return
+        # A new deck binds to preset 1, whose FSRS params differ from the rest of the
+        # collection -- and moving cards into a different-preset deck STRIPS their memory
+        # state. That is how 421 studied cards lost theirs. The collection is meant to
+        # hold exactly the declared decks, so an undeclared name needs --force.
+        if args.name not in deck_list.ALL_NAMES and not getattr(args, "force", False):
+            print(f"'{args.name}' is not one of this collection's decks "
+                  f"({', '.join(deck_list.ALL_NAMES)}).\n"
+                  f"A new deck binds to Anki's stock preset, and moving cards into it "
+                  f"strips their FSRS memory state. Re-run with --force if you mean it.",
+                  file=sys.stderr)
+            sys.exit(1)
         did = col.decks.id(args.name)
         print(f"Deck created: {args.name} (id {did})")
     finally:
@@ -81,10 +95,13 @@ def cmd_deck_rename(args):
         if not did:
             print(f"Deck not found: {args.old}", file=sys.stderr)
             sys.exit(1)
-        deck = col.decks.get(did)
-        deck["name"] = args.new
-        col.decks.save(deck)
-        print(f"Renamed '{args.old}' -> '{args.new}'")
+        col.decks.rename(col.decks.get(did), args.new)
+        # Anki may not use the name you asked for: renaming to an existing name yields
+        # `HSK+`, for example. Report what it actually became. Assigning deck["name"]
+        # and saving also skipped Anki's own rename handling for child decks.
+        actual = col.decks.name(did)
+        print(f"Renamed '{args.old}' -> '{actual}'"
+              + ("" if actual == args.new else f"   (you asked for '{args.new}')"))
     finally:
         col.close()
 
@@ -96,8 +113,18 @@ def cmd_deck_delete(args):
         if not did:
             print(f"Deck not found: {args.name}", file=sys.stderr)
             sys.exit(1)
+        # decks.remove DELETES THE DECK'S CARDS. It printed one line and no count, so
+        # `deck delete Mined` silently destroyed 446 cards -- and orphaned their gated
+        # production and cloze siblings, which no gate would ever find again.
+        n = col.db.scalar("SELECT count(*) FROM cards WHERE did=?", did)
+        if n and not getattr(args, "yes", False):
+            print(f"'{args.name}' holds {n} card(s). Deleting the deck DELETES THEM.\n"
+                  f"Their production and cloze siblings would be left with no recognition "
+                  f"card. Move the cards out first, or re-run with --yes.", file=sys.stderr)
+            sys.exit(1)
+        before = col.card_count()
         col.decks.remove([did])
-        print(f"Deleted deck: {args.name}")
+        print(f"Deleted deck: {args.name}  ({before - col.card_count()} card(s) deleted)")
     finally:
         col.close()
 
@@ -183,7 +210,10 @@ def cmd_show(args):
             print()
 
         # Card stats
-        queue_names = {0: "new", 1: "learning", 2: "review", 3: "relearning", -1: "suspended", -2: "buried"}
+        # anki/consts.py: -3 is MANUALLY_BURIED, -2 is SIBLING_BURIED, 3 is DAY_LEARN.
+        # This map had -2 as plain "buried", 3 as "relearning", and no -3 or 4 at all.
+        queue_names = {-3: "buried-manual", -2: "buried-sibling", -1: "suspended",
+                       0: "new", 1: "learning", 2: "review", 3: "day-learn", 4: "preview"}
         print(f"Queue:     {queue_names.get(card.queue, card.queue)}")
         print(f"Interval:  {card.ivl} days")
         print(f"Ease:      {card.factor / 10}%")
@@ -551,13 +581,17 @@ def build_parser():
 
     dc = deck_sub.add_parser("create", help="Create a deck")
     dc.add_argument("name")
+    dc.add_argument("--force", action="store_true",
+                    help="create a deck that is not in the collection's declared list")
 
     dr = deck_sub.add_parser("rename", help="Rename a deck")
     dr.add_argument("old")
     dr.add_argument("new")
 
-    dd = deck_sub.add_parser("delete", help="Delete a deck")
+    dd = deck_sub.add_parser("delete", help="Delete a deck AND ITS CARDS")
     dd.add_argument("name")
+    dd.add_argument("--yes", action="store_true",
+                    help="confirm deleting the deck's cards along with it")
 
     # add
     add_p = sub.add_parser("add", help="Add a card/note")

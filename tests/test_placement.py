@@ -108,3 +108,30 @@ class CollectionShape(CollectionTest):
                 self.assertEqual(self.col.db.scalar(
                     f"SELECT count(*) FROM cards c JOIN notes n ON n.id=c.nid "
                     f"WHERE c.ord=? AND n.mid=? AND c.did IN ({ph})", ord_, cv, *study), 0)
+
+
+class ArchiveContract(CollectionTest):
+    """The archive's only contract is that nothing in it runs. Nothing enforced it, and
+    two paths could break it: a conditional template whose override points at the archive
+    (Anki creates that card UNSUSPENDED), and any hand move."""
+
+    def test_a_live_unstudied_card_in_the_archive_is_suspended(self):
+        import bot
+        cid = self.col.db.scalar(
+            "SELECT id FROM cards WHERE did=? AND queue=-1 AND reps=0 LIMIT 1",
+            self.deck("Archive"))
+        self.col.sched.unsuspend_cards([cid])
+        self.assertNotEqual(self.col.get_card(cid).queue, -1)
+        r = bot.enforce_archive_suspended(self.col)
+        self.assertGreaterEqual(r["suspended"], 1)
+        self.assertEqual(self.col.get_card(cid).queue, -1)
+
+    def test_a_studied_card_in_the_archive_is_left_alone_and_reported(self):
+        """Taking away something the user has studied is the bigger error."""
+        import bot
+        cid = self.col.db.scalar(
+            "SELECT id FROM cards WHERE did=? AND reps>0 LIMIT 1", self.deck("Archive"))
+        self.col.sched.unsuspend_cards([cid])
+        r = bot.enforce_archive_suspended(self.col)
+        self.assertNotEqual(self.col.get_card(cid).queue, -1)
+        self.assertGreaterEqual(r["studied_left_alone"], 1)

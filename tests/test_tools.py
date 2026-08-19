@@ -166,3 +166,46 @@ class ArchiveGuards(CollectionTest):
 def import_bot():
     import bot
     return bot
+
+
+class DuplicateGuards(CollectionTest):
+    """The autonomous /api/card path creates notes with no human confirmation, so the
+    guard cannot be a prompt instruction."""
+
+    def test_a_word_whose_field_carries_html_is_still_found(self):
+        """Anki's field search matches the RAW field. 14 vocabulary notes carry markup in
+        `Simplified`, so the search returned 0 hits for a word that exists — and the
+        autonomous path reads 0 hits as "create it"."""
+        cv = self.col.models.by_name("ChineseVocabulary")["id"]
+        row = self.col.db.first(
+            "SELECT id, sfld FROM notes WHERE mid=? AND "
+            "substr(flds,1,instr(flds,char(31))-1) LIKE '%<%' LIMIT 1", cv)
+        self.assertIsNotNone(row, "fixture: expected a note with HTML in Simplified")
+        nid, word = row
+        r = self.tool_json("search_notes", {"query": f"Simplified:{word}"})
+        self.assertGreater(r["count"], 0, f"{word!r} exists as note {nid} but was not found")
+
+    def test_creating_a_word_that_already_exists_is_refused(self):
+        out = self.tool_json("add_chinese_vocab", {
+            "simplified": "说服", "traditional": "說服", "pinyin": "shuō fú",
+            "meaning": "persuade", "part_of_speech": "verb",
+            "sentence_simplified": "这是。", "sentence_pinyin": "zhè shì.",
+            "sentence_meaning": "This is."})
+        self.assertIn("error", out)
+        self.assertIn("already has a note", out["error"])
+        self.assertIn(1393817667119, out["existing_note_ids"])
+
+
+class PromotionOwnsNothing(CollectionTest):
+    """Suspension has exactly one owner: the maturity gate."""
+
+    def test_promotion_leaves_the_collection_at_the_gate_fixed_point(self):
+        """It used to suspend production and cloze cards itself, and the gate re-released
+        them within 5 minutes."""
+        self.tool("tag_notes", {"query": "nid:1537328242227", "tags": ["mined"]})
+        self.assertGateSettled("promotion must leave nothing for the gate to undo")
+
+    def test_a_second_tag_is_not_written_onto_import_pool_notes(self):
+        before = set(self.col.get_note(IMPORT_POOL).tags)
+        self.tool("tag_notes", {"query": f"nid:{IMPORT_POOL}", "tags": ["mined", "probe"]})
+        self.assertEqual(set(self.reopen().get_note(IMPORT_POOL).tags), before)

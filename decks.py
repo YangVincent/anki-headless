@@ -287,8 +287,15 @@ def missing_from(col, names=None):
 
 
 def unexpected_in(col):
-    """Deck names present in the collection that this module does not declare."""
-    return sorted(d.name for d in col.decks.all_names_and_ids() if d.name not in ALL_NAMES)
+    """Deck names present in the collection that this module does not declare.
+
+    A SUBDECK of a declared deck is not unexpected. deck_ids_for and gate_source_ids both
+    accept subdecks, so flagging `Mined::x` as a stray while the gate happily counts it
+    made two functions disagree and told the model a legitimate deck was a mistake.
+    """
+    return sorted(d.name for d in col.decks.all_names_and_ids()
+                  if d.name not in ALL_NAMES
+                  and not any(d.name.startswith(n + "::") for n in ALL_NAMES))
 
 
 def describe():
