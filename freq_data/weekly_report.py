@@ -4,7 +4,8 @@ the revlog and projects reading/listening timelines. Prints a text report.
 Usage: weekly_report.py [--days N]"""
 import re, sys, os, time, collections, statistics
 sys.path.insert(0, "/home/vincent/anki-headless")
-import bot                      # for MATURE_IVL — one definition of "mature", not two
+import bot                      # for MATURE_IVL
+import decks                    # the deck list, by role — one definition of "mature", not two
 from anki.collection import Collection
 from wordfreq import zipf_frequency
 
@@ -24,7 +25,7 @@ try:
     # top-level decks (+ subdecks) and "Vocab" no longer exists. id_for_name("Vocab") returns
     # None, so `c.did = None` matched zero cards and every number came out ~0. Measure the
     # union of the real study decks instead.
-    STUDY_ROOTS = ("HSK", "HSK7-9", "non-HSK", "Mined")
+    STUDY_ROOTS = decks.RECOGNITION_DECKS   # from decks.py; never spelled out here
     study_dids = [did for did, name in col.db.all("SELECT id, name FROM decks")
                   if name.replace("\x1f", "::").split("::", 1)[0] in STUDY_ROOTS]
     if not study_dids:

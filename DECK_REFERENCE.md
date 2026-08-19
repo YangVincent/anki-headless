@@ -36,8 +36,34 @@ Chinese vocabulary study system built around HSK 3.0 levels 1-9, with integrated
 | **Archive** | 213,434 | **0** | `Default` — 10 | Everything parked. Always suspended. |
 | `Default` | 0 | 0 | `HSK` — 10 | Anki reserves deck id 1 and will not let it be deleted. |
 
-`bot.ALLOWED_DECKS` is the single definition. `check_target_deck()` refuses any write to a
-name outside it, and startup logs `UNEXPECTED DECKS` if the collection grows one.
+**`decks.py` is the single definition — the only file in any repo that contains a deck-name
+literal.** It declares each deck's ROLE, not just its name, and everything else derives:
+
+```python
+RECOGNITION_DECKS   # ('HSK', 'HSK7-9', 'non-HSK', 'Mined')
+PRODUCTION_DECK     # 'Reverse'
+CLOZE_DECK          # 'Cloze'
+ARCHIVE_NAMES       # ('Archive', 'Hidden')  -- current + every legacy name
+NEW_WORDS_DECK      # 'Mined'
+gate_sources(CLOZE) # ('HSK', 'HSK7-9', 'non-HSK', 'Mined')
+```
+
+Callers ask for a role, never a name: "where do new words go", not "Mined". Rename a deck
+in `decks.py` and every use follows — the six duplicated tuples that used to spell the
+names out are gone.
+
+The `gates` field per deck is what makes the two source lists differ, visibly: `Mined`
+counts for `cloze` and not for `production`. That is a deliberate choice, and its
+consequence (249 production cards for mined words can never be released) is now readable
+in one line instead of implied by two tuples that happen not to match.
+
+`check_target_deck()` refuses any write to a name outside `ALL_NAMES`, and startup logs
+`UNEXPECTED DECKS` if the collection grows one. `GET /api/decks` serves the same data for
+anything that cannot import the module.
+
+The two sibling repos import `decks.py` directly (`sys.path.insert` on the anki-headless
+path, which they already hardcode for the collection file). Each keeps one literal fallback
+pair, used only if that import fails.
 
 **`Archive` replaced the `Hidden::` subtree.** It absorbed `Hidden::Archive::{Words,
 Sentences,Characters}`, `Hidden::Personal{,-reverse}`, `Hidden::hanly-grammar{,-reverse}`,

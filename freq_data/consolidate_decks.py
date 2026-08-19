@@ -29,9 +29,11 @@ sys.path.insert(0, "/home/vincent/anki-headless")
 import bot
 
 APPLY = "--apply" in sys.argv
-ARCHIVE = "Archive"
-CLOZE_OLD, CLOZE_NEW = "Vocab Cloze", "Cloze"
-KEEP = {"HSK", "HSK7-9", "non-HSK", "Mined", "Reverse", CLOZE_NEW, ARCHIVE, "Default"}
+import decks
+ARCHIVE = decks.ARCHIVE_DECK
+CLOZE_NEW = decks.CLOZE_DECK
+CLOZE_OLD = decks.BY_NAME[CLOZE_NEW].legacy_names[0]
+KEEP = set(decks.ALL_NAMES)
 # Template overrides that name a deck this script dissolves.
 REPOINT = [("ChineseCharacters", "TradRecognition", ARCHIVE),
            ("ChineseSentences", "Listen-English", ARCHIVE)]
@@ -68,7 +70,7 @@ try:
         if name == "Hidden" or name.startswith("Hidden::"):
             folds.append((name, did, ARCHIVE, n))
         elif name.startswith("Mined::"):
-            folds.append((name, did, "Mined", n))
+            folds.append((name, did, decks.NEW_WORDS_DECK, n))
     plan += [("fold", a, b, n) for a, _, b, n in folds]
 
     # 3. decks that end up empty and are not in KEEP
@@ -92,8 +94,8 @@ try:
         col.decks.rename(col.decks.get(cur[CLOZE_OLD]), CLOZE_NEW)
 
     arch_did = col.decks.id_for_name(ARCHIVE) or col.decks.id(ARCHIVE)
-    mined_did = bot.deck_id(col, "Mined")
-    dests = {ARCHIVE: arch_did, "Mined": mined_did}
+    mined_did = bot.deck_id(col, decks.NEW_WORDS_DECK)
+    dests = {ARCHIVE: arch_did, decks.NEW_WORDS_DECK: mined_did}
 
     to_suspend = []
     for name, did, dest, _ in folds:

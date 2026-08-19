@@ -22,6 +22,8 @@ from aiohttp import web
 
 import anthropic
 import httpx
+
+import decks                # the deck list, by role. No deck-name literals below this.
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
@@ -31,7 +33,7 @@ CONFIG_FILE = "/home/vincent/anki-headless/.bot_config.json"
 COLLECTION_PATH = "/home/vincent/anki-headless/collection.anki2"
 AUTH_FILE = os.path.expanduser("~/.anki_auth")
 
-DEFAULT_DECK = "Mined"      # where a newly created vocabulary note is filed
+DEFAULT_DECK = decks.NEW_WORDS_DECK      # where a newly created vocabulary note goes
 CHINESE_VOCAB_NOTETYPE = "ChineseVocabulary"
 SNAPSHOTS_DIR = Path("/home/vincent/anki-headless/json_snapshots")
 # Derived from COLLECTION_PATH at call time, not pinned. A test that redirects
@@ -205,26 +207,13 @@ class DeckMissing(RuntimeError):
     """A deck this code depends on does not exist."""
 
 
-# THE DECK LIST. The collection was consolidated onto exactly these on 2026-08-19, down
-# from 26. Everything the bot creates, moves or enables must land in one of them.
-#
-#   HSK, HSK7-9, non-HSK   recognition, by curriculum
-#   Mined                  words added from anywhere, not in HSK
-#   Reverse                production cards, maturity-gated
-#   Cloze                  cloze cards, maturity-gated
-#   Archive                everything parked; always suspended
-#   Default                0 cards; Anki reserves deck id 1 and will not let it go
-STUDY_DECKS = ("HSK", "HSK7-9", "non-HSK", "Mined", "Reverse", "Cloze")
-ARCHIVE_DECK = "Archive"
-# "Hidden" is the pre-2026-08-19 name for the parked subtree. Both are listed so the
-# archive test is correct before AND after the migration -- reading only the new name
-# during the rename window would have made the gate treat 42,343 parked production cards
-# as unparked and drag them into `Reverse`.
-ARCHIVE_DECK_NAMES = (ARCHIVE_DECK, "Hidden")
-ALLOWED_DECKS = STUDY_DECKS + (ARCHIVE_DECK, "Default")
-
-# Decks the bot cannot work without. Checked once at startup.
-REQUIRED_DECKS = STUDY_DECKS
+# THE DECK LIST LIVES IN decks.py. These are aliases so existing call sites keep working;
+# nothing here is a literal. Rename a deck in decks.py and every use follows.
+STUDY_DECKS = decks.STUDY_DECKS
+ARCHIVE_DECK = decks.ARCHIVE_DECK
+ARCHIVE_DECK_NAMES = decks.ARCHIVE_NAMES
+ALLOWED_DECKS = decks.ALL_NAMES
+REQUIRED_DECKS = decks.REQUIRED_DECKS
 
 
 def deck_id(col, name):
@@ -314,15 +303,15 @@ def set_new_card_position(col, card, position):
     col.update_card(card)
 
 
-REVERSE_DECK = "Reverse"
+REVERSE_DECK = decks.PRODUCTION_DECK
 REVERSE_TEMPLATE = "English-Speaking"
-REVERSE_SOURCE_DECKS = ("HSK", "HSK7-9", "non-HSK")
+REVERSE_SOURCE_DECKS = decks.gate_sources(decks.PRODUCTION)
 
-CLOZE_DECK = "Cloze"
+CLOZE_DECK = decks.CLOZE_DECK
 CLOZE_TEMPLATE = "Cloze-Recall"
-# Mined is included here and not in REVERSE_SOURCE_DECKS on purpose: the old cloze gate
-# counted mined reading-words, and the reverse gate's source list was chosen separately.
-CLOZE_SOURCE_DECKS = ("HSK", "HSK7-9", "non-HSK", "Mined")
+# The two source lists differ: `Mined` counts for cloze and not for production. That is
+# declared per deck in decks.py, where the asymmetry is visible instead of implied.
+CLOZE_SOURCE_DECKS = decks.gate_sources(decks.CLOZE)
 
 MATURE_IVL = 21
 
@@ -498,10 +487,10 @@ def promote_to_vocab(col, note_ids):
     # preset 1 ("Default"), whose FSRS params, retention and new-card order all differ
     # from the preset the real deck uses. A silent re-create with different scheduling is
     # the same failure as a silently reset deck config. Missing decks are reported instead.
-    mined_did = col.decks.id_for_name("Mined")
+    mined_did = col.decks.id_for_name(decks.NEW_WORDS_DECK)
     cloze_did = col.decks.id_for_name(CLOZE_DECK)
     reverse_did = col.decks.id_for_name(REVERSE_DECK)
-    decks_missing = [n for n, d in (("Mined", mined_did), (CLOZE_DECK, cloze_did),
+    decks_missing = [n for n, d in ((decks.NEW_WORDS_DECK, mined_did), (CLOZE_DECK, cloze_did),
                                     (REVERSE_DECK, reverse_did)) if d is None]
     # The parked xiehanzi import notes are NOT the user's cards. Promoting one would
     # un-archive an import artefact into the study queue, and `Simplified:<word>` returns
@@ -1259,7 +1248,7 @@ def _archive_deck_ids(col):
     `Mined::Hidden gems`, and it would capture any future deck with the word in any
     component."""
     return {did for did, name in col.db.all("SELECT id, name FROM decks")
-            if any(name == a or name.startswith(a + "\x1f") for a in ARCHIVE_DECK_NAMES)}
+            if decks.is_archive(name)}
 
 
 # anki/consts.py: -3 is MANUALLY_BURIED, -2 is SIBLING_BURIED. The two were swapped here.
@@ -1414,7 +1403,7 @@ def execute_tool(tool_name, tool_input):
                 "success": True,
                 "note_id": nid,
                 "simplified": tool_input.get("simplified"),
-                "deck": "Mined",
+                "deck": landed,
                 "placed": "next-up (mined)",
             })
         except Exception as e:
@@ -1431,7 +1420,7 @@ def execute_tool(tool_name, tool_input):
 
             # The old default was `Knowledge`, which does not exist: id_for_name returned
             # None, Anki filed the card in `Default`, and the tool reported "Knowledge".
-            deck = tool_input.get("deck", "Mined")
+            deck = tool_input.get("deck", decks.NEW_WORDS_DECK)
             bad = check_target_deck(col, deck)
             if bad:
                 return json.dumps(bad, ensure_ascii=False)
@@ -1478,7 +1467,7 @@ def execute_tool(tool_name, tool_input):
             # Ask about the ord-0 recognition card instead, which is the one that says
             # whether the user knows the word, and scope to the decks actually studied.
             src = []
-            for name in ("HSK", "HSK7-9", "non-HSK", "Mined"):
+            for name in decks.RECOGNITION_DECKS:
                 try:
                     src.extend(deck_subtree_ids(col, name))
                 except DeckMissing:
@@ -1709,11 +1698,15 @@ def execute_tool(tool_name, tool_input):
             return json.dumps(results, ensure_ascii=False)
 
         elif tool_name == "list_decks":
-            decks = col.decks.all_names_and_ids()
+            # NOT `decks` — that name is the deck-list module, and a local of the same
+            # name shadows it for the whole function.
+            all_decks = col.decks.all_names_and_ids()
             result = []
-            for d in decks:
+            for d in all_decks:
                 count = len(col.find_cards(f'"deck:{d.name}"'))
-                result.append({"name": d.name, "cards": count})
+                result.append({"name": d.name, "cards": count, "role":
+                               decks.BY_NAME[d.name].role if d.name in decks.BY_NAME
+                               else "UNEXPECTED"})
             return json.dumps(result, ensure_ascii=False)
 
         elif tool_name == "list_note_types":
@@ -1896,7 +1889,7 @@ def execute_tool(tool_name, tool_input):
 
         elif tool_name == "move_cards":
             query = tool_input["query"]
-            deck_name = tool_input.get("deck", "Default")
+            deck_name = tool_input.get("deck", decks.NEW_WORDS_DECK)
             note_ids = list(col.find_notes(query))
             # Anki answers a None deck id with "your database appears to be in an
             # inconsistent state ... use Check Database", which is false and alarming.
@@ -2658,7 +2651,7 @@ async def handle_api_stats(request):
     # (see DECOUPLING_PLAN.md); a bare call defaulting to it measured an empty deck. The
     # dashboard passes ?decks= explicitly, but the default must not be a dead deck.
     raw = request.query.get("decks", "HSK,HSK7-9,non-HSK,Mined")
-    deck_names = [d.strip() for d in raw.split(",") if d.strip()] or ["HSK", "HSK7-9", "non-HSK", "Mined"]
+    deck_names = [d.strip() for d in raw.split(",") if d.strip()] or list(decks.RECOGNITION_DECKS)
     model_name = request.query.get("model", "ChineseVocabulary").strip() or "ChineseVocabulary"
     # ?days= widens the daily series (dashboard range views); default stays 30.
     try:
@@ -2671,6 +2664,18 @@ async def handle_api_stats(request):
         log.warning(f"/api/stats: collection unavailable ({e})")
         return web.json_response({"error": "collection locked"}, status=503)
     return web.json_response(data, dumps=lambda o: json.dumps(o, ensure_ascii=False))
+
+
+async def handle_api_decks(request):
+    """GET /api/decks — the deck list and what each deck is FOR.
+
+    Exists so sibling projects stop hardcoding deck names. dong-chinese and jiangchinese
+    both need to know which deck is the archive; both had `Hidden` written into them and
+    both would have silently broken when it became `Archive`. Read `roles.archive_names`
+    and match against that.
+    """
+    return web.json_response(decks.describe(),
+                             dumps=lambda o: json.dumps(o, ensure_ascii=False))
 
 
 async def handle_api_sync(request):
@@ -2965,6 +2970,7 @@ def create_web_app():
     app.router.add_get('/api/status', handle_api_status)
     app.router.add_get('/api/stats', handle_api_stats)
     app.router.add_post('/api/sync', handle_api_sync)
+    app.router.add_get('/api/decks', handle_api_decks)
     app.router.add_get('/api/hsk-levels', handle_api_hsk_levels)
     app.router.add_get('/api/flagged', handle_api_flagged)
     app.router.add_get('/api/deck/{name}/words', handle_api_deck_words)
@@ -3015,16 +3021,17 @@ async def cmd_status(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def cmd_decks(update: Update, context: ContextTypes.DEFAULT_TYPE):
     col = open_collection()
     try:
-        decks = col.decks.all_names_and_ids()
+        all_decks = col.decks.all_names_and_ids()
         lines = []
         # The old filter was `d.name == "Default" or "::" in d.name`, which listed only
         # Default and subdecks -- every top-level study deck (HSK, HSK7-9, non-HSK,
         # Reverse, Vocab Cloze, Mined) was missing, and the `if not lines` fallback never
         # fired because Hidden::* always matched. List every deck that holds a card.
-        for d in sorted(decks, key=lambda x: x.name):
+        for d in sorted(all_decks, key=lambda x: x.name):
             count = len(col.find_cards(f'"deck:{d.name}"'))
             if count > 0:
-                lines.append(f"  {d.name} ({count})")
+                role = decks.BY_NAME[d.name].role if d.name in decks.BY_NAME else "UNEXPECTED"
+                lines.append(f"  {d.name} ({count}) — {role}")
         await update.message.reply_text("Decks:\n" + "\n".join(lines[:30]))
     finally:
         col.close()
