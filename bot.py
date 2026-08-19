@@ -3283,12 +3283,40 @@ def enforce_archive_suspended(col):
             "studied_left_alone": len(live) - len(fresh)}
 
 
+# The deck check ran only at startup, so a deck renamed in the Anki desktop client was
+# invisible until someone restarted the bot. It runs with the 5-minute cycle now. Only a
+# CHANGE is logged: repeating the same warning every 5 minutes trains a reader to skip it.
+_last_deck_state = None
+
+
+def _check_decks(col):
+    """Report a change in which declared decks exist, or in what else appeared."""
+    global _last_deck_state
+    state = (tuple(missing_decks(col)), tuple(unexpected_decks(col)))
+    if state == _last_deck_state:
+        return None
+    first, _last_deck_state = _last_deck_state is None, state
+    gone, extra = state
+    if not gone and not extra:
+        return None if first else "decks: back to the declared list"
+    parts = []
+    if gone:
+        parts.append("MISSING " + ", ".join(repr(n) for n in gone)
+                     + " — the gates will refuse to run until this is resolved")
+    if extra:
+        parts.append("UNEXPECTED " + ", ".join(repr(n) for n in extra))
+    return "decks: " + "; ".join(parts)
+
+
 def _sync_gated_templates():
     """Run both maturity gates, then enforce the archive's contract."""
     col = None
     try:
         col = open_collection()
         msgs = []
+        deck_change = _check_decks(col)
+        if deck_change:
+            msgs.append(deck_change)
         for gate in (apply_reverse_gate, apply_cloze_gate):
             r = gate(col)
             if r.get("error"):

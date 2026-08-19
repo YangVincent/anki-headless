@@ -126,3 +126,25 @@ class Declaration(unittest.TestCase):
 def bot_missing(col):
     import bot
     return bot.missing_decks(col)
+
+
+class DeckDriftIsNoticed(CollectionTest):
+    """The deck check ran only at startup, so a rename in the desktop client was invisible
+    until someone restarted the bot."""
+
+    def test_a_rename_is_reported_on_the_next_cycle(self):
+        import bot
+        bot._last_deck_state = None
+        self.assertIsNone(bot._check_decks(self.col), "a healthy collection says nothing")
+        self.col.decks.rename(self.col.decks.get(self.deck("HSK7-9")), "HSK 7-9")
+        msg = bot._check_decks(self.col)
+        self.assertIn("MISSING", msg)
+        self.assertIn("HSK7-9", msg)
+
+    def test_the_same_problem_is_not_repeated_every_cycle(self):
+        import bot
+        bot._last_deck_state = None
+        bot._check_decks(self.col)
+        self.col.decks.id("Stray")
+        self.assertIn("UNEXPECTED", bot._check_decks(self.col))
+        self.assertIsNone(bot._check_decks(self.col), "an unchanged state must stay quiet")
