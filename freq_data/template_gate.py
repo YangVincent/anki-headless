@@ -18,7 +18,7 @@ under anki_op.sh so a big batch gets a backup first.
 Replaces freq_data/cloze_gate.py, which named a deck (`Vocab`) that had been renamed
 away and so matched almost nothing and ran daily for months doing nothing. The production
 side had the same defect in bot._sync_reverse_cards, which searched `deck:hanly-reverse`
-after that deck became `Hidden::hanly-reverse`.
+after that deck became `Hidden::hanly-reverse` (now folded into `Archive`).
 
 Three modes:
   (no flag)  dry run   — report the plan, write nothing
@@ -53,7 +53,7 @@ GATES = (
 
 try:
     cv = col.models.by_name(bot.CHINESE_VOCAB_NOTETYPE)
-    hidden = bot._hidden_deck_ids(col)
+    hidden = bot._archive_deck_ids(col)
     failed = False
 
     for label, gate, template, home, sources in GATES:
@@ -100,8 +100,9 @@ try:
 
     # ── verify. Under --apply this runs before anki_op.sh restarts the bot. ──
     print("\nVERIFY")
+    archived = bot._archive_deck_ids(col)
     study = [d.id for d in col.decks.all_names_and_ids()
-             if "Hidden" not in d.name and d.name != "Default"]
+             if d.id not in archived and d.name != "Default"]
     for label, gate, template, home, sources in GATES:
         ord_ = next((t["ord"] for t in cv["tmpls"] if t["name"] == template), None)
         home_did = col.decks.id_for_name(home)
