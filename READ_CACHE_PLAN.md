@@ -1,6 +1,7 @@
 # Plan: the shared read cache — version 2
 
-**Status:** not started. This plan implements `READ_CACHE_BRIEF.md`.
+**Status:** step 1 is built and tested; the bot restart is pending. Steps 2-5 are not started.
+This plan implements `READ_CACHE_BRIEF.md`.
 **Version 2, 2026-08-19.** Version 1 went through three adversarial reviews. They found
 32 defects in it. Every number below is measured again, because version 1's headline
 numbers came from a prototype that carried a defect (§3.1).
@@ -22,15 +23,16 @@ collection. None is remembered.
 | `col.mod` moved in 18 minutes of idle running | **0 times** (37 samples, 30 s apart) |
 | read `col.mod` read-only from the live file | 5 ms, WAL |
 | read all 258,959 card+note rows | 1.3 s |
-| **full rebuild, archive collapsed** | **3.4 s → 129,215 rows → 27.6 MB** |
-| full rebuild, archive not collapsed | 4.7 s → 224,912 rows → 48.7 MB |
+| **full rebuild, as built** | **6.2 s → 129,215 rows → 31.2 MB** |
+| the same without the archive collapse | 224,912 rows → 48.7 MB |
 | flagged cards | 43 |
 | revlog rows, whole collection | 21,192 (truncated; known) |
 | relearning cards (`type=3`) | 20 |
 | cards whose `odid != 0` (filtered deck) | **0** — the risky path has no live data |
 | cards in queue 3 (day-learn) | **0** — same |
 | cards in queue 1 (intraday learning) | 36 |
-| the 54 tests pass | 25.4 s |
+| the 54 tests passed before this work | 25.4 s |
+| the suite with the 43 cache tests | 94+43 tests, about 105 s |
 
 The collection holds 8 decks and no subdecks. Card counts: Archive 213,434, Cloze 17,448,
 non-HSK 9,950, Reverse 7,402, HSK7-9 5,420, HSK 4,859, Mined 446, Default 0.
@@ -40,8 +42,8 @@ non-HSK 9,950, Reverse 7,402, HSK7-9 5,420, HSK 4,859, Mined 446, Default 0.
 1. **The bot does not hold an open collection handle.** It opens and closes per
    operation (`bot.py:100`, 17 call sites). The builder therefore uses its own read-only
    sqlite connection and never opens the anki library. It takes no lock.
-2. **The projection is 129,215 rows and 27.6 MB, not ~55,000 rows.** A rebuild costs
-   3.4 s, not 1.2 s. It still replaces a 111 MB snapshot.
+2. **The projection is 129,215 rows and 31.2 MB, not ~55,000 rows.** A rebuild costs
+   6.2 s, not 1.2 s. It still replaces a 111 MB snapshot.
 3. **`status` needs four values.** `/api/hsk-levels` already separates `young` (a review
    card under 21 days) from `learning`. So `status` is `new` / `learning` / `young` /
    `mature`, and suspension is a separate column. The brief folds them together, which
@@ -69,7 +71,7 @@ Measured cost of that mistake:
   `三Q/3Q`. The dictionary site would then say "not in your deck" for words that have
   cards.
 * Version 1's "101,534 rows / 14.8 MB" came from the filtered run. The real figures are
-  129,215 rows and 27.6 MB.
+  129,215 rows and 31.2 MB.
 
 **The builder now stores every card.** The filter moves into `known_words()`, which is
 the one reader that wants it.
@@ -99,7 +101,7 @@ the one reader that wants it.
 | 19 | `deck_limits` has an empty window and publishes 0 | §6.3 |
 | 20 | The gate's `try/except` would hide a cache failure | §6.3 |
 | 21 | Buried cards (`queue` -2/-3) have no representation | §5, `blocked` |
-| 22 | The 3.4 s build must not run on the event loop | §7 step 1 |
+| 22 | The 6.2 s build must not run on the event loop | §7 step 1 |
 | 23 | The reader never checks `schema_version` | §6.2 |
 | 24 | Two consumers are missing from the list | §4 |
 | 25 | The mtime/size write guard cannot detect a WAL write | §8, and §11 |
@@ -121,7 +123,7 @@ skip also advances `source_mod`.
 
 The measurement removes the need for it: `col.mod` did not move once in 18 minutes of
 idle running, so the AnkiWeb sync does not bump it. **Every `col.mod` change now triggers
-a rebuild.** 3.4 s per real change is affordable, and a whole class of defect disappears.
+a rebuild.** 6.2 s per real change is affordable, and a whole class of defect disappears.
 
 ## 4. The consumers
 
@@ -150,102 +152,41 @@ collection" does not cover them:
 `cache.db` lives at `/home/vincent/anki-headless/cache.db`, in WAL mode, mode `0600`.
 Only the bot writes it.
 
-```sql
-create table meta(
-  id             integer primary key check (id = 1),
-  schema_version integer not null,
-  generated_at   integer not null,  -- unix seconds; the last rebuild
-  checked_at     integer not null,  -- unix seconds; the last confirmed match
-  paused_until   integer,           -- set by anki_op.sh; see §6.4
-  source_mod     integer not null,  -- col.mod, read INSIDE the build's snapshot
-  build_seconds  real    not null,
-  card_count     integer not null,
-  note_count     integer not null,
-  today          integer not null,  -- Anki's own day number, == col.sched.today
-  next_day_at    integer not null,  -- unix seconds of the next rollover
-  day_offset     integer not null   -- the offset reviews_daily buckets by
-);
+**The canonical schema is `_SCHEMA` in `anki_cache.py`.** It is not repeated here: two
+copies of a schema drift, and that is the defect class this whole plan exists to remove.
+What matters about its shape:
 
-create table words(
-  simplified    text not null,   -- canonical: tags, entities and sound tags removed
-  raw           text not null,   -- field 0 exactly as Anki stores it
-  deck          text not null,
-  role          text not null,   -- recognition|production|cloze|archive|reserved
-  key_kind      text not null,   -- template_kind, or 'any' for archive rows
-  template_kind text not null,   -- recognition|speaking|cloze|other
-  template_name text not null,   -- the template's own name, e.g. 'Hanzi-English'
-  status        text not null,   -- new|learning|young|mature
-  relearning    integer not null,-- type=3; keeps /api/stats' published `studied`
-  blocked       text,            -- NULL | 'suspended' | 'buried'
-  interval      integer not null,
-  overdue_days  real,            -- NULL when the card is not queued
-  created_at    integer not null,-- derived from the note id, in seconds
-  card_count    integer not null,-- cards this row stands for
-  lapses        integer not null,-- the durable counter; the leech rule uses it
-  notetype      text not null,
-  pinyin_raw    text not null default '',
-  pinyin        text not null default '',
-  meaning_raw   text not null default '',
-  meaning       text not null default '',
-  sentence      text not null default '',
-  sentence_meaning text not null default '',
-  primary key (simplified, deck, key_kind)
-) without rowid;
+| Table | Holds | Keyed by |
+|---|---|---|
+| `meta` | one row: freshness, `source_mod`, Anki's `today`, and what the build skipped | — |
+| `words` | the projection | `(simplified, deck, key_kind)` |
+| `deck_stats` | counts, per note type | `(deck, template_kind, notetype)` |
+| `deck_limits` | `new_per_day`, written by the gate job only | `deck` |
+| `flagged` | one row per flagged card, 43 today | a surrogate id |
+| `reviews_daily` | revlog, bucketed | `(date, deck, template_kind, notetype)` |
+| `progression_weekly` | the weekly maturity mix | `(date, deck, template_kind, notetype)` |
 
-create table deck_stats(
-  deck          text not null,
-  role          text not null,
-  template_kind text not null,
-  notetype      text not null,
-  total         integer not null,
-  studied       integer not null,   -- type IN (1,2); the published definition
-  mature        integer not null,
-  new_left      integer not null,
-  primary key (deck, template_kind, notetype)
-) without rowid;
+Columns worth naming, and why each exists:
 
-create table deck_limits(         -- written by the gate job, never by the builder
-  deck        text primary key,
-  new_per_day integer not null,
-  updated_at  integer not null
-);
+* `simplified` is canonical; `sort_field` mirrors Anki's own `sfld`, which is what
+  `/api/stats`' words and `/api/deck/{name}/words` publish today.
+* `template_kind` (`recognition` / `speaking` / `cloze` / `other`) comes from the
+  template's NAME, not from `ord` arithmetic. `flagged.template_ord` is the one place an
+  ord survives, because `/api/flagged` publishes it.
+* `status` is `new` / `learning` / `young` / `mature`; `relearning` is separate so
+  `/api/stats` keeps its published `studied` (`type IN (1,2)`).
+* `blocked` is `suspended` / `buried` / NULL, because `queue` also carries -2 and -3.
+* `lapses` drives the leech rule; `card_count` records how many cards a row stands for;
+  `preferred` marks the one row that represents a word for `/api/status`.
+* `reviews_daily` and `progression_weekly` are keyed per DECK, not per role, so
+  `/api/stats` can sum any requested deck subset.
 
-create table flagged(             -- one row per flagged CARD; 43 today
-  id            integer primary key,
-  simplified    text not null,
-  deck          text not null,
-  template_kind text not null,
-  template_ord  integer not null,  -- ONLY here; /api/flagged publishes it
-  flag          text not null,
-  status        text not null,
-  suspended     integer not null,
-  pinyin        text not null,
-  meaning       text not null,
-  notetype      text not null
-);
+Both review tables carry `ms`, not minutes, and the reader rounds — the same accumulator
+`bot._deck_stats` uses.
 
-create table reviews_daily(
-  date           text not null,
-  role           text not null,
-  reviews        integer not null,
-  new            integer not null,
-  minutes        integer not null,
-  mature_reviews integer not null,
-  mature_passed  integer not null,
-  primary key (date, role)
-) without rowid;
-
-create table progression_weekly(  -- /api/stats' progression; see §3.2 finding 4
-  date       text not null,
-  role       text not null,
-  notetype   text not null,
-  mature     integer not null,
-  young      integer not null,
-  learning   integer not null,
-  relearning integer not null,
-  primary key (date, role, notetype)
-) without rowid;
-```
+Every table is a plain ROWID table. `without rowid` with a three-column text key made
+every secondary index store that whole key again, and the file was 48.6 MB instead of
+31.2 MB.
 
 Seven schema decisions, each with its reason:
 
@@ -700,3 +641,49 @@ test suite now.
    collection is in WAL mode. Verified: suspending 50 cards left size and mtime
    byte-identical while a reader saw the change. The guard would pass. It needs to compare
    `col.mod` and a row count, or to include the `-wal` and `-shm` files.
+
+## 12. What step 1 actually produced, and three defects it found
+
+Built 2026-08-20 on branch `read-cache`.
+
+| File | Change |
+|---|---|
+| `anki_cache.py` | new, ~830 lines: the schema, the builder, the trigger, the reader, a CLI |
+| `decks.py` | `+resolve_rows`, `+missing_from_rows`, `+unexpected_in_rows`, `+normalize_name` |
+| `bot.py` | `refresh_cache` at 30 s, `POST /api/refresh`, `register_jobs`, `_write_deck_limits`, a synchronous build before serving, and `/api/sync` forcing a rebuild |
+| `tests/support.py` | redirects `CACHE_PATH`; the write guard now compares `col.mod` |
+| `tests/test_cache.py` | new, 43 tests |
+| `freq_data/anki_op.sh` | declares a cache pause, rebuilds and unpauses after the op |
+| `freq_data/anki_daily.sh` | `anki_cache.py status`, on the same non-zero-exit path as a failed backup |
+| `.gitignore` | `cache.db` and its sidecars |
+
+**Verification against the live system.** The cache reproduces `/api/stats` exactly: all
+16 values across HSK, HSK7-9, non-HSK and Mined — total, studied, mature, new_left —
+match the running endpoint, and `flagged` matches at 43. `known_words()` returns 2,671,
+the same set the current dong script produces, with zero words invented or lost.
+
+Three defects were found while building it. Each is the kind this plan exists to stop.
+
+1. **`card_count` reset on every replacement, losing 540 of 258,959 cards.** When a
+   better-ranked card replaced a row, the new row started its count at 0 and discarded
+   what the previous winner had accumulated. `test_card_count_sums_to_the_cards_read`
+   caught it; nothing else would have, because every individual row looked right.
+2. **Redirecting `anki_cache.CACHE_PATH` in the fixture redirected nothing.** Python binds
+   a default argument when the `def` runs, so `cache_path=CACHE_PATH` captured the module
+   value at import. A handler test therefore wrote the LIVE `cache.db`. The new guard in
+   `tests/support.py` caught it on its first run. Every path is now resolved at call time.
+3. **`sortf` is not a column and `sfld` is not raw.** Anki keeps `sfld` as its own stripped
+   copy of the sort field and maintains it, so the planned `sortf == 0` test was
+   impossible as written and the "unstripped" assumption about `/api/deck/{name}/words`
+   was half wrong: that endpoint publishes Anki's stripped `sfld` for the word and RAW
+   fields for pinyin and meaning. The schema now mirrors both.
+
+**Two measurements that changed the design during implementation.**
+
+* `without rowid` on a three-column text key made every secondary index store the whole
+  key again: 48.6 MB. Plain ROWID tables with two indexes give 31.2 MB.
+* Sorting rows by primary key before insert gave no gain (6.4 s against 5.9 s), so it was
+  removed rather than kept as decoration.
+
+**Still to do in step 1:** restart `anki-bot` by the §9 procedure, then watch for an hour
+and record the real rebuild rate. That number decides whether risk 1 in §8 is real.

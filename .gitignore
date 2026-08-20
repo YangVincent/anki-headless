@@ -47,6 +47,12 @@ freq_data/_*.txt
 collection.anki2-shm
 collection.anki2-wal
 
+# The derived read cache. 27.6 MB, rebuilt from the collection in ~3.5s, so it is
+# never worth committing or backing up. See READ_CACHE_PLAN.md.
+cache.db
+cache.db-shm
+cache.db-wal
+
 # Session scratch / regenerable analysis caches
 freq_data/scratch_queue.json
 freq_data/quality/

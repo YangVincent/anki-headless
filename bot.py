@@ -23,6 +23,7 @@ from aiohttp import web
 import anthropic
 import httpx
 
+import anki_cache           # the derived read cache. The bot is its only writer.
 import decks                # the deck list, by role. No deck-name literals below this.
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
@@ -2655,6 +2656,13 @@ async def handle_api_sync(request):
     result = await asyncio.to_thread(_sync_collection)
     _stats_cache.clear()
     _flagged_cache.clear()  # flags are edited on other devices too, not just reviews
+    # Rebuild the shared cache too, SYNCHRONOUSLY. chinese-dashboard-refresh posts here
+    # and then immediately runs build_stats.py; without this it would read numbers from
+    # before the sync it just triggered.
+    try:
+        await asyncio.to_thread(anki_cache.build)
+    except Exception as e:
+        log.warning(f"/api/sync: cache rebuild failed: {type(e).__name__}: {e}")
     log.info(f"On-demand sync (dashboard): {result}")
     return web.json_response({"result": result})
 
@@ -2932,6 +2940,60 @@ async def handle_api_deck_words(request):
                               dumps=lambda o: json.dumps(o, ensure_ascii=False))
 
 
+# ── the read cache: the bot writes it, five services read it ──────────
+# Consumers never open collection.anki2 and never import anki. See anki_cache.py and
+# READ_CACHE_PLAN.md. The bot is the SOLE writer.
+
+async def refresh_cache(context=None):
+    """Rebuild cache.db when col.mod moved. Runs every 30 s.
+
+    OFF THE EVENT LOOP. A rebuild takes about 6 seconds; on the loop it would stall
+    every HTTP request and the Telegram bot for that long, every time.
+    """
+    try:
+        meta = await asyncio.to_thread(anki_cache.poll)
+    except Exception as e:
+        # Loud, every run. A cache that quietly stops updating is exactly the silent
+        # no-op this codebase keeps producing -- and consumers only see it as staleness
+        # 15 minutes later.
+        log.error(f"cache refresh FAILED: {type(e).__name__}: {e}")
+        return
+    if meta:
+        log.info(f"cache rebuilt in {meta['build_seconds']}s "
+                 f"({meta['card_count']} cards, today={meta['today']})")
+        if meta["unexpected_decks"]:
+            log.warning(f"cache: UNEXPECTED DECKS {meta['unexpected_decks']}")
+
+
+async def handle_api_refresh(request):
+    """POST /api/refresh -- force a rebuild and return the new generated_at.
+
+    The "ask Anki to push an update" half of the design; the 30 s poll is the rest.
+    POST /api/sync calls it too, so a dashboard that syncs and immediately reads does
+    not get pre-sync numbers.
+    """
+    try:
+        meta = await asyncio.to_thread(anki_cache.build)
+    except Exception as e:
+        log.error(f"/api/refresh failed: {type(e).__name__}: {e}")
+        return web.json_response({"error": str(e)}, status=503)
+    return web.json_response({"generated_at": meta["generated_at"],
+                              "source_mod": meta["source_mod"],
+                              "build_seconds": meta["build_seconds"],
+                              "card_count": meta["card_count"]})
+
+
+def register_jobs(job_queue):
+    """Every background job, in one testable place.
+
+    Extracted from main_async so a test can assert the jobs are actually REGISTERED.
+    This project has two recorded cases of a job that ran for months doing nothing, and
+    a test of the function a job calls does not prove anything calls it.
+    """
+    job_queue.run_repeating(periodic_sync, interval=300, first=10)
+    job_queue.run_repeating(refresh_cache, interval=30, first=5)
+
+
 def create_web_app():
     app = web.Application(middlewares=[auth_middleware])
     app.router.add_post('/api/card', handle_api_card)
@@ -2942,6 +3004,7 @@ def create_web_app():
     app.router.add_get('/api/hsk-levels', handle_api_hsk_levels)
     app.router.add_get('/api/flagged', handle_api_flagged)
     app.router.add_get('/api/deck/{name}/words', handle_api_deck_words)
+    app.router.add_post('/api/refresh', handle_api_refresh)
     app.router.add_get('/health', handle_health)
     return app
 
@@ -3308,6 +3371,24 @@ def _check_decks(col):
     return "decks: " + "; ".join(parts)
 
 
+def _write_deck_limits(col):
+    """Push each deck's configured new-cards/day into the cache.
+
+    The builder cannot do this: the value lives in a protobuf blob that only the anki
+    library parses, and the builder has no library by design. This job already opens the
+    collection every five minutes, so it costs no extra lock and no extra open.
+    """
+    limits = {}
+    for name in decks.STUDY_DECKS:
+        did = col.decks.id_for_name(name)
+        if did is None:
+            continue
+        limits[name] = col.decks.config_dict_for_deck_id(did)["new"]["perDay"]
+    if limits:
+        anki_cache.write_deck_limits(limits)
+    return limits
+
+
 def _sync_gated_templates():
     """Run both maturity gates, then enforce the archive's contract."""
     col = None
@@ -3326,6 +3407,14 @@ def _sync_gated_templates():
             elif r["moved"] or r["unsuspended"] or r["suspended"]:
                 msgs.append(f"{r['deck']}: moved {r['moved']}, unsuspended "
                             f"{r['unsuspended']}, suspended {r['suspended']}")
+        # Its OWN try/except. The gate body below shares one handler that returns
+        # "Template gates failed: ...", so a locked cache would report the maturity gate
+        # as failed and hide its real result. The gate is the one part of this system
+        # that writes to the collection; it must not be coupled to a cache.
+        try:
+            _write_deck_limits(col)
+        except Exception as e:
+            log.warning(f"deck limits not written to the cache: {type(e).__name__}: {e}")
         arch = enforce_archive_suspended(col)
         if arch.get("error"):
             msgs.append(f"archive sweep NOT RUN — {arch['error']}")
@@ -3409,8 +3498,21 @@ async def main_async():
     tg_app.add_handler(MessageHandler(filters.PHOTO, handle_photo))
     tg_app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
-    tg_app.job_queue.run_repeating(periodic_sync, interval=300, first=10)
-    log.info("Scheduled AnkiWeb sync every 5 minutes")
+    register_jobs(tg_app.job_queue)
+    log.info("Scheduled AnkiWeb sync every 5 minutes, cache refresh every 30 seconds")
+
+    # Build the cache BEFORE the first request can arrive. Without this, every endpoint
+    # that reads it has no data for the first 30 seconds after any restart -- and
+    # /api/status is not a cron endpoint, it backs the dictionary site through
+    # chinese-dict.
+    try:
+        meta = await asyncio.to_thread(anki_cache.poll)
+        log.info("Read cache ready" if meta is None
+                 else f"Read cache built in {meta['build_seconds']}s "
+                      f"({meta['card_count']} cards)")
+    except Exception as e:
+        log.error(f"READ CACHE NOT BUILT at startup: {type(e).__name__}: {e} -- "
+                  "consumers will refuse until the 30s job succeeds")
 
     # Start HTTP API server
     web_app = create_web_app()

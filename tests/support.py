@@ -28,18 +28,49 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, "/home/vincent/anki-headless")
-import bot      # noqa: E402
-import decks    # noqa: E402
+import anki_cache  # noqa: E402
+import bot         # noqa: E402
+import decks       # noqa: E402
 
 REAL = Path("/home/vincent/anki-headless/collection.anki2")
-_REAL_STAT = (REAL.stat().st_size, REAL.stat().st_mtime_ns)
+REAL_CACHE = Path(anki_cache.CACHE_PATH)
+
+
+def _fingerprint():
+    """What the real collection holds, not what its inode says.
+
+    (size, mtime) is NOT enough and used to be all this guard checked. The collection is
+    in WAL mode, so a committed write lands in collection.anki2-wal and moves NEITHER the
+    size nor the mtime of the main file. Measured: suspending 50 cards left both
+    byte-identical while a concurrent reader saw the change, so the guard passed on a test
+    that wrote to the real collection. `col.mod` is the value Anki bumps on every write.
+    """
+    con = sqlite3.connect(f"file:{REAL}?mode=ro", uri=True)
+    try:
+        mod = con.execute("select mod from col").fetchone()[0]
+        cards = con.execute("select count(*) from cards").fetchone()[0]
+        notes = con.execute("select count(*) from notes").fetchone()[0]
+    finally:
+        con.close()
+    return (REAL.stat().st_size, mod, cards, notes)
+
+
+_REAL_STAT = _fingerprint()
+_REAL_CACHE_STAT = REAL_CACHE.stat().st_mtime_ns if REAL_CACHE.exists() else None
 
 
 def _assert_real_untouched():
-    now = (REAL.stat().st_size, REAL.stat().st_mtime_ns)
+    now = _fingerprint()
     if now != _REAL_STAT:
         print(f"\n*** THE REAL COLLECTION CHANGED DURING THE TESTS ***\n"
               f"    was {_REAL_STAT}\n    now {now}", file=sys.stderr)
+        os._exit(9)
+    cache_now = REAL_CACHE.stat().st_mtime_ns if REAL_CACHE.exists() else None
+    if cache_now != _REAL_CACHE_STAT:
+        # A cache test that forgets a path argument would otherwise write the live cache
+        # while the bot serves from it. Every anki_cache reader defaults to CACHE_PATH.
+        print(f"\n*** THE REAL cache.db CHANGED DURING THE TESTS ***\n"
+              f"    was {_REAL_CACHE_STAT}\n    now {cache_now}", file=sys.stderr)
         os._exit(9)
 
 
@@ -73,6 +104,15 @@ class CollectionTest(unittest.TestCase):
         self._saved = bot.COLLECTION_PATH
         bot.COLLECTION_PATH = str(self.path)
         assert Path(bot.COLLECTION_PATH) != REAL, "refusing to run against the real collection"
+        # The cache path is redirected for the same reason as the collection path: every
+        # anki_cache reader and writer defaults to the module constant, so one forgotten
+        # argument would reach the live cache while the bot serves from it.
+        self.cache_path = Path(self._tmp.name) / "cache.db"
+        self._saved_cache = anki_cache.CACHE_PATH
+        self._saved_default = anki_cache.DEFAULT_COLLECTION
+        anki_cache.CACHE_PATH = str(self.cache_path)
+        anki_cache.DEFAULT_COLLECTION = str(self.path)
+        assert Path(anki_cache.CACHE_PATH) != REAL_CACHE, "refusing to write the real cache"
         self._col = None
 
     def tearDown(self):
@@ -80,8 +120,18 @@ class CollectionTest(unittest.TestCase):
             self.close()
         finally:
             bot.COLLECTION_PATH = self._saved
+            anki_cache.CACHE_PATH = self._saved_cache
+            anki_cache.DEFAULT_COLLECTION = self._saved_default
             self._tmp.cleanup()
             _assert_real_untouched()
+
+    def build_cache(self, **kw):
+        """Build this test's private cache and return its meta."""
+        return anki_cache.build(str(self.path), str(self.cache_path), **kw)
+
+    def cache(self):
+        """A read-only handle on this test's private cache."""
+        return anki_cache.connect_ro(str(self.cache_path))
 
     # ── the collection is opened LAZILY ───────────────────────────────
     # Anki allows one open handle per collection. `execute_tool` opens its own, so a

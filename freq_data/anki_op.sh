@@ -30,6 +30,16 @@ KEEP=5
 # committed suspend back to its pre-write state. A backup that can be stale is worse than
 # no backup, because it is trusted.
 
+# Declare the maintenance window BEFORE the bot stops.
+#
+# The bot owns the 30-second job that confirms cache.db against the collection, so while
+# it is stopped `meta.checked_at` freezes and every strict consumer starts refusing after
+# 15 minutes. A declared pause is not staleness. It EXPIRES, so a run that dies here
+# cannot silence the check forever.
+echo "[anki_op] declaring a cache pause"
+"$PY" /home/vincent/anki-headless/anki_cache.py pause 3600 || \
+  echo "[anki_op] WARNING: could not pause the cache (it may not exist yet)"
+
 # stop the bot only if it is currently online
 BOT_UP=0
 if pm2 pid anki-bot >/dev/null 2>&1 && [ -n "$(pm2 pid anki-bot 2>/dev/null | tr -d '[:space:]')" ]; then
@@ -81,5 +91,14 @@ echo "[anki_op] running: $SCRIPT $*"
 RC=$?
 
 [ "$BOT_UP" = 1 ] && { echo "[anki_op] restarting anki-bot"; pm2 start anki-bot >/dev/null 2>&1; }
+
+# The script just changed the collection, so the cache is behind. Rebuild it here rather
+# than waiting up to 30 s, then clear the pause -- in that order, so no consumer can read
+# an unpaused cache that is still stale.
+echo "[anki_op] rebuilding the read cache"
+"$PY" /home/vincent/anki-headless/anki_cache.py build || \
+  echo "[anki_op] WARNING: cache rebuild failed; the bot's 30s job will retry"
+"$PY" /home/vincent/anki-headless/anki_cache.py unpause || true
+
 echo "[anki_op] done (op exit=$RC, backup=$(basename "$BAK"))"
 exit $RC

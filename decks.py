@@ -133,6 +133,89 @@ def is_archive(name):
                for a in ARCHIVE_NAMES)
 
 
+# ── resolving from RAW ROWS, with no anki library ─────────────────────
+# For a reader that has only a plain sqlite3 connection: anki_cache.py, and anything
+# else that must not take Anki's single write handle.
+#
+# These MUST NOT be replaced by SQL. `decks.name` and `notetypes.name` are declared
+# `COLLATE unicase`, a collation Anki registers and plain sqlite3 does not have, so on
+# a raw connection BOTH of these raise "no such collation sequence: unicase":
+#
+#     select id from decks where name = 'HSK'
+#     select id, name from decks order by name
+#
+# Only an unfiltered, unordered `select id, name from decks` works. Registering a
+# home-made `unicase` is worse than useless: idx_decks_name is a UNIQUE index built
+# with Anki's collation, so a query using different comparison rules can return the
+# wrong rows instead of raising.
+
+
+def normalize_name(raw):
+    """A raw `decks.name` value as Anki's own col.decks.name() would return it.
+
+    The table stores the subdeck separator as \\x1f; every other layer uses '::'.
+    """
+    return raw.replace("\x1f", "::")
+
+
+def resolve_rows(rows):
+    """{deck_id: (name, role)} from raw (id, name) rows of the `decks` table.
+
+    `role` is None for a deck this module does not declare. The caller decides what
+    that means; this function does not guess.
+
+    Matching is case-insensitive because col.decks.id_for_name() is: `id_for_name('hsk')`
+    resolves to `HSK`. A plain `==` disagreed with it once already, and the startup health
+    check then called a collection healthy while the gate refused to run on the same deck.
+    """
+    lower = {d.name.casefold(): d for d in DECKS}
+    names = [(did, normalize_name(raw)) for did, raw in rows]
+
+    # The CURRENT archive name wins outright, exactly as archive_ids() decides it: a
+    # legacy name counts only when no deck carries the current one, so a deck someone
+    # happens to call `Hidden` is not mistaken for the archive. Two functions must not
+    # give two answers to "is this the archive".
+    archive_name = None
+    for candidate in ARCHIVE_NAMES:
+        f = candidate.casefold()
+        if any(n.casefold() == f or n.casefold().startswith(f + "::") for _, n in names):
+            archive_name = f
+            break
+
+    out = {}
+    for did, name in names:
+        f = name.casefold()
+        if archive_name and (f == archive_name or f.startswith(archive_name + "::")):
+            out[did] = (name, ARCHIVE)
+            continue
+        d = lower.get(f) or lower.get(name.split("::", 1)[0].casefold())
+        out[did] = (name, d.role if d else None)
+    return out
+
+
+def missing_from_rows(rows, names=None):
+    """Declared deck names absent from raw (id, name) rows. Same contract as missing_from.
+
+    Subdecks do not satisfy a parent: a deck is present only under its own name.
+    """
+    present = {normalize_name(raw).casefold() for _, raw in rows}
+    return [n for n in (names or REQUIRED_DECKS) if n.casefold() not in present]
+
+
+def unexpected_in_rows(rows):
+    """Deck names in raw rows that this module does not declare. A subdeck of a declared
+    deck is not unexpected -- see unexpected_in for why."""
+    lower = tuple(n.casefold() for n in ALL_NAMES)
+    out = []
+    for _, raw in rows:
+        name = normalize_name(raw)
+        f = name.casefold()
+        if f in lower or any(f.startswith(n + "::") for n in lower):
+            continue
+        out.append(name)
+    return sorted(out)
+
+
 # ── resolving a ROLE against a collection ─────────────────────────────
 # Callers ask for a role and receive deck IDs. A deck NAME does not cross this boundary.
 #

@@ -95,6 +95,14 @@ echo "$(date -Iseconds) anki_daily: gate verify"
 "$PY" "$ROOT/freq_data/template_gate.py" --verify
 VRC=$?
 [ $VRC -ne 0 ] && echo "$(date -Iseconds) anki_daily: GATE VERIFY FAILED (exit $VRC)" >&2
+
+# The read cache. A dead cache is invisible otherwise: consumers just start refusing, and
+# the only trace is a line in a log nobody reads. This puts it on the same daily
+# non-zero-exit path as a failed backup.
+echo "$(date -Iseconds) anki_daily: read cache status"
+"$PY" "$ROOT/anki_cache.py" status
+CRC=$?
+[ $CRC -ne 0 ] && echo "$(date -Iseconds) anki_daily: READ CACHE STALE OR MISSING (exit $CRC)" >&2
 # The BACKUP result reaches the exit code too. It did not: a failed backup printed one
 # stderr line and the script still exited 0, so cron reported success while the
 # collection's only regular backup silently stopped for as long as the fault lasted.
@@ -103,4 +111,5 @@ if [ "$BACKUP_OK" != 1 ]; then
   exit 1
 fi
 [ "${TRC:-0}" -ne 0 ] && exit "$TRC"
+[ "${CRC:-0}" -ne 0 ] && exit "$CRC"
 exit $VRC
