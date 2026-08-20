@@ -1,6 +1,6 @@
 # Plan: the shared read cache — version 2
 
-**Status:** step 1 is built and tested; the bot restart is pending. Steps 2-5 are not started.
+**Status:** steps 1 and 2 are done and live. Steps 3-5 are not started.
 This plan implements `READ_CACHE_BRIEF.md`.
 **Version 2, 2026-08-19.** Version 1 went through three adversarial reviews. They found
 32 defects in it. Every number below is measured again, because version 1's headline
@@ -375,9 +375,21 @@ Nothing outside this repo changes.
 suspended by hand appears within 30 s, and `POST /api/refresh` returns the new
 `generated_at`.
 
-### Step 2 — dong-chinese
+### Step 2 — dong-chinese — DONE 2026-08-20
 
-The path is `server/scripts/backfill_known_words.py`.
+The path is `server/scripts/backfill_known_words.py`. Committed as dong-chinese
+`9f2deef`.
+
+**Result, verified rather than assumed.** The table the new script writes is
+byte-identical to the one the old script produced: 2,672 words, mature 2,094, learning
+578, none lost, none gained, no status changed. With `sqlite3.connect` recorded, the
+script opens only `cache.db` (`mode=ro`) and `dongchinese.db`. It never opens
+`collection.anki2` and never imports `anki`. A cache 5,026 s old makes it exit 1 with the
+reason on stderr, so the 6-hourly cron reports a failure instead of writing day-old data.
+
+Two deliberate behaviour changes: a stale cache is fatal rather than a fallback, and the
+local deck-name fallback is gone. An empty result is refused too, because the table is
+replaced wholesale and blanking it would un-highlight the whole reader.
 
 **Version 1's diagnosis of the word-count gap was wrong.** It blamed `sfld` versus field 0.
 Two reviews measured that independently and refuted it: `sfld` and field 0 give identical
