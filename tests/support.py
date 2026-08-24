@@ -56,7 +56,6 @@ def _fingerprint():
 
 
 _REAL_STAT = _fingerprint()
-_REAL_CACHE_STAT = REAL_CACHE.stat().st_mtime_ns if REAL_CACHE.exists() else None
 
 
 def _assert_real_untouched():
@@ -65,13 +64,31 @@ def _assert_real_untouched():
         print(f"\n*** THE REAL COLLECTION CHANGED DURING THE TESTS ***\n"
               f"    was {_REAL_STAT}\n    now {now}", file=sys.stderr)
         os._exit(9)
-    cache_now = REAL_CACHE.stat().st_mtime_ns if REAL_CACHE.exists() else None
-    if cache_now != _REAL_CACHE_STAT:
-        # A cache test that forgets a path argument would otherwise write the live cache
-        # while the bot serves from it. Every anki_cache reader defaults to CACHE_PATH.
-        print(f"\n*** THE REAL cache.db CHANGED DURING THE TESTS ***\n"
-              f"    was {_REAL_CACHE_STAT}\n    now {cache_now}", file=sys.stderr)
-        os._exit(9)
+
+
+# ── the real cache.db is guarded at the WRITE, not by its mtime ───────
+# A test that forgets a path argument would write the live cache while the bot serves
+# from it, and that really happened: every anki_cache entry point defaults to CACHE_PATH.
+#
+# Watching the file's mtime does NOT detect it, and worse, it reports a failure on every
+# run. The bot writes `checked_at` every 30 seconds, so the live cache's mtime moves on
+# its own: measured twice, 30.0 s apart, with no test running. The first version of this
+# guard aborted the suite for exactly that reason.
+#
+# So guard the one thing a test controls: this process must never open the real cache
+# read-write. That has no false positive, whatever the bot is doing.
+_real_connect_rw = anki_cache._connect_rw
+
+
+def _guarded_connect_rw(cache_path, *args, **kwargs):
+    if REAL_CACHE.exists() and Path(cache_path).resolve() == REAL_CACHE.resolve():
+        raise AssertionError(
+            f"a test tried to OPEN THE REAL CACHE FOR WRITING ({cache_path}). "
+            "Pass an explicit cache_path, or use CollectionTest, which redirects it.")
+    return _real_connect_rw(cache_path, *args, **kwargs)
+
+
+anki_cache._connect_rw = _guarded_connect_rw
 
 
 atexit.register(_assert_real_untouched)
