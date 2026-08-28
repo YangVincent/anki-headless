@@ -98,9 +98,40 @@ claude = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
 
 # ── Anki helpers ──────────────────────────────────────────────────────
 
+#: Bounded retry for open_collection(). freq_data/anki_op.sh stops this bot, mutates the
+#: collection, and restarts it; pm2 relaunches ~1s after the old process exits, while the
+#: Anki backend still holds the collection lock. Startup then died on DBError (exit 1) and
+#: pm2 had to try a THIRD time -- 8 wasted starts on 2026-08-28 alone, one per maintenance
+#: op, each a ~2s outage of /api/stats and /api/sync. Worse, a permanently locked
+#: collection produced identical log lines, so a real outage was indistinguishable from
+#: this 2-second race. 15s covers every observed handover with room to spare.
+COLLECTION_OPEN_RETRIES = 15
+COLLECTION_OPEN_DELAY_S = 1.0
+
+
 def open_collection():
+    """Open the collection, waiting out a transient lock from a just-exited process.
+
+    Only "already open" is retried. Every other DBError (corruption, a bad path, a schema
+    the installed anki can't read) raises at once -- retrying those would turn a hard
+    failure into a 15-second hang that still fails.
+    """
     from anki.collection import Collection
-    return Collection(COLLECTION_PATH)
+    from anki.errors import DBError
+
+    for attempt in range(COLLECTION_OPEN_RETRIES):
+        try:
+            return Collection(COLLECTION_PATH)
+        except DBError as e:
+            if "already open" not in str(e).lower():
+                raise
+            if attempt == COLLECTION_OPEN_RETRIES - 1:
+                log.error("collection still locked after %ds -- giving up",
+                          int(COLLECTION_OPEN_RETRIES * COLLECTION_OPEN_DELAY_S))
+                raise
+            if attempt == 0:
+                log.info("collection locked, waiting for the previous holder to release")
+            time.sleep(COLLECTION_OPEN_DELAY_S)
 
 
 def load_anki_auth():
