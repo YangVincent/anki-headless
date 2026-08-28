@@ -81,3 +81,7 @@ freq_data/*.bak-*
 hanly_current.json
 hanly_*.json
 changelog.jsonl
+
+# Playwright MCP session artefacts (browser console + page dumps). Debris from a
+# debugging run, regenerated on demand, never source.
+.playwright-mcp/
