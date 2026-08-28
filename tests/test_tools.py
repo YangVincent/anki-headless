@@ -9,8 +9,16 @@ import json
 import decks
 from tests.support import CollectionTest
 
-HSK_NEW = 1393817667119        # 说服 — ord 0 new, in HSK
-HSK_REVIEW = 1537328242227     # 可乐 — ord 0 in review, in HSK
+# A note id is stable. A note's SCHEDULING STATE is not -- the user studies this
+# collection every day, so a card moves between new, learning and review under the suite.
+# These constants therefore name only what cannot change: which note it is.
+#
+# `HSK_NOTE = 1393817667119  # 说服 — ord 0 new, in HSK` broke exactly this rule. 说服
+# entered review, so the promotion test compared a DAY NUMBER (due=255) against new-card
+# queue positions, counted 16 suspended cards as "ahead", and went red with nothing wrong
+# in the code. Any test that needs a state must SELECT for that state at run time --
+# a_note_with_ord0_in(), or a query in the test -- and never assume an id still holds it.
+HSK_NOTE = 1393817667119       # 说服 — a live ChineseVocabulary note, ord-0 card in HSK
 IMPORT_POOL = 1707757129855    # a parked xiehanzi import note
 
 
@@ -20,25 +28,25 @@ class EveryToolRuns(CollectionTest):
 
     SAFE_ARGS = {
         "search_notes": {"query": "Simplified:说服"},
-        "get_notes_detail": {"note_ids": [HSK_NEW]},
+        "get_notes_detail": {"note_ids": [HSK_NOTE]},
         "get_field_values": {"query": "deck:HSK", "fields": ["Simplified"]},
         "get_collection_stats": {},
-        "get_cards_info": {"note_ids": [HSK_NEW]},
+        "get_cards_info": {"note_ids": [HSK_NOTE]},
         "lookup_frequency": {"words": ["说服"]},
         "list_decks": {},
         "list_note_types": {},
         "get_note_type_templates": {"note_type": "ChineseVocabulary"},
         "get_vocab_for_story": {"num_known": 20, "num_target": 3},
         "get_grammar_for_story": {},
-        "edit_note": {"note_id": HSK_NEW, "fields": {"Notes": "test"}},
-        "tag_notes": {"query": f"nid:{HSK_NEW}", "tags": ["testtag"]},
-        "remove_tags": {"query": f"nid:{HSK_NEW}", "tags": ["testtag"]},
-        "suspend_cards": {"query": f"nid:{HSK_NEW}"},
-        "unsuspend_cards": {"query": f"nid:{HSK_NEW}"},
-        "suspend_card_type": {"query": f"nid:{HSK_NEW}", "template_name": "Cloze-Recall"},
-        "unsuspend_card_type": {"query": f"nid:{HSK_NEW}", "template_name": "Cloze-Recall"},
-        "move_cards": {"query": f"nid:{HSK_NEW}", "deck": "Mined"},
-        "move_card_type": {"query": f"nid:{HSK_NEW}", "template_name": "Hanzi-English",
+        "edit_note": {"note_id": HSK_NOTE, "fields": {"Notes": "test"}},
+        "tag_notes": {"query": f"nid:{HSK_NOTE}", "tags": ["testtag"]},
+        "remove_tags": {"query": f"nid:{HSK_NOTE}", "tags": ["testtag"]},
+        "suspend_cards": {"query": f"nid:{HSK_NOTE}"},
+        "unsuspend_cards": {"query": f"nid:{HSK_NOTE}"},
+        "suspend_card_type": {"query": f"nid:{HSK_NOTE}", "template_name": "Cloze-Recall"},
+        "unsuspend_card_type": {"query": f"nid:{HSK_NOTE}", "template_name": "Cloze-Recall"},
+        "move_cards": {"query": f"nid:{HSK_NOTE}", "deck": "Mined"},
+        "move_card_type": {"query": f"nid:{HSK_NOTE}", "template_name": "Hanzi-English",
                            "deck": "Mined"},
         "delete_notes": {"query": "Simplified:说服"},
         "add_general_card": {"front": "q", "back": "a", "deck": "Mined"},
@@ -66,14 +74,14 @@ class WriteAllowlist(CollectionTest):
         for name in (decks.name_of(decks.PRODUCTION), decks.name_of(decks.CLOZE),
                      decks.ARCHIVE_DECK, "Default"):
             with self.subTest(deck=name):
-                out = self.tool("move_cards", {"query": f"nid:{HSK_NEW}", "deck": name})
+                out = self.tool("move_cards", {"query": f"nid:{HSK_NOTE}", "deck": name})
                 self.assertIn("may write to", out, f"{name} must be refused")
 
     def test_allows_the_recognition_decks(self):
         for name in decks.RECOGNITION_DECKS:
             with self.subTest(deck=name):
                 self.assertIn("Moved", self.tool(
-                    "move_cards", {"query": f"nid:{HSK_NEW}", "deck": name}))
+                    "move_cards", {"query": f"nid:{HSK_NOTE}", "deck": name}))
 
     def test_refuses_a_deck_that_does_not_exist(self):
         out = self.tool_json(
@@ -88,15 +96,21 @@ class Promotion(CollectionTest):
     def test_a_review_card_keeps_its_deck_and_its_schedule(self):
         """It used to write a queue position onto `due`, turning a card due in 9 days
         into one 250 days overdue, and pull it out of HSK."""
-        before = self.cards_of(HSK_REVIEW)[0]
+        nid = self.a_note_with_ord0_in("HSK", queue=2)
+        before = self.cards_of(nid)[0]
         state = (before.did, before.due, before.ivl, before.type)
-        self.tool("tag_notes", {"query": f"nid:{HSK_REVIEW}", "tags": ["mined"]})
-        after = self.cards_of(HSK_REVIEW)[0]
+        self.tool("tag_notes", {"query": f"nid:{nid}", "tags": ["mined"]})
+        after = self.cards_of(nid)[0]
         self.assertEqual((after.did, after.due, after.ivl, after.type), state)
 
     def test_a_new_card_stays_in_its_study_deck_and_goes_to_the_front(self):
-        self.tool("tag_notes", {"query": f"nid:{HSK_NEW}", "tags": ["mined"]})
-        c0 = self.cards_of(HSK_NEW)[0]
+        # Selected now, not pinned to an id: promotion only repositions a NEW card, so a
+        # fixture that drifts into review makes this assert a day number against queue
+        # positions. `type=0 AND ord=0` mirrors the MIN(due) the promotion itself takes,
+        # so "front" means the same thing here and there.
+        nid = self.a_note_with_ord0_in("HSK", queue=0)
+        self.tool("tag_notes", {"query": f"nid:{nid}", "tags": ["mined"]})
+        c0 = self.cards_of(nid)[0]
         self.assertEqual(self.col.decks.name(c0.did), "HSK")
         ahead = self.col.db.scalar(
             "SELECT count(*) FROM cards WHERE did=? AND type=0 AND ord=0 AND due<?",
@@ -116,7 +130,7 @@ class DueSemantics(CollectionTest):
     UNIX TIMESTAMP on an intraday learning card. Mixing them cost a real schedule."""
 
     def test_refuses_to_write_a_position_onto_a_review_card(self):
-        c = self.cards_of(HSK_REVIEW)[0]
+        c = self.cards_of(self.a_note_with_ord0_in("HSK", queue=2))[0]
         with self.assertRaises(ValueError):
             import_bot().set_new_card_position(self.col, c, -5)
 
@@ -150,7 +164,7 @@ class ArchiveGuards(CollectionTest):
                             set(r["import_pool_note_ids"]))
         self.assertEqual(len(live | arch | pool), r["count"])
         self.assertFalse(live & arch or live & pool or arch & pool)
-        self.assertIn(HSK_NEW, live)
+        self.assertIn(HSK_NOTE, live)
         self.assertIn(IMPORT_POOL, pool)
 
     def test_story_targets_never_include_a_known_word(self):
@@ -226,8 +240,25 @@ class CardStandingIsTheOrd0Card(CollectionTest):
     top), so 84% of new cards carry a seven-digit value that is not a queue depth.
     """
 
+    def a_reviewed_note_with_a_seven_digit_sibling(self):
+        """The exact shape that caused the bug: ord 0 in rotation, a sibling still new
+        and carrying a seven-digit `due`. Selected at run time -- pinning it to an id
+        would encode a scheduling state the user changes by studying."""
+        row = self.col.db.first(
+            "SELECT c0.nid FROM cards c0 JOIN cards s ON s.nid=c0.nid AND s.ord!=0 "
+            "WHERE c0.ord=0 AND c0.queue=2 AND s.queue=0 AND s.due>1000000 LIMIT 1")
+        self.assertIsNotNone(row, "fixture: no reviewed note with a new seven-digit sibling")
+        return row[0]
+
+    def a_note_with_a_suspended_new_sibling(self):
+        row = self.col.db.first(
+            "SELECT nid FROM cards WHERE ord!=0 AND type=0 AND queue=-1 LIMIT 1")
+        self.assertIsNotNone(row, "fixture: no suspended new sibling anywhere")
+        return row[0]
+
     def test_study_state_is_the_ord_0_card_not_a_sibling(self):
-        r = self.tool_json("get_notes_detail", {"note_ids": [HSK_REVIEW]})[0]
+        nid = self.a_reviewed_note_with_a_seven_digit_sibling()
+        r = self.tool_json("get_notes_detail", {"note_ids": [nid]})[0]
         ss = r["study_state"]
         self.assertEqual(ss["ord"], 0)
         self.assertEqual(ss["state"], "review")
@@ -237,15 +268,17 @@ class CardStandingIsTheOrd0Card(CollectionTest):
         self.assertNotIn("new_queue_rank", ss)
 
     def test_the_sibling_that_used_to_be_quoted_is_still_in_card_states(self):
-        """If this stops holding, the fixture drifted and the test above proves nothing."""
-        r = self.tool_json("get_notes_detail", {"note_ids": [HSK_REVIEW]})[0]
+        """If this stops holding, the selector is wrong and the test above proves nothing."""
+        nid = self.a_reviewed_note_with_a_seven_digit_sibling()
+        r = self.tool_json("get_notes_detail", {"note_ids": [nid]})[0]
         siblings = [c for c in r["card_states"] if c["ord"] != 0]
         self.assertTrue(any(c.get("queue_position", 0) > 1_000_000 for c in siblings),
                         "fixture: expected a sibling with a seven-digit queue_position")
 
     def test_a_seven_digit_position_ranks_inside_a_queue_of_a_few_thousand(self):
         """1,992,896 is not a depth. That card is ~1,900th of ~2,000 in Reverse."""
-        r = self.tool_json("get_notes_detail", {"note_ids": [HSK_REVIEW]})[0]
+        nid = self.a_reviewed_note_with_a_seven_digit_sibling()
+        r = self.tool_json("get_notes_detail", {"note_ids": [nid]})[0]
         big = next(c for c in r["card_states"] if c.get("queue_position", 0) > 1_000_000)
         self.assertLessEqual(big["new_queue_rank"], big["new_queue_size"])
         self.assertGreaterEqual(big["new_queue_rank"], 1)
@@ -270,9 +303,11 @@ class CardStandingIsTheOrd0Card(CollectionTest):
 
     def test_a_suspended_new_card_gets_no_rank(self):
         """It comes up at no position at all, so a rank would assert a place it lacks."""
-        r = self.tool_json("get_notes_detail", {"note_ids": [HSK_NEW]})[0]
-        parked = [c for c in r["card_states"] if c["state"] == "suspended"]
-        self.assertTrue(parked, "fixture: expected a suspended sibling on this note")
+        nid = self.a_note_with_a_suspended_new_sibling()
+        r = self.tool_json("get_notes_detail", {"note_ids": [nid]})[0]
+        parked = [c for c in r["card_states"]
+                  if c["state"] == "suspended" and "queue_position" in c]
+        self.assertTrue(parked, "fixture: expected a suspended NEW sibling on this note")
         for c in parked:
             self.assertIn("queue_position", c)
             self.assertNotIn("new_queue_rank", c)
