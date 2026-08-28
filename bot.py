@@ -715,8 +715,8 @@ Your standing loop for any card-related message:
 2. **Critically assess it, unasked.** Once you've read the fields, proactively judge quality: Is the Meaning complete and accurate? Does it cover the character's/word's main senses? Is the example sentence real, natural, and actually illustrative of the target usage? Is the pinyin right? State plainly what's weak and what you'd change — don't wait for "do you think this is high quality?" That question means you should already have volunteered the assessment.
 3. **Ground every claim in the real fields.** Quote or reference what the card actually says. If you propose an example or usage, verify it's genuine — don't invent examples and don't defend a shaky one under pushback; re-check and correct.
 4. **Propose the improvement and offer to make it.** Since the goal is to improve the card, move toward a concrete edit (preview it, then edit_note on confirmation).
-5. **After the edit, offer to move the card to the front — then stop and wait.** Never promote silently. Read `card_states` from `get_notes_detail` (the ord-0 card) and choose by its `state`:
-   - **`new`** — offer it. Say how far back it sits (`queue_position`) and ask: "Move it to the front so it comes up next?" On a yes, call `tag_notes` with the `mined` tag. Say "first among the new cards", not "next" — cards already due still come first.
+5. **After the edit, offer to move the card to the front — then stop and wait.** Never promote silently. Read **`study_state`** from `get_notes_detail` and choose by its `state`. `study_state` IS the ord-0 card — the one the user actually studies. **Never take a state or a position out of `card_states`.** That list also holds the note's Reverse and Cloze siblings, which stay new long after ord 0 is in rotation, so a sibling's `queue_position` reported as the user's standing tells them a card they are reviewing today sits 1.9 million back.
+   - **`new`** — offer it. Say how far back it sits as `new_queue_rank` of `new_queue_size` in that deck ("about 1,500th of 2,083 new cards in Reverse"), then ask: "Move it to the front so it comes up next?" On a yes, call `tag_notes` with the `mined` tag. Say "first among the new cards", not "next" — cards already due still come first. **Never say `queue_position` out loud.** It is an internal ordering index, not a depth: this collection's counter sits near 1,998,000 because a 212,889-card import was appended at the top, so 84% of new cards carry a meaningless seven-digit value.
    - **`review`, `learning` or `day-learn`** — do NOT offer. The card is in rotation. Report `due_in_days` (or `due_in_minutes` for `learning`). Promotion would leave this card's own deck, schedule and position untouched, but it still tags the note and re-routes its production and cloze siblings, so it is not a no-op.
    - **`suspended`** — ask whether the card was parked on purpose before you do anything. About 184 basic HSK single-character cards are suspended deliberately. `tag_notes` + `mined` UNSUSPENDS the ord-0 card, so it can silently undo that decision.
    - **`buried-manual`, `buried-sibling`, `preview`** — do not offer; the state is temporary. Say what it is.
@@ -898,7 +898,7 @@ TOOLS = [
     },
     {
         "name": "get_notes_detail",
-        "description": "Get field values, tags, deck, and note type for a batch of notes. Max 100 per call. Use get_field_values instead for large sets.",
+        "description": "Get field values, tags, deck, and note type for a batch of notes. Max 100 per call. Use get_field_values instead for large sets. Returns `study_state` (the ord-0 card — the one the user studies; read this for the note's standing) alongside `card_states` (every card, siblings included).",
         "input_schema": {
             "type": "object",
             "properties": {
@@ -1241,6 +1241,27 @@ _QUEUE_STATE = {-3: "buried-manual", -2: "buried-sibling", -1: "suspended",
                 0: "new", 1: "learning", 2: "review", 3: "day-learn", 4: "preview"}
 
 
+def _new_queue_rank(col, card):
+    """Where a NEW card actually sits in the queue it will come up in: (rank, size).
+
+    `due` on a new card is an internal ordering index, NOT a depth. This collection's
+    nextPos is ~1,998,000 because a 212,889-card import was appended near the top, so
+    83.8% of new cards carry a seven-digit `due`. Reported raw, 1,992,413 reads as "1.99
+    million cards ahead of it"; that same card is about 1,500th of 2,083 in Reverse.
+
+    Counts only UNSUSPENDED new cards (queue 0) in the same deck -- exactly the set that
+    can come up before it. Counting `type=0` instead would fold in the archive's 212,889
+    suspended cards, which never surface. Uses `odid or did` so a card on loan to a
+    filtered deck ranks in its real deck. Both counts are index-range scans on
+    ix_cards_sched (did, queue, due): 0.2ms worst case, ~38ms for a full 100-note batch.
+    """
+    did = card.odid or card.did
+    ahead = col.db.scalar(
+        "SELECT COUNT(*) FROM cards WHERE did=? AND queue=0 AND due<?", did, card.due)
+    total = col.db.scalar("SELECT COUNT(*) FROM cards WHERE did=? AND queue=0", did)
+    return (ahead or 0) + 1, total or 0
+
+
 def _card_state(col, card, tmpl_name, today):
     """Compact per-card state for get_notes_detail. `due` means different things by
     card type -- a queue position on a new card, a day number on a review card -- so
@@ -1254,7 +1275,14 @@ def _card_state(col, card, tmpl_name, today):
     # TIMESTAMP. Reporting them under one key is what let a queue position get written
     # onto a review card and throw its schedule away.
     if card.type == 0:
+        # Raw `due`. Kept because set_new_card_position writes this exact field, so a
+        # repositioning bug has to stay visible -- but it is an internal index, and
+        # new_queue_rank below is the only form fit to say out loud to the user.
         info["queue_position"] = card.due
+        # Rank only for queue 0. A suspended or buried new card comes up at no position
+        # at all, and "1,500th of 2,083" would assert a place in a queue it is not in.
+        if card.queue == 0:
+            info["new_queue_rank"], info["new_queue_size"] = _new_queue_rank(col, card)
     elif card.queue in (2, 3):
         # A card pulled into a filtered deck keeps its real due in odue; `due` is then a
         # filtered-queue position and subtracting today gives nonsense (-100246).
@@ -1262,6 +1290,22 @@ def _card_state(col, card, tmpl_name, today):
     elif card.queue == 1:
         info["due_in_minutes"] = max(0, (card.due - int(time.time())) // 60)
     return info
+
+
+def _study_state(card_states):
+    """The ONE card that answers "where does this note stand for the user" -- ord 0.
+
+    get_notes_detail returns EVERY card of a note, and a ChineseVocabulary note has
+    three: the recognition card the user studies (ord 0) plus a Reverse and a Cloze
+    sibling. The siblings stay new long after ord 0 is in rotation -- 401 of the 429
+    notes reviewed in the 3 days to 2026-08-28 -- so the payload put a seven-digit
+    sibling `queue_position` next to a review card, and that is the number the bot read
+    back to the user while they were reviewing that very card. Naming the governing card
+    means nothing has to be picked out of a list.
+
+    None when the note has no ord-0 card (a Cloze note whose first cloze was deleted).
+    """
+    return next((s for s in card_states if s.get("ord") == 0), None)
 
 
 # One complete HSK 3.0 deck was imported years ago under these four note types and parked
@@ -1649,6 +1693,8 @@ def execute_tool(tool_name, tool_input):
                     model = note.note_type()
                     field_names = [f["name"] for f in model["flds"]]
                     cards = note.cards()
+                    card_states = [_card_state(col, c, model["tmpls"][c.ord]["name"], today)
+                                   for c in cards]
                     # A note spans decks -- the live ChineseVocabulary note for a word
                     # has its forward card in HSK, its cloze in Vocab Cloze, and its
                     # production card in Reverse or still parked under Hidden::.
@@ -1676,10 +1722,12 @@ def execute_tool(tool_name, tool_input):
                         # Per-card state, so the standing loop can decide whether to
                         # offer to move the card to the front. That offer only means
                         # something for a NEW card; a review card is in rotation.
-                        "card_states": [
-                            _card_state(col, c, model["tmpls"][c.ord]["name"], today)
-                            for c in cards
-                        ],
+                        "card_states": card_states,
+                        # The ord-0 card, named. card_states holds the Reverse and Cloze
+                        # siblings too, and they stay new long after ord 0 is in rotation,
+                        # so reading a position out of that list reports a sibling's
+                        # standing as the user's. Read this instead. See _study_state.
+                        "study_state": _study_state(card_states),
                         # A note counts as suspended only if EVERY card is. This bot
                         # suspends the reverse (ord 1) and cloze (ord 2) siblings on
                         # purpose -- see tag_hanly_notes and the maturity gate -- so

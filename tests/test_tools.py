@@ -209,3 +209,70 @@ class PromotionOwnsNothing(CollectionTest):
         before = set(self.col.get_note(IMPORT_POOL).tags)
         self.tool("tag_notes", {"query": f"nid:{IMPORT_POOL}", "tags": ["mined", "probe"]})
         self.assertEqual(set(self.reopen().get_note(IMPORT_POOL).tags), before)
+
+
+class CardStandingIsTheOrd0Card(CollectionTest):
+    """get_notes_detail returns EVERY card of a note, siblings included.
+
+    A ChineseVocabulary note has three: the recognition card the user studies (ord 0)
+    plus a Reverse and a Cloze sibling. The siblings stay new long after ord 0 is in
+    rotation -- 401 of the 429 notes reviewed in the 3 days to 2026-08-28 -- so the
+    payload sat a seven-digit sibling `queue_position` next to a review card. The bot
+    read that number back as the user's standing on a card they were reviewing that day.
+
+    Two things fix it and both are pinned here: `study_state` names the governing card,
+    and a new card reports a RANK, because raw `due` is an internal ordering index. This
+    collection's counter sits near 1,998,000 (a 212,889-card import was appended at the
+    top), so 84% of new cards carry a seven-digit value that is not a queue depth.
+    """
+
+    def test_study_state_is_the_ord_0_card_not_a_sibling(self):
+        r = self.tool_json("get_notes_detail", {"note_ids": [HSK_REVIEW]})[0]
+        ss = r["study_state"]
+        self.assertEqual(ss["ord"], 0)
+        self.assertEqual(ss["state"], "review")
+        self.assertIn("due_in_days", ss)
+        # The whole point: the governing card carries no position at all.
+        self.assertNotIn("queue_position", ss)
+        self.assertNotIn("new_queue_rank", ss)
+
+    def test_the_sibling_that_used_to_be_quoted_is_still_in_card_states(self):
+        """If this stops holding, the fixture drifted and the test above proves nothing."""
+        r = self.tool_json("get_notes_detail", {"note_ids": [HSK_REVIEW]})[0]
+        siblings = [c for c in r["card_states"] if c["ord"] != 0]
+        self.assertTrue(any(c.get("queue_position", 0) > 1_000_000 for c in siblings),
+                        "fixture: expected a sibling with a seven-digit queue_position")
+
+    def test_a_seven_digit_position_ranks_inside_a_queue_of_a_few_thousand(self):
+        """1,992,896 is not a depth. That card is ~1,900th of ~2,000 in Reverse."""
+        r = self.tool_json("get_notes_detail", {"note_ids": [HSK_REVIEW]})[0]
+        big = next(c for c in r["card_states"] if c.get("queue_position", 0) > 1_000_000)
+        self.assertLessEqual(big["new_queue_rank"], big["new_queue_size"])
+        self.assertGreaterEqual(big["new_queue_rank"], 1)
+        self.assertLess(big["new_queue_size"], 100_000,
+                        "the rank must count the real queue, not the suspended archive")
+
+    def test_rank_bounds_are_exact_at_both_ends_of_a_deck_queue(self):
+        did = self.deck("HSK")
+        first = self.col.db.scalar(
+            "SELECT nid FROM cards WHERE did=? AND queue=0 ORDER BY due ASC LIMIT 1", did)
+        last = self.col.db.scalar(
+            "SELECT nid FROM cards WHERE did=? AND queue=0 ORDER BY due DESC LIMIT 1", did)
+        rows = self.tool_json("get_notes_detail", {"note_ids": [first, last]})
+        by_nid = {r["note_id"]: r for r in rows}
+
+        def hsk_new(nid):
+            return next(c for c in by_nid[nid]["card_states"]
+                        if c["deck"] == "HSK" and c["state"] == "new")
+
+        self.assertEqual(hsk_new(first)["new_queue_rank"], 1)
+        self.assertEqual(hsk_new(last)["new_queue_rank"], hsk_new(last)["new_queue_size"])
+
+    def test_a_suspended_new_card_gets_no_rank(self):
+        """It comes up at no position at all, so a rank would assert a place it lacks."""
+        r = self.tool_json("get_notes_detail", {"note_ids": [HSK_NEW]})[0]
+        parked = [c for c in r["card_states"] if c["state"] == "suspended"]
+        self.assertTrue(parked, "fixture: expected a suspended sibling on this note")
+        for c in parked:
+            self.assertIn("queue_position", c)
+            self.assertNotIn("new_queue_rank", c)
