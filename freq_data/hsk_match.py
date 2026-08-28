@@ -36,12 +36,18 @@ from anki_common import sync as _sync
 ROOT = Path("/home/vincent/anki-headless")
 COL = ROOT / "collection.anki2"
 UNDO = ROOT / "generated" / "hsk_match_undo.json"
+# The HSK 3.0 word list, 10,960 words. Generated from hsk30_official.json, which is built
+# from the official band IDs — see dong-chinese/server/scripts/build_hsk30_tsv.py.
 HSK_TSV = Path("/home/vincent/chinese-projects/dong-chinese/server/app/data/hsk30.tsv")
-# Second HSK 3.0 source: the tsv alone has holes (it lacks 表示, 玩, 老虎, …), which a
-# 2026-07-28 sweep discovered the hard way by parking 玩-class words as "not HSK". Neither
-# file is a superset of the other (10,969 vs 10,440 entries, union 12,099), so the word
-# authority is their UNION — erring toward "is a word", the safe direction for suspension.
-HSK_JSON = Path("/home/vincent/anki-headless/freq_data/hsk3_vocab.json")
+# Real words that are NOT in HSK 3.0 (你好, 玩, 老虎, 数学, …). This sweep suspends cards it
+# judges "not an HSK word", so parking one of these would be wrong: the user has a card for
+# it and it is ordinary Chinese, it simply is not on the syllabus. The membership authority
+# is therefore the UNION, which errs toward "is a word" — the safe direction for suspension.
+#
+# 2026-08-28: this used to point at hsk3_vocab.json, whose Level column is ~31% correct
+# (see quarantine/README.md). Only membership was ever read from it here, so the fix was to
+# strip the corrupt columns rather than drop the file. Levels come from HSK_TSV alone.
+SUPPLEMENTARY_JSON = Path("/home/vincent/anki-headless/freq_data/supplementary_vocab.json")
 DECK = "HSK"
 SWEEP_TAGS = ["parked::bound-character", "parked::studied-character",
               "parked::unseen-character", "parked::not-hsk-word"]
@@ -55,7 +61,7 @@ def hsk_words():
         lv = lv.split("\t")[-1] if "\t" in lv else lv
         if lv.isdigit():
             out.add(w)
-    out.update(x["word"] for x in json.loads(HSK_JSON.read_text(encoding="utf-8")))
+    out.update(x["word"] for x in json.loads(SUPPLEMENTARY_JSON.read_text(encoding="utf-8")))
     return out
 
 

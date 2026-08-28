@@ -23,7 +23,8 @@ to run while `anki-bot` holds the live collection. Nothing is written back.
 - **Card status** — `collection.anki2`, `cards` joined to `notes`. The word is the
   note sort field `n.sfld` (HTML stripped).
 - **3.0 level** — the `HSK::HSKn` tag on the note (`n.tags`). The deck is built on the
-  2021 nine-band standard; see `freq_data/hsk3_vocab.json` for the source word→band list.
+  2021 nine-band standard; see `freq_data/hsk30_official.json` for the source word→band list
+  (built from `hsk30_source.csv`, which carries the official band IDs).
 - **2.0 level** — `freq_data/hsk20_vocab.json` (4,995 words, levels 1–6). This is the
   official 2012 HSK 2.0 vocabulary list, fetched from the canonical
   `glxxyz/hskhsk.com` GitHub mirror (`data/lists/HSK Official With Definitions 2012 L1..L6.txt`,

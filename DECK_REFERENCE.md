@@ -407,7 +407,9 @@ number in this table was previously wrong; three different totals were in circul
 
 | File | Contents |
 |---|---|
-| `freq_data/hsk3_vocab.json` | 73,082 entries (HSK 3.0 + extended) |
+| `freq_data/hsk30_official.json` | HSK 3.0 word list, 10,960 words — the authority for levels |
+| `freq_data/supplementary_vocab.json` | 10,440 real words, no levels — "do not park this card" set |
+| `freq_data/quarantine/hsk3_vocab.json` | superseded, levels ~31% correct — do not use |
 | `freq_data/calib50.json` / `calib75.json` | Difficulty calibration data |
 | `hanly_july_8_2026.json` | Hanly app progress export |
 
