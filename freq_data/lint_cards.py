@@ -79,6 +79,80 @@ def load(con):
     return notes, rendered, live, deck_of
 
 
+
+# --- word surfaces and word boundaries --------------------------------------
+# Both of these exist because the naive versions produced false positives that this
+# session then reported to the user as card defects. Measure before you believe a rule.
+
+HTML_TAG = re.compile(r"<[^>]+>")
+PATTERN_GAP = re.compile(r"。。。|\.\.\.|…")
+NOTATION = re.compile(r"[＃#*＊]")
+
+
+def strip_html(s):
+    return HTML_TAG.sub("", s)
+
+
+def surface_forms(word):
+    """The shapes a Simplified field can take inside a sentence, and how to test them.
+
+    Returns (forms, mode). mode "all" means every form must appear -- that is a grammar
+    pattern like 一边。。。一边, where the field is not a word at all. mode "any" means one
+    form is enough, because the field carries notation the sentence does not: 多（一）点
+    appears as 多一点, and 有用＃ appears as 有用.
+    """
+    w = strip_html(word).strip()
+    if not w:
+        return set(), "any"
+    if PATTERN_GAP.search(w):
+        segs = {x.strip() for x in PATTERN_GAP.split(w) if x.strip()}
+        return segs, "all"
+    forms = {w,
+             PAREN.sub("", w).strip(),               # 多（一）点 -> 多点
+             re.sub(r"[（(）)]", "", w).strip(),      # 多（一）点 -> 多一点
+             NOTATION.sub("", w).strip()}            # 有用＃      -> 有用
+    return {f for f in forms if f}, "any"
+
+
+_JIEBA = None
+
+
+def _jieba():
+    global _JIEBA
+    if _JIEBA is None:
+        import jieba
+        jieba.initialize()
+        _JIEBA = jieba
+    return _JIEBA
+
+
+def standalone_spans(text, word):
+    """Character spans where `word` sits on jieba token boundaries at both ends.
+
+    Token EQUALITY is not the test. jieba splits 有的 into 有/的, so an equality test
+    finds no occurrence in 有的人喜欢咖啡 and the real leak goes unreported. Alignment is
+    the test, and it also excludes the opposite error: 卖国 inside 出卖|国家机密 starts
+    mid-token, so it is a cross-boundary fragment and not an occurrence of the word.
+    """
+    plain = strip_html(text)
+    toks = list(_jieba().tokenize(plain))
+    starts = {a for _t, a, _b in toks}
+    ends = {b for _t, _a, b in toks}
+    out, i = [], plain.find(word)
+    while i != -1:
+        if i in starts and i + len(word) in ends:
+            out.append((i, i + len(word)))
+        i = plain.find(word, i + 1)
+    return out
+
+
+def present_form(text, forms):
+    """The longest surface form that actually appears, or None."""
+    plain = strip_html(text)
+    hits = [f for f in forms if f in plain]
+    return max(hits, key=len) if hits else None
+
+
 # --- rules -------------------------------------------------------------------
 # Each rule yields (nid, detail, repair). A repair is {field: value}, or None when the
 # right answer needs a person. `ctx` carries `rendered` and the word->note index.
@@ -86,17 +160,37 @@ def load(con):
 def rule_sentence_missing_word(nid, f, ctx):
     if "SentenceSimplified" not in ctx["rendered"]:
         return
-    s, w = f["SentenceSimplified"], bare(f["Simplified"])
-    if s.strip() and w and w not in strip_b(s):
-        yield nid, f"sentence lacks {w!r}", None
+    s = f["SentenceSimplified"]
+    forms, mode = surface_forms(f["Simplified"])
+    if not (s.strip() and forms):
+        return
+    plain = strip_html(strip_b(s))
+    if mode == "all":
+        missing = [x for x in sorted(forms) if x not in plain]
+        if missing:
+            yield nid, f"pattern segment(s) absent: {missing}", None
+    elif not any(x in plain for x in forms):
+        yield nid, f"sentence lacks any of {sorted(forms)}", None
 
 
 def rule_sentence_not_bold(nid, f, ctx):
+    """Flag only when NO surface form is bolded.
+
+    An earlier version bolded the LONGEST form that appeared, and wanted to rewrite
+    <b>可怕</b>的 as <b>可怕的</b> across ten cards. The headword is the base form, and the
+    existing markup was right every time. Any bolded form satisfies the rule.
+    """
     if "SentenceSimplified" not in ctx["rendered"]:
         return
-    s, w = f["SentenceSimplified"], bare(f["Simplified"])
-    if s.strip() and w and w in strip_b(s) and f"<b>{w}</b>" not in s:
-        yield nid, "target word is not bold", {
+    s = f["SentenceSimplified"]
+    forms, mode = surface_forms(f["Simplified"])
+    if not s.strip() or mode == "all" or not forms:
+        return
+    if any(f"<b>{x}</b>" in s for x in forms):
+        return
+    w = present_form(strip_b(s), forms)
+    if w:
+        yield nid, f"{w!r} is not bold", {
             "SentenceSimplified": strip_b(s).replace(w, f"<b>{w}</b>", 1)}
 
 
@@ -110,16 +204,33 @@ def _cloze_pairs(ctx):
 def rule_cloze_leaks_answer(nid, f, ctx):
     """The blank must hide the word. A cloze that still shows it is not a test.
 
-    NO AUTO-FIX, deliberately. These sentences repeat the target word, so blanking the
-    first occurrence is a no-op, and blanking every occurrence is wrong when the word is
-    a prefix of a longer one: in 图书馆里有很多免费借阅的图书 the blank landed inside
-    图书馆 and left the real 图书 visible. Which occurrence to hide needs a person.
+    The repair is derived from SentenceSimplified, not from the stored cloze: where the
+    stored blank landed inside a longer word the stored text is already damaged. 图书 read
+    "[ ]馆里...的图书" -- the blank had eaten 图书馆 and left the real 图书 on screen.
+    Blanking every standalone span of the sentence gives "图书馆里...的[ ]" instead.
     """
-    for _src, cz, wf in _cloze_pairs(ctx):
-        text, w = f[cz], bare(f[wf])
-        if not (text.strip() and w) or w not in strip_b(text):
+    for src, cz, wf in _cloze_pairs(ctx):
+        text = f[cz]
+        forms, mode = surface_forms(f[wf])
+        if not (text.strip() and forms) or mode == "all":
             continue
-        yield nid, f"{cz} still shows {w!r}", None
+        w = present_form(text, forms)
+        if w is None:
+            continue
+        if not standalone_spans(text, w):
+            continue                     # a cross-boundary fragment, not the word
+        repair = None
+        sent = strip_b(f[src])
+        spans = standalone_spans(sent, w)
+        if spans:
+            out, prev = [], 0
+            for a, b in spans:
+                out.append(strip_html(sent)[prev:a]); out.append(BLANK); prev = b
+            out.append(strip_html(sent)[prev:])
+            cand = "".join(out)
+            if not standalone_spans(cand, w):
+                repair = {cz: cand}
+        yield nid, f"{cz} still shows {w!r}", repair
 
 
 def rule_cloze_no_blank(nid, f, ctx):
@@ -175,7 +286,63 @@ def rule_homophone_not_reciprocal(nid, f, ctx):
             yield nid, f"{t!r} does not point back (it has {back})", None
 
 
+def _rename_safe(nid, clean, ctx):
+    """A rename that lands on an existing headword is not a repair, it is a duplicate.
+
+    有用＃ looked like a stray mark. The ＃ was in fact put there to get past Anki's
+    duplicate warning: 有用 already exists, tagged HSK1 and mature at a 376-day interval.
+    Stripping the mark would have created a second 有用. Always check the target first.
+    """
+    other = ctx["by_word"].get(clean)
+    return other is None or ctx["nid_of"].get(clean) == nid
+
+
+def rule_field_has_html(nid, f, ctx):
+    """The card front renders Simplified raw, so a stray tag reaches the screen."""
+    if not HTML_TAG.search(f["Simplified"]):
+        return
+    clean = strip_html(f["Simplified"]).strip()
+    yield nid, "Simplified holds an HTML tag", (
+        {"Simplified": clean} if _rename_safe(nid, clean, ctx) else None)
+
+
+def rule_field_has_notation(nid, f, ctx):
+    """A stray ＃ in the headword. Measured: exactly 1 note of 49,930 carries one, so it
+    is a typo. The 67 notes carrying （的）/（了）/（来） are deliberate notation -- the
+    PAREN branch of surface_forms() handles those, and they are not flagged.
+    """
+    w = f["Simplified"]
+    if not NOTATION.search(w):
+        return
+    clean = NOTATION.sub("", w).strip()
+    if _rename_safe(nid, clean, ctx):
+        yield nid, f"Simplified holds a stray mark: {w!r}", {"Simplified": clean}
+    else:
+        yield nid, f"{w!r} is {clean!r} plus a mark that dodges the duplicate check", None
+
+
+def rule_duplicate_headword(nid, f, ctx):
+    """Two LIVE notes for one word. The philosophy is one comprehensive card per word.
+
+    Liveness is the whole rule. A plain twin count reported 11 pairs, and 10 of them were
+    the collection working as intended: the older note is HSK-tagged and studied, and the
+    2025-12-25 `personal` import beside it already sits suspended in Archive. Parking a
+    duplicate that way IS the fix, so counting it as a defect just re-reports the fix.
+    Only a word with two unsuspended cards makes the user study the same thing twice.
+
+    Reported, never auto-fixed: which note survives depends on the study history, and the
+    loser has to be suspended or deleted by a person.
+    """
+    key = NOTATION.sub("", strip_html(f["Simplified"])).strip()
+    twins = [t for t in ctx["nids_of"].get(key, ()) if t in ctx["live"]]
+    if len(twins) > 1 and nid == min(twins):
+        yield nid, f"{key!r} has {len(twins)} live notes: {sorted(twins)}", None
+
+
 RULES = [
+    ("duplicate-headword", rule_duplicate_headword),
+    ("field-has-html", rule_field_has_html),
+    ("field-has-notation", rule_field_has_notation),
     ("sentence-missing-word", rule_sentence_missing_word),
     ("sentence-not-bold", rule_sentence_not_bold),
     ("cloze-leaks-answer", rule_cloze_leaks_answer),
@@ -226,7 +393,13 @@ def main():
     by_word = {}
     for f in notes.values():
         by_word.setdefault(f["Simplified"], f)
-    ctx = {"rendered": rendered, "by_word": by_word}
+    nid_of, nids_of = {}, {}
+    for nid, f in notes.items():
+        key = NOTATION.sub("", strip_html(f["Simplified"])).strip()
+        nid_of.setdefault(key, nid)
+        nids_of.setdefault(key, []).append(nid)
+    ctx = {"rendered": rendered, "by_word": by_word,
+           "nid_of": nid_of, "nids_of": nids_of, "live": live}
 
     print(f"{NOTETYPE}: {len(notes)} notes, {len(scope)} in scope"
           f"{' (unsuspended ord0)' if args.live_only else ' (ALL, archive included)'}")
@@ -278,7 +451,7 @@ def main():
             notes2, rendered2, _l, _d = load(con)
             con.close()
             scope2 = {nid: notes2[nid] for nid in scope if nid in notes2}
-            ctx2 = {"rendered": rendered2, "by_word": by_word}
+            ctx2 = dict(ctx, rendered=rendered2)
             left = sum(1 for hs in collect(scope2, notes2, ctx2, args.rule).values()
                        for h in hs if h[2])
             print(f"auto-fixable remaining: {left}")
