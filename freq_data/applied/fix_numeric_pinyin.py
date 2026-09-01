@@ -27,10 +27,15 @@ from anki.collection import Collection
 from pypinyin.contrib.tone_convert import to_tone
 
 COL = "/home/vincent/anki-headless/collection.anki2"
-SYL = re.compile(r"([a-zA-ZüÜv]{1,6}[1-5])")
+SYL = re.compile(r"([a-zü]{1,6}[1-5])(?![A-Za-z])")
+# Audio fields hold FILENAMES like [sound:xie4xie.mp3]. Renaming them breaks playback,
+# and there are 20,319 of them, so they are excluded by field name AND by span.
+SOUND = re.compile(r"\[sound:[^\]]*\]")
+AUDIO_FIELD = re.compile(r"audio", re.I)
 TAGS = re.compile(r"(<!--.*?-->|<[^>]+>)", re.S)
 # Detection ignores markup, so a `class="tone4"` never counts as a hit.
-DETECT = re.compile(r"(?<![A-Za-z0-9])([a-zA-ZüÜv]{1,6}[1-5])")
+# Lowercase only, and no letter may follow: HSK2, UTF8 and MP3 are not pinyin.
+DETECT = re.compile(r"(?<![A-Za-z0-9])([a-zü]{1,6}[1-5])(?![A-Za-z])")
 
 
 def convert(raw: str) -> str:
@@ -41,13 +46,13 @@ def convert(raw: str) -> str:
 
 
 def has_numeric(raw: str) -> bool:
-    return bool(DETECT.search(html.unescape(TAGS.sub("", raw))))
+    return bool(DETECT.search(html.unescape(TAGS.sub("", SOUND.sub(" ", raw)))))
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--all", action="store_true",
-                    help="include suspended notes (the archive; ~5,335 more fields)")
+                    help="include suspended notes (the archive)")
     ap.add_argument("--show", type=int, default=12)
     ap.add_argument("--apply", action="store_true")
     args = ap.parse_args()
@@ -58,7 +63,12 @@ def main():
                 (col.get_card(i) for i in col.find_cards("deck:* -is:suspended"))}
         targets = []
         for m in col.models.all():
-            idx = [i for i, f in enumerate(m["flds"]) if "inyin" in f["name"]]
+            # EVERY field, not just *inyin*. The first version scanned pinyin fields
+            # only and reported the collection clean while 51 cards still showed
+            # numeric pinyin on their backs -- CC-CEDICT text pasted into `Meaning`,
+            # e.g. "erhua form of 一下[yi1 xia4]".
+            idx = [i for i, f in enumerate(m["flds"])
+                   if not AUDIO_FIELD.search(f["name"])]
             if not idx:
                 continue
             for nid in col.models.nids(m["id"]):

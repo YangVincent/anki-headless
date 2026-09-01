@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Canonical new-queue ordering for the HSK / HSK7-9 decks.
+"""Canonical new-queue ordering for the HSK deck.
 
 Vincent's rule (2026-07-09):
   1. words sorted by HSK level, then by frequency (zipf, descending) within the level;
@@ -23,13 +23,15 @@ right whenever they are unsuspended). Positions start at 1, step 1.
 Usage: bash freq_data/anki_op.sh resort-hsk freq_data/resort_hsk_queue.py --apply
        (--db PATH to dry-run against a scratch copy)
 """
-import re, json, argparse, collections
+import os, re, json, argparse, collections
 
 from anki.collection import Collection
 from wordfreq import zipf_frequency
 
 ROOT = "/home/vincent/anki-headless"
-DECKS = ("HSK", "HSK7-9")
+# HSK7-9 was merged into HSK on 2026-09-01: 4,997 reviews in HSK against 26 in HSK7-9
+# over 21 days meant the second deck was never opened. One deck, one queue, one habit.
+DECKS = ("HSK",)
 LEVEL_TAG = re.compile(r"^HSK::HSK([1-6]|7-9)$")
 LEVEL_RANK = {**{str(i): i for i in range(1, 7)}, "7-9": 7}
 
@@ -74,20 +76,27 @@ def main():
                 s = strip_html(sfld)
                 if mid == cv_id:
                     lvl = level_of(tags.split(), LEVEL_RANK.get(hsk.get(s, ""), 9))
-                    words.append((lvl, -zipf_frequency(s, "zh"), due, cid, s))
+                    # A word tagged 'demoted' (freq overstates its usefulness) sorts to
+                    # the very back, whatever its level. Without this the tag is inert:
+                    # resort_vocab.py was the only reader of it and its deck is empty.
+                    tl = [x.lower() for x in tags.split()]
+                    # -1 liked (front), 0 normal, 1 demoted (back). Both beat level and
+                    # frequency, so a hand-marked word survives every future resort.
+                    rank = -1 if "liked" in tl else (1 if "demoted" in tl else 0)
+                    words.append((rank, lvl, -zipf_frequency(s, "zh"), due, cid, s))
                 elif mid == cc_id:
                     chars.append((cid, s, due))
                 else:
                     print(f"  WARN {dname}: unexpected notetype for {s!r}, treated as word")
-                    words.append((9, 0.0, due, cid, s))
+                    words.append((0, 9, 0.0, due, cid, s))
 
-            words.sort(key=lambda t: (t[0], t[1], t[2]))          # level, -freq, current pos (stable)
+            words.sort(key=lambda t: (t[0], t[1], t[2], t[3]))  # liked/demoted, level, -freq, pos
             char_by_glyph = {}
             for cid, s, due in chars:
                 char_by_glyph.setdefault(s, []).append(cid)       # dupes impossible today, but be safe
 
             order, placed = [], set()
-            for lvl, negf, due, cid, w in words:
+            for rank, lvl, negf, due, cid, w in words:
                 for ch in w:                                       # rule 2: char before first use
                     if ch in char_by_glyph and ch not in placed:
                         order.extend(char_by_glyph[ch])
@@ -155,8 +164,18 @@ def main():
         # unsynced until some unrelated later sync, so a study session on the phone in
         # the meantime still serves the OLD order (this is what made the resort look
         # like it "didn't work" — it did, the push just lagged the study session).
-        if args.apply and not args.no_sync:
-            import os
+        # --db means "run against a scratch copy". Syncing one pushes that COPY's state to
+        # AnkiWeb, and the live collection then pulls it down: a test tag on 〇 reached the
+        # real collection this way on 2026-08-31. A scratch run never syncs.
+        # --db DEFAULTS to the live collection, so `if args.db` is always true. Compare
+        # the path: only a DIFFERENT path is a scratch target. The truthiness version of
+        # this check silently disabled syncing on real runs too.
+        scratch = os.path.abspath(args.db) != os.path.abspath(f"{ROOT}/collection.anki2")
+        if scratch and args.apply and not args.no_sync:
+            print("SYNC SKIPPED: --db points at a scratch copy; syncing it would push "
+                  "that copy to AnkiWeb. Pass --no-sync to silence this.")
+        if args.apply and not args.no_sync and not scratch:
+            # (os is imported at module level)
             auth_file = os.path.expanduser("~/.anki_auth")
             if not os.path.exists(auth_file):
                 print("SYNC SKIPPED: not logged in to AnkiWeb (~/.anki_auth missing). "
