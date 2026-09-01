@@ -50,11 +50,20 @@ class NewCardPlacement(CollectionTest):
         return self.tool_json("add_chinese_vocab", args)["note_id"]
 
     def test_a_new_note_lands_by_role_with_no_sweep(self):
+        # Absolute settledness stopped being true on 2026-09-01: merging the recognition
+        # decks made mined words a PRODUCTION source, so ~21 mature ones became
+        # releasable, and bot.GATE_DISABLED is what holds them. A new note is not
+        # responsible for that backlog, so the invariant is that it adds nothing to it.
+        def pending():
+            return [{k: r[k] for k in ("moved", "unsuspended", "suspended")}
+                    for r in self.gate_result(dry_run=True)]
+        before = pending()
         nid = self._add()
         placed = {o: self.col.decks.name(c.did) for o, c in self.cards_of(nid).items()}
         self.assertEqual(placed[0], decks.NEW_WORDS_DECK)
         self.assertEqual(placed[1], decks.name_of(decks.PRODUCTION))
-        self.assertGateSettled("a freshly created note must not need repairing")
+        self.assertEqual(pending(), before,
+                         "a freshly created note must not need repairing")
 
     def test_a_cloze_card_generated_later_lands_in_the_cloze_deck(self):
         """THE 65-CARD BUG. The cloze template is conditional on a field. Backfilling

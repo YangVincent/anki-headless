@@ -321,17 +321,24 @@ CLOZE_TEMPLATE = "Cloze-Recall"
 MATURE_IVL = 21
 
 
-#: Templates the maturity gate no longer releases. Vincent studies one direction:
+#: Templates the maturity gate no longer RELEASES. Vincent studies one direction:
 #: 19,675 of 19,924 reviews in 90 days were Chinese->English, against 154 speaking and
 #: 95 cloze. Both harder directions are off, and their cards stay suspended.
 #:
-#: This is the switch, NOT `gates=()` in decks.py. gate_source_ids() refuses an empty
-#: source list by design -- with no source deck, `mature` is empty and the gate would
-#: suspend every released card while reporting success. Turning it off has to be said
-#: here, where the rule runs.
+#: IT DISABLES THE RELEASE HALF ONLY. The gate still parks a new, never-studied card for
+#: an immature word, and still moves a gated card out of a study deck. That is not
+#: optional: add_chinese_vocab deliberately routes decks and does NOT suspend, because
+#: two systems writing one piece of state exposed 1,960 production and 1,902 cloze cards
+#: once already. The gate is the single owner of suspension. An early return here made
+#: every newly created production card arrive unsuspended, and the one-direction setting
+#: would have eroded one new word at a time.
 #:
-#: To turn a direction back on, remove its template from this set. Nothing else changes:
-#: the gate, the decks and the cards are all still in place.
+#: This is also why it is not `gates=()` in decks.py: gate_source_ids() refuses an empty
+#: source list, because with no source `mature` is empty and the gate would suspend every
+#: released card while reporting success.
+#:
+#: To turn a direction back on, remove its template from this set. The backlog it has
+#: been holding -- about 2,000 cloze and 21 production cards -- releases on the next run.
 GATE_DISABLED = frozenset({REVERSE_TEMPLATE, CLOZE_TEMPLATE})
 
 
@@ -339,8 +346,7 @@ def _apply_template_gate(col, template, role, dry_run=False):
     """Keep one ChineseVocabulary template's cards out of the study decks, and suspended
     until their word is known.
 
-    Returns an inert result for any template in GATE_DISABLED, before touching the
-    collection.
+    A template in GATE_DISABLED never releases, but is otherwise gated as normal.
 
     Four invariants:
       1. A gated card never sits in a study deck other than its own home deck.
@@ -368,13 +374,6 @@ def _apply_template_gate(col, template, role, dry_run=False):
     `production` in their `gates`. No deck name is passed in or read here.
     """
     home_name = decks.name_of(role)          # display only, for the returned report
-    if template in GATE_DISABLED:
-        # Same key names as a real run, so every caller can read the result without
-        # a special case; `disabled` is what tells them the counts mean "not looked at",
-        # not "nothing to do".
-        return {"template": template, "deck": home_name, "disabled": True,
-                "moved": 0, "unsuspended": 0, "suspended": 0,
-                "note": f"{template} is in GATE_DISABLED; nothing released or suspended"}
     cv = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
     if not cv:
         # A report dict, never None: _sync_gated_templates calls r.get("error"), so a
@@ -421,7 +420,10 @@ def _apply_template_gate(col, template, role, dry_run=False):
             # tear the card out of the session -- one run emptied a 20-card custom study
             # deck. Leave it; the session returns it to odid on its own.
             continue
-        releasing = nid in mature and queue == -1
+        # A disabled template never releases. Everything else about the gate still runs,
+        # so a new card is still parked and a stray card still leaves the study deck.
+        releasing = (nid in mature and queue == -1
+                     and template not in GATE_DISABLED)
         # A parked card moves ONLY on release. The old `or queue != -1` disjunct dragged
         # an unsuspended card out of the archive into a study deck even when its word was
         # nowhere near mature -- and with reps > 0 it landed live and due.
@@ -441,7 +443,8 @@ def _apply_template_gate(col, template, role, dry_run=False):
             col.sched.suspend_cards(to_suspend)
     return {"template": template, "deck": home_name, "mature_words": len(mature),
             "moved": len(to_move), "unsuspended": len(to_unsuspend),
-            "suspended": len(to_suspend)}
+            "suspended": len(to_suspend),
+            "releases_disabled": template in GATE_DISABLED}
 
 
 def apply_reverse_gate(col, dry_run=False):
@@ -3593,14 +3596,13 @@ def _sync_gated_templates():
                 # Loud, every run. A gate that quietly does nothing is the failure this
                 # whole rewrite exists to stop.
                 msgs.append(f"{r['deck']} gate NOT RUN — {r['error']}")
-            elif r.get("disabled"):
-                # Off on purpose, in GATE_DISABLED. Silent: the loud rule above is for a
-                # gate that FAILS, and a line every five minutes about a switch someone
-                # deliberately threw is the noise that makes real failures easy to miss.
-                pass
             elif r["moved"] or r["unsuspended"] or r["suspended"]:
+                # No special case for GATE_DISABLED: a disabled template still parks
+                # new cards, and that work is worth the same line as any other. Only the
+                # release half is off, and the suffix says so.
                 msgs.append(f"{r['deck']}: moved {r['moved']}, unsuspended "
-                            f"{r['unsuspended']}, suspended {r['suspended']}")
+                            f"{r['unsuspended']}, suspended {r['suspended']}"
+                            + (" (releases disabled)" if r.get("releases_disabled") else ""))
         # Its OWN try/except. The gate body below shares one handler that returns
         # "Template gates failed: ...", so a locked cache would report the maturity gate
         # as failed and hide its real result. The gate is the one part of this system

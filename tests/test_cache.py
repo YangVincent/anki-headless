@@ -136,13 +136,15 @@ class Derivation(unittest.TestCase):
         """`decks.name` carries Anki's `unicase` collation, so a raw connection cannot
         use WHERE or ORDER BY on it. Matching happens in Python, case-insensitively,
         because col.decks.id_for_name is case-insensitive."""
-        rows = [(1, "HSK"), (2, "hsk7-9"), (3, "Mined\x1f三体"), (4, "Archive"),
-                (5, "Default"), (6, "Nope")]
+        rec = decks.RECOGNITION_DECKS[0]
+        rows = [(1, rec), (2, rec.lower()), (3, f"{decks.NEW_WORDS_DECK}\x1f三体"),
+                (4, decks.ARCHIVE_DECK), (5, "Default"), (6, "Nope")]
         got = {name: role for name, role in decks.resolve_rows(rows).values()}
-        self.assertEqual(got["HSK"], decks.RECOGNITION)
-        self.assertEqual(got["hsk7-9"], decks.RECOGNITION)      # case-insensitive
-        self.assertEqual(got["Mined::三体"], decks.RECOGNITION)  # \x1f became ::
-        self.assertEqual(got["Archive"], decks.ARCHIVE)
+        self.assertEqual(got[rec], decks.RECOGNITION)
+        self.assertEqual(got[rec.lower()], decks.RECOGNITION)   # case-insensitive
+        self.assertEqual(got[f"{decks.NEW_WORDS_DECK}::三体"],
+                         decks.RECOGNITION)                     # \x1f became ::
+        self.assertEqual(got[decks.ARCHIVE_DECK], decks.ARCHIVE)
         self.assertEqual(got["Default"], decks.RESERVED)
         self.assertIsNone(got["Nope"], "an undeclared deck must not be given a role")
 
@@ -198,7 +200,10 @@ class BuiltCache(unittest.TestCase):
         """
         con = sqlite3.connect(str(cls.path))
         planted = {}
-        hsk = next(i for i, n in con.execute("select id, name from decks") if n == "HSK")
+        # From the registry: this said "HSK", which stopped existing on 2026-09-01 and
+        # took the whole fixture with it.
+        study = decks.RECOGNITION_DECKS[0]
+        hsk = next(i for i, n in con.execute("select id, name from decks") if n == study)
         rows = con.execute(
             "select c.id, n.id, n.flds from cards c join notes n on n.id = c.nid "
             "where c.did = ? and c.ord = 0 and c.queue != -1 limit 8", (hsk,)).fetchall()
@@ -296,7 +301,8 @@ class BuiltCache(unittest.TestCase):
         every notetype together inflated the HSK total from 4,343 to 4,859."""
         raw = sqlite3.connect(f"file:{self.path}?mode=ro", uri=True)
         try:
-            hsk = next(i for i, n in raw.execute("select id, name from decks") if n == "HSK")
+            study = decks.RECOGNITION_DECKS[0]
+            hsk = next(i for i, n in raw.execute("select id, name from decks") if n == study)
             cv = next(i for i, n in raw.execute("select id, name from notetypes")
                       if n == anki_cache.VOCAB_NOTETYPE)
             # The HOME deck, the same rule the cache uses: a card on loan to a filtered
@@ -308,12 +314,15 @@ class BuiltCache(unittest.TestCase):
                 "and c.ord=0 and n.mid=?", (hsk, cv)).fetchone()[0]
         finally:
             raw.close()
-        cached = anki_cache.deck_stats(self.con, ["HSK"])["HSK"]["total"]
+        rec = decks.RECOGNITION_DECKS[0]
+        cached = anki_cache.deck_stats(self.con, [rec])[rec]["total"]
         self.assertEqual(cached, direct)
 
     # ── the constructed states ────────────────────────────────────────
 
-    def _row(self, word, deck="HSK"):
+    def _row(self, word, deck=None):
+        # The default came from a literal "HSK"; the registry names the deck now.
+        deck = deck or decks.RECOGNITION_DECKS[0]
         row = self.con.execute(
             "select * from words where simplified=? and deck=?", (word, deck)).fetchone()
         self.assertIsNotNone(row, f"{word!r} is missing from {deck}")
@@ -483,12 +492,14 @@ class BuiltCache(unittest.TestCase):
             anki_cache.deck_words(self.con, "NoSuchDeck")
         with self.assertRaises(anki_cache.NotInCache):
             anki_cache.deck_stats(self.con, ["NoSuchDeck"])
-        self.assertIsInstance(anki_cache.deck_words(self.con, "HSK"), list)
+        self.assertIsInstance(
+            anki_cache.deck_words(self.con, decks.RECOGNITION_DECKS[0]), list)
 
     def test_a_missing_new_per_day_is_null_not_zero(self):
         """The dashboard computes PACE = limit || 0 and divides by max(1, rate), so a 0
         becomes a completion date thousands of days out instead of a visible gap."""
-        self.assertIsNone(anki_cache.deck_stats(self.con, ["HSK"])["HSK"]["new_per_day"])
+        rec = decks.RECOGNITION_DECKS[0]
+        self.assertIsNone(anki_cache.deck_stats(self.con, [rec])[rec]["new_per_day"])
 
     def test_the_cache_file_is_not_world_readable(self):
         """collection.anki2 is 0600 and this holds the same vocabulary. The umask is 0002
@@ -505,7 +516,7 @@ class Trigger(support.CollectionTest):
         """Acceptance: the cache rebuilds when col.mod changes, proven by mutating the
         collection and asserting the cache followed."""
         self.assertIsNotNone(anki_cache.poll(str(self.path), str(self.cache_path)))
-        cid = self.col.find_cards("deck:HSK -is:suspended")[0]
+        cid = self.col.find_cards(f"deck:{decks.RECOGNITION_DECKS[0]} -is:suspended")[0]
         word = anki_cache.canonical(self.col.get_card(cid).note().fields[0])
         self.col.sched.suspend_cards([cid])
         self.close()
@@ -514,8 +525,8 @@ class Trigger(support.CollectionTest):
                              "poll did not notice a write")
         con = self.cache()
         try:
-            row = con.execute("select blocked from words where simplified=? and deck='HSK'",
-                              (word,)).fetchone()
+            row = con.execute("select blocked from words where simplified=? and deck=?",
+                              (word, decks.RECOGNITION_DECKS[0])).fetchone()
             self.assertEqual(row["blocked"], "suspended")
             self.assertEqual(anki_cache.read_meta(con)["source_mod"],
                              anki_cache.source_mod(str(self.path)))
@@ -565,8 +576,8 @@ class Trigger(support.CollectionTest):
         """A rename is a schema change with no migration and no error. Four consumers
         hardcoded a deck name and three broke silently. The build must refuse rather than
         write a short table."""
-        did = decks.deck_id_by_name(self.col, "HSK")
-        self.col.decks.rename(self.col.decks.get(did), "HSK-renamed")
+        did = decks.deck_id_by_name(self.col, decks.RECOGNITION_DECKS[0])
+        self.col.decks.rename(self.col.decks.get(did), "Renamed-away")
         self.close()
         with self.assertRaises(decks.DeckMissing):
             self.build_cache()
@@ -575,11 +586,12 @@ class Trigger(support.CollectionTest):
         """Only the maturity-gate job can read Anki's deck-config protobuf, so a rebuild
         that emptied this table would publish new_per_day as absent for five minutes."""
         self.build_cache()
-        anki_cache.write_deck_limits({"HSK": 10}, str(self.cache_path))
+        rec = decks.RECOGNITION_DECKS[0]
+        anki_cache.write_deck_limits({rec: 10}, str(self.cache_path))
         self.build_cache()
         con = self.cache()
         try:
-            self.assertEqual(anki_cache.deck_stats(con, ["HSK"])["HSK"]["new_per_day"], 10)
+            self.assertEqual(anki_cache.deck_stats(con, [rec])[rec]["new_per_day"], 10)
         finally:
             con.close()
 

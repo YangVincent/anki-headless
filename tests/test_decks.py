@@ -19,30 +19,38 @@ class RoleResolution(CollectionTest):
     def test_subtrees_are_included(self):
         """`Mined` alone excluded Mined::三体 from the maturity query, so its cloze cards
         could never be released."""
-        self.col.decks.id("Mined::probe")
+        probe = f"{decks.NEW_WORDS_DECK}::probe"
+        self.col.decks.id(probe)
         ids = decks.deck_ids_for(self.col, decks.RECOGNITION)
-        self.assertIn(self.col.decks.id_for_name("Mined::probe"), ids)
+        self.assertIn(self.col.decks.id_for_name(probe), ids)
 
-    def test_hsk_does_not_subtree_match_hsk_7_9(self):
-        """`HSK` and `HSK7-9` are siblings. A prefix test without the separator would
-        merge two curricula."""
-        hsk = decks.deck_ids_for(self.col, decks.RECOGNITION)
-        self.assertIn(self.deck("HSK7-9"), hsk)          # by its own declaration
-        only_hsk = decks._subtree_ids(self.col, "HSK")
-        self.assertNotIn(self.deck("HSK7-9"), only_hsk)
+    def test_a_sibling_sharing_a_prefix_is_not_a_subtree(self):
+        """`HSK` and `HSK7-9` were siblings, and a prefix test without the `::`
+        separator merged two curricula. Both decks are gone -- they became `Main` on
+        2026-09-01 -- so the invariant is tested on probe decks instead. Testing it on
+        whatever decks happen to exist is what let it go untested the moment they were
+        renamed.
+        """
+        self.col.decks.id("ZProbe")
+        self.col.decks.id("ZProbe-sibling")
+        self.col.decks.id("ZProbe::child")
+        ids = decks._subtree_ids(self.col, "ZProbe")
+        self.assertIn(self.col.decks.id_for_name("ZProbe::child"), ids)
+        self.assertNotIn(self.col.decks.id_for_name("ZProbe-sibling"), ids)
 
     def test_case_insensitive_like_anki(self):
         """id_for_name is case-insensitive; a plain `==` disagreed with it, so the health
         check called the collection healthy while the gate refused to run."""
-        self.assertEqual(decks._subtree_ids(self.col, "hsk"),
-                         decks._subtree_ids(self.col, "HSK"))
-        self.assertTrue(decks._subtree_ids(self.col, "hsk"))
+        name = decks.RECOGNITION_DECKS[0]
+        self.assertEqual(decks._subtree_ids(self.col, name.lower()),
+                         decks._subtree_ids(self.col, name))
+        self.assertTrue(decks._subtree_ids(self.col, name.lower()))
 
     def test_a_missing_source_deck_raises_rather_than_shortening_the_list(self):
         """A silently short list let the gate act on half the data and suspend 83
         already-released cards."""
-        d = self.col.decks.get(self.deck("HSK7-9"))
-        self.col.decks.rename(d, "HSK 7-9")
+        d = self.col.decks.get(self.deck(decks.RECOGNITION_DECKS[0]))
+        self.col.decks.rename(d, "Renamed Away")
         with self.assertRaises(decks.DeckMissing):
             decks.deck_ids_for(self.col, decks.RECOGNITION)
         with self.assertRaises(decks.DeckMissing):
@@ -136,10 +144,11 @@ class DeckDriftIsNoticed(CollectionTest):
         import bot
         bot._last_deck_state = None
         self.assertIsNone(bot._check_decks(self.col), "a healthy collection says nothing")
-        self.col.decks.rename(self.col.decks.get(self.deck("HSK7-9")), "HSK 7-9")
+        gone = decks.RECOGNITION_DECKS[0]
+        self.col.decks.rename(self.col.decks.get(self.deck(gone)), "Renamed Away")
         msg = bot._check_decks(self.col)
         self.assertIn("MISSING", msg)
-        self.assertIn("HSK7-9", msg)
+        self.assertIn(gone, msg)
 
     def test_the_same_problem_is_not_repeated_every_cycle(self):
         import bot

@@ -196,8 +196,22 @@ class CollectionTest(unittest.TestCase):
         return row[0]
 
     def gate_result(self, dry_run=True):
-        return (bot.apply_reverse_gate(self.col, dry_run=dry_run),
-                bot.apply_cloze_gate(self.col, dry_run=dry_run))
+        """Run both gates with GATE_DISABLED lifted.
+
+        bot.GATE_DISABLED turns the release rule off for the live collection -- Vincent
+        studies one direction. It must not turn the TESTS off with it. Every invariant
+        below still has to hold, because removing a template from that set is one edit
+        and the rule has to be correct when it runs again. The archive guard in
+        particular is what made GATE_DISABLED the right switch rather than an empty
+        `gates` list, and a test that skips it guards nothing.
+        """
+        saved = bot.GATE_DISABLED
+        bot.GATE_DISABLED = frozenset()
+        try:
+            return (bot.apply_reverse_gate(self.col, dry_run=dry_run),
+                    bot.apply_cloze_gate(self.col, dry_run=dry_run))
+        finally:
+            bot.GATE_DISABLED = saved
 
     def assertGateSettled(self, msg=""):
         for r in self.gate_result(dry_run=True):

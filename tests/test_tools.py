@@ -45,11 +45,11 @@ class EveryToolRuns(CollectionTest):
         "unsuspend_cards": {"query": f"nid:{HSK_NOTE}"},
         "suspend_card_type": {"query": f"nid:{HSK_NOTE}", "template_name": "Cloze-Recall"},
         "unsuspend_card_type": {"query": f"nid:{HSK_NOTE}", "template_name": "Cloze-Recall"},
-        "move_cards": {"query": f"nid:{HSK_NOTE}", "deck": "Mined"},
+        "move_cards": {"query": f"nid:{HSK_NOTE}", "deck": decks.NEW_WORDS_DECK},
         "move_card_type": {"query": f"nid:{HSK_NOTE}", "template_name": "Hanzi-English",
-                           "deck": "Mined"},
+                           "deck": decks.NEW_WORDS_DECK},
         "delete_notes": {"query": "Simplified:说服"},
-        "add_general_card": {"front": "q", "back": "a", "deck": "Mined"},
+        "add_general_card": {"front": "q", "back": "a", "deck": decks.NEW_WORDS_DECK},
         "add_chinese_vocab": {"simplified": "测甲", "traditional": "測甲", "pinyin": "cè jiǎ",
                               "meaning": "test", "part_of_speech": "noun",
                               "sentence_simplified": "这是测甲。",
@@ -96,7 +96,7 @@ class Promotion(CollectionTest):
     def test_a_review_card_keeps_its_deck_and_its_schedule(self):
         """It used to write a queue position onto `due`, turning a card due in 9 days
         into one 250 days overdue, and pull it out of HSK."""
-        nid = self.a_note_with_ord0_in("HSK", queue=2)
+        nid = self.a_note_with_ord0_in(decks.RECOGNITION_DECKS[0], queue=2)
         before = self.cards_of(nid)[0]
         state = (before.did, before.due, before.ivl, before.type)
         self.tool("tag_notes", {"query": f"nid:{nid}", "tags": ["mined"]})
@@ -108,13 +108,13 @@ class Promotion(CollectionTest):
         # fixture that drifts into review makes this assert a day number against queue
         # positions. `type=0 AND ord=0` mirrors the MIN(due) the promotion itself takes,
         # so "front" means the same thing here and there.
-        nid = self.a_note_with_ord0_in("HSK", queue=0)
+        nid = self.a_note_with_ord0_in(decks.RECOGNITION_DECKS[0], queue=0)
         self.tool("tag_notes", {"query": f"nid:{nid}", "tags": ["mined"]})
         c0 = self.cards_of(nid)[0]
-        self.assertEqual(self.col.decks.name(c0.did), "HSK")
+        self.assertEqual(self.col.decks.name(c0.did), decks.RECOGNITION_DECKS[0])
         ahead = self.col.db.scalar(
             "SELECT count(*) FROM cards WHERE did=? AND type=0 AND ord=0 AND due<?",
-            self.deck("HSK"), c0.due)
+            self.deck(decks.RECOGNITION_DECKS[0]), c0.due)
         self.assertEqual(ahead, 0, "it should be first among HSK's new cards")
 
     def test_the_import_pool_is_skipped(self):
@@ -130,7 +130,7 @@ class DueSemantics(CollectionTest):
     UNIX TIMESTAMP on an intraday learning card. Mixing them cost a real schedule."""
 
     def test_refuses_to_write_a_position_onto_a_review_card(self):
-        c = self.cards_of(self.a_note_with_ord0_in("HSK", queue=2))[0]
+        c = self.cards_of(self.a_note_with_ord0_in(decks.RECOGNITION_DECKS[0], queue=2))[0]
         with self.assertRaises(ValueError):
             import_bot().set_new_card_position(self.col, c, -5)
 
@@ -139,7 +139,7 @@ class DueSemantics(CollectionTest):
         ends — while the caller reports "moved to the front"."""
         did = self.col.decks.new_filtered("DueProbe")
         d = self.col.decks.get(did)
-        d["terms"] = [['"deck:HSK" is:new', 5, 0]]
+        d["terms"] = [[f'"deck:{decks.RECOGNITION_DECKS[0]}" is:new', 5, 0]]
         self.col.decks.save(d)
         self.col.sched.rebuild_filtered_deck(did)
         cid = self.col.db.scalar("SELECT id FROM cards WHERE did=? LIMIT 1", did)
@@ -216,8 +216,17 @@ class PromotionOwnsNothing(CollectionTest):
     def test_promotion_leaves_the_collection_at_the_gate_fixed_point(self):
         """It used to suspend production and cloze cards itself, and the gate re-released
         them within 5 minutes."""
+        # Absolute settledness stopped being true on 2026-09-01: merging the recognition
+        # decks made mined words a PRODUCTION source, so ~21 mature ones became
+        # releasable and bot.GATE_DISABLED is what holds them. That backlog is not
+        # promotion's doing, so the invariant is that promotion does not ADD to it.
+        def pending():
+            return [{k: r[k] for k in ("moved", "unsuspended", "suspended")}
+                    for r in self.gate_result(dry_run=True)]
+        before = pending()
         self.tool("tag_notes", {"query": "nid:1537328242227", "tags": ["mined"]})
-        self.assertGateSettled("promotion must leave nothing for the gate to undo")
+        self.assertEqual(pending(), before,
+                         "promotion must leave nothing NEW for the gate to undo")
 
     def test_a_second_tag_is_not_written_onto_import_pool_notes(self):
         before = set(self.col.get_note(IMPORT_POOL).tags)
@@ -244,10 +253,15 @@ class CardStandingIsTheOrd0Card(CollectionTest):
         """The exact shape that caused the bug: ord 0 in rotation, a sibling still new
         and carrying a seven-digit `due`. Selected at run time -- pinning it to an id
         would encode a scheduling state the user changes by studying."""
+        # `s.queue=0` found this shape until 2026-09-01, when every production and cloze
+        # card was suspended -- so no sibling is queue=0 any more and the fixture found
+        # nothing. The SHAPE still matters: remove a template from bot.GATE_DISABLED and
+        # these siblings come back. So it is built here, on the copy, rather than found.
         row = self.col.db.first(
-            "SELECT c0.nid FROM cards c0 JOIN cards s ON s.nid=c0.nid AND s.ord!=0 "
-            "WHERE c0.ord=0 AND c0.queue=2 AND s.queue=0 AND s.due>1000000 LIMIT 1")
-        self.assertIsNotNone(row, "fixture: no reviewed note with a new seven-digit sibling")
+            "SELECT c0.nid, s.id FROM cards c0 JOIN cards s ON s.nid=c0.nid AND s.ord!=0 "
+            "WHERE c0.ord=0 AND c0.queue=2 AND s.type=0 AND s.due>1000000 LIMIT 1")
+        self.assertIsNotNone(row, "fixture: no reviewed note with a seven-digit sibling")
+        self.col.sched.unsuspend_cards([row[1]])
         return row[0]
 
     def a_note_with_a_suspended_new_sibling(self):
@@ -286,7 +300,7 @@ class CardStandingIsTheOrd0Card(CollectionTest):
                         "the rank must count the real queue, not the suspended archive")
 
     def test_rank_bounds_are_exact_at_both_ends_of_a_deck_queue(self):
-        did = self.deck("HSK")
+        did = self.deck(decks.RECOGNITION_DECKS[0])
         first = self.col.db.scalar(
             "SELECT nid FROM cards WHERE did=? AND queue=0 ORDER BY due ASC LIMIT 1", did)
         last = self.col.db.scalar(
@@ -296,7 +310,7 @@ class CardStandingIsTheOrd0Card(CollectionTest):
 
         def hsk_new(nid):
             return next(c for c in by_nid[nid]["card_states"]
-                        if c["deck"] == "HSK" and c["state"] == "new")
+                        if c["deck"] == decks.RECOGNITION_DECKS[0] and c["state"] == "new")
 
         self.assertEqual(hsk_new(first)["new_queue_rank"], 1)
         self.assertEqual(hsk_new(last)["new_queue_rank"], hsk_new(last)["new_queue_size"])

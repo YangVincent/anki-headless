@@ -90,12 +90,11 @@ try:
             print(f"  NOT RUN: {r['error']}")
             failed = True
             continue
-        if r.get("disabled"):
-            # bot.GATE_DISABLED holds this template. The gate returned before reading
-            # the collection, so there are no counts to print -- printing zeros here
-            # would read as "nothing needed releasing" rather than "nothing was looked at".
-            print(f"  DISABLED — {r.get('note', 'in bot.GATE_DISABLED')}")
-            continue
+        if r.get("releases_disabled"):
+            # bot.GATE_DISABLED holds this template, so it never unsuspends. It still
+            # parks new cards and still moves a stray card out of a study deck, and those
+            # counts below are real -- only `unsuspended` is pinned to zero by the flag.
+            print("  RELEASES DISABLED (bot.GATE_DISABLED) — parking still runs")
         print(f"  mature words across {sources}: {r['mature_words']}")
         print("  plan:" if not APPLY else "  applied:")
         print(f"     move into {home!r}              : {r['moved']}")

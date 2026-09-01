@@ -31,14 +31,17 @@ class GateInvariants(CollectionTest):
             setattr(card, k, v)
         self.col.update_card(card)
 
-    def _make_mature(self, nid, deck_name="HSK"):
+    def _make_mature(self, nid, deck_name=None):
+        # From the registry. The literal "HSK" outlived that deck by a day.
+        deck_name = deck_name or decks.RECOGNITION_DECKS[0]
         c0 = self.cards_of(nid)[0]
         self.col.set_deck([c0.id], self.deck(deck_name))
         c0 = self.cards_of(nid)[0]
         self._set(c0, type=2, queue=2, ivl=MATURE, due=self.col.sched.today + 1)
         return c0
 
-    def _make_immature(self, nid, deck_name="HSK"):
+    def _make_immature(self, nid, deck_name=None):
+        deck_name = deck_name or decks.RECOGNITION_DECKS[0]
         c0 = self.cards_of(nid)[0]
         self.col.set_deck([c0.id], self.deck(deck_name))
         c0 = self.cards_of(nid)[0]
@@ -50,7 +53,7 @@ class GateInvariants(CollectionTest):
         nid = self._vocab_note_with_production_card()
         self._make_mature(nid)
         c1 = self.cards_of(nid)[1]
-        self.col.set_deck([c1.id], self.deck("HSK"))
+        self.col.set_deck([c1.id], self.deck(decks.RECOGNITION_DECKS[0]))
         bot_gate = bot_reverse(self.col)
         self.assertGreaterEqual(bot_gate["moved"], 1)
         self.assertEqual(self.col.decks.name(self.cards_of(nid)[1].did),
@@ -61,7 +64,7 @@ class GateInvariants(CollectionTest):
         nid = self._vocab_note_with_production_card()
         self._make_immature(nid)
         c1 = self.cards_of(nid)[1]
-        self.col.set_deck([c1.id], self.deck("Archive"))
+        self.col.set_deck([c1.id], self.deck(decks.ARCHIVE_DECK))
         self.col.sched.suspend_cards([c1.id])
         before = (self.cards_of(nid)[1].did, self.cards_of(nid)[1].queue)
         bot_reverse(self.col)
@@ -72,7 +75,7 @@ class GateInvariants(CollectionTest):
         nid = self._vocab_note_with_production_card()
         self._make_mature(nid)
         c1 = self.cards_of(nid)[1]
-        self.col.set_deck([c1.id], self.deck("Archive"))
+        self.col.set_deck([c1.id], self.deck(decks.ARCHIVE_DECK))
         self.col.sched.suspend_cards([c1.id])
         r = bot_reverse(self.col)
         self.assertGreaterEqual(r["unsuspended"], 1)
@@ -83,9 +86,17 @@ class GateInvariants(CollectionTest):
     # ── invariant 3: a filtered deck is untouched ─────────────────────
     def test_a_card_on_loan_to_a_filtered_deck_is_untouched(self):
         """One run emptied a 20-card custom study session before this guard existed."""
+        # Every production card is suspended since 2026-09-01, and a filtered deck never
+        # gathers a suspended card -- so the fixture has to unsuspend one to have anything
+        # to lend. It does that on the COPY; support.py guards the real collection.
+        prod = decks.name_of(decks.PRODUCTION)
+        cid = self.col.db.scalar(f'SELECT id FROM cards WHERE did=? LIMIT 1',
+                                 self.deck(prod))
+        self.assertIsNotNone(cid, "fixture needs a production card")
+        self.col.sched.unsuspend_cards([cid])
         did = self.col.decks.new_filtered("GateProbe")
         d = self.col.decks.get(did)
-        d["terms"] = [[f'"deck:{decks.name_of(decks.PRODUCTION)}" is:due', 20, 0]]
+        d["terms"] = [[f'"deck:{prod}" -is:suspended', 20, 0]]
         self.col.decks.save(d)
         self.col.sched.rebuild_filtered_deck(did)
         n_before = self.col.db.scalar("SELECT count(*) FROM cards WHERE did=?", did)
@@ -120,8 +131,36 @@ class GateInvariants(CollectionTest):
 
 class GateConvergence(CollectionTest):
 
-    def test_the_live_collection_is_at_a_fixed_point(self):
-        self.assertGateSettled("the collection should already satisfy the gate")
+    def test_the_gate_parks_but_never_releases_while_disabled(self):
+        """GATE_DISABLED turns off the RELEASE half only, and that split is load-bearing.
+
+        Vincent studies one direction, so no card should ever be unsuspended into the
+        production or cloze decks again. But the gate must keep PARKING: add_chinese_vocab
+        routes decks and deliberately does not suspend, because two systems writing one
+        piece of state exposed 1,960 production and 1,902 cloze cards once already. An
+        early return here made every new production card arrive unsuspended, and the
+        setting would have eroded one new word at a time.
+
+        So: with the flag in force the collection is settled and nothing releases; lift it
+        and a backlog appears, which is the measure of what the flag is holding back.
+        """
+        # Called DIRECTLY, so the flag is in force. assertGateSettled() goes through
+        # gate_result(), which lifts it -- using that here would measure the wrong thing.
+        import bot as B
+        for gate in (B.apply_reverse_gate, B.apply_cloze_gate):
+            r = gate(self.col, dry_run=True)
+            self.assertTrue(r.get("releases_disabled"))
+            self.assertEqual(r["unsuspended"], 0, "a disabled template must never release")
+            self.assertEqual(r["moved"], 0,
+                             f"{r['deck']} wants to move {r['moved']} with releases off")
+
+        rev, clz = self.gate_result(dry_run=True)     # flag lifted
+        for r in (rev, clz):
+            self.assertFalse(r.get("error"), r.get("error"))
+            self.assertEqual(r["suspended"], 0,
+                             "the backlog must be releases, never new suspensions")
+        self.assertGreater(rev["unsuspended"] + clz["unsuspended"], 0,
+                           "if there is no backlog, the suspension has been undone")
 
     def test_idempotent_from_a_disturbed_state(self):
         """Run once from a mutated state, then again: the second run must be a no-op."""
@@ -130,7 +169,7 @@ class GateConvergence(CollectionTest):
             "SELECT c.nid FROM cards c JOIN notes n ON n.id=c.nid "
             "WHERE n.mid=? AND c.ord=1 LIMIT 1", cv)
         c1 = self.cards_of(nid)[1]
-        self.col.set_deck([c1.id], self.deck("HSK"))          # invariant 1 broken
+        self.col.set_deck([c1.id], self.deck(decks.RECOGNITION_DECKS[0]))  # invariant 1 broken
         first = bot_reverse(self.col)
         self.assertGreaterEqual(first["moved"], 1)
         second = bot_reverse(self.col)
@@ -147,5 +186,17 @@ class GateConvergence(CollectionTest):
 
 
 def bot_reverse(col, dry_run=False):
+    """The production gate, with GATE_DISABLED lifted for the duration.
+
+    Same reason as support.gate_result(): the flag turns the rule off for the LIVE
+    collection because Vincent studies one direction. It must not turn the tests off
+    with it -- every invariant below still has to hold, since removing a template from
+    that set is a one-line edit.
+    """
     import bot
-    return bot.apply_reverse_gate(col, dry_run=dry_run)
+    saved = bot.GATE_DISABLED
+    bot.GATE_DISABLED = frozenset()
+    try:
+        return bot.apply_reverse_gate(col, dry_run=dry_run)
+    finally:
+        bot.GATE_DISABLED = saved
