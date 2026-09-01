@@ -1,0 +1,1301 @@
+{
+ "note": "Words Vincent confirmed he reads without help, but which have no studied Anki card. anki_cache.known_words() cannot hold these: it is the dong contract for \"a card exists and is not new\", and tests/test_cache.py asserts it matches that definition exactly. This file is the separate fact -- knowledge without a card -- and freq_data/anki_coverage.py merges it when scoring a text.",
+ "schema": "entries[] = {word, source, date, zipf, card}",
+ "entries": [
+  {
+   "word": "一个",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 6.56,
+   "card": "none"
+  },
+  {
+   "word": "不是",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 6.1,
+   "card": "none"
+  },
+  {
+   "word": "不能",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.94,
+   "card": "none"
+  },
+  {
+   "word": "不会",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.84,
+   "card": "none"
+  },
+  {
+   "word": "这种",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.81,
+   "card": "none"
+  },
+  {
+   "word": "一种",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.61,
+   "card": "none"
+  },
+  {
+   "word": "一次",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.54,
+   "card": "none"
+  },
+  {
+   "word": "一点",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.51,
+   "card": "none"
+  },
+  {
+   "word": "一下",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.46,
+   "card": "none"
+  },
+  {
+   "word": "每个",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.37,
+   "card": "none"
+  },
+  {
+   "word": "几个",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.36,
+   "card": "none"
+  },
+  {
+   "word": "不到",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.28,
+   "card": "none"
+  },
+  {
+   "word": "看看",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.25,
+   "card": "none"
+  },
+  {
+   "word": "想要",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.24,
+   "card": "none"
+  },
+  {
+   "word": "每天",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.19,
+   "card": "none"
+  },
+  {
+   "word": "女孩",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.17,
+   "card": "none"
+  },
+  {
+   "word": "不想",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.15,
+   "card": "none"
+  },
+  {
+   "word": "第一次",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.15,
+   "card": "none"
+  },
+  {
+   "word": "不再",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.13,
+   "card": "queued"
+  },
+  {
+   "word": "有点",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.13,
+   "card": "none"
+  },
+  {
+   "word": "不了",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.12,
+   "card": "none"
+  },
+  {
+   "word": "变得",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.04,
+   "card": "none"
+  },
+  {
+   "word": "不可",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.01,
+   "card": "none"
+  },
+  {
+   "word": "几天",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 5.0,
+   "card": "none"
+  },
+  {
+   "word": "那种",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.98,
+   "card": "none"
+  },
+  {
+   "word": "不好",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.97,
+   "card": "none"
+  },
+  {
+   "word": "享受",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.95,
+   "card": "queued"
+  },
+  {
+   "word": "难以",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.95,
+   "card": "queued"
+  },
+  {
+   "word": "不知",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.93,
+   "card": "queued"
+  },
+  {
+   "word": "而已",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.91,
+   "card": "queued"
+  },
+  {
+   "word": "或是",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.89,
+   "card": "queued"
+  },
+  {
+   "word": "几年",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.88,
+   "card": "none"
+  },
+  {
+   "word": "一句",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.86,
+   "card": "none"
+  },
+  {
+   "word": "做出",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.86,
+   "card": "none"
+  },
+  {
+   "word": "就算",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.86,
+   "card": "queued"
+  },
+  {
+   "word": "之外",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.85,
+   "card": "queued"
+  },
+  {
+   "word": "小孩",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.84,
+   "card": "none"
+  },
+  {
+   "word": "所有人",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.8,
+   "card": "none"
+  },
+  {
+   "word": "每次",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.77,
+   "card": "none"
+  },
+  {
+   "word": "记忆",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.76,
+   "card": "queued"
+  },
+  {
+   "word": "年轻人",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.75,
+   "card": "none"
+  },
+  {
+   "word": "本地",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.75,
+   "card": "queued"
+  },
+  {
+   "word": "有所",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.74,
+   "card": "queued"
+  },
+  {
+   "word": "剩下",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.73,
+   "card": "queued"
+  },
+  {
+   "word": "回应",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.73,
+   "card": "queued"
+  },
+  {
+   "word": "而言",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.73,
+   "card": "none"
+  },
+  {
+   "word": "不该",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.72,
+   "card": "none"
+  },
+  {
+   "word": "一块",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.68,
+   "card": "none"
+  },
+  {
+   "word": "再也",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.67,
+   "card": "queued"
+  },
+  {
+   "word": "当天",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.67,
+   "card": "queued"
+  },
+  {
+   "word": "算是",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.67,
+   "card": "queued"
+  },
+  {
+   "word": "男孩",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.66,
+   "card": "none"
+  },
+  {
+   "word": "居然",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.64,
+   "card": "queued"
+  },
+  {
+   "word": "却是",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.61,
+   "card": "queued"
+  },
+  {
+   "word": "聊天",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.61,
+   "card": "none"
+  },
+  {
+   "word": "某种",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.6,
+   "card": "none"
+  },
+  {
+   "word": "再度",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.59,
+   "card": "queued"
+  },
+  {
+   "word": "干嘛",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.58,
+   "card": "none"
+  },
+  {
+   "word": "不停",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.57,
+   "card": "queued"
+  },
+  {
+   "word": "此后",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.57,
+   "card": "queued"
+  },
+  {
+   "word": "气氛",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.56,
+   "card": "queued"
+  },
+  {
+   "word": "说出",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.55,
+   "card": "none"
+  },
+  {
+   "word": "还好",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.55,
+   "card": "none"
+  },
+  {
+   "word": "那天",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.55,
+   "card": "none"
+  },
+  {
+   "word": "一会",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.54,
+   "card": "none"
+  },
+  {
+   "word": "他妈的",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.54,
+   "card": "none"
+  },
+  {
+   "word": "女友",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.54,
+   "card": "none"
+  },
+  {
+   "word": "昨晚",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.54,
+   "card": "none"
+  },
+  {
+   "word": "大事",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.51,
+   "card": "queued"
+  },
+  {
+   "word": "一对",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.5,
+   "card": "none"
+  },
+  {
+   "word": "几次",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.49,
+   "card": "none"
+  },
+  {
+   "word": "事儿",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.48,
+   "card": "none"
+  },
+  {
+   "word": "出于",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.48,
+   "card": "queued"
+  },
+  {
+   "word": "不准",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.46,
+   "card": "queued"
+  },
+  {
+   "word": "要么",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.46,
+   "card": "queued"
+  },
+  {
+   "word": "为此",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.44,
+   "card": "queued"
+  },
+  {
+   "word": "露出",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.44,
+   "card": "none"
+  },
+  {
+   "word": "一时",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.43,
+   "card": "queued"
+  },
+  {
+   "word": "回头",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.43,
+   "card": "queued"
+  },
+  {
+   "word": "不算",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.41,
+   "card": "queued"
+  },
+  {
+   "word": "别说",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.4,
+   "card": "queued"
+  },
+  {
+   "word": "一声",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.39,
+   "card": "none"
+  },
+  {
+   "word": "一遍",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.39,
+   "card": "none"
+  },
+  {
+   "word": "从不",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.39,
+   "card": "queued"
+  },
+  {
+   "word": "家伙",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.39,
+   "card": "queued"
+  },
+  {
+   "word": "第二天",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.39,
+   "card": "none"
+  },
+  {
+   "word": "有钱",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.38,
+   "card": "none"
+  },
+  {
+   "word": "喝酒",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.36,
+   "card": "none"
+  },
+  {
+   "word": "做爱",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.35,
+   "card": "none"
+  },
+  {
+   "word": "非要",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.35,
+   "card": "queued"
+  },
+  {
+   "word": "过后",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.34,
+   "card": "queued"
+  },
+  {
+   "word": "忍不住",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.33,
+   "card": "queued"
+  },
+  {
+   "word": "情人",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.33,
+   "card": "queued"
+  },
+  {
+   "word": "半个",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.32,
+   "card": "none"
+  },
+  {
+   "word": "同性",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.32,
+   "card": "none"
+  },
+  {
+   "word": "作爱",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.31,
+   "card": "none"
+  },
+  {
+   "word": "快点",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.31,
+   "card": "none"
+  },
+  {
+   "word": "开口",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.3,
+   "card": "queued"
+  },
+  {
+   "word": "也好",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.29,
+   "card": "queued"
+  },
+  {
+   "word": "女孩子",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.29,
+   "card": "none"
+  },
+  {
+   "word": "一一",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.28,
+   "card": "queued"
+  },
+  {
+   "word": "小子",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.28,
+   "card": "none"
+  },
+  {
+   "word": "眼光",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.28,
+   "card": "queued"
+  },
+  {
+   "word": "从来不",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.27,
+   "card": "queued"
+  },
+  {
+   "word": "开门",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.27,
+   "card": "none"
+  },
+  {
+   "word": "一眼",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.25,
+   "card": "queued"
+  },
+  {
+   "word": "可笑",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.25,
+   "card": "queued"
+  },
+  {
+   "word": "老子",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.24,
+   "card": "none"
+  },
+  {
+   "word": "说不定",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.24,
+   "card": "queued"
+  },
+  {
+   "word": "亲密",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.23,
+   "card": "queued"
+  },
+  {
+   "word": "嘴里",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.23,
+   "card": "none"
+  },
+  {
+   "word": "怎么回事",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.22,
+   "card": "none"
+  },
+  {
+   "word": "明明",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.22,
+   "card": "queued"
+  },
+  {
+   "word": "比起",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.22,
+   "card": "queued"
+  },
+  {
+   "word": "眼神",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.22,
+   "card": "queued"
+  },
+  {
+   "word": "醒来",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.21,
+   "card": "queued"
+  },
+  {
+   "word": "用力",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.19,
+   "card": "queued"
+  },
+  {
+   "word": "笑容",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.19,
+   "card": "queued"
+  },
+  {
+   "word": "长久",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.19,
+   "card": "queued"
+  },
+  {
+   "word": "放开",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.18,
+   "card": "none"
+  },
+  {
+   "word": "外表",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.17,
+   "card": "queued"
+  },
+  {
+   "word": "一头",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.14,
+   "card": "queued"
+  },
+  {
+   "word": "玩笑",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.13,
+   "card": "none"
+  },
+  {
+   "word": "气息",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.1,
+   "card": "queued"
+  },
+  {
+   "word": "刚一",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.09,
+   "card": "archive"
+  },
+  {
+   "word": "多余",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.09,
+   "card": "queued"
+  },
+  {
+   "word": "狠狠",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.09,
+   "card": "none"
+  },
+  {
+   "word": "有种",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.08,
+   "card": "none"
+  },
+  {
+   "word": "过往",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.08,
+   "card": "queued"
+  },
+  {
+   "word": "上床",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.06,
+   "card": "none"
+  },
+  {
+   "word": "本能",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.05,
+   "card": "queued"
+  },
+  {
+   "word": "老妈",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.03,
+   "card": "none"
+  },
+  {
+   "word": "轻轻",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.03,
+   "card": "none"
+  },
+  {
+   "word": "低头",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.02,
+   "card": "queued"
+  },
+  {
+   "word": "有事",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.02,
+   "card": "queued"
+  },
+  {
+   "word": "呵呵",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.01,
+   "card": "none"
+  },
+  {
+   "word": "紧紧",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.01,
+   "card": "queued"
+  },
+  {
+   "word": "面子",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.01,
+   "card": "queued"
+  },
+  {
+   "word": "心思",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.0,
+   "card": "queued"
+  },
+  {
+   "word": "说起",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 4.0,
+   "card": "none"
+  },
+  {
+   "word": "口气",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.97,
+   "card": "queued"
+  },
+  {
+   "word": "相爱",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.96,
+   "card": "none"
+  },
+  {
+   "word": "老爸",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.96,
+   "card": "none"
+  },
+  {
+   "word": "该死",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.96,
+   "card": "none"
+  },
+  {
+   "word": "停下",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.94,
+   "card": "queued"
+  },
+  {
+   "word": "心跳",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.94,
+   "card": "none"
+  },
+  {
+   "word": "猜想",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.94,
+   "card": "queued"
+  },
+  {
+   "word": "起身",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.94,
+   "card": "none"
+  },
+  {
+   "word": "非得",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.94,
+   "card": "queued"
+  },
+  {
+   "word": "爸妈",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.92,
+   "card": "none"
+  },
+  {
+   "word": "特地",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.87,
+   "card": "queued"
+  },
+  {
+   "word": "心底",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.86,
+   "card": "none"
+  },
+  {
+   "word": "脸色",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.86,
+   "card": "queued"
+  },
+  {
+   "word": "只得",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.84,
+   "card": "queued"
+  },
+  {
+   "word": "拉开",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.82,
+   "card": "queued"
+  },
+  {
+   "word": "有空",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.81,
+   "card": "none"
+  },
+  {
+   "word": "使劲",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.78,
+   "card": "queued"
+  },
+  {
+   "word": "好几年",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.74,
+   "card": "none"
+  },
+  {
+   "word": "病态",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.73,
+   "card": "none"
+  },
+  {
+   "word": "亲热",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.72,
+   "card": "queued"
+  },
+  {
+   "word": "大不了",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.72,
+   "card": "none"
+  },
+  {
+   "word": "怀里",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.72,
+   "card": "queued"
+  },
+  {
+   "word": "班上",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.69,
+   "card": "none"
+  },
+  {
+   "word": "要命",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.69,
+   "card": "queued"
+  },
+  {
+   "word": "阴暗",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.69,
+   "card": "queued"
+  },
+  {
+   "word": "下巴",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.68,
+   "card": "none"
+  },
+  {
+   "word": "追问",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.68,
+   "card": "queued"
+  },
+  {
+   "word": "新婚",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.66,
+   "card": "none"
+  },
+  {
+   "word": "活儿",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.65,
+   "card": "queued"
+  },
+  {
+   "word": "稍稍",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.65,
+   "card": "queued"
+  },
+  {
+   "word": "越发",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.65,
+   "card": "queued"
+  },
+  {
+   "word": "过不去",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.62,
+   "card": "queued"
+  },
+  {
+   "word": "时不时",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.61,
+   "card": "queued"
+  },
+  {
+   "word": "进门",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.6,
+   "card": "none"
+  },
+  {
+   "word": "飞速",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.53,
+   "card": "queued"
+  },
+  {
+   "word": "世界末日",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.52,
+   "card": "none"
+  },
+  {
+   "word": "大伙儿",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.51,
+   "card": "queued"
+  },
+  {
+   "word": "看不起",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.51,
+   "card": "queued"
+  },
+  {
+   "word": "冷笑",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.5,
+   "card": "queued"
+  },
+  {
+   "word": "低声",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.38,
+   "card": "queued"
+  },
+  {
+   "word": "不止一次",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.24,
+   "card": "archive"
+  },
+  {
+   "word": "待会儿",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.24,
+   "card": "queued"
+  },
+  {
+   "word": "一动不动",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.08,
+   "card": "queued"
+  },
+  {
+   "word": "苦笑",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.03,
+   "card": "queued"
+  },
+  {
+   "word": "门铃",
+   "source": "screen:十年",
+   "date": "2026-09-01",
+   "zipf": 3.02,
+   "card": "queued"
+  }
+ ]
+}
