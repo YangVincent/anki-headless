@@ -37,29 +37,28 @@ class Deck:
 
 
 # ── the list ──────────────────────────────────────────────────────────
-# Consolidated 2026-08-19, down from 26 decks. This is the whole collection.
+# Consolidated 2026-08-19 (26 decks -> 8), then again 2026-09-01 (8 -> 5). This is the
+# whole collection. `HSK`, `HSK7-9`, `non-HSK` and `Mined` all became `Main`: Vincent
+# studies one direction, so splitting the recognition role bought nothing and cost an
+# ordering rule per deck.
 DECKS = (
-    Deck("HSK", RECOGNITION, gates=(PRODUCTION, CLOZE),
-         note="HSK 3.0 levels 1-6. Single-character words excluded (studied in Hanly)."),
-    Deck("HSK7-9", RECOGNITION, gates=(PRODUCTION, CLOZE),
-         note="HSK 7-9."),
-    Deck("non-HSK", RECOGNITION, gates=(PRODUCTION, CLOZE),
-         note="Frequency-ordered vocabulary outside HSK 3.0."),
-    # Mined is a CLOZE source but not a PRODUCTION one. That asymmetry is a deliberate
-    # choice, not an oversight -- and writing it here is what makes it visible. Its
-    # consequence: all 446 production cards for mined words are unreleasable, wherever
-    # they sit (249 in Reverse, 197 still in Archive). Counting only the ones already in
-    # Reverse understated it.
-    Deck("Mined", RECOGNITION, gates=(CLOZE,), new_words=True,
-         note="Words added from anywhere that are not in HSK. New arrivals go to the front."),
+    # One recognition deck, and new words land in it. The `liked` / `next::` / `demoted`
+    # / `book::` tags carry the ordering that four decks used to carry; see
+    # freq_data/resort_main_queue.py.
+    Deck("Main", RECOGNITION, gates=(PRODUCTION, CLOZE), new_words=True,
+         legacy_names=("HSK", "HSK7-9", "non-HSK", "Mined", "Vocab"),
+         note="Every word, Chinese -> English. HSK 3.0 and everything outside it."),
+    # The gates stay DECLARED even though neither fires today. bot.GATE_DISABLED is the
+    # off switch; an empty `gates` here is not, because gate_source_ids() refuses an
+    # empty source list -- with no source, `mature` is empty and the gate would suspend
+    # every released card while reporting success.
     Deck("Reverse", PRODUCTION,
-         note="Production cards. Filled and suspended by the maturity gate, not by hand."),
+         note="Production cards. All suspended 2026-09-01; the gate no longer releases."),
     Deck("Cloze", CLOZE, legacy_names=("Vocab Cloze",),
-         note="Cloze cards. Filled and suspended by the maturity gate, not by hand."),
+         note="Cloze cards. All suspended 2026-09-01; the gate no longer releases."),
     Deck("Archive", ARCHIVE, legacy_names=("Hidden",),
-         note="Everything parked. Always suspended (0 of 213,434 live). 111,925 notes "
-              "have every card here; 66,382 of those are the user's own vocabulary, "
-              "character and sentence notes, which must be promoted, never re-created."),
+         note="Everything parked. Always suspended. Notes here must be promoted, "
+              "never re-created."),
     Deck("Default", RESERVED,
          note="0 cards. Anki reserves deck id 1 and will not let it be deleted."),
 )

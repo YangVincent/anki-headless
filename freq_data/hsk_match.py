@@ -27,6 +27,9 @@ that file exactly.
   hsk_match.py --apply         # via freq_data/anki_op.sh
   hsk_match.py --undo --apply  # replay the recorded snapshot
 """
+import sys
+sys.path.insert(0, "/home/vincent/anki-headless")
+import decks as deck_registry  # noqa: E402
 import argparse
 import json
 import re
@@ -48,7 +51,7 @@ HSK_TSV = Path("/home/vincent/chinese-projects/dong-chinese/server/app/data/hsk3
 # (see quarantine/README.md). Only membership was ever read from it here, so the fix was to
 # strip the corrupt columns rather than drop the file. Levels come from HSK_TSV alone.
 SUPPLEMENTARY_JSON = Path("/home/vincent/anki-headless/freq_data/supplementary_vocab.json")
-DECK = "HSK"
+DECK = deck_registry.RECOGNITION_DECKS[0]
 SWEEP_TAGS = ["parked::bound-character", "parked::studied-character",
               "parked::unseen-character", "parked::not-hsk-word"]
 HANZI = re.compile(r"^[一-鿿]$")

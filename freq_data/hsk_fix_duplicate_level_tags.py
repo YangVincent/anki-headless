@@ -8,7 +8,7 @@ stale extra one, so a handful of notes carry two levels at once:
     蓝    HSK::HSK2 + HSK::HSK7-9     official: level 2 only
     凉快  HSK::HSK2 + HSK::HSK4       official: level 2 only
 
-That matters because resort_hsk_queue.level_of() reads the tag, so a note claiming two
+That matters because resort_main_queue.level_of() reads the tag, so a note claiming two
 levels sorts by whichever it sees first. 96 HSK 3.0 words genuinely sit in two bands, and
 those are left alone — only tags OUTSIDE a word's official band(s) are removed.
 

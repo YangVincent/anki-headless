@@ -321,9 +321,26 @@ CLOZE_TEMPLATE = "Cloze-Recall"
 MATURE_IVL = 21
 
 
+#: Templates the maturity gate no longer releases. Vincent studies one direction:
+#: 19,675 of 19,924 reviews in 90 days were Chinese->English, against 154 speaking and
+#: 95 cloze. Both harder directions are off, and their cards stay suspended.
+#:
+#: This is the switch, NOT `gates=()` in decks.py. gate_source_ids() refuses an empty
+#: source list by design -- with no source deck, `mature` is empty and the gate would
+#: suspend every released card while reporting success. Turning it off has to be said
+#: here, where the rule runs.
+#:
+#: To turn a direction back on, remove its template from this set. Nothing else changes:
+#: the gate, the decks and the cards are all still in place.
+GATE_DISABLED = frozenset({REVERSE_TEMPLATE, CLOZE_TEMPLATE})
+
+
 def _apply_template_gate(col, template, role, dry_run=False):
     """Keep one ChineseVocabulary template's cards out of the study decks, and suspended
     until their word is known.
+
+    Returns an inert result for any template in GATE_DISABLED, before touching the
+    collection.
 
     Four invariants:
       1. A gated card never sits in a study deck other than its own home deck.
@@ -351,6 +368,13 @@ def _apply_template_gate(col, template, role, dry_run=False):
     `production` in their `gates`. No deck name is passed in or read here.
     """
     home_name = decks.name_of(role)          # display only, for the returned report
+    if template in GATE_DISABLED:
+        # Same key names as a real run, so every caller can read the result without
+        # a special case; `disabled` is what tells them the counts mean "not looked at",
+        # not "nothing to do".
+        return {"template": template, "deck": home_name, "disabled": True,
+                "moved": 0, "unsuspended": 0, "suspended": 0,
+                "note": f"{template} is in GATE_DISABLED; nothing released or suspended"}
     cv = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
     if not cv:
         # A report dict, never None: _sync_gated_templates calls r.get("error"), so a
@@ -2714,6 +2738,76 @@ async def handle_api_stats(request):
     return web.json_response(data, dumps=lambda o: json.dumps(o, ensure_ascii=False))
 
 
+def _tag_word_stats(tags):
+    """{tag: [{w, p, g, s}, ...]} — the words carrying each tag, with familiarity.
+
+    BY TAG, NOT BY DECK. The dashboard's word lists used to come from
+    /api/deck/{name}/words, which broke every time a deck was renamed. A tag survives a
+    deck merge; `set::emotions` and `book::十年` still name their sets after HSK, Mined
+    and non-HSK all became `Main`.
+
+    `s` uses the same encoding as the HSK levels: 2 mature, 1 seen but not solid, 0 has
+    a card never seen, -1 no live card at all. Suspended cards are ignored, so a word
+    whose only copy is parked reads as -1, exactly as it does on the HSK chart.
+    """
+    col = open_collection()
+    try:
+        archived = _archive_deck_ids(col)
+        live = {did for did, _ in col.db.all("SELECT id, name FROM decks")
+                if did not in archived}
+        rank = {"new": 0, "learning": 1, "young": 2, "mature": 3}
+        smap = {"mature": 2, "young": 1, "learning": 1, "new": 0}
+        cv = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
+        IX = {f["name"]: i for i, f in enumerate(cv["flds"])} if cv else {}
+
+        best = {}
+        for sfld, ctype, ivl, did in col.db.all(
+                "SELECT n.sfld, c.type, c.ivl, c.did FROM cards c JOIN notes n ON n.id=c.nid "
+                "WHERE c.ord=0 AND c.queue!=-1"):
+            if did not in live:
+                continue
+            st = ("mature" if ivl >= MATURE_IVL else "young") if ctype == 2 else \
+                 ("learning" if ctype in (1, 3) else "new")
+            if sfld not in best or rank[st] > rank[best[sfld]]:
+                best[sfld] = st
+
+        out = {}
+        for tag in tags:
+            words = []
+            for nid in col.find_notes(f'"tag:{tag}"'):
+                note = col.get_note(nid)
+                if note.note_type()["name"] != CHINESE_VOCAB_NOTETYPE:
+                    continue
+                w = strip_html(note.fields[0])
+                if not w:
+                    continue
+                words.append({"w": w,
+                              "p": strip_html(note.fields[IX.get("Pinyin", 1)]),
+                              "g": strip_html(note.fields[IX.get("Meaning", 2)])[:60],
+                              "s": smap.get(best.get(w), -1)})
+            # Solid first, then unseen: opening the list is usually to see what is left.
+            words.sort(key=lambda x: (x["s"], x["w"]))
+            out[tag] = words
+        return out
+    finally:
+        col.close()
+
+
+async def handle_api_tag_words(request):
+    """GET /api/tag-words?tags=set::emotions,book::十年 — word lists by tag."""
+    raw = request.query.get("tags", "")
+    tags = [t.strip() for t in raw.split(",") if t.strip()][:12]
+    if not tags:
+        return web.json_response({"error": "no tags given"}, status=400)
+    try:
+        data = await asyncio.to_thread(_tag_word_stats, tags)
+    except Exception as e:
+        log.warning(f"/api/tag-words: collection unavailable ({e})")
+        return web.json_response({"error": "collection locked"}, status=503)
+    return web.json_response({"sets": data},
+                             dumps=lambda o: json.dumps(o, ensure_ascii=False))
+
+
 async def handle_api_decks(request):
     """GET /api/decks — the deck list and what each deck is FOR.
 
@@ -2963,7 +3057,22 @@ def _hsk_level_stats():
                        "learning": counts["learning"], "new": counts["new"],
                        "none": counts["none"], "none_single": none_single,
                        "words": words})
-    return {"levels": levels}
+
+    # Everything you study that the HSK 3.0 list does not contain.
+    #
+    # ITS DENOMINATOR IS NOT THE SAME KIND OF THING, and the dashboard must not draw it
+    # as one more level. A level's denominator is the official list, so a word with no
+    # card counts as "none" and the bar answers "how much of HSK n do I know". There is
+    # no canonical list of non-HSK Chinese, so the only honest denominator here is the
+    # words you actually hold cards for. This bar answers "of the non-HSK words I am
+    # studying, how many are solid" -- a different question, and there is no "none"
+    # bucket because a word with no card cannot be counted.
+    official = {e["word"] for entries in vocab.values() for e in entries}
+    outside = collections.Counter(st for w, st in best.items() if w not in official)
+    non_hsk = {"total": sum(outside.values()),
+               "mature": outside["mature"], "young": outside["young"],
+               "learning": outside["learning"], "new": outside["new"]}
+    return {"levels": levels, "non_hsk": non_hsk}
 
 
 def _cached_hsk_level_stats():
@@ -3081,6 +3190,7 @@ def create_web_app():
     app.router.add_post('/api/sync', handle_api_sync)
     app.router.add_get('/api/decks', handle_api_decks)
     app.router.add_get('/api/hsk-levels', handle_api_hsk_levels)
+    app.router.add_get('/api/tag-words', handle_api_tag_words)
     app.router.add_get('/api/flagged', handle_api_flagged)
     app.router.add_get('/api/deck/{name}/words', handle_api_deck_words)
     app.router.add_post('/api/refresh', handle_api_refresh)
@@ -3483,6 +3593,11 @@ def _sync_gated_templates():
                 # Loud, every run. A gate that quietly does nothing is the failure this
                 # whole rewrite exists to stop.
                 msgs.append(f"{r['deck']} gate NOT RUN — {r['error']}")
+            elif r.get("disabled"):
+                # Off on purpose, in GATE_DISABLED. Silent: the loud rule above is for a
+                # gate that FAILS, and a line every five minutes about a switch someone
+                # deliberately threw is the noise that makes real failures easy to miss.
+                pass
             elif r["moved"] or r["unsuspended"] or r["suspended"]:
                 msgs.append(f"{r['deck']}: moved {r['moved']}, unsuspended "
                             f"{r['unsuspended']}, suspended {r['suspended']}")

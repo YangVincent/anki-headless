@@ -27,6 +27,9 @@ restores everything.
   leech_apply.py --apply        # via freq_data/anki_op.sh
   leech_apply.py --undo --apply # restore the original fields
 """
+import sys
+sys.path.insert(0, "/home/vincent/anki-headless")
+import decks as deck_registry  # noqa: E402
 import argparse
 import json
 from pathlib import Path
@@ -149,7 +152,7 @@ def main():
         spot = col.get_note(next(c["nid"] for c in cards if c["word"] == "然而"))
         assert "但是" in spot["Notes"], "contrast did not land on 然而"
         assert len(col.find_notes(f'tag:"{TAG_REWRITTEN}"')) == changed, "tag count mismatch"
-        active = len(col.find_cards('deck:"HSK" -is:suspended'))
+        active = len(col.find_cards(f'deck:"{deck_registry.RECOGNITION_DECKS[0]}" -is:suspended'))
         print(f"\nrewrote {changed} cards, parked {len(park_ids)} cards "
               f"({len(to_park)} characters)")
         print(f"HSK active cards now: {active}")

@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Promote 缘分 (HSK 7-9) out of Hidden::Personal into the HSK7-9 study deck.
+"""RETIRED 2026-09-01. It names a deck that no longer exists: `HSK`, `HSK7-9`,
+`non-HSK` and `Mined` all became `Main` that day. Kept as a record of what was done
+to the collection, not as a tool. Re-running it would resolve nothing and report
+success -- the exact failure freq_data/README.md warns about.
+
+Promote 缘分 (HSK 7-9) out of Hidden::Personal into the HSK7-9 study deck.
 
 It was the last multi-character HSK 3.0 word with no active card in a study deck: a
 ChineseVocabulary note tagged `personal`, living in Hidden::Personal. Its ord=0 card moves

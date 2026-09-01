@@ -29,7 +29,7 @@ Usage:
         op.plan("suspend", len(cids))
         if op.will_write:
             op.col.sched.suspend_cards(cids)
-            op.record("suspend_deck", note_ids, {"deck": "Mined"})
+            op.record("suspend_deck", note_ids, {"deck": decks.NEW_WORDS_DECK})
         op.check("cards left live", live_count, 0)
 """
 from __future__ import annotations

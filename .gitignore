@@ -65,6 +65,12 @@ freq_data/reader_lookups.jsonl
 freq_data/chars/
 freq_data/gen_fix/
 freq_data/gen_gaps/
+freq_data/gen/
+freq_data/gen_mined/
+# gen_coldwindow/ holds the assembled text of a copyrighted novel plus ~33MB of
+# cached pages from jjwxc, Douban and other hosts. It is regenerable from the
+# scripts and must not reach a remote.
+freq_data/gen_coldwindow/
 freq_data/ids/
 freq_data/mnem_batches_5/
 mnem_batches_5/

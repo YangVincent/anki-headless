@@ -21,6 +21,10 @@ Deliberately NOT touched:
 Usage: bash freq_data/anki_op.sh hsk-sentences freq_data/apply_hsk_sentences.py --apply
 """
 import argparse
+import sys
+
+sys.path.insert(0, "/home/vincent/anki-headless")
+import decks  # noqa: E402
 import json
 import re
 
@@ -40,7 +44,11 @@ def main():
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--entries", default="hsk_sentences.json",
                     help="authored sentences, relative to freq_data/")
-    ap.add_argument("--deck", default="HSK", help="deck checked by the final verification")
+    # Resolved from the registry, not spelled here. The literal "HSK" outlived the deck
+    # by a day when it became `Main`, and a stale default verifies nothing while looking
+    # like it verified everything.
+    ap.add_argument("--deck", default=decks.RECOGNITION_DECKS[0],
+                    help="deck checked by the final verification")
     args = ap.parse_args()
 
     entries = json.load(open(f"{ROOT}/freq_data/{args.entries}"))

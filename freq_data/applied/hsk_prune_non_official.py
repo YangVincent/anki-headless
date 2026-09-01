@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Move words that are not in HSK 3.0 out of the HSK / HSK7-9 decks.
+"""RETIRED 2026-09-01. It names a deck that no longer exists: `HSK`, `HSK7-9`,
+`non-HSK` and `Mined` all became `Main` that day. Kept as a record of what was done
+to the collection, not as a tool. Re-running it would resolve nothing and report
+success -- the exact failure freq_data/README.md warns about.
+
+Move words that are not in HSK 3.0 out of the HSK / HSK7-9 decks.
 
 Every one of the 1,062 offenders is present in the old hsk3_vocab.json, which listed 1,146
 words the official standard does not contain. The gap-filling scripts (hsk_gap_add.py,

@@ -21,6 +21,9 @@ What this does and does not touch:
   park_bound_chars.py --apply         # via freq_data/anki_op.sh
   park_bound_chars.py --undo --apply  # put them all back
 """
+import sys
+sys.path.insert(0, "/home/vincent/anki-headless")
+import decks as deck_registry  # noqa: E402
 import argparse
 import json
 import re
@@ -29,7 +32,7 @@ from anki_common import sync as _sync
 
 ROOT = Path("/home/vincent/anki-headless")
 COL = ROOT / "collection.anki2"
-DECK = "HSK"
+DECK = deck_registry.RECOGNITION_DECKS[0]
 TAG = "parked::bound-character"
 THRESHOLD = 4.0        # zipf standalone-word frequency; below this it is not a word
 HANZI = re.compile(r"^[一-鿿]$")

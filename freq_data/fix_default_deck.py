@@ -88,7 +88,7 @@ try:
             "SELECT MIN(due) FROM cards WHERE did=? AND type=0 AND ord=0", mined)
         hi = col.db.scalar(
             "SELECT MAX(due) FROM cards WHERE did=? AND type=0 AND ord=0", mined)
-        print(f"\n  'Mined' new queue currently spans positions {lo}..{hi}")
+        print(f"\n  {decks.NEW_WORDS_DECK!r} new queue currently spans positions {lo}..{hi}")
 
     if not APPLY:
         print("\nDRY RUN — nothing written. Add --apply to commit.")
@@ -107,7 +107,8 @@ try:
     if forward:
         r = col.sched.reposition_new_cards(forward, starting_from=1, step_size=1,
                                            randomize=False, shift_existing=False)
-        print(f"\nrepositioned {r.count} forward card(s) to the front of 'Mined'")
+        print(f"\nrepositioned {r.count} forward card(s) to the front of "
+              f"{decks.NEW_WORDS_DECK!r}")
 
     # ── verify before anki_op.sh restarts the bot ─────────────────────
     left = col.db.scalar("SELECT count(*) FROM cards WHERE did=?", DEFAULT_DID)

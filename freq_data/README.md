@@ -102,14 +102,14 @@ The bot also has a **`lookup_frequency`** tool (`bot.freq_tier()`) — ask it ho
 (very common → rare).
 ```bash
 # periodically re-sort the backbone by frequency; 'mined' cards stay pinned at the front
-bash freq_data/anki_op.sh resort freq_data/resort_hsk_queue.py --apply
+bash freq_data/anki_op.sh resort-main freq_data/resort_main_queue.py --apply
 # (resort_vocab.py is retired to freq_data/applied/ — it re-sorted the `Vocab` deck,
-#  which became HSK / HSK7-9 / non-HSK. resort_hsk_queue.py is the canonical re-sort.)
+#  which became HSK / HSK7-9 / non-HSK. resort_main_queue.py is the canonical re-sort.)
 ```
 
 ### HSK / HSK7-9 new-queue order (canonical)
 ```bash
-bash freq_data/anki_op.sh resort-hsk freq_data/resort_hsk_queue.py --apply
+bash freq_data/anki_op.sh resort-main freq_data/resort_main_queue.py --apply
 ```
 The rule (2026-07-09): **words by HSK level, then by zipf frequency descending within the
 level; every single-character card immediately before the first word that uses it.**

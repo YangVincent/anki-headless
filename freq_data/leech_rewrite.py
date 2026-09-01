@@ -22,6 +22,9 @@ reading them.
 
   leech_rewrite.py [--min-lapses 3] [--out freq_data/leech_rewrite.json]
 """
+import sys
+sys.path.insert(0, "/home/vincent/anki-headless")
+import decks as deck_registry  # noqa: E402
 import argparse
 import json
 import re
@@ -34,7 +37,7 @@ ROOT = Path("/home/vincent/anki-headless")
 CONFIG = json.loads((ROOT / ".bot_config.json").read_text())
 MODEL = "claude-opus-5"
 BATCH = 20
-DECK = "HSK"
+DECK = deck_registry.RECOGNITION_DECKS[0]
 
 PROMPT = """These are Chinese flashcards that a learner keeps failing — each has lapsed
 several times. He is a heritage speaker: he reads almost all characters fluently and his

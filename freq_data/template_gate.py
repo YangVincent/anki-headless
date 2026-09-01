@@ -90,6 +90,12 @@ try:
             print(f"  NOT RUN: {r['error']}")
             failed = True
             continue
+        if r.get("disabled"):
+            # bot.GATE_DISABLED holds this template. The gate returned before reading
+            # the collection, so there are no counts to print -- printing zeros here
+            # would read as "nothing needed releasing" rather than "nothing was looked at".
+            print(f"  DISABLED — {r.get('note', 'in bot.GATE_DISABLED')}")
+            continue
         print(f"  mature words across {sources}: {r['mature_words']}")
         print("  plan:" if not APPLY else "  applied:")
         print(f"     move into {home!r}              : {r['moved']}")

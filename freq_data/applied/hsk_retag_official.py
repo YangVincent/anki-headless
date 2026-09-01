@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Re-tag HSK::HSKn on the HSK / HSK7-9 decks from the official HSK 3.0 list.
+"""RETIRED 2026-09-01. It names a deck that no longer exists: `HSK`, `HSK7-9`,
+`non-HSK` and `Mined` all became `Main` that day. Kept as a record of what was done
+to the collection, not as a tool. Re-running it would resolve nothing and report
+success -- the exact failure freq_data/README.md warns about.
+
+Re-tag HSK::HSKn on the HSK / HSK7-9 decks from the official HSK 3.0 list.
 
 The old tags came from hsk3_vocab.json, whose Level column was desynchronised by the PDF
 parse that produced it (see build_hsk30_official.py). Restricted to HSK 1-6 it had the

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Delete the 10 mined single-character cards that duplicate an existing HSK character card.
+"""RETIRED 2026-09-01. Its premise is gone: it deleted a mined character card only when
+the same character had an active card OUTSIDE `Mined`, and `Mined` was merged into `Main`
+that day, so there is no outside. The 10 cards it was written for were removed in June.
+
+Delete the 10 mined single-character cards that duplicate an existing HSK character card.
 
 Root cause was mine_shuihu.py's dedup only checking ChineseVocabulary-in-Vocab, so single
 characters that already had a ChineseCharacters card in HSK got a duplicate mined vocab card

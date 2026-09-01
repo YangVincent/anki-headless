@@ -2,7 +2,8 @@
 """Refit FSRS to the HSK deck's own review history, and lower the retention target.
 
 Two changes, HSK preset only:
-  * fsrsParams6 refitted on preset:"HSK" review history (the optimizer is re-run here
+  * fsrsParams6 refitted on the review history of whatever preset the recognition
+    deck uses (the optimizer is re-run here
     rather than pasting numbers in, so the change is reproducible)
   * desiredRetention 0.93 -> 0.90
 
@@ -20,6 +21,9 @@ hard words can actually be measured later instead of guessed at.
   fsrs_tune.py --apply             # via freq_data/anki_op.sh
   fsrs_tune.py --report            # re-measure and compare to the baseline
 """
+import sys
+sys.path.insert(0, "/home/vincent/anki-headless")
+import decks as deck_registry  # noqa: E402
 import argparse
 import copy
 import json
@@ -29,8 +33,10 @@ from pathlib import Path
 
 ROOT = Path("/home/vincent/anki-headless")
 COL = ROOT / "collection.anki2"
-PRESET = "HSK"
-DECK = "HSK"
+# The preset and the deck are resolved, never spelled. Both were renamed to `Main` on
+# 2026-09-01, and a stale literal here would refit nothing while reporting success.
+DECK = deck_registry.RECOGNITION_DECKS[0]
+
 NEW_RETENTION = 0.90
 BASELINE = ROOT / "freq_data/fsrs_baseline.json"
 
@@ -135,12 +141,17 @@ def main():
             return
 
         cfg = col.decks.config_dict_for_deck_id(col.decks.id_for_name(DECK))
-        assert cfg["name"] == PRESET, f"expected the {PRESET} preset, got {cfg['name']}"
+        # The preset comes FROM the deck, not from a constant. It used to be asserted
+        # against a literal "HSK"; that literal named a preset renamed to `Main` on
+        # 2026-09-01, so the assert would have stopped the refit rather than doing it.
+        # Reading it from the deck cannot go stale, and printing it keeps the operator
+        # able to see which history is about to be fitted.
+        preset = cfg["name"]
         before = copy.deepcopy(cfg)
 
-        print("refitting on preset:\"HSK\" review history …")
+        print(f'refitting on preset:"{preset}" review history — the preset {DECK!r} uses …')
         res = col._backend.compute_fsrs_params(
-            search=f'preset:"{PRESET}"', current_params=list(cfg["fsrsParams6"]),
+            search=f'preset:"{preset}"', current_params=list(cfg["fsrsParams6"]),
             ignore_revlogs_before_ms=0,
             num_of_relearning_steps=len(cfg["lapse"]["delays"]), health_check=True)
         if not res.health_check_passed:

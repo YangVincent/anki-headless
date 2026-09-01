@@ -26,6 +26,9 @@ left in place, just muted.
   unify_presets.py --apply        # via freq_data/anki_op.sh
   unify_presets.py --undo --apply # restore each deck's previous preset
 """
+import sys
+sys.path.insert(0, "/home/vincent/anki-headless")
+import decks as deck_registry  # noqa: E402
 import argparse
 import json
 from pathlib import Path
@@ -33,7 +36,7 @@ from anki_common import sync as _sync
 
 ROOT = Path("/home/vincent/anki-headless")
 COL = ROOT / "collection.anki2"
-TARGET = "HSK"
+TARGET = deck_registry.RECOGNITION_DECKS[0]
 BACKUP = ROOT / "freq_data/preset_backup.json"
 
 
