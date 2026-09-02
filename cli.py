@@ -414,21 +414,80 @@ def cmd_import(args):
         col.close()
 
 
-def cmd_export(args):
-    col = open_collection(args.collection)
+def snapshot_collection(path: str) -> str:
+    """Copy the collection to a temp file and return the new path.
+
+    Export must not open the live collection. anki-bot holds it open at all times, and
+    `Collection()` takes a write lock, upgrades the schema and rewrites the WAL even when
+    the caller only reads. A share-a-deck operation has no business doing any of that. The
+    sqlite backup API gives a consistent copy including uncommitted WAL pages, which a
+    plain file copy does not.
+    """
+    import sqlite3
+    import tempfile
+    fd, out = tempfile.mkstemp(prefix="anki-export-", suffix=".anki2")
+    os.close(fd)
+    os.unlink(out)                       # sqlite wants to create it itself
+    src = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
+    dst = sqlite3.connect(out)
     try:
-        from anki.exporting import AnkiPackageExporter
-        exp = AnkiPackageExporter(col)
+        src.backup(dst)
+    finally:
+        dst.close()
+        src.close()
+    return out
+
+
+def cmd_export(args):
+    from anki.collection import NoteIdsLimit
+    from anki.import_export_pb2 import ExportAnkiPackageOptions
+
+    path = args.collection if args.live else snapshot_collection(args.collection)
+    col = open_collection(path)
+    try:
+        if args.deck and args.search:
+            print("Give --deck or --search, not both.", file=sys.stderr)
+            sys.exit(1)
         if args.deck:
-            did = col.decks.id_for_name(args.deck)
-            if not did:
+            if not col.decks.id_for_name(args.deck):
                 print(f"Deck not found: {args.deck}", file=sys.stderr)
                 sys.exit(1)
-            exp.did = did
-        exp.exportInto(args.file)
-        print(f"Exported to: {args.file}")
+            query = f'deck:"{args.deck}"'
+        else:
+            query = args.search or ""      # empty query matches the whole collection
+
+        nids = list(col.find_notes(query))
+        if not nids:
+            print(f"No notes match: {query!r}", file=sys.stderr)
+            sys.exit(1)
+
+        opts = ExportAnkiPackageOptions(
+            with_scheduling=args.scheduling,
+            with_deck_configs=args.deck_configs,
+            with_media=args.media,
+            legacy=False,
+        )
+        # NoteIdsLimit MUST be the dataclass from anki.collection, not the protobuf
+        # message of the same shape. anki.collection.pb_export_limit() type-checks with
+        # isinstance and its `else` branch is `whole_collection` -- so the wrong type
+        # exports all 122k notes silently, with no error and a plausible-looking file.
+        assert isinstance(limit := NoteIdsLimit(note_ids=nids), NoteIdsLimit)
+        n = col.export_anki_package(out_path=args.file, options=opts, limit=limit)
+        size = os.path.getsize(args.file) / 1e6
+        print(f"Exported {n} notes ({len(col.find_cards(query))} cards) "
+              f"to {args.file} — {size:.1f} MB")
+        print(f"  query          {query!r}")
+        print(f"  scheduling     {'kept' if args.scheduling else 'stripped'}")
+        print(f"  deck presets   {'kept' if args.deck_configs else 'stripped'}")
+        print(f"  media          {'included' if args.media else 'not included'}")
     finally:
         col.close()
+        if not args.live:
+            for suffix in ("", "-wal", "-shm"):
+                try:
+                    os.unlink(path + suffix)
+                except OSError:
+                    pass
 
 
 # ── Stats command ──────────────────────────────────────────────────────
@@ -654,7 +713,24 @@ def build_parser():
     # export
     exp_p = sub.add_parser("export", help="Export to .apkg file")
     exp_p.add_argument("file")
-    exp_p.add_argument("--deck", "-d")
+    exp_p.add_argument("--deck", "-d", help='One deck, e.g. --deck Main')
+    exp_p.add_argument("--search", "-s",
+                       help='Any Anki search, e.g. --search "tag:HSK::HSK3". '
+                            'Omit both --deck and --search to export everything.')
+    # Sharing a deck is the normal case, so the defaults suit a stranger, not a backup.
+    # Scheduling, presets and suspension are all personal: an FSRS preset fitted to one
+    # person's reviews mis-schedules everyone else, and a card this collection suspends
+    # is not a card the recipient should never see.
+    exp_p.add_argument("--scheduling", action="store_true",
+                       help="Keep due dates, intervals, lapses and suspension "
+                            "(default: every card arrives new)")
+    exp_p.add_argument("--deck-configs", action="store_true",
+                       help="Keep deck presets, including tuned FSRS parameters")
+    exp_p.add_argument("--media", action="store_true",
+                       help="Bundle referenced media (this collection stores none)")
+    exp_p.add_argument("--live", action="store_true",
+                       help="Read collection.anki2 directly instead of a snapshot. "
+                            "Takes a write lock; do not use while anki-bot runs.")
 
     # stats
     sub.add_parser("stats", help="Show collection stats")
