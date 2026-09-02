@@ -24,6 +24,7 @@ import anthropic
 import httpx
 
 import anki_cache           # the derived read cache. The bot is its only writer.
+import anki_sync            # sync + a log line that says what actually moved
 import decks                # the deck list, by role. No deck-name literals below this.
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
@@ -167,23 +168,14 @@ def _sync_collection():
     col = None
     try:
         col = open_collection()
-        result = col.sync_collection(auth, sync_media=False)
-        if result.new_endpoint:
-            auth.endpoint = result.new_endpoint
+        # anki_sync.sync counts the unsent rows BEFORE the call, so the log says what
+        # moved. result.required alone is the state AFTER the sync, and reporting it as
+        # "no changes needed" made a sync that uploaded 602 notes read as an idle one.
+        endpoint_before = auth.endpoint
+        message = anki_sync.sync(col, auth, media=False)
+        if auth.endpoint != endpoint_before:
             save_anki_auth(auth.hkey, auth.endpoint)
-
-        NO_CHANGES = 0
-        NORMAL_SYNC = 1
-        FULL_SYNC = 2
-
-        if result.required == NO_CHANGES:
-            return "Synced (no changes needed)"
-        elif result.required == NORMAL_SYNC:
-            return "Synced"
-        elif result.required == FULL_SYNC:
-            return "Full sync required — resolve manually with anki-cli sync"
-        else:
-            return f"Synced (status: {result.required})"
+        return message
     except Exception as e:
         return f"Sync failed: {e}"
     finally:
@@ -3652,9 +3644,12 @@ async def periodic_sync(context):
             log.error(f"Periodic {label} raised: {type(e).__name__}: {e}")
             continue
         if result:
-            # A failure comes back as a STRING ("Sync failed: ..."), so logging every
-            # result at INFO reported a persistent outage as routine.
-            bad = any(w in str(result).lower() for w in ("failed", "not run", "error"))
+            # Severity comes from the result, not from searching its text. The old
+            # substring check flagged any message containing "error"/"pending", so the
+            # healthy line "nothing left pending" logged as an ERROR. A result that
+            # carries `ok` is authoritative; only a plain string still needs the guess.
+            bad = (not result.ok) if hasattr(result, "ok") else \
+                any(w in str(result).lower() for w in ("failed", "not run", "error"))
             (log.error if bad else log.info)(f"Periodic {label}: {result}")
 
 

@@ -567,13 +567,20 @@ def cmd_sync(args):
         FULL_DOWNLOAD = 3
         FULL_UPLOAD = 4
 
-        # Always call sync_collection first to get endpoint and server info
+        # Always call sync_collection first to get endpoint and server info.
+        # anki_sync counts the unsent rows BEFORE the call. `result.required` is the
+        # state AFTER it, so printing that alone said "no changes needed" for a sync
+        # that had just uploaded 602 notes.
         print("Syncing...")
+        import anki_sync
+        outgoing = anki_sync.pending(col)
+        endpoint_before = auth.endpoint
         result = col.sync_collection(auth, sync_media=False)
 
         # Update auth with new endpoint if provided
         if result.new_endpoint:
             auth.endpoint = result.new_endpoint
+        if auth.endpoint != endpoint_before:
             save_auth(auth.hkey, auth.endpoint)
 
         server_msg = result.server_message
@@ -582,10 +589,16 @@ def cmd_sync(args):
 
         changes = result.required
 
-        if changes == NO_CHANGES:
-            print("Already in sync, no changes needed.")
-        elif changes == NORMAL_SYNC:
-            print("Sync complete.")
+        if changes in (NO_CHANGES, NORMAL_SYNC):
+            left = anki_sync.pending(col)
+            print(f"Sent {anki_sync.describe(outgoing)}." if outgoing
+                  else "Sent nothing — already in sync.")
+            if left:
+                print(f"  STILL PENDING: {anki_sync.describe(left)}")
+            elif changes == NORMAL_SYNC:
+                print("  The server reports more to apply.")
+            else:
+                print("  Nothing left pending.")
         elif changes == FULL_SYNC:
             print("Full sync required.")
             if args.upload:

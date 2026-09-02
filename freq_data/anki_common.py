@@ -35,7 +35,17 @@ def off_main(fn, *args, **kwargs):
 
 
 def sync(col, *, media: bool = False) -> None:
-    """Push the collection to AnkiWeb and print a one-line status."""
+    """Push the collection to AnkiWeb and print a one-line status.
+
+    The status used to come from `out.required`, which is the state AFTER the sync. It
+    printed "nothing further to send" for a sync that had just uploaded everything, so
+    the line could not tell a busy sync from an idle one. anki_sync counts the unsent
+    rows first and reports both halves.
+    """
+    import sys
+    from pathlib import Path as _Path
+    sys.path.insert(0, str(_Path(__file__).resolve().parent.parent))
+    import anki_sync
     from anki.sync import SyncAuth
 
     cred = json.loads(AUTH_FILE.read_text())
@@ -43,7 +53,4 @@ def sync(col, *, media: bool = False) -> None:
     auth.hkey = cred["hkey"]
     if cred.get("endpoint"):
         auth.endpoint = cred["endpoint"]
-    out = off_main(col.sync_collection, auth, sync_media=media)
-    print("sync: " + {0: "nothing further to send", 1: "changes uploaded",
-                      2: "FULL SYNC REQUIRED — resolve by hand"}
-          .get(out.required, f"status {out.required}"))
+    print("sync: " + off_main(anki_sync.sync, col, auth, media=media))
