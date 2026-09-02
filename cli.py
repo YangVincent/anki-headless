@@ -7,6 +7,7 @@ import json
 import os
 import re
 import sys
+import threading
 import time
 
 DEFAULT_COLLECTION = "/home/vincent/anki-headless/collection.anki2"
@@ -472,7 +473,26 @@ def cmd_export(args):
         # isinstance and its `else` branch is `whole_collection` -- so the wrong type
         # exports all 122k notes silently, with no error and a plausible-looking file.
         assert isinstance(limit := NoteIdsLimit(note_ids=nids), NoteIdsLimit)
-        n = col.export_anki_package(out_path=args.file, options=opts, limit=limit)
+        # Off the main thread. anki/_backend.py prints a full stack trace for any backend
+        # call that holds the main thread over 0.2s, to protect a UI thread this CLI does
+        # not have. A 46k-note export takes a second, so the useful output arrived buried
+        # under two tracebacks. Same reason and same fix as freq_data/anki_common.off_main,
+        # inlined because freq_data is not an importable package.
+        box = {}
+
+        def _run():
+            try:
+                box["v"] = col.export_anki_package(
+                    out_path=args.file, options=opts, limit=limit)
+            except BaseException as exc:  # re-raised on this thread below
+                box["e"] = exc
+
+        t = threading.Thread(target=_run, name="anki-export")
+        t.start()
+        t.join()
+        if "e" in box:
+            raise box["e"]
+        n = box["v"]
         size = os.path.getsize(args.file) / 1e6
         print(f"Exported {n} notes ({len(col.find_cards(query))} cards) "
               f"to {args.file} — {size:.1f} MB")
