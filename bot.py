@@ -4,6 +4,7 @@
 import asyncio
 import base64
 import collections
+import html
 import json
 import sqlite3
 import logging
@@ -184,7 +185,23 @@ def _sync_collection():
 
 
 def strip_html(text):
-    return re.sub(r"<[^>]+>", "", text)
+    """Field HTML to plain text. Strips tags, THEN decodes entities.
+
+    The decode step was missing, so a Meaning of "ugly, hideous&nbsp;" reached the
+    dashboard as the literal seven characters "&nbsp;" and rendered that way. Removing
+    tags is only half of "make this readable"; an entity is markup too.
+
+    Order matters and is not interchangeable. Unescaping first would turn a field
+    containing the literal text "&lt;br&gt;" into "<br>", which the tag regex would then
+    delete -- silently dropping text the writer meant to keep. Stripping first leaves it
+    visible as "<br>", which is what was typed.
+
+    NBSP folds to a plain space and the result is stripped, matching what the freq_data
+    scripts already do. Left as U+00A0 it is invisible but real: "ugly, hideous&nbsp;"
+    would decode to a value with a trailing character no reader can see and no `.strip()`
+    removes.
+    """
+    return html.unescape(re.sub(r"<[^>]+>", "", text or "")).replace("\xa0", " ").strip()
 
 
 async def send_long_message(message, text, parse_mode=None):
