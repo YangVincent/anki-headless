@@ -2521,11 +2521,19 @@ def _stats_day(ts_s):
     return time.strftime("%Y-%m-%d", time.gmtime(ts_s - PDT_OFFSET))
 
 
-def _stats_progression(col, deck_ids, cv_id, now):
-    """Weekly card-maturity composition, reconstructed from the review log.
+#: One point per day. It was 7. A week hides the shape the chart exists to show -- a
+#: three-day gap and the catch-up after it collapse into one flat step, and a single week
+#: is one pixel of a nine-month series. Measured on the real collection: 268 daily buckets
+#: cost 0.37s against 0.05s for 39 weekly ones, over 16,990 review rows and 2,735 cards.
+#: The result is cached for STATS_CACHE_TTL either way, so the browser never waits for it.
+PROGRESSION_STEP_S = 86400
 
-    Ported unchanged from build_stats._progression (see there for the full
-    rationale); deck_ids/cv_id are already resolved ints here."""
+
+def _stats_progression(col, deck_ids, cv_id, now):
+    """Daily card-maturity composition, reconstructed from the review log.
+
+    Ported from build_stats._progression (see there for the full rationale);
+    deck_ids/cv_id are already resolved ints here."""
     import bisect
     if not deck_ids:
         return []
@@ -2549,7 +2557,11 @@ def _stats_progression(col, deck_ids, cv_id, now):
     first = rows[0][1] / 1000
     d0 = first - ((first - PDT_OFFSET) % 86400)   # midnight (PDT frame) of first-review day
     out, b = [], d0
-    while b <= now + 7 * 86400:
+    # Stops at `now`. The old bound was `now + 7 days`, which existed to include the
+    # current partial WEEK and, as a side effect, put the last point up to six days in
+    # the future. At daily resolution that reason is gone and the side effect would be
+    # seven flat points past today -- a tail the data does not support.
+    while b <= now:
         ms = b * 1000
         c = {"Mature": 0, "Young": 0, "Learning": 0, "Relearning": 0}
         for logs, times in per.values():
@@ -2559,7 +2571,7 @@ def _stats_progression(col, deck_ids, cv_id, now):
             _, ivl, typ = logs[i]
             c[bucket(ivl, typ)] += 1
         out.append({"date": time.strftime("%Y-%m-%d", time.gmtime(b - PDT_OFFSET)), **c})
-        b += 7 * 86400
+        b += PROGRESSION_STEP_S
     return out
 
 
