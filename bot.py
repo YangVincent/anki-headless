@@ -3072,13 +3072,21 @@ def _hsk_level_stats():
 
     # Everything you study that the HSK 3.0 list does not contain.
     #
-    # ITS DENOMINATOR IS NOT THE SAME KIND OF THING, and the dashboard must not draw it
-    # as one more level. A level's denominator is the official list, so a word with no
-    # card counts as "none" and the bar answers "how much of HSK n do I know". There is
-    # no canonical list of non-HSK Chinese, so the only honest denominator here is the
-    # words you actually hold cards for. This bar answers "of the non-HSK words I am
-    # studying, how many are solid" -- a different question, and there is no "none"
-    # bucket because a word with no card cannot be counted.
+    # ITS DENOMINATOR IS NOT THE SAME KIND OF THING. A level's denominator is the
+    # official list, so a word with no card counts as "none" and the bar answers "how
+    # much of HSK n do I know". There is no canonical list of non-HSK Chinese, so the
+    # only honest denominator here is the words you actually hold cards for. This one
+    # answers "of the non-HSK words I am studying, how many are solid" -- a different
+    # question, and there is no "none" bucket because a word with no card cannot be
+    # counted.
+    #
+    # It may SHARE the familiarity chart, and since 2026-09-03 it does, as a final row.
+    # This paragraph used to say "the dashboard must not draw it as one more level",
+    # which named the wrong rule: a separate card did not stop anyone comparing the two,
+    # it only split the one answer to "how solid is each group" across two places. The
+    # real requirement is that the row STATE ITS OWN DENOMINATOR where it is read -- the
+    # tick says "55 of 562 held" while a level's says "946/950" -- so nothing has to be
+    # inferred from which box a bar sits in.
     official = {e["word"] for entries in vocab.values() for e in entries}
     outside = collections.Counter(st for w, st in best.items() if w not in official)
     non_hsk = {"total": sum(outside.values()),
