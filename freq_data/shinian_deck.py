@@ -38,6 +38,8 @@ import decks  # noqa: E402
 
 BOOK = "十年"
 TAG = f"book::{BOOK}"
+#: Marks a note this script created without an example sentence.
+NEEDS_SENTENCE = "needs::sentence"
 GEN = ROOT / "freq_data" / "gen_coldwindow"
 
 
@@ -88,6 +90,13 @@ def main():
             note.fields[IX["Traditional"]] = cc.convert(word)
             for t in ("chinese", "claude", "mined", TAG):
                 note.add_tag(t)
+            # A note with no example sentence is not finished. This script writes four
+            # fields and cannot author a sentence, so it SAYS SO instead of leaving a
+            # silent hole: the first run created 54 sentence-less notes and nothing
+            # recorded that, so they only surfaced when the whole collection was audited
+            # weeks later. `needs::sentence` makes them one search away, and
+            # freq_data/apply_sentences.py clears it when the sentence lands.
+            note.add_tag(NEEDS_SENTENCE)
             if args.apply:
                 col.add_note(note, mined_did)
                 created.append(note.id)
@@ -120,6 +129,8 @@ def main():
         print(f"verify: cards {cards_before} -> {after_cards} (+{after_cards - cards_before})")
         print(f"verify: notes carrying {TAG}: {len(col.find_notes(f'tag:{TAG}'))} "
               f"(want {tagged})")
+        print(f"verify: notes marked {NEEDS_SENTENCE}: "
+              f"{len(col.find_notes(f'tag:{NEEDS_SENTENCE}'))}")
         for name, before in guard.items():
             now = len(col.find_cards(f'deck:"{name}"'))
             flag = "" if now == before else "  <-- CHANGED"
