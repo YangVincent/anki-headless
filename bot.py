@@ -3001,6 +3001,11 @@ def _hsk_vocab():
     return _hsk_vocab_cache
 
 
+#: A single CJK character. \u3007 is 〇, which is a numeral in the HSK list and is not in
+#: the main unified block.
+HANZI_CHAR = re.compile(r"[\u4e00-\u9fff\u3007]")
+
+
 def _hsk_level_stats():
     """Per-level familiarity buckets over the official HSK 3.0 vocabulary.
 
@@ -3067,7 +3072,31 @@ def _hsk_level_stats():
     non_hsk = {"total": sum(outside.values()),
                "mature": outside["mature"], "young": outside["young"],
                "learning": outside["learning"], "new": outside["new"]}
-    return {"levels": levels, "non_hsk": non_hsk}
+
+    # Distinct characters across every word you know -- "how many hanzi do I read", which
+    # the word count cannot answer: 3,605 words share far fewer characters than that, and
+    # a two-character word teaches nothing new when you already hold both halves.
+    #
+    # COMPUTED HERE, not in the dashboard, because the dashboard only receives the HSK
+    # word lists. Deriving it there would silently drop the non-HSK words -- 1,381 instead
+    # of 1,391 today. A number that is quietly 10 short is worse than no number, and the
+    # gap grows with every mined word.
+    #
+    # Same definition of "known" the levels use, so the two headline numbers agree: a
+    # live card at learning or better, plus the HSK single characters studied in Hanly
+    # that hold no card by design.
+    known_words = {w for w, st in best.items() if st in ("mature", "young", "learning")}
+    hanly_only = {w for w in official if len(w) == 1 and w not in best}
+    letters = lambda ws: {ch for w in ws for ch in w if HANZI_CHAR.match(ch)}
+    from_cards, from_hanly = letters(known_words), letters(hanly_only)
+    # The split, because "does this include Hanly" is the first question the number
+    # raises and the total alone cannot answer it. The two do NOT add: 665 of the Hanly
+    # characters also sit inside a word you hold a card for, so only `hanly_only` is new.
+    chars = {"known": len(from_cards | from_hanly),
+             "from_cards": len(from_cards),
+             "hanly_only": len(from_hanly - from_cards)}
+
+    return {"levels": levels, "non_hsk": non_hsk, "chars": chars}
 
 
 def _cached_hsk_level_stats():
