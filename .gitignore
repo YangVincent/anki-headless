@@ -71,6 +71,10 @@ freq_data/gen_mined/
 # cached pages from jjwxc, Douban and other hosts. It is regenerable from the
 # scripts and must not reach a remote.
 freq_data/gen_coldwindow/
+# gen_santi/ is the same thing for the 三体 trilogy: heianshenlin.jsonl alone is the
+# full 338k-character text of 《黑暗森林》. The word lists and screening pages built
+# from it live here too, and all of it regenerates from book_words.py plus the ebooks.
+freq_data/gen_santi/
 freq_data/ids/
 freq_data/mnem_batches_5/
 mnem_batches_5/

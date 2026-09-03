@@ -6,7 +6,7 @@ same as words Vincent does not know — 一个, 不是 and 这种 top the list, 
 knows them. Only he can separate the two, so this makes that judgement fast: every word
 is a tile, a tap marks it known, and the page saves itself with the answers embedded.
 
-    build_screen_page.py <words.json> <out.html> "<book>"
+    build_screen_page.py <words.json> <out.html> "<book>" [<min times>]
 
 Reads the records written by the screening query: w, n, py, m, z, c.
 """
@@ -214,8 +214,14 @@ def main():
     words = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
     out = Path(sys.argv[2])
     book = sys.argv[3] if len(sys.argv) > 3 else "the book"
+    # The cut was hardcoded as "5 times or more" and the title as "Ten Years". Both are
+    # facts about ONE run, and this script takes a book name precisely because it is not
+    # for one book. A page for 黑暗森林 that says "Ten Years" in the tab and quotes the
+    # wrong threshold is worse than one with no header at all: the reader screens against
+    # a rule the list does not follow.
+    times = sys.argv[4] if len(sys.argv) > 4 else str(min(w["n"] for w in words))
     nocard = sum(1 for w in words if w["c"] == "none")
-    html = f"""<title>Ten Years Word Screen</title>
+    html = f"""<title>{book} Word Screen</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Newsreader:wght@400;500&display=swap">
@@ -224,7 +230,7 @@ def main():
 <div class="wrap">
   <header>
     <h1>Which of these do you already know?</h1>
-    <p class="lede">Every word below appears <strong>5 times or more</strong> in
+    <p class="lede">Every word below appears <strong>{times} times or more</strong> in
       <span class="zh">《{book}》</span> and has no studied card in your collection.
       {len(words)} words, {nocard} of them with no card at all.
       Tap the ones you already read without help. What is left becomes the deck.</p>
