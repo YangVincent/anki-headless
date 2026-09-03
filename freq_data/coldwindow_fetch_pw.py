@@ -51,6 +51,26 @@ def check_blocked(pg):
         raise Blocked("access blocked page")
 
 
+def save_page(pg, tag):
+    """Write the raw page to raw_pw/ before anything parses it.
+
+    A request against a rate-limited host is expensive and not repeatable on demand:
+    Qidian's WAF blocks after roughly 26 loads in three minutes and clears on its own
+    hours later. Every page fetched must therefore survive a parser bug, a selector
+    change, or a probe that only wanted a character count -- Qidian chapter text was
+    read seven separate times on 2026-09-01 and discarded seven times, each one paid for
+    with a request. coldwindow_fetch.py has cached raw HTML since the beginning; this
+    path did not, and that asymmetry is the whole reason those books still have no text.
+    """
+    RAW.mkdir(parents=True, exist_ok=True)
+    out = RAW / (re.sub(r"\W+", "_", f"{tag}_{pg.url}")[:120] + ".html")
+    try:
+        out.write_text(pg.content(), encoding="utf-8")
+    except Exception as e:              # never let caching break a fetch
+        print(f"    (could not cache {out.name}: {type(e).__name__})")
+    return out
+
+
 def common_share(text):
     """Real Chinese prose runs about 12-14% on these ten characters. A site that
     degrades or re-encodes its text for logged-out readers falls near zero."""
@@ -112,6 +132,7 @@ def qidian(pg, url, log):
     pg.goto(f"https://m.qidian.com/book/{bid}/catalog/",
             wait_until="domcontentloaded", timeout=60000)
     pg.wait_for_timeout(3000)
+    save_page(pg, "qidian-catalog")
     check_blocked(pg)
     links = pg.eval_on_selector_all(
         "a[href*='/chapter/']", "e => e.map(x => x.getAttribute('href') || '')")
@@ -126,6 +147,7 @@ def qidian(pg, url, log):
         try:
             pg.goto(u, wait_until="domcontentloaded", timeout=60000)
             pg.wait_for_timeout(2500)
+            save_page(pg, "qidian-chapter")
             check_blocked(pg)
             text = clean(pg.evaluate(QIDIAN_JS))
         except Blocked:
@@ -148,6 +170,7 @@ def qidian(pg, url, log):
 def douban(pg, url, log):
     pg.goto(url, wait_until="domcontentloaded", timeout=60000)
     pg.wait_for_timeout(3500)
+    save_page(pg, "douban-column")
     links = pg.eval_on_selector_all(
         "a[href*='/chapter/']", "e => e.map(x => x.getAttribute('href') || '')")
     seen, chapters = set(), []
@@ -162,6 +185,7 @@ def douban(pg, url, log):
         try:
             pg.goto(u, wait_until="domcontentloaded", timeout=60000)
             pg.wait_for_timeout(3500)
+            save_page(pg, "douban-chapter")
             text = clean(pg.evaluate(DOUBAN_JS))
         except Exception as e:
             log(f"    chapter failed: {type(e).__name__}")
