@@ -18,10 +18,20 @@ So this does three things and reuses the canonical path for each:
      new-words deck (never by literal name, never with col.decks.id(), which CREATES a
      deck bound to the wrong preset)
   2. calls bot.promote_to_vocab() for every word that already has a note -- the same
-     function the Telegram wild-add uses. It moves the forward card to the front of its
-     deck, unsuspends it, and routes the reverse and cloze cards to their gated decks.
+     function the Telegram wild-add uses. It unsuspends the forward card and routes the
+     reverse and cloze cards to their gated decks.
   3. tags every note `book::<book>`, so the set is one search away and the dashboard
      draws it as a row
+
+IT DOES NOT REORDER THE QUEUE. promote_to_vocab() front-pins by default, which is right
+for the wild-add (one word, wanted next) and wrong here. On 2026-09-03 this script sent
+405 words of 《黑暗森林》 through it and the function wrote positions 0 to -404. A negative
+position beats every band, so the book buried the `set::emotions` front set 40 places
+back, and nothing put it right because the resort never ran afterwards.
+
+So step 2 passes `reposition=False`, and the script prints the resort command at the end.
+`resort_main_queue.py` owns the order; `book::` is band 1 there and lands behind the
+emotion set on its own. Pass --front to restore the old front-pin.
 
 --screened takes the answers saved from the screening page (build_screen_page.py), whose
 `known` list is the words the reader already reads without help. Those are dropped. The
@@ -66,6 +76,9 @@ def main():
     ap.add_argument("--screened")
     ap.add_argument("--db", default=str(ROOT / "collection.anki2"))
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--front", action="store_true",
+                    help="also pin the whole set to the front of the queue, below every "
+                         "band. Off by default: see the module docstring.")
     args = ap.parse_args()
 
     tag = f"book::{args.book}"
@@ -126,7 +139,7 @@ def main():
             print("\n(dry run; pass --apply to write)")
             return
 
-        promoted = bot.promote_to_vocab(col, existing + created)
+        promoted = bot.promote_to_vocab(col, existing + created, reposition=args.front)
         print(f"  promote_to_vocab: {promoted}")
 
         tagged = 0
@@ -165,6 +178,13 @@ def main():
             else:
                 note_ = f"  <-- UNEXPECTED {delta:+d}"
             print(f"verify: deck {name} cards {before} -> {now}{note_}")
+
+        # The new notes sit at the end of the deck and the promoted ones keep the position
+        # they had. Neither is the band order. Say the next command rather than leave the
+        # queue half-ordered, which is the state that hid the emotion set for a day.
+        if args.front:
+            print("\n--front: the set is pinned below every band. Run the resort to undo that.")
+        print("\nNEXT: bash freq_data/anki_op.sh resort-main freq_data/resort_main_queue.py --apply")
     finally:
         col.close()
 

@@ -4,10 +4,31 @@
 The order is decided nowhere else, so the policy is written here as bands. Each band
 beats every band below it, whatever the level or the list position:
 
-  0  `liked`                      a hand mark beats every computed rule
-  1  `next::` and `book::`        the set being read NOW beats the curriculum
+  0  `set::emotions`              the hand-picked priority set beats every computed rule
+  1  `next::`                     the handful you chose to pull forward right now
   2  the curriculum               HSK level ascending, then official-list order
   3  `demoted`                    marked down by hand
+
+There is no fourth band for "everything else". A word outside the HSK 3.0 list gets level
+9 from level_of(), and level 9 sorts after HSK 7-9 (rank 7) inside band 2. So the whole
+non-syllabus tail -- the rest of a book, `set::stella-an`, `set::connectives`,
+`set::emotions-later` -- already follows every HSK level without a band of its own.
+
+Band 0 read `liked` until 2026-09-04. The tag claimed to be a hand mark and was not: a
+single run of order_study_sets.py wrote all 40 of them at 16:34 on 2026-09-01. Vincent
+asked for the tag to go. `set::emotions` now IS the front set, one word per emotional
+category, and order_study_sets.py moves everything it defers to `set::emotions-later`.
+Match the tag EXACTLY: `set::emotions-later`, `set::connectives` and `set::stella-an` are
+deliberately not band 0, so a prefix test on `set::` would pull 108 extra notes forward.
+
+`book::` LEFT band 1 on 2026-09-04. It joined that band three days earlier, when the tag
+meant a book you were reading and the set was small. 《黑暗森林》 made it 575 cards, which
+is 72 days at 8 new/day standing in front of the curriculum, and most of a book's
+vocabulary arrives long after you finish the book. Vincent picked 5 words instead, tagged
+`next::黑暗森林`. The other 570 rejoin the curriculum at their own HSK level, and the
+non-HSK part of them lands after every HSK level, by the level-9 rule above. `book::`
+stays as the set's LABEL -- it is how the dashboard draws the row -- it just no longer
+carries an order.
 
 Then, across the whole result: each single-character card sits immediately before the
 FIRST word that uses it, and characters used by no new word go to the tail.
@@ -59,7 +80,7 @@ def strip_html(s):
 
 
 def rank_of(tags):
-    """-2 liked (front), -1 next, 0 normal, 1 demoted, 2 book (very back).
+    """-2 the emotion set (front), -1 next, 0 the curriculum, 1 demoted.
 
     ONE definition, read by the sort and by the verification below. They disagreed once:
     the check counted level descents across the whole queue, which cannot be zero once
@@ -67,12 +88,14 @@ def rank_of(tags):
     an order that was correct.
     """
     tl = [x.lower() for x in tags]
-    if "liked" in tl:
+    if "set::emotions" in tl:
+        # Exact match, never a prefix. `set::emotions-later` is the deferred half of the
+        # same set and belongs in the curriculum band.
         return -2
-    if any(x.startswith(("next::", "book::")) for x in tl):
-        # An active set: `next::<name>` is one you chose to pull forward, `book::<title>`
-        # is the vocabulary of something you are reading. Both beat the curriculum and
-        # neither hard-codes its name here.
+    if any(x.startswith("next::") for x in tl):
+        # `next::<name>` is a set you chose to pull forward NOW. Keep it small: whatever
+        # is here jumps the whole curriculum. `book::` is deliberately absent -- see the
+        # module docstring. The prefix means the name is not hard-coded here.
         return -1
     return 1 if "demoted" in tl else 0
 
@@ -133,13 +156,11 @@ def main():
                     # A word tagged 'demoted' (freq overstates its usefulness) sorts to
                     # the very back, whatever its level. Without this the tag is inert:
                     # resort_vocab.py was the only reader of it and its deck is empty.
-                    # `book::<title>` means the word is being studied somewhere else --
-                    # a filtered deck built on the tag while reading that book. Leaving
-                    # such a word in its frequency position double-teaches it, and
-                    # front-loading the set is worse: promoting 143 of them by hand once
-                    # pushed 绝望 / 悲伤 / 心疼 back by 143 places. The back of the queue
-                    # is the right home; the filtered deck introduces them instead, and
-                    # once answered they return here as review cards and flow normally.
+                    # The rest of this paragraph used to say `book::` sorts to the very
+                    # back. That stopped being true in 300757f, which moved it to band 1
+                    # once the filtered deck that justified the back was deleted. The
+                    # comment survived the change and contradicted rank_of() for three
+                    # days. rank_of IS the rule; do not restate it here.
                     rank = rank_of(tags.split())
                     words.append((rank, lvl, LIST_POS.get(s, OUTSIDE), due, cid, s))
                 elif mid == cc_id:

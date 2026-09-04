@@ -475,12 +475,23 @@ def apply_cloze_gate(col, dry_run=False):
 #
 # The `hanly` TAG is untouched and still on 4,637 notes. Tagging it now simply tags.
 
-def promote_to_vocab(col, note_ids):
+def promote_to_vocab(col, note_ids, reposition=True):
     """Wild-add promotion: tag notes 'mined', move forward (ord0) cards into the separate
     'Mined' deck (front of THAT deck, so newly added words come up next when studying Mined)
     and unsuspend them, route the reverse (ord1) card into 'Reverse' and the cloze (ord2)
     card into 'Vocab Cloze', both suspended (the maturity gate releases them later). This keeps the
     frequency-ordered Vocab backbone clean — mined reading-words no longer spike it.
+
+    `reposition` controls the front-pin ONLY. Everything else — the tag, the unsuspend,
+    the deck routing — happens either way, because a word parked in Archive is not
+    studiable until it moves.
+
+    Pass reposition=False for a BULK caller. The front-pin writes a position below every
+    card in the deck, and it does not read the band policy in resort_main_queue.py. That
+    is correct for the Telegram wild-add, which promotes one word you want next. It is
+    wrong for a whole book: book_deck.py sent 405 words on 2026-09-03 and the function
+    wrote positions 0 to -404, burying the emotion set 40 places back. A bulk caller
+    should leave the position alone and let resort_main_queue.py place the cards by band.
 
     Only NEW forward cards are repositioned, and only a card in Default or under
     Hidden:: moves deck — a card already in HSK, HSK7-9, non-HSK or Mined stays there
@@ -600,7 +611,7 @@ def promote_to_vocab(col, note_ids):
     repositioned = 0
     already_in_review = 0
     on_loan = 0
-    for did, cids in by_deck.items():
+    for did, cids in (by_deck.items() if reposition else ()):
         min_due = col.db.scalar(
             "SELECT MIN(due) FROM cards WHERE did=? AND type=0 AND ord=0", did)
         next_due = min(min_due if min_due is not None else 1, 1) - 1
@@ -633,6 +644,7 @@ def promote_to_vocab(col, note_ids):
         "moved_to_mined": len(moved),
         "kept_in_deck": len(kept),
         "repositioned_to_front": repositioned,
+        "reposition_skipped": not reposition,
         "already_in_review": already_in_review,
         "in_filtered_deck": on_loan,
         "reverse_routed": len(reverse_cards),
