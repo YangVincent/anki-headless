@@ -24,6 +24,14 @@ Every subcommand: dry-run by default, prints what it matched, verifies after wri
   bash freq_data/anki_op.sh setop freq_data/anki_set.py back   "tag:demoted" --apply
   bash freq_data/anki_op.sh setop freq_data/anki_set.py byfreq "deck:Mined is:new" --apply
   bash freq_data/anki_op.sh setop freq_data/anki_set.py delete "deck:non-HSK -is:review" --apply
+  bash freq_data/anki_op.sh setop freq_data/anki_set.py replace "deck:Main" \
+      --field Meaning --pattern '\bsth\b\.?' --with something --apply
+
+`replace` edits ONE NAMED FIELD by regex, across whatever the query matches. It skips a
+note whose notetype has no field of that name and prints how many it skipped, rather than
+guessing an index: field 2 is `Meaning` on ChineseVocabulary AND on ChineseCharacters, but
+field 5 on the xiehanzi import notetypes is a rendered HTML blob. An index would have
+rewritten 44,168 archived blobs. Names are checked per note, so the scope stays honest.
 """
 import argparse
 import re
@@ -55,10 +63,14 @@ def show(col, cids, label, limit=12):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("op", choices=["move", "tag", "untag", "suspend", "unsuspend",
-                                   "front", "back", "byfreq", "delete", "count"])
+                                   "front", "back", "byfreq", "delete", "count",
+                                   "replace"])
     ap.add_argument("query", help="an Anki search, e.g. 'deck:HSK tag:liked is:new'")
     ap.add_argument("--to", help="destination deck (move)")
     ap.add_argument("--tag", help="tag to add or remove")
+    ap.add_argument("--field", help="field NAME to edit (replace)")
+    ap.add_argument("--pattern", help="regex to find (replace)")
+    ap.add_argument("--with", dest="repl", help="replacement text (replace)")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--force", action="store_true",
                     help="allow a delete larger than the safety cap")
@@ -88,6 +100,46 @@ def main():
         if args.op == "delete" and len(cids) > DELETE_CAP and not args.force:
             sys.exit(f"refusing: {len(cids)} cards is over the {DELETE_CAP} cap. "
                      f"Narrow the query, or pass --force if you mean it.")
+
+        if args.op == "replace":
+            if not (args.field and args.pattern and args.repl is not None):
+                sys.exit("replace needs --field, --pattern and --with")
+            rx = re.compile(args.pattern)
+            # Preview BEFORE the dry-run exit, so a dry run shows the actual rewrites.
+            # A replace that prints only a count is unreviewable, and this one edits the
+            # text that appears on the card.
+            edits, no_field = [], 0
+            for nid in sorted({col.get_card(c).nid for c in cids}):
+                note = col.get_note(nid)
+                names = [f["name"] for f in note.note_type()["flds"]]
+                if args.field not in names:
+                    no_field += 1
+                    continue
+                i = names.index(args.field)
+                before = note.fields[i]
+                after = rx.sub(args.repl, before)
+                if after != before:
+                    edits.append((nid, i, before, after))
+            print(f"\nreplace in field {args.field!r}: {len(edits)} note(s) change, "
+                  f"{no_field} skipped (notetype has no such field)")
+            for nid, i, before, after in edits[:15]:
+                print(f"   - {before[:72]}\n   + {after[:72]}")
+            if len(edits) > 15:
+                print(f"   ... and {len(edits) - 15} more")
+            if not args.apply:
+                print("\nDRY-RUN (pass --apply)")
+                return
+            for nid, i, before, after in edits:
+                note = col.get_note(nid)
+                note.fields[i] = after
+                col.update_note(note)
+            bad = [nid for nid, i, _, after in edits if col.get_note(nid).fields[i] != after]
+            left = sum(1 for nid, i, _, _ in edits if rx.search(col.get_note(nid).fields[i]))
+            print(f"\nreplace: {len(edits)} note(s) written, {len(bad)} failure(s), "
+                  f"{left} still matching the pattern (want 0)")
+            assert not bad and not left, (bad[:8], left)
+            print("APPLIED")
+            return
 
         if not args.apply:
             print("\nDRY-RUN (pass --apply)")
