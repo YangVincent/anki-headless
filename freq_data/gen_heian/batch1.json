@@ -1,0 +1,374 @@
+{
+ "一号": [
+  "今天是九月一号。",
+  "Jīntiān shì jiǔ yuè yī hào.",
+  "Today is the first of September.",
+  "authored"
+ ],
+ "不变": [
+  "会上一致通过保持现有航向不变。",
+  "Huì shàng yīzhì tōngguò bǎochí xiànyǒu hángxiàng bùbiàn.",
+  "The meeting agreed unanimously to keep the present course unchanged.",
+  "book"
+ ],
+ "中校": [
+  "蓝西立刻见到了被拘禁的那名中校。",
+  "Lán Xī lìkè jiàndào le bèi jūjìn de nà míng zhōngxiào.",
+  "Lan Xi at once saw the lieutenant colonel who had been detained.",
+  "book"
+ ],
+ "主席台": [
+  "伽尔宁从主席台上走下来说。",
+  "Jiā'ěrníng cóng zhǔxítái shàng zǒu xiàlái shuō.",
+  "Garnin came down from the rostrum and said.",
+  "book"
+ ],
+ "举起": [
+  "所有的代表都举起了手。",
+  "Suǒyǒu de dàibiǎo dōu jǔqǐ le shǒu.",
+  "All the delegates raised their hands.",
+  "book"
+ ],
+ "之上": [
+  "山峰之上飘着一片白云。",
+  "Shānfēng zhīshàng piāozhe yí piàn báiyún.",
+  "A white cloud floats above the peak.",
+  "authored"
+ ],
+ "亮度": [
+  "屏幕的亮度可以调节。",
+  "Píngmù de liàngdù kěyǐ tiáojié.",
+  "The brightness of the screen can be adjusted.",
+  "authored"
+ ],
+ "令人": [
+  "这个结果令人失望。",
+  "Zhège jiéguǒ lìng rén shīwàng.",
+  "This result is disappointing.",
+  "authored"
+ ],
+ "伊甸园": [
+  "我们不想离开伊甸园。",
+  "Wǒmen bù xiǎng líkāi Yīdiànyuán.",
+  "We do not want to leave the Garden of Eden.",
+  "book"
+ ],
+ "传回": [
+  "探测器把照片传回了地球。",
+  "Tàncèqì bǎ zhàopiàn chuánhuí le dìqiú.",
+  "The probe sent the photographs back to Earth.",
+  "authored"
+ ],
+ "伸出": [
+  "他伸出手跟我握手。",
+  "Tā shēnchū shǒu gēn wǒ wòshǒu.",
+  "He put out his hand to shake mine.",
+  "authored"
+ ],
+ "光年": [
+  "这颗星离我们有四光年。",
+  "Zhè kē xīng lí wǒmen yǒu sì guāngnián.",
+  "This star is four light-years away from us.",
+  "authored"
+ ],
+ "光速": [
+  "没有东西能超过光速。",
+  "Méiyǒu dōngxi néng chāoguò guāngsù.",
+  "Nothing can exceed the speed of light.",
+  "authored"
+ ],
+ "全息": [
+  "这时，一个概念突然在他的脑海中出现：全息。",
+  "Zhèshí, yí gè gàiniàn tūrán zài tā de nǎohǎi zhōng chūxiàn: quánxī.",
+  "At that moment a concept appeared suddenly in his mind: holography.",
+  "book"
+ ],
+ "公有化": [
+  "他们提出把这项技术公有化。",
+  "Tāmen tíchū bǎ zhè xiàng jìshù gōngyǒuhuà.",
+  "They proposed to nationalize this technology.",
+  "authored"
+ ],
+ "公理": [
+  "你知道数学上的公理吗？",
+  "Nǐ zhīdào shùxué shàng de gōnglǐ ma?",
+  "Do you know the axioms of mathematics?",
+  "book"
+ ],
+ "军方": [
+  "军方拒绝了这个请求。",
+  "Jūnfāng jùjué le zhège qǐngqiú.",
+  "The military refused this request.",
+  "authored"
+ ],
+ "军装": [
+  "开始来人都穿便服，后来则大都身着军装。",
+  "Kāishǐ lái rén dōu chuān biànfú, hòulái zé dàdū shēnzhuó jūnzhuāng.",
+  "At first everyone came in plain clothes; later most wore uniform.",
+  "book"
+ ],
+ "击中": [
+  "当被多道激光击中时，水滴发出超强的光芒。",
+  "Dāng bèi duō dào jīguāng jīzhòng shí, shuǐdī fāchū chāoqiáng de guāngmáng.",
+  "When many laser beams hit it, the Droplet gave off an intense light.",
+  "book"
+ ],
+ "加速度": [
+  "这辆车的加速度很大。",
+  "Zhè liàng chē de jiāsùdù hěn dà.",
+  "This car has great acceleration.",
+  "authored"
+ ],
+ "参数": [
+  "希恩斯和山杉惠子仔细研究着屏幕上一大片参数记录。",
+  "Xī'ēnsī hé Shānshān Huìzi zǐxì yánjiū zhe píngmù shàng yí dà piàn cānshù jìlù.",
+  "Hines and Yamasugi Keiko studied the mass of parameter records on the screen.",
+  "book"
+ ],
+ "取出": [
+  "他从包里取出一本书。",
+  "Tā cóng bāo lǐ qǔchū yì běn shū.",
+  "He took a book out of the bag.",
+  "authored"
+ ],
+ "受试者": [
+  "实验的受试者都是志愿者。",
+  "Shíyàn de shòushìzhě dōu shì zhìyuànzhě.",
+  "The subjects of the experiment were all volunteers.",
+  "authored"
+ ],
+ "司令官": [
+  "在亚洲舰队司令官的背后，灿烂的星河浩荡流过。",
+  "Zài Yàzhōu jiànduì sīlìngguān de bèihòu, cànlàn de xīnghé hàodàng liúguò.",
+  "Behind the Asian Fleet's commander, the brilliant river of stars flowed past.",
+  "book"
+ ],
+ "司令部": [
+  "命令是从司令部发出的。",
+  "Mìnglìng shì cóng sīlìngbù fāchū de.",
+  "The order came from headquarters.",
+  "authored"
+ ],
+ "叹息": [
+  "她轻轻叹息了一声。",
+  "Tā qīngqīng tànxī le yì shēng.",
+  "She let out a soft sigh.",
+  "authored"
+ ],
+ "同义词": [
+  "“高兴”和“快乐”是同义词。",
+  "“Gāoxìng” hé “kuàilè” shì tóngyìcí.",
+  "“Gaoxing” and “kuaile” are synonyms.",
+  "authored"
+ ],
+ "听证会": [
+  "行星防御理事会面壁者听证会。",
+  "Xíngxīng Fángyù Lǐshìhuì miànbìzhě tīngzhènghuì.",
+  "The Planetary Defense Council Wallfacer hearing.",
+  "book"
+ ],
+ "周文王": [
+  "牛顿甩开周文王的手不耐烦地说。",
+  "Niúdùn shuǎikāi Zhōu Wénwáng de shǒu bùnàifán de shuō.",
+  "Newton shook off King Wen of Zhou's hand and spoke impatiently.",
+  "book"
+ ],
+ "咒语": [
+  "咒语必须向整个银河系广播，而太阳被封死了。",
+  "Zhòuyǔ bìxū xiàng zhěnggè Yínhéxì guǎngbō, ér tàiyáng bèi fēngsǐ le.",
+  "The spell must be broadcast to the whole galaxy, but the sun is sealed off.",
+  "book"
+ ],
+ "喊道": [
+  "他对着天空喊道。",
+  "Tā duìzhe tiānkōng hǎndào.",
+  "He shouted at the sky.",
+  "book"
+ ],
+ "圆柱体": [
+  "这个零件是一个圆柱体。",
+  "Zhège língjiàn shì yí gè yuánzhùtǐ.",
+  "This part is a cylinder.",
+  "authored"
+ ],
+ "地层": [
+  "地质学家在研究这里的地层。",
+  "Dìzhìxuéjiā zài yánjiū zhèlǐ de dìcéng.",
+  "Geologists are studying the strata here.",
+  "authored"
+ ],
+ "坠落": [
+  "一块石头从山上坠落下来。",
+  "Yí kuài shítou cóng shān shàng zhuìluò xiàlái.",
+  "A rock fell down from the mountain.",
+  "authored"
+ ],
+ "增援": [
+  "上级派来了增援部队。",
+  "Shàngjí pài lái le zēngyuán bùduì.",
+  "Headquarters sent reinforcements.",
+  "authored"
+ ],
+ "壁炉": [
+  "我怎么会想到壁炉？",
+  "Wǒ zěnme huì xiǎngdào bìlú?",
+  "How did I come to think of a fireplace?",
+  "book"
+ ],
+ "天文单位": [
+  "地球到太阳是一个天文单位。",
+  "Dìqiú dào tàiyáng shì yí gè tiānwéndānwèi.",
+  "From the Earth to the Sun is one astronomical unit.",
+  "authored"
+ ],
+ "导轨": [
+  "运载舱沿着导轨上升。",
+  "Yùnzàicāng yánzhe dǎoguǐ shàngshēng.",
+  "The cargo car rises along the guide rail.",
+  "authored"
+ ],
+ "尘埃": [
+  "这尘埃云该在哪儿造？",
+  "Zhè chén'āi yún gāi zài nǎr zào?",
+  "Where should this dust cloud be built?",
+  "book"
+ ],
+ "左手": [
+  "他用左手拿着杯子。",
+  "Tā yòng zuǒshǒu názhe bēizi.",
+  "He held the cup in his left hand.",
+  "authored"
+ ],
+ "广告牌": [
+  "他问广告牌上的人。",
+  "Tā wèn guǎnggàopái shàng de rén.",
+  "He asked the person on the billboard.",
+  "book"
+ ],
+ "引力": [
+  "引力波的天线体积很巨大的。",
+  "Yǐnlì bō de tiānxiàn tǐjī hěn jùdà de.",
+  "The antenna for gravitational waves is enormous.",
+  "book"
+ ],
+ "当量": [
+  "什么类型，多大当量？",
+  "Shénme lèixíng, duō dà dāngliàng?",
+  "What type, and what yield?",
+  "book"
+ ],
+ "微小": [
+  "这种变化非常微小。",
+  "Zhè zhǒng biànhuà fēicháng wēixiǎo.",
+  "This kind of change is extremely small.",
+  "authored"
+ ],
+ "战役": [
+  "这场战役持续了三个月。",
+  "Zhè chǎng zhànyì chíxù le sān gè yuè.",
+  "This campaign lasted three months.",
+  "authored"
+ ],
+ "担架": [
+  "他对抬担架的人喊。",
+  "Tā duì tái dānjià de rén hǎn.",
+  "He shouted at the stretcher-bearers.",
+  "book"
+ ],
+ "拦截": [
+  "导弹在空中被拦截了。",
+  "Dǎodàn zài kōngzhōng bèi lánjié le.",
+  "The missile was intercepted in the air.",
+  "authored"
+ ],
+ "指挥官": [
+  "蓝西决定必须与最高指挥官谈话，于是去找东方延绪。",
+  "Lán Xī juédìng bìxū yǔ zuìgāo zhǐhuīguān tánhuà, yúshì qù zhǎo Dōngfāng Yánxù.",
+  "Lan Xi decided he must speak with the supreme commander, so he went to find Dongfang Yanxu.",
+  "book"
+ ],
+ "按钮": [
+  "如果是，请按按钮；如果不是，请离开扫描区。",
+  "Rúguǒ shì, qǐng àn ànniǔ; rúguǒ bú shì, qǐng líkāi sǎomiáo qū.",
+  "If so, press the button; if not, leave the scanning area.",
+  "book"
+ ],
+ "捕获": [
+  "这一切，都是在水滴被捕获后的一天内发生的。",
+  "Zhè yíqiè, dōu shì zài shuǐdī bèi bǔhuò hòu de yì tiān nèi fāshēng de.",
+  "All of this happened within one day after the Droplet was captured.",
+  "book"
+ ],
+ "方阵": [
+  "士兵排成整齐的方阵。",
+  "Shìbīng pái chéng zhěngqí de fāngzhèn.",
+  "The soldiers formed a neat square.",
+  "authored"
+ ],
+ "星空": [
+  "星空依旧，但周围的世界在干扰着他的思考。",
+  "Xīngkōng yījiù, dàn zhōuwéi de shìjiè zài gānrǎo zhe tā de sīkǎo.",
+  "The starry sky was unchanged, but the world around him disturbed his thoughts.",
+  "book"
+ ],
+ "星际": [
+  "这是一次星际航行。",
+  "Zhè shì yí cì xīngjì hángxíng.",
+  "This is an interstellar voyage.",
+  "authored"
+ ],
+ "映像": [
+  "由于半径很大，底面弧度很小，上面的映像并不失真。",
+  "Yóuyú bànjìng hěn dà, dǐmiàn húdù hěn xiǎo, shàngmiàn de yìngxiàng bìng bù shīzhēn.",
+  "Because the radius is large and the base curves little, the image on it is not distorted.",
+  "book"
+ ],
+ "显示屏": [
+  "显示屏上出现了一行字。",
+  "Xiǎnshìpíng shàng chūxiàn le yì háng zì.",
+  "A line of text appeared on the display screen.",
+  "authored"
+ ],
+ "晚霞": [
+  "我最喜欢画晚霞了。",
+  "Wǒ zuì xǐhuan huà wǎnxiá le.",
+  "What I like painting most is the sunset glow.",
+  "book"
+ ],
+ "权限": [
+  "那么只剩下一个人拥有直接锁定目标并发起攻击的权限。",
+  "Nàme zhǐ shèngxià yí gè rén yōngyǒu zhíjiē suǒdìng mùbiāo bìng fāqǐ gōngjī de quánxiàn.",
+  "Then only one person keeps the authority to lock a target directly and launch an attack.",
+  "book"
+ ],
+ "构图": [
+  "这张照片的构图很好。",
+  "Zhè zhāng zhàopiàn de gòutú hěn hǎo.",
+  "The composition of this photograph is very good.",
+  "authored"
+ ],
+ "树干": [
+  "这棵树的树干很粗。",
+  "Zhè kē shù de shùgàn hěn cū.",
+  "The trunk of this tree is very thick.",
+  "authored"
+ ],
+ "残骸": [
+  "飞机的残骸散落在山谷里。",
+  "Fēijī de cánhái sànluò zài shāngǔ lǐ.",
+  "The wreckage of the plane lay scattered in the valley.",
+  "authored"
+ ],
+ "法案": [
+  "议会通过了这项法案。",
+  "Yìhuì tōngguò le zhè xiàng fǎ'àn.",
+  "Parliament passed this bill.",
+  "authored"
+ ],
+ "注意力": [
+  "罗辑只好把注意力集中到电视新闻上。",
+  "Luó Jí zhǐhǎo bǎ zhùyìlì jízhōng dào diànshì xīnwén shàng.",
+  "Luo Ji had to focus his attention on the television news.",
+  "book"
+ ]
+}
