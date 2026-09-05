@@ -1,0 +1,23 @@
+{
+ "使得": {
+   "meaning": "to make; to cause (written); (coll.) usable",
+   "why": "CC-CEDICT merges two words under one entry and the rare one came first. The written causative is the HSK 5 word, the one the Notes field describes and the one the sentence uses; 'usable; workable; feasible; doable' is a colloquial sense the card never teaches."
+ },
+ "破壁": {
+   "meaning": "to break through a wall; (fig.) to break an impasse",
+   "notes": "In 《黑暗森林》 a 破壁人 is a Wallbreaker — the person assigned to break one Wallfacer's plan. The old gloss led with 'dilapidated wall' and ended in cell biology; neither sense appears in the book.",
+   "why": "Led with the wrong sense and carried a biotechnology sense (disrupting cell walls) that is noise for this deck."
+ },
+ "队列": {
+   "meaning": "formation (of troops); (computing) queue",
+   "why": "'alignment' and 'cohort (in a study)' are dictionary padding; the book uses the military sense and the computing sense is worth keeping."
+ },
+ "冬眠": {
+   "meaning": "hibernation; to hibernate",
+   "why": "Was capitalised mid-sentence as 'Hibernation', and gave only the noun."
+ },
+ "恢复": {
+   "meaning": "recover; reinstate; resume",
+   "why": "Missing the space after the first semicolon, so the card rendered 'recover;reinstate'."
+ }
+}
