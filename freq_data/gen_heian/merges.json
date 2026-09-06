@@ -1,0 +1,23 @@
+{
+ "偷": {"keep": 1393817666885, "drop": 1781670076141, "sentence_from": "drop",
+        "meaning": "to steal; to pilfer",
+        "why": "keep's sentence is 我 的 手表 被 偷了 -- spaced character by character. drop's is the one written today for the cloze-leak pass."},
+ "封": {"keep": 1537328246017, "drop": 1781670076078, "sentence_from": "keep",
+        "meaning": "to seal; (measure word for letters)",
+        "why": "keep's gloss 'To seal off, measure word for letter' was capitalised mid-sentence and singular."},
+ "床": {"keep": 1537328244529, "drop": 1781670075930, "sentence_from": "keep",
+        "meaning": "bed",
+        "why": "keep's gloss was 'Bed', capitalised."},
+ "盘": {"keep": 1537328245830, "drop": 1781670076126, "sentence_from": "drop",
+        "meaning": "plate, dish; (measure word for dishes)",
+        "why": "keep's gloss 'Plate' misses the measure-word sense, and its sentence teaches 盘子, a different word. drop's 桌子上放着三盘菜 uses 盘 as the measure word."},
+ "箭": {"keep": 1449636991448, "drop": 1781670076188, "sentence_from": "keep",
+        "meaning": "arrow; a kind of bamboo",
+        "why": "keep's sentence is the vivid one; only the gloss wording is tidied."},
+ "肉": {"keep": 1537328240739, "drop": 1781670075868, "sentence_from": "keep",
+        "meaning": "meat",
+        "why": "keep's gloss was 'Meat', capitalised. drop carries 1 review, lost by the merge."},
+ "跳": {"keep": 1537328244812, "drop": 1781670076005, "sentence_from": "keep",
+        "meaning": "to jump; to leap",
+        "why": "keep's gloss was 'To jump'. drop carries 1 review, lost by the merge."}
+}
