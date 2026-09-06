@@ -679,11 +679,13 @@ def cmd_sync(args):
         else:
             print(f"Sync complete (status: {changes}).")
 
-        # Sync media unless skipped
-        if not args.no_media and changes != FULL_SYNC:
+        # Media only when asked for. See build_parser() for why.
+        if args.media and not args.no_media and changes != FULL_SYNC:
             print("Syncing media...")
             col.sync_media(auth)
             finish_media_sync(col, args.media_timeout)
+        elif not args.media:
+            print("Media not synced (pass --media to include it).")
     finally:
         # Never close under a live media thread, on this path either: an exception
         # above still leaves the sync running.
@@ -833,7 +835,16 @@ def build_parser():
     sync_parser = sub.add_parser("sync", help="Sync with AnkiWeb")
     sync_parser.add_argument("--upload", action="store_true", help="Force full upload")
     sync_parser.add_argument("--download", action="store_true", help="Force full download")
-    sync_parser.add_argument("--no-media", action="store_true", help="Skip media sync")
+    # Media is OPT-IN on this host. It is a headless server: nothing here plays audio
+    # or serves collection.media, and bot.py already syncs with media=False. Before the
+    # panic was fixed the media sync was killed ~50ms in, so the folder stayed near
+    # empty by accident; fixing it downloaded 941MB of mp3 in one sitting, heading for
+    # roughly double that (88,405 audio files are referenced). --no-media is kept as an
+    # accepted no-op so older invocations do not break.
+    sync_parser.add_argument("--media", action="store_true",
+                             help="also sync media (off by default on this host)")
+    sync_parser.add_argument("--no-media", action="store_true",
+                             help=argparse.SUPPRESS)
     sync_parser.add_argument("--media-timeout", type=int, default=300, metavar="SECONDS",
                              help="stop waiting for the media sync after this long and "
                                   "abort it cleanly (default 300; the next run resumes)")
