@@ -43,6 +43,17 @@ def pykey(s):
     return re.sub(r"['’]", "", bare(s)).lower()
 
 
+def readings(pinyin_field):
+    """The card's readings, as separate keys.
+
+    A one-card-per-character deck keeps every reading on one note, so 中 has the Pinyin
+    field "zhōng; zhòng". Demanding the whole field appear in a sentence's pinyin is
+    impossible for such a card -- one sentence uses one reading. Split on the separators
+    and require ANY of them."""
+    parts = [p for p in re.split(r"[;,、/]", strip_html(pinyin_field)) if p.strip()]
+    return [pykey(p) for p in parts] or [pykey(pinyin_field)]
+
+
 def is_split(word, sent):
     if not word or not sent or word not in sent:
         return False
@@ -74,10 +85,19 @@ def main():
     col = Collection(args.db)
     try:
         targets = {}
-        for w in data:
+        for w, spec in data.items():
             nids = col.find_notes(f'deck:Main "Simplified:{w}"')
+            # A word can legitimately have two Main notes -- 偷 has a ChineseCharacters
+            # one and a ChineseVocabulary one, both suspended. Rather than guess, the
+            # entry names the nid. Never silently pick the first.
+            if "nid" in spec:
+                if spec["nid"] not in nids:
+                    sys.exit(f"{w}: nid {spec['nid']} is not a Main note for it {nids}")
+                targets[w] = spec["nid"]
+                continue
             if len(nids) != 1:
-                sys.exit(f"{w}: expected 1 Main note, found {len(nids)}")
+                sys.exit(f"{w}: expected 1 Main note, found {len(nids)} {nids} — "
+                         f'add "nid" to the entry to say which')
             targets[w] = nids[0]
 
         # a replacement sentence must be unique and must not split its own word
@@ -103,13 +123,16 @@ def main():
                     bad.append((w, "sentence already used by another note"))
                 note = col.get_note(targets[w])
                 IX = {f["name"]: i for i, f in enumerate(note.note_type()["flds"])}
-                wp = pykey(note.fields[IX["Pinyin"]])
-                if wp and wp not in pykey(spec["pinyin"]):
-                    bad.append((w, f"card pinyin {wp!r} absent from the sentence pinyin"))
-            # the note must actually name what it contrasts against, or it is not a
-            # disambiguation -- that is the whole reason these four are being written
-            if not re.search(r"[一-鿿]", spec["notes"]):
+                rs = [r for r in readings(note.fields[IX["Pinyin"]]) if r]
+                if rs and not any(r in pykey(spec["pinyin"]) for r in rs):
+                    bad.append((w, f"no reading of {rs} appears in the sentence pinyin"))
+            # A note must actually name what it contrasts against, or it is not a
+            # disambiguation. But it is optional: several cards being repaired for a
+            # cloze leak already carry a good note, and rewriting it would be a loss.
+            if "notes" in spec and not re.search(r"[一-鿿]", spec["notes"]):
                 bad.append((w, "note contains no Chinese at all"))
+            if "notes" not in spec and "sentence" not in spec:
+                bad.append((w, "entry changes nothing"))
         print(f"  problems: {len(bad)} (want 0)")
         for w, why in bad:
             print(f"    {w}: {why}")
@@ -119,11 +142,14 @@ def main():
         for w, spec in data.items():
             note = col.get_note(targets[w])
             IX = {f["name"]: i for i, f in enumerate(note.note_type()["flds"])}
-            had = bool(strip_html(note.fields[IX["Notes"]]))
-            note.fields[IX["Notes"]] = spec["notes"]
-            print(f"\n  {w}  (Notes {'REPLACED' if had else 'was empty'}, "
-                  f"{len(spec['notes'])} chars)")
-            print(f"    {spec['notes'][:150]}")
+            if "notes" in spec:
+                had = bool(strip_html(note.fields[IX["Notes"]]))
+                note.fields[IX["Notes"]] = spec["notes"]
+                print(f"\n  {w}  (Notes {'REPLACED' if had else 'was empty'}, "
+                      f"{len(spec['notes'])} chars)")
+                print(f"    {spec['notes'][:150]}")
+            else:
+                print(f"\n  {w}  (Notes left as it is)")
             if "sentence" in spec:
                 s, py, en = spec["sentence"], spec["pinyin"], spec["english"]
                 old = strip_html(note.fields[IX["SentenceSimplified"]])
@@ -169,7 +195,7 @@ def main():
         for w, spec in data.items():
             note = col.get_note(targets[w])
             IX = {f["name"]: i for i, f in enumerate(note.note_type()["flds"])}
-            if strip_html(note.fields[IX["Notes"]]) != spec["notes"]:
+            if "notes" in spec and strip_html(note.fields[IX["Notes"]]) != spec["notes"]:
                 bad.append((w, "Notes did not take"))
             if "sentence" in spec:
                 s = bare(note.fields[IX["SentenceSimplified"]])

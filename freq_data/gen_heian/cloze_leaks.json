@@ -1,0 +1,16 @@
+{
+ "笔": ["我的笔坏了，能借给我一支笔吗？", "Wǒ de bǐ huài le, néng jiè gěi wǒ yì zhī bǐ ma?", "My pen is broken; can you lend me a pen?", "keep"],
+ "唱": ["我喜欢听他唱歌，因为他唱得特别好听。", "Wǒ xǐhuan tīng tā chànggē, yīnwèi tā chàng de tèbié hǎotīng.", "I like listening to him sing, because he sings especially well.", "keep"],
+ "一方面": ["一方面我想出国，另一方面又舍不得家人。", "Yì fāngmiàn wǒ xiǎng chūguó, lìng yì fāngmiàn yòu shěbude jiārén.", "On the one hand I want to go abroad; on the other I cannot bear to leave my family.", "keep"],
+
+ "验证": ["这个结果还需要进一步验证。", "Zhège jiéguǒ hái xūyào jìnyíbù yànzhèng.", "This result still needs further verification.", "new"],
+ "图书": ["他捐了三千册图书。", "Tā juān le sānqiān cè túshū.", "He donated three thousand books.", "new"],
+ "登机": ["我们还有二十分钟就要登机了。", "Wǒmen hái yǒu èrshí fēnzhōng jiù yào dēngjī le.", "We board the plane in another twenty minutes.", "new"],
+ "遥控": ["这台机器可以远距离遥控。", "Zhè tái jīqì kěyǐ yuǎn jùlí yáokòng.", "This machine can be controlled remotely from a distance.", "new"],
+ "医学": ["他在大学里学的是医学。", "Tā zài dàxué lǐ xué de shì yīxué.", "What he studied at university was medicine.", "new"],
+ "苍蝇": ["夏天厨房里常常有苍蝇。", "Xiàtiān chúfáng lǐ chángcháng yǒu cāngying.", "In summer there are often flies in the kitchen.", "new"],
+ "酒": ["他从来不喝酒。", "Tā cónglái bù hē jiǔ.", "He never drinks alcohol.", "new"],
+ "偷": ["有人偷了我的自行车。", "Yǒu rén tōu le wǒ de zìxíngchē.", "Someone stole my bicycle.", "new"],
+ "河": ["这条河的水很清。", "Zhè tiáo hé de shuǐ hěn qīng.", "The water in this river is very clear.", "new"],
+ "中": ["杯子中还有一点水。", "Bēizi zhōng hái yǒu yìdiǎn shuǐ.", "There is still a little water in the cup.", "new"]
+}

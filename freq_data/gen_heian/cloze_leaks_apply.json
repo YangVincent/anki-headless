@@ -1,0 +1,68 @@
+{
+ "笔": {
+  "sentence": "我的笔坏了，能借给我一支笔吗？",
+  "pinyin": "Wǒ de bǐ huài le, néng jiè gěi wǒ yì zhī bǐ ma?",
+  "english": "My pen is broken; can you lend me a pen?"
+ },
+ "唱": {
+  "sentence": "我喜欢听他唱歌，因为他唱得特别好听。",
+  "pinyin": "Wǒ xǐhuan tīng tā chànggē, yīnwèi tā chàng de tèbié hǎotīng.",
+  "english": "I like listening to him sing, because he sings especially well."
+ },
+ "一方面": {
+  "sentence": "一方面我想出国，另一方面又舍不得家人。",
+  "pinyin": "Yì fāngmiàn wǒ xiǎng chūguó, lìng yì fāngmiàn yòu shěbude jiārén.",
+  "english": "On the one hand I want to go abroad; on the other I cannot bear to leave my family."
+ },
+ "验证": {
+  "sentence": "这个结果还需要进一步验证。",
+  "pinyin": "Zhège jiéguǒ hái xūyào jìnyíbù yànzhèng.",
+  "english": "This result still needs further verification."
+ },
+ "图书": {
+  "sentence": "他捐了三千册图书。",
+  "pinyin": "Tā juān le sānqiān cè túshū.",
+  "english": "He donated three thousand books."
+ },
+ "登机": {
+  "sentence": "我们还有二十分钟就要登机了。",
+  "pinyin": "Wǒmen hái yǒu èrshí fēnzhōng jiù yào dēngjī le.",
+  "english": "We board the plane in another twenty minutes."
+ },
+ "遥控": {
+  "sentence": "这台机器可以远距离遥控。",
+  "pinyin": "Zhè tái jīqì kěyǐ yuǎn jùlí yáokòng.",
+  "english": "This machine can be controlled remotely from a distance."
+ },
+ "医学": {
+  "sentence": "他在大学里学的是医学。",
+  "pinyin": "Tā zài dàxué lǐ xué de shì yīxué.",
+  "english": "What he studied at university was medicine."
+ },
+ "苍蝇": {
+  "sentence": "夏天厨房里常常有苍蝇。",
+  "pinyin": "Xiàtiān chúfáng lǐ chángcháng yǒu cāngying.",
+  "english": "In summer there are often flies in the kitchen."
+ },
+ "酒": {
+  "sentence": "他从来不喝酒。",
+  "pinyin": "Tā cónglái bù hē jiǔ.",
+  "english": "He never drinks alcohol."
+ },
+ "偷": {
+  "sentence": "有人偷了我的自行车。",
+  "pinyin": "Yǒu rén tōu le wǒ de zìxíngchē.",
+  "english": "Someone stole my bicycle.",
+  "nid": 1781670076141
+ },
+ "河": {
+  "sentence": "这条河的水很清。",
+  "pinyin": "Zhè tiáo hé de shuǐ hěn qīng.",
+  "english": "The water in this river is very clear."
+ },
+ "中": {
+  "sentence": "杯子中还有一点水。",
+  "pinyin": "Bēizi zhōng hái yǒu yìdiǎn shuǐ.",
+  "english": "There is still a little water in the cup."
+ }
+}
