@@ -552,6 +552,60 @@ def cmd_sync_login(args):
         col.close()
 
 
+def finish_media_sync(col, timeout):
+    """Block until the background media sync stops, then return.
+
+    col.sync_media() spawns a Rust thread and returns at once. Closing the collection
+    under that thread panics the backend:
+
+        thread '<unnamed>' panicked at rslib/src/backend/sync.rs:249:36:
+        called `Option::unwrap()` on a `None` value
+
+    Reproduced every time by sync_media() followed immediately by close(); never once
+    when the sync is allowed to stop first. So this waits, and if the wait runs out it
+    ABORTS and waits again -- an abort is also asynchronous, and closing during one has
+    the same race. Returns True when the sync finished on its own.
+
+    The sync is not stuck when it takes a long time. This machine had a real backlog:
+    4,375 files downloaded in the first three minutes, still going. Progress is printed
+    so a long download does not read as a hang, and each run resumes where the last
+    stopped, so an abort costs nothing but time.
+    """
+    deadline = time.time() + timeout
+    shown = 0.0
+    while time.time() < deadline:
+        try:
+            st = col.media_sync_status()
+        except Exception as e:                     # the backend throws on sync failure
+            print(f"  Media sync failed: {e}", file=sys.stderr)
+            return False
+        line = " ".join(x for x in (st.progress.checked, st.progress.added,
+                                    st.progress.removed) if x.strip())
+        if not st.active:
+            print(f"  Media sync finished. {line}" if line else "  Media sync finished.")
+            return True
+        # One line every 5s, not every poll: at the 300s default a per-second line
+        # buries the rest of the sync output.
+        if line and time.time() - shown >= 5:
+            print(f"  {line}")
+            shown = time.time()
+        time.sleep(1)
+
+    print(f"  Media sync still running after {timeout}s — stopping it. "
+          f"The next sync resumes from here.")
+    col.abort_media_sync()
+    # An abort is asynchronous too. Closing while it lands panics the same way.
+    for _ in range(30):
+        try:
+            if not col.media_sync_status().active:
+                return False
+        except Exception:
+            return False
+        time.sleep(1)
+    print("  WARNING: the media sync did not stop; not closing cleanly.", file=sys.stderr)
+    return False
+
+
 def cmd_sync(args):
     auth = load_auth()
     if auth is None:
@@ -629,8 +683,15 @@ def cmd_sync(args):
         if not args.no_media and changes != FULL_SYNC:
             print("Syncing media...")
             col.sync_media(auth)
-            print("Media sync started in background.")
+            finish_media_sync(col, args.media_timeout)
     finally:
+        # Never close under a live media thread, on this path either: an exception
+        # above still leaves the sync running.
+        try:
+            if col.media_sync_status().active:
+                finish_media_sync(col, args.media_timeout)
+        except Exception:
+            pass
         col.close()
 
 
@@ -773,6 +834,9 @@ def build_parser():
     sync_parser.add_argument("--upload", action="store_true", help="Force full upload")
     sync_parser.add_argument("--download", action="store_true", help="Force full download")
     sync_parser.add_argument("--no-media", action="store_true", help="Skip media sync")
+    sync_parser.add_argument("--media-timeout", type=int, default=300, metavar="SECONDS",
+                             help="stop waiting for the media sync after this long and "
+                                  "abort it cleanly (default 300; the next run resumes)")
     sync_sub = sync_parser.add_subparsers(dest="sync_command")
 
     login_p = sync_sub.add_parser("login", help="Log in to AnkiWeb")
