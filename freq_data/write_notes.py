@@ -127,12 +127,15 @@ def main():
             if "sentence" in spec:
                 s, py, en = spec["sentence"], spec["pinyin"], spec["english"]
                 old = strip_html(note.fields[IX["SentenceSimplified"]])
-                simp = s.replace(w, f"<b>{w}</b>", 1)
+                # EVERY occurrence, not just the first. A cloze that blanks one of two
+                # leaves the answer sitting in the other half of its own front side; 13
+                # cards in Main already read like "厨房里飞进来一只[]，我赶紧拿苍蝇拍打".
+                simp = s.replace(w, f"<b>{w}</b>")
                 note.fields[IX["SentenceSimplified"]] = simp
                 note.fields[IX["SentenceTraditional"]] = cc.convert(simp)
-                note.fields[IX["SentenceSimplifiedCloze"]] = s.replace(w, "[ ]", 1)
+                note.fields[IX["SentenceSimplifiedCloze"]] = s.replace(w, "[ ]")
                 note.fields[IX["SentenceTraditionalCloze"]] = cc.convert(s).replace(
-                    cc.convert(w), "[ ]", 1)
+                    cc.convert(w), "[ ]")
                 note.fields[IX["SentencePinyin"]] = py
                 note.fields[IX["SentenceMeaning"]] = en
                 note.fields[IX["SentenceAudio"]] = ""   # reads the OLD sentence
@@ -174,6 +177,12 @@ def main():
                     bad.append((w, "sentence absent or splits the word"))
                 if bare(note.fields[IX["SentenceAudio"]]):
                     bad.append((w, "stale sentence audio"))
+                for fld in ("SentenceSimplifiedCloze", "SentenceTraditionalCloze"):
+                    cz = bare(note.fields[IX[fld]])
+                    if "[]" not in cz.replace(" ", ""):
+                        bad.append((w, f"{fld} has no blank"))
+                    if w in cz:
+                        bad.append((w, f"{fld} still shows the answer"))
         print(f"  problems: {len(bad)} (want 0)")
         for w, why in bad:
             print(f"    {w}: {why}")
