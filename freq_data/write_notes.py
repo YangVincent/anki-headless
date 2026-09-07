@@ -131,8 +131,14 @@ def main():
             # cloze leak already carry a good note, and rewriting it would be a loss.
             if "notes" in spec and not re.search(r"[一-鿿]", spec["notes"]):
                 bad.append((w, "note contains no Chinese at all"))
-            if "notes" not in spec and "sentence" not in spec:
+            if not ({"notes", "sentence", "meaning"} & set(spec)):
                 bad.append((w, "entry changes nothing"))
+            if "meaning" in spec:
+                m = spec["meaning"]
+                if len(m) > 70:
+                    bad.append((w, f"meaning is {len(m)} chars, over 70"))
+                if re.search(r"(?:^|; )\d{1,2}\.\s", m) or "CL:" in m or re.search(r"\bmw\b", m):
+                    bad.append((w, "meaning reintroduces a dictionary artefact"))
         print(f"  problems: {len(bad)} (want 0)")
         for w, why in bad:
             print(f"    {w}: {why}")
@@ -150,6 +156,11 @@ def main():
                 print(f"    {spec['notes'][:150]}")
             else:
                 print(f"\n  {w}  (Notes left as it is)")
+            if "meaning" in spec:
+                old = strip_html(note.fields[IX["Meaning"]])
+                note.fields[IX["Meaning"]] = spec["meaning"]
+                print(f"    meaning - {old}")
+                print(f"    meaning + {spec['meaning']}")
             if "sentence" in spec:
                 s, py, en = spec["sentence"], spec["pinyin"], spec["english"]
                 old = strip_html(note.fields[IX["SentenceSimplified"]])
@@ -197,6 +208,8 @@ def main():
             IX = {f["name"]: i for i, f in enumerate(note.note_type()["flds"])}
             if "notes" in spec and strip_html(note.fields[IX["Notes"]]) != spec["notes"]:
                 bad.append((w, "Notes did not take"))
+            if "meaning" in spec and strip_html(note.fields[IX["Meaning"]]) != spec["meaning"]:
+                bad.append((w, "Meaning did not take"))
             if "sentence" in spec:
                 s = bare(note.fields[IX["SentenceSimplified"]])
                 if w not in s or is_split(w, s):
