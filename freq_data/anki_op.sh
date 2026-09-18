@@ -63,6 +63,59 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
+# Pull from AnkiWeb BEFORE the backup and BEFORE the op.
+#
+# The op is about to write card rows. A card row holds one value per card, so it cannot
+# merge: if the study device holds answers that have not reached the server, the op's
+# stale row wins the next sync and the review is destroyed. That happened 62 times
+# between 2026-06-08 and 2026-09-18 -- resort_main_queue.py repositions every NEW card,
+# so it overwrote exactly the cards Vincent had just started. The revlog survived each
+# time, because revlog rows have unique ids and never conflict, which is how the damage
+# was found and repaired (freq_data/repair_lost_scheduling.py).
+#
+# Pulling first cannot close the window completely: a phone can always hold an answer it
+# has not uploaded. It does remove the case that caused every one of those 62 -- a device
+# that HAS uploaded, and a local copy that never asked for the changes.
+#
+# Set ANKI_OP_NO_PULL=1 to skip it (offline, or a deliberate local-only run).
+if [ "${ANKI_OP_NO_PULL:-0}" = "1" ]; then
+  echo "[anki_op] pull SKIPPED (ANKI_OP_NO_PULL=1)"
+else
+  echo "[anki_op] pulling from AnkiWeb before the write"
+  "$PY" - "$COL" <<'PYPULL'
+import json, os, sys
+from anki.collection import Collection
+from anki.sync import SyncAuth
+auth_file = os.path.expanduser("~/.anki_auth")
+if not os.path.exists(auth_file):
+    print("[anki_op] WARNING: ~/.anki_auth missing; no pull. A device review made since "
+          "the last sync can still be overwritten by this op.")
+    sys.exit(0)
+col = Collection(sys.argv[1])
+try:
+    data = json.load(open(auth_file))
+    auth = SyncAuth(); auth.hkey = data["hkey"]
+    if data.get("endpoint"):
+        auth.endpoint = data["endpoint"]
+    res = col.sync_collection(auth, sync_media=False)
+    if res.new_endpoint:
+        data["endpoint"] = res.new_endpoint
+        json.dump(data, open(auth_file, "w")); os.chmod(auth_file, 0o600)
+    if res.required == 2:
+        print("[anki_op] ERROR: AnkiWeb wants a FULL SYNC. Resolve it with `anki-cli sync` "
+              "and decide which side wins BEFORE any script writes.")
+        sys.exit(1)
+    print(f"[anki_op] pull ok (status={res.required})")
+finally:
+    col.close()
+PYPULL
+  if [ $? -ne 0 ]; then
+    [ "$BOT_UP" = 1 ] && pm2 start anki-bot >/dev/null 2>&1
+    "$PY" /home/vincent/anki-headless/anki_cache.py unpause || true
+    exit 1
+  fi
+fi
+
 echo "[anki_op] backup -> $(basename "$BAK")"
 "$PY" - "$COL" "$BAK" <<'PYBAK'
 import sys, sqlite3
