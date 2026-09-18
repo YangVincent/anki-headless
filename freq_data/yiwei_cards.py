@@ -248,5 +248,81 @@ def main():
         col.close()
 
 
+
+
+# ── park pass ─────────────────────────────────────────────────────────────────
+# Vincent kept the two that cross into ordinary speech (以…为主, 以…为准) and tabled
+# the rest on 2026-09-18. The three that came out of Archive go back to Archive, and
+# 为期 keeps the place it held before today, because it is an HSK 5 card he already had.
+KEEP = {"为主", "为准"}
+BACK_TO_ARCHIVE = {"为己任", "以和为贵", "以史为鉴"}
+LEAVE_IN_CURRICULUM = {"为期"}
+NEXT_TAG = "next::以A为B"
+SET_TAG = "grammar::以A为B"
+
+
+def park():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--db", default=COL)
+    args = ap.parse_args(sys.argv[2:])
+
+    col = Collection(args.db)
+    try:
+        archive_did = deck_registry.deck_id_for(col, deck_registry.ARCHIVE)
+        nids = col.find_notes(f'tag:{SET_TAG}')
+        print(f"{len(nids)} notes carry {SET_TAG}")
+        plan = {"keep": [], "suspend": [], "archive": [], "curriculum": []}
+        for nid in nids:
+            note = col.get_note(nid)
+            word = re.sub(r"<[^>]+>", "", note.fields[0]).strip()
+            if word in KEEP:
+                bucket = "keep"
+            elif word in BACK_TO_ARCHIVE:
+                bucket = "archive"
+            elif word in LEAVE_IN_CURRICULUM:
+                bucket = "curriculum"
+            else:
+                bucket = "suspend"
+            plan[bucket].append((word, nid))
+            if not args.apply:
+                continue
+            if bucket != "keep" and NEXT_TAG in note.tags:
+                note.tags.remove(NEXT_TAG)
+                col.update_note(note)
+            fwd = [c.id for c in note.cards() if c.ord == 0]
+            if bucket == "suspend":
+                col.sched.suspend_cards(fwd)
+            elif bucket == "archive":
+                col.set_deck([c.id for c in note.cards()], archive_did)
+                col.sched.suspend_cards([c.id for c in note.cards()])
+        for k, v in plan.items():
+            print(f"  {k:<11} {len(v):>2}  {[w for w, _ in v]}")
+        if not args.apply:
+            print("DRY RUN — nothing written")
+            return
+        # verify in this window
+        bad = []
+        for bucket, rows in plan.items():
+            for word, nid in rows:
+                note = col.get_note(nid)
+                fwd = [(col.decks.name(c.did), c.queue) for c in note.cards() if c.ord == 0][0]
+                tags = set(note.tags)
+                ok = {
+                    "keep": fwd[1] == 0 and fwd[0] == "Main" and NEXT_TAG in tags,
+                    "suspend": fwd[1] == -1 and fwd[0] == "Main" and NEXT_TAG not in tags,
+                    "archive": fwd[1] == -1 and fwd[0] == "Archive" and NEXT_TAG not in tags,
+                    "curriculum": fwd[1] == 0 and fwd[0] == "Main" and NEXT_TAG not in tags,
+                }[bucket]
+                if not ok:
+                    bad.append((bucket, word, fwd, sorted(tags)))
+        print(f"\nVERIFY: {'all buckets correct' if not bad else f'PROBLEMS {bad}'}")
+    finally:
+        col.close()
+
+
 if __name__ == "__main__":
-    main()
+    if sys.argv[1:2] == ["park"]:
+        park()
+    else:
+        main()
