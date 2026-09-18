@@ -92,9 +92,13 @@ def main():
         if args.apply and not scratch and not sync(col, "before"):
             return 1
 
+        # `reset::` marks a card Vincent deliberately put back to new (see
+        # reset_restored_to_new.py). Its revlog is kept as the audit trail, so without
+        # this exclusion the card looks damaged and this script would undo his choice.
         rows = col.db.all(
             "SELECT c.id, n.sfld FROM cards c JOIN notes n ON n.id=c.nid "
             "WHERE c.reps=0 AND c.type=0 "
+            "AND n.tags NOT LIKE '%reset::%' "
             "AND EXISTS (SELECT 1 FROM revlog r WHERE r.cid=c.id AND r.ease>0)")
         print(f"{len(rows)} cards read as new but hold real answers\n")
 
@@ -144,7 +148,8 @@ def main():
         print(f"\nrepaired {len(done)}, skipped {len(skipped)} {skipped}")
         print(f"VERIFY: {'every card left the new state' if not bad else f'PROBLEMS {bad}'}")
         still = col.db.scalar(
-            "SELECT count(*) FROM cards c WHERE c.reps=0 AND c.type=0 "
+            "SELECT count(*) FROM cards c JOIN notes n ON n.id=c.nid "
+            "WHERE c.reps=0 AND c.type=0 AND n.tags NOT LIKE '%reset::%' "
             "AND EXISTS (SELECT 1 FROM revlog r WHERE r.cid=c.id AND r.ease>0)")
         print(f"VERIFY: cards still reading new with real answers: {still} (want 0)")
         if not scratch:
