@@ -31,7 +31,27 @@ stays as the set's LABEL -- it is how the dashboard draws the row -- it just no 
 carries an order.
 
 Then, across the whole result: each single-character card sits immediately before the
-FIRST word that uses it, and characters used by no new word go to the tail.
+FIRST word that uses it.
+
+TWO RULES ABOUT CHARACTERS, both added 2026-09-19.
+
+1. `Hanly gap` characters at or below HSK 5 are INTERLEAVED, one every 5 cards that Anki
+   will actually serve. Vincent studies 15-25 new cards a day, so that is five characters
+   in a 25-card day. There are 105 of them and the interleave ends at visible position
+   525. A character Hanly taught needs no card and does not have one, so the export at
+   HANLY_EXPORT selects the set; the filter is a no-op today and exists so a newer export
+   drops anything Hanly adds.
+
+2. A character no new word uses no longer goes to the TAIL. It sorts into the curriculum
+   at its own HSK level, like a word. The tail was an artefact of rule 2 above: whether a
+   character had an unstudied word to sit before said nothing about how useful it is.
+   俩 倍 县 棵 盐 逛 sat at positions 7,887 to 7,892, about 525 days out at 15 a day,
+   while 涨 岸 毒 闲 sat inside the first 105.
+
+SUSPENDED new cards still get a position, so the order is right whenever they are
+unsuspended, but they do NOT count toward the interleave. Anki skips them when serving, so
+a suspended card in an interleave slot would steal a character Vincent never sees. 284 sit
+in Main today and 〇 was one of them.
 
 NO FREQUENCY. Zipf ordered words within a level until 2026-09-01. Vincent removed it;
 the curriculum's own order now breaks the tie. That order is the HSK 3.0 list's file
@@ -73,6 +93,15 @@ import decks as deck_registry  # noqa: E402
 DECKS = deck_registry.RECOGNITION_DECKS
 LEVEL_TAG = re.compile(r"^HSK::HSK([1-6]|7-9)$")
 LEVEL_RANK = {**{str(i): i for i in range(1, 7)}, "7-9": 7}
+#: A single CJK character. The interleaved set is characters, never words.
+HANZI_CHAR = re.compile(r"[\u4e00-\u9fff\u3007]")
+#: HSK ceiling for the interleaved character set, and how often one appears.
+#: 5 and 5 give five characters in every twenty-five cards, which is Vincent's day.
+PRIORITY_MAX_LEVEL = LEVEL_RANK["5"]
+INTERLEAVE_EVERY = 5
+#: Hanly's own export. A character in it needs no card and has none, so this filter is a
+#: no-op today; it is here so a newer export automatically drops anything Hanly adds.
+HANLY_EXPORT = f"{ROOT}/learning_progress_export_2026-08-04T12-06-51.893265.json"
 
 
 def strip_html(s):
@@ -126,6 +155,13 @@ def main():
     for i, w in enumerate(official):
         LIST_POS.setdefault(w["word"], i)
     OUTSIDE = len(official)
+    try:
+        hanly_taught = {c for c in json.load(open(HANLY_EXPORT))
+                        if HANZI_CHAR.fullmatch(c)}
+    except FileNotFoundError:
+        hanly_taught = set()
+        print(f"WARN: no Hanly export at {HANLY_EXPORT}; interleaving every character "
+              f"at or below HSK {PRIORITY_MAX_LEVEL}")
     col = Collection(args.db)
     try:
         cv_id = col.models.by_name("ChineseVocabulary")["id"]
@@ -145,59 +181,109 @@ def main():
                       f"deck and keep their old positions. Empty that deck first if you "
                       f"want them ordered too.")
             rows = col.db.all(
-                "SELECT c.id, c.due, n.sfld, n.mid, n.tags FROM cards c JOIN notes n ON n.id=c.nid "
+                "SELECT c.id, c.due, n.sfld, n.mid, n.tags, c.queue FROM cards c "
+                "JOIN notes n ON n.id=c.nid "
                 "WHERE c.did=? AND c.type=0 AND c.ord=0 ORDER BY c.due, c.id", did)
 
-            words, chars = [], []
-            for cid, due, sfld, mid, tags in rows:
+            words, chars, priority = [], [], []
+            suspended = set()
+            for cid, due, sfld, mid, tags, queue in rows:
                 s = strip_html(sfld)
+                tl = tags.split()
+                if queue == -1:
+                    # A suspended new card still gets a position, so the order is right
+                    # whenever it is unsuspended. It must NOT count toward the interleave:
+                    # Anki skips it when serving, so a suspended card in an interleave slot
+                    # steals a character Vincent never sees. 284 sit in Main today, and 〇
+                    # is one of them.
+                    suspended.add(cid)
+                lvl = level_of(tl, LEVEL_RANK.get(hsk.get(s, ""), 9))
+                # The interleaved set: one Chinese character, at or below
+                # PRIORITY_MAX_LEVEL, that Hanly never taught. Vincent reads characters
+                # already, so a character Hanly covered needs no card and does not have
+                # one. These do, and before 2026-09-19 they sat wherever rule 2 or the
+                # orphan tail dropped them -- 俩 倍 县 棵 盐 逛 were at positions 7,887 to
+                # 7,892, about 525 days out, while 涨 岸 毒 闲 sat inside the first 105.
+                # Their position depended on whether some unstudied word happened to
+                # contain them, which says nothing about how useful the character is.
+                if len(s) == 1 and HANZI_CHAR.fullmatch(s) and lvl <= PRIORITY_MAX_LEVEL \
+                        and s not in hanly_taught and queue != -1:
+                    priority.append((lvl, LIST_POS.get(s, OUTSIDE), due, cid, s))
+                    continue
                 if mid == cv_id:
-                    lvl = level_of(tags.split(), LEVEL_RANK.get(hsk.get(s, ""), 9))
                     # A word tagged 'demoted' (freq overstates its usefulness) sorts to
                     # the very back, whatever its level. Without this the tag is inert:
                     # resort_vocab.py was the only reader of it and its deck is empty.
-                    # The rest of this paragraph used to say `book::` sorts to the very
-                    # back. That stopped being true in 300757f, which moved it to band 1
-                    # once the filtered deck that justified the back was deleted. The
-                    # comment survived the change and contradicted rank_of() for three
-                    # days. rank_of IS the rule; do not restate it here.
-                    rank = rank_of(tags.split())
-                    words.append((rank, lvl, LIST_POS.get(s, OUTSIDE), due, cid, s))
+                    # rank_of IS the rule; do not restate it here.
+                    words.append((rank_of(tl), lvl, LIST_POS.get(s, OUTSIDE), due, cid, s))
                 elif mid == cc_id:
-                    chars.append((cid, s, due))
+                    chars.append((cid, s, due, lvl))
                 else:
                     print(f"  WARN {dname}: unexpected notetype for {s!r}, treated as word")
                     words.append((0, 9, OUTSIDE, due, cid, s))
 
-            words.sort(key=lambda t: (t[0], t[1], t[2], t[3]))  # band, level, list pos, current pos
-            char_by_glyph = {}
-            chars_due = {}
-            for cid, s, due in chars:
-                char_by_glyph.setdefault(s, []).append(cid)       # dupes impossible today, but be safe
-                chars_due.setdefault(s, due)
+            priority.sort(key=lambda t: (t[0], t[1], t[2]))   # level, list pos, current pos
 
-            order, placed = [], set()
+            # Rule 2 needs the glyphs the remaining words actually contain. A character
+            # no word uses has nothing to sit before. Until 2026-09-19 those went to the
+            # very tail, behind every word in the collection. They now sort into the
+            # curriculum at their own HSK level, like a word, because the tail position
+            # was an artefact of the rule and not a judgement about the character.
+            used = {ch for *_, w in words for ch in w}
+            char_by_glyph, chars_due = {}, {}
+            for cid, s, due, lvl in chars:
+                if s in used:
+                    char_by_glyph.setdefault(s, []).append(cid)
+                    chars_due.setdefault(s, due)
+                else:
+                    words.append((0, lvl, LIST_POS.get(s, OUTSIDE), due, cid, s))
+
+            words.sort(key=lambda t: (t[0], t[1], t[2], t[3]))  # band, level, list pos, current pos
+
+            base, placed = [], set()
             for rank, lvl, negf, due, cid, w in words:
                 for ch in w:                                       # rule 2: char before first use
                     if ch in char_by_glyph and ch not in placed:
-                        order.extend(char_by_glyph[ch])
+                        base.extend(char_by_glyph[ch])
                         placed.add(ch)
-                order.append(cid)
+                base.append(cid)
 
-            # Characters no new word uses. Ordered by the official list, then by their
-            # current position -- the same two keys the words use, for the same reason.
-            orphans = sorted((g for g in char_by_glyph if g not in placed),
-                             key=lambda g: (LIST_POS.get(g, OUTSIDE), chars_due.get(g, 0)))
-            for g in orphans:
-                order.extend(char_by_glyph[g])
+            # Interleave: one priority character every INTERLEAVE_EVERY cards, until the
+            # set runs out. At 25 new cards a day that is 5 characters and 20 words.
+            # `visible` counts only the cards Anki will actually serve, so the ratio is
+            # 5 per 25 STUDIED cards rather than 5 per 25 queue slots.
+            order, pri_at, visible = [], [], 0
+            pi = bi = 0
+            while pi < len(priority) or bi < len(base):
+                take_priority = pi < len(priority) and (visible % INTERLEAVE_EVERY
+                                                        == INTERLEAVE_EVERY - 1)
+                if take_priority or bi >= len(base):
+                    if pi < len(priority):
+                        pri_at.append(len(order))
+                        order.append(priority[pi][3]); pi += 1
+                        visible += 1
+                    else:
+                        cid = base[bi]; bi += 1
+                        order.append(cid)
+                        visible += cid not in suspended
+                else:
+                    cid = base[bi]; bi += 1
+                    order.append(cid)
+                    visible += cid not in suspended
+
 
             assert len(order) == len(rows), f"{dname}: {len(order)} != {len(rows)}"
             assert len(set(order)) == len(order), f"{dname}: duplicate card in order"
 
-            print(f"\n{dname}: {len(words)} words + {len(chars)} chars = {len(rows)} new cards")
-            print(f"  chars placed before first use: {len(placed)}   tail (unused by any new word): {len(orphans)}")
-            if orphans:
-                print(f"  tail chars: {' '.join(orphans[:20])}{' …' if len(orphans) > 20 else ''}")
+            print(f"\n{dname}: {len(words)} entries + {len(chars)} chars "
+                  f"+ {len(priority)} interleaved = {len(rows)} new cards")
+            print(f"  chars placed before first use: {len(placed)}")
+            print(f"  interleaved 1-in-{INTERLEAVE_EVERY} up to HSK {PRIORITY_MAX_LEVEL}: "
+                  f"{len(priority)} chars, last one at position "
+                  f"{pri_at[-1] + 1 if pri_at else 0}")
+            if priority:
+                print(f"  interleaved: {' '.join(t[4] for t in priority[:24])}"
+                      f"{' …' if len(priority) > 24 else ''}")
 
             if args.apply:
                 col.sched.reposition_new_cards(order, starting_from=1, step_size=1,
@@ -206,17 +292,21 @@ def main():
             # ── verify against the live queue (or the computed order on a dry run) ──
             if args.apply:
                 seq = col.db.all(
-                    "SELECT n.sfld, n.mid, n.tags FROM cards c JOIN notes n ON n.id=c.nid "
+                    "SELECT n.sfld, n.mid, n.tags, c.queue FROM cards c "
+                    "JOIN notes n ON n.id=c.nid "
                     "WHERE c.did=? AND c.type=0 AND c.ord=0 ORDER BY c.due, c.id", did)
-                seq = [(strip_html(s), m, t) for s, m, t in seq]
+                seq = [(strip_html(s), m, t, q) for s, m, t, q in seq]
                 # 1 and 2 hold WITHIN a rank group, never across one. A boundary resets
                 # the level by design, so a whole-queue scan reports one false descent per
                 # boundary -- 2 of them here, for an order with no real fault.
+                # The interleaved characters sit OUTSIDE the curriculum order on
+                # purpose, so they are excluded from checks 1-3. Check 4 covers them.
+                pri_set = {t[4] for t in priority}
                 desc, bad_f = 0, 0
-                for grp in sorted({rank_of(t.split()) for s, m, t in seq if m == cv_id}):
+                for grp in sorted({rank_of(t.split()) for s, m, t, q in seq if m == cv_id}):
                     prev_l, prev_f = None, None
-                    for s, m, t in seq:
-                        if m != cv_id or rank_of(t.split()) != grp:
+                    for s, m, t, q in seq:
+                        if m != cv_id or rank_of(t.split()) != grp or s in pri_set:
                             continue
                         l = level_of(t.split(), LEVEL_RANK.get(hsk.get(s, ""), 9))
                         f = LIST_POS.get(s, OUTSIDE)
@@ -228,7 +318,9 @@ def main():
                         prev_l, prev_f = l, f
                 # 3. every placed char precedes the first word containing it
                 first_word_at, char_at = {}, {}
-                for i, (s, m, t) in enumerate(seq):
+                for i, (s, m, t, q) in enumerate(seq):
+                    if s in pri_set:
+                        continue
                     if m == cc_id:
                         char_at.setdefault(s, i)
                     else:
@@ -236,13 +328,24 @@ def main():
                             first_word_at.setdefault(ch, i)
                 late = [ch for ch, i in char_at.items()
                         if ch in first_word_at and i > first_word_at[ch]]
+                # 4. the interleave itself: one priority card every INTERLEAVE_EVERY
+                # slots, until the set is exhausted, and none of them left behind.
+                vis = [(s, m, t) for s, m, t, q in seq if q != -1]
+                at = [i for i, (s, m, t) in enumerate(vis) if s in pri_set]
+                want = list(range(INTERLEAVE_EVERY - 1,
+                                  INTERLEAVE_EVERY * len(pri_set), INTERLEAVE_EVERY))
+                spacing_ok = at == want[:len(at)] and len(at) == len(pri_set)
                 print(f"  verify: level descents {desc} (want 0) · "
                       f"list-order breaks within level {bad_f} (want 0) · "
                       f"chars after their first word {len(late)} (want 0)")
+                print(f"  verify: interleave {len(at)}/{len(pri_set)} placed, "
+                      f"spacing {'ok' if spacing_ok else 'WRONG'} "
+                      f"(every {INTERLEAVE_EVERY}th slot to position "
+                      f"{at[-1] + 1 if at else 0})")
                 if late:
                     print(f"    LATE: {' '.join(late[:20])}")
-                head = " ".join(s for s, m, t in seq[:14])
-                print(f"  frontmost: {head}")
+                head = " ".join(s for s, m, t, q in seq if q != -1)
+                print(f"  frontmost (unsuspended): {' '.join(head.split()[:14])}")
 
         print("\nAPPLIED." if args.apply else "\nDRY-RUN — nothing written.")
 
