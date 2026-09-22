@@ -11,6 +11,7 @@ re-reads each note afterwards to confirm the write.
 
 Usage:
   freq_data/set_fields.py '<anki search>' --set Pinyin='dàyì, dàyi' --set Meaning='…'
+                                          [--tag next::<name>]
   bash freq_data/anki_op.sh set-fields freq_data/set_fields.py '<search>' --set … --apply
 """
 import sys, argparse, re
@@ -27,6 +28,8 @@ def main():
     ap.add_argument("query")
     ap.add_argument("--set", action="append", default=[], metavar="FIELD=VALUE",
                     help="repeatable; the value is taken literally, never a regex")
+    ap.add_argument("--tag", action="append", default=[],
+                    help="repeatable; a tag to add to each matched note")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--db", default=COL)
     args = ap.parse_args()
@@ -61,6 +64,13 @@ def main():
                 print(f"      now: {v[:160]}")
                 if args.apply:
                     note[f] = v
+            for t in args.tag:
+                if t in note.tags:
+                    print(f"   tag {t}: already there")
+                else:
+                    print(f"   tag {t}: add")
+                    if args.apply:
+                        note.tags.append(t)
             if args.apply:
                 col.update_note(note)
                 touched.append(nid)
@@ -74,6 +84,9 @@ def main():
             for f, v in pairs:
                 if f in [x["name"] for x in note.note_type()["flds"]] and note[f] != v:
                     bad.append((nid, f))
+            for t in args.tag:
+                if t not in note.tags:
+                    bad.append((nid, f"tag {t}"))
         print(f"\nwrote {len(touched)} note(s)")
         print(f"VERIFY: {'every field holds its new value' if not bad else f'PROBLEMS {bad}'}")
         return 0 if not bad else 1
