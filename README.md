@@ -54,6 +54,18 @@ Photos are added as multimodal messages (base64 image + caption), so Claude hand
 
 These bypass Claude and query the collection directly for speed.
 
+## Reverse Priority Review
+
+`/reverse-priority` serves a mobile-friendly review queue for vocabulary already reviewed
+in Main whose Reverse card is still unseen. It can search, rank by personal usefulness, or suggest a random batch,
+and its checkboxes set or clear the Main-card flag that controls Reverse priority. Changes
+autosync to AnkiWeb after a short debounce.
+
+- `GET /api/reverse-candidates?limit=40&q=&order=personal` lists eligible vocabulary and card state. Personal order combines the user's lookup/tap history, productive part-of-speech, manual and content-source tags, and an HSK 4–6 preference; `order=random` shuffles the pool.
+- `POST /api/reverse-flag` accepts `{"note_id": 123, "flag": 1}`; use flag `0` to clear.
+
+Both API endpoints use the same bearer authentication as the rest of `/api/`.
+
 ## Setup
 
 Requires a `.bot_config.json` in the project directory:

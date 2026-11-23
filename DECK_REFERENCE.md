@@ -181,7 +181,7 @@ as a third `ChineseVocabulary` template, **`Cloze-Recall`**, gated on a field:
 
 ```
 {{#SentenceSimplifiedCloze}}
-  Fill the blank — the word meaning "{{Meaning}}". Say it.
+  Fill in the blank: "{{Meaning}}"
   {{SentenceSimplifiedCloze}}
 {{/SentenceSimplifiedCloze}}
 ```
@@ -195,8 +195,15 @@ have no cloze in it.
 name/flag-based check says this collection has no cloze, and every one of them is wrong.
 
 Templates: `Hanzi-English` (ord 0) · `English-Speaking` (ord 1, "Express this in Mandarin. Say
-it out loud") · `Cloze-Recall` (ord 2). Ords 1 and 2 are both **production-direction** drills —
-cue is the meaning, you generate the Chinese aloud — as opposed to ord 0's recognition.
+it out loud") · `Cloze-Recall` (ord 2). Ords 1 and 2 are both **production-direction** drills.
+
+Progression is mastery-driven and one-way: durable `Hanzi-English` recall independently
+unlocks both `Cloze-Recall` and `English-Speaking`, adding `stage::cloze` and
+`stage::reverse` respectively. Flagging the Main card immediately overrides the mastery
+requirement for both. Cloze is optional practice and is not a prerequisite for Reverse.
+The flags remain per-card, while the tags preserve an earned stage if a source flag is
+later cleared. Unreviewed cards with no stage stay suspended; reviewed cards are never
+removed from rotation.
 
 **External consumer (2026-08-04):** comprehensiblemandarin's Write module reads `Cloze`
 through anki-bot's `GET /api/deck/{name}/words?ord=2` to source its vocabulary writing prompts —
@@ -269,6 +276,11 @@ missing connectives are mostly words never studied at all, and you cannot leech 
 never seen.
 
 #### Don't use `shift_existing=True` for a small repositioning
+
+For one recognition card, use `freq_data/prioritize_new_card.py` through
+`freq_data/anki_op.sh`. Run it without `--apply` first to see the exact note,
+card, and position, then run with `--apply`. It sets only that card's position
+below the current minimum and verifies that at most one card row was dirtied.
 
 `reposition_new_cards(..., shift_existing=True)` on 19 cards bumped the queue position of
 **255,749** unrelated new cards to make room, dirtying them all for sync. Relative order was

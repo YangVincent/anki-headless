@@ -21,13 +21,14 @@ PRODUCTION = "production"     # ord 1 `English-Speaking`, maturity-gated
 CLOZE = "cloze"               # ord 2 `Cloze-Recall`, maturity-gated
 ARCHIVE = "archive"           # parked; always suspended; never studied
 RESERVED = "reserved"         # Anki's own deck 1, which cannot be deleted
+AUXILIARY = "auxiliary"       # independent non-Chinese study decks
 
 
 @dataclass(frozen=True)
 class Deck:
     name: str
     role: str
-    #: which maturity gates count this deck as a source of "the word is known"
+    #: which staged transitions use this deck as their flag source
     gates: tuple = ()
     #: newly created vocabulary notes are filed here
     new_words: bool = False
@@ -37,28 +38,28 @@ class Deck:
 
 
 # ── the list ──────────────────────────────────────────────────────────
-# Consolidated 2026-08-19 (26 decks -> 8), then again 2026-09-01 (8 -> 5). This is the
-# whole collection. `HSK`, `HSK7-9`, `non-HSK` and `Mined` all became `Main`: Vincent
-# studies one direction, so splitting the recognition role bought nothing and cost an
-# ordering rule per deck.
+# The Chinese decks were consolidated on 2026-08-19 (26 -> 8), then again on 2026-09-01
+# (8 -> 5). `HSK`, `HSK7-9`, `non-HSK` and `Mined` all became `Main`: Vincent studies
+# one direction, so splitting the recognition role bought nothing and cost an ordering
+# rule per deck. Independent script-learning decks are declared as auxiliary roots.
 DECKS = (
     # One recognition deck, and new words land in it. The `liked` / `next::` / `demoted`
     # / `book::` tags carry the ordering that four decks used to carry; see
     # freq_data/resort_main_queue.py.
-    Deck("Main", RECOGNITION, gates=(PRODUCTION, CLOZE), new_words=True,
+    Deck("Main", RECOGNITION, gates=(CLOZE, PRODUCTION), new_words=True,
          legacy_names=("HSK", "HSK7-9", "non-HSK", "Mined", "Vocab"),
          note="Every word, Chinese -> English. HSK 3.0 and everything outside it."),
-    # The gates stay DECLARED even though neither fires today. bot.GATE_DISABLED is the
-    # off switch; an empty `gates` here is not, because gate_source_ids() refuses an
-    # empty source list -- with no source, `mature` is empty and the gate would suspend
-    # every released card while reporting success.
     Deck("Reverse", PRODUCTION,
-         note="Production cards. All suspended 2026-09-01; the gate no longer releases."),
+         note="Speaking cards unlocked by durable Main recall; a Main flag overrides."),
     Deck("Cloze", CLOZE, legacy_names=("Vocab Cloze",),
-         note="Cloze cards. All suspended 2026-09-01; the gate no longer releases."),
+         note="Context recall unlocked by durable Main recall; a Main flag overrides."),
     Deck("Archive", ARCHIVE, legacy_names=("Hidden",),
          note="Everything parked. Always suspended. Notes here must be promoted, "
               "never re-created."),
+    Deck("Bopomofo", AUXILIARY,
+         note="Independent Zhuyin foundation practice."),
+    Deck("Japanese", AUXILIARY,
+         note="Japanese study parent; kana and later Japanese material live below it."),
     Deck("Default", RESERVED,
          note="0 cards. Anki reserves deck id 1 and will not let it be deleted."),
 )
@@ -83,6 +84,11 @@ RECOGNITION_DECKS = _named(RECOGNITION)
 PRODUCTION_DECK = _one(PRODUCTION)
 CLOZE_DECK = _one(CLOZE)
 ARCHIVE_DECK = _one(ARCHIVE)
+
+# Optional ordered children used by the production scheduler. Keeping these names here
+# preserves the module's single-boundary rule: callers ask for a route, not a deck name.
+PRODUCTION_PRIORITY_DECK = PRODUCTION_DECK + "::1 Flagged"
+PRODUCTION_GENERAL_DECK = PRODUCTION_DECK + "::2 General"
 
 #: The archive under every name it has had. A check that reads only the current name is
 #: wrong during a rename and wrong against any older backup.
@@ -280,6 +286,25 @@ def deck_id_for(col, role):
     return did
 
 
+def production_route_ids(col):
+    """(flagged destination, general destination, production subtree ids).
+
+    Older backups and isolated tests have only the parent deck. In that case both routes
+    safely collapse to the parent. A half-created pair is an error: silently routing only
+    one class would make the scheduler policy depend on which setup write failed.
+    """
+    root = deck_id_for(col, PRODUCTION)
+    priority = col.decks.id_for_name(PRODUCTION_PRIORITY_DECK)
+    general = col.decks.id_for_name(PRODUCTION_GENERAL_DECK)
+    if (priority is None) != (general is None):
+        raise DeckMissing(
+            "production priority decks are incomplete: expected both "
+            f"{PRODUCTION_PRIORITY_DECK!r} and {PRODUCTION_GENERAL_DECK!r}")
+    if priority is None:
+        priority = general = root
+    return priority, general, set(deck_ids_for(col, PRODUCTION))
+
+
 def new_words_deck_id(col):
     """Where a newly created vocabulary note is filed."""
     did = col.decks.id_for_name(NEW_WORDS_DECK)
@@ -289,7 +314,7 @@ def new_words_deck_id(col):
 
 
 def gate_source_ids(col, gate):
-    """Deck IDs whose ord-0 card proves the word is known, for one maturity gate.
+    """Deck IDs whose cards provide flags for one staged transition.
 
     Subdecks included, and every declared source must exist -- see deck_ids_for.
     """
@@ -375,9 +400,16 @@ def unexpected_in(col):
     accept subdecks, so flagging `Mined::x` as a stray while the gate happily counts it
     made two functions disagree and told the model a legitimate deck was a mistake.
     """
-    return sorted(d.name for d in col.decks.all_names_and_ids()
-                  if d.name not in ALL_NAMES
-                  and not any(d.name.startswith(n + "::") for n in ALL_NAMES))
+    out = []
+    for ref in col.decks.all_names_and_ids():
+        deck = col.decks.get(ref.id)
+        if deck and deck.get("dyn"):
+            continue
+        if ref.name in ALL_NAMES or any(
+                ref.name.startswith(name + "::") for name in ALL_NAMES):
+            continue
+        out.append(ref.name)
+    return sorted(out)
 
 
 def describe():

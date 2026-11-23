@@ -1,11 +1,40 @@
 # Vocab system — frequency-ordered Chinese learning
 
+## Practice cards (2026-11-18)
+
+Pattern prompts now live in `Reverse::2 General`. The old `Patterns` filtered deck was
+retired. Add or update a pattern prompt with the existing `freq_data/add_pattern_cards.py`:
+
+```bash
+bash freq_data/anki_op.sh pattern-preview freq_data/add_pattern_cards.py \
+  --data path/to/patterns.json
+bash freq_data/anki_op.sh pattern-apply freq_data/add_pattern_cards.py \
+  --data path/to/patterns.json --apply
+```
+
+Input is a JSON list of `{ "key": "unique-slug", "front": "English prompt", "back":
+"Chinese answer and explanation" }` objects. Existing tagged prompts are updated in
+place, keeping their review schedule. New prompts enter the front of Reverse General's
+new-card queue. The historical one-shot `grammar_pattern_deck.py` refuses to run.
+
+Cloze practice is retired: its stage gate is disabled and its new-card limit is zero.
+Existing Cloze cards and review history are retained; already scheduled review cards
+keep their schedule. New ChineseVocabulary notes may still have a suspended Cloze sibling because the
+note type retains that template to preserve existing review history. Keep future practice
+prompts in Reverse, including prompts with a sentence blank.
+
+For ordinary card maintenance, use the existing editors with JSON specs:
+`freq_data/applied/note_patch.py` for fields and tags,
+`freq_data/disambiguation_upsert.py` for contrast groups,
+`freq_data/applied/vocab_upsert.py` for vocabulary creation, and
+`freq_data/merge_reverse_synonyms.py` for shared production cues. Card-specific
+one-off Python scripts are unnecessary.
+
 > **Deck names.** No script here spells a deck name out. They come from `decks.py`, which
 > declares each deck's role, and `freq_data/lint_deck_names.py` keeps that at zero.
 >
-> `freq_data/applied/` holds 45 one-shot scripts retired on 2026-08-19. Every one names a
-> deck that no longer exists, so every one is a silent no-op if re-run. See the README
-> there before re-using any of them.
+> `freq_data/applied/` contains both reusable editors listed above and historical
+> one-shot migrations. Check the script before reusing an older migration.
 
 Tooling that turned a scattered Anki collection into a single **frequency-ordered "Vocab" deck**,
 with pipelines for generating example sentences and character mnemonics.
@@ -13,6 +42,60 @@ with pipelines for generating example sentences and character mnemonics.
 Built for a **heritage speaker** whose goal is reading (novels, business/finance media like 小Lin,
 papers). Bottleneck is *word knowledge*, not character decoding — so the deck is **word-first,
 frequency-ordered**, not gated on character mastery. See "Design decisions" below.
+
+---
+
+## Disambiguation pipeline
+
+Near-synonym and lookalike groups live in `../disambiguations.json`. The Anki bot enriches
+that registry with the current cards at `GET /api/disambiguations`; the Chinese dashboard
+snapshots that endpoint and renders the groups by category.
+
+Add or revise a group with one spec containing `group` plus optional card-field patches
+keyed by word, then run it through the normal locked/backup wrapper:
+
+```bash
+bash freq_data/anki_op.sh disambiguation-upsert \
+  freq_data/disambiguation_upsert.py path/to/spec.json
+```
+
+The command validates every member against exactly one live `ChineseVocabulary` note,
+updates the requested fields, tags each note `disambiguation::<group-id>`, updates the
+registry atomically, and performs one collection sync with media disabled. Category IDs
+must already be declared in the registry; group IDs use lowercase ASCII words separated
+by hyphens.
+
+### Merge overlapping Reverse prompts
+
+When one English production cue fairly accepts several Chinese words, keep one Reverse
+card and cover the alternatives with it. First preview the exact live notes and card IDs:
+
+```bash
+.venv/bin/python freq_data/merge_reverse_synonyms.py \
+  --keep 长处 --merge 所长 \
+  --cue "someone's strengths; what a person does well (give one natural expression)"
+```
+
+Apply the same command through the collection wrapper:
+
+```bash
+bash freq_data/anki_op.sh merge-strengths freq_data/merge_reverse_synonyms.py \
+  --keep 长处 --merge 所长 \
+  --cue "someone's strengths; what a person does well (give one natural expression)" \
+  --apply
+```
+
+Repeat `--merge`
+for more accepted words. `--cue` must be an English prompt that fits *every* answer; the
+script refuses Hanzi on the cue side. It leaves every Main and Cloze card, the keeper's
+Reverse schedule, and all review history intact. The keeper's answer side lists the
+accepted Chinese words; the extra Reverse cards are suspended and tagged
+`mode::reverse-merged`. The recurring stage gate honors that tag even if a card is
+flagged or later reaches the normal Reverse unlock threshold. Running the command
+again with the same words is safe and does not duplicate the answer-side note.
+
+To find merged alternatives in Anki, search `tag:mode::reverse-merged`. To find the
+active keeper cards, search `tag:mode::reverse-keeper`.
 
 ---
 
@@ -25,6 +108,47 @@ frequency-ordered**, not gated on character mastery. See "Design decisions" belo
 | **pypinyin** | hanzi → tone-marked pinyin | pip, in `.venv` | card pinyin |
 | **Hanly export** | character-learning progress | `june_hanly.json` | informational only (NOT a gate) |
 | **HSK 3.0 word list** | official 2021 standard, 11,092 band entries → 10,960 distinct words | `hsk30_official.json` (built by `build_hsk30_official.py` from `hsk30_source.csv`) | HSK levels: deck tags, queue order, dashboard denominators |
+
+### Hanly-to-Anki bridge
+
+For a one-time move away from Hanly, first strip its export into a stable forward-only
+seed. This removes `_reverse` entries, preserves progress as four-bar metadata, and keeps
+stroke/radical forms separate from characters and words:
+
+```bash
+.venv/bin/python freq_data/hanly_strip.py learning_progress_export.json
+```
+
+The output is `hanly_anki_seed.json`. It is an enrichment input, not finished cards:
+Hanly's export contains no definitions, mnemonics, examples, or review history.
+
+The reviewed one-time migration for the current export is `hanly_gap_apply.py`. It covers
+every forward item below 75% with an already-studied word, one promoted two-character
+word, or a useful standalone-character card; the component/obsolete tail is explicitly
+discarded. Dry-run directly, then apply only through the collection wrapper:
+
+```bash
+.venv/bin/python freq_data/hanly_gap_apply.py learning_progress_export.json
+bash freq_data/anki_op.sh hanly-gap freq_data/hanly_gap_apply.py \
+  learning_progress_export.json --apply
+```
+
+`hanly_bridge.py` compares a new Hanly export with an older one. It evaluates forward
+progress by default because reverse study is disabled; `--direction reverse` and
+`--direction both` are available if that changes. It maps regressed characters to full vocabulary words already
+in Anki: a character inside a studied word is reported as covered, while a useful still-new
+word is proposed for promotion. Reports include the visible four-bar transition (`4->3`,
+`3->2`, etc.); exported progress maps to quarter bands. It does not create standalone
+character cards.
+
+```bash
+.venv/bin/python freq_data/hanly_bridge.py NEW.json --previous OLD.json
+bash freq_data/anki_op.sh hanly-bridge freq_data/hanly_bridge.py NEW.json \
+  --previous OLD.json --limit 20 --apply
+```
+
+The first command only writes `freq_data/hanly_bridge_report.json`. Review that compact
+report before using `--apply`; collection writes must go through `anki_op.sh`.
 
 **`hsk3_vocab.json` moved to `quarantine/` on 2026-08-28 — see `quarantine/README.md`.** Its word
 membership survives as `supplementary_vocab.json`, which carries word/pinyin/gloss and **no level
@@ -255,8 +379,9 @@ bash freq_data/anki_op.sh undo-text     freq_data/leech_apply.py --undo --apply
 118 HSK cards had lapsed 3+ times. **112 already had example sentences**, so context was not the
 missing piece. Three distinct failures, three fixes:
 - **connectives** (然而, 以及, 此外, 进而, 从而) — all gloss to "however"/"in addition"/"thus",
-  so nothing on the card distinguishes them from 但是/可是/不过/却. The contrast *is* the card;
-  it goes in `Notes`.
+  so nothing on the card distinguishes them from 但是/可是/不过/却. The contrast *is* the card.
+  The shortest decisive cue belongs in `Meaning`, and `SentenceMeaning` must demonstrate
+  it; `Notes` can explain it after the answer but cannot carry the distinction alone.
 - **abstract words** (原则 "principle") — correct translation, no hook. Fix is collocations.
 - **characters** (22) — several glosses simply wrong: 幽 was "Humor", which is 幽默's meaning
   (and 幽默 is a phonetic loan, so its characters mean nothing); 符's example sentence was an
@@ -273,6 +398,11 @@ excluded by name — flagged, but it genuinely stands alone (祝你生日快乐)
 
 ## Design decisions (why it's built this way)
 
+- **Reverse-check every disambiguation.** Judge a production card using only `Meaning`
+  and `SentenceMeaning`, because the English-Speaking front deliberately hides `Notes`.
+  A near-synonym pair passes only when each English prompt supplies a fair reason to choose
+  its exact Mandarin answer: a grammar frame, collocation, register, or semantic role.
+  `Meaning` and `SentenceMeaning` must not contain the target Hanzi or they expose the answer.
 - **Word-first, frequency-ordered.** A heritage speaker can mostly decode characters; the gap is
   knowing words. Frequency = usefulness order. Character-readability is NOT a gate.
 - **Hanly and Anki are decoupled** (no tagging pipeline) but complementary: Hanly builds character

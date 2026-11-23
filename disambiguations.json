@@ -1,0 +1,948 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "grammar-flow",
+      "label": "Grammar & flow"
+    },
+    {
+      "id": "feelings-outlook",
+      "label": "Feelings & outlook"
+    },
+    {
+      "id": "judgment-description",
+      "label": "Judgment & description"
+    },
+    {
+      "id": "people-ability",
+      "label": "People & ability"
+    },
+    {
+      "id": "progress-action",
+      "label": "Progress & action"
+    },
+    {
+      "id": "lookalikes",
+      "label": "Lookalikes"
+    },
+    {
+      "id": "marketing-sales",
+      "label": "Marketing & sales"
+    }
+  ],
+  "groups": [
+    {
+      "id": "ways-to-say-one-after-another",
+      "category": "grammar-flow",
+      "title": "One after another",
+      "rule": "Choose the focus: 接连 = separate events close together; 连续 = an unbroken run; 陆续 = staggered arrivals; 先后 = order. 相继 overlaps with 接连/陆续 but is more written; 一连 stresses a count; 一再 stresses repeated attempts or occasions; 接着 moves to the next action; 不断 means keeps happening.",
+      "members": [
+        {
+          "word": "接连",
+          "cue": "Separate events happen close together; often repeated hits.",
+          "pattern": "接连收到三条坏消息"
+        },
+        {
+          "word": "连续",
+          "cue": "An unbroken run or duration, often counted.",
+          "pattern": "连续工作三天"
+        },
+        {
+          "word": "陆续",
+          "cue": "People or events arrive at staggered times over a period.",
+          "pattern": "客人陆续到达"
+        },
+        {
+          "word": "先后",
+          "cue": "Emphasizes which happened first and which later; no closeness required.",
+          "pattern": "先后在北京和上海工作"
+        },
+        {
+          "word": "相继",
+          "cue": "People or events follow one another; more written, overlapping with 接连/陆续.",
+          "pattern": "几家公司相继宣布涨价"
+        },
+        {
+          "word": "一连",
+          "cue": "Several things in a row, emphasizing the number; overlaps with 连续.",
+          "pattern": "一连问了三个问题"
+        },
+        {
+          "word": "一再",
+          "cue": "The same action happens repeatedly on separate occasions, often despite reminders or setbacks.",
+          "pattern": "我一再提醒他"
+        },
+        {
+          "word": "接着",
+          "cue": "Then: move from one action to the next action.",
+          "pattern": "吃完饭，接着去看电影"
+        },
+        {
+          "word": "不断",
+          "cue": "Something keeps happening or developing, without emphasizing a count.",
+          "pattern": "问题不断出现"
+        }
+      ]
+    },
+    {
+      "id": "ruguo-yaoshi",
+      "category": "grammar-flow",
+      "rule": "Both mean if; choose the conversational alternative only when casual register is the point.",
+      "members": [
+        {
+          "word": "如果",
+          "cue": "Neutral default for if; works in speech and writing.",
+          "pattern": "如果 A，就 B"
+        },
+        {
+          "word": "要是",
+          "cue": "Conversational if; casual alternative to the neutral default.",
+          "pattern": "要是 A，就 B"
+        }
+      ]
+    },
+    {
+      "id": "zhihou-ranhou",
+      "category": "grammar-flow",
+      "rule": "Use a time anchor for after X; use a connector for the next step, X and then Y.",
+      "members": [
+        {
+          "word": "之后",
+          "cue": "After X or after that; a time expression.",
+          "pattern": "X 之后，Y"
+        },
+        {
+          "word": "然后",
+          "cue": "Then or and then; introduces the next action.",
+          "pattern": "X，然后 Y"
+        }
+      ]
+    },
+    {
+      "id": "duiyu-dangcheng",
+      "category": "grammar-flow",
+      "rule": "English trap: regarding A introduces a topic; regard A as B assigns A an identity.",
+      "members": [
+        {
+          "word": "对于",
+          "cue": "Regarding or as for a topic.",
+          "pattern": "对于 A，…"
+        },
+        {
+          "word": "当成",
+          "cue": "Treat or think of A as B.",
+          "pattern": "把 A 当成 B"
+        }
+      ]
+    },
+    {
+      "id": "kaixin-leguan",
+      "category": "feelings-outlook",
+      "rule": "A present emotion answers how you feel; optimism answers how you view the situation or future.",
+      "members": [
+        {
+          "word": "开心",
+          "cue": "Happy or glad now; having a good time.",
+          "pattern": "感到很开心 / 玩得很开心"
+        },
+        {
+          "word": "乐观",
+          "cue": "Optimistic; expects a good outcome or sees the positive side.",
+          "pattern": "对…感到乐观 / 保持乐观"
+        }
+      ]
+    },
+    {
+      "id": "kuaile-kaixin",
+      "category": "feelings-outlook",
+      "rule": "Both mean happy; 开心 is the everyday spoken choice for feeling glad or having fun, while 快乐 is standard in greetings and general or abstract talk about happiness.",
+      "members": [
+        {
+          "word": "快乐",
+          "cue": "Happy/happiness in greetings, wishes, and general or abstract descriptions.",
+          "pattern": "生日快乐; 快乐的生活; 追求快乐"
+        },
+        {
+          "word": "开心",
+          "cue": "Conversationally feel glad, be in a good mood, or have a good time.",
+          "pattern": "见到你很开心; 玩得很开心; 不开心"
+        }
+      ]
+    },
+    {
+      "id": "jiaolv-danxin",
+      "category": "feelings-outlook",
+      "rule": "Anxiety answers how you feel; worry answers what person or outcome you fear.",
+      "members": [
+        {
+          "word": "焦虑",
+          "cue": "An anxious state; does not directly take the feared thing.",
+          "pattern": "感到焦虑 / 对…感到焦虑"
+        },
+        {
+          "word": "担心",
+          "cue": "Worry about a specific person, thing, or possible outcome.",
+          "pattern": "担心 + person, thing, or clause"
+        }
+      ]
+    },
+    {
+      "id": "tese-tedian",
+      "category": "judgment-description",
+      "rule": "A feature is a neutral point you can list; distinctive character is what gives something its identity.",
+      "members": [
+        {
+          "word": "特色",
+          "cue": "Distinctive character or specialty; identity-giving and often showcaseable.",
+          "pattern": "以…为特色 / 特色菜"
+        },
+        {
+          "word": "特点",
+          "cue": "Neutral identifiable feature or trait; may be good, bad, or descriptive.",
+          "pattern": "主要特点是…"
+        }
+      ]
+    },
+    {
+      "id": "renwei-xiangxin",
+      "category": "judgment-description",
+      "rule": "One states a judgment reached by assessment; the other accepts something as true or places trust in someone.",
+      "members": [
+        {
+          "word": "认为",
+          "cue": "Hold or state an opinion; judge something to be the case.",
+          "pattern": "认为 + clause / 被认为是…"
+        },
+        {
+          "word": "相信",
+          "cue": "Believe a claim is true or trust a person.",
+          "pattern": "相信 + person or clause"
+        }
+      ]
+    },
+    {
+      "id": "mingque-xianran",
+      "category": "judgment-description",
+      "rule": "Clearly defined content has no ambiguity; an obvious conclusion is evident from what you observe.",
+      "members": [
+        {
+          "word": "明确",
+          "cue": "Definite and unambiguous; specify or make explicit.",
+          "pattern": "明确的目标 / 明确责任"
+        },
+        {
+          "word": "显然",
+          "cue": "Obviously or evidently; evaluates a whole statement.",
+          "pattern": "显然，… / subject + 显然 + predicate"
+        }
+      ]
+    },
+    {
+      "id": "tiyan-tixian-tihui",
+      "category": "judgment-description",
+      "rule": "Have the experience, gain understanding from it, or show an abstract quality outwardly.",
+      "members": [
+        {
+          "word": "体验",
+          "cue": "Personally undergo or try an activity, situation, product, or service.",
+          "pattern": "体验生活 / 用户体验"
+        },
+        {
+          "word": "体会",
+          "cue": "Understand or appreciate something through lived experience.",
+          "pattern": "体会到 + feeling, truth, or difficulty"
+        },
+        {
+          "word": "体现",
+          "cue": "Embody or visibly demonstrate an abstract quality.",
+          "pattern": "A 体现了 B / B 体现在 A 上"
+        }
+      ]
+    },
+    {
+      "id": "chengren-daren",
+      "category": "people-ability",
+      "rule": "Use the formal or commercial adult category versus the everyday grown-up contrasted with a child.",
+      "members": [
+        {
+          "word": "成人",
+          "cue": "Adult as a formal or commercial category; adult-only.",
+          "pattern": "成人票 / 成人教育"
+        },
+        {
+          "word": "大人",
+          "cue": "Everyday grown-up contrasted with a child; historical honorific.",
+          "pattern": "一个大人两个小孩"
+        }
+      ]
+    },
+    {
+      "id": "tiancai-tianfen",
+      "category": "people-ability",
+      "rule": "A person is a genius; a person has natural aptitude.",
+      "members": [
+        {
+          "word": "天才",
+          "cue": "An exceptionally gifted person.",
+          "pattern": "是个天才 / 数学天才"
+        },
+        {
+          "word": "天分",
+          "cue": "Natural aptitude or gift that someone possesses.",
+          "pattern": "有天分 / 在…方面有天分"
+        }
+      ]
+    },
+    {
+      "id": "chengji-chengjiu",
+      "category": "progress-action",
+      "rule": "Performance can be measured as good or bad; an accomplishment is inherently positive and meaningful.",
+      "members": [
+        {
+          "word": "成绩",
+          "cue": "Grades, scores, or measurable performance and results.",
+          "pattern": "成绩好或差 / 考试成绩"
+        },
+        {
+          "word": "成就",
+          "cue": "Significant positive accomplishment, often substantial or lasting.",
+          "pattern": "取得成就 / 伟大的成就"
+        }
+      ]
+    },
+    {
+      "id": "jinbu-gaijin",
+      "category": "progress-action",
+      "rule": "Something itself makes progress; someone deliberately improves a specific thing.",
+      "members": [
+        {
+          "word": "进步",
+          "cue": "The person, skill, or society gets better; normally no direct object.",
+          "pattern": "X 进步了 / 取得进步"
+        },
+        {
+          "word": "改进",
+          "cue": "Improve or refine a method, product, process, or work; takes an object.",
+          "pattern": "改进 + thing"
+        }
+      ]
+    },
+    {
+      "id": "shiyong-shiyong-shiying",
+      "category": "lookalikes",
+      "rule": "Actively use something, judge it useful in practice, or adjust yourself to a new situation.",
+      "members": [
+        {
+          "word": "使用",
+          "cue": "Use, employ, or operate a tool, method, app, word, or resource.",
+          "pattern": "使用 + object"
+        },
+        {
+          "word": "实用",
+          "cue": "Practical, useful, or functional in the real world.",
+          "pattern": "很实用 / 实用的 + noun"
+        },
+        {
+          "word": "适应",
+          "cue": "Adapt to or get used to an environment, rhythm, system, or change.",
+          "pattern": "适应 + new condition"
+        }
+      ]
+    },
+    {
+      "id": "like-shike-jishi",
+      "category": "lookalikes",
+      "rule": "No delay, a moment or constant state, or early enough to meet the need.",
+      "members": [
+        {
+          "word": "立刻",
+          "cue": "Immediately; one action happens with no delay.",
+          "pattern": "立刻 + action"
+        },
+        {
+          "word": "时刻",
+          "cue": "A moment; or constantly and at all times.",
+          "pattern": "重要时刻 / 时刻准备着"
+        },
+        {
+          "word": "及时",
+          "cue": "Timely or in time; early enough to help or prevent a problem.",
+          "pattern": "及时 + action"
+        }
+      ]
+    },
+    {
+      "id": "fanfu-luxu",
+      "category": "grammar-flow",
+      "rule": "反复 repeats the same action or state; 陆续 sequences separate people or events over time.",
+      "members": [
+        {
+          "word": "反复",
+          "cue": "The same thing happens repeatedly, possibly stopping and restarting.",
+          "pattern": "反复 + action; state + 反复"
+        },
+        {
+          "word": "陆续",
+          "cue": "Different people or events occur one after another at staggered times.",
+          "pattern": "people/events + 陆续 + action"
+        }
+      ]
+    },
+    {
+      "id": "chuban-chuxing",
+      "category": "lookalikes",
+      "rule": "出版 puts a book or periodical into publication; 出行 means making a trip or traveling.",
+      "members": [
+        {
+          "word": "出版",
+          "cue": "Publish a book, magazine, or other edition.",
+          "pattern": "出版 + book/periodical; 由…出版"
+        },
+        {
+          "word": "出行",
+          "cue": "Go out or travel, especially in traffic and trip-planning contexts.",
+          "pattern": "出行方式; 绿色出行; 出行高峰"
+        }
+      ]
+    },
+    {
+      "id": "mingxian-xianran",
+      "category": "judgment-description",
+      "rule": "明显 describes a noticeable feature, difference, or change; 显然 marks the speaker's evident conclusion about a situation.",
+      "members": [
+        {
+          "word": "明显",
+          "cue": "Something is perceptibly noticeable or stands out.",
+          "pattern": "明显的 + noun; result/change + 很明显"
+        },
+        {
+          "word": "显然",
+          "cue": "The evidence makes a whole conclusion clearly true.",
+          "pattern": "subject + 显然 + predicate; 显然，+ clause"
+        }
+      ]
+    },
+    {
+      "id": "xianran-xiande-xianzhu-xianshi",
+      "category": "judgment-description",
+      "rule": "显然 marks a conclusion; 显得 links a subject to an appearance; 显著 marks significant degree; 显示 displays or indicates information.",
+      "members": [
+        {
+          "word": "显然",
+          "cue": "Clearly or evidently: the speaker draws an obvious conclusion.",
+          "pattern": "subject + 显然 + predicate; 显然，+ clause"
+        },
+        {
+          "word": "显得",
+          "cue": "Look or seem: a subject gives a particular impression.",
+          "pattern": "subject + 显得 + adjective/descriptive phrase"
+        },
+        {
+          "word": "显著",
+          "cue": "Significant or marked: a difference, effect, or change is notable in degree.",
+          "pattern": "显著 + change; 显著的 + difference; result + 显著"
+        },
+        {
+          "word": "显示",
+          "cue": "Show, display, or indicate information, data, evidence, or content.",
+          "pattern": "screen/data/research + 显示 + content/result"
+        }
+      ]
+    },
+    {
+      "id": "laizi-chuzi",
+      "category": "grammar-flow",
+      "rule": "来自 gives a broad origin or source; 出自 attributes a quotation, work, or product to a specific text, creator, maker, or producer.",
+      "members": [
+        {
+          "word": "来自",
+          "cue": "Come from: broad geographic, personal, material, or abstract origin.",
+          "pattern": "person/thing/information + 来自 + origin"
+        },
+        {
+          "word": "出自",
+          "cue": "Be from or by: specific attribution or provenance of something created or quoted.",
+          "pattern": "quotation/work/product + 出自 + text/creator/maker"
+        }
+      ]
+    },
+    {
+      "id": "fanfu-buyi-yizai",
+      "category": "grammar-flow",
+      "rule": "反复 presents repetition as an iterative process or recurring state; 一再 stresses occasion after occasion, often with an implied 'and still'; 不已 follows one unceasing reaction.",
+      "members": [
+        {
+          "word": "反复",
+          "cue": "A process loops or is revisited; a state can recur, fluctuate, or relapse.",
+          "pattern": "反复 + action; state + 反复"
+        },
+        {
+          "word": "一再",
+          "cue": "Again and again on separate occasions, often implying 'despite this' or 'and still.'",
+          "pattern": "一再 + verb"
+        },
+        {
+          "word": "不已",
+          "cue": "Unceasingly: a formal post-verbal complement for one continuing reaction.",
+          "pattern": "emotion or reaction + 不已"
+        }
+      ]
+    },
+    {
+      "id": "jishi-zicong",
+      "category": "grammar-flow",
+      "rule": "即使 introduces a concession: even if X, Y still holds; 自从 establishes a past starting point: since X, Y has been true.",
+      "members": [
+        {
+          "word": "即使",
+          "cue": "Even if/even though: X does not change the outcome.",
+          "pattern": "即使 + condition, 也 + outcome"
+        },
+        {
+          "word": "自从",
+          "cue": "Ever since: X is the past point from which a situation continues.",
+          "pattern": "自从 + past event, 就/一直 + continuing situation"
+        }
+      ]
+    },
+    {
+      "id": "tiyan-tihui-jingyan",
+      "category": "judgment-description",
+      "rule": "体验 is undergoing something firsthand; 体会 is the understanding or feeling gained from it; 经验 is accumulated practical know-how you retain and reuse.",
+      "members": [
+        {
+          "word": "体验",
+          "cue": "Live or try something firsthand: the experience itself.",
+          "pattern": "体验生活; 亲身体验; 用户体验"
+        },
+        {
+          "word": "体会",
+          "cue": "Come to appreciate or understand something through lived experience.",
+          "pattern": "体会到 + insight; 深有体会; 谈体会"
+        },
+        {
+          "word": "经验",
+          "cue": "Accumulated practical knowledge or expertise available for future use.",
+          "pattern": "有经验; 积累经验; 工作经验"
+        }
+      ]
+    },
+    {
+      "id": "qinkuai-qinlao",
+      "category": "people-ability",
+      "rule": "勤快 is colloquial and emphasizes readily staying busy and getting practical tasks done; 勤劳 describes sustained hard work as a broader trait or virtue.",
+      "members": [
+        {
+          "word": "勤快",
+          "cue": "Active and quick to do everyday work; visibly not lazy.",
+          "pattern": "手脚勤快; 干活很勤快"
+        },
+        {
+          "word": "勤劳",
+          "cue": "Hardworking and industrious as an enduring character trait.",
+          "pattern": "勤劳的人; 勤劳的人民; 勤劳勇敢"
+        }
+      ]
+    },
+    {
+      "id": "yilu-tuzhong",
+      "category": "grammar-flow",
+      "rule": "一路 says an action or state continues all the way through a journey; 途中 locates an event at some point during the journey.",
+      "members": [
+        {
+          "word": "一路",
+          "cue": "All the way: the action continues across the route or journey.",
+          "pattern": "一路 + action; 一路上; 一路平安"
+        },
+        {
+          "word": "途中",
+          "cue": "On the way: an event occurs somewhere between departure and arrival.",
+          "pattern": "在 + journey + 途中; journey + 途中"
+        }
+      ]
+    },
+    {
+      "id": "zaishan-fanfu",
+      "category": "grammar-flow",
+      "rule": "再三 presents someone deliberately repeating an action for emphasis, caution, persuasion, or careful thought; 反复 presents a process looping or a state recurring.",
+      "members": [
+        {
+          "word": "再三",
+          "cue": "Deliberately do it several times to insist, make sure, persuade, or think carefully.",
+          "pattern": "再三 + deliberate action"
+        },
+        {
+          "word": "反复",
+          "cue": "A process is revisited or repeated, or a condition keeps returning or fluctuating.",
+          "pattern": "反复 + action; condition + 反复"
+        }
+      ]
+    },
+    {
+      "id": "jianjian-zhubu",
+      "category": "grammar-flow",
+      "rule": "逐渐 and 渐渐 both describe a continuous gradual change; 逐渐 is the more neutral or written choice, while 渐渐 is more conversational. 逐步 instead presents progress through successive steps or stages.",
+      "members": [
+        {
+          "word": "逐渐",
+          "cue": "Gradually: the neutral or more written member of the 逐渐/渐渐 near-synonym pair.",
+          "pattern": "逐渐 + change in state, amount, or degree"
+        },
+        {
+          "word": "渐渐",
+          "cue": "Gradually or little by little: conversational counterpart of 逐渐.",
+          "pattern": "渐渐 + change or new state"
+        },
+        {
+          "word": "逐步",
+          "cue": "Step by step: a process advances through successive stages.",
+          "pattern": "逐步 + advance, establish, implement, solve, improve"
+        }
+      ]
+    },
+    {
+      "id": "zizhu-zijue",
+      "category": "people-ability",
+      "rule": "自主 concerns having control and making choices independently; 自觉 concerns voluntarily doing what one knows should be done, without reminders or supervision.",
+      "members": [
+        {
+          "word": "自主",
+          "cue": "Self-directed: you control the decision, method, or activity rather than someone else controlling it.",
+          "pattern": "自主 + choose, decide, learn, develop, operate"
+        },
+        {
+          "word": "自觉",
+          "cue": "Conscientiously and voluntarily: you do it without needing to be told, reminded, or watched.",
+          "pattern": "很自觉; 自觉 + obey, queue, study"
+        }
+      ]
+    },
+    {
+      "id": "nuli-jinli",
+      "category": "progress-action",
+      "rule": "努力 emphasizes working hard or putting in substantial effort; 尽力 means using all the effort or ability available, often for a particular task whose success is not guaranteed.",
+      "members": [
+        {
+          "word": "努力",
+          "cue": "Work hard: describes the intensity or sustained amount of effort.",
+          "pattern": "努力 + activity; 很努力"
+        },
+        {
+          "word": "尽力",
+          "cue": "Do everything one can: effort up to the limit of one's ability or circumstances.",
+          "pattern": "尽力 + accomplish or help; 尽力而为"
+        }
+      ]
+    },
+    {
+      "id": "bianlun-zhenglun",
+      "category": "progress-action",
+      "rule": "辩论 presents opposing sides giving reasoned arguments about an issue, often in a structured setting; 争论 presents people disagreeing and arguing over who or what is right.",
+      "members": [
+        {
+          "word": "辩论",
+          "cue": "Debate: opposing sides develop arguments and respond to each other's reasoning.",
+          "pattern": "围绕 issue 辩论; 辩论赛"
+        },
+        {
+          "word": "争论",
+          "cue": "Argue or dispute: people disagree over an issue; it may be calm or heated.",
+          "pattern": "为/关于 issue 争论; 一场争论"
+        }
+      ]
+    },
+    {
+      "id": "pibei-pijuan",
+      "category": "feelings-outlook",
+      "rule": "Both describe tiredness; 疲惫 usually means deeper physical or mental exhaustion, while 疲倦 more directly describes feeling tired or weary and wanting rest.",
+      "members": [
+        {
+          "word": "疲惫",
+          "cue": "Exhausted or worn out: a stronger, often whole-body or mental state.",
+          "pattern": "身心疲惫; 疲惫不堪; 一脸疲惫"
+        },
+        {
+          "word": "疲倦",
+          "cue": "Tired or weary: the felt need to rest after activity or insufficient rest.",
+          "pattern": "感到疲倦; 疲倦的神情; 不知疲倦"
+        }
+      ]
+    },
+    {
+      "id": "xiangdui-xiangbi",
+      "category": "grammar-flow",
+      "rule": "相比 explicitly names the comparison benchmark; 相对 describes a non-absolute degree or relation, often with the benchmark left implicit.",
+      "members": [
+        {
+          "word": "相对",
+          "cue": "relatively; relative: qualify a degree or relation rather than name a comparison partner",
+          "pattern": "相对 + adjective/noun; 相对于 + benchmark"
+        },
+        {
+          "word": "相比",
+          "cue": "compared with: explicitly set up the thing being used as the benchmark",
+          "pattern": "和/与/跟 + A + 相比"
+        }
+      ]
+    },
+    {
+      "id": "duixiang-duiying",
+      "category": "lookalikes",
+      "rule": "对象 is the noun for the person or thing an action is directed at; 对应 describes two things matching or corresponding.",
+      "members": [
+        {
+          "word": "对象",
+          "cue": "object, target, or person being studied/served; also a romantic partner",
+          "pattern": "研究/服务 + 对象; 找对象"
+        },
+        {
+          "word": "对应",
+          "cue": "to correspond or match: expresses the relationship between counterparts",
+          "pattern": "A 对应 B; 对应的 + noun; 与 A 相对应"
+        }
+      ]
+    },
+    {
+      "id": "ways-to-lead",
+      "category": "progress-action",
+      "title": "Ways to lead",
+      "rule": "先 = ahead; 路 = route; 动 = set in motion; 指 = point out how. 带领 and 率领 overlap: everyday lead vs formal head.",
+      "members": [
+        {
+          "word": "领先",
+          "cue": "Be ahead of competitors in score, rank, or progress.",
+          "pattern": "领 lead + 先 first; 领先两分"
+        },
+        {
+          "word": "带领",
+          "cue": "Lead a group through an activity; the everyday choice (formal counterpart: 率领).",
+          "pattern": "带 take along + 领 lead; 带领大家参观"
+        },
+        {
+          "word": "率领",
+          "cue": "Head a group on an undertaking; formal counterpart to 带领, not necessarily a large group.",
+          "pattern": "率 command + 领 lead; 率领球队夺冠"
+        },
+        {
+          "word": "领导",
+          "cue": "Direct an organization or people over time; also the leader.",
+          "pattern": "领 lead + 导 guide; 领导一家公司"
+        },
+        {
+          "word": "引导",
+          "cue": "Guide someone's thinking or behavior.",
+          "pattern": "引 draw along + 导 guide; 引导学生思考"
+        },
+        {
+          "word": "指导",
+          "cue": "Give instruction or expert guidance on how to do something.",
+          "pattern": "指 point out + 导 guide; 指导工作"
+        },
+        {
+          "word": "引领",
+          "cue": "Set a direction or trend that others follow; formal.",
+          "pattern": "引 draw forward + 领 lead; 引领潮流"
+        },
+        {
+          "word": "带动",
+          "cue": "Spur growth, activity, or enthusiasm into motion.",
+          "pattern": "带 take along + 动 move; 带动经济发展"
+        },
+        {
+          "word": "带路",
+          "cue": "Show someone the physical route.",
+          "pattern": "带 take along + 路 road; 请人带路"
+        },
+        {
+          "word": "向导",
+          "cue": "A person who guides others through unfamiliar terrain.",
+          "pattern": "向 direction + 导 guide; 请个向导"
+        }
+      ]
+    },
+    {
+      "id": "jinkeneng-jinliang",
+      "category": "grammar-flow",
+      "rule": "Both mean 'as much as possible'; 尽量 is the conversational default for trying, while 尽可能 explicitly maximizes the degree that circumstances permit.",
+      "members": [
+        {
+          "word": "尽可能",
+          "cue": "as X as possible: maximize a possible degree under the circumstances",
+          "pattern": "尽可能 + 早/快/多/少/详细; 尽可能（地）+ verb"
+        },
+        {
+          "word": "尽量",
+          "cue": "try to; as much as you can: conversational default emphasizing effort",
+          "pattern": "尽量 + verb/adjective"
+        }
+      ]
+    },
+    {
+      "id": "qingxiang-pianxiang",
+      "category": "judgment-description",
+      "rule": "For a personal A/B choice, both can mean 'lean toward.' Outside that overlap, 倾向 describes a neutral general tendency, while 偏向 means favoring one side and may imply bias.",
+      "members": [
+        {
+          "word": "倾向",
+          "cue": "neutral inclination or general tendency, including patterns without a conscious choice",
+          "pattern": "倾向于 + option/action; 有 + behavior + 的倾向"
+        },
+        {
+          "word": "偏向",
+          "cue": "lean toward or favor one side; overlaps with 倾向 for personal choices but can imply bias",
+          "pattern": "偏向 + side/person; （比较）偏向于 + option"
+        }
+      ]
+    },
+    {
+      "id": "huode-huoqu",
+      "category": "progress-action",
+      "rule": "获得 focuses on the resulting gain or possession; 获取 names the acquisition, access, or retrieval operation, whose completion depends on aspect and context.",
+      "members": [
+        {
+          "word": "获得",
+          "cue": "receive, gain, win, or be granted something as a result",
+          "pattern": "获得 + 奖项/机会/批准/支持/学位"
+        },
+        {
+          "word": "获取",
+          "cue": "acquire, access, fetch, or retrieve: the acquisition operation",
+          "pattern": "获取 + 信息/数据/资源/权限"
+        }
+      ]
+    },
+    {
+      "id": "zhanshi-zhanxian",
+      "category": "judgment-description",
+      "rule": "展示 focuses on presenting something for others to see; 展现 focuses on a quality, side, or scene becoming visible or apparent.",
+      "members": [
+        {
+          "word": "展示",
+          "cue": "deliberately show, present, or display something to others",
+          "pattern": "向 + person + 展示 + thing"
+        },
+        {
+          "word": "展现",
+          "cue": "reveal or manifest a quality; come into view",
+          "pattern": "展现(出) + quality/side; scene + 展现在..."
+        }
+      ]
+    },
+    {
+      "id": "xinnian-xinyang",
+      "category": "judgment-description",
+      "rule": "信念 is a conviction that a proposition or principle is true, right, or achievable; 信仰 is faith in or devotion to a religion, ideology, or overarching ideal.",
+      "members": [
+        {
+          "word": "信念",
+          "cue": "a firm personal conviction about what is true, right, or achievable",
+          "pattern": "一个信念：clause; 坚定/坚守信念"
+        },
+        {
+          "word": "信仰",
+          "cue": "faith in or adherence to a religion, ideology, or overarching ideal",
+          "pattern": "信仰 + religion/ideology; 宗教信仰; 有信仰"
+        }
+      ]
+    },
+    {
+      "id": "marketing-and-promotion",
+      "category": "marketing-sales",
+      "title": "Getting people interested",
+      "rule": "营销 is the commercial strategy; 宣传 raises awareness; 推广 spreads use or reach; 广告 is an ad; 推销 pitches to a buyer; 促销 is a campaign to boost sales. These activities can overlap.",
+      "members": [
+        {
+          "word": "营销",
+          "cue": "commercial marketing strategy and activity",
+          "pattern": "品牌/内容营销"
+        },
+        {
+          "word": "宣传",
+          "cue": "publicize or raise awareness",
+          "pattern": "宣传活动/资料"
+        },
+        {
+          "word": "推广",
+          "cue": "spread adoption or reach",
+          "pattern": "推广产品/技术"
+        },
+        {
+          "word": "广告",
+          "cue": "an advertisement or advertising",
+          "pattern": "投放广告"
+        },
+        {
+          "word": "推销",
+          "cue": "pitch a product directly to a buyer",
+          "pattern": "向人推销保险"
+        },
+        {
+          "word": "促销",
+          "cue": "a campaign to boost sales",
+          "pattern": "搞促销/促销活动"
+        }
+      ]
+    },
+    {
+      "id": "selling-and-availability",
+      "category": "marketing-sales",
+      "title": "Selling and availability",
+      "rule": "销售 is business language for selling; 出售 emphasizes offering an item for sale; 预售 happens before release; 零售 sells to individual consumers; 批发 sells in bulk to businesses. Everyday 'sell' is 卖.",
+      "members": [
+        {
+          "word": "销售",
+          "cue": "sell or sales, in business language",
+          "pattern": "销售汽车/销售额"
+        },
+        {
+          "word": "出售",
+          "cue": "offer an item for sale",
+          "pattern": "出售房屋/股票"
+        },
+        {
+          "word": "预售",
+          "cue": "sell before the official release",
+          "pattern": "门票开始预售"
+        },
+        {
+          "word": "零售",
+          "cue": "sell to individual consumers",
+          "pattern": "零售/批发"
+        },
+        {
+          "word": "批发",
+          "cue": "sell in bulk to resellers or businesses",
+          "pattern": "批发商品"
+        }
+      ]
+    },
+    {
+      "id": "product-launch-and-release",
+      "category": "marketing-sales",
+      "title": "Launch, release, circulate",
+      "rule": "推出 is the producer introducing something new; 上市 is a product reaching the market (or a company going public); 发布 announces or releases information or a product; 发行 distributes media, currency, or securities into circulation.",
+      "members": [
+        {
+          "word": "推出",
+          "cue": "introduce a new offering",
+          "pattern": "推出新产品/功能"
+        },
+        {
+          "word": "上市",
+          "cue": "reach the market; also go public",
+          "pattern": "新品上市/公司上市"
+        },
+        {
+          "word": "发布",
+          "cue": "announce or release information or a product",
+          "pattern": "发布消息/新品"
+        },
+        {
+          "word": "发行",
+          "cue": "issue and distribute into circulation",
+          "pattern": "发行图书/股票"
+        }
+      ]
+    }
+  ]
+}

@@ -190,10 +190,18 @@ def main():
                     if col.decks.name(col.get_card(c).did).split("::")[0] == "Main"
                     and col.get_card(c).queue == 0]
             assert len(cids) == 1, cids
-            before = col.get_card(cids[0]).due
+            card = col.get_card(cids[0])
+            assert card.type == 0 and not card.odid
+            before = card.due
             if args.apply:
-                # shift_existing so nothing else lands on the same position
-                col.sched.reposition_new_cards(cids, 1, 1, False, True)
+                # Pin only this card. shift_existing=True renumbers every new card
+                # across the collection, including suspended cards, and dirties them
+                # all for AnkiWeb sync (see DECK_REFERENCE.md).
+                from bot import set_new_card_position
+                first = col.db.scalar(
+                    "SELECT min(due) FROM cards WHERE did=? AND queue=0 AND id!=?",
+                    card.did, card.id)
+                set_new_card_position(col, card, (first if first is not None else 1) - 1)
             after = col.get_card(cids[0]).due
             print(f"\n  {args.front}: queue position {before} -> {after}")
 

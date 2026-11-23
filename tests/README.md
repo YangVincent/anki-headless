@@ -58,6 +58,7 @@ fixture's handle first. A fixture that held one open made every tool call raise
 | `test_tools.py` | Every declared tool executes. The write allowlist. Promotion keeps a review card's deck and schedule. `due` refuses a position on a review card or a card on loan to a filtered deck. |
 | `test_cache.py` | The read cache. The three units of `due`, Anki's own day number, the `unicase` collation, the queue and type maps, the rebuild trigger, freshness against a declared pause, and that the refresh job is actually REGISTERED. |
 | `test_placement.py` | The template deck overrides. A cloze card generated months later lands in `Cloze`, not the note's home deck — the bug that put 65 of them in `Default`. The collection's shape. |
+| `test_disambiguations.py` | Validates the grouped distinction registry, atomic upserts, live-card enrichment, and the dashboard API route. |
 
 ## Adding one
 

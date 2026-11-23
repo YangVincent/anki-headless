@@ -223,6 +223,7 @@ class PromotionOwnsNothing(CollectionTest):
         def pending():
             return [{k: r[k] for k in ("moved", "unsuspended", "suspended")}
                     for r in self.gate_result(dry_run=True)]
+        self.gate_result(dry_run=False)  # settle pre-existing user flags in the fixture
         before = pending()
         self.tool("tag_notes", {"query": "nid:1537328242227", "tags": ["mined"]})
         self.assertEqual(pending(), before,

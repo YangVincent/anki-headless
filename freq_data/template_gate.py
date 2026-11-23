@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Run the ChineseVocabulary maturity gates and report what changed.
+"""Run the staged ChineseVocabulary Reverse gate and report what changed.
 
-Two templates are gated on the same rule: you should not drill a word in a harder
-direction before you can recognise it.
+Durable ord 0 `Hanzi-English` recall unlocks ord 1 `English-Speaking` in
+`Reverse`; flagging ord 0 overrides the mastery requirement. Cloze practice
+is retired and is no longer released by this script or the bot.
 
-  * ord 1 `English-Speaking` (say it in Mandarin)  -> the `Reverse` deck
-  * ord 2 `Cloze-Recall`     (fill it in a blank)  -> the `Vocab Cloze` deck
-
-Both stay suspended until the word's ord 0 recognition card matures (type=2,
-interval >= 21 days) in a source deck, and neither ever sits in a study deck.
+Each transition is persisted as a note tag. Clearing the source flag later does not
+automatically remove an already-unlocked card, and a card with review history is never
+suspended by the gate. A card the user later suspends stays suspended: only a newly
+created stage tag releases a card.
 
 The rule itself lives in bot._apply_template_gate, so it exists in exactly one place.
 This script only reports and verifies. The bot runs the same functions every 5 minutes
@@ -46,10 +46,7 @@ if col is None:
     print("collection locked"); sys.exit(1)
 
 # Driven by ROLE. The names below are pulled from decks.py only to print them.
-GATES = (
-    (decks.PRODUCTION, bot.apply_reverse_gate, bot.REVERSE_TEMPLATE),
-    (decks.CLOZE, bot.apply_cloze_gate, bot.CLOZE_TEMPLATE),
-)
+GATES = ((decks.PRODUCTION, bot.apply_reverse_gate, bot.REVERSE_TEMPLATE),)
 
 try:
     cv = col.models.by_name(bot.CHINESE_VOCAB_NOTETYPE)
@@ -90,16 +87,17 @@ try:
             print(f"  NOT RUN: {r['error']}")
             failed = True
             continue
-        if r.get("releases_disabled"):
-            # bot.GATE_DISABLED holds this template, so it never unsuspends. It still
-            # parks new cards and still moves a stray card out of a study deck, and those
-            # counts below are real -- only `unsuspended` is pinned to zero by the flag.
-            print("  RELEASES DISABLED (bot.GATE_DISABLED) — parking still runs")
-        print(f"  mature words across {sources}: {r['mature_words']}")
+        print(f"  source: {r['source_template']} across {sources}")
+        print(f"  flagged source cards: {r['source_flagged']}")
+        print(f"  mastery-qualified cards: {r['source_mastered']}")
+        print(f"  eligible source cards: {r['eligible_sources']}")
+        print(f"  staged words: {r['staged_words']} ({r['newly_staged']} new)")
         print("  plan:" if not APPLY else "  applied:")
         print(f"     move into {home!r}              : {r['moved']}")
-        print(f"     unsuspend (word is mature)        : {r['unsuspended']}")
-        print(f"     suspend (not mature, never studied): {r['suspended']}")
+        print(f"     unsuspend (stage unlocked)         : {r['unsuspended']}")
+        print(f"     suspend (not staged, never studied): {r['suspended']}")
+        print(f"     append flagged to FIFO queue         : {r['repositioned_front']}")
+        print(f"     reposition automatic behind queue   : {r['repositioned_back']}")
 
     if not APPLY and not VERIFY_ONLY:
         print("\nDRY RUN — nothing written. Add --apply to commit.")
@@ -128,22 +126,15 @@ try:
         tot = col.db.scalar("SELECT count(*) FROM cards WHERE did=?", home_did)
         live = col.db.scalar("SELECT count(*) FROM cards WHERE did=? AND queue!=-1", home_did)
         print(f"  {home!r}: {tot} cards, {live} unsuspended")
-        # Location checks alone certified a state that broke the gate's whole purpose: a
-        # live card for a word that was never mature passed all of them. Check maturity.
-        src = decks.gate_source_ids(col, role)
-        ph = ",".join("?" * len(src))
-        mature = set(col.db.list(
-            f"SELECT nid FROM cards WHERE (CASE WHEN odid!=0 THEN odid ELSE did END) "
-            f"IN ({ph}) AND ord=0 AND type=2 AND ivl>=? AND queue!=-1", *src, bot.MATURE_IVL))
-        live_immature = [
-            cid for cid, nid, reps in col.db.all(
-                "SELECT c.id, c.nid, c.reps FROM cards c JOIN notes n ON n.id=c.nid "
-                "WHERE c.ord=? AND n.mid=? AND c.queue!=-1", ord_, cv["id"])
-            if nid not in mature and reps == 0]
+        stage_tag = bot.STAGE_TAG_BY_TEMPLATE[template]
+        live_unstaged = col.db.list(
+            "SELECT c.id FROM cards c JOIN notes n ON n.id=c.nid "
+            "WHERE c.ord=? AND n.mid=? AND c.queue!=-1 AND c.reps=0 "
+            "AND n.tags NOT LIKE ?", ord_, cv["id"], f"% {stage_tag} %")
         print(f"     in a study deck: {wrong_deck} (want 0) | "
               f"unsuspended elsewhere: {stray_live} (want 0)")
-        print(f"     unsuspended for a word that is NOT mature: {len(live_immature)} (want 0)")
-        if wrong_deck or stray_live or live_immature:
+        print(f"     unsuspended but not staged: {len(live_unstaged)} (want 0)")
+        if wrong_deck or stray_live or live_unstaged:
             failed = True
     bad = col.db.scalar("SELECT count(*) FROM cards WHERE type IN (1,2,3) AND due<0")
     print(f"  cards with a corrupted schedule: {bad} (want 0)")

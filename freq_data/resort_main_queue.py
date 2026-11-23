@@ -7,19 +7,22 @@ beats every band below it, whatever the level or the list position:
   0  `set::emotions`              the hand-picked priority set beats every computed rule
   1  `next::`                     the handful you chose to pull forward right now
   2  the curriculum               HSK level ascending, then official-list order
+     `later::business`            later within its own HSK level, never after later levels
+     `queue::post-hsk5`           selected words immediately after HSK5, before HSK6
+     `after::HSK5`               Stella targets mixed 3-for-3 with HSK7–9
   3  `demoted`                    marked down by hand
 
 There is no fourth band for "everything else". A word outside the HSK 3.0 list gets level
-9 from level_of(), and level 9 sorts after HSK 7-9 (rank 7) inside band 2. So the whole
-non-syllabus tail -- the rest of a book, `set::stella-an`, `set::connectives`,
-`set::emotions-later` -- already follows every HSK level without a band of its own.
+9 from level_of(), and level 9 sorts after HSK 7-9 (rank 7) inside band 2. Stella words
+tagged `after::HSK5` join the HSK 7-9 tier; unanchored non-syllabus words, including
+the rest of a book and `set::connectives`, follow every HSK level.
 
 Band 0 read `liked` until 2026-09-04. The tag claimed to be a hand mark and was not: a
 single run of order_study_sets.py wrote all 40 of them at 16:34 on 2026-09-01. Vincent
 asked for the tag to go. `set::emotions` now IS the front set, one word per emotional
 category, and order_study_sets.py moves everything it defers to `set::emotions-later`.
 Match the tag EXACTLY: `set::emotions-later`, `set::connectives` and `set::stella-an` are
-deliberately not band 0, so a prefix test on `set::` would pull 108 extra notes forward.
+deliberately not band 0, so a prefix test on `set::` would pull extra notes forward.
 
 `book::` LEFT band 1 on 2026-09-04. It joined that band three days earlier, when the tag
 meant a book you were reading and the set was small. 《黑暗森林》 made it 575 cards, which
@@ -47,6 +50,10 @@ TWO RULES ABOUT CHARACTERS, both added 2026-09-19.
    character had an unstudied word to sit before said nothing about how useful it is.
    俩 倍 县 棵 盐 逛 sat at positions 7,887 to 7,892, about 525 days out at 15 a day,
    while 涨 岸 毒 闲 sat inside the first 105.
+
+3. A character tagged `hanly-gap` is an explicit vocabulary target, not a component aid.
+   It sorts at its own HSK level just like a word. Otherwise a failed HSK 2 character can
+   be delayed until the first unseen HSK 7-9 word containing it, defeating the migration.
 
 SUSPENDED new cards still get a position, so the order is right whenever they are
 unsuspended, but they do NOT count toward the interleave. Anki skips them when serving, so
@@ -137,6 +144,19 @@ def level_of(tags, fallback):
     return fallback
 
 
+def placement_level(tags, curriculum_level):
+    """Place selected words after HSK5, or the Stella lane alongside HSK7–9."""
+    lower = {t.lower() for t in tags}
+    if "queue::post-hsk5" in lower:
+        return 5.5
+    return 7 if "after::hsk5" in lower else curriculum_level
+
+
+def within_level_rank(tags):
+    """Keep specialized material late in its level without breaking HSK progression."""
+    return 1 if "later::business" in {tag.lower() for tag in tags} else 0
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", default=f"{ROOT}/collection.anki2")
@@ -162,10 +182,16 @@ def main():
         hanly_taught = set()
         print(f"WARN: no Hanly export at {HANLY_EXPORT}; interleaving every character "
               f"at or below HSK {PRIORITY_MAX_LEVEL}")
+    frequency_path = f'{ROOT}/freq_data/stella_frequency.json'
+    stella_frequency = json.load(open(frequency_path))
     col = Collection(args.db)
     try:
         cv_id = col.models.by_name("ChineseVocabulary")["id"]
         cc_id = col.models.by_name("ChineseCharacters")["id"]
+
+        def curriculum_entry(mid, tags):
+            return mid == cv_id or (mid == cc_id and "hanly-gap" in
+                                    {tag.lower() for tag in tags})
 
         for dname in DECKS:
             did = col.decks.id_for_name(dname)
@@ -186,6 +212,7 @@ def main():
                 "WHERE c.did=? AND c.type=0 AND c.ord=0 ORDER BY c.due, c.id", did)
 
             words, chars, priority = [], [], []
+            hsk79_ids, stella_ids, word_ids = set(), set(), set()
             suspended = set()
             for cid, due, sfld, mid, tags, queue in rows:
                 s = strip_html(sfld)
@@ -207,20 +234,31 @@ def main():
                 # Their position depended on whether some unstudied word happened to
                 # contain them, which says nothing about how useful the character is.
                 if len(s) == 1 and HANZI_CHAR.fullmatch(s) and lvl <= PRIORITY_MAX_LEVEL \
-                        and s not in hanly_taught and queue != -1:
+                        and s not in hanly_taught and queue != -1 \
+                        and "hanly-gap" not in {tag.lower() for tag in tl}:
                     priority.append((lvl, LIST_POS.get(s, OUTSIDE), due, cid, s))
                     continue
                 if mid == cv_id:
+                    word_ids.add(cid)
+                if curriculum_entry(mid, tl) and rank_of(tl) == 0:
+                    if 'queue::post-hsk5' in {t.lower() for t in tl}:
+                        pass
+                    elif 'after::hsk5' in {t.lower() for t in tl}:
+                        stella_ids.add(cid)
+                    elif lvl == 7:
+                        hsk79_ids.add(cid)
+                if curriculum_entry(mid, tl):
                     # A word tagged 'demoted' (freq overstates its usefulness) sorts to
                     # the very back, whatever its level. Without this the tag is inert:
                     # resort_vocab.py was the only reader of it and its deck is empty.
                     # rank_of IS the rule; do not restate it here.
-                    words.append((rank_of(tl), lvl, LIST_POS.get(s, OUTSIDE), due, cid, s))
+                    words.append((rank_of(tl), placement_level(tl, lvl), within_level_rank(tl),
+                                  LIST_POS.get(s, OUTSIDE), due, cid, s))
                 elif mid == cc_id:
                     chars.append((cid, s, due, lvl))
                 else:
                     print(f"  WARN {dname}: unexpected notetype for {s!r}, treated as word")
-                    words.append((0, 9, OUTSIDE, due, cid, s))
+                    words.append((rank_of(tl), placement_level(tl, 9), within_level_rank(tl), OUTSIDE, due, cid, s))
 
             priority.sort(key=lambda t: (t[0], t[1], t[2]))   # level, list pos, current pos
 
@@ -236,12 +274,46 @@ def main():
                     char_by_glyph.setdefault(s, []).append(cid)
                     chars_due.setdefault(s, due)
                 else:
-                    words.append((0, lvl, LIST_POS.get(s, OUTSIDE), due, cid, s))
+                    words.append((0, lvl, 0, LIST_POS.get(s, OUTSIDE), due, cid, s))
 
-            words.sort(key=lambda t: (t[0], t[1], t[2], t[3]))  # band, level, list pos, current pos
+            words.sort(key=lambda t: (t[0], t[1], t[2], t[3], t[4]))
+            # band, level, within-level priority, official-list position, current position
+
+            # Mix vocabulary in visible blocks; suspended cards do not consume slots.
+            hsk_lane = [t for t in words if t[5] in hsk79_ids]
+            stella_lane = [t for t in words if t[5] in stella_ids]
+            stella_lane.sort(key=lambda t: (-stella_frequency.get(t[6],{}).get('videos',0),
+                                           -stella_frequency.get(t[6],{}).get('count',0), t[4], t[5]))
+            mixed = []
+            hi = si = 0
+            while hi < len(hsk_lane) and si < len(stella_lane):
+                for lane, which in ((hsk_lane, 'hsk'), (stella_lane, 'stella')):
+                    at = hi if which == 'hsk' else si
+                    served = 0
+                    while at < len(lane) and served < 3:
+                        entry = lane[at]; mixed.append(entry); at += 1
+                        served += entry[5] not in suspended and entry[5] in word_ids
+                    if which == 'hsk': hi = at
+                    else: si = at
+            mixed.extend(hsk_lane[hi:]); mixed.extend(stella_lane[si:])
+            if mixed:
+                first = next(i for i,t in enumerate(words) if t[5] in hsk79_ids | stella_ids)
+                prefix = [t for t in words[:first] if t[5] not in hsk79_ids | stella_ids]
+                suffix = [t for t in words[first:] if t[5] not in hsk79_ids | stella_ids]
+                words = prefix + mixed + suffix
+            # Check the visible word-lane pattern independently of character insertions.
+            actual = ['H' if t[5] in hsk79_ids else 'S' for t in mixed if t[5] not in suspended and t[5] in word_ids]
+            nh = sum(c=='H' for c in actual); ns = sum(c=='S' for c in actual)
+            expected=[]; rh,rs=nh,ns
+            while rh and rs:
+                n=min(3,rh);expected.extend(['H']*n);rh-=n
+                n=min(3,rs);expected.extend(['S']*n);rs-=n
+            expected.extend(['H']*rh);expected.extend(['S']*rs)
+            assert actual == expected, 'Stella/HSK7-9 block verification failed'
+            print(f'  3-for-3 blend: {nh} HSK7-9 words, {ns} Stella words; visible block pattern verified')
 
             base, placed = [], set()
-            for rank, lvl, negf, due, cid, w in words:
+            for rank, lvl, later, list_pos, due, cid, w in words:
                 for ch in w:                                       # rule 2: char before first use
                     if ch in char_by_glyph and ch not in placed:
                         base.extend(char_by_glyph[ch])
@@ -296,6 +368,8 @@ def main():
                     "JOIN notes n ON n.id=c.nid "
                     "WHERE c.did=? AND c.type=0 AND c.ord=0 ORDER BY c.due, c.id", did)
                 seq = [(strip_html(s), m, t, q) for s, m, t, q in seq]
+                live_ids = [r[0] for r in col.db.all('SELECT id FROM cards WHERE did=? AND type=0 AND ord=0 ORDER BY due,id', did)]
+                assert live_ids == order, 'Live queue differs from verified computed order'
                 # 1 and 2 hold WITHIN a rank group, never across one. A boundary resets
                 # the level by design, so a whole-queue scan reports one false descent per
                 # boundary -- 2 of them here, for an order with no real fault.
@@ -303,26 +377,34 @@ def main():
                 # purpose, so they are excluded from checks 1-3. Check 4 covers them.
                 pri_set = {t[4] for t in priority}
                 desc, bad_f = 0, 0
-                for grp in sorted({rank_of(t.split()) for s, m, t, q in seq if m == cv_id}):
-                    prev_l, prev_f = None, None
+                for grp in sorted({rank_of(t.split()) for s, m, t, q in seq
+                                   if curriculum_entry(m, t.split())}):
+                    prev_l, prev_w, prev_f = None, None, None
                     for s, m, t, q in seq:
-                        if m != cv_id or rank_of(t.split()) != grp or s in pri_set:
+                        if not curriculum_entry(m, t.split()) \
+                                or rank_of(t.split()) != grp or s in pri_set \
+                                or 'after::hsk5' in {tag.lower() for tag in t.split()}:
                             continue
-                        l = level_of(t.split(), LEVEL_RANK.get(hsk.get(s, ""), 9))
+                        l = placement_level(t.split(), level_of(t.split(), LEVEL_RANK.get(hsk.get(s, ""), 9)))
+                        w = within_level_rank(t.split())
                         f = LIST_POS.get(s, OUTSIDE)
                         if prev_l is not None and l < prev_l:
                             desc += 1
-                        # Within a level the official-list position must not go backwards.
-                        if prev_l == l and f < prev_f:
+                        # Specialized cards may reset list order once within the same
+                        # level, but may never jump back into the general subgroup.
+                        if prev_l == l and w < prev_w:
                             bad_f += 1
-                        prev_l, prev_f = l, f
+                        if prev_l == l and w == prev_w and f < prev_f:
+                            bad_f += 1
+                        prev_l, prev_w, prev_f = l, w, f
                 # 3. every placed char precedes the first word containing it
                 first_word_at, char_at = {}, {}
                 for i, (s, m, t, q) in enumerate(seq):
                     if s in pri_set:
                         continue
                     if m == cc_id:
-                        char_at.setdefault(s, i)
+                        if not curriculum_entry(m, t.split()):
+                            char_at.setdefault(s, i) # explicit hanly-gap targets follow curriculum
                     else:
                         for ch in s:
                             first_word_at.setdefault(ch, i)
@@ -344,6 +426,7 @@ def main():
                       f"{at[-1] + 1 if at else 0})")
                 if late:
                     print(f"    LATE: {' '.join(late[:20])}")
+                assert desc == 0 and bad_f == 0 and not late and spacing_ok, "Queue verification failed"
                 head = " ".join(s for s, m, t, q in seq if q != -1)
                 print(f"  frontmost (unsuspended): {' '.join(head.split()[:14])}")
 

@@ -7,6 +7,8 @@ was made, 146 production cards sat inside `HSK`, 132 inside `HSK7-9`.
 
 Anki has a per-template deck override for exactly this. These tests pin it.
 """
+import re
+
 import decks
 from tests.support import CollectionTest
 
@@ -39,6 +41,30 @@ class TemplateOverrides(CollectionTest):
             with self.subTest(model=model_name):
                 self.assertIsNone(m["tmpls"][0].get("did"))
 
+    def test_reverse_question_does_not_render_notes(self):
+        """Notes often contain the target Hanzi, which exposes the speaking answer."""
+        model = self.col.models.by_name("ChineseVocabulary")
+        template = next(t for t in model["tmpls"] if t["name"] == "English-Speaking")
+        self.assertNotIn("{{Notes}}", template["qfmt"])
+        self.assertIn("{{Notes}}", template["afmt"])
+
+    def test_no_template_says_say_it_out_loud(self):
+        unwanted = re.compile(r"say\s+it\s+out\s+loud", re.IGNORECASE)
+        for model in self.col.models.all():
+            for template in model["tmpls"]:
+                for side in ("qfmt", "afmt"):
+                    with self.subTest(model=model["name"], template=template["name"], side=side):
+                        self.assertNotRegex(template.get(side, ""), unwanted)
+
+    def test_reverse_templates_do_not_repeat_the_deck_instruction(self):
+        for model in self.col.models.all():
+            for template in model["tmpls"]:
+                if template["name"] != "English-Speaking":
+                    continue
+                for side in ("qfmt", "afmt"):
+                    with self.subTest(model=model["name"], side=side):
+                        self.assertNotIn("Express this in Mandarin", template.get(side, ""))
+
 
 class NewCardPlacement(CollectionTest):
 
@@ -57,11 +83,13 @@ class NewCardPlacement(CollectionTest):
         def pending():
             return [{k: r[k] for k in ("moved", "unsuspended", "suspended")}
                     for r in self.gate_result(dry_run=True)]
+        self.gate_result(dry_run=False)  # settle pre-existing user flags in the fixture
         before = pending()
         nid = self._add()
         placed = {o: self.col.decks.name(c.did) for o, c in self.cards_of(nid).items()}
         self.assertEqual(placed[0], decks.NEW_WORDS_DECK)
-        self.assertEqual(placed[1], decks.name_of(decks.PRODUCTION))
+        _priority, general, _home = decks.production_route_ids(self.col)
+        self.assertEqual(placed[1], self.col.decks.name(general))
         self.assertEqual(pending(), before,
                          "a freshly created note must not need repairing")
 
@@ -89,9 +117,9 @@ class CollectionShape(CollectionTest):
     """Assertions about the collection itself, which is the thing that cannot be
     rebuilt."""
 
-    def test_the_collection_holds_exactly_the_declared_decks(self):
-        names = {d.name for d in self.col.decks.all_names_and_ids()}
-        self.assertEqual(names, set(decks.ALL_NAMES))
+    def test_the_collection_holds_only_declared_roots_and_subdecks(self):
+        self.assertEqual(decks.missing_from(self.col), [])
+        self.assertEqual(decks.unexpected_in(self.col), [])
 
     def test_the_archive_is_fully_suspended(self):
         live = self.col.db.scalar(

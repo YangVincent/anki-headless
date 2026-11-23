@@ -951,11 +951,20 @@ def deck_words(con, deck, template_kind=RECOGNITION, notetype=VOCAB_NOTETYPE):
         "order by created_at desc, simplified", (deck, template_kind, notetype))]
 
 
-def deck_stats(con, deck_names=None, notetype=VOCAB_NOTETYPE):
+STUDY_TEMPLATE_KINDS = (RECOGNITION, SPEAKING, CLOZE)
+
+
+def _template_where(template_kinds):
+    kinds = tuple(template_kinds or (RECOGNITION,))
+    return f"template_kind in ({','.join('?' * len(kinds))})", kinds
+
+
+def deck_stats(con, deck_names=None, notetype=VOCAB_NOTETYPE, template_kinds=(RECOGNITION,)):
     """{deck: {total, studied, mature, new_left, new_per_day}} summed over templates."""
     limits = {r["deck"]: r["new_per_day"] for r in con.execute("select * from deck_limits")}
     known = {r[0] for r in con.execute("select distinct deck from deck_stats")}
     names = list(deck_names) if deck_names is not None else sorted(known)
+    tw, targs = _template_where(template_kinds)
     out = {}
     for name in names:
         if name not in known:
@@ -963,8 +972,8 @@ def deck_stats(con, deck_names=None, notetype=VOCAB_NOTETYPE):
         row = con.execute(
             "select coalesce(sum(total),0) t, coalesce(sum(studied),0) s, "
             "coalesce(sum(mature),0) m, coalesce(sum(new_left),0) n from deck_stats "
-            "where deck = ? and notetype = ? and template_kind = ?",
-            (name, notetype, RECOGNITION)).fetchone()
+            f"where deck = ? and notetype = ? and {tw}",
+            (name, notetype, *targs)).fetchone()
         out[name] = {"total": row["t"], "studied": row["s"], "mature": row["m"],
                      "new_left": row["n"],
                      # NULL, never 0. The dashboard computes PACE = limit || 0 and then
@@ -986,16 +995,17 @@ def flagged(con):
             "cards": cards}
 
 
-def reviews(con, days=30, deck_names=None):
+def reviews(con, days=30, deck_names=None, template_kinds=(RECOGNITION,)):
     """[{date, reviews, new, minutes}] for the last `days` days, newest last."""
     marks, args = "", []
     if deck_names is not None:
         marks = f" and deck in ({','.join('?' * len(deck_names))})"
         args = list(deck_names)
+    tw, targs = _template_where(template_kinds)
     rows = {r["date"]: r for r in con.execute(
         "select date, sum(reviews) reviews, sum(new) new, sum(ms) ms "
-        f"from reviews_daily where template_kind = ?{marks} group by date",
-        (RECOGNITION, *args))}
+        f"from reviews_daily where {tw}{marks} group by date",
+        (*targs, *args))}
     today = time.time()
     out = []
     for offset in range(days - 1, -1, -1):
@@ -1008,19 +1018,20 @@ def reviews(con, days=30, deck_names=None):
     return out
 
 
-def progression(con, deck_names=None, until=None):
+def progression(con, deck_names=None, until=None, template_kinds=(RECOGNITION,)):
     """[{date, Mature, Young, Learning, Relearning}] weekly, oldest first."""
     marks, args = "", []
     if deck_names is not None:
         marks = f" and deck in ({','.join('?' * len(deck_names))})"
         args = list(deck_names)
+    tw, targs = _template_where(template_kinds)
     cutoff = _bucket_date((until or time.time()) + 7 * 86400)
     return [{"date": r["date"], "Mature": r["m"], "Young": r["y"],
              "Learning": r["l"], "Relearning": r["r"]}
             for r in con.execute(
                 "select date, sum(mature) m, sum(young) y, sum(learning) l, "
-                f"sum(relearning) r from progression_weekly where date <= ?{marks} "
-                "group by date order by date", (cutoff, *args))]
+                f"sum(relearning) r from progression_weekly where date <= ? and {tw}{marks} "
+                "group by date order by date", (cutoff, *targs, *args))]
 
 
 # ── a command line, so a shell script needs no python of its own ──────

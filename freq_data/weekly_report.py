@@ -51,13 +51,26 @@ try:
             intro_week += 1
             if first[0] == 1: new_unknown += 1   # didn't know it on first sight
 
-    # genuine acquisition: cards you failed at least once (ever) and now hold (review, ivl>=3, last correct)
+    # Use the PREVIOUS window's first-seen cohort. Counting every old card reviewed
+    # this week as newly learned inflated the rate badly; using this week's new cards
+    # instead would undercount because many have not had time to reach a 3-day interval.
+    prior_since_ms = since_ms - DAYS*86400*1000
+    prior_cohort = col.db.all(f"""SELECT r.cid, MIN(r.id) FROM revlog r
+                                 JOIN cards c ON r.cid=c.id
+                                 WHERE c.did IN ({ph}) AND c.ord=0 AND r.ease>0
+                                 GROUP BY r.cid
+                                 HAVING MIN(r.id)>=? AND MIN(r.id)<?""",
+                              *study_dids, prior_since_ms, since_ms)
+    prior_unknown = 0
     acquired = 0
-    for cid in cids_week:
-        ever_failed = col.db.scalar("SELECT 1 FROM revlog WHERE cid=? AND ease=1 LIMIT 1", cid)
+    for cid, first_id in prior_cohort:
+        first_ease = col.db.scalar("SELECT ease FROM revlog WHERE cid=? AND id=?", cid, first_id)
+        if first_ease != 1:
+            continue
+        prior_unknown += 1
         c = col.get_card(cid)
         last = col.db.first("SELECT ease FROM revlog WHERE cid=? ORDER BY id DESC LIMIT 1", cid)
-        if ever_failed and c.type==2 and c.ivl>=3 and last and last[0]>=2:
+        if c.type==2 and c.ivl>=3 and last and last[0]>=2:
             acquired += 1
 
     # True retention, at TWO thresholds. This used to report `lastIvl>=4` under the label
@@ -102,7 +115,7 @@ try:
     L.append("")
     L.append(f"• Reviews: *{reviews}*  ({len(cids_week)} distinct cards)")
     L.append(f"• New cards introduced: *{intro_week}*  — of which *{new_unknown}* you didn't know")
-    L.append(f"• Genuinely learned & holding (failed once, now sticking): *{acquired}*  → ~*{rate:.0f}/day*")
+    L.append(f"• First seen {DAYS}–{2*DAYS}d ago, initially unknown and now holding ≥3d: *{acquired}/{prior_unknown}*  → ~*{rate:.1f}/day* for that cohort")
     if retention is not None:
         L.append(f"• Retention, mature (≥{bot.MATURE_IVL}d): *{retention:.0f}%*  ({retention_n} reviews)")
     if retention_young is not None:
@@ -111,7 +124,7 @@ try:
     L.append("")
     fin_left = fin_tot - fin_learned
     if rate >= 1:
-        L.append(f"🎯 *三体 (reading)*: ~{gap_santi:,} words to go → ≈ *{gap_santi/rate/30:.1f} months* at ~{rate:.0f}/day")
+        L.append(f"🎯 *三体 (reading)*: ~{gap_santi:,} words to go → very rough *{gap_santi/rate/30:.1f} months* at ~{rate:.1f}/day (one cohort; not a forecast of reading ability)")
         L.append(f"🎧 *小Lin (finance listening)*: {fin_learned}/{fin_tot} finance terms learned, {fin_left} to go (you know many by ear; watch with subs).")
         L.append(f"🧠 *Social-science / intellectual (十三邀, 八分, Stella An)*: {acad_learned}/{acad_tot} terms learned, {acad_tot-acad_learned} to go — the hardest register (not in your heritage base).")
     else:

@@ -54,7 +54,7 @@ class RoleResolution(CollectionTest):
         with self.assertRaises(decks.DeckMissing):
             decks.deck_ids_for(self.col, decks.RECOGNITION)
         with self.assertRaises(decks.DeckMissing):
-            decks.gate_source_ids(self.col, decks.PRODUCTION)
+            decks.gate_source_ids(self.col, decks.CLOZE)
 
     def test_deck_id_by_name_raises_for_a_dead_name(self):
         """col.decks.id_for_name returns None and col.decks.id() CREATES. Both silent."""
@@ -80,10 +80,11 @@ class ArchiveResolution(CollectionTest):
         self.assertGreater(before, 100000)
         d = self.col.decks.get(self.deck("Archive"))
         self.col.decks.rename(d, "Parked")
-        rev, clz = self.gate_result(dry_run=True)
-        for r in (rev, clz):
-            self.assertTrue(r.get("error"), "the gate must refuse, not proceed")
-            self.assertEqual(r["moved"], 0)
+        clz, rev = self.gate_result(dry_run=True)
+        self.assertTrue(rev.get("error"), "the Reverse gate must refuse, not proceed")
+        self.assertEqual(rev["moved"], 0)
+        self.assertTrue(clz.get("disabled"), "the retired Cloze gate must stay disabled")
+        self.assertEqual(clz["moved"], 0)
 
     def test_the_archive_is_a_required_deck(self):
         """It was exempt, so startup reported "all required decks resolve" while the one
@@ -123,6 +124,14 @@ class Declaration(unittest.TestCase):
         for name in (decks.PRODUCTION_DECK, decks.CLOZE_DECK, decks.ARCHIVE_DECK, "Default"):
             self.assertNotIn(name, decks.WRITABLE_DECKS)
         self.assertEqual(set(decks.WRITABLE_DECKS), set(decks.RECOGNITION_DECKS))
+
+    def test_auxiliary_decks_are_declared_but_not_chinese_write_targets(self):
+        self.assertEqual(
+            {d.name for d in decks.DECKS if d.role == decks.AUXILIARY},
+            {"Bopomofo", "Japanese"},
+        )
+        self.assertNotIn("Bopomofo", decks.WRITABLE_DECKS)
+        self.assertNotIn("Japanese", decks.WRITABLE_DECKS)
 
     def test_every_gate_has_at_least_one_source(self):
         """Zero sources makes `mature` empty, and the gate suspends every released card

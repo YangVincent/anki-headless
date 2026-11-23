@@ -27,6 +27,7 @@ import httpx
 import anki_cache           # the derived read cache. The bot is its only writer.
 import anki_sync            # sync + a log line that says what actually moved
 import decks                # the deck list, by role. No deck-name literals below this.
+import disambiguations      # curated contrast groups shared with the dashboard.
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
@@ -57,6 +58,7 @@ CHINESE_VOCAB_FIELDS = ["Simplified", "Pinyin", "Meaning", "Traditional", "Notes
                         "SentenceMeaning", "SentenceAudio"]
 
 logging.basicConfig(format="%(asctime)s [%(levelname)s] %(message)s", level=logging.INFO)
+logging.getLogger("httpx").setLevel(logging.WARNING)
 log = logging.getLogger(__name__)
 
 
@@ -228,10 +230,8 @@ def has_cjk(text):
                for ch in text)
 
 
-# Two sibling templates are gated on the same rule: you should not drill a word in a
-# harder direction before you can recognise it. ord 1 `English-Speaking` asks you to say
-# the word in Mandarin; ord 2 `Cloze-Recall` asks you to fill it into a sentence. Both
-# stay suspended in their own deck until the word's ord 0 card matures.
+# Durable ord 0 `Hanzi-English` recall unlocks ord 1 `English-Speaking`.
+# Cloze practice is retired; its existing cards and review history are retained.
 # ── Deck API ──────────────────────────────────────────────────────────
 # decks.py owns the deck list AND the resolving. Callers here ask for a ROLE and receive
 # deck IDs; a deck NAME crosses this line only where one is unavoidable — Anki's textual
@@ -326,40 +326,89 @@ def set_new_card_position(col, card, position):
 # alias that hands out a name is exactly the coupling this removes.
 REVERSE_TEMPLATE = "English-Speaking"
 CLOZE_TEMPLATE = "Cloze-Recall"
+CLOZE_PRACTICE_ENABLED = False
+RECOGNITION_TEMPLATE = "Hanzi-English"
 
 MATURE_IVL = 21
+CLOZE_MIN_STABILITY = 7.0
+REVERSE_MIN_STABILITY = 7.0
+STAGE_REQUIRED_SUCCESSES = 2
+RECOGNITION_ONLY_TAG = "mode::recognition-only"
+REVERSE_MERGED_TAG = "mode::reverse-merged"
+REVERSE_PRIORITY_TAG = "queue::reverse-priority-served"
+REVERSE_DEPRIORITIZED_TAG = "queue::reverse-deprioritized"
+
+STAGE_TAG_BY_TEMPLATE = {
+    CLOZE_TEMPLATE: "stage::cloze",
+    REVERSE_TEMPLATE: "stage::reverse",
+}
+SOURCE_TEMPLATE_BY_TARGET = {
+    CLOZE_TEMPLATE: RECOGNITION_TEMPLATE,
+    REVERSE_TEMPLATE: RECOGNITION_TEMPLATE,
+}
 
 
-#: Templates the maturity gate no longer RELEASES. Vincent studies one direction:
-#: 19,675 of 19,924 reviews in 90 days were Chinese->English, against 154 speaking and
-#: 95 cloze. Both harder directions are off, and their cards stay suspended.
-#:
-#: IT DISABLES THE RELEASE HALF ONLY. The gate still parks a new, never-studied card for
-#: an immature word, and still moves a gated card out of a study deck. That is not
-#: optional: add_chinese_vocab deliberately routes decks and does NOT suspend, because
-#: two systems writing one piece of state exposed 1,960 production and 1,902 cloze cards
-#: once already. The gate is the single owner of suspension. An early return here made
-#: every newly created production card arrive unsuspended, and the one-direction setting
-#: would have eroded one new word at a time.
-#:
-#: This is also why it is not `gates=()` in decks.py: gate_source_ids() refuses an empty
-#: source list, because with no source `mature` is empty and the gate would suspend every
-#: released card while reporting success.
-#:
-#: To turn a direction back on, remove its template from this set. The backlog it has
-#: been holding -- about 2,000 cloze and 21 production cards -- releases on the next run.
-GATE_DISABLED = frozenset({REVERSE_TEMPLATE, CLOZE_TEMPLATE})
+def _fsrs_stability(data):
+    """Return the FSRS stability stored in a card's data JSON, or zero if absent."""
+    try:
+        return float(json.loads(data or "{}").get("s", 0) or 0)
+    except (TypeError, ValueError, json.JSONDecodeError):
+        return 0.0
+
+
+def _review_day(review_id, day_cutoff):
+    """Bucket a revlog millisecond timestamp by Anki's current rollover boundary."""
+    return int((review_id / 1000 - day_cutoff) // 86400)
+
+
+def _mastery_nids(col, source_cards, min_stability):
+    """Notes ready for their next practice stage based on durable recall.
+
+    A long FSRS stability after one Easy answer is not enough. Require the latest two
+    real answers to be Good/Easy on separate Anki days as well as the requested minimum
+    stability. Because only the latest two answers count, a later Again blocks graduation
+    until followed by two new successful recalls.
+    """
+    candidates = {
+        cid: nid for cid, nid, data in source_cards
+        if _fsrs_stability(data) >= min_stability
+    }
+    if not candidates:
+        return set()
+
+    ph = ",".join("?" * len(candidates))
+    histories = collections.defaultdict(list)
+    for cid, rid, ease in col.db.all(
+            f"SELECT cid, id, ease FROM revlog WHERE cid IN ({ph}) "
+            "AND ease>0 ORDER BY cid, id DESC", *candidates):
+        if len(histories[cid]) < STAGE_REQUIRED_SUCCESSES:
+            histories[cid].append((rid, ease))
+
+    mastered = set()
+    cutoff = col.sched.day_cutoff
+    for cid, reviews in histories.items():
+        if len(reviews) < STAGE_REQUIRED_SUCCESSES:
+            continue
+        if any(ease < 3 for _, ease in reviews):
+            continue
+        if len({_review_day(rid, cutoff) for rid, _ in reviews}) < 2:
+            continue
+        mastered.add(candidates[cid])
+    return mastered
 
 
 def _apply_template_gate(col, template, role, dry_run=False):
-    """Keep one ChineseVocabulary template's cards out of the study decks, and suspended
-    until their word is known.
+    """Advance one ChineseVocabulary stage when its preceding card qualifies.
 
-    A template in GATE_DISABLED never releases, but is otherwise gated as normal.
+    Durable Recognition recall independently unlocks Cloze and Reverse. A Recognition
+    card flag manually overrides either mastery requirement. The transition is persisted
+    on the note so clearing a flag or later forgetting does not automatically remove
+    practice already begun. A later manual suspension still wins: the gate releases a
+    card only when the stage tag is first added, never merely because the tag exists.
 
     Four invariants:
       1. A gated card never sits in a study deck other than its own home deck.
-      2. A card parked in `Archive` stays there until its word matures. Only a release
+      2. A card parked in `Archive` stays there until its stage is unlocked. Only a release
          moves it out, so the backlog leaves one card at a time, not in one bulk write.
          Cards already in the home deck stay there, suspended -- most of each deck is
          exactly that (5,362 in Reverse, 15,519 in Cloze), which is why this says
@@ -368,59 +417,102 @@ def _apply_template_gate(col, template, role, dry_run=False):
       4. A card with reps > 0 is never suspended. The gate adds practice; it must not
          take away a card that is already mid-schedule. Invariant 4 beats invariant 1.
 
-    "Mature" means the note's ord 0 card is in a source deck, unsuspended, type=2, with
-    interval >= MATURE_IVL.
-
-    Both callers of this had the same defect. The reverse job searched
-    `deck:hanly-reverse` after that deck was renamed `Hidden::hanly-reverse`, and
-    the old freq_data/cloze_gate.py read a deck named `Vocab` that no longer existed.
-    Each matched almost nothing and ran for months doing nothing, while cards leaked into
-    the study decks behind them. Both scripts are gone; freq_data/template_gate.py calls
-    this. Naming the decks in one place is what stops that repeating.
-
-    `role` is both the home deck's role and the gate's name, because they are the same
-    thing: the production gate fills the production deck from the decks that declare
-    `production` in their `gates`. No deck name is passed in or read here.
+    `role` identifies the target deck and the source decks that declare that transition:
+    Main declares both the Cloze and production transitions.
     """
     home_name = decks.name_of(role)          # display only, for the returned report
     cv = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
+    empty = {"template": template, "deck": home_name, "source_flagged": 0,
+             "source_mastered": 0, "eligible_sources": 0,
+             "staged_words": 0, "newly_staged": 0, "moved": 0,
+             "unsuspended": 0, "suspended": 0, "repositioned": 0,
+             "repositioned_front": 0, "repositioned_back": 0,
+             "priority_pulled_forward": 0}
+    if template == CLOZE_TEMPLATE and not CLOZE_PRACTICE_ENABLED:
+        return {**empty, "source_template": RECOGNITION_TEMPLATE, "disabled": True}
     if not cv:
-        # A report dict, never None: _sync_gated_templates calls r.get("error"), so a
-        # None here raised AttributeError and the SECOND gate never ran that cycle.
-        return {"template": template, "deck": home_name,
-                "error": f"note type {CHINESE_VOCAB_NOTETYPE!r} not found",
-                "mature_words": 0, "moved": 0, "unsuspended": 0, "suspended": 0}
+        return {**empty, "error": f"note type {CHINESE_VOCAB_NOTETYPE!r} not found"}
     ord_ = next((t["ord"] for t in cv["tmpls"] if t["name"] == template), None)
+    source_template = SOURCE_TEMPLATE_BY_TARGET.get(template)
+    source_ord = next((t["ord"] for t in cv["tmpls"]
+                       if t["name"] == source_template), None)
+    stage_tag = STAGE_TAG_BY_TEMPLATE.get(template)
     try:
-        # ALL declared decks resolve, or the gate does not run. Both calls raise rather
-        # than returning a short list: dropping a renamed source silently left a partial
-        # maturity set, and the next run suspended 83 already-released cards with no
-        # error -- worse than the do-nothing failure this replaced. Subdecks included, so
-        # Mined::三体 counts where it used to be invisible.
         home_did = decks.deck_id_for(col, role)
+        if template == REVERSE_TEMPLATE:
+            priority_did, general_did, home_ids = decks.production_route_ids(col)
+        else:
+            priority_did = general_did = home_did
+            home_ids = {home_did}
         src = decks.gate_source_ids(col, role)
         # archive_ids() raises now. It used to return an empty set, which the move test
         # below read as "nothing is parked", and one run moved the entire 42,524-card
         # archive into the study decks while startup reported the collection healthy.
         hidden = decks.archive_ids(col)
     except DeckMissing as e:
-        return {"template": template, "deck": home_name, "error": str(e),
-                "mature_words": 0, "moved": 0, "unsuspended": 0, "suspended": 0}
-    if ord_ is None:
-        return {"template": template, "deck": home_name,
-                "error": f"no template named {template!r}",
-                "mature_words": 0, "moved": 0, "unsuspended": 0, "suspended": 0}
+        return {**empty, "error": str(e)}
+    if ord_ is None or source_ord is None or not stage_tag:
+        missing = template if ord_ is None else source_template
+        return {**empty, "error": f"no staged template configuration for {missing!r}"}
 
     ph = ",".join("?" * len(src))
-    # Restricted to the note type the gate acts on. Without it the reported count
-    # included every other note type's mature words -- 2,099 against a true 2,030.
-    mature = set(col.db.list(
-        f"SELECT c.nid FROM cards c JOIN notes n ON n.id=c.nid "
+    source_rows = col.db.all(
+        f"SELECT c.id, c.nid, c.mod, c.data, c.flags FROM cards c "
+        f"JOIN notes n ON n.id=c.nid "
         f"WHERE (CASE WHEN c.odid!=0 THEN c.odid ELSE c.did END) IN ({ph}) "
-        f"AND c.ord=0 AND c.type=2 AND c.ivl>=? AND c.queue!=-1 AND n.mid=?",
-        *src, MATURE_IVL, cv["id"]))
+        f"AND c.ord=? AND c.queue!=-1 AND n.mid=?",
+        *src, source_ord, cv["id"])
+    source_mod = {nid: mod for _, nid, mod, _, _ in source_rows}
+    flagged = {nid for _, nid, _, _, flags in source_rows if flags & 7}
+    min_stability = {
+        CLOZE_TEMPLATE: CLOZE_MIN_STABILITY,
+        REVERSE_TEMPLATE: REVERSE_MIN_STABILITY,
+    }.get(template)
+    mastered = _mastery_nids(
+        col,
+        [(cid, nid, data) for cid, nid, _, data, _ in source_rows],
+        min_stability,
+    ) if min_stability is not None else set()
+    eligible = flagged | mastered
+    tagged = set(col.db.list(
+        "SELECT id FROM notes WHERE mid=? AND tags LIKE ?",
+        cv["id"], f"% {stage_tag} %"))
+    recognition_only = set(col.db.list(
+        "SELECT id FROM notes WHERE mid=? AND tags LIKE ?",
+        cv["id"], f"% {RECOGNITION_ONLY_TAG} %"))
+    reverse_merged = (set(col.db.list(
+        "SELECT id FROM notes WHERE mid=? AND tags LIKE ?",
+        cv["id"], f"% {REVERSE_MERGED_TAG} %"))
+        if template == REVERSE_TEMPLATE else set())
+    excluded = recognition_only | reverse_merged
+    eligible -= excluded
+    newly_staged = eligible - tagged
+    staged = (eligible | tagged) - excluded
 
-    to_move, to_unsuspend, to_suspend = [], [], []
+    priority_new, priority_cleared = set(), set()
+    if template == REVERSE_TEMPLATE:
+        priority_marked = set(col.db.list(
+            "SELECT id FROM notes WHERE mid=? AND tags LIKE ?",
+            cv["id"], f"% {REVERSE_PRIORITY_TAG} %"))
+        priority_new = (flagged - priority_marked) - excluded
+        priority_cleared = priority_marked - (flagged - excluded)
+
+    if not dry_run:
+        for nid in newly_staged:
+            note = col.get_note(nid)
+            note.add_tag(stage_tag)
+            col.update_note(note)
+        for nid in priority_new:
+            note = col.get_note(nid)
+            note.add_tag(REVERSE_PRIORITY_TAG)
+            col.update_note(note)
+        for nid in priority_cleared:
+            note = col.get_note(nid)
+            note.remove_tag(REVERSE_PRIORITY_TAG)
+            col.update_note(note)
+
+    moves_by_deck = collections.defaultdict(list)
+    to_unsuspend, to_suspend, priority_reviews, priority_new_cards = [], [], [], []
     for cid, did, odid, queue, reps, nid in col.db.all(
             "SELECT c.id, c.did, c.odid, c.queue, c.reps, c.nid FROM cards c "
             "JOIN notes n ON n.id=c.nid WHERE c.ord=? AND n.mid=?", ord_, cv["id"]):
@@ -429,31 +521,98 @@ def _apply_template_gate(col, template, role, dry_run=False):
             # tear the card out of the session -- one run emptied a 20-card custom study
             # deck. Leave it; the session returns it to odid on its own.
             continue
-        # A disabled template never releases. Everything else about the gate still runs,
-        # so a new card is still parked and a stray card still leaves the study deck.
-        releasing = (nid in mature and queue == -1
-                     and template not in GATE_DISABLED)
+        # A stage tag records that this transition already happened; it is not a command
+        # to keep the card live forever. Releasing every tagged card made a suspension in
+        # Anki last at most five minutes, because periodic_sync immediately revived it.
+        # Only the first transition unlocks. If the user suspends the card later, leave it
+        # suspended while retaining the tag as stage history.
+        releasing = nid in newly_staged and queue == -1
         # A parked card moves ONLY on release. The old `or queue != -1` disjunct dragged
         # an unsuspended card out of the archive into a study deck even when its word was
         # nowhere near mature -- and with reps > 0 it landed live and due.
-        if did != home_did and (releasing or did not in hidden):
-            to_move.append(cid)
+        destination = priority_did if nid in flagged else general_did
+        if did != destination and (releasing or did not in hidden):
+            moves_by_deck[destination].append(cid)
         if releasing:
             to_unsuspend.append(cid)
-        elif nid not in mature and queue != -1 and reps == 0:
+        elif nid in reverse_merged and queue != -1:
+            # A merged answer is covered by another Reverse card. Keep its own
+            # history and Main/Cloze siblings, but never show this prompt again.
             to_suspend.append(cid)
+        elif nid not in staged and queue != -1 and reps == 0:
+            to_suspend.append(cid)
+        if nid in priority_new and queue != -1:
+            card = col.get_card(cid)
+            if card.type == 0 and not card.odid:
+                priority_new_cards.append(cid)
+            elif card.type == 2 and card.queue == 2 and card.due > col.sched.today:
+                priority_reviews.append(cid)
 
+    existing_max_due = {}
+    for did in {priority_did, general_did}:
+        if template == REVERSE_TEMPLATE and did == priority_did:
+            # Include manually suspended flagged cards in the FIFO positions. If they
+            # are later resumed, they keep their original place in the flag queue.
+            existing_max_due[did] = col.db.scalar(
+                "SELECT MAX(r.due) FROM cards r JOIN cards m "
+                "ON m.nid=r.nid AND m.ord=? WHERE r.did=? AND r.ord=? "
+                "AND r.type=0 AND (m.flags & 7)!=0",
+                source_ord, did, ord_)
+        else:
+            existing_max_due[did] = col.db.scalar(
+                "SELECT MAX(due) FROM cards WHERE did=? AND ord=? AND type=0 AND queue!=-1",
+                did, ord_)
+    repositioned_front = 0
+    repositioned_back = 0
     if not dry_run:
-        if to_move:
-            col.set_deck(to_move, home_did)
+        for did, cids in moves_by_deck.items():
+            col.set_deck(cids, did)
         if to_unsuspend:
             col.sched.unsuspend_cards(to_unsuspend)
         if to_suspend:
             col.sched.suspend_cards(to_suspend)
-    return {"template": template, "deck": home_name, "mature_words": len(mature),
-            "moved": len(to_move), "unsuspended": len(to_unsuspend),
+        for cid in priority_reviews:
+            card = col.get_card(cid)
+            card.due = col.sched.today
+            col.update_card(card)
+
+        manual, automatic = [], []
+        for cid in to_unsuspend:
+            card = col.get_card(cid)
+            if card.type == 0 and not card.odid:
+                (manual if card.nid in flagged else automatic).append(card)
+
+        seen_manual = {card.id for card in manual}
+        manual.extend(col.get_card(cid) for cid in priority_new_cards
+                      if cid not in seen_manual)
+
+        # Flagged Reverse cards join the tail of their own new-card queue. The old
+        # min-then-decrement logic prepended every arrival, making this route LIFO.
+        priority_tail_due = max(existing_max_due[priority_did]
+                                if existing_max_due[priority_did] is not None else 0, 0) + 1
+        for card in sorted(manual, key=lambda c: (source_mod.get(c.nid, 0), c.id)):
+            set_new_card_position(col, card, priority_tail_due)
+            priority_tail_due += 1
+            repositioned_front += 1
+
+        back_due = max(existing_max_due[general_did]
+                       if existing_max_due[general_did] is not None else 0, 0) + 1
+        for card in sorted(automatic, key=lambda c: source_mod.get(c.nid, 0)):
+            set_new_card_position(col, card, back_due)
+            back_due += 1
+            repositioned_back += 1
+
+    return {"template": template, "deck": home_name,
+            "source_template": source_template, "source_flagged": len(flagged),
+            "source_mastered": len(mastered), "eligible_sources": len(eligible),
+            "staged_words": len(staged), "newly_staged": len(newly_staged),
+            "moved": sum(map(len, moves_by_deck.values())),
+            "unsuspended": len(to_unsuspend),
             "suspended": len(to_suspend),
-            "releases_disabled": template in GATE_DISABLED}
+            "priority_pulled_forward": len(priority_reviews),
+            "repositioned": repositioned_front + repositioned_back,
+            "repositioned_front": repositioned_front,
+            "repositioned_back": repositioned_back}
 
 
 def apply_reverse_gate(col, dry_run=False):
@@ -479,7 +638,8 @@ def promote_to_vocab(col, note_ids, reposition=True):
     """Wild-add promotion: tag notes 'mined', move forward (ord0) cards into the separate
     'Mined' deck (front of THAT deck, so newly added words come up next when studying Mined)
     and unsuspend them, route the reverse (ord1) card into 'Reverse' and the cloze (ord2)
-    card into 'Vocab Cloze', both suspended (the maturity gate releases them later). This keeps the
+    card into 'Vocab Cloze'. Reverse is controlled by the maturity gate; new Cloze
+    siblings stay suspended because Cloze practice is retired. This keeps the
     frequency-ordered Vocab backbone clean — mined reading-words no longer spike it.
 
     `reposition` controls the front-pin ONLY. Everything else — the tag, the unsuspend,
@@ -526,6 +686,7 @@ def promote_to_vocab(col, note_ids, reposition=True):
     reverse_cards = []
     reverse_to_suspend = []
     cloze_cards = []
+    cloze_to_suspend = []
 
     for nid in note_ids:
         if nid in import_pool:
@@ -551,7 +712,7 @@ def promote_to_vocab(col, note_ids, reposition=True):
             elif not is_cv:
                 continue
             elif card.ord == reverse_ord and reverse_did:
-                # Route the production card the same way as the cloze card. Suspending it
+                # Route the production card to Reverse. Suspending it
                 # in place left it in a study deck, which breaks the gate's first
                 # invariant: add_chinese_vocab put every new note's production card in
                 # Mined, and the gate had to move it out on its next run.
@@ -562,6 +723,8 @@ def promote_to_vocab(col, note_ids, reposition=True):
                 # `and cloze_did`: without a target deck the card used to be suspended in
                 # place inside a study deck while the result still claimed it was routed.
                 cloze_cards.append(card.id)
+                if not CLOZE_PRACTICE_ENABLED and card.queue != -1 and card.reps == 0:
+                    cloze_to_suspend.append(card.id)
 
     if forward_to_unsuspend:
         col.sched.unsuspend_cards(forward_to_unsuspend)
@@ -569,11 +732,14 @@ def promote_to_vocab(col, note_ids, reposition=True):
         col.set_deck(reverse_cards, reverse_did)
     if cloze_cards:
         col.set_deck(cloze_cards, cloze_did)
+    if cloze_to_suspend:
+        col.sched.suspend_cards(cloze_to_suspend)
     # This routes DECKS and stops there. It used to suspend as well, and the maturity gate
     # re-released the same cards within 5 minutes -- 1,960 production and 1,902 cloze cards
     # were exposed. Two systems writing one piece of state is the reason promote_to_hanly
     # was deleted, and the identical behaviour had survived here. The gates run at the end
-    # instead, so suspension has one owner and the note is consistent before we return.
+    # instead for Reverse, so suspension has one owner and the note is consistent before
+    # we return. Cloze is retired, so new Cloze siblings are suspended above.
     # A card already in a live study deck KEEPS that deck. Only a card in Default or
     # under Hidden:: moves to Mined. Pulling a studied HSK card out of HSK breaks that
     # deck's level ordering and its coverage, and "promote" means the word comes up
@@ -632,7 +798,7 @@ def promote_to_vocab(col, note_ids, reposition=True):
             next_due -= 1
             repositioned += 1
 
-    gate = [g(col) for g in (apply_reverse_gate, apply_cloze_gate)]
+    gate = [apply_reverse_gate(col)]
     ok = [r for r in gate if r and not r.get("error")]
     return {
         "tagged": tagged,
@@ -772,12 +938,29 @@ Your standing loop for any card-related message:
 
 When the user pushes back ("doesn't it just mean middle?", "are you over-indexing on the tone?", "isn't the card just the character itself?"), treat it as a correction: re-read the card, reconsider, and update your view — do not dig in defending a previous reply.
 
+When the user is trying to remember a word and supplies approximate Hanzi, pinyin, a visual
+component, or review timing, treat every spelling as a clue rather than an exact query.
+Search the live collection before naming the word. If they say it is due today, inspect the
+due-today candidates first; otherwise check recently modified and recently reviewed notes.
+Scheduler and collection evidence outrank a plausible homophone. Never say "I found it"
+until one live candidate fits the supplied clues; state the remaining uncertainty when
+several candidates fit.
+
 The only messages that DON'T need a fetch first: pure chit-chat, story-writing requests (use the story tools), or a one-word confirmation (yes/ok) to an action you already previewed.
 
 ## Chinese card philosophy (how the user thinks about cards)
 - **One comprehensive card per character/word — NEVER split by pronunciation or tone.** A character like 中 (zhōng / zhòng) gets a SINGLE card whose Meaning and Notes cover all its major senses and both pronunciations together. Do not propose, create, or maintain separate cards per reading. If you find duplicates split by pronunciation, the fix is to merge them into one comprehensive card, not to keep them apart.
 - **The card represents the character/word itself**, not one narrow usage. When evaluating, ask "does this card comprehensively capture what 中 IS?" — not "does this example match one specific tone?" Don't get fixated on a single reading or example at the expense of the whole.
 - A high-quality card: accurate and reasonably complete Meaning (main senses), correct tone-marked pinyin covering the readings in use, and a natural, genuine example sentence that a learner would actually encounter.
+- **Write for retrieval, not dictionary coverage.** `Meaning` should be one concise,
+  practical cue that independently identifies the intended answer. Move register, edge
+  cases, exclusions, and fuller contrasts to `Notes`. Avoid numbered dictionary dumps.
+  A near-synonym example should demonstrate the target's decisive use and, when practical,
+  make its nearest competitor a poor fit. If two words genuinely overlap, say so instead
+  of manufacturing a distinction.
+- Treat recent user-authored field edits as authoritative style evidence. Preserve their
+  wording unless the user asks to replace it; do not normalize it back into generic
+  dictionary prose.
 
 ## Collection layout — the deck list, and two kinds of archived note
 This collection holds exactly eight decks. Nothing else exists, and nothing you create or
@@ -824,6 +1007,14 @@ ChineseVocabulary fields: Simplified, Traditional, Pinyin, Meaning, PartOfSpeech
 - Use tone-marked pinyin (ā á ǎ à), NOT numbered
 - Always provide traditional even if same as simplified
 - Include a natural example sentence
+- **Always perform the reverse check for disambiguations.** The English-Speaking question
+  hides `Notes`, so `Meaning` plus `SentenceMeaning` must uniquely cue the intended word
+  without seeing any Chinese. Put the shortest decisive distinction there: grammar frame,
+  collocation, register, or semantic role. `Notes` may explain the distinction on the
+  answer, but must never be the only place that contains it. If two words are genuinely
+  interchangeable, say that in `Meaning` and distinguish only the register/context that
+  a learner can fairly recall. Never put the target Hanzi in `Meaning` or
+  `SentenceMeaning`; that exposes the answer on the reverse question.
 - Default deck: """ + DEFAULT_DECK + """
 - Default tags: ["claude", "chinese"]
 
@@ -924,6 +1115,11 @@ If the word already exists and all fields are complete, return:
 - Always provide traditional characters even if same as simplified.
 - Default tags: ["claude", "chinese"]
 - Keep the example sentence natural and at an intermediate level.
+- For every synonym or disambiguation, perform the reverse check: a learner seeing only
+  `Meaning` and `SentenceMeaning` must have a fair, specific reason to produce this word.
+  Never rely on `Notes`, because the English-Speaking question hides them. Encode the
+  decisive grammar frame, collocation, register, or semantic role in the English prompt,
+  and never include the target Hanzi there.
 """
 
 # ── Tools ─────────────────────────────────────────────────────────────
@@ -2542,12 +2738,29 @@ async def handle_api_status(request):
 # still owns writing the static dashboard snapshot; this just exposes the same
 # numbers live over HTTP so the dashboard can query them directly.
 PDT_OFFSET = 7 * 3600  # matches build_stats.OFF: PDT day bucketing
-_stats_cache = {}  # (deck_names_tuple, model_name) -> {"ts": float, "data": dict}
+_stats_cache = {}  # (deck_names_tuple, model_name, days, ords) -> {"ts": float, "data": dict}
 STATS_CACHE_TTL = 60.0
 
 
 def _stats_day(ts_s):
     return time.strftime("%Y-%m-%d", time.gmtime(ts_s - PDT_OFFSET))
+
+
+def _words_first_studied_today(col, deck_ids, model_id, now):
+    """Distinct recognition notes with their first real review in today's study day."""
+    if not deck_ids:
+        return 0
+    start_ms = int((now - ((now - PDT_OFFSET) % 86400)) * 1000)
+    ph = ",".join("?" * len(deck_ids))
+    return col.db.scalar(
+        "SELECT COUNT(DISTINCT c.nid) FROM revlog r "
+        "JOIN cards c ON c.id=r.cid JOIN notes n ON n.id=c.nid "
+        f"WHERE r.id>=? AND r.id<? AND r.ease>0 AND c.did IN ({ph}) "
+        "AND c.ord=0 AND n.mid=? "
+        "AND NOT EXISTS (SELECT 1 FROM revlog prior "
+        "WHERE prior.cid=r.cid AND prior.id<? AND prior.ease>0)",
+        start_ms, start_ms + 86400 * 1000, *deck_ids, model_id, start_ms,
+    ) or 0
 
 
 #: One point per day. It was 7. A week hides the shape the chart exists to show -- a
@@ -2558,7 +2771,7 @@ def _stats_day(ts_s):
 PROGRESSION_STEP_S = 86400
 
 
-def _stats_progression(col, deck_ids, cv_id, now):
+def _stats_progression(col, deck_ids, cv_id, now, card_ords=(0,)):
     """Daily card-maturity composition, reconstructed from the review log.
 
     Ported from build_stats._progression (see there for the full rationale);
@@ -2567,10 +2780,12 @@ def _stats_progression(col, deck_ids, cv_id, now):
     if not deck_ids:
         return []
     ph = ",".join("?" * len(deck_ids))
+    oph = ",".join("?" * len(card_ords))
     rows = col.db.all(
         f"SELECT r.cid, r.id, r.ivl, r.type FROM revlog r JOIN cards c ON r.cid=c.id "
-        f"WHERE c.did IN ({ph}) AND c.ord=0 AND c.nid IN (SELECT id FROM notes WHERE mid=?) "
-        f"AND r.ease>0 ORDER BY r.id", *deck_ids, cv_id)
+        f"WHERE c.did IN ({ph}) AND c.ord IN ({oph}) "
+        "AND c.nid IN (SELECT id FROM notes WHERE mid=?) "
+        f"AND r.ease>0 ORDER BY r.id", *deck_ids, *card_ords, cv_id)
     if not rows:
         return []
     per = collections.defaultdict(list)
@@ -2604,7 +2819,18 @@ def _stats_progression(col, deck_ids, cv_id, now):
     return out
 
 
-def _deck_stats(deck_names, model_name, now, days_window=30):
+def _deck_new_per_day(col, did):
+    """Normal-study intake; filtered decks have search limits, not daily intake."""
+    deck = col.decks.get(did)
+    if deck.get("dyn"):
+        return 0
+    override = deck.get("newLimit")
+    if override is not None:
+        return override
+    return col.decks.config_dict_for_deck_id(did)["new"]["perDay"]
+
+
+def _deck_stats(deck_names, model_name, now, days_window=30, card_ords=(0,)):
     """Core of GET /api/stats. Opens the collection once and computes counts, per-card
     word lists, weekly/daily review activity and maturity progression jointly over
     `deck_names`. A deck name absent from the collection (col.decks.id_for_name
@@ -2627,23 +2853,26 @@ def _deck_stats(deck_names, model_name, now, days_window=30):
             except DeckMissing:
                 deck_ids[name] = []
 
+        ords = tuple(card_ords or (0,))
+        oph = ",".join("?" * len(ords))
+
         def deck_counts(dids):
             if not dids:
                 return {"total": 0, "studied": 0, "mature": 0, "new_left": 0, "new_per_day": 0}
             dph = ",".join("?" * len(dids))
-            q = (f"SELECT %s FROM cards WHERE did IN ({dph}) AND ord=0 "
+            q = (f"SELECT %s FROM cards WHERE did IN ({dph}) AND ord IN ({oph}) "
                  "AND nid IN (SELECT id FROM notes WHERE mid=?)")
-            total = col.db.scalar(q % "COUNT(*)", *dids, cv_id)
-            studied = col.db.scalar(q % "COUNT(*)" + " AND type IN (1,2)", *dids, cv_id)
-            mature = col.db.scalar(q % "COUNT(*)" + f" AND type=2 AND ivl>={MATURE_IVL}", *dids, cv_id)
-            new_left = col.db.scalar(q % "COUNT(*)" + " AND type=0 AND queue!=-1", *dids, cv_id)
+            total = col.db.scalar(q % "COUNT(*)", *dids, *ords, cv_id)
+            studied = col.db.scalar(q % "COUNT(*)" + " AND type IN (1,2)", *dids, *ords, cv_id)
+            mature = col.db.scalar(q % "COUNT(*)" + f" AND type=2 AND ivl>={MATURE_IVL}", *dids, *ords, cv_id)
+            new_left = col.db.scalar(q % "COUNT(*)" + " AND type=0 AND queue!=-1", *dids, *ords, cv_id)
             # The deck's CONFIGURED new-cards/day, read from whichever options preset the
             # deck is assigned to (they're shared — see DECK_REFERENCE). The dashboard
             # projects HSK completion from this rather than from observed new-card counts:
             # observed counts include other decks and lag any limit change by ~30 days,
             # so they answer "what did I do" when the projection needs "what will I do".
             # The parent deck's limit governs the tree when studying from the top.
-            new_per_day = col.decks.config_dict_for_deck_id(dids[0])["new"]["perDay"]
+            new_per_day = _deck_new_per_day(col, dids[0])
             return {"total": total, "studied": studied, "mature": mature,
                     "new_left": new_left, "new_per_day": new_per_day}
 
@@ -2679,15 +2908,19 @@ def _deck_stats(deck_names, model_name, now, days_window=30):
         recent = {name: [] for name in deck_names}
         week = {"reviews": 0, "retention": None}
         progression = []
+        progression_templates = {}
+        today_words_first_studied = 0
 
         if valid_ids:
             ph = ",".join("?" * len(valid_ids))
+            today_words_first_studied = _words_first_studied_today(col, valid_ids, cv_id, now)
             # r.ease>0 excludes manual/reschedule revlog rows (ease=0, e.g. an FSRS bulk
             # reschedule writes one per card) — those aren't reviews and would inflate counts.
             wk_ms = (now - 7 * 86400) * 1000
             rl = col.db.all(
                 f"SELECT r.id, r.ease, r.type, r.lastIvl FROM revlog r JOIN cards c ON r.cid=c.id "
-                f"WHERE r.id>? AND c.did IN ({ph}) AND c.ord=0 AND r.ease>0", wk_ms, *valid_ids)
+                    f"WHERE r.id>? AND c.did IN ({ph}) AND c.ord IN ({oph}) AND r.ease>0",
+                    wk_ms, *valid_ids, *ords)
             reviews = len(rl)
             mature_revs = [e for _, e, t, liv in rl if liv >= MATURE_IVL and t in (1, 2)]
             retention = round(100 * sum(1 for e in mature_revs if e >= 2) / len(mature_revs)) if mature_revs else None
@@ -2701,7 +2934,8 @@ def _deck_stats(deck_names, model_name, now, days_window=30):
             m30 = (now - days_window * 86400) * 1000
             for rid, ease, rtype, liv, rtime in col.db.all(
                     f"SELECT r.id, r.ease, r.type, r.lastIvl, r.time FROM revlog r JOIN cards c ON r.cid=c.id "
-                    f"WHERE r.id>? AND c.did IN ({ph}) AND c.ord=0 AND r.ease>0", m30, *valid_ids):
+                    f"WHERE r.id>? AND c.did IN ({ph}) AND c.ord IN ({oph}) AND r.ease>0",
+                    m30, *valid_ids, *ords):
                 d = time.strftime("%Y-%m-%d", time.gmtime(rid / 1000 - PDT_OFFSET))
                 if d in days:
                     days[d]["reviews"] += 1
@@ -2718,7 +2952,15 @@ def _deck_stats(deck_names, model_name, now, days_window=30):
                     f"WHERE c.did IN ({dph}) AND c.ord=0 AND n.mid=? ORDER BY n.id DESC LIMIT 20",
                     *dids, cv_id)]
 
-            progression = _stats_progression(col, valid_ids, cv_id, now)
+            progression = _stats_progression(col, valid_ids, cv_id, now, ords)
+            template_names = {0: "Recognition", 1: "Reverse", 2: "Cloze"}
+            for ord_ in ords:
+                rows = _stats_progression(col, valid_ids, cv_id, now, (ord_,))
+                if rows:
+                    progression_templates[template_names.get(ord_, f"ord {ord_}")] = [
+                        {"date": r["date"],
+                         "Total": r["Mature"] + r["Young"] + r["Learning"] + r["Relearning"]}
+                        for r in rows]
 
         # ms is an accumulator, not part of the contract — emit whole minutes like every
         # other source and drop it, so `daily` stays {date, reviews, new, minutes}. Runs
@@ -2726,23 +2968,35 @@ def _deck_stats(deck_names, model_name, now, days_window=30):
         for v in days.values():
             v["minutes"] = round(v.pop("ms") / 60000)
 
+        projection_new_per_day = 0
+        for name in decks.RECOGNITION_DECKS:
+            try:
+                dids = deck_subtree_ids(col, name)
+            except DeckMissing:
+                continue
+            if dids:
+                projection_new_per_day += _deck_new_per_day(col, dids[0])
+
         return {"decks": decks_out, "recent": recent, "week": week,
-                "daily": list(days.values()), "progression": progression}
+                "new_per_day": projection_new_per_day,
+                "today": {"date": _stats_day(now), "words_first_studied": today_words_first_studied},
+                "daily": list(days.values()), "progression": progression,
+                "progression_templates": progression_templates}
     finally:
         col.close()
 
 
-def _cached_deck_stats(deck_names, model_name, days_window=30):
+def _cached_deck_stats(deck_names, model_name, days_window=30, card_ords=(0,)):
     """Best-effort cache wrapper around _deck_stats: if the collection is briefly
     locked, serve the last snapshot instead of raising — same idea as
     _vocab_status_map. Only propagates the exception when there's nothing cached."""
-    key = (tuple(deck_names), model_name, days_window)
+    key = (tuple(deck_names), model_name, days_window, tuple(card_ords or (0,)))
     now = time.time()
     cached = _stats_cache.get(key)
     if cached and now - cached["ts"] < STATS_CACHE_TTL:
         return cached["data"]
     try:
-        data = _deck_stats(deck_names, model_name, now, days_window)
+        data = _deck_stats(deck_names, model_name, now, days_window, card_ords)
     except Exception as e:
         log.warning(f"deck stats: collection unavailable ({e}); serving cached snapshot")
         if cached:
@@ -2758,8 +3012,11 @@ async def handle_api_stats(request):
     # NAME BOUNDARY: ?decks= is a published contract and takes names. The default is NOT
     # a literal -- it was, and the literal always won because it fired before the fallback
     # on the next line could ever run.
+    template_scope = request.query.get("templates", "recognition").strip().lower()
+    card_ords = (0, 1, 2) if template_scope == "study" else (0,)
     raw = request.query.get("decks", "")
-    deck_names = [d.strip() for d in raw.split(",") if d.strip()] or list(decks.RECOGNITION_DECKS)
+    deck_names = [d.strip() for d in raw.split(",") if d.strip()] or list(
+        decks.STUDY_DECKS if template_scope == "study" else decks.RECOGNITION_DECKS)
     model_name = request.query.get("model", "ChineseVocabulary").strip() or "ChineseVocabulary"
     # ?days= widens the daily series (dashboard range views); default stays 30.
     try:
@@ -2767,11 +3024,126 @@ async def handle_api_stats(request):
     except ValueError:
         days_window = 30
     try:
-        data = await asyncio.to_thread(_cached_deck_stats, deck_names, model_name, days_window)
+        data = await asyncio.to_thread(_cached_deck_stats, deck_names, model_name, days_window, card_ords)
     except Exception as e:
         log.warning(f"/api/stats: collection unavailable ({e})")
         return web.json_response({"error": "collection locked"}, status=503)
     return web.json_response(data, dumps=lambda o: json.dumps(o, ensure_ascii=False))
+
+
+# ── public Japanese dashboard progress ──────────────────────────────────────
+# Public by design: only aggregate curriculum counts leave Anki. Card IDs, due dates,
+# intervals, answer history, and note contents are never part of this response.
+JAPANESE_HIRAGANA_DECK = "Japanese::1 Hiragana"
+JAPANESE_HIRAGANA_TAG = "japanese::hiragana"
+JAPANESE_HIRAGANA_GROUPS = (
+    ("Vowels", "あいうえお"),
+    ("K row", "かきくけこ"),
+    ("S row", "さしすせそ"),
+    ("T row", "たちつてと"),
+    ("N row", "なにぬねの"),
+    ("H row", "はひふへほ"),
+    ("M row", "まみむめも"),
+    ("Y row", "やゆよ"),
+    ("R row", "らりるれろ"),
+    ("W + N", "わをん"),
+    ("G row", "がぎぐげご"),
+    ("Z row", "ざじずぜぞ"),
+    ("D row", "だぢづでど"),
+    ("B row", "ばびぶべぼ"),
+    ("P row", "ぱぴぷぺぽ"),
+)
+JAPANESE_HIRAGANA_ORDER = "".join(glyphs for _name, glyphs in JAPANESE_HIRAGANA_GROUPS)
+
+
+def _japanese_progress(now=None):
+    """Aggregate Week 1 state for the public Japanese dashboard."""
+    now = now or time.time()
+    col = open_collection()
+    try:
+        did = col.decks.id_for_name(JAPANESE_HIRAGANA_DECK)
+        model = col.models.by_name("Basic")
+        if did is None or model is None:
+            return {"available": False}
+
+        note_ids = col.find_notes(f"tag:{JAPANESE_HIRAGANA_TAG}")
+        if not note_ids:
+            return {"available": False}
+        nph = ",".join("?" * len(note_ids))
+        rows = col.db.all(
+            "SELECT n.sfld, c.type, c.queue, c.ivl "
+            "FROM cards c JOIN notes n ON n.id=c.nid "
+            f"WHERE c.nid IN ({nph}) AND c.ord=0 AND n.mid=?",
+            *note_ids, model["id"],
+        )
+        state_by_kana = {}
+        for front, ctype, queue, interval in rows:
+            glyph = strip_html(front).strip()
+            if glyph not in JAPANESE_HIRAGANA_ORDER:
+                continue
+            if queue == -1:
+                state = "paused"
+            elif ctype == 0:
+                state = "unseen"
+            elif ctype in (1, 3):
+                state = "learning"
+            elif interval >= MATURE_IVL:
+                state = "solid"
+            else:
+                state = "familiar"
+            state_by_kana[glyph] = state
+
+        counts = collections.Counter(state_by_kana.values())
+        known_states = ("learning", "familiar", "solid")
+        groups = []
+        for name, glyphs in JAPANESE_HIRAGANA_GROUPS:
+            states = [state_by_kana[glyph] for glyph in glyphs if glyph in state_by_kana]
+            groups.append({
+                "name": name,
+                "glyphs": glyphs,
+                "seen_glyphs": "".join(
+                    glyph for glyph in glyphs
+                    if state_by_kana.get(glyph) in known_states
+                ),
+                "seen": sum(state in known_states for state in states),
+                "total": len(states),
+            })
+        active = next((group for group in groups if group["seen"] < group["total"]), None)
+        total = len(state_by_kana)
+        seen = sum(counts[state] for state in known_states)
+
+        return {
+            "available": True,
+            "updated_at": int(now),
+            "total": total,
+            "seen": seen,
+            "unseen": counts["unseen"],
+            "learning": counts["learning"],
+            "familiar": counts["familiar"],
+            "solid": counts["solid"],
+            "paused": counts["paused"],
+            "daily_new_limit": col.decks.get(did).get("newLimit") or
+                               col.decks.config_dict_for_deck_id(did)["new"]["perDay"],
+            "active_group": active["name"] if active else None,
+            "groups": groups,
+        }
+    finally:
+        col.close()
+
+
+async def handle_public_japanese_progress(request):
+    try:
+        data = await asyncio.to_thread(_japanese_progress)
+    except Exception as e:
+        log.warning(f"/public/japanese-progress: collection unavailable ({e})")
+        return web.json_response({"error": "collection unavailable"}, status=503)
+    response = web.json_response(data, dumps=lambda o: json.dumps(o, ensure_ascii=False))
+    origin = request.headers.get("Origin")
+    if origin in ("https://aeonneo.com", "https://www.aeonneo.com"):
+        response.headers["Access-Control-Allow-Origin"] = origin
+        response.headers["Vary"] = "Origin"
+    response.headers["Cache-Control"] = "no-store"
+    return response
 
 
 def _tag_word_stats(tags):
@@ -2842,6 +3214,88 @@ async def handle_api_tag_words(request):
         return web.json_response({"error": "collection locked"}, status=503)
     return web.json_response({"sets": data},
                              dumps=lambda o: json.dumps(o, ensure_ascii=False))
+
+
+def _disambiguation_stats(registry_path=disambiguations.REGISTRY_PATH):
+    """Curated distinction groups enriched with the current live vocabulary cards."""
+    registry = disambiguations.load_registry(registry_path)
+    col = open_collection()
+    try:
+        cv = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
+        if not cv:
+            raise RuntimeError(f"note type {CHINESE_VOCAB_NOTETYPE!r} not found")
+        ix = {field["name"]: field["ord"] for field in cv["flds"]}
+        archived = _archive_deck_ids(col)
+
+        def member_data(member):
+            word = member["word"]
+            candidates = []
+            for nid in col.db.list(
+                    "SELECT id FROM notes WHERE mid=? AND sfld=?", cv["id"], word):
+                note = col.get_note(nid)
+                card = next((card for card in note.cards() if card.ord == 0), None)
+                live = bool(card and (card.odid or card.did) not in archived)
+                candidates.append((live, nid, note, card))
+            candidates.sort(key=lambda row: (not row[0], row[1]))
+            if not candidates:
+                return {**member, "pinyin": "", "meaning": "", "part_of_speech": "",
+                        "example": "", "example_meaning": "", "note_id": None,
+                        "live": False, "state": "missing", "s": -1}
+
+            live, nid, note, card = candidates[0]
+            values = note.fields
+            if not live:
+                state, familiarity = "archived", -1
+            elif card.queue == -1:
+                state, familiarity = "suspended", 0
+            else:
+                state = _QUEUE_STATE.get(card.queue, str(card.queue))
+                familiarity = 2 if card.type == 2 and card.ivl >= MATURE_IVL else \
+                              1 if card.reps else 0
+            field = lambda name: strip_html(values[ix[name]]) if name in ix else ""
+            return {
+                **member,
+                "pinyin": field("Pinyin"),
+                "meaning": field("Meaning"),
+                "part_of_speech": field("PartOfSpeech"),
+                "example": field("SentenceSimplified"),
+                "example_meaning": field("SentenceMeaning"),
+                "note_id": nid,
+                "live": live,
+                "state": state,
+                "s": familiarity,
+            }
+
+        groups = []
+        for group in registry["groups"]:
+            groups.append({
+                "id": group["id"],
+                "category": group["category"],
+                "title": group.get("title") or " / ".join(member["word"] for member in group["members"]),
+                "rule": group["rule"],
+                "members": [member_data(member) for member in group["members"]],
+            })
+        by_category = []
+        for category in registry["categories"]:
+            by_category.append({
+                **category,
+                "groups": [group for group in groups
+                           if group["category"] == category["id"]],
+            })
+        return {"version": registry["version"], "total_groups": len(groups),
+                "categories": by_category}
+    finally:
+        col.close()
+
+
+async def handle_api_disambiguations(request):
+    """GET /api/disambiguations — grouped contrast notes with live Anki examples."""
+    try:
+        data = await asyncio.to_thread(_disambiguation_stats)
+    except Exception as e:
+        log.warning(f"/api/disambiguations: collection unavailable ({e})")
+        return web.json_response({"error": "collection locked"}, status=503)
+    return web.json_response(data, dumps=lambda o: json.dumps(o, ensure_ascii=False))
 
 
 async def handle_api_decks(request):
@@ -2927,6 +3381,7 @@ FLAG_NAMES = {1: "Red", 2: "Orange", 3: "Green", 4: "Blue",
 _flagged_cache = {}  # model_name -> {"ts": float, "data": dict}
 FLAGGED_CACHE_TTL = 60.0
 _TAG_RE = re.compile(r"<!--.*?-->|<[^>]+>", re.S)
+REVERSE_PRIORITY_UI = Path(__file__).with_name("reverse_priority.html")
 
 
 def _plain(s):
@@ -3008,6 +3463,207 @@ async def handle_api_flagged(request):
     return web.json_response(data, dumps=lambda o: json.dumps(o, ensure_ascii=False))
 
 
+def _reverse_candidates(limit=40, search="", order="personal", offset=0):
+    """Main-reviewed vocabulary whose production card has never been answered."""
+    col = open_collection()
+    try:
+        cv = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
+        if not cv:
+            return {"cards": [], "total": 0}
+        field_ord = {field["name"]: field["ord"] for field in cv["flds"]}
+        params = [cv["id"]]
+        search_sql = ""
+        if search:
+            search_sql = " AND (n.sfld LIKE ? OR n.flds LIKE ?)"
+            params.extend([f"%{search}%", f"%{search}%"])
+        rows = col.db.all(
+            "SELECT n.id,n.sfld,n.flds,n.tags,m.flags,m.reps,m.ivl,m.data,"
+            "r.queue,r.did,r.odid FROM notes n "
+            "JOIN cards m ON m.nid=n.id AND m.ord=0 "
+            "JOIN cards r ON r.nid=n.id AND r.ord=1 "
+            "WHERE n.mid=? AND m.reps>0 AND r.reps=0" + search_sql,
+            *params)
+        total_params = [cv["id"]] + params[1:]
+        total = col.db.scalar(
+            "SELECT COUNT(*) FROM notes n "
+            "JOIN cards m ON m.nid=n.id AND m.ord=0 "
+            "JOIN cards r ON r.nid=n.id AND r.ord=1 "
+            "WHERE n.mid=? AND m.reps>0 AND r.reps=0" + search_sql,
+            *total_params)
+        lookup_counts = _lookup_counts()
+        level_bonus = {"HSK5": 22, "HSK4": 18, "HSK6": 15, "HSK3": 8,
+                       "HSK7-9": 6, "HSK2": -10, "HSK1": -14}
+        cards = []
+        for nid, word, flds, tags, flags, reps, ivl, data, queue, did, odid in rows:
+            fields = flds.split("\x1f")
+            def value(name):
+                pos = field_ord.get(name, -1)
+                return _plain(fields[pos]) if 0 <= pos < len(fields) else ""
+            level = next((tag.split("::", 1)[1] for tag in tags.split()
+                          if tag.startswith("HSK::")), "")
+            tag_set = set(tags.split())
+            lookups = lookup_counts.get(_plain(word), 0)
+            score = level_bonus.get(level, 3)
+            reasons = []
+            if lookups:
+                score += min(32, 8 + 5 * min(lookups, 5))
+                reasons.append(f"looked up {lookups}x")
+            if "mined" in tag_set:
+                score += 7
+                reasons.append("manually added")
+            if any(tag.startswith("next::") for tag in tag_set):
+                score += 8
+                reasons.append("chosen next")
+            if any(tag.startswith(("book::", "set::")) for tag in tag_set):
+                score += 2
+                reasons.append("your content")
+            part_of_speech = value("PartOfSpeech").lower()
+            if any(kind in part_of_speech for kind in
+                   ("verb", "adverb", "conjunction", "preposition", "phrase")):
+                score += 9
+                reasons.append("productive speech")
+            if "later::business" in tag_set:
+                score -= 18
+            if "demoted" in tag_set:
+                score -= 25
+            cards.append({
+                "note_id": nid, "word": _plain(word), "pinyin": value("Pinyin"),
+                "meaning": value("Meaning"), "sentence": value("SentenceMeaning"),
+                "hsk": level, "part_of_speech": value("PartOfSpeech"),
+                "main_reviews": reps, "main_interval": ivl,
+                "main_stability": round(_fsrs_stability(data), 1),
+                "flag": flags & 7, "reverse_suspended": queue == -1,
+                "reverse_deck": col.decks.name(odid or did),
+                "personal_score": score, "reasons": reasons,
+                "deprioritized": REVERSE_DEPRIORITIZED_TAG in tag_set,
+            })
+        if order == "random":
+            random.shuffle(cards)
+        else:
+            cards.sort(key=lambda card: (-card["personal_score"],
+                                         -card["main_stability"], card["word"]))
+        cards = cards[offset:offset + limit]
+        return {"cards": cards, "total": total, "offset": offset,
+                "has_more": offset + len(cards) < total}
+    finally:
+        col.close()
+
+
+async def handle_api_reverse_candidates(request):
+    try:
+        limit = min(100, max(1, int(request.query.get("limit", "40"))))
+        offset = max(0, int(request.query.get("offset", "0")))
+    except ValueError:
+        return web.json_response({"error": "limit and offset must be integers"}, status=400)
+    search = request.query.get("q", "").strip()
+    order = request.query.get("order", "personal").strip()
+    if order not in ("personal", "random"):
+        return web.json_response({"error": "order must be personal or random"}, status=400)
+    try:
+        data = await asyncio.to_thread(
+            _reverse_candidates, limit, search, order, offset)
+    except Exception as e:
+        log.warning("reverse candidates unavailable: %s", e)
+        return web.json_response({"error": "collection locked"}, status=503)
+    return web.json_response(data, dumps=lambda o: json.dumps(o, ensure_ascii=False))
+
+
+def _set_reverse_priority(note_id, flag):
+    """Set the Main-card flag that owns Reverse priority, then reconcile routing."""
+    col = open_collection()
+    try:
+        cv = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
+        row = col.db.first(
+            "SELECT c.id,c.flags,n.sfld FROM cards c JOIN notes n ON n.id=c.nid "
+            "WHERE n.id=? AND n.mid=? AND c.ord=0", note_id, cv["id"] if cv else -1)
+        if not row:
+            raise KeyError("vocabulary note not found")
+        cid, old_flags, word = row
+        new_flags = (old_flags & ~7) | flag
+        if new_flags != old_flags:
+            card = col.get_card(cid)
+            card.flags = new_flags
+            col.update_card(card)
+        if flag:
+            note = col.get_note(note_id)
+            if REVERSE_DEPRIORITIZED_TAG in note.tags:
+                note.remove_tag(REVERSE_DEPRIORITIZED_TAG)
+                col.update_note(note)
+        gate = apply_reverse_gate(col)
+        log_change("set_reverse_priority", [note_id], {
+            "word": word, "flag": flag, "previous_flag": old_flags & 7,
+        })
+        _flagged_cache.clear()
+        return {"note_id": note_id, "word": word, "flag": flag, "gate": gate}
+    finally:
+        col.close()
+
+
+async def handle_api_reverse_flag(request):
+    try:
+        body = await request.json()
+        note_id = int(body.get("note_id"))
+        flag = int(body.get("flag", 1 if body.get("flagged", True) else 0))
+    except (TypeError, ValueError):
+        return web.json_response({"error": "note_id and flag are required"}, status=400)
+    if flag < 0 or flag > 7:
+        return web.json_response({"error": "flag must be between 0 and 7"}, status=400)
+    try:
+        result = await asyncio.to_thread(_set_reverse_priority, note_id, flag)
+    except KeyError as e:
+        return web.json_response({"error": str(e)}, status=404)
+    except Exception as e:
+        log.warning("reverse flag update failed: %s", e)
+        return web.json_response({"error": "collection locked"}, status=503)
+    return web.json_response(result, dumps=lambda o: json.dumps(o, ensure_ascii=False))
+
+
+def _deprioritize_reverse_batch(note_ids):
+    """Mark passed-over Reverse candidates without changing their card flags."""
+    col = open_collection()
+    try:
+        cv = col.models.by_name(CHINESE_VOCAB_NOTETYPE)
+        changed = []
+        if not cv:
+            return {"changed": 0, "note_ids": []}
+        for note_id in note_ids:
+            note = col.get_note(note_id)
+            if note.note_type()["id"] != cv["id"]:
+                continue
+            main = next((card for card in note.cards() if card.ord == 0), None)
+            if not main or main.flags & 7 or REVERSE_DEPRIORITIZED_TAG in note.tags:
+                continue
+            note.add_tag(REVERSE_DEPRIORITIZED_TAG)
+            col.update_note(note)
+            changed.append(note_id)
+        if changed:
+            log_change("deprioritize_reverse_batch", changed)
+            _flagged_cache.clear()
+        return {"changed": len(changed), "note_ids": changed}
+    finally:
+        col.close()
+
+
+async def handle_api_reverse_deprioritize(request):
+    try:
+        body = await request.json()
+        note_ids = list(dict.fromkeys(int(value) for value in body.get("note_ids", [])))
+    except (TypeError, ValueError):
+        return web.json_response({"error": "note_ids must be a list of integers"}, status=400)
+    if len(note_ids) > 100:
+        return web.json_response({"error": "at most 100 note_ids are allowed"}, status=400)
+    try:
+        result = await asyncio.to_thread(_deprioritize_reverse_batch, note_ids)
+    except Exception as e:
+        log.warning("reverse batch deprioritization failed: %s", e)
+        return web.json_response({"error": "collection locked"}, status=503)
+    return web.json_response(result)
+
+
+async def handle_reverse_priority_ui(request):
+    return web.FileResponse(REVERSE_PRIORITY_UI)
+
+
 # ── /api/hsk-levels: per-HSK-3.0-level familiarity ─────────────────────────
 # Denominator is the official HSK 3.0 word list (freq_data/hsk30_official.json, 10,978
 # words over levels 1-6 and 7-9), NOT the HSK decks' contents — so a level's bar
@@ -3058,13 +3714,35 @@ def _hsk_level_stats():
     vocab = _hsk_vocab()
     col = open_collection()
     try:
+        now = time.time()
+        today_start_ms = int((now - ((now - PDT_OFFSET) % 86400)) * 1000)
         archived = _archive_deck_ids(col)
         live_decks = {did for did, _ in col.db.all("SELECT id, name FROM decks")
                       if did not in archived}
         rank = {"new": 0, "learning": 1, "young": 2, "mature": 3}
         best = {}
-        for sfld, ctype, ivl, queue, did in col.db.all(
-                "SELECT n.sfld, c.type, c.ivl, c.queue, c.did FROM cards c "
+        best_before = {}
+        reviewed_today = set(col.db.list(
+            "SELECT DISTINCT r.cid FROM revlog r JOIN cards c ON c.id=r.cid "
+            "WHERE r.id>=? AND r.id<? AND r.ease>0 AND c.ord=0",
+            today_start_ms, today_start_ms + 86400 * 1000,
+        ))
+        before_review = {}
+        for cid in reviewed_today:
+            prior = col.db.first(
+                "SELECT ivl, type FROM revlog WHERE cid=? AND id<? AND ease>0 "
+                "ORDER BY id DESC LIMIT 1", cid, today_start_ms,
+            )
+            if prior:
+                prior_ivl, prior_type = prior
+                before_review[cid] = (
+                    "learning" if prior_type == 2 or prior_ivl <= 0 else
+                    "mature" if prior_ivl >= MATURE_IVL else "young"
+                )
+            else:
+                before_review[cid] = "new"
+        for sfld, ctype, ivl, queue, did, cid in col.db.all(
+                "SELECT n.sfld, c.type, c.ivl, c.queue, c.did, c.id FROM cards c "
                 "JOIN notes n ON n.id=c.nid WHERE c.ord=0 AND c.queue!=-1"):
             if did not in live_decks:
                 continue
@@ -3076,6 +3754,10 @@ def _hsk_level_stats():
                 st = "new"
             if sfld not in best or rank[st] > rank[best[sfld]]:
                 best[sfld] = st
+            before = ("none" if cid >= today_start_ms else
+                      before_review[cid] if cid in before_review else st)
+            if sfld not in best_before or rank.get(before, -1) > rank.get(best_before[sfld], -1):
+                best_before[sfld] = before
     finally:
         col.close()
 
@@ -3092,7 +3774,8 @@ def _hsk_level_stats():
         # which is what the chart's Hanly segment counts.
         smap = {"mature": 2, "young": 1, "learning": 1, "new": 0}
         words = [{"w": e["word"], "p": e.get("pinyin", ""), "g": e.get("gloss", ""),
-                  "s": smap.get(best.get(e["word"]), -1)} for e in entries]
+                  "s": smap.get(best.get(e["word"]), -1),
+                  "b": smap.get(best_before.get(e["word"]), -1)} for e in entries]
         levels.append({"level": level, "total": len(entries),
                        "mature": counts["mature"], "young": counts["young"],
                        "learning": counts["learning"], "new": counts["new"],
@@ -3121,6 +3804,11 @@ def _hsk_level_stats():
     non_hsk = {"total": sum(outside.values()),
                "mature": outside["mature"], "young": outside["young"],
                "learning": outside["learning"], "new": outside["new"]}
+    outside_before = collections.Counter(st for w, st in best_before.items() if w not in official)
+    non_hsk["today_delta"] = {
+        key: outside[key] - outside_before[key]
+        for key in ("mature", "young", "learning", "new")
+    }
 
     # Distinct characters across every word you know -- "how many hanzi do I read", which
     # the word count cannot answer: 3,605 words share far fewer characters than that, and
@@ -3264,10 +3952,16 @@ def create_web_app():
     app.router.add_get('/api/decks', handle_api_decks)
     app.router.add_get('/api/hsk-levels', handle_api_hsk_levels)
     app.router.add_get('/api/tag-words', handle_api_tag_words)
+    app.router.add_get('/api/disambiguations', handle_api_disambiguations)
     app.router.add_get('/api/flagged', handle_api_flagged)
+    app.router.add_get('/api/reverse-candidates', handle_api_reverse_candidates)
+    app.router.add_post('/api/reverse-flag', handle_api_reverse_flag)
+    app.router.add_post('/api/reverse-deprioritize', handle_api_reverse_deprioritize)
     app.router.add_get('/api/deck/{name}/words', handle_api_deck_words)
     app.router.add_post('/api/refresh', handle_api_refresh)
+    app.router.add_get('/public/japanese-progress', handle_public_japanese_progress)
     app.router.add_get('/health', handle_health)
+    app.router.add_get('/reverse-priority', handle_reverse_priority_ui)
     return app
 
 
@@ -3645,14 +4339,14 @@ def _write_deck_limits(col):
         did = col.decks.id_for_name(name)
         if did is None:
             continue
-        limits[name] = col.decks.config_dict_for_deck_id(did)["new"]["perDay"]
+        limits[name] = _deck_new_per_day(col, did)
     if limits:
         anki_cache.write_deck_limits(limits)
     return limits
 
 
 def _sync_gated_templates():
-    """Run both maturity gates, then enforce the archive's contract."""
+    """Run the Reverse gate, then enforce the archive's contract."""
     col = None
     try:
         col = open_collection()
@@ -3660,19 +4354,17 @@ def _sync_gated_templates():
         deck_change = _check_decks(col)
         if deck_change:
             msgs.append(deck_change)
-        for gate in (apply_reverse_gate, apply_cloze_gate):
+        for gate in (apply_reverse_gate,):
             r = gate(col)
             if r.get("error"):
                 # Loud, every run. A gate that quietly does nothing is the failure this
                 # whole rewrite exists to stop.
                 msgs.append(f"{r['deck']} gate NOT RUN — {r['error']}")
-            elif r["moved"] or r["unsuspended"] or r["suspended"]:
-                # No special case for GATE_DISABLED: a disabled template still parks
-                # new cards, and that work is worth the same line as any other. Only the
-                # release half is off, and the suffix says so.
+            elif (r["moved"] or r["unsuspended"] or r["suspended"]
+                  or r.get("newly_staged")):
                 msgs.append(f"{r['deck']}: moved {r['moved']}, unsuspended "
-                            f"{r['unsuspended']}, suspended {r['suspended']}"
-                            + (" (releases disabled)" if r.get("releases_disabled") else ""))
+                            f"{r['unsuspended']}, suspended {r['suspended']}, "
+                            f"newly staged {r.get('newly_staged', 0)}")
         # Its OWN try/except. The gate body below shares one handler that returns
         # "Template gates failed: ...", so a locked cache would report the maturity gate
         # as failed and hide its real result. The gate is the one part of this system
@@ -3705,17 +4397,18 @@ def _sync_gated_templates():
 # silent no-op this codebase keeps producing -- and it was reintroduced by a fix earlier
 # the same day that corrected the deck names to ones about to be deleted.
 #
-# Nothing replaces it. The maturity gate owns suspension for every gated template.
+# Nothing replaces it. The staged gate owns suspension for every gated template.
 
 async def periodic_sync(context):
-    """Background job: sync with AnkiWeb, then run the maturity gates.
+    """Pull from AnkiWeb, run the flag-staged gates, then publish their changes.
 
     Each step is isolated. A failure in one must not skip the others -- a transient
     collection lock during the sync used to abort the coroutine before either gate ran,
     while APScheduler still logged the job as successful.
     """
-    for label, fn in (("sync", _sync_collection),
-                      ("gates", _sync_gated_templates)):
+    for label, fn in (("pull", _sync_collection),
+                      ("gates", _sync_gated_templates),
+                      ("publish", _sync_collection)):
         try:
             result = await asyncio.to_thread(fn)
         except Exception as e:

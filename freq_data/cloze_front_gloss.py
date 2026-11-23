@@ -9,7 +9,7 @@ APPLY = "--apply" in sys.argv
 ROOT = "/home/vincent/anki-headless"
 
 NEW_QFMT = """{{#SentenceSimplifiedCloze}}
-<div class=title>Fill the blank — the word meaning &ldquo;{{Meaning}}&rdquo;. Say it.</div>
+<div class=title>Fill in the blank: &ldquo;{{Meaning}}&rdquo;</div>
 <div class=chinese>{{SentenceSimplifiedCloze}}</div>
 {{/SentenceSimplifiedCloze}}"""
 
